@@ -6,7 +6,7 @@
 "files": [
   {
     "source": "**/nvda.pot",
-    "translation": "**/addon/locale/%two_letters_code%LC_MESSAGES/nvda.po"
+    "translation": "**/addon/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
   },
   {
     "source": "**/nvda.pot",
