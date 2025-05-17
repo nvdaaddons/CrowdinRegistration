@@ -35,7 +35,7 @@ jobs:
         run: |
           cd ${{ github.event.inputs.repo }}
           scons
-      - name: Create pot "file
+      - name: Create pot file
         run: |
           cd ${{ github.event.inputs.repo }}
           scons pot
@@ -59,7 +59,7 @@ jobs:
         run: |
           cd ${{ github.event.inputs.repo }}
           cd doc
-          for dir in ".*/
+          for dir in */; do
           dirBasename=$(basename "$dir")
           if [ "$dirBasename" = "en" ] || [ "$dirBasename" = "style.css" ]; then
           continue
