@@ -44,18 +44,22 @@ jobs:
       - name: Move locale to add-on repo folder
         run: |
           if [ -d "${{ github.event.inputs.repo }}/addon/locale" ]; then
-          mv ${{  github.event.inputs.repo }}/addon/locale ${{ github.event.inputs.repo }}/locale
+          mv "${{  github.event.inputs.repo }}/addon/locale" "${{ github.event.inputs.repo }}/locale"
                     else
           echo "Warning: Folder ${{  github.event.inputs.repo }}/addon/locale does not exist."
           fi
+      - name: Move doc to add-on repo folder
+        run: |
+          if [ -d "${{ github.event.inputs.repo }}/addon/doc" ]; then
+          mv "${{  github.event.inputs.repo }}/addon/doc" "${{ github.event.inputs.repo }}/doc"
+                    else
+          echo "Warning: Folder ${{  github.event.inputs.repo }}/addon/doc does not exist."
+          fi
       - name: Move translated doc to add-on repo folder
         run: |
-          mkdir doc
-          cd doc
           for file in "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.*.po"; do
           lang = $(echo "$file" | sed "s/^${{ github.event.inputs.repo }}\.\(.*\)\.po$/\1/") echo "$lang"
-          mkdir $lang
-          mv "$file" "$lang"
+          mv "$file" "$ {{github.event.inputs.repo }}/$lang"
           done;
       - name: List files
         run: ls -R ${{ github.event.inputs.repo }}
