@@ -52,7 +52,7 @@ jobs:
         run: |
           mkdir doc
           cd doc
-          for file in "${{ github.workspace }}/addons/$repo.*.po"; do
+          for file in "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.*.po"; do
           lang = $(echo "$file" | sed "s/^${{ github.event.inputs.repo }}\.\(.*\)\.po$/\1/") echo "$lang"
           mkdir $lang
           mv "$file" "$lang"
