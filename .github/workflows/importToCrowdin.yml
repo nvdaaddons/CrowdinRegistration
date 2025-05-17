@@ -60,3 +60,36 @@ jobs:
           echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
           fi
           done;
+      - name: Crowdin sync
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Crowdin sync interface messages
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          source: ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
+          translation: ${{ github.event.inputs.repo }}/addon/locale/**/nvda.po
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Crowdin sync documentation
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          auto_approve_imported: true
+          source: ${{ github.event.inputs.repo }}/readme.pot
+          translation: ${{ github.event.inputs.repo }}/addon/doc/**/readme.po
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+          
