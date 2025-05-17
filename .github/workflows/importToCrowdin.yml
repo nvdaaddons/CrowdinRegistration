@@ -39,12 +39,20 @@ jobs:
         run: |
           cd ${{ github.event.inputs.repo }}
           scons pot
-          mv ${{  github.event.inputs.repo}}.pot nvda.pot
-
       - name: Convert markdown to pot
         run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
+      - name: Move locale to GitHub workspace
+        run: |
+          if [ -f "addons/${{ github.event.inputs.repo }}/addon/locale" ]; then
+          mv ${{  github.event.inputs.repo }}/addon/locale ${{ github.workspace }}
+                    else
+          echo "Warning: Folder ${{  github.event.inputs.repo }} does not exist."
+          fi
+          done;
       - name: Move translated doc to add-on folder
         run: |
+          mkdir doc
+          cd doc
           for dir in ${{ github.event.inputs.repo }}/addon/doc/*; do 
           if [ "$(basename "$dir")" = "en" ] || [ "$(basename "$dir")" = "style.css" ]]; then
           continue
@@ -52,13 +60,14 @@ jobs:
           lang=$(basename "$dir")
           echo "$lang"
           if [ -f "addons/${{ github.event.inputs.repo }}.$lang.po" ]; then
-          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$dir"
+          mkdir $lang
+          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "doc/$lang"
           else
           echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
           fi
           done;
       - name: List files
-        run: ls -r ${{ github.event.inputs.repo }}
+        run: ls ${{ github.event.inputs.repo }}
       - name: Crowdin sync
         uses: crowdin/github-action@v2
         with:
