@@ -49,7 +49,7 @@ jobs:
       - name: Move translated doc to add-on folder
         run: |
           for dir in ${{ github.event.inputs.repo }}/addon/doc/*; do 
-          if [ "$(basename "$dir")" = "en" ]; then
+          if [ "$(basename "$dir")" = "en" ] || [ "$(basename "$dir")" = "style.css" ]]; then
           continue
             fi
           lang=$(basename "$dir")
