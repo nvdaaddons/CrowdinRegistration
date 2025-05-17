@@ -31,31 +31,31 @@ jobs:
       - name: Checkout add-on
         uses: actions/checkout@v4
         with:
-          repository: nvdaaddons/$REPO
-          path: $REPO
+          repository: nvdaaddons/${{ github.event.inputs.repo }}
+          path: ${{ github.event.inputs.repo
       - name: Create add-on
         run: |
-          cd $REPO
+          cd ${{ github.event.inputs.repo }}
           scons
       - name: Create pot "file
         run: |
-          cd $REPO
+          cd ${{ github.event.inputs.repo }}
           scons pot
 
       - name: Convert markdown to pot
-        run: md2po -P $REPO/readme.md $REPO
+        run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
       - name: Move translated doc to add-on folder
         run: |
-          for dir in $REPO/addon/doc/*; do 
+          for dir in ${{ github.event.inputs.repo }}/addon/doc/*; do 
           if [ "$(basename "$dir")" = "en" ] || [ "$(basename "$dir")" = "style.css" ]]; then
           continue
             fi
           lang=$(basename "$dir")
           echo "$lang"
-          if [ -f "addons/$REPO.$lang.po" ]; then
-          mv "addons/$REPO.$lang.po" "$dir"
+          if [ -f "addons/${{ github.event.inputs.repo }}.$lang.po" ]; then
+          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$dir"
           else
-          echo "Warning: File addons/$REPO.$lang.po does not exist."
+          echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
           fi
           done;
       - name: Crowdin sync
