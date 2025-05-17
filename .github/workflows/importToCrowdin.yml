@@ -5,7 +5,8 @@ on:
     inputs:
       repo:
         description: 'Repository name'
-
+env:
+  repo: ${{ github.event.inputs.repo }}
 jobs:
   importToCrowdin:
     runs-on: ubuntu-latest
@@ -29,7 +30,7 @@ jobs:
       - name: Checkout add-on
         uses: actions/checkout@v4
         with:
-          repository: nvdaaddons/${{ github.event.inputs.repo }}
+          repository: nvdaaddons/$repo
           path: ${{ github.event.inputs.repo }}
       - name: Create add-on
         run: |
@@ -53,8 +54,8 @@ jobs:
           cd ${{ github.event.inputs.repo }}
           mkdir doc
           cd doc
-          for file in ${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.*.po; do
-          lang = sed 's/${{ github.event.inputs.repo }}\.\(.*\)\.po/\1/' $file
+          for file in "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.*.po"; do
+          lang = $(echo "$file" | sed "s/^${repo}\.\(.*\)\.po$/\1/") echo "$lang" 
           mkdir $lang
           mv "$file" "$lang"
           done;
