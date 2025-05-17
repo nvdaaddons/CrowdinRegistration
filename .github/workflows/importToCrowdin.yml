@@ -64,8 +64,8 @@ jobs:
           if [ "$dirBasename" = "en" ] || [ "$dirBasename" = "style.css" ]; then
           continue
           fi
-          if [ -f "${{ github.event.inputs.repo }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" ]; then
-            mv "addons/${{ github.event.inputs.repo }}.$dirBasename.po" "$dir"
+          if [ -f "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" ]; then
+            mv "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" "$dir"
           else
             echo "Warning: File addons/${{ github.event.inputs.repo }}.$dirBasename.po does not exist."
           fi
