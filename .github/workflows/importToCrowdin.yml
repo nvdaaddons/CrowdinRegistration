@@ -46,13 +46,17 @@ jobs:
         run: |
           cd ${{ github.event.inputs.repo }}
           ls
-      - name: Move translated documentation to add-on doc folder
+      - name: Move translated doc to add-on folder
         run: |
-          for dir in ${{ github.event.inputs.repo }}/addon/doc/**; do 
-          if [ $dir -eq en ]; then
+          for dir in ${{ github.event.inputs.repo }}/addon/doc/*; do 
+          if [ "$(basename "$dir")" = "en" ]; then
           continue
-          fi
-          lang=$(basename "$dir"); 
-          echo "$lang"; 
+            fi
+          lang=$(basename "$dir")
+          echo "$lang"
+          if [ -f "addons/${{ github.event.inputs.repo }}.$lang.po" ]; then
           mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$dir"
+          else
+          echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
+          fi
           done;
