@@ -5,8 +5,8 @@ on:
     inputs:
       repo:
         description: 'Repository name'
-  env:
-    REPO: ${{ github.event.inputs.repo }}
+env:
+  REPO: ${{ github.event.inputs.repo }}
 
 jobs:
   importToCrowdin:
