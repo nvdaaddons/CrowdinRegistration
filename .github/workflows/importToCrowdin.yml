@@ -41,16 +41,16 @@ jobs:
           scons pot
       - name: Convert markdown to pot
         run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
-      - name: Move locale to GitHub workspace
+      - name: Move locale to add-on repo folder
         run: |
-          if [ -f "addons/${{ github.event.inputs.repo }}/addon/locale" ]; then
-          mv ${{  github.event.inputs.repo }}/addon/locale ${{ github.workspace }}
+          if [ -f "${{ github.event.inputs.repo }}/addon/locale" ]; then
+          mv ${{  github.event.inputs.repo }}/addon/locale ${{ github.event.inputs.repo }}
                     else
           echo "Warning: Folder ${{  github.event.inputs.repo }} does not exist."
           fi
-          done;
-      - name: Move translated doc to add-on folder
+      - name: Move translated doc to add-on repo folder
         run: |
+          cd ${{ github.event.inputs.repo }}
           mkdir doc
           cd doc
           for dir in ${{ github.event.inputs.repo }}/addon/doc/*; do 
@@ -61,7 +61,7 @@ jobs:
           echo "$lang"
           if [ -f "addons/${{ github.event.inputs.repo }}.$lang.po" ]; then
           mkdir $lang
-          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "doc/$lang"
+          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$lang"
           else
           echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
           fi
