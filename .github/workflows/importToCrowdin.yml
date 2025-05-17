@@ -43,10 +43,10 @@ jobs:
         run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
       - name: Move locale to add-on repo folder
         run: |
-          if [ -f "${{ github.event.inputs.repo }}/addon/locale" ]; then
-          mv ${{  github.event.inputs.repo }}/addon/locale ${{ github.event.inputs.repo }}
+          if [ -d "${{ github.event.inputs.repo }}/addon/locale" ]; then
+          mv ${{  github.event.inputs.repo }}/addon/locale ${{ github.event.inputs.repo }}/locale
                     else
-          echo "Warning: Folder ${{  github.event.inputs.repo }} does not exist."
+          echo "Warning: Folder ${{  github.event.inputs.repo }}/addon/locale does not exist."
           fi
       - name: Move translated doc to add-on repo folder
         run: |
@@ -67,7 +67,7 @@ jobs:
           fi
           done;
       - name: List files
-        run: ls ${{ github.event.inputs.repo }}
+        run: ls -R ${{ github.event.inputs.repo }}
       - name: Crowdin sync
         uses: crowdin/github-action@v2
         with:
