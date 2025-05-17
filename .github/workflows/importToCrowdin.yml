@@ -5,6 +5,8 @@ on:
     inputs:
       repo:
         description: 'Repository name'
+  env:
+    REPO: ${{ github.event.inputs.repo }}
 
 jobs:
   importToCrowdin:
@@ -29,35 +31,31 @@ jobs:
       - name: Checkout add-on
         uses: actions/checkout@v4
         with:
-          repository: nvdaaddons/${{ github.event.inputs.repo }}
-          path: ${{ github.event.inputs.repo }}
+          repository: nvdaaddons/$REPO
+          path: $REPO
       - name: Create add-on
         run: |
-          cd ${{ github.event.inputs.repo }}
+          cd $REPO
           scons
       - name: Create pot "file
         run: |
-          cd ${{ github.event.inputs.repo }}
+          cd $REPO
           scons pot
 
       - name: Convert markdown to pot
-        run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
-      - name: List files
-        run: |
-          cd ${{ github.event.inputs.repo }}
-          ls
+        run: md2po -P $REPO/readme.md $REPO
       - name: Move translated doc to add-on folder
         run: |
-          for dir in ${{ github.event.inputs.repo }}/addon/doc/*; do 
+          for dir in $REPO/addon/doc/*; do 
           if [ "$(basename "$dir")" = "en" ] || [ "$(basename "$dir")" = "style.css" ]]; then
           continue
             fi
           lang=$(basename "$dir")
           echo "$lang"
-          if [ -f "addons/${{ github.event.inputs.repo }}.$lang.po" ]; then
-          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$dir"
+          if [ -f "addons/$REPO.$lang.po" ]; then
+          mv "addons/$REPO.$lang.po" "$dir"
           else
-          echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
+          echo "Warning: File addons/$REPO.$lang.po does not exist."
           fi
           done;
       - name: Crowdin sync
@@ -65,31 +63,9 @@ jobs:
         with:
           upload_sources: true
           upload_translations: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Crowdin sync interface messages
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
-          upload_translations: true
-          source: ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
-          translation: ${{ github.event.inputs.repo }}/addon/locale/**/nvda.po
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Crowdin sync documentation
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
-          upload_translations: true
           auto_approve_imported: true
-          source: ${{ github.event.inputs.repo }}/readme.pot
-          translation: ${{ github.event.inputs.repo }}/addon/doc/**/readme.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_ID }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
           
