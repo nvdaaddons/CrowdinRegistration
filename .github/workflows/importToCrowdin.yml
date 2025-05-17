@@ -29,16 +29,16 @@ jobs:
       - name: Checkout add-on
         uses: actions/checkout@v4
         with:
-          repository: nvdaaddons/${{ inputs.repoName }}
-          path: ${{ inputs.repoName }}
+          repository: nvdaaddons/${{ github.event.inputs.repo }}
+          path: ${{ github.event.inputs.repo }}
       - name: Create add-on
         run: |
-          cd ${{ inputs.repoName }}
+          cd ${{ github.event.inputs.repo }}
           scons
       - name: Create pot "file
         run: |
-          cd ${{ inputs.repoName }}
+          cd ${{ github.event.inputs.repo }}
           scons pot
 
       - name: Convert markdown to pot
-        run: md2po -P ${{ inputs.repoName }}/readme.md ${{ inputs.repoName }}
+        run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ inputs.repoName }}
