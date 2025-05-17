@@ -46,3 +46,7 @@ jobs:
         run: |
           cd ${{ github.event.inputs.repo }}
           ls
+      - name: Move translated documentation to add-on doc folder
+        run: |
+          for dir in ${{ github.event.inputs.repo }}/addon/doc; do mv addons/${{ github.event.inputs.repo }}.${dir##*/}.po $dir; done;
+          
