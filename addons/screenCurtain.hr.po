@@ -1,0 +1,111 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Milo Ivir <mail@milotype.de>, 2019., 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Screen Curtain\n"
+"POT-Creation-Date: 2024-02-12 03:18+0000\n"
+"PO-Revision-Date: 2023-07-28 13:53+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Screen Curtain\"]]\n"
+msgstr "[[!meta title=\"Ekranska zavjesa (Screen Curtain)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Babbage B.V., Joseph Lee"
+msgstr "Autori: Babbage B.V., Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "Preuzmi [razvojnu verziju][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2018.3 to 2019.2"
+msgstr "NVDA kompatibilnost: 2018.3 do 2019.2"
+
+#. type: Bullet: '* '
+msgid ""
+"This is a legacy add-on: NVDA 2019.3 includes screen curtain functionality"
+msgstr "Ovo je stari dodatak: ekranska zavjesa je ugrađena u NVDA 2019.3"
+
+#. type: Plain text
+msgid ""
+"This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
+"functionality on Windows 8 and later."
+msgstr ""
+"Ovim se dodatkom rješava prijavljeni problem 7857 u NVDA jezgri: dodavanje "
+"funcionalnosti u sustavu Windows 8 i novijim."
+
+#. type: Plain text
+msgid ""
+"To use this add-on, go to NVDA menu/Tools/Screen Curtain. If the item is "
+"checked, screen curtain is active, otherwise it is off. You can also assign "
+"a command to toggle screen curtain from everywhere. When toggling this "
+"feature, NVDA will announce a status message, and in case screen curtain is "
+"active when NVDA starts, a tone will be heard."
+msgstr ""
+"Za korištenje dodatka, prijeđi na NVDA izbornik>Alati>Ekranska zavjesa. Ako "
+"je stavka označena, ekranska zavjesa je aktivna, inače je isključena. Moguće "
+"je dodijeliti naredbu za uključivanje i isključivanje ekranske zavjese s "
+"bilo kojeg mjesta. Prilikom uključivanja i isključivanja dodatka, NVDA će "
+"objaviti poruku o stanju, a u slučaju da je ekranska zavjesa aktivna "
+"prilikom pokretanja NVDA čitača, oglasit će se zvuk."
+
+#. type: Plain text
+msgid ""
+"To ask NVDA to turn on screen curtain while using it, go to NVDA menu/"
+"Preferences/Settings/Screen curtain. Check \"use screen curtain\" checkbox "
+"to enable screen curtain, uncheck to disable. You can also configure this "
+"setting while profiles other than normal configuration is active so you can "
+"use screen curtain while a profile is active (while using an app, for "
+"example)."
+msgstr ""
+"Za vrijeme rada u NVDA čitaču, ekranska zavjesa se uključuje putem NVDA "
+"izbornika>Postavke>Postavke>Ekranska zavjesa. Potvrdnim okvirom „Koristi "
+"ekransku zavjesu” se aktivira i deaktivira ekranska zavjesa. Ovu postavku je "
+"moguće konfigurirati i kad su profili aktivni, koji nisu uobičajena "
+"konfiguracija. Na taj način je moguće koristiti ekransku zavjesu dok je "
+"profil aktivan (na primjer, kad se koristi aplikacija)."
+
+#. type: Plain text
+msgid ""
+"IMPORTANT: this is a proof of concept add-on. As screen curtain "
+"functionality is [included in NVDA][2] as of 2019.3, this add-on is "
+"discontinued."
+msgstr ""
+"Ovaj dodatak služi u svrhu dokazivanja koncepta. Nakon što se funkcionalnost "
+"ekranske zavjese [uključi u NVDA][2], obustavit će se razvoj ovog dodatka."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08"
+msgstr "Verzija 18.08"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Prva verzija."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=nvda7857"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=nvda7857"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/7857"

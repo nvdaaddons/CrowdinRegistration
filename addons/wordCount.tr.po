@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-10 21:28+0000\n"
+"PO-Revision-Date: 2023-05-04 15:02+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Addon to count elements of selected text\"]]\n"
+msgstr "[[!meta title=\"Seçili metnin öğelerini saymak için eklenti\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Rui Fontes <rui.fontes@tiflotecnia.com> and Angelo Abrantes "
+"<ampa4374@gmail.com>"
+msgstr ""
+"Yazarlar: Rui Fontes <rui.fontes@tiflotecnia.com> ve Angelo Abrantes "
+"<ampa4374@gmail.com>"
+
+#. type: Bullet: '* '
+msgid "Updated in 21/03/2022"
+msgstr "21/03/2022 tarihinde güncellendi"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü][1] indir"
+
+#. type: Bullet: '* '
+msgid "Compatibility: NVDA version 2019.3 and beyond"
+msgstr "Uyumluluk: NVDA sürüm 2019.3 ve sonrası"
+
+#. type: Title ##
+#, no-wrap
+msgid "Use"
+msgstr "Kullanım"
+
+#. type: Plain text
+msgid ""
+"This addon announces the number of words, characters, paragraphs and lines "
+"of the selected text by pressing Control+Shift+F12.  It also create a "
+"ordered list of the words used and allow to display the lines containing a "
+"word."
+msgstr ""
+"Bu eklenti, Control+Shift+F12 tuşlarına basıldığında seçili metnin sözcük, "
+"karakter, paragraf ve satır sayısını bildirir."
+
+#. type: Plain text
+msgid ""
+"In any text editor, or in a virtual document, for example in a web browser, "
+"PDF, email body, etc., select the desired text using the usual text "
+"selection commands and press Control+Shift+f12."
+msgstr ""
+"Herhangi bir metin düzenleyicide veya sanal bir belgede, örneğin bir web "
+"tarayıcısında, PDF'de, e-posta gövdesinde vb., normal metin seçim "
+"komutlarını kullanarak istediğiniz metni seçin ve Control+Shift+F12 "
+"tuşlarına basın."
+
+#. type: Plain text
+msgid "To get a list of words used, just press Control+Shift+f11."
+msgstr ""
+"Kullanılan sözcüklerin listesini almak için Control+Shift+f11 tuşlarına "
+"basmanız yeterlidir."
+
+#. type: Plain text
+msgid ""
+"This commands can be modified in the \"Input gestures\" dialog in the \"Text "
+"editing\" section."
+msgstr ""
+"Bu komut \"Girdi hareketleri\" iletişim kutusunda \"Metin düzenleme\" "
+"bölümünden değiştirilebilir."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=wordCount"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=wordCount"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=wc"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=wc"
+
+#~ msgid ""
+#~ "Note: In some applications, like Word, WordPad and DSpeech, it only "
+#~ "announces word and characters, to avoid hanging NVDA."
+#~ msgstr ""
+#~ "Not: Word, WordPad ve DSpeech gibi bazı uygulamalarda, NVDA'nın "
+#~ "takılmasını önlemek için yalnızca sözcük ve karakterleri duyurur."

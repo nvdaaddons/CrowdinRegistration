@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2022-03-31 18:41+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"UnicodeBrailleInput\"]]\n"
+msgstr "[[!meta title=\"Unicode盲文输入\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+msgstr "作者： Mesar Hameed、 Patrick Zajda、 Leonard de Ruijter。"
+
+#. type: Bullet: '* '
+msgid "download [stable version][1]"
+msgstr "下载 [稳定版][1]"
+
+#. type: Plain text
+msgid ""
+"This add-on allows you to convert text from braille (E.G. 1345-1236-145-1) "
+"to Unicode braille characters.  You can also convert text according to the "
+"currently selected input braille table."
+msgstr ""
+"此插件允许您将文本从盲文（例如 1345-1236-145-1）转换为 Unicode 盲文字符。您还"
+"可以根据当前选择的输入盲文表转换文本。"
+
+#. type: Plain text
+msgid ""
+"The purpose of this specialized addon is to make it easier to help to "
+"improve liblouis tables and to add automatic tests for your language.  With "
+"the addition of unicode braille table in NVDA 2017.3, this add-on is no "
+"longer required for this, as users can choose to input braille with the new "
+"table.  However, this add-on can still aid in converting normal text to "
+"unicode braille according to a particular input table."
+msgstr ""
+"这个专用插件的目的是更容易帮助改进 liblouis 表并为您的语言添加自动测试。随着 "
+"NVDA 2017.3 中添加了 unicode 盲文表，此插件不再需要，因为用户可以选择使用新表"
+"输入盲文。但是，这个插件仍然可以帮助根据特定的输入表将普通文本转换为 unicode "
+"盲文。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "使用方法"
+
+#. type: Bullet: '* '
+msgid "Open a unicode aware text editor (for example Notepad++)."
+msgstr "打开一个支持 unicode 的文本编辑器（例如 Notepad++）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+Ctrl+U or choose Unicode Braille Input found under NVDA tools "
+"menu."
+msgstr "按 NVDA+Ctrl+U 或选择 NVDA 工具菜单下的 Unicode 盲文输入。"
+
+#. type: Bullet: '* '
+msgid ""
+"Select whether your input consists of braille dots (e.g. 1345-1236-145-1) or "
+"normal text according to the current braille table (e.g. Dutch (Netherlands)."
+msgstr ""
+"根据当前的盲文表选择您的输入是由盲文点（例如 1345-1236-145-1）还是普通文本"
+"（例如荷兰语（荷兰））组成。"
+
+#. type: Bullet: '* '
+msgid ""
+"Type your braille text in numeric form or your normal text, respectively."
+msgstr "分别以数字形式或普通文本键入您的盲文文本。"
+
+#. type: Bullet: '* '
+msgid "Press OK."
+msgstr "按OK。"
+
+#. type: Bullet: '* '
+msgid ""
+"The required unicode characters will be copied to your clipboard ready for "
+"you to paste."
+msgstr "所需的unicode字符将被复制到您的剪贴板以供您粘贴。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "3.0更新日志"
+
+#. type: Bullet: '* '
+msgid "New maintainer: Leonard de Ruijter."
+msgstr "新维护者：Leonard de Ruijter。"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on is compatible with Python 3 and therefore with NVDA 2019.3 and above."
+msgstr "插件与 Python 3 兼容，因此与 NVDA 2019.3 及更高版本兼容。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to create unicode braille from normal text according to "
+"the currently selected input braille table."
+msgstr "添加了根据当前选择的输入盲文表从普通文本创建 unicode 盲文的功能。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "2.0 更新日志"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "插件帮助可从插件管理器获得。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "版本1.1"
+
+#. type: Bullet: '* '
+msgid "Improve delay to allow announcements to be heard correctly."
+msgstr "改善延迟以允许公告被正确听取。"
+
+#. type: Bullet: '* '
+msgid "Many new translations."
+msgstr "许多新的翻译。"
+
+#. type: Bullet: '* '
+msgid "Added documentation under NVDA help menu."
+msgstr "在NVDA帮助菜单下添加文档。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a checkbox to optionally replace the space braille (character 0x2800) "
+"by the regular space character."
+msgstr "添加了一个复选框，可以用常规空格字符替换空格盲文（字符0x2800）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Shortcuts can now be reassigned using the NVDA gesture input dialog, under "
+"the Tools category."
+msgstr "现在可以使用Tools类别下的NVDA手势输入对话框重新分配快捷键。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "1.0更新日志"
+
+#. type: Bullet: '* '
+msgid "Initial release"
+msgstr "发布初始版本"
+
+#. type: Bullet: '* '
+msgid "New Languages: French"
+msgstr "新增法语翻译"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+
+#~ msgid "download [development version][2]"
+#~ msgstr "下载 [开发板][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"

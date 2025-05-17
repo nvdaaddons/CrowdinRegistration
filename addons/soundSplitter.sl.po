@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Sound Splitter\"]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Authors: Joseph Lee, Luke Davis and contributors"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This add-on, partly based on Tony's Enhancements by Tony Malykh, adds the "
+"ability to split audio from NVDA and other sounds onto separate audio "
+"channels."
+msgstr ""
+
+#. type: Plain text
+msgid "Note: this add-on is not intended to be used in secure screens."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NvDA+S: toggle sound splitter between enabled with NVDA on the right "
+"channel, NVDA on the left channel, or disabled."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Sound Splitter settings"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can configure add-on settings from NVDA menu/Preferences/Settings/Sound "
+"Splitter category."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Split NVDA sound and applications' sounds into left and right channels: "
+"checkinb this checkbox will enable sound splitting feature."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switch left and right during sound split: by default, NVDA will be heard "
+"through the right channel if sound splitting is on. You can instead hear "
+"NVDA through the left channel by checking this checkbox."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.4."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.03"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Improved security by not loading the add-on when NVDA is running in secure "
+"mode."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.0."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Changed sound splitter toggle command (Alt+NVDA+S) to toggle between NVDA on "
+"the right channel, on the left channel, or sound splitter disabled."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.02.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed NVDA and app audio not being restored to both audio channels after the "
+"add-on is disabled or uninstalled."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.02"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Initial version based on Tony Malykh's Tony's Enhancements add-on."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=soundSplitter"
+msgstr ""

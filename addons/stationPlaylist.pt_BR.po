@@ -1,0 +1,1861 @@
+# Brazilian Portuguese translation of stationPlaylist.pt_BR.po
+# Copyright (C) 2021-2025 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2021.
+# Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: StationPlaylist add-on webpage\n"
+"POT-Creation-Date: 2025-05-10 17:19+0000\n"
+"PO-Revision-Date: 2025-01-26 10:56-0300\n"
+"Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"StationPlaylist\"]]\n"
+msgstr "[[!meta title=\"StationPlaylist\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Christopher Duffley <nvda@chrisduffley.com> (formerly Joseph Lee "
+"<joseph.lee22590@gmail.com>, originally by Geoff Shang and other "
+"contributors)"
+msgstr ""
+"Autores: Christopher Duffley <nvda@chrisduffley.com> (anteriormente Joseph "
+"Lee <joseph.lee22590@gmail.com>, originalmente por Geoff Shang e outros "
+"colaboradores)"
+
+#. type: Plain text
+msgid ""
+"This add-on package provides improved usage of StationPlaylist Studio and "
+"other StationPlaylist apps, as well as providing utilities to control Studio "
+"from anywhere. Supported apps include Studio, Creator, Track Tool, VT "
+"Recorder, and Streamer, as well as SAM, SPL, and AltaCast encoders."
+msgstr ""
+"Este pacote de complemento fornece uso aprimorado do StationPlaylist Studio "
+"e outros aplicativos StationPlaylist, além de fornecer utilitários para "
+"controlar o Studio de qualquer lugar. Os aplicativos compatíveis incluem "
+"Studio, Creator — Criador —, Track Tool — Ferramenta de Faixa —, VT Recorder "
+"e Streamer, bem como codificadores — encoders — SAM, SPL e AltaCast."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "For more information about the add-on, read the [add-on guide][2]."
+msgid "For more information about the add-on, read the [add-on guide][1]."
+msgstr ""
+"Para obter mais informações sobre o complemento, leia o [guia do complemento]"
+"[2]."
+
+#. type: Plain text
+msgid "IMPORTANT NOTES:"
+msgstr "NOTAS IMPORTANTES:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "This add-on requires StationPlaylist suite 5.40 or later."
+msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgstr "Este complemento requer a suíte StationPlaylist 5.40 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Some add-on features will be disabled or limited if NVDA is running in "
+"secure mode such as in logon screen."
+msgstr ""
+"Alguns recursos complementares serão desativados ou limitados se o NVDA "
+"estiver sendo executado em modo seguro, como na tela de logon."
+
+#. type: Bullet: '* '
+msgid "For best experience, disable audio ducking mode."
+msgstr "Para obter a melhor experiência, desative o modo de redução de áudio."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Starting from 2018, [changelogs for old add-on releases][3] will be found "
+#| "on GitHub. This add-on readme will list changes from version 23.02 (2023) "
+#| "onwards."
+msgid ""
+"Starting from 2018, [changelogs for old add-on releases][2] will be found on "
+"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"onwards."
+msgstr ""
+"A partir de 2018, [registro de alterações  para versões antigas do "
+"complemento][3] serão encontrados no GitHub. Este Leiame do complemento "
+"listará as alterações da versão 23.02 (2023) em diante.A partir de 2018, os "
+"registros de alterações — para versões antigas de complementos serão "
+"encontrados no GitHub. Este — leia-me — do complemento irá listar as "
+"alterações da versão 21.10 (2021) em diante."
+
+#. type: Bullet: '* '
+msgid ""
+"While Studio is running, you can save, reload saved settings, or reset add-"
+"on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or "
+"Control+NVDA+R three times, respectively. This is also applicable to encoder "
+"settings - you can save and reset (not reload) encoder settings if using "
+"encoders."
+msgstr ""
+"Enquanto o Studio está em execução, você pode salvar, recarregar as "
+"configurações salvas ou redefinir as configurações do complemento para os "
+"padrões pressionando Control+NVDA+C, Control+NVDA+R uma vez ou "
+"Control+NVDA+R três vezes, respectivamente. Isso também se aplica às "
+"configurações do codificador - você pode salvar e redefinir (não recarregar) "
+"as configurações do codificador se estiver usando codificadores."
+
+#. type: Bullet: '* '
+msgid ""
+"Many commands will provide speech output while NVDA is in speak on demand "
+"mode (NVDA 2024.1 and later)."
+msgstr ""
+"Muitos comandos fornecerão saída de fala enquanto o NVDA estiver no modo "
+"falar sob demanda (NVDA 2024.1 e posterior)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcut keys"
+msgstr "Teclas de atalho"
+
+#. type: Plain text
+msgid ""
+"Most of these will work in Studio only unless otherwise specified. Unless "
+"noted otherwise, these commands support speak on demand mode."
+msgstr ""
+"A maioria deles funcionará somente no Studio, a menos que especificado de "
+"outra forma. Salvo indicação em contrário, esses comandos suportam o modo de "
+"fala sob demanda."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+Shift+T from Studio window: announce elapsed time for the currently "
+"playing track."
+msgstr ""
+"Alt+Shift+T na janela do Studio: anuncia o tempo decorrido para a faixa "
+"atualmente em reprodução.Alt+Shift+T na janela do Studio: anuncia o tempo "
+"decorrido para a faixa atualmente em reprodução."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: "
+"announce remaining time for the currently playing track."
+msgstr ""
+"Control+Alt+T (toque com dois dedos para baixo no modo SPL touch) na janela "
+"Studio: anuncia o tempo restante da faixa atualmente em reprodução."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: "
+"announces broadcaster time such as 5 minutes to top of the hour. Pressing "
+"this command twice will announce minutes and seconds till top of the hour."
+msgstr ""
+"NVDA+Shift+F12 (deslizar com dois dedos para cima no modo tátil SPL) na "
+"janela do Studio: anuncia o tempo da emissora como 5 minutos para o início "
+"da hora. Pressionar este comando duas vezes anunciará os minutos e segundos "
+"até o início da hora."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+"alarms category in Studio add-on configuration dialog (does not support "
+"speak on demand)."
+msgstr ""
+"Alt+NVDA+1 (movimento de dois dedos para a direita no modo SPL) na janela do "
+"Studio: Abre a categoria de alarmes na caixa de diálogo de configuração do "
+"complemento do Studio (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces scheduled time for the loaded playlist."
+msgstr ""
+"Alt+NVDA+1 no Editor de Lista de Reprodução do Creator e no editor de lista "
+"de reprodução Remote VT: Anuncia a hora programada para a lista de "
+"reprodução — playlist — carregada."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces total playlist duration."
+msgstr ""
+"Alt+NVDA+2 no Editor de Lista de Reprodução do Creator e editor de lista de "
+"reprodução Remote VT: Anuncia a duração total da lista de reprodução."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+"assignments (does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+3 na janela do Studio: Alterna o explorador de carrinhos para "
+"aprender as atribuições de carrinhos (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces when the selected track is scheduled to play."
+msgstr ""
+"Alt+NVDA+3 no Editor de Lista de Reprodução do Creator e editor de lista de "
+"reprodução Remote VT: Anuncia quando a faixa selecionada está programada "
+"para tocar."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces rotation and category associated with the loaded playlist."
+msgstr ""
+"Alt+NVDA+4 no Editor de Lista de Reprodução do Creator e editor de lista de "
+"reprodução Remote VT: Anuncia rotação e categoria associada à lista de "
+"reprodução carregada."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+f from Studio window: Opens a dialog to find a track based "
+#| "on artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to "
+#| "find backward (does not support speak on demand)."
+msgid ""
+"Control+NVDA+F from Studio window: Opens a dialog to find a track based on "
+"artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find "
+"backward (does not support speak on demand)."
+msgstr ""
+"Control+NVDA+f na janela do Studio: Abre uma caixa de diálogo para localizar "
+"uma faixa com base no nome do artista ou da música. Pressione NVDA+F3 para "
+"localizar para frente ou NVDA+Shift+F3 para localizar para trás (não suporta "
+"falar sob demanda)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+R from Studio window: Steps through library scan announcement "
+#| "settings (does not support speak on demand)."
+msgid ""
+"Shift+NVDA+R from Studio window: Steps through library scan announcement "
+"settings (does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+R na janela do Studio: Percorre as configurações de anúncio de "
+"varredura da biblioteca (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Shift+X from Studio window: Steps through braille timer settings "
+"(does not support speak on demand)."
+msgstr ""
+"Control+Shift+X na janela do Studio: Percorre as configurações do "
+"temporizador em braile (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track column (does not "
+"support speak on demand)."
+msgstr ""
+"Control+Alt+seta para a esquerda/direita (enquanto estiver focado em uma "
+"faixa no Studio, Creator, Remote VT e Ferramenta de rastreamento): Mover "
+"para a coluna da faixa anterior/seguinte (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+up/down arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track and announce "
+"specific columns (does not support speak on demand)."
+msgstr ""
+"Control+Alt+seta para cima/para baixo (enquanto estiver focado em uma faixa "
+"no Studio, Creator, Remote VT e Track Tool): Move para a faixa anterior/"
+"próxima e anuncia colunas específicas (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+1 through 0 (while focused on a track in Studio, Creator "
+"(including Playlist Editor), Remote VT, and Track Tool): Announce column "
+"content for a specified column (first ten columns by default). Pressing this "
+"command twice will display column information on a browse mode window."
+msgstr ""
+"Control+NVDA+1 a 0 (enquanto focalizado numa faixa no Studio, Creator "
+"(incluindo o Editor de Lista de Reprodução), Remote VT e ferramenta de "
+"Faixa): Anuncia o conteúdo da coluna para uma coluna especificada (as "
+"primeiras dez colunas por padrão). Pressionar este comando duas vezes "
+"exibirá as informações da coluna numa janela em modo de navegação."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+- (hyphen while focused on a track in Studio, Creator, Remote "
+"VT, and Track Tool): display data for all columns in a track on a browse "
+"mode window (does not support speak on demand)."
+msgstr ""
+"Control+NVDA+- (hífen enquanto estiver focado em uma faixa no Studio, "
+"Creator, Remote VT e Track Tool): exibe dados de todas as colunas em uma "
+"faixa em uma janela de modo de navegação (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+V while focused on a track (Studio's playlist viewer only): toggles "
+"track column announcement between screen order and custom order (does not "
+"support speak on demand)."
+msgstr ""
+"NVDA+V enquanto estiver focado em uma faixa (somente no visualizador de "
+"listas de reprodução do Studio): alterna o anúncio da coluna da faixa entre "
+"a ordem da tela e a ordem personalizada (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+C while focused on a track (Studio's playlist viewer only): "
+"announces track comments if any."
+msgstr ""
+"Alt+NVDA+C enquanto focalizado numa faixa (somente visualizador da lista de "
+"reprodução do Studio): anuncia os comentários da faixa, se houver."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+0 na janela do Studio: Abre a caixa de diálogo de configuração do "
+"add-on do Studio (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+P na janela do Studio: Abre a caixa de diálogo de perfis de "
+"transmissão do Studio (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid "Alt+NVDA+F1: Open welcome dialog (does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+F1: Abre a caixa de diálogo de boas-vindas (não oferece suporte "
+"para falar sob demanda)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Unassigned commands"
+msgstr "Comandos não atribuídos"
+
+#. type: Plain text
+msgid ""
+"The following commands are not assigned by default; if you wish to assign "
+"them, use Input Gestures dialog to add custom commands. To do so, from "
+"Studio window, open NVDA menu, Preferences, then Input Gestures. Expand "
+"StationPlaylist category, then locate unassigned commands from the list "
+"below and select \"Add\", then type the gesture you wish to use."
+msgstr ""
+"Os comandos a seguir não são atribuídos por padrão; se desejar atribuí-los, "
+"use o diálogo Definir comandos — Gestos de entrada — para adicionar comandos "
+"personalizados. Para fazer isso, na janela do Studio, abra o menu NVDA, "
+"Preferências e Definir comandos. Expanda a categoria StationPlaylist, "
+"localize os comandos não atribuídos na lista abaixo e selecione "
+"\"Adicionar\" e digite o comando — gesto — que deseja usar."
+
+#. type: Plain text
+msgid ""
+"Important: some of these commands will not work if NVDA is running in secure "
+"mode such as from login screen. Not all commands support speak on demand."
+msgstr ""
+"Importante: alguns desses comandos não funcionarão se o NVDA estiver sendo "
+"executado em modo seguro, como na tela de login. Nem todos os comandos são "
+"compatíveis com a fala sob demanda."
+
+#. type: Bullet: '* '
+msgid ""
+"Switching to SPL Studio window from any program (unavailable in secure mode, "
+"does not support speak on demand)."
+msgstr ""
+"Alternar para a janela do SPL Studio a partir de qualquer programa "
+"(indisponível no modo seguro, não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid "SPL Controller layer (unavailable in secure mode)."
+msgstr "Camada do controlador SPL (indisponível no modo seguro)."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcing Studio status such as track playback from other programs "
+"(unavailable in secure mode)."
+msgstr ""
+"Anúncio do status do Studio, como a reprodução de faixas de outros programas "
+"(indisponível no modo seguro)."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcing encoder connection status from any program (unavailable in secure "
+"mode)."
+msgstr ""
+"Anúncio do status da conexão do codificador a partir de qualquer programa "
+"(indisponível no modo seguro)."
+
+#. type: Bullet: '* '
+msgid "SPL Assistant layer from SPL Studio."
+msgstr "Camada Assistente SPL do SPL Studio."
+
+#. type: Bullet: '* '
+msgid "Announce time including seconds from SPL Studio."
+msgstr "Anuncia o tempo incluindo segundos, do SPL Studio."
+
+#. type: Bullet: '* '
+msgid "Announcing temperature."
+msgstr "Anúncio da temperatura."
+
+#. type: Bullet: '* '
+msgid "Announcing title of next track if scheduled."
+msgstr "Anúncio do título da próxima faixa, se programada."
+
+#. type: Bullet: '* '
+msgid "Announcing title of the currently playing track."
+msgstr "Anúncio do título da faixa atualmente em reprodução."
+
+#. type: Bullet: '* '
+msgid "Marking current track for start of track time analysis."
+msgstr "Marcando a faixa atual para o início da análise do tempo da faixa."
+
+#. type: Bullet: '* '
+msgid "Performing track time analysis."
+msgstr "Executando análise de tempo da faixa."
+
+#. type: Bullet: '* '
+msgid "Take playlist snapshots."
+msgstr "Tira instantâneos — da lista de reprodução."
+
+#. type: Bullet: '* '
+msgid "Find text in specific columns (does not support speak on demand)."
+msgstr "Localiza texto em colunas específicas (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Find tracks with duration that falls within a given range via time range "
+"finder (does not support speak on demand)."
+msgstr ""
+"Localize faixas com duração que se enquadre em um determinado intervalo por "
+"meio do localizador de intervalo de tempo (não suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Quickly enable or disable metadata streaming (does not support speak on "
+"demand)."
+msgstr ""
+"Ative ou desative rapidamente o streaming de metadados (não é compatível com "
+"o recurso falar sob demanda)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Additional commands when using encoders"
+msgstr "Comandos adicionais ao usar codificadores"
+
+#. type: Plain text
+msgid ""
+"The following commands are available when using encoders, and the ones used "
+"for toggling options for on-connection behavior such as focusing to Studio, "
+"playing the first track, and toggling of background monitoring can be "
+"assigned through the Input Gestures dialog in NVDA menu, Preferences, Input "
+"Gestures, under the StationPlaylist category. These commands do not support "
+"speak on demand."
+msgstr ""
+"Os comandos a seguir estão disponíveis ao usar codificadores e os usados "
+"para alternar opções de comportamento na conexão, como focar no Studio, "
+"reproduzir a primeira faixa e alternar o monitoramento em segundo plano, "
+"podem ser atribuídos por meio da caixa de diálogo Gestos de entrada no menu "
+"NVDA, Preferências, Gestos de entrada, na categoria StationPlaylist. Esses "
+"comandos não são compatíveis com a fala sob demanda."
+
+#. type: Bullet: '* '
+msgid "F9: connect the selected encoder."
+msgstr "F9: conecte o codificador selecionado."
+
+#. type: Bullet: '* '
+msgid "F10 (SAM encoder only): Disconnect the selected encoder."
+msgstr "F10 (somente codificador SAM): Desconecte o codificador selecionado."
+
+#. type: Bullet: '* '
+msgid "Control+F9: Connect all encoders."
+msgstr "Control+F9: Conecte todos os codificadores."
+
+#. type: Bullet: '* '
+msgid "Control+F10 (SAM encoder only): Disconnect all encoders."
+msgstr ""
+"Control+F10 (somente codificador SAM): Desconecte todos os codificadores."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the "
+"selected encoder if connected."
+msgstr ""
+"Control+Shift+F11: alterna se o NVDA mudará para a janela do Studio para o "
+"codificador selecionado, se estiver conectado."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+F11: Toggles whether Studio will play the first selected track when "
+"encoder is connected to a streaming server."
+msgstr ""
+"Shift+F11: Define se o Studio reproduzirá a primeira faixa selecionada "
+"quando o codificador estiver conectado a um servidor de fluxo — streaming."
+
+#. type: Bullet: '* '
+msgid "Control+F11: Toggles background monitoring of the selected encoder."
+msgstr ""
+"Control+F11: Alterna o monitoramento em segundo plano do codificador "
+"selecionado."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+F12: opens a dialog to select the encoder you have deleted (to "
+"realign encoder labels and settings)."
+msgstr ""
+"Control+F12: abre um diálogo para selecionar o codificador que você excluiu "
+"(para realinhar os rótulos e as configurações do codificador)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such "
+"as encoder label."
+msgstr ""
+"Alt+NVDA+0 ou F12: Abre a caixa de diálogo de configurações do codificador "
+"para configurar opções como a etiqueta do codificador."
+
+#. type: Plain text
+msgid ""
+"In addition, column review commands are available, including (supports speak "
+"on demand):"
+msgstr ""
+"Além disso, os comandos de revisão de coluna estão disponíveis, incluindo "
+"(suporta falar sob demanda):"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+1: Encoder position."
+msgstr "Control+NVDA+1: Posição do codificador."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+2: encoder label."
+msgstr "Control+NVDA+2: rótulo do codificador."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3 from SAM Encoder: Encoder format."
+msgstr "Control+NVDA+3 no codificador SAM: formato do codificador."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings."
+msgstr ""
+"Control+NVDA+3 no SPL e no Codificador AltaCast: Configurações do "
+"codificador."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+4 from SAM Encoder: Encoder connection status."
+msgstr "Control+NVDA+4 no codificador SAM: Status de conexão do codificador."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection "
+"status."
+msgstr ""
+"Control+NVDA+4 no SPL e no Codificador AltaCast: Taxa de transferência ou "
+"status da conexão."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+5 from SAM Encoder: Connection status description."
+msgstr "Control+NVDA+5 no codificador SAM: descrição do status da conexão."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Assistant layer"
+msgstr "Camada Assistente SPL"
+
+#. type: Plain text
+msgid ""
+"This layer command set allows you to obtain various status on SPL Studio, "
+"such as whether a track is playing, total duration of all tracks for the "
+"hour and so on. From any SPL Studio window, press the SPL Assistant layer "
+"command, then press one of the keys from the list below (one or more "
+"commands are exclusive to playlist viewer). You can also configure NVDA to "
+"emulate commands from other screen readers."
+msgstr ""
+"Este conjunto de comandos de camada permite obter vários status no SPL "
+"Studio, como se uma faixa está sendo reproduzida, duração total de todas as "
+"faixas durante a hora e assim por diante. Em qualquer janela do SPL Studio, "
+"pressione o comando da camada Assistente SPL e, em seguida, pressione uma "
+"das teclas da lista abaixo (um ou mais comandos são exclusivos do "
+"visualizador da lista de reprodução). Você também pode configurar o NVDA "
+"para emular comandos de outros leitores de tela."
+
+#. type: Plain text
+msgid "The available commands are (most commands support speak on demand):"
+msgstr ""
+"Os comandos disponíveis são (a maioria dos comandos é compatível com a fala "
+"sob demanda):"
+
+#. type: Bullet: '* '
+msgid "A: Automation."
+msgstr "A: Automatização."
+
+#. type: Bullet: '* '
+msgid "C (Shift+C in JAWS layout): Title for the currently playing track."
+msgstr ""
+"C (Shift+C no leiaute JAWS): Título para a faixa atualmente em reprodução."
+
+#. type: Bullet: '* '
+msgid ""
+"C (JAWS layout): Toggle cart explorer (playlist viewer only, does not "
+"support speak on demand)."
+msgstr ""
+"C (layout do JAWS): Alternar o explorador de carrinhos (somente visualizador "
+"de lista de reprodução, não oferece suporte a fala sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"D (R in JAWS layout): Remaining duration for the playlist (if an error "
+"message is given, move to playlist viewer and then issue this command)."
+msgstr ""
+"D (R no leiaute JAWS): Duração restante para a lista de reprodução (se uma "
+"mensagem de erro for dada, mova para o visualizador da lista de reprodução "
+"e, em seguida, execute este comando)."
+
+#. type: Bullet: '* '
+msgid "Control+D (Studio 6.10 and later): Control keys enabled/disabled."
+msgstr ""
+"Control+D (Studio 6.10 e posterior): Teclas de controle habilitadas/"
+"desabilitadas."
+
+#. type: Bullet: '* '
+msgid "E: Metadata streaming status."
+msgstr "E: Status de fluxo de metadados."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming "
+"URL's (0 is for DSP encoder)."
+msgstr ""
+"Shift+1 a Shift+4, Shift+0: status para URLs de fluxo — streaming — de "
+"metadados individuais (0 é para codificador DSP)."
+
+#. type: Bullet: '* '
+msgid "F: Find track (playlist viewer only, does not support speak on demand)."
+msgstr ""
+"F: Localizar faixa (somente visualizador de lista de reprodução, não é "
+"compatível com fala sob demanda)."
+
+#. type: Bullet: '* '
+msgid "H: Duration of music for the current hour slot."
+msgstr "H: Duração da música para a hora de programação."
+
+#. type: Bullet: '* '
+msgid "Shift+H: Remaining track duration for the hour slot."
+msgstr "Shift+H: duração restante da faixa para a hora de programação."
+
+#. type: Bullet: '* '
+msgid "I (L in JAWS layout): Listener count."
+msgstr "I (L no leiaute JAWS): Contagem de ouvintes."
+
+#. type: Bullet: '* '
+msgid "K: Move to the marked track (playlist viewer only)."
+msgstr ""
+"K: Mova para a faixa marcada (somente visualizador da lista de reprodução)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+K: Set the current track as the place marker track (playlist viewer "
+"only)."
+msgstr ""
+"Control+K: Defina a faixa atual como a faixa do marcador de lugar (somente "
+"visualizador de lista de reprodução)."
+
+#. type: Bullet: '* '
+msgid "L (Shift+L in JAWS layout): Line in."
+msgstr "L (Shift+L no leiaute JAWS): Entrada de linha."
+
+#. type: Bullet: '* '
+msgid "M: Microphone."
+msgstr "M: Microfone."
+
+#. type: Bullet: '* '
+msgid "N: Title for the next scheduled track."
+msgstr "N: Título para a próxima faixa programada."
+
+#. type: Bullet: '* '
+msgid "O: Playlist hour over/under by."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "P: Playback status (playing or stopped)."
+msgstr "P: Status de reprodução (reproduzindo ou parado)."
+
+#. type: Bullet: '* '
+msgid "Shift+P: Pitch of the current track."
+msgstr "Shift+P: Tonalidade — pitch — da faixa atual."
+
+#. type: Bullet: '* '
+msgid "R (Shift+E in JAWS layout): Record to file enabled/disabled."
+msgstr ""
+"* R (Shift+E no leiaute JAWS): Gravar no arquivo habilitado/desabilitado."
+
+#. type: Bullet: '* '
+msgid "Shift+R: Monitor library scan in progress."
+msgstr "Shift+R: Monitora a varredura da biblioteca em andamento."
+
+#. type: Bullet: '* '
+msgid "S: Track starts (scheduled)."
+msgstr "S: A faixa começa (programada)."
+
+#. type: Bullet: '* '
+msgid "Shift+S: Time until selected track will play (track starts in)."
+msgstr ""
+"Shift+S: tempo até que a faixa selecionada seja reproduzida (a faixa começa "
+"em)."
+
+#. type: Bullet: '* '
+msgid "T: Cart edit/insert mode on/off."
+msgstr "T: Modo de edição/inserção do carrinho ativado/desativado."
+
+#. type: Bullet: '* '
+msgid "U: Studio up time."
+msgstr "U: Tempo em atividade do Studio."
+
+#. type: Bullet: '* '
+msgid "W: Weather and temperature if configured."
+msgstr "W: Clima e temperatura, se configurados."
+
+#. type: Bullet: '* '
+msgid "Y: Playlist modified status."
+msgstr "Y: Status modificado da lista de reprodução."
+
+#. type: Bullet: '* '
+msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
+msgstr ""
+"F8: Tire instantâneos da lista de reprodução (número de faixas, faixa mais "
+"longa, etc.)."
+
+#. type: Bullet: '* '
+msgid "Shift+F8: Request playlist transcripts in numerous formats."
+msgstr ""
+"Shift+F8: Solicita transcrições da lista de reprodução em vários formatos."
+
+#. type: Bullet: '* '
+msgid ""
+"F9: Mark current track for start of playlist analysis (playlist viewer only)."
+msgstr ""
+"F9: Marca a faixa atual para o início da análise da lista de reprodução "
+"(somente visualizador da lista de reprodução)."
+
+#. type: Bullet: '* '
+msgid "F10: Perform track time analysis (playlist viewer only)."
+msgstr ""
+"F10: Executa a análise de tempo da faixa (somente visualizador da lista de "
+"reprodução)."
+
+#. type: Bullet: '* '
+msgid "F12: Switch between current and a predefined profile."
+msgstr "F12: Alternar entre o perfil atual e um predefinido."
+
+#. type: Bullet: '* '
+msgid "F1: Layer help."
+msgstr "F1: Ajuda da camada."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Controller"
+msgstr "Controlador SPL"
+
+#. type: Plain text
+msgid ""
+"The SPL Controller is a set of layered commands you can use to control SPL "
+"Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "
+"\"SPL Controller.\" Press another command to control various Studio settings "
+"such as microphone on/off or play the next track."
+msgstr ""
+"O Controlador SPL é um conjunto de comandos em camadas que você pode usar "
+"para controlar o SPL Studio de qualquer lugar. Pressione o comando da camada "
+"Controlador SPL e o NVDA dirá, \"Controlador SPL\". Pressione outro comando "
+"para controlar várias configurações do Studio, como ligar/desligar o "
+"microfone ou reproduzir a próxima faixa."
+
+#. type: Plain text
+msgid ""
+"Important: SPL Controller layer commands are disabled if NVDA is running in "
+"secure mode."
+msgstr ""
+"Importante: os comandos da camada do controlador SPL são desativados se o "
+"NVDA estiver sendo executado em modo seguro."
+
+#. type: Plain text
+msgid ""
+"The available SPL Controller commands are (some commands support speak on "
+"demand):"
+msgstr ""
+"Os comandos do controlador SPL disponíveis são (alguns comandos suportam "
+"falar sob demanda):"
+
+#. type: Bullet: '* '
+msgid "P: Play the next selected track."
+msgstr "P: reproduz a próxima faixa selecionada."
+
+#. type: Bullet: '* '
+msgid "U: Pause or unpause playback."
+msgstr "U: pausa ou retoma a reprodução."
+
+#. type: Bullet: '* '
+msgid "S: Stop the track with fade out."
+msgstr "S: Para a faixa com enfraquecimento — fade out."
+
+#. type: Bullet: '* '
+msgid "T: Instant stop."
+msgstr "T: Parada instantânea."
+
+#. type: Bullet: '* '
+msgid "M: Turn on microphone."
+msgstr "M: Liga o microfone."
+
+#. type: Bullet: '* '
+msgid "Shift+M: Turn off microphone."
+msgstr "Shift+M: Desliga o microfone."
+
+#. type: Bullet: '* '
+msgid "A: Turn on automation."
+msgstr "A: Ativa a automatização."
+
+#. type: Bullet: '* '
+msgid "Shift+A: Turn off automation."
+msgstr "Shift+A: Desativa a automatização."
+
+#. type: Bullet: '* '
+msgid "L: Turn on line-in input."
+msgstr "L: Ativa entrada de linha."
+
+#. type: Bullet: '* '
+msgid "Shift+L: Turn off line-in input."
+msgstr "Shift+L: Desativa a entrada de linha."
+
+#. type: Bullet: '* '
+msgid "R: Remaining time for the currently playing track."
+msgstr "R: Tempo restante para a faixa atualmente em reprodução."
+
+#. type: Bullet: '* '
+msgid "Shift+R: Library scan progress."
+msgstr "Shift+R: Progresso da varredura da biblioteca."
+
+#. type: Bullet: '* '
+msgid ""
+"C: Title and duration of the currently playing track (supports speak on "
+"demand)."
+msgstr ""
+"C: Título e duração da faixa que está sendo reproduzida no momento (suporta "
+"falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+C: Title and duration of the upcoming track if any (supports speak on "
+"demand)."
+msgstr ""
+"Shift+C: Título e duração da próxima faixa, se houver (suporta falar sob "
+"demanda)."
+
+#. type: Bullet: '* '
+msgid "E: Encoder connection status (supports speak on demand)."
+msgstr "E: Status da conexão do codificador (suporta fala sob demanda)."
+
+#. type: Bullet: '* '
+msgid "I: Listener count (supports speak on demand)."
+msgstr "I: Contagem de ouvintes (suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Q: Studio status information such as whether a track is playing, microphone "
+"is on and others (supports speak on demand)."
+msgstr ""
+"P: Informações sobre o status do estúdio, como se uma faixa está sendo "
+"reproduzida, se o microfone está ligado e outras (suporta falar sob demanda)."
+
+#. type: Bullet: '* '
+msgid ""
+"Cart keys (F1, Control+1, for example): Play assigned carts from anywhere."
+msgstr ""
+"Teclas do carrinho (F1, Control+1, por exemplo): Reproduz carrinhos "
+"atribuídos de qualquer lugar."
+
+#. type: Bullet: '* '
+msgid "H: Layer help."
+msgstr "H: Ajuda da camada."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track and microphone alarms"
+msgstr "Alarmes de faixa e microfone"
+
+#. type: Plain text
+msgid ""
+"By default, NVDA will play a beep if five seconds are left in the track "
+"(outro) and/or intro, as well as to hear a beep if microphone has been "
+"active for a while. To configure track and microphone alarms, press "
+"Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can "
+"also use this screen to configure if you'll hear a beep, a message or both "
+"when alarms are turned on."
+msgstr ""
+"Por padrão, o NVDA irá tocar um bipe se faltarem cinco segundos na faixa "
+"(outro) e/ou introdução, bem como ouvir um bipe se o microfone estiver ativo "
+"por um tempo. Para configurar alarmes de faixa e microfone, pressione "
+"Alt+NVDA+1 para abrir as configurações de alarmes na tela de configurações "
+"do complemento do Studio. Também pode usar essa tela para configurar se "
+"ouvirá um bipe, uma mensagem ou ambos quando os alarmes forem ativados."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track Finder"
+msgstr "Localizador de Faixa"
+
+#. type: Plain text
+msgid ""
+"If you wish to quickly find a song by an artist or by song name, from track "
+"list, press Control+NVDA+F. Type or choose the name of the artist or the "
+"song name. NVDA will either place you at the song if found or will display "
+"an error if it cannot find the song you're looking for. To find a previously "
+"entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
+"backward."
+msgstr ""
+"Se você deseja localizar rapidamente uma música por um intérprete ou pelo "
+"nome da música, na lista de faixas, pressione Control+NVDA+F. Digite ou "
+"escolha o nome do intérprete ou o nome da música. O NVDA irá colocá-lo na "
+"música se for localizada ou exibirá um erro se não puder encontrar a música "
+"que você está procurando. Para localizar uma música ou intérprete digitado "
+"anteriormente, pressione NVDA+F3 ou NVDA+Shift+F3 para localizar pra frente "
+"ou pra trás."
+
+#. type: Plain text
+msgid "Note: Track Finder is case-sensitive."
+msgstr "Nota: Localizador de Faixa diferencia maiúsculas de minúsculas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Cart Explorer"
+msgstr "Explorador de carrinho"
+
+#. type: Plain text
+msgid ""
+"Depending on edition, SPL Studio allows up to 96 carts to be assigned for "
+"playback. NVDA allows you to hear which cart, or jingle is assigned to these "
+"commands."
+msgstr ""
+"Dependendo da edição, o SPL Studio permite que até 96 carrinhos sejam "
+"atribuídos para reprodução. O NVDA permite que você ouça qual carrinho ou "
+"jingle está atribuído a esses comandos."
+
+#. type: Plain text
+msgid ""
+"To learn cart assignments, from SPL Studio, press Alt+NVDA+3. Pressing the "
+"cart command once will tell you which jingle is assigned to the command. "
+"Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to "
+"exit cart explorer. See the add-on guide for more information on cart "
+"explorer."
+msgstr ""
+"Para aprender as atribuições do carrinho, no SPL Studio, pressione "
+"Alt+NVDA+3. Pressionar o comando do carrinho uma vez informará qual jingle "
+"está atribuído ao comando. Pressione o comando do carrinho duas vezes para "
+"reproduzir o jingle. Pressione Alt+NVDA+3 para sair do explorador do "
+"carrinho. Consulte o guia do complemento para obter mais informações sobre o "
+"explorador de carrinho."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track time analysis"
+msgstr "Análise de tempo de faixa"
+
+#. type: Plain text
+msgid ""
+"To obtain length to play selected tracks, mark current track for start of "
+"track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when "
+"reaching end of selection."
+msgstr ""
+"Para obter a duração da reprodução das faixas selecionadas, marque a faixa "
+"atual para o início da análise do tempo da faixa (Assistente SPL, F9) e "
+"pressione Assistente SPL, F10 quando chegar ao final da seleção."
+
+#. type: Title ##
+#, no-wrap
+msgid "Columns Explorer"
+msgstr "Explorador de colunas"
+
+#. type: Plain text
+msgid ""
+"By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
+"columns. By default, these are first ten columns for a track item (in "
+"Studio: artist, title, duration, intro, outro, category, year, album, genre, "
+"mood). For playlist editor in Creator and Remote VT client, column data "
+"depends on column order as shown on screen. In Studio, Creator's main track "
+"list, and Track Tool, column slots are preset regardless of column order on "
+"screen and can be configured from add-on settings dialog under columns "
+"explorer category."
+msgstr ""
+"Pressionando Control+NVDA+1 a 0, você pode obter o conteúdo de colunas "
+"específicas. Por padrão, essas são as primeiras dez colunas para um item de "
+"faixa (no Studio: intérprete, título, duração, introdução, outro, categoria, "
+"ano, álbum, gênero, modo). Para o editor de lista de reprodução no Creator e "
+"cliente Remote VT, os dados da coluna dependem da ordem das colunas, "
+"conforme mostrada na tela. No Studio, lista de faixas principal do Creator, "
+"e Ferramenta de Faixa, os espaços de coluna são predefinidos "
+"independentemente da ordem das colunas na tela e podem ser configurados no "
+"diálogo de configurações do complemento na categoria de explorador de "
+"colunas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track column announcement"
+msgstr "Anúncio da coluna de faixa"
+
+#. type: Plain text
+msgid ""
+"You can ask NVDA to announce track columns found in Studio's playlist viewer "
+"in the order it appears on screen or using a custom order and/or exclude "
+"certain columns. Press NVDA+V to toggle this behavior while focused on a "
+"track in Studio's playlist viewer. To customize column inclusion and order, "
+"from column announcement settings panel in add-on settings, uncheck "
+"\"Announce columns in the order shown on screen\" and then customize "
+"included columns and/or column order."
+msgstr ""
+"Você pode pedir ao NVDA para anunciar as colunas das faixas encontradas no "
+"visualizador da lista de reprodução do Studio na ordem em que aparecem na "
+"tela ou usando uma ordem personalizada e/ou excluir certas colunas. "
+"Pressione NVDA+V para alternar este comportamento enquanto focaliza uma "
+"faixa no visualizador de lista de reprodução do Studio. Para personalizar a "
+"inclusão e a ordem das colunas, no painel de configurações de anúncio da "
+"coluna nas configurações do complemento, desmarque \"Anunciar colunas na "
+"ordem mostrada na tela\" e, em seguida, personalize as colunas incluídas e/"
+"ou a ordem das colunas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist snapshots"
+msgstr "Instantâneos da lista de reprodução"
+
+#. type: Plain text
+msgid ""
+"You can press SPL Assistant, F8 while focused on a playlist in Studio to "
+"obtain various statistics about a playlist, including number of tracks in "
+"the playlist, longest track, top artists and so on. After assigning a custom "
+"command for this feature, pressing the custom command twice will cause NVDA "
+"to present playlist snapshot information as a webpage so you can use browse "
+"mode to navigate (press escape to close)."
+msgstr ""
+"Você pode pressionar Assistente SPL, F8 enquanto estiver focalizado numa "
+"lista de reprodução no Studio para obter várias estatísticas sobre uma "
+"playlist, incluindo o número de faixas na lista de reprodução, a faixa mais "
+"longa, os principais intérpretes e assim por diante. Depois de atribuir um "
+"comando personalizado para este recurso, pressionar o comando personalizado "
+"duas vezes fará com que o NVDA apresente informações instantâneas da lista "
+"de reprodução como uma página web para que você possa usar o modo de "
+"navegação para navegar (pressione Esc para fechar)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist Transcripts"
+msgstr "Transcrições da Lista de Reprodução"
+
+#. type: Plain text
+msgid ""
+"Pressing SPL Assistant, Shift+F8 will present a dialog to let you request "
+"playlist transcripts in numerous formats, including in a plain text format, "
+"an HTML table or a list."
+msgstr ""
+"Pressionando Assistente SPL, Shift+F8 apresentará um diálogo para permitir "
+"que você solicite transcrições da lista de reprodução em vários formatos, "
+"incluindo um formato de texto simples, uma tabela HTML ou uma lista."
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration dialog"
+msgstr "Diálogo de configuração"
+
+#. type: Plain text
+msgid ""
+"From studio window, you can press Alt+NVDA+0 to open the add-on "
+"configuration dialog. Alternatively, go to NVDA's preferences menu and "
+"select SPL Studio Settings item. Not all settings are available if NVDA is "
+"running in secure mode."
+msgstr ""
+"Na janela do estúdio, você pode pressionar Alt+NVDA+0 para abrir a caixa de "
+"diálogo de configuração do complemento. Como alternativa, acesse o menu de "
+"preferências do NVDA e selecione o item Configurações do SPL Studio. Nem "
+"todas as configurações estarão disponíveis se o NVDA estiver sendo executado "
+"em modo seguro."
+
+#. type: Title ##
+#, no-wrap
+msgid "Broadcast profiles dialog"
+msgstr "Diálogo de perfis de transmissão"
+
+#. type: Plain text
+msgid ""
+"You can save settings for specific shows into broadcast profiles. These "
+"profiles can be managed via SPL broadcast profiles dialog which can be "
+"accessed by pressing Alt+NVDA+P from Studio window."
+msgstr ""
+"Você pode salvar as configurações de programas específicos em perfis de "
+"transmissão — broadcast. Esses perfis podem ser gerenciados por meio do "
+"diálogo de perfis de transmissão SPL, que pode ser acessado pressionando "
+"Alt+NVDA+P na janela do Studio."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL touch mode"
+msgstr "Modo tátil SPL"
+
+#. type: Plain text
+msgid ""
+"If you are using Studio on a touchscreen computer with NVDA installed, you "
+"can perform some Studio commands from the touchscreen. First use three "
+"finger tap to switch to SPL mode, then use the touch commands listed above "
+"to perform commands."
+msgstr ""
+"Se você estiver usando o Studio em um computador com tela sensível ao toque "
+"e com o NVDA instalado, pode executar alguns comandos do Studio a partir da "
+"tela sensível ao toque. Primeiro, use o toque de três dedos para alternar "
+"para o modo SPL e, em seguida, use os comandos de toque listados acima para "
+"executar os comandos."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.09-LTS"
+msgid "Version 25.06-LTS"
+msgstr "Versão 20.09-LTS"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Version 20.09.x is the last release series to support Studio 5.20 and "
+#| "based on old technologies, with future releases supporting Studio 5.30 "
+#| "and more recent NVDA features. Some new features will be backported to "
+#| "20.09.x if needed."
+msgid ""
+"Version 25.06.x is the last release series to support Studio 5.x with future "
+"releases requiring Studio 6.x. Some new features will be backported to 25.06."
+"x if needed."
+msgstr ""
+"A versão 20.09.x é a última série de lançamento a suportar o Studio 5.20 e "
+"baseada em tecnologias antigas, com versões futuras suportando o Studio 5.30 "
+"e recursos mais recentes do NVDA. Alguns novos recursos serão portados para "
+"20.09.x, se necessário."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new command in SPL Assistant to announce playlist hour over/under by "
+"in minutes and seconds (O)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, the command to step through library scan announcement settings "
+"has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles "
+"remote access feature in NVDA 2025.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing when performing "
+"some SPL Assistant commands after resizing Studio window."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize track column changes introduced in Creator and Track "
+"Tool 6.11."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play wrong carts when playing them via SPL Controller "
+"layer."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 25.01"
+msgid "Version 25.05"
+msgstr "Versão 25.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2022.4 or later is required."
+msgid "NVDA 2024.1 or later is required due to Python 3.11 upgrade."
+msgstr ""
+"É necessário o NVDA 2022.4 ou posterior.21.01: NVDA 2020.3 ou posterior é "
+"requerido."
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Moved ad-on wiki documents such as add-on changelog to the main code "
+"repository."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added close button to playlist snapshots, playlist transcripts, and SPL "
+"Assistant and Controller layer help screens (NVDA 2025.1 and later)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer do nothing or play error tones when announcing weather "
+"and temperature information in Studio 6.x (SPL Assistant, W)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.01"
+msgstr "Versão 25.01"
+
+#. type: Bullet: '* '
+msgid "64-bit Windows 10 21H2 (build 19044) or later is required."
+msgstr "É necessário o Windows 10 21H2 (build 19044) de 64 bits ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+"Os links de download para versões de complemento não estão mais incluídos na "
+"documentação do complemento. Você pode fazer o download do complemento na "
+"loja de complementos da NV Access."
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+"Mudança da ferramenta de linting do Flake8 para o Ruff e reformatação dos "
+"módulos complementares para melhor alinhamento com os padrões de codificação "
+"do NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+"No Studio 6.10 e posterior, foi adicionado um novo comando no SPL Assistant "
+"para anunciar o status de ativação/desativação das teclas de controle "
+"(Control+D)."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio 6.10 and later, added a new command in SPL Assistant to announce "
+"control keys enabled/disabled status (Control+D)."
+msgstr ""
+"No Studio 6.10 e posterior, foi adicionado um novo comando no SPL Assistant "
+"para anunciar o status de ativação/desativação das teclas de controle "
+"(Control+D)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.03"
+msgstr "Versão 24.03"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2024.1."
+msgstr "Compatível com o NVDA 2024.1."
+
+#. type: Bullet: '* '
+msgid "NVDA 2023.3.3 or later is required."
+msgstr ""
+"É necessário o NVDA 2023.3.3 ou posterior.21.01: NVDA 2020.3 ou posterior é "
+"requerido."
+
+#. type: Bullet: '* '
+msgid "Support for StationPlaylist suite 6.10."
+msgstr "Suporte para a suíte StationPlaylist 6.10."
+
+#. type: Bullet: '* '
+msgid ""
+"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
+"spoken in this mode."
+msgstr ""
+"A maioria dos comandos é compatível com a fala sob demanda (NVDA 2024.1), "
+"portanto, os anúncios podem ser falados nesse modo."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.01"
+msgstr "Versão 24.01"
+
+#. type: Bullet: '* '
+msgid ""
+"The commands for the Encoder Settings dialog for use with the SPL and SAM "
+"Encoders are now assignable, meaning that you can change them from their "
+"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
+"Input Gestures. The ones that are not assignable are the connect and "
+"disconnect commands. Also, to prevent command conflicts and make much easier "
+"use of this command on remote servers, the default gesture for switching to "
+"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
+"of these can of course still be toggled from the Encoder Settings dialog "
+"(NVDA+Alt+0 or F12)."
+msgstr ""
+"Os comandos da caixa de diálogo Configurações do codificador para uso com os "
+"codificadores SPL e SAM agora são atribuíveis, o que significa que você pode "
+"alterá-los em relação aos padrões na categoria StationPlaylist no Menu NVDA "
+"> Preferências > Gestos de entrada. Os comandos de conexão e desconexão não "
+"podem ser atribuídos. Além disso, para evitar conflitos de comandos e "
+"facilitar muito o uso desse comando em servidores remotos, o gesto padrão "
+"para alternar para o Studio após a conexão agora é Control+Shift+F11 (antes "
+"era apenas F11). É claro que tudo isso ainda pode ser alternado na caixa de "
+"diálogo Encoder Settings (NVDA+Alt+0 ou F12)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05"
+msgstr "Versão 23.05"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+"Para refletir a mudança do mantenedor, o manifesto foi atualizado para "
+"indicar isso."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Versão 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr ""
+"É necessário o NVDA 2022.4 ou posterior.21.01: NVDA 2020.3 ou posterior é "
+"requerido."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"É necessário o Windows 10 21H2 (atualização/compilação 19044 de novembro de "
+"2021) ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio's playlist viewer, NVDA will not announce column headers such as "
+"artist and title if table headers setting is set to either \"rows and "
+"columns\" or \"columns\" in NVDA's document formatting settings panel."
+msgstr ""
+"No visualizador de listas de reprodução do Studio, o NVDA não anunciará "
+"cabeçalhos de coluna, como artista e título, se a configuração de cabeçalhos "
+"de tabela estiver definida como “linhas e colunas” ou “colunas” no painel de "
+"configurações de formatação de documentos do NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Older releases"
+msgstr "Versões mais antigas"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Please see the [changelog][3] for release notes for old add-on releases."
+msgid ""
+"Please see the [changelog][2] for release notes for old add-on releases."
+msgstr ""
+"Consulte o [changelog][3] para obter as notas de versão das versões antigas "
+"do complemento."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[2]: https://github.com/chrisDuffley/stationplaylist/wiki/SPLAddonGuide"
+msgid ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+msgstr ""
+"[2]: https://github.com/chrisDuffley/stationplaylist/wiki/SPLAddonGuide"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[3]: https://github.com/ChrisDuffley/stationplaylist/wiki/splchangelog"
+msgid ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+msgstr "[3]: https://github.com/ChrisDuffley/stationplaylist/wiki/splchangelog"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
+#~ msgstr ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Baixe a [versão estável][1]"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2021.2 and later"
+#~ msgid "NVDA compatibility: 2023.3.3 and later"
+#~ msgstr "Compatibilidade com NVDA: 2021.2 e posteriores"
+
+#~ msgid "The following commands are available when using encoders:"
+#~ msgstr ""
+#~ "Os seguintes comandos estão disponíveis ao usar codificadores — encoders:"
+
+#~ msgid "The available commands are:"
+#~ msgstr "Os comandos disponíveis são:"
+
+#~ msgid "I: Listener count."
+#~ msgstr "I: Contagem de ouvintes."
+
+#~ msgid "Authors: Geoff Shang, Joseph Lee and other contributors"
+#~ msgstr "Autores: Geoff Shang, Joseph Lee e outros contribuidores"
+
+#, fuzzy
+#~| msgid "Version 22.01"
+#~ msgid "Version 22.03"
+#~ msgstr "Versão 22.01"
+
+#, fuzzy
+#~| msgid "21.01: NVDA 2020.3 or later is required."
+#~ msgid "NVDA 2021.3 or later is required."
+#~ msgstr "21.01: NVDA 2020.3 ou posterior é requerido."
+
+#~ msgid ""
+#~ "Control+Alt+Home/End (while focused on a track in Studio, Creator, Remote "
+#~ "VT, and Track Tool): Move to first/last track column."
+#~ msgstr ""
+#~ "Control+Alt+Home/End (enquanto focalizado numa faixa no Studio, Creator, "
+#~ "Remote VT e Ferramenta de Faixa): Move-se para a primeira/última coluna "
+#~ "da faixa."
+
+#~ msgid "SPL Controller layer."
+#~ msgstr "Camada de controlador SPL."
+
+#~ msgid ""
+#~ "If add-on specific command-line switches such as \"--spl-configinmemory\" "
+#~ "is specified when starting NVDA, NVDA will no longer add the specified "
+#~ "parameter each time NVDA and/or Studio runs. Restart NVDA to restore "
+#~ "normal functionality (without command-line switches)."
+#~ msgstr ""
+#~ "Se adicionar opções de linha de comando específicas como \"--spl-"
+#~ "configinmemory\" for especificada ao iniciar o NVDA, o NVDA não "
+#~ "adicionará mais o parâmetro especificado toda vez que o NVDA e/ou Studio "
+#~ "for executado. Reinicie o NVDA para restaurar a funcionalidade normal "
+#~ "(sem opções de linha de comando)."
+
+#~ msgid "Version 21.11"
+#~ msgstr "Versão 21.11"
+
+#~ msgid "Version 21.10"
+#~ msgstr "Versão 21.10"
+
+#~ msgid ""
+#~ "NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+#~ "add-on."
+#~ msgstr ""
+#~ "O NVDA 2021.2 ou posterior é necessário devido a mudanças no NVDA que "
+#~ "afetam este complemento."
+
+#~ msgid "Shift+F1: Opens online user guide."
+#~ msgstr "Shift+F1: Abre o guia do usuário online."
+
+#, fuzzy
+#~| msgid "Version 21.06"
+#~ msgid "Version 21.08"
+#~ msgstr "Versão 21.06"
+
+#~ msgid "Version 21.06"
+#~ msgstr "Versão 21.06"
+
+#~ msgid ""
+#~ "NVDA will no longer do nothing or play error tones when trying to open "
+#~ "various add-on dialogs such as encoder settings dialog. This is a "
+#~ "critical fix required to support NVDA 2021.1."
+#~ msgstr ""
+#~ "O NVDA não fará mais nada ou reproduzirá tons de erro ao tentar abrir "
+#~ "várias caixas de diálogo do complemento, como o diálogo de configurações "
+#~ "do codificador. Esta é uma correção crítica necessária para oferecer "
+#~ "suporte ao NVDA 2021.1."
+
+#~ msgid ""
+#~ "NVDA will no longer appear to do nothing or play error tones when trying "
+#~ "to announce complete time (hours, minutes, seconds) from Studio (command "
+#~ "unassigned). This affects NVDA 2021.1 or later."
+#~ msgstr ""
+#~ "O NVDA não parecerá mais não fazer nada ou reproduzir tons de erro ao "
+#~ "tentar anunciar o tempo completo (horas, minutos, segundos) do Studio "
+#~ "(comando não atribuído). Isso afeta o NVDA 2021.1 ou posterior."
+
+#~ msgid "Version 21.04/20.09.7-LTS"
+#~ msgstr "Versão 21.04/20.09.7-LTS"
+
+#~ msgid "21.04: NVDA 2020.4 or later is required."
+#~ msgstr "21.04: NVDA 2020.4 ou posterior é requerido."
+
+#~ msgid ""
+#~ "In encoders, NVDA no longer fails to announce date and time information "
+#~ "when performing date/time command (NVDA+F12). This affects NVDA 2021.1 or "
+#~ "later."
+#~ msgstr ""
+#~ "Nos codificadores, o NVDA não falha mais em anunciar as informações de "
+#~ "data e hora ao executar o comando de data/hora (NVDA+F12). Isso afeta o "
+#~ "NVDA 2021.1 ou posterior."
+
+#~ msgid "Version 21.03/20.09.6-LTS"
+#~ msgstr "Versão 21.03/20.09.6-LTS"
+
+#~ msgid "Minimum Windows release requirement is now tied to NVDA releases."
+#~ msgstr ""
+#~ "O requisito mínimo de versão do Windows agora está vinculado às versões "
+#~ "do NVDA."
+
+#~ msgid ""
+#~ "Removed feedback email command (Alt+NVDA+Hyphen). Please send feedback to "
+#~ "add-on developers using the contact information provided from Add-ons "
+#~ "Manager."
+#~ msgstr ""
+#~ "Removido o comando de e-mail de feedback (Alt+NVDA+Hífen). Por favor "
+#~ "envie comentários para desenvolvedores de complementos usando as "
+#~ "informações de contato fornecidas pelo Gerenciador de complementos."
+
+#~ msgid "21.03: parts of the add-on source code now include type annotations."
+#~ msgstr ""
+#~ "21.03: partes do código-fonte do complemento agora incluem anotações de "
+#~ "tipo."
+
+#~ msgid ""
+#~ "21.03: made the add-on code more robust with help from Mypy (a Python "
+#~ "static type checker). In particular, fixed several long-standing bugs "
+#~ "such as NVDA not being able to reset add-on settings to defaults under "
+#~ "some circumstances and attempting to save encoder settings when not "
+#~ "loaded. Some prominent bug fixes were also backported to 20.09.6-LTS."
+#~ msgstr ""
+#~ "21.03: tornou o código do complemento mais robusto com a ajuda do Mypy "
+#~ "(um verificador de tipo estático do Python). Em particular, corrigiu "
+#~ "várias falhas de longa data, como o NVDA não ser capaz de redefinir as "
+#~ "configurações de complemento para os padrões em algumas circunstâncias e "
+#~ "tentar salvar as configurações do codificador quando não carregado. "
+#~ "Algumas correções de falhas proeminentes também foram portadas para "
+#~ "20.09.6-LTS."
+
+#~ msgid ""
+#~ "Fixed numerous bugs with add-on welcome dialog (Alt+NVDA+F1 from Studio "
+#~ "window), including multiple welcome dialogs being shown and NVDA "
+#~ "appearing to do nothing or playing error tones when welcome dialog "
+#~ "remains open after Studio exits."
+#~ msgstr ""
+#~ "Corrigidas várias falhas com o diálogo de boas-vindas do complemento "
+#~ "(Alt+NVDA+F1 na janela do Studio), incluindo várias caixas de diálogo de "
+#~ "boas-vindas sendo mostradas e o NVDA parecendo não fazer nada ou "
+#~ "reproduzindo tons de erro quando o diálogo de boas-vindas permanece "
+#~ "aberto após o Studio sair."
+
+#~ msgid ""
+#~ "Fixed numerous bugs with track comments dialog (Alt+NVDA+C three times "
+#~ "from a track in Studio), including an error tone heard when trying to "
+#~ "save comments and many track comment dialogs appearing if Alt+NVDA+C is "
+#~ "pressed many times. If track comments dialog is still shown after Studio "
+#~ "is closed, comments will not be saved."
+#~ msgstr ""
+#~ "Corrigidas várias falhas com o diálogo de comentários de faixa "
+#~ "(Alt+NVDA+C três vezes numa faixa no Studio), incluindo um tom de erro "
+#~ "ouvido ao tentar salvar comentários e muitas caixas de diálogo de "
+#~ "comentário de faixa que aparecem se Alt+NVDA+C for pressionado muitas "
+#~ "vezes. Se o diálogo de comentários da faixa ainda for exibida após o "
+#~ "Studio ser fechado, os comentários não serão salvos."
+
+#~ msgid ""
+#~ "Various column commands such as columns explorer (Control+NVDA+number "
+#~ "row) in Studio tracks and encoder status announcements no longer gives "
+#~ "erroneous results when performed after NVDA is restarted while focused on "
+#~ "tracks or encoders. This affects NVDA 2020.4 or later."
+#~ msgstr ""
+#~ "Vários comandos de coluna, como o explorador de colunas "
+#~ "(Control+NVDA+linha numérica) nas faixas do Studio e anúncios de status "
+#~ "do codificador, não fornecem mais resultados errôneos quando executados "
+#~ "após o NVDA ser reiniciado enquanto o foco está em faixas ou "
+#~ "codificadores. Isso afeta o NVDA 2020.4 ou posterior."
+
+#~ msgid ""
+#~ "Fixed numerous issues with playlist snapshots (SPL Assistant, F8), "
+#~ "including inability to obtain snapshot data and reporting wrong tracks as "
+#~ "shortest or longest tracks."
+#~ msgstr ""
+#~ "Corrigidos vários problemas com os instantâneos da lista de reprodução "
+#~ "(Assistente SPL, F8), incluindo a incapacidade de obter dados do "
+#~ "instantâneo e relatar faixas erradas como faixas mais curtas ou mais "
+#~ "longas."
+
+#~ msgid ""
+#~ "NVDA will no longer announce \"0 items in the library\" when Studio exits "
+#~ "in the middle of a library scan."
+#~ msgstr ""
+#~ "O NVDA não anunciará mais \"0 itens na biblioteca\" quando o Studio sair "
+#~ "no meio de uma varredura da biblioteca."
+
+#~ msgid ""
+#~ "NVDA will no longer fail to save changes to encoder settings after errors "
+#~ "are encountered when loading encoder settings and subsequently settings "
+#~ "are reset to defaults."
+#~ msgstr ""
+#~ "O NVDA não falhará mais em salvar as alterações nas configurações do "
+#~ "codificador depois que forem encontrados erros ao carregar as "
+#~ "configurações do codificador e, subsequentemente, as configurações forem "
+#~ "redefinidas para os padrões."
+
+#~ msgid "Version 21.01/20.09.5-LTS"
+#~ msgstr "Versão 21.01/20.09.5-LTS"
+
+#~ msgid "Version 21.01 supports SPL Studio 5.30 and later."
+#~ msgstr "A versão 21.01 suporta SPL Studio 5.30 e posterior."
+
+#~ msgid ""
+#~ "21.01: column header inclusion setting from add-on settings has been "
+#~ "removed. NVDA's own table column header setting will control column "
+#~ "header announcements across SPL suite and encoders."
+#~ msgstr ""
+#~ "21.01: a configuração de inclusão do cabeçalho da coluna das "
+#~ "configurações do complemento foi removida. A configuração do cabeçalho da "
+#~ "coluna de tabela do próprio NVDA controlará os anúncios do cabeçalho da "
+#~ "coluna em toda a suíte SPL e codificadores."
+
+#~ msgid ""
+#~ "Added a command to toggle screen versus custom column inclusion and order "
+#~ "setting (NVDA+V). Note that this command is available only when focused "
+#~ "on a track in Studio's playlist viewer."
+#~ msgstr ""
+#~ "Adicionado um comando para alternar entre tela versus inclusão de coluna "
+#~ "personalizada e configuração de pedido (NVDA+V). Observe que este comando "
+#~ "está disponível apenas quando focalizado numa faixa no visualizador de "
+#~ "lista de reprodução do Studio."
+
+#~ msgid ""
+#~ "SPL Assistant and Controller layer help will be presented as a browse "
+#~ "mode document instead of a dialog."
+#~ msgstr ""
+#~ "A ajuda da camada Assistente SPL e Controlador será apresentada como um "
+#~ "documento do modo de navegação em vez de um diálogo."
+
+#~ msgid ""
+#~ "NVDA will no longer stop announcing library scan progress if configured "
+#~ "to announce scan progress while using a braille display."
+#~ msgstr ""
+#~ "O NVDA não irá mais parar de anunciar o andamento da varredura da "
+#~ "biblioteca se configurado para anunciar o progresso da varredura ao usar "
+#~ "uma linha braille."
+
+#~ msgid "Version 20.11.1/20.09.4-LTS"
+#~ msgstr "Versão 20.11.1/20.09.4-LTS"
+
+#~ msgid ""
+#~ "Improvements to presentation of various add-on dialogs thanks to NVDA "
+#~ "2020.3 features."
+#~ msgstr ""
+#~ "Melhorias na apresentação de vários diálogos do complemento graças aos "
+#~ "recursos do NVDA 2020.3."
+
+#~ msgid "Version 20.11/20.09.3-LTS"
+#~ msgstr "Versão 20.11/20.09.3-LTS"
+
+#~ msgid "20.11: NVDA 2020.1 or later is required."
+#~ msgstr "20.11: NVDA 2020.1 ou posterior é requerido."
+
+#~ msgid ""
+#~ "20.11: Resolved more coding style issues and potential bugs with Flake8."
+#~ msgstr ""
+#~ "20.11: Resolvidos mais problemas de estilo de codificação e possíveis "
+#~ "falhas com o Flake8."
+
+#~ msgid ""
+#~ "Fixed various issues with add-on welcome dialog (Alt+NVDA+F1 from "
+#~ "Studio), including wrong command shown for add-on feedback "
+#~ "(Alt+NVDA+Hyphen)."
+#~ msgstr ""
+#~ "Corrigidos vários problemas com a caixa de diálogo de boas-vindas do "
+#~ "complemento (Alt+NVDA+F1 do Studio), incluindo comando incorreto mostrado "
+#~ "para feedback do complemento (Alt+NVDA+Hífen)."
+
+#~ msgid ""
+#~ "20.11: Column presentation format for track and encoder items across "
+#~ "StationPlaylist suite (including SAM encoder) is now based on "
+#~ "SysListView32 list item format."
+#~ msgstr ""
+#~ "20.11: O formato de apresentação de coluna para itens de faixa e "
+#~ "codificador na suíte StationPlaylist (incluindo o codificador SAM) agora "
+#~ "é baseado no formato de item de lista SysListView32."
+
+#~ msgid ""
+#~ "20.11: NVDA will now announce column information for tracks throughout "
+#~ "SPL suite regardless of \"report object description\" setting in NVDA's "
+#~ "object presentation settings panel. For best experience, leave this "
+#~ "setting on."
+#~ msgstr ""
+#~ "20.11: O NVDA agora anunciará informações de coluna para faixas em toda a "
+#~ "suíte SPL independentemente da configuração de \"anunciar descrições dos "
+#~ "objetos\" no painel de configurações de apresentação de objetos do NVDA. "
+#~ "Para obter a melhor experiência, deixe esta configuração ativada."
+
+#~ msgid ""
+#~ "20.11: In Studio's playlist viewer, custom column order and inclusion "
+#~ "setting will affect how track columns are presented when using object "
+#~ "navigation to move between tracks, including current navigator object "
+#~ "announcement."
+#~ msgstr ""
+#~ "20.11: No visualizador de lista de reprodução do Studio, a ordem das "
+#~ "colunas personalizadas e a configuração de inclusão afetarão como as "
+#~ "colunas das faixas são apresentadas ao usar a navegação de objetos para "
+#~ "mover entre as faixas, incluindo o anúncio do objeto de navegação atual."
+
+#~ msgid ""
+#~ "If vertical column announcement is set to a value other than \"whichever "
+#~ "column I'm reviewing\", NVDA will no longer announce wrong column data "
+#~ "after changing column position on screen via mouse."
+#~ msgstr ""
+#~ "Se o anúncio da coluna vertical for definido com um valor diferente de "
+#~ "\"qualquer coluna que estou revisando\", o NVDA não anunciará mais dados "
+#~ "incorretos da coluna após alterar a posição da coluna na tela via mouse."
+
+#~ msgid ""
+#~ "improved playlist transcripts (SPL Assistant, Shift+F8) presentation when "
+#~ "viewing the transcript in HTML table or list format."
+#~ msgstr ""
+#~ "apresentação melhorada das transcrições da lista de reprodução "
+#~ "(Assistente SPL, Shift+F8) ao visualizar a transcrição em tabela HTML ou "
+#~ "formato de lista."
+
+#~ msgid ""
+#~ "20.11: In encoders, encoder labels will be announced when performing "
+#~ "object navigation commands in addition to pressing up or down arrow keys "
+#~ "to move between encoders."
+#~ msgstr ""
+#~ "20.11: Nos codificadores, os rótulos dos codificadores serão anunciados "
+#~ "ao executar comandos de navegação de objetos, além de pressionar as "
+#~ "teclas de seta para cima ou para baixo para mover entre os codificadores."
+
+#~ msgid ""
+#~ "In encoders, in addition to Alt+NVDA+number row 0, pressing F12 will also "
+#~ "open encoder settings dialog for the selected encoder."
+#~ msgstr ""
+#~ "Em codificadores, além de Alt+NVDA+0 da linha numérica, pressionar F12 "
+#~ "também abrirá a caixa de diálogo de configurações do codificador para o "
+#~ "codificador selecionado."
+
+#~ msgid "Version 20.10/20.09.2-LTS"
+#~ msgstr "Versão 20.10/20.09.2-LTS"
+
+#~ msgid ""
+#~ "Due to changes to encoder settings file format, installing an older "
+#~ "version of this add-on after installing this version will cause "
+#~ "unpredictable behavior."
+#~ msgstr ""
+#~ "Devido a alterações no formato do arquivo de configurações do "
+#~ "codificador, a instalação de uma versão mais antiga deste complemento "
+#~ "após a instalação desta versão causará um comportamento imprevisível."
+
+#~ msgid ""
+#~ "It is no longer necessary to restart NVDA with debug logging mode to read "
+#~ "debug messages from log viewer. You can view debug messages if log level "
+#~ "is set to \"debug\" from NVDA's general settings panel."
+#~ msgstr ""
+#~ "Não é mais necessário reiniciar o NVDA com o modo de registrar depuração "
+#~ "para ler as mensagens de debug do visualizador de log. Você pode ver as "
+#~ "mensagens de depuração se o grau do log estiver definido como \"depurar\" "
+#~ "no painel de configurações gerais do NVDA."
+
+#~ msgid ""
+#~ "20.10: column header inclusion setting from add-on settings is deprecated "
+#~ "and will be removed in a future release. In the future NVDA's own table "
+#~ "column header setting will control column header announcements across SPL "
+#~ "suite and encoders."
+#~ msgstr ""
+#~ "20.10: a configuração de inclusão do cabeçalho da coluna nas "
+#~ "configurações do complemento está obsoleta e será removida em uma versão "
+#~ "futura. No futuro, a configuração do cabeçalho da coluna de tabela do "
+#~ "próprio NVDA controlará os anúncios do cabeçalho da coluna em toda a "
+#~ "suíte SPL e codificadores."
+
+#~ msgid ""
+#~ "When SPL Studio is minimized to the system tray (notification area), NVDA "
+#~ "will announce this fact when trying to switch to Studio from other "
+#~ "programs either through a dedicated command or as a result of an encoder "
+#~ "connecting."
+#~ msgstr ""
+#~ "Quando o SPL Studio está minimizado na bandeja do sistema (área de "
+#~ "notificação), o NVDA anunciará este fato ao tentar mudar para o Studio de "
+#~ "outros programas através de um comando dedicado ou como resultado de uma "
+#~ "conexão de codificador."
+
+#~ msgid ""
+#~ "Due to changes in NVDA, --spl-configvolatile command line switch is no "
+#~ "longer available to make add-on settings read-only. You can emulate this "
+#~ "by unchecking \"Save configuration when exiting NVDA\" checkbox from "
+#~ "NVDA's general settings panel."
+#~ msgstr ""
+#~ "Devido a mudanças no NVDA, a opção de linha de comando --spl-"
+#~ "configvolatile não está mais disponível para tornar as configurações do "
+#~ "complemento somente leitura. Você pode emular isto desmarcando a caixa de "
+#~ "seleção \"Salvar configurações ao sair do NVDA\" no painel de "
+#~ "configurações gerais do NVDA."
+
+#~ msgid ""
+#~ "Removed pilot features setting from Advanced settings category under add-"
+#~ "on settings (Alt+NVDA+0), used to let development snapshot users test "
+#~ "bleeding-edge code."
+#~ msgstr ""
+#~ "Removida a configuração de recursos piloto da categoria Configurações "
+#~ "Avançadas nas configurações do complemento (Alt+NVDA+0), usado para "
+#~ "permitir que os usuários de instantâneos — snapshot — de desenvolvimento "
+#~ "testem o código mais recente."
+
+#~ msgid ""
+#~ "Column navigation commands in Studio are now available in track lists "
+#~ "found in listener requests, insert tracks and other screens."
+#~ msgstr ""
+#~ "Os comandos de navegação de coluna no Studio agora estão disponíveis em "
+#~ "listas de faixas encontradas em solicitações de ouvinte, inserir faixas e "
+#~ "outras telas."
+
+#~ msgid ""
+#~ "Various column navigation commands will behave like NVDA's own table "
+#~ "navigation commands. Besides simplifying these commands, it brings "
+#~ "benefits such as ease of use by low vision users."
+#~ msgstr ""
+#~ "Vários comandos de navegação de coluna se comportarão como os próprios "
+#~ "comandos de navegação de tabela do NVDA. Além de simplificar esses "
+#~ "comandos, traz benefícios como facilidade de uso por usuários baixa visão."
+
+#~ msgid ""
+#~ "Vertical column navigation (Control+Alt+up/down arrow) commands are now "
+#~ "available for Creator, playlist editor, Remote VT, and Track Tool."
+#~ msgstr ""
+#~ "Os comandos de navegação em coluna vertical (Control+Alt+seta pra cima/"
+#~ "baixo) agora estão disponíveis para o Creator, editor de lista de "
+#~ "reprodução, Remote VT e Ferramenta de Faixa."
+
+#~ msgid ""
+#~ "Track columns viewer command (Control+NVDA+hyphen) is now available in "
+#~ "Creator's Playlist Editor and Remote VT."
+#~ msgstr ""
+#~ "O comando do visualizador de colunas de faixa (Control+NVDA+hífen) agora "
+#~ "está disponível no Editor de Lista de Reprodução do Creator e no Remote "
+#~ "VT."
+
+#~ msgid ""
+#~ "Track columns viewer command will respect column order displayed on "
+#~ "screen."
+#~ msgstr ""
+#~ "O comando do visualizador de colunas de faixa respeitará a ordem das "
+#~ "colunas exibidas na tela."
+
+#~ msgid ""
+#~ "In SAM encoders, improved NVDA's responsiveness when pressing Control+F9 "
+#~ "or Control+F10 to connect or disconnect all encoders, respectively. This "
+#~ "may result in increased verbosity when announcing the selected encoder "
+#~ "information."
+#~ msgstr ""
+#~ "Em codificadores SAM, a capacidade de resposta do NVDA melhorada ao "
+#~ "pressionar Control+F9 ou Control+F10 para conectar ou desconectar todos "
+#~ "os codificadores, respectivamente. Isso pode resultar em maior "
+#~ "verbosidade ao anunciar as informações do codificador selecionado."
+
+#~ msgid ""
+#~ "In SPL and AltaCast encoders, pressing F9 will now connect the selected "
+#~ "encoder."
+#~ msgstr ""
+#~ "Em codificadores SPL e AltaCast, pressionar F9 agora conectará o "
+#~ "codificador — encoder — selecionado."

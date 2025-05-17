@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-11 05:29+0000\n"
+"PO-Revision-Date: 2024-03-11 21:56+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Custom Browse Mode\"]]\n"
+msgstr "[[!meta title=\"Özel Tarama Modu\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Author: Noelia Ruiz Martínez, Ever Solis"
+msgstr "Yazarlar: Noelia Ruiz Martínez, Ever Solis"
+
+#. type: Plain text
+msgid ""
+"This add-on is used to activate or deactivate profiles deppending on the "
+"state of browse mode."
+msgstr ""
+"Bu eklenti, Tarama modunun durumuna bağlı olarak profilleri etkinleştirmek "
+"veya devre dışı bırakmak için kullanılır."
+
+#. type: Plain text
+msgid ""
+"Currently, when browse mode is active, a profile named browseMode will be "
+"activated, and it will be deactivated when browse mode becomes inactive."
+msgstr ""
+"Şu anda, tarama modu etkinken, Tarama modu adlı bir profil etkinleştirilecek "
+"ve tarama modu devre dışı bırakıldığında devre dışı bırakılacaktır."
+
+#. type: Plain text
+msgid ""
+"The browseMode profile will be automatically created if it doesn't exist."
+msgstr "Tarama Modu profili mevcut değilse otomatik olarak oluşturulacaktır."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"

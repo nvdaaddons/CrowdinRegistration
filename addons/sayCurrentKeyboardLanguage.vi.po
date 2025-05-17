@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-26 20:46+0000\n"
+"PO-Revision-Date: 2019-06-07 20:13+0700\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
+"Language-Team: \n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"sayCurrentKeyboardLanguage\"]]\n"
+msgstr "[[!meta title=\"Báo ngôn ngữ bàn phím hiện tại\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Author(s): Abdel, Noelia;"
+msgid "Author(s): Abdel, Noelia."
+msgstr "Tác giả: Abdel, Noelia;"
+
+#. type: Title #
+#, no-wrap
+msgid "Presentation"
+msgstr "Trình bày"
+
+#. type: Plain text
+msgid ""
+"This addon was created following a request from a member on the nvda-addons "
+"mailing list."
+msgstr ""
+"Addon được tạo ra theo đề nghị từ một thành viên trên diễn đàn trao đổi qua "
+"thư điện tử của  nvda-addons."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "It provides a keyboard shortcut, NVDA + F4, which allows to retrieve and "
+#| "give the language of the current keyboard."
+msgid ""
+"It provides a script without gesture, which allows to retrieve and give the "
+"language of the current keyboard."
+msgstr ""
+"Nó cung cấp phím lệnh NVDA + F4 để xác định và cho biết ngôn ngữ hiện tại "
+"của bàn phím.  Nếu bấm hai lần sẽ cho biết ngôn ngữ mặc định của hệ thống."
+
+#. type: Plain text
+msgid "If pressed twice, gives the default language of the system."
+msgstr "Nếu bấm hai lần, cho biết ngôn ngữ mặc định của hệ thống."
+
+#. type: Plain text
+msgid ""
+"At the first version of this module, it had been proposed as simple "
+"globalPlugin to paste in the configuration directory of NVDA, it was then "
+"transformed into addon."
+msgstr ""
+"Ở phiên bản đầu tiên của module này, nó được đề nghị như là một globalPlugin "
+"đơn giản để dán vào thư mục cấu hình của NVDA, rồi nó đã được chuyển thành "
+"một addon."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Lưu ý"
+
+#. type: Plain text
+msgid ""
+"To set a gesture to the script giving the keyboard language, follow these "
+"steps:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Open the NVDA's menu, with \"NVDA + N\";"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Go to NVDA's preferences menu;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Then go to the submenu \"Input gestures\"."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Then select the category \"Input\", and open it with right arrow."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "If pressed twice, gives the default language of the system."
+msgid ""
+"Go to the item labeled \"Gives the language of the keyboard in use, if "
+"pressed twice, give the default language of the system\";"
+msgstr "Nếu bấm hai lần, cho biết ngôn ngữ mặc định của hệ thống."
+
+#. type: Bullet: '* '
+msgid ""
+"Once done, press Alt + A to add a gesture, and type \"NVDA + F4\" or another "
+"gesture of your choice;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"This done, press the up arrow once, you hear \"your chosen gesture, all "
+"layout\";"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Validate on enter, then tab to OK then enter;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Your chosen gesture should then call the script giving keyboard language."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Compatibility"
+msgstr "Tương thích"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "This add-on is compatible with the versions of NVDA ranging from 2014.3 "
+#| "until 2019.3."
+msgid ""
+"This add-on is compatible with the versions of NVDA ranging from 2019.3 and "
+"beyond."
+msgstr "Add-on này tương thích với các phiên bản NVDA từ 2014.3 đến 2019.3."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for version 1.0"
+msgid "Changes for 20240326.0.0"
+msgstr "Các thay đổi cho phiên bản 1.0"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility for nvda-2024.1.;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Deleted download link from readme, the download link for future updates will "
+"now only be available from the add-on store."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for version 1.0"
+msgid "Changes for 20231229.0.0"
+msgstr "Các thay đổi cho phiên bản 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a backward compatible implementation to support speak on demand mode, "
+"which will soon be available with nvda-2024.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for version 1.0"
+msgid "Changes for 20230729.0.0"
+msgstr "Các thay đổi cho phiên bản 1.0"
+
+#. type: Bullet: '* '
+msgid "Applied the flake8 and mypy rules to the code;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Changed the minimum supported NVDA version to 2019.3 to support annotations "
+"introduced in Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed the \"NVDA + F4\" gesture calling the script giving the keyboard "
+"language., to allow users to choose their preferred gesture."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for version 1.0"
+msgid "Changes for version 20230426.0.0 and beyond##"
+msgstr "Các thay đổi cho phiên bản 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version number, minimum NVDA version and download link according to "
+"store conventions/requirements."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 19.02"
+msgstr "Các thay đổi cho phiên bản 19.02"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version numbering using YY.MM (The year in 2 digits, followed by a "
+"dot, followed by the month in 2 digits);"
+msgstr ""
+"Thay đổi cách đặt số phiên bản bằng YY.MM (hai chữ số năm, một dấu chấm, hai "
+"chữ số tháng);"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Added compatibility with the new versioning format of add-on, appeared "
+#| "since nvda 2019.1."
+msgid ""
+"Added compatibility with the new versioning format of add-on, appeared since "
+"nvda 2019.1."
+msgstr ""
+"Thêm tương thích với định dạng phiên bản mới của add-on, xuất hiện từ nvda "
+"2019.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.1"
+msgstr "Các thay đổi cho phiên bản 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"The addon has been renamed from getCurKeyboardLanguage to "
+"sayCurrentKeyboardLanguage;"
+msgstr ""
+"Added đã được đổi tên từ getCurKeyboardLanguage thành "
+"sayCurrentKeyboardLanguage;"
+
+#. type: Bullet: '* '
+msgid "Added the GPL license to the addon;"
+msgstr "Thêm giấy phép GPL vào addon;"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the script getCurKeyboardLanguage to the \"System status\" category;"
+msgstr "Thêm kịch bản getCurKeyboardLanguage vào phần \"Trạng thái hệ thống\";"
+
+#. type: Bullet: '* '
+msgid "Fixed some errors in the code."
+msgstr "Sửa vài lỗi trong mã nguồn."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.0"
+msgstr "Các thay đổi cho phiên bản 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Phiên bản đầu tiên."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+#~ msgid ""
+#~ "Download [development version](https://github.com/abdel792/"
+#~ "sayCurrentKeyboardLanguage/releases/download/v23.12.29-beta/"
+#~ "sayCurrentKeyboardLanguage-20231229.0.1.nvda-addon)"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+#~ msgid ""
+#~ "Download [stable version](https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage)"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+
+#~ msgid ""
+#~ "If the NVDA + F4 keyboard shortcut conflicts with another command, you "
+#~ "can change it by going to the Preferences menu of NVDA, in the \"Input "
+#~ "gestures\" submenu."
+#~ msgstr ""
+#~ "Nếu phím lệnh NVDA + F4 bị xung đột với một lệnh khác, bạn có thể thay "
+#~ "đổi bằng cách vào trình đơn cấu hình của NVDA, trong phần \"Quản lý thao "
+#~ "tác\"."
+
+#~ msgid "You will then find the script in the \"System status\" category."
+#~ msgstr ""
+#~ "Rồi bạn sẽ tìm thấy kịch bản trong phân loại \"Trạng thái hệ thống\"."
+
+#, fuzzy
+#~| msgid "Download [stable version][1];"
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Tải về [phiên bản chính thức][1];"
+
+#, fuzzy
+#~| msgid "Download [development version][2]."
+#~ msgid "Download [development version][2]"
+#~ msgstr "Tải về [bản thử nghiệm][2]."
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+#~ msgid ""
+#~ "[2]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ckbl"
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage [2]: https://www.nvaccess.org/addonStore/"
+#~ "legacy?file=sayCurrentKeyboardLanguage"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ckbl"

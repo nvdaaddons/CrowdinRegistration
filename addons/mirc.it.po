@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2019-01-10 11:39+0100\n"
+"Last-Translator: Chris Leo Mameli <llajta2012@gmail.com>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"mIRC\"]]\n"
+msgstr "[[!meta title=\"mIRC\"]]\n"
+
+#. type: Bullet: '*   '
+msgid "Author: Nick Stockton"
+msgstr "Autore: Nick Stockton"
+
+#. type: Bullet: '*   '
+msgid "download [development version][2]"
+msgstr "Scarica la [versione in sviluppo][2]"
+
+#. type: Plain text
+msgid ""
+"This is an enhanced version of the mIRC app module that comes with NVDA."
+msgstr ""
+"Questa è una versione avanzata dell'app module dedicato a mIrc che viene "
+"distribuito con NVDA."
+
+#. type: Plain text
+msgid "From add-on description:"
+msgstr "Dalla descrizione del componente:"
+
+#. type: Plain text
+msgid ""
+"This add-on is an enhanced version of the mIRC App Module included in NVDA."
+msgstr ""
+"Questa è una versione avanzata dell'app module dedicato a mIrc che viene "
+"distribuito con NVDA."
+
+#. type: Bullet: '1.  '
+msgid ""
+"The NVDA navigator object is now automaticly set to the output window of "
+"mIRC in order to make reviewing output easier."
+msgstr ""
+"Il navigatore ad oggetti di NVDA viene sempre posizionato nella finestra di "
+"output di mIRC per facilitare il controllo di ciò che si scrive"
+
+#. type: Bullet: '2.  '
+msgid ""
+"Two new hotkeys (NVDA-8 and NVDA-9) toggle the \"speech interrupt for typed "
+"characters\" and \"speech interrupt for enter key\" settings respectively."
+msgstr ""
+"Due nuovi tasti rapidi (NVDA-8 e NVDA-9) consentono di modificare al volo le "
+"opzioni \"i caratteri digitati interrompono la voce\" e \"il tasto invio "
+"interrompe la voce\", presenti già al menu tastiera di NVDA."
+
+#. type: Bullet: '3.  '
+msgid ""
+"Additionally, NVDA-Enter and numbpad-Enter will set the position of the NVDA "
+"navigator object to the last line of text in the output window and speak it."
+msgstr ""
+"In aggiunta, la combinazione NVDA-Invio oppure l'invio del tastierino "
+"numerico imposterà la posizione del navigatore ad oggetti di NVDA "
+"nell'ultima riga di testo della finestra di Output, leggendola."
+
+#. type: Bullet: '4.  '
+msgid ""
+"The \"report Dynamic Content Changes\", \"caret moves review cursor\", "
+"\"speech interrupt for typed characters\", and \"speech interrupt for enter "
+"key\" settings are now automaticly saved to a special configuration file "
+"when the mIRC window loses focus and restored when it receives focus again."
+msgstr ""
+"Le impostazioni per \"cambiamenti dei contenuti dinamici\", \"movimenti del "
+"cursore di controllo\", \"interruzione voce in scrittura\", \"interruzione "
+"voce al digitare la chiave\", vengono salvate in una specifica "
+"configurazione quando la finestra mIRC  perde il focus in modo da esser "
+"recuperate al ripristino del focus."
+
+#. type: Plain text
+msgid ""
+"Note: NVDA's \"report Dynamic Content Changes\" setting is enabled by "
+"default.  If you use a speech system for mIRC such as Talking IRC or mIRC "
+"With Speech, toggle this setting off with the NVDA-5 hotkey to prevent "
+"incoming lines from being spoken twice."
+msgstr ""
+"Nota: l'annuncio dei \"cambiamenti dinamici\" è attivato di default in NVDA. "
+"Se si usa un sistema di sintesi diferente, come ad esempio Talking IRC o "
+"mIRC con sintesi vocale, è possibile disattivare l'annuncio automatico con "
+"il comando NVDA+5 per evitare la doppia lettura dei messaggi."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=mirc"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=mirc"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=mirc"

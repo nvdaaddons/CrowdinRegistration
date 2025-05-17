@@ -1,0 +1,427 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2019-02-15 18:39+0200\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Focus Highlight\"]]\n"
+msgstr "[[!meta title=\"Focus Highlight\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Authors: Takuya Nishimoto"
+msgid "Authors: Takuya Nishimoto, Karl-Otto Rosenqvist"
+msgstr "Autori: Takuya Nishimoto"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][2]"
+msgstr "Descarcă [Versiunea Stabilă][2]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "Descarcă [versiunea în dezvoltare][1]"
+
+#. type: Plain text
+msgid ""
+"By drawing a colored rectangle, this addon enables partially sighted users, "
+"sighted educators, or developers to track the location of the nvda navigator "
+"object and the focused object/control."
+msgstr ""
+"La desenarea unui dreptunghi colorat, acest supliment le permite "
+"utilizatorilor cu vedere parțială, educatorilor văzători, sau "
+"dezvoltatorilor să urmărească locația navigatorului de obiecte NVDA și "
+"obiectul/controlul focalizat."
+
+#. type: Plain text
+msgid "The following colors are used by this addon:"
+msgstr "Culorile utilizate de către acest add-on sunt:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Green thin dashed dotted line rectangle, to indicate the navigator object."
+msgid ""
+"Green thin dashed-dotted line rectangle shows NVDA is in browse mode, and "
+"this is the navigator object."
+msgstr "Linie verde zimțată pentru a indica obiectul navigatorului."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Red thin rectangle, to indicate the focused object/control."
+msgid ""
+"Red thin rectangle shows NVDA is in browse mode, and this is the focused "
+"object/control."
+msgstr ""
+"Dreptunghi roșu subțire, pentru a indica obiectul sau controlul focalizat."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Red thick rectangle, to indicate when navigator object and focused object "
+#| "are overlapping."
+msgid ""
+"Red thick rectangle shows NVDA is in browse mode, and this is both the "
+"navigator object and the focused object which are overlapping."
+msgstr ""
+"Dreptunghi roșu gros, pentru a indica când obiectul navigatorului și "
+"obiectul focalizat se suprapun."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Blue thick dotted line rectangle, to indicate NVDA is in focus mode, i.e. "
+#| "key types are passed to the control."
+msgid ""
+"Blue thick dotted line rectangle indicates NVDA is in focus mode, i.e., key "
+"types are passed to the control."
+msgstr ""
+"Dreptunghi gros albastru cu peruri subțiri, pentru a indica faptul că NVDA "
+"este în modul focalizare, adică tipurile de taste sunt transmise la control."
+
+#. type: Plain text
+msgid ""
+"To toggle object tracking, press NVDA+Alt+P. You can assign other gestures "
+"using the Input Gestures dialog.  Note that it works with NVDA 2018.3 or "
+"later.  Otherwise, you should disable or uninstall the addon itself for "
+"disabling object tracking."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"When Focus Highlight category of NVDA Settings dialog is available, "
+"following items can be used."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Make focus mode the default: This checkbox is enabled by default. When it is "
+"unchecked, this add-on behaves same as version 5.6 or previous versions, i."
+"e., if browse mode is not available for an app, the focus is shown using the "
+"thick red rectangle."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Focus in focus mode, Focus in browse mode, Navigator object: Each of these "
+"groups contains Color, Thickness, and Style."
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"Color: This edit field allows you to type the HTML color code, i.e., six-"
+"character hexadecimal number. For example, \"ffffff\" is white, \"ff0000\" "
+"is red, and so on. Note that \"000000\" can not be used."
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"Thickness: This edit field allows you to type the thickness of the box. You "
+"can enter a value between 1 and 30."
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid "Style: The choices are Solid, Dash, Dot, Dash dot, and Dash dot-dot."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Restore defaults: This button allows you to reset your settings to their "
+"original defaults."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Changes for 6.3"
+msgstr "Modificări aduse în versiunea 5.0"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Traduceri noi și actualizate."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that dash styles of focus (in browse mode) and navigator "
+"object are not able to change."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that 'Cancel' button of setting panel does not work after "
+"'Restore defaults' button is pressed."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Changes for 6.2"
+msgstr "Modificări aduse în versiunea 5.0"
+
+#. type: Bullet: '* '
+msgid ""
+"You can now turn object tracking on and off using NVDA+Alt+P. Karl-Otto "
+"Rosenqvist contributed for this."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Changes for 6.1"
+msgstr "Modificări aduse în versiunea 5.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/11) "
+#| "regarding version compatibility."
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/14) "
+"with the latest development versions of NVDA."
+msgstr ""
+"Adresa [problema](https://github.com/nvdajp/focusHighlight/issues/11) în "
+"legătură cu compatibilitatea versiunii."
+
+#. type: Bullet: '* '
+msgid ""
+"Focus Highlight category of NVDA Settings dialog is now available. Note that "
+"it works only with NVDA 2018.3 or later."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+#| "regarding Chrome browser and application sleep mode."
+msgid ""
+"[Discussions regarding customizing colors](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+msgstr ""
+"Adresa [problemei](https://github.com/nvdajp/focusHighlight/issues/10) în "
+"legătură cu navigatorul Chrome și modul de repaus al aplicației."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+#| "regarding Chrome browser and application sleep mode."
+msgid ""
+"[Discussions regarding 'Make focus mode the default'](https://github.com/"
+"nvdajp/focusHighlight/issues/13)"
+msgstr ""
+"Adresa [problemei](https://github.com/nvdajp/focusHighlight/issues/10) în "
+"legătură cu navigatorul Chrome și modul de repaus al aplicației."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 5.0"
+msgid "Changes for 6.0"
+msgstr "Modificări aduse în versiunea 5.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+#| "regarding Chrome browser and application sleep mode."
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/13) "
+"regarding the browse mode."
+msgstr ""
+"Adresa [problemei](https://github.com/nvdajp/focusHighlight/issues/10) în "
+"legătură cu navigatorul Chrome și modul de repaus al aplicației."
+
+#. type: Bullet: '* '
+msgid ""
+"Since this version, if the browse mode of NVDA is not available for an "
+"application, it is always shown that NVDA is in focus mode for the "
+"application, rather than using the red thick rectangle."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The thickness of the line representing the focus mode has been reduced to "
+"half."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.6"
+msgstr "Modificări aduse în versiunea 5.6"
+
+#. type: Bullet: '* '
+msgid "Addresses the compatibility issue with NVDA snapshot alpha-16682."
+msgstr "Rezolvă problema de compatibilitate cu snapshot-ul NVDA alpha-16682."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.5"
+msgstr "Modificări aduse în versiunea 5.5"
+
+#. type: Bullet: '* '
+msgid "Addresses the issue with NVDA 2018.4 and Firefox/Chrome web browsers."
+msgstr ""
+"Adresa problemei în legătură cu NVDA 2018.4 și navigatoarele web Firefox & "
+"Chrome."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.4"
+msgstr "Modificări aduse în versiunea 5.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/11) "
+"regarding version compatibility."
+msgstr ""
+"Adresa [problema](https://github.com/nvdajp/focusHighlight/issues/11) în "
+"legătură cu compatibilitatea versiunii."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.3"
+msgstr "Modificări aduse în versiunea 5.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+"regarding Chrome browser and application sleep mode."
+msgstr ""
+"Adresa [problemei](https://github.com/nvdajp/focusHighlight/issues/10) în "
+"legătură cu navigatorul Chrome și modul de repaus al aplicației."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.2"
+msgstr "Modificări aduse în versiunea 5.2"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.1"
+msgstr "Modificări aduse în versiunea 5.1"
+
+#. type: Bullet: '* '
+msgid "Removed debug log output."
+msgstr "A fost eliminată ieșirea jurnalului diagnosticării."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Modificări aduse în versiunea 5.0"
+
+#. type: Bullet: '* '
+msgid "Indicators of navigator object and focus mode were changed."
+msgstr "Indicatorii obiectului navigator au fost modificați."
+
+#. type: Bullet: '* '
+msgid "Multiple monitors are supported."
+msgstr "Sunt suportate monitoare multiple."
+
+#. type: Bullet: '* '
+msgid "It now uses GDI Plus technology for drawing."
+msgstr "Acum, utilizează tehnologia GDI Plus pentru desen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Modificări aduse în versiunea 4.0"
+
+#. type: Bullet: '* '
+msgid "Hide rectangle if current application is in sleep mode."
+msgstr ""
+"Ascunde modul dreptunghi dacă aplicația curentă este în modul de hibernare."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Modificări aduse în versiunea 3.0"
+
+#. type: Bullet: '* '
+msgid "Fixed issue regarding expanded combo box."
+msgstr "S-a rezolvat problema cu privire la casetele combinate extinse."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with Windows Task Manager."
+msgstr "A fost rezolvată problema cu managerul de activități Windows."
+
+#. type: Bullet: '* '
+msgid "Ability to indicate the focus mode."
+msgstr "Capabilitatea de a indica modul de focalizare."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Modificări aduse în versiunea 2.1"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Modificări aduse în 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Ajutorul suplimentului este valabil din managerul de add-on-uri."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Modificări aduse în versiunea 1.1"
+
+#. type: Bullet: '* '
+msgid "Changed navigator object rectangle to jagged line."
+msgstr "A fost modificat obiectul navigatorului la linie zâmțată."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with 'Reload plugins'."
+msgstr "A fost rezolvată problema cu \"Reîncarcă plugin-urile\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Modificări aduse în 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In Internet Explorer 10 and in Skype on Windows 8, fix a problem with the "
+"navigator object."
+msgstr ""
+"În Internet Explorer 10 și în Skype pe Windows 8, a fost rezolvată problema "
+"cu obiectul navigatorului."
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Versiunea inițială."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=fh-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=fh"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+
+#, fuzzy
+#~| msgid "To disable object tracking, uninstall the addon."
+#~ msgid "To disable object tracking, disable or uninstall the addon."
+#~ msgstr "Pentru a dezactiva track obiect, dezinstalează add-on-ul."

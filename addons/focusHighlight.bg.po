@@ -1,0 +1,460 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Zahari Yurukov <zahari.yurukov@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2024-05-24 15:54+0300\n"
+"Last-Translator: Kostadin Kolev <k.kolev1985@gmail.com>\n"
+"Language-Team: Български <>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Bookmarks: -1,16,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Focus Highlight\"]]\n"
+msgstr "[[!meta title=\"Открояване на фокуса (Focus Highlight)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Takuya Nishimoto, Karl-Otto Rosenqvist"
+msgstr "Автори: Takuya Nishimoto, Karl-Otto Rosenqvist"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][2]"
+msgstr "Изтегляне на [стабилна версия][2]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "Изтегляне на [тестова версия][1]"
+
+#. type: Plain text
+msgid ""
+"By drawing a colored rectangle, this addon enables partially sighted users, "
+"sighted educators, or developers to track the location of the nvda navigator "
+"object and the focused object/control."
+msgstr ""
+"Тази добавка начертава цветен правоъгълник на екрана, позволявайки на "
+"слабовиждащи потребители на NVDA, зрящи преподаватели или разработчици да "
+"проследяват местоположението на навигационния обект на NVDA или обекта на "
+"фокус."
+
+#. type: Plain text
+msgid "The following colors are used by this addon:"
+msgstr "Добавката използва следните цветове:"
+
+#. type: Bullet: '* '
+msgid ""
+"Green thin dashed-dotted line rectangle shows NVDA is in browse mode, and "
+"this is the navigator object."
+msgstr ""
+"Правоъгълник от тънка зелена линия от тирета и точки указва, че NVDA е в "
+"режим на разглеждане и това е и навигационния обект."
+
+#. type: Bullet: '* '
+msgid ""
+"Red thin rectangle shows NVDA is in browse mode, and this is the focused "
+"object/control."
+msgstr ""
+"тънък червен правоъгълник указва, че NVDA е в режим на разглеждане и това е "
+"и обекта или контролата на фокус."
+
+#. type: Bullet: '* '
+msgid ""
+"Red thick rectangle shows NVDA is in browse mode, and this is both the "
+"navigator object and the focused object which are overlapping."
+msgstr ""
+"Плътен червен правоъгълник указва, че NVDA е в режим на разглеждане и това е "
+"ситуацията, в която обектът на фокус и навигационният обект съвпадат."
+
+#. type: Bullet: '* '
+msgid ""
+"Blue thick dotted line rectangle indicates NVDA is in focus mode, i.e., key "
+"types are passed to the control."
+msgstr ""
+"Правоъгълник от дебела синя линия от точки (пунктирана) за указване че NVDA "
+"е в режим на фокус (т.е. въвежданите клавиши се предават директно на "
+"фокусираната контрола)."
+
+#. type: Plain text
+msgid ""
+"To toggle object tracking, press NVDA+Alt+P. You can assign other gestures "
+"using the Input Gestures dialog.  Note that it works with NVDA 2018.3 or "
+"later.  Otherwise, you should disable or uninstall the addon itself for "
+"disabling object tracking."
+msgstr ""
+"За да включите/изключите проследяването на обекти, натиснете NVDA+Alt+P. "
+"Можете да зададете други жестове, като използвате диалоговия прозорец "
+"\"Жестове на въвеждане\". Имайте предвид, че това работи с NVDA 2018.3 или "
+"по-нова версия. В противен случай трябва да деактивирате или деинсталирате "
+"самата добавка, за да изключите проследяването на обекти."
+
+#. type: Plain text
+msgid ""
+"When Focus Highlight category of NVDA Settings dialog is available, "
+"following items can be used."
+msgstr ""
+"Когато е налична категорията \"Открояване на фокуса\" в прозореца с "
+"настройките на NVDA, можете да използвате следните елементи."
+
+#. type: Bullet: '* '
+msgid ""
+"Make focus mode the default: This checkbox is enabled by default. When it is "
+"unchecked, this add-on behaves same as version 5.6 or previous versions, i."
+"e., if browse mode is not available for an app, the focus is shown using the "
+"thick red rectangle."
+msgstr ""
+"Режимът на фокус да е зададен по подразбиране: В това поле за отметка по "
+"подразбиране има отметка. Когато няма отметка, поведението на добавката е "
+"същото като във версия 5.6 или по-старите версии (т.е. ако режимът на "
+"преглед не е достъпен за дадено приложение, фокусът се показва с помощта на "
+"дебел червен правоъгълник)."
+
+#. type: Bullet: '* '
+msgid ""
+"Focus in focus mode, Focus in browse mode, Navigator object: Each of these "
+"groups contains Color, Thickness, and Style."
+msgstr ""
+"Фокусиране в режим на фокус, фокусиране в режим на преглед, навигационен "
+"обект: Всяка от тези групи съдържа настройки за цвят, дебелина и стил."
+
+#. type: Bullet: '    * '
+msgid ""
+"Color: This edit field allows you to type the HTML color code, i.e., six-"
+"character hexadecimal number. For example, \"ffffff\" is white, \"ff0000\" "
+"is red, and so on. Note that \"000000\" can not be used."
+msgstr ""
+"Цвят: Това текстово поле ви позволява да въведете HTML кода на цветовете, т."
+"е. шест знаков шестнадесетичен номер. Например, \"ffffff\" е бяло, "
+"\"ff0000\" е червено и т.н. Имайте предвид, че \"000000\" не може да се "
+"използва."
+
+#. type: Bullet: '    * '
+msgid ""
+"Thickness: This edit field allows you to type the thickness of the box. You "
+"can enter a value between 1 and 30."
+msgstr ""
+"Дебелина: Това поле за редактиране ви позволява да въведете дебелината на "
+"правоъгълника. Можете да въведете стойност между 1 и 30."
+
+#. type: Bullet: '    * '
+msgid "Style: The choices are Solid, Dash, Dot, Dash dot, and Dash dot-dot."
+msgstr ""
+"Стил: Можете да избирате между плътен, тирета, точки, тирета точки и тирета "
+"точки-точки."
+
+#. type: Bullet: '* '
+msgid ""
+"Restore defaults: This button allows you to reset your settings to their "
+"original defaults."
+msgstr ""
+"Възстановяване на настройките по подразбиране: Този бутон ви позволява да "
+"зададете отново настройките по подразбиране."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.3"
+msgstr "Промени във версия 6.3"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Нови и обновени преводи."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that dash styles of focus (in browse mode) and navigator "
+"object are not able to change."
+msgstr ""
+"Отстранен е проблемът, при който стиловете с тирета за фокуса (в режим на "
+"разглеждане) и за навигационния обект не могат да се променят."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that 'Cancel' button of setting panel does not work after "
+"'Restore defaults' button is pressed."
+msgstr ""
+"Отстранен е проблемът, при който бутонът \"Отказ\" в панела с настройките не "
+"работи след натискане на бутона \"Възстанови настройките по подразбиране\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.2"
+msgstr "Промени във версия 6.2"
+
+#. type: Bullet: '* '
+msgid ""
+"You can now turn object tracking on and off using NVDA+Alt+P. Karl-Otto "
+"Rosenqvist contributed for this."
+msgstr ""
+"Сега можете да включите или изключите проследяването на обекти с натискане "
+"на NVDA+Alt+P. Karl-Otto Rosenqvist допринесе за тази функция."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.1"
+msgstr "Промени във версия 6.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/14) "
+"with the latest development versions of NVDA."
+msgstr ""
+"Адресира [проблема](https://github.com/nvdajp/focusHighlight/issues/14) с "
+"най-новите тестови версии на NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"Focus Highlight category of NVDA Settings dialog is now available. Note that "
+"it works only with NVDA 2018.3 or later."
+msgstr ""
+"В настройките на NVDA вече е налична категорията \"Открояване на фокуса\". "
+"Имайте предвид, че това сработва само в NVDA 2018.3 или по-нови."
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding customizing colors](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+msgstr ""
+"[Дискусии относно персонализирането на цветовете](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding 'Make focus mode the default'](https://github.com/"
+"nvdajp/focusHighlight/issues/13)"
+msgstr ""
+"[Дискусии относно задаването на режима на фокус като такъв по подразбиране]"
+"(https://github.com/nvdajp/focusHighlight/issues/13)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Промени във версия 6.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/13) "
+"regarding the browse mode."
+msgstr ""
+"Адресира [проблема](https://github.com/nvdajp/focusHighlight/issues/13) "
+"относно режима на разглеждане."
+
+#. type: Bullet: '* '
+msgid ""
+"Since this version, if the browse mode of NVDA is not available for an "
+"application, it is always shown that NVDA is in focus mode for the "
+"application, rather than using the red thick rectangle."
+msgstr ""
+"От тази версия, ако режимът на разглеждане на NVDA не е налице за текущото "
+"приложение, винаги се показва, че NVDA е в режим на фокус за приложението, "
+"вместо да се използва червения дебел правоъгълник."
+
+#. type: Bullet: '* '
+msgid ""
+"The thickness of the line representing the focus mode has been reduced to "
+"half."
+msgstr ""
+"Дебелината на линията, която указва режима на фокус, е намалена наполовина."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.6"
+msgstr "Промени във версия 5.6"
+
+#. type: Bullet: '* '
+msgid "Addresses the compatibility issue with NVDA snapshot alpha-16682."
+msgstr "Отстранена е несъвместимостта с версия alpha-16682 на NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.5"
+msgstr "Промени във версия 5.5"
+
+#. type: Bullet: '* '
+msgid "Addresses the issue with NVDA 2018.4 and Firefox/Chrome web browsers."
+msgstr "Адресира проблема с NVDA 2018.4 и уеб браузърите Firefox и Chrome."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.4"
+msgstr "Промени във версия 5.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/11) "
+"regarding version compatibility."
+msgstr ""
+"Адресира [проблема](https://github.com/nvdajp/focusHighlight/issues/11) "
+"относно съвместимостта с по-нови версии."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.3"
+msgstr "Промени във версия 5.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+"regarding Chrome browser and application sleep mode."
+msgstr ""
+"Адресира [проблема](https://github.com/nvdajp/focusHighlight/issues/10) "
+"относно браузъра Chrome и режима на заспиване в приложението."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.2"
+msgstr "Промени във версия 5.2"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.1"
+msgstr "Промени във версия 5.1"
+
+#. type: Bullet: '* '
+msgid "Removed debug log output."
+msgstr ""
+"Премахнато е извеждането в протокол на информацията за отстраняване на "
+"грешки."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Промени във версия 5.0"
+
+#. type: Bullet: '* '
+msgid "Indicators of navigator object and focus mode were changed."
+msgstr "Указателите за навигационния обект и режима на фокус са променени."
+
+#. type: Bullet: '* '
+msgid "Multiple monitors are supported."
+msgstr "Поддръжка за изход към няколко монитора."
+
+#. type: Bullet: '* '
+msgid "It now uses GDI Plus technology for drawing."
+msgstr "Вече за изобразяване се използва технологията GDI Plus."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Промени във версия 4.0"
+
+#. type: Bullet: '* '
+msgid "Hide rectangle if current application is in sleep mode."
+msgstr ""
+"Правоъгълникът ще бъде скриван, ако NVDA е в спящ режим за текущо "
+"фокусираното приложение."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Промени във версия 3.0"
+
+#. type: Bullet: '* '
+msgid "Fixed issue regarding expanded combo box."
+msgstr "Отстранен е проблем, свързан с разгънати падащи списъци."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with Windows Task Manager."
+msgstr "Поправен проблем с диспечера на задачите в Windows."
+
+#. type: Bullet: '* '
+msgid "Ability to indicate the focus mode."
+msgstr "Възможност да се показва, че NVDA е в режим на фокус."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Промени във версия 2.1"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Промени във версия 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Помощта за добавката е достъпна от мениджъра на добавките."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Промени във версия 1.1"
+
+#. type: Bullet: '* '
+msgid "Changed navigator object rectangle to jagged line."
+msgstr ""
+"Правоъгълникът, обозначаващ навигационния обект, е променен на зелена "
+"назъбена линия."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with 'Reload plugins'."
+msgstr "Поправен проблем с командата 'Презареди добавките'."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Промени във версия 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In Internet Explorer 10 and in Skype on Windows 8, fix a problem with the "
+"navigator object."
+msgstr ""
+"Отстранен е проблем с навигационния обект в Internet Explorer 10 и в Skype "
+"под Windows 8."
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Първоначално издание"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=fh-dev"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=fh-dev"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=fh"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=fh"
+
+#~ msgid ""
+#~ "* Focus in focus mode, Focus in browse mode, Navigator object: Each of "
+#~ "these groups contains Color, Thickness, and Style.\n"
+#~ "  * Color: This edit field allows you to type the HTML color code, i.e., "
+#~ "six-character hexadecimal number. For example, \"ffffff\" is white, "
+#~ "\"ff0000\" is red, and so on. Note that \"000000\" can not be used.\n"
+#~ "  * Thickness: This edit field allows you to type the thickness of the "
+#~ "box. You can enter a value between 1 and 30.\n"
+#~ "  * Style: The choices are Solid, Dash, Dot, Dash dot, and Dash dot-dot.\n"
+#~ "* Restore defaults: This button allows you to reset your settings to "
+#~ "their original defaults.\n"
+#~ msgstr ""
+#~ "* Фокусиране в режим на фокус, фокусиране в режим на преглед, "
+#~ "навигационен обект: Всяка от тези групи съдържа настройки за цвят, "
+#~ "дебелина и Стил.\n"
+#~ "  * Цвят: Това текстово поле ви позволява да въведете HTML кода на "
+#~ "цветовете, т.е. шест знаков шестнадесетичен номер. Например, \"ffffff\" е "
+#~ "бяло, \"ff0000\" е червено и т.н. Имайте предвид, че \"000000\" не може "
+#~ "да се използва.\n"
+#~ "  * Дебелина: Това поле за редактиране ви позволява да въведете "
+#~ "дебелината на правоъгълника. Можете да въведете стойност между 1 и 30.\n"
+#~ "  * Стил: Можете да избирате между плътен, тирета, точки, тирета точки и "
+#~ "тирета точки-точки.\n"
+#~ "* Възстановяване на настройките по подразбиране: Този бутон ви позволява "
+#~ "да зададете отново настройките по подразбиране.\n"
+
+#~ msgid "To disable object tracking, disable or uninstall the addon."
+#~ msgstr ""
+#~ "За да изключите проследяването на обектите, премахнете или забранете "
+#~ "добавката."

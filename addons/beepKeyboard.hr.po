@@ -1,0 +1,237 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Dejana Rakić <dejana.rakic.2@gmail.com>, 2019.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Beep Keyboard\n"
+"POT-Creation-Date: 2025-04-30 11:45+0000\n"
+"PO-Revision-Date: 2024-05-12 12:53+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Beep Keyboard\"]]\n"
+msgstr "[[!meta title=\"Zvučni signali za tipkovnicu (Beep Keyboard)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: David CM"
+msgstr "Autor: David CM"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Bullet: '* '
+msgid "Download [Development version][2]"
+msgstr "Preuzmi [razvojnu verziju][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2018.2 to 2019.2"
+msgstr "NVDA kompatibilnost: 2018.2 do 2019.2"
+
+#. type: Plain text
+msgid ""
+"This add-on allows the user to configure NVDA to beeps with some keyboard "
+"events."
+msgstr ""
+"Ovaj dodatak dopušta korisniku konfigurirati NVDA, kako bi se koristili "
+"zvučni signali za neke događaje na tipkovnici."
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr "Funkcije"
+
+#. type: Plain text
+msgid ""
+"This add-on provides the following features you can use to adapt NVDA "
+"keyboard behavior:"
+msgstr ""
+"Ovaj dodatak pruža sljedeće funkcije, pomoću kojih je moguće prilagoditi "
+"način rada NVDA tipkovnice:"
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for uppercases when caps lock is on: if this feature is enabled, NVDA "
+"will beep when you typing an uppercase and caps lock is on. Don't make any "
+"more uppercase mistakes!"
+msgstr ""
+"Zvučni signal za velika slova kad su velika slova uključena: ako je ova "
+"funkcija uključena, NVDA će odsvirati zvučni signal tijekom tipkanja velikih "
+"slova, kad je tipkanje velikim slovima uključeno. S ovom funkcijom više "
+"nećeš griješiti!"
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for typed characters when shift is pressed: with this feature NVDA will "
+"beep if you type a character with shift key pressed."
+msgstr ""
+"Zvučni signal za tipkane znakove kad je tipka šift pritisnuta: s ovom "
+"funkcijom će NVDA odsvirati zvučni signal tijekom tipkanja znakova s "
+"istovremeno pritisnutom tipkom šift."
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for toggle keys changes: with this feature, NVDA will beep higher if a "
+"toggle key goes on, and lower tone if it goes off. Please note that Windows "
+"has a toggle keys beep function built-in on Ease of Access Center. This "
+"native feature works well if you don't use laptop keyboard layout setting."
+msgstr ""
+"Zvučni signal za promjenu stanja preklopnih tipki: s ovom funkcijom će NVDA "
+"odsvirati viši zvučni signal, ako se preklopna tipka uključi, a niži zvučni "
+"signal, ako se isključi. Napomena: Windows ima ugrađeni zvučni signal za "
+"preklopne tipke u centru za olakšani pristup. Ova izvorna funkcija radi "
+"dobro, ako se ne koristi postavka za raspored tipkovnice na laptopu."
+
+#. type: Bullet: '* '
+msgid ""
+"Announce toggle keys changes: just when \"Beep for toggle keys changes\" is "
+"on. You can enable or disable NVDA to announce toggle key status."
+msgstr ""
+"Najavi promjene stanja preklopnih tipki: samo kad je „Zvučni signal za "
+"promjenu stanja preklopnih tipki” uključeno. Najavljivanje promjena stanja "
+"preklopnih tipki je moguće uključiti ili isključiti."
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for specified characters: NVDA will beep for all characters that you "
+"set in advanced settings."
+msgstr ""
+"Zvučni signal za određene znakove: NVDA će odsvirati zvučni signal za sve "
+"znakove koji su postavljeni u naprednim postavkama."
+
+#. type: Bullet: '* '
+msgid ""
+"Disable beeping on password fields: this feature is enabled by default to "
+"aboid security risks. Disable it if you want to hear beeps on password "
+"fields."
+msgstr ""
+"Isključi zvučni signal u poljima za lozinku: ova je funkcija standardno "
+"isključena iz sigurnosnih razloga. Isključi signal, ako želiš čuti zvučni "
+"signal u poljima za lozinku."
+
+#. type: Title ##
+#, no-wrap
+msgid "Requirements"
+msgstr "Preduvjeti"
+
+#. type: Plain text
+msgid "You need NVDA 2018.2 or later."
+msgstr "Potrebna je NVDA verzija 2018.2 ili novija."
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation"
+msgstr "Instalacija"
+
+#. type: Plain text
+msgid "Just install it as a NVDA add-on."
+msgstr "Instaliraj ga kao NVDA dodatak."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Primjena"
+
+#. type: Plain text
+#, no-wrap
+msgid "To enable or disable features, go to NVDA settings and select beep keyboard category. In that category you can configure all  supported features by this add-on.  \n"
+msgstr "Za uključivanje ili isključivanje funkcije, prijeđi na NVDA postavke i odaberi kategoriju „Zvučni signali za tipkovnicu”. U toj kategoriji je moguće konfigurirati sve funkcije koje ovaj dodatak podržava.  \n"
+
+#. type: Bullet: '* '
+msgid "\"Beep for uppercases when caps lock is on\" is enabled by default."
+msgstr ""
+"„Zvučni signal za velika slova kad su velika slova uključena” je standardno "
+"aktivirano."
+
+#. type: Plain text
+msgid ""
+"If you need more settings, open the advanced settings dialog that contains "
+"the following options:"
+msgstr ""
+"Ako trebaš daljnje postavke, otvori dijaloški okvir s naprednim postavkama, "
+"koji sadrži sljedeće opcije:"
+
+#. type: Bullet: '* '
+msgid ""
+"Ignored characters with shift pressed: all characters here will be ignored "
+"to beeping when shift is pressed. Escape Sequences are allowed, e.g. \"\\t\" "
+"for tab, \"\\r\" for carriage return."
+msgstr ""
+"Zanemareni znakovi s pritisnutom tipkom šift: zvučni signali će se "
+"ignorirati za sve ovdje navedene znakove, kad je pritisnuta tipka šift. "
+"Dozvoljena je upotreba slijeda znakova, npr. \"\\t\" za tabulator, \"\\r\" "
+"za prekid retka."
+
+#. type: Bullet: '* '
+msgid ""
+"Beep always for the following characters: set here all characters that you "
+"want NVDA beeps for. Escape Sequences are allowed, e.g. \"\\t\" for tab, "
+"\"\\r\" for carriage return."
+msgstr ""
+"Uvijek odsviraj zvučni signal za sljedeće znakove: ovdje postavi sve "
+"znakove, za koje želiš da NVDA odsvira zvučni signal. Dozvoljena je upotreba "
+"slijeda znakova, npr. \"\\t\" za tabulator, \"\\r\" za prekid retka."
+
+#. type: Bullet: '* '
+msgid ""
+"Select tone to configure: you can configure parameters for all tones. Select "
+"one here, and set the parameters in the next text boxes. When change "
+"selection, NVDA will beep for the current selected tone with the current "
+"parameters set in the dialog."
+msgstr ""
+"Odaberi zvuk koji želiš konfigurirati: možeš konfigurirati parametre za sve "
+"zvukove. Ovdje odaberi jedan zvuk i postavi parametre u sljedećim "
+"tekstualnim okvirima. Prilikom promjene odabira, NVDA će odsvirati zvučni "
+"signal za trenutačno odabrani zvuk s trenutačno postavljenim parametrima u "
+"dijaloškom okviru."
+
+#. type: Bullet: '* '
+msgid "Tone pitch: tone pitch for the current selected tone."
+msgstr "Visina zvuka: visina zvuka za trenutačno odabrani zvuk."
+
+#. type: Bullet: '* '
+msgid "Tone length: tone length for the current selected tone."
+msgstr "Duljina zvuka: duljina zvuka za trenutačno odabrani zvuk."
+
+#. type: Bullet: '* '
+msgid "Tone volume: tone volume for the current selected tone."
+msgstr "Glasnoća zvuka: glasnoća zvuka za trenutačno odabrani zvuk."
+
+#. type: Bullet: '* '
+msgid ""
+"Test tone: this button lets you to play a test with the current set "
+"parameters."
+msgstr ""
+"Testiranje zvuka: ovaj gumb omogućuje sviranje zvuka s trenutačno "
+"postavljenim parametrima."
+
+#. type: Bullet: '* '
+msgid "Press OK button to save settings or cancel to discard."
+msgstr ""
+"Pritisni gumb „U redu” za spremanje postavki ili pritisni gumb „Odustani” za "
+"prekid."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"

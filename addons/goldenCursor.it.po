@@ -1,0 +1,444 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-18 13:54+0000\n"
+"PO-Revision-Date: 2020-05-20 09:07+0200\n"
+"Last-Translator: Fabrizio Marini <marini.carlo@fastwebnet.it>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Golden Cursor\"]]\n"
+msgstr "[[!meta title=\"Golden Cursor\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: salah atair, Joseph Lee"
+msgstr "Autori: salah atair, Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Scarica la [versione stabile][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA compatibility: 2019.3 and beyond"
+msgid "NVDA compatibility: 2023.3.4 and beyond"
+msgstr "Compatibilità con NVDA: versione 2019.3 e successive"
+
+#. type: Plain text
+msgid ""
+"This add-on allows you to move the mouse using a keyboard and save mouse "
+"positions for applications."
+msgstr ""
+"Questo add-on permette di spostare il mouse con la tastiera e di salvare le "
+"posizioni del mouse per le applicazioni."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key commands"
+msgstr "Comandi disponibili"
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+L: view saved mouse positions for an application, if any. You "
+"can also assign gestures to these positions from this dialog. When pressing "
+"the assigned gesture, a left click will be performed in the saved position."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+NVDA+l: save a tag or a label for the current mouse position in the "
+"currently focused application."
+msgstr ""
+"Shift+NVDA+l: Apre una finestra di dialogo per etichettare e salvare la "
+"posizione corrente del mouse."
+
+#. type: Bullet: '* '
+msgid "Windows+NVDA+C: change mouse movement unit."
+msgstr "Windows+NVDA+C: Cambia l'unità di misura per il movimento del mouse."
+
+#. type: Bullet: '* '
+msgid "Windows+NVDA+R: toggle mouse restriction."
+msgstr "Windows+NVDA+R: commuta tra le due  restrizioni del mouse."
+
+#. type: Bullet: '* '
+msgid "Windows+NVDA+S: toggle reporting of mouse position in pixels."
+msgstr ""
+"Windows+nvda+s: attiva/disattiva la vocalizzazione della posizione del mouse "
+"in pixel."
+
+#. type: Bullet: '* '
+msgid "Windows+NVDA+J: move mouse to a specific x and y position."
+msgstr "Windows+NVDA+J: Sposta il mouse ad una coordinata specifica X Y."
+
+#. type: Bullet: '* '
+msgid "Windows+NVDA+P: report mouse position."
+msgstr "Windows+NVDA+P: Dice la posizione del mouse."
+
+#. type: Bullet: '* '
+msgid "Windows+NVDA+M: sswitch mouse arrows on or off."
+msgstr ""
+"Windows+NVDA+M: attiva o disattiva il movimento del mouse tramite i tasti "
+"freccia."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows+NVDA+arrow keys (or just arrow keys if mouse arrows is on): move "
+"mouse."
+msgstr ""
+"Windows+NVDA+frecce (o solo frecce se è attiva la funzione movimento del "
+"mouse tramite tasti freccia: sposta il mouse."
+
+#. type: Plain text
+msgid ""
+"Note: these gestures can be reassigned via NVDA's Input Gestures dialog "
+"under Golden Cursor category."
+msgstr ""
+"Nota: questi tasti possono essere riassegnati alla voce gesti e tasti di "
+"immissione nel menu preferenze di NVDA alla categoria Golden Cursor."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Note"
+
+#. type: Bullet: '* '
+msgid ""
+"When sharing positions (tags), each party should use same display resolution."
+msgstr ""
+"Se si condividono le posizioni (tag), la persona che le riceve deve "
+"utilizzare la stessa risoluzione dello schermo."
+
+#. type: Bullet: '* '
+msgid ""
+"For maximum compatibility, you should maximize windows by pressing "
+"Windows+Up arrow."
+msgstr ""
+"Per una compatibilità ottimale, si consiglia di ingrandire la finestra "
+"servendosi della combinazione windows-freccia su."
+
+#. type: Bullet: '* '
+msgid "When sharing positions, existing position labels should be renamed."
+msgstr ""
+"Quando si condividono le posizioni, eventuali etichette esistenti devono "
+"essere rinominate."
+
+#. type: Bullet: '* '
+msgid "Version 1.x and 2.x mouse position formats are incompatible."
+msgstr ""
+"I formati usati per salvare le posizioni mouse nelle versioni 1.x e 2.x sono "
+"incompatibili."
+
+#. type: Bullet: '* '
+msgid ""
+"To perform functions that require use of arrow keys, turn off mouse arrows "
+"first."
+msgstr ""
+"Per eseguire le funzioni che richiedono l'uso dei tasti freccia, disattivare "
+"la funzione movimento del mouse tramite tasti freccia."
+
+#. type: Bullet: '* '
+msgid ""
+"When deleting saved positions, if there are no saved positions left, "
+"positions for the application will be cleared."
+msgstr ""
+"Quando si cancellano le posizioni memorizzate, se non sono rimaste posizioni "
+"salvate, verranno eliminate le posizioni per l'applicazione."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 2.1"
+msgid "Version 6.2"
+msgstr "Novità nella versione 2.1"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2019.3 or later."
+msgid "Requires NVDA 2022.4 or later."
+msgstr "Richiede NVDA 2019.3 o superiore."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
+msgid "Compatible with NVDA 2023.1."
+msgstr "Compatibile con NVDA 2018.3 (wxPython 4)."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 2.1"
+msgid "Version 6.1"
+msgstr "Novità nella versione 2.1"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2019.3 or later."
+msgid "Requires NVDA 2021.3 or later."
+msgstr "Richiede NVDA 2019.3 o superiore."
+
+#. type: Bullet: '* '
+msgid ""
+"Now, you can assign shortcuts for saved positions from the positions list. "
+"When pressing a shortcut, a left click will be performed for the position."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 4.0"
+msgid "Version 5.0"
+msgstr "Novità nella versione 4.0"
+
+#. type: Bullet: '* '
+msgid "Modernized add-on source code to make it compatible with NVDA 2021.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 4.0"
+msgstr "Novità nella versione 4.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Richiede NVDA 2019.3 o superiore."
+
+#. type: Bullet: '* '
+msgid ""
+"Golden Cursor settings dialog has been replaced by Golden Cursor settings "
+"panel."
+msgstr ""
+"La finestra di dialogo Impostazioni di Golden Cursor, presente nel menu "
+"Preferenze di NVDA, è stata sostituita dalla categoria Golden Cursor nella "
+"finestra Impostazioni di NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 3.3"
+msgstr "Novità nella versione 3.3"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Modifiche interne per supportare le versioni future di NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 3.2"
+msgstr "Novità nella versione 3.2"
+
+#. type: Bullet: '* '
+msgid "Add-on is compatible with NVDA 2018.3 (wxPython 4)."
+msgstr "Compatibile con NVDA 2018.3 (wxPython 4)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 3.0"
+msgstr "Novità nella versione 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"If using NVDA 2018.2, add-on settings will be found in new multi-category "
+"settings screen under \"Golden Cursor\" category."
+msgstr ""
+"Se si utilizza NVDA 2018.2, le impostazioni del componente aggiuntivo si "
+"trovano nella nuova schermata multicategoria delle impostazioni di NVDA, "
+"alla voce Golden Cursor."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.1"
+msgstr "Novità nella versione 2.1"
+
+#. type: Bullet: '* '
+msgid "Fixed unicode decode error when trying to delete tag name."
+msgstr ""
+"Risolto un problema di decodifica unicode quando si elimina il nome di un "
+"tag."
+
+#. type: Bullet: '* '
+msgid "Prevent Multiple Instances When Opening various add-on Dialogs."
+msgstr ""
+"Non vengono create più istanze all'apertura di varie finestre di dialogo del "
+"componente aggiuntivo."
+
+#. type: Bullet: '* '
+msgid ""
+"Improved appearance of mouse positions list and jump to position dialogs."
+msgstr ""
+"Migliorato l'aspetto dell'elenco posizioni mouse e della finestra \"vai a "
+"posizione\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.0"
+msgstr "Novità nella versione 2.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2017.3 and later."
+msgstr "Richiede NVDA 2017.3 o superiore."
+
+#. type: Bullet: '* '
+msgid ""
+"Position file format is incompatible with 1.x versions. If 1.x position "
+"format is found, old positions will be migrated to the new format during "
+"installation."
+msgstr ""
+"Il Formato del file contenente le posizioni è incompatibile con la versione "
+"1.x. Se viene rilevato un formato precedente, le posizioni verranno migrate "
+"al nuovo formato durante l'installazione."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new Golden Cursor settings dialog in NVDA's Preferences menu to "
+"configure mouse movement unit and announcement of mouse positions as mouse "
+"moves."
+msgstr ""
+"Aggiunta una nuova finestra di dialogo chiamata Golden Cursor nel menu "
+"preferenze di NVDA  per configurare l'unità di misura per il movimento del "
+"mouse e la lettura della posizione del mouse mentre si sposta."
+
+#. type: Bullet: '* '
+msgid "Various messages from this add-on has changed."
+msgstr "Modificati diversi messaggi di questo componente aggiuntivo."
+
+#. type: Bullet: '* '
+msgid "When toggling various settings, toggle tone will no longer be heard."
+msgstr ""
+"Durante la modifica delle impostazioni, non si udirà più il segnale acustico "
+"di attivazione e disattivazione."
+
+#. type: Bullet: '* '
+msgid ""
+"You can now enter mouse arrows mode where you can move the mouse by pressing "
+"just arrow keys."
+msgstr ""
+"Ora è disponibile una nuova funzione,  movimento del mouse tramite frecce ; "
+"in questo modo sarà possibile spostare il puntatore direttamente con i tasti "
+"frecci."
+
+#. type: Bullet: '* '
+msgid ""
+"Changes to positions list dialog, including new name (now called Mouse "
+"Positions) and layout, displaying mouse coordinates for a label, and showing "
+"the name of the active app as part of the title."
+msgstr ""
+"Modifiche alla finestra elenco posizioni, che comprendono un nuovo nome (ora "
+"si chiama posizioni mouse) e layout, la visualizzazione delle coordinate "
+"mouse per un'etichetta e l'inclusione del nome dell'app attiva come parte "
+"del titolo."
+
+#. type: Bullet: '* '
+msgid ""
+"From Mouse Positions dialog, pressing Enter on a saved label will move the "
+"mouse to the saved location."
+msgstr ""
+"Dalle impostazioni posizione mouse, premendo invio su un'etichetta, il mouse "
+"si sposterà alla posizione salvata."
+
+#. type: Bullet: '* '
+msgid ""
+"When renaming a mouse position, an error dialog will be shown if a label "
+"with the same name as the new name exists."
+msgstr ""
+"Quando si rinomina una posizione mouse, verrà mostrato un messaggio di "
+"errore nel caso in cui esista già un'etichetta con lo stesso nome."
+
+#. type: Bullet: '* '
+msgid ""
+"When deleting or clearing mouse positions, you must now answer Yes before "
+"positions are deleted and/or cleared."
+msgstr ""
+"Quando si cancellano o si puliscono i settaggi delle posizioni mouse, sarà "
+"necessario confermare con un sì."
+
+#. type: Bullet: '* '
+msgid ""
+"Changes to mouse jump feature, including a new name (now called New mouse "
+"position) and ability to enter X and Y coordinates separately or by using up "
+"or down arrow keys."
+msgstr ""
+"Cambiamenti alla funzione \"vai a posizione\", tra cui un nuovo nome (ora si "
+"chiama Nuova posizione del mouse) e la capacità di inserire le coordinate X "
+"e Y separatamente o utilizzando i tasti freccia su o giù."
+
+#. type: Bullet: '* '
+msgid ""
+"The dialog shown when saving the current mouse position now shows "
+"coordinates for current mouse location."
+msgstr ""
+"La finestra di dialogo mostrata quando si salva la posizione corrente del "
+"mouse ora mostra le coordinate per la posizione corrente del mouse."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "When saving positions, resolved an issue where NVDA may play error tones "
+#| "if the positions folder does not exist."
+msgid ""
+"When saving positions, resolved an issue where NVDA may play error tones if "
+"the positions folder does not exist."
+msgstr ""
+"Durante il salvataggio delle posizioni, risolto un problema dove NVDA "
+"emetteva suoni di errore nel caso in cui la cartella contenente le posizioni "
+"non esisteva."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 1.4"
+msgstr "Novità nella versione 1.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed win32api dependency to make it compatible with past and future "
+"versions of NVDA."
+msgstr ""
+"Rimosse le dipendenze Win32Api per rendere il componente compatibile con "
+"versioni passate e future di NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 1.0"
+msgstr "Novità nella versione 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release."
+msgstr "Versione iniziale."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable dev]]\n"
+msgstr "[[!tag stable dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=gc"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=goldenCursor"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=gc"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev"
+
+#~ msgid ""
+#~ "Control+NVDA+L: view saved mouse positions for an application if any."
+#~ msgstr ""
+#~ "Control+NVDA+L: Visualizza le posizioni del mouse salvate per "
+#~ "l'applicazione corrente se disponibili."
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=gc"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=gc-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=gc"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Scarica la [versione in sviluppo][2]"

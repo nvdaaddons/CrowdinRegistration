@@ -1,0 +1,181 @@
+# Croatian translation for sayProductNameAndVersion.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sayProductNameAndVersion package.
+# Translators:
+# Milo Ivir <mail@milotype.de>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sayProductNameAndVersion\n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2024-05-11 17:02+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Say Product Name and Version\"]]\n"
+msgstr "[[!meta title=\"Izgovori naziv proizvoda i verziju (Say Product Name and Version)\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Author: Luke Davis <XLTechie@newanswertech.com>, Patrick ZAJDA "
+"<patrick@zajda.fr>"
+msgstr ""
+"Autor: Luke Davis <XLTechie@newanswertech.com>, Patrick ZAJDA <patrick@zajda."
+"fr>"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.3 through 2024.X"
+msgstr "NVDA kompatibilnost: 2017.3 do 2024.X"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Plain text
+msgid ""
+"This [NVDA](https://nvaccess.org/) add-on adds a shortcut to announce "
+"product name and version of the foreground application, or copies this "
+"information to the clipboard."
+msgstr ""
+"Ovaj [NVDA](https://nvaccess.org/) dodatak dodaje prečac za najavu naziva "
+"proizvoda i verzije aktualno korištenog programa ili kopira te informacije u "
+"međuspremnik."
+
+#. type: Bullet: '* '
+msgid "Shortcut: `NVDA+shift+v`"
+msgstr "Prečac: `NVDA+shift+v`"
+
+#. type: Bullet: '* '
+msgid "Press it twice to copy product name and version to the clipboard."
+msgstr "Pritisni dvaput za kopiranje naziva i verzije u međuspremnik."
+
+#. type: Bullet: '* '
+msgid "Press it three times to copy only the version to the clipboard."
+msgstr "Pritisni tri puta za kopiranje samo verzije u međuspremnik."
+
+#. type: Plain text
+msgid ""
+"This shortcut may be remapped in the Tools category of NVDA's Input Gestures."
+msgstr "Ovaj se prečac može premapirati u kategoriji Alati, Ulazne geste."
+
+#. type: Plain text
+msgid ""
+"If you like this add-on and are willing to help others decide whether it is "
+"useful, please leave a [review][3]."
+msgstr ""
+"Ako vam se ovaj dodatak sviđa i ako želite pomoći drugima da odluče je li "
+"koristan, pošaljite [recenziju][3]."
+
+#. type: Plain text
+msgid "For change history, please read the [changelog][2]."
+msgstr "Za povijest promjena, pročitajte [dnevnik promjena][2]."
+
+#. type: Title ###
+#, no-wrap
+msgid "Tips"
+msgstr "Savjeti"
+
+#. type: Bullet: '* '
+msgid ""
+"To find out the Windows version with this add-on, you can focus on any "
+"Windows component (such as desktop, the start menu, the run dialog, etc.), "
+"and press the shortcut key. Note, that this does not give you the release "
+"version name, such as \"23H3\". Instead it gives you something closer to the "
+"build version, as you would get from the second line of the \"`winver`\" "
+"command."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"To get the NVDA version, open any NVDA dialog or menu, and press this add-"
+"on's shortcut key. For example, press `NVDA+n` to open the NVDA menu, then "
+"press `NVDA+shift+v`, then press `escape` to leave the menu."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion"
+
+#. type: Plain text
+msgid ""
+"[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/"
+"changelog.md#readme"
+msgstr ""
+"[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/"
+"changelog.md#readme"
+
+#. type: Plain text
+msgid "[3]: https://github.com/nvaccess/addon-datastore/discussions/2683"
+msgstr "[3]: https://github.com/nvaccess/addon-datastore/discussions/2683"
+
+#~ msgid ""
+#~ "Author: Patrick ZAJDA <patrick@zajda.fr>, Luke Davis "
+#~ "<XLTechie@newanswertech.com>"
+#~ msgstr ""
+#~ "Autor: Patrick ZAJDA <patrick@zajda.fr>, Luke Davis "
+#~ "<XLTechie@newanswertech.com>"
+
+#~ msgid "Changes for 2021.07"
+#~ msgstr "Promjene u 2021.07"
+
+#~ msgid "Add Croatian translation thanks to Tarik Hadžirović and Goran Parać"
+#~ msgstr "Prevodioci na hrvatski jezik: Tarik Hadžirović i Goran Parać"
+
+#~ msgid "Update help message"
+#~ msgstr "Aktualizirana poruka pomoći"
+
+#~ msgid "Update documentation style for visually impaired users"
+#~ msgstr "Aktualiziran stil dokumentacije za slabovidne korisnike"
+
+#~ msgid "Move shortcut from Speech to tools category"
+#~ msgstr "Prečac premješten iz kategorije govora u kategoriju alata"
+
+#~ msgid "Changes for 2020.02"
+#~ msgstr "Promjene u 2020.02"
+
+#~ msgid "Python 3 compatibility"
+#~ msgstr "Python 3 kompatibilnost"
+
+#~ msgid ""
+#~ "Use informations from NVDA itself instead of using an external module"
+#~ msgstr ""
+#~ "Koristi informacije izravno iz NVDA čitača umjesto korištenja vanjskog "
+#~ "modula"
+
+#~ msgid "Use script decorator for global plugin informations"
+#~ msgstr "Koristi dekorator skripta za globalne podatke dodataka"
+
+#~ msgid "Use last version of add-on template"
+#~ msgstr "Koristi zadnju verziju predloška dodatka"
+
+#~ msgid "Changes for 1.0.1"
+#~ msgstr "Promjene u 1.0.1"
+
+#~ msgid ""
+#~ "Fixed the message after copying informations to the clipboard which was "
+#~ "not translated."
+#~ msgstr ""
+#~ "Ispravljena je poruka nakon kopiranja informacija u međuspremnik koja "
+#~ "nije bila prevedena."
+
+#~ msgid "Changes for 1.0"
+#~ msgstr "Promjene u 1.0"
+
+#~ msgid "Initial Release"
+#~ msgstr "Prvo izdanje"

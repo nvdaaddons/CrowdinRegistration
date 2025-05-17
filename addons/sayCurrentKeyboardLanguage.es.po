@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Spanish add-ons website files\n"
+"POT-Creation-Date: 2024-03-26 20:46+0000\n"
+"PO-Revision-Date: 2024-04-27 15:25+0200\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"Language-Team: Spanish translation team <oprisniki@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"sayCurrentKeyboardLanguage\"]]\n"
+msgstr "[[!meta title=\"sayCurrentKeyboardLanguage\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author(s): Abdel, Noelia."
+msgstr "Autor(es): Abdel, Noelia."
+
+#. type: Title #
+#, no-wrap
+msgid "Presentation"
+msgstr "Presentación"
+
+#. type: Plain text
+msgid ""
+"This addon was created following a request from a member on the nvda-addons "
+"mailing list."
+msgstr ""
+"Este complemento fue creado atendiendo a una petición de un miembro de la "
+"lista de correo nvda-addons."
+
+#. type: Plain text
+msgid ""
+"It provides a script without gesture, which allows to retrieve and give the "
+"language of the current keyboard."
+msgstr ""
+"Proporciona un atajo de teclado, sin asignar, el cual permite recuperar y "
+"dar el idioma del teclado actual."
+
+#. type: Plain text
+msgid "If pressed twice, gives the default language of the system."
+msgstr "Si se pulsa dos veces, devuelve el idioma por defecto del sistema."
+
+#. type: Plain text
+msgid ""
+"At the first version of this module, it had been proposed as simple "
+"globalPlugin to paste in the configuration directory of NVDA, it was then "
+"transformed into addon."
+msgstr ""
+"En la primera versión de este módulo, se había propuesto como un simple "
+"plugin global para pegar en el directorio de configuración de NVDA, Entonces "
+"se transformó en un complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Notas"
+
+#. type: Plain text
+msgid ""
+"To set a gesture to the script giving the keyboard language, follow these "
+"steps:"
+msgstr ""
+"Para configurar un gesto para el script que da el idioma del teclado, sigue "
+"estos pasos:"
+
+#. type: Bullet: '* '
+msgid "Open the NVDA's menu, with \"NVDA + N\";"
+msgstr "Abre el menú de NVDA con \"NVDA+n\";"
+
+#. type: Bullet: '* '
+msgid "Go to NVDA's preferences menu;"
+msgstr "Ve al menú Preferencias de NVDA;"
+
+#. type: Bullet: '* '
+msgid "Then go to the submenu \"Input gestures\"."
+msgstr "Después ve al submenú \"Gestos de entrada\"."
+
+#. type: Bullet: '* '
+msgid "Then select the category \"Input\", and open it with right arrow."
+msgstr ""
+"Después selecciona la categoría \"Entrada\", y ábrela con la flecha derecha."
+
+#. type: Bullet: '* '
+msgid ""
+"Go to the item labeled \"Gives the language of the keyboard in use, if "
+"pressed twice, give the default language of the system\";"
+msgstr ""
+"Ve al elemento etiquetado como \"Indica el idioma de teclado en uso. Si se "
+"pulsa dos veces, indica el idioma por defecto del sistema\";"
+
+#. type: Bullet: '* '
+msgid ""
+"Once done, press Alt + A to add a gesture, and type \"NVDA + F4\" or another "
+"gesture of your choice;"
+msgstr ""
+"A continuación, pulsa alt+a para añadir un gesto, y pulsa \"NVDA+f4\" o "
+"cualquier otro gesto que prefieras;"
+
+#. type: Bullet: '* '
+msgid ""
+"This done, press the up arrow once, you hear \"your chosen gesture, all "
+"layout\";"
+msgstr ""
+"Después, pulsa flecha arriba una vez. Escucharás \"El gesto elegido, todas "
+"las distribuciones\";"
+
+#. type: Bullet: '* '
+msgid "Validate on enter, then tab to OK then enter;"
+msgstr "Valida pulsando intro, luego tabula hasta Aceptar e intro;"
+
+#. type: Bullet: '* '
+msgid ""
+"Your chosen gesture should then call the script giving keyboard language."
+msgstr ""
+"Tu gesto elegido debería así llamar al script que dice el idioma del teclado."
+
+#. type: Title ##
+#, no-wrap
+msgid "Compatibility"
+msgstr "Compatibilidad"
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on is compatible with the versions of NVDA ranging from 2019.3 and "
+"beyond."
+msgstr ""
+"Este complemento es compatible con las versiones de NVDA que van de la "
+"2019.3 en adelante."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20240326.0.0"
+msgstr "Cambios para 20240326.0.0"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility for nvda-2024.1.;"
+msgstr "Se actualiza la compatibilidad para NVDA 2024.1.;"
+
+#. type: Bullet: '* '
+msgid ""
+"Deleted download link from readme, the download link for future updates will "
+"now only be available from the add-on store."
+msgstr ""
+"Se elimina el enlace de descarga de la documentación, el enlace de descarga "
+"de futuras actualizaciones ahora sólo estará disponible desde la tienda de "
+"complementos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20231229.0.0"
+msgstr "Cambios para 20231229.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a backward compatible implementation to support speak on demand mode, "
+"which will soon be available with nvda-2024.1."
+msgstr ""
+"Se ha añadido una implementación retrocompatible para soportar el modo de "
+"voz a petición, que pronto estará disponible con NVDA 2024.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20230729.0.0"
+msgstr "Cambios para 20230729.0.0"
+
+#. type: Bullet: '* '
+msgid "Applied the flake8 and mypy rules to the code;"
+msgstr "Aplicadas las reglas de Flake8 y Mipy al código;"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed the minimum supported NVDA version to 2019.3 to support annotations "
+"introduced in Python 3."
+msgstr ""
+"Cambiada la versión mínima soportada de NVDA a la 2019.3 para soportar las "
+"anotaciones de tipos introducidas en Python 3."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed the \"NVDA + F4\" gesture calling the script giving the keyboard "
+"language., to allow users to choose their preferred gesture."
+msgstr ""
+"Se ha eliminado el gesto que llamaba al script que decía el idioma del "
+"teclado, \"NVDA+f4\". Esto permite que los usuarios elijan su propio gesto."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 20230426.0.0 and beyond##"
+msgstr "Cambios para la versión 20230426.0.0 y posteriores##"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version number, minimum NVDA version and download link according to "
+"store conventions/requirements."
+msgstr ""
+"Modificado el número de versión, la versión mínima de NVDA y el enlace de "
+"descarga según las convenciones y requisitos de la tienda."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 19.02"
+msgstr "Cambios para la versión 19.02"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version numbering using YY.MM (The year in 2 digits, followed by a "
+"dot, followed by the month in 2 digits);"
+msgstr ""
+"Se ha cambiado la numeración de versión siguiendo el esquema AA.MM (dos "
+"dígitos para el año seguidos de un punto y dos dígitos para el mes);"
+
+#. type: Bullet: '* '
+msgid ""
+"Added compatibility with the new versioning format of add-on, appeared since "
+"nvda 2019.1."
+msgstr ""
+"Se ha añadido compatibilidad con el nuevo formato de versión de complementos "
+"introducido en NVDA 2019.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.1"
+msgstr "Cambios para la versión 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"The addon has been renamed from getCurKeyboardLanguage to "
+"sayCurrentKeyboardLanguage;"
+msgstr ""
+"El complemento se ha renombrado de getCurKeyboardLanguage a "
+"sayCurrentKeyboardLanguage;"
+
+#. type: Bullet: '* '
+msgid "Added the GPL license to the addon;"
+msgstr "Añadida la licencia GPL al complemento;"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the script getCurKeyboardLanguage to the \"System status\" category;"
+msgstr ""
+"Añadido el script getCurKeyboardLanguage a la categoría \"Estado de "
+"Sistema\";"
+
+#. type: Bullet: '* '
+msgid "Fixed some errors in the code."
+msgstr "Corregidos algunos errores en el código."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.0"
+msgstr "Cambios para la versión 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Versión inicial."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"

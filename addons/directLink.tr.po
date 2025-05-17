@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Doğrudan bağlantı\n"
+"POT-Creation-Date: 2024-02-12 03:14+0000\n"
+"PO-Revision-Date: 2024-05-29 22:09+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Direct Link\"]]\n"
+msgstr "[[!meta title=\"Doğrudan bağlantı\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Fawaz Abdul Rahman"
+msgstr "Yazar: Fawaz Abdul Rahman"
+
+#. type: Bullet: '* '
+msgid "Version: 1.0"
+msgstr "Sürüm: 1.0"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "NVDA uyumluluğu: 2019.3 ve üzeri sürümler"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü][1] indir"
+
+#. type: Title ##
+#, no-wrap
+msgid "Functionality"
+msgstr "İşlev"
+
+#. type: Plain text
+msgid ""
+"The purpose of the addon is to convert the Dropbox, Google Drive or oneDrive "
+"(both personal and business) links to a direct link, furthermore, it "
+"generates a direct link to a WhatsApp chat with the chosen selected phone "
+"number."
+msgstr ""
+"Eklentinin amacı Dropbox, Google Drive, One Drive (kişisel ve kurumsal) "
+"bağlantılarını doğrudan bağlantılara dönüştürmektir. Eklentiyle ayrıca "
+"seçilen Whatsapp numaralarına doğrudan sohbet bağlantısı "
+"oluşturulabilmektedir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Kullanım"
+
+#. type: Bullet: '* '
+msgid "Select or copy a shared Dropbox, Google Drive or oneDrive link"
+msgstr ""
+"Paylaşılan Dropbox, Google Drive veya One Drive bağlantısını seçin veya "
+"kopyalayın"
+
+#. type: Bullet: '* '
+msgid ""
+"Press alt+NVDA+l to convert the link. The resulting URL will be in your "
+"clipboard."
+msgstr ""
+"Bağlantıyı dönüştürmek için NVDA+Alt+l tuşlarını kullanın. Web adresi "
+"panonuza kopyalanacaktır."
+
+#. type: Bullet: '* '
+msgid ""
+"Similarly for the phone number, copy or select the number you like to chat "
+"with or share and press the same shortcut (alt+NVDA+L)."
+msgstr ""
+"Benzer şekilde Whatsapp'ta mesajlaşmak veya paylaşmak istediğiniz numarayı "
+"seçin ya da kopyalayın ve NVDA+Alt+l tuşlarına basın."
+
+#. type: Bullet: '* '
+msgid ""
+"if you like to open the resulted link in your browser, press "
+"alt+NVDA+shift+l."
+msgstr ""
+"dönüştürülen bağlantıyı tarayıcınızda açmak isterseniz NVDA+Alt+Shift+l "
+"tuşlarına basın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Why the direct link?"
+msgstr "Neden doğrudan bağlantı?"
+
+#. type: Plain text
+msgid ""
+"A direct link will allow you to get the well-known save dialog box directly "
+"if you open it in the browser, without being hassled by the hosting company "
+"download page and locating the download link.  Moreover, the direct link can "
+"be used to stream a file or view a file in certain programs such as media "
+"players (if coming with URL support).  Likewise, if WhatsApp is common in "
+"your country, rather than creating a new contact each time if you need to "
+"chat with someone, weather it is a customer or technical support, you can "
+"simply select the number or copy it and start chatting right away.  Even "
+"more, you can share the WhatsApp link of your own number if people usually "
+"need to contact you in case you work as a freelancer."
+msgstr ""
+"Doğrudan bağlantı, dosya paylaşım servislerinin web sayfalarıyla uğraşmadan "
+"direkt olarak dosyaları bilgisayarınıza indirmenize yarar. Dahası web "
+"adresinden oynatmayı destekleyen medya oynatıcılarıyla dosyaları direkt "
+"olarak oynatabilir, başka programlarla dosyaları görüntüleyebilirsiniz. "
+"Whatsapp ülkenizde yaygınsa mesajlaşmanız gereken her kişiyi, müşteri veya "
+"teknik destek olsun, rehbere kaydetmektense numarasını seçip veya kopyalayıp "
+"mesajlaşmaya başlayabilirsiniz. Kendi numaranızın bağlantısını da "
+"başkalarıyla paylaşabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Notlar"
+
+#. type: Bullet: '* '
+msgid ""
+"A link of a folder cannot be converted; the link has to be directing to a "
+"file."
+msgstr ""
+"Klasör bağlantısı dönüştürülemez, dönüştürülebilmesi için dosya bağlantısı "
+"olması gerekir."
+
+#. type: Bullet: '* '
+msgid ""
+"Make sure the link you are sharing is public (anyone with the link can "
+"access) in order for it to be successfully converted."
+msgstr "Dönüştürülebilmesi için bağlantının herkese açık olduğundan emin olun."
+
+#. type: Bullet: '* '
+msgid ""
+"You can change the hotkeys from the NVDA menu> preferences> input gestures."
+msgstr ""
+"Kısayol tuşlarını NVDA menüsü>tercihler>girdi hareketlerinden "
+"değiştirebilirsiniz."
+
+#. type: Bullet: '* '
+msgid ""
+"If you find a certain format of a phone number that is not detected, you can "
+"email me with an example."
+msgstr ""
+"Algılanmayan bir telefon numarası biçimine rastlarsanız bana örnek olarak e-"
+"posta gönderebilirsiniz."
+
+#. type: Bullet: '* '
+msgid ""
+"Certain type of files and sizes in Google Drive might take you to a page "
+"that says \"Google Drive can't scan this file for viruses.\" in that case, "
+"you have to click on download anyway link."
+msgstr ""
+"Bazı dosya türleri ve boyutları Google Drive'ın \"Google Drive bu dosya için "
+"virüs taraması yapamıyor\" yazan bir sayfasına yönlendirebilir. Bu durumda "
+"yine de indir linkine tıklamanız gerekir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Acknowledgements"
+msgstr "Teşekkürler"
+
+#. type: Plain text
+msgid ""
+"A huge thanks goes to the following friends, without them I couldn't have "
+"made it happen:"
+msgstr ""
+"Aşağıda isimlerini verdiğim arkadaşlarıma çok teşekkür ederim. Onlar "
+"olmasaydı ben bu eklentiyi yapamazdım:"
+
+#. type: Bullet: '* '
+msgid ""
+"Qais Alrefai for testing the add-on and providing me with various material "
+"to test with, and also for his observations and general idea for the addon."
+msgstr ""
+"Eklentiyi test ettiği, test etmem için bana malzeme sunduğu, gözlem yaptığı "
+"ve genel olarak eklenti fikrini bana sunduğu için Qais Alrefai'ye,"
+
+#. type: Bullet: '* '
+msgid ""
+"Marina Amir for translating the add-on to French, language editing and "
+"testing."
+msgstr ""
+"Eklentiyi Fransızcaya çevirdiği, dil düzenlemesi yaptığı ve eklentiyi test "
+"ettiği için Marina Amir'e, "
+
+#. type: Bullet: '* '
+msgid "Riad Assoum for translating the add-on to Arabic."
+msgstr "Eklentiyi Arapçaya çevirdiği için Riad Assoum'a "
+
+#. type: Bullet: '* '
+msgid "all testers."
+msgstr "ve tüm test edenlere teşekkür ederim."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=directlink"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=directlink"

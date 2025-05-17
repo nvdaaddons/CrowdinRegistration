@@ -1,0 +1,438 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2024-02-13 17:46+0100\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Search With\"]]\n"
+msgstr "[[!meta title=\"Search With\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Ibrahim Hamadeh"
+msgstr "Autor: Ibrahim Hamadeh"
+
+#. type: Bullet: '* '
+msgid "Download [Stable Version][1]"
+msgstr "Descargar [versión estable][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Compatibilidad con NVDA: de 2019.3 en adelante"
+
+#. type: Plain text
+msgid ""
+"This addon helps you to search text, via various search engines. Let no text "
+"selected, and press the gesture of the addon, a dialog will be displayed, "
+"with an edit box to enter a search query, to search with Google press enter, "
+"or tab to search with other engins."
+msgstr ""
+"Este complemento te ayuda a buscar texto mediante diversos motores de "
+"búsqueda. Si no hay texto seleccionado y se pulsa el gesto del complemento, "
+"se mostrará un cuadro de diálogo con un cuadro de edición para introducir la "
+"consulta de búsqueda. Para buscar con Google pulsa intro, o tabula para "
+"buscar con otros motores."
+
+#. type: Plain text
+msgid ""
+"And if you want to search for selected text, select some text and press "
+"once, a menu will be displayed with various search engines to choose. and "
+"you can if you like, press the gesture twice to search selected text with "
+"Google directly."
+msgstr ""
+"Y si quieres buscar el texto seleccionado, selecciona algo de texto y pulsa "
+"una vez. Se mostrará un menú con varios motores a elegir. También se puede "
+"pulsar dos veces el gesto para buscar directamente el texto seleccionado con "
+"Google."
+
+#. type: Plain text
+#, no-wrap
+msgid "The Default gesture for the addon is: NVDA+ Windows+ S. If the keystroke do not work for you, or conflict with other keystroke, you can as always add a gesture or change the existent one going to: NVDA menu>preferences>inputGestures>Search With category.\n"
+msgstr "El gesto predeterminado del complemento es: NVDA+windows+s. Si el atajo no te funciona o hace conflicto con otro atajo, puedes añadir un gesto o cambiar el existente como siempre, yendo a: Menú NVDA > Preferencias > Gestos de entrada > Categoría Search With.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Modo de uso"
+
+#. type: Bullet: '* '
+msgid ""
+"If you want to enter a search query, just press the addon gesture. A dialog "
+"will be displayed, with an edit field to enter the search term."
+msgstr ""
+"Si quieres introducir una consulta de búsqueda, simplemente pulsa el gesto "
+"del complemento. Se mostrará un diálogo con un cuadro de edición para "
+"introducir el término de búsqueda."
+
+#. type: Bullet: '* '
+msgid "Want to search with Google? just press enter."
+msgstr "¿Quieres buscar con Google? Simplemente pulsa intro."
+
+#. type: Bullet: '* '
+msgid ""
+"Otherwise tab to Other Engines button, and give it a space, a popup menu "
+"will show up, with various search engines to choose. Yahoo, Bing, "
+"DuckDuckGo, and Youtube. This is the default menu, and you may modify it "
+"from addon's setting panel."
+msgstr ""
+"En cualquier otro caso, tabula al botón Otros motores, pulsa la barra "
+"espaciadora, y se mostrará un menú con diversos motores de búsqueda para "
+"elegir. Yahoo, Bing, DuckDuckGo, y YouTube. Este es el menú predeterminado, "
+"y puedes modificarlo desde el panel de opciones del complemento."
+
+#. type: Bullet: '* '
+msgid ""
+"Another way to use the addon, is by selecting some text. And on Pressing the "
+"addon's gesture, or any other you have assigned to it, a virtual menu will "
+"be displayed with various search engines, either the default menu, or any "
+"other you have tailed to your needs."
+msgstr ""
+"Otra forma de usar el complemento es seleccionando texto. Tras pulsar el "
+"gesto del complemento, o cualquier otro que hayas asignado, se mostrará un "
+"menú virtual con diversos motores de búsqueda, ya sea el predeterminado o el "
+"que te hayas ajustado a tus necesidades."
+
+#. type: Bullet: '* '
+msgid ""
+"Choose one and press enter, the default browser will open displaying search "
+"results. or, if you want to search with Google directly, press the gesture "
+"twice, and you are done."
+msgstr ""
+"Elige uno y pulsa intro, el navegador predeterminado se abrirá mostrando los "
+"resultados de búsqueda. O, si quieres buscar con Google directamente, pulsa "
+"el gesto dos veces."
+
+#. type: Bullet: '* '
+msgid ""
+"Want to trigger search menu specifically for clipboard or last spoken text? "
+"OK, then you can from input gestures dialog, assigned a gesture for:"
+msgstr ""
+"Si deseas disparar el menú de búsqueda específicamente para el portapapeles "
+"o el último texto verbalizado, puedes hacerlo desde el diálogo Gestos de "
+"entrada, asignando un gesto para:"
+
+#. type: Bullet: '    * '
+msgid ""
+"Trigger search menu for clipboard text, and pressed twice searches that text "
+"by Google directly."
+msgstr ""
+"Disparar el menú de búsqueda con el texto del portapapeles. Si se pulsa dos "
+"veces busca directamente el texto en Google."
+
+#. type: Bullet: '    * '
+msgid ""
+"Trigger search menu for last spoken text, and pressed twice searches that "
+"text by Google directly."
+msgstr ""
+"Disparar el menú de búsqueda con el último texto verbalizado. Si se pulsa "
+"dos veces busca directamente el texto en Google."
+
+#. type: Bullet: '* '
+msgid ""
+"Want to modify Search with menu? Yes you can do that from the setting panel, "
+"and adjust the menu to fit to your mood and needs."
+msgstr ""
+"¿Quieres modificar el menú de Search With? Sí, puedes hacerlo desde el panel "
+"de opciones, y ajustar el menú para que se adecúe a tus necesidades."
+
+#. type: Bullet: '* '
+msgid ""
+"You can from there, add to Search with menu, other available search engines. "
+"And you can if you like, remove an item from it, move item up, move item "
+"down, or return and set menu to default state."
+msgstr ""
+"Desde allí, puedes añadir si lo deseas otros motores de búsqueda disponibles "
+"al menú de Search With. Y si quieres, también puedes eliminar, subir o bajar "
+"elementos, y devolver el menú a su estado por defecto."
+
+#. type: Bullet: '* '
+msgid ""
+"If you want these modifications to be permanent, you have to save "
+"configuration after wards."
+msgstr ""
+"Si quieres que estas modificaciones sean permanentes, tienes que guardar la "
+"configuración después."
+
+#. type: Bullet: '* '
+msgid "Want to search Google using other language options?"
+msgstr "¿Quieres buscar en Google usando otras opciones de idioma?"
+
+#. type: Bullet: '* '
+msgid ""
+"Then, go to Search With category in setting panels, from the cumbo box "
+"there, you can choose search Google either:"
+msgstr ""
+"Entonces, ve a la categoría Search With en los paneles de opciones. Desde su "
+"cuadro combinado, puedes hacer que Google busque:"
+
+#. type: Bullet: '    1. '
+msgid "Using browser settings and language."
+msgstr "Utilizando el idioma y las opciones del navegador."
+
+#. type: Bullet: '    2. '
+msgid "Using NVDA language."
+msgstr "Utilizando el idioma de NVDA."
+
+#. type: Bullet: '    3. '
+msgid "Using windows language."
+msgstr "Utilizando el idioma de Windows."
+
+#. type: Bullet: '* '
+msgid ""
+"Moreover, you have the option to choose the default query in Search with "
+"dialog. From the Options for default query combo box in setting panel, you "
+"can choose either"
+msgstr ""
+"Además, tienes la posibilidad de elegir la consulta por defecto en el "
+"diálogo de Search With. Desde el cuadro combinado de consulta por defecto en "
+"el panel de opciones, puedes elegir"
+
+#. type: Bullet: '    * '
+msgid "Leave blank"
+msgstr "Dejar en blanco"
+
+#. type: Bullet: '    * '
+msgid "Use clipboard text"
+msgstr "Usar texto del portapapeles"
+
+#. type: Bullet: '    * '
+msgid "Use last spoken text"
+msgstr "Usar último texto verbalizado"
+
+#. type: Bullet: '* '
+msgid ""
+"And if clipboard or last spoken text is chosen, text in search box will be "
+"displayed selected, so that you can easily override it."
+msgstr ""
+"Y si se elige portapapeles o último texto verbalizado, se mostrará el texto "
+"seleccionado en el cuadro de búsqueda, de modo que puedas reemplazarlo con "
+"facilidad."
+
+#. type: Bullet: '* '
+msgid ""
+"Now let's choose the target language for translate engines, Google Translate "
+"and DeepL translator."
+msgstr ""
+"Ahora, elijamos el idioma de destino para los motores de traducción, el "
+"traductor de Google y el traductor DeepL."
+
+#. type: Bullet: '* '
+msgid ""
+"Still in setting panel, under Translation engines group, there are two combo "
+"boxes, one for Google Translate and the other for DeepL Translator. Choose "
+"the target language you want for each of them and you are done."
+msgstr ""
+"Todavía en el panel de opciones, bajo el grupo de motores de traducción, hay "
+"dos cuadros combinados: uno para el traductor de Google y el otro para el "
+"traductor DeepL. Elige el idioma de destino que quieres para cada uno y todo "
+"listo."
+
+#. type: Bullet: '* '
+msgid "Lastly, especially for advanced users"
+msgstr "Finalmente, y en especial para usuarios avanzados"
+
+#. type: Bullet: '* '
+msgid ""
+"You can through a check box in setting panel, choose if you want to preserve "
+"your data folder upon installing a new version. And this means that your "
+"data will be sustained, but added to it the newly entries in the new version."
+msgstr ""
+"Mediante una casilla de verificación en el panel de opciones, puedes elegir "
+"preservar tu carpeta de datos al instalar una nueva versión. Esto significa "
+"que tus datos se conservarán, y se añadirán los nuevos datos incluidos en la "
+"actualización."
+
+#. type: Plain text
+msgid "And that's it, hope to search for good and find it, happy searching!"
+msgstr "Y esto es todo, espero que encuentres lo que buscas, ¡feliz búsqueda!"
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.5.3"
+msgstr "Cambios para 2.5.3"
+
+#. type: Bullet: '* '
+msgid "Add DeepL translator to available engines."
+msgstr "Se añade el traductor DeepL a los motores disponibles."
+
+#. type: Bullet: '* '
+msgid ""
+"Add two combo boxes in setting panel, to choose target language for Google "
+"translate and DeepL translator."
+msgstr ""
+"Se añaden dos cuadros combinados en el panel de opciones para elegir el "
+"idioma de destino en los traductores de Google y DeepL."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "Cambios para 2.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Now choosing to preserve data from setting panel, does not means that you "
+"will not get the new data entries, but the new entries in the new version, "
+"will be merged and added to your old data file."
+msgstr ""
+"Ahora, al elegir preservar los datos desde el panel de opciones, no se "
+"dejarán de agregar las nuevas entradas de datos en futuras actualizaciones. "
+"En su lugar, se fusionarán con las existentes en el antiguo fichero de datos."
+
+#. type: Bullet: '* '
+msgid ""
+"Update last tested version to 2023.1 to comply with NVDA version 2023.1."
+msgstr ""
+"Se actualiza la última versión probada a la 2023.1 para para cumplir con "
+"NVDA 2023.1."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Cambios para 2.0"
+
+#. type: Bullet: '* '
+msgid "Disable the addon in secure mode."
+msgstr "El complemento se deshabilita en modo seguro."
+
+#. type: Bullet: '* '
+msgid ""
+"Update last tested version to 2022.1, to comply with recent addon api "
+"version."
+msgstr ""
+"Se actualiza la última versión probada a la 2022.1 para cumplir con la API "
+"de complementos más reciente."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 1.8"
+msgstr "Cambios para 1.8"
+
+#. type: Bullet: '* '
+msgid ""
+"Add a check box in setting panel, to let advanced users preserve their data "
+"folder."
+msgstr ""
+"Se añade una casilla de verificación en el panel de opciones para permitir a "
+"los usuarios avanzados conservar su carpeta de datos."
+
+#. type: Bullet: '* '
+msgid "Add two new entries in input gestures:"
+msgstr "Se añaden dos nuevas entradas en los gestos de entrada:"
+
+#. type: Bullet: '    * '
+msgid ""
+"trigger search menu for clipboard text, press twice searches Google directly."
+msgstr ""
+"disparar el menú de búsqueda con el texto del portapapeles, al pulsar dos "
+"veces busca directamente en Google."
+
+#. type: Bullet: '    * '
+msgid ""
+"Trigger search menu for last spoken text, press twice searches Google "
+"directly."
+msgstr ""
+"Disparar el menú de búsqueda con el último texto verbalizado, al pulsar dos "
+"veces busca directamente en Google."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 1.7"
+msgstr "Cambios para 1.7"
+
+#. type: Bullet: '* '
+msgid ""
+"Make a combo box in addon's setting, to choose an option for default query "
+"in search with dialog."
+msgstr ""
+"Se añade un cuadro combinado a las opciones del complemento para elegir una "
+"opción de consulta predeterminada en el diálogo de Search With."
+
+#. type: Bullet: '* '
+msgid ""
+"You can select either Leave blank, Use clipboard text, or Use last spoken "
+"text."
+msgstr ""
+"Puedes elegir dejar en blanco, utilizar el texto del portapapeles o utilizar "
+"el último texto verbalizado."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Cambios para 1.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Add more sites that could be added to menu, such as Stackoverflow, "
+"Stackexchange, GoogleBooks and others."
+msgstr ""
+"Se añaden más sitios que pueden formar parte del menú, como Stackoverflow, "
+"Stackexchange, GoogleBooks y otros."
+
+#. type: Bullet: '* '
+msgid ""
+"Add the options to use last spoken text as default query, in search with "
+"dialog."
+msgstr ""
+"Se añade la opción de utilizar el último texto verbalizado como consulta de "
+"búsqueda predeterminada en el diálogo de Search With."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 0.4"
+msgstr "Cambios para 0.4"
+
+#. type: Bullet: '* '
+msgid "Add a dialog if no text selected, to enter a search query."
+msgstr ""
+"Se añade un diálogo para introducir una consulta de búsqueda si no hay texto "
+"seleccionado."
+
+#. type: Bullet: '* '
+msgid ""
+"Make possible to modify Search with menu from setting panel, to fit to user "
+"needs."
+msgstr ""
+"Se añade la posibilidad de modificar el menú de Search With desde el panel "
+"de opciones para ajustarlo a las necesidades del usuario."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 0.3"
+msgstr "Cambios para 0.3"
+
+#. type: Bullet: '* '
+msgid "Add setting panel, giving more language options in Google search."
+msgstr ""
+"Se añade un panel de opciones con más ajustes de idioma para la búsqueda en "
+"Google."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 0.1"
+msgstr "Cambios para 0.1"
+
+#. type: Bullet: '* '
+msgid "Initial version"
+msgstr "Versión inicial"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=searchwith"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=searchwith"

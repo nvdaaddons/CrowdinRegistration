@@ -1,0 +1,1344 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Station Playlist\n"
+"POT-Creation-Date: 2025-05-10 17:19+0000\n"
+"PO-Revision-Date: 2025-05-10 21:05+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"StationPlaylist\"]]\n"
+msgstr "[[!meta title=\"StationPlaylist\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Christopher Duffley <nvda@chrisduffley.com> (formerly Joseph Lee "
+"<joseph.lee22590@gmail.com>, originally by Geoff Shang and other "
+"contributors)"
+msgstr ""
+"Yazarlar: Christopher Duffley <nvda@chrisduffley.com> (eski adıyla Joseph "
+"Lee <joseph.lee22590@gmail.com>, aslen Geoff Shang ve diğer katkıda "
+"bulunanlar tarafından yapılmıştır)"
+
+#. type: Plain text
+msgid ""
+"This add-on package provides improved usage of StationPlaylist Studio and "
+"other StationPlaylist apps, as well as providing utilities to control Studio "
+"from anywhere. Supported apps include Studio, Creator, Track Tool, VT "
+"Recorder, and Streamer, as well as SAM, SPL, and AltaCast encoders."
+msgstr ""
+"Bu eklenti paketi, StationPlaylist Studio ve diğer StationPlaylist "
+"uygulamalarının gelişmiş kullanımını sağlamanın yanı sıra Studio'yu her "
+"yerden kontrol etmek için yardımcı programlar sağlar. Desteklenen "
+"uygulamalar arasında Studio, Creator, Track Tool, VT Recorder ve Streamer'ın "
+"yanı sıra SAM, SPL ve AltaCast kodlayıcılar bulunur."
+
+#. type: Plain text
+#| msgid "For more information about the add-on, read the [add-on guide][2]."
+msgid "For more information about the add-on, read the [add-on guide][1]."
+msgstr "Eklenti hakkında daha fazla bilgi için [eklenti kılavuzunu][1] okuyun."
+
+#. type: Plain text
+msgid "IMPORTANT NOTES:"
+msgstr "ÖNEMLİ NOTLAR:"
+
+#. type: Bullet: '* '
+msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgstr ""
+"Bu eklenti, StationPlaylist Suite 5.50 veya sonraki sürümünü gerektirir."
+
+#. type: Bullet: '* '
+msgid ""
+"Some add-on features will be disabled or limited if NVDA is running in "
+"secure mode such as in logon screen."
+msgstr ""
+"NVDA oturum açma ekranı gibi güvenli modda çalışıyorsa bazı eklenti "
+"özellikleri devre dışı bırakılır veya sınırlandırılır."
+
+#. type: Bullet: '* '
+msgid "For best experience, disable audio ducking mode."
+msgstr "En iyi deneyim için ses zayıflaması modunu devre dışı bırakın."
+
+#. type: Bullet: '* '
+msgid ""
+"Starting from 2018, [changelogs for old add-on releases][2] will be found on "
+"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"onwards."
+msgstr ""
+"2018'den itibaren [eski eklenti sürümleri için değişiklik günlükleri][2] "
+"GitHub'da bulunacaktır. Bu eklenti benioku, 23.02 (2023) sürümünden sonraki "
+"değişiklikleri listeleyecektir."
+
+#. type: Bullet: '* '
+msgid ""
+"While Studio is running, you can save, reload saved settings, or reset add-"
+"on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or "
+"Control+NVDA+R three times, respectively. This is also applicable to encoder "
+"settings - you can save and reset (not reload) encoder settings if using "
+"encoders."
+msgstr ""
+"Studio çalışırken, sırasıyla Control+NVDA+C, Control+NVDA+R'ye bir kez veya "
+"Control+NVDA+R'ye üç kez basarak kaydedebilir, kaydedilen ayarları yeniden "
+"yükleyebilir veya eklenti ayarlarını varsayılanlara sıfırlayabilirsiniz. Bu, "
+"kodlayıcı ayarları için de geçerlidir - kodlayıcı kullanıyorsanız kodlayıcı "
+"ayarlarını kaydedebilir ve sıfırlayabilirsiniz (yeniden yükleyemezsiniz)."
+
+#. type: Bullet: '* '
+msgid ""
+"Many commands will provide speech output while NVDA is in speak on demand "
+"mode (NVDA 2024.1 and later)."
+msgstr ""
+"NVDA isteğe bağlı konuşma modundayken birçok komut konuşma çıkışı "
+"sağlayacaktır (NVDA 2024.1 ve sonrası)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcut keys"
+msgstr "Kısayol tuşları"
+
+#. type: Plain text
+msgid ""
+"Most of these will work in Studio only unless otherwise specified. Unless "
+"noted otherwise, these commands support speak on demand mode."
+msgstr ""
+"Bunların çoğu, aksi belirtilmedikçe yalnızca Studio'da çalışır. Aksi "
+"belirtilmedikçe, bu komutlar isteğe bağlı konuşma modunu destekler."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+Shift+T from Studio window: announce elapsed time for the currently "
+"playing track."
+msgstr ""
+"Stüdyo penceresinde Alt+Shift+T: o anda çalınan parça için geçen süreyi "
+"duyurur."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: "
+"announce remaining time for the currently playing track."
+msgstr ""
+"Stüdyo penceresinde Kontrol+Alt+T (SPL dokunmatik modunda iki parmakla aşağı "
+"kaydırma): o anda çalınan parça için kalan süreyi duyurur."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: "
+"announces broadcaster time such as 5 minutes to top of the hour. Pressing "
+"this command twice will announce minutes and seconds till top of the hour."
+msgstr ""
+"Stüdyo penceresinde NVDA+Shift+F12 (SPL dokunmatik modunda iki parmakla "
+"yukarı kaydırma): yayıncının saatin başına 5 dakika kala zamanını duyurur. "
+"Bu komuta iki kez basıldığında saatin başına kadar dakika ve saniyeler "
+"duyurulacaktır."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+"alarms category in Studio add-on configuration dialog (does not support "
+"speak on demand)."
+msgstr ""
+"Stüdyo penceresinde Alt+NVDA+1 (SPL modunda iki parmakla sağa kaydırma): "
+"Studio eklenti yapılandırma iletişim kutusunda alarmlar kategorisini açar "
+"(talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces scheduled time for the loaded playlist."
+msgstr ""
+"Oluşturucu Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi "
+"düzenleyicisinde Alt+NVDA+1: Yüklenen çalma listesi için planlanan zamanı "
+"duyurur."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces total playlist duration."
+msgstr ""
+"Oluşturucunun Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi "
+"düzenleyicisinde Alt+NVDA+2: Toplam çalma listesi süresini duyurur."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+"assignments (does not support speak on demand)."
+msgstr ""
+"Stüdyo penceresinde Alt+NVDA+3: Sepet atamalarını öğrenmek için sepet "
+"gezginine geçiş yapar (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces when the selected track is scheduled to play."
+msgstr ""
+"Oluşturucunun Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi "
+"düzenleyicisinde Alt+NVDA+3: Seçilen parçanın ne zaman çalınacağını duyurur."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces rotation and category associated with the loaded playlist."
+msgstr ""
+"Oluşturucunun Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi "
+"düzenleyicisinde Alt+NVDA+4: Yüklenen çalma listesiyle ilişkili rotasyonu ve "
+"kategoriyi duyurur."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+F from Studio window: Opens a dialog to find a track based on "
+"artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find "
+"backward (does not support speak on demand)."
+msgstr ""
+"Studio penceresinde Kontrol+NVDA+f: Sanatçı veya şarkı adına göre parça "
+"bulmak için bir iletişim kutusu açar. Sonrakini bulmak için NVDA+F3 "
+"tuşlarına veya Öncekini bulmak için NVDA+Shift+F3 tuşlarına basın (talep "
+"üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+NVDA+R from Studio window: Steps through library scan announcement "
+"settings (does not support speak on demand)."
+msgstr ""
+"Studio penceresinde Shift+NVDA+R: Kitaplık taraması duyuru ayarlarında "
+"adımlar (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Shift+X from Studio window: Steps through braille timer settings "
+"(does not support speak on demand)."
+msgstr ""
+"Studio penceresinde Kontrol+Shift+X: Braille zamanlayıcı ayarlarında adım "
+"adım ilerler (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track column (does not "
+"support speak on demand)."
+msgstr ""
+"Kontrol+Alt+sol/sağ ok (Studio, Oluşturucu, Remote VT ve Parça Araçlarında "
+"bir parçaya odaklanıldığında): Önceki/sonraki parça sütununa git (talep "
+"üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+up/down arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track and announce "
+"specific columns (does not support speak on demand)."
+msgstr ""
+"Kontrol+Alt+yukarı/aşağı ok (Studio, Oluşturucu, Remote VT ve Parça "
+"Araçlarında bir parçaya odaklanıldığında): Önceki/sonraki parçaya geçer ve "
+"belirli sütunları duyurur (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+1 through 0 (while focused on a track in Studio, Creator "
+"(including Playlist Editor), Remote VT, and Track Tool): Announce column "
+"content for a specified column (first ten columns by default). Pressing this "
+"command twice will display column information on a browse mode window."
+msgstr ""
+"Kontrol+NVDA+1'den 0'a kadar (Studio, Oluşturucu (Çalma Listesi Düzenleyici "
+"dahil), Remote VT ve Parça Araçlarında bir parçaya odaklanıldığında): "
+"Belirli bir sütun için sütun içeriğini duyurur (varsayılan olarak ilk on "
+"sütun). Bu komuta iki kez basıldığında, gözatma modu penceresinde sütun "
+"bilgileri görüntülenecektir."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+- (hyphen while focused on a track in Studio, Creator, Remote "
+"VT, and Track Tool): display data for all columns in a track on a browse "
+"mode window (does not support speak on demand)."
+msgstr ""
+"Kontrol+NVDA+- (Studio, Oluşturucu, Remote VT ve Parça Araçlarında bir "
+"parçaya odaklanıldığında kısa çizgi): bir göz atma modu penceresinde bir "
+"parçadaki tüm sütunlara ait verileri görüntüler (talep üzerine konuşmayı "
+"desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+V while focused on a track (Studio's playlist viewer only): toggles "
+"track column announcement between screen order and custom order (does not "
+"support speak on demand)."
+msgstr ""
+"NVDA+V bir parçaya odaklanmışken (yalnızca Studio'nun çalma listesi "
+"görüntüleyicisi): Parça sütunu duyurusunu ekran sırası ve özel sıralama "
+"arasında değiştirir (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+C while focused on a track (Studio's playlist viewer only): "
+"announces track comments if any."
+msgstr ""
+"Bir parçaya odaklanıldığında Alt+NVDA+C (yalnızca Studio'nun çalma listesi "
+"görüntüleyicisi): varsa parça yorumlarını duyurur."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Studio penceresinde Alt+NVDA+0: Studio eklenti yapılandırma iletişim "
+"kutusunu açar (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Stüdyo penceresinde Alt+NVDA+P: Studio yayın profilleri iletişim kutusunu "
+"açar (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid "Alt+NVDA+F1: Open welcome dialog (does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+F1: Karşılama iletişim kutusunu açar (talep üzerine konuşmayı "
+"desteklemez)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Unassigned commands"
+msgstr "Atanmamış komutlar"
+
+#. type: Plain text
+msgid ""
+"The following commands are not assigned by default; if you wish to assign "
+"them, use Input Gestures dialog to add custom commands. To do so, from "
+"Studio window, open NVDA menu, Preferences, then Input Gestures. Expand "
+"StationPlaylist category, then locate unassigned commands from the list "
+"below and select \"Add\", then type the gesture you wish to use."
+msgstr ""
+"Aşağıdaki komutlar varsayılan olarak atanmamıştır; bunları atamak "
+"istiyorsanız özel komutlar eklemek için Girdi Hareketleri iletişim kutusunu "
+"kullanın. Bunu yapmak için Studio penceresinde NVDA menüsünü, Tercihler'i ve "
+"ardından Girdi Hareketleri'ni açın. StationPlaylist kategorisini genişletin, "
+"ardından aşağıdaki listeden atanmamış komutları bulun ve \"Ekle\"yi seçin, "
+"ardından kullanmak istediğiniz hareketi yazın."
+
+#. type: Plain text
+msgid ""
+"Important: some of these commands will not work if NVDA is running in secure "
+"mode such as from login screen. Not all commands support speak on demand."
+msgstr ""
+"Önemli: NVDA oturum açma ekranı gibi güvenli modda çalışıyorsa bu "
+"komutlardan bazıları çalışmayacaktır. Tüm komutlar talep üzerine konuşmayı "
+"desteklemez."
+
+#. type: Bullet: '* '
+msgid ""
+"Switching to SPL Studio window from any program (unavailable in secure mode, "
+"does not support speak on demand)."
+msgstr ""
+"Herhangi bir programdan SPL Studio penceresine geçiş (güvenli modda "
+"kullanılamaz, isteğe bağlı konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid "SPL Controller layer (unavailable in secure mode)."
+msgstr "SPL Denetleyici katmanı (güvenli modda kullanılamaz)."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcing Studio status such as track playback from other programs "
+"(unavailable in secure mode)."
+msgstr ""
+"Diğer programlardan parça Çalma gibi Studio durumunun duyurulması (güvenli "
+"modda kullanılamaz)."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcing encoder connection status from any program (unavailable in secure "
+"mode)."
+msgstr ""
+"Kodlayıcı bağlantı durumu herhangi bir programdan duyurulur (güvenli modda "
+"kullanılamaz)."
+
+#. type: Bullet: '* '
+msgid "SPL Assistant layer from SPL Studio."
+msgstr "SPL Studio'da SPL Yardımcısı katmanı."
+
+#. type: Bullet: '* '
+msgid "Announce time including seconds from SPL Studio."
+msgstr "SPL Studio'da saniyeler dahil süreyi duyurur."
+
+#. type: Bullet: '* '
+msgid "Announcing temperature."
+msgstr "Sıcaklık duyurusu."
+
+#. type: Bullet: '* '
+msgid "Announcing title of next track if scheduled."
+msgstr "Planlandığı takdirde bir sonraki parçanın başlığının duyurulması."
+
+#. type: Bullet: '* '
+msgid "Announcing title of the currently playing track."
+msgstr "Şu anda çalınan parçanın başlığı duyuruluyor."
+
+#. type: Bullet: '* '
+msgid "Marking current track for start of track time analysis."
+msgstr "Parça süresi analizinin başlangıcı için mevcut parçayı işaretleme."
+
+#. type: Bullet: '* '
+msgid "Performing track time analysis."
+msgstr "Parça süresi analizi gerçekleştirme."
+
+#. type: Bullet: '* '
+msgid "Take playlist snapshots."
+msgstr "Çalma listesi anlık görüntüleri alır."
+
+#. type: Bullet: '* '
+msgid "Find text in specific columns (does not support speak on demand)."
+msgstr ""
+"Belirli sütunlardaki metni bulur (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Find tracks with duration that falls within a given range via time range "
+"finder (does not support speak on demand)."
+msgstr ""
+"Zaman aralığı bulucu aracılığıyla süresi belirli bir aralığa giren parçaları "
+"bulur (talep üzerine konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"Quickly enable or disable metadata streaming (does not support speak on "
+"demand)."
+msgstr ""
+"Meta veri akışını hızla etkinleştirir veya devre dışı bırakır (talep üzerine "
+"konuşmayı desteklemez)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Additional commands when using encoders"
+msgstr "Kodlayıcıları kullanırken ek komutlar"
+
+#. type: Plain text
+msgid ""
+"The following commands are available when using encoders, and the ones used "
+"for toggling options for on-connection behavior such as focusing to Studio, "
+"playing the first track, and toggling of background monitoring can be "
+"assigned through the Input Gestures dialog in NVDA menu, Preferences, Input "
+"Gestures, under the StationPlaylist category. These commands do not support "
+"speak on demand."
+msgstr ""
+"Aşağıdaki komutlar kodlayıcılar kullanılırken kullanılabilir ve Studio'ya "
+"odaklanma, ilk parçayı çalma ve arka plan izlemenin değiştirilmesi gibi "
+"bağlantı üzerindeki davranış seçeneklerini değiştirmek için kullanılanlar "
+"NVDA menüsü, Tercihler, Girdi Hareketleri iletişim kutusunda StationPlaylist "
+"kategorisi altında atanabilir. Bu komutlar talep üzerine konuşmayı "
+"desteklemez."
+
+#. type: Bullet: '* '
+msgid "F9: connect the selected encoder."
+msgstr "F9: seçilen kodlayıcıyı bağlar."
+
+#. type: Bullet: '* '
+msgid "F10 (SAM encoder only): Disconnect the selected encoder."
+msgstr "F10 (yalnızca SAM kodlayıcı): Seçilen kodlayıcının bağlantısını keser."
+
+#. type: Bullet: '* '
+msgid "Control+F9: Connect all encoders."
+msgstr "Kontrol+F9: Tüm kodlayıcıları bağlar."
+
+#. type: Bullet: '* '
+msgid "Control+F10 (SAM encoder only): Disconnect all encoders."
+msgstr ""
+"Kontrol+F10 (yalnızca SAM kodlayıcı): Tüm kodlayıcıların bağlantısını keser."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the "
+"selected encoder if connected."
+msgstr ""
+"Kontrol+Shift+F11: NVDA'nın bağlı olması durumunda seçilen kodlayıcı için "
+"Studio penceresine geçip geçmeyeceğini değiştirir."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+F11: Toggles whether Studio will play the first selected track when "
+"encoder is connected to a streaming server."
+msgstr ""
+"Shift+F11: Kodlayıcı bir akış sunucusuna bağlandığında Studio'nun seçilen "
+"ilk parçayı çalıp çalmayacağını değiştirir."
+
+#. type: Bullet: '* '
+msgid "Control+F11: Toggles background monitoring of the selected encoder."
+msgstr ""
+"Kontrol+F11: Seçilen kodlayıcının arka plan izlemesini açar veya kapatır."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+F12: opens a dialog to select the encoder you have deleted (to "
+"realign encoder labels and settings)."
+msgstr ""
+"Kontrol+F12: Sildiğiniz kodlayıcıyı seçmek için bir iletişim kutusu açar "
+"(kodlayıcı etiketlerini ve ayarlarını yeniden hizalamak için)."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such "
+"as encoder label."
+msgstr ""
+"Alt+NVDA+0 veya F12: Kodlayıcı etiketi gibi seçenekleri yapılandırmak için "
+"kodlayıcı ayarları iletişim kutusunu açar."
+
+#. type: Plain text
+msgid ""
+"In addition, column review commands are available, including (supports speak "
+"on demand):"
+msgstr ""
+"Ayrıca aşağıdakiler de dahil olmak üzere sütun inceleme komutları mevcuttur "
+"(talep üzerine konuşmayı destekler):"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+1: Encoder position."
+msgstr "Kontrol+NVDA+1: Kodlayıcı konumu."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+2: encoder label."
+msgstr "Kontrol+NVDA+2: kodlayıcı etiketi."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3 from SAM Encoder: Encoder format."
+msgstr "SAM Kodlayıcıda Kontrol+NVDA+3: Kodlayıcı formatı."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings."
+msgstr "SPL ve AltaCast Kodlayıcıda Kontrol+NVDA+3: Kodlayıcı ayarları."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+4 from SAM Encoder: Encoder connection status."
+msgstr "SAM Kodlayıcıda Kontrol+NVDA+4: Kodlayıcı bağlantı durumu."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection "
+"status."
+msgstr ""
+"SPL ve AltaCast Kodlayıcıda Kontrol+NVDA+4: Aktarım hızı veya bağlantı "
+"durumu."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+5 from SAM Encoder: Connection status description."
+msgstr "SAM Kodlayıcıda Kontrol+NVDA+5: Bağlantı durumu açıklaması."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Assistant layer"
+msgstr "SPL Yardımcısı katmanı"
+
+#. type: Plain text
+msgid ""
+"This layer command set allows you to obtain various status on SPL Studio, "
+"such as whether a track is playing, total duration of all tracks for the "
+"hour and so on. From any SPL Studio window, press the SPL Assistant layer "
+"command, then press one of the keys from the list below (one or more "
+"commands are exclusive to playlist viewer). You can also configure NVDA to "
+"emulate commands from other screen readers."
+msgstr ""
+"Bu katman komut seti, SPL Studio'da bir parçanın çalınıp çalınmadığı, tüm "
+"parçaların bir saat içindeki toplam süresi vb. gibi çeşitli durumları elde "
+"etmenize olanak tanır. Herhangi bir SPL Studio penceresinden SPL Yardımcısı "
+"katman komutuna basın, ardından aşağıdaki listedeki tuşlardan birine basın "
+"(bir veya daha fazla komut çalma listesi görüntüleyiciye özeldir). NVDA'yı "
+"diğer ekran okuyuculardan gelen komutları taklit edecek şekilde de "
+"yapılandırabilirsiniz."
+
+#. type: Plain text
+msgid "The available commands are (most commands support speak on demand):"
+msgstr ""
+"Kullanılabilir komutlar şunlardır (çoğu komut talep üzerine konuşmayı "
+"destekler):"
+
+#. type: Bullet: '* '
+msgid "A: Automation."
+msgstr "A: Otomasyon."
+
+#. type: Bullet: '* '
+msgid "C (Shift+C in JAWS layout): Title for the currently playing track."
+msgstr "C (JAWS düzeninde Shift+C): O anda çalınan parçanın başlığı."
+
+#. type: Bullet: '* '
+msgid ""
+"C (JAWS layout): Toggle cart explorer (playlist viewer only, does not "
+"support speak on demand)."
+msgstr ""
+"C (JAWS düzeni): Sepet gezginini aç/kapat (yalnızca çalma listesi "
+"görüntüleyici, isteğe bağlı konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid ""
+"D (R in JAWS layout): Remaining duration for the playlist (if an error "
+"message is given, move to playlist viewer and then issue this command)."
+msgstr ""
+"D (JAWS düzeninde R): Çalma listesinin kalan süresi (bir hata mesajı "
+"verilirse çalma listesi görüntüleyiciye gidin ve ardından bu komutu verin)."
+
+#. type: Bullet: '* '
+msgid "Control+D (Studio 6.10 and later): Control keys enabled/disabled."
+msgstr "Kontrol+D (Studio 6.10 ve üzeri): Kontrol tuşları etkin/devre dışı."
+
+#. type: Bullet: '* '
+msgid "E: Metadata streaming status."
+msgstr "E: Meta veri akış durumu."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming "
+"URL's (0 is for DSP encoder)."
+msgstr ""
+"Shift+1 ila Shift+4, Shift+0: Bireysel meta veri akışı URL'lerinin durumu "
+"(0, DSP kodlayıcı içindir)."
+
+#. type: Bullet: '* '
+msgid "F: Find track (playlist viewer only, does not support speak on demand)."
+msgstr ""
+"F: Parçayı bul (yalnızca çalma listesi görüntüleyicide, isteğe bağlı "
+"konuşmayı desteklemez)."
+
+#. type: Bullet: '* '
+msgid "H: Duration of music for the current hour slot."
+msgstr "H: Geçerli saat dilimi için müzik süresi."
+
+#. type: Bullet: '* '
+msgid "Shift+H: Remaining track duration for the hour slot."
+msgstr "Shift+H: Saat aralığı için kalan parça süresi."
+
+#. type: Bullet: '* '
+msgid "I (L in JAWS layout): Listener count."
+msgstr "I (JAWS düzeninde L): Dinleyici sayısı."
+
+#. type: Bullet: '* '
+msgid "K: Move to the marked track (playlist viewer only)."
+msgstr "K: İşaretli parçaya gider (yalnızca çalma listesi görüntüleyicisinde)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+K: Set the current track as the place marker track (playlist viewer "
+"only)."
+msgstr ""
+"Kontrol+K: Geçerli parçayı yer işaretleyici parça olarak ayarlar (yalnızca "
+"çalma listesi görüntüleyici)."
+
+#. type: Bullet: '* '
+msgid "L (Shift+L in JAWS layout): Line in."
+msgstr "L (JAWS düzeninde Shift+L): Line in."
+
+#. type: Bullet: '* '
+msgid "M: Microphone."
+msgstr "M: Mikrofon."
+
+#. type: Bullet: '* '
+msgid "N: Title for the next scheduled track."
+msgstr "N: Bir sonraki programlanmış parçanın adı."
+
+#. type: Bullet: '* '
+msgid "O: Playlist hour over/under by."
+msgstr "O: Oynatma listesi Zaman Kalan/geçen süre."
+
+#. type: Bullet: '* '
+msgid "P: Playback status (playing or stopped)."
+msgstr "P: Çalma durumu (Çalınıyor veya durduruldu)."
+
+#. type: Bullet: '* '
+msgid "Shift+P: Pitch of the current track."
+msgstr "Shift+P: Geçerli parçanın perdesi."
+
+#. type: Bullet: '* '
+msgid "R (Shift+E in JAWS layout): Record to file enabled/disabled."
+msgstr "R (JAWS düzeninde Shift+E): Dosyaya kaydetme etkin/devre dışı."
+
+#. type: Bullet: '* '
+msgid "Shift+R: Monitor library scan in progress."
+msgstr "Shift+R: Devam eden kitaplık taramasını izler."
+
+#. type: Bullet: '* '
+msgid "S: Track starts (scheduled)."
+msgstr "S: Parça başlangıçları (planlanmış)."
+
+#. type: Bullet: '* '
+msgid "Shift+S: Time until selected track will play (track starts in)."
+msgstr "Shift+S: Seçilen parça çalınana kadar geçecek süre (parça başlar)."
+
+#. type: Bullet: '* '
+msgid "T: Cart edit/insert mode on/off."
+msgstr "T: Sepet düzenleme/ekleme modu açık/kapalı."
+
+#. type: Bullet: '* '
+msgid "U: Studio up time."
+msgstr "U: Stüdyo çalışma zamanı."
+
+#. type: Bullet: '* '
+msgid "W: Weather and temperature if configured."
+msgstr "W: Yapılandırılmışsa hava durumu ve sıcaklık."
+
+#. type: Bullet: '* '
+msgid "Y: Playlist modified status."
+msgstr "Y: Çalma listesi değişiklik durumu."
+
+#. type: Bullet: '* '
+msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
+msgstr ""
+"F8: Çalma listesi anlık görüntülerini alır (parça sayısı, en uzun parça vb.)."
+
+#. type: Bullet: '* '
+msgid "Shift+F8: Request playlist transcripts in numerous formats."
+msgstr "Shift+F8: Çeşitli biçimlerde çalma listesi transkriptlerini ister."
+
+#. type: Bullet: '* '
+msgid ""
+"F9: Mark current track for start of playlist analysis (playlist viewer only)."
+msgstr ""
+"F9: Çalma listesi analizinin başlatılması için geçerli parçayı işaretler "
+"(yalnızca çalma listesi görüntüleyicide)."
+
+#. type: Bullet: '* '
+msgid "F10: Perform track time analysis (playlist viewer only)."
+msgstr ""
+"F10: Parça süresi analizini gerçekleştirir (yalnızca çalma listesi "
+"görüntüleyicide)."
+
+#. type: Bullet: '* '
+msgid "F12: Switch between current and a predefined profile."
+msgstr ""
+"F12: Geçerli profil ile önceden tanımlanmış profil arasında geçiş yapar."
+
+#. type: Bullet: '* '
+msgid "F1: Layer help."
+msgstr "F1: Katman yardımı."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Controller"
+msgstr "SPL Denetleyicisi"
+
+#. type: Plain text
+msgid ""
+"The SPL Controller is a set of layered commands you can use to control SPL "
+"Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "
+"\"SPL Controller.\" Press another command to control various Studio settings "
+"such as microphone on/off or play the next track."
+msgstr ""
+"SPL Denetleyicisi, SPL Studio'yu her yerde kontrol etmek için "
+"kullanabileceğiniz bir dizi katmanlı komuttur. SPL Denetleyici katmanı "
+"komutuna bastığınızda NVDA \"SPL Denetleyici\" diyecektir. Mikrofonu açma/"
+"kapama veya sonraki parçayı çalma gibi çeşitli Studio ayarlarını kontrol "
+"etmek için başka bir komuta basın."
+
+#. type: Plain text
+msgid ""
+"Important: SPL Controller layer commands are disabled if NVDA is running in "
+"secure mode."
+msgstr ""
+"Önemli: NVDA güvenli modda çalışıyorsa SPL Denetleyici katmanı komutları "
+"devre dışı bırakılır."
+
+#. type: Plain text
+msgid ""
+"The available SPL Controller commands are (some commands support speak on "
+"demand):"
+msgstr ""
+"Mevcut SPL Denetleyici komutları şunlardır (bazı komutlar talep üzerine "
+"konuşmayı destekler):"
+
+#. type: Bullet: '* '
+msgid "P: Play the next selected track."
+msgstr "P: Sonraki seçilen parçayı çalar."
+
+#. type: Bullet: '* '
+msgid "U: Pause or unpause playback."
+msgstr "U: Çalmayı duraklat veya sürdür."
+
+#. type: Bullet: '* '
+msgid "S: Stop the track with fade out."
+msgstr "S: Parçayı kısarak durdurur."
+
+#. type: Bullet: '* '
+msgid "T: Instant stop."
+msgstr "T: Anında Durdur."
+
+#. type: Bullet: '* '
+msgid "M: Turn on microphone."
+msgstr "M: Mikrofonu açar."
+
+#. type: Bullet: '* '
+msgid "Shift+M: Turn off microphone."
+msgstr "Shift+M: Mikrofonu kapatır."
+
+#. type: Bullet: '* '
+msgid "A: Turn on automation."
+msgstr "A: Otomasyonu açar."
+
+#. type: Bullet: '* '
+msgid "Shift+A: Turn off automation."
+msgstr "Shift+A: Otomasyonu kapatır."
+
+#. type: Bullet: '* '
+msgid "L: Turn on line-in input."
+msgstr "L: Line in girişini açar."
+
+#. type: Bullet: '* '
+msgid "Shift+L: Turn off line-in input."
+msgstr "Shift+L: Line-in girişini kapatır."
+
+#. type: Bullet: '* '
+msgid "R: Remaining time for the currently playing track."
+msgstr "R: Çalmakta olan parçanın kalan süresi."
+
+#. type: Bullet: '* '
+msgid "Shift+R: Library scan progress."
+msgstr "Shift+R: Kitaplık tarama ilerlemesi."
+
+#. type: Bullet: '* '
+msgid ""
+"C: Title and duration of the currently playing track (supports speak on "
+"demand)."
+msgstr ""
+"C: O anda çalınan parçanın başlığı ve süresi (talep üzerine konuşmayı "
+"destekler)."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+C: Title and duration of the upcoming track if any (supports speak on "
+"demand)."
+msgstr ""
+"Shift+C: Varsa gelecek parçanın başlığı ve süresi (talep üzerine konuşmayı "
+"destekler)."
+
+#. type: Bullet: '* '
+msgid "E: Encoder connection status (supports speak on demand)."
+msgstr "E: Kodlayıcı bağlantı durumu (talep üzerine konuşmayı destekler)."
+
+#. type: Bullet: '* '
+msgid "I: Listener count (supports speak on demand)."
+msgstr "I: Dinleyici sayısı (talep üzerine konuşmayı destekler)."
+
+#. type: Bullet: '* '
+msgid ""
+"Q: Studio status information such as whether a track is playing, microphone "
+"is on and others (supports speak on demand)."
+msgstr ""
+"Q: Bir parçanın çalınıp çalınmadığı, mikrofonun açık olup olmadığı ve "
+"diğerleri gibi stüdyo durumu bilgileri (talep üzerine konuşmayı destekler)."
+
+#. type: Bullet: '* '
+msgid ""
+"Cart keys (F1, Control+1, for example): Play assigned carts from anywhere."
+msgstr ""
+"Sepet tuşları (örneğin F1, Control+1): Atanan sepetleri istediğiniz yerden "
+"çalın."
+
+#. type: Bullet: '* '
+msgid "H: Layer help."
+msgstr "H: Katman yardımı."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track and microphone alarms"
+msgstr "Parça ve mikrofon alarmları"
+
+#. type: Plain text
+msgid ""
+"By default, NVDA will play a beep if five seconds are left in the track "
+"(outro) and/or intro, as well as to hear a beep if microphone has been "
+"active for a while. To configure track and microphone alarms, press "
+"Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can "
+"also use this screen to configure if you'll hear a beep, a message or both "
+"when alarms are turned on."
+msgstr ""
+"Varsayılan olarak, NVDA parçada (outro) ve/veya introda beş saniye "
+"kaldığında bir bip sesi çalacak ve mikrofon bir süredir aktifse bir bip sesi "
+"duyacaktır. Parça ve mikrofon alarmlarını yapılandırmak için Alt+NVDA+1 "
+"tuşlarına basarak Studio eklenti ayarları ekranında alarm ayarlarını açın. "
+"Bu ekranı ayrıca alarmlar açıldığında bir bip sesi mi, bir mesaj mı yoksa "
+"her ikisini birden mi duyacağınızı yapılandırmak için de kullanabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track Finder"
+msgstr "Parça Bulucu"
+
+#. type: Plain text
+msgid ""
+"If you wish to quickly find a song by an artist or by song name, from track "
+"list, press Control+NVDA+F. Type or choose the name of the artist or the "
+"song name. NVDA will either place you at the song if found or will display "
+"an error if it cannot find the song you're looking for. To find a previously "
+"entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
+"backward."
+msgstr ""
+"Bir şarkıyı sanatçıya veya şarkı adına göre hızlı bir şekilde bulmak "
+"isterseniz, parça listesinde Control+NVDA+F tuşlarına basın. Sanatçının "
+"adını veya şarkı adını yazın yada seçin. NVDA, bulunursa sizi şarkıya "
+"odaklar ya da aradığınız şarkıyı bulamazsa bir hata görüntüler. Daha önce "
+"girilmiş bir şarkıyı veya sanatçıyı bulmak için NVDA+F3 veya NVDA+Shift+F3 "
+"tuşlarına basarak ileri veya geri gidin."
+
+#. type: Plain text
+msgid "Note: Track Finder is case-sensitive."
+msgstr "Not: Parça Bulucu büyük/küçük harfe duyarlıdır."
+
+#. type: Title ##
+#, no-wrap
+msgid "Cart Explorer"
+msgstr "Sepet Gezgini"
+
+#. type: Plain text
+msgid ""
+"Depending on edition, SPL Studio allows up to 96 carts to be assigned for "
+"playback. NVDA allows you to hear which cart, or jingle is assigned to these "
+"commands."
+msgstr ""
+"Sürüme bağlı olarak SPL Studio, çalma için 96'ya kadar otomasyonun "
+"atanmasına izin verir. NVDA, bu komutlara hangi otomasyonun veya şarkının "
+"atandığını duymanıza olanak tanır."
+
+#. type: Plain text
+msgid ""
+"To learn cart assignments, from SPL Studio, press Alt+NVDA+3. Pressing the "
+"cart command once will tell you which jingle is assigned to the command. "
+"Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to "
+"exit cart explorer. See the add-on guide for more information on cart "
+"explorer."
+msgstr ""
+"Sepet atamalarını öğrenmek için SPL Studio'dan Alt+NVDA+3 tuşlarına basın. "
+"Sepet komutuna bir kez bastığınızda, komuta hangi jingle'ın atandığı size "
+"söylenecektir. Sepet komutuna iki kez basıldığında jingle çalınır. Sepet "
+"gezgininden çıkmak için Alt+NVDA+3 tuşlarına basın. Sepet gezgini hakkında "
+"daha fazla bilgi için eklenti kılavuzuna bakın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track time analysis"
+msgstr "Parça zaman analizi"
+
+#. type: Plain text
+msgid ""
+"To obtain length to play selected tracks, mark current track for start of "
+"track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when "
+"reaching end of selection."
+msgstr ""
+"Seçilen parçaları çalmak için uzunluk elde etmek üzere, parça süresi "
+"analizinin başlangıcı için geçerli parçayı işaretleyin (SPL Yardımcısı, F9), "
+"ardından seçimin sonuna ulaştığınızda SPL Yardımcısı, F10'a basın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Columns Explorer"
+msgstr "Sütun Gezgini"
+
+#. type: Plain text
+msgid ""
+"By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
+"columns. By default, these are first ten columns for a track item (in "
+"Studio: artist, title, duration, intro, outro, category, year, album, genre, "
+"mood). For playlist editor in Creator and Remote VT client, column data "
+"depends on column order as shown on screen. In Studio, Creator's main track "
+"list, and Track Tool, column slots are preset regardless of column order on "
+"screen and can be configured from add-on settings dialog under columns "
+"explorer category."
+msgstr ""
+"Control+NVDA+1'den 0'a kadar tuşlara basarak belirli sütunların içeriklerini "
+"elde edebilirsiniz. Varsayılan olarak bunlar bir parça öğesinin ilk on "
+"sütunudur (Studio'da: sanatçı, başlık, süre, giriş, çıkış, kategori, yıl, "
+"albüm, tür, ruh hali). Oluşturucu ve Remote VT istemcisindeki çalma listesi "
+"düzenleyicisi için sütun verileri, ekranda gösterilen sütun sırasına "
+"bağlıdır. Studio'da, Oluşturucu'nun ana parça listesi ve İzleme Aracı'nda "
+"sütun yuvaları, ekrandaki sütun sırasına bakılmaksızın önceden ayarlanır ve "
+"sütun gezgini kategorisi altındaki eklenti ayarları iletişim kutusundan "
+"yapılandırılabilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track column announcement"
+msgstr "Parça sütunu anonsu"
+
+#. type: Plain text
+msgid ""
+"You can ask NVDA to announce track columns found in Studio's playlist viewer "
+"in the order it appears on screen or using a custom order and/or exclude "
+"certain columns. Press NVDA+V to toggle this behavior while focused on a "
+"track in Studio's playlist viewer. To customize column inclusion and order, "
+"from column announcement settings panel in add-on settings, uncheck "
+"\"Announce columns in the order shown on screen\" and then customize "
+"included columns and/or column order."
+msgstr ""
+"NVDA'dan Studio'nun çalma listesi görüntüleyicisinde bulunan parça "
+"sütunlarını ekranda göründükleri sıraya göre veya özel bir sıra kullanarak "
+"duyurmasını ve/veya belirli sütunları hariç tutmasını isteyebilirsiniz. "
+"Studio'nun çalma listesi görüntüleyicisindeki bir parçaya odaklanmışken bu "
+"davranışı değiştirmek için NVDA+V tuşlarına basın. Sütun eklemeyi ve "
+"sıralamayı özelleştirmek için eklenti ayarlarındaki sütun duyuru ayarları "
+"panelinde \"Sütunları ekranda gösterilen sırayla duyur\" seçeneğinin "
+"işaretini kaldırın ve ardından eklenen sütunları ve/veya sütun sırasını "
+"özelleştirin."
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist snapshots"
+msgstr "Oynatma listesi anlık görüntüleri"
+
+#. type: Plain text
+msgid ""
+"You can press SPL Assistant, F8 while focused on a playlist in Studio to "
+"obtain various statistics about a playlist, including number of tracks in "
+"the playlist, longest track, top artists and so on. After assigning a custom "
+"command for this feature, pressing the custom command twice will cause NVDA "
+"to present playlist snapshot information as a webpage so you can use browse "
+"mode to navigate (press escape to close)."
+msgstr ""
+"Çalma listesindeki parça sayısı, en uzun parça, en iyi sanatçılar vb. dahil "
+"olmak üzere bir çalma listesi hakkında çeşitli istatistikler elde etmek için "
+"Studio'da bir çalma listesine odaklanmışken SPL Yardımcısı ve F8 tuşlarına "
+"basabilirsiniz. Bu özellik için özel bir komut atadıktan sonra, özel komuta "
+"iki kez basmak, NVDA'nın çalma listesi anlık görüntü bilgilerini bir web "
+"sayfası olarak sunmasına neden olur, böylece gezinmek için göz atma modunu "
+"kullanabilirsiniz (kapatmak için Escape tuşuna basın)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist Transcripts"
+msgstr "Çalma Listesi Transkriptleri"
+
+#. type: Plain text
+msgid ""
+"Pressing SPL Assistant, Shift+F8 will present a dialog to let you request "
+"playlist transcripts in numerous formats, including in a plain text format, "
+"an HTML table or a list."
+msgstr ""
+"SPL Yardımcısı'na bastığınızda, Shift+F8, düz metin biçimi, HTML tablosu "
+"veya liste dahil olmak üzere çeşitli biçimlerde çalma listesi "
+"transkriptlerini istemenize izin veren bir iletişim kutusu sunar."
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration dialog"
+msgstr "Yapılandırma iletişim kutusu"
+
+#. type: Plain text
+msgid ""
+"From studio window, you can press Alt+NVDA+0 to open the add-on "
+"configuration dialog. Alternatively, go to NVDA's preferences menu and "
+"select SPL Studio Settings item. Not all settings are available if NVDA is "
+"running in secure mode."
+msgstr ""
+"Eklenti yapılandırma iletişim kutusunu açmak için stüdyo penceresinden "
+"Alt+NVDA+0 tuşlarına basabilirsiniz. Alternatif olarak, NVDA'nın tercihler "
+"menüsüne gidin ve SPL Studio Ayarları öğesini seçin. NVDA güvenli modda "
+"çalışıyorsa tüm ayarlar kullanılamaz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Broadcast profiles dialog"
+msgstr "Yayın profilleri iletişim kutusu"
+
+#. type: Plain text
+msgid ""
+"You can save settings for specific shows into broadcast profiles. These "
+"profiles can be managed via SPL broadcast profiles dialog which can be "
+"accessed by pressing Alt+NVDA+P from Studio window."
+msgstr ""
+"Belirli programların ayarlarını yayın profillerine kaydedebilirsiniz. Bu "
+"profiller, Studio penceresinden Alt+NVDA+P tuşlarına basılarak erişilebilen "
+"SPL yayın profilleri iletişim kutusu aracılığıyla yönetilebilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL touch mode"
+msgstr "SPL dokunma modu"
+
+#. type: Plain text
+msgid ""
+"If you are using Studio on a touchscreen computer with NVDA installed, you "
+"can perform some Studio commands from the touchscreen. First use three "
+"finger tap to switch to SPL mode, then use the touch commands listed above "
+"to perform commands."
+msgstr ""
+"Studio'yu NVDA kurulu dokunmatik ekranlı bir bilgisayarda kullanıyorsanız, "
+"bazı Studio komutlarını dokunmatik ekrandan gerçekleştirebilirsiniz. Önce "
+"SPL moduna geçmek için üç parmakla dokunmayı kullanın, ardından komutları "
+"gerçekleştirmek için yukarıda listelenen dokunma komutlarını kullanın."
+
+#. type: Title ##
+#, no-wrap
+#| msgid "Version 25.05"
+msgid "Version 25.06-LTS"
+msgstr "Sürüm 25.06-lts"
+
+#. type: Plain text
+msgid ""
+"Version 25.06.x is the last release series to support Studio 5.x with future "
+"releases requiring Studio 6.x. Some new features will be backported to "
+"25.06.x if needed."
+msgstr ""
+"Sürüm 25.06.x, Studio 6.x gerektiren gelecekteki sürümlerle Studio 5.x'i "
+"destekleyen son sürüm serisidir. Bazı yeni özellikler gerekirse 25.06.x'e "
+"geri dönecektir."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new command in SPL Assistant to announce playlist hour over/under by "
+"in minutes and seconds (O)."
+msgstr ""
+"SPL Assistant'a oynatma listesi zamanı Kalan/geçen dakika ve saniye "
+"cinsinden (O) bildirmek için yeni bir komut eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, the command to step through library scan announcement settings "
+"has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles "
+"remote access feature in NVDA 2025.1."
+msgstr ""
+"Studio'da, kütüphane tarama duyurusu ayarlarında adım atma komutu "
+"Alt+NVDA+R'den Shift+NVDA+R'ye değiştirildi, çünkü eski komut NVDA "
+"2025.1'deki uzaktan erişim özelliğini değiştiriyor."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing when performing "
+"some SPL Assistant commands after resizing Studio window."
+msgstr ""
+"NVDA artık Studio penceresini yeniden boyutlandırdıktan sonra bazı SPL "
+"Assistant komutlarını gerçekleştirirken hata tonları çalmayacak veya hiçbir "
+"şey yapmıyor gibi görünmeyecek."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize track column changes introduced in Creator and Track "
+"Tool 6.11."
+msgstr ""
+"NVDA, Yaratıcı ve Track Aracı 6.11'de tanıtılan parça sütun değişikliklerini "
+"tanıyacaktır."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play wrong carts when playing them via SPL Controller "
+"layer."
+msgstr ""
+"NVDA, SPL Denetleyici katmanı aracılığıyla oynatırken artık yanlış kartları "
+"oynatmayacak."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.05"
+msgstr "Sürüm 25.05"
+
+#. type: Bullet: '* '
+msgid "NVDA 2024.1 or later is required due to Python 3.11 upgrade."
+msgstr "Python 3.11 yükseltmesi nedeniyle NVDA 2024.1 veya sonrası gereklidir."
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr "Windows 8.1 için sınırlı destek geri yüklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"Moved ad-on wiki documents such as add-on changelog to the main code "
+"repository."
+msgstr ""
+"Eklenti değişiklik günlüğü gibi eklenti viki belgeleri ana kod deposuna "
+"taşındı."
+
+#. type: Bullet: '* '
+msgid ""
+"Added close button to playlist snapshots, playlist transcripts, and SPL "
+"Assistant and Controller layer help screens (NVDA 2025.1 and later)."
+msgstr ""
+"Oynatma listesi anlık görüntülerine, çalma listesi transkriptlerine ve SPL "
+"Asistanı ve Denetleyici katmanı yardım ekranlarına (NVDA 2025.1 ve üstü) "
+"kapat düğmesi eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer do nothing or play error tones when announcing weather "
+"and temperature information in Studio 6.x (SPL Assistant, W)."
+msgstr ""
+"NVDA, Studio 6.x'te (SPL Assistant, W) hava durumu ve sıcaklık bilgilerini "
+"duyururken artık hiçbir şey yapmayacak veya hata tonları çalmayacak."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.01"
+msgstr "Sürüm 25.01"
+
+#. type: Bullet: '* '
+msgid "64-bit Windows 10 21H2 (build 19044) or later is required."
+msgstr "64 bit Windows 10 21H2 (derleme 19044) veya sonrası gereklidir."
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+"Eklenti sürümlerinin indirme bağlantıları artık eklenti belgelerine dahil "
+"edilmemektedir. Eklentiyi NV Access eklenti mağazasından indirebilirsiniz."
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+"Linting aracı Flake8'den Ruff'a değiştirildi ve NVDA kodlama standartlarıyla "
+"daha iyi uyum sağlamak için eklenti modülleri yeniden biçimlendirildi."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+"Eklenti Güncelleyici eklentisinden otomatik eklenti güncelleme desteği "
+"kaldırıldı."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio 6.10 and later, added a new command in SPL Assistant to announce "
+"control keys enabled/disabled status (Control+D)."
+msgstr ""
+"Studio 6.10 ve sonraki sürümlerde, kontrol tuşlarının etkin/devre dışı "
+"durumunu (Kontrol+D) duyurmak için SPL Yardımcısı'na yeni bir komut eklendi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.03"
+msgstr "Sürüm 24.03"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2024.1."
+msgstr "NVDA 2024.1 ile uyumludur."
+
+#. type: Bullet: '* '
+msgid "NVDA 2023.3.3 or later is required."
+msgstr "NVDA 2023.3.3 veya sonrası gereklidir."
+
+#. type: Bullet: '* '
+msgid "Support for StationPlaylist suite 6.10."
+msgstr "StationPlaylist suite 6.10 desteği."
+
+#. type: Bullet: '* '
+msgid ""
+"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
+"spoken in this mode."
+msgstr ""
+"Çoğu komut, talep üzerine konuşmayı (NVDA 2024.1) destekler, bu nedenle "
+"duyurular bu modda seslendirilebilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.01"
+msgstr "Sürüm 24.01"
+
+#. type: Bullet: '* '
+msgid ""
+"The commands for the Encoder Settings dialog for use with the SPL and SAM "
+"Encoders are now assignable, meaning that you can change them from their "
+"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
+"Input Gestures. The ones that are not assignable are the connect and "
+"disconnect commands. Also, to prevent command conflicts and make much easier "
+"use of this command on remote servers, the default gesture for switching to "
+"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
+"of these can of course still be toggled from the Encoder Settings dialog "
+"(NVDA+Alt+0 or F12)."
+msgstr ""
+"SPL ve SAM Kodlayıcılarla kullanılacak Kodlayıcı Ayarları iletişim "
+"kutusundaki komutlar artık atanabilir; bu, NVDA Menüsü > Tercihler > Girdi "
+"Hareketleri iletişim kutusunda StationPlaylist kategorisi altında bunları "
+"varsayılan değerlerinden değiştirebileceğiniz anlamına gelir. Atanamayanlar "
+"bağlanma ve bağlantıyı kesme komutlarıdır. Ayrıca, komut çakışmalarını "
+"önlemek ve uzak sunucularda bu komutun kullanımını çok daha kolay hale "
+"getirmek için, bağlandıktan sonra Studio'ya geçiş için varsayılan hareket "
+"artık Control+Shift+F11 (daha önce yalnızca F11) şeklindedir. Bunların tümü "
+"elbette Kodlayıcı Ayarları iletişim kutusundan (NVDA+Alt+0 veya F12) "
+"değiştirilebilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05"
+msgstr "Sürüm 23.05"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+"Bakımcı değişikliğini yansıtmak için Manifest.ini bu şekilde belirtilecek "
+"şekilde güncellenmiştir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Sürüm 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "NVDA 2022.4 veya üstü gereklidir."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü "
+"gereklidir."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio's playlist viewer, NVDA will not announce column headers such as "
+"artist and title if table headers setting is set to either \"rows and "
+"columns\" or \"columns\" in NVDA's document formatting settings panel."
+msgstr ""
+"Studio'nun çalma listesi görüntüleyicisinde, NVDA'nın belge biçimlendirme "
+"ayarları panelinde tablo başlıkları ayarı \"satırlar ve sütunlar\" veya "
+"\"sütunlar\" olarak ayarlanmışsa, NVDA sanatçı ve başlık gibi sütun "
+"başlıklarını duyurmaz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Older releases"
+msgstr "Eski sürümler"
+
+#. type: Plain text
+msgid ""
+"Please see the [changelog][2] for release notes for old add-on releases."
+msgstr ""
+"Eski eklenti sürümlerine ilişkin sürüm notları için lütfen [değişiklik "
+"günlüğüne][2] bakın."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#| msgid ""
+#| "[2]: https://github.com/chrisDuffley/stationplaylist/wiki/SPLAddonGuide"
+msgid ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+msgstr ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+
+#. type: Plain text
+#| msgid ""
+#| "[3]: https://github.com/ChrisDuffley/stationplaylist/wiki/splchangelog"
+msgid ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+msgstr ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
+#~ msgstr ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "[Kararlı sürümü indir][1]"
+
+#~ msgid "NVDA compatibility: 2023.3.3 and later"
+#~ msgstr "NVDA uyumluluğu: 2023.3.3 ve sonrası"

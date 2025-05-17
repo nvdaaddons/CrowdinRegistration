@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2020-01-28 13:08+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Training Keyboard commands\"]]\n"
+msgstr "[[!meta title=\"Tréner\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Ibrahim Hamadeh"
+msgstr "Autor: Ibrahim Hamadeh"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Download [development version][2]"
+msgid "Download [stable version][1]"
+msgstr "Stiahnuť [vývojovú verziu][2]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Stiahnuť [vývojovú verziu][2]"
+
+#. type: Plain text
+msgid ""
+"This addon is aimed to train NVDA commands in a game like way, for either "
+"keyboard layout modes desktop or laptop layout."
+msgstr ""
+"Môžete si otestovať vaše zručnosti a zistiť, ako dobre poznáte skratky NVDA "
+"pre desktop a laptop rozloženie."
+
+#. type: Plain text
+msgid ""
+"All commands data is scraped from keyCommands.html file in locale "
+"documentation folder in NVDA."
+msgstr ""
+"Doplnok používa na zistenie skratiek zoznam skratiek v súbore keyCommands."
+"html, pričom používa aktuálny jazyk NVDA."
+
+#. type: Plain text
+msgid "This addon does not have any default gesture or shortcut."
+msgstr "Doplnok nemá žiadne vlastné klávesové skratky."
+
+#. type: Plain text
+#, no-wrap
+msgid "You have to assign a specific gesture to it via: NVDA menu>preferences>inputGestures>trainingKeyboardCommands.\n"
+msgstr "Skratku musíte nastaviť v menu nvda > nastavenia > klávesové skratky v časti Tréner alebo Training keyboard.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Použitie"
+
+#. type: Bullet: '* '
+msgid "You choose the keyboard layout mode you want to train, and begin play"
+msgstr "Najprv si vyberiete rozloženie klávesnice."
+
+#. type: Bullet: '* '
+msgid ""
+"A question or command and it's description will be displayed, and you have "
+"to pick the right related keys or answer"
+msgstr "Potom sa zobrazí otázka a vašou úlohou je vybrať správnu odpoveď."
+
+#. type: Bullet: '* '
+msgid "If you have chose the right answer, your score wi be added one point"
+msgstr "Za každú správnu odpoveď získate jeden bod."
+
+#. type: Bullet: '* '
+msgid ""
+"If the answer was wrong, the score will not change, and go on with no loose"
+msgstr "Ak zvolíte nesprávnu odpoveď, nezískavate ani nestratíte žiadne body."
+
+#. type: Bullet: '* '
+msgid ""
+"At any time, if you want to exit, you will be asked if you want to save the "
+"remaining questions for next round"
+msgstr "Ak sa rozhodnete hru ukončiť, môžete uložiť aktuálny stav."
+
+#. type: Bullet: '* '
+msgid ""
+"If in a later time you choose a layout wit saved questions, you will be "
+"asked if you want to resume the remaining questions from previous round"
+msgstr ""
+"Ak znovu spustíte trénovanie v tom istom rozložení klávesnice, môžete začať "
+"odznovu, alebo pokračovať tam, kde ste prestali."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Answering all questions, about 88 for each layout, you will be declared a "
+#| "winner deserving NVDA cup."
+msgid ""
+"Answering all questions, about 110 for each layout, you will be declared a "
+"winner deserving NVDA addon's cup."
+msgstr ""
+"Ak zodpoviete na všetky otázky (aktuálne takmer 90 skratiek), získate pohár "
+"NVDA."
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[2]: https://addons.nvda-project.org/files/get.php?file=trainingkbdcmd"
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=trainingKeyboardCommands"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=trainingkbdcmd"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[2]: https://addons.nvda-project.org/files/get.php?file=trainingkbdcmd"
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=trainingKeyboardCommands"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=trainingkbdcmd"

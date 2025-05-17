@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:46+0000\n"
+"PO-Revision-Date: 2024-05-06 21:53+0300\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"ROB Enhancements\"]]\n"
+msgstr "[[!meta title=\"ROB:n laajennukset\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Rainer Brell"
+msgstr "Tekijä: Rainer Brell"
+
+#. type: Plain text
+msgid "This add-on adds global and program dependent features."
+msgstr "Tämä lisäosa lisää yleisiä ja ohjelmakohtaisia ominaisuuksia."
+
+#. type: Title ##
+#, no-wrap
+msgid "Windows Explorer and Browsers"
+msgstr "Windowsin resurssienhallinta ja selaimet"
+
+#. type: Bullet: '* '
+msgid ""
+"Empty folders are usually recognized and displayed in Windows 10 Explorer."
+msgstr ""
+"Tavallisesti tyhjät kansiot tunnistetaan ja näytetään Windows 10:n "
+"resurssienhallinnassa."
+
+#. type: Bullet: '* '
+msgid "Use Ctrl+NVDA+f4 to show document URL, press twice, copy to clipboard."
+msgstr ""
+"Käytä Ctrl+NVDA+F4-näppäinyhdistelmää dokumentin URLin näyttämiseen. Paina "
+"kahdesti kopioidaksesi sen leikepöydälle."
+
+#. type: Title ##
+#, no-wrap
+msgid "Microsoft Outlook"
+msgstr "Microsoft Outlook"
+
+#. type: Bullet: '* '
+msgid "Empty folders are usually recognized."
+msgstr "Tavallisesti tyhjät kansiot tunnistetaan."
+
+#. type: Bullet: '* '
+msgid ""
+"With Ctrl+Alt+j you jump to the first folder below the inbox, which contains "
+"unread emails."
+msgstr ""
+"Näppäinyhdistelmällä Ctrl+Alt+J siirrytään ensimmäiseen Saapuneet-kansion "
+"alapuolella olevaan, lukemattomia viestejä sisältävään kansioon."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"

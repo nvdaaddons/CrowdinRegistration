@@ -1,0 +1,496 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-20 15:31+0000\n"
+"PO-Revision-Date: 2022-03-22 08:44+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"GoldWave\"]]\n"
+msgstr "[[!meta title=\"GoldWave 支持插件\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Joseph Lee, NVDA contributors."
+msgstr "作者: Joseph Lee, NVDA contributors."
+
+#. type: Plain text
+msgid "This app module enhances access and usage of GoldWave audio editor."
+msgstr "此插件可增强GoldWave音频编辑器的无障碍体验性。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#. type: Plain text
+msgid "All commands support speech on demand mode."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Control+Shift+P: Announces current track position."
+msgstr "Control+Shift+P: 报告当前的轨道位置。"
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+R: Announces remaining time for the currently editing track."
+msgstr "NVDA+Shift+R: 报告当前编辑曲目的剩余时间。"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+1: Announces the channel you are editing."
+msgstr "Control+NVDA+1: 报告您正在编辑的通道。"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+2: Announces the total length of the audio file."
+msgstr "Control+NVDA+2: 报告音频文件的总长度。"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3: announces a summary on audio selection information."
+msgstr "Control+NVDA+3： 读出音频选择信息的摘要。"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+4: Announces the zoom level."
+msgstr "Control+NVDA+4: 报告缩放级别。"
+
+#. type: Plain text
+msgid ""
+"For more information about GoldWave and keyboard commands, refer to GoldWave "
+"Manual."
+msgstr "有关GoldWave和键盘命令的更多信息，请参阅GoldWave手册。"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Note: GoldWave 6 or later is required."
+msgid "Note: GoldWave 6 or later and Windows 10 or later is required."
+msgstr "注意：现在需要 GoldWave 6或更高版本。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.04"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed command announcement mode, replaced with speech on demand mode. In "
+"speech on demand mode, GoldWave specific commands such as setting start "
+"marker will stay silent while informational commands such as audio position "
+"will be spoken."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.02"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2021.3 or later is required."
+msgid "NVDA 2024.1 or later is required."
+msgstr "需要NVDA 2021.3或更高版本。"
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.01"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Support for GoldWave 6, including 64-bit version of GoldWave (see note "
+#| "above)."
+msgid "Support for GoldWave 7 (requires 64-bit Windows 10 or later)."
+msgstr "支持GoldWave 6，包括64位版本的GoldWave（请参阅上面的注释）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 23.02"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2021.3 or later is required."
+msgid "NVDA 2022.4 or later is required."
+msgstr "需要NVDA 2021.3或更高版本。"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr "现在需要Windows 7 SP1，GoldWave 6.x和NVDA 2019.1或更高版本。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 23.01"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2021.3 or later is required."
+msgid "NVDA 2022.3 or later is required."
+msgstr "需要NVDA 2021.3或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.03"
+msgstr "版本22.03"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr "需要NVDA 2021.3或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr "当试图在 Windows 7、8和8.1上安装插件时，将显示一条警告消息。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "版本21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr "NVDA 2021.2或更高版本是必需的，因为 NVDA 的更改会影响此插件。"
+
+#. type: Bullet: '* '
+msgid ""
+"In GoldWave 6.57 and later, NVDA will no longer repeat the name of the "
+"loaded file when pressing play/rewind/stop keys."
+msgstr ""
+"在 GoldWave 6.57及更高版本中，按下播放/回放/停止键时，NVDA 将不再重复加载文件"
+"的名称。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.06"
+msgstr "版本21.06"
+
+#. type: Bullet: '* '
+msgid "Resolved additional coding style issues and potential bugs with Flake8."
+msgstr "使用 Flake8 解决了许多编码样式问题和潜在错误。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr "版本20.06"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr "使用 Flake8 解决了许多编码样式问题和潜在错误。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.04"
+msgstr "版本20.04"
+
+#. type: Bullet: '* '
+msgid "Added input help messages for remainig time command (NVDA+Shift+R)."
+msgstr "添加了有关restig time命令（NVDA + Shift + R）的输入帮助消息。"
+
+#. type: Bullet: '* '
+msgid ""
+"Toggle command announcement command (NVDA+Shift+C) will now show up under "
+"\"GoldWave\" category in NVDA's input gestures dialog."
+msgstr ""
+"切换命令 （NVDA_Shift_C） 现在显示在 NVDA 的输入手势对话框中的\"GoldWave\"分"
+"类下。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "需要NVDA 2019.3或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.11"
+msgstr "版本19.11"
+
+#. type: Bullet: '* '
+msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgstr "现在需要Windows 7 SP1，GoldWave 6.x和NVDA 2019.1或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added help message for sound window (accessible if Control Usage Assistant "
+"add-on is installed)."
+msgstr ""
+"新增了声音窗口的帮助消息（如果安装了Control Usage Assistant插件，则可以使"
+"用）。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "版本18.12"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when performing "
+"certain GoldWave commands with command announcement set to off (this may "
+"result in odd behaviors in some cases)."
+msgstr ""
+"现在在将某些命令通知设置为关闭的情况下执行某些GoldWave命令时，NVDA将不再显示"
+"任何操作或发出错误提示音（在某些情况下，这可能会导致异常行为）。"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "内部更改以支持将来的NVDA版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.07"
+msgstr "版本18.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where leading zeroes would not be displayed when trying to "
+"obtain remaining time for a trakc."
+msgstr "修复了尝试获取轨道的剩余时间时不会显示前导零的问题。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.05"
+msgstr "版本17.05"
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to provide debug information when NVDA is running with debug "
+"logging enabled (NVDA 2017.1 or later)."
+msgstr ""
+"增加了在启用调试日志记录的情况下运行NVDA时提供调试信息的功能,注意: 这需要"
+"（NVDA 2017.1或更高版本）。"
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "更新翻译。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.12"
+msgstr "版本16.12"
+
+#. type: Bullet: '* '
+msgid "Version scheme is now year.month instead of major.minor."
+msgstr "版本方案现在是year.month而不是major.minor。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "版本4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on repository has moved to GitHub (now located at https://github.com/"
+"josephsl/goldwave)."
+msgstr ""
+"附加存储库已转移到GitHub（现在位于 https://github.com/josephsl/goldwave)."
+
+#. type: Bullet: '* '
+msgid ""
+"Performance improvements when looking up information such as channel name "
+"and other status information."
+msgstr "现在查找诸如通道名称,和其他状态信息之类的信息时性能得到改善。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "版本3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a command to announce remaining time for the current track "
+"(NVDA+Shift+R)."
+msgstr "增加了一条命令来报告当前曲目的剩余时间(NVDA+Shift+R)。"
+
+#. type: Bullet: '* '
+msgid ""
+"Slight improvements when announcing status information such as channel "
+"information."
+msgstr "报告通道信息等状态信息时略有改进。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "版本2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Support for GoldWave 6, including 64-bit version of GoldWave (see note "
+"above)."
+msgstr "支持GoldWave 6，包括64位版本的GoldWave（请参阅上面的注释）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on help can now be accessed from add-ons manager (NVDA 2014.3 and later)."
+msgstr "现在可以从插件管理器（NVDA 2014.3及更高版本）访问插件帮助。"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA now announces selected channel if you press channel selection commands "
+"such as Control+Shift+L for the left channel."
+msgstr ""
+"如果按左声道的Control + Shift + L等声道选择命令，NVDA现在会报告选定的声道。"
+
+#. type: Bullet: '* '
+msgid ""
+"Various issues with numeric edit fields such as censor field and time "
+"selector in mix dialog has been fixed, including selecting text, updating "
+"values and so on."
+msgstr ""
+"数字编辑字段中的各种问题（如审查字段和混合对话框中的时间选择器）已得到修复，"
+"包括选择文本，更新值等。"
+
+#. type: Bullet: '* '
+msgid ""
+"Command announcement setting will be remembered when switching to other "
+"programs."
+msgstr "当切换到其他程序时，命令通知设置将被记住。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "版本1.2"
+
+#. type: Bullet: '* '
+msgid "Fixed an issue where NVDA had difficulty announcing some edit fields."
+msgstr "修复了NVDA难以公布一些编辑字段的问题。"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "新的更新和翻译。"
+
+#. type: Bullet: '* '
+msgid ""
+"Please note that due to recent changes in NVDA, audio selection and other "
+"status commands may not work as expected in some systems."
+msgstr ""
+"请注意，由于近期NVDA的变化，音频选择和其他状态命令在某些系统中可能无法按预期"
+"工作。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "版本1.1"
+
+#. type: Bullet: '* '
+msgid "Support for message announcements in braille."
+msgstr "支持盲文中的消息通告。"
+
+#. type: Bullet: '* '
+msgid "Audio selection summary is presented in languages other than English."
+msgstr "音频选择摘要以英语以外的语言显示。"
+
+#. type: Bullet: '* '
+msgid ""
+"More command announcements added including cue position movement and delete/"
+"trim operations."
+msgstr "添加了更多命令通告，包括提示位置移动和删除/修剪操作。"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue in numeric edit fields such as various effects dialogs where "
+"nothing or wrong field name was announced."
+msgstr ""
+"修复了数字编辑字段中的问题，例如各种效果对话框中没有任何字段名称或错误字段名"
+"称被宣布。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "版本1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "发布初始版本。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=goldwave"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"
+
+#~ msgid "NVDA+Shift+C: Toggles speaking of commands during audio editing."
+#~ msgstr "NVDA+Shift+C： 在音频编辑过程中切换朗读命令。"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "下载[稳定版][1]"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2021.3 and later"
+#~ msgid "NVDA compatibility: 2022.4 and later"
+#~ msgstr "NVDA兼容版本:2021.3 及更高"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "下载[开发板][2]"
+
+#~ msgid ""
+#~ "Note: GoldWave 6 requires 64-bit version of Windows 7 or later. To use "
+#~ "this add-on, NVDA 2019.3 or later is required."
+#~ msgstr ""
+#~ "注意：现在GoldWave 6需要Windows 7或更高版本的系统。另外要使用此插件，还需"
+#~ "要NVDA 2019.3或更高版本。"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=gwv-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=gwv-dev"
+
+#~ msgid ""
+#~ "Download [older version][3] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr "下载 [兼容于 NVDA 2019.2.1][3] 的旧版本插件"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=gwv-2019"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=gwv-2019"

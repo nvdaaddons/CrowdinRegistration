@@ -1,0 +1,803 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-12-01 07:43+0000\n"
+"PO-Revision-Date: 2018-12-19 16:45+0200\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Read Feeds\"]]\n"
+msgstr "[[!meta title=\"Read Feeds\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed"
+msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed"
+msgstr "Autori: Noelia Ruiz Martínez, Mesar Hameed"
+
+#. type: Plain text
+msgid ""
+"This addon provides a straightforward way to read feeds in Atom or RSS "
+"formats using NVDA.  The feeds will not be refreshed automatically.  Below "
+"when we mention feeds, we mean both RSS and ATOM feeds."
+msgstr ""
+"Acest supliment oferă o modalitate simplă de a citi feed-uri în format Atom "
+"sau RSS folosind NVDA. Feed-urile nu vor fi actualizate în mod automat. "
+"Atunci când menționăm feed-uri, ne referim atât la fluxuri RSS cât și la "
+"cele Atom."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Commands:"
+msgid "Commands"
+msgstr "Comenzi:"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Read Feeds menu"
+msgid "Read Feeds dialog"
+msgstr "Meniul Read Feeds "
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "You can access the Read Feeds submenu from the nvda menu, Tools submenu, "
+#| "where the following menu options are available:"
+msgid ""
+"You can access the Read Feeds dialog from the nvda menu, Tools submenu, "
+"Feeds item."
+msgstr ""
+"Puteți accesa submeniul Read Feeds din meniul NVDA, NVDA+N, unde sunt "
+"disponibile următoarele opțiuni:"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Opens a dialog with the following controls:"
+msgid "It contains the following controls:"
+msgstr "Deschide un dialog cu următoarele controale:"
+
+#. type: Bullet: '* '
+msgid "Filter by: An edit box to search previously saved feeds."
+msgstr ""
+"Filtrează după: O casetă de editare pentru căutarea fluxurilor salvate "
+"anterior."
+
+#. type: Bullet: '* '
+msgid "A list of the saved feeds, focused when the dialog is opened."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"List of articles: Opens a dialog which presents the articles list from your "
+"current feed. Select the article you want to read and press Enter or Open "
+"web page of selected article button to open the corresponding page in your "
+"browser. Press About article button to open a dialog showing title and link "
+"of the selected article; from this dialog, you'll be able to copy this info "
+"to the clipboard."
+msgstr ""
+"Lista articolelor: Deschide un dialog care  prezintă lista articolelor de la "
+"fluxul curent. Selectați articolul pe care vreți să îl citiți și apăsați "
+"Enter sau butonul „Deschide pagina web a articolului selectat” pentru a "
+"deschide pagina corespunzătoare în navigatorul web. Apăsați butonul „Despre "
+"articol” pentru a deschide un dialog care arată titlul și link-ul "
+"articolului selectat; din acest dialog, veți putea să copiați aceste "
+"informații pe planșetă."
+
+#. type: Bullet: '* '
+msgid "Open feed: Opens the selected feed in the default application."
+msgstr ""
+"Deschide flux: Deschide fluxul selectat in aplicația standard "
+"corespunzătoare."
+
+#. type: Bullet: '* '
+msgid ""
+"Open feed as HTML: Opens the selected feed in the default web browser. You "
+"will be able to show or hide publication dates and buttons to copy "
+"information about articles to clipboard."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Copy feed address: Opens a dialog to confirm if you want to copy the feed "
+"address to clipboard."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"New: Opens a dialog with an edit box to enter the address of a new feed. If "
+"the address is valid and the feed can be saved, its name, based on the feed "
+"title, will appear at the bottom of the feeds list."
+msgstr ""
+"Nou: Deschide un dialog cu o casetă de editare pentru introducerea adresei "
+"unui nou flux. Dacă adresa este validă și fluxul poate fi salvat, numele său "
+"bazat pe titlul acestuia va apărea la sfârșitul listei de fluxuri."
+
+#. type: Bullet: '* '
+msgid "Rename: Opens a dialog with an edit box to rename the selected feed."
+msgstr ""
+"Redenumire: Deschide un dialog cu o casetă de editare pentru redenumirea "
+"fluxului selectat."
+
+#. type: Bullet: '* '
+msgid "Delete: Opens a dialog to delete the selected feed after confirmation."
+msgstr ""
+"Ștergere: Deschide un dialog pentru ștergerea fluxului selectat după "
+"confirmare."
+
+#. type: Bullet: '* '
+msgid ""
+"Set default: Sets the selected feed as the default, so that its articles can "
+"be accessed with NVDA's gestures."
+msgstr ""
+"Setare ca implicit: Setează fluxul selectat ca implicit, așa că articolele "
+"sale pot fi accesate cu gesturile NVDA-ului."
+
+#. type: Bullet: '* '
+msgid ""
+"Import feeds from OPML file: Opens a dialog to add new feeds from an OPML "
+"file."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Save feeds to OPML file: Opens a dialog to save the feeds available from the "
+"Feeds dialog in an OPML file."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Preferences: Opens the settings dialog for readFeeds, also available in "
+"NVDA's menu, Preferences, settings, readFeeds category."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Close: Closes the Feeds dialog."
+msgstr "Închidere: Închide dialogul fluxurilor."
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Notes"
+msgid "Notes #####"
+msgstr "Note"
+
+#. type: Bullet: '* '
+msgid ""
+"The Filter by edit box can be placed after the Open article button from "
+"NVDA's menu, Preferences, Settings, Read feeds category, or pressing the "
+"Preferences button of the Feeds dialog."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"This panel has an option to show article dates on the List of articles "
+"dialog."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Keyboard commands:"
+msgid "Keyboard commands"
+msgstr "Comenzi de taste:"
+
+#. type: Bullet: '* '
+msgid ""
+"Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will "
+"open the web page."
+msgstr ""
+"Ctrl+Shift+NVDA+Spațiu: Anunță URL-ul articolului curent. Apăsarea de două "
+"ori va deschide pagina web."
+
+#. type: Bullet: '* '
+msgid ""
+"Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent "
+"title."
+msgstr ""
+"Ctrl+Shift+NVDA+8: Reîmprospătează fluxul selectat și anunță cel mai recent "
+"titlu al său."
+
+#. type: Bullet: '* '
+msgid ""
+"Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice "
+"will copy the title and related link to clipboard."
+msgstr ""
+"Ctrl+Shift+NVDA+I: Anunță titlul fluxului curent și link-ul acestuia. "
+"Apăsarea de două ori va copia titlul și link-ul relatat pe planșetă."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+NVDA+U: Announces previous feed title."
+msgstr "Ctrl+Shift+NVDA+U: Anunță titlul fluxului precedent."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+NVDA+O: Announces next feed title."
+msgstr "Ctrl+Shift+NVDA+O: Anunță titlul fluxului succedent."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Notifications:"
+msgid "Notifications"
+msgstr "Notificări:"
+
+#. type: Bullet: '* '
+msgid "When the title or URL have been copied."
+msgstr "Când titlul sau URL-ul a fost copiat."
+
+#. type: Bullet: '* '
+msgid ""
+"When unable to connect/refresh a feed, or the URL does not correspond to a "
+"valid feed."
+msgstr ""
+"Atunci când nu se poate conecta/reîmprospăta un flux, sau URL-ul nu "
+"corespunde unui flux valid."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will display an error message if it was not possible to backup or "
+#| "restore the personalFeeds folder."
+msgid "NVDA will display an error message if a new feed cannot be created."
+msgstr ""
+"NVDA va afișa un mesaj de eroare dacă nu a fost posibilă crearea unei copii "
+"de siguranță sau restaurarea dosarului personalFeeds."
+
+#. type: Bullet: '* '
+msgid ""
+"The title of the articles list dialog displays the selected feed name and "
+"number of items available."
+msgstr ""
+"Dialogul titlului listei articolelor afișează numele fluxului selectat și "
+"numărul elementelor disponibile."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 34.0.0"
+msgstr "Modificări în 3.0"
+
+#. type: Bullet: '* '
+msgid "Added support for rss.cbc.ca feeds."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 21.0"
+msgstr "Modificări în 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Feeds with untitled articles can be presented in the Articles dialog, and "
+"opened as HTML."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 20.0"
+msgstr "Modificări în 2.0"
+
+#. type: Bullet: '* '
+msgid "universalFeedParser is updated to 5.0.1, adding support for more feeds."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 14.0"
+msgstr "Modificări în 1.0"
+
+#. type: Bullet: '* '
+msgid "Fixed a bug that made impossible to add some feeds."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 13.0"
+msgstr "Modificări în 1.0"
+
+#. type: Bullet: '* '
+msgid "The add-on cannot be used on secure screens."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Feeds are managed from OPML files."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes in the feeds management system, there are changes in the "
+"configuration file where the default feed is set. Please, use the Feeds "
+"dialog if you want to set it again."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Your old text files used in previous versions will be automatically imported "
+"into the new OPML format when the add-on is started."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The copy and restore feeds feature has been replaced with the ability to "
+"import from and save to OPML files."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Non well-formed feeds can be processed before being added to make them "
+"compatible with the add-on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In the Read Feeds settings panel, a new option allows to show article dates "
+"on the List of articles dialog."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Modificări în 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug which made shortcuts for items of NVDA's tools menu don't work "
+"as expected."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 11.0"
+msgstr "Modificări în 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatible with NVDA 2018.3 or later (required)."
+msgid "Compatible with NVDA 2021.1"
+msgstr "Compatibil cu NVDA 2018.3 sau mai nou (necesar)."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 10.0"
+msgstr "Modificări în 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Added a button to open the selected feed from the Feeds dialog."
+msgid ""
+"Added a button to open the selected feed as HTML in the default web browser."
+msgstr ""
+"S-a adaugat un buton pentru deschiderea fluxului selectat din dialogul "
+"pentru alegerea fluxurilor."
+
+#. type: Bullet: '* '
+msgid ""
+"If a new feed cannot be created, this will be notified in an error dialog."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved order and presentation of some articles."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "More feeds may be supported."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When the feeds dialog is opened, the list of feeds will be focused instead "
+"of the search edit box."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"You can choose if the search edit box is placed after the list of feeds, "
+"useful to focus the list even when switching from another window without "
+"closing the Feeds dialog."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Added a button to open the selected feed from the Feeds dialog."
+msgid ""
+"Added a button to copy the feed address to clipboard from the feeds dialog."
+msgstr ""
+"S-a adaugat un buton pentru deschiderea fluxului selectat din dialogul "
+"pentru alegerea fluxurilor."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 6.0"
+msgid "Changes for 9.0"
+msgstr "Modificări în 6.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2016.4."
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Necesită NVDA 2016.4."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 6.0"
+msgid "Changes for 8.0"
+msgstr "Modificări în 6.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the add-on is updated, feeds saved in the previous version of the add-"
+"on will be automatically copied to the new version, unless you prefer to "
+"import feeds saved in the main configuration folder of NVDA."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When using the dialog to copy feeds, if the chosen folder is not named "
+"personalFeeds, a subfolder with this name will be created to prevent the "
+"deletion of directories containing important data, such as Documents or "
+"Downloads."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 6.0"
+msgid "Changes for 7.0"
+msgstr "Modificări în 6.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The Feeds dialog includes a button to open a folder which may contain a "
+"backup of feeds."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When using the edit box to filter feeds, if no results are found, the list "
+"of feeds and other controls are disabled, so that NVDA doesn't report "
+"\"unknown\" in the empty list."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If the list of articles dialog can't be shown, for example due to errors in "
+"the feed, NVDA will raise an error, so that the feeds dialog can be used "
+"without restarting NVDA."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Modificări în 6.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+"Când fluxul implicit a fost actualizat și nu se nu mai funcționează datorită "
+"problemelor de server, articolele precedente nu sunt șterse și pot fi citite "
+"cu combinații de taste corespondente."
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
+msgstr "rezolvare: fluxul implicit poate fi actualizat de două ori."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Modificări în 5.0"
+
+#. type: Bullet: '* '
+msgid "The articles list dialog has been enhanced."
+msgstr "A fost îmbunătățit dialogul listei articolelor."
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr "Compatibil cu NVDA 2018.3 sau mai nou (necesar)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Modificări în 4.0"
+
+#. type: Bullet: '* '
+msgid "Added a button to open the selected feed from the Feeds dialog."
+msgstr ""
+"S-a adaugat un buton pentru deschiderea fluxului selectat din dialogul "
+"pentru alegerea fluxurilor."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Modificări în 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The dialogs to manage feed files have been removed. Now their functionality "
+"is included in the Feeds dialog."
+msgstr ""
+"Dialogul pentru administrarea fișierelor fluxurilor a fost eliminat. În "
+"prezent, funcționalitatea lui este inclusă în dialogul fluxurilor."
+
+#. type: Bullet: '* '
+msgid ""
+"The visual presentation of the dialogs has been enhanced, adhering to the "
+"appearance of the dialogs shown in NVDA."
+msgstr ""
+"Prezentarea vizuală a dialogurilor a fost îmbunătățită, aderând la aspectul "
+"dialogurilor afișate în NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"The default feed is saved on the NVDA's configuration. Therefore, it's "
+"possible to set different default feeds in configuration profiles."
+msgstr ""
+"Fluxul implicit este salvat în configurația NVDA. Prin urmare, este posibilă "
+"setarea fluxurilor implicite diferite în configurarea profilurilor."
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2016.4."
+msgstr "Necesită NVDA 2016.4."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Modificări în 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Ghidul suplimentului este disponibil în managerul de add-on-uri."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Modificări în 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Versiunea inițială."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#~ msgid ""
+#~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
+#~ "[3]."
+#~ msgstr ""
+#~ "Dacă e musai, puteți descărca [ultima versiune compatibilă cu NVDA 2017.3]"
+#~ "[3]."
+
+#, fuzzy
+#~| msgid "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
+#~ msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=rf-o"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=rf-o"
+
+#, fuzzy
+#~| msgid ""
+#~| "If needed, you can download the [last version compatible with NVDA "
+#~| "2017.3][3]."
+#~ msgid ""
+#~ "Download [stable version][1] (compatible with NVDA 2019.3 and beyond)"
+#~ msgstr ""
+#~ "Dacă e musai, puteți descărca [ultima versiune compatibilă cu NVDA 2017.3]"
+#~ "[3]."
+
+#, fuzzy
+#~| msgid ""
+#~| "If needed, you can download the [last version compatible with NVDA "
+#~| "2017.3][3]."
+#~ msgid "Download [beta version][2] (compatible with NVDA 2019.3 and beyond)"
+#~ msgstr ""
+#~ "Dacă e musai, puteți descărca [ultima versiune compatibilă cu NVDA 2017.3]"
+#~ "[3]."
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=readFeeds"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+#~ msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=readFeeds-beta"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rf"
+
+#, fuzzy
+#~| msgid "Download [development version][2]"
+#~ msgid ""
+#~ "Download [development version][2] (compatible with NVDA 2019.3 and beyond)"
+#~ msgstr "Descărcați [versiunea în dezvoltare][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2018.3 to 2019.1"
+#~ msgid "NVDA compatibility: 2019.3 or later"
+#~ msgstr "Compatibilitate NVDA: 2018.3 - 2019.1"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Descărcați [versiunea stabilă][1]"
+
+#, fuzzy
+#~| msgid "Installation or Update:"
+#~ msgid "Installation or Update"
+#~ msgstr "Instalare sau Actualizare:"
+
+#~ msgid ""
+#~ "If you used a previous version of this addon, and there is an RSS or "
+#~ "personalFeeds folder in your personal NVDA configuration folder, when "
+#~ "installing the current version, a dialog will ask if you want to upgrade "
+#~ "or install.  Choose update to preserve your saved feeds and to continue "
+#~ "using them in the new installed version of readFeeds."
+#~ msgstr ""
+#~ "Dacă ați utilizat o versiune anterioară a acestui add-on și există un "
+#~ "dosar RSS sau un dosar de feed-uri personale în dosarul dumneavoastră de "
+#~ "configurare al NVDA, când se instalează versiunea 6.0 sau mai nou, un "
+#~ "dialog vă va întreba dacă vreți să upgradați sau instalați. Alegeți "
+#~ "actualizare pentru a păstra feed-urile salvate și pentru a continua să le "
+#~ "folosiți în noua versiune instalată a cititorului de feed-uri."
+
+#, fuzzy
+#~| msgid "Feeds..."
+#~ msgid "Feeds"
+#~ msgstr "Fluxuri"
+
+#~ msgid ""
+#~ "If a feed named tempFeed is created, please rename it, as this file could "
+#~ "be replaced when needed to create a feed whose name already exists."
+#~ msgstr ""
+#~ "Dacă se creează un flux numit tempFeed, vă rugăm să-l redenumiți, "
+#~ "deoarece acest fișier ar putea fi înlocuit atunci când este necesar "
+#~ "pentru a crea un flux al cărui nume deja există."
+
+#~ msgid ""
+#~ "The feed set as the default can't be removed. The addressFile feed will "
+#~ "be use as the default when the configuration is reset, so it can't be "
+#~ "deleted."
+#~ msgstr ""
+#~ "Fluxul setat ca implicit nu poate fi șters. Fluxul addressFile va fi "
+#~ "utilizat ca implicit atunci când configurația este resetată, deci nu "
+#~ "poate fi șters."
+
+#, fuzzy
+#~| msgid "####Copy feeds folder... ####\n"
+#~ msgid "Copy feeds folder"
+#~ msgstr "Copiază dosarul fluxurilor... \n"
+
+#~ msgid ""
+#~ "Opens a dialog to choose a folder where you can save the personalFeeds "
+#~ "directory of your feeds. By default the selected folder is the NVDA's "
+#~ "configuration directory, which will create the personalFeeds directory."
+#~ msgstr ""
+#~ "Deschide un dialog pentru a alege un dosar unde să puteți salva dosarul "
+#~ "personalFeeds al fluxurilor dumneavoastră. În mod implicit, folderul "
+#~ "selectat este cel al configurației NVDA, care va crea dosarul "
+#~ "personalFeeds."
+
+#, fuzzy
+#~| msgid "Restore feeds..."
+#~ msgid "Restore feeds"
+#~ msgstr "Restaurare fluxuri..."
+
+#~ msgid ""
+#~ "Opens a dialog to select a folder which replaces your feeds in the "
+#~ "personalFeeds folder. Make sure you load a folder containing feeds URLs."
+#~ msgstr ""
+#~ "Deschide un dialog pentru selectarea unui dosar care înlocuiește "
+#~ "fluxurile dumneavoastră în dosarul personalFeeds. Asigurați-vă că "
+#~ "încărcați un dosar ce conține URL-urile fluxurilor."
+
+#~ msgid "A list of the saved feeds."
+#~ msgstr "O listă a fluxurilor salvate."
+
+#, fuzzy
+#~| msgid ""
+#~| "- Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice "
+#~| "will open the web page.  - Ctrl+Shift+NVDA+8: Refreshes the selected "
+#~| "feed and announces its most recent title.  - Ctrl+Shift+NVDA+I: "
+#~| "Announces current feed title. Pressing twice will copy the title and "
+#~| "related link to clipboard.  - Ctrl+Shift+NVDA+U: Announces previous feed "
+#~| "title.  - Ctrl+Shift+NVDA+O: Announces next feed title."
+#~ msgid ""
+#~ "- Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice "
+#~ "will open the web page.  - Ctrl+Shift+NVDA+8: Refreshes the selected feed "
+#~ "and announces its most recent title.  - Ctrl+Shift+NVDA+I: Announces "
+#~ "current feed title and link. Pressing twice will copy the title and "
+#~ "related link to clipboard.  - Ctrl+Shift+NVDA+U: Announces previous feed "
+#~ "title.  - Ctrl+Shift+NVDA+O: Announces next feed title."
+#~ msgstr ""
+#~ "- Ctrl+Shift+NVDA+Spațiu: Anunță URL-ul articolului curent. Apăsând de "
+#~ "două ori va deschide pagina web.  - Ctrl+Shift+NVDA+8: Reîmprospătează "
+#~ "feed-ul selectat și anunță cel mai recent titlu al său.  - "
+#~ "Ctrl+Shift+NVDA+I: Anunță titlul feed-ului curent. Apăsând de două ori va "
+#~ "copia titlul și link-ul relatat pe planșetă.  - Ctrl+Shift+NVDA+U: Anunță "
+#~ "titlul feed-ului anterior.  - Ctrl+Shift+NVDA+O: Anunță titlul feed-ului "
+#~ "următor."
+
+#, fuzzy
+#~| msgid ""
+#~| "- When the title or URL have been copied.  - When unable to connect/"
+#~| "refresh a feed, or the URL does not correspond to a valid feed.  - NVDA "
+#~| "will display an error message if it was not possible to backup the "
+#~| "personalFeeds folder.  - The title of the article list dialog displays "
+#~| "the selected feed name and number of items available."
+#~ msgid ""
+#~ "- When the title or URL have been copied.  - When unable to connect/"
+#~ "refresh a feed, or the URL does not correspond to a valid feed.  - NVDA "
+#~ "will display an error message if it was not possible to backup or restore "
+#~ "the personalFeeds folder.  - The title of the articles list dialog "
+#~ "displays the selected feed name and number of items available."
+#~ msgstr ""
+#~ "- Când au fost copiate titluri sau URL-uri. - Când în imposibilitatea de "
+#~ "a conecta/reîmprospăta un flux, sau adresa URL nu corespunde unui feed "
+#~ "valid. - NVDA va afișa un mesaj de eroare în cazul în care nu a fost "
+#~ "posibil să facă backup de rezervă la dosarul feed-uri personale. - Titlul "
+#~ "dialogului listă de articol afișează numele selectat și numărul de "
+#~ "articole disponibile."
+
+#~ msgid ""
+#~ "- Article list...  Presents the article list from your current feed. "
+#~ "Select the article you want to read and press OK button to open the "
+#~ "corresponding page in your browser.  - Temporary feed address... control "
+#~ "+ NVDA + shift + enter: Opens a dialog for typing a new URL to select "
+#~ "another feed. The current URL will be shown in this dialog.  - Load feed "
+#~ "address from file... NVDA+control+enter: Opens a dialog to select a feed "
+#~ "from a saved file containing a feed URL.  - Save current feed address to "
+#~ "file... NVDA+shift+enter: opens a dialog for selecting the file where "
+#~ "current feed URL will be saved.  If you save to the special file "
+#~ "addressFile.txt, this particular feed will be used as your default feed.  "
+#~ "- Refresh current feed: control+shift+NVDA+8: Refresh selected feed. The "
+#~ "feeds will not be updated automatically when Read Feeds addon is "
+#~ "started.  - Backup feeds folder...  opens a dialog to choose a folder "
+#~ "where you can save the personalFeeds directory of your feeds. By default "
+#~ "the selected folder is the NVDA's configuration directory, which will "
+#~ "create the personalFeeds directory.  - Restore feeds...  Opens a dialog "
+#~ "to select a folder which replaces your feeds in the personalFeeds folder. "
+#~ "Make sure you load a folder containing feeds URLs."
+#~ msgstr ""
+#~ "- Lista de articole...  Prezintă lista de articole din feed-ul "
+#~ "dumneavoastră curent. Selectați articolul pe care vreți să-l citiți și "
+#~ "apăsați butonul OK pentru a deschide pagina corespunzătoare în "
+#~ "navigatorul dumneavoastră.  - Adresă feed temporară... control + NVDA + "
+#~ "shift + enter: Deschide un dialog pentru tastarea unui nou URL pentru a "
+#~ "selecta un alt feed. Feed-ul curent va fi afișat în acest dialog.  - "
+#~ "Încărcarea adresei feed-ului din filă. NVDA+control+enter: Deschide un "
+#~ "dialog pentru a selecta un feed dintr-o filă salvată care conține un URL "
+#~ "feed.  - Salvare adresa feed-ului curent într-o filă. NVDA+shift+enter: "
+#~ "Deschide un dialog pentru a selecta o filă unde va fi salvat URL-ul feed-"
+#~ "ului curent.  Dacă salvați la fila specială addressFile.txt, acest feed "
+#~ "particular va fi utilizat ca feed-ul dumneavoastră implicit.  - "
+#~ "reîmprospătare feed curent: control+shift+NVDA+8: Reîmprospătează feed-ul "
+#~ "curent. Feed-urile nu vor fi actualizate automat când add-onul Read Feeds "
+#~ "este pornit.  - Dosarul Backup feeds. Deschide un dialog pentru a alege "
+#~ "un dosar unde puteți salva directorul de feed-uri personale din feed-"
+#~ "urile dumneavoastră. În mod implicit, folderul selectat este cel al "
+#~ "configurării NVDA, care va crea directorul de feed-uri personale.  - "
+#~ "Restaurare feed-uri. Deschide un dialog pentru a selecta un dosar care "
+#~ "înlocuiește feed-urile dumneavoastră în folderul feed-uri personale. "
+#~ "Asigurați-vă că încărcați un dosar care conține URL-uri ale feed-urilor."
+
+#~ msgid ""
+#~ "Note: If you want to delete a previously saved feed URL, just remove the "
+#~ "corresponding file."
+#~ msgstr ""
+#~ "Notă: Dacă doriți să ștergeți o adresă URL salvată anterior, trebuie doar "
+#~ "să eliminați fișierul corespunzător."

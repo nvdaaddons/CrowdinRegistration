@@ -1,0 +1,789 @@
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mp3DirectCut add-on\n"
+"POT-Creation-Date: 2024-03-27 20:45+0000\n"
+"PO-Revision-Date: 2024-04-27 15:27+0200\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"Language-Team: NVDA add-ons Spanish translation team <remyruiz@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"mp3DirectCut\"]]\n"
+msgstr "[[!meta title=\"mp3DirectCut\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS."
+msgstr "Autor(es) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS."
+
+#. type: Title #
+#, no-wrap
+msgid "Presentation"
+msgstr "Presentación"
+
+#. type: Plain text
+msgid ""
+"This add-on improves the accessibility of the software mp3DirectCut with "
+"NVDA."
+msgstr ""
+"Este complemento permite mejorar la accesibilidad del software mp3DirectCut "
+"con NVDA."
+
+#. type: Plain text
+msgid ""
+"It has been tested with versions of mp3DirectCut ranging from 212 up to 223."
+msgstr ""
+"Se ha probado con las versiones de mp3DirectCut que van desde la 212 hasta "
+"la 223."
+
+#. type: Title ##
+#, no-wrap
+msgid "Keyboard shortcuts"
+msgstr "Órdenes de teclado"
+
+#. type: Plain text
+msgid "This addon offers the following commands:"
+msgstr "Este complemento ofrece las siguientes órdenes:"
+
+#. type: Bullet: '* '
+msgid "B"
+msgstr "B"
+
+#. type: Bullet: '    * '
+msgid ""
+"Used to confirm correct placement of the marker of the beginning of the "
+"selection B."
+msgstr ""
+"Se usa para confirmar la situación correcta del marcador de inicio de la "
+"selección B."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+B"
+msgstr "Ctrl+Shift+B"
+
+#. type: Bullet: '    * '
+msgid ""
+"Used to indicate the position of the marker of the beginning of selection B."
+msgstr ""
+"Se usa para indicar la posición del marcador de inicio de la selección B."
+
+#. type: Bullet: '    * '
+msgid "Double pressure lets give you the duration of the selection."
+msgstr "Con una doble pulsación devuelve la duración de la selección."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+D"
+msgstr "Ctrl+Shift+D"
+
+#. type: Bullet: '    * '
+msgid ""
+"Gives the duration from the beginning of the file to the current position of "
+"the playback cursor."
+msgstr ""
+"Da la posición desde el comienzo del archivo hasta la posición actual del "
+"cursor de reproducción."
+
+#. type: Bullet: '    * '
+msgid "Double pressure lets give you the total duration."
+msgstr "Con una doble pulsación indica la duración total."
+
+#. type: Bullet: '* '
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+#. type: Bullet: '    * '
+msgid "Confirms that the selection has been canceled."
+msgstr "Confirma que se ha cancelado la selección."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+R"
+msgstr "Ctrl+Shift+R"
+
+#. type: Bullet: '    * '
+msgid ""
+"Gives the time remaining from the current position of the playback cursor to "
+"the end of the file."
+msgstr ""
+"Devuelve el tiempo restante desde la posición actual del cursor de "
+"reproducción hasta el final del archivo."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+E"
+msgstr "Ctrl+Shift+E"
+
+#. type: Bullet: '    * '
+msgid "Used to indicate the position of the marker of the end of selection N."
+msgstr ""
+"Se usa para indicar la posición del marcador del fin de la selección N."
+
+#. type: Bullet: '    * '
+msgid ""
+"Double pressure gives recapitulatif positions B and N, and the duration of "
+"the selection."
+msgstr ""
+"Si se pulsa dos veces devuelve las posiciones B y N, y la duración de la "
+"selección."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+P"
+msgstr "Ctrl+Shift+P"
+
+#. type: Bullet: '    * '
+msgid ""
+"Give the reference of the actual part and the total number of parts in the "
+"current file."
+msgstr ""
+"Da la referencia de la parte actual y la cantidad total de partes del "
+"archivo."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+Space"
+msgstr "Ctrl+Shift+Espacio"
+
+#. type: Bullet: '    * '
+msgid "Used to determine the current level of the vu-meter, during recording."
+msgstr ""
+"Se usa para determinar el nivel actual del volumen del micrófono durante la "
+"grabación."
+
+#. type: Bullet: '    * '
+msgid "Double pressure reset it."
+msgstr "Una doble pulsación lo restablece."
+
+#. type: Bullet: '* '
+msgid "Down Arrow"
+msgstr "Flecha abajo"
+
+#. type: Bullet: '    * '
+msgid "Lets you see the current position of the playhead."
+msgstr "Te permite saber la posición actual del cursor de reproducción."
+
+#. type: Bullet: '    * '
+msgid ""
+"This command also position the cursor at the location of the marker of the "
+"end of selection N, while giving the location of this marker if a selection "
+"has been made."
+msgstr ""
+"Esta orden también sitúa el cursor en la posición del marcador del final de "
+"la selección N, mientras da la ubicación de este marcador si se ha hecho una "
+"selección."
+
+#. type: Bullet: '    * '
+msgid ""
+"In the volume dialog box, vocalise the next value that can be reached "
+"generally with downArrow."
+msgstr ""
+"En el cuadro de diálogo de volumen, verbaliza el siguiente valor que "
+"generalmente puede alcanzarse pulsando flecha abajo."
+
+#. type: Bullet: '    * '
+msgid "This value is not vocalized default."
+msgstr "Este valor no se verbaliza por defecto."
+
+#. type: Bullet: '* '
+msgid "End"
+msgstr "Fin"
+
+#. type: Bullet: '    * '
+msgid ""
+"Moves the playback cursor at the end of the current file and give the total "
+"time."
+msgstr ""
+"Mueve el cursor de reproducción al final del archivo actual e indica la "
+"duración total."
+
+#. type: Bullet: '* '
+msgid "Home"
+msgstr "Inicio"
+
+#. type: Bullet: '    * '
+msgid "Moves the playback cursor at the beginning of the current file."
+msgstr "Mueve el cursor de reproducción al comienzo del archivo actual."
+
+#. type: Bullet: '* '
+msgid "Left Arrow"
+msgstr "Flecha izquierda"
+
+#. type: Bullet: '    * '
+msgid ""
+"Lets make a brief return back of one second during playback, while giving "
+"the current duration."
+msgstr ""
+"Retrocede un segundo durante la reproducción e indica la duración actual."
+
+#. type: Bullet: '    * '
+msgid "This duration is configurable in the options of mp3directcut."
+msgstr "Esta duración es configurable en las opciones de MP3DirectCut."
+
+#. type: Bullet: '* '
+msgid "N"
+msgstr "N"
+
+#. type: Bullet: '    * '
+msgid ""
+"Used to confirm correct placement of the marker of the end of the selection "
+"N."
+msgstr ""
+"Se usa para confirmar la situación correcta del marcador de fin de selección "
+"N."
+
+#. type: Bullet: '* '
+msgid "Page Down"
+msgstr "Avance página"
+
+#. type: Bullet: '    * '
+msgid ""
+"Lets make a leap forward of 10 seconds during playback, while giving the "
+"current duration."
+msgstr "Adelanta 10 segundos la reproducción e indica la duración actual."
+
+#. type: Bullet: '* '
+msgid "Page Up"
+msgstr "Retroceso página"
+
+#. type: Bullet: '    * '
+msgid ""
+"Lets make a return back of 10 seconds during playback, while giving the "
+"current duration."
+msgstr "Retrocede 10 segundos en la reproducción e indica la duración actual."
+
+#. type: Bullet: '* '
+msgid "R"
+msgstr "R"
+
+#. type: Bullet: '    * '
+msgid "Allows to prepare a record and whether you can press spacebar to start."
+msgstr "Prepara una grabación, que se puede iniciar pulsando Espacio."
+
+#. type: Bullet: '* '
+msgid "Right Arrow"
+msgstr "Flecha derecha"
+
+#. type: Bullet: '    * '
+msgid ""
+"Lets do a brief forward of one second during playback, while giving the "
+"current duration."
+msgstr "Adelanta un segundo la reproducción e indica la duración actual."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Right Arrow"
+msgstr "CTRL+Flecha derecha"
+
+#. type: Bullet: '    * '
+msgid "Moves to the next splitting point, while giving the current duration."
+msgstr "Se mueve al siguiente punto de división e indica la duración actual."
+
+#. type: Bullet: '* '
+msgid "Ctrl+Left Arrow"
+msgstr "CTRL+flecha izquierda"
+
+#. type: Bullet: '    * '
+msgid ""
+"Moves to the previous splitting point, while giving the current duration."
+msgstr "Se mueve al punto de división anterior e indica la duración actual."
+
+#. type: Bullet: '* '
+msgid "Shift+Right Arrow"
+msgstr "Shift+flecha derecha"
+
+#. type: Bullet: '    * '
+msgid ""
+"Lets do a brief forward of four hundredths of seconds during playback, while "
+"giving the current duration."
+msgstr ""
+"Adelanta cuatro centésimas de segundo en la reproducción e indica la "
+"duración actual."
+
+#. type: Bullet: '* '
+msgid "Shift+Left Arrow"
+msgstr "Shift+flecha izquierda"
+
+#. type: Bullet: '    * '
+msgid ""
+"Lets do a brief backwards of four hundredths of seconds during playback, "
+"while giving the current duration."
+msgstr ""
+"Retrocede cuatro centésimas de segundo en la reproducción e indica la "
+"duración actual."
+
+#. type: Bullet: '* '
+msgid "S"
+msgstr "S"
+
+#. type: Bullet: '    * '
+msgid "Used to stop the reading and give the current duration."
+msgstr "Detiene la reproducción e indica la duración actual."
+
+#. type: Bullet: '* '
+msgid "Space"
+msgstr "Espacio"
+
+#. type: Bullet: '    * '
+msgid "If the recording is ready, start this recording."
+msgstr "Si la grabación está preparada, la inicia."
+
+#. type: Bullet: '    * '
+msgid ""
+"If a recording is in progress, stop it by positioning the cursor at the "
+"beginning."
+msgstr ""
+"Si hay una grabación en progreso, la detiene y sitúa el cursor al principio."
+
+#. type: Bullet: '    * '
+msgid "If a file is loaded, start the reading."
+msgstr "Si hay un archivo cargado, comienza la reproducción."
+
+#. type: Bullet: '    * '
+msgid ""
+"If a read is in progress, allows to do a pause by giving current duration."
+msgstr ""
+"Si hay una reproducción en curso, la pausa e indica la duración actual."
+
+#. type: Bullet: '    * '
+msgid ""
+"If read is paused, allows to restart the reading from the current location."
+msgstr "Si la reproducción está en pausa, la reanuda desde la posición actual."
+
+#. type: Bullet: '* '
+msgid "Up Arrow"
+msgstr "Flecha arriba"
+
+#. type: Bullet: '    * '
+msgid ""
+"This command also position the cursor at the location of the marker of the "
+"beginning of selection B, while giving the location of this marker if a "
+"selection has been made."
+msgstr ""
+"Esta orden también sitúa el cursor en la ubicación del marcador del "
+"principio de la selección B, e indica la posición de este marcador si se ha "
+"hecho una selección."
+
+#. type: Bullet: '    * '
+msgid ""
+"In the volume dialog box, vocalise the previous value that can be reached "
+"generally with upArrow."
+msgstr ""
+"En el cuadro de diálogo de volumen, verbaliza el valor anterior que se puede "
+"alcanzar pulsando flecha arriba."
+
+#. type: Bullet: '* '
+msgid "NVDA+H"
+msgstr "NVDA+H"
+
+#. type: Bullet: '    * '
+msgid "Lets open the help of the current add-on."
+msgstr "Te permite abrir la ayuda del complemento actual."
+
+#. type: Title ##
+#, no-wrap
+msgid "Compatibility"
+msgstr "Compatibilidad"
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on is compatible with the versions of NVDA ranging from 2019.3 and "
+"beyond."
+msgstr ""
+"Este complemento es compatible con las versiones de NVDA que van desde la "
+"2019.3 en adelante."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20240327.0.0"
+msgstr "Cambios para 20240327.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug that caused a log error when reloading plugins, thanks to Rob, "
+"from nvda-addons mailing list;"
+msgstr ""
+"Se corrige un fallo que causaba un error en el registro al recargar los "
+"plugins. Gracias a Rob, de la lista de correo de complementos de NVDA;"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20240326.0.0"
+msgstr "Cambios para 20240326.0.0"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility for nvda-2024.1.;"
+msgstr "Se actualiza la compatibilidad para NVDA 2024.1.;"
+
+#. type: Bullet: '* '
+msgid ""
+"Deleted download link from readme, the download link for future updates will "
+"now only be available from the add-on store."
+msgstr ""
+"Se elimina el enlace de descarga de la documentación, el enlace de descarga "
+"de futuras actualizaciones ahora sólo estará disponible desde la tienda de "
+"complementos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20231229.0.0"
+msgstr "Cambios para 20231229.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a backward compatible implementation to support speak on demand mode, "
+"which will soon be available with nvda-2024.1."
+msgstr ""
+"Se ha añadido una implementación retrocompatible para soportar el modo de "
+"voz a petición, que pronto estará disponible con NVDA 2024.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20231007.0.0"
+msgstr "Cambios para 20231007.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"After placing the cutting points and after opening the cutting properties "
+"window, with \"Ctrl+N\", adding accessibility to the title of this window by "
+"indicating the part index."
+msgstr ""
+"Tras situar los puntos de corte y abrir la ventana de propiedades de corte "
+"con \"control+n\", se añade accesibilidad al título de esta ventana "
+"indicando el índice de la parte."
+
+#. type: Bullet: '* '
+msgid ""
+"In reading mode, after moving the start or end markers of selections with "
+"keys 1 to 6 of the alphanumeric pad, addition of automatic start of reading "
+"from the new position;"
+msgstr ""
+"En el modo lectura, tras desplazar los marcadores de inicio o fin de las "
+"selecciones con las teclas 1 a 6 del teclado alfanumérico, se añade el "
+"inicio automático de la lectura desde la nueva posición;"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug that occurred when consulting the remaining time with "
+"\"control+shift+r\" from the beginning of the track."
+msgstr ""
+"Se corrige un fallo que se producía al consultar el tiempo restante con "
+"\"control+shift+r\" desde el principio de la pista."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20230728.0.0"
+msgstr "Cambios para 20230728.0.0"
+
+#. type: Bullet: '* '
+msgid "Applied the flake8 and mypy rules to the code;"
+msgstr "Aplicadas las reglas de Flake8 y Mipy al código;"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed the minimum supported NVDA version to 2019.3 to support annotations "
+"introduced in Python 3."
+msgstr ""
+"Cambiada la versión mínima soportada de NVDA a la 2019.3 para soportar las "
+"anotaciones de tipos introducidas en Python 3."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20230508.0.0 and beyond"
+msgstr "Cambios para 20230508.0.0 y posteriores"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version number, minimum NVDA version and download link according to "
+"store conventions/requirements."
+msgstr ""
+"Cambiado número de versión, versión mínima de NVDA y enlace de descarga "
+"según las convenciones y los requisitos de la tienda."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 20.12"
+msgstr "Cambios para la versión 20.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Stop speech during recording and reading for the latest versions of "
+"mp3directcut;"
+msgstr ""
+"La voz se detiene durante la grabación y lectura en las versiones más "
+"recientes de mp3directcut;"
+
+#. type: Bullet: '* '
+msgid "Fixed reading remaining time for new versions of NVDA using Python 3."
+msgstr ""
+"Corregida la lectura del tiempo restante en las nuevas versiones de NVDA que "
+"utilizan Python 3."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 19.02"
+msgstr "Cambios para la versión 19.02"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the add-on's configuration in the settings panel available since nvda "
+"2018.2;"
+msgstr ""
+"Se ha añadido la configuración del complemento al diálogo de opciones "
+"disponible desde NVDA 2018.2;"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version numbering using YY.MM (The year in 2 digits, followed by a "
+"dot, followed by the month in 2 digits);"
+msgstr ""
+"Se ha cambiado el número de versión siguiendo el esquema AA.MM (dos dígitos "
+"para el año, seguidos de un punto y dos dígitos para el mes);"
+
+#. type: Bullet: '* '
+msgid ""
+"Added compatibility with the new versioning format of add-on, appeared since "
+"nvda 2019.1."
+msgstr ""
+"Se ha añadido compatibilidad con el nuevo formato de versiones de "
+"complementos, disponible en NVDA 2019.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 4.0"
+msgstr "Cambios para la versión 4.0"
+
+#. type: Bullet: '* '
+msgid "Added the Compatibility of the add-on with both Python 2.7 and 3;"
+msgstr "Añadido la compatibilidad del complemento con Python 2.7 y 3;"
+
+#. type: Bullet: '* '
+msgid "Fixed a bug with add-on paths that contain non-ASCII characters."
+msgstr ""
+"Arreglado un error con rutas de complementos que no contienen caracteres "
+"ASCII."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 3.0"
+msgstr "Cambios para la versión 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Used the gui.guiHelper module to ensure the correct appearance of the "
+"addon's configuration dialog;"
+msgstr ""
+"Se utiliza el módulo gui.guiHelper para asegurarse de la correcta apariencia "
+"del diálogo de configuración del complemento;"
+
+#. type: Bullet: '* '
+msgid "Used format instead of %s for formatted strings;"
+msgstr "Se utiliza formato en lugar de %s para cadenas formateadas;"
+
+#. type: Bullet: '* '
+msgid "Used compliance with guidelines for implementation."
+msgstr "Se cumplen las directrices de cumplimentación."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 2.3"
+msgstr "Cambios para la versión 2.3"
+
+#. type: Bullet: '* '
+msgid "Added the GPL license to the addon;"
+msgstr "Se añade la licencia GPL al complemento;"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed the shortcut of the script giving the end of selection from Ctrl + "
+"Shift + N to Ctrl + Shift + E because Ctrl + Shift + N doesn't work with the "
+"latest versions of mp3DirectCut;"
+msgstr ""
+"Se cambia el atajo de teclado del script que da fin a la selección de Ctrl + "
+"Shift + N a Ctrl + Shift + E porque Ctrl + Shift + N no funciona con  las "
+"últimas versiones de mp3DirectCut;"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a script to confirm that the selection has been canceled with 'Ctrl+r';"
+msgstr ""
+"Se añadió un script para confirmar que la selección se ha cancelado con "
+"'Control+r';"
+
+#. type: Bullet: '* '
+msgid "Made some corrections in the code of the appModule 'mp3directcut.py'."
+msgstr ""
+"Se hicieron algunas correcciones en el código del appModule 'mp3directcut."
+"py'."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 2.2"
+msgstr "Cambios para la versión 2.2"
+
+#. type: Bullet: '* '
+msgid "Correction of the scripts giving the selection markers' locations."
+msgstr ""
+"Corrección de los scripts que dan la localización de la selección de las "
+"marcas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 2.1.1"
+msgstr "Cambios para la versión 2.1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Removing the script giving the total time and adding this information to the "
+"script giving the elapsed time;"
+msgstr ""
+"Supresión del script dando la duración total y añadida esta información para "
+"el script que da el tiempo transcurrido;"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to enable or disable the announcements related to the "
+"space key in the module's configuration options, separately from other "
+"announcements;"
+msgstr ""
+"Añadida la posibilidad de activar o desactivar los anuncios relacionados con "
+"la tecla de espacio en las opciones de configuración del complemento, por "
+"separado de los otros anuncios;"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to enable or disable the announcement of placement of the "
+"selection marqueures in the module's configuration options;"
+msgstr ""
+"Añadida la posibilidad para activar o desactivar el anuncio para la buena "
+"colocación de marcas de selección en las opciones de configuración del "
+"complemento;"
+
+#. type: Bullet: '* '
+msgid ""
+"Adding the announcement of the current part when moving through the cutting "
+"points;"
+msgstr ""
+"Añadido el anuncio de la parte actual cuando se mueve entre los puntos de "
+"corte;"
+
+#. type: Bullet: '* '
+msgid "Correction of announcements related to vertical keys;"
+msgstr "Corrección de los anuncios relacionados con las teclas verticales;"
+
+#. type: Bullet: '* '
+msgid "Adding a script to open the help of the current add-on with 'NVDA+H';"
+msgstr ""
+"Añadido un Script para abrir la ayuda del actual complemento accesible "
+"gracias a la orden de teclado \"NVDA+H\";"
+
+#. type: Bullet: '* '
+msgid ""
+"Displacement of the add-on's configuration menu from the Tools menu to the "
+"Preferences menu of NVDA."
+msgstr ""
+"Desplazamiento del menú de configuración del complemento del menú "
+"Herramientas al menú Preferencias de NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 2.1"
+msgstr "Cambios para la versión 2.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Adding a script to vocalize moving to the next splitting point with "
+"Control+Right Arrow;"
+msgstr ""
+"Añadido un Script para vocalizar el siguiente punto de corte con "
+"Control+Flecha Derecha;"
+
+#. type: Bullet: '* '
+msgid ""
+"Adding a script to vocalize moving to the previous splitting point with "
+"Control+Left Arrow;"
+msgstr ""
+"Añadido un Script para vocalizar el punto de corte anterior con "
+"Control+Flecha Izquierda;"
+
+#. type: Bullet: '* '
+msgid ""
+"Adding a script to vocalize the displacement of 4 hundredths of second "
+"ahead, with Shift+Right Arrow;"
+msgstr ""
+"Añadido un Script para vocalizar el desplazamiento de 4 centésimas de "
+"segundo hacia adelante con Shift+Flecha Derecha;"
+
+#. type: Bullet: '* '
+msgid ""
+"Adding a script to vocalize the displacement of 4 hundredths of second back, "
+"with Shift+Left Arrow;"
+msgstr ""
+"Añadido un Script para vocalizar el desplazamiento de 4 centésimas de "
+"segundo hacia atrás con Shift+Flecha Izquierda;"
+
+#. type: Bullet: '* '
+msgid ""
+"Correction of the addon's summary from 'for mp3DirectCut' to 'mp3DirectCut'."
+msgstr ""
+"Corrección del summary del complemento de \"para mp3DirectCut\" a "
+"\"mp3DirectCut\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 2.0"
+msgstr "Cambios para la versión 2.0"
+
+#. type: Bullet: '* '
+msgid "Adding a script to know the remaining time with 'Control Shift R';"
+msgstr ""
+"Añadido un Script para saber el tiempo restante con \"Control+Shift+R\";"
+
+#. type: Bullet: '* '
+msgid "Fixed reading durations including hours;"
+msgstr "Corrección de la lectura de las duraciones incluyendo las horas;"
+
+#. type: Bullet: '* '
+msgid "Added ability to differentiate thousandths or hundredths of seconds."
+msgstr ""
+"Añadida la posibilidad de diferenciar milésimas o centésimas de segundos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 1.1"
+msgstr "Cambios para la versión 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to include the mp3DirectCut category into the Input "
+"Gestures;"
+msgstr ""
+"Se ha añadido la capacidad de incluir la categoría MP3DirectCut en el "
+"diálogo Gestos de entrada;"
+
+#. type: Bullet: '    * '
+msgid "They will be visible only during use of the mp3DirectCut software."
+msgstr "Sólo serán visibles durante el uso del software MP3DirectCut."
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to enable or disable automatic messages, in the tools menu "
+"of NVDA, item 'mp3DirectCut configuration';"
+msgstr ""
+"Añadida la posibilidad de activar o desactivar los mensajes automáticos "
+"desde el menú Herramientas de NVDA, elemento 'Configuración de MP3DirectCut';"
+
+#. type: Title ##
+#, no-wrap
+msgid "Change for version 1.0"
+msgstr "Cambios para la versión 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Primera versión."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"

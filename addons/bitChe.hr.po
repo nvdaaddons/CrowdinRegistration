@@ -1,0 +1,188 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Zvonimir Stanečić <zvonimirek222@yandex.com>, 2014.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bit Che\n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2024-05-12 12:54+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Bit Che\"]]\n"
+msgstr "[[!meta title=\"Bit Che\"]]\n"
+
+#. type: Bullet: '*   '
+msgid "Authors: Alberto Zanella, Alberto Buffolino, other contributors."
+msgstr "Autori: Alberto Zanella, Alberto Buffolino, ostali suradnici."
+
+#. type: Bullet: '*   '
+msgid "download [stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Bullet: '*   '
+msgid "download [development version][3]"
+msgstr "Preuzmi [razvojnu verziju][3]"
+
+#. type: Plain text
+msgid ""
+"Bit Che is a simple tool that quickly searches popular bit torrent sites for "
+"files.  You can get more information about this program at [this page][2]."
+msgstr ""
+"Bit Che je alat koji omogućuje pretraživanje popularnih bit torrent web "
+"stranica za datotekama. Daljnje informacija o ovom programu se nalaze na "
+"[ovoj stranici][2]."
+
+#. type: Plain text
+msgid ""
+"This NVDA addon improves the accessibility of the software. It adds the "
+"following features:"
+msgstr ""
+"Ovaj NVDA dodatak poboljšava pristupačnost softvera. Dodatak dodaje "
+"slijedeće funkcije:"
+
+#. type: Bullet: '*   '
+msgid "Makes the search results list accessible."
+msgstr "Omogućuje pristupanje popisu rezultata pretraživanja."
+
+#. type: Bullet: '*   '
+msgid ""
+"Enables you to use the Application key to activate the context menu on the "
+"focused result."
+msgstr ""
+"Omogućuje korištenje aplikacijske tipke za aktiviranje kontekstnog izbornika "
+"na fokusiranom rezultatu."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Napomene"
+
+#. type: Bullet: '*   '
+msgid ""
+"You can use the up and down arrow keys to focus the search result which "
+"should be interacted with."
+msgstr ""
+"Koristi strelice gore i dolje za fokusiranje rezultata pretrage, s kojim se "
+"nešto treba učiniti."
+
+#. type: Bullet: '*   '
+msgid ""
+"When the first search performed after starting Bit Che is finished, the "
+"first result will be focused, though it may not be selected properly. NVDA "
+"will speak the selected result. Use the usual commands or the arrow keys to "
+"ensure the right item is selected before performing other actions."
+msgstr ""
+"Kad prva izvedena pretraga nakon pokretanja dodatka Bit Che završi, prvi "
+"rezultat će biti fokusiran, međutim možda nije pravilno označen. NVDA će "
+"izgovoriti označeni rezultat. Koristi uobičajene prečace ili strelice i "
+"provjeri da je označena ispravna stavka, prije izvođenja bilo koje radnje."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands"
+msgstr "Tipkovnički prečaci"
+
+#. type: Bullet: '*   '
+msgid ""
+"Application key, or shift+f10, open context menu for search result item."
+msgstr ""
+"Aplikacijska tipka ili šift+F10, otvori kontekstni izbornik za stavku u "
+"rezultatu pretrage."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Promjene za verziju 2.0"
+
+#. type: Bullet: '*   '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Pomoć za dodatak je dostupna u upravljaču dodataka."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.5"
+msgstr "Promjene za verziju 1.5"
+
+#. type: Bullet: '*   '
+msgid "Translation updates."
+msgstr "Ažurirani prijevodi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.4"
+msgstr "Promjene za verziju 1.4"
+
+#. type: Bullet: '*   '
+msgid "Added download link for development version."
+msgstr "Dodana poveznica za preuzimanje razvojne verzije."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.3"
+msgstr "Promjene za verziju 1.3"
+
+#. type: Bullet: '*   '
+msgid ""
+"Added onInstall function, to check if an older version is present, and "
+"remove it."
+msgstr ""
+"Dodana mogućnost \"oninstall”. Uklanjanja stariju verziju, ukoliko postoji."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Promjene za verziju 1.2"
+
+#. type: Bullet: '*   '
+msgid "Added gesture shift+F10, in addition to applications, useful in VM."
+msgstr ""
+"Dodan prečac shift+F10, koristan kad se dodatak koristi u virtualnom "
+"računalu."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Promjene za verziju 1.1"
+
+#. type: Bullet: '*   '
+msgid "Improved accessibility of results list and its items."
+msgstr "Poboljšana pristupačnost popisu rezultata i njegovih stavaka."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Promjene za verziju 1.0"
+
+#. type: Bullet: '*   '
+msgid "Initial version."
+msgstr "Prva verzija."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=bc"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=bc"
+
+#. type: Plain text
+msgid "[2]: https://www.convivea.com"
+msgstr "[2]: https://www.convivea.com"
+
+#. type: Plain text
+msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=bc-dev"
+msgstr "[3]: https://www.nvaccess.org/addonStore/legacy?file=bc-dev"

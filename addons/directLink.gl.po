@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2021-07-08 11:35+0200\n"
+"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
+"Language-Team: \n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Direct Link\"]]\n"
+msgstr "[[!meta title=\"Direct Link\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Fawaz Abdul Rahman"
+msgstr "Autor: Fawaz Abdul Rahman"
+
+#. type: Bullet: '* '
+msgid "Version: 1.0"
+msgstr "Versión: 1.0"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Compatibilidade co NVDA: 2019.3 en diante"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Descarga [versión estable][1]"
+
+#. type: Title ##
+#, no-wrap
+msgid "Functionality"
+msgstr "Funcionalidade"
+
+#. type: Plain text
+msgid ""
+"The purpose of the addon is to convert the Dropbox, Google Drive or oneDrive "
+"(both personal and business) links to a direct link, furthermore, it "
+"generates a direct link to a WhatsApp chat with the chosen selected phone "
+"number."
+msgstr ""
+"O propósito do complemento e converter as ligazóns de Dropbox, Google Drive "
+"ou OneDrive a unha ligazón directa, ademais, xera un link directo a un chat "
+"de WhatsApp co número de teléfono seleccionado escollido."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Uso"
+
+#. type: Bullet: '* '
+msgid "Select or copy a shared Dropbox, Google Drive or oneDrive link"
+msgstr ""
+"Selecciona ou copia unha ligazón compartida de Dropbox, Google Drive ou "
+"OneDrive"
+
+#. type: Bullet: '* '
+msgid ""
+"Press alt+NVDA+l to convert the link. The resulting URL will be in your "
+"clipboard."
+msgstr ""
+"Preme alt+NVDA+l para converter a ligazón. A URL resultante estará no teu "
+"portapapeis."
+
+#. type: Bullet: '* '
+msgid ""
+"Similarly for the phone number, copy or select the number you like to chat "
+"with or share and press the same shortcut (alt+NVDA+L)."
+msgstr ""
+"De xeito similar para o número de teléfono, copia ou selecciona o número de "
+"teléfono co que queres chatear ou compartir e preme o mesmo atallo (alt+NVDA"
+"+L)."
+
+#. type: Bullet: '* '
+msgid ""
+"if you like to open the resulted link in your browser, press alt+NVDA+shift"
+"+l."
+msgstr ""
+"se queres abrir a ligazón resultante no teu navegador, preme alt+NVDA+shift"
+"+l."
+
+#. type: Title ##
+#, no-wrap
+msgid "Why the direct link?"
+msgstr "Por que a ligazón directa?"
+
+#. type: Plain text
+msgid ""
+"A direct link will allow you to get the well-known save dialog box directly "
+"if you open it in the browser, without being hassled by the hosting company "
+"download page and locating the download link.  Moreover, the direct link can "
+"be used to stream a file or view a file in certain programs such as media "
+"players (if coming with URL support).  Likewise, if WhatsApp is common in "
+"your country, rather than creating a new contact each time if you need to "
+"chat with someone, weather it is a customer or technical support, you can "
+"simply select the number or copy it and start chatting right away.  Even "
+"more, you can share the WhatsApp link of your own number if people usually "
+"need to contact you in case you work as a freelancer."
+msgstr ""
+"Unha ligazón directa permitirache obter a coñecida por todos caixa de "
+"diálogo de gardar se o abres no navegador, sen que se te asedie coa páxina "
+"de descarga da compaía de aloxamento nin localizar a ligazón de descarga. "
+"Por riba, a ligazón directa pódese utilizar para transmitir un archivo en "
+"directo ou ver un arquivo en certos programas como reprodutores multimedia "
+"(se veñen con soporte para URL).  Igualmente, se WhatsApp é común no teu "
+"país, antes que crear un contacto cada vez que precises chatear con alguén, "
+"xa sexa un cliente ou un soporte técnico, podes simplemente seleccionar o "
+"número ou copialo e comezar a chatear directamente.  Aínda máis, podes "
+"compartir a ligazón de whatsApp do teu propio número se a xente adoita ter "
+"que contactarte en caso de que traballes como freelance."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Notas"
+
+#. type: Bullet: '* '
+msgid ""
+"A link of a folder cannot be converted; the link has to be directing to a "
+"file."
+msgstr ""
+"Non se pode convertir a ligazón dun cartafol; o link ten que levar a un "
+"arquivo."
+
+#. type: Bullet: '* '
+msgid ""
+"Make sure the link you are sharing is public (anyone with the link can "
+"access) in order for it to be successfully converted."
+msgstr ""
+"Asegúrate de que a ligazón que estás a compartir é pública (calquera coa "
+"ligazón pode acceder) para que poida ser correctamente convertida."
+
+#. type: Bullet: '* '
+msgid ""
+"You can change the hotkeys from the NVDA menu> preferences> input gestures."
+msgstr ""
+"Podes cambiar os atallos dende o menú NVDA > preferencias > xestos de "
+"entrada."
+
+#. type: Bullet: '* '
+msgid ""
+"If you find a certain format of a phone number that is not detected, you can "
+"email me with an example."
+msgstr ""
+"Se atopas certo formato de número de teléfono que non se detecta, podes "
+"enviarme un correo electrónico cun exemplo."
+
+#. type: Bullet: '* '
+msgid ""
+"Certain type of files and sizes in Google Drive might take you to a page "
+"that says \"Google Drive can't scan this file for viruses.\" in that case, "
+"you have to click on download anyway link."
+msgstr ""
+"Certo tipo de arquivos e tamaños en Google Drive podería levarte a unha "
+"páxina que diga \"Google Drive non puido escanear este arquivo en busca de "
+"virus.\" en tal caso, tes que pulsar sobre a ligazón descargar de todas "
+"formas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Acknowledgements"
+msgstr "Agradecementos"
+
+#. type: Plain text
+msgid ""
+"A huge thanks goes to the following friends, without them I couldn't have "
+"made it happen:"
+msgstr ""
+"Vaia un enorme agradecemento para os seguintes amigos, sen eles non podería "
+"facer que isto aparecese:"
+
+#. type: Bullet: '* '
+msgid ""
+"Qais Alrefai for testing the add-on and providing me with various material "
+"to test with, and also for his observations and general idea for the addon."
+msgstr ""
+"Qais Alrefai por probar o complemento e fornecerme diverso material para "
+"probalo, e tamén polas súas observacións e idea xeral para o complemento."
+
+#. type: Bullet: '* '
+msgid ""
+"Marina Amir for translating the add-on to French, language editing and "
+"testing."
+msgstr ""
+"Marina Amir por traducir o complemento a francés, edición de linguaxe e "
+"probas."
+
+#. type: Bullet: '* '
+msgid "Riad Assoum for translating the add-on to Arabic."
+msgstr "Riad Assoum por traducir o complemento a árabe."
+
+#. type: Bullet: '* '
+msgid "all testers."
+msgstr "todos os que o probaron."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=directlink"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=directlink"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=directlink"

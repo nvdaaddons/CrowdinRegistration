@@ -1,0 +1,731 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: readFeeds\n"
+"POT-Creation-Date: 2024-12-01 07:43+0000\n"
+"PO-Revision-Date: 2022-11-23 12:56+0900\n"
+"Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
+"Language-Team: NVDA <nvdajp@nvda.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Read Feeds\"]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed"
+msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed"
+msgstr "作者: Noelia Ruiz Martínez, Mesar Hameed"
+
+#. type: Plain text
+msgid ""
+"This addon provides a straightforward way to read feeds in Atom or RSS "
+"formats using NVDA.  The feeds will not be refreshed automatically.  Below "
+"when we mention feeds, we mean both RSS and ATOM feeds."
+msgstr ""
+"このアドオンはNVDAを使用してATOMやRSSの形式のフィードを簡単に読むためのもので"
+"す。フィードは自動的に更新されることはありません。以下でフィードとはRSSとATOM"
+"の両方を形式を含んでいます。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "コマンド"
+
+#. type: Title ###
+#, no-wrap
+msgid "Read Feeds dialog"
+msgstr "Read Feeds ダイアログ"
+
+#. type: Plain text
+msgid ""
+"You can access the Read Feeds dialog from the nvda menu, Tools submenu, "
+"Feeds item."
+msgstr ""
+"Read Feedsダイアログにnvdaメニュー、ツールサブメニュー、Feeds項目からアクセス"
+"出来ます。"
+
+#. type: Plain text
+msgid "It contains the following controls:"
+msgstr "次のコントロールを含みます:"
+
+#. type: Bullet: '* '
+msgid "Filter by: An edit box to search previously saved feeds."
+msgstr "～でフィルター: 以前に保存したフィードを検索するエディットボックス。"
+
+#. type: Bullet: '* '
+msgid "A list of the saved feeds, focused when the dialog is opened."
+msgstr ""
+"ダイアログを開いた時点でフォーカスされている、保存したフィードのリスト。"
+
+#. type: Bullet: '* '
+msgid ""
+"List of articles: Opens a dialog which presents the articles list from your "
+"current feed. Select the article you want to read and press Enter or Open "
+"web page of selected article button to open the corresponding page in your "
+"browser. Press About article button to open a dialog showing title and link "
+"of the selected article; from this dialog, you'll be able to copy this info "
+"to the clipboard."
+msgstr ""
+"記事のリスト: 現在のフィードから、記事リストを表すダイアログを開きます。読み"
+"たい記事を選択して、エンターを押すか、選択した記事のウェブページを開くボタン"
+"を押して、対応するページをブラウザで開きます。記事についてボタンを押すと、選"
+"択された記事のタイトルとリンクを示す表示するダイアログが開きます; このダイア"
+"ログから、この情報をクリップボードにコピー出来ます。"
+
+#. type: Bullet: '* '
+msgid "Open feed: Opens the selected feed in the default application."
+msgstr "フィードを開く: 選択したフィードを既定のアプリケーションで開きます。"
+
+#. type: Bullet: '* '
+msgid ""
+"Open feed as HTML: Opens the selected feed in the default web browser. You "
+"will be able to show or hide publication dates and buttons to copy "
+"information about articles to clipboard."
+msgstr ""
+"フィードをHTMLとして開く: 選択したフィードを既定のウェブブラウザで開きます。"
+"公開日を表示または隠すことが出来、記事の情報をクリップボードにコピーするボタ"
+"ンがあります。"
+
+#. type: Bullet: '* '
+msgid ""
+"Copy feed address: Opens a dialog to confirm if you want to copy the feed "
+"address to clipboard."
+msgstr ""
+"フィードのアドレスをコピー: フィードアドレスをクリップボードにコピーしたいか"
+"どうかの確認のためダイアログを開きます。"
+
+#. type: Bullet: '* '
+msgid ""
+"New: Opens a dialog with an edit box to enter the address of a new feed. If "
+"the address is valid and the feed can be saved, its name, based on the feed "
+"title, will appear at the bottom of the feeds list."
+msgstr ""
+"新規: 新しいフィードのアドレスを入力するエディットボックスのあるダイアログを"
+"開きます。アドレスが有効でフィードが保存出来る場合、フィードタイトルに基づい"
+"た名前がフィードリストの末尾に現れます。"
+
+#. type: Bullet: '* '
+msgid "Rename: Opens a dialog with an edit box to rename the selected feed."
+msgstr ""
+"名前を変更: 選択されたフィードの名前を変更するエディットボックスのあるダイア"
+"ログを開きます。"
+
+#. type: Bullet: '* '
+msgid "Delete: Opens a dialog to delete the selected feed after confirmation."
+msgstr "削除: 確認後に選択されたフィードを削除するダイアログが開きます。"
+
+#. type: Bullet: '* '
+msgid ""
+"Set default: Sets the selected feed as the default, so that its articles can "
+"be accessed with NVDA's gestures."
+msgstr ""
+"初期状態に設定: 選択されたフィードを初期状態に設定し、NVDAのジェスチャーでそ"
+"の記事にアクセス出来るようにします。"
+
+#. type: Bullet: '* '
+msgid ""
+"Import feeds from OPML file: Opens a dialog to add new feeds from an OPML "
+"file."
+msgstr ""
+"OPMLファイルからフィードをインポート: OPMLファイルから新しいフィードを追加す"
+"るダイアログを開きます。"
+
+#. type: Bullet: '* '
+msgid ""
+"Save feeds to OPML file: Opens a dialog to save the feeds available from the "
+"Feeds dialog in an OPML file."
+msgstr ""
+"OPMLファイルにフィードを保存: Feedsダイアログから利用可能なフィードを、OPML"
+"ファイルに保存するダイアログを開きます。"
+
+#. type: Bullet: '* '
+msgid ""
+"Preferences: Opens the settings dialog for readFeeds, also available in "
+"NVDA's menu, Preferences, settings, readFeeds category."
+msgstr ""
+"設定: readFeedsの設定ダイアログを開きます。NVDAメニュー、設定(P)、設定(S)、"
+"readFeedsカテゴリーからも利用可能です。"
+
+#. type: Bullet: '* '
+msgid "Close: Closes the Feeds dialog."
+msgstr "閉じる: Feedsダイアログを閉じます。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Notes #####"
+msgstr "備考 #####"
+
+#. type: Bullet: '* '
+msgid ""
+"The Filter by edit box can be placed after the Open article button from "
+"NVDA's menu, Preferences, Settings, Read feeds category, or pressing the "
+"Preferences button of the Feeds dialog."
+msgstr ""
+"NVDAメニュー、設定(P)、設定(S)、Read Feedカテゴリーから、または、フィードダイ"
+"アログの設定ボタンを押すことにより、エディットボックスによるフィルターを、記"
+"事を開くボタンの後に配置出来ます。"
+
+#. type: Bullet: '* '
+msgid ""
+"This panel has an option to show article dates on the List of articles "
+"dialog."
+msgstr ""
+"このパネルは、記事のリストダイアログに記事の日付を表示する選択肢を持っていま"
+"す。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Keyboard commands"
+msgstr "キーボードコマンド"
+
+#. type: Bullet: '* '
+msgid ""
+"Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will "
+"open the web page."
+msgstr ""
+"Ctrl+Shift+NVDA+Space: 現在の記事のURLを通知。2回押してそのウェブページを開"
+"く。"
+
+#. type: Bullet: '* '
+msgid ""
+"Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent "
+"title."
+msgstr ""
+"Ctrl+Shift+NVDA+8: 選択されたフィードを再読み込みして、その最新のタイトルを通"
+"知。"
+
+#. type: Bullet: '* '
+msgid ""
+"Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice "
+"will copy the title and related link to clipboard."
+msgstr ""
+"Ctrl+Shift+NVDA+I:現在のフィードのタイトルとリンクを通知。2回押してそのタイト"
+"ルと関連リンクをクリップボードにコピー。"
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+NVDA+U: Announces previous feed title."
+msgstr "Ctrl+Shift+NVDA+U: 前のフィードタイトルを通知。"
+
+#. type: Bullet: '* '
+msgid "Ctrl+Shift+NVDA+O: Announces next feed title."
+msgstr "Ctrl+Shift+NVDA+O: 次のフィードタイトルを通知。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Notifications"
+msgstr "通知"
+
+#. type: Bullet: '* '
+msgid "When the title or URL have been copied."
+msgstr "タイトルまたはURLがコピーされた時。"
+
+#. type: Bullet: '* '
+msgid ""
+"When unable to connect/refresh a feed, or the URL does not correspond to a "
+"valid feed."
+msgstr ""
+"フィードに接続/再読み込み出来ない時、または、URLが有効なフィードに応答しない"
+"時。"
+
+#. type: Bullet: '* '
+msgid "NVDA will display an error message if a new feed cannot be created."
+msgstr "NVDAは、新しいフィードを作成出来ない時、エラーメッセージを表示します。"
+
+#. type: Bullet: '* '
+msgid ""
+"The title of the articles list dialog displays the selected feed name and "
+"number of items available."
+msgstr ""
+"記事リストダイアログのタイトルは、選択されたフィードの名前と、利用可能な項目"
+"の数を表示します。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 34.0.0"
+msgstr "3.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Added support for rss.cbc.ca feeds."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 21.0"
+msgstr "2.0の変更点"
+
+#. type: Bullet: '* '
+msgid ""
+"Feeds with untitled articles can be presented in the Articles dialog, and "
+"opened as HTML."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 20.0"
+msgstr "2.0の変更点"
+
+#. type: Bullet: '* '
+msgid "universalFeedParser is updated to 5.0.1, adding support for more feeds."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 14.0"
+msgstr "14.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Fixed a bug that made impossible to add some feeds."
+msgstr "一部のフィードが追加出来ないバグを修正しました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 13.0"
+msgstr "13.0の変更点"
+
+#. type: Bullet: '* '
+msgid "The add-on cannot be used on secure screens."
+msgstr "アドオンがセキュア画面で使用不能になりました。"
+
+#. type: Bullet: '* '
+msgid "Feeds are managed from OPML files."
+msgstr "フィードがOPMLファイルから管理されるようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes in the feeds management system, there are changes in the "
+"configuration file where the default feed is set. Please, use the Feeds "
+"dialog if you want to set it again."
+msgstr ""
+"フィードの管理システムの変更により、初期設定のフィードが設定される設定ファイ"
+"ルに変更がありました。もう一度それを設定する時は、フィードダイアログを使用し"
+"て下さい。"
+
+#. type: Bullet: '* '
+msgid ""
+"Your old text files used in previous versions will be automatically imported "
+"into the new OPML format when the add-on is started."
+msgstr ""
+"前のバージョンで使用されていた古いテキストファイルは、アドオンを起動する時、"
+"自動的に新しいOPMLフォーマットにインポートされます。"
+
+#. type: Bullet: '* '
+msgid ""
+"The copy and restore feeds feature has been replaced with the ability to "
+"import from and save to OPML files."
+msgstr ""
+"フィードのコピーと再読み込み機能は、OPMLファイルからのインポートとファイルへ"
+"の保存機能に置き換えられました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Non well-formed feeds can be processed before being added to make them "
+"compatible with the add-on."
+msgstr ""
+"形式の整っていないフィードは、追加される前にこのアドオンに互換となるように、"
+"処理されます。"
+
+#. type: Bullet: '* '
+msgid ""
+"In the Read Feeds settings panel, a new option allows to show article dates "
+"on the List of articles dialog."
+msgstr ""
+"Reed Feeds設定パネルにて、新しい選択肢により、記事のリストダイアログ中に記事"
+"の日付を表示出来るようになりました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 12.0"
+msgstr "12.0の変更点"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug which made shortcuts for items of NVDA's tools menu don't work "
+"as expected."
+msgstr ""
+"NVDAツールメニューの項目用のショートカットが、期待通りに動かないバグを修正し"
+"ました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 11.0"
+msgstr "11.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2021.1"
+msgstr "NVDA 2021.1に互換"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 10.0"
+msgstr "10.0の変更点"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to open the selected feed as HTML in the default web browser."
+msgstr ""
+"選択されたフィードを、HTMLとして既定のウェブブラウザで開くボタンを追加しまし"
+"た。"
+
+#. type: Bullet: '* '
+msgid ""
+"If a new feed cannot be created, this will be notified in an error dialog."
+msgstr ""
+"新しいフィードが作成出来ない場合、エラーダイアログで通知されるようになりまし"
+"た。"
+
+#. type: Bullet: '* '
+msgid "Improved order and presentation of some articles."
+msgstr "一部の記事の順番と表示を改善しました。"
+
+#. type: Bullet: '* '
+msgid "More feeds may be supported."
+msgstr "より多くのフィードがサポートされるようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"When the feeds dialog is opened, the list of feeds will be focused instead "
+"of the search edit box."
+msgstr ""
+"フィードダイアログが開いている場合、検索エディットボックスの代わりに、フィー"
+"ドのリストがフォーカスされるようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"You can choose if the search edit box is placed after the list of feeds, "
+"useful to focus the list even when switching from another window without "
+"closing the Feeds dialog."
+msgstr ""
+"フィードダイアログを閉じずに他のウィンドウから切り替える時でも、リストを"
+"フォーカスするのに便利なように、検索エディットボックスがフィードの後に配置さ"
+"れるかどうかを選択出来るようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to copy the feed address to clipboard from the feeds dialog."
+msgstr ""
+"フィードアドレスを、フィードダイアログからクリップボードにコピーするボタンを"
+"追加しました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 9.0"
+msgstr "9.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "NVDA 2019.3以降が必要。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 8.0"
+msgstr "8.0の変更点"
+
+#. type: Bullet: '* '
+msgid ""
+"When the add-on is updated, feeds saved in the previous version of the add-"
+"on will be automatically copied to the new version, unless you prefer to "
+"import feeds saved in the main configuration folder of NVDA."
+msgstr ""
+"NVDAのメインの設定フォルダに保存されたフィードをインポートするのを好む場合を"
+"除き、アドオンが更新される時、前のバージョンで保存されたフィードは、自動的に"
+"新しいバージョンにコピーされます。"
+
+#. type: Bullet: '* '
+msgid ""
+"When using the dialog to copy feeds, if the chosen folder is not named "
+"personalFeeds, a subfolder with this name will be created to prevent the "
+"deletion of directories containing important data, such as Documents or "
+"Downloads."
+msgstr ""
+"フィードをコピーするのにダイアログを使用する時、選択されたフォルダが"
+"personalFeedsという名前でない場合、ドキュメントやダウンロードといった、重要な"
+"データを含むディレクトリの削除を避けるため、その名前のサブフォルダが作成され"
+"るようになりました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 7.0"
+msgstr "7.0の変更点"
+
+#. type: Bullet: '* '
+msgid ""
+"The Feeds dialog includes a button to open a folder which may contain a "
+"backup of feeds."
+msgstr ""
+"フィードダイアログが、フィードのバックアップを含むフォルダーを開くボタンを、"
+"含むようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"When using the edit box to filter feeds, if no results are found, the list "
+"of feeds and other controls are disabled, so that NVDA doesn't report "
+"\"unknown\" in the empty list."
+msgstr ""
+"フィードをフィルターするのにエディットボックスを使用する時、結果が見つからな"
+"い場合、NVDAが空のリストに「未知の物」と通知しないように、フィードのリストと"
+"他のコントロールが無効化されるようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"If the list of articles dialog can't be shown, for example due to errors in "
+"the feed, NVDA will raise an error, so that the feeds dialog can be used "
+"without restarting NVDA."
+msgstr ""
+"例えばフィードのエラーにより、記事のリストダイアログが表示されなかった時、"
+"フィードダイアログがNVDAの再起動をしなくても使用出来るように、NVDAはエラーを"
+"表示するようになりました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "6.0の変更点"
+
+#. type: Bullet: '* '
+msgid ""
+"When the default feed has been updated and it stops working due to server "
+"issues, the previous articles aren't deleted and can be read with the "
+"corresponding keystrokes."
+msgstr ""
+"初期設定のフィードが更新され、サーバーの問題で動作が停止した時、前の記事が削"
+"除されず、対応するキーストロークで読めるようになりました。"
+
+#. type: Bullet: '* '
+msgid "Fix regression: The default feed can be updated twice again."
+msgstr "再発バグの修正: 初期のフィードを2回更新可能に再びなりました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "5.0の変更点"
+
+#. type: Bullet: '* '
+msgid "The articles list dialog has been enhanced."
+msgstr "記事リストダイアログが拡張されました。"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr "NVDA 2018.3以降に互換(必要)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "4.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Added a button to open the selected feed from the Feeds dialog."
+msgstr "フィードダイアログから選択されたフィードを開くボタンを追加しました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "3.0の変更点"
+
+#. type: Bullet: '* '
+msgid ""
+"The dialogs to manage feed files have been removed. Now their functionality "
+"is included in the Feeds dialog."
+msgstr ""
+"フィードファイルを管理するダイアログが除去されました。それらの機能はフィード"
+"ダイアログに含まれるようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"The visual presentation of the dialogs has been enhanced, adhering to the "
+"appearance of the dialogs shown in NVDA."
+msgstr ""
+"ダイアログの外観が、NVDAに表示されるダイアログの外観に従って、拡張されまし"
+"た。"
+
+#. type: Bullet: '* '
+msgid ""
+"The default feed is saved on the NVDA's configuration. Therefore, it's "
+"possible to set different default feeds in configuration profiles."
+msgstr ""
+"初期設定のフィードはNVDAの設定に保存されます。よって、異なる初期設定のフィー"
+"ドは設定プロファイルに設定することが出来ます。"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2016.4."
+msgstr "NVDA 2016.4が必要。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "2.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "アドオンヘルプはアドオンマネージャから利用可能になりました。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "1.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "最初のバージョン。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr ""
+
+#~ msgid ""
+#~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
+#~ "[3]."
+#~ msgstr ""
+#~ "必要があれば、ダウンロード可能です。[NVDA 2017.3に互換の最後のバージョン]"
+#~ "[3]."
+
+#~ msgid ""
+#~ "Download [stable version][1] (compatible with NVDA 2019.3 and beyond)"
+#~ msgstr "ダウンロード [安定版][1] (NVDA 2019.3以降に互換)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Download [stable version][1] (compatible with NVDA 2019.3 and beyond)"
+#~ msgid "Download [beta version][2] (compatible with NVDA 2019.3 and beyond)"
+#~ msgstr "ダウンロード [安定版][1] (NVDA 2019.3以降に互換)"
+
+#~ msgid ""
+#~ "Download [development version][2] (compatible with NVDA 2019.3 and beyond)"
+#~ msgstr "ダウンロード [開発版][2] (NVDA 2019.3以降に互換)"
+
+#, fuzzy
+#~| msgid "Download [stable version][2]"
+#~ msgid "Download [stable version][1]"
+#~ msgstr "ダウンロード [安定版][2]"
+
+#, fuzzy
+#~| msgid "Installation or Update:"
+#~ msgid "Installation or Update"
+#~ msgstr "インストールと更新:"
+
+#, fuzzy
+#~| msgid ""
+#~| "If you used a previous version of this addon, and there is an RSS or "
+#~| "personalFeeds folder in your personal NVDA configuration folder, when "
+#~| "installing version 6.0 or later, a dialog will ask if you want to "
+#~| "upgrade or install.  Choose update to preserve your saved feeds and to "
+#~| "continue using them in the new installed version of readFeeds."
+#~ msgid ""
+#~ "If you used a previous version of this addon, and there is an RSS or "
+#~ "personalFeeds folder in your personal NVDA configuration folder, when "
+#~ "installing the current version, a dialog will ask if you want to upgrade "
+#~ "or install.  Choose update to preserve your saved feeds and to continue "
+#~ "using them in the new installed version of readFeeds."
+#~ msgstr ""
+#~ "このアドオンの以前のバージョンを使用していて、個人用NVDA設定フォルダにRSS"
+#~ "またはpersonalFeedsフォルダがある場合は、readFeedsアドオンのバージョン6.0"
+#~ "以上をインストールするときにアップグレードとインストールを選択するダイアロ"
+#~ "グが表示されます。アップデートを選ぶと保存したフィードを残すことができ、新"
+#~ "しいバージョンのreadFeedsで引き続き利用できます。"
+
+#, fuzzy
+#~| msgid ""
+#~| "- Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice "
+#~| "will open the web page.  - Ctrl+Shift+NVDA+8: Refreshes the selected "
+#~| "feed and announces its most recent title.  - Ctrl+Shift+NVDA+I: "
+#~| "Announces current feed title. Pressing twice will copy the title and "
+#~| "related link to clipboard.  - Ctrl+Shift+NVDA+U: Announces previous feed "
+#~| "title.  - Ctrl+Shift+NVDA+O: Announces next feed title."
+#~ msgid ""
+#~ "- Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice "
+#~ "will open the web page.  - Ctrl+Shift+NVDA+8: Refreshes the selected feed "
+#~ "and announces its most recent title.  - Ctrl+Shift+NVDA+I: Announces "
+#~ "current feed title and link. Pressing twice will copy the title and "
+#~ "related link to clipboard.  - Ctrl+Shift+NVDA+U: Announces previous feed "
+#~ "title.  - Ctrl+Shift+NVDA+O: Announces next feed title."
+#~ msgstr ""
+#~ "-Ctrl+Shift+NVDA+Space: 現在の記事のURLを通知します。2回押すとそのウェブ"
+#~ "ページを開きます。\n"
+#~ "-Ctrl+Shift+NVDA+8: 選択されたフィードを更新して最新のタイトルを通知しま"
+#~ "す。\n"
+#~ "-Ctrl+Shift+NVDA+I: 現在のフィードのタイトルを通知します。2回押すとそのタ"
+#~ "イトルとリンクをクリップボードにコピーします。\n"
+#~ "-Ctrl+Shift+NVDA+U: 前のフィードのタイトルを通知します。\n"
+#~ "-Ctrl+Shift+NVDA+O: 次のフィードのタイトルを通知します。"
+
+#, fuzzy
+#~| msgid ""
+#~| "- When the title or URL have been copied.  - When unable to connect/"
+#~| "refresh a feed, or the URL does not correspond to a valid feed.  - NVDA "
+#~| "will display an error message if it was not possible to backup the "
+#~| "personalFeeds folder.  - The title of the article list dialog displays "
+#~| "the selected feed name and number of items available."
+#~ msgid ""
+#~ "- When the title or URL have been copied.  - When unable to connect/"
+#~ "refresh a feed, or the URL does not correspond to a valid feed.  - NVDA "
+#~ "will display an error message if it was not possible to backup or restore "
+#~ "the personalFeeds folder.  - The title of the articles list dialog "
+#~ "displays the selected feed name and number of items available."
+#~ msgstr ""
+#~ "-タイトルまたはURLがコピーされた時。\n"
+#~ "-フィードを接続更新できない時、またはURLが有効なフィードに対応しない時。\n"
+#~ "-個人フィードフォルダをバックアップできない時、NVDAはエラーメッセージを表"
+#~ "示します。\n"
+#~ "-記事リストダイアログのタイトルは選択されたフィード名および使用できる項目"
+#~ "数を表示します。"
+
+#~ msgid ""
+#~ "- Article list...  Presents the article list from your current feed. "
+#~ "Select the article you want to read and press OK button to open the "
+#~ "corresponding page in your browser.  - Temporary feed address... control "
+#~ "+ NVDA + shift + enter: Opens a dialog for typing a new URL to select "
+#~ "another feed. The current URL will be shown in this dialog.  - Load feed "
+#~ "address from file... NVDA+control+enter: Opens a dialog to select a feed "
+#~ "from a saved file containing a feed URL.  - Save current feed address to "
+#~ "file... NVDA+shift+enter: opens a dialog for selecting the file where "
+#~ "current feed URL will be saved.  If you save to the special file "
+#~ "addressFile.txt, this particular feed will be used as your default feed.  "
+#~ "- Refresh current feed: control+shift+NVDA+8: Refresh selected feed. The "
+#~ "feeds will not be updated automatically when Read Feeds addon is "
+#~ "started.  - Backup feeds folder...  opens a dialog to choose a folder "
+#~ "where you can save the personalFeeds directory of your feeds. By default "
+#~ "the selected folder is the NVDA's configuration directory, which will "
+#~ "create the personalFeeds directory.  - Restore feeds...  Opens a dialog "
+#~ "to select a folder which replaces your feeds in the personalFeeds folder. "
+#~ "Make sure you load a folder containing feeds URLs."
+#~ msgstr ""
+#~ "-記事リスト...現在のフィードから記事リストを表示します。読みたい記事を選択"
+#~ "してOKボタンを押し、ブラウザで対応するページを開きます。\n"
+#~ "-一時フィードアドレス...Ctrl+NVDA+Shift+Enter: ダイアログを開いて新しいURL"
+#~ "を入力して他のフィードを選択します。現在のURLがこのダイアログに表示されま"
+#~ "す。\n"
+#~ "-ファイルからフィードアドレスを読み込み...NVDA+Ctrl+Enter: ダイアログを開"
+#~ "いて、フィードURLが保存されたファイルからフィードを選択します。\n"
+#~ "-現在のフィードアドレスをファイルに保存...NVDA+Shift+Enter: ダイアログを開"
+#~ "いて現在のフィードURLを保存するファイルを選択します。addressFile.txtに保存"
+#~ "すると、このファイルに保存されたフィードが最初のフィードとして使用されま"
+#~ "す。\n"
+#~ "-現在のフィードを更新: Ctrl+Shift+NVDA+8: 選択されたフィードを更新します。"
+#~ "フィードは、Read Feeds アドオンを起動時に自動的に更新されません。\n"
+#~ "-フィードフォルダをバックアップ...ダイアログを開いて自分のフィードを保存す"
+#~ "る個人フィードディレクトリを保存するフォルダを選択します。初期設定では、"
+#~ "NVDAの設定ディレクトリ(configuration directory)がフォルダとして選択され、"
+#~ "個人フィードディレクトリが作成されます。\n"
+#~ "-フィードを復元...ダイアログを開き個人フィードフォルダ内のフィードを入れ替"
+#~ "えるフォルダを選択します。フィードURLが保存されたフォルダを読み込むように"
+#~ "します。"
+
+#~ msgid ""
+#~ "Note: If you want to delete a previously saved feed URL, just remove the "
+#~ "corresponding file."
+#~ msgstr ""
+#~ "注: 以前に保存したフィードURLを削除したい場合は、対応するファイルを削除し"
+#~ "ます。"

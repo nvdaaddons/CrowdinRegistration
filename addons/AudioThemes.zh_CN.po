@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:38+0000\n"
+"PO-Revision-Date: 2019-08-25 00:59+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Audio Themes\"]]\n"
+msgstr "[[!meta title=\"音效方案\"]]\n"
+
+#. type: Bullet: '*   '
+msgid "Authors: Musharraf Omer and others"
+msgstr "作者: Musharraf Omer and others"
+
+#. type: Bullet: '*   '
+msgid "download [stable version][1]"
+msgstr "下载 [稳定版][1]"
+
+#. type: Bullet: '*   '
+msgid "download [development version][2]"
+msgstr "下载 [开发板][2]"
+
+#. type: Plain text
+msgid ""
+"This add-on creates a virtual audio display that plays sounds when focusing "
+"or navigating objects (such as buttons, links etc...) the audio will be "
+"played in a location that corresponds to the object's location in the visual "
+"display."
+msgstr ""
+"此插件可以用声音的方式来提示NVDA所浏览的控件类型，并且可以以3D方式提示控件的"
+"所在位置。"
+
+#. type: Plain text
+msgid ""
+"The add-on also enables you to activate, install, remove, edit, create, and "
+"distribute audio theme packages."
+msgstr ""
+"支持设置音效的音量。可以自己制作打包音效方案，还可以激活，安装，删除，编辑，"
+"创建和分发音效方案包。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "用法"
+
+#. type: Plain text
+msgid ""
+"This add-on enables you to perform three distinct tasks, including managing "
+"your installed audio themes, editing the currently active audio theme, and "
+"creating a new audio theme."
+msgstr ""
+"此插件可让您执行三项不同的任务，包括管理已安装的音效方案，编辑当前活动的音频"
+"主题以及创建新的音效方案。"
+
+#. type: Plain text
+msgid ""
+"You can access these functions from the add-on's menu which is found in the "
+"main NVDA menu."
+msgstr "您可以通过NVDA菜单中的附加菜单访问这些功能。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Managing Your Audio Themes"
+msgstr "管理您的音效方案"
+
+#. type: Bullet: '- '
+msgid ""
+"The 'Manage Audio Themes' dialogue enables you to activate or deactivate "
+"audio themes, in addition to installing and removing audio themes."
+msgstr ""
+"除了安装和删除音效方案之外，“管理音效方案”对话框允许您激活或停用音效方案。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"- In this dialogue there are some additional options including:\n"
+" - Play sounds in 3D mode: When you uncheck this box the add-on will play the sounds in mono mode (always in the centre of the audio display) regardless of the object location.\n"
+" - Speak role such as button, edit box , link etc.: When you uncheck this box NVDA will start announcing the role when focusing objects rather than ignoring it (which is the default behaviour when installing this add-on).\n"
+" - Use Synthesizer Volume: Checking this box will set the sound player of this add-on to use the active voice sound, thus making all audible output the same as the voice volume when ever you change that volume.\n"
+" - Audio Theme Volume Slider: Alternatively you can set the volume for the add-on using this slider. Setting it to 0 will mute all sounds, and 100 is the maximum volume.\n"
+msgstr "- 在此对话框中还有一些其他选项，包括： - 在3D模式下播放声音：当您取消选中此框时，无论对象位置如何，插件都将在单声道模式下播放声音（始终位于音频显示屏的中央）。 - 说出按钮，编辑框，链接等角色：当您取消选中此框时，NVDA将在聚焦对象时开始宣布角色，而不是忽略它（这是安装此插件时的默认行为）。 - 使用合成器音量：选中此框会将此加载项的声音播放器设置为使用活动的声音，从而在您更改该音量时使所有可听输出与音量相同。 - 音效方案音量滑块：或者，您可以使用此滑块设置加载项的音量。将其设置为0将静音所有声音，而100是最大音量。\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Editing The Active Audio Theme:"
+msgstr "编辑活动音效方案："
+
+#. type: Bullet: '- '
+msgid ""
+"When you click on the 'Edit the active audio theme' option, a dialogue will "
+"open with a list containing all the sounds contained in the currently active "
+"theme. From this dialogue you can:"
+msgstr ""
+"当你点击'编辑活动音效方案'选项时，会打开一个对话框，其中包含当前活动主题中包"
+"含的所有声音。从这个对话你可以："
+
+#. type: Bullet: '- '
+msgid ""
+"Change Selected: Selecting a sound from the list and clicking this button, "
+"will open a standard open file dialogue, select an ogg or wave audio file "
+"from your file system to replace the selected sound, and click OK to "
+"complete the process."
+msgstr ""
+"更改所选内容：从列表中选择一个声音并单击此按钮，将打开一个标准的打开文件对话"
+"框，从文件系统中选择一个OGG或波形音频文件以替换选定的声音，然后单击确定以完成"
+"该过程。"
+
+#. type: Bullet: '- '
+msgid ""
+"Remove Selected: This will remove the selected sound from the theme, click "
+"'Yes' to confirm the removal process, and the selected sound will be removed."
+msgstr ""
+"移除所选内容：这将从主题中移除选定的声音，点击“是”确认移除过程，所选声音将被"
+"移除。"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"- Add New Sound: When clicking this button a new dialogue will be shown. From the first combo box in the newly opened dialogue select the object type you want to assign the sound to it, for example (button, link, tab, menu and so on), then click the 'Browse to an audio file' button to select the sound you want to assign for the previously selected object type. Optionally you can click the preview   button to preview the sound, and finally clicking the OK button will apply the changes and assign the selected sound to the selected object. \n"
+"- Close: Will  exit the dialogue without performing any action.\n"
+msgstr "- 添加新声音：单击此按钮时，将显示新的对话框。从新打开的对话框中的第一个组合框中选择要为其分配声音的对象类型，例如（按钮，链接，标签，菜单等），然后单击“浏览至音频文件”按钮以选择要为之前选择的对象类型分配的声音。或者，您可以单击预览按钮预览声音，最后单击确定按钮将应用更改并将选定的声音指定给所选对象。 - 关闭：将不执行任何操作而退出对话框。\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Creating A New Audio Theme"
+msgstr "创建一个新的音效方案"
+
+#. type: Plain text
+msgid ""
+"- If you have a good sound production skills you can apply them here and "
+"create an audio theme of your own, rather than editing an existing one. To "
+"do this you can follow these steps.  - Collect your audio files in one "
+"place, they must be in ogg or wave format, and rename them to what ever make "
+"sense to you. For example when I was creating the default audio theme for "
+"this add-on, I grouped sounds according to interaction patterns, for "
+"example, the combo box, the drop down button, and the split button can all "
+"have the same sound, while the Check box, The toggle button, and the menu "
+"check item can have the same sound.  - From the add-on menu click 'Create a "
+"new audio theme' - A dialogue will be opened asking you for some information "
+"about your new audio theme, including: *\tTheme Name : The name of your "
+"theme which will be shown in the audio themes manager. This must be a valid "
+"windows folder name.  *\tYour Name: Enter your real name or a nick name.  "
+"*\tTheme description : A Brief description about your audio theme.  - Click "
+"OK to move to the next step.  - In the next step a dialogue similar to the "
+"'Audio Themes Editor' will be shown, and from their the process is the same "
+"as the Theme editing process, so refer to 'Editing The Active Audio Theme' "
+"section."
+msgstr ""
+"- 如果你有良好的声音制作技巧，你可以在这里应用它们并创建自己的音效方案，而不"
+"是编辑现有的主题。要做到这一点，你可以按照如下步骤。 - 将音频文件收集到一个地"
+"方，它们必须采用ogg或波形格式，并将其重命名为对您有意义的内容。例如，当我为此"
+"加载项创建默认音效方案时，我会根据交互模式对声音进行分组，例如，组合框，下拉"
+"按钮和分割按钮都可以具有相同的声音，而Check框，切换按钮和菜单检查项目可以具有"
+"相同的声音。 - 从附加菜单中点击'创建一个新的音效方案' - 将打开一个对话框，询"
+"问您关于新音效方案的一些信息，包括：*％9主题名称：您的主题名称将显示在音频主"
+"题管理器。这必须是有效的Windows文件夹名称。 *％9您的姓名：输入您的真实姓名或"
+"昵称。 *％9主题描述：关于您的音效方案的简要说明。 - 点击确定移至下一步。 - 下"
+"一步将显示类似于“音效方案编辑器”的对话框，并且从它们的过程与主题编辑过程相"
+"同，因此请参阅“编辑有效音效方案”部分。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Copyright:"
+msgstr "版权："
+
+#. type: Plain text
+msgid "Copyright (c) 2014-2016 Musharraf Omer and Others"
+msgstr "Copyright（c）2014-2016 Musharraf Omer及其他贡献者"
+
+#. type: Plain text
+msgid ""
+"Although this add-on was started as an independent project, it evolved to be "
+"an enhanced version of the 'Unspoken' add-on by Austin Hicks and Bryan "
+"Smart. The majority of this add-on's development went into creating the "
+"tools to manage, edit and create audio theme packages. So a big thank you to "
+"them for creating such a wonderful add-on, and making it available for us to "
+"build on top of their work."
+msgstr ""
+"虽然这个插件是作为一个独立的项目出现的，但它演变成Austin Hicks和Bryan Smart"
+"的'Unspoken'插件的增强版本。这个插件的大部分开发工作都是为了创建管理，编辑和"
+"创建音效方案包的工具。所以非常感谢他们创造这样一个美妙的插件，并使我们能够在"
+"他们的工作之上进行构建。"
+
+#. type: Title ##
+#, no-wrap
+msgid "A Note on Third-party audio files:"
+msgstr "关于第三方音频文件的注意事项："
+
+#. type: Plain text
+msgid ""
+"The **Default** audio theme package in this add-on uses sounds from several "
+"sources, here is a breakdown for them: - Unspoken 3D Audio: An add-on for "
+"NVDA - TWBlue: A free and open source twitter client - Mushy TalkBack: An "
+"alternative talkback with better sounds."
+msgstr ""
+"这个插件中的** Default **音效方案包使用来自多个来源的声音，下面是它们的细"
+"分： - 未声明的3D音频：NVDA的插件 -  TWBlue：免费和开源的twitter客户端 -  "
+"Mushy话语提示：有更好声音的另一种对话。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Licence"
+msgstr "许可证"
+
+#. type: Plain text
+msgid ""
+"Licensed under the GNU General Public License. See the file **copying** for "
+"more details."
+msgstr ""
+"此插件基于GNU通用公共许可证进行分发，想获取和查看许可。请参阅许可证文档**。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ath"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=ath"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ath"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ath-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=ath-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ath-dev"

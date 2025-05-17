@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA community website\n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2020-04-02 10:39+0200\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: Danish <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Focus Highlight\"]]\n"
+msgstr "[[!meta title=\"Focus Highlight (fremhæv fokus)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Takuya Nishimoto, Karl-Otto Rosenqvist"
+msgstr "Forfattere: Takuya Nishimoto, Karl-Otto Rosenqvist"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][2]"
+msgstr "Download [stabil version][2]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "Download [udviklingsversion][1]"
+
+#. type: Plain text
+msgid ""
+"By drawing a colored rectangle, this addon enables partially sighted users, "
+"sighted educators, or developers to track the location of the nvda navigator "
+"object and the focused object/control."
+msgstr ""
+"Dette tilføjelsesprogram tegner et rektangel, så svagsynede brugere, seende "
+"instruktører eller udviklere kan finde placeringen af NVDAs navigatorobjekt "
+"og objektet/kontrollen, som har fokus."
+
+#. type: Plain text
+msgid "The following colors are used by this addon:"
+msgstr "Følgende farver bliver brugt af dette tilføjelsesprogram:"
+
+#. type: Bullet: '* '
+msgid ""
+"Green thin dashed-dotted line rectangle shows NVDA is in browse mode, and "
+"this is the navigator object."
+msgstr ""
+"Grøn og tynd rektangel med tynde skråstreger, indikerer gennemsynstilstand "
+"og det indikere navigatorobjektet."
+
+#. type: Bullet: '* '
+msgid ""
+"Red thin rectangle shows NVDA is in browse mode, and this is the focused "
+"object/control."
+msgstr ""
+"Rødt tyndt rektangel for at indikere objektet/kontrolen, som har fokus i "
+"gennemsynstilstand."
+
+#. type: Bullet: '* '
+msgid ""
+"Red thick rectangle shows NVDA is in browse mode, and this is both the "
+"navigator object and the focused object which are overlapping."
+msgstr ""
+"Rødt tykt rektangel for at indikere, at navigatorobjekt og objekt i fokus "
+"overlapper i gennemsynstilstand."
+
+#. type: Bullet: '* '
+msgid ""
+"Blue thick dotted line rectangle indicates NVDA is in focus mode, i.e., key "
+"types are passed to the control."
+msgstr ""
+"Blåt rektangel med tyk prikket linje for at indikere, at NVDA er i "
+"fokustilstand, d.v.s. at tastetryk bliver videregivet til kontrollen."
+
+#. type: Plain text
+msgid ""
+"To toggle object tracking, press NVDA+Alt+P. You can assign other gestures "
+"using the Input Gestures dialog.  Note that it works with NVDA 2018.3 or "
+"later.  Otherwise, you should disable or uninstall the addon itself for "
+"disabling object tracking."
+msgstr ""
+"For at skifte objektsporing skal du trykke på NVDA+Alt+P. Du kan tildele "
+"andre bevægelser vha. Dialogboksen Inputbevægelser. Bemærk, at dette "
+"fungerer med NVDA 2018.3 eller nyere. Hvis du benytter ældre versioner af "
+"NVDA,  skal du deaktivere eller afinstallere selve tilføjelsen for at "
+"deaktivere sporing af objekter."
+
+#. type: Plain text
+msgid ""
+"When Focus Highlight category of NVDA Settings dialog is available, "
+"following items can be used."
+msgstr ""
+"Når kategorien Fremhævelse af Fokus i NVDA-s indstillingspanel er "
+"tilgængelig, kan følgende indstillinger tilgås."
+
+#. type: Bullet: '* '
+msgid ""
+"Make focus mode the default: This checkbox is enabled by default. When it is "
+"unchecked, this add-on behaves same as version 5.6 or previous versions, i."
+"e., if browse mode is not available for an app, the focus is shown using the "
+"thick red rectangle."
+msgstr ""
+"Gør fokustilstand standard: Dette felt er som standard aktiveret. Når den "
+"ikke er markeret, fungerer denne tilføjelse lignende version 5.6 eller "
+"tidligere versioner, dvs. hvis gennemsynstilstand ikke er tilgængelig for en "
+"app, vises fokuset ved hjælp af det tykke røde rektangel."
+
+#. type: Bullet: '* '
+msgid ""
+"Focus in focus mode, Focus in browse mode, Navigator object: Each of these "
+"groups contains Color, Thickness, and Style."
+msgstr ""
+"Fokus i fokustilstand, Fokus i gennemsynstilstand, Navigatorobjekt: Hver af "
+"disse grupper indeholder farve, tykkelse og stil."
+
+#. type: Bullet: '    * '
+msgid ""
+"Color: This edit field allows you to type the HTML color code, i.e., six-"
+"character hexadecimal number. For example, \"ffffff\" is white, \"ff0000\" "
+"is red, and so on. Note that \"000000\" can not be used."
+msgstr ""
+"Farve: Dette redigeringsfelt giver dig mulighed for at skrive HTML-"
+"farvekoden, dvs. hexadecimale tal med seks tegn. For eksempel er \"ffffff\" "
+"hvid, \"ff0000\" er rød og så videre. Bemærk at \"000000\" ikke kan bruges."
+
+#. type: Bullet: '    * '
+msgid ""
+"Thickness: This edit field allows you to type the thickness of the box. You "
+"can enter a value between 1 and 30."
+msgstr ""
+"Tykkelse: Dette redigeringsfelt giver dig mulighed for at skrive tykkelsen "
+"af boksen. Du kan indtaste en værdi mellem 1 og 30."
+
+#. type: Bullet: '    * '
+msgid "Style: The choices are Solid, Dash, Dot, Dash dot, and Dash dot-dot."
+msgstr "Style: Valgene er Solid, streg, prik, streg prik og streg prik prik."
+
+#. type: Bullet: '* '
+msgid ""
+"Restore defaults: This button allows you to reset your settings to their "
+"original defaults."
+msgstr ""
+"Gendan standarder: Denne knap giver dig mulighed for at nulstille dine "
+"indstillinger til deres oprindelige standardindstillinger."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.3"
+msgstr "Ændringer for 6.3"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Nye og opdaterede oversættelser."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that dash styles of focus (in browse mode) and navigator "
+"object are not able to change."
+msgstr ""
+"Rettede det problem, hvor strejfokusstilarter (i gennemsynstilstand) og "
+"navigatorobjekt ikke kunne ændres."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that 'Cancel' button of setting panel does not work after "
+"'Restore defaults' button is pressed."
+msgstr ""
+"Rettede det problem, hvor knappen 'Annuller' i indstillingspanelet ikke "
+"fungerede, når der er trykket på knappen 'Gendan standarder'."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.2"
+msgstr "Ændringer til 6.2"
+
+#. type: Bullet: '* '
+msgid ""
+"You can now turn object tracking on and off using NVDA+Alt+P. Karl-Otto "
+"Rosenqvist contributed for this."
+msgstr ""
+"Du kan nu aktivere og deaktivere objektsporing ved hjælp af NVDA+Alt+P. Karl-"
+"Otto Rosenqvist bidrog hertil."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.1"
+msgstr "Ændringer for 6.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/14) "
+"with the latest development versions of NVDA."
+msgstr ""
+"Løser [problemet](https://github.com/nvdajp/focusHighlight/issues/14) med de "
+"seneste udviklingsversioner af NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"Focus Highlight category of NVDA Settings dialog is now available. Note that "
+"it works only with NVDA 2018.3 or later."
+msgstr ""
+"Indstillingskategorien Fremhævelse af fokus i NVDA-indstillingsdialog er nu "
+"tilgængelig. Bemærk, at dette kun er aktuelt med NVDA 2018.3 eller nyere."
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding customizing colors](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+msgstr ""
+"[Diskussioner vedrørende tilpasning af farver](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding 'Make focus mode the default'](https://github.com/"
+"nvdajp/focusHighlight/issues/13)"
+msgstr ""
+"[Diskussioner vedrørende 'Gør fokustilstand standard'](https://github.com/"
+"nvdajp/focusHighlight/issues/13)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Ændringer i 6.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/13) "
+"regarding the browse mode."
+msgstr ""
+"retter [problemet](https://github.com/nvdajp/focusHighlight/issues/13) "
+"angående gennemsynstilstand."
+
+#. type: Bullet: '* '
+msgid ""
+"Since this version, if the browse mode of NVDA is not available for an "
+"application, it is always shown that NVDA is in focus mode for the "
+"application, rather than using the red thick rectangle."
+msgstr ""
+"Siden denne version, hvis gennemsynstilstanden for NVDA ikke er tilgængelig "
+"for en applikation, vises det altid, at NVDA er i fokustilstand for "
+"applikationen, i stedet for at bruge det røde tykke rektangel."
+
+#. type: Bullet: '* '
+msgid ""
+"The thickness of the line representing the focus mode has been reduced to "
+"half."
+msgstr ""
+"Tykkelsen af linjen, der repræsenterer fokustilstanden, er reduceret til "
+"halvdelen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.6"
+msgstr "Ændringer for 5.6"
+
+#. type: Bullet: '* '
+msgid "Addresses the compatibility issue with NVDA snapshot alpha-16682."
+msgstr "Løser kompatibilitetsproblemet med NVDA snapshot alpha-16682."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.5"
+msgstr "Ændringer for 5.5"
+
+#. type: Bullet: '* '
+msgid "Addresses the issue with NVDA 2018.4 and Firefox/Chrome web browsers."
+msgstr "Løser problemet med NVDA 2018.4 og Firefox / Chrome webbrowsere."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.4"
+msgstr "Ændringer for 5.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/11) "
+"regarding version compatibility."
+msgstr ""
+"Løser [problemet](https://github.com/nvdajp/focusHighlight/issues/11) "
+"angående versionskompatibilitet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.3"
+msgstr "Ændringer for 5.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+"regarding Chrome browser and application sleep mode."
+msgstr ""
+"retter [problemet](https://github.com/nvdajp/focusHighlight/issues/10) "
+"angående Chrome-rowseren og dvaletilstand for applikationer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.2"
+msgstr "Ændringer for 5.2"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.1"
+msgstr "Ændringer for 5.1"
+
+#. type: Bullet: '* '
+msgid "Removed debug log output."
+msgstr "Fjernet debug log output."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Ændringer i 5.0"
+
+#. type: Bullet: '* '
+msgid "Indicators of navigator object and focus mode were changed."
+msgstr "Indikatorer på navigator objektet og fokus tilstand blev ændret."
+
+#. type: Bullet: '* '
+msgid "Multiple monitors are supported."
+msgstr "Flere skærme er nu understøttet."
+
+#. type: Bullet: '* '
+msgid "It now uses GDI Plus technology for drawing."
+msgstr "Der bruges nu GDI Plus-teknologi til at tegne."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Ændringer i 4.0"
+
+#. type: Bullet: '* '
+msgid "Hide rectangle if current application is in sleep mode."
+msgstr "Skjule rektangel, hvis det aktuelle program er i dvaletilstand."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Ændringer i 3.0"
+
+#. type: Bullet: '* '
+msgid "Fixed issue regarding expanded combo box."
+msgstr "Fixed problem med hensyn til udvidet combo box."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with Windows Task Manager."
+msgstr "Løste problem med Windows Programstyring."
+
+#. type: Bullet: '* '
+msgid "Ability to indicate the focus mode."
+msgstr "Kan indikere fokustilstand."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Ændringer i 2.1"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Ændringer i 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr ""
+"Hjælp til tilføjelsesprogrammet er til rådighed fra styring af "
+"tilføjelsesprogrammer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Ændringer i 1.1"
+
+#. type: Bullet: '* '
+msgid "Changed navigator object rectangle to jagged line."
+msgstr "Ændret rektangel for navigatorobjekt til ujævne linjer."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with 'Reload plugins'."
+msgstr "Løste problem med genindlæsning af tilføjelsesprogrammer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Ændringer i 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In Internet Explorer 10 and in Skype on Windows 8, fix a problem with the "
+"navigator object."
+msgstr ""
+"Rettet et problem med navigatorobjektet i Internet Explorer 10 og i Skype på "
+"Windows 8."
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Første version."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=fh-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=fh"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+
+#~ msgid "To disable object tracking, disable or uninstall the addon."
+#~ msgstr ""
+#~ "Hvis du vil slå sporing af objekter fra, så afinstaller "
+#~ "tilføjelsesprogrammet."

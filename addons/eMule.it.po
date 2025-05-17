@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-03-10 18:42+0000\n"
+"PO-Revision-Date: 2020-05-21 21:37+0200\n"
+"Last-Translator: Fabrizio Marini <marini.carlo@fastwebnet.it>\n"
+"Language-Team: italian <simone.dalmaso@juvox.it>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"eMule\"]]\n"
+msgstr "[[!meta title=\"eMule\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Authors: Noelia, Chris, Alberto."
+msgstr "Autori: Noelia, Chris, Alberto."
+
+#. type: Plain text
+msgid ""
+"This add-on helps to improve accessibility of eMule with nVDA.  It also "
+"provides additional keyboard commands for moving in different windows and "
+"gives Useful information about eMule."
+msgstr ""
+"Questo componente aggiuntivo migliora l'accessibilità di Emule con NVDA. "
+"Contiene alcuni tasti rapidi per spostarsi all'interno delle varie schede e "
+"fornisce informazioni utili su Emule."
+
+#. type: Plain text
+msgid ""
+"It's based on the eMuleNVDASupport add-on, developed by the same author. You "
+"should uninstall that old add-on to use this one, since both have common "
+"keystrokes and features."
+msgstr ""
+"Deriva dal componente aggiuntivo eMuleNVDASupport, sviluppato dalla stessa "
+"autrice. E' necessario disinstallare la vecchia versione, se presente, prima "
+"di installare questa versione."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Tested on [eMule][2] 0.50a."
+msgid "Tested on [eMule][1] 0.50a."
+msgstr "Testato su [eMule][2] 0.50a."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands:"
+msgstr "Comandi rapidi:"
+
+#. type: Bullet: '*	'
+msgid "control+shift+h: Moves focus and mouse to main toolbar."
+msgstr ""
+"control+shift+h: sposta il focus e il mouse sulla barra degli strumenti "
+"principale."
+
+#. type: Bullet: '*	'
+msgid "control+shift+t: Reads the current window."
+msgstr "control+shift+t: Legge la finestra corrente."
+
+#. type: Bullet: '*	'
+msgid "control+shift+n: Moves the focus to the Name field in the Find window."
+msgstr "control+Shift+n: Sposta il focus sul campo Nome nella finestra Trova ."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+p: In the Search window, moves focus and mouse to the list of "
+"search parameters, or edit field options."
+msgstr ""
+"control+shift+p: Nella finestra di ricerca , sposta il focus e il mouse "
+"nell'elenco dei parametri di ricerca."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+b: Move the focus to the list in the current window. For "
+"example usable in the Search window, downloads in Transfer window, etc."
+msgstr ""
+"control+shift+b: sposta il focus sull'elenco nella finestra corrente. Per "
+"esempio, si sposta sui risultati nella finestra Cerca o nell'elenco dei "
+"download nella finestra Trasferimenti."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+o: Move the focus to read-only edit boxes in the current "
+"window. For example the IRC received messages, available Servers, etc."
+msgstr ""
+"control+shift+o: sposta il focus nel campo editazione di sola lettura nella "
+"finestra corrente. Per esempio, si sposta nei messaggi ricevuti nella "
+"finestra IRC, etc."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+NVDA+f: If the caret is located in a read only edit box, opens a "
+"find dialog to use the commands for searching text available in NVDA."
+msgstr ""
+"control+NVDA+f: Se il cursore si trova in un campo editazione di sola "
+"lettura, apre la finestra di dialogo per la ricerca di testo di NVDA."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+l: Moves the navigator object and mouse to the headers of the "
+"current list."
+msgstr ""
+"control+shift+l: Sposta il Navigatore ad Oggetti e il puntatore Mouse "
+"sull'intestazione di una colonna all'interno di un elenco."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+q: Reads the first object in the status bar; provides "
+"information about recent activity."
+msgstr ""
+"control+shift+q: Legge attività recenti, primo elemento della barra di stato."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+w: Reads the second object of the status bar; contains "
+"information about files and users on the current server."
+msgstr ""
+"control+shift+w: Legge utenti e files del server attuale, secondo elemento "
+"della barra di stato."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+e: Reads the third object of the status bar; useful to know "
+"the UpLoad/DownLoad speed."
+msgstr ""
+"control+shift+e: Legge velocità di Download e Upload in eMule, terzo "
+"elemento della barra di stato."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+r: Reads The fourth object of the status bar; reports on "
+"connecting of eD2K and Kad network."
+msgstr ""
+"control+shift+r: Legge connettività alle reti eD2K e Kad, quarto elemento "
+"della barra di stato."
+
+#. type: Title ##
+#, no-wrap
+msgid "Managing columns."
+msgstr "Esplorazione degli elenchi."
+
+#. type: Plain text
+msgid ""
+"When within a list, you can move the caret between the rows and columns "
+"using alt+control+ Arrows.  In this Add-on the following key commands are "
+"also available:"
+msgstr ""
+"Negli elenchi di eMule è possibile navigare tra le colonne e le righe usando "
+"alt+control+ frecce direzionali. In questo componente aggiuntivo sono "
+"disponibili inoltre i seguenti comandi da tastiera:"
+
+#. type: Bullet: '*	'
+msgid "nvda+control+1-0: Reads the first 10 columns."
+msgstr "nvda+control+1-0: Consente di leggere le prime 10 colonne."
+
+#. type: Bullet: '*	'
+msgid "nvda+shift+1-0: Reads columns 11 to 20."
+msgstr ""
+"nvda+shift+1-0: Consente di leggere le colonne corrispondenti, dalla "
+"undicesima alla ventesima."
+
+#. type: Bullet: '*	'
+msgid ""
+"nvda+shift+C: Copies the contents of the last read column to the clipboard."
+msgstr ""
+"nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 7.0"
+msgstr "Novità nella versione 4.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "download [version compatible with NVDA 2017.3][4]"
+msgid "Compatible with NVDA 2023.1."
+msgstr "scarica la [versione compatibile con NVDA 2017.3][4]"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 6.0"
+msgstr "Novità nella versione 4.0"
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid "Requires NVDA 2019.3 or later."
+msgid "Requires NVDA 2022.1 or later."
+msgstr "Richiede NVDA 2019.3 o superiore."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 5.0"
+msgstr "Novità nella versione 4.0"
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid "download [version compatible with NVDA 2017.3][4]"
+msgid "Compatible with NVDA 2021.1."
+msgstr "scarica la [versione compatibile con NVDA 2017.3][4]"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Novità nella versione 4.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Richiede NVDA 2019.3 o superiore."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Novità nella versione 3.0"
+
+#. type: Bullet: '*	 '
+#, fuzzy
+#| msgid ""
+#| "To search text in the readonly edit boxes,  the find dialog  can be used, "
+#| "such as nvda+control+f to activate the find dialog."
+msgid ""
+"To search text in the readonly edit boxes,  the find dialog  can be used, "
+"such as nvda+control+f to activate the find dialog."
+msgstr ""
+"Per la ricerca di testo in campi di sola lettura , ora è possibile "
+"utilizzare icomandi disponibili in NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Novità nella versione 2.0"
+
+#. type: Bullet: '*	 '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr ""
+"L'aiuto sul componente aggiuntivo è disponibile dal gestore componenti "
+"aggiuntivi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Novità nella versione 1.2"
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving to the IRC messages, the selected text is reported properly."
+msgstr ""
+"Quando ci si sposta sui messaggi IRC , il testo selezionato viene riportato "
+"correttamente."
+
+#. type: Bullet: '*	 '
+msgid ""
+"The keystroke used for moving to the Search results list has been "
+"generalized to be able to move focus to any available list in the current "
+"window."
+msgstr ""
+"Il comando rapido  utilizzato per spostarsi alla lista dei risultati di "
+"Ricerca è stato generalizzato per essere in grado di spostare il focus in "
+"qualsiasi elenco nella finestra corrente."
+
+#. type: Bullet: '*	 '
+msgid ""
+"The command used to focus the IRC messages has been generalized to move to "
+"any read-only edit box, making it possible to review connection information "
+"in the Servers window."
+msgstr ""
+"Il comando utilizzato per focalizzare i messaggi IRC è stato generalizzato "
+"per spostare il focus su qualsiasi campo editazione di sola lettura, il che "
+"rende possibile rivedere le informazioni di connessione nella finestra "
+"Server."
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving mouse and focus to the toolbar, in some cases it was announced "
+"twice. This has been fixed."
+msgstr ""
+"Spostando il mouse e il focus sulla barra degli strumenti, in alcuni casi si "
+"aveva una doppia vocalizzazione. Questo problema è stato risolto."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Novità nella versione 1.1"
+
+#. type: Bullet: '*	 '
+msgid ""
+"Fixed bug in eMule item under NVDA's help menu, when the user config folder "
+"name contains non latin characters."
+msgstr ""
+"Risolto un problema nella voce Emule del menu Aiuto di NVDA, che si "
+"verificava quando il nome della cartella di configurazione utente conteneva "
+"caratteri non latini."
+
+#. type: Bullet: '*	 '
+msgid "Shortcuts can now be reassigned using the NVDA gesture input dialog."
+msgstr ""
+"I tasti rapidi possono ora essere riassegnati utilizzando la finestra di "
+"dialogo gesti e tasti di immissione di NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Novità nella versione 1.0"
+
+#. type: Bullet: '*	 '
+msgid "Initial version."
+msgstr "Versione iniziale."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://www.emule-project.net"
+msgid "[1]: https://www.emule-project.net"
+msgstr "[2]: https://www.emule-project.net"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2019.3 or later."
+#~ msgid "NVDA compatibility: 2022.1 or later."
+#~ msgstr "Compatibilità con NVDA: versione 2019.3 o successive."
+
+#, fuzzy
+#~| msgid "download [version compatible with NVDA 2017.3][4]"
+#~ msgid ""
+#~ "download [stable version][1] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "scarica la [versione compatibile con NVDA 2017.3][4]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+
+#~ msgid "download [version compatible with NVDA 2017.3][4]"
+#~ msgstr "scarica la [versione compatibile con NVDA 2017.3][4]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+#~ msgid "[4]: http://addons.nvda-project.org/files/get.php?file=em-o"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+
+#, fuzzy
+#~| msgid "download [version compatible with NVDA 2017.3][4]"
+#~ msgid ""
+#~ "download [development version][3] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "scarica la [versione compatibile con NVDA 2017.3][4]"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+
+#~ msgid "download [stable version][1]"
+#~ msgstr "scarica la [versione stabile][1]"
+
+#~ msgid "download [development version][3]"
+#~ msgstr "scarica la [versione in sviluppo][3]"

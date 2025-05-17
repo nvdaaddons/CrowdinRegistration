@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: UnicodeBraille Girişi\n"
+"POT-Creation-Date: 2024-02-12 03:19+0000\n"
+"PO-Revision-Date: 2024-05-29 22:36+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: turkish <cagrid@hotmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"UnicodeBrailleInput\"]]\n"
+msgstr "[[!meta title=\"Unicode Braille Girişi\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+msgstr "Yazarlar: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+
+#. type: Bullet: '* '
+msgid "download [stable version][1]"
+msgstr "[kararlı sürümü indir][1]"
+
+#. type: Plain text
+msgid ""
+"This add-on allows you to convert text from braille (E.G. 1345-1236-145-1) "
+"to Unicode braille characters.  You can also convert text according to the "
+"currently selected input braille table."
+msgstr ""
+"Bu eklenti, metni braille'den (Örneğin: 1345-1236-145-1) Unicode braille "
+"karakterlerine dönüştürmenizi sağlar. Metni, seçili olan giriş braille "
+"tablosuna göre de dönüştürebilirsiniz."
+
+#. type: Plain text
+msgid ""
+"The purpose of this specialized addon is to make it easier to help to "
+"improve liblouis tables and to add automatic tests for your language.  With "
+"the addition of unicode braille table in NVDA 2017.3, this add-on is no "
+"longer required for this, as users can choose to input braille with the new "
+"table.  However, this add-on can still aid in converting normal text to "
+"unicode braille according to a particular input table."
+msgstr ""
+"Bu özel eklentinin amacı, liblouis tablolarının iyileştirilmesine yardımcı "
+"olmayı ve diliniz için otomatik testler eklemeyi kolaylaştırmaktır. NVDA "
+"2017.3'te unicode braille tablosunun eklenmesiyle, kullanıcılar yeni "
+"tabloyla braille girmeyi seçebildikleri için bu eklenti artık bunun için "
+"gerekli değildir. Ancak bu eklenti, normal metni belirli bir giriş tablosuna "
+"göre unicode braille'e dönüştürmeye yine de yardımcı olabilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Kullanım"
+
+#. type: Bullet: '* '
+msgid "Open a unicode aware text editor (for example Notepad++)."
+msgstr "Unicode uyumlu bir metin düzenleyici açın (örneğin, Notepad++)."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+Ctrl+U or choose Unicode Braille Input found under NVDA tools "
+"menu."
+msgstr ""
+"NVDA+Ctrl+U tuşlarına basın veya NVDA araçlar menüsünde bulunan Unicode "
+"Braille Girişi'ni seçin."
+
+#. type: Bullet: '* '
+msgid ""
+"Select whether your input consists of braille dots (e.g. 1345-1236-145-1) or "
+"normal text according to the current braille table (e.g. Dutch (Netherlands)."
+msgstr ""
+"Girişinizin braille noktalarından mı (ör. 1345-1236-145-1) yoksa mevcut "
+"braille tablosuna göre normal metinden mi (ör. Felemenkçe (Hollanda)) "
+"oluştuğunu seçin."
+
+#. type: Bullet: '* '
+msgid ""
+"Type your braille text in numeric form or your normal text, respectively."
+msgstr ""
+"Braille metninizi sırasıyla sayısal biçimde veya normal metninizle yazın."
+
+#. type: Bullet: '* '
+msgid "Press OK."
+msgstr "Tamam tuşuna basın."
+
+#. type: Bullet: '* '
+msgid ""
+"The required unicode characters will be copied to your clipboard ready for "
+"you to paste."
+msgstr ""
+"Gerekli unicode karakterler, yapıştırmanız için hazır olarak panonuza "
+"kopyalanacaktır."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "3.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "New maintainer: Leonard de Ruijter."
+msgstr "Yeni bakıcı: Leonard de Ruijter."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on is compatible with Python 3 and therefore with NVDA 2019.3 and above."
+msgstr "Eklenti, Python 3 ve dolayısıyla NVDA 2019.3 ve üzeri ile uyumludur."
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to create unicode braille from normal text according to "
+"the currently selected input braille table."
+msgstr ""
+"Seçili olan giriş braille tablosuna göre normal metinden unicode braille "
+"oluşturma yeteneği eklendi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "2.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Eklenti yardımına Eklenti Yöneticisinden ulaşılabilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "1.1 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Improve delay to allow announcements to be heard correctly."
+msgstr ""
+"Duyuruların doğru şekilde duyulmasını sağlamak için gecikme süresi "
+"iyileştirildi."
+
+#. type: Bullet: '* '
+msgid "Many new translations."
+msgstr "Birçok yeni çeviri."
+
+#. type: Bullet: '* '
+msgid "Added documentation under NVDA help menu."
+msgstr "NVDA yardım menüsü altında dokümantasyon eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a checkbox to optionally replace the space braille (character 0x2800) "
+"by the regular space character."
+msgstr ""
+"Boş braille'i (karakter 0x2800) isteğe bağlı olarak normal boşluk "
+"karakteriyle değiştirmek için bir onay kutusu eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"Shortcuts can now be reassigned using the NVDA gesture input dialog, under "
+"the Tools category."
+msgstr ""
+"Kısayollar artık Tercihler kategorisi altındaki Girdi Hareketleri iletişim "
+"kutusu kullanılarak yeniden atanabilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "1.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Initial release"
+msgstr "İlk sürüm"
+
+#. type: Bullet: '* '
+msgid "New Languages: French"
+msgstr "Yeni Diller: Fransızca"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+
+#, fuzzy
+#~| msgid "Download: [version 1.01][1]"
+#~ msgid "download [development version][2]"
+#~ msgstr "İndir: [version 1.01][1]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"

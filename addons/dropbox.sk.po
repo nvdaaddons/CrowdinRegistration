@@ -1,0 +1,251 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2020-02-10 12:07+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: sk <https://nvda.venik.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"dropbox\"]]\n"
+msgstr "[[!meta title=\"dropbox\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors"
+msgstr "Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos a ďalší"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA compatibility: from 2019.1 to 2019.3 or later"
+msgid "NVDA compatibility: NVDA 2019.1 or later"
+msgstr "Funguje s NVDA od verzie 2019.1"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Stiahnuť [stabilnú verziu][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Stiahnuť [vývojovú verziu][2]"
+
+#. type: Plain text
+msgid ""
+"This plugin add a shortcut to announce Dropbox status or open the Dropbox "
+"systray menu when pressed once or twice respectively.  It also enhances "
+"DropBox item lists."
+msgstr ""
+"Na prvé stlačenie klávesovej skratky Oznamuje stav Dropboxu. Dvojité "
+"stlačenie klávesovej skratky otvorí kontextové menu. Tiež upravuje "
+"prístupnosť položiek v menu."
+
+#. type: Bullet: '* '
+msgid "Shortcut: NVDA+Alt+D"
+msgstr "Skratka: NVDA+alt+D"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.4"
+msgid "Changes for 4.6"
+msgstr "Zmeny vo verzii 4.4"
+
+#. type: Bullet: '* '
+msgid "Specify NVDA 2021.1 compatibility"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.4"
+msgstr "Zmeny vo verzii 4.4"
+
+#. type: Bullet: '* '
+msgid "Python 3 compatibility"
+msgstr "Kompatibilné s prostredím Python 3"
+
+#. type: Bullet: '* '
+msgid "Use the last addon template"
+msgstr "Používa šablónu posledného doplnku"
+
+#. type: Bullet: '* '
+msgid "Repository change to be built with Appveyor"
+msgstr "Repozitár je postavený na Appveyor"
+
+#. type: Bullet: '* '
+msgid "Fixed wrong and removed unused shortcuts in the documentation"
+msgstr "Odstránené nepoužívané klávesové skratky z dokumentácie"
+
+#. type: Bullet: '* '
+msgid ""
+"Update the description in the documentation which still referenced the "
+"announcement of the version"
+msgstr ""
+"Upravený popis v návode k doplnku a odstránená informácia o oznamovaní verzie"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Zmeny vo verzii 4.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Pomocník k doplnku je dostupný zo správcu doplnkov."
+
+#. type: Bullet: '* '
+msgid ""
+"The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid "
+"conflict with audio ducking support."
+msgstr ""
+"Klávesová skratka zmenená na nvda+alt+d, aby nedochádzalo ku konfliktom s "
+"funkciou stíšenia."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.1"
+msgstr "Zmeny vo verzii 3.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Use another way to get cancel button and page tab. Now we don't have to "
+"focus them before using shortcuts."
+msgstr ""
+"Používa sa lepší spôsob na získanie cesty k tlačidlu zrušiť (cancel). Nie je "
+"viac potrebné naň prejsť. Takisto záložky nemusia viac získať fokus pred "
+"použitím skratiek."
+
+#. type: Bullet: '* '
+msgid ""
+"When changing the active tab, the focus move to the tab page so when "
+"pressing tab, the first item of the tab is activated instead of staying to "
+"the previous used tab even if it is not activated anymore."
+msgstr ""
+"pri zmene aktívnej záložky sa tiež zmení fokus tak, že je na prvej položke "
+"novej záložky a nie na položke starej záložky, ktorá viac nie je aktívna."
+
+#. type: Bullet: '* '
+msgid ""
+"In the preferences dialog, it is now possible to press control+page up/down "
+"to switch between tabs. Control+tab and control+shift+tab still work."
+msgstr ""
+"na prechod medzi záložkami sa dajú použiť skratky  ctrl+page up/down. Ctrl"
+"+tab a ctrl+shift+tab ostali zachované."
+
+#. type: Bullet: '* '
+msgid "All localized manifest files should now be OK."
+msgstr "Všetky manifest súbory by mali byť v poriadku."
+
+#. type: Bullet: '* '
+msgid "Minor corrections."
+msgstr "Drobné úpravy."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Zmeny vo verzii 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Minor correction in the main manifest file (authors are correctly displayed)."
+msgstr "Úprava v súbore manifest (autori sa zobrazujú správne)"
+
+#. type: Bullet: '* '
+msgid "Improved context menu detection when pressing Shift+NVDA+D three times."
+msgstr ""
+"Zlepšená podpora pre zobrazenie kontextovej ponuky po trojitom stlačení nvda"
+"+shift+D."
+
+#. type: Bullet: '* '
+msgid ""
+"The escape button now works (only when using Dropbox in the same language "
+"NVDA uses)."
+msgstr ""
+"Ak používate NVDA v tom istom jazyku, ako Dropbox, funguje kláves Escape."
+
+#. type: Bullet: '* '
+msgid "A lot of corrections in the code."
+msgstr "Mnoho úprav v kóde."
+
+#. type: Bullet: '* '
+msgid "Added/updated documentations of all scripts."
+msgstr "Pridaná a aktualizovaná dokumentácia pre skratky."
+
+#. type: Bullet: '* '
+msgid ""
+"New languages: Arabic, Brazilian Portuguese, Czech, Dutch, Finnish, "
+"Galician, German, Hungarian, Japanese, Nepali, Polish, Russian, Spanish, "
+"Slovak, Tamil, Turkish."
+msgstr ""
+"Nové jazyky: Arabčina, Brazílska portugalčina, Čeština, Holandčina, Fínčina, "
+"Galijcíčina, Nemčina, Maďarčina, japončina, Nepálčina, Poľština, Ruština, "
+"Španielčina, Slovenčina, Tamilčina, Turečtina."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Zmeny vo verzii 2.0"
+
+#. type: Bullet: '* '
+msgid "New languages: Italian"
+msgstr "Preložený do Taliančiny"
+
+#. type: Bullet: '* '
+msgid ""
+"Pressing the shortcut three times or more when already being in the context "
+"menu doesn't cause problem anymore."
+msgstr ""
+"Stlačenie NVDA+Shift+D trikrát alebo viac, ak je fokus už v kontextovom menu "
+"nespôsobuje problémy."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Zmeny vo verzii 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Prvé vydanie"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
+
+#~ msgid "Ctrl+Alt+T announce the active tab."
+#~ msgstr "Ctrl+Alt+T oznámi názov aktívnej záložky."
+
+#~ msgid "Known issues"
+#~ msgstr "Známe problémy"
+
+#~ msgid ""
+#~ "* If you switch between tabs using the shortcuts, when you'll close the "
+#~ "preferences window, NVDA won't be able to know the windows doesn't exist "
+#~ "anymore.\n"
+#~ "It is a known issue on NVDA and cannot be fixed.\n"
+#~ msgstr ""
+#~ "* Ak sa presúvate medzi záložkami pomocou klávesových skratiek a "
+#~ "zatvoríte okno s nastaveniami Dropboxu, NVDA si nevšimne, že okno je "
+#~ "zatvorené.\n"
+#~ "Toto je známa chyba a nedá sa odstrániť.\n"

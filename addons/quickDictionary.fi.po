@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Dictionary\n"
+"POT-Creation-Date: 2023-04-15 19:14+0000\n"
+"PO-Revision-Date: 2023-04-16 19:30+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Quick Dictionary\"]]\n"
+msgstr "[[!meta title=\"Pikasanasto\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Oleksandr Gryshchenko"
+msgstr "Tekijä: Oleksandr Gryshchenko"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Lataa [kehitysversio][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 to 2020.3"
+msgstr "Yhteensopivuus: NVDA 2019.3-2020.3"
+
+#. type: Plain text
+msgid ""
+"Welcome to NVDA Quick Dictionary addon, which will allow you to quickly get "
+"a dictionary article with the translation of a word or phrase into your "
+"chosen language by pressing a key combination. There are few basic keyboard "
+"shortcuts and they are all intuitive and convenient so you will remember "
+"them quickly."
+msgstr ""
+"Tervetuloa Pikasanasto-lisäosaan, jonka avulla voit saada nopeasti sanakirja-"
+"artikkelin, joka sisältää käännöksen sanasta tai lauseesta valitsemallesi "
+"kielelle painamalla tiettyä näppäinyhdistelmää. Pikanäppäimiä on vähän, ja "
+"ne ovat kaikki intuitiivisia ja käteviä, joten opit muistamaan ne nopeasti."
+
+#. type: Plain text
+msgid ""
+"Dictionary articles contain detailed information about a word, such as part "
+"of speech, gender, plural or singular, translation options, list of "
+"meanings, synonyms and detailed examples. Such information will be useful "
+"for people who are learning foreign languages, or seek to use in "
+"communication all the richness and diversity of their own language."
+msgstr ""
+"Sanakirja-artikkeleissa on yksityiskohtaisia tietoja sanasta, kuten puheen "
+"osasta, sukupuolesta, monikosta tai yksiköstä, käännösvaihtoehdoista, "
+"luettelo merkityksistä, synonyymeistä sekä yksityiskohtaisista esimerkeistä. "
+"Tällaisesta tiedosta on hyötyä niille, jotka opettelevat vieraita kieliä tai "
+"pyrkivät käyttämään viestinnässä oman kielensä koko rikkautta ja "
+"monimuotoisuutta."
+
+#. type: Plain text
+msgid ""
+"The add-on supports several online dictionary services. You can select the "
+"desired remote dictionary in the appropriate dialog box or by using keyboard "
+"shortcuts. Each available service has its own settings panel."
+msgstr ""
+"Lisäosa tukee useita online-sanakirjapalveluita. Voit valita haluamasi "
+"etäsanakirjan omasta valintaikkunastaan tai käyttämällä pikanäppäimiä. "
+"Kullakin käytettävissä olevalla palvelulla on oma asetuspaneelinsa."
+
+#. type: Plain text
+msgid ""
+"There are also advanced opportunities for working with profiles of the voice "
+"synthesizers. You can associate a voice synthesizer profile with a specific "
+"language, after that translations into this language will be automatically "
+"voiced by the selected synthesizer."
+msgstr ""
+"Puhesyntetisaattoriprofiilien käyttämiseen on myös edistyneitä "
+"mahdollisuuksia. Voit liittää puhesyntetisaattoriprofiilin tiettyyn kieleen, "
+"jonka jälkeen käännökset kyseiselle kielelle puhutaan automaattisesti "
+"valitulla syntetisaattorilla."
+
+#. type: Plain text
+#, no-wrap
+msgid "Below are all the features of the add-on and keyboard shortcuts to control them. By default all functions are called using two-layer commands. But for any of these methods you can always assign convenient for you keyboard shortcuts. You can do it in the NVDA \"Preferences\" -> \"Input gestures...\" dialog.\n"
+msgstr "Alla on lueteltu kaikki lisäosan ominaisuudet ja pikanäppäimet niiden hallitsemiseksi. Kaikkia toimintoja käytetään oletusarvoisesti komentokerroskomennoilla, mutta voit määrittää myös itsellesi sopivat pikanäppäimet NVDA:n Näppäinkomennot-valintaikkunassa.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Receiving a dictionary article"
+msgstr "Sanakirja-artikkelin vastaanottaminen"
+
+#. type: Plain text
+msgid ""
+"In order to get an article from the dictionary, you must first select the "
+"word you are interested in or copy it to the clipboard. Then just press NVDA"
+"+Y twice.  There is also another way to get a dictionary entry: pressing NVDA"
+"+Y once switches the keyboard to add-on control mode, then just use the D "
+"key."
+msgstr ""
+"Jotta saat artikkelin sanakirjasta, sinun on ensin valittava kiinnostava "
+"sana tai kopioitava se leikepöydälle. Paina sitten kahdesti NVDA+Y. On myös "
+"toinen tapa saada sanakirjamerkintä: NVDA+Y:n painaminen ottaa käyttöön "
+"lisäosan ohjaustilan, jossa pelkkä D-näppäimen painaminen riittää."
+
+#. type: Title ##
+#, no-wrap
+msgid "Add-on control mode"
+msgstr "Lisäosan ohjaustila"
+
+#. type: Plain text
+msgid ""
+"To access all the features of the add-on, you need to switch to add-on "
+"control mode, you can do this by pressing NVDA+Y once. You will hear a short "
+"low beep and will be able to use the other commands described below. When "
+"you press a key that is not used in the add-on, you will hear another signal "
+"notifying you of an erroneous command and the add-on control mode will be "
+"automatically turned off."
+msgstr ""
+"Käyttääksesi kaikkia lisäosan ominaisuuksia sinun on vaihdettava lisäosan "
+"ohjaustilaan. Voit tehdä tämän painamalla kerran NVDA+Y. Kuulet lyhyen, "
+"matalan äänimerkin ja pystyt käyttämään muita alla kuvattuja komentoja. Kun "
+"painat näppäintä, jota ei käytetä lisäosassa, kuulet toisen äänimerkin, joka "
+"ilmoittaa virheellisestä komennosta, ja lisäosan ohjaustila poistetaan "
+"automaattisesti käytöstä."
+
+#. type: Title ##
+#, no-wrap
+msgid "Add-on commands list"
+msgstr "Luettelo lisäosan komennoista"
+
+#. type: Plain text
+msgid "Basic dictionary commands:"
+msgstr "Perussanakirjakomennot:"
+
+#. type: Bullet: '* '
+msgid ""
+"D - announce a dictionary entry for a selected word or phrase (same as NVDA"
+"+Y);"
+msgstr ""
+"D: Ilmoita valitun sanan tai lauseen sanakirjamerkintä (sama kuin NVDA+Y);"
+
+#. type: Bullet: '* '
+msgid "W - show dictionary entry in a separate browseable window;"
+msgstr "W: Näytä sanakirjamerkintä erillisessä selattavassa ikkunassa;"
+
+#. type: Bullet: '* '
+msgid "S - swap languages and get Quick Dictionary translation;"
+msgstr "S: Vaihda kieliä ja hanki pikakäännös sanakirjasta;"
+
+#. type: Bullet: '* '
+msgid "A - announce the current source and target languages;"
+msgstr "A: Ilmoita nykyinen lähde- ja kohdekieli;"
+
+#. type: Bullet: '* '
+msgid "C - copy last dictionary entry to the clipboard;"
+msgstr "C: Kopioi viimeisin sanakirjamerkintä leikepöydälle;"
+
+#. type: Bullet: '* '
+msgid "E - edit text before sending;"
+msgstr "E: Muokkaa tekstiä ennen lähettämistä;"
+
+#. type: Bullet: '* '
+msgid ""
+"U - download from online dictionary and save the current list of available "
+"languages;"
+msgstr ""
+"U: Lataa online-sanakirjasta ja tallenna nykyinen käytettävissä olevien "
+"kielten luettelo;"
+
+#. type: Bullet: '* '
+msgid "function keys - select online dictionary service;"
+msgstr "Funktionäppäimet: Valitse online-sanakirjapalvelu;"
+
+#. type: Bullet: '* '
+msgid "Q - statistics on the using the online service;"
+msgstr "Q: Online-palvelun käyttötilastot;"
+
+#. type: Bullet: '* '
+msgid "F - choose online service."
+msgstr "F: Valitse online-palvelu."
+
+#. type: Plain text
+msgid "Voice synthesizers profiles management:"
+msgstr "Puhesyntetisaattoriprofiilien hallinta:"
+
+#. type: Bullet: '* '
+msgid "from 1 to 9 - selection of the voice synthesizer profile;"
+msgstr "Numerot 1-9: Valitse puhesyntetisaattoriprofiili;"
+
+#. type: Bullet: '* '
+msgid "G - announce the selected profile of voice synthesizers;"
+msgstr "G: Ilmoita valittu puhesyntetisaattoriprofiili;"
+
+#. type: Bullet: '* '
+msgid "B - back to previous voice synthesizer;"
+msgstr "B: Edellinen puhesyntetisaattori;"
+
+#. type: Bullet: '* '
+msgid "R - restore default voice synthesizer;"
+msgstr "R: Palauta oletuspuhesyntetisaattori;"
+
+#. type: Bullet: '* '
+msgid "Del - delete the selected voice synthesizer profile;"
+msgstr "Del: Poista valittu puhesyntetisaattoriprofiili;"
+
+#. type: Bullet: '* '
+msgid "V - save configured voice synthesizer profile;"
+msgstr "V: Tallenna määritetty puhesyntetisaattoriprofiili;"
+
+#. type: Bullet: '* '
+msgid "P - display a list of all customized voice synthesizers profiles."
+msgstr "P: Näytä luettelo mukautetuista puhesyntetisaattoriprofiileista."
+
+#. type: Plain text
+msgid "Press O to open add-on settings dialog."
+msgstr "Avaa lisäosan asetukset painamalla O."
+
+#. type: Title ##
+#, no-wrap
+msgid "Help on add-on commands"
+msgstr "Lisäosan komentojen ohje"
+
+#. type: Plain text
+msgid "You can see a list of all the commands used in the add-on as follows:"
+msgstr ""
+"Näet luettelon kaikista lisäosassa käytetyistä komennoista seuraavasti:"
+
+#. type: Bullet: '* '
+msgid ""
+"Via the NVDA menu - by pressing NVDA+N, go to the submenu \"Tools\", then - "
+"\"Quick Dictionary\" and activate the menu item \"Help on add-on commands\"."
+msgstr ""
+"Avaa NVDA-valikko painamalla NVDA+N, siirry  Työkalut-alivalikkoon, valitse "
+"Pikasanasto ja valitse sitten Lisäosakomentojen ohje -valikkokohde."
+
+#. type: Bullet: '* '
+msgid "Press the H key in add-on control mode (NVDA+Y)."
+msgstr "Paina H-näppäintä lisäosan ohjaustilassa (NVDA+Y)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Add-on help"
+msgstr "Lisäosan ohje"
+
+#. type: Plain text
+msgid ""
+"To open the add-on help - press NVDA+N, go to the \"Tools\" submenu, then - "
+"\"Quick Dictionary\" and activate the menu item \"Help\"."
+msgstr ""
+"Avaa lisäosan ohje painamalla NVDA+N, avaamalla Työkalut-alivalikon, sitten "
+"Pikasanasto-kohdan ja valitsemalla sitten Ohje-valikkokohteen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Contributions"
+msgstr "Avustukset"
+
+#. type: Plain text
+msgid ""
+"We are very grateful to everyone who made the effort to develop, translate "
+"and maintain this add-on:"
+msgstr ""
+"Olemme erittäin kiitollisia kaikille, jotka ovat nähneet vaivaa tämän "
+"lisäosan kehittämisessä, kääntämisessä ja ylläpitämisessä:"
+
+#. type: Bullet: '* '
+msgid "Cagri Dogan - Turkish translation;"
+msgstr "Cagri Dogan: turkinkielinen käännös"
+
+#. type: Bullet: '* '
+msgid "Wafiqtaher - Arabic translation."
+msgstr "Wafiqtaher: arabiankielinen käännös"
+
+#. type: Plain text
+msgid ""
+"Several good solutions from other developments were used in the Quick "
+"Dictionary add-on. Thanks to the authors of the following add-ons:"
+msgstr ""
+"Pikasanasto-lisäosassa käytettiin useita hyviä ratkaisuja muista "
+"projekteista. Kiitos seuraavien lisäosien tekijöille:"
+
+#. type: Bullet: '* '
+msgid ""
+"Instant Translate - Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto "
+"Buffolino and other NVDA contributors."
+msgstr ""
+"Pikakääntäjä: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto "
+"Buffolino sekä muut osallistuneet."
+
+#. type: Bullet: '* '
+msgid ""
+"To work with voice synthesizers profiles were used ideas from the Switch "
+"Synth add-on (thanks to Tyler Spivey)."
+msgstr ""
+"Puhesyntetisaattoriprofiileihin käytettiin ideoita Vaihda syntetisaattoria -"
+"lisäosasta (Tyler Spiveyn ansiosta)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log"
+msgstr "Muutosloki"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.1"
+msgstr "Versio 2.1"
+
+#. type: Bullet: '* '
+msgid "added a dialog to edit the text before sending to remote service;"
+msgstr ""
+"Lisätty valintaikkuna tekstin muokkaamiseen ennen etäpalveluun lähettämistä"
+
+#. type: Bullet: '* '
+msgid "separated add-on help page from ReadMe;"
+msgstr "Lisäosan ohjesivu ja Lueminut-tiedosto ovat nyt erillisiä"
+
+#. type: Bullet: '* '
+msgid "Turkish translation added (thanks to Cagri Dogan)."
+msgstr "Lisätty Turkinkielinen käännös (kiitos Cagri Doganille)."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.0"
+msgstr "Versio 2.0"
+
+#. type: Bullet: '* '
+msgid "added the ability to connect other online dictionary services;"
+msgstr "Lisätty mahdollisuus muiden online-sanastopalvelujen yhdistämiseen"
+
+#. type: Bullet: '* '
+msgid "added Lexicala service and its settings panel;"
+msgstr "Lisätty Lexicala-palvelu sekä sen asetuspaneeli"
+
+#. type: Bullet: '* '
+msgid ""
+"added a dialog for choosing an online service from the list of available "
+"ones;"
+msgstr "Lisätty valintaikkuna online-palvelun valitsemiseen"
+
+#. type: Bullet: '* '
+msgid "added a command to get information about the selected service;"
+msgstr "Lisätty komento, jolla saadaan tietoja valitusta palvelusta"
+
+#. type: Bullet: '* '
+msgid "added a dialog for working with profiles of voice synthesizers;"
+msgstr "Lisätty valintaikkuna puhesyntetisaattoriprofiillien käyttämiseen"
+
+#. type: Bullet: '* '
+msgid ""
+"implemented the procedure for switching to the previous voice synthesizer;"
+msgstr "Toteutettu toiminto aiempaan puhesyntetisaattoriin vaihtamiseen"
+
+#. type: Bullet: '* '
+msgid "implemented a parallel thread to monitor the state of the synthesizer;"
+msgstr "Toteutettu rinnakkaissäie seuraamaan syntetisaattorin tilaa"
+
+#. type: Bullet: '* '
+msgid ""
+"due to an increase in the number of functions in the add-on - help for "
+"commands is now displayed in a separate window;"
+msgstr ""
+"Lisäosan toimintojen määrän lisääntymisen vuoksi komentojen ohje näytetään "
+"nyt erillisessä ikkunassa"
+
+#. type: Bullet: '* '
+msgid "updated procedure for caching requests to online services;"
+msgstr ""
+"päivitetty menettely online-palvelupyyntöjen tallentamiseksi välimuistiin"
+
+#. type: Bullet: '* '
+msgid "added add-on submenu to NVDA menu;"
+msgstr "NVDA-valikkoon lisätty lisäosan alivalikko"
+
+#. type: Bullet: '* '
+msgid "updated ReadMe."
+msgstr "Lueminut-tiedosto päivitetty"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Versio 1.2"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to automatically switch voice synthesizers for selected "
+"languages;"
+msgstr ""
+"Lisätty mahdollisuus puhesyntetisaattoreiden automaattiseen vaihtamiseen "
+"valituilla kielillä"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to download the current list of languages available in the "
+"online-dictionary;"
+msgstr ""
+"Lisätty mahdollisuus online-sanastossa käytettävissä olevien kielien "
+"luettelon lataamiseen"
+
+#. type: Bullet: '* '
+msgid "Turkish translation added thanks to Cagri Dogan."
+msgstr "Lisätty turkinkielinen käännös (kiitos Cagri Doganille)."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Versio 1.1"
+
+#. type: Bullet: '* '
+msgid "changed some keyboard shortcuts which conflicted with other add-ons;"
+msgstr ""
+"Muutettu joitakin pikanäppäimiä, jotka olivat ristiriidassa muiden lisäosien "
+"kanssa"
+
+#. type: Bullet: '* '
+msgid "changed the description of the main add-on features;"
+msgstr "Muutettu tärkeimpien lisäosan ominaisuuksien kuvausta"
+
+#. type: Bullet: '* '
+msgid "updated help and translation of the add-on;"
+msgstr "Lisäosan ohje ja käännös päivitetty"
+
+#. type: Bullet: '* '
+msgid ""
+"removed some keyboard shortcuts and gave to user opportunity to setup them "
+"yourself;"
+msgstr ""
+"Poistettu joitakin pikanäppäimiä ja lisätty mahdollisuus niiden "
+"määrittämiseen itse"
+
+#. type: Bullet: '* '
+msgid "fixed error in Ukrainian translation (thanks to Volodymyr Perig);"
+msgstr ""
+"Korjattu virhe ukrainankielisessä käännöksessä (kiitos Volodymyr Perigille)"
+
+#. type: Bullet: '* '
+msgid "added russian translation."
+msgstr "Lisätty venäjänkielinen käännös"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0: features of implementation"
+msgstr "Versio 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"execution of requests to the remote server in a separate thread to avoid "
+"blocking the operation of NVDA;"
+msgstr ""
+"Etäpalvelinpyynnöt suoritetaan erillisessä säikeessä, jotta NVDA:n toiminnan "
+"estäminen vältetään"
+
+#. type: Bullet: '* '
+msgid "signals while waiting for a response from the server;"
+msgstr "Vastauksen odottaminen palvelimelta ilmaistaan äänimerkillä"
+
+#. type: Bullet: '* '
+msgid ""
+"caching of the last 100 requests to reduce the load on the remote dictionary "
+"service;"
+msgstr ""
+"Viimeisimmät 100 pyyntöä tallennetaan välimuistiin etäsanastopalvelun "
+"kuormituksen vähentämiseksi"
+
+#. type: Bullet: '* '
+msgid "switching to add-on control mode;"
+msgstr "Vaihtaminen lisäosan ohjaustilaan"
+
+#. type: Bullet: '* '
+msgid "possibility to use an alternative server;"
+msgstr "Mahdollisuus vaihtoehtoisen palvelimen käyttämiseen"
+
+#. type: Bullet: '* '
+msgid "add-on settings dialog."
+msgstr "Lisäosan asetusvalintaikkuna"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary-dev"
+msgstr ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary-dev"

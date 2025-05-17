@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2023-04-16 20:58+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"UnicodeBrailleInput\"]]\n"
+msgstr "[[!meta title=\"Unicode-pistekirjoituksen syöttö\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+msgstr "Tekijät: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+
+#. type: Bullet: '* '
+msgid "download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Plain text
+msgid ""
+"This add-on allows you to convert text from braille (E.G. 1345-1236-145-1) "
+"to Unicode braille characters.  You can also convert text according to the "
+"currently selected input braille table."
+msgstr ""
+"Tällä lisäosalla voit muuntaa tekstiä pistekirjoituksesta (esim. "
+"1345-1236-145-1) unicode-pistekirjoitusmerkeiksi. Voit  myös muuntaa tekstiä "
+"nykyisen pistesyöttötaulukon mukaisesti."
+
+#. type: Plain text
+msgid ""
+"The purpose of this specialized addon is to make it easier to help to "
+"improve liblouis tables and to add automatic tests for your language.  With "
+"the addition of unicode braille table in NVDA 2017.3, this add-on is no "
+"longer required for this, as users can choose to input braille with the new "
+"table.  However, this add-on can still aid in converting normal text to "
+"unicode braille according to a particular input table."
+msgstr ""
+"Tämän erikoistuneen lisäosan tarkoituksena on Liblouis-taulukkojen "
+"parantelun helpottaminen sekä automaattisten testien lisääminen niille. Tätä "
+"ei enää tarvita NVDA 2017.3:ssa lisätyn Unicode-pistetaulukon vuoksi, sillä "
+"sitä on mahdollista käyttää Unicode-pistekirjoituksen syöttämiseen. Tästä "
+"lisäosasta voi kuitenkin olla edelleen apua normaalin tekstin muuntamisessa "
+"Unicode-pistekirjoitukseksi tietyn syöttötaulukon mukaisesti."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Käyttö"
+
+#. type: Bullet: '* '
+msgid "Open a unicode aware text editor (for example Notepad++)."
+msgstr "Avaa unicode-tekstieditori (esim. Notepad++)."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+Ctrl+U or choose Unicode Braille Input found under NVDA tools "
+"menu."
+msgstr ""
+"Paina NVDA+Ctrl+U tai valitse NVDA:n Työkalut-valikosta Unicode-"
+"pistekirjoituksen syöttö."
+
+#. type: Bullet: '* '
+msgid ""
+"Select whether your input consists of braille dots (e.g. 1345-1236-145-1) or "
+"normal text according to the current braille table (e.g. Dutch (Netherlands)."
+msgstr ""
+"Valitse, koostuuko syötteesi pistekirjoituspisteistä (esim. 1345-1236-145-1) "
+"vai normaalista, nykyisen pistetaulukon (esim. Hollanti (Alankomaat) "
+"mukaisesta tekstistä."
+
+#. type: Bullet: '* '
+msgid ""
+"Type your braille text in numeric form or your normal text, respectively."
+msgstr "Syötä pistekirjoitusta numeerisessa muodossa tai normaalia tekstiä."
+
+#. type: Bullet: '* '
+msgid "Press OK."
+msgstr "Paina OK."
+
+#. type: Bullet: '* '
+msgid ""
+"The required unicode characters will be copied to your clipboard ready for "
+"you to paste."
+msgstr ""
+"Tarvittavat unicode-merkit kopioidaan leikepöydälle, josta voit liittää ne "
+"haluamaasi paikkaan."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Muutokset versiossa 3.0"
+
+#. type: Bullet: '* '
+msgid "New maintainer: Leonard de Ruijter."
+msgstr "Uusi ylläpitäjä: Leonard de Ruijter."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on is compatible with Python 3 and therefore with NVDA 2019.3 and above."
+msgstr ""
+"Tämä lisäosa on yhteensopiva Python 3:n ja sen ansiosta myös NVDA 2019.3:n "
+"ja uudempien kanssa."
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to create unicode braille from normal text according to "
+"the currently selected input braille table."
+msgstr ""
+"Lisätty mahdollisuus Unicode-pistekirjoituksen luomiseen normaalista "
+"tekstistä nykyisen pistesyöttötaulukon mukaisesti."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Muutokset versiossa 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Ohje on käytettävissä Lisäosien hallinnasta."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Muutokset versiossa 1.1"
+
+#. type: Bullet: '* '
+msgid "Improve delay to allow announcements to be heard correctly."
+msgstr "Viivettä lisätty, jotta ilmoitukset kuuluvat oikein."
+
+#. type: Bullet: '* '
+msgid "Many new translations."
+msgstr "Useita uusia käännöksiä lisätty."
+
+#. type: Bullet: '* '
+msgid "Added documentation under NVDA help menu."
+msgstr "Lisätty Ohje-vaihtoehto NVDA:n Ohje-valikkoon."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a checkbox to optionally replace the space braille (character 0x2800) "
+"by the regular space character."
+msgstr ""
+"Lisätty valintaruutu, jolla voi valinnaisesti korvata "
+"pistekirjoitusvälilyönnin (merkki 0x2800) tavallisella välilyöntimerkillä."
+
+#. type: Bullet: '* '
+msgid ""
+"Shortcuts can now be reassigned using the NVDA gesture input dialog, under "
+"the Tools category."
+msgstr ""
+"Pikanäppäimien uudelleenmäärittely on nyt mahdollista NVDA:n Näppäinkomennot-"
+"valintaikkunan Työkalut-kategoriasta."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Muutokset versiossa 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release"
+msgstr "Ensimmäinen versio"
+
+#. type: Bullet: '* '
+msgid "New Languages: French"
+msgstr "Uusi kieli: ranska"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+
+#~ msgid "download [development version][2]"
+#~ msgstr "Lataa [kehitysversio][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"

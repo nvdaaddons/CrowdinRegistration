@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-10 21:28+0000\n"
+"PO-Revision-Date: 2023-04-25 14:24+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Synth ring settings selector\"]]\n"
+msgstr "[[!meta title=\"Synth ring settings selector\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: David CM"
+msgstr "Auteur: David CM"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Télécharger [version stable][1]"
+
+#. type: Bullet: '* '
+msgid "Download [Development version][2]"
+msgstr "Télécharger [Version de développement][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.2"
+msgstr "Compatibilité NVDA: 2019.2"
+
+#. type: Plain text
+#, no-wrap
+msgid "This add-on allows the user to select which     settings should appear on the synth settings ring.\n"
+msgstr "Cette extension permet à l'utilisateur de choisir les paramètres devant apparaître dans la boucle de paramètres synthétiseur.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr "Caractéristiques"
+
+#. type: Plain text
+msgid "This add-on provides the following features:"
+msgstr "Cette extension fournit les fonctionnalités suivantes:"
+
+#. type: Bullet: '* '
+msgid ""
+"A category panel in the NVDA settings to select which settings you want to "
+"include in the synth settings ring."
+msgstr ""
+"Une catégorie de configuration dans le dialogue Paramètres de NVDA permet de "
+"choisir les paramètres que vous souhaitez inclure dans la boucle des "
+"paramètres synthétiseur."
+
+#. type: Bullet: '* '
+msgid "save specific settings for each profile."
+msgstr "La possibilité de sauvegarder des paramètres spécifiques par profil."
+
+#. type: Bullet: '* '
+msgid ""
+"overrides the default synth driver settings that are shown in the synth "
+"settings ring."
+msgstr ""
+"Remplace les paramètres de synthétiseur par défaut affichés dans la boucle "
+"des paramètres synthétiseur."
+
+#. type: Title ##
+#, no-wrap
+msgid "Requirements"
+msgstr "Exigences"
+
+#. type: Plain text
+msgid "You need NVDA 2019.2 or later."
+msgstr "Vous avez besoin de NVDA 2019.2 ou une version ultérieure."
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation"
+msgstr "Installation"
+
+#. type: Plain text
+msgid "Just install it as a NVDA add-on."
+msgstr "Installez-le simplement comme n'importe quel extension NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Utilisation"
+
+#. type: Plain text
+msgid ""
+"To enable or disable which settings are included, go to NVDA settings and "
+"select \"Synth ring settings selector\" category. In that category you can "
+"configure all supported features by this add-on. Settings included by "
+"default:"
+msgstr ""
+"Pour activer ou désactiver des fonctionnalités, accédez aux paramètres NVDA "
+"et sélectionnez la catégorie \"Sélecteur de paramètres de la boucle "
+"synthétiseur\". Dans cette catégorie, vous pouvez configurer toutes les "
+"fonctionnalités prises en charge par l'extension. Paramètres inclus par "
+"défaut:"
+
+#. type: Bullet: '* '
+msgid "language."
+msgstr "Langue."
+
+#. type: Bullet: '* '
+msgid "voice."
+msgstr "Voix."
+
+#. type: Bullet: '* '
+msgid "variant."
+msgstr "Variante."
+
+#. type: Bullet: '* '
+msgid "rate."
+msgstr "Débit."
+
+#. type: Bullet: '* '
+msgid "rate boost."
+msgstr "Tripler le débit."
+
+#. type: Bullet: '* '
+msgid "volume."
+msgstr "Volume."
+
+#. type: Bullet: '* '
+msgid "pitch."
+msgstr "Hauteur."
+
+#. type: Bullet: '* '
+msgid "inflection."
+msgstr "Inflexion."
+
+#. type: Plain text
+msgid ""
+"Note: This dialog shows the supported settings by the current synthesizer "
+"only. Settings not present here aren't modified in the add-on config."
+msgstr ""
+"Remarque: cette boîte de dialogue affiche uniquement les paramètres pris en "
+"charge par le synthétiseur utilisé. Les paramètres non présents ici ne sont "
+"pas modifiés dans les paramètres de l'extension."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=synthrings"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=synthrings"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=synthrings"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=synthrings"

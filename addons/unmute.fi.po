@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Unmute\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2023-04-16 20:58+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: fi_FI <janikinnunen340@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NVDA Unmute\"]]\n"
+msgstr "[[!meta title=\"Poista mykistys\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Oleksandr Gryshchenko"
+msgstr "Tekijä: Oleksandr Gryshchenko"
+
+#. type: Bullet: '* '
+msgid "Version: 1.5"
+msgstr "Versio: 1.5"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Yhteensopivuus: NVDA 2019.3 ja uudemmat"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Plain text
+msgid ""
+"This add-on checks the status of the Windows audio system when NVDA starts. "
+"And, if it turns out that the sound is muted - the add-on forcibly turns it "
+"on."
+msgstr ""
+"Tämä lisäosa tarkistaa Windowsin äänijärjestelmän tilan NVDA:n "
+"käynnistyessä, ja jos käy ilmi, että ääni on mykistetty, lisäosa poistaa "
+"mykistyksen väkisin."
+
+#. type: Plain text
+msgid ""
+"At the same time, the volume level is checked separately for the NVDA "
+"process."
+msgstr "Samalla tarkistetaan NVDA-prosessin äänenvoimakkuuden taso."
+
+#. type: Plain text
+msgid ""
+"The add-on also checks the status of the speech synthesizer. If there are "
+"problems with its initialization, attempts are made to start the "
+"synthesizer, which is specified in the NVDA settings."
+msgstr ""
+"Lisäosa tarkistaa myös puhesyntetisaattorin tilan. Jos sen alustuksessa on "
+"ongelmia, NVDA:n asetuksissa määritetty syntetisaattori yritetään käynnistää."
+
+#. type: Plain text
+msgid ""
+"There is an additional opportunity to check on which audio device the NVDA "
+"sound is output. And, if this device differs from the default device, the "
+"output automatically switches to the audio device installed in the system as "
+"the main one."
+msgstr ""
+"Lisäksi on mahdollista tarkistaa, millä äänilaitteella NVDA:n äänet "
+"toistetaan, ja mikäli se on muu kuin oletuslaite, äänilaitteeksi vaihtuu "
+"automaattisesti järjestelmän oletusäänilaite."
+
+#. type: Plain text
+msgid ""
+"Note: If the add-on startup sound always plays even if the NVDA volume is "
+"online. That is, the add-on switches the output to the main audio device "
+"each time you start NVDA."
+msgstr ""
+"Huom: Jos lisäosan käynnistysääni kuuluu, vaikka NVDA:n äänet olisi "
+"mykistetty, tämä tarkoittaa, että lisäosa vaihtaa äänilaitteeksi "
+"oletuslaitteen aina NVDA:n käynnistyessä."
+
+#. type: Plain text
+msgid ""
+"This occurs when the audio output device is in the NVDA settings is differ "
+"from the default output device or \"Microsoft Sound Mapper\"."
+msgstr ""
+"TäTä tapahtuu, kun äänilaitteeksi on NVDA:n asetuksissa määritetty muu kuin "
+"oletuslaite tai \"Microsoft Sound Mapper\"."
+
+#. type: Plain text
+msgid "This can be easily solved in one of the following ways:"
+msgstr "Tämä voidaan ratkaista helposti jollakin seuraavista tavoista:"
+
+#. type: Bullet: '1. '
+msgid ""
+"After restarting NVDA, just save the current configuration using NVDA+Ctrl"
+"+C. The default audio device will be saved in the NVDA settings and "
+"switching will not occur each time when NVDA starts."
+msgstr ""
+"Tallenna nykyiset asetukset NVDA:n uudelleenkäynnistyksen jälkeen "
+"näppäinkomennolla NVDA+Ctrl+C, jolloin oletusäänilaite tallennetaan NVDA:n "
+"asetuksiin, eikä äänilaitetta enää vaihdeta jokaisella NVDA:n "
+"käynnistyksellä."
+
+#. type: Bullet: '2. '
+msgid ""
+"If you don't want to change the NVDA configuration - just disable the "
+"function of switching audio devices in the Unmute settings panel."
+msgstr ""
+"Mikäli et halua muuttaa NVDA:n asetuksia, poista äänilaitteen vaihtaminen "
+"käytöstä Poista mykistys -lisäosan asetuspaneelista."
+
+#. type: Title ##
+#, no-wrap
+msgid "Add-on settings dialog"
+msgstr "Lisäosan asetuspaneeli"
+
+#. type: Plain text
+msgid "To open the add-on settings panel, follow these steps:"
+msgstr "Avaa lisäosan asetuspaneeli seuraavasti:"
+
+#. type: Bullet: '* '
+msgid "Press NVDA+N to open NVDA menu."
+msgstr "Avaa NVDA-valikko painamalla NVDA+N."
+
+#. type: Bullet: '* '
+msgid ""
+"Then go to \"Preferences\" -> \"Settings...\" and in the categories list "
+"find and open \"Unmute Windows Audio\"."
+msgstr ""
+"Siirry sitten Asetukset-alivalikkoon, valitse \"Asetukset...\" ja etsi "
+"kategorialuettelosta \"Poista Windowsin äänien mykistys\"."
+
+#. type: Plain text
+msgid "That's it, you can now use the Tab key to move between add-on settings."
+msgstr "Voit nyt siirtyä lisäosan asetusten välillä Sarkain-näppäimellä."
+
+#. type: Plain text
+msgid "The following options are available in the add-on settings dialog:"
+msgstr "Asetuspaneelissa ovat käytettävissä seuraavat vaihtoehdot:"
+
+#. type: Bullet: '1. '
+msgid ""
+"The first slider in the add-on settings dialog allows you to specify the "
+"volume level of Windows, which will be set when you start NVDA if the sound "
+"was previously muted or was too low."
+msgstr ""
+"Asetuspaneelin ensimmäisellä liukusäätimellä voit määrittää Windowsin "
+"äänenvoimakkuuden, joka otetaan käyttöön NVDA:n käynnistyessä, jos ääni oli "
+"aiemmin mykistetty tai liian alhainen."
+
+#. type: Bullet: '2. '
+msgid ""
+"The minimum Windows volume level at which the volume up procedure will be "
+"applied. This slider allows you to adjust the sensitivity level of the add-"
+"on."
+msgstr ""
+"Windowsin vähimmäisäänenvoimakkuuden taso, jolla äänenvoimakkuutta lisätään. "
+"Tämän liukusäätimen avulla voit säätää lisäosan herkkyystasoa."
+
+#. type: Plain text
+#, no-wrap
+msgid "    If the volume level drops to less than the value specified here, the volume will be increased the next time you start NVDA.\n"
+msgstr "Jos äänenvoimakkuus laskee tässä määritettyä arvoa pienemmäksi, äänenvoimakkuutta lisätään, kun seuraavan kerran käynnistät NVDA:n.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "    Otherwise, if the volume level remains higher than the value specified here, then when you restart NVDA, its level will not change.\n"
+msgstr "Mikäli äänenvoimakkuuden taso pysyy korkeampana kuin tässä määritetty arvo, taso ei muutu, kun käynnistät NVDA:n uudelleen.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "    And, of course, if the sound was previously turned off, when restarts add-on will turn it on anyway.\n"
+msgstr "Ja jos ääni oli aiemmin mykistettynä, lisäosa poistaa mykistyksen uudelleenkäynnistyksen yhteydessä.\n"
+
+#. type: Bullet: '3. '
+msgid ""
+"The following check box allows to enable re-initialization of the voice "
+"synthesizer driver."
+msgstr ""
+"Seuraava valintaruutu mahdollistaa puhesyntetisaattoriajurin "
+"uudelleenalustamisen."
+
+#. type: Plain text
+#, no-wrap
+msgid "    This procedure will only start if it is detected at NVDA startup that the voice synthesizer driver has not been initialized.\n"
+msgstr "Tämä toimenpide aloitetaan vain, jos NVDA:n käynnistyksen yhteydessä havaitaan, että puhesyntetisaattorin ajuria ei ole alustettu.\n"
+
+#. type: Bullet: '4. '
+msgid ""
+"In this field you can specify the number of attempts to re-initialize the "
+"voice synthesizer driver. Attempts are performed cyclically with an interval "
+"of 1 second. A value of 0 means that attempts will be performed indefinitely "
+"until the procedure is successfully completed."
+msgstr ""
+"Tässä kentässä voit määrittää puhesyntetisaattoriajurin "
+"uudelleenalustamisyritysten lukumäärän. Yritykset suoritetaan syklisesti "
+"sekunnin välein. Arvo 0 tarkoittaa, että yrityksiä suoritetaan toistaiseksi, "
+"kunnes toimenpide on suoritettu onnistuneesti."
+
+#. type: Bullet: '5. '
+msgid ""
+"The \"Switch to the default output audio device\" option allows to check at "
+"startup the audio device on which NVDA sound is output. And, if this device "
+"differs from the default device, the output automatically switches to the "
+"audio device installed in the system as the main one."
+msgstr ""
+"\"Vaihda oletusäänilaitteeseen\" -vaihtoehdon avulla voit tarkistaa "
+"käynnistyksen yhteydessä äänilaitteen, jota NVDA käyttää. Mikäli laite on "
+"eri kuin järjestelmän oletuslaite, äänilaite vaihtuu automaattisesti "
+"järjestelmän  oletusäänilaitteeksi."
+
+#. type: Bullet: '6. '
+msgid ""
+"The next checkbox turns on or off playing the startup sound when the "
+"operation is successful."
+msgstr ""
+"Seuraava valintaruutu ottaa käyttöön tai poistaa käytöstä käynnistysäänen "
+"toistamisen, kun toiminto on suoritettu onnistuneesti."
+
+#. type: Title ##
+#, no-wrap
+msgid "Third Party components"
+msgstr "Kolmannen osapuolen komponentit"
+
+#. type: Plain text
+msgid "The add-on uses the following third-party components:"
+msgstr "Lisäosa käyttää seuraavia kolmannen osapuolen komponentteja:"
+
+#. type: Bullet: '* '
+msgid ""
+"For interaction with the **Windows Core Audio API** - [PyCaw module](https://"
+"github.com/AndreMiras/pycaw/) that is distributed under the MIT license."
+msgstr ""
+"Vuorovaikutukseen **Windows Core Audio -rajapinnan** kanssa: [PyCaw-moduuli]"
+"(https://github.com/AndreMiras/pycaw/), jota jaetaan MIT-lisenssillä."
+
+#. type: Bullet: '* '
+msgid ""
+"For getting the information about running processes and using the PyCaw "
+"component - [psutil module](https://github.com/giampaolo/psutil) that is "
+"distributed under BSD-3 license."
+msgstr ""
+"Tietojen saamiseen käynnissä olevista prosesseista ja PyCaw-komponentin "
+"käytöstä: [psutil-moduuli](https://github.com/giampaolo/psutil), jota "
+"jaetaan BSD-3-lisenssillä."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log"
+msgstr "Muutosloki"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.5.5"
+msgstr "Versio 1.5.5"
+
+#. type: Bullet: '* '
+msgid "the add-on has been tested for compatibility with NVDA 2021.1;"
+msgstr "Lisäosan yhteensopivuus on testattu NVDA 2021.1:n kanssa;"
+
+#. type: Bullet: '* '
+msgid "updated third-party module **psutil**;"
+msgstr "Päivitetty kolmannen osapuolen moduuli: **psutil**;"
+
+#. type: Bullet: '* '
+msgid "the add-on is adapted to support Python versions 3.7 and 3.8;"
+msgstr "Lisäosa on mukautettu tukemaan Python-versioita 3.7 ja 3.8;"
+
+#. type: Bullet: '* '
+msgid "MyPy type annotations added to the add-on source code;"
+msgstr "MyPy-tyyppiset kommentit lisätty lisäosan lähdekoodiin;"
+
+#. type: Bullet: '* '
+msgid "added \"Switch to the default output audio device\" feature;"
+msgstr "lisätty \"Vaihda oletusäänilaitteeseen\" -toiminto;"
+
+#. type: Bullet: '* '
+msgid ""
+"the add-on parameters are always stored in the base configuration profile."
+msgstr "Lisäosan asetukset tallennetaan aina perusasetusprofiiliin."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.4"
+msgstr "Versio 1.4"
+
+#. type: Bullet: '* '
+msgid ""
+"added a method to increase the startup volume separately for the NVDA "
+"process;"
+msgstr ""
+"Lisätty menetelmä, jolla lisätään käynnistysäänenvoimakkuutta erikseen NVDA-"
+"prosessille;"
+
+#. type: Bullet: '* '
+msgid ""
+"changed the sound notification of a successful operation (thanks to Manolo);"
+msgstr "Muutettu onnistuneen toimenpiteen ääni-ilmoitusta (kiitos Manololle);"
+
+#. type: Bullet: '* '
+msgid ""
+"all manual volume control functions have been transferred to the NVDA Volume "
+"Adjustment add-on."
+msgstr ""
+"Kaikki manuaaliset äänenvoimakkuuden säätötoiminnot on siirretty NVDA:n "
+"äänenvoimakkuuden säätö -lisäosaan."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "Versio 1.3"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to control the volume of the main audio device and "
+"separately for each running program;"
+msgstr ""
+"Lisätty mahdollisuus ohjata oletusäänilaitteen äänenvoimakkuutta erikseen "
+"jokaiselle käynnissä olevalle ohjelmalle;"
+
+#. type: Bullet: '* '
+msgid "updated translation into Vietnamese (thanks to Dang Manh Cuong);"
+msgstr "Vietnaminkielinen käännös päivitetty (kiitos Dang Manh Cuongille);"
+
+#. type: Bullet: '* '
+msgid "added Turkish translation (thanks to Cagri Dogan);"
+msgstr "Lisätty turkinkielinen käännös (kiitos Cagri Doganille);"
+
+#. type: Bullet: '* '
+msgid "Italian translation added (thanks to Christianlm);"
+msgstr "Lisätty italiankielinen käännös (kiitos Christianlm:lle);"
+
+#. type: Bullet: '* '
+msgid "added simplified Chinese translation (thanks to Cary Rowen);"
+msgstr "Lisätty yksinkertaistetun kiinan käännös (kiitos Cary Rowenille);"
+
+#. type: Bullet: '* '
+msgid "Polish translation added (thanks to Stefan Banita);"
+msgstr "Lisätty puolankielinen käännös (kiitos Stefan Banitalle);"
+
+#. type: Bullet: '* '
+msgid "updated Ukrainian translation;"
+msgstr "Ukrainankielinen käännös päivitetty;"
+
+#. type: Bullet: '* '
+msgid "updated ReadMe."
+msgstr "ReadMe-tiedosto päivitetty."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Versio 1.2"
+
+#. type: Bullet: '* '
+msgid ""
+"switched to using the **Core Audio Windows API** instead of **Windows Sound "
+"Manager**;"
+msgstr ""
+"Vaihdettu käyttöön **Windows Core Audio -rajapinta** **Windows Sound "
+"Managerin** sijaan;"
+
+#. type: Bullet: '* '
+msgid ""
+"added startup sound playback when audio is successfully turned on by add-on."
+msgstr ""
+"Lisätty käynnistysäänen toisto, kun lisäosa on onnistuneesti poistanut äänen "
+"mykistyksen."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Versio 1.1"
+
+#. type: Bullet: '* '
+msgid "added add-on settings dialog;"
+msgstr "Lisätty lisäosan asetuspaneeli;"
+
+#. type: Bullet: '* '
+msgid "updated Ukrainian translation."
+msgstr "Ukrainankielinen käännös päivitetty."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0.1"
+msgstr "Versio 1.0.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Performs repeated attempts to enabling the synth driver in case of its "
+"failed initialization;"
+msgstr ""
+"Yrittää toistuvasti ottaa syntetisaattoriajurin käyttöön, mikäli sen alustus "
+"epäonnistuu;"
+
+#. type: Bullet: '* '
+msgid "Vietnamese translation added by Dang Manh Cuong;"
+msgstr "Lisätty Dang Manh Cuongin tekemä Vietnaminkielinen käännös;"
+
+#. type: Bullet: '* '
+msgid "Ukrainian translation added."
+msgstr "Lisätty ukrainankielinen käännös."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0. Features of implementation"
+msgstr "Versio 1.0"
+
+#. type: Plain text
+msgid "The add-on uses a third-party module Windows Sound Manager."
+msgstr "Lisäosa käyttää kolmannen osapuolen Windows Sound Manager -moduulia."
+
+#. type: Title ##
+#, no-wrap
+msgid "Altering of add-on source code"
+msgstr "Lisäosan lähdekoodin muuttaminen"
+
+#. type: Plain text
+msgid "You may clone this repo to make alteration to NVDA Unmute."
+msgstr ""
+"Voit kloonata tämän koodivaraston muuttaaksesi Poista mykistys -lisäosaa."
+
+#. type: Title ###
+#, no-wrap
+msgid "Third Party dependencies"
+msgstr "Kolmannen osapuolen riippuvuudet"
+
+#. type: Plain text
+msgid "These can be installed with pip:"
+msgstr "Nämä voidaan asentaa pip:llä:"
+
+#. type: Bullet: '* '
+msgid "markdown"
+msgstr "markdown"
+
+#. type: Bullet: '* '
+msgid "scons"
+msgstr "scons"
+
+#. type: Bullet: '* '
+msgid "python-gettext"
+msgstr "python-gettext"
+
+#. type: Title ###
+#, no-wrap
+msgid "To package the add-on for distribution"
+msgstr "Pakkaa lisäosa jakelua varten"
+
+#. type: Bullet: '1. '
+msgid "Open a command line, change to the root of this repo"
+msgstr "Avaa komentokehote ja vaihda hakemistoksi tämän koodivaraston juuri"
+
+#. type: Bullet: '2. '
+msgid ""
+"Run the **scons** command. The created add-on, if there were no errors, is "
+"placed in the current directory."
+msgstr ""
+"Suorita **scons**-komento. Jos virheitä ei ollut, luotu lisäosa sijoitetaan "
+"nykyiseen hakemistoon."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=unmute"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=unmute"

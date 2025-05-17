@@ -1,0 +1,173 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BluetoothAudio\n"
+"POT-Creation-Date: 2024-05-31 18:22+0000\n"
+"PO-Revision-Date: 2023-05-14 11:52+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"BluetoothAudio\"]]\n"
+msgstr "[[!meta title=\"Bluetooth zvuk (Bluetooth audio)\"]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Notice"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Bluetooth Audio add-on is abandoned. Silence playing functionality has been "
+"merged to NVDA core as of version 2024.2 and is turned on by default, so no "
+"further action is required."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you would like to hear white noise, you would need to set a hidden option:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"Open `NVDA.ini`. If you have installed copy of NVDA, it is located at "
+"`%APPDATA%\\NVDA\\nvda.ini`."
+msgstr ""
+
+#. type: Bullet: '2. '
+msgid "Quit NVDA and open Narrator."
+msgstr ""
+
+#. type: Bullet: '3. '
+msgid "Find `[audio]` section."
+msgstr ""
+
+#. type: Bullet: '4. '
+msgid "Within that section, add the following line:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    ```\n"
+"    whiteNoiseVolume = 50\n"
+"    ```\n"
+msgstr ""
+
+#. type: Bullet: '5. '
+msgid "Save and close the file. Restart NVDA."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "nvda-bluetooth-audio"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Bluetooth Audio is an NVDA add-on that improves sound quality when "
+#| "working with bluetooth headphones or speakers."
+msgid ""
+"Bluetooth Audio is an NVDA add-on that improves sound quality when working "
+"with bluetooth or RF headphones or speakers."
+msgstr ""
+"Bluetooth zvuk je NVDA dodatak koji poboljšava kakvoću zvuka prilikom "
+"korištenja Bluetooth slušalica ili zvučnika."
+
+#. type: Plain text
+msgid ""
+"Most bluetooth devices enter standby mode after a few seconds of inactivity. "
+"That means that when NVDA starts speaking again, the first split second of "
+"sound will be lost. Bluetooth Audio add-on prevents bluetooth devices from "
+"entering standby mode by constantly playing a silent sound, that is "
+"inaudible to a human ear."
+msgstr ""
+"Većina bluetooth uređaja prelazi u pripremno stanje nakon par sekundi "
+"neaktivnosti. To znači, da se gubi prvi djelić sekunde zvuka, kad NVDA "
+"ponovo počne govoriti. Dodatak „Bluetooth zvuk” sprečava prelaz bluetooth "
+"uređaja u pripremno stanje, puštanjem stalnog bešumnog zvuka, koji je "
+"nečujan za ljudsko uho."
+
+#. type: Plain text
+msgid ""
+"Bluetooth Audio can optionally play white noise sound instead of silence. "
+"This can be good for testing or to ascertain that Bluetooth Audio works as "
+"expected. However, same level of audio quality improvement can be achieved "
+"by playing silence."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Warning: using Bluetooth Audio add-on might reduce battery life of your "
+"bluetooth device."
+msgstr ""
+"Napomena: korištenjem dodatka „Bluetooth audio” se skraćuje vijek trajanja "
+"baterije bluetooth uređaja."
+
+#. type: Title ##
+#, no-wrap
+msgid "Download"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Current stable version (Python 3 only, requires NVDA 2019.3 or later): "
+"[BluetoothAudio](https://github.com/mltony/nvda-bluetooth-audio/releases/"
+"latest/download/bluetoothaudio.nvda-addon)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Last Python 2 version (compatible with NVDA 2019.2 and prior): [v1.0]"
+"(https://github.com/mltony/nvda-bluetooth-audio/releases/download/v1.0/"
+"bluetoothaudio-1.0.nvda-addon)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Keystrokes"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Bluetooth Audio add-on doesn't have any keystrokes. It works as long as it "
+"is installed."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Source code"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Source code is available at <http://github.com/mltony/nvda-bluetooth-audio>."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=bluetoothaudio"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=bluetoothaudio"
+
+#~ msgid "Author: Tony Malykh"
+#~ msgstr "Autor: Tony Malykh"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Preuzmi [stabilnu verziju][1]"

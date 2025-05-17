@@ -1,0 +1,1828 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:45+0000\n"
+"PO-Revision-Date: 2022-12-06 01:29+0100\n"
+"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
+"Language-Team: \n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NVDA Dev & Test Toolbox\"]]\n"
+msgstr "[[!meta title=\"NVDA Dev & Test Toolbox\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Cyrille Bougot"
+msgstr "Autor: Cyrille Bougot"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.2 and beyond"
+msgstr "Compatibilidade con NVDA: 2019.2 en diante"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Descarga [versión estable][1]"
+
+#. type: Plain text
+msgid "This add-on gathers various features for NVDA debugging and testing."
+msgstr ""
+"Este complemento recolle varias características para probas e depuración con "
+"NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr "Características"
+
+#. type: Bullet: '* '
+msgid ""
+"An enhanced restart dialog to specify some extra options when restarting "
+"NVDA."
+msgstr ""
+"Un diálogo de reinicio mellorado para especificar algunhas opcións "
+"adicionais ó reiniciar NVDA."
+
+#. type: Bullet: '* '
+msgid "Various features related to logged errors."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "An object property explorer."
+msgstr "Un explorador de propiedades de obxectos."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Enable the extended script description mode with NVDA+control+alt+D."
+msgid "Script tools: an extended script description mode and a script opener."
+msgstr ""
+"Activa o modo de descrición extendida de scripts con NVDA+control+alt+D."
+
+#. type: Bullet: '* '
+msgid "Commands to help log reading and analyzing."
+msgstr "Ordes para axudar á lectura e análise do rexistro."
+
+#. type: Bullet: '* '
+msgid "Backups of old logs"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In the Python console workspace, a function to open the source code of an "
+"object."
+msgstr ""
+"No espazo de traballo da consola Python, unha función para abrir o código "
+"fonte dun obxecto."
+
+#. type: Bullet: '* '
+msgid "A custom startup script for the Python console"
+msgstr "Un script de arranque persoalizado para a consola de Python"
+
+#. type: Bullet: '* '
+msgid "A command to log the stack trace of the speech.speak function."
+msgstr ""
+"Unha orde para rexistrar o seguimento de pila (stack trace) da función "
+"speech,speak."
+
+#. type: Bullet: '* '
+msgid "A command to reverse translate the items of the interface."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This add-on uses layered commands for all of the new commands it adds.  The "
+"entry point for these commands is `NVDA+X`; thus all the commands should be "
+"executed by `NVDA+X` followed by another single letter or gesture.  You can "
+"list all the available layered commands pressing `NVDA+X, H`."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For the commands that you use more frequently, you can also define a direct "
+"gesture in the input gesture dialog."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Enhanced restart dialog"
+msgstr "Diálogo de reinicio mellorado"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The NVDA+shift+Q command opens a dialog to specify some extra options "
+#| "before restarting NVDA.  The options that can be specified correspond to "
+#| "the [command line options][2] that can be used with `nvda.exe`, e.g. `-c` "
+#| "for config path, `--disable-addons` to disable add-ons, etc."
+msgid ""
+"The `NVDA+X, Q` command opens a dialog to specify some extra options before "
+"restarting NVDA.  The options that can be specified correspond to the "
+"[command line options][2] that can be used with `nvda.exe`, e.g. `-c` for "
+"config path, `--disable-addons` to disable add-ons, etc."
+msgstr ""
+"A orde NVDA+shift+Q abre un diálogo para especificar algunhas opcións "
+"adicionais antes de reiniciar NVDA: As opcións que se poden especificar "
+"correspóndense coas [opcións de liña de ordes][2] que se poden utilizar con "
+"`nvda.exe`, p.ex. `-c` para a ruta de configuración, `--disable-addons` para "
+"deshabilitar os complementos, etc."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Play a sound for logged errors"
+msgid "Features related to logged errors"
+msgstr "Reproducir un son para erros rexistrados"
+
+#. type: Title ###
+#, no-wrap
+msgid "Report last logged error"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Pressing `NVDA+X, E` allows to report the last error logged without needing "
+"to open the log. A second press clears the memorized last error."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Play a sound for logged errors"
+msgstr "Reproducir un son para erros rexistrados"
+
+#. type: Plain text
+msgid ""
+"The [\"Play a sound for logged errors\" setting][4] has been introduced in "
+"NVDA 2021.3 and allows to specify if NVDA will play an error sound in case "
+"an error is logged."
+msgstr ""
+"A [opción \"Reproducir un son para erros rexistrados\"][4] introduciuse en "
+"NVDA 2021.3 e permite especificar se NVDA reproducirá un son de erro no caso "
+"de que se rexistre un erro."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This add-on provides an additional command (NVDA+control+alt+E) to toggle "
+#| "this setting.  You can choose:"
+msgid ""
+"This add-on provides an additional command (`NVDA+X, shift+E`) to toggle "
+"this setting.  You can choose:"
+msgstr ""
+"Este complemento proporciona unha orde adicional (NVDA+control+alt+E) para "
+"cambiar esta opción. Podes escoller:"
+
+#. type: Bullet: '* '
+msgid ""
+"\"Only in test versions\" (default) to make NVDA play error sounds only if "
+"the current NVDA version is a test version (alpha, beta or run from source)."
+msgstr ""
+"\"Só en versións de proba\" (por defecto) para facer a NVDA reproducir sons "
+"de erro só se a versión actual de NVDA é unha versión de proba (alfa, beta "
+"ou execución dende o código fonte)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "\"Yes\" to enable error sounds whatever your current NVDA version is."
+msgid "\"Yes\" to enable error sounds no matter your current NVDA version."
+msgstr ""
+"\"Si\" para habilitar os sons de erro sexa cal sexa a túa versión de NVDA."
+
+#. type: Plain text
+msgid ""
+"For NVDA prior to 2021.3, this add-on provides the backport of this feature "
+"and the possibility to control it with the keyboard command.  The checkbox "
+"in the Advanced settings panel is not backported however."
+msgstr ""
+"Para NVDA anterior á 2021.3, este complemento proporciona a retroportación "
+"desta característica e a posibilidade de controlala coa orde de teclas. A "
+"caixa de verificación no panel de opcións avanzadas non se retroportou, sen "
+"embargo."
+
+#. type: Title ##
+#, no-wrap
+msgid "Object property explorer"
+msgstr "Explorador de propiedades de obxectos"
+
+#. type: Plain text
+msgid ""
+"This feature allows to report some properties of the current navigator "
+"object without opening the log viewer."
+msgstr ""
+"Esta característica permite anunciar algunhas propiedades do obxecto actual "
+"no navegador sen abrir o visualizador do rexistro."
+
+#. type: Plain text
+msgid ""
+"To list the properties of an object, move the navigator object to it and use "
+"the following commands:"
+msgstr ""
+"Para listar as propiedades dun obxecto, move o navegador de obxectos a él e "
+"utiliza os seguintes atallos:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Selects the previous property and reports it for the navigator object."
+msgid ""
+"`NVDA+X, upArrow`: Selects the previous property and reports it for the "
+"navigator object."
+msgstr ""
+"Selecciona a propiedade anterior e anúnciaa para o obxecto no navegador."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Selects the next property and reports it for the navigator object."
+msgid ""
+"`NVDA+X, downArrow`: Selects the next property and reports it for the "
+"navigator object."
+msgstr ""
+"Selecciona a propiedade seguinte e anúnciaa para o obxecto no navegador."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Selects the next property and reports it for the navigator object."
+msgid ""
+"`NVDA+X, N`: Reports the currently selected property for the navigator object"
+msgstr ""
+"Selecciona a propiedade seguinte e anúnciaa para o obxecto no navegador."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Reports the currently selected property for the navigator object; two "
+#| "presses displays this information in a browseable message."
+msgid ""
+"`NVDA+X, shift+N`: Displays the currently selected property for the "
+"navigator object in a browseable message"
+msgstr ""
+"Anuncia a propiedade actualmente seleccionada para o obxecto no navegador; "
+"dúas pulsacións amosan esta información nunha mensaxe navegable."
+
+#. type: Plain text
+msgid ""
+"The list of the supported properties is the following: name, role, state, "
+"value, windowClassName, windowControlID, windowHandle, location, Python "
+"class, Python class mro."
+msgstr ""
+"A lista de propiedades soportadas é a seguinte: name, role, state, value, "
+"windowClassName, windowControlID, windowHandle, location, Python class, "
+"Python class mro."
+
+#. type: Plain text
+msgid ""
+"When using object navigation commands, you can also choose to have the "
+"currently selected property reported instead of NVDA usual object "
+"reporting.  A toggle command, `NVDA+X, control+N`, allows to switch between "
+"this custom reporting of objects and NVDA usual reporting."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For exemple, you may select \"windowClassName\" property and enable custom "
+"object reporting.  Then when moving the navigator object to next or previous "
+"object, you will hear the object's windowClassName instead of usual "
+"reporting."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Script tools"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "The script opener"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The script opener command allows to open the code of a script knowing its "
+"gesture."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To use it press `NVDA+x, C` and then the gesture of the script which you "
+"want to see the code of.  For example to see the code of the script that "
+"reports the title of the foreground window, press `NVDA+X, C` and then "
+"`NVDA+T`."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "For this feature to work, you need to have configured your favorite "
+#| "editor's command.  If you are not running NVDA from source, the location "
+#| "of NVDA source code also should have been configured.  For more details "
+#| "regarding the configuration, please see the paragraph NVDA Debug & Test "
+#| "Tools configuration."
+msgid ""
+"For this feature to work, you need to have configured your [favorite "
+"editor's command](#settingsOpenCommand) in the add-on's settings.  If you "
+"are not running NVDA from source, the [location of NVDA source code]"
+"(#settingsNvdaSourcePath) should also have been configured."
+msgstr ""
+"Para que esta característica funcione, tes que ter configurada a orde para "
+"abrir o teu editor favorito.  Se non estás executando NVDA dende o código, a "
+"ubicación do código fonte de NVDA tamén debería terse especificado.  Para "
+"máis detalles sobre a configuración, por favor consulta o parágrafo "
+"configuración de NVDA Debug & Test Tools."
+
+#. type: Title ###
+#, no-wrap
+msgid "Extended script description mode"
+msgstr "Modo extendido de descrición de scripts"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "An extended script description mode: when enabled input help mode report "
+#| "information on scripts that have no description."
+msgid ""
+"The extended script description mode allows to have reported information on "
+"scripts without description in input help mode."
+msgstr ""
+"Un modo de descrición extendida de script: cando está habilitado o modo de "
+"axuda de entrada anuncia información para os scripts que non teñen "
+"descrición."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "When the Extended script description mode is active, the input help mode "
+#| "(NVDA+1) is modified as follows.  If a script has no description, the "
+#| "script's name and class are reported.  If a script has a description, its "
+#| "description is reported as usual.  The gesture to activate or deactivate "
+#| "this feature is NVDA+control+alt+D."
+msgid ""
+"When the Extended script description mode is active, the input help mode "
+"(NVDA+1) is modified as follows.  If a script has no description, the "
+"script's name and class are reported.  If a script has a description, its "
+"description is reported as usual.  The gesture to activate or deactivate "
+"this feature is `NVDA+X, D`."
+msgstr ""
+"Cando o modo extendido de descrición de scripts está activo, o modo de axuda "
+"de entrada (NVDA+1) modifícase como segue.  Se un script non ten descrición, "
+"anúncianse o nome e a clase do script.  Se o script ten unha descrición, "
+"anúnciase a súa descrición como de costume.  O xesto para activar ou "
+"desactivar esta característica é NVDA+control+alt+D."
+
+#. type: Plain text
+msgid ""
+"Executing a gesture bound to a script without description in input help mode "
+"also create an entry for this script in the gesture management dialog.  This "
+"entry is located in a dedicated category called \"Scripts without "
+"description (modify at your own risk!)\".  This allow to easily add, delete "
+"or change the native NVDA gestures for these script.  Be aware however that "
+"it is often intended that such script do not have any description to prevent "
+"the user to modify the associated gesture.  Indeed, the gesture may be "
+"defined to match an application shortcut key.  For example the script "
+"script_toggleItalic on NVDAObjects.window.winword.WordDocument is bound to "
+"control+I and this should not be modified since the gesture is passed to the "
+"application to actually execute the shortcut key."
+msgstr ""
+"Executar un xesto vinculado a un script sen descrición no modo de axuda de "
+"entrada tamén crea unha entrada para este script no diálogo de "
+"administración de xestos.  Esta entrada ubícase nunha categoría dedicada "
+"chamada \"Scripts without description (modify at your own risk!)\" (Scripts "
+"sen descrición, modifícaos baixo a túa responsabilidade).  Isto permite "
+"engadir, eliminar ou modificar os xestos nativos de NVDA para estes "
+"scripts.  Ten en conta, con todo, que ás veces a intención é que eses "
+"scripts non teñan descrición para previr ao usuario de modificar o xestos "
+"asociado.  De feito, o xesto podería estar definido para coincidir cunha "
+"tecla de atallo dunha aplicación.  Por exemplo o script script_toggleItalic "
+"on NVDAObjects.window.winword.WordDocument está vinculado con control+I e "
+"isto non debe cambiarse xa que o atallo pásase á aplicación para executar "
+"realmente a tecla rápida."
+
+#. type: Title ###
+#, no-wrap
+msgid "Usage example"
+msgstr "Exemplo de uso"
+
+#. type: Plain text
+msgid ""
+"Control+shift+I also toggle italic in Word, even if it is not natively "
+"reported by NVDA.  To have the control+shift+I result reported by NVDA as "
+"control+I, you should perform the following steps:"
+msgstr ""
+"Control+shift+I tamén alterna a cursiva en Word, aínda que non se anuncie de "
+"forma nativa por NVDA.  Para que NVDA anuncie o resultado de control+shift+I "
+"como control+I, debes realizar os pasos seguintes:"
+
+#. type: Bullet: '* '
+msgid "Open a Word document."
+msgstr "Abre un documento de Word."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Enable the extended script description mode with NVDA+control+alt+D."
+msgid "Enable the extended script description mode with `NVDA+X, D`."
+msgstr ""
+"Activa o modo de descrición extendida de scripts con NVDA+control+alt+D."
+
+#. type: Bullet: '* '
+msgid "Enter input help mode with NVDA+1."
+msgstr "Entra no modo de axuda de entrada con NVDA+1."
+
+#. type: Bullet: '* '
+msgid ""
+"Press control+I to report the italic script and have it added in the gesture "
+"dialog."
+msgstr ""
+"Preme control+I para anunciar o script de cursiva e que se engada ó diálogo "
+"de xestos."
+
+#. type: Bullet: '* '
+msgid "Exit input help mode with NVDA+1."
+msgstr "Sal do modo de axuda de entrada con NVDA+1."
+
+#. type: Bullet: '* '
+msgid "Open the input gestures dialog."
+msgstr "Abre o diálogo Xestos de Entrada do NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"In the category \"Scripts without description (modify at your own risk!)\", "
+"select the command \"toggleItalic on NVDAObjects.window.winword."
+"WordDocument\"."
+msgstr ""
+"Na categoría \"Scripts without description (modify at your own "
+"risk!)\" (Scripts sen descrición, modifícaos baixo a túa responsabilidade!), "
+"selecciona a orde \"toggleItalic on NVDAObjects.window.winword."
+"WordDocument\"."
+
+#. type: Bullet: '* '
+msgid "Add the control+shift+I shortcut and validate."
+msgstr "Engade o atallo control+shift+I e acepta."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "If you want, exit the extended script description mode with "
+#| "NVDA+control+alt+D."
+msgid ""
+"If you want, exit the extended script description mode with `NVDA+X, D`."
+msgstr ""
+"Se queres, sal do modo de descrición extendida de scripts con "
+"NVDA+control+alt+D."
+
+#. type: Plain text
+msgid ""
+"Known bug: A script added for a specific class is visible even if gesture "
+"manager is opened in another context."
+msgstr ""
+"Erro coñecido: Un script engadido para unha clase en concreto é visible "
+"aínda que o administrador de xestos se abra noutro contexto."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Log reading and analyzing commands"
+msgid "Log reading and analyzing features"
+msgstr "Ordes de lectura e análise do rexistro"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"logPlaceMarkers\"></a>\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Place markers in the log"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"While testing or working, you may want to mark a specific moment in the log, so that you can turn to it easily later when reading the log.\n"
+"To add a marker message in the log, press `NVDA+X, K`.\n"
+"A message as follows will be logged at INFO level:  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "`-- NDTT marker 0 --`  \n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can add as many markers as you want in the log.  The marker's number "
+"will be incremented each time you place a marker in the log; it will only be "
+"reset when NVDA is restarted."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Log reader mode"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "A log reader mode provides commands to ease log reading and analyzing.  "
+#| "In the log viewer window the log reader is enabled by default, thus log "
+#| "reading commands are available immediately.  In another text reading area "
+#| "such as an editor (e.g. Notepad++) or a webpage (e.g. GitHub issue), you "
+#| "need to press NVDA+control+alt+L to enable log reader mode and use its "
+#| "commands.  When you are done with log reading and analyzing tasks, you "
+#| "can disable again NVDA+control+alt+L to disable the log reader mode."
+msgid ""
+"A log reader mode provides commands to ease log reading and analyzing.  In "
+"the log viewer window the log reader is enabled by default, thus log reading "
+"commands are available immediately.  In another text reading area such as an "
+"editor (e.g. Notepad++) or a webpage (e.g. GitHub issue), you need to press "
+"`NVDA+X, L` to enable log reader mode and use its commands.  When you are "
+"done with log reading and analyzing tasks, you can disable again `NVDA+X, L` "
+"to disable the log reader mode."
+msgstr ""
+"Un modo de lector do rexistro proporciona ordes para facilitar a lectura e "
+"análise do rexistro.  Na xanela do visualizador do rexistro o lector do "
+"rexistro está activado por defecto, de xeito que os atallos de lectura do "
+"rexistro están dispoñibles inmediatamente.  Noutra área de lectura de texto "
+"como un editor (p.ex. Notepad++) ou nunha páxina web (p.ex. incidencia de "
+"GitHub), tes que premer NVDA+control+alt+L para activar o modo de lector do "
+"rexistro e utilizar as súas ordes.  Cando remates as tarefas de lectura e "
+"análise do rexistro, podes desactivar de novo NVDA+control+alt+L para "
+"desactivar o modo de lector do rexistro."
+
+#. type: Plain text
+msgid "The commands available in log reader mode are described hereafter."
+msgstr ""
+"A continuación descríbense as ordes dispoñibles no modo de lector do "
+"rexistro."
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"logReaderQuickNavigationCommands\"></a>\n"
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "Quick navigation commands"
+msgstr "Atallos de navegación rápida"
+
+#. type: Plain text
+msgid ""
+"Single letter command similar to browse mode quick navigation keys allow to "
+"move to various type of log messages:"
+msgstr ""
+"Ordes dunha soa letra similares ás teclas de navegación rápida do modo "
+"exploración permiten moverse a varios tipos de mensaxes do rexistro:"
+
+#. type: Bullet: '* '
+msgid "m: any message"
+msgstr "m: calquera mensaxe"
+
+#. type: Bullet: '* '
+msgid "e: error messages (`ERROR` and `CRITICAL`)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "w: warning messages (`WARNING`)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "f: info messages (`INFO`)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "k: markers previously [placed in the log](#logPlaceMarkers)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "g: debug warning messages (`DEBUGWARNING`)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "i: input/output messages (`IO`)"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "m: any message"
+msgid "n: input messages"
+msgstr "m: calquera mensaxe"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "m: any message"
+msgid "s: speech messages"
+msgstr "m: calquera mensaxe"
+
+#. type: Bullet: '* '
+msgid "d: debug messages (`DEBUG`)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Pressing the single letter moves to the next occurrence of this message. "
+"Combining the letter with the shift key moves to the previous occurrence of "
+"this message."
+msgstr ""
+"Premendo a letra móvese á seguinte ocorrencia da mensaxe correspondente. "
+"Combinando a letra coa tecla shift móvese á ocorrencia anterior desta "
+"mensaxe."
+
+#. type: Title ####
+#, no-wrap
+msgid "Translation of speech message"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Sometimes, you may have to look at a log taken on a system in a foreignh "
+"language that you do not understand. E.g. the log was taken on a Chinese "
+"system / NVDA, whereas you only understand French.  If you have [Instant "
+"Translate][3] add-on installed, you may use it in conjonction with [quick "
+"log navigation commands](#logReaderQuickNavigationCommands) to have speech "
+"messages translated."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"First configure Instant Translate's languages. The source language should be "
+"the language of the system where the log has been taken (e.g. Chinese). The "
+"target language should be your language (e.g. French)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Open the log"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Press T to enable automatic speech translation in the log"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Use Quick navigation commands in the log, e.g. S, I, etc. Whenever a speech "
+"message is encountered, it will be spoken in your language (French in our "
+"previous example)"
+msgstr ""
+
+#. type: Plain text
+msgid "If you want to disable speech translation, press T again."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"logReaderOpenSourceFile\"></a>\n"
+msgstr ""
+
+#. type: Title ####
+#, fuzzy, no-wrap
+#| msgid "Opening a file in your editor"
+msgid "Open the file of the source code in your editor"
+msgstr "Abrindo un arquivo no teu editor"
+
+#. type: Plain text
+msgid "In the log some line may refer to the source code:"
+msgstr "No rexistro algunha liña pode remitir ó código fonte:"
+
+#. type: Bullet: '* '
+msgid ""
+"A line belonging to a traceback contains the path and the line in a file, e."
+"g.:"
+msgstr ""
+"Unha liña dun seguimento de pila (traceback) contén a ruta e a liña nun "
+"arquivo, p.ex.:"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "  `  File \"virtualBuffers\\__init__.pyc\", line 226, in _getStoryLength`\n"
+#| "* The header line of a logged message contains the function which has logged this message, e.g.:  \n"
+msgid "  `  File \"virtualBuffers\\__init__.pyc\", line 226, in _getStoryLength`  \n"
+msgstr ""
+"  `  File \"virtualBuffers\\__init__.pyc\", line 226, in _getStoryLength`\n"
+"* A liña de encabezamento dunha mensaxe rexistrada contén a función que rexistrou esa mensaxe, p.ex.:  \n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "  `  File \"virtualBuffers\\__init__.pyc\", line 226, in "
+#| "_getStoryLength`\n"
+#| "* The header line of a logged message contains the function which has "
+#| "logged this message, e.g.:  \n"
+msgid ""
+"The header line of a logged message contains the function which has logged "
+"this message, e.g.:"
+msgstr ""
+"  `  File \"virtualBuffers\\__init__.pyc\", line 226, in _getStoryLength`\n"
+"* A liña de encabezamento dunha mensaxe rexistrada contén a función que "
+"rexistrou esa mensaxe, p.ex.:  \n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "  `INFO - config.ConfigManager._loadConfig (22:45:26.145) - MainThread (16580):`\n"
+msgid "  `INFO - config.ConfigManager._loadConfig (22:45:26.145) - MainThread (16580):`  \n"
+msgstr "  `INFO - config.ConfigManager._loadConfig (22:45:26.145) - MainThread (16580):`\n"
+
+#. type: Bullet: '* '
+msgid ""
+"The content of a message logged in input help mode (logged at info level):"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  `Input help: gesture kb(desktop):NVDA+t, bound to script title on globalCommands.GlobalCommands`  \n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You may want to open the file containing this code to understand the context "
+"of the traceback or the logged message.  Just press C to open this file."
+msgstr ""
+"Poderías querer abrir o arquivo que contén este código para entender o "
+"contexto do seguimento de pila (traceback) ou a mensaxe rexistrada.  "
+"Simplemente preme C para abrir este arquivo."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "For this feature to work, you need to have configured your favorite "
+#| "editor's command.  If you are not running NVDA from source, the location "
+#| "of NVDA source code also should have been configured.  For more details "
+#| "regarding the configuration, please see the paragraph NVDA Debug & Test "
+#| "Tools configuration."
+msgid ""
+"For this feature to work, you need to have configured your [favorite "
+"editor's command](#settingsOpenCommand) in the add-on's settings.  If you "
+"are not running NVDA from source and want to open NVDA's code, the [location "
+"of NVDA source code](#settingsNvdaSourcePath) should also have been "
+"configured."
+msgstr ""
+"Para que esta característica funcione, tes que ter configurada a orde para "
+"abrir o teu editor favorito.  Se non estás executando NVDA dende o código, a "
+"ubicación do código fonte de NVDA tamén debería terse especificado.  Para "
+"máis detalles sobre a configuración, por favor consulta o parágrafo "
+"configuración de NVDA Debug & Test Tools."
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"oldLogsBackup\"></a>\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Backup of old logs"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"NVDA already provides a backup of the log of the previous session of NVDA; "
+"the file is called `nvda-old.log`.  Sometimes however you may want to access "
+"older logs, e.g. because you have had to restart NVDA again before looking "
+"at `nvda-old.log`.  This add-on allows you to configure if you want to "
+"backup old logs and how many of them; this is done in the [add-on's settings]"
+"(#settingsLogsBackup)."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"A log manager dialog allows to view the backed up logs.\n"
+"It can be opened going to NVDA menu -> Tools -> Logs manager\n"
+"In this dialog, you can see the list of all the backup logs and perform various actions on the selected log:\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "open it (press `Enter`)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "delete it (press `Delete`)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "copy the log file (press `control+C`)"
+msgstr ""
+
+#. type: Plain text
+msgid "You can also select multiple logs to perform an actions on all of them."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To be able to open a log, you should first have configured the [Command to "
+"open a file in your favorite editor](#settingsOpenCommand)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Python console extension"
+msgstr "Extensión da consola Python"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"pythonConsoleOpenCodeFile\"></a>\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "`openCodeFile` function"
+msgstr "Función `openCodeFile`"
+
+#. type: Plain text
+#, no-wrap
+msgid "In the console, you can call the following function to view the source code that defines the variable `myVar`:  \n"
+msgstr "Na consola, podes chamar á función seguinte para ver o código fonte que define a variable `aMinhaVar`:\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "`openCodeFile(myVar)`"
+msgid "`openCodeFile(myVar)`  \n"
+msgstr "`openCodeFile(aMinhaVar)`"
+
+#. type: Plain text
+msgid ""
+"The `openCodeFile` functions can be called on objects defined in NVDA's code "
+"or on objects defined by add-ons.  It cannot be called on objects whose "
+"source code is not available such as python builtins."
+msgstr ""
+"As funcións `openCodeFile` poden chamarse para obxectos definidos no código "
+"de NVDA ou para obxectos definidos por complementos.  Non pode chamarse para "
+"obxectos cuxo código fonte non está dispoñible como os integrados de Python."
+
+#. type: Plain text
+msgid ""
+"If you have not yet imported the object in the console, you can also pass "
+"its name as parameter to the `openCodeFile` function."
+msgstr ""
+"Se aínda non importaches o obxecto na consola, tamén podes pasar o seu nome "
+"como parámetro á función `openCodeFile`."
+
+#. type: Plain text
+msgid "Below are examples of call in NVDA's code:"
+msgstr "Aquí hai exemplos de chamada no código de NVDA:"
+
+#. type: Bullet: '* '
+msgid "View the definition of the function `speech.speech.speak`:"
+msgstr "Ver a definición da función `speech.speech.speak`:"
+
+#. type: Plain text
+#, no-wrap
+msgid "  `openCodeFile(speech.speech.speak)`  \n"
+msgstr "  `openCodeFile(speech.speech.speak)`  \n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  or with the name passed as parameter:  \n"
+msgstr "  ou co nome pasado como un parámetro:\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "  `openCodeFile(speech.speech.speak)`  \n"
+msgid "  `openCodeFile(\"speech.speech.speak\")`  \n"
+msgstr "  `openCodeFile(speech.speech.speak)`  \n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "  `openCodeFile(\"speech.speech.speak\")`\n"
+#| "* View the definition of the class `TextInfo`:  \n"
+msgid "View the definition of the class `TextInfo`:"
+msgstr ""
+"  `openCodeFile(speech.speech.speak)`\n"
+"* Ver a definición da clase `TextInfo`:  \n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "  `openCodeFile(speech.speech.speak)`  \n"
+msgid "  `openCodeFile(textInfos.TextInfo)`  \n"
+msgstr "  `openCodeFile(speech.speech.speak)`  \n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "  `openCodeFile(textInfos.TextInfo)`\n"
+#| "* View the definition of the method `copyToClipboard` of the class "
+#| "`TextInfo`:  \n"
+msgid ""
+"View the definition of the method `copyToClipboard` of the class `TextInfo`:"
+msgstr ""
+"  `openCodeFile(textInfos.TextInfo)`\n"
+"* Ver a definición do método `copyToClipboard` da clase `TextInfo`:  \n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "  `openCodeFile(textInfos.TextInfo.copyToClipboard)`\n"
+#| "* View the class definition of the focused object:  \n"
+msgid "  `openCodeFile(textInfos.TextInfo.copyToClipboard)`  \n"
+msgstr ""
+"  `openCodeFile(textInfos.TextInfo.copyToClipboard)`\n"
+"* Ver a definición da clase do obxecto enfocado:  \n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "View the definition of the function `speech.speech.speak`:"
+msgid "View the definition of the class of the focused object:"
+msgstr "Ver a definición da función `speech.speech.speak`:"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "  `openCodeFile(api)`\n"
+msgid "  `openCodeFile(focus)`  \n"
+msgstr "  `openCodeFile(api)`\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "  `openCodeFile(focus)`\n"
+#| "* Open the file `api.py` defining the module `api`:  \n"
+msgid "Open the file `api.py` defining the module `api`:"
+msgstr ""
+"  `openCodeFile(focus)`\n"
+"* Abrir o arquivo `api.py` que define o módulo `api`:  \n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "  `openCodeFile(api)`\n"
+msgid "  `openCodeFile(api)`  \n"
+msgstr "  `openCodeFile(api)`\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Python console startup script"
+msgstr "Script de arranque da consola Python"
+
+#. type: Plain text
+msgid ""
+"You can define a custom script which will be executed in the Python "
+"console's namespace when it is first opened, or if the add-on is reloaded "
+"(NVDA+F3) after the console has already been opened."
+msgstr ""
+"Podes definir un script persoalizado que se executará no espazo de nomes da "
+"consola Python cando se abra por primeira vez, ou se se recarga o "
+"complemento (NVDA+F3) unha vez a consola xa foi aberta."
+
+#. type: Plain text
+#, no-wrap
+msgid "For example, the script allows you to execute new imports and define aliases that you will be able to use directly in the console, as shown below:  \n"
+msgstr "Por exemplo, o script permíteche executar novos imports e definir alias que poderás utilizar directamente na consola, como se amosa a continuación:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # Various import that I want in the console.\n"
+"    import globalVars as gv\n"
+"    import core\n"
+"    import ui\n"
+"    # Aliases\n"
+"    ocf = openCodeFile\n"
+msgstr ""
+"    # Various import that I want in the console.\n"
+"    import globalVars as gv\n"
+"    import core\n"
+"    import ui\n"
+"    # Aliases\n"
+"    ocf = openCodeFile\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "The Python console script should be placed in the following location: `pathToNVDAConfig\\ndtt\\consoleStartup.py`  \n"
+msgstr "O script para a consola Python débese gardar na seguinte localización: `rutaÁConfiguraciónDeNVDA\\ndtt\\consoleStartup.py`  \n"
+
+#. type: Plain text
+msgid ""
+"For example: `C:"
+"\\Users\\myUserName\\AppData\\Roaming\\nvda\\ndtt\\consoleStartup.py`"
+msgstr ""
+"Por exemplo: `C:"
+"\\Users\\oMeuNomeDeUsuario\\AppData\\Roaming\\nvda\\ndtt\\consoleStartup.py`"
+
+#. type: Title ##
+#, no-wrap
+msgid "Log the stack trace of the speech function"
+msgstr "Rexistrar o stack trace da función de fala"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Sometimes, you may want to see which part of the code is responsible for "
+#| "speaking something.  For this, you can enable the stack trace logging of "
+#| "the speech function pressing NVDA+control+alt+S.  Each time NVDA speaks, "
+#| "a corresponding stack trace will be logged in the log."
+msgid ""
+"Sometimes, you may want to see which part of the code is responsible for "
+"speaking something.  For this, you can enable the stack trace logging of the "
+"speech function pressing `NVDA+X, S`.  Each time NVDA speaks, a "
+"corresponding stack trace will be logged in the log."
+msgstr ""
+"Algunhas veces, poderías querer ver que parte do código é responsable de "
+"falar determinada cousa.  Para isto, podes activar o rexistro do seguimento "
+"da traza (stack trace) para a función da fala premendo NVDA+control+alt+S.  "
+"Cada vez que NVDA fale, o stack trace correspondente anotarase no rexistro."
+
+#. type: Plain text
+msgid ""
+"Note: You may modify the script's file directly to patch another function.  "
+"See all instructions in the file for details on usage."
+msgstr ""
+"Nota: Poderías modificar directamente o arquivo do script para parchear "
+"outra función.  Consulta todas as instrucións no arquivo para detalles de "
+"utilización."
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"reverseTranslationCommand\"></a>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Reverse translation command"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Many testers use NVDA in another language than English.  But when reporting "
+"test results on GitHub, the description of the modified options or the "
+"messages reported by NVDA should be written in English.  Its quite "
+"frustrating and time consuming to have to restart NVDA in English to check "
+"the exact wording of the options or messages."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To avoid this, the add-on provides a reverse translation command (`NVDA+X, "
+"R`) allowing to reverse translate NVDA's interface such as messages, control "
+"labels in the GUI, etc.  This command uses NVDA's gettext translation to try "
+"to reverse translate the last speech.  More specifically, the first string "
+"of the last speech sequence is reverse translated."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For example, in French NVDA, if I arrow down to the Tools menu named "
+"\"Outils\", NVDA will say \"Outils sous-Menu o\" which stands for \"Tools "
+"subMenu o\".  If I press the reverse translation command just after that, "
+"NVDA will reverse translate \"Outils\" to \"Tools\"."
+msgstr ""
+
+#. type: Plain text
+msgid "Looking at the log afterwards, we can find the following lines:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"IO - speech.speech.speak (23:38:24.450) - MainThread (2044):\n"
+"Speaking ['Outils', 'sous-Menu', CharacterModeCommand(True), 'o', CharacterModeCommand(False), CancellableSpeech (still valid)]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This confirms that \"Outils was the first string in the speech sequence."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In case the reverse translation leads to two or more possible results, a "
+"context menu is opened listing all the possibilities."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The result of the reverse translation is also copied to the clipboard if the "
+"corresponding [option](#settingsCopyReverseTranslation) is enabled, which is "
+"the default value."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"settings\"></a>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Settings"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Some features of the add-on may require a specific configuration.\n"
+"A settings panel allows to enable them or to control how they work.\n"
+"To view and modify these settings, go to NVDA menu -> Preferences and select the category NVDA Dev & Test Toolbox.\n"
+"This settings dialog can also be accessed directly from the Logs Manager dialog.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"These settings are global and can only be configured when the default "
+"profile is active."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"settingsOpenCommand\"></a>\n"
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Opening a file in your editor"
+msgid "Command to open a file in your favorite editor"
+msgstr "Abrindo un arquivo no teu editor"
+
+#. type: Plain text
+msgid ""
+"Some features allow to see content in your favorite editor.  This includes "
+"the commands to view the source file [from a log](#logReaderOpenSourceFile) "
+"or [from an object in the console](#pythonConsoleOpenCodeFile) as well as "
+"the [log manager](#oldLogsBackup)'s Open button."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"To use them, you first need to configure the command that will be called to open the file in your favorite editor.\n"
+"The command should be of the form:  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "`\"C:\\path\\to\\my\\editor\\editor.exe\" \"{path}\":{line}`  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"You should of course modify this line according to the real name and location of your editor and the syntax used by it to open files.\n"
+"`{path}` will be replaced by the full path of the file to open and `{line}` by the line number where you want the cursor to be set.\n"
+"For Notepad++ for example the command to type in the console would be:  \n"
+msgstr ""
+
+#. type: Plain text
+msgid "`\"C:\\Program Files\\Notepad++\\notepad++.exe\" \"{path}\" -n{line}`"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"settingsNvdaSourcePath\"></a>\n"
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "NVDA source code path configuration"
+msgid "NVDA source code path"
+msgstr "`config.conf['ndtt']['sourceFileOpener'] = r'\"C:\ruta\\o\\meu\\editor\\editor.exe\" \"{path}\":{line}'`"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"When using a command to [view the source file from a log](#logReaderOpenSourceFile) or [from an object in the console](#pythonConsoleOpenCodeFile), the file may belong to NVDA itself.\n"
+"If you are not running NVDA from source, your NVDA only contains compiled files.\n"
+"Thus you may specify here an alternate location where the corresponding source file will be found, e.g. the place where you have cloned NVDA source files, so that a source file can be opened anyway.\n"
+"The path should be such as:  \n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "`C:\\pathExample\\GIT\\nvda\\source`  \n"
+msgstr ""
+
+#. type: Plain text
+msgid "Of course, replace the path of NVDA source with the correct one."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Be sure however that the version of your source file (e.g. GIT commit) is "
+"the same as the one of the running instance of NVDA."
+msgstr ""
+"Asegúrate porén de que a versión do teu arquivo fonte (p.ex. commit GIT) é a "
+"mesma que a da copia en execución de NVDA."
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"settingsLogsBackup\"></a>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The combobox Backup of old logs allows to enable or disable the [feature]"
+"(#oldLogsBackup).  If it is enabled, you can also specify below in \"Limit "
+"the number of backups\" the maximum number of backups you want to keep.  "
+"These settings only take effect at next NVDA startup when the backup takes "
+"place."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"settingsCopyReverseTranslation\"></a>\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Copy reverse translation to clipboard"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This option allows to choose if the [reverse translation command]"
+"(#reverseTranslationCommand) also copies its result to the clipboard."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log"
+msgstr "Rexistro de trocos"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 7.0"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"Layered commands have been introduced; the entry point is `NVDA+X`.  The "
+"existing commands have been modified accordingly."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"A new command (`NVDA+X, R`) to reverse translate the last spoken message."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"A new command (`NVDA+X, C`) to open the source code of the script associated "
+"to the next pressed gesture."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added speech on demand support."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The log manager now allows more actions, either with the dedicated buttons "
+"in the dialogs or using keyboard shortcuts in the list: `enter` to open the "
+"log, `control+C` to copy the log file and `delete` to delete a log file."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The sorting order in the log manager has been reversed (most recent log on "
+"top)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue when trying to open a Python module with openCodeFile "
+"function."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 6.3"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 6.2"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid "Restores console opening for NVDA < 2021.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses potential security issues related to [GHSA-xg6w-23rw-39r8][5] when "
+"using the add-on with older versions of NVDA. However, it is recommended to "
+"use NVDA 2023.3.3 or higher."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 6.1"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"Opening the source file of an object located in the submodule of a package "
+"is now working."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Bugfix: The enhanced exit dialog can now be reopened and used as expected "
+"after having been closed. (contribution from Łukasz Golonka)"
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 6.0"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"While using object navigation commands, a specific object property can be "
+"reported instead of NVDA usual object reporting."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In log reading mode, the \"C\" key to open a code file from the log now also "
+"works on an input help message."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Bugfix: The add-on can now start successfully when the number of logs to "
+"save is set to its maximum value."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Bugfix: Python console startup script's output does not prevent anymore to "
+"jump to the first result in the console when using result navigation "
+"commands."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Note: From now on, localization updates will not appear anymore in the "
+"change log."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 5.0"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"If Instant Translate add-on is installed, it is now possible to have speech "
+"messages translated on the fly when using log reading commands."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"While in log reading mode, pressing E or shift+E now jumps to CRITICAL erorr "
+"messages as well as normal ERROR messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"New log quick navigation commands have been added to jump to input and to "
+"speech messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"A new command allow to place a marker in the log; and specific quick "
+"navigation commands in log reading mode allow to jump to them."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Credit: the initial idea for this feature comes from Debug Helper add-on by Luke Davis.\n"
+"* Bubfix: The memorization of the last error do not fail anymore in some cases.\n"
+"* Bugfix: The add-on can initialize again with NVDA 2019.2.1.\n"
+"* Bugfix: Log saving feature will not fail anymore with non-ASCII logs.\n"
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 4.2"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid "Fixed an error with NVDA version below 2021.3."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fixed the stack trace log formatting."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "First localizations."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 4.1"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid "Fixed a bug occurring in some situations while logging an error."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The add-on's settings can now be modified only when the default profile is "
+"active to avoid config issues."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 4.0"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid "Possibility to back up old logs and introduction of a logs manager."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added a script to report the last logged error."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Fixed an issue when trying to report roles/states for object explorer in "
+#| "older version of NVDA."
+msgid ""
+"Fixed a bug preventing last log message to be read in older NVDA versions."
+msgstr ""
+"Arranxado un problema ao tratar de reportar roles/estados no explorador de "
+"obxectos en versións antigas de NVDA."
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 3.2"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2023.1."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 3.1"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an error occurring when requesting unavailable information on an "
+"object."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.0"
+msgstr "Configuración da ruta do código fonte de NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"In a log, you can now press C on a message's header line to open the "
+"function/module which has emitted it."
+msgstr ""
+"Nun rexistro, agora podes premer C na liña de encabezamento dunha mensaxe "
+"para abrir a función/módulo que a emitiu."
+
+#. type: Bullet: '* '
+msgid ""
+"In the console, `openCodeFile` function can now receive as parameter the "
+"object or a string containing its name."
+msgstr ""
+"Na consola, a función `openCodeFile` agora pode recibir como parámetro o "
+"obxecto ou unha cadea que conteña o seu nome."
+
+#. type: Bullet: '* '
+msgid ""
+"New feature: NVDA console startup file: If it exists, the file "
+"YourNVDAConfigFolder\\ndtt\\consoleStartup.py will be executed when NVDA "
+"console is first opened or when add-ons are reloaded."
+msgstr ""
+"Se non estás a executar NVDA dende o código fonte, poderías especificar unha "
+"ubicación alternativa onde se atoparía o arquivo fonte, p.ex. o lugar onde "
+"clonaches os arquivos da fonte de NVDA.  Se éste é o caso, tes que "
+"configurar a ruta onde tes ubicados os arquivos da fonte de NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"Various minor fixes for `openCodeFile` Python console's function and the "
+"command to open the source file corresponding to a line in the log."
+msgstr ""
+"Varios arranxos menores para a función da consola de Python `openCodeFile` e "
+"a orde para abrir o arquivo fonte correspondente cunha liña no rexistro."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue when trying to report roles/states for object explorer in "
+"older version of NVDA."
+msgstr ""
+"Arranxado un problema ao tratar de reportar roles/estados no explorador de "
+"obxectos en versións antigas de NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"The add-on does not cause a problem anymore with the tree interceptor when "
+"using UIA in Edge."
+msgstr ""
+"Asegúrate, iso si, que a versión do teu arquivo fonte (p.ex. commit de GIT) "
+"é a mesma que a da instancia en execución de NVDA."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.1"
+msgstr "Versión 2.1"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Various bugfixes and code refactoring/cleaning to address all use cases: "
+#| "all supported versions, installed vs. run from source, etc. (contribution "
+#| "from Łukasz Golonka)"
+msgid ""
+"Various bugfixes and code refactoring/cleaning to address all use cases: all "
+"supported versions, installed vs. run from source, etc. (contribution from "
+"Łukasz Golonka)"
+msgstr ""
+"Varias solucións de erros e refactorizacións/limpezas de código para ter en "
+"conta todos os casos de uso: todas as versións, instalado vs. executado "
+"dende a fonte, etc. (contribución de Łukasz Golonka)"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Rewriting of the compa module (contribution from Łukasz Golonka)"
+msgid "Rewriting of the compa module (contribution from Łukasz Golonka)"
+msgstr "Reescritura do módulo compa (contribución de Łukasz Golonka)"
+
+#. type: Bullet: '* '
+msgid "The restart dialog can now be opened only once."
+msgstr "O diálogo de reiniciar agora só se pode abrir unha vez."
+
+#. type: Bullet: '* '
+msgid ""
+"The object explorer shortcuts are now unassigned by default and need to be "
+"mapped by the user."
+msgstr ""
+"Os atallos do explorador de obxectos están agora sen asignar por defecto e "
+"teñen que ser mapeados polo usuario."
+
+#. type: Bullet: '* '
+msgid ""
+"With the object explorer, a double-press to call the script to report the "
+"current object's property now displays the reported information in a "
+"browseable message."
+msgstr ""
+"Co explorador de obxectos, unha doble pulsación para chamar ó script para "
+"anunciar as propiedades do obxecto actual agora amosa a información "
+"anunciada nunha mensaxe navegable."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.0"
+msgstr "Versión 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"New feature: Enhanced restart dialog to specify some extra options when "
+"restarting NVDA."
+msgstr ""
+"Nova característica: Diálogo de reinicio mellorado para especificar algunhas "
+"opcións extra ao reiniciar NVDA."
+
+#. type: Bullet: '* '
+msgid "New feature: extended description mode."
+msgstr "Nova característica: modo de descricións extendidas."
+
+#. type: Bullet: '* '
+msgid ""
+"Play error sound feature harmonized between pre and post 2021.3 versions of "
+"NVDA."
+msgstr ""
+"Armonizada a característica reproducir son de erro entre as versións de NVDA "
+"anteriores e posteriores á 2021.3."
+
+#. type: Bullet: '* '
+msgid ""
+"New feature: Log reader commands are now available in the log viewer and "
+"also optionally in edit fields or webpages."
+msgstr ""
+"Nova característica: Os atallos do lector do rexistro están dispoñibles no "
+"visualizador do rexistro e tamén opcionalmente en campos de edición e "
+"páxinas web."
+
+#. type: Bullet: '* '
+msgid ""
+"New feature: In the Python console, an `openCodeFile` function is available "
+"to view the source code of an object."
+msgstr ""
+"Nova caracteríastica: Na consola Python, está dispoñible unha función "
+"`openCodeFile` para ver o código fonte dun obxecto."
+
+#. type: Bullet: '* '
+msgid "Some features are now disabled in secure mode for security reasons."
+msgstr ""
+"Algunhas características agora están deshabilitadas no modo seguro por "
+"razóns de seguridade."
+
+#. type: Bullet: '* '
+msgid ""
+"The add-on's compatibility range has been extended (from 2019.2 to 2021.1)."
+msgstr ""
+"Estendeuse o  rango de compatibilidade do complemento (dende 2019.2 ata "
+"2021.1)."
+
+#. type: Bullet: '* '
+msgid "Releases are now performed with GitHub action instead of appVeyor."
+msgstr ""
+"As publicacións realízanse agora cunha acción de gitHub no canto de AppVeyor."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0"
+msgstr "Versión 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release."
+msgstr "Versión inicial."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ndtt"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=nvdaDevTestToolbox"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ndtt"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/files/nvda/documentation/userGuide."
+"html#CommandLineOptions"
+msgstr ""
+"[2]: https://www.nvaccess.org/files/nvda/documentation/userGuide."
+"html#CommandLineOptions"
+
+#. type: Plain text
+msgid "[3]: https://addons.nvda-project.org/addons/instantTranslate.en.html"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[4]: https://www.nvaccess.org/files/nvda/documentation/userGuide."
+"html#PlayErrorSound"
+msgstr ""
+"[4]: https://www.nvaccess.org/files/nvda/documentation/userGuide."
+"html#PlayErrorSound"
+
+#. type: Plain text
+msgid ""
+"[5]: https://github.com/nvaccess/nvda/security/advisories/GHSA-"
+"xg6w-23rw-39r8#event-132994"
+msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "These three commands are unassigned by default; you will have to assign "
+#~| "them in the Input gesture dialog to use them."
+#~ msgid ""
+#~ "All the commands of the Object property explorer are unassigned by "
+#~ "default; you will have to assign them a shortcut in the Input gesture "
+#~ "dialog to use them."
+#~ msgstr ""
+#~ "Estes tres atallos están sen asignar por defecto; tes que asignalos no "
+#~ "diálogo de Xestos de entrada para utilizalos."
+
+#~ msgid ""
+#~ "This feature is an improvement of an example in [NVDA developer guide][5]."
+#~ msgstr ""
+#~ "Esta característica é unha mellora dun exemplo na [guía do desenvolvedor "
+#~ "de NVDA][5]."
+
+#~ msgid ""
+#~ "[5]: https://www.nvaccess.org/files/nvda/documentation/developerGuide."
+#~ "html#toc22"
+#~ msgstr ""
+#~ "[5]: https://www.nvaccess.org/files/nvda/documentation/developerGuide."
+#~ "html#toc22"
+
+#~ msgid "e: ERROR"
+#~ msgstr "e: erro"
+
+#~ msgid "i: IO"
+#~ msgstr "i: IO"
+
+#~ msgid "d: DEBUG"
+#~ msgstr "d: DEBUG"
+
+#~ msgid "f: INFO"
+#~ msgstr "f: INFO"
+
+#~ msgid "g: DEBUGWARNING"
+#~ msgstr "g: DEBUGWARNING"
+
+#~ msgid "w: WARNING"
+#~ msgstr "w: WARNING"
+
+#~ msgid ""
+#~ "A toggle script and a backport of NVDA's \"Play a sound for logged "
+#~ "errors\" feature."
+#~ msgstr ""
+#~ "Un script de conmutación e unha retroportación da característica de NVDA "
+#~ "\"Reproducir un son para erros rexistrados\"."
+
+#~ msgid "NVDA Debug & Test Tools configuration"
+#~ msgstr "Configuración de NVDA Debug & Test Tools"
+
+#~ msgid ""
+#~ "The log reader commands and the python console extension feature may "
+#~ "require a specific configuration.  To use functions that allow to view "
+#~ "source code in your editor, you should first configure your editor's "
+#~ "command line.  If NVDA's file need to be viewed and if you are not "
+#~ "running from source, you also need to configure NVDA's source code path."
+#~ msgstr ""
+#~ "As ordes do lector do rexistro e a característica de extensión da consola "
+#~ "Python poderían requerir unha configuración específica.  Para utilizar "
+#~ "funcións que permiten ver código fonte no teu editor, debes configurar "
+#~ "primeiro a liña de ordes do teu editor.  Se necesitas visualizar un "
+#~ "arquivo de NVDA e non o estás a executar dende o código fonte, tamén "
+#~ "necesitas configurar a ruta ó código fonte de NVDA."
+
+#~ msgid "Editor's command line configuration"
+#~ msgstr "Configuración da liña de ordes para o editor"
+
+#~ msgid ""
+#~ "To use the 'open source code' command or the `openCodeFile` console "
+#~ "command, you need first to configure the command that will be called to "
+#~ "open the file in your favorite editor.  For this, open the NVDA console "
+#~ "(NVDA+control+Z) and type the following line and then Enter: `config."
+#~ "conf['ndtt']['sourceFileOpener'] = r'\"C:\\path\\to\\my\\editor\\editor."
+#~ "exe\" \"{path}\":{line}'` You should of course modify this line according "
+#~ "to the real name and location of your editor and the syntax used by it to "
+#~ "open files.  `{path}` will be replaced by the full path of the file to "
+#~ "open and `{line}` by the line number where you want the cursor to be "
+#~ "set.  For Notepad++ for example the command to type in the console would "
+#~ "be: `config.conf['ndtt']['sourceFileOpener'] = r'\"C:\\Program "
+#~ "Files\\Notepad++\\notepad++.exe\" \"{path}\" -n{line}'`"
+#~ msgstr ""
+#~ "Para utilizar a orde 'abrir código fonte' ou a orde de consola "
+#~ "`openCodeFile`, tes que configurar primeiro a orde á que se chamará para "
+#~ "abrir o arquivo no teu editor favorito.  Para isto, abre a consola de "
+#~ "NVDA (NVDA+control+Z) e escribe a seguinte liña e logo intro: `config."
+#~ "conf['ndtt']['sourceFileOpener'] = r'\"C:\ruta\\ó\\meu\\editor\\editor."
+#~ "exe\" \"{path}\":{line}'` Tes, por suposto, que modificar esta liña de "
+#~ "acordo coa localización e nome reais do teu editor e a sintaxe que usa "
+#~ "para abrir arquivos.  `{path}` reemprazarse pola ruta completa do arquivo "
+#~ "a abrir e `{line}` polo número de liña onde queres poñer o cursor.  Para "
+#~ "Notepad++, por exemplo, a orde a escribir na consola sería: `config."
+#~ "conf['ndtt']['sourceFileOpener'] = r'\"C:\\Program Files\\Notepad++"
+#~ "\\notepad++.exe\" \"{path}\" -n{line}'`"
+
+#~ msgid ""
+#~ "When a file belonging to NVDA's core is listed in the traceback, the line "
+#~ "is of the following form: `File \"config\\profileUpgrader.pyc\", line 30, "
+#~ "in upgrade`"
+#~ msgstr ""
+#~ "Cando un arquivo pertencente ó núcleo de NVDA se lista no seguimento de "
+#~ "pila (traceback), a liña é da forma seguinte: `File "
+#~ "\"config\\profileUpgrader.pyc\", line 30, in upgrade`"
+
+#~ msgid ""
+#~ "If you are not running NVDA from source, you may specify an alternate "
+#~ "location where the source file will be found, e.g. the place where you "
+#~ "have cloned NVDA source files.  In this case, you have to configure the "
+#~ "path where you have NVDA source files located."
+#~ msgstr ""
+#~ "`{path}` reemprazarase pola ruta completa do arquivo a abrir e `{line}` "
+#~ "polo número de liña na que queres que se estableza o cursor."
+
+#~ msgid ""
+#~ "For this, open the NVDA console (NVDA+control+Z) and type the following "
+#~ "line and then Enter: `config.conf['ndtt']['nvdaSourcePath'] = r'C:"
+#~ "\\pathExample\\GIT\\nvda\\source'` Of course, replace the path of NVDA "
+#~ "source with the correct one."
+#~ msgstr ""
+#~ "Para isto, abre a consola de NVDA (NVDA+control+Z) e escribe a seguinte "
+#~ "liña e logo intro: `config.conf['ndtt']['nvdaSourcePath'] = r'C:"
+#~ "\\exemploruta\\GIT\\nvda\\source'` Por suposto, reempraza a ruta da fonte "
+#~ "de NVDA coa ruta correcta."

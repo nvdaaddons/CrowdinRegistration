@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: toolbarsExplorer\n"
+"POT-Creation-Date: 2024-02-12 03:14+0000\n"
+"PO-Revision-Date: 2023-08-14 23:02+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: French NVDA add-ons translation team <remyruiz@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"ToolbarsExplorer\"]]\n"
+msgstr "[[!meta title=\"ToolbarsExplorer\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Alberto Buffolino"
+msgstr "Auteur : Alberto Buffolino"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Télécharger [version stable][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Télécharger [version de développement][2]"
+
+#. type: Plain text
+msgid ""
+"This add-on makes easier to use toolbars in applications, providing an "
+"exploration model derived by object navigation, with simplified gestures."
+msgstr ""
+"Cette extension facilite l'utilisation des barres d'outils dans les "
+"applications, fournissant un modèle d'exploration dérivé de la navigation "
+"par objet, avec des gestes simplifiés."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Touches de commandes"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Alt+applications: starts toolbars exploration<br/>\n"
+"(you can remap it via NVDA gesture manager, under Object navigation).\n"
+msgstr ""
+"* Alt+applications : début de l'exploration des barres d'outils<br/>\n"
+"(vous pouvez le réaffecter via le dialogue Gestes de commandes de NVDA, sous Navigation par objet).\n"
+
+#. type: Plain text
+msgid "During exploration, following gestures are available:"
+msgstr "Lors de l'exploration, les gestes suivants sont disponibles :"
+
+#. type: Bullet: '* '
+msgid "Left/right arrow: moves to previous/next toolbar;"
+msgstr ""
+"Flèche gauche / droite : aller à la barre d'outils précédente / suivante ;"
+
+#. type: Bullet: '* '
+msgid "Up/down arrow: scrolls up/down items in current toolbar;"
+msgstr ""
+"Flèche haut / bas : fait défiler les éléments haut / bas dans la barre "
+"d'outils actuelle ;"
+
+#. type: Bullet: '* '
+msgid "Enter: activates toolbar or its item;"
+msgstr "Entrée : active la barre d'outils ou son élément ;"
+
+#. type: Bullet: '* '
+msgid "Space: simulates left mouse click on toolbar or its item;"
+msgstr "Espace : simule un clic gauche sur la barre d'outils ou son élément ;"
+
+#. type: Bullet: '* '
+msgid ""
+"Applications/shift+F10: simulates right mouse click on toolbar or its item;"
+msgstr ""
+"Applications / maj+F10 : simule un clic droit sur la barre d'outils ou son "
+"élément ;"
+
+#. type: Bullet: '* '
+msgid "Escape: exits from exploration."
+msgstr "Échap : sort de l'exploration."
+
+#. type: Plain text
+msgid ""
+"Additionally, you can perform actions on toolbars or its items using any "
+"gesture provided by NVDA, as exactly as when you move to objects with "
+"standard object navigation."
+msgstr ""
+"De plus, vous pouvez effectuer des actions sur les barres d'outils ou ses "
+"éléments en utilisant n'importe quel geste fourni par NVDA, exactement comme "
+"lorsque vous accéder à des objets avec la navigation par objet standard."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Notes"
+
+#. type: Plain text
+msgid "Exploration is terminated explicitly pressing escape, and implicitly:"
+msgstr ""
+"L'exploration se termine explicitement en appuyant sur Échap et "
+"implicitement:"
+
+#. type: Bullet: '* '
+msgid ""
+"performing an action on toolbar or its item (with space, applications/"
+"shift+F10, enter);"
+msgstr ""
+"en exécutant une action sur la barre d'outils ou son élément (avec espace, "
+"applications / maj+F10, entrée) ;"
+
+#. type: Bullet: '* '
+msgid ""
+"pressing a gesture that moves out of current toolbar objects (alt, windows, "
+"tab, NVDA+F1, object navigation gestures, etc)."
+msgstr ""
+"en appuyant sur le geste qui sort des objets de la barre d'outils actuelle "
+"(alt, windows, tab, NVDA+F1, gestes de navigation par objet, etc.)."
+
+#. type: Plain text
+msgid ""
+"Other gestures not containing alt, windows or escape (as h, 1, shift, "
+"shift+h, control+z) simply does nothing."
+msgstr ""
+"D'autres gestes ne contenant pas alt, windows ou échap (comme h, 1, maj, "
+"maj+h, contrôle+z) simplement ne fait rien."
+
+#. type: Title ##
+#, no-wrap
+msgid "Suggestions"
+msgstr "Suggestions"
+
+#. type: Bullet: '* '
+msgid ""
+"The add-on may fail in Mozilla applications the first time after add-on "
+"installation/update; please restart NVDA and Mozilla applications to resolve;"
+msgstr ""
+"L'extension peut échouer dans les applications Mozilla la première fois "
+"après l'installation / mise à jour de l'extension; Veuillez redémarrer les "
+"applications NVDA et Mozilla pour résoudre ;"
+
+#. type: Bullet: '* '
+msgid ""
+"In LibreOffice, best configuration is probably default or single toolbar, "
+"set it on view menu/toolbar position."
+msgstr ""
+"Dans LibreOffice, la meilleure configuration est probablement la barre "
+"d'outils par défaut ou unique, définissez-la dans le menu Affichage / "
+"Position des barre d'outils."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=toolbarsExplorer"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=toolbarsExplorer"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=toolbarsExplorer-dev"
+msgstr ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=toolbarsExplorer-dev"

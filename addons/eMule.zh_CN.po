@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-03-10 18:42+0000\n"
+"PO-Revision-Date: 2022-05-25 09:48+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"eMule\"]]\n"
+msgstr "[[!meta title=\"eMule - 电骡支持插件\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Authors: Noelia, Chris, Alberto."
+msgstr "作者： Noelia, Chris, Alberto."
+
+#. type: Plain text
+msgid ""
+"This add-on helps to improve accessibility of eMule with nVDA.  It also "
+"provides additional keyboard commands for moving in different windows and "
+"gives Useful information about eMule."
+msgstr ""
+"此插件有助于提高eMule与nVDA的可访问性。它还提供了用于在不同窗口中移动的其他键"
+"盘命令，并提供了有关eMule的有用信息。"
+
+#. type: Plain text
+msgid ""
+"It's based on the eMuleNVDASupport add-on, developed by the same author. You "
+"should uninstall that old add-on to use this one, since both have common "
+"keystrokes and features."
+msgstr ""
+"当前插件基于同一作者开发的eMuleNVDASupport插件。您应该卸载该旧插件以使用此插"
+"件，因为两者都有共同的按键和功能。"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Tested on [eMule][2] 0.50a."
+msgid "Tested on [eMule][1] 0.50a."
+msgstr "经[eMule][2] 0.50a的测试。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands:"
+msgstr "快捷键:"
+
+#. type: Bullet: '*	'
+msgid "control+shift+h: Moves focus and mouse to main toolbar."
+msgstr "control+shift+h： 移动鼠标和焦点到”主工具栏。"
+
+#. type: Bullet: '*	'
+msgid "control+shift+t: Reads the current window."
+msgstr "control+shift+t: 朗读当前窗口。"
+
+#. type: Bullet: '*	'
+msgid "control+shift+n: Moves the focus to the Name field in the Find window."
+msgstr "control+shift+n： 移动焦点到“查找”窗口的“名称”编辑区。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+p: In the Search window, moves focus and mouse to the list of "
+"search parameters, or edit field options."
+msgstr ""
+"control+shift+p： 切换焦点和鼠标到“搜索”窗口的搜索参数列表和编辑区选项。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+b: Move the focus to the list in the current window. For "
+"example usable in the Search window, downloads in Transfer window, etc."
+msgstr ""
+"control + shift + b：将焦点移动到当前窗口的列表中。例如，可在“搜索”窗口中使"
+"用，在“传输”窗口中下载等。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+o: Move the focus to read-only edit boxes in the current "
+"window. For example the IRC received messages, available Servers, etc."
+msgstr ""
+"control + shift + o：将焦点移动到当前窗口中的只读编辑框。例如，IRC收到消息，"
+"可用服务器等。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+NVDA+f: If the caret is located in a read only edit box, opens a "
+"find dialog to use the commands for searching text available in NVDA."
+msgstr ""
+"control + NVDA + f：如果插入符号位于只读编辑框中，则打开查找对话框以使用命令"
+"搜索NVDA中可用的文本。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+l: Moves the navigator object and mouse to the headers of the "
+"current list."
+msgstr "control+shift+l： 移动鼠标和浏览对象到当前列表的表头。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+q: Reads the first object in the status bar; provides "
+"information about recent activity."
+msgstr "control+shift+q： 朗读状态栏的第一个对象，提供最近一次活动的信息。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+w: Reads the second object of the status bar; contains "
+"information about files and users on the current server."
+msgstr ""
+"control+shift+w: 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信"
+"息。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+e: Reads the third object of the status bar; useful to know "
+"the UpLoad/DownLoad speed."
+msgstr "control+shift+e： 查看第三个状态栏的对象，常用来了解上传和下载速度。"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+r: Reads The fourth object of the status bar; reports on "
+"connecting of eD2K and Kad network."
+msgstr ""
+"control+shift+r： 查看状态栏的第四个对象，用来了解 ED2K 和 KAD 网络的连接情"
+"况。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Managing columns."
+msgstr "管理列。"
+
+#. type: Plain text
+msgid ""
+"When within a list, you can move the caret between the rows and columns "
+"using alt+control+ Arrows.  In this Add-on the following key commands are "
+"also available:"
+msgstr ""
+"在一个列表内，您可以使用 CTRL加ALT家光标键 在列表的行列之间进行浏览。在此插"
+"件，下面的按键也是可用的："
+
+#. type: Bullet: '*	'
+msgid "nvda+control+1-0: Reads the first 10 columns."
+msgstr "nvda+control+1到0： 朗读前十列。"
+
+#. type: Bullet: '*	'
+msgid "nvda+shift+1-0: Reads columns 11 to 20."
+msgstr "nvda+shift+1到0： 朗读第11到20列。"
+
+#. type: Bullet: '*	'
+msgid ""
+"nvda+shift+C: Copies the contents of the last read column to the clipboard."
+msgstr "nvda+shift+C： 拷贝最后一次朗读的那一列的内容到剪贴板。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 6.0"
+msgid "Changes for 7.0"
+msgstr "版本6.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatible with NVDA 2021.1."
+msgid "Compatible with NVDA 2023.1."
+msgstr "兼容 NVDA 2021.1。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "版本6.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2022.1 or later."
+msgstr "需要 NVDA 2022.1 或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "版本5.0"
+
+#. type: Bullet: '*	'
+msgid "Compatible with NVDA 2021.1."
+msgstr "兼容 NVDA 2021.1。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "版本4.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2019.3 or later."
+msgstr "需要NVDA 2019.3或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "版本3.0"
+
+#. type: Bullet: '*	 '
+#, fuzzy
+#| msgid ""
+#| "To search text in the readonly edit boxes,  the find dialog  can be used, "
+#| "such as nvda+control+f to activate the find dialog."
+msgid ""
+"To search text in the readonly edit boxes,  the find dialog  can be used, "
+"such as nvda+control+f to activate the find dialog."
+msgstr ""
+"要在只读编辑框中搜索文本，可以使用查找对话框，例如nvda + control + f来激活查"
+"找对话框。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "版本2.0"
+
+#. type: Bullet: '*	 '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "插件管理器现在已提供了插件的帮助。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "版本1.2"
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving to the IRC messages, the selected text is reported properly."
+msgstr "当移动到 IRC 消息时，选择的文本内容已可正确的朗读。"
+
+#. type: Bullet: '*	 '
+msgid ""
+"The keystroke used for moving to the Search results list has been "
+"generalized to be able to move focus to any available list in the current "
+"window."
+msgstr ""
+"用于移动到搜索结果列表的快捷键已被推广，以便能够将焦点移动到当前窗口中的任何"
+"可用列表。"
+
+#. type: Bullet: '*	 '
+msgid ""
+"The command used to focus the IRC messages has been generalized to move to "
+"any read-only edit box, making it possible to review connection information "
+"in the Servers window."
+msgstr ""
+"用于聚焦IRC消息的快捷键已被推广到移动到任何只读编辑框，从而可以在“服务器”窗口"
+"中查看连接信息。"
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving mouse and focus to the toolbar, in some cases it was announced "
+"twice. This has been fixed."
+msgstr ""
+"当移动鼠标并将焦点移动到工具栏时，在某些情况下它会被朗读两次。这已得到修复。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "版本1.1"
+
+#. type: Bullet: '*	 '
+msgid ""
+"Fixed bug in eMule item under NVDA's help menu, when the user config folder "
+"name contains non latin characters."
+msgstr ""
+"修复在用户配置文件夹名称包含非拉丁字符时 NVDA 帮助菜单下的 eMule 项目，发生的"
+"错误。"
+
+#. type: Bullet: '*	 '
+msgid "Shortcuts can now be reassigned using the NVDA gesture input dialog."
+msgstr "现在，可使用“创建手势”对快捷键进行更改。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "版本1.0"
+
+#. type: Bullet: '*	 '
+msgid "Initial version."
+msgstr "初始版本。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://www.emule-project.net"
+msgid "[1]: https://www.emule-project.net"
+msgstr "[2]: https://www.emule-project.net"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2019.3 or later."
+#~ msgid "NVDA compatibility: 2022.1 or later."
+#~ msgstr "NVDA兼容版本: 2019.3或更高版本。"
+
+#~ msgid ""
+#~ "download [stable version][1] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "下载[稳定版][1（兼容NVDA 2022.1及更高版本）"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+
+#~ msgid "download [version compatible with NVDA 2017.3][4]"
+#~ msgstr "下载 [与NVDA 2017.3兼容的旧版本插件][4]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+#~ msgid "[4]: http://addons.nvda-project.org/files/get.php?file=em-o"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+
+#~ msgid ""
+#~ "download [development version][3] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "下载[开发版][3]（兼容NVDA 2022.1及更高版本）"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+
+#~ msgid "download [stable version][1]"
+#~ msgstr "下载[稳定版本][1]"
+
+#~ msgid "download [development version][3]"
+#~ msgstr "下载[开发版本][3]"

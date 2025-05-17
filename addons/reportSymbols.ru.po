@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-12-01 07:43+0000\n"
+"PO-Revision-Date: 2024-06-14 10:17+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
+"Language-Team: Translators <nvda-translations@groups.io>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Report Symbols\"]]\n"
+msgstr "[[!meta title=\"Сообщать Символы\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Author: Noelia Ruiz Martínez."
+msgstr "Автор: Noelia Ruiz Martínez."
+
+#. type: Plain text
+msgid ""
+"This add-on allows to listen the typed symbols (non alphanumeric or blank "
+"characters), even when the speaking of typed characters is turned off in "
+"NVDA."
+msgstr ""
+"Это дополнение позволяет слышать набираемые символы (не буквенно-цифровые "
+"или пустые), даже если произношение символов выключено в NVDA."
+
+#. type: Plain text
+msgid ""
+"It's based on the old ReportSymbols add-on, developed by the same author. "
+"You should uninstall it to use this version."
+msgstr ""
+"Оно основано на старом дополнении ReportSymbols, разработанном тем же "
+"автором. Сначала удалите старое дополнение, чтобы использовать это."
+
+#. type: Title ##
+#, no-wrap
+msgid "Preferences menu"
+msgstr "Пункт в меню Параметры"
+
+#. type: Bullet: '*	'
+msgid ""
+"Report Symbols settings: Allows to set preferences for the speaking of typed "
+"symbols."
+msgstr ""
+"Настройки Report Symbols: позволит настроить озвучивание набираемых символов."
+
+#. type: Plain text
+msgid ""
+"Note: A gesture to open this dialog can be assigned from NVDA menu, "
+"Preferences submenu, Input gestures dialog, Configuration category."
+msgstr ""
+"Примечание: вы можете назначить жест на открытие диалога настроек, "
+"проследовав в меню NVDA, подменю \"Параметры\", пункт \"Жесты ввода\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 8.0"
+msgstr "Изменения в версии 8.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr "Совместимо с NVDA 2023.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 7.0"
+msgstr "Изменения в версии 7.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2022.1."
+msgstr "Совместимо с NVDA 2022.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Изменения в версии 6.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2021.1."
+msgstr "Совместимо с NVDA 2021.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Изменения в версии 5.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Требуется NVDA 2019.3 или позднее."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Изменения в версии 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The add-on settings are shown in the corresponding category of the NVDA "
+"Settings dialog."
+msgstr ""
+"Настройки дополнения отображаются в соответствующей категории диалога "
+"настроек NVDA."
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2018.2 or later."
+msgstr "Требуется NVDA 2018.2 или позднее."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Изменения в версии 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added checkboxes for the speaking of spaces, carriage returns and other "
+"blank characters."
+msgstr ""
+"Добавлены флажки для проговаривания пробелов, возврата каретки и других "
+"символов пустоты."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Изменения в версии 2.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"The visual presentation of the dialog has been enhanced, adhering to the "
+"appearance of the dialogs shown in NVDA."
+msgstr ""
+"Визуальное представление диалогов было модифицировано, придерживаясь "
+"внешнего вида диалогов, отображаемых в NVDA."
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2016.4 or later."
+msgstr "Требуется NVDA 2016.4 или позднее."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Изменения в версии 1.0"
+
+#. type: Bullet: '*	'
+msgid "Initial version."
+msgstr "Первоначальная версия."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#~ msgid ""
+#~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
+#~ "[3]."
+#~ msgstr ""
+#~ "При необходимости вы можете загрузить [последнюю версию, совместимую с "
+#~ "NVDA 2017.3][3]."
+
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rsy"
+#~ msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o"
+#~ msgstr "[3]: https://www.nvaccess.org/addonStore/legacy?file=rsy-o"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rsy"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=reportSymbols"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rsy"
+
+#, fuzzy
+#~| msgid "Download [development version][2]"
+#~ msgid ""
+#~ "Download [development version][2] (compatible with NVDA 2019.3 and beyond)"
+#~ msgstr "Загрузить [разрабатываемую версию][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rsy-dev"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Загрузить [стабильную версию][1]"

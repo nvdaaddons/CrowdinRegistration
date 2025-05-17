@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2015-01-09 10:34+0100\n"
+"Last-Translator: Leonard de Ruijter <mail@leonardder.nl>\n"
+"Language-Team: nl\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Focus Highlight\"]]\n"
+msgstr "[[!meta title=\"Focus Highlight\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Authors: Takuya Nishimoto"
+msgid "Authors: Takuya Nishimoto, Karl-Otto Rosenqvist"
+msgstr "Auteur: Takuya Nishimoto"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][2]"
+msgstr "Download [stabiele versie][2]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "Download [ontwikkelversie][1]"
+
+#. type: Plain text
+msgid ""
+"By drawing a colored rectangle, this addon enables partially sighted users, "
+"sighted educators, or developers to track the location of the nvda navigator "
+"object and the focused object/control."
+msgstr ""
+"Deze add-on is bedoeld voor slechtziende gebruikers en ziende instructeurs "
+"en ontwikkelaars. Een gekleurde rechthoek helpt hen om te weten waar het "
+"nvda navigator object is en welk object of control focus heeft."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "The following 2 colors are used by this addon:"
+msgid "The following colors are used by this addon:"
+msgstr "Deze add-on gebruikt de volgende 2 kleuren:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Green jagged line, to indicate the navigator object."
+msgid ""
+"Green thin dashed-dotted line rectangle shows NVDA is in browse mode, and "
+"this is the navigator object."
+msgstr "Een groene golvende lijn duidt het navigatorobject aan."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Red thin rectangle , to indicate the focused object/control."
+msgid ""
+"Red thin rectangle shows NVDA is in browse mode, and this is the focused "
+"object/control."
+msgstr ""
+"Een rode dunne rechthoek duidt het object of de control aan die focus heeft."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Red thick rectangle, to indicate when navigator object and focused object "
+#| "are overlapping."
+msgid ""
+"Red thick rectangle shows NVDA is in browse mode, and this is both the "
+"navigator object and the focused object which are overlapping."
+msgstr ""
+"Een rode dikke rechthoek duidt aan dat het navigator object overlapt met het "
+"object dat focus heeft."
+
+#. type: Bullet: '* '
+msgid ""
+"Blue thick dotted line rectangle indicates NVDA is in focus mode, i.e., key "
+"types are passed to the control."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To toggle object tracking, press NVDA+Alt+P. You can assign other gestures "
+"using the Input Gestures dialog.  Note that it works with NVDA 2018.3 or "
+"later.  Otherwise, you should disable or uninstall the addon itself for "
+"disabling object tracking."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"When Focus Highlight category of NVDA Settings dialog is available, "
+"following items can be used."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Make focus mode the default: This checkbox is enabled by default. When it is "
+"unchecked, this add-on behaves same as version 5.6 or previous versions, i."
+"e., if browse mode is not available for an app, the focus is shown using the "
+"thick red rectangle."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Focus in focus mode, Focus in browse mode, Navigator object: Each of these "
+"groups contains Color, Thickness, and Style."
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"Color: This edit field allows you to type the HTML color code, i.e., six-"
+"character hexadecimal number. For example, \"ffffff\" is white, \"ff0000\" "
+"is red, and so on. Note that \"000000\" can not be used."
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"Thickness: This edit field allows you to type the thickness of the box. You "
+"can enter a value between 1 and 30."
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid "Style: The choices are Solid, Dash, Dot, Dash dot, and Dash dot-dot."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Restore defaults: This button allows you to reset your settings to their "
+"original defaults."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 6.3"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that dash styles of focus (in browse mode) and navigator "
+"object are not able to change."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that 'Cancel' button of setting panel does not work after "
+"'Restore defaults' button is pressed."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 6.2"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"You can now turn object tracking on and off using NVDA+Alt+P. Karl-Otto "
+"Rosenqvist contributed for this."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 6.1"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/14) "
+"with the latest development versions of NVDA."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Focus Highlight category of NVDA Settings dialog is now available. Note that "
+"it works only with NVDA 2018.3 or later."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding customizing colors](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding 'Make focus mode the default'](https://github.com/"
+"nvdajp/focusHighlight/issues/13)"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 6.0"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/13) "
+"regarding the browse mode."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Since this version, if the browse mode of NVDA is not available for an "
+"application, it is always shown that NVDA is in focus mode for the "
+"application, rather than using the red thick rectangle."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The thickness of the line representing the focus mode has been reduced to "
+"half."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 5.6"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "Addresses the compatibility issue with NVDA snapshot alpha-16682."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 5.5"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "Addresses the issue with NVDA 2018.4 and Firefox/Chrome web browsers."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 5.4"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/11) "
+"regarding version compatibility."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 5.3"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+"regarding Chrome browser and application sleep mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 5.2"
+msgstr "Veranderingen in 2.0"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 5.1"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "Removed debug log output."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 5.0"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Red thick rectangle, to indicate when navigator object and focused object "
+#| "are overlapping."
+msgid "Indicators of navigator object and focus mode were changed."
+msgstr ""
+"Een rode dikke rechthoek duidt aan dat het navigator object overlapt met het "
+"object dat focus heeft."
+
+#. type: Bullet: '* '
+msgid "Multiple monitors are supported."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "It now uses GDI Plus technology for drawing."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 4.0"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "Hide rectangle if current application is in sleep mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 3.0"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "Fixed issue regarding expanded combo box."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Fixed issue with 'Reload plugins'."
+msgid "Fixed issue with Windows Task Manager."
+msgstr "Probleem opgelost met 'Plugins herladen'."
+
+#. type: Bullet: '* '
+msgid "Ability to indicate the focus mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 2.1"
+msgstr "Veranderingen in 2.0"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Add-on help is beschikbaar via Add-ons beheren"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Veranderingen voor 1.1"
+
+#. type: Bullet: '* '
+msgid "Changed navigator object rectangle to jagged line."
+msgstr ""
+"Het navigatorobject wordt niet langer aangeduid met een rechthoek maar met "
+"een golvende lijn."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with 'Reload plugins'."
+msgstr "Probleem opgelost met 'Plugins herladen'."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Veranderingen in 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In Internet Explorer 10 and in Skype on Windows 8, fix a problem with the "
+"navigator object."
+msgstr ""
+"In Internet Explorer 10 en in Skype op Windows 8 is een probleem opgelost "
+"met het navigatorobject."
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Eerste versie."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=fh-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=fh"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+
+#, fuzzy
+#~| msgid "To disable object tracking, uninstall the addon."
+#~ msgid "To disable object tracking, disable or uninstall the addon."
+#~ msgstr "Om object tracking uit te schakelen, verwijdert u de addon."

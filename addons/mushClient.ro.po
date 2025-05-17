@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2017-06-03 15:11+0300\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Mush Client\"]]\n"
+msgstr "[[!meta title=\"Mush Client\"]]\n"
+
+#. type: Bullet: '*   '
+msgid "Author: Nick Stockton"
+msgstr "Autor: Nick Stockton"
+
+#. type: Bullet: '*   '
+msgid "download [development version][2]"
+msgstr "Descărcați [versiunea în dezvoltare][2]"
+
+#. type: Plain text
+msgid "This add-on enhances the mush Client for use with NVDA."
+msgstr "Acest supliment îmbunătățește utilizarea clientului Mush cu NVDA."
+
+#. type: Plain text
+msgid "From the add-on description:"
+msgstr "Descrierea suplimentului:"
+
+#. type: Plain text
+msgid ""
+"This add-on provides the following accessibility improvements for Mush "
+"Client:"
+msgstr ""
+"El oferă următoarele îmbunătățiri de accesibilitate pentru Mush Client:"
+
+#. type: Bullet: '1.  '
+msgid ""
+"The NVDA navigator object is now automaticly set to the output window of "
+"Mush Client in order to make reviewing output easier."
+msgstr ""
+"Obiectul navigator al NVDA-ului este acum setat automat la fereastra de "
+"ieșire a clientului Mush ca să facă examinarea mai ușoară a ieșirii."
+
+#. type: Bullet: '2.  '
+msgid ""
+"Two new hotkeys (NVDA-8 and NVDA-9) toggle the \"speech interrupt for typed "
+"characters\" and \"speech interrupt for enter key\" settings respectively."
+msgstr ""
+"Două comenzi noi (NVDA-8 și NVDA-9) comută „întreruperea vorbirii pentru "
+"caracterele tastate” și „întreruperea vorbirii pentru tasta enter”, "
+"respectiv setări."
+
+#. type: Bullet: '3.  '
+msgid ""
+"Additionally, NVDA-Enter and numbpad-Enter will set the position of the NVDA "
+"navigator object to the last line of text in the output window and speak it."
+msgstr ""
+"În plus, NVDA-Enter și numbpad-Enter vor seta poziția obiectului navigator "
+"al NVDA-ului la ultimul rând al textului în fereastra de ieșire și o "
+"rostește."
+
+#. type: Bullet: '4.  '
+msgid ""
+"The \"report Dynamic Content Changes\", \"caret moves review cursor\", "
+"\"speech interrupt for typed characters\", and \"speech interrupt for enter "
+"key\" settings are now automatically saved to a separate configuration file "
+"when the Mush Client window loses focus and restored when it receives focus "
+"again."
+msgstr ""
+" Setările „Raportarea modificărilor conținutului dinamic”, „caret-ul "
+"deplasează cursorul de examinare”, „vorbirea întreruptă pentru caracterele "
+"tastate”, și „întreruperea vorbirii pentru tasta Enter” sunt acum salvate "
+"automat într-un fișier de configurare când fereastra Mush Client pierde "
+"focalizarea și a restaurat când primește din nou focalizarea."
+
+#. type: Plain text
+msgid ""
+"Note: since most people will be using Mush Client with a speech plugin for "
+"auto-speaking incoming text, NVDA's \"report Dynamic Content Changes\" "
+"setting is disabled by default to avoid speaking incoming lines twice.  If "
+"you want to turn on the automatic speaking of incoming lines by NVDA, toggle "
+"this setting on with the NVDA-5 hotkey."
+msgstr ""
+"Deoarece mulți oameni vor utiliza Mush Client cu un plugin de vorbire pentru "
+"auto-rostirea textului, setarea „raportarea modificărilor conținutului "
+"dinamic al NVDA-ului este dezactivată în mod implicit pentru a evita "
+"repetarea textului de două ori. Dacă vreți să activați auto-rostirea "
+"textului cu NVDA, comutați la activarea setării cu scurtătura NVDA+5."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=mush"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=mush"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=mush"

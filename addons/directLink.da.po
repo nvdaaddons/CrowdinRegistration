@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2021-09-13 10:50+0200\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Direct Link\"]]\n"
+msgstr "[[!meta title=\"Direkte Link\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Fawaz Abdul Rahman"
+msgstr "Forfatter: Fawaz Abdul Rahman"
+
+#. type: Bullet: '* '
+msgid "Version: 1.0"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "NVDA-kompatibilitet: 2019.3 og derefter"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Download [stabil version][1]"
+
+#. type: Title ##
+#, no-wrap
+msgid "Functionality"
+msgstr "Funktionalitet"
+
+#. type: Plain text
+msgid ""
+"The purpose of the addon is to convert the Dropbox, Google Drive or oneDrive "
+"(both personal and business) links to a direct link, furthermore, it "
+"generates a direct link to a WhatsApp chat with the chosen selected phone "
+"number."
+msgstr ""
+"Formålet med tilføjelsen er at konvertere Dropbox, Google Drive eller "
+"oneDrive (både personlige og forretningsmæssige) links til et direkte link, "
+"og det genererer desuden et direkte link til en WhatsApp -chat med det "
+"valgte valgte telefonnummer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Brug"
+
+#. type: Bullet: '* '
+msgid "Select or copy a shared Dropbox, Google Drive or oneDrive link"
+msgstr "Vælg eller kopier et delt Dropbox-, Google Drev- eller oneDrive -link"
+
+#. type: Bullet: '* '
+msgid ""
+"Press alt+NVDA+l to convert the link. The resulting URL will be in your "
+"clipboard."
+msgstr ""
+"Tryk på alt+NVDA+l for at konvertere linket. Webadresse vil blive kopieret "
+"til din udklipsholder."
+
+#. type: Bullet: '* '
+msgid ""
+"Similarly for the phone number, copy or select the number you like to chat "
+"with or share and press the same shortcut (alt+NVDA+L)."
+msgstr ""
+"Dette er tilsvarende for telefonnummeret. Kopier eller vælg det nummer, du "
+"gerne vil chatte med eller dele, og tryk på den samme genvej (alt+NVDA+L)."
+
+#. type: Bullet: '* '
+msgid ""
+"if you like to open the resulted link in your browser, press alt+NVDA+shift"
+"+l."
+msgstr ""
+"Hvis du vil åbne linket i din browser, skal du trykke på alt+NVDA+shift+l."
+
+#. type: Title ##
+#, no-wrap
+msgid "Why the direct link?"
+msgstr "Hvorfor det direkte link?"
+
+#. type: Plain text
+msgid ""
+"A direct link will allow you to get the well-known save dialog box directly "
+"if you open it in the browser, without being hassled by the hosting company "
+"download page and locating the download link.  Moreover, the direct link can "
+"be used to stream a file or view a file in certain programs such as media "
+"players (if coming with URL support).  Likewise, if WhatsApp is common in "
+"your country, rather than creating a new contact each time if you need to "
+"chat with someone, weather it is a customer or technical support, you can "
+"simply select the number or copy it and start chatting right away.  Even "
+"more, you can share the WhatsApp link of your own number if people usually "
+"need to contact you in case you work as a freelancer."
+msgstr ""
+"Et direkte link giver dig mulighed for at få den velkendte gemme-dialogboks, "
+"hvis du åbner den i browseren uden, at blive generet af hostingfirmaets "
+"downloadside og finde downloadlinket. Desuden kan det direkte link bruges "
+"til at streame en fil eller se en fil i visse programmer, f.eks. "
+"Medieafspillere (hvis den leveres med URL -understøttelse). På samme måde, "
+"hvis WhatsApp er almindeligt i dit land, i stedet for at oprette en ny "
+"kontakt hver gang, hvis du har brug for at chatte med nogen, hvis det er en "
+"kunde eller teknisk support, kan du blot vælge nummeret eller kopiere det og "
+"begynde at chatte med det samme. Du kan også dele WhatsApp -linket til dit "
+"eget nummer, hvis folk normalt har brug for at kontakte dig, hvis du "
+"arbejder som freelancer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Bemærkninger"
+
+#. type: Bullet: '* '
+msgid ""
+"A link of a folder cannot be converted; the link has to be directing to a "
+"file."
+msgstr ""
+"Et link til en mappe kan ikke konverteres; linket skal lede til en fil."
+
+#. type: Bullet: '* '
+msgid ""
+"Make sure the link you are sharing is public (anyone with the link can "
+"access) in order for it to be successfully converted."
+msgstr ""
+"Sørg for, at det link, du deler, er offentligt (alle med linket kan få "
+"adgang) for at det kan konverteres."
+
+#. type: Bullet: '* '
+msgid ""
+"You can change the hotkeys from the NVDA menu> preferences> input gestures."
+msgstr ""
+"Du kan ændre genvejstasterne fra NVDA -menuen>Opsætning>Håndter kommandoer."
+
+#. type: Bullet: '* '
+msgid ""
+"If you find a certain format of a phone number that is not detected, you can "
+"email me with an example."
+msgstr ""
+"Hvis du finder et bestemt format på et telefonnummer, der ikke findes, kan "
+"du sende mig en e -mail med et eksempel."
+
+#. type: Bullet: '* '
+msgid ""
+"Certain type of files and sizes in Google Drive might take you to a page "
+"that says \"Google Drive can't scan this file for viruses.\" in that case, "
+"you have to click on download anyway link."
+msgstr ""
+"Visse filtyper og størrelser i Google Drev tager dig muligvis til en side, "
+"der siger \"Google Drev kan ikke scanne denne fil efter vira.\" i så fald "
+"skal du klikke på \"download alligevel\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Acknowledgements"
+msgstr "Anerkendelser"
+
+#. type: Plain text
+msgid ""
+"A huge thanks goes to the following friends, without them I couldn't have "
+"made it happen:"
+msgstr ""
+"En stor tak til følgende venner, uden dem havde jeg ikke kunnet få det til "
+"at ske:"
+
+#. type: Bullet: '* '
+msgid ""
+"Qais Alrefai for testing the add-on and providing me with various material "
+"to test with, and also for his observations and general idea for the addon."
+msgstr ""
+"Qais Alrefai for at teste tilføjelsen og give mig forskellige materialer at "
+"teste med, og også for hans observationer og generelle idé til tilføjelsen."
+
+#. type: Bullet: '* '
+msgid ""
+"Marina Amir for translating the add-on to French, language editing and "
+"testing."
+msgstr ""
+"Marina Amir for at oversætte tilføjelsen til fransk, sprogredigering og test."
+
+#. type: Bullet: '* '
+msgid "Riad Assoum for translating the add-on to Arabic."
+msgstr "Riad Assoum for at oversætte tilføjelsen til arabisk."
+
+#. type: Bullet: '* '
+msgid "all testers."
+msgstr "alle testere."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=directlink"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=directlink"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=directlink"

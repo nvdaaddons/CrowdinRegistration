@@ -1,0 +1,529 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: LAMBDA\n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2023-04-16 19:19+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Lambda Add-On for NVDA\"]]\n"
+msgstr "[[!meta title=\"Lambda\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Alberto Zanella and the lambda-nvda team."
+msgstr "Tekijä: Alberto Zanella ja Lambda-NVDA-tiimi"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Lataa [kehitysversio][2]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"This project is an appModule for the LAMBDA Software. It has been inspired by the work of Peter Lecky at the Comenius University. \n"
+"LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) is a software that helps blind people to read and write math using a braille display and/or a speech synthesizer.\n"
+"LAMBDA is the result of an EU-Project. For more information about LAMBDA please visit [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
+msgstr ""
+"Tämä lisäosa sisältää sovellusmoduulin LAMBDA-ohjelmistoa varten. Se on saanut innoituksensa Peter Leckyn työstä Comenius Universityssä. \n"
+"LAMBDA (Linear Access to Mathematic for Braille Device and Audio-synthesis) on ohjelmisto, joka auttaa sokeita lukemaan ja kirjoittamaan matemaattista sisältöä pistenäyttöä ja/tai puhesyntetisaattoria käyttäen.\n"
+"LAMBDA on EU-hankkeen tulos. Lisätietoja löytyy osoitteesta [https://www.lambdaproject.org/](https://www.lambdaproject.org/).  \n"
+
+#. type: Plain text
+msgid ""
+"The current version of the addon has braille tables for Italian and Spanish "
+"languages and its interface is available in most of the NVDA's official "
+"languages, because it is translated by the NVDA translations community.  If "
+"you are a non-italian user of LAMBDA and you would like to contribute with "
+"the porting of the braille table in your language, feel free to contact the "
+"author (see below) or subscribe the project mailing list."
+msgstr ""
+"Lisäosan nykyinen versio sisältää italialaisen ja espanjalaisen "
+"pistetaulukon, ja sen käyttöliittymä on saatavana useimmilla NVDA:n "
+"tukemista kielistä.  Mikäli et ole italialainen LAMBDA-käyttäjä ja haluaisit "
+"osallistua kielialueesi pistetaulukon sovittamiseen, ota yhteyttä tekijään "
+"(katso alta) tai liity projektin postituslistalle."
+
+#. type: Plain text
+#, no-wrap
+msgid "**Please note:** This addon has been developed by Alberto Zanella as a voluntary activity. Nor the author or the contributors are involved in selling and / or development of the software Lambda. If you need more information about Lambda, or you need support on how to use it, please contact your local distributor. If you are encountering any difficulties when using or installing this addon, please contact the author or use the \"Issues\" link on the Github project page.\n"
+msgstr "**Huomaa:** Tämän lisäosan on kehittänyt Alberto Zanella vapaaehtoistoimintana. Tekijä tai projektiin osallistuneet eivät myy LAMBDA-ohjelmistoa tai ole mukana sen kehityksessä. Jos tarvitset lisätietoja tai tukea ohjelmiston käytössä, ota yhteyttä paikalliseen jälleenmyyjääsi. Mikäli sinulla on vaikeuksia tämän lisäosan käytössä tai asentamisessa, ota yhteyttä tekijään tai käytä \"Issues\"-linkkiä GitHub-projektisivulla.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "[Official Github Repository](https://github.com/lambda-nvda/lambdaNvda/)"
+msgstr "[Virallinen GitHub-koodivarasto](https://github.com/lambda-nvda/lambdaNvda/)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Addon Features:"
+msgstr "Lisäosan ominaisuudet:"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speech support:"
+msgstr "Puhetuki:"
+
+#. type: Bullet: '* '
+msgid "Dialogs and menus are properly reported;"
+msgstr "Valintaikkunat ja valikot luetaan asianmukaisesti;"
+
+#. type: Bullet: '* '
+msgid ""
+"Natural speech support for math formulas using the Lambda math engine, i.e. "
+"\"compound root 3 sep compound root 3 x plus 24, close compound root, minus "
+"3 equals 0\";"
+msgstr ""
+"Luonnollinen puhetuki matemaattisille kaavoille Lambda-matematiikkamoottoria "
+"käyttäen, esim. \"yhdysjuuri 3 jaettuna yhdysjuuri 3 x plus 24, yhdysjuuri "
+"loppuu, miinus 3 on yhtä kuin 0\"."
+
+#. type: Bullet: '* '
+msgid "implemented the Reading by character, words, lines and Say All;"
+msgstr ""
+"Toteutettu merkeittäin, sanoittain ja riveittäin lukeminen sekä jatkuva luku."
+
+#. type: Bullet: '* '
+msgid ""
+"Speaks when a block of text is selected or extended (using CTRL+B and "
+"SHIFT+CTRL+B);"
+msgstr ""
+"Puhuu tekstilohkon valitsemisen tai valinnan laajentamisen (Ctrl+B- ja "
+"Ctrl+Vaihto+B-komentoja käyttäen)."
+
+#. type: Bullet: '* '
+msgid ""
+"Speaks when moving in the text editor using standard Windows commands and "
+"Lambda-specific commands;"
+msgstr ""
+"Puhuu, kun  tekstieditorissa liikutaan Windowsin tavallisia ja Lambdan omia "
+"komentoja käyttäen."
+
+#. type: Bullet: '* '
+msgid ""
+"Both Extended and Short speech modes are supported (you can select it using "
+"the Tools menu in Lambda);"
+msgstr ""
+"Sekä laajennettua että lyhyttä puhetilaa tuetaan (tila valitaan Lambdan "
+"Työkalut-valikosta)."
+
+#. type: Bullet: '* '
+msgid ""
+"Special dialogs like structure mode, calculator, and matrix window are now "
+"correctly reported and NVDA reads correctly when moving the cursor around or "
+"when new text is typed ;"
+msgstr ""
+"Erikoisvalintaikkunat, kuten rakennetila-, laskin- ja matriisi-ikkuna, "
+"puhutaan nyt oikein, ja NVDA lukee asianmukaisesti, kun kohdistinta "
+"siirretään tai uutta tekstiä kirjoitetaan."
+
+#. type: Bullet: '* '
+msgid ""
+"Typing echo uses the Lambda text processor, so symbols and markers will be "
+"correctly reported."
+msgstr ""
+"Merkkien kaiutus käyttää Lambdan tekstiprosessoria, joten symbolit ja merkit "
+"puhutaan oikein."
+
+#. type: Title ###
+#, no-wrap
+msgid "Braille support:"
+msgstr "Pistekirjoituksen tuki:"
+
+#. type: Bullet: '* '
+msgid ""
+"The addon installs (inside the user profile directory) and activates a "
+"custom braille table. This table may be different for different languages. "
+"Custom braille tables were made from ones in the Lambda plugin for JAWS (jbt "
+"file). Then symbols and markers are represented using the same dots patterns;"
+msgstr ""
+"Lisäosa asentaa käyttäjäprofiilihakemistoon mukautetun pistetaulukon ja "
+"ottaa sen käyttöön. Tämä taulukko voi olla erilainen eri kielillä. "
+"Mukautetut pistetaulukot on tehty JAWSin Lambda-laajennuksen mukana "
+"toimitettujen jbt-tiedostojen pohjalta. Tämän ansiosta symbolit ja merkit "
+"esitetään samoilla pistekuvioilla."
+
+#. type: Bullet: '* '
+msgid ""
+"The addon creates an NVDA profile for a standard braille configuration. By "
+"this, the output is set to the custom braille table only when the Lambda "
+"application is active;"
+msgstr ""
+"Lisäosa luo NVDA:n asetusprofiilin vakiopistekirjoitusasetuksia varten. "
+"Tällä tavoin mukautettu pistetaulukko otetaan käyttöön tulostustaulukkona "
+"vain, kun Lambda-sovellus on aktiivisena."
+
+#. type: Bullet: '* '
+msgid "Dialogs and menus are properly reported in braille;"
+msgstr "Valintaikkunat ja valikot näytetään oikein pistekirjoituksella."
+
+#. type: Bullet: '* '
+msgid ""
+"The content of the editor is correctly rendered in braille and the user is "
+"able to move using braille scrolling keys or cursor routing keys;"
+msgstr ""
+"Editorin sisältö hahmonnetaan oikein pistekirjoituksella, ja käyttäjä voi "
+"liikkua pistenäytön vieritys- tai kohdistimensiirtonäppäimillä."
+
+#. type: Bullet: '* '
+msgid ""
+"Starting from the addon version 1.1.0, there are two ways in which the text "
+"in the Lambda editor is rendered: \"Flat mode\" and \"non-Flat Mode\". When "
+"the \"Flat mode\" is on, NVDA will use the Display Model to retrieve "
+"information from the editor and to determine the caret position. This is "
+"specially beneficial when the user needs to move around on the screen, even "
+"in white spaces. When the \"Flat Mode\" is set to \"off\", text rendering on "
+"the braille display is more stable, since NVDA uses Windows API to retrieve "
+"it. However when the the caret is moved in white spaces next to the end of "
+"the line of text, the braille display does not follow the real cursor as "
+"long as a non-white space is added by the user."
+msgstr ""
+"Lisäosan versiosta 1.1.0 alkaen Lambda-editorissa oleva teksti hahmonnetaan "
+"kahdella tavalla: \"tasatussa tilassa\" ja \"ei-tasatussa tilassa\". Kun "
+"\"tasattu tila\" on käytössä, NVDA käyttää näyttömallia tietojen hakemiseen "
+"editorista ja kohdistimen sijainnin määrittämiseen. Tämä on erityisen "
+"hyödyllistä silloin, kun käyttäjän täytyy liikkua näytöllä, jopa tyhjässä "
+"tilassa. Kun \"tasattu tila\" ei ole käytössä, tekstin hahmonnus "
+"pistenäytöllä on vakaampaa, koska NVDA käyttää Windowsin rajapintaa sen "
+"hakemiseen. Kuitenkin, kun kohdistinta siirretään tyhjässä tilassa "
+"tekstirivin lopun vieressä, pistenäyttö ei seuraa oikeaa kohdistinta niin "
+"kauan kuin käyttäjä on lisännyt jonkin muun kuin tyhjätilamerkin."
+
+#. type: Plain text
+msgid ""
+"The \"flat mode\" is active by default. You can toggle \"flat mode\" on or "
+"off by pressing NVDA+SHIFT+F."
+msgstr ""
+"\"Tasattu tila\" on oletusarvoisesti käytössä. Voit ottaa sen käyttöön tai "
+"poistaa käytöstä painamalla NVDA+Vaihto+F."
+
+#. type: Plain text
+msgid ""
+"We strongly recommend to disable the Flat Mode if you are using custom DPI "
+"in Windows (Custom sizing option), especially when you have screen settings "
+"with more than 96 dpi (larger than 100%)."
+msgstr ""
+"Suosittelemme poistamaan tasatun tilan käytöstä, jos käytät Windowsissa "
+"mukautettua DPI:tä (mukautettu kokovaihtoehto), varsinkin jos näytön "
+"asetuksissa on valittuna kooksi yli 96 DPI (suurempi kuin 100 %)."
+
+#. type: Bullet: '* '
+msgid ""
+"The structure of dialog boxes is easier, repeated information has been "
+"removed;"
+msgstr "Valintaikkunoiden rakenne on helpompi; toistuva tieto on poistettu."
+
+#. type: Bullet: '* '
+msgid ""
+"The selection will be marked properly using dots 7 and 8, and marking is "
+"properly refreshed while standard Windows commands (SHIFT+ARROWS) or Lambda "
+"specific commands (CTRL+B, CTRL+SHIFT+B) are pressed."
+msgstr ""
+"Valinta merkitään oikein pisteitä 7 ja 8 käyttäen, ja merkintä päivitetään "
+"oikein, kun tavallisia Windows-komentoja (Vaihto+Nuolinäppäimet) tai Lambda-"
+"komentoja (Ctrl+B, Ctrl+Vaihto+B) painetaan."
+
+#. type: Title ##
+#, no-wrap
+msgid "Before starting to use this addon."
+msgstr "Ennen kuin aloitat tämän lisäosan käytön:"
+
+#. type: Plain text
+msgid ""
+"This addon creates an NVDA profile named \"lambda\" which is associated with "
+"the \"lambda.exe\" application. The profile automatically sets all braille "
+"options: the custom braille table, the focus tethering and flat mode "
+"settings."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If a previous profile with the same name is present in your system, the "
+"addon will not override it and you have to manually adjust your "
+"configuration profile."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To stave off this situation, if you have specific settings you'd like to "
+"preserve, you can use the \"Revert LAMBDA Profile Wizard\". The shortcut to "
+"start this tool is NVDA+alt+r (when focused in LAMBDA)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"An easy option is also to delete old versions of the \"lambda\" profile "
+"after the installation of the addon. To do so, open the NVDA menu, select "
+"the \"Configuration profiles\" menu Item and press ENTER."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In the Configuration profiles dialog, you'll be able to locate and delete "
+"the \"lambda\" profile. The profile will be re-created the next time the "
+"Lambda application is started."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Deleting the \"lambda\" profile should be an easy solution also when the "
+"addon runs into any problem. For instance, if the braille table is not "
+"properly set, instead of manually configuring the profile, you can simply "
+"delete it. The addon will create a new one the next time you'll load the "
+"Lambda editor."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Each time the Lambda editor is started, this addon checks if a profile with "
+"the name \"lambda\" exists. If it doesn't, it automatically generates a "
+"profile with the following form:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"filename : userData\\profiles\\lambda.ini :\n"
+"\n"
+"[braille]\n"
+"\treadByParagraph = False\n"
+"\ttetherTo = focus\n"
+"\ttranslationTable = path-to-the-addon-brailleTable-dir\\tableName\n"
+"\n"
+"[lambda]\n"
+"\tbrailleFlatMode = True\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Where :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"path-to-the-addon-brailleTable-dir : is the absolute path of the addon "
+"directory + \"\\brailleTables\""
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"tableName : depends on the active NVDA language. Currently only the italian "
+"and Spanish braille tables, \"lambda-ita.utb\" and \"lambda-esp.utb\" "
+"respectively, is present."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Addon Keyboard Shortcuts:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "**NVDA+Shift+f**: Toggle braille flat mode on or off;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "**NVDA+alt+r**: Open the \"Revert LAMBDA Profile Wizard\";"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "**NVDA+d**: Duplicate lines (use this instad of control+d)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Known issues:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Due to a bug present in LAMBDA, the add-on provides an extra-logic that "
+"reports white spaces. This logic may fail in the following situations:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When words like \"space\", \"spazio\" \"Espacio\" etc. are inserted into the "
+"text, they may be reported by NVDA as the local NVDA language translation."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Blank lines are not reported by the LAMBDA speech engine. The user will hear "
+"the translation of the word \"space\" instead. This could be both a blank "
+"line or a line containing only the word \"space\"."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Useful tips"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This is a set of tips that will help you on using the addon in a more "
+"eficient way."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Character-by-character reporting: Normally, when working with maths you "
+"would like NVDA to report things you're writing character by character. To "
+"do this, there are a couple of simple steps: ensure to have the focus on the "
+"LAMBDA's window or one of its variants (the six dots representation, for "
+"example); press NVDA+2 (number two) or navigate to NVDA "
+"menu>Preferences>Keyboard settings and check the box to Speak typed "
+"characters; go to LAMBDA>Options>Voice paramethers and ensure the checkbox "
+"\"echo\" is ON, otherwhise NVDA won't receive anything from the speech "
+"engine while you are typing. And done, NVDA will speak written characters, "
+"but don't worry, only in LAMBDA or its special windows, the settings for the "
+"rest of applications will be left as they were."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Addon mailing list:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To report bugs, suggestions or if you want to contribute you can subscribe "
+"the Addon Group (in English).  You can subscribe from the website: <https://"
+"groups.io/g/lambda-nvda>."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Below is a list of changes between the different add-on versions. Next to "
+"the version number, between parentheses, is the development status. The "
+"current development release isn't included as it could have changes until it "
+"is flagged as stable or discarded as candidate."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3.0 (stable)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Support for newer version of NVDA (Support for Python 3)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Solved an issue while pressing duplicate line command NVDA+d in a blank line "
+"caused clipboard content to be pasted. Now when you press NVDA+d and you are "
+"in a blank line, a new blank line appears as expected."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2.2 (stable)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Improved compatibility with WX Python version 4 (introduced with NVDA "
+"2018.3). Warning related with wx.NewId() is no longer displayed in debug log."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Implemented guiHelper to enhance dialogs's appearance."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New languages. Updated translations."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2.1a (stable)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This update is intended to be a long-term support release. It means that "
+"until, at least, june 2018, it won't be released a version as stable as "
+"this. We do it to provide students maximum stability and to minimize the "
+"changes during the academical year."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2.1 (stable)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added compatibility with the way that NVDA 2017.3 uses to manage braille. "
+"Backwards compatibility kept."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fixed many braille issues."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2.0 (development)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This version was not published as stable because the version 1.2.1 included "
+"major fixes."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New locales. Updated localizations."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1.8 (stable)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Initial stable release."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=lambda"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=lambda"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=lambda-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=lambda-dev"
+
+#~ msgid ""
+#~ "﻿[[!meta title=\"Lambda Add-On for NVDA\"]] * Author: Alberto Zanella and "
+#~ "the lambda-nvda team.  * Download [stable version][1] * Download "
+#~ "[development version][2]"
+#~ msgstr ""
+#~ "﻿[[!meta title=\"LAMBDA-lisäosa NVDA:lle\"]] * Tekijä: Alberto Zanella ja "
+#~ "LAMBDA-NVDA-tiimi.  * Lataa [vakaa versio][1] * Lataa [kehitysversio][2]"

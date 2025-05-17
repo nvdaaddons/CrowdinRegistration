@@ -1,0 +1,548 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Website\n"
+"POT-Creation-Date: 2025-04-20 15:31+0000\n"
+"PO-Revision-Date: 2020-07-13 15:40+0200\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: Danish <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"GoldWave\"]]\n"
+msgstr "[[!meta title=\"GoldWave (tilføjelse ikke oversat)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Joseph Lee, NVDA contributors."
+msgstr "Forfattere: Joseph Lee, NVDA bidragydere."
+
+#. type: Plain text
+msgid "This app module enhances access and usage of GoldWave audio editor."
+msgstr ""
+"Dette app-modul forbedrer adgangen til og brugen af lydredigeringsprogrammet "
+"Goldwave. Bemærk: GoldWave-programmet har ikke en dansk sprogpakke "
+"tilgængelig. Derfor er tilføjelsen på nuværende tidspunkt ikke oversat."
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcuts"
+msgstr "Genveje"
+
+#. type: Plain text
+msgid "All commands support speech on demand mode."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Control+Shift+P: Announces current track position."
+msgstr "Ctrl+Skift+P: Annoncerer aktuelle sporposition."
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+R: Announces remaining time for the currently editing track."
+msgstr ""
+"NVDA+Skift+R: Annoncerer resterende tid for det spor du er i færd med at "
+"redigere."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+1: Announces the channel you are editing."
+msgstr "NVDA+Ctrl+1: Annoncerer kanalen du redigere."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+2: Announces the total length of the audio file."
+msgstr "NVDA+Ctrl+2: Annoncerer den fulde længde af lydfilen."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NvDA+3: announces a summary on audio selection information."
+msgid "Control+NVDA+3: announces a summary on audio selection information."
+msgstr ""
+"Ctrl+NVDA+3: Annoncerer en opsummering af markeringen for den del af "
+"lydfilen, du har valgt."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+4: Announces the zoom level."
+msgstr "NVDA+Ctrl+4: Annoncere det aktuelle niveau for zoom."
+
+#. type: Plain text
+msgid ""
+"For more information about GoldWave and keyboard commands, refer to GoldWave "
+"Manual."
+msgstr ""
+"For yderligere oplysninger om GoldWave og tastatur kommandoer, læs "
+"brugervejledningen til GoldWave."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgid "Note: GoldWave 6 or later and Windows 10 or later is required."
+msgstr "Windows 7 SP1, GoldWave 6.x og NVDA 2019.1 eller nyere er påkrævet."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.04"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed command announcement mode, replaced with speech on demand mode. In "
+"speech on demand mode, GoldWave specific commands such as setting start "
+"marker will stay silent while informational commands such as audio position "
+"will be spoken."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.02"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgid "NVDA 2024.1 or later is required."
+msgstr "Windows 7 SP1, GoldWave 6.x og NVDA 2019.1 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.01"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Support for GoldWave 6, including 64-bit version of GoldWave (see note "
+#| "above)."
+msgid "Support for GoldWave 7 (requires 64-bit Windows 10 or later)."
+msgstr ""
+"Understøttelse for GoldWave 6, herunder 64-bit version af GoldWave (se "
+"bemærkning ovenfor)."
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 23.02"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgid "NVDA 2022.4 or later is required."
+msgstr "Windows 7 SP1, GoldWave 6.x og NVDA 2019.1 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr "Windows 7 SP1, GoldWave 6.x og NVDA 2019.1 eller nyere er påkrævet."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 23.01"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgid "NVDA 2022.3 or later is required."
+msgstr "Windows 7 SP1, GoldWave 6.x og NVDA 2019.1 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.06"
+msgid "Version 22.03"
+msgstr "Version 20.06"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgid "NVDA 2021.3 or later is required."
+msgstr "Windows 7 SP1, GoldWave 6.x og NVDA 2019.1 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.06"
+msgid "Version 21.10"
+msgstr "Version 20.06"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In GoldWave 6.57 and later, NVDA will no longer repeat the name of the "
+"loaded file when pressing play/rewind/stop keys."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.06"
+msgid "Version 21.06"
+msgstr "Version 20.06"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgid "Resolved additional coding style issues and potential bugs with Flake8."
+msgstr "Løst mange problemer med kodningstil og potentielle fejl med Flake8."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr "Version 20.06"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr "Løst mange problemer med kodningstil og potentielle fejl med Flake8."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.04"
+msgstr "Version 20.04"
+
+#. type: Bullet: '* '
+msgid "Added input help messages for remainig time command (NVDA+Shift+R)."
+msgstr ""
+"Tilføjet inputhjælpsmeddelelser til kommandoen til resterende tid (NVDA "
+"+Shift+R)."
+
+#. type: Bullet: '* '
+msgid ""
+"Toggle command announcement command (NVDA+Shift+C) will now show up under "
+"\"GoldWave\" category in NVDA's input gestures dialog."
+msgstr ""
+"Kommandoen til at at aktivere og deaktivere udtale af meddelelser, når "
+"kommandoer udføres (NVDA+Shift+C) vises nu under kategorien \"GoldWave\" i "
+"NVDA's dialogboks med inputbevægelser."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Kræver NVDA 2019.3 eller nyere."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.11"
+msgstr "Version 19.09"
+
+#. type: Bullet: '* '
+msgid "Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required."
+msgstr "Windows 7 SP1, GoldWave 6.x og NVDA 2019.1 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid ""
+"Added help message for sound window (accessible if Control Usage Assistant "
+"add-on is installed)."
+msgstr ""
+"Tilføjet hjælpemeddelelse til lydvindue (tilgængelig, hvis tilføjelsen "
+"Brugsassistent til kontroller er installeret)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "Version 18.12"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when performing "
+"certain GoldWave commands with command announcement set to off (this may "
+"result in odd behaviors in some cases)."
+msgstr ""
+"NVDA vil ikke længere gør ingenting eller afspill fejletoner, når du udfører "
+"visse GoldWave-kommandoer med kommando-meddelelse slået til (dette kan "
+"medføre underlig adfærd i nogle tilfælde)."
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr ""
+"Interne ændringer for at bedre kunne understøtte fremtidige versioner af "
+"NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.07"
+msgstr "Version 18.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where leading zeroes would not be displayed when trying to "
+"obtain remaining time for a trakc."
+msgstr ""
+"Løst et problem, hvor ledende nul ikke ville blive vist, når man forsøgte at "
+"opnå resterende tid for et spor."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.05"
+msgstr "Version 17.05"
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to provide debug information when NVDA is running with debug "
+"logging enabled (NVDA 2017.1 or later)."
+msgstr ""
+"Tilføjet mulighed for at give fejlfindingsoplysninger, når NVDA kører med "
+"logføring aktiveret (NVDA 2017.1 eller senere)."
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "Opdaterede oversættelser."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.12"
+msgstr "Version 16.12"
+
+#. type: Bullet: '* '
+msgid "Version scheme is now year.month instead of major.minor."
+msgstr "Versionsordning er nu year.month i stedet for major.minor."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Ændringer i 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on repository has moved to GitHub (now located at https://github.com/"
+"josephsl/goldwave)."
+msgstr ""
+"Depotet til tilføjelsen er flyttet til GitHub (nu placeret på https://github."
+"com/josephsl/goldwave)."
+
+#. type: Bullet: '* '
+msgid ""
+"Performance improvements when looking up information such as channel name "
+"and other status information."
+msgstr ""
+"Ydelsesforbedringer, når du slår op information som kanalnavn og anden "
+"statusinformation."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Ændringer i 3.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Added a command to announce remaining time for the current track "
+#| "(NvDA+Shift+R)."
+msgid ""
+"Added a command to announce remaining time for the current track "
+"(NVDA+Shift+R)."
+msgstr ""
+"Tilføjet en kommando til at annoncere resterende tid for det aktuelle spor "
+"(NvDA+Skift+R)."
+
+#. type: Bullet: '* '
+msgid ""
+"Slight improvements when announcing status information such as channel "
+"information."
+msgstr ""
+"Små forbedringer når NVDA annoncerer statusoplysninger såsom "
+"kanaloplysninger."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Ændringer i 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Support for GoldWave 6, including 64-bit version of GoldWave (see note "
+"above)."
+msgstr ""
+"Understøttelse for GoldWave 6, herunder 64-bit version af GoldWave (se "
+"bemærkning ovenfor)."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on help can now be accessed from add-ons manager (NVDA 2014.3 and later)."
+msgstr ""
+"Hjælp til tilføjelsen kan nu tilgås ved hjælp fra dialogen \"Styring af "
+"tilføjelsesprogrammer\" (NVDA 2014.3 og nyere)."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA now announces selected channel if you press channel selection commands "
+"such as Control+Shift+L for the left channel."
+msgstr ""
+"NVDA annoncerer nu den valgte kanal, hvis du trykker på kanalvalgskommandoer "
+"som Ctrl+Skift+L for den venstre kanal."
+
+#. type: Bullet: '* '
+msgid ""
+"Various issues with numeric edit fields such as censor field and time "
+"selector in mix dialog has been fixed, including selecting text, updating "
+"values and so on."
+msgstr ""
+"Forskellige problemer med numeriske redigere felter som censor felt og time "
+"selector i mix dialog er blevet rettet, herunder valg af tekst, opdatering "
+"værdier, osv."
+
+#. type: Bullet: '* '
+msgid ""
+"Command announcement setting will be remembered when switching to other "
+"programs."
+msgstr ""
+"Indstilling til annoncering af kommandoer vil blive husket, når der skiftes "
+"til andre programmer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Ændringer i 1.2"
+
+#. type: Bullet: '* '
+msgid "Fixed an issue where NVDA had difficulty announcing some edit fields."
+msgstr ""
+"Rettede et problem, hvor NVDA havde svært ved at annoncere nogle editfelter."
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Nye og opdaterede oversættelser."
+
+#. type: Bullet: '* '
+msgid ""
+"Please note that due to recent changes in NVDA, audio selection and other "
+"status commands may not work as expected in some systems."
+msgstr ""
+"Bemærk venligst at på grund af de seneste ændringer i NVDA, vil kommandoer "
+"til valg af lyd og statuskommandoer ikke nødvendigvis fungerer korrekt på "
+"nogle systemer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Ændringer i 1.1"
+
+#. type: Bullet: '* '
+msgid "Support for message announcements in braille."
+msgstr "Understøtter meddelelser på punkt, når informationer annonceres."
+
+#. type: Bullet: '* '
+msgid "Audio selection summary is presented in languages other than English."
+msgstr ""
+"Opsummeringer af den markerede del af lydfilen vil nu blive præsenteret i "
+"andre sprog udover engelsk."
+
+#. type: Bullet: '* '
+msgid ""
+"More command announcements added including cue position movement and delete/"
+"trim operations."
+msgstr ""
+"Flere kommandomeddelelser tilføjet, herunder bevægelser af startmarkeringer "
+"samt beskæring og sletning."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue in numeric edit fields such as various effects dialogs where "
+"nothing or wrong field name was announced."
+msgstr ""
+"Rettede et problem i flere redigeringsfelter, såsom forskellige effect-"
+"dialoger hvor intet eller forkert feltnavn blev annonceret."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Ændringer i 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Første version."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=goldwave"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"
+
+#, fuzzy
+#~| msgid "NvDA+Shift+C: Toggles speaking of commands during audio editing."
+#~ msgid "NVDA+Shift+C: Toggles speaking of commands during audio editing."
+#~ msgstr ""
+#~ "NVDA+Skift+C: Slår udtale af kommandoer til og fra under lydredigering."
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Download [stabil version][1]"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2019.3 to 2020.2"
+#~ msgid "NVDA compatibility: 2022.4 and later"
+#~ msgstr "NVDA-kompatibilitet: 2019.3 til 2020.2"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Download [udviklingsversion][2]"
+
+#~ msgid ""
+#~ "Note: GoldWave 6 requires 64-bit version of Windows 7 or later. To use "
+#~ "this add-on, NVDA 2019.3 or later is required."
+#~ msgstr ""
+#~ "Bemærk: GoldWave 6 kræver 64-bit version af Windows 7 eller nyere. For at "
+#~ "bruge denne tilføjelse kræves NVDA 2019.3 eller nyere."
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=gwv-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=gwv-dev"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=gwv-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"

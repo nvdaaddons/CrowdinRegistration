@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kolay Tablo Dolaşımı\n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2025-04-30 17:54+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Easy Table Navigator\"]]\n"
+msgstr "[[!meta title=\"Kolay Tablo Dolaşımı\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Corentin Bacqué-Cazenave, Joseph Lee"
+msgstr "Yazarlar: Corentin Bacqué-Cazenave, Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürüm][1]ü indir"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "[Geliştirme sürümü][2]nü indir"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "NVDA uyumluluğu: 2019.3 ve sonrası"
+
+#. type: Plain text
+msgid ""
+"This plugin adds a layer command to use simplified key combination to navigate "
+"table cells.  When the layered commands are enabled, you can perform the "
+"following actions:"
+msgstr ""
+"Bu eklenti, tablo hücrelerinde dolaşmak için basitleştirilmiş tuş "
+"kombinasyonunu kullanmak üzere bir katman komutu ekler. Katmanlı komutlar "
+"etkinleştirildiğinde, aşağıdaki eylemleri gerçekleştirebilirsiniz:"
+
+#. type: Bullet: '* '
+msgid ""
+"Navigate to the previous or next cell horizontally or vertically using arrow "
+"keys"
+msgstr ""
+"Ok tuşlarını kullanarak yatay veya dikey olarak önceki veya sonraki hücreye "
+"gidin"
+
+#. type: Bullet: '* '
+msgid ""
+"Navigate to the first or last cell of the row or the column using "
+"control+arrow keys or Home, End, PageUp and PageDown"
+msgstr ""
+"Control+ok tuşlarını veya Home, End, PageUp ve PageDown'u kullanarak satırın "
+"veya sütunun ilk veya son hücresine gidin"
+
+#. type: Bullet: '* '
+msgid ""
+"Read the whole row or column without moving the system caret using "
+"windows+leftArrow / windows+upArrow"
+msgstr ""
+"Windows+sol ok / windows+yukarı ok kullanarak sistem imlecini hareket "
+"ettirmeden tüm satırı veya sütunu okuyun"
+
+#. type: Bullet: '* '
+msgid ""
+"Read the row or column starting from the current cell using "
+"windows+rightArrow / windows+downArrow"
+msgstr ""
+"Geçerli hücreden başlayarak satırı veya sütunu windows+sağ ok / windows+aşağı "
+"ok kullanarak okuyun"
+
+#. type: Plain text
+msgid "Currently supported tables are:"
+msgstr "Şu anda desteklenen tablolar şunlardır:"
+
+#. type: Bullet: '* '
+msgid "Browse mode (Internet Explorer, Firefox, etc.)."
+msgstr "Tarama kipi modu (Internet Explorer, Firefox, vb.)."
+
+#. type: Bullet: '* '
+msgid "Microsoft Word."
+msgstr "Microsoft Word."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Komutlar"
+
+#. type: Bullet: '* '
+msgid "Toggles table navigator layer on and off (unassigned)."
+msgstr "Tablo dolaşımı katmanını açar ve kapatır (atanmamış)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.4"
+msgstr "2.4 için değişiklikler"
+
+#. type: Plain text
+msgid "For this release, many thanks goes to Cyrille Bougot for his work."
+msgstr "Bu sürüm için, çalışmalarından dolayı Cyrille Bougot'ya çok teşekkürler."
+
+#. type: Bullet: '* '
+msgid "Table navigation fixed in MS Word"
+msgstr "Tablo dolaşımı MS Word'de düzeltildi"
+
+#. type: Bullet: '* '
+msgid "Introduce new commands following changes in NVDA 2022.2 and 2022.4"
+msgstr ""
+"NVDA 2022.2 ve 2022.4'teki değişiklikleri takiben yeni komutlar tanıtıldı"
+
+#. type: Bullet: '    * '
+msgid "home/end/pgUp/pgDown to jump to start/end of row/column"
+msgstr "başlangıç ​​noktasına atlamak için home/end/pgUp/pgDown/satır/sütun sonu"
+
+#. type: Bullet: '    * '
+msgid ""
+"control+left/right/up/downArrow to jump to start/end of row/column "
+"(alternative shortcut key for the same result)"
+msgstr ""
+"satır/sütun başına/sonuna atlamak için control+sol/sağ/yukarı/aşağıOk (aynı "
+"sonuç için alternatif kısayol tuşu)"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+left/up to read the whole row/column starting from the first cell without "
+"moving the current position of the cursor"
+msgstr ""
+"İmlecin mevcut konumunu hareket ettirmeden ilk hücreden başlayarak tüm satırı/"
+"sütun okumak için NVDA+sol/yukarı"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+right/down for sayAll in row/column, i.e. read the cells of the current "
+"row/column, starting from the current cell and moving the cursor's position "
+"while reading until the last cell of the row/column."
+msgstr ""
+"NVDA + sağ / aşağı diyelim ki Satırda / sütunda tümü, yani geçerli satırın / "
+"sütunun hücrelerini okuyun, geçerli hücreden başlayın ve satırın / sütunun son "
+"hücresine kadar okurken imlecin konumunu hareket ettirin."
+
+#. type: Bullet: '* '
+msgid "Remaped some keys to avoid conflicts:"
+msgstr "Çakışmaları önlemek için bazı tuşlar yeniden eşlendi:"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+upArrow/leftArrow becomes windows+upArrow/leftArrow (to read full column/"
+"row)"
+msgstr ""
+"NVDA+yukarı ok/sol ok, windows+yukarı ok/sol ok olur (tam sütun/satır okumak "
+"için)"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+downArrow/rightArrow becomes windows+downArrow/rightArrow (say all in "
+"column/row)"
+msgstr ""
+"NVDA+aşağı ok/sağ Ok, windows+aşağı ok/sağ Ok olur (tümünü sütun/satır olarak "
+"söyleyin)"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2023.1"
+msgstr "Artık NVDA 2023.1 ile uyumlu"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "2.3 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "It is now possible to disable table navigation layer from everywhere"
+msgstr "Tablo dolaşımı katmanını her yerden devre dışı bırakmak artık mümkün"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2022.1"
+msgstr "Artık NVDA 2022.1 ile uyumlu"
+
+#. type: Bullet: '* '
+msgid "Fix error when reloading the addon"
+msgstr "Eklentiyi yeniden yüklerken hata düzeltildi"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2.1"
+msgstr "2.2.1 için Değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Fixed an error in some type of documents including Word and Outlook"
+msgstr "Word ve Outlook dahil bazı belge türlerindeki bir hata düzeltildi"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "2.2 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Update documentation style from addons template"
+msgstr "Eklenti şablonundan belge stili güncellendi"
+
+#. type: Bullet: '* '
+msgid "First translated version"
+msgstr "İlk tercüme edilmiş sürüm"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1.1"
+msgstr "2.1.1 için Değişiklikler"
+
+#. type: Bullet: '* '
+msgid "New author in manifest and documentation"
+msgstr "Manifest dosyasında  ve belgelerde yeni yazar"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "2.1 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2021.1"
+msgstr "Artık NVDA 2021.1 ile uyumlu"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "2.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "NVDA 2019.3 veya sonraki bir sürümü gerektirir."
+
+#. type: Bullet: '* '
+msgid "Made various add-on messages translatable."
+msgstr "Çeşitli eklenti mesajları çevrilebilir hale getirildi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "1.2 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Gelecekteki NVDA sürümlerini desteklemek için değişiklikler."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "1.1 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where errors might be heard when spell checking a message in "
+"Outlook."
+msgstr ""
+"Outlook'ta bir iletide yazım denetimi yapılırken hataların duyulabileceği bir "
+"sorun düzeltildi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "1.0 için değişiklikler"
+
+#. type: Bullet: '*   '
+msgid "Initial release."
+msgstr "İlk sürüm."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=etn"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=etn"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=etn-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=etn-dev"
+
+#~ msgid ""
+#~ "This plugin adds a layer command to use arrow keys to navigate table cells."
+#~ msgstr ""
+#~ "Bu eklenti, tablo hücrelerinde gezinmek için ok tuşlarını kullanmak için "
+#~ "bir katman komutu ekler."

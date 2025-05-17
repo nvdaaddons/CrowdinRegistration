@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-02-12 03:19+0000\n"
+"PO-Revision-Date: 2023-06-10 17:40+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Virtual Review\"]]\n"
+msgstr "[[!meta title=\"Sanal İnceleme\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Rui Batista and NVDA Addon Team"
+msgstr "Yazarlar: Rui Batista ve NVDA Eklenti Ekibi"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü indir][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "NVDA uyumluluğu: 2019.3 ve sonrası"
+
+#. type: Plain text
+msgid ""
+"This Addon allows NVDA users to review a Window content in a text box, "
+"similar to window virtualization of JAWS for Windows.  Note, however, that "
+"this is just a convenience for users and does not replace NVDA's excellent "
+"review modes and object navigation support."
+msgstr ""
+"Bu Eklenti, NVDA kullanıcılarının Windows için JAWS'ın pencere "
+"sanallaştırmasına benzer şekilde bir metin kutusunda bir Pencere içeriğini "
+"incelemelerine olanak tanır.  Ancak bunun kullanıcılar için sadece bir "
+"kolaylık olduğunu ve NVDA'nın mükemmel inceleme modlarının ve nesne gezinme "
+"desteğinin yerini almadığını unutmayın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Kullanım"
+
+#. type: Plain text
+msgid ""
+"Press NVDA+control+w to open the virtual revision Window.  Then simply "
+"navigate the shown textbox as you do in any other text content.  You can "
+"press Escape to close the virtual revision window."
+msgstr ""
+"Sanal inceleme Penceresini açmak için NVDA+control+w tuşlarına basın. "
+"Ardından, diğer metin içeriklerinde yaptığınız gibi gösterilen metin "
+"kutusunda gezinin. Sanal inceleme penceresini kapatmak için Escape tuşuna "
+"basabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "3.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "NVDA 2019.3 veya sonraki sürümünü gerektirir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "2.3 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Gelecekteki NVDA sürümlerini desteklemek için dahili değişiklikler."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "2.2 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid ""
+"When windows are minimized or if the foreground window has no title, NVDA "
+"will record this fact when displaying virtual review window."
+msgstr ""
+"Pencereler simge durumuna küçültüldüğünde veya ön plandaki pencerenin "
+"başlığı yoksa, NVDA sanal inceleme penceresini görüntülerken bu durumu "
+"kaydedecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "2.1 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "The title of the screen under virtual review will be included."
+msgstr "Sanal inceleme altındaki ekranın başlığı dahil edilecektir."
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to review contents of Universal Windows Platform (UWP) "
+"apps in Windows 10 and most modern apps in Windows 8.x."
+msgstr ""
+"Windows 10'da Evrensel Windows Platformu (UWP) uygulamalarının ve Windows 8."
+"x'te çoğu modern uygulamanın içeriğini incelemek artık mümkün."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining screen contents for modern and universal apps, a beep will be "
+"heard to indicate when the virtual review window is ready."
+msgstr ""
+"Modern ve evrensel uygulamalar için ekran içerikleri alınırken, sanal "
+"inceleme penceresinin hazır olduğunu belirtmek için bir bip sesi duyulur."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "2.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "New name: Virtual Review."
+msgstr "Yeni ad: Sanal İnceleme."
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes in how content is shown, NVDA 2015.2 or later is required."
+msgstr ""
+"İçeriğin gösterilme biçimindeki değişiklikler nedeniyle NVDA 2015.2 veya "
+"sonrası gereklidir."
+
+#. type: Bullet: '* '
+msgid ""
+"Thanks to new features in 2015.2 and later, you can now find text in "
+"virtualized windows."
+msgstr ""
+"2015.2 ve sonraki sürümlerdeki yeni özellikler sayesinde artık "
+"sanallaştırılmış pencerelerde metin bulabilirsiniz."
+
+#. type: Bullet: '* '
+msgid "Fixed the add-on functionality with non-console window."
+msgstr "Konsol dışı pencerede eklenti işlevi düzeltildi."
+
+#. type: Bullet: '* '
+msgid "Removed useless blank lines at bottom of virtualized console window."
+msgstr ""
+"Sanallaştırılmış konsol penceresinin altındaki gereksiz boş satırlar "
+"kaldırıldı."
+
+#. type: Bullet: '* '
+msgid "Some minor adjustments."
+msgstr "Bazı küçük ayarlamalar."
+
+#. type: Bullet: '* '
+msgid "Translations added."
+msgstr "Çeviriler eklendi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "1.2 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Support virtualizing of console windows"
+msgstr "Konsol pencerelerinin sanallaştırma desteği"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "1.1 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Converted virtual revision to an add-on."
+msgstr "Sanal inceleme bir eklentiye dönüştürüldü."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "1.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "İlk Sürüm"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"

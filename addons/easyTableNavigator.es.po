@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2024-02-13 17:34+0100\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Easy Table Navigator\"]]\n"
+msgstr "[[!meta title=\"Easy Table Navigator\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Corentin Bacqué-Cazenave, Joseph Lee"
+msgstr "Autores: Corentin Bacqué-Cazenave, Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Descargar [versión estable][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Descargar [versión de desarrollo][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Compatibilidad con NVDA: de 2019.3 en adelante"
+
+#. type: Plain text
+msgid ""
+"This plugin adds a layer command to use simplified key combination to "
+"navigate table cells.  When the layered commands are enabled, you can "
+"perform the following actions:"
+msgstr ""
+"Este complemento añade una capa de órdenes para usar combinaciones de "
+"teclado simplificadas para navegar por celdas de tablas. Cuando las órdenes "
+"de capa están activadas, puedes realizar las siguientes acciones:"
+
+#. type: Bullet: '* '
+msgid ""
+"Navigate to the previous or next cell horizontally or vertically using arrow "
+"keys"
+msgstr ""
+"Navegar a la siguiente celda o la anterior horizontal o verticalmente usando "
+"las flechas"
+
+#. type: Bullet: '* '
+msgid ""
+"Navigate to the first or last cell of the row or the column using "
+"control+arrow keys or Home, End, PageUp and PageDown"
+msgstr ""
+"Navegar a la primera o última celda de la fila o columna usando "
+"control+flechas o inicio, fin, retroceso de página y avance página"
+
+#. type: Bullet: '* '
+msgid ""
+"Read the whole row or column without moving the system caret using "
+"windows+leftArrow / windows+upArrow"
+msgstr ""
+"Leer la fila o columna enteras sin mover el cursor del sistema usando "
+"windows+flecha izquierda o windows+flecha arriba"
+
+#. type: Bullet: '* '
+msgid ""
+"Read the row or column starting from the current cell using "
+"windows+rightArrow / windows+downArrow"
+msgstr ""
+"Leer la fila o columna empezando en la celda actual usando windows+flecha "
+"derecha o windows+flecha abajo"
+
+#. type: Plain text
+msgid "Currently supported tables are:"
+msgstr "Las tablas actualmente soportadas son:"
+
+#. type: Bullet: '* '
+msgid "Browse mode (Internet Explorer, Firefox, etc.)."
+msgstr "Modo Exploración (Internet Explorer, Firefox, etc.)."
+
+#. type: Bullet: '* '
+msgid "Microsoft Word."
+msgstr "Microsoft Word."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Órdenes"
+
+#. type: Bullet: '* '
+msgid "Toggles table navigator layer on and off (unassigned)."
+msgstr "Activa o desactiva la capa de navegador de tabla (sin asignar)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.4"
+msgstr "Cambios para 2.4"
+
+#. type: Plain text
+msgid "For this release, many thanks goes to Cyrille Bougot for his work."
+msgstr ""
+"En esta versión, muchos agradecimientos van hacia Cyrille Bougot por su "
+"trabajo."
+
+#. type: Bullet: '* '
+msgid "Table navigation fixed in MS Word"
+msgstr "Corregida la navegación por tablas en Microsoft Word"
+
+#. type: Bullet: '* '
+msgid "Introduce new commands following changes in NVDA 2022.2 and 2022.4"
+msgstr ""
+"Se introducen nuevas órdenes siguiendo los cambios en NVDA 2022.2 y 2022.4"
+
+#. type: Bullet: '    * '
+msgid "home/end/pgUp/pgDown to jump to start/end of row/column"
+msgstr ""
+"inicio / fin / retroceso página / avance página para saltar al inicio o fin "
+"de la fila o columna"
+
+#. type: Bullet: '    * '
+msgid ""
+"control+left/right/up/downArrow to jump to start/end of row/column "
+"(alternative shortcut key for the same result)"
+msgstr ""
+"control+flechas izquierda, derecha, arriba y abajo para saltar al inicio o "
+"fin de la fila o columna (teclas de atajo alternativas para el mismo "
+"resultado)"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+left/up to read the whole row/column starting from the first cell "
+"without moving the current position of the cursor"
+msgstr ""
+"NVDA+flechas izquierda o arriba para leer la fila o columna enteras desde la "
+"primera celda sin mover la posición actual del cursor"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+right/down for sayAll in row/column, i.e. read the cells of the current "
+"row/column, starting from the current cell and moving the cursor's position "
+"while reading until the last cell of the row/column."
+msgstr ""
+"NVDA+flechas derecha o abajo para verbalizar todo en la fila o columna, es "
+"decir, leer las celdas de la fila o columna actual, empezando en la celda "
+"actual y moviendo la posición del cursor mientras se lee hasta la última "
+"celda de la fila o columna."
+
+#. type: Bullet: '* '
+msgid "Remaped some keys to avoid conflicts:"
+msgstr "Se han reasignado algunas teclas para evitar conflictos:"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+upArrow/leftArrow becomes windows+upArrow/leftArrow (to read full "
+"column/row)"
+msgstr ""
+"NVDA+flechas arriba / izquierda se convierte en windows+flechas arriba / "
+"izquierda (para leer la columna o fila completas)"
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+downArrow/rightArrow becomes windows+downArrow/rightArrow (say all in "
+"column/row)"
+msgstr ""
+"NVDA+flechas abajo / derecha se convierte en windows+flechas abajo / derecha "
+"(verbalizar todo en columna o fila)"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2023.1"
+msgstr "Compatibilidad con NVDA 2023.1"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "Cambios para 2.3"
+
+#. type: Bullet: '* '
+msgid "It is now possible to disable table navigation layer from everywhere"
+msgstr ""
+"Ahora es posible desactivar la capa de navegación por tablas desde cualquier "
+"parte"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2022.1"
+msgstr "Compatibilidad con NVDA 2022.1"
+
+#. type: Bullet: '* '
+msgid "Fix error when reloading the addon"
+msgstr "Corregido un problema al recargar el complemento"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2.1"
+msgstr "Cambios para 2.2.1"
+
+#. type: Bullet: '* '
+msgid "Fixed an error in some type of documents including Word and Outlook"
+msgstr ""
+"Corregido un error en algunos tipos de documentos, incluyendo Word y Outlook"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "Cambios para 2.2"
+
+#. type: Bullet: '* '
+msgid "Update documentation style from addons template"
+msgstr ""
+"Actualizado el estilo de la documentación desde la plantilla de complementos"
+
+#. type: Bullet: '* '
+msgid "First translated version"
+msgstr "Primera versión traducida"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1.1"
+msgstr "Cambios para 2.1.1"
+
+#. type: Bullet: '* '
+msgid "New author in manifest and documentation"
+msgstr "Nuevo autor en el manifiesto y la documentación"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Cambios para 2.1"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2021.1"
+msgstr "Compatibilidad con NVDA 2021.1"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Cambios para 2.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Se requiere NVDA 2019.3 o posterior."
+
+#. type: Bullet: '* '
+msgid "Made various add-on messages translatable."
+msgstr "Se han hecho traducibles diversos mensajes del complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Cambios para 1.2"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Cambios internos para dar soporte a versiones futuras de NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Cambios para 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where errors might be heard when spell checking a message in "
+"Outlook."
+msgstr ""
+"Corregido un fallo donde podrían escucharse errores al corregir la "
+"ortografía de un mensaje en Outlook."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Cambios para 1.0"
+
+#. type: Bullet: '*   '
+msgid "Initial release."
+msgstr "Versión inicial."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=etn"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=etn"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=etn-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=etn-dev"

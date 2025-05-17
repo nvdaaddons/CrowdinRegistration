@@ -1,0 +1,1019 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community website\n"
+"POT-Creation-Date: 2025-01-25 17:43+0000\n"
+"PO-Revision-Date: 2023-09-25 12:18+0200\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: Danish <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Resource Monitor\"]]\n"
+msgstr "[[!meta title=\"Ressourcemonitor\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka "
+"Ojala, Ethin Probst and other NVDA contributors"
+msgstr ""
+"Forfattere: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka "
+"Ojala, Ethin Probst og andre NVDA-bidragydere"
+
+#. type: Plain text
+msgid ""
+"This add-on gives information about CPU load, memory usage and other "
+"resource usage information."
+msgstr ""
+"Dette tilføjelsesprogram giver information om CPU-belastning, brug af "
+"hukommelse og andre oplysninger om forbrug af ressourcer."
+
+#. type: Title #
+#, no-wrap
+msgid "Shortcuts"
+msgstr "Genveje"
+
+#. type: Plain text
+msgid "All commands support speech on demand mode."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+E: presents used ram, average processor load, and battery info if "
+"available."
+msgstr ""
+"NVDA+Shift+E: Oplyser hukommelse i brug, processorbelastning og "
+"batteriinformation, hvis denne er tilgængelig."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+1: presents the average processor load and if multicore CPU's are "
+"present the load of each core."
+msgstr ""
+"NVDA+Shift+1: Oplyser den gennemsnitlige processorbelastning, og hvis "
+"multicore-CPU'er er til stede, vil brug for hver kerne også blive oplyst."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+2/5: presents the used and total space for both physical and "
+"virtual ram."
+msgstr ""
+"NVDA+Shift+2/5: Oplyser brugt og total plads i fysisk og virtuel hukommelse."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+3: presents the used and total space of the static and removable "
+"drives."
+msgstr ""
+"NVDA+Shift+3: Oplyser brugt og samlet plads på de statiske og flytbare drev."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+4: presents battery percentage, charging status, remaining time "
+"(if not charging), and a warning if the battery is low or critical."
+msgstr ""
+"NVDA+Shift+4: Oplyser batteristatus i procent, opladestatus, resterende "
+"batteritid (hvis det ikke er ved at blive opladet) og en advarsel, hvis "
+"batteriniveauet er lavt eller kritisk."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+6: presents CPU Architecture and Windows version and service pack "
+"numbers."
+msgstr ""
+"NVDA+Shift+6: Oplyser CPU-arkitekturen, WIndows version og servicepakke."
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+7: presents the system's uptime."
+msgstr "NVDA+Shift+7: Oplyser systemets oppetid."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+8: presents information on the wireless connection, ssid name and "
+"strength, or no ssid if there is none available."
+msgstr ""
+"NVDA+Shift+8: Oplyser information om den trådløse forbindelse, ssid-navn og "
+"signalstyrke, eller ingen ssid, hvis der ikke er nogen tilgængelig."
+
+#. type: Plain text
+msgid "You can change these shortcut keys via input gestures dialog."
+msgstr "Du kan ændre disse genveje via dialogen \"Håndter kommandoer\""
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage notes"
+msgstr "Brugsanvisninger"
+
+#. type: Plain text
+msgid ""
+"This add-on does not replace task manager and other system information "
+"programs for Windows. Also note the following:"
+msgstr ""
+"Denne tilføjelse erstatter ikke Jobliste og andre "
+"systeminformationsprogrammer til Windows. Bemærk også følgende:"
+
+#. type: Bullet: '* '
+msgid ""
+"Resource information cannot be copied to clipboard if running the add-on in "
+"secure screens."
+msgstr ""
+"Ressourceoplysninger kan ikke kopieres til udklipsholderen, hvis tilføjelsen "
+"kører på sikre skærme."
+
+#. type: Bullet: '* '
+msgid ""
+"CPU usage is given for logical processors, not physical cores. This is "
+"noticeable for processors which uses Hyper-Threading where number of CPU's "
+"is twice the number of CPU cores. On some newer computers, not all CPU cores "
+"will have hyper-threading enabled."
+msgstr ""
+"CPU-brug bliver angivet for logiske processorer, ikke fysiske kerner. Dette "
+"har betydning for processorer, som bruger hypertrådningsteknologi. Her er "
+"antallet af CPU'er er det dobbelte af CPU-kernerne. På nogle nyere CPU'er, "
+"vil denne teknologi ikke nødvendigvis være aktiveret."
+
+#. type: Bullet: '* '
+msgid ""
+"If there is heavy disk activity such as copying large files, there might be "
+"delays when obtaining disk usage information."
+msgstr ""
+"Hvis der er en stor mængde af diskaktivitet som f.eks. Kopiering af store "
+"filer, kan der være forsinkelser, når der hentes oplysninger om diskbrug."
+
+#. type: Bullet: '* '
+msgid ""
+"When announcing processor architecture information, \"x86\" and \"AMD64\" "
+"refer to 32-bit and 64-bit (x64) Intel and AMD processors, respectively."
+msgstr ""
+"Når der annoncerer processorarkitekturoplysninger, henviser \"x86\" og "
+"\"AMD64\" til henholdsvis 32-bit og 64-bit (x64) Intel- og AMD-processorer."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "This add-on requires Windows 10 or later."
+msgid ""
+"This add-on requires Windows 10 22H2 (2022 Update/build 19045) or later."
+msgstr "Denne tilføjelse kræver Windows 10 eller nyere."
+
+#. type: Bullet: '* '
+msgid "Installing the add-on on Windows 10/11 LTSC is not supported."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Note on license: this add-on uses Psutil, licensed under 3-Clause BSD "
+"License which is compatible with GNU General Public License."
+msgstr ""
+"Bemærkninger til licensen: denne tilføjelse bruger Psutil, licenseret under "
+"3-klausul BSD-licens, som er kompatibel med GNU General Public License."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.02"
+msgid "Version 25.02"
+msgstr "Version 23.02"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Resource Monitor officially supports Windows 8.1."
+msgid "Restored limited support for Windows 8.1."
+msgstr "Resource Monitor understøtter officielt Windows 8.1."
+
+#. type: Bullet: '* '
+msgid ""
+"Improved accuracy of used and total memory information announcement "
+"(@danstiv)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to freeze briefly when performing memory usage "
+"command (NVDA+Shift+2/5) the first time after starting NVDA."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows Insider Preview releases are no longer reported as \"Windows "
+"Insider\"."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 21.04"
+msgid "Version 24.08"
+msgstr "Version 21.04"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2024.2 or later is required. This allows psutil dependency to be "
+"removed from the add-on as NVDA includes it."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to version 0.6.1."
+msgid ""
+"Updated psutil dependency to the version included with NVDA 2024.2 (6.0.0)."
+msgstr "Opdaterede psutil dependency til version 0.6.1."
+
+#. type: Bullet: '* '
+msgid "Ruff replaces Flake8 as code linter."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 21.04"
+msgid "Version 24.05"
+msgstr "Version 21.04"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2022.4 or later is required."
+msgid "NVDA 2024.1 or later is required."
+msgstr "NVDA 2022.4 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize wireless networks with WPA3 authentication methods such "
+"as simultaneous authentication of equals (SAE)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 21.04"
+msgid "Version 24.04"
+msgstr "Version 21.04"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 5.9.4."
+msgid "Updated psutil dependency to 5.9.8."
+msgstr "Opdateret psutil-afhængighed til 5.9.4."
+
+#. type: Bullet: '* '
+msgid ""
+"Added support for speech on demand mode so resource information can be "
+"announced in this mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.01"
+msgid "Version 23.11"
+msgstr "Version 23.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Downgraded psutil dependency to 5.9.4 due to problems with memory usage "
+"announcements."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.09"
+msgid "Version 23.10"
+msgstr "Version 23.09"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 5.9.4."
+msgid "Updated psutil dependency to 5.9.5."
+msgstr "Opdateret psutil-afhængighed til 5.9.4."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.09"
+msgstr "Version 23.09"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer log startup error messages on Windows Server systems "
+"when wireless capability modules are unavailable."
+msgstr ""
+"NVDA vil ikke længere logge opstartsfejlmeddelelser på Windows Server-"
+"systemer, når moduler med trådløse egenskaber ikke er tilgængelige."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.06"
+msgstr "Version 23.06"
+
+#. type: Bullet: '* '
+msgid ""
+"Situation where resourceMonitor doesn't work properly due to unavailability "
+"of wireless adapters has been fixed."
+msgstr ""
+"Situationen, hvor resourceMonitor ikke fungerer korrekt på grund af "
+"manglende tilgængelighed af trådløse adaptere, er blevet rettet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05.1"
+msgstr "Version 23.05.1"
+
+#. type: Plain text
+msgid "wlanReporter NVDA-addon is now part of resourceMonitor!"
+msgstr "Tilføjelsen wlanReporter er nu en del af resourceMonitor!"
+
+#. type: Bullet: '* '
+msgid ""
+"The old way of checking for wireless connections has been replaced by the "
+"windows API from wlanReporter: https://github.com/kvark128/WlanReporter/ ."
+msgstr ""
+"Den gamle måde at tjekke for trådløse forbindelser på er blevet erstattet af "
+"windows API fra wlanReporter: https://github.com/kvark128/WlanReporter/ ."
+
+#. type: Bullet: '	* '
+msgid ""
+"After speaking SSID name and strength, NVDA will also now tell you the "
+"security type of your network."
+msgstr ""
+"Efter SSID navn og styrke er blevet oplæst af NVDA, vil NVDA også nu "
+"fortælle dig sikkerhedstypen for dit netværk."
+
+#. type: Bullet: '	* '
+msgid ""
+"NVDA will now alert you when you connect and disconnect from a wireless "
+"network."
+msgstr ""
+"NVDA vil nu advare dig, når du opretter og afbryder forbindelse til et "
+"trådløst netværk."
+
+#. type: Bullet: '	* '
+msgid "NVDA will now alert you when wireless connections is turned on or off."
+msgstr "NVDA vil nu advare dig, når trådløse forbindelser slås til eller fra."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05"
+msgstr "Version 23.05"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to detect and present the state of the connected wireless "
+"network."
+msgstr ""
+"Tilføjet muligheden for at detektere og oplyse forbindelsesstatus for det "
+"tilsluttede netværk."
+
+#. type: Bullet: '	* '
+msgid "Announces the name of the connected wireless SSID."
+msgstr "Oplyser navnet på det tilsluttede trådløse SSID."
+
+#. type: Bullet: '	* '
+msgid "Announces the strength of the ssid"
+msgstr "Oplyser signalstyrken af SSID"
+
+#. type: Bullet: '	* '
+msgid "Announce SSID not found if None is detected."
+msgstr "Oplys \"SSID\" ikke fundet, hvis dette er tilfældet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Version 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "NVDA 2022.4 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Windows 10 21H2 (november 2021 Update/build 19044) eller nyere er påkrævet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Version 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "NVDA 2022.3 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+"Windows 10 eller nyere er påkrævet, da Windows 7, 8 og 8.1 ikke længere "
+"understøttes af Microsoft fra januar 2023."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.4."
+msgstr "Opdateret psutil-afhængighed til 5.9.4."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will announce actual processor architecture (x86/AMD64/ARM64) as part "
+"of Windows version information."
+msgstr ""
+"NVDA vil annoncere den faktiske processorarkitektur (x86/AMD64/ARM64) som en "
+"del af Windows-versionsoplysningerne."
+
+#. type: Bullet: '* '
+msgid ""
+"On single-core systems, NVDA will no longer announce CPU core load as "
+"average CPU load is the same as core load."
+msgstr ""
+"På enkeltkernesystemer vil NVDA ikke længere annoncere CPU-kernebelastning, "
+"da den gennemsnitlige CPU-belastning er den samme som kernebelastningen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.03"
+msgstr "Version 22.03"
+
+#. type: Plain text
+msgid ""
+"Version 22.03 is the last stable version to support Windows 7 Service Pack "
+"1, 8, and 8.1."
+msgstr ""
+"Version 22.03 er den sidste stabile version, der understøtter Windows 7 "
+"Service Pack 1, 8 og 8.1."
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr "NVDA 2021.3 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr ""
+"En advarselsmeddelelse vil blive vist, når du forsøger at installere "
+"tilføjelsen på Windows 7, 8 og 8.1."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.0."
+msgstr "Opdateret psutil-dependency til 5.9.0."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.01"
+msgstr "Version 22.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.2 or later is required."
+msgstr "NVDA 2021.2 eller nyere er påkrævet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "Version 21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.1 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+"NVDA 2021.1 eller nyere er påkrævet på grund af ændringer til NVDA, der "
+"påvirker denne tilføjelse."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.08"
+msgstr "Version 21.08"
+
+#. type: Bullet: '* '
+msgid "Minimum Windows release requirement is now tied to NVDA releases."
+msgstr ""
+"Minimumskravet til Windows-udgivelse er nu knyttet til NVDA-udgivelser."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows builds 20348 and 22000 are recognized as Windows Server 2022 and "
+"Windows 11, respectively."
+msgstr ""
+"Windows builds 20348 og 22000 genkendes som henholdsvis Windows Server 2022 "
+"og Windows 11."
+
+#. type: Bullet: '* '
+msgid ""
+"On Insider Preview builds, Windows release such as \"Windows 10\" will not "
+"be used. Instead NvDA will announce \"Windows Insider\"."
+msgstr ""
+"I Insider Preview-builds vil Windows-udgivelser såsom \"Windows 10\" ikke "
+"blive brugt. I stedet vil NvDA annoncere \"Windows Insider\"."
+
+#. type: Bullet: '* '
+msgid ""
+"On 64-bit systems, processor architecture (x64 or ARM64) will be announced "
+"as part of Windows version information."
+msgstr ""
+"På 64-bit-systemer vil processorarkitektur (x64 eller ARM64) blive "
+"annonceret som en del af Windows-versionsoplysningerne."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.04"
+msgstr "Version 21.04"
+
+#. type: Bullet: '* '
+msgid "NVDA 2020.4 or later is required."
+msgstr "NVDA 2020.4 eller nyere er påkrævet."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.8.0."
+msgstr "Opdaterede psutil dependency til 5.8.0."
+
+#. type: Bullet: '* '
+msgid ""
+"When pressing add-on commands twice to copy resource information to "
+"clipboard, NVDA will announce resource summary that is being copied."
+msgstr ""
+"Når tilføjelseskommandoer trykkes to gange for at kopiere "
+"ressourceoplysninger til udklipsholderen, annoncerer NVDA ressourceoversigt, "
+"der kopieres."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.01"
+msgstr "Version 21.01"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.7.3."
+msgstr "Opdaterede psutil dependency til 5.7.3."
+
+#. type: Bullet: '* '
+msgid "Shortened Windows version message."
+msgstr "Forkortede beskeden Windows-version."
+
+#. type: Bullet: '* '
+msgid ""
+"On Windows 8.1, build.revision will be announced as part of Windows version "
+"message, similar to Windows 10."
+msgstr ""
+"I Windows 8.1 vil build.revision blive annonceret som en del af Windows-"
+"version beskeden, svarende til Windows 10."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.09"
+msgstr "Version 20.09"
+
+#. type: Bullet: '* '
+msgid "System uptime is now given as days, hours, minutes, seconds."
+msgstr "Systemets oppetid angives nu som dage, timer, minutter, sekunder."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows Server Insider Preview build 20201 or later is properly recognized "
+"as a Server Insider build."
+msgstr ""
+"Windows Server Insider Preview build 20201 eller nyere genkendes korrekt som "
+"en Server Insider build."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.07"
+msgstr "Version 20.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 Version 20H2 is properly recognized when obtaining Windows "
+"version information (NVDA+Shift+6)."
+msgstr ""
+"Windows 10 version 20H2 genkendes korrekt, når der anmodes om Windows-"
+"versionoplysninger (NVDA+Shift+6)."
+
+#. type: Bullet: '* '
+msgid ""
+"Simplified Windows 10 version message i.e. Windows 10 YYMM instead of "
+"Windows 10verYYMM when pressing NVDA+Shift+6."
+msgstr ""
+"Forenklet Windows 10-versionmeddelelse, dvs. Windows 10 ÅÅ/MM i stedet for "
+"Windows 10ver/ÅÅ/MM, når du trykker på NVDA+Shift+6."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr "Version 20.06"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr "Løst mange problemer med kodningstil og potentielle fejl med Flake8."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.04"
+msgstr "Version 20.04"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.7.0."
+msgstr "Opdateret psutil dependency til 5.7.0."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required due to extensive use of Python 3."
+msgstr ""
+"NVDA 2019.3 eller nyere er påkrævet på grund af omfattende brug af Python 3."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.11"
+msgstr "Version 19.11"
+
+#. type: Bullet: '* '
+msgid ""
+"Improved detection of Windows Insider Preview builds, especially for 20H1 "
+"and beyond."
+msgstr ""
+"Forbedret detektering af Windows Insider Preview builds, især til 20H1 og "
+"nyere."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.07"
+msgstr "Version 19.07"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.6.3."
+msgstr "Opdateret psutil dependency til 5.6.3."
+
+#. type: Bullet: '* '
+msgid "Internal changes to battery status announcement command."
+msgstr "Interne ændringer til meddelelse om batteristatus."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "Version 18.12"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr ""
+"Interne ændringer for at bedre kunne understøtte fremtidige versioner af "
+"NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.10"
+msgstr "Version 18.10"
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr "Koden er blevet gjort mere kompatibel med Python 3."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.4.7."
+msgstr "Opdateret psutil dependency til 5.4.7."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+"Når der oplyses diskkapacitet og hukommelsesforbrug, vil NVDA ikke længere "
+"fejle, hvis du bruger en computer eller en tjeneste med mere end en petabyte "
+"RAM eller diskplads."
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+"Værdier for hukommelse og diskbrug vises med op til to decimaler (fx 4,00 GB "
+"i stedet for 4,0 GB)."
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
+msgstr "Forbedret detektering af Windows Insider Preview builds."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.04"
+msgstr "Version 18.04"
+
+#. type: Plain text
+msgid ""
+"Version 18.04.x is the last release to support Windows releases earlier than "
+"7 SP1."
+msgstr ""
+"Version 18.04.x er den sidste version, der understøtter udgaver af Windows "
+"ældre end 7 SP1."
+
+#. type: Bullet: '* '
+msgid "Last release to support Windows Server 2003, Vista and Server 2008."
+msgstr ""
+"Sidste version der understøtter Windows Server 2003, Vista og Server 2008."
+
+#. type: Bullet: '* '
+msgid ""
+"Better detection of Windows 10 releases and distinguishing between public "
+"and Insider Preview builds."
+msgstr ""
+"Forbedret detektion af udgaver af Windows 10 og bedre til at skelne mellem "
+"offentlige builds af Windows og Insider Preview."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.12"
+msgstr "Version 17.12"
+
+#. type: Bullet: '* '
+msgid "Added support for 64-bit ARM processors on Windows 10."
+msgstr "Tilføjet support til 64-bit ARM-processorer på Windows 10."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.09"
+msgstr "Version 17.09"
+
+#. type: Plain text
+msgid "Important: Version 17.09.x is the last version to support Windows XP."
+msgstr ""
+"Vigtigt: Version 17.09.x er den sidste version, der understøtter Windows XP."
+
+#. type: Bullet: '* '
+msgid "Last version to run on Windows XP."
+msgstr "Sidste version til at køre på Windows XP."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 build 16278 and later is recognized as Version 1709. A minor "
+"revision for this add-on will be released once Version 1709 stable build is "
+"released."
+msgstr ""
+"Windows 10 build 16278 og senere er anerkendt som Version 1709. En mindre "
+"revision for denne tilføjelse frigives, når version 1709 stabil build er "
+"udgivet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.07.1"
+msgstr "Version 17.07.1"
+
+#. type: Bullet: '* '
+msgid "Reintroduce support for Windows XP (broken since version 17.02)."
+msgstr ""
+"Genindførte understøttelse for Windows XP (understøttelse har ikke virket "
+"siden version 17.02)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.05"
+msgstr "Version 17.05"
+
+#. type: Bullet: '* '
+msgid ""
+"Announcement of system uptime (time passed since last boot; NVDA+Shift+7)."
+msgstr ""
+"Annoncering af systemopetid (tid gået siden sidste opstart, NVDA + Shift +7)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.02"
+msgstr "Version 17.02"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.0.1."
+msgstr "Opdateret psutil afhængighed til 5.0.1."
+
+#. type: Bullet: '* '
+msgid ""
+"When checking disk usage, NVDA will no longer present an error dialog on "
+"some systems where a removable media is not properly recognized (such as "
+"when a card isn't inserted into a card reader).)"
+msgstr ""
+"Når du kontrollerer diskbrug, vil NVDA ikke længere præsentere en fejldialog "
+"på nogle systemer, hvor et flytbart medie ikke er korrekt genkendt (f.eks. "
+"Når et kort ikke er indsat i en kortlæser)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.08"
+msgstr "Version 16.08"
+
+#. type: Plain text
+msgid ""
+"Starting with version 16.08, add-on releases will be shown as year.month."
+"revision."
+msgstr ""
+"Begyndende med version 16.08 vises tilføjelsespakkens fremtidige udgivelser "
+"som år.måned.revision."
+
+#. type: Bullet: '* '
+msgid ""
+"Various revisions of Windows 10 are now properly recognized (such as 1607 "
+"for build 14393)."
+msgstr ""
+"Forskellige revisioner af Windows 10 er nu korrekt genkendt (f.eks. 1607 til "
+"build 14393)."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 build revisions (after installing cumulative updates) are "
+"properly recognized (such as 14393.51)."
+msgstr ""
+"Windows 10 build revisions (efter installation af kumulative opdateringer) "
+"er korrekt genkendt (såsom 14393.51)."
+
+#. type: Bullet: '* '
+msgid "If using Insider Preview builds, this fact is recognized."
+msgstr "Hvis du bruger Insider-preview-builds, genkendes dette."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.5"
+msgstr "Ændringer i 4.5"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on repository has moved to GitHub (can be found at https://github.com/"
+"josephsl/resourcemonitor)."
+msgstr ""
+"Tilføjelsespakkens udviklingssted er flyttet til GitHub (kan findes på "
+"https://github.com/josephsl/resourcemonitor)."
+
+#. type: Bullet: '* '
+msgid "Windows Server 2016 is properly recognized."
+msgstr "Windows Server 2016 er korrekt genkendt."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Ændringer i4.0 "
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 2.2.1."
+msgstr "Opdateret psutil dependency til 2.2.1."
+
+#. type: Bullet: '* '
+msgid "Vastly improved performance when obtaining information on CPU load."
+msgstr ""
+"Stor forbedring af performance, under opsamlingen af oplysninger om CPU-"
+"belastning."
+
+#. type: Bullet: '* '
+msgid "Added support for recognition of Windows 10."
+msgstr "Tilføjet understøttelse af genkendelse af Windows 10."
+
+#. type: Bullet: '* '
+msgid "In Windows 10, the build number of Windows will also be announced."
+msgstr "I Windows 10 vil build-nummeret også blive annonceret."
+
+#. type: Bullet: '* '
+msgid "You can use Add-ons Manager to access add-on help."
+msgstr ""
+"Du kan bruge Styring af tilføjelsesprogrammer til at få hjælp til "
+"tilføjelsesprogrammet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.1"
+msgstr "Ændringer i 3.1"
+
+#. type: Bullet: '* '
+msgid "Resource Monitor officially supports Windows 8.1."
+msgstr "Resource Monitor understøtter officielt Windows 8.1."
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "Opdaterede oversættelser."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Ændringer i 3.0"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 1.2.1."
+msgstr "Opdateret psutil dependency til 1.2.1."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcement of current Windows version, CPU architecture and service pack "
+"if any (NVDA+Shift+6)."
+msgstr ""
+"Annoncering af Windows-version, CPU-arkitektur og service pack hvis nogen "
+"(NVDA+Shift+6)."
+
+#. type: Bullet: '* '
+msgid "Ability to change add-on shortcut keys (NVDA 2013.3 or later)."
+msgstr "Mulighed for at ændre genvejstaster (NVDA 2013.3 eller senere)."
+
+#. type: Bullet: '* '
+msgid ""
+"Ability to copy individual resource information to clipboard by pressing "
+"resource commands two times."
+msgstr ""
+"Muligt at kopiere individuelle ressourceoplysninger til udklipsholderen ved "
+"at ved at trykke på genvejstasten to gange."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.4"
+msgstr "Ændringer i 2.4"
+
+#. type: Bullet: '* '
+msgid "New languages: Chinese (simplified), Ukrainian."
+msgstr "Nye sprog: Kinesisk (simplificeret), ukrainsk."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "Ændringer i 2.3"
+
+#. type: Bullet: '* '
+msgid "Added Bulgarian translation."
+msgstr "Tilføjet bulgarsk oversættelse."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "Ændringer i 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Added following translations: Arabic, Aragonese, Croatian, Dutch, Finnish, "
+"French, Galician, German, Hungarian, Italian, Japanese, Korean, Nepali, "
+"Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and "
+"Turkish."
+msgstr ""
+"Tilføjet følgende oversættelser: Arabisk, aragonesisk, croatisk, hollandsk, "
+"finsk, fransk, galicisk, tysk, ungarsk, italiensk, japansk, koreansk, "
+"nepalesisk, polsk, portugisisk (Brasilien), russisk, slovakisk, slovensk, "
+"spansk, tamilsk og tyrkisk."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Ændringer i 2.1"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to version 0.6.1."
+msgstr "Opdaterede psutil dependency til version 0.6.1."
+
+#. type: Bullet: '* '
+msgid "Fixed long delay when getting information of drives."
+msgstr "Rettet lang forsinkelse, når man bad om informationer om drev."
+
+#. type: Bullet: '* '
+msgid "Code cleanup."
+msgstr "Oprydning i koden."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Ændringer i 2.0"
+
+#. type: Bullet: '* '
+msgid "added translation support and translation comments."
+msgstr "Tilføjet understøttelse for oversættelse og oversættelseskommentarer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Ændringer i 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Første udgivelse"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=resourceMonitor"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=resourceMonitor"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Download [stable version][1]"
+
+#~ msgid "NVDA compatibility: 2022.4 and later"
+#~ msgstr "NVDA-kompatibilitet: 2022.4 og nyere"
+
+#~ msgid "Version history:"
+#~ msgstr "Versionshistorik:"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rm-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
+
+#~ msgid ""
+#~ "Support for Windows XP from this add-on ended on December 31, 2017. "
+#~ "Support for Windows Server 2003, Vista and Server 2008 ended on June 30, "
+#~ "2018."
+#~ msgstr ""
+#~ "Understøttelse til Windows XP af denne tilføjelse sluttede den 31. "
+#~ "december 2017. Støtten til Windows Server 2003, Vista og Server 2008 "
+#~ "sluttede den 30. juni 2018."

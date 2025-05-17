@@ -1,0 +1,932 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Milo Ivir <mail@milotype.de>, 2019., 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Weather Plus\n"
+"POT-Creation-Date: 2025-01-09 20:31+0000\n"
+"PO-Revision-Date: 2024-05-12 18:05+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Weather Plus\"]]\n"
+msgstr "[[!meta title=\"Vremenska prognoza plus (Weather Plus)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Adriano Barbieri"
+msgstr "Autor: Adriano Barbieri"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.3 to beyond"
+msgstr "NVDA kompatibilnost: 2017.3 i nadalje"
+
+#. type: Bullet: '* '
+msgid "Download: [Stable Version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Title #
+#, no-wrap
+msgid "ABOUT WEATHER PLUS:"
+msgstr "INFORMACIJE O VREMENSKOJ PROGNOZI PLUS:"
+
+#. type: Bullet: '* '
+msgid ""
+"This plugin adds local temperature and forecasts to 24 hours up to 2 "
+"additional days and hourlyforecast for NVDA."
+msgstr ""
+"Ovaj dodatak dodaje lokalnu temperaturu i prognozu za sljedećih 24 sata do 2 "
+"dodatna dana i prognozu po satu za NVDA."
+
+#. type: Bullet: '* '
+msgid "Copyright (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)"
+msgstr "Autorska prava (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)"
+
+#. type: Bullet: '* '
+msgid "Released under the GNU GPL (General Public License) v2"
+msgstr "Izdano pod GNU GPL (Opća javna licenca) v2"
+
+#. type: Bullet: '* '
+msgid ""
+"Weather Plus works through the use and presence of the following services:"
+msgstr ""
+"Vremenska prognoza plus radi putem upotrebe i prisutnosti sljedećih usluga:"
+
+#. type: Bullet: '* '
+msgid "[https://www.weatherapi.com/](https://www.weatherapi.com/)"
+msgstr "[https://www.weatherapi.com/](https://www.weatherapi.com/)"
+
+#. type: Bullet: '* '
+msgid "[http://www.geonames.org/](http://www.geonames.org/)"
+msgstr "[http://www.geonames.org/](http://www.geonames.org/)"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+msgstr "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+
+#. type: Bullet: '* '
+msgid "[http://www.nvda.it/](http://www.nvda.it/)"
+msgstr "[http://www.nvda.it/](http://www.nvda.it/)"
+
+#. type: Title #
+#, no-wrap
+msgid "USAGE:"
+msgstr "PRIMJENA:"
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+w to get the information about current temperature and weather "
+"conditions."
+msgstr "Pritisni NVDA+w za trenutačnu temperaturu i vremenske uvjete."
+
+#. type: Bullet: '* '
+msgid "Press NVDA+shift+W to get 24 hours forecast and forecast up to 2 days."
+msgstr "Pritisni NVDA+šift+W za 24-satnu prognozu i za prognozu do 2 dana."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+shift+W twice to get hourlyforecast of temperature and "
+"atmospheric conditions."
+msgstr ""
+"Pritisni NVDA+W dvaput za dobivanje prognoze temperature i vremenskih uvjeta "
+"po satu."
+
+#. type: Bullet: '* '
+msgid "Press NVDA+shift+control+w to set a temporary city."
+msgstr "Pritisni NVDA+šift+kontrol+w za postavljanje privremenog grada."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+shift+control+alt+w to open the Weather Plus settings dialog."
+msgstr ""
+"Pritisni NVDA+šift+kontrol+alt+w za otvaranje dijaloškog okvira s postavkama "
+"za Vremensku prognozu plus."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+alt+w to get the date and time, when the weather report was "
+"updated."
+msgstr ""
+"Pritisni NVDA+alt+w za datum i vrijeme aktualiziranja izvještaja o vremenu."
+
+#. type: Bullet: '* '
+msgid ""
+"Press control+shift+w to toggle between Fahrenheit, Celsius or Kelvin "
+"temperature scales."
+msgstr ""
+"Pritisni kontrol+šift+w za mijenjanje između temperaturnih ljestvica u "
+"Fahrenheitovim stupnjevima, u Celzijevim stupnjevima i u kelvinima."
+
+#. type: Title #
+#, no-wrap
+msgid "Weather Plus setup:"
+msgstr "Postavke za Vremensku prognozu plus:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* You must set the Weather Plus addon before its first use! Go to the Preferences submenu, Weather Plus Settings submenu and choose one of the following options:\n"
+" * Set and Manage Your Cities... - Displays or allows to set the current city from a list.\n"
+" * Set a temporary city... - Displays and allows to set one temporary city from a list if available.\n"
+" * Documentation - Opens the help file for the current language.\n"
+" * Check for Update... - Notifies about the availability of the new version.\n"
+msgstr ""
+"* Moraš postaviti dodatak „Vremenska prognoza plus” prije prve upotrebe! Idi u podizbornik „Postavke”, podizbornik postavki „Vremenske prognoze plus” i odaberi jednu od sljedećih opcija:\n"
+"* Postavi i upravljaj gradovima … – Prikazuje ili dopušta postavljanje trenutačnog grada s popisa.\n"
+"* Postavi privremeni grad … – Prikazuje i omogućuje postavljanje jednog privremenog grada s popisa ako je dostupan.\n"
+"* Dokumentacija – Otvara datoteku pomoći za trenutačni jezik.\n"
+"* Provjeri nadogradnje … – Obavijest o novijoj verziji.\n"
+
+#. type: Plain text
+msgid "To add a new city: press the following item:"
+msgstr "Za dodavanje novog grada: pritisni sljedeću stavku:"
+
+#. type: Bullet: '* '
+msgid ""
+"Set and Manage Your Cities... - Displays or allows to set the current city "
+"from a list."
+msgstr ""
+"Postavi i upravljaj gradovima … – Prikazuje ili dozvoljava postavljanje "
+"trenutačnog grada s popisa."
+
+#. type: Bullet: '* '
+msgid ""
+"The following message is displayed only for the first time! Settings Preset "
+"None F1: help placing, F2: last TAB selection, F3: list and edit box, F4: "
+"control duration Weather Forecast, F5: volume controls."
+msgstr ""
+"Sljedeće poruke se prikazuju samo za prvi put! Unaprijed određene postavke "
+"Ništa F1: pomoć za određivanje mjesta, F2: zadnji odabir pomoću tabulatora, "
+"F3: popisni okvir i okvir za uređivanje, F4: odredi trajanje Vremenske "
+"prognoze, F5: kontrole za glasnoću."
+
+#. type: Bullet: '* '
+msgid ""
+"In the edit box, enter a City or choose one from the list, if available. "
+"Note: The F5 key is available if the sound effects are activated."
+msgstr ""
+"U okviru za uređivanje upiši grad ili odaberi grad s popisa, ako postoji. "
+"Napomena: Tipka F5 je dostupna, ako su zvučni efekti aktivirani."
+
+#. type: Bullet: '* '
+msgid ""
+"After pressing enter on the item \"Set and Manage Your Cities...\", you will "
+"find other buttons as follows:"
+msgstr ""
+"Nakon pritiskanja stavke „Postavi i upravljaj gradovima …”, naći ćeš "
+"sljedeće gumbe:"
+
+#. type: Bullet: '* '
+msgid "Test - Test the validity of the city and find the data of it."
+msgstr "Provjeri – Provjeri ispravnost grada i pronađi njegove podatke."
+
+#. type: Bullet: '* '
+msgid ""
+"Add - Adds the current city into your list. This button can be activated if "
+"you select a city from the list, when the city entered passed the test."
+msgstr ""
+"Dodaj – Dodaje trenutačni grad u popis. Ovaj se gumb može aktivirati, ako u "
+"popisu odabereš grad, kad je upisani grad prošao test."
+
+#. type: Bullet: '* '
+msgid ""
+"Details - Displays information about the current city. This button is "
+"activated if you select a city from the list, or it has passed the test."
+msgstr ""
+"Detalji – Prikazuje informacije o trenutačnom gradu. Ovaj se gumb aktivira, "
+"ako u popisu odabereš grad ili ako je grad prošao test."
+
+#. type: Bullet: '* '
+msgid ""
+"Define - Allows you to define the area, in order to adapt the sound effects. "
+"This button can be activated if the audio effects are installed and "
+"activated, and you select a city from the list."
+msgstr ""
+"Odredi – Dozvoljava odrediti područje, kako bi se prilagodili zvučni efekti. "
+"Ovaj se gumb može aktivirati, ako su zvučni efekti instalirani i aktivirani "
+"i ako iz popisa odabereš grad."
+
+#. type: Bullet: '* '
+msgid ""
+"Preset - Presets a city as the default, will be used every time you restart "
+"the plugin. This button is activated if you select a city previously "
+"inserted in the list and not preset, or it has passed the test."
+msgstr ""
+"Preodredi – Predodređuje grad kao standardni, koristit će se svaki put, kad "
+"se dodatak ponovo pokrene. Ovaj se gumb aktivira, ako u popisu odabereš "
+"prethodno umetnuti grad, a nije predodređen ili ako je prošao test."
+
+#. type: Bullet: '* '
+msgid ""
+"Remove - Deletes the current city from your list. This button can be "
+"activated if you select a city previously inserted in the list."
+msgstr ""
+"Ukloni – Uklanja trenutačni grad s popisa. Ovaj se gumb može aktivirati, ako "
+"u popisu odabereš prethodno umetnuti grad."
+
+#. type: Bullet: '* '
+msgid ""
+"Rename - Rename the current city. This button can be activated if you select "
+"a city previously inserted in the list."
+msgstr ""
+"Preimenuj – Preimenuj trenutačni grad. Ovaj se gumb može aktivirati, ako u "
+"popisu odabereš prethodno umetnuti grad."
+
+#. type: Bullet: '* '
+msgid ""
+"Import new cities... - This button allows you to import cities from the "
+"another list of cities with the extension *.zipcodes; you can select the "
+"city you want to import, by turning on the checkbox associated with it."
+msgstr ""
+"Uvezi nove gradove … – Ovaj gumb dozvoljava uvoz novih gradova iz drugog "
+"popisa gradova s nastavkom *.zipcodes. Možeš odabrati grad koji želiš "
+"uvesti, označavanjem odgovarajućeg potvrdnog okvira."
+
+#. type: Bullet: '* '
+msgid ""
+"Export your cities... - It allows you to save the cities in the specified "
+"file with the extension *.zipcodes. This button is activated if you have "
+"added and saved at least one city into the list."
+msgstr ""
+"Izvezi gradove … – Dozvoljava spremanje gradova u određenu datoteku s "
+"nastavkom *.zipcodes. Ovaj se gumb aktivira, ako se u popis doda i spremi "
+"barem jedan grad."
+
+#. type: Bullet: '* '
+msgid ""
+"hourly forecast setting... - This button allows you to choose the contents "
+"of the hourly forecast report."
+msgstr ""
+"Postavka prognoze po satu … – Ovaj gumb omogućuje biranje sadržaja "
+"izvještaja o prognozi po satu."
+
+#. type: Bullet: '* '
+msgid ""
+"Scale of temperature measurement: Use the radio button to select between "
+"Celsius (by default), Fahrenheit and Kelvin."
+msgstr ""
+"Temperaturna ljestvica: Koristi odabirni gumb za biranje između Celzijevih "
+"stupnjeva (standardno), Fahrenheitovih stupnjeva i kelvina."
+
+#. type: Bullet: '* '
+msgid ""
+"Degrees shown as: Use the radio button to select between: Celsius `-` "
+"Fahrenheit `-` Kelvin (by default) C `-` F `-` K or Unspecified."
+msgstr ""
+"Stupnjevi prikazani kao: Koristi odabirni gumb za biranje između: Celzija `-"
+"` Fahrenheita `-` Kelvina (standardno) C `-` F `-` K ili neodređeno."
+
+#. type: Bullet: '* '
+msgid ""
+"Combo box: Weather Forecasts up to days: 1; you can choose between 1 to 3 (1 "
+"days by default)"
+msgstr ""
+"Odabirni okvir: Vremenska prognoza do dana: 1; odaberi između 1 do 3 "
+"(standardno je postavljeno na 1 dan)"
+
+#. type: Bullet: '* '
+msgid ""
+"Combo box: API response language: English, en; you can choose the language "
+"of the weather conditions text."
+msgstr ""
+"Odabirni okvir: Jezik API-ja: Engleski, en; možeš odabrati jezik teksta "
+"vremenskih uvjeta."
+
+#. type: Bullet: '* '
+msgid "To perform the following actions, toggle the following checkboxes:"
+msgstr ""
+"Za izvršavanje sljedećih radnji uključi ili isključi sljedeće potvrdne "
+"okvire:"
+
+#. type: Bullet: '* '
+msgid ""
+"Copy the weather report and weather forecast, including city details to "
+"clipboard; checkbox not checked (by default)"
+msgstr ""
+"Kopiraj izvještaj o vremenu i vremensku prognozu, uključujući podatke o "
+"gradu u međuspremnik; potvrdni okvir standardno nije označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Enable audio effects (only for the current weather conditions); this "
+"checkbox also allows you to manage the installation of sound effects; if the "
+"sound effects are installed and the checkbox is activated, the F5 key and "
+"the volume setting becomes available."
+msgstr ""
+"Aktiviraj zvučne efekte (samo za trenutačne vremenske uvjete). Ovaj potvrdni "
+"okvir također omogućuje upravljanje instalacijom zvučnih efekata. Ako su "
+"zvučni efekti instalirani i ako je potvrdni okvir aktiviran, tipka F5 i "
+"postavka glasnoće postaju dostupni."
+
+#. type: Bullet: '* '
+msgid ""
+"There will also be available an additional checkbox: \"Use only weather "
+"effects\"."
+msgstr ""
+"Također će biti dostupan dodatni potvrdni okvir: Koristi samo vremenske "
+"efekte."
+
+#. type: Bullet: '* '
+msgid ""
+"You can change the overall volume or change the last heard sound effect and "
+"filter out the others sounds in your environment. Checkbox is not checked by "
+"default."
+msgstr ""
+"Moguće je promijeniti ukupnu glasnoću ili promijeniti zadnje korišteni "
+"zvučni efekt, kao i izdvojiti ostale zvukove vlastitog okruženja. Potvrdni "
+"okvir standardno nije označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Use only weather effects - This option is available if sound effects are "
+"enabled; if is enabled, allows to listen only weather effects such as rain, "
+"wind, thunder, etc., filtering out all environmental ones. (unchecked by "
+"default)"
+msgstr ""
+"Koristi samo vremenske efekte – Ova je opcija dostupna, ako su zvučni efekti "
+"aktivirani. Ako je opcija aktivirana, omogućuje preslušavanje samo "
+"vremenskih efekata poput kiše, vjetra, grmljavine itd., isključujući pri "
+"tome sve okolišne efekte. (standardno nije označeno)"
+
+#. type: Bullet: '* '
+msgid ""
+"Enable the reading of the hours in 24-hour format. - If this checkbox is "
+"unchecked, announces the time in 12-hour format for example, 12 AM `-` 12 "
+"PM. Checkbox is checked (by default)"
+msgstr ""
+"Aktiviraj čitanje sata u 24-satnom formatu – Ako potvrdni okvir nije "
+"označen, najavljuje sate u 12-satnom formatu, npr. 12 AM `-` 12 PM. Potvrdni "
+"okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Enable help buttons in the settings window; checkbox checked (by default)"
+msgstr ""
+"Aktiviraj gumbe pomoći u prozoru postavki; otvrdni okvir je standardno "
+"označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Read wind information; checkbox not checked (by default). If this checkbox "
+"is enabled, you can also activate the following checkboxes:"
+msgstr ""
+"Pročitaj informacije o vjetru; potvrdni okvir standardno nije označen. Ako "
+"je označen, možeš aktivirati i sljedeće potvrdne okvire:"
+
+#. type: Bullet: '* '
+msgid ""
+"Add wind direction; indicates the provenance of the wind. Checkbox checked "
+"(by default)"
+msgstr ""
+"Dodaj smjer vjetra; ukazuje na smjer iz kojeg vjetar dolazi. Potvrdni okvir "
+"je standardno označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Add speed of the wind; indicates the speed in kilometers or miles per hour. "
+"Checkbox checked (by default)"
+msgstr ""
+"Dodaj brzinu vjetra; ukazuje na brzinu u kilometrima na sat ili u miljama na "
+"sat. Potvrdni okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Add speed in meters per second of the wind; checkbox checked (by default)"
+msgstr ""
+"Dodaj brzinu vjetra u metrima po sekundi; potvrdni okvir je standardno "
+"označen."
+
+#. type: Bullet: '* '
+msgid "Add wind gust speed of the wind; checkbox checked (by default)"
+msgstr ""
+"Dodaj brzinu udara vjetra u metrima po sekundi; potvrdni okvir je standardno "
+"označen."
+
+#. type: Bullet: '* '
+msgid "Add perceived temperature; checkbox checked (by default)"
+msgstr "Dodaj osjetnu temperaturu; potvrdni okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Read atmospherical information; checkbox not checked (by default). If "
+"enabled, you can also check the following checkboxes:"
+msgstr ""
+"Pročitaj informacije o atmosferi; potvrdni okvir standardno nije označen. "
+"Ako je označen, možeš aktivirati i sljedeće potvrdne okvire:"
+
+#. type: Bullet: '* '
+msgid ""
+"Add humidity value; indicates the humidity in percent. Checkbox checked (by "
+"default)"
+msgstr ""
+"Dodaj vrijednost za vlagu; ukazuje na vlagu u postocima. Potvrdni okvir je "
+"standardno označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Add visibility value; indicate in kilometres or miles the distance visible. "
+"Checkbox checked (by default)"
+msgstr ""
+"Dodaj vrijednost za vidljivost; ukazuje na vidljivost u kilometrima ili "
+"miljama. Potvrdni okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Add atmospheric pressure value; indicates the atmospheric pressure in "
+"millibars or inches of mercury. If it's checked, enable an additional "
+"checkbox that allows you to indicate the pressure in millimeters of mercury. "
+"Checkbox checked (by default)"
+msgstr ""
+"Dodaj vrijednost za atmosferski tlak; ukazuje ne atmosferski tlak u "
+"milimetrima ili inčima žive. Ako je označeno, uključuje dodatni potvrdni "
+"okvir za označavanje tlaka u milimetrima žive. Potvrdni okvir je standardno "
+"označen."
+
+#. type: Bullet: '* '
+msgid "Add status of barometric pressure; check box checked (by default)"
+msgstr "Dodaj stanje barometra; potvrdni okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid "Add cloudiness value; check box checked (by default)"
+msgstr "Dodaj vrijednost oblačnosti; potvrdni okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid "Add precipitation value; check box checked (by default)"
+msgstr "Dodaj vrijednost oborine; potvrdni okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid "Add ultraviolet radiation value; check box checked (by default)"
+msgstr ""
+"Dodaj vrijednost ultraljubičastog zračenja; potvrdni okvir je standardno "
+"označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Read astronomical information; indicates the time of sunrise and sunset and "
+"the time of moonrise and moonset. Checkbox not checked (by default)"
+msgstr ""
+"Pročitaj informacije o astronomiji; ukazuje na vrijeme izlaska i zalaska "
+"sunca i mjeseca. Potvrdni okvir standardno nije označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Use the comma to separate decimals; if enabled, uses the comma as a decimal "
+"separator, otherwise, use the point. Checkbox not checked (by default)"
+msgstr ""
+"Koristi decimalni zarez; ako je uključeno, koristit će se decimalni zarez "
+"umjesto točke. Potvrdni okvir standardno nije označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Check for upgrade; if is activated this alerts when there is an update of "
+"the addon. Checkbox checked (by default)"
+msgstr ""
+"Provjeri nadogradnje; ako je aktivirano, upozorava o novoj verziji dodatka. "
+"Potvrdni okvir je standardno označen."
+
+#. type: Bullet: '* '
+msgid ""
+"Press the OK button to confirm the action or the Cancel button to cancel the "
+"action."
+msgstr ""
+"Potvrdi pritiskom gumba „U redu” ili prekini pritiskom gumba „Odustani”."
+
+#. type: Bullet: '* '
+msgid ""
+"If you have modified the cities list, by pressing \"Cancel\", you will be "
+"remembered and you can still save it. Note: your settings will be save in "
+"the file named:"
+msgstr ""
+"Ako promijeniš popis gradova, pritiskom gumba „Odustani”, dodatak te o tome "
+"obavještava, te ćeš popis još uvijek moći spremiti. Napomena: tvoje će se "
+"postavke spremiti u datoteku s imenom:"
+
+#. type: Bullet: '* '
+msgid "\"Weather.ini\": startup settings of Weather Plus."
+msgstr "„Weather.ini”: postavke za pokretanje Vremenske prognoze plus."
+
+#. type: Bullet: '* '
+msgid ""
+"\"Weather.volumes\": custom audio volume levels, regardless of the overall "
+"volume."
+msgstr ""
+"„Weather.volumes”: prilagođene razine glasnoće, neovisno o ukupnoj glasnoći."
+
+#. type: Bullet: '* '
+msgid ""
+"\"Weather.zipcodes\": list of cities with their zip code and definitions."
+msgstr ""
+"„Weather.zipcodes”: popis gradova s poštanskim brojevima i definicijama."
+
+#. type: Bullet: '* '
+msgid "\"Weather.default\": Your default city."
+msgstr "„Weather.default”: Tvoj standardni grad."
+
+#. type: Bullet: '* '
+msgid "\"Weather_searchkey\": search key saved."
+msgstr "„Weather_searchkey”: tipka za pretraživanje spremljena."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+
+#, fuzzy
+#~| msgid ""
+#~| "Set and Manage Your Cities... - Displays or allows to set the current "
+#~| "city from a list."
+#~ msgid ""
+#~ "Set a temporary city... - Displays and allows to set one temporary city "
+#~ "from a list if available."
+#~ msgstr ""
+#~ "Postavi i upravljaj gradovima … – Prikazuje ili dozvoljava postavljanje "
+#~ "trenutačnog grada s popisa."
+
+#~ msgid ""
+#~ "[https://developer.yahoo.com/weather/](https://developer.yahoo.com/"
+#~ "weather/)"
+#~ msgstr ""
+#~ "[https://developer.yahoo.com/weather/](https://developer.yahoo.com/"
+#~ "weather/)"
+
+#~ msgid ""
+#~ "[http://woeid.rosselliot.co.nz/lookup/](http://woeid.rosselliot.co.nz/"
+#~ "lookup/)"
+#~ msgstr ""
+#~ "[http://woeid.rosselliot.co.nz/lookup/](http://woeid.rosselliot.co.nz/"
+#~ "lookup/)"
+
+#~ msgid "What's new:"
+#~ msgstr "Što je novo:"
+
+#~ msgid "Version 7.4"
+#~ msgstr "Verzija 7.4"
+
+#~ msgid "Fixed a bug in a city search function."
+#~ msgstr "Ispravljena je greška u funkciji za traženje grada."
+
+#~ msgid "Version 7.3"
+#~ msgstr "Verzija 7.3"
+
+#~ msgid ""
+#~ "Fixed unexpected bug in case of page not found while searching for "
+#~ "updates."
+#~ msgstr ""
+#~ "Ispravljena je neočekivana greška u slučaju upozorenja, da stranica nije "
+#~ "pronađena, tijekom pretraživanja nadogradnji."
+
+#~ msgid "Version 7.2"
+#~ msgstr "Verzija 7.2"
+
+#~ msgid ""
+#~ "Fixed bug after adding a city, if it is the first one entered if you "
+#~ "press ok button and restart the add-on."
+#~ msgstr ""
+#~ "Ispravljena je greška nakon dodavanja grada, ako se radi o prvom upisanom "
+#~ "gradu, ako pritisneš gumb „U redu” i ponovo pokreneš dodatak."
+
+#~ msgid ""
+#~ "Now the progress dialog show again the time remaining and time elapsed."
+#~ msgstr ""
+#~ "Dijaloški okvir za napredak sada ponovno pokazuje preostalo vrijeme i "
+#~ "proteklo vrijeme."
+
+#~ msgid "Correct Italian translation in the help of the Rename button."
+#~ msgstr "Ispravljen prijevod za talijanski u pomoći gumba „Preimenuj”."
+
+#~ msgid "Updated compatibility for Python 3."
+#~ msgstr "Aktualizirana kompatibilnost s Python 3."
+
+#~ msgid ""
+#~ "Improved audio effects reproduction; now they update regularly if the "
+#~ "weather conditions change."
+#~ msgstr ""
+#~ "Poboljšana reprodukcija zvučnih efekata; sad se redovito aktualiziraju, "
+#~ "ako se promijene vremenski uvjeti."
+
+#~ msgid "Weather Plus returns to using the Yahoo Weather API."
+#~ msgstr "Vremenska prognoza plus ponovo koristi Yahoo Weather API."
+
+#~ msgid "Compatibility with Python 3."
+#~ msgstr "Kompatibilnost s Python 3."
+
+#~ msgid "Weather Plus now uses the APIXU API."
+#~ msgstr "Vremenska prognoza plus sada koristi APIXU API."
+
+#~ msgid "Changes in the Weather Plus Settings window"
+#~ msgstr "Promjene u prozoru postavki Vremenske prognoze plus"
+
+#~ msgid ""
+#~ "Removed old checkbox \"State of barometric pressure\". Replaced with new "
+#~ "checkbox \"Add cloudiness value\";"
+#~ msgstr ""
+#~ "Uklonjen stari potvrdni okvir za „Stanje barometra”. Zamijenjen novim "
+#~ "potvrdnim okvirom „Dodaj vrijednost za oblačnost”;"
+
+#~ msgid "It gives you the percentage of cloudiness."
+#~ msgstr "Daje postotak oblačnosti."
+
+#~ msgid "Added the astronomic information;"
+#~ msgstr "Dodane su informacije o astronomiji;"
+
+#~ msgid "Time of moonrise and moonset."
+#~ msgstr "Vrijeme izlaska i zalaska mjeseca."
+
+#~ msgid "Added new button \"Rename\"; to rename cities more conveniently."
+#~ msgstr "Dodan gumb „Preimenuj”; za jednostavnije preimenovanje gradova."
+
+#~ msgid ""
+#~ "Added new checkbox; \"Use only weather effects\"; this allows you to "
+#~ "filter out all other environmental effects."
+#~ msgstr ""
+#~ "Dodan novi potvrdni okvir; „Koristi samo vremenske efekte”; to omogućuje "
+#~ "filtrirati okolišne efekte."
+
+#~ msgid "Added Arabic localization (thanks to Wafik Immaculate)."
+#~ msgstr "Dodan prijevod za arapski (hvala Wafik Immaculate)."
+
+#~ msgid ""
+#~ "Improved audio effects; now are based on the current local time from the "
+#~ "city in use."
+#~ msgstr ""
+#~ "Poboljšana reprodukcija zvučnih efekata; sada se redovito aktualiziraju, "
+#~ "ako se promijene vremenski uvjeti."
+
+#~ msgid "Changes in details button function in settings window"
+#~ msgstr "Promjene u funkciji gumb za detalje u prozoru postavki"
+
+#~ msgid "Added current local time."
+#~ msgstr "Dodano trenutačno lokalno vrijeme."
+
+#~ msgid "Correct the German localization."
+#~ msgstr "Ispravljen prijevod za njemački."
+
+#~ msgid ""
+#~ "Added new checkbox; you can enable the comma as the decimal separator, "
+#~ "otherwise the separator will be the point."
+#~ msgstr ""
+#~ "Dodan novi potvrdni okvir; ,ožeš aktivirati zarez kao decimalnu oznaku, "
+#~ "inače će se koristit točka."
+
+#~ msgid "Correct 2 strings in Russian and Ukrainian localizations."
+#~ msgstr "Ispravljena su dva izraza za ruski i ukrajinski jezik."
+
+#~ msgid "Corrected title of the Check for upgrade window."
+#~ msgstr "Ispravljen je naslov u prozoru za „Provjeri nadogradnje”."
+
+#~ msgid "Version 4.5"
+#~ msgstr "Verzija 4.5"
+
+#~ msgid ""
+#~ "Added hotkey NVDA+shift+control+alt+w; it Opens the Weather Plus settings "
+#~ "dialog."
+#~ msgstr ""
+#~ "Dodan prečac NVDA+šift+kontrol+alt+w; otvara dijaloški okvir s postavkama "
+#~ "za Vremensku prognozu plus."
+
+#~ msgid "Correct some English strings."
+#~ msgstr "Ispravljeni neki engleski izrazi."
+
+#~ msgid ""
+#~ "Added 8 new checkboxes; it is now possible to further customize the "
+#~ "readout:"
+#~ msgstr ""
+#~ "Dodano je osam novih potvrdnih okvira. Sad je moguće još više prilagoditi "
+#~ "čitanje:"
+
+#~ msgid "Wind direction."
+#~ msgstr "Smjer vjetra."
+
+#~ msgid "Wind speed."
+#~ msgstr "Brzina vjetra."
+
+#~ msgid "Perceived temperature."
+#~ msgstr "Osjetna temperatura."
+
+#~ msgid "Humidity value."
+#~ msgstr "Vrijednost za vlagu."
+
+#~ msgid "Visibility value."
+#~ msgstr "Vrijednost za vidljivost."
+
+#~ msgid "Atmospheric pressure value."
+#~ msgstr "Atmosferski tlak."
+
+#~ msgid "Indicates the atmospheric pressure in millimeters of mercury (mmHg)."
+#~ msgstr "Ukazuje na atmosferski tlak u milimetrima žive (mmHg)."
+
+#~ msgid "State of the barometric pressure."
+#~ msgstr "Stanje barometra."
+
+#~ msgid "Version 4.4.8"
+#~ msgstr "Verzija 4.4.8"
+
+#~ msgid "Added Polish translation (thanks to Zvonimir Staneczyć)."
+#~ msgstr "Dodan prijevod za poljski (hvala Zvonimir Staneczyć)."
+
+#~ msgid "Compatibility with wx python version 4."
+#~ msgstr "Kompatibilnost s wx python verzijom 4."
+
+#~ msgid "Version 4.4.1"
+#~ msgstr "Verzija 4.4.1"
+
+#~ msgid "Added SSL support."
+#~ msgstr "Dodana je SSL podrška."
+
+#~ msgid "Version 4.4"
+#~ msgstr "Verzija 4.4"
+
+#~ msgid ""
+#~ "Fixed bug in the reading of the new version string, during a connection "
+#~ "time-out."
+#~ msgstr ""
+#~ "Ispravljena greška u čitanju nove verzije pri isteklom vremenu veze."
+
+#~ msgid ""
+#~ "Improved the upgrade section; now the dialog do not interferes with the "
+#~ "nvda menu."
+#~ msgstr ""
+#~ "Poboljšan odjeljak za nadogradnje. Dijaloški okvir se ne miješa s NVDA "
+#~ "izbornikom."
+
+#~ msgid "Revised and corrected Russian localization."
+#~ msgstr "Revidiran i ispravljen prijevod za ruski."
+
+#~ msgid "Adding Ukrainian translation (thanks to Alex Yeshanu)."
+#~ msgstr "Dodan prijevod za ukrajinski (hvala Alex Yeshanu)."
+
+#~ msgid "Version 4.3.4"
+#~ msgstr "Verzija 4.3.4"
+
+#~ msgid "Revised and corrected German Localization."
+#~ msgstr "Revidiran i ispravljen prijevod za njemački."
+
+#~ msgid "Version 4.3.3"
+#~ msgstr "Verzija 4.3.3"
+
+#~ msgid "Added German localization (thanks to Karl Eick)."
+#~ msgstr "Dodan prijevod za njemački (hvala Karl Eick)."
+
+#~ msgid "Version 4.3.2"
+#~ msgstr "Verzija 4.3.2"
+
+#~ msgid "Added Romanian localization (thanks to Florian Ionașcu)."
+#~ msgstr "Dodan prijevod za rumunjski (hvala Florian Ionașcu)."
+
+#~ msgid "Revised and updated documentation."
+#~ msgstr "Revidirana i ispravljena dokumentacija."
+
+#~ msgid "Fixed bug in Serbian localization."
+#~ msgstr "Ispravljena je greška u prijevodu za srpski."
+
+#~ msgid ""
+#~ "Added possibility to disable the conversion in meters per second of the "
+#~ "wind."
+#~ msgstr ""
+#~ "Dodana je mogućnost za deaktiviranje pretvaranja metara u sekundi vjetra."
+
+#~ msgid "Changes to the Weather Plus Settings window"
+#~ msgstr "Promjene u prozoru postavki Vremenske prognoze plus"
+
+#~ msgid "Added Croatian translation (thanks to Gordan Radić)."
+#~ msgstr "Dodan prijevod za hrvatski (hvala Gordan Radić)."
+
+#~ msgid "Added Galician translation (thanks to Iván Novegil)."
+#~ msgstr "Dodan prijevod za galicijski (hvala Iván Novegil)."
+
+#~ msgid "Added Portuguese translation (thanks to Ângelo Miguel Abrantes)."
+#~ msgstr "Dodan prijevod za portugalski (hvala Ângelo Miguel Abrantes)."
+
+#~ msgid "Added German translation (incomplete)."
+#~ msgstr "Dodan prijevod za njemački (nepotpun)."
+
+#~ msgid ""
+#~ "Added translation in Serbian (thanks to the kind cooperation of Dejan "
+#~ "Gasic)."
+#~ msgstr "Dodan prijevod za srpski (hvala Dejan Gašić na suradnji)."
+
+#~ msgid "F1 jumps into list and edit box of zip code."
+#~ msgstr ""
+#~ "Tikpom F1 skače u popisni okvir i okvir za uređivanje poštanskog broja."
+
+#~ msgid "F2 returns to the last selection reached with TAB."
+#~ msgstr "Tikpom F2 vraća na zadnji odabir urađen tabulatorom."
+
+#~ msgid ""
+#~ "F3 jumps into volume controls (if the sound effects are installed and "
+#~ "activated)."
+#~ msgstr ""
+#~ "Tikpom F3 skače u kontrole za glasnoću (ako su zvučni efekti instalirani "
+#~ "i aktivirani)."
+
+#~ msgid ""
+#~ "Changed, the button \"define\" is now disabled if the sound effects are "
+#~ "not installed and activated."
+#~ msgstr ""
+#~ "Promjena: gumb „Odredi” je sada deaktiviran, ako zvučni efekti nisu "
+#~ "instalirani i aktivirani."
+
+#~ msgid ""
+#~ "Added volume controls; you can adjust the overall volume and the last "
+#~ "heard sound effect; this option is enabled if the sound effects are "
+#~ "installed and activated."
+#~ msgstr ""
+#~ "Dodane su kontrole za glasnoću; možeš podesiti ukupnu glasnoću i "
+#~ "posljednji zvučni efekt; ova je opcija aktivirana, ako su zvučni efekti "
+#~ "instalirani i aktivirani."
+
+#~ msgid ""
+#~ "Added the Slovak translation (thanks to the kind cooperation of Vitek "
+#~ "Jirasek)."
+#~ msgstr "Dodan prijevod za slovački (hvala Vitek Jirasek na suradnji)."
+
+#~ msgid ""
+#~ "Added translation in Portuguese-Brazilian and Portuguese-Portugal (thanks "
+#~ "to the kind cooperation of Adair Knaesel)."
+#~ msgstr ""
+#~ "Dodan prijevod za portugalski za Brazil i portugalski za Portugal (hvala "
+#~ "Adair Knaesel na suradnji)."
+
+#~ msgid "The choice is between:"
+#~ msgstr "Moguće je birati između:"
+
+#~ msgid "Celsius `-` Fahrenheit"
+#~ msgstr "Celzija `-` Fahrenheita"
+
+#~ msgid "C `-` F"
+#~ msgstr "C `-` F"
+
+#~ msgid "No indication"
+#~ msgstr "Bez nagovještaja"
+
+#~ msgid "Adding translation into Russian (thanks to Alex Yeshanu)."
+#~ msgstr "Dodan prijevod za ruski (hvala Alex Yeshanu)."
+
+#~ msgid "Adding translation into Czech (thanks to Jirimu Holzingerovi)."
+#~ msgstr "Dodan prijevod za češki (hvala Jirimu Holzingerovi)."
+
+#~ msgid ""
+#~ "Added ability to read about wind; direction, speed and temperature of the "
+#~ "wind."
+#~ msgstr ""
+#~ "Dodana je mogućnost za čitanje podataka o vjetru; smjer, brzina i "
+#~ "temperatura vjetra."
+
+#~ msgid ""
+#~ "Added ability to read the Astronomic information; time of sunrise and "
+#~ "sunset."
+#~ msgstr ""
+#~ "Dodana mogućnost čitanja informacija o astronomiji; vrijeme izlaska i "
+#~ "zalaska sunca."
+
+#~ msgid ""
+#~ "Added possibility to copy the weather report or the weather forecast to "
+#~ "the clipboard."
+#~ msgstr ""
+#~ "Dodana je mogućnost za kopiranje izvještaja o vremenu ili vremenske "
+#~ "prognoze u međuspremnik."
+
+#~ msgid ""
+#~ "Adding translation into Spanish and French (thanks to Pablo Vargas and "
+#~ "Rémy Ruiz)."
+#~ msgstr ""
+#~ "Dodan prijevod za španjolski i francuski (hvala Pablo Vargas i Rémy Ruiz)."
+
+#~ msgid "Weather Plus Settings menu in Preferences submenu moved."
+#~ msgstr ""
+#~ "Izbornik postavki „Vremenske prognoze plus” premješten u podizbornik "
+#~ "„Postavke”."
+
+#~ msgid "Weather menu added in the System Tray."
+#~ msgstr "Dodan izbornik „Vrijeme” u programskoj traci."
+
+#~ msgid "Added menu Documentation."
+#~ msgstr "Dodan je izbornik „Dokumentacija”."
+
+#~ msgid "Added Italian localization."
+#~ msgstr "Dodan prijevod za talijanski."
+
+#~ msgid "Initial Version 1.1"
+#~ msgstr "Prva verzija 1.1"
+
+#~ msgid "Updated the NVDA-addon."
+#~ msgstr "Aktualiziran je NVDA dodatak."
+
+#~ msgid "Translation support has been added."
+#~ msgstr "Dodana podrška za prijevode."

@@ -1,0 +1,276 @@
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2016-12-29 15:31-0800\n"
+"Last-Translator: Him Prasad Gautam <drishtibachak@gmail.com>\n"
+"Language-Team: Nepali\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"systrayList\"]]\n"
+msgstr "[[!meta title=\"प्रणालीथालीशुचि (systrayList) \"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Authors: Rui Fontes, Rui Batista, NVDA Community contributors"
+msgid ""
+"Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors"
+msgstr "लेखकहरू: रुई फन्ट्स, रुई बटिस्ट, नेत्रवाणी योगदान समुदाय ।"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Download: [version 2.0-dev][1]"
+msgid "Download [stable version][1]"
+msgstr "टाउनलोड: [version 2.0-dev][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Download: [version 2.0-dev][1]"
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "टाउनलोड: [version 2.0-dev][1]"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This plugin makes possible to read and activate icons on the system tray "
+#| "or the task bar, within a list box, for easy access and interaction to "
+#| "those items. With the plugin installed, press NVDA+f11 once for this "
+#| "dialog to pop-up with system tray elements, and press twice to pop it up "
+#| "with task bar elements, which are the currently running applications."
+msgid ""
+"This add-on allows you to read and activate icons on the system tray or the "
+"task bar, within a list box, for easy access and interaction to those items. "
+"With the add-on installed, press NVDA+f11 once for this dialog to pop-up "
+"with system tray elements, and press twice to display task bar elements, "
+"which are the currently running applications."
+msgstr ""
+"यो चुकुलले सूची बाकसमा भएका मद्धे प्रणाली थालिका प्रतिमाहरूलाई पढ्न र सक्रिय पार्न सहजै "
+"सम्भव बनाउने छ।यो चुकुल भित्रयाए पछी सम्बन्धित पातो हेर्न नेत्रवाणी+f11 दबाउनु होला । दुई "
+"पटक यही कुञ्जी दबाएमा कार्य पट्टीमा भएका चालू अनुप्रयोगहरूलाई जान्न सकिन्छ ।"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Note that you can access the windows system tray in any screenreader "
+#| "software using the windows+b shortcut key, and the task bar by pressing "
+#| "tab from the start button. This plugin is only useful to make the "
+#| "transition from JAWS for Windows smoother and to avoid some tooltips that "
+#| "may pop-up when cycling through the system tray with the windows keyboard "
+#| "means."
+msgid ""
+"Note that you can access the windows system tray in any screen reader "
+"software using the Windows+B, and the task bar by pressing Windows+T. This "
+"plugin is only useful to make the transition from JAWS for Windows smoother "
+"and to avoid some tooltips that may pop-up when cycling through the system "
+"tray with the windows keyboard means."
+msgstr ""
+"स्मरणीय छ, तपाईले कुनै दृष्टिवाचक चलाउँदा  पनि द्रुतमार्ग windows+b दबाएर प्रणाली थाली "
+"सुची र सुरुवात टाँक पछी Tab दबाएर कार्य पट्टी जान्न त सक्नु हुन्छ ।  यो चुकुलको प्रयोगले  "
+"जज को पहुँच सजिलो बनाउने र उक्त द्रुतमार्गबाट जाँदा केही औजार टिपोट दोहोरिएर देखा पर्ने "
+"सम्भावनालाई हटाउने भएकोले उपयोगी छ ।"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.3 - 2012-05-25"
+msgid "Changes for 4.0 - 2020-01-03"
+msgstr "संस्करण १.३ - २०१२-०५-२५ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2012.3beta2 or greater."
+msgid "Requires NVDA 2019.3 or later."
+msgstr "नेत्रवाणी २०१२.३beta२ अथवा यस पछिका संस्करण चाहिन्छ ।"
+
+#. type: Bullet: '* '
+msgid ""
+"No more support for Windows versions earlier than Windows 7 Service Pack 1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add-on has been renamed to \"SysTrayList\"."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Donation request dialog will no longer appear when installing or updating "
+"the add-on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.3 - 2012-05-25"
+msgid "Changes for 3.2 - 2018-12-24"
+msgstr "संस्करण १.३ - २०१२-०५-२५ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "More code changes to support Python 3."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.3 - 2012-05-25"
+msgid "Changes for 3.1 - 2018-11-24"
+msgstr "संस्करण १.३ - २०१२-०५-२५ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.3 - 2012-05-25"
+msgid "Changes for 3.0 - 2018-10-25"
+msgstr "संस्करण १.३ - २०१२-०५-२५ मा गरिएका परिवर्तनहरू "
+
+#. type: Plain text
+msgid ""
+"Support for Windows releases earlier than Windows 7 Service Pack 1 will end "
+"in 2019."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add-on is Python 3 compatible."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.3 - 2012-05-25"
+msgid "Changes for 2.0 - 2017-05-20"
+msgstr "संस्करण १.३ - २०१२-०५-२५ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "Systray/taskbar dialog is now centered on screen."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fixed various user interface issues."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "French and Turkish Translations."
+msgid "New and updated translations."
+msgstr "फान्सेली र तुर्किका अनुवादहरू"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.4 - 2013-01-19"
+msgid "Changes for 1.5 - 2015-mm-dd"
+msgstr "संस्करण १.४ - २०१३-०-१९ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "Corrected left/right click action."
+msgstr "दाँया र वायाँ कार्यमा सच्याइयो ।"
+
+#. type: Bullet: '* '
+msgid "Add-on help is now available from add-ons manger."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Translation updates."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.4 - 2013-01-19"
+msgstr "संस्करण १.४ - २०१३-०-१९ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2012.3beta2 or greater."
+msgstr "नेत्रवाणी २०१२.३beta२ अथवा यस पछिका संस्करण चाहिन्छ ।"
+
+#. type: Bullet: '* '
+msgid "Add donation request to installation procedure"
+msgstr "श्थापना प्रक्रियामा चन्दा दानको अनुरोधलाई प्रश्रय दिनु होस् ।"
+
+#. type: Bullet: '* '
+msgid "Implemented taskbar support"
+msgstr "कारयपट्टीलाई समर्थन गर्ने गरी कार्यान्वीत "
+
+#. type: Bullet: '* '
+msgid ""
+"New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek, "
+"Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian "
+"Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong."
+msgstr ""
+"नया अनुवादहरू: बुल्गेरियाली, नर्बेजीयन, अरबी, डच, फिनिस , ग्यालिसियन, ग्रिक, "
+"हङ्गेरियाली, इटाली, जापानी, कोरियाली, नेपाली, पोल्याण्डेली, ब्राजेलियन पुर्तगाली, रूसी, "
+"स्लोभाकी, तामिल र पारम्परिक चिनिया-हङ्कङ्।"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.3 - 2012-05-25"
+msgstr "संस्करण १.३ - २०१२-०५-२५ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "Converted to an add-on package"
+msgstr "उप-कर्मीको पोकोमा रुपान्तरित "
+
+#. type: Bullet: '* '
+msgid "French and Turkish Translations."
+msgstr "फान्सेली र तुर्किका अनुवादहरू"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for  1.2 - 2012-04.25"
+msgstr "संस्करण १.२ - २०१२-०४.२५ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "Spanish and German translations. Thanks to all that contributed."
+msgstr "स्पेनी र जर्मनी अनुवादहरू । योगदानका लागि धन्यवाद !"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1 - 2012-03-20"
+msgstr "संस्करण १.१ - २०१२-०३-२० मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid ""
+"Corrected a bug that was making it impossible to use the plugin when a "
+"gettext translation is not available"
+msgstr ""
+"पाठप्राप्त  अनुवाद उपलब्ध नभएको बेला यो चुकुलले काम गर्न असम्भब बनाइ दिने उडुसलाई हटाइयो "
+"।"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0 - 2012-03-19"
+msgstr "संस्करण १.० - २०१२-०३-१९ मा गरिएका परिवर्तनहरू "
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "प्रारम्भिक लोकार्पण"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=systrayList"
+msgstr ""
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=st"
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=st"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=st"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=st"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=st-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=st"
+
+#, fuzzy
+#~| msgid "Download: [version 2.0-dev][1]"
+#~ msgid "Download [development version][2]"
+#~ msgstr "टाउनलोड: [version 2.0-dev][1]"

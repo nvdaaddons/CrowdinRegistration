@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2022-05-29 12:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Zoom Accessibility Enhancements\"]]\n"
+msgstr "[[!meta title=\"Zoom Accessibility Enhancements\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Mohamad Suliman, Eilana Benish"
+msgstr "Autorzy: Mohamad Suliman, Eilana Benish"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Pobierz [Wersja stabilna][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2018.4 to 2022.1"
+msgstr "Zgodność z wersjami NVDA: od 2018.4 do 2022.1"
+
+#. type: Plain text
+msgid ""
+"This add-on improves the experience of using Zoom for NVDA users by "
+"providing keyboard shortcuts to Handle alerts for Different events While In "
+"a meeting, make the process of remote control much more accessible and "
+"smoother, and more."
+msgstr ""
+"Ten dodatek ułatwia użytkownikom NVDA korzystanie z programu Zoom. Wprowadza "
+"skróty klawiszowe do obsługi alertów dla różnych zdarzeń podczas spotkania. "
+"Poprawia też jakość wsparcia zdalnego, które staje się bardziej dostępne."
+
+#. type: Title ##
+#, no-wrap
+msgid "keyboard shortcuts for controlling alerts In meetings "
+msgstr "skróty klawiaturowe służące do kontrolowania alertów w spotkaniach "
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA + Shift + A: cycles between different modes of reporting alerts. The "
+"following modes are available:"
+msgstr ""
+"NVDA + Shift + A: przełącza między różnymi trybami ogłaszania alertów. "
+"Dostępne są następujące tryby:"
+
+#. type: Bullet: '    * '
+msgid "Report all alerts mode, where all alerts are reported as usual"
+msgstr ""
+"Zgłoś wszystkie alerty w trybie, w którym wszystkie alerty są zgłaszane jak "
+"zwykle"
+
+#. type: Bullet: '    * '
+msgid ""
+"Beep for alerts, where NVDA will play a short beep for every alert displayed "
+"in Zoom"
+msgstr ""
+"Sygnał dźwiękowy dla alertów, w którym NVDA będzie odtwarzać krótki sygnał "
+"dźwiękowy dla każdego alertu wyświetlanego w Zoom"
+
+#. type: Bullet: '    * '
+msgid "Silence all alerts, where NVDA will ignore all alerts"
+msgstr "Wycisz wszystkie alerty, gdzie NVDA zignoruje wszystkie alerty"
+
+#. type: Bullet: '    * '
+msgid ""
+"Custom mode, Where the user can customize which alerts they want to have and "
+"which not. This can be done using the settings dialog of the add-on, or by "
+"using the dedicated keyboard shortcuts for that"
+msgstr ""
+"Tryb niestandardowy, w którym użytkownik może dostosować, które alerty chce "
+"mieć, a które nie. Można to zrobić za pomocą okna dialogowego ustawień "
+"dodatku lub za pomocą dedykowanych skrótów klawiaturowych do tego celu."
+
+#. type: Plain text
+msgid ""
+"The following shortcuts can be used to toggle on / off the announcements of "
+"each type of alert (note that this will be effective when custom mode is "
+"selected):"
+msgstr ""
+"Następujące skróty mogą być używane do włączania / wyłączania ogłoszeń "
+"każdego typu alertu (należy pamiętać, że będzie to skuteczne po wybraniu "
+"trybu niestandardowego):"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 1: Participant Has Joined/Left Meeting (Host Only)"
+msgstr ""
+"NVDA + Ctrl + 1: Uczestnik dołączył do spotkania/opuścił spotkanie. "
+"(Widoczne tylko dla organizatora)"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 2: Participant Has Joined/Left Waiting Room (Host Only)"
+msgstr ""
+"NVDA + Ctrl + 2: Uczestnik dołączył do poczekalni/opuścił poczekalnię. "
+"(Widoczne tylko dla organizatora)"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 3: Audio Muted by Host"
+msgstr "NVDA + Ctrl + 3: Dźwięk wyciszony przez hosta"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 4: Video Stopped by Host"
+msgstr "NVDA + Ctrl + 4: Wideo zatrzymane przez hosta"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 5: Screen Sharing Started/Stopped by a Participant"
+msgstr ""
+"NVDA + Ctrl + 5: Udostępnianie ekranu rozpoczęte/zatrzymane przez uczestnika"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 6: Recording Permission Granted/Revoked"
+msgstr "NVDA + Ctrl + 6: Zezwolenie na nagrywanie udzielone/cofnięte"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 7: Public In-meeting Chat Received"
+msgstr "NVDA + Ctrl + 7: Otrzymano publiczny czat na spotkaniu"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 8: Private In-meeting Chat Received"
+msgstr "NVDA + Ctrl + 8: Otrzymano prywatny czat na spotkaniu"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 9: In-meeting File Upload Completed"
+msgstr "NVDA + Ctrl + 9: Przesyłanie pliku na spotkaniu zakończone"
+
+#. type: Bullet: '* '
+msgid "NVDA + Ctrl + 0: Host Privilege Granted/Revoked"
+msgstr "NVDA + Ctrl + 0: Przywilej hosta przyznany/odwołany"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA + Shift + Ctrl + 1: Participant Has Raised/Lowered Hand (Host Only)"
+msgstr ""
+"NVDA + Shift + Ctrl + 1: Uczestnik podniósł/opuścił rękę. (Widoczne tylko "
+"dla organizatora)"
+
+#. type: Bullet: '* '
+msgid "NVDA + Shift + Ctrl + 2: Remote Control Permission Granted/Revoked"
+msgstr ""
+"NVDA + Shift + Ctrl + 2: Udzielone/odwołane uprawnienie do zdalnego "
+"sterowania"
+
+#. type: Bullet: '* '
+msgid "NVDA + Shift + Ctrl + 3: IM chat message received"
+msgstr "NVDA + Shift + Ctrl + 3: Otrzymano wiadomość czatu"
+
+#. type: Plain text
+msgid ""
+"Note that you need to leave reporting all alert types selected (in Zoom "
+"accessibility settings) to have the add-on function as expected."
+msgstr ""
+"Uwaga! Aby dodatek działał poprawnie, należy zaznaczyć tryb \"Ogłaszaj "
+"wszystkie alerty\" w ustawieniach dostępności Zoom."
+
+#. type: Title ##
+#, no-wrap
+msgid "Keyboard shortcut for Opening add on Dialogue "
+msgstr "Skrót klawiaturowy dla Otwieranie dodatku w oknie dialogowym "
+
+#. type: Plain text
+msgid "NVDA + Z Opens the add-on dialog !"
+msgstr "NVDA + Z Otwiera okno dialogowe dodatku!"
+
+#. type: Plain text
+msgid "Using this dialog you can :"
+msgstr "Można w nim:"
+
+#. type: Bullet: '* '
+msgid "See which alerts are announced and which aren't"
+msgstr "Sprawdzić, które alerty są ogłaszane, a które nie"
+
+#. type: Bullet: '* '
+msgid "Select the types of the alerts you want to be announced"
+msgstr "Wybrać, jakiego rodzaju alerty mają być ogłaszane"
+
+#. type: Bullet: '* '
+msgid "Choose alerts reporting mode"
+msgstr "Wybrać tryb ogłaszania alertów"
+
+#. type: Bullet: '* '
+msgid "Save custom changes"
+msgstr "Zapisać zmiany urzytkownika"
+
+#. type: Title ##
+#, no-wrap
+msgid "Remote control "
+msgstr "Pilot "
+
+#. type: Plain text
+msgid ""
+"after a remote control permission is granted, NVDA + O will move the focus "
+"in /Out of the remote controlled screen"
+msgstr ""
+"po przyznaniu uprawnień do zdalnego sterowania NVDA + O przesunie ostrość "
+"w / Poza zdalnie sterowany ekran"
+
+#. type: Plain text
+msgid ""
+"Note that the focus should be on one of the meeting controls to be able to "
+"remote control the other screen"
+msgstr ""
+"Należy pamiętać, że fokus powinien znajdować się na jednej z kontrolek "
+"spotkania, aby móc zdalnie sterować drugim ekranem."
+
+#. type: Title ##
+#, no-wrap
+msgid "An Important note"
+msgstr "Ważna uwaga"
+
+#. type: Plain text
+msgid ""
+"Currently the feature of custom alerts mode where the user can choose which "
+"alerts they want to have and which not works with Zoom only when the user "
+"interface language is set to english."
+msgstr ""
+"Funkcja Trybu Użytkownika pozwalająca określić, które alerty mają być "
+"ogłaszane, a które nie, działa tylko wtedy, gdy język interfejsu użytkownika "
+"w programie Zoom jest ustawiony na angielski."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=zoomEnhancements"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=zoom"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=zoom"

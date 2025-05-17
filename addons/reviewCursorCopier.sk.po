@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 19:14+0000\n"
+"PO-Revision-Date: 2020-01-28 12:57+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Review Cursor Copier\"]]\n"
+msgstr "[[!meta title=\"Kopírovanie textu pod prezeracím kurzorom\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Tuukka Ojala <tuukka.ojala@iki.fi>"
+msgstr "Autor: Tuukka Ojala <tuukka.ojala@iki.fi>"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Stiahnuť [stabilnú verziu][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Stiahnuť [vývojovú verziu][2]"
+
+#. type: Plain text
+msgid ""
+"This NVDA add-on provides various commands for copying the text under the "
+"review cursor to the clipboard. Currently, the following commands are "
+"implemented:"
+msgstr ""
+"Umožňuje kopírovať text, ktorý je pod prezeracím kurzorom. Dostupné sú tieto "
+"príkazy:"
+
+#. type: Bullet: '* '
+msgid "Copy the line under the review cursor"
+msgstr "Skopírovať riadok"
+
+#. type: Bullet: '* '
+msgid "Copy the word under the review cursor"
+msgstr "Skopírovať slovo"
+
+#. type: Bullet: '* '
+msgid "Copy from the start of the current line to the review cursor"
+msgstr "Skopírovať od začiatok riadka po kurzor"
+
+#. type: Bullet: '* '
+msgid "Copy from the review cursor to the end of the current line"
+msgstr "Skopírovať od kurzora do konca riadka"
+
+#. type: Bullet: '* '
+msgid "Copy from the start of the current word to the review cursor"
+msgstr "Skopírovať od začiatku slova po kurzor"
+
+#. type: Bullet: '* '
+msgid "Copy from the review cursor to the end of the current word"
+msgstr "Skopírovať od kurzora po koniec slova"
+
+#. type: Plain text
+msgid ""
+"None of these commands have key bindings by default. Please use the input "
+"gestures dialog located under the NVDA settings menu to set them. All of the "
+"commands provided by this add-on can be found under the \"text review\" "
+"category. More information about setting and modifying input gestures can be "
+"found in the NVDA user guide."
+msgstr ""
+"Klávesové skratky nie sú nastavené a na ich nastavenie musíte použiť dialóg "
+"klávesové skratky. Všetky sú v kategórii prezeranie textu. Ak potrebujete "
+"pomoc s nastavovaním klávesových skratiek, pozrite si príslušnú kapitolu v "
+"používateľskej príručke NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "License"
+msgstr "Licencia"
+
+#. type: Plain text
+msgid "This work is licensed under the GNU General Public License, version 2."
+msgstr ""
+"Doplnok jedistribuovaný pod licenciou GNU General Public License, verzia 2."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=reviewCursorCopier"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=rccp-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"

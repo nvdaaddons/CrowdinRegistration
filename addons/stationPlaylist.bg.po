@@ -1,0 +1,2022 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Zahari Yurukov <zahari.yurukov@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-05-10 17:19+0000\n"
+"PO-Revision-Date: 2017-12-28 10:49-0800\n"
+"Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
+"Language-Team: Български <>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!meta title=\"Station Playlist Studio\"]]\n"
+msgid "[[!meta title=\"StationPlaylist\"]]\n"
+msgstr "[[!meta title=\"Station Playlist Studio\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Christopher Duffley <nvda@chrisduffley.com> (formerly Joseph Lee "
+"<joseph.lee22590@gmail.com>, originally by Geoff Shang and other "
+"contributors)"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This add-on package provides improved usage of Station Playlist Studio, "
+#| "as well as providing utilities to control the Studio from anywhere."
+msgid ""
+"This add-on package provides improved usage of StationPlaylist Studio and "
+"other StationPlaylist apps, as well as providing utilities to control Studio "
+"from anywhere. Supported apps include Studio, Creator, Track Tool, VT "
+"Recorder, and Streamer, as well as SAM, SPL, and AltaCast encoders."
+msgstr ""
+"Тази добавка предоставя подобрена достъпност за Station Playlist Studio, "
+"както и предоставя инструменти за контрол на програмата отвсякъде."
+
+#. type: Plain text
+msgid "For more information about the add-on, read the [add-on guide][1]."
+msgstr ""
+
+#. type: Plain text
+msgid "IMPORTANT NOTES:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Some add-on features will be disabled or limited if NVDA is running in "
+"secure mode such as in logon screen."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "For best experience, disable audio ducking mode."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Starting from 2018, [changelogs for old add-on releases][2] will be found on "
+"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"onwards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"While Studio is running, you can save, reload saved settings, or reset add-"
+"on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or "
+"Control+NVDA+R three times, respectively. This is also applicable to encoder "
+"settings - you can save and reset (not reload) encoder settings if using "
+"encoders."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Many commands will provide speech output while NVDA is in speak on demand "
+"mode (NVDA 2024.1 and later)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcut keys"
+msgstr "Бързи клавиши"
+
+#. type: Plain text
+msgid ""
+"Most of these will work in Studio only unless otherwise specified. Unless "
+"noted otherwise, these commands support speak on demand mode."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid ""
+"Alt+Shift+T from Studio window: announce elapsed time for the currently "
+"playing track."
+msgstr ""
+"Alt+Shift+T, докато сте в прозореца на програмата: съобщава изминало време "
+"за текущо просвирвания запис."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+T from Studio window: announce remaining time for the "
+#| "currently playing trakc."
+msgid ""
+"Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: "
+"announce remaining time for the currently playing track."
+msgstr ""
+"Control+Alt+T, докато сте в прозореца на програмата: съобщава оставащо време "
+"за текущо просвирвания запис."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+Shift+F12 from Studio window: announces broadcaster time such as 5 "
+#| "minutes to top of the hour."
+msgid ""
+"NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: "
+"announces broadcaster time such as 5 minutes to top of the hour. Pressing "
+"this command twice will announce minutes and seconds till top of the hour."
+msgstr ""
+"NVDA+Shift+F12 докато сте в прозореца на програмата: съобщава време на "
+"излъчване, например 5 минути до края на часа."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+2 from Studio window: Opens song intro alarm setting dialog."
+msgid ""
+"Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+"alarms category in Studio add-on configuration dialog (does not support "
+"speak on demand)."
+msgstr ""
+"Alt+NVDA+2 от прозореца на Studio: Отваря диалоговия прозорец с настройките "
+"за предупреждение за въвеждащата мелодия."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid ""
+"Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces scheduled time for the loaded playlist."
+msgstr ""
+"Alt+Shift+T, докато сте в прозореца на програмата: съобщава изминало време "
+"за текущо просвирвания запис."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid ""
+"Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces total playlist duration."
+msgstr ""
+"Alt+Shift+T, докато сте в прозореца на програмата: съобщава изминало време "
+"за текущо просвирвания запис."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+#| "assignments."
+msgid ""
+"Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+"assignments (does not support speak on demand)."
+msgstr ""
+"Control+NVDA+3 докато сте в прозореца на програмата: Превключва прегледа на "
+"джингъли за изследване на назначенията на джингълите."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid ""
+"Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces when the selected track is scheduled to play."
+msgstr ""
+"Alt+Shift+T, докато сте в прозореца на програмата: съобщава изминало време "
+"за текущо просвирвания запис."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid ""
+"Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces rotation and category associated with the loaded playlist."
+msgstr ""
+"Alt+Shift+T, докато сте в прозореца на програмата: съобщава изминало време "
+"за текущо просвирвания запис."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+f from Studio window: Opens a dialog to find a track based "
+#| "on artist or song name. Press NvDA+F3 to find forward or NVDA+Shift+F3 to "
+#| "find backward."
+msgid ""
+"Control+NVDA+F from Studio window: Opens a dialog to find a track based on "
+"artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find "
+"backward (does not support speak on demand)."
+msgstr ""
+"Control+NVDA+F докато сте в прозореца на програмата: Отваря прозорец за "
+"търсене на базата на името на изпълнител или песен. Натиснете NVDA+F3 за "
+"търсене напред или NVDA+Shift+F3 за търсене назад."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+R from Studio window: Steps through library scan announcement "
+#| "settings."
+msgid ""
+"Shift+NVDA+R from Studio window: Steps through library scan announcement "
+"settings (does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+R от прозореца на Studio: Преминава през настройките за "
+"съобщаването на сканирането на библиотеката."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Shift+X from Studio window: Steps through braille timer settings."
+msgid ""
+"Control+Shift+X from Studio window: Steps through braille timer settings "
+"(does not support speak on demand)."
+msgstr ""
+"Control+Shift+X от прозореца на Studio: Преминава през настройките за "
+"брайловия таймер."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track column (does not "
+"support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Alt+up/down arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track and announce "
+"specific columns (does not support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+1 through 0 (while focused on a track in Studio, Creator "
+"(including Playlist Editor), Remote VT, and Track Tool): Announce column "
+"content for a specified column (first ten columns by default). Pressing this "
+"command twice will display column information on a browse mode window."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+- (hyphen while focused on a track in Studio, Creator, Remote "
+"VT, and Track Tool): display data for all columns in a track on a browse "
+"mode window (does not support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+V while focused on a track (Studio's playlist viewer only): toggles "
+"track column announcement between screen order and custom order (does not "
+"support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+C while focused on a track (Studio's playlist viewer only): "
+"announces track comments if any."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
+msgid ""
+"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Control+NVDA+2, докато сте в прозореца на програмата: Отваря диалога за "
+"задаване на време за предупреждение преди края на записа."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
+msgid ""
+"Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Control+NVDA+2, докато сте в прозореца на програмата: Отваря диалога за "
+"задаване на време за предупреждение преди края на записа."
+
+#. type: Bullet: '* '
+msgid "Alt+NVDA+F1: Open welcome dialog (does not support speak on demand)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Unassigned commands"
+msgstr "Неприсвоени команди"
+
+#. type: Plain text
+msgid ""
+"The following commands are not assigned by default; if you wish to assign "
+"them, use Input Gestures dialog to add custom commands. To do so, from "
+"Studio window, open NVDA menu, Preferences, then Input Gestures. Expand "
+"StationPlaylist category, then locate unassigned commands from the list "
+"below and select \"Add\", then type the gesture you wish to use."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Important: some of these commands will not work if NVDA is running in secure "
+"mode such as from login screen. Not all commands support speak on demand."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Switching to SPL Studio window from any program."
+msgid ""
+"Switching to SPL Studio window from any program (unavailable in secure mode, "
+"does not support speak on demand)."
+msgstr "Превключване към прозореца на SPL Studio от всяка програма."
+
+#. type: Bullet: '* '
+msgid "SPL Controller layer (unavailable in secure mode)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Announcing Studio status such as track playback from other programs "
+"(unavailable in secure mode)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Announcing encoder connection status from any program (unavailable in secure "
+"mode)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SPL Assistant layer from SPL Studio."
+msgstr "Помощен слой на SPL от SPL Studio."
+
+#. type: Bullet: '* '
+msgid "Announce time including seconds from SPL Studio."
+msgstr "Съобщаване на времето, включително и секундите от SPL Studio."
+
+#. type: Bullet: '* '
+msgid "Announcing temperature."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Announcing title of next track if scheduled."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press R to hear remaining time for the currently playing track in seconds."
+msgid "Announcing title of the currently playing track."
+msgstr ""
+"Натиснете R за да чуете оставащото време за текущо просвирвания запис (в "
+"секунди)."
+
+#. type: Bullet: '* '
+msgid "Marking current track for start of track time analysis."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Performing track time analysis."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Take playlist snapshots."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Find text in specific columns (does not support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Find tracks with duration that falls within a given range via time range "
+"finder (does not support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Quickly enable or disable metadata streaming (does not support speak on "
+"demand)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Additional commands when using Sam or SPL encoders"
+msgid "Additional commands when using encoders"
+msgstr "Допълнителни команди при използването на Sam или SPL енкодерите"
+
+#. type: Plain text
+msgid ""
+"The following commands are available when using encoders, and the ones used "
+"for toggling options for on-connection behavior such as focusing to Studio, "
+"playing the first track, and toggling of background monitoring can be "
+"assigned through the Input Gestures dialog in NVDA menu, Preferences, Input "
+"Gestures, under the StationPlaylist category. These commands do not support "
+"speak on demand."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F9: connect to a streaming server."
+msgid "F9: connect the selected encoder."
+msgstr "F9: Свързване с излъчващ сървър."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F10 (SAM encoder only): Disconnect from the streaming server."
+msgid "F10 (SAM encoder only): Disconnect the selected encoder."
+msgstr ""
+"F10 (само за SAM енкодера): Прекъсване на връзката с излъчващия сървър."
+
+#. type: Bullet: '* '
+msgid "Control+F9: Connect all encoders."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F10 (SAM encoder only): Disconnect from the streaming server."
+msgid "Control+F10 (SAM encoder only): Disconnect all encoders."
+msgstr ""
+"F10 (само за SAM енкодера): Прекъсване на връзката с излъчващия сървър."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "F11: Toggles whether NVDA will switch to Studio window for the selected "
+#| "encoder if connected."
+msgid ""
+"Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the "
+"selected encoder if connected."
+msgstr ""
+"F11: Определя дали NVDA ще превключва към прозореца на програмата ако "
+"избрания енкодер е свързан."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+F11: Toggles whether Studio will play the first selected track when "
+"encoder is connected to a streaming server."
+msgstr ""
+"Shift+F11: Определя дали ще се просвирва първият избран запис когато "
+"енкодера е свързан към излъчващ сървър."
+
+#. type: Bullet: '* '
+msgid "Control+F11: Toggles background monitoring of the selected encoder."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "F12: Opens a dialog to enter custom label for the selected encoder or "
+#| "stream."
+msgid ""
+"Control+F12: opens a dialog to select the encoder you have deleted (to "
+"realign encoder labels and settings)."
+msgstr ""
+"F12: Отваря диалог за въвеждане на потребителски етикет за избрания енкодер "
+"или поток."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such "
+"as encoder label."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In addition, column review commands are available, including (supports speak "
+"on demand):"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+1: Encoder position."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from Studio window: Opens microphone alarm dialog."
+msgid "Control+NVDA+2: encoder label."
+msgstr ""
+"Control+NVDA+4 от прозореца на Studio: Отваря диалоговия прозорец за "
+"предупреждението за микрофона."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from Studio window: Opens microphone alarm dialog."
+msgid "Control+NVDA+3 from SAM Encoder: Encoder format."
+msgstr ""
+"Control+NVDA+4 от прозореца на Studio: Отваря диалоговия прозорец за "
+"предупреждението за микрофона."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from Studio window: Opens microphone alarm dialog."
+msgid "Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings."
+msgstr ""
+"Control+NVDA+4 от прозореца на Studio: Отваря диалоговия прозорец за "
+"предупреждението за микрофона."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from Studio window: Opens microphone alarm dialog."
+msgid "Control+NVDA+4 from SAM Encoder: Encoder connection status."
+msgstr ""
+"Control+NVDA+4 от прозореца на Studio: Отваря диалоговия прозорец за "
+"предупреждението за микрофона."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from Studio window: Opens microphone alarm dialog."
+msgid ""
+"Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection "
+"status."
+msgstr ""
+"Control+NVDA+4 от прозореца на Studio: Отваря диалоговия прозорец за "
+"предупреждението за микрофона."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+5 from SAM Encoder: Connection status description."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Assistant layer"
+msgstr "Помощен слой на SPL"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This layer command set allows you to obtain various status on SPL Studio, "
+#| "such as whether a track is playing, total duration of all tracks for the "
+#| "hour and so on. From SPL Studio window, press the SPL Assistant layer "
+#| "command, then press one of the keys from the list below."
+msgid ""
+"This layer command set allows you to obtain various status on SPL Studio, "
+"such as whether a track is playing, total duration of all tracks for the "
+"hour and so on. From any SPL Studio window, press the SPL Assistant layer "
+"command, then press one of the keys from the list below (one or more "
+"commands are exclusive to playlist viewer). You can also configure NVDA to "
+"emulate commands from other screen readers."
+msgstr ""
+"Този набор от команди за слоя ви позволява да научите различна информация за "
+"състоянието на SPL Studio, като например дали има просвирващ се запис, обща "
+"продължителност на всички записи за текущия час и много други. За да "
+"активирате този режим, натиснете командата за помощния слой на SPL от "
+"прозореца на SPL Studio, след което натиснете някой от клавишите от списъка "
+"по-долу."
+
+#. type: Plain text
+msgid "The available commands are (most commands support speak on demand):"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "A: Automation."
+msgstr "A: Автоматизация."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid "C (Shift+C in JAWS layout): Title for the currently playing track."
+msgstr ""
+"Alt+Shift+T, докато сте в прозореца на програмата: съобщава изминало време "
+"за текущо просвирвания запис."
+
+#. type: Bullet: '* '
+msgid ""
+"C (JAWS layout): Toggle cart explorer (playlist viewer only, does not "
+"support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"D (R in JAWS layout): Remaining duration for the playlist (if an error "
+"message is given, move to playlist viewer and then issue this command)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Control+D (Studio 6.10 and later): Control keys enabled/disabled."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F9: connect to a streaming server."
+msgid "E: Metadata streaming status."
+msgstr "F9: Свързване с излъчващ сървър."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming "
+"URL's (0 is for DSP encoder)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "F: Find track (playlist viewer only, does not support speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "H: Duration of music for the current hour slot."
+msgstr "H: продължителност на записите от текущия час."
+
+#. type: Bullet: '* '
+msgid "Shift+H: Remaining track duration for the hour slot."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "I: Listener count."
+msgid "I (L in JAWS layout): Listener count."
+msgstr "I: Брой на слушателите."
+
+#. type: Bullet: '* '
+msgid "K: Move to the marked track (playlist viewer only)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Control+K: Set the current track as the place marker track (playlist viewer "
+"only)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "L (Shift+L in JAWS layout): Line in."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "M: Microphone."
+msgstr "M: микрофон."
+
+#. type: Bullet: '* '
+msgid "N: Title for the next scheduled track."
+msgstr "N: заглавието на следващия запис на опашката."
+
+#. type: Bullet: '* '
+msgid "O: Playlist hour over/under by."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "P: Playback status (playing or stopped)."
+msgstr "P: състояние на възпроизвеждането (активно или спряно)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Shift+P: Pitch of the current track (SPL 5.00 and later)."
+msgid "Shift+P: Pitch of the current track."
+msgstr "Shift+P: Височина на текущия запис (SPL 5.00 и по-нови)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "R: Record to file enabled/disabled."
+msgid "R (Shift+E in JAWS layout): Record to file enabled/disabled."
+msgstr "R: Разрешаване/забраняване на записването във файл."
+
+#. type: Bullet: '* '
+msgid "Shift+R: Monitor library scan in progress."
+msgstr "Shift+R: Наблюдаване на напредъка при сканирането на библиотеката."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "S: Track starts in (scheduled)."
+msgid "S: Track starts (scheduled)."
+msgstr "S: Записът ще се възпроизведе в (планирано)."
+
+#. type: Bullet: '* '
+msgid "Shift+S: Time until selected track will play (track starts in)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "T: Cart edit mode on/off."
+msgid "T: Cart edit/insert mode on/off."
+msgstr "T: Включване/изключване на Cart режима на редактиране."
+
+#. type: Bullet: '* '
+msgid "U: Studio up time."
+msgstr "U: Изминало време в Studio."
+
+#. type: Bullet: '* '
+msgid "W: Weather and temperature if configured."
+msgstr "W: Време и температура, ако са конфигурирани."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Y: Playlist modified status (SPL 5.00 and later)."
+msgid "Y: Playlist modified status."
+msgstr ""
+"Y: Състояние на промяната на списъка за изпълнение (SPL 5.00 и по-нови)."
+
+#. type: Bullet: '* '
+msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Shift+F8: Request playlist transcripts in numerous formats."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"F9: Mark current track for start of playlist analysis (playlist viewer only)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "F10: Perform track time analysis (playlist viewer only)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "F12: Switch between current and a predefined profile."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "F1: Layer help."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Controller"
+msgstr "Контролер на SPL"
+
+#. type: Plain text
+msgid ""
+"The SPL Controller is a set of layered commands you can use to control SPL "
+"Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "
+"\"SPL Controller.\" Press another command to control various Studio settings "
+"such as microphone on/off or play the next track."
+msgstr ""
+"Контролерът на SPL е набор от команди за слоя, които може да използвате, за "
+"да управлявате SPL Studio от всякъде. Натиснете командата за слоя на "
+"контролера за SPL и NVDA ще съобщи, \"Контролер на SPL.\" Натиснете клавиш, "
+"отговарящ на някоя от командите по-долу, за да управлявате някоя от многото "
+"настройки, например заглушаване или активиране на микрофона или просвирване "
+"на следващия запис."
+
+#. type: Plain text
+msgid ""
+"Important: SPL Controller layer commands are disabled if NVDA is running in "
+"secure mode."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "The available SPL Controller commands are:"
+msgid ""
+"The available SPL Controller commands are (some commands support speak on "
+"demand):"
+msgstr "Наличните команди на контролера на SPL са:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press P to play the next selected track."
+msgid "P: Play the next selected track."
+msgstr "Натиснете P, за да просвирите следващия маркиран запис."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press U to pause or unpause playback."
+msgid "U: Pause or unpause playback."
+msgstr ""
+"Натиснете U, за да поставите на пауза текущия запис или да възобновите "
+"възпроизвеждането."
+
+#. type: Bullet: '* '
+msgid "S: Stop the track with fade out."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "T: Instant stop."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "M: Microphone."
+msgid "M: Turn on microphone."
+msgstr "M: микрофон."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "M: Microphone."
+msgid "Shift+M: Turn off microphone."
+msgstr "M: микрофон."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "A: Automation."
+msgid "A: Turn on automation."
+msgstr "A: Автоматизация."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "A: Automation."
+msgid "Shift+A: Turn off automation."
+msgstr "A: Автоматизация."
+
+#. type: Bullet: '* '
+msgid "L: Turn on line-in input."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Shift+L: Turn off line-in input."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press R to hear remaining time for the currently playing track in seconds."
+msgid "R: Remaining time for the currently playing track."
+msgstr ""
+"Натиснете R за да чуете оставащото време за текущо просвирвания запис (в "
+"секунди)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Shift+R: Monitor library scan in progress."
+msgid "Shift+R: Library scan progress."
+msgstr "Shift+R: Наблюдаване на напредъка при сканирането на библиотеката."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press R to hear remaining time for the currently playing track in seconds."
+msgid ""
+"C: Title and duration of the currently playing track (supports speak on "
+"demand)."
+msgstr ""
+"Натиснете R за да чуете оставащото време за текущо просвирвания запис (в "
+"секунди)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press R to hear remaining time for the currently playing track in seconds."
+msgid ""
+"Shift+C: Title and duration of the upcoming track if any (supports speak on "
+"demand)."
+msgstr ""
+"Натиснете R за да чуете оставащото време за текущо просвирвания запис (в "
+"секунди)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from Studio window: Opens microphone alarm dialog."
+msgid "E: Encoder connection status (supports speak on demand)."
+msgstr ""
+"Control+NVDA+4 от прозореца на Studio: Отваря диалоговия прозорец за "
+"предупреждението за микрофона."
+
+#. type: Bullet: '* '
+msgid "I: Listener count (supports speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Q: Studio status information such as whether a track is playing, microphone "
+"is on and others (supports speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Cart keys (F1, Control+1, for example): Play assigned carts from anywhere."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "H: Layer help."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Microphone alarm"
+msgid "Track and microphone alarms"
+msgstr "Предупреждение за микрофона"
+
+#. type: Plain text
+msgid ""
+"By default, NVDA will play a beep if five seconds are left in the track "
+"(outro) and/or intro, as well as to hear a beep if microphone has been "
+"active for a while. To configure track and microphone alarms, press "
+"Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can "
+"also use this screen to configure if you'll hear a beep, a message or both "
+"when alarms are turned on."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Track Finder"
+msgstr "Търсене на записи"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "If you wish to quickly find a song by an artist or by song name, from "
+#| "track list, press Control+NVDA+F. Type the name of the artist or the song "
+#| "name. NVDA will either place you at the song if found or will display an "
+#| "error if it cannot find the song you're looking for. To find a previously "
+#| "entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
+#| "backward."
+msgid ""
+"If you wish to quickly find a song by an artist or by song name, from track "
+"list, press Control+NVDA+F. Type or choose the name of the artist or the "
+"song name. NVDA will either place you at the song if found or will display "
+"an error if it cannot find the song you're looking for. To find a previously "
+"entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
+"backward."
+msgstr ""
+"Ако желаете бързо да намерите запис от изпълнител или по името на записа, от "
+"списъка за изпълнение, натиснете Control+NVDA+F. Въведете името на "
+"изпълнителя или името на песента. NVDA ще ви позиционира върху записа Ако е "
+"намерен или ще изведе грешка, ако не може да се намери записа, който "
+"търсите. За да намерите предходно търсен запис или изпълнител, натиснете "
+"NVDA+F3 или NVDA+Shift+F3, за да търсите съответно напред или назад."
+
+#. type: Plain text
+msgid "Note: Track Finder is case-sensitive."
+msgstr "Забележка: Търсенето на записи взема предвид малките и главните букви."
+
+#. type: Title ##
+#, no-wrap
+msgid "Cart Explorer"
+msgstr "Разглеждане на джингъли"
+
+#. type: Plain text
+msgid ""
+"Depending on edition, SPL Studio allows up to 96 carts to be assigned for "
+"playback. NVDA allows you to hear which cart, or jingle is assigned to these "
+"commands."
+msgstr ""
+"В зависимост от изданието, SPL Studio позволява да бъдат определени до 96 "
+"джингъли за използване по време на предаване. NVDA ви позволява да чуете кой "
+"джингъл е назначен за коя от тези команди."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "To learn cart assignments, from SPL Studio, press Control+NVDA+3. "
+#| "Pressing the cart command once will tell you which jingle is assigned to "
+#| "the command. Pressing the cart command twice will play the jingle. Press "
+#| "Control+NvDA+3 to exit cart explorer. See the add-on guide for more "
+#| "information on cart explorer."
+msgid ""
+"To learn cart assignments, from SPL Studio, press Alt+NVDA+3. Pressing the "
+"cart command once will tell you which jingle is assigned to the command. "
+"Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to "
+"exit cart explorer. See the add-on guide for more information on cart "
+"explorer."
+msgstr ""
+"За да изследвате джингълите, от SPL Studio, натиснете Control+NVDA+3. "
+"Натискането на командата за джингъла ви казва кой е асоциирания джингъл. "
+"Двукратно натискане просвирва джингъла. Натиснете Control+NvDA+3 за да "
+"излезете от този режим. За повече информация се обърнете към ръководството "
+"на добавката."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Track Finder"
+msgid "Track time analysis"
+msgstr "Търсене на записи"
+
+#. type: Plain text
+msgid ""
+"To obtain length to play selected tracks, mark current track for start of "
+"track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when "
+"reaching end of selection."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Cart Explorer"
+msgid "Columns Explorer"
+msgstr "Разглеждане на джингъли"
+
+#. type: Plain text
+msgid ""
+"By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
+"columns. By default, these are first ten columns for a track item (in "
+"Studio: artist, title, duration, intro, outro, category, year, album, genre, "
+"mood). For playlist editor in Creator and Remote VT client, column data "
+"depends on column order as shown on screen. In Studio, Creator's main track "
+"list, and Track Tool, column slots are preset regardless of column order on "
+"screen and can be configured from add-on settings dialog under columns "
+"explorer category."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Track column announcement"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can ask NVDA to announce track columns found in Studio's playlist viewer "
+"in the order it appears on screen or using a custom order and/or exclude "
+"certain columns. Press NVDA+V to toggle this behavior while focused on a "
+"track in Studio's playlist viewer. To customize column inclusion and order, "
+"from column announcement settings panel in add-on settings, uncheck "
+"\"Announce columns in the order shown on screen\" and then customize "
+"included columns and/or column order."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist snapshots"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can press SPL Assistant, F8 while focused on a playlist in Studio to "
+"obtain various statistics about a playlist, including number of tracks in "
+"the playlist, longest track, top artists and so on. After assigning a custom "
+"command for this feature, pressing the custom command twice will cause NVDA "
+"to present playlist snapshot information as a webpage so you can use browse "
+"mode to navigate (press escape to close)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist Transcripts"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Pressing SPL Assistant, Shift+F8 will present a dialog to let you request "
+"playlist transcripts in numerous formats, including in a plain text format, "
+"an HTML table or a list."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration dialog"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"From studio window, you can press Alt+NVDA+0 to open the add-on "
+"configuration dialog. Alternatively, go to NVDA's preferences menu and "
+"select SPL Studio Settings item. Not all settings are available if NVDA is "
+"running in secure mode."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Broadcast profiles dialog"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can save settings for specific shows into broadcast profiles. These "
+"profiles can be managed via SPL broadcast profiles dialog which can be "
+"accessed by pressing Alt+NVDA+P from Studio window."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL touch mode"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you are using Studio on a touchscreen computer with NVDA installed, you "
+"can perform some Studio commands from the touchscreen. First use three "
+"finger tap to switch to SPL mode, then use the touch commands listed above "
+"to perform commands."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 25.06-LTS"
+msgstr "Промени във версия 3.0"
+
+#. type: Plain text
+msgid ""
+"Version 25.06.x is the last release series to support Studio 5.x with future "
+"releases requiring Studio 6.x. Some new features will be backported to 25.06."
+"x if needed."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new command in SPL Assistant to announce playlist hour over/under by "
+"in minutes and seconds (O)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, the command to step through library scan announcement settings "
+"has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles "
+"remote access feature in NVDA 2025.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing when performing "
+"some SPL Assistant commands after resizing Studio window."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize track column changes introduced in Creator and Track "
+"Tool 6.11."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play wrong carts when playing them via SPL Controller "
+"layer."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 25.05"
+msgstr "Промени във версия 3.0"
+
+#. type: Bullet: '* '
+msgid "NVDA 2024.1 or later is required due to Python 3.11 upgrade."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Moved ad-on wiki documents such as add-on changelog to the main code "
+"repository."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added close button to playlist snapshots, playlist transcripts, and SPL "
+"Assistant and Controller layer help screens (NVDA 2025.1 and later)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer do nothing or play error tones when announcing weather "
+"and temperature information in Studio 6.x (SPL Assistant, W)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 25.01"
+msgstr "Промени във версия 3.0"
+
+#. type: Bullet: '* '
+msgid "64-bit Windows 10 21H2 (build 19044) or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio 6.10 and later, added a new command in SPL Assistant to announce "
+"control keys enabled/disabled status (Control+D)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 24.03"
+msgstr "Промени във версия 3.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2024.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2023.3.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Support for StationPlaylist suite 6.10."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
+"spoken in this mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 24.01"
+msgstr "Промени във версия 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The commands for the Encoder Settings dialog for use with the SPL and SAM "
+"Encoders are now assignable, meaning that you can change them from their "
+"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
+"Input Gestures. The ones that are not assignable are the connect and "
+"disconnect commands. Also, to prevent command conflicts and make much easier "
+"use of this command on remote servers, the default gesture for switching to "
+"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
+"of these can of course still be toggled from the Encoder Settings dialog "
+"(NVDA+Alt+0 or F12)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 23.05"
+msgstr "Промени във версия 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Version 23.02"
+msgstr "Промени във версия 3.0"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio's playlist viewer, NVDA will not announce column headers such as "
+"artist and title if table headers setting is set to either \"rows and "
+"columns\" or \"columns\" in NVDA's document formatting settings panel."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Initial release."
+msgid "Older releases"
+msgstr "Първоначално издание"
+
+#. type: Plain text
+msgid ""
+"Please see the [changelog][2] for release notes for old add-on releases."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/"
+#| "SPLAddonGuide"
+msgid ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+msgstr ""
+"[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/SPLAddonGuide"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/"
+#| "SPLAddonGuide"
+msgid ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+msgstr ""
+"[3]: https://bitbucket.org/nvdaaddonteam/stationplaylist/wiki/SPLAddonGuide"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Изтегляне на [стабилна версия][1]"
+
+#, fuzzy
+#~| msgid ""
+#~| "The following commands are available when using Sam or SPL encoders:"
+#~ msgid "The following commands are available when using encoders:"
+#~ msgstr ""
+#~ "Следните команди са налични при използването на Sam или SPL енкодерите:"
+
+#, fuzzy
+#~| msgid "The available SPL Controller commands are:"
+#~ msgid "The available commands are:"
+#~ msgstr "Наличните команди на контролера на SPL са:"
+
+#, fuzzy
+#~| msgid "I: Listener count."
+#~ msgid "I: Listener count."
+#~ msgstr "I: Брой на слушателите."
+
+#~ msgid "Authors: Geoff Shang, Joseph Lee and other contributors"
+#~ msgstr "Автори: Geoff Shang, Joseph Lee и други сътрудници"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 22.03"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "In SAM Encoder window, added a command (Shift+F11) to tell Studio to "
+#~| "play the first track when connected."
+#~ msgid ""
+#~ "In Studio, NVDA will no longer do nothing or play error tones if "
+#~ "attempting to obtain playlist snapshots (SPL Assistant, F8) if the loaded "
+#~ "playlist consists only of hour markers."
+#~ msgstr ""
+#~ "В прозореца на SAM Encoder беше добавена команда (Shift+F11) за указване "
+#~ "на Studio да просвири първият запис при свързване."
+
+#~ msgid "SPL Controller layer."
+#~ msgstr "Слой за контролера на SPL"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 21.11"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 21.10"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 21.08"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 21.06"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "In SAM Encoder window, added a command (Shift+F11) to tell Studio to "
+#~| "play the first track when connected."
+#~ msgid ""
+#~ "NVDA will no longer do nothing or play error tones when trying to open "
+#~ "various add-on dialogs such as encoder settings dialog. This is a "
+#~ "critical fix required to support NVDA 2021.1."
+#~ msgstr ""
+#~ "В прозореца на SAM Encoder беше добавена команда (Shift+F11) за указване "
+#~ "на Studio да просвири първият запис при свързване."
+
+#, fuzzy
+#~| msgid ""
+#~| "In SAM Encoder window, added a command (Shift+F11) to tell Studio to "
+#~| "play the first track when connected."
+#~ msgid ""
+#~ "NVDA will no longer appear to do nothing or play error tones when trying "
+#~ "to announce complete time (hours, minutes, seconds) from Studio (command "
+#~ "unassigned). This affects NVDA 2021.1 or later."
+#~ msgstr ""
+#~ "В прозореца на SAM Encoder беше добавена команда (Shift+F11) за указване "
+#~ "на Studio да просвири първият запис при свързване."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 21.04/20.09.7-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 21.03/20.09.6-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 21.01/20.09.5-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.11.1/20.09.4-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.11/20.09.3-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.10/20.09.2-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Изтегляне на [тестова версия][2]"
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts20"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+
+#, fuzzy
+#~| msgid ""
+#~| "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
+#~ msgid ""
+#~ "Alt+NVDA+- (hyphen) from Studio window: Send feedback to add-on developer "
+#~ "using the default email client."
+#~ msgstr ""
+#~ "Control+NVDA+2, докато сте в прозореца на програмата: Отваря диалога за "
+#~ "задаване на време за предупреждение преди края на записа."
+
+#~ msgid ""
+#~ "Press S to stop the track with fade out, or to stop the track instantly, "
+#~ "press T."
+#~ msgstr ""
+#~ "Натиснете S, за да спрете записа със затихване, или натиснете T, за да "
+#~ "спрете записа незабавно."
+
+#~ msgid ""
+#~ "Press M or Shift+M to turn on or off the microphone, respectively, or "
+#~ "press N to enable microphone without fade."
+#~ msgstr ""
+#~ "Натиснете M или Shift+M за да включите или съответно изключите микрофона, "
+#~ "или натиснете N за да задействате микрофона без засилване."
+
+#~ msgid "Press A to enable automation or Shift+A to disable it."
+#~ msgstr ""
+#~ "Натиснете A, за да разрешите автоматизацията или Shift+A, за да я "
+#~ "забраните."
+
+#~ msgid "Press L to enable line-in input or Shift+L to disable it."
+#~ msgstr ""
+#~ "Натиснете L, за да разрешите линейния вход или Shift+L, за да го "
+#~ "забраните."
+
+#~ msgid "Press Shift+R to get a report on library scan progress."
+#~ msgstr ""
+#~ "Натиснете Shift+R за да получите доклад за напредъка по сканирането на "
+#~ "библиотеката."
+
+#, fuzzy
+#~| msgid "I: Listener count."
+#~ msgid "Press I to obtain listener count."
+#~ msgstr "I: Брой на слушателите."
+
+#, fuzzy
+#~| msgid "Press F1 to show a help dialog which lists available commands."
+#~ msgid "Press H to show a help dialog which lists available commands."
+#~ msgstr ""
+#~ "Натиснете F1 за да изведете помощен прозорец, който изброява наличните "
+#~ "команди."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.07"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.05"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "In SAM Encoder window, added a command (Shift+F11) to tell Studio to "
+#~| "play the first track when connected."
+#~ msgid ""
+#~ "In encoders and Streamer, NVDA will no longer appear to do nothing or "
+#~ "play error tones when exiting NVDA while focused on something other than "
+#~ "encoders list without moving focus to encoders first."
+#~ msgstr ""
+#~ "В прозореца на SAM Encoder беше добавена команда (Shift+F11) за указване "
+#~ "на Studio да просвири първият запис при свързване."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.04"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.03"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 20.02"
+#~ msgstr "Промени във версия 3.0"
+
+#~ msgid "F10 (SAM encoder only): Disconnect from the streaming server."
+#~ msgstr ""
+#~ "F10 (само за SAM енкодера): Прекъсване на връзката с излъчващия сървър."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.11.1/18.09.13-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.11"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "Added a command in SPL Controller to report remaining time for the "
+#~| "currently playing track (R)."
+#~ msgid ""
+#~ "Encoder status command from SPL Controller (E) will announce connection "
+#~ "status for the active encoder set instead of encoders being monitored in "
+#~ "the background."
+#~ msgstr ""
+#~ "Добавена е команда в контролера на SPL за докладване на оставащо време за "
+#~ "текущо просвирвания запис (R)."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.08.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.08/18.09.11-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.07/18.09.10-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.06/18.09.9-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.04.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.04/18.09.8-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.03/18.09.7-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.02"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.01.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 19.01/18.09.6-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.12"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.11/18.09.5-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.10.2/18.09.4-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.10.1/18.09.3-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.10"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.09.1-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "F12: Opens a dialog to enter custom label for the selected encoder or "
+#~| "stream."
+#~ msgid ""
+#~ "F12: Opens a dialog to enter custom label for the selected encoder or "
+#~ "stream."
+#~ msgstr ""
+#~ "F12: Отваря диалог за въвеждане на потребителски етикет за избрания "
+#~ "енкодер или поток."
+
+#, fuzzy
+#~| msgid ""
+#~| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#~| "playing trakc."
+#~ msgid ""
+#~ "E (Window-Eyes layout): Elapsed time for the currently playing track."
+#~ msgstr ""
+#~ "Alt+Shift+T, докато сте в прозореца на програмата: съобщава изминало "
+#~ "време за текущо просвирвания запис."
+
+#, fuzzy
+#~| msgid ""
+#~| "Control+NVDA+2 from Studio window: Opens end of track setting dialog."
+#~ msgid ""
+#~ "Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+#~ "end of track setting dialog."
+#~ msgstr ""
+#~ "Control+NVDA+2, докато сте в прозореца на програмата: Отваря диалога за "
+#~ "задаване на време за предупреждение преди края на записа."
+
+#, fuzzy
+#~| msgid "Control+NVDA+4 from Studio window: Opens microphone alarm dialog."
+#~ msgid "Alt+NVDA+4 from Studio window: Opens microphone alarm dialog."
+#~ msgstr ""
+#~ "Control+NVDA+4 от прозореца на Studio: Отваря диалоговия прозорец за "
+#~ "предупреждението за микрофона."
+
+#, fuzzy
+#~| msgid "Track Finder"
+#~ msgid "Track alarms"
+#~ msgstr "Търсене на записи"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can ask NVDA to play a sound when microphone has been active for a "
+#~| "while. Press Control+NVDA+4 to configure alarm time in seconds (0 "
+#~| "disables it)."
+#~ msgid ""
+#~ "You can ask NVDA to play a sound when microphone has been active for a "
+#~ "while. Press Alt+NVDA+4 to configure alarm time in seconds (0 disables "
+#~ "it)."
+#~ msgstr ""
+#~ "Можете да укажете на NVDA да възпроизвежда звук, когато микрофонът е бил "
+#~ "активен от известно време. Натиснете Control+NVDA+4 за да конфигурирате "
+#~ "времето за предупреждението в секунди (0 го забранява)."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.08.2"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.08.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.08"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.07"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.06.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.06"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.05"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.04.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.04"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.03/15.14-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.02/15.13-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 18.01/15.12-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.12"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "Added a command in SPL Controller to report remaining time for the "
+#~| "currently playing track (R)."
+#~ msgid ""
+#~ "Added a new command in SPL Controller layer to announce name of the "
+#~ "upcoming track if any (Shift+C)."
+#~ msgstr ""
+#~ "Добавена е команда в контролера на SPL за докладване на оставащо време за "
+#~ "текущо просвирвания запис (R)."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.11.2"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.11.1/15.11-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.11/15.10-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.10"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.09.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.09"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.08.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "In SAM Encoder window, added a command (Shift+F11) to tell Studio to "
+#~| "play the first track when connected."
+#~ msgid ""
+#~ "NVDA will no longer fail to cause Studio to play the first track when an "
+#~ "encoder is connected."
+#~ msgstr ""
+#~ "В прозореца на SAM Encoder беше добавена команда (Shift+F11) за указване "
+#~ "на Studio да просвири първият запис при свързване."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.08"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "Added a command in SPL Controller to report remaining time for the "
+#~| "currently playing track (R)."
+#~ msgid ""
+#~ "Added a command in SPL Controller layer to announce name and duration of "
+#~ "the currently playing track from anywhere (C)."
+#~ msgstr ""
+#~ "Добавена е команда в контролера на SPL за докладване на оставащо време за "
+#~ "текущо просвирвания запис (R)."
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid "[5]: https://addons.nvda-project.org/files/get.php?file=spl-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.06"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.05.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.05/15.7-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.04"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "Added a command in SPL Controller to report remaining time for the "
+#~| "currently playing track (R)."
+#~ msgid ""
+#~ "Added a new command in SPL Controller layer to announce Studio status "
+#~ "such as track playback and microphone status (Q)."
+#~ msgstr ""
+#~ "Добавена е команда в контролера на SPL за докладване на оставащо време за "
+#~ "текущо просвирвания запис (R)."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.03"
+#~ msgstr "Промени във версия 3.0"
+
+#~ msgid "Updated translations."
+#~ msgstr "Обновени преводи."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.01/15.5-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.12.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.12/15.4-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.11/15.3-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.10.1/15.2-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 8.0/16.10/15.0-LTS"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "The following commands are not assigned by default; if you wish to "
+#~| "assign it, use Input Gestures dialog to add custom commands."
+#~ msgid ""
+#~ "The following commands are not assigned by default; if you wish to assign "
+#~ "them, use Input Gestures dialog to add custom commands."
+#~ msgstr ""
+#~ "Следните команди не са присвоени по подразбиране; Ако искате да ги "
+#~ "присвоите, използвайте диалоговия прозорец за жестове на въвеждане, за да "
+#~ "добавите команди по избор."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.3"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.2"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "Added a command in SPL Controller to report remaining time for the "
+#~| "currently playing track (R)."
+#~ msgid "Added a command in SPL Controller to report listener count (I)."
+#~ msgstr ""
+#~ "Добавена е команда в контролера на SPL за докладване на оставащо време за "
+#~ "текущо просвирвания запис (R)."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.0"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.4"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.3"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.2"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.0"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.6"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.5"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.4"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.3"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.2"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.1"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.0"
+#~ msgstr "Промени във версия 3.0"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid ""
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"

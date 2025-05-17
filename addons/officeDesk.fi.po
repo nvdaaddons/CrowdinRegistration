@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Office Desk\n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2024-03-24 15:22+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: fi_FI <janikinnunen340@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Office Desk\"]]\n"
+msgstr "[[!meta title=\"Toimistopöytä\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Joseph Lee and contributors"
+msgstr "Tekijät: Joseph Lee sekä muut osallistuneet"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2023.1 and later"
+msgstr "Yhteensopivuus: NVDA 2023.1 ja sitä uudemmat"
+
+#. type: Plain text
+msgid ""
+"This add-on provides improved support for Microsoft Office applications."
+msgstr "Tämä lisäosa tarjoaa parannetun tuen Microsoft Office -sovelluksille."
+
+#. type: Plain text
+msgid ""
+"The following Office (sometimes called Microsoft 365) applications are "
+"supported:"
+msgstr ""
+"Seuraavia Officen (kutsutaan joskus myös Microsoft 365:ksi) sovelluksia "
+"tuetaan:"
+
+#. type: Title ##
+#, no-wrap
+msgid "Word"
+msgstr "Word"
+
+#. type: Plain text
+msgid "Notes:"
+msgstr "Huomautuksia:"
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on requires Windows 10 or later and is optimized for Office 2016 "
+"and later, including Microsoft 365 subscription versions."
+msgstr ""
+"Tämä lisäosa edellyttää Windows 10:tä tai uudempaa, ja se on optimoitu  "
+"Office 2016:lle ja sitä uudemmille, mukaan lukien Microsoft 365:n "
+"tilausversiot."
+
+#. type: Title ##
+#, no-wrap
+msgid "General"
+msgstr "Yleistä"
+
+#. type: Bullet: '* '
+msgid ""
+"In backstage view, NVDA will announce search count when search results "
+"appear."
+msgstr ""
+"NVDA puhuu backstage-näkymässä hakutulosten määrän niiden tullessa näkyviin."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer announce formatting changes such as bold and italic "
+"onoff multiple times."
+msgstr ""
+"NVDA ei enää ilmoita useita kertoja muotoilun muutoksista, kuten lihavointi "
+"ja kursivointi käytössä/pois."
+
+#. type: Bullet: '* '
+msgid "In Envelopes dialog, NVDA will announce edit field labels."
+msgstr ""
+"NVDA ilmoittaa Kirjekuoret-valintaikkunassa muokkauskenttien selitteet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.04"
+msgstr "Versio 24.04"
+
+#. type: Bullet: '* '
+msgid "NVDA 2023.1 or later is required."
+msgstr "Edellyttää NVDA 2023.1:tä tai sitä uudempaa."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Versio 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "Edellyttää NVDA 2022.4:ää tai uudempaa."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Windows 10 21H2 (marraskuun 2021 päivitys/koontiversio 19044) tai uudempi "
+"vaaditaan."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Versio 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "Edellyttää NVDA 2022.3:a tai uudempaa."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.12"
+msgstr "Versio 22.12"
+
+#. type: Bullet: '* '
+msgid "Search suggestion sounds are heard once again in NVDA alpha snapshots."
+msgstr "Hakuehdotusten äänet kuuluvat jälleen NVDA:n alfa-kehitysversioissa."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.10"
+msgstr "Versio 22.10"
+
+#. type: Bullet: '* '
+msgid "Initial release."
+msgstr "Ensimmäinen versio."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=officeDesk"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=officeDesk"
+
+#~ msgid ""
+#~ "In backstage view, NVDA will announce search count when search results "
+#~ "appear, as well as announcing results when up and down arrow keys are "
+#~ "pressed. Search field and suggestions list item detection are now part of "
+#~ "NVDA 2023.1."
+#~ msgstr ""
+#~ "NVDA ilmoittaa backstage-näkymässä hakutulosten määrän niiden ilmestyessä "
+#~ "sekä puhuu tulokset ylä- ja alanuolinäppäimiä painettaessa. Hakukentän ja "
+#~ "ehdotusten luettelokohteiden tunnistus sisältyvät nyt NVDA 2023.1:een."

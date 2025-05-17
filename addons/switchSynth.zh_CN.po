@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2018-09-11 08:24+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Switch synth \"]]\n"
+msgstr "[[!meta title=\"Switch synth -NVDA语音合成器切换插件\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Tyler Spivey"
+msgstr "作者: Tyler Spivey"
+
+#. type: Bullet: '* '
+msgid "Download: [version 1.02][1]"
+msgstr "下载: [version 1.02][1]"
+
+#. type: Title #
+#, no-wrap
+msgid "Switch synth"
+msgstr "切换合成器"
+
+#. type: Plain text
+msgid ""
+"This addon allows easy switching of synthesizers via hotkeys.  It is an "
+"improved version of my earlier switch_synth addon with an underscore, which "
+"must be uninstalled. Any preexisting synthesizer configurations will "
+"continue to work with this version."
+msgstr ""
+"这个插件可以通过热键轻松切换合成器。它是我早期的switch_synth插件的改进版本，"
+"带有下划线，必须卸载。任何预先存在的合成器配置将继续使用此版本。"
+
+#. type: Plain text
+msgid ""
+"There are 6 synthesizer slots, 1 through 6. By default, they are empty.  "
+"Slots can be switched by pressing control+shift+NVDA+1 through control+shift"
+"+NVDA+6.  Once a slot is switched to, its synthesizer and settings will be "
+"loaded if they exist.  To save the current synthesizer and its settings to "
+"the currently active slot, press control+shift+NVDA+v."
+msgstr ""
+"有6个合成器插槽，1到6.默认情况下，它们是空的。通过按下+ shift + NVDA + 1到控"
+"制+ shift + NVDA + 6可以切换插槽。切换到插槽后，如果存在，则会加载其合成器和"
+"设置。要将当前合成器及其设置保存到当前活动的插槽，请按control + shift + NVDA "
+"+ v。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=switchSynth"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sws"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sws"

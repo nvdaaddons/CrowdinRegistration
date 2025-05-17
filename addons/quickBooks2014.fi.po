@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community website\n"
+"POT-Creation-Date: 2023-04-15 19:14+0000\n"
+"PO-Revision-Date: 2023-04-16 19:29+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Quick Books 2014 support\"]]\n"
+msgstr "[[!meta title=\"Quick Books 2014:n tuki\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: NV Access Limited, with help from My Blind Spot, Intuit, and "
+"community testers."
+msgstr ""
+"Tekijät: NV Access Limited My Blind Spotin avustuksella, Intuit sekä "
+"yhteisön testaajat."
+
+#. type: Bullet: '* '
+msgid "Download: [version 2014.4.7][1]"
+msgstr "Lataa: [versio 2014.4.7][1]"
+
+#. type: Plain text
+#, no-wrap
+msgid "This add-on   makes it possible to use NVDA with the Intuit Quickbooks 2014 accounting software.\n"
+msgstr "Tämä lisäosa mahdollistaa Intuit Quick Books 2014 -kirjanpito-ohjelmiston käyttämisen NVDA:n kanssa.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr "Ominaisuudet"
+
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
+msgstr "Automaattinen QuickBooksin esteettömyystilan käyttöönotto."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr "Useiden syöttökenttien nimeäminen."
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+"Kohdistuksen ja korostuksen seuraaminen luetteloissa, (esim. Tilikartta)."
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+"Asianmukainen mukautettujen valintaruutujen, valintapainikkeiden ja "
+"painikkeiden säädintyyppien tunnistaminen."
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
+"Automaattinen ilmoitusten lukeminen mukautetuissa ilmoitusvalintaikkunoissa."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=qb-dev"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=qb-dev"
+
+#~ msgid ""
+#~ "- Automatic enabling of QuickBooks accessibility mode.  - Labeling of "
+#~ "many input fields.  - Tracking of focus and highlighting for lists such "
+#~ "as the Chart of Accounts.  - Correct control type identification of "
+#~ "custom check boxes, radio buttons and buttons.  - Automatic reporting of "
+#~ "messages in custom message dialogs."
+#~ msgstr ""
+#~ "- Automaattinen Quick Booksin saavutettavuustilan käyttöönotto.  - "
+#~ "Useiden syöttökenttien nimeäminen.  - Kohdistuksen seuranta sekä "
+#~ "listojen, kuten esim. tilikarttojen, korostaminen.  - Mukautettujen "
+#~ "valintaruutujen, valintapainikkeiden ja painikkeiden oikean säädintyypin "
+#~ "tunnistaminen.  - Automaattinen ilmoitusten lukeminen mukautetuissa "
+#~ "ilmoitusvalintaikkunoissa."

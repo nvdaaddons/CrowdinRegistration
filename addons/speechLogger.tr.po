@@ -1,0 +1,405 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Konuşma Kaydedici\n"
+"POT-Creation-Date: 2024-04-12 22:03+0000\n"
+"PO-Revision-Date: 2024-04-13 15:33+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Speech Logger\"]]\n"
+msgstr "[[!meta title=\"Konuşma Kaydedici\"]]\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Speech Logger add-on"
+msgstr "NVDA Konuşma Kaydedici eklentisi"
+
+#. type: Bullet: '* '
+msgid "Author: Luke Davis, with contributions by James Scholes"
+msgstr "Yazar: Luke Davis, James Scholes'un katkılarıyla"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü indirin][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3.1 and later"
+msgstr "NVDA uyumluluğu: 2019.3.1 ve sonrası"
+
+#. type: Plain text
+msgid ""
+"An [NVDA][3] add-on to log speech to a file or files.  It can log speech "
+"generated on the local machine into a text file.  It can also log speech "
+"from a remote machine received through the [NVDA Remote][5] add-on, either "
+"to the same or a different file."
+msgstr ""
+"Konuşmayı bir dosyaya veya dosyalara kaydetmek için bir [NVDA][3] eklentisi. "
+"Yerel makinede oluşturulan konuşmayı bir metin dosyasına kaydedebilir. "
+"Ayrıca, [NVDA Remote][5] eklentisi aracılığıyla uzaktaki bir makineden "
+"alınan konuşmayı aynı veya farklı bir dosyaya kaydedebilir."
+
+#. type: Title ###
+#, no-wrap
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#. type: Plain text
+msgid ""
+"To configure this add-on, open the NVDA menu, go to Preferences, then "
+"Settings, then Speech Logger (NVDA+N, P, S, then press S until you get "
+"there, on a default U.S. English keyboard).  There is also an unassigned "
+"gesture in the Input Gestures \"Configuration\" category, which you can "
+"assign and use to quickly open the add-on's settings directly.  Note: the "
+"add-on can only be configured while in the Normal Configuration profile of "
+"NVDA.  The add-on is not profile-aware.  If you can think of some use case "
+"that requires it to operate differently in different profiles, please "
+"contact the author or file an issue on the [GitHub repo][2]."
+msgstr ""
+"Bu eklentiyi yapılandırmak için NVDA menüsünü açın, Tercihler'e, ardından "
+"Ayarlar'a ve ardından Konuşma Kaydedici'ye gidin (NVDA+N, T, L, ardından "
+"varsayılan ABD İngilizcesi klavyede oraya ulaşana kadar K tuşuna basın). "
+"Ayrıca Girdi Hareketleri \"Yapılandırma\" kategorisinde eklentinin "
+"ayarlarını doğrudan hızlı bir şekilde açmak için atayabileceğiniz ve "
+"kullanabileceğiniz atanmamış bir hareket vardır. Not: Eklenti yalnızca "
+"NVDA'nın Normal Yapılandırma profilindeyken yapılandırılabilir. Eklenti "
+"profil uyumlu değildir. Farklı profillerde farklı şekilde çalışmasını "
+"gerektiren bir kullanım durumu aklınıza geliyorsa, lütfen yazarla iletişime "
+"geçin veya [GitHub deposunda][2] bir sorun bildirin."
+
+#. type: Title ###
+#, no-wrap
+msgid "The following settings are available:"
+msgstr "Aşağıdaki ayarlar mevcuttur:"
+
+#. type: Bullet: '* '
+msgid ""
+"The log directory. You can enter or browse for your desired destination "
+"directory, which must already exist. System variables such as %temp%, "
+"%userprofile%, etc., can be used in this field."
+msgstr ""
+"Günlük dizini. Halihazırda var olması gereken, istediğiniz hedef dizini "
+"girebilir veya bu dizine göz atabilirsiniz. Bu alanda %temp%, %userprofile% "
+"gibi sistem değişkenleri kullanılabilir."
+
+#. type: Bullet: '* '
+msgid ""
+"Local log filename. The created file will be placed in the above directory. "
+"This will contain speech logged while the local log mode is engaged. This "
+"can be the same as the remote log file. Leave blank to disable this kind of "
+"logging completely."
+msgstr ""
+"Yerel günlük dosya adı. Oluşturulan dosya yukarıdaki dizine "
+"yerleştirilecektir. Bu, yerel günlük modu devredeyken günlüğe kaydedilen "
+"konuşmayı içerecektir. Bu, uzak günlük dosyasıyla aynı olabilir. Bu tür "
+"günlüğü tamamen devre dışı bırakmak için boş bırakın."
+
+#. type: Bullet: '* '
+msgid ""
+"Remote log filename. The created file will be placed in the above directory. "
+"This will contain speech logged while the remote log mode is engaged. It can "
+"be the same as the local log file. Leave blank to disable this kind of "
+"logging completely."
+msgstr ""
+"Uzak günlük dosya adı. Oluşturulan dosya yukarıdaki dizine "
+"yerleştirilecektir. Bu, uzak günlük modu devredeyken günlüğe kaydedilen "
+"konuşmayı içerecektir. Yerel günlük dosyasıyla aynı olabilir. Bu tür günlüğü "
+"tamamen devre dışı bırakmak için boş bırakın."
+
+#. type: Bullet: '* '
+msgid ""
+"Separator. This combobox lets you choose one of the available utterance "
+"separators. See below for more information."
+msgstr ""
+"Ayırıcı. Bu birleşik giriş kutusu, mevcut ifade ayırıcılardan birini "
+"seçmenize izin verir. Daha fazla bilgi için aşağıya bakın."
+
+#. type: Bullet: '* '
+msgid ""
+"Custom separator. This field lets you enter a custom utterance separator "
+"(see below), which is used if \"custom\" is chosen in the combobox."
+msgstr ""
+"Özel ayırıcı. Bu alan, açılan kutuda \"özel\" seçilirse kullanılan özel bir "
+"deyim ayırıcı (aşağıya bakın) girmenizi sağlar."
+
+#. type: Bullet: '* '
+msgid ""
+"Timestamp mode. This combobox allows you to choose between no timestamps, "
+"and a timestamp at the start and end of each log session."
+msgstr ""
+"Zaman damgası modu. Bu açılan kutu, zaman damgası olmaması ile her günlük "
+"oturumunun başında ve sonunda bir zaman damgası arasında seçim yapmanızı "
+"sağlar."
+
+#. type: Bullet: '* '
+msgid ""
+"Log speech during say-all (read to end) mode. This add-on logs speech "
+"generated when you press NVDA+DownArrow (NVDA+a in laptop layout). If you "
+"would rather not have that kind of narrative long reading logged, un-check "
+"this box."
+msgstr ""
+"Tümünü söyle (sonuna kadar oku) modunda konuşmayı günlüğe kaydedin. Bu "
+"eklenti, NVDA+Aşağı Ok (dizüstü bilgisayar düzeninde NVDA+a) tuşlarına "
+"bastığınızda oluşturulan konuşmayı günlüğe kaydeder. Bu tür uzun anlatıların "
+"günlüğe kaydedilmesini istemiyorsanız, bu kutunun işaretini kaldırın."
+
+#. type: Bullet: '* '
+msgid ""
+"Begin logging at startup. You can set this option to \"Always\", if you want "
+"speech to be logged automatically when NVDA starts. This only applies to "
+"local speech, and the default is \"never\"."
+msgstr ""
+"Başlangıçta günlüğe kaydetmeye başla. NVDA başladığında konuşmanın otomatik "
+"olarak günlüğe kaydedilmesini istiyorsanız, bu seçeneği \"Her Zaman\" olarak "
+"ayarlayabilirsiniz. Bu yalnızca yerel konuşma için geçerlidir ve varsayılan "
+"değer \"asla\" dır."
+
+#. type: Title ####
+#, no-wrap
+msgid "Utterance separator"
+msgstr "İfade ayırıcı"
+
+#. type: Plain text
+msgid ""
+"When NVDA speaks something such as \"`recycle bin 1 of 55`\" while it's "
+"reading your desktop, this is considered two separate utterances.  The first "
+"one is the item name (\"`Recycle bin`\", in this example), and the second is "
+"the object position information (\"`1 of 55`\", in this example)."
+msgstr ""
+"NVDA masaüstünüzü okurken \"`geri dönüşüm kutusu 1 tire 55 gibi bir şey "
+"söylediğinde, bu iki ayrı ifade olarak kabul edilir.  Birincisi öğe adı "
+"(\"`Geri dönüşüm kutusu`\", bu örnekte), ikincisi ise nesne konum bilgisidir "
+"(\"`1 tire 55`, bu örnekte)."
+
+#. type: Plain text
+msgid ""
+"Depending on what you are reading, and how you have NVDA configured, there "
+"can be several separate utterances that happen during a single speech "
+"sequence."
+msgstr ""
+"Ne okuduğunuza ve NVDA'yı nasıl yapılandırdığınıza bağlı olarak, tek bir "
+"konuşma dizisi sırasında birden çok farklı ifade olabilir."
+
+#. type: Plain text
+msgid ""
+"In the normal NVDA log at debug level, each individual utterance is "
+"separated with two spaces, as it is written in the example above."
+msgstr ""
+"Hata ayıklama seviyesindeki normal NVDA günlüğünde, yukarıdaki örnekte "
+"yazıldığı gibi her bir ifade iki boşlukla ayrılır."
+
+#. type: Plain text
+msgid ""
+"Speech Logger allows you to separate utterances in the same way NVDA does "
+"(with two spaces), or by one of a few reasonable alternatives (a newline, a "
+"comma and a space, a tab, two underscores), or by a custom sequence of your "
+"own devising."
+msgstr ""
+"Konuşma Kaydedici, ifadeleri NVDA'nın yaptığı gibi (iki boşlukla) veya "
+"birkaç makul alternatiften biriyle (yeni satır, virgül ve boşluk, sekme, iki "
+"alt çizgi) veya özel bir sıra ile ayırmanıza olanak tanır. kendi tasarımın."
+
+#. type: Plain text
+msgid ""
+"If, for example, you wanted your utterance separator to be two dollar signs "
+"(`$$`), you would set the combobox to \"custom\", and enter \"`$"
+"$`\" (without the quotes), in the custom separator field.  If you wanted it "
+"to be a newline followed by a tab, you could enter \"`\\n\\t`\"."
+msgstr ""
+"Örneğin, ifade ayırıcınızın iki dolar işareti (`$$`) olmasını istiyorsanız, "
+"birleşik giriş kutusunu \"özel\" olarak ayarlar ve özel ayırıcıya \"`$"
+"$`\" (tırnak işaretleri olmadan) girersiniz. alan. Yeni bir satır ve "
+"ardından bir sekme olmasını istiyorsanız, \"`\\\\n\\\\t`\" girebilirsiniz."
+
+#. type: Title ###
+#, no-wrap
+msgid "Controls:"
+msgstr "Kontroller:"
+
+#. type: Plain text
+msgid ""
+"This add-on has two keyboard shortcuts set by default, and one that is "
+"unassigned."
+msgstr ""
+"Bu eklentinin varsayılan olarak ayarlanmış iki klavye kısayolu ve atanmamış "
+"bir klavye kısayolu vardır."
+
+#. type: Plain text
+msgid ""
+"The default gestures, which you can change in the NVDA Input Gestures "
+"\"`Speech Logger`\" category, are:"
+msgstr ""
+"NVDA Girdi Hareketleri \"`Konuşma Kaydedici'' kategorisinde "
+"değiştirebileceğiniz varsayılan hareketler şunlardır:"
+
+#. type: Bullet: '* '
+msgid "NVDA+Alt+L: start/stop logging of local speech."
+msgstr "NVDA+Alt+L: yerel konuşma kaydını başlat/durdur."
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+Alt+L: start/stop logging of remote speech."
+msgstr "NVDA+Shift+Alt+L: uzaktan konuşma kaydını başlat/durdur."
+
+#. type: Plain text
+msgid ""
+"These are listed as \"Toggles logging of local speech\" and \"Toggles "
+"logging of remote speech\", respectively."
+msgstr ""
+"Bunlar sırasıyla \"Yerel konuşmanın günlüğe kaydedilmesini çıp kapatır\" ve "
+"\"Uzaktan konuşmanın günlüğe kaydedilmesini Açıp kapatır\" olarak listelenir."
+
+#. type: Plain text
+msgid ""
+"Additionally, it has one unassigned gesture for opening its configuration "
+"panel, which you may assign from the `Speech Logger` category in NVDA's "
+"Input Gestures."
+msgstr ""
+"Ek olarak, NVDA'nın Girdi Hareketleri'ndeki 'Konuşma Kaydedici' "
+"kategorisinden atayabileceğiniz, yapılandırma panelini açmak için atanmamış "
+"bir hareket vardır."
+
+#. type: Title ###
+#, no-wrap
+msgid "A note on remote speech logging"
+msgstr "Uzaktan konuşma kaydı hakkında bir not"
+
+#. type: Plain text
+msgid ""
+"This add-on is intended to work with the NVDA Remote add-on, for logging of "
+"remote speech."
+msgstr ""
+"Bu eklenti, uzak konuşmanın günlüğe kaydedilmesi için NVDA Uzaktan Destek "
+"eklentisiyle çalışmak üzere tasarlanmıştır."
+
+#. type: Plain text
+msgid ""
+"It is important to know, that it is not possible to start logging for remote "
+"sessions until you actually start one.  There is no way to, for example, "
+"start logging, and have it wait, on stand-by, until a remote session starts, "
+"and begin logging at that time."
+msgstr ""
+"Gerçekte bir tane başlatana kadar uzak oturumlar için günlüğe kaydetmeye "
+"başlamanın mümkün olmadığını bilmek önemlidir. Örneğin, günlüğe kaydetmeye "
+"başlamanın ve uzak bir oturum başlayana kadar bekleme modunda beklemesini "
+"sağlamanın ve o sırada günlüğe kaydetmeye başlamasının bir yolu yoktur."
+
+#. type: Plain text
+msgid "However, once started, logging will continue across remote sessions."
+msgstr ""
+"Ancak, bir kez başlatıldıktan sonra günlük kaydı uzak oturumlarda devam "
+"edecektir."
+
+#. type: Title ###
+#, no-wrap
+msgid "Feedback and feature requests"
+msgstr "Geri bildirim ve özellik istekleri"
+
+#. type: Plain text
+msgid ""
+"If you would like to suggest a feature or report a bug, please reach out by "
+"email, or file an [issue][2]."
+msgstr ""
+"Bir özellik önermek veya bir hata bildirmek istiyorsanız, lütfen e-posta ile "
+"iletişime geçin veya bir [sorun][2] gönderin."
+
+#. type: Plain text
+msgid ""
+"If you find this add-on useful, it would really help if you could [leave a "
+"review][4]."
+msgstr ""
+"Bu eklentiyi faydalı bulursanız, [inceleme bırakırsanız][4]  gerçekten "
+"yardımcı olacaktır."
+
+#. type: Plain text
+msgid ""
+"As always, I appreciate hearing that my add-ons are helpful, and finding out "
+"what people are using them for."
+msgstr ""
+"Her zaman olduğu gibi, eklentilerimin faydalı olduğunu duymaktan ve "
+"insanların bunları ne için kullandığını öğrenmekten memnuniyet duyuyorum."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger"
+
+#. type: Plain text
+msgid "[2]: https://github.com/opensourcesys/speechLogger/issues/new"
+msgstr "[2]: https://github.com/opensourcesys/speechLogger/issues/new"
+
+#. type: Plain text
+msgid "[3]: https://nvaccess.org/"
+msgstr "[3]: https://nvaccess.org/"
+
+#. type: Plain text
+msgid "[4]: https://github.com/nvaccess/addon-datastore/discussions/2636"
+msgstr "[4]: https://github.com/nvaccess/addon-datastore/discussions/2636"
+
+#. type: Plain text
+msgid "[5]: https://nvdaremote.com/"
+msgstr "[5]: https://nvdaremote.com/"
+
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger [2]: "
+#~ "https://github.com/opensourcesys/speechLogger/issues/new [3]: https://"
+#~ "nvaccess.org/ [4]: https://github.com/nvaccess/addon-datastore/"
+#~ "discussions/2636 [5]: https://nvdaremote.com/"
+#~ msgstr ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger [2]: "
+#~ "https://github.com/opensourcesys/speechLogger/issues/new [3]: https://"
+#~ "nvaccess.org/ [4]: https://github.com/nvaccess/addon-datastore/"
+#~ "discussions/2636 [5]: https://nvdaremote.com/"
+
+#~ msgid ""
+#~ "The default gestures, which you can change in the NVDA Input Gestures "
+#~ "\"`Speech Logger`\" category, are: * NVDA+Alt+L: start/stop logging of "
+#~ "local speech.  * NVDA+Shift+Alt+L: start/stop logging of remote speech.  "
+#~ "These are listed as \"Toggles logging of local speech\" and \"Toggles "
+#~ "logging of remote speech\", respectively."
+#~ msgstr ""
+#~ "NVDA Girdi Hareketleri \"`Konuşma Kaydedici'' kategorisinde "
+#~ "değiştirebileceğiniz varsayılan hareketler şunlardır: * NVDA+Alt+L: yerel "
+#~ "konuşmanın günlüğe kaydedilmesini başlatır/durdurur. * NVDA+Shift+Alt+L: "
+#~ "uzaktan konuşmanın günlüğe kaydedilmesini başlatır/durdurur. Bunlar "
+#~ "sırasıyla \"Yerel konuşmanın günlüğe kaydedilmesini açar/kapatır\" ve "
+#~ "\"Uzak konuşmanın günlüğe kaydedilmesini değiştirir\" olarak listelenir."
+
+#, no-wrap
+#~ msgid "Starting and stopping logging"
+#~ msgstr "Günlüğe kaydetmeyi başlatma ve durdurma"
+
+#~ msgid ""
+#~ "This add-on has two gestures set by default.  You can change them in the "
+#~ "NVDA Input Gestures Tools category.  Look for \"Toggles logging of local "
+#~ "speech\" and \"Toggles logging of remote speech\"."
+#~ msgstr ""
+#~ "Bu eklentinin varsayılan olarak ayarlanmış iki hareketi vardır. Bunları "
+#~ "NVDA Girdi Hareketleri iletişim kutusunda Araçlar kategorisinden "
+#~ "değiştirebilirsiniz. \"Yerel konuşmanın günlüğe kaydedilmesini açar/"
+#~ "kapatır\" ve \"Uzaktan konuşmanın günlüğe kaydedilmesini açar/kapatır\" "
+#~ "ifadelerine bakın."
+
+#~ msgid ""
+#~ "To configure this add-on, open the NVDA menu, go to Preferences, then "
+#~ "Settings, then Speech Logger (NVDA+N, P, S, then press S until you get "
+#~ "there, on a default U.S. English keyboard)."
+#~ msgstr ""
+#~ "Bu eklentiyi yapılandırmak için NVDA menüsünü açın, Tercihler'e, ardından "
+#~ "Ayarlar'a, ardından Konuşma Kaydedici'ye (NVDA+N, T, L, ardından "
+#~ "varsayılan ABD İngilizcesi klavyede oraya gelene kadar K tuşuna basın) "
+#~ "gidin."

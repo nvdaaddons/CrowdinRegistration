@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>, 2024-2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: objLocation add-on webpage\n"
+"POT-Creation-Date: 2023-05-25 07:07+0000\n"
+"PO-Revision-Date: 2025-01-05 13:04-0300\n"
+"Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Object Location Tones\"]]\n"
+msgstr "[[!meta title=\"Sons de localização dos objetos\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee"
+msgstr "Autor: Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Baixe a [versão estável][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr ""
+"Compatibilidade com NVDA: 2022.4 e posteriorCompatibilidade com NVDA: 2019.3 "
+"e posteriores"
+
+#. type: Bullet: '* '
+msgid "Note: this add-on is no longer actively maintained since 2021."
+msgstr "Nota: esse complemento não é mais mantido ativamente desde 2021."
+
+#. type: Plain text
+msgid ""
+"After installing this add-on and restarting NVDA (or when you enable this "
+"add-on), as you navigate to different controls, you'll hear tones to "
+"indicate where the object is located on screen. To turn object location "
+"tones off, uninstall or disable this add-on from add-ons manager."
+msgstr ""
+"Após instalar este complemento e reiniciar o NVDA (ou quando você ativar o "
+"complemento), conforme navegar por diferentes controles, você ouvirá sons "
+"que indicam onde o objeto está localizado na tela. Para desligar os sons de "
+"localização dos objetos, desinstale ou desative este complemento no gestor "
+"de complementos."
+
+#. type: Plain text
+msgid "Important notes:"
+msgstr "Notas importantes:"
+
+#. type: Bullet: '* '
+msgid ""
+"If using Audio Themes or similar add-ons, it is advised to disable Object "
+"Location Tones add-on."
+msgstr ""
+"Caso esteja usando o complemento Temas Sonoros 3D ou outro similar, "
+"recomenda-se desativar o complemento Sons de Localização dos Objetos."
+
+#. type: Bullet: '* '
+msgid "If a control is offscreen, tones will not be played."
+msgstr "Caso o controle esteja fora da tela, não serão tocados sons."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=objLocTones"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=objLocTones"
+
+#~ msgid ""
+#~ "Download [older version][2] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr ""
+#~ "Baixe a [versão mais antiga][2], compatível com NVDA 2019.2.1 e anteriores"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=objLoc-2019"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=objLoc-2019"

@@ -1,0 +1,317 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sayCurrentKeyboardLanguage\n"
+"POT-Creation-Date: 2025-04-30 11:45+0000\n"
+"PO-Revision-Date: 2024-05-12 17:32+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"sayCurrentKeyboardLanguage\"]]\n"
+msgstr "[[!meta title=\"Izgovori jezik trenutačne tipkovnice (sayCurrentKeyboardLanguage)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author(s): Abdel, Noelia."
+msgstr "Autori: Abdel, Noelia."
+
+#. type: Title #
+#, no-wrap
+msgid "Presentation"
+msgstr "Prezentacija"
+
+#. type: Plain text
+msgid ""
+"This addon was created following a request from a member on the nvda-addons "
+"mailing list."
+msgstr ""
+"Ovaj je dodatak izrađen na temelju zahtjeva jednog člana na mailing listi "
+"nvda dodataka."
+
+#. type: Plain text
+msgid ""
+"It provides a script without gesture, which allows to retrieve and give the "
+"language of the current keyboard."
+msgstr ""
+"Dodatak pruža skriptu bez gesti, koja omogućuje pronalaženje i pružanja "
+"jezika trenutačne tipkovnice."
+
+#. type: Plain text
+msgid "If pressed twice, gives the default language of the system."
+msgstr "Dvaput pritisnuto, izgovara standardni jezik sustava."
+
+#. type: Plain text
+msgid ""
+"At the first version of this module, it had been proposed as simple "
+"globalPlugin to paste in the configuration directory of NVDA, it was then "
+"transformed into addon."
+msgstr ""
+"U prvoj verziji je modul bio predložen kao jednostavni globalni dodatak, "
+"kojeg je trebalo zalijepiti u konfiguracijski direktorij za NVDA. Nakon toga "
+"je promijenjen u dodatak."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Napomene"
+
+#. type: Plain text
+msgid ""
+"To set a gesture to the script giving the keyboard language, follow these "
+"steps:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Open the NVDA's menu, with \"NVDA + N\";"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Go to NVDA's preferences menu;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Then go to the submenu \"Input gestures\"."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Then select the category \"Input\", and open it with right arrow."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "If pressed twice, gives the default language of the system."
+msgid ""
+"Go to the item labeled \"Gives the language of the keyboard in use, if "
+"pressed twice, give the default language of the system\";"
+msgstr "Dvaput pritisnuto, izgovara standardni jezik sustava."
+
+#. type: Bullet: '* '
+msgid ""
+"Once done, press Alt + A to add a gesture, and type \"NVDA + F4\" or another "
+"gesture of your choice;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"This done, press the up arrow once, you hear \"your chosen gesture, all "
+"layout\";"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Validate on enter, then tab to OK then enter;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Your chosen gesture should then call the script giving keyboard language."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Compatibility"
+msgstr "Kompatibilnost"
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on is compatible with the versions of NVDA ranging from 2019.3 and "
+"beyond."
+msgstr ""
+"Ovaj je dodatak kompatibilan s NVDA verzijom 2019.3 i novijim verzijama."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20240326.0.0"
+msgstr "Promjene u 20240326.0.0"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility for nvda-2024.1.;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Deleted download link from readme, the download link for future updates will "
+"now only be available from the add-on store."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20231229.0.0"
+msgstr "Promjene u 20231229.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a backward compatible implementation to support speak on demand mode, "
+"which will soon be available with nvda-2024.1."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20230729.0.0"
+msgstr "Promjene u 20230729.0.0"
+
+#. type: Bullet: '* '
+msgid "Applied the flake8 and mypy rules to the code;"
+msgstr "Programskom kodu su dodana flake8 i mypy pravila;"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed the minimum supported NVDA version to 2019.3 to support annotations "
+"introduced in Python 3."
+msgstr ""
+"Namjanja podržana NVDA verzija je promijenjena na 2019.3 kako bi se podržale "
+"zabilješke koje su uvedene u Python 3."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed the \"NVDA + F4\" gesture calling the script giving the keyboard "
+"language., to allow users to choose their preferred gesture."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 20230426.0.0 and beyond##"
+msgstr "Promjene u verziji 20230426.0.0 i novije##"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version number, minimum NVDA version and download link according to "
+"store conventions/requirements."
+msgstr ""
+"Promijenjen je broj verzije, minimalna NVDA verzija i poveznica za "
+"preuzimanje, u skladu s konvencijama/zahtjevima trgovine."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 19.02"
+msgstr "Promjene u verziji 19.02"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version numbering using YY.MM (The year in 2 digits, followed by a "
+"dot, followed by the month in 2 digits);"
+msgstr ""
+"Promijenjeno je numeriranje verzija koristeći YY.MM (Dvije znamenke za "
+"godinu, slijedi točka, a zatim dvije znamenke za mjesec);"
+
+#. type: Bullet: '* '
+msgid ""
+"Added compatibility with the new versioning format of add-on, appeared since "
+"nvda 2019.1."
+msgstr ""
+"Dodana je kompatibilnost s novim formatom za određivanje verzije dodataka, "
+"pojavila se u nvda verziji 2019.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.1"
+msgstr "Promjene u verziji 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"The addon has been renamed from getCurKeyboardLanguage to "
+"sayCurrentKeyboardLanguage;"
+msgstr ""
+"Dodatak je preimenovan iz „getCurKeyboardLanguage” u "
+"„sayCurrentKeyboardLanguage”;"
+
+#. type: Bullet: '* '
+msgid "Added the GPL license to the addon;"
+msgstr "Dodatku je dodana je opća javna licenca;"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the script getCurKeyboardLanguage to the \"System status\" category;"
+msgstr ""
+"U kategoriju „Stanje sustava” dodana je skripta "
+"„getCurKeyboardLanguage” (Izgovori jezik trenutačne tipkovnice);"
+
+#. type: Bullet: '* '
+msgid "Fixed some errors in the code."
+msgstr "Neki ispravci u kodu."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.0"
+msgstr "Promjene u verziji 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Prvo izdanje."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "Download [development version](https://www.nvaccess.org/addonStore/"
+#~| "legacy?file=sayCurrentKeyboardLanguage)"
+#~ msgid ""
+#~ "Download [development version](https://github.com/abdel792/"
+#~ "sayCurrentKeyboardLanguage/releases/download/v23.12.29-beta/"
+#~ "sayCurrentKeyboardLanguage-20231229.0.1.nvda-addon)"
+#~ msgstr ""
+#~ "Preuzmi [razvojnu verziju](https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage)"
+
+#~ msgid ""
+#~ "Download [stable version](https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage)"
+#~ msgstr ""
+#~ "Preuzmi [stabilnu verziju](https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage)"
+
+#~ msgid ""
+#~ "If the NVDA + F4 keyboard shortcut conflicts with another command, you "
+#~ "can change it by going to the Preferences menu of NVDA, in the \"Input "
+#~ "gestures\" submenu."
+#~ msgstr ""
+#~ "Ako se tipkovnički prečac NVDA+F4 sukobljava s nekom drugom naredbom, "
+#~ "može se promijeniti u NVDA izborniku „Postavke”, u podizborniku „Ulazne "
+#~ "geste”."
+
+#~ msgid "You will then find the script in the \"System status\" category."
+#~ msgstr "Skripta se nalazi u kategoriji „Stanje sustava”."
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Preuzmi [stabilnu verziju][1]"
+
+#, fuzzy
+#~| msgid "Download [development version][2]."
+#~ msgid "Download [development version][2]"
+#~ msgstr "Preuzmi [razvojnu verziju][2]"
+
+#~ msgid "Compatible with NVDA2023.1 and beyond."
+#~ msgstr "Kompatibilno s NVDA 2023.1 i novijim verzijama."
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+#~ msgid ""
+#~ "[2]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+
+#, fuzzy
+#~| msgid ""
+#~| "[1]: https://www.nvaccess.org/addonStore/legacy?"
+#~| "file=sayCurrentKeyboardLanguage"
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage [2]: https://www.nvaccess.org/addonStore/"
+#~ "legacy?file=sayCurrentKeyboardLanguage"
+#~ msgstr ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage"

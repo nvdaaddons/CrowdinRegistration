@@ -1,0 +1,1824 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-05-10 17:19+0000\n"
+"PO-Revision-Date: 2018-02-17 00:08+0200\n"
+"Last-Translator: DanP <dan.punga@gmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!meta title=\"StationPlaylist Studio\"]]\n"
+msgid "[[!meta title=\"StationPlaylist\"]]\n"
+msgstr "[[!meta title=\"StationPlaylist Studio\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Christopher Duffley <nvda@chrisduffley.com> (formerly Joseph Lee "
+"<joseph.lee22590@gmail.com>, originally by Geoff Shang and other "
+"contributors)"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This add-on package provides improved usage of StationPlaylist Studio, as "
+#| "well as providing utilities to control the Studio from anywhere."
+msgid ""
+"This add-on package provides improved usage of StationPlaylist Studio and "
+"other StationPlaylist apps, as well as providing utilities to control Studio "
+"from anywhere. Supported apps include Studio, Creator, Track Tool, VT "
+"Recorder, and Streamer, as well as SAM, SPL, and AltaCast encoders."
+msgstr ""
+"Acest supliment oferă îmbunătățirea utilizării lui StationPlaylist Studio. "
+"De asemenea, oferă îmbunătățirea controlului Studio -ului de oriunde."
+
+#. type: Plain text
+msgid "For more information about the add-on, read the [add-on guide][1]."
+msgstr ""
+
+#. type: Plain text
+msgid "IMPORTANT NOTES:"
+msgstr "NOTE IMPORTANTE:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "This add-on requires NVDA 2017.4 or later and StationPlaylist Studio 5.10 "
+#| "or later."
+msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgstr ""
+"Acest supliment necesită NVDA 2017.1 sau mai recent și StationPlaylist "
+"Studio 5.10 sau o versiune ulterioară."
+
+#. type: Bullet: '* '
+msgid ""
+"Some add-on features will be disabled or limited if NVDA is running in "
+"secure mode such as in logon screen."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "If using Windows 8 or later, for best experience, disable audio ducking "
+#| "mode."
+msgid "For best experience, disable audio ducking mode."
+msgstr ""
+"Dacă utilizați Windows 8 sau o versiune ulterioară, pentru cea mai bună "
+"experiență, dezactivați modul de atenuare audio."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Starting from 2018, [changelogs for old add-on releases][5] will be found "
+#| "on GitHub. This add-on readme will list changes from version 5.0 (2015 "
+#| "onwards)."
+msgid ""
+"Starting from 2018, [changelogs for old add-on releases][2] will be found on "
+"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"onwards."
+msgstr ""
+"Începând cu 2018, [logurile cu modificări pentru distribuții mai vechi ale "
+"suplimentului][5] vor putea fi găsite pe GitHub. Acest fișier de informare "
+"pentru supliment va specifica modificări începând cu versiunea 5.0 (din 2015 "
+"până în prezent)."
+
+#. type: Bullet: '* '
+msgid ""
+"While Studio is running, you can save, reload saved settings, or reset add-"
+"on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or "
+"Control+NVDA+R three times, respectively. This is also applicable to encoder "
+"settings - you can save and reset (not reload) encoder settings if using "
+"encoders."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Many commands will provide speech output while NVDA is in speak on demand "
+"mode (NVDA 2024.1 and later)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcut keys"
+msgstr "Scurtături de taste"
+
+#. type: Plain text
+msgid ""
+"Most of these will work in Studio only unless otherwise specified. Unless "
+"noted otherwise, these commands support speak on demand mode."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid ""
+"Alt+Shift+T from Studio window: announce elapsed time for the currently "
+"playing track."
+msgstr ""
+"Alt+Shift+T din fereastra Studio: anunță timpul scurs pentru piesa care se "
+"redă în acel moment."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+T (two finger flick down in SPL touch mode) from Studio "
+#| "window: announce remaining time for the currently playing trakc."
+msgid ""
+"Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: "
+"announce remaining time for the currently playing track."
+msgstr ""
+"Control+Alt+T (glisare în jos cu două degete în modul tactil al SPL-ului) "
+"din fereastra Studio: anunță timpul rămas pentru piesa care se redă în acel "
+"moment."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: "
+"announces broadcaster time such as 5 minutes to top of the hour. Pressing "
+"this command twice will announce minutes and seconds till top of the hour."
+msgstr ""
+"NVDA+Shift+F12 (glisare în sus cu două degete în modul tactil al SPL-ului) "
+"din fereastra Studio: anunță timpul difuzării, de exemplu 5 minute până la "
+"începutul orei. Apăsând comanda de două ori, va anunța minutele și secundele "
+"până la începutul orei."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+#| "end of track setting dialog."
+msgid ""
+"Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+"alarms category in Studio add-on configuration dialog (does not support "
+"speak on demand)."
+msgstr ""
+"Alt+NVDA+1 (glisare la dreapta cu două degete în modul tactil al SPL-ului) "
+"din fereastra Studio: deschide dialogul setării sfârșitului piesei."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces scheduled time for the loaded playlist."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces total playlist duration."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+#| "assignments."
+msgid ""
+"Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+"assignments (does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+3 din fereastra Studio: activează sau dezactivează exploratorul "
+"cart pentru învățarea atribuirilor."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces when the selected track is scheduled to play."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces rotation and category associated with the loaded playlist."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+f from Studio window: Opens a dialog to find a track based "
+#| "on artist or song name. Press NvDA+F3 to find forward or NVDA+Shift+F3 to "
+#| "find backward."
+msgid ""
+"Control+NVDA+F from Studio window: Opens a dialog to find a track based on "
+"artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find "
+"backward (does not support speak on demand)."
+msgstr ""
+"Control + NVDA + f din fereastra Studio: Deschide un dialog pentru a găsi o "
+"piesă bazată pe artist sau numele melodiei. Apăsați NVDA + F3 pentru a găsi "
+"înainte sau NVDA + Shift + F3 pentru a găsi înapoi."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+R from Studio window: Steps through library scan announcement "
+#| "settings."
+msgid ""
+"Shift+NVDA+R from Studio window: Steps through library scan announcement "
+"settings (does not support speak on demand)."
+msgstr ""
+"Alt + NVDA + R din fereastra Studio: Mergeți prin setările bibliotecii "
+"pentru a scana anunțul setărilor."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Shift+X from Studio window: Steps through braille timer settings."
+msgid ""
+"Control+Shift+X from Studio window: Steps through braille timer settings "
+"(does not support speak on demand)."
+msgstr ""
+"Control + Shift + X din fereastra Studio: Mergeți prin intermediul setărilor "
+"cronometrului braille."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+left/right arrow (while focused on a track): Announce "
+#| "previous/next track column."
+msgid ""
+"Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track column (does not "
+"support speak on demand)."
+msgstr ""
+"Control+Alt+săgeată stânga/dreapta (în timp ce este focalizat pe o piesă): "
+"anunță coloana precedentă/următoare  a piesei."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+up/down arrow (while focused on a track): Move to previous or "
+#| "next track and announce specific columns (unavailable in add-on 15.x)."
+msgid ""
+"Control+Alt+up/down arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track and announce "
+"specific columns (does not support speak on demand)."
+msgstr ""
+"Control+Alt+săgeată sus/jos (în timp ce este focalizat pe o piesă): Mută la "
+"pista precedentă sau următoare și anunță coloanele specifice (indisponibil "
+"în suplimentul 15.x)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+1 through 0 (while focused on a track in Studio, Creator "
+"(including Playlist Editor), Remote VT, and Track Tool): Announce column "
+"content for a specified column (first ten columns by default). Pressing this "
+"command twice will display column information on a browse mode window."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+up/down arrow (while focused on a track): Move to previous or "
+#| "next track and announce specific columns (unavailable in add-on 15.x)."
+msgid ""
+"Control+NVDA+- (hyphen while focused on a track in Studio, Creator, Remote "
+"VT, and Track Tool): display data for all columns in a track on a browse "
+"mode window (does not support speak on demand)."
+msgstr ""
+"Control+Alt+săgeată sus/jos (în timp ce este focalizat pe o piesă): Mută la "
+"pista precedentă sau următoare și anunță coloanele specifice (indisponibil "
+"în suplimentul 15.x)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+C while focused on a track: announces track comments if any."
+msgid ""
+"NVDA+V while focused on a track (Studio's playlist viewer only): toggles "
+"track column announcement between screen order and custom order (does not "
+"support speak on demand)."
+msgstr ""
+"Alt+NVDA+C în timp ce este focalizat pe o piesă: anunță comentariile piesei "
+"dacă există."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+C while focused on a track: announces track comments if any."
+msgid ""
+"Alt+NVDA+C while focused on a track (Studio's playlist viewer only): "
+"announces track comments if any."
+msgstr ""
+"Alt+NVDA+C în timp ce este focalizat pe o piesă: anunță comentariile piesei "
+"dacă există."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
+#| "dialog."
+msgid ""
+"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+0 din fereastra Studio:Deschide dialogul de configurare al add-on-"
+"ului."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
+#| "dialog."
+msgid ""
+"Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog "
+"(does not support speak on demand)."
+msgstr ""
+"Alt+NVDA+0 din fereastra Studio:Deschide dialogul de configurare al add-on-"
+"ului."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+NVDA+F1: Open welcome dialog."
+msgid "Alt+NVDA+F1: Open welcome dialog (does not support speak on demand)."
+msgstr "Alt+NVDA+F1: Deschide dialogul de bun venit."
+
+#. type: Title ##
+#, no-wrap
+msgid "Unassigned commands"
+msgstr "Comenzi neatribuite"
+
+#. type: Plain text
+msgid ""
+"The following commands are not assigned by default; if you wish to assign "
+"them, use Input Gestures dialog to add custom commands. To do so, from "
+"Studio window, open NVDA menu, Preferences, then Input Gestures. Expand "
+"StationPlaylist category, then locate unassigned commands from the list "
+"below and select \"Add\", then type the gesture you wish to use."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Important: some of these commands will not work if NVDA is running in secure "
+"mode such as from login screen. Not all commands support speak on demand."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Switching to SPL Studio window from any program."
+msgid ""
+"Switching to SPL Studio window from any program (unavailable in secure mode, "
+"does not support speak on demand)."
+msgstr "Comutare la fereastra SPL din orice program."
+
+#. type: Bullet: '* '
+msgid "SPL Controller layer (unavailable in secure mode)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Announcing Studio status such as track playback from other programs."
+msgid ""
+"Announcing Studio status such as track playback from other programs "
+"(unavailable in secure mode)."
+msgstr ""
+"Anunțarea stării Studio, cum ar fi piesa în curs de redare de la alte "
+"programe."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcing encoder connection status from any program (unavailable in secure "
+"mode)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SPL Assistant layer from SPL Studio."
+msgstr "Asistent Layer SPL din SPL Studio."
+
+#. type: Bullet: '* '
+msgid "Announce time including seconds from SPL Studio."
+msgstr "Anunță timpul incluzând secundele din SPL Studio."
+
+#. type: Bullet: '* '
+msgid "Announcing temperature."
+msgstr "Anunțarea temperaturii."
+
+#. type: Bullet: '* '
+msgid "Announcing title of next track if scheduled."
+msgstr "Anunțarea titlului următoarei piese dacă este programată."
+
+#. type: Bullet: '* '
+msgid "Announcing title of the currently playing track."
+msgstr "Anunțarea titlului piesei care se redă în acel moment."
+
+#. type: Bullet: '* '
+msgid "Marking current track for start of track time analysis."
+msgstr "Marcarea piesei curente pentru începerea analizării duratei melodiei."
+
+#. type: Bullet: '* '
+msgid "Performing track time analysis."
+msgstr "Efectuarea analizării duratei melodiei."
+
+#. type: Bullet: '* '
+msgid "Take playlist snapshots."
+msgstr "Ia lista de redare instantanee"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Find text in specific columns."
+msgid "Find text in specific columns (does not support speak on demand)."
+msgstr "Găsiți text în coloane specifice."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Find tracks with duration that falls within a given range via time range "
+#| "finder."
+msgid ""
+"Find tracks with duration that falls within a given range via time range "
+"finder (does not support speak on demand)."
+msgstr ""
+"Găsiți piese cu o durată care se încadrează într-un anumit interval de timp, "
+"prin interval de căutare."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Quickly enable or disable metadata streaming."
+msgid ""
+"Quickly enable or disable metadata streaming (does not support speak on "
+"demand)."
+msgstr "Activați și dezactivați rapid metadata emisiei."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Additional commands when using Sam or SPL encoders"
+msgid "Additional commands when using encoders"
+msgstr "Comenzi adiționale la utilizarea encoderelor Sam sau SPL"
+
+#. type: Plain text
+msgid ""
+"The following commands are available when using encoders, and the ones used "
+"for toggling options for on-connection behavior such as focusing to Studio, "
+"playing the first track, and toggling of background monitoring can be "
+"assigned through the Input Gestures dialog in NVDA menu, Preferences, Input "
+"Gestures, under the StationPlaylist category. These commands do not support "
+"speak on demand."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F9: connect to a streaming server."
+msgid "F9: connect the selected encoder."
+msgstr "F9: conectare la un server stream."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F10 (SAM encoder only): Disconnect from the streaming server."
+msgid "F10 (SAM encoder only): Disconnect the selected encoder."
+msgstr "F10 (doar pentru encoderul Sam: Deconectare de la serverul stream."
+
+#. type: Bullet: '* '
+msgid "Control+F9: Connect all encoders."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+F9/Control+F10 (SAM encoder only): Connect or disconnect all "
+#| "encoders, respectivley."
+msgid "Control+F10 (SAM encoder only): Disconnect all encoders."
+msgstr ""
+"Control+F9/Control+F10 (doar pentru encoderul Sam: conectează sau "
+"deconectează toate encoderele."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "F11: Toggles whether NVDA will switch to Studio window for the selected "
+#| "encoder if connected."
+msgid ""
+"Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the "
+"selected encoder if connected."
+msgstr ""
+"F11: activează sau dezactivează dacă NVDA va comuta la fereastra Studio "
+"pentru encoderul selectat dacă este conectat."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+F11: Toggles whether Studio will play the first selected track when "
+"encoder is connected to a streaming server."
+msgstr ""
+"Shift+F11: Activează sau dezactivează dacă Studio va reda prima piesă "
+"selectată atunci când encoderul este conectat la un server stream."
+
+#. type: Bullet: '* '
+msgid "Control+F11: Toggles background monitoring of the selected encoder."
+msgstr ""
+"Control+F11: Activează sau dezactivează monitorizarea fundalului la "
+"encoderul selectat."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+F12: opens a dialog to select the encoder you have deleted (to "
+#| "realign stream labels and encoder settings)."
+msgid ""
+"Control+F12: opens a dialog to select the encoder you have deleted (to "
+"realign encoder labels and settings)."
+msgstr ""
+"Control+F12: deschide un dialog pentru a selecta encoderul pe care l-ați "
+"șters (pentru realinierea etichetelor stream și setările encoderului)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+0: Opens encoder settings dialog to configure options such as "
+#| "stream label."
+msgid ""
+"Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such "
+"as encoder label."
+msgstr ""
+"Alt+NVDA + 0: Deschide dialogul de setări ale encoderului pentru a configura "
+"opțiuni cum ar fi eticheta stream."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "In addition, column review commands are available, including:"
+msgid ""
+"In addition, column review commands are available, including (supports speak "
+"on demand):"
+msgstr "În plus, revizuirea coloanei de comenzi este disponibilă, incluzând:"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+1: Encoder position."
+msgstr "Control+NVDA+1: Poziția encoderului."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+2: stream label."
+msgid "Control+NVDA+2: encoder label."
+msgstr "Control+NVDA+2: Eticheta streamului."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3 from SAM Encoder: Encoder format."
+msgstr "Control+NVDA+3 de la Encoderul SAM: Format encoder."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+3 from SPL Encoder: Encoder settings."
+msgid "Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings."
+msgstr "Control+NVDA+3 de la Encoderul SPL: Setări encoder."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NvDA+4 from SAM Encoder: Encoder connection status."
+msgid "Control+NVDA+4 from SAM Encoder: Encoder connection status."
+msgstr "Control+NvDA+4 de la Encoderul SAM: Starea conexiunii encoderului."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from SPL Encoder: Transfer rate or connection status."
+msgid ""
+"Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection "
+"status."
+msgstr ""
+"Control+NVDA+4 de la encoderul SPL: Frecvența de transfer sau starea "
+"conexiunii."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+5 from SAM Encoder: Connection status description."
+msgstr "Control+NVDA+5 de la encoderul SAM: Descrie starea conexiunii."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Assistant layer"
+msgstr "Asistent Layer SPL"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This layer command set allows you to obtain various status on SPL Studio, "
+#| "such as whether a track is playing, total duration of all tracks for the "
+#| "hour and so on. From any SPL Studio window, press the SPL Assistant layer "
+#| "command, then press one of the keys from the list below (one or more "
+#| "commands are exclusive to playlist viewer). You can also configure NvDA "
+#| "to emulate commands from other screen readers."
+msgid ""
+"This layer command set allows you to obtain various status on SPL Studio, "
+"such as whether a track is playing, total duration of all tracks for the "
+"hour and so on. From any SPL Studio window, press the SPL Assistant layer "
+"command, then press one of the keys from the list below (one or more "
+"commands are exclusive to playlist viewer). You can also configure NVDA to "
+"emulate commands from other screen readers."
+msgstr ""
+"Această comandă vă oferă posibilitatea de a obține o varietate de stări SPL, "
+"de exemplu dacă o piesă se redă, durata totală a tuturor pieselor în ore și "
+"așa mai departe. Din orice fereastră a SPL Studio, apăsați comanda Asistent "
+"layer SPL, apoi apăsați una din tastele din lista de mai jos (una sau mai "
+"multe comenzi sunt exclusive la vizualizatorul listei de redare). De "
+"asemenea, puteți configura NVDA să emuleze comenzi de la alte cititoare de "
+"ecran."
+
+#. type: Plain text
+msgid "The available commands are (most commands support speak on demand):"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "A: Automation."
+msgstr "A: Automatizare."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "C (Shift+C in JAWS and Window-Eyes layouts): Title for the currently "
+#| "playing track."
+msgid "C (Shift+C in JAWS layout): Title for the currently playing track."
+msgstr ""
+"C (Shift+C în JAWS și în aspectele Window-Eyes): Titlul piesei în curs de "
+"redare."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "C (JAWS and Window-Eyes layouts): Toggle cart explorer (playlist viewer "
+#| "only)."
+msgid ""
+"C (JAWS layout): Toggle cart explorer (playlist viewer only, does not "
+"support speak on demand)."
+msgstr ""
+"C (JAWS și aspectele Window-Eyes): Activează sau dezactivează exploratorul "
+"cart (doar vizualizatorul listei de redare)."
+
+#. type: Bullet: '* '
+msgid ""
+"D (R in JAWS layout): Remaining duration for the playlist (if an error "
+"message is given, move to playlist viewer and then issue this command)."
+msgstr ""
+"D (R în aspectul JAWS): durata rămasă pentru lista de redare (dacă un mesaj "
+"de eroare este dat, deplasați-vă la vizualizatorul listei de redare, apoi "
+"emiteți această comandă)."
+
+#. type: Bullet: '* '
+msgid "Control+D (Studio 6.10 and later): Control keys enabled/disabled."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "E (G in Window-Eyes layout): Metadata streaming status."
+msgid "E: Metadata streaming status."
+msgstr "E (G în aspectul Window-Eyes): Metadata stării emisiei."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming "
+"URL's (0 is for DSP encoder)."
+msgstr ""
+"Shift+1 până la Shift+4, Shift+0: Stare pentru metadata individuală a URL-"
+"ului emisiei (0 este pentru encoderul DSP)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F: Find track (playlist viewer only)."
+msgid "F: Find track (playlist viewer only, does not support speak on demand)."
+msgstr "F: Găsire piesă (doar vizualizatorul listei de redare)."
+
+#. type: Bullet: '* '
+msgid "H: Duration of music for the current hour slot."
+msgstr "H: durata muzicii pentru spațiul orei curente."
+
+#. type: Bullet: '* '
+msgid "Shift+H: Remaining track duration for the hour slot."
+msgstr "Shift+H: Durata rămasă a piesei pentru spațiul orei."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "I (L in JAWS or Window-Eyes layouts): Listener count."
+msgid "I (L in JAWS layout): Listener count."
+msgstr "I (L în aspectele JAWS sau Window-Eyes): Numărul de ascultători."
+
+#. type: Bullet: '* '
+msgid "K: Move to the marked track (playlist viewer only)."
+msgstr "K: Deplasare la piesa marcată (doar vizualizatorul listei de redare)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+K: Set the current track as the place marker track (playlist viewer "
+"only)."
+msgstr ""
+"Control+K: Setează piesa curentă ca o piesă a locului de marcare (doar "
+"vizualizatorul listei de redare)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "L (Shift+L in JAWS and Window-Eyes layouts): Line in."
+msgid "L (Shift+L in JAWS layout): Line in."
+msgstr "L (Shift+L aspectele JAWS și Window-Eyes): Line in."
+
+#. type: Bullet: '* '
+msgid "M: Microphone."
+msgstr "M: Microfon."
+
+#. type: Bullet: '* '
+msgid "N: Title for the next scheduled track."
+msgstr "N: Titlul următoarei piese programate."
+
+#. type: Bullet: '* '
+msgid "O: Playlist hour over/under by."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "P: Playback status (playing or stopped)."
+msgstr "P: Starea redării (în redare sau oprit)."
+
+#. type: Bullet: '* '
+msgid "Shift+P: Pitch of the current track."
+msgstr "Shift+P: Tonalitatea piesei curente."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "R (Shift+E in JAWS and Window-Eyes layouts): Record to file enabled/"
+#| "disabled."
+msgid "R (Shift+E in JAWS layout): Record to file enabled/disabled."
+msgstr ""
+"R (Shift+E în aspectele JAWS și Window-Eyes): Înregistrează la fișier "
+"activat/dezactivat."
+
+#. type: Bullet: '* '
+msgid "Shift+R: Monitor library scan in progress."
+msgstr "Shift+R: Scanarea librăriei monitorului în curs."
+
+#. type: Bullet: '* '
+msgid "S: Track starts (scheduled)."
+msgstr "S: Piesa începe (programată)."
+
+#. type: Bullet: '* '
+msgid "Shift+S: Time until selected track will play (track starts in)."
+msgstr "Shift+S: Timp până la redarea piesei (piesa începe în)."
+
+#. type: Bullet: '* '
+msgid "T: Cart edit/insert mode on/off."
+msgstr "T: modul editare/inserare cart activat/dezactivat."
+
+#. type: Bullet: '* '
+msgid "U: Studio up time."
+msgstr "U: Studio up time."
+
+#. type: Bullet: '* '
+msgid "W: Weather and temperature if configured."
+msgstr "W: Vremea și temperatura dacă sunt configurate."
+
+#. type: Bullet: '* '
+msgid "Y: Playlist modified status."
+msgstr "Y: stare playlist modificat."
+
+#. type: Bullet: '* '
+msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
+msgstr ""
+"F8: Ia lista de redare instantanee (numărul pieselor, cea mai lungă piesă, "
+"etc.)."
+
+#. type: Bullet: '* '
+msgid "Shift+F8: Request playlist transcripts in numerous formats."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "F9: Mark current track for track time analysis (playlist viewer only)."
+msgid ""
+"F9: Mark current track for start of playlist analysis (playlist viewer only)."
+msgstr ""
+"F9: Marchează piesa curentă pentru analizarea timpului ei (doar "
+"vizualizatorul listei de redare)."
+
+#. type: Bullet: '* '
+msgid "F10: Perform track time analysis (playlist viewer only)."
+msgstr ""
+"F10: Efectuează analizarea timpului piesei )(doar vizualizatorul listei de "
+"redare)."
+
+#. type: Bullet: '* '
+msgid "F12: Switch between current and a predefined profile."
+msgstr "F12: Comută între un profil curent și unul predefinit."
+
+#. type: Bullet: '* '
+msgid "F1: Layer help."
+msgstr "F1: Ajutor layer."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Controller"
+msgstr "SPL Controller"
+
+#. type: Plain text
+msgid ""
+"The SPL Controller is a set of layered commands you can use to control SPL "
+"Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "
+"\"SPL Controller.\" Press another command to control various Studio settings "
+"such as microphone on/off or play the next track."
+msgstr ""
+"SPL Controler este un set de comenzi stratificate pe care le puteți utiliza "
+"pentru a controla SPL Studio oriunde. Apăsați comanda stratului SPL "
+"Controller, iar NVDA va spune: \"Controller SPL\". Apăsați o altă comandă "
+"pentru a controla diferite setări Studio, cum ar fi microfonul pornit / "
+"oprit sau pentru a reda piesa următoare."
+
+#. type: Plain text
+msgid ""
+"Important: SPL Controller layer commands are disabled if NVDA is running in "
+"secure mode."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "The available SPL Controller commands are:"
+msgid ""
+"The available SPL Controller commands are (some commands support speak on "
+"demand):"
+msgstr "Comenzile disponibile SPL Controller sunt:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press P to play the next selected track."
+msgid "P: Play the next selected track."
+msgstr "Apăsați P pentru a reda următorul track selectat."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press U to pause or unpause playback."
+msgid "U: Pause or unpause playback."
+msgstr "Apăsați U pentru a întrerupe sau a relua redarea."
+
+#. type: Bullet: '* '
+msgid "S: Stop the track with fade out."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "T: Instant stop."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "M: Microphone."
+msgid "M: Turn on microphone."
+msgstr "M: Microfon."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "M: Microphone."
+msgid "Shift+M: Turn off microphone."
+msgstr "M: Microfon."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "A: Automation."
+msgid "A: Turn on automation."
+msgstr "A: Automatizare."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "A: Automation."
+msgid "Shift+A: Turn off automation."
+msgstr "A: Automatizare."
+
+#. type: Bullet: '* '
+msgid "L: Turn on line-in input."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Shift+L: Turn off line-in input."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press R to hear remaining time for the currently playing track."
+msgid "R: Remaining time for the currently playing track."
+msgstr "Apăsați R pentru a auzii timpul rămas pentru redarea melodiei curente."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Shift+R: Monitor library scan in progress."
+msgid "Shift+R: Library scan progress."
+msgstr "Shift+R: Scanarea librăriei monitorului în curs."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press C to let NVDA announce name and duration of the currently playing "
+#| "track."
+msgid ""
+"C: Title and duration of the currently playing track (supports speak on "
+"demand)."
+msgstr ""
+"Apăsați C pentru a permite NVDA să anunțe numele și durata pistei redate "
+"curent."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press Shift+C to let NVDA announce name and duration of the upcoming "
+#| "track if any."
+msgid ""
+"Shift+C: Title and duration of the upcoming track if any (supports speak on "
+"demand)."
+msgstr ""
+"Apăsați Shift+C pentru a permite NVDA să anunțe numele și durata următoarei "
+"piste, dacă există."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NvDA+4 from SAM Encoder: Encoder connection status."
+msgid "E: Encoder connection status (supports speak on demand)."
+msgstr "Control+NvDA+4 de la Encoderul SAM: Starea conexiunii encoderului."
+
+#. type: Bullet: '* '
+msgid "I: Listener count (supports speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press Q to obtain various status information about Studio including "
+#| "whether a track is playing, microphone is on and others."
+msgid ""
+"Q: Studio status information such as whether a track is playing, microphone "
+"is on and others (supports speak on demand)."
+msgstr ""
+"Apăsați Q pentru a obține diferite informații despre starea Studio, inclusiv "
+"dacă o melodie este redată, microfonul este pornit și altele."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press cart keys (F1, Control+1, for example) to play assigned carts from "
+#| "anywhere."
+msgid ""
+"Cart keys (F1, Control+1, for example): Play assigned carts from anywhere."
+msgstr ""
+"Apăsați tastele cart (F1, Control+1, de exemplu) pentru a reda carturile "
+"alocate de oriunde."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F1: Layer help."
+msgid "H: Layer help."
+msgstr "F1: Ajutor layer."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Microphone alarm"
+msgid "Track and microphone alarms"
+msgstr "Alarma microfonului"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "By default, NvDA will play a beep if five seconds are left in the track "
+#| "(outro) and/or intro. To configure this value as well as to enable or "
+#| "disable them, press Alt+NVDA+1 or Alt+NVDA+2 to open end of track and "
+#| "song ramp dialogs, respectively. In addition, use Studio add-on settings "
+#| "dialog to configure if you'll hear a beep, a message or both when alarms "
+#| "are turned on."
+msgid ""
+"By default, NVDA will play a beep if five seconds are left in the track "
+"(outro) and/or intro, as well as to hear a beep if microphone has been "
+"active for a while. To configure track and microphone alarms, press "
+"Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can "
+"also use this screen to configure if you'll hear a beep, a message or both "
+"when alarms are turned on."
+msgstr ""
+"Implicit, NVDA va reda un semnal sonor dacă au rămas cinci secunde din piesă "
+"(outro) și/sau intro. Pentru a configura această valoare în așa fel încât să "
+"le dezactivați, apăsați Alt+NVDA+1 sau Alt+NVDA+2 pentru a deschide dialogul "
+"de terminare al  cântecului, respectiv al rampei. În plus, folosiți dialogul "
+"de setări al suplimenrului Studio pentru a configura dacă vreți să auziți un "
+"semnal sonor, un mesaj sau ambele atunci când alarmele sunt pornite."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track Finder"
+msgstr "Căutătorul de piese"
+
+#. type: Plain text
+msgid ""
+"If you wish to quickly find a song by an artist or by song name, from track "
+"list, press Control+NVDA+F. Type or choose the name of the artist or the "
+"song name. NVDA will either place you at the song if found or will display "
+"an error if it cannot find the song you're looking for. To find a previously "
+"entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
+"backward."
+msgstr ""
+"Dacă doriți să căutați rapid un cântec după artist sau după numele acestuia "
+"în lista de piese, apăsați Control+NVDA+F. Tastați sau alegeți numele "
+"artistului sau al cântecului. NVDA vă va plasa fie la piesă dacă e găsită, "
+"fie va afișa o eroare dacă n-a putut găsi piesa care vă interesa. Pentru a "
+"găsi o melodie introdusă anterior sau un artist, apăsați NVDA+F3 sau "
+"NVDA+Shift+F3 pentru a căuta înainte sau înapoi."
+
+#. type: Plain text
+msgid "Note: Track Finder is case-sensitive."
+msgstr "Notă: Căutătorul de piese e sensibil la majuscule."
+
+#. type: Title ##
+#, no-wrap
+msgid "Cart Explorer"
+msgstr "Exploratorul Cart"
+
+#. type: Plain text
+msgid ""
+"Depending on edition, SPL Studio allows up to 96 carts to be assigned for "
+"playback. NVDA allows you to hear which cart, or jingle is assigned to these "
+"commands."
+msgstr ""
+"În funcție de ediție, SPL Studio permite atribuirea a până la 96 de carturi "
+"pentru redare. NVDA vă permite să auziți care cart sau jingle este atribuit "
+"acestor comenzi."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "To learn cart assignments, from SPL Studio, press Alt+NVDA+3. Pressing "
+#| "the cart command once will tell you which jingle is assigned to the "
+#| "command. Pressing the cart command twice will play the jingle. Press "
+#| "Alt+NvDA+3 to exit cart explorer. See the add-on guide for more "
+#| "information on cart explorer."
+msgid ""
+"To learn cart assignments, from SPL Studio, press Alt+NVDA+3. Pressing the "
+"cart command once will tell you which jingle is assigned to the command. "
+"Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to "
+"exit cart explorer. See the add-on guide for more information on cart "
+"explorer."
+msgstr ""
+"Pentru a observa atribuirea carturilor din SPL Studio, tastați Alt+NVDA+3. "
+"Apăsând comanda de cart o dată, vi se va spune ce jingle este atribui "
+"comenzii. Apăsarea comenzii de două ori va reda jingle-ul. Tastați "
+"Alt+NVDA+3 pentru a ieși din exploratorul de carturi. Mai multe informații "
+"despre exploratorul de carturi găsiți în ghidul suplimentului."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track time analysis"
+msgstr "Analiză de timp a pistei"
+
+#. type: Plain text
+msgid ""
+"To obtain length to play selected tracks, mark current track for start of "
+"track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when "
+"reaching end of selection."
+msgstr ""
+"Pentru a obține lungimea pentru redare a pistei selectate, marcați pista "
+"curentă pentru începerea analizei de timp (SPL Assistant, F9), apoi apăsați "
+"SPL Assistant, F10 când ajungeți la finalul selecției."
+
+#. type: Title ##
+#, no-wrap
+msgid "Columns Explorer"
+msgstr "Exploratorul de coloane"
+
+#. type: Plain text
+msgid ""
+"By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
+"columns. By default, these are first ten columns for a track item (in "
+"Studio: artist, title, duration, intro, outro, category, year, album, genre, "
+"mood). For playlist editor in Creator and Remote VT client, column data "
+"depends on column order as shown on screen. In Studio, Creator's main track "
+"list, and Track Tool, column slots are preset regardless of column order on "
+"screen and can be configured from add-on settings dialog under columns "
+"explorer category."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Track column announcement"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can ask NVDA to announce track columns found in Studio's playlist viewer "
+"in the order it appears on screen or using a custom order and/or exclude "
+"certain columns. Press NVDA+V to toggle this behavior while focused on a "
+"track in Studio's playlist viewer. To customize column inclusion and order, "
+"from column announcement settings panel in add-on settings, uncheck "
+"\"Announce columns in the order shown on screen\" and then customize "
+"included columns and/or column order."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist snapshots"
+msgstr "Instantaneu(snapshot) listă de redare"
+
+#. type: Plain text
+msgid ""
+"You can press SPL Assistant, F8 while focused on a playlist in Studio to "
+"obtain various statistics about a playlist, including number of tracks in "
+"the playlist, longest track, top artists and so on. After assigning a custom "
+"command for this feature, pressing the custom command twice will cause NVDA "
+"to present playlist snapshot information as a webpage so you can use browse "
+"mode to navigate (press escape to close)."
+msgstr ""
+"Puteți apăsa SPL Assistant, în timp ce vă focalizați pe o listă de redare în "
+"Studio pentru a obține statistici diferite despre o listă de redare, "
+"inclusiv numărul de melodii din lista de redare, cea mai lungă melodie, "
+"artiștii de top și așa mai departe. După atribuirea unei comenzi "
+"personalizate pentru această caracteristică, apăsarea de două ori a comenzii "
+"personalizate va determina NVDA să prezinte informații instantanee de redare "
+"ca pagină web pentru a putea utiliza modul de navigare pentru a naviga "
+"(apăsați pe Escape pentru a închide)."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Playlist snapshots"
+msgid "Playlist Transcripts"
+msgstr "Instantaneu(snapshot) listă de redare"
+
+#. type: Plain text
+msgid ""
+"Pressing SPL Assistant, Shift+F8 will present a dialog to let you request "
+"playlist transcripts in numerous formats, including in a plain text format, "
+"an HTML table or a list."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration dialog"
+msgstr "Dialog de configurare"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "From studio window, you can press Alt+NVDA+0 to open the add-on "
+#| "configuration dialog. Alternatively, go to NVDA's preferences menu and "
+#| "select SPL Studio Settings item. This dialog is also used to manage "
+#| "broadcast profiles."
+msgid ""
+"From studio window, you can press Alt+NVDA+0 to open the add-on "
+"configuration dialog. Alternatively, go to NVDA's preferences menu and "
+"select SPL Studio Settings item. Not all settings are available if NVDA is "
+"running in secure mode."
+msgstr ""
+"Din fereastra studio, puteți apăsa Alt+NVDA+0 pentru a deschide dialogul de "
+"configurare pentru supliment. Alternativ, accesați meniul preferințelor NVDA "
+"și selectați elementul SPL Studio Settings. Acest dialog este, de asemenea, "
+"utilizat pentru a gestiona profilurile de difuzare."
+
+#. type: Title ##
+#, no-wrap
+msgid "Broadcast profiles dialog"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can save settings for specific shows into broadcast profiles. These "
+"profiles can be managed via SPL broadcast profiles dialog which can be "
+"accessed by pressing Alt+NVDA+P from Studio window."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL touch mode"
+msgstr "Modul de atingere SPL"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "If you are using Studio on a touchscreen computer running Windows 8 or "
+#| "later and have NVDA 2012.3 or later installed, you can perform some "
+#| "Studio commands from the touchscreen. First use three finger tap to "
+#| "switch to SPL mode, then use the touch commands listed above to perform "
+#| "commands."
+msgid ""
+"If you are using Studio on a touchscreen computer with NVDA installed, you "
+"can perform some Studio commands from the touchscreen. First use three "
+"finger tap to switch to SPL mode, then use the touch commands listed above "
+"to perform commands."
+msgstr ""
+"Dacă utilizați Studio pe un computer cu ecran tactil care rulează Windows 8 "
+"sau o versiune ulterioară și aveți NVDA 2012.3 sau mai recent instalat, "
+"puteți efectua unele comenzi Studio de pe ecranul tactil. Utilizați mai "
+"întâi trei atingeri cu degetul pentru a comuta la modul SPL, apoi utilizați "
+"comenzile de atingere listate mai sus pentru a efectua comenzi."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.09"
+msgid "Version 25.06-LTS"
+msgstr "Versiunea 17.09"
+
+#. type: Plain text
+msgid ""
+"Version 25.06.x is the last release series to support Studio 5.x with future "
+"releases requiring Studio 6.x. Some new features will be backported to 25.06."
+"x if needed."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new command in SPL Assistant to announce playlist hour over/under by "
+"in minutes and seconds (O)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, the command to step through library scan announcement settings "
+"has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles "
+"remote access feature in NVDA 2025.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing when performing "
+"some SPL Assistant commands after resizing Studio window."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize track column changes introduced in Creator and Track "
+"Tool 6.11."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play wrong carts when playing them via SPL Controller "
+"layer."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.06"
+msgid "Version 25.05"
+msgstr "Versiunea 17.06"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 Service Pack 1 or later is required."
+msgid "NVDA 2024.1 or later is required due to Python 3.11 upgrade."
+msgstr "Este necesar Windows 7 cu Service Pack 1 sau mai nou."
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Moved ad-on wiki documents such as add-on changelog to the main code "
+"repository."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added close button to playlist snapshots, playlist transcripts, and SPL "
+"Assistant and Controller layer help screens (NVDA 2025.1 and later)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer do nothing or play error tones when announcing weather "
+"and temperature information in Studio 6.x (SPL Assistant, W)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.06"
+msgid "Version 25.01"
+msgstr "Versiunea 17.06"
+
+#. type: Bullet: '* '
+msgid "64-bit Windows 10 21H2 (build 19044) or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio 6.10 and later, added a new command in SPL Assistant to announce "
+"control keys enabled/disabled status (Control+D)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.06"
+msgid "Version 24.03"
+msgstr "Versiunea 17.06"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2024.1."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 Service Pack 1 or later is required."
+msgid "NVDA 2023.3.3 or later is required."
+msgstr "Este necesar Windows 7 cu Service Pack 1 sau mai nou."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Initial support for StationPlaylist Studio 5.30."
+msgid "Support for StationPlaylist suite 6.10."
+msgstr "Suport inițial pentru StationPlaylist Studio 5.30."
+
+#. type: Bullet: '* '
+msgid ""
+"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
+"spoken in this mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.06"
+msgid "Version 24.01"
+msgstr "Versiunea 17.06"
+
+#. type: Bullet: '* '
+msgid ""
+"The commands for the Encoder Settings dialog for use with the SPL and SAM "
+"Encoders are now assignable, meaning that you can change them from their "
+"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
+"Input Gestures. The ones that are not assignable are the connect and "
+"disconnect commands. Also, to prevent command conflicts and make much easier "
+"use of this command on remote servers, the default gesture for switching to "
+"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
+"of these can of course still be toggled from the Encoder Settings dialog "
+"(NVDA+Alt+0 or F12)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.06"
+msgid "Version 23.05"
+msgstr "Versiunea 17.06"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.06"
+msgid "Version 23.02"
+msgstr "Versiunea 17.06"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 Service Pack 1 or later is required."
+msgid "NVDA 2022.4 or later is required."
+msgstr "Este necesar Windows 7 cu Service Pack 1 sau mai nou."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio's playlist viewer, NVDA will not announce column headers such as "
+"artist and title if table headers setting is set to either \"rows and "
+"columns\" or \"columns\" in NVDA's document formatting settings panel."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Older releases"
+msgstr "Distribuții mai vechi"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Please see changelog link for release notes for old add-on releases."
+msgid ""
+"Please see the [changelog][2] for release notes for old add-on releases."
+msgstr ""
+"Consultați legătura cu logul de modificări pentru versiuni mai vechi ale "
+"suplimentului."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
+msgid ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+msgstr "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
+msgid ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+msgstr "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Descărcați [versiunea stabilă][1]"
+
+#, fuzzy
+#~| msgid ""
+#~| "The following commands are available when using Sam or SPL encoders:"
+#~ msgid "The following commands are available when using encoders:"
+#~ msgstr ""
+#~ "Următoarele comenzi sunt disponibile la utilizarea encoderelor Sam sau "
+#~ "SPL:"
+
+#~ msgid "The available commands are:"
+#~ msgstr "Comenzile disponibile sunt:"
+
+#, fuzzy
+#~| msgid "Press I to obtain listener count."
+#~ msgid "I: Listener count."
+#~ msgstr "Apăsați I pentru a obține numărul de ascultători."
+
+#~ msgid "Authors: Geoff Shang, Joseph Lee and other contributors"
+#~ msgstr "Autori: Geoff Shang, Joseph Lee și alți contributori"
+
+#, fuzzy
+#~| msgid "Version 17.06"
+#~ msgid "Version 22.03"
+#~ msgstr "Versiunea 17.06"
+
+#, fuzzy
+#~| msgid "Windows 7 Service Pack 1 or later is required."
+#~ msgid "NVDA 2021.3 or later is required."
+#~ msgstr "Este necesar Windows 7 cu Service Pack 1 sau mai nou."
+
+#~ msgid "SPL Controller layer."
+#~ msgstr "Layer SPL controler"
+
+#, fuzzy
+#~| msgid "Version 17.06"
+#~ msgid "Version 21.11"
+#~ msgstr "Versiunea 17.06"
+
+#, fuzzy
+#~| msgid "Version 17.06"
+#~ msgid "Version 21.10"
+#~ msgstr "Versiunea 17.06"
+
+#~ msgid "Shift+F1: Opens online user guide."
+#~ msgstr "Shift+F1: Deschide ghidul online al utilizatorului."
+
+#, fuzzy
+#~| msgid "Version 17.06"
+#~ msgid "Version 21.08"
+#~ msgstr "Versiunea 17.06"
+
+#, fuzzy
+#~| msgid "Version 17.06"
+#~ msgid "Version 21.06"
+#~ msgstr "Versiunea 17.06"
+
+#, fuzzy
+#~| msgid "Version 17.05/15.7-LTS"
+#~ msgid "Version 21.04/20.09.7-LTS"
+#~ msgstr "Versiunea 17.05/15.7-LTS"
+
+#, fuzzy
+#~| msgid "Version 17.05/15.7-LTS"
+#~ msgid "Version 21.03/20.09.6-LTS"
+#~ msgstr "Versiunea 17.05/15.7-LTS"
+
+#, fuzzy
+#~| msgid "Version 18.01/15.12-LTS"
+#~ msgid "Version 21.01/20.09.5-LTS"
+#~ msgstr "Versiunea 18.01/15.12-LTS"
+
+#, fuzzy
+#~| msgid "Version 17.11.1/15.11-LTS"
+#~ msgid "Version 20.11.1/20.09.4-LTS"
+#~ msgstr "Versiunea 17.11.1/15.11-LTS"
+
+#, fuzzy
+#~| msgid "Version 17.11/15.10-LTS"
+#~ msgid "Version 20.11/20.09.3-LTS"
+#~ msgstr "Versiunea 17.11/15.10-LTS"
+
+#, fuzzy
+#~| msgid "Version 18.01/15.12-LTS"
+#~ msgid "Version 20.10/20.09.2-LTS"
+#~ msgstr "Versiunea 18.01/15.12-LTS"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Descărcați [versiunea în dezvoltare][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts20"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+
+#~ msgid ""
+#~ "For more information about the add-on, read the [add-on guide][4]. For "
+#~ "developers seeking to know how to build the add-on, see buildInstructions."
+#~ "txt located at the root of the add-on source code repository."
+#~ msgstr ""
+#~ "Pentru mai multe informații despre acest add-on, citiț [ghidul lui][4]. "
+#~ "Pentru dezvoltatorii care vor să știe cum se construiește add-on-ul, "
+#~ "citiți buildInstructions.txt localizat în folderul principal al "
+#~ "repository-ului cod sursă."
+
+#~ msgid ""
+#~ "add-on 8.0/16.10 requires Studio 5.10 or later. For broadcasters using "
+#~ "Studio 5.0x and/or Windows XP, Vista or 7 without Service Pack 1, a [long-"
+#~ "term support version][3] (15.x) is available. The last stable version to "
+#~ "support Windows releases prior to 7 Service Pack 1 is 17.11.2."
+#~ msgstr ""
+#~ "suplimentul 8.0/16.10 necesită Studio 5.10 sau mai nou. Pentru cei care "
+#~ "difuzează, folosind Studio 5.0x și/sau Windows XP, Vista sau 7 fără "
+#~ "Service Pack 1, este disponibilă [o versiune cu suport pe termen lung][3] "
+#~ "(15.x). Ultima versiune stabilă, compatibilă cu distribuții mai vechi de "
+#~ "Windows  7, Service Pack 1, este 17.11.2."
+
+#~ msgid ""
+#~ "Certain add-on features (notably add-on updating) won't work under some "
+#~ "conditions, including running NVDA in secure mode."
+#~ msgstr ""
+#~ "Anumite caracteristici ale suplimentului (în special actualizarea "
+#~ "suplimentului) nu vor funcționa în anumite condiții, incluzând rularea "
+#~ "NVDA în modul securizat."
+
+#~ msgid ""
+#~ "Due to tecnical limitations, you cannot install or use this add-on on "
+#~ "Windows Store version of NVDA."
+#~ msgstr ""
+#~ "Datorită limitărilor de ordin tehnic, nu puteți instala sau folosi acest "
+#~ "supliment cu versiunea de Magazin Windows a NVDA."
+
+#~ msgid ""
+#~ "Alt+NVDA+2 (two finger flick left in SPL mode) from Studio window: Opens "
+#~ "song intro alarm setting dialog."
+#~ msgstr ""
+#~ "Alt+NVDA+2 (glisare la stânga cu două degete în modul tactil al SPL-ului) "
+#~ "din fereastra Studio: deschide dialogul setării a introului melodiei."
+
+#~ msgid "Alt+NVDA+4 from Studio window: Opens microphone alarm dialog."
+#~ msgstr ""
+#~ "Alt+NVDA+4 din fereastra Studio: Deschide dialogul de alarmă pentru "
+#~ "microfon."
+
+#~ msgid ""
+#~ "Control+NVDA+1 through 0 (6 for Studio 5.0x): Announce column content for "
+#~ "a specified column."
+#~ msgstr ""
+#~ "Control+NVDA+1 până la 0 (6 pentru Studio 5.0x): anunță conținutul "
+#~ "coloanei pentru o coloană specificată."
+
+#~ msgid ""
+#~ "Control+NVDA+- (hyphen) from Studio window: Send feedback to add-on "
+#~ "developer using the default email client."
+#~ msgstr ""
+#~ "Control+NVDA+- (cratimă) din fereastra Studio: Trimite feedback la "
+#~ "dezvoltator utilizând clientul de poștă electronică implicit."
+
+#~ msgid ""
+#~ "The following commands are not assigned by default; if you wish to assign "
+#~ "them, use Input Gestures dialog to add custom commands."
+#~ msgstr ""
+#~ "Următoarele comenzi nu sunt atribuite în mod implicit; dacă doriți să le "
+#~ "atribuiți, utilizați dialogul gesturilor de intrare pentru a adăuga "
+#~ "comenzi personalizate."
+
+#~ msgid ""
+#~ "F12: Opens a dialog to enter custom label for the selected encoder or "
+#~ "stream."
+#~ msgstr ""
+#~ "F12: Deschide un dialog pentru introducerea unei etichete personalizate "
+#~ "pentru encoderul selectat sau stream."
+
+#~ msgid ""
+#~ "E (Window-Eyes layout): Elapsed time for the currently playing track."
+#~ msgstr ""
+#~ "E (aspectul Window-Eyes): Timpul scurs pentru piesa în curs de redare."
+
+#~ msgid "Control+Shift+U: Check for add-on updates."
+#~ msgstr "Control+Shift+U: Caută actualizări."
+
+#~ msgid ""
+#~ "1 through 0 (6 for Studio 5.0x): Announce column content for a specified "
+#~ "column."
+#~ msgstr ""
+#~ "De la 1 până la 0(6 pentru Studio 5.0x): Anunță conținutul coloanei "
+#~ "pentru o coloană specificată."
+
+#~ msgid ""
+#~ "Press S to stop the track with fade out, or to stop the track instantly, "
+#~ "press T."
+#~ msgstr ""
+#~ "Apăsați S pentru a opri melodia cu ajustarea volumului, sau apăsați T "
+#~ "pentru a opri melodia instantaneu."
+
+#~ msgid ""
+#~ "Press M or Shift+M to turn on or off the microphone, respectively, or "
+#~ "press N to enable microphone without fade."
+#~ msgstr ""
+#~ "Apăsați M sau Shift+M pentru a activa sau dezactiva microfonul respectiv, "
+#~ "sau apăsați N pentru a activa microfonul fără să se estompeze."
+
+#~ msgid "Press A to enable automation or Shift+A to disable it."
+#~ msgstr ""
+#~ "Apăsați A pentru a activa automatizarea sau Shift+A pentru a o dezactiva."
+
+#~ msgid "Press L to enable line-in input or Shift+L to disable it."
+#~ msgstr ""
+#~ "Apăsați L pentru a activa intrarea liniei sau Shift+L pentru a o "
+#~ "dezactiva."
+
+#~ msgid "Press Shift+R to get a report on library scan progress."
+#~ msgstr ""
+#~ "ApăsațiShift+R pentru a obține un raport privind progresul scanării "
+#~ "bibliotecii."
+
+#~ msgid "Press E to get count and labels for encoders being monitored."
+#~ msgstr ""
+#~ "Apăsați E pentru a obține numărătoare și etichete pentru monitorizarea "
+#~ "codificatoarelor."
+
+#~ msgid "Press H to show a help dialog which lists available commands."
+#~ msgstr ""
+#~ "Apăsați H pentru a afișa un dialog de ajutor care listează comenzile "
+#~ "disponibile."
+
+#~ msgid "Track alarms"
+#~ msgstr "Alarmele piesei"
+
+#~ msgid ""
+#~ "You can ask NVDA to play a sound when microphone has been active for a "
+#~ "while. Press Alt+NVDA+4 to configure alarm time in seconds (0 disables "
+#~ "it)."
+#~ msgstr ""
+#~ "Puteți solicita NVDA să redea un sunet atunci când microfonul este activ "
+#~ "pentru o perioadă. Apăsați Alt+NVDA+4 pentru a configura timpul de alarmă "
+#~ "în secunde (0 dezactivează)."
+
+#~ msgid ""
+#~ "By pressing Control+NVDA+1 through 0 (6 for Studio 5.0x) or SPL "
+#~ "Assistant, 1 through 0 (6 for Studio 5.01 and earlier), you can obtain "
+#~ "contents of specific columns. By default, these are artist, title, "
+#~ "duration, intro, category and filename (Studio 5.10 adds year, album, "
+#~ "genre and time scheduled). You can configure which columns will be "
+#~ "explored via columns explorer dialog found in add-on settings dialog."
+#~ msgstr ""
+#~ "Prin apăsarea Control+NVDA+1 până la 0 (6 pentru Studio 5.0x) sau SPL "
+#~ "Assistant, 1 până la 0 (6 pentru Studio 5.01 și mai vechi), puteți obține "
+#~ "informația din coloane specifice. În mod implicit, acestea sunt artist, "
+#~ "titlu, durată, intro, categorie și nume fișier (Studio 5.10 adaugă an, "
+#~ "album, gen și timpul programat). Puteți configura ce coloane vor fi "
+#~ "explorate prin intermediul ferestrei de dialog a exploratorului de "
+#~ "coloane din fereastra de setări a suplimentului."
+
+#~ msgid "Version 18.02/15.13-LTS"
+#~ msgstr "Versiunea 18.01/15.13-LTS"
+
+#~ msgid ""
+#~ "18.02: Due to internal changes made to support extension points and other "
+#~ "features, NVDA 2017.4 is required."
+#~ msgstr ""
+#~ "18.02: Datorită schimbărilor interne, făcute pentru a suporta puncte de "
+#~ "extensie și alte caracteristici, este necesar NVDA 2017.4."
+
+#~ msgid ""
+#~ "Add-on updating won't be possible under some cases. These include running "
+#~ "NVDA from source code or with secure mode turned on. Secure mode check is "
+#~ "applicable to 15.13-LTS as well."
+#~ msgstr ""
+#~ "Actualizarea suplimentului nu va fi posibilă în anumite cazuri. Acestea "
+#~ "includ rularea NVDA din codul sursă sau cu modul de siguranță activat. "
+#~ "Verificarea modului de siguranță este aplicabilă și versiunii 15.13."
+
+#~ msgid ""
+#~ "When using JAWS layout for SPL Assistant, update check command "
+#~ "(Control+Shift+U) now works correctly."
+#~ msgstr ""
+#~ "Când utilizați structura JAWS pentru SPL Assistant, comanda de "
+#~ "actualizare a controlului (Control+Shift+U) funcționează acum corect."
+
+#~ msgid ""
+#~ "When changing microphone alarm settings via the alarm dialog "
+#~ "(Alt+NVDA+4), changes such as enabling alarm and changes to microphone "
+#~ "alarm interval are applied when closing the dialog."
+#~ msgstr ""
+#~ "Atunci când modificați setările de alarmă ale microfonului prin dialogul "
+#~ "de alarmă (Alt+NVDA+4), schimbările, cum ar fi activarea alarmei și "
+#~ "modificarea intervalului de alarmă pentru microfon, se aplică la "
+#~ "închiderea dialogului."
+
+#~ msgid "Version 17.12"
+#~ msgstr "Versiunea 17.12"
+
+#~ msgid "Version 17.11.2"
+#~ msgstr "Versiunea 17.11.2"
+
+#~ msgid ""
+#~ "If using Windows releases prior to Windows 7 Service Pack 1, you cannot "
+#~ "switch to development channels."
+#~ msgstr ""
+#~ "Dacă folosiți versiuni de WIndows anterioare Windows 7 Service Pack 1, nu "
+#~ "puteți comuta la canalele de dezvoltare."
+
+#~ msgid "Version 17.10"
+#~ msgstr "Versiunea 17.10"
+
+#~ msgid "Version 17.09.1"
+#~ msgstr "Versiunea 17.09.1"
+
+#~ msgid "Version 17.08.1"
+#~ msgstr "Versiunea 17.08.1"
+
+#~ msgid ""
+#~ "NVDA will no longer fail to cause Studio to play the first track when an "
+#~ "encoder is connected."
+#~ msgstr ""
+#~ "NVDA nu va mai eșua în a provoca redarea cu Studio a primei piste, când "
+#~ "este conectat un codor."
+
+#~ msgid "Version 17.08"
+#~ msgstr "Versiunea 17.08"
+
+#~ msgid "Version 17.05.1"
+#~ msgstr "Versiunea 17.05.1"
+
+#~ msgid "Version 17.04"
+#~ msgstr "Versiunea 17.04"
+
+#~ msgid "Changes for 7.3"
+#~ msgstr "Modificări pentru 7.3"
+
+#~ msgid "Changes for 7.2"
+#~ msgstr "Modificări pentru 7.2"
+
+#~ msgid "Changes for 7.1"
+#~ msgstr "Modificări pentru 7.1"
+
+#~ msgid "Changes for 7.0"
+#~ msgstr "Modificări pentru 7.0"
+
+#~ msgid "Changes for 6.4"
+#~ msgstr "Modificări pentru 6.4"
+
+#~ msgid "Changes for 6.3"
+#~ msgstr "Modificări pentru 6.3"
+
+#~ msgid "Changes for 6.2"
+#~ msgstr "Modificări pentru 6.2"
+
+#~ msgid "Changes for 6.1"
+#~ msgstr "Modificări pentru 6.1"
+
+#~ msgid "Changes for 6.0"
+#~ msgstr "Modificări pentru 6.0"
+
+#~ msgid "Changes for 5.6"
+#~ msgstr "Modificări pentru 5.6"
+
+#~ msgid "Changes for 5.5"
+#~ msgstr "Modificări pentru 5.5"
+
+#~ msgid "Changes for 5.4"
+#~ msgstr "Modificări pentru 5.4"
+
+#~ msgid "Changes for 5.3"
+#~ msgstr "Modificări pentru 5.3"
+
+#~ msgid "Changes for 5.2"
+#~ msgstr "Modificări pentru 5.2"
+
+#~ msgid "Changes for 5.1"
+#~ msgstr "Modificări pentru 5.1"
+
+#~ msgid "Changes for 5.0"
+#~ msgstr "Modificări pentru 5.0"
+
+#~| msgid "[3]: https://josephsl.net/files/nvdaaddons/get.php?file=spl-lts16"
+#~ msgid ""
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"
+#~ msgstr ""
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"

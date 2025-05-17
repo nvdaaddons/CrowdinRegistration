@@ -1,0 +1,924 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA add-ons and Python 3\n"
+"POT-Creation-Date: 2025-04-30 11:46+0000\n"
+"PO-Revision-Date: 2024-05-12 16:51+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NVDA add-ons and Python 3\"]]\n"
+msgstr "[[!meta title=\"NVDA dodaci i Python 3\"]]\n"
+
+#. type: Plain text
+msgid ""
+"The NVDA community has transitioned from Python 2 to Python 3 as part of "
+"NVDA 2019.3. This page aims to document add-ons compatible with NVDA 2019.3 "
+"(Python 3 version of NVDA), as well as highlighting issues when using add-"
+"ons with future NVDA releases."
+msgstr ""
+"NVDA zajednica je prešla s Pythona 2 na Python 3 kao dio izdanja NVDA čitača "
+"ekrana 2019.3. Ova stranica ima za cilj dokumentirati dodatke kompatibilne s "
+"NVDA čitačem 2019.3 (Python 3 verzija NVDA čitača), kao i istaknuti probleme "
+"tijekom korištenja dodataka s budućim NVDA izdanjima."
+
+#. type: Title ##
+#, no-wrap
+msgid "What is Python 3 transition?"
+msgstr "Što znači prijelaz na Python 3?"
+
+#. type: Plain text
+msgid ""
+"Released in 2000, Python 2.x is one of the most popular programming "
+"languages. With support for Unicode, web technologies, and thousands of "
+"third-party libraries, Python became a language of choice for many projects, "
+"including NVDA in 2006."
+msgstr ""
+"Objavljen 2000. godine, Python 2.x jedan je od najpopularnijih programskih "
+"jezika. Podržavajući Unicode, web tehnologije i tisuće biblioteka trećih "
+"strana, Python je postao najpopularnijim jezikom za mnoge projekte, "
+"uključujući NVDA 2006. godine."
+
+#. type: Plain text
+msgid ""
+"In late 2000's, Python developers announced Python 3000, a project to "
+"modernize Python. Changes were made to Python syntax, standard library, and "
+"other underlying framework, including the print function, more comprehensive "
+"support for Unicode, changes to standard library, and changing iteration "
+"methods such as xrange to range. Although Python 3.x did modernize Python "
+"programming language, due to large-scale deployment of Python 2, Python "
+"developers decided to support Python 2.7 (the last version of Python 2) "
+"until January 2020 to give people time to move to Python 3."
+msgstr ""
+"Krajem prvog desetljeća 2000-ih godina, programeri Pythona su najavili "
+"Python 3000, projekt za moderniziranje Pythona. Promijenili su sintaksu "
+"Pythona, standardnu biblioteku i druge temeljne okvire, uključujući funkciju "
+"ispisa, sveobuhvatniju podršku za Unikod, promjene u standardnoj biblioteci "
+"i promjene metoda ponavljanja, kao što je „xrange” u „range”. Iako je Python "
+"3.x modernizirao programski jezik Pythona, zbog velike primjene Pythona 2, "
+"programeri Pythona su odlučili podržati Python 2.7 (posljednja verzija "
+"Pythona 2) do siječnja 2020., kako bi ljudima dali vremena da se prebace na "
+"Python 3."
+
+#. type: Plain text
+msgid ""
+"In 2019, NV Access began its work on Python 3 transition, citing popularity "
+"of NVDA and project longevity. This work culminated with release of Project "
+"Threshold builds of NVDA in July 2019, which is based on Python 3.7 and "
+"includes a host of changes in addition to Python 3 transition such as speech "
+"refactor, which will affect add-ons. NVDA 2019.3, released on February 10, "
+"2020, is powered by Python 3.7."
+msgstr ""
+"2019. godine je NV Access započeo rad na prijelazu na Python 3, navodeći "
+"popularnost NVDA i dugovječnost projekta. Ovo je djelo kulminiralo "
+"izdavanjem Project Threshold izgradnji NVDA čitača u srpnju 2019. godine, a "
+"koje se temelji na Pythonu 3.7. Osim prijelaza na Python 3 uključuje i niz "
+"promjena, kao što je reprogramiranje govora, koje će utjecati na dodatke. "
+"NVDA inačica 2019.3, izdana 10 veljače, 2020, pokreće Pzthon 3.7."
+
+#. type: Title ##
+#, no-wrap
+msgid "What you need to know about Python 3 transition and add-ons"
+msgstr "Što je potrebno znati o prijelazu na Python 3 i o dodacima"
+
+#. type: Plain text
+msgid ""
+"Python 3 transition affects many add-ons hosted on this website. "
+"Specifically, the following issues are known:"
+msgstr ""
+"Prijelaz na Python 3 utjeće na mnoge dodatke koji se nalaze na ovoj web "
+"stranici. Konkretno, poznati su sljedeći problemi:"
+
+#. type: Bullet: '* '
+msgid "Add-on does not load because they are flagged as incompatible by NVDA."
+msgstr "Dodatak se ne da učitati, jer ga NVDA označava kao nekompatibilni."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on does load, but errors such as syntax errors and module not found "
+"errors are seen."
+msgstr ""
+"Dodatak se da učitati, ali dolazi do sintaktičkih grešaka i grešaka u "
+"pronalaženju modula."
+
+#. type: Bullet: '* '
+msgid "Add-on does not load due to bytecode mismatch."
+msgstr "Dodatak se ne da učitati zbog neusklađenosti bajt kodova."
+
+#. type: Bullet: '* '
+msgid "Add-on behaves oddly when working with text."
+msgstr "Dodatak se čudno ponaša tijekom rada s tekstom."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on works, but certain features that rely on Python standard library are "
+"not working such as internet access."
+msgstr ""
+"Dodatak radi, ali neke funkcije koje zahtijevaju standardnu Python "
+"biblioteku ne funkcioniraju, poput pristupa Internetu."
+
+#. type: Bullet: '* '
+msgid ""
+"Some speech synthesizer and braille display add-ons behave oddly around text "
+"output."
+msgstr ""
+"Neki dodaci za govorne jedinice i brajične retke se ponašaju neobično "
+"tijekom prikaza teksta."
+
+#. type: Plain text
+msgid ""
+"When you encounter these issues, you should contact the author(s) of the add-"
+"on(s) in question (see the below list for contact info for add-ons hosted on "
+"this website). Be sure to provide details when contacting authors."
+msgstr ""
+"Kad naiđeš na ove probleme, kontaktiraj autore dotičnih dodataka (pogledaj "
+"donji popis kontakata za dodatke koji se nalaze na ovom web mjestu). Navedi "
+"detalje kad kontaktiraš autore."
+
+#. type: Plain text
+msgid "Compatibility status key for add-ons listed below:"
+msgstr "Stanje kompatibilnosti za niže dolje navedene dodatke:"
+
+#. type: Bullet: '* '
+msgid "Yes: compatible"
+msgstr "Da: kompatibilno"
+
+#. type: Bullet: '* '
+msgid "Included in NVDA: add-on functionality is now part of NVDA as of 2019.3"
+msgstr ""
+"Uključeno u NVDA čitaču: funkcionalnost dodatka je sada dio NVDA čitača, "
+"počevši s verzijom 2019.3"
+
+#. type: Bullet: '* '
+msgid ""
+"No: incompatible (manifest edits and other tricks will not work; this "
+"includes add-ons with compatibility manifest issues)"
+msgstr ""
+"Ne: nekompatibilno (uređivanje manifesta i ostali trikovi neće raditi; to "
+"uključuje dodatke s problemima kompatibilnosti u manifestu)"
+
+#. type: Bullet: '* '
+msgid "TBD: to be determined"
+msgstr "JSMO: još se mora odrediti"
+
+#. type: Bullet: '* '
+msgid "Planned: author indicated plans to port the add-on"
+msgstr "Planirano: autor je naznačio da planira prenijeti dodatak"
+
+#. type: Bullet: '* '
+msgid ""
+"Work in progress: add-on is being ported to Python 3, including testing in "
+"progress"
+msgstr ""
+"U tijeku: dodatak se prenosi u Python 3, testiranje je također u tijeku"
+
+#. type: Title ##
+#, no-wrap
+msgid "Status of add-ons compatible with Python 3 and other changes"
+msgstr "Stanje dodataka kompatibilnih s Python 3 te ostale promjene"
+
+#. type: Plain text
+msgid ""
+"Below is a list of add-ons hosted on this website, along with their "
+"compatibility status with Python 3 version of NVDA and known issues if any. "
+"The list also includes contact information for add-on author(s)."
+msgstr ""
+"Ispod je popis dodataka koji se nalaze na ovoj web stranici, zajedno s "
+"njihovim stanjem kompatibilnosti s Python 3 verzijom NVDA čitača i poznatim "
+"problemima, ako ih ima. Popis također sadrži podatke za kontaktiranje autora "
+"dodataka."
+
+#. type: Plain text
+msgid ""
+"Note: Add-on compatibility status subject to change without notice. Also, "
+"although one way to work around compatibility issues is editing the add-on "
+"manifest, some add-ons listed below are still incompatible."
+msgstr ""
+"Napomena: Stanje kompatibilnosti dodataka podložan je promjenama bez "
+"prethodne najave. Iako je jedan od načina rješavanja problema s "
+"kompatibilnošću uređivanje manifesta dodatka, neki navedeni dodaci su još "
+"uvijek nekompatibilni."
+
+#. type: Title ###
+#, no-wrap
+msgid "Access8Math"
+msgstr "Access8Math"
+
+#. type: Bullet: '* '
+msgid "Compatible: Yes"
+msgstr "Kompatibilno: Da"
+
+#. type: Bullet: '* '
+msgid "Contact: Tseng Woody <tsengwoody.tw@gmail.com>"
+msgstr "Kontakt: Tseng Woody <tsengwoody.tw@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-on Updater"
+msgstr "Ažuriranje dodataka"
+
+#. type: Bullet: '* '
+msgid "Contact: Joseph Lee <joseph.lee22590@gmail.com>"
+msgstr "Kontakt: Joseph Lee <joseph.lee22590@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-ons Documentation"
+msgstr "Dokumentacija dodataka"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel"
+msgstr ""
+"Kontakt: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel"
+
+#. type: Title ###
+#, no-wrap
+msgid "Addon to count elements of selected text"
+msgstr "Dodatak za brojenje elemenata u odabranom tekstu"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Fontes <rui.fontes@tiflotecnia.com>"
+msgstr "Kontakt: Rui Fontes <rui.fontes@tiflotecnia.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Audio Themes"
+msgstr "Zvučne teme"
+
+#. type: Bullet: '* '
+msgid "Compatible: Work in progress"
+msgstr "Kompatibilno: U tijeku"
+
+#. type: Bullet: '* '
+msgid "Contact: Musharraf Omer <ibnomer2011@hotmail.com>"
+msgstr "Kontakt: Musharraf Omer <ibnomer2011@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "AudioChart"
+msgstr "Zvučni grafikon"
+
+#. type: Bullet: '* '
+msgid "Contact: Tony Malykh <anton.malykh@gmail.com>"
+msgstr "Kontakt: Tony Malykh <anton.malykh@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Beep keyboard"
+msgstr "Zvučni signali za tipkovnicu"
+
+#. type: Bullet: '* '
+msgid "Contact: David CM <dhf360@gmail.com>"
+msgstr "Kontakt: David CM <dhf360@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bit Che"
+msgstr "Bit Che"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alberto Zanella <lapostadialberto@gmail.com>, Alberto Buffolino <a."
+"buffolino@gmail.com>, other contributors"
+msgstr ""
+"Kontakt: Alberto Zanella <lapostadialberto@gmail.com>, Alberto Buffolino <a."
+"buffolino@gmail.com>, drugi doprinositelji"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bluetooth Audio"
+msgstr "Bluetooth zvuk"
+
+#. type: Title ###
+#, no-wrap
+msgid "Braille Extender"
+msgstr "Brajično proširenje"
+
+#. type: Bullet: '* '
+msgid "Contact: André-Abush Clause <dev@andreabc.net>"
+msgstr "Kontakt: André-Abush Clause <dev@andreabc.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "BrowserNav"
+msgstr "Kretanje u pregledniku"
+
+#. type: Title ###
+#, no-wrap
+msgid "Calibre"
+msgstr "Calibre"
+
+#. type: Bullet: '* '
+msgid "Contact: Javi Dominguez <fjavids@gmail.com>"
+msgstr "Kontakt: Javi Dominguez <fjavids@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Character Information"
+msgstr "Informacije o znakovima"
+
+#. type: Bullet: '* '
+msgid "Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+msgstr "Kontakt: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Classic Selection"
+msgstr "Klasični odabir"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey <tspivey@pcdesk.net>"
+msgstr "Kontakt: Tyler Spivey <tspivey@pcdesk.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clip Contents Designer"
+msgstr "Upravljanje sadržajem međuspremnika"
+
+#. type: Bullet: '* '
+msgid "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+msgstr "Kontakt: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clipspeak"
+msgstr "Izgovori naredbe za međuspremnik"
+
+#. type: Bullet: '* '
+msgid "Contact: Damien Sykes-Lindley <damien@dcpendleton.plus.com>"
+msgstr "Kontakt: Damien Sykes-Lindley <damien@dcpendleton.plus.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clock and calendar Add-on for NVDA"
+msgstr "Sat i kalendar, dodatak za NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim."
+"bensaid@gmail.com>"
+msgstr ""
+"Kontakt: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim."
+"bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Control Usage Assistant"
+msgstr "Pomoćnik za primjenu kontrola"
+
+#. type: Title ###
+#, no-wrap
+msgid "Crash Hero"
+msgstr "Crash Hero"
+
+#. type: Bullet: '* '
+msgid "Compatible: No"
+msgstr "Kompatibilno: Ne"
+
+#. type: Bullet: '* '
+msgid "Issues: Python 3 syntax errors, no compatibility information"
+msgstr ""
+"Problemi: sintaktička greška u Python 3, nema podataka o kompatibilnosti"
+
+#. type: Bullet: '* '
+msgid "Contact: Derek Riemer <driemer.riemer@gmail.com>"
+msgstr "Kontakt: Derek Riemer <driemer.riemer@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Day of the week"
+msgstr "Dan u tjednu"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>"
+msgstr ""
+"Kontakt: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Debug Helper"
+msgstr "Pomoćnik za uklanjanje grešaka"
+
+#. type: Bullet: '* '
+msgid "Contact: Luke Davis <newanswertech@gmail.com>"
+msgstr "Kontakt: Luke Davis <newanswertech@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Developer Toolkit"
+msgstr "Alati za razvojne programere"
+
+#. type: Bullet: '* '
+msgid "Contact: Andy Borka <ajborka@gmail.com>"
+msgstr "Kontakt: Andy Borka <ajborka@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Patrick Zajda <patrick@zajda.fr>, Filaos and other contributors"
+msgstr ""
+"Kontakt: Patrick Zajda <patrick@zajda.fr>, Filaos i drugi doprinositelji"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dual Voice"
+msgstr "Dva glasa"
+
+#. type: Bullet: '* '
+msgid "Contact: Seyed Mahmood Taghavi-Shahri"
+msgstr "Kontakt: Seyed Mahmood Taghavi-Shahri"
+
+#. type: Title ###
+#, no-wrap
+msgid "Easy Table Navigator"
+msgstr "Jednostavno kretanje po tablici"
+
+#. type: Title ###
+#, no-wrap
+msgid "Emoticons"
+msgstr "Emotikoni"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier "
+"Estrada Martínez <Fjestrad@hotmail.com>"
+msgstr ""
+"Kontakt: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier "
+"Estrada Martínez <Fjestrad@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "eMule"
+msgstr "eMule"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>, Alberto <a.buffolino@gmail.com>"
+msgstr ""
+"Kontakt: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>, Alberto <a.buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Aria"
+msgstr "Poboljšana ARIA svojstva"
+
+#. type: Bullet: '* '
+msgid "Compatible: Included in NVDA"
+msgstr "Kompatibilno: Uključeno u NVDA čitaču"
+
+#. type: Bullet: '* '
+msgid "Contact: José Manuel Delicado <jm.delicado@nvda.es>"
+msgstr "Kontakt: José Manuel Delicado <jm.delicado@nvda.es>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Touch Gestures"
+msgstr "Dodatne dodirne geste"
+
+#. type: Title ###
+#, no-wrap
+msgid "extendedWinamp"
+msgstr "Winamp proširenje"
+
+#. type: Bullet: '* '
+msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>, NVDA Add-ons Team"
+msgstr "Kontakt: Hrvoje Katić <hrvojekatic@gmail.com>, tim NVDA dodataka"
+
+#. type: Title ###
+#, no-wrap
+msgid "Focus Highlight"
+msgstr "Istakni fokus"
+
+#. type: Bullet: '* '
+msgid "Contact: Takuya Nishimoto <nishimotz@gmail.com>"
+msgstr "Kontakt: Takuya Nishimoto <nishimotz@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Golden Cursor"
+msgstr "Zlatni kursor"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph."
+"lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+msgstr ""
+"Kontakt: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph."
+"lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "GoldWave"
+msgstr "GoldWave"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn <xkill85@gmx."
+"net>, Mesar Hameed <mhameed@src.gnome.org>"
+msgstr ""
+"Kontakt: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn <xkill85@gmx."
+"net>, Mesar Hameed <mhameed@src.gnome.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Image Describer"
+msgstr "Opisivanje slika"
+
+#. type: Bullet: '* '
+msgid ""
+"Issues: attempting to import a module that no longer exists in Python 3, out "
+"of date compatibility information (last compatible: 2019.1)"
+msgstr ""
+"Problemi: pokušaj uvoza modula koji više ne postoji u Pythonu 3, zastarjeli "
+"podaci o kompatibilnosti (zadnja kompatibilnost: 2019.1)"
+
+#. type: Bullet: '* '
+msgid "Contact: Oliver Edholm <oliver.edholm@gmail.com>"
+msgstr "Kontakt: Oliver Edholm <oliver.edholm@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "IndentNav"
+msgstr "Kretanje po uvlakama"
+
+#. type: Title ###
+#, no-wrap
+msgid "Input Lock"
+msgstr "Zaključaj ulazne uređaje"
+
+#. type: Title ###
+#, no-wrap
+msgid "Lambda Add-On for NVDA"
+msgstr "Lambda dodatak za NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Zanella, Ivan Novegil"
+msgstr "Kontakt: Alberto Zanella, Ivan Novegil"
+
+#. type: Title ###
+#, no-wrap
+msgid "Mozilla Apps Enhancements"
+msgstr "Proširenja u Mozillinim aplikacijama"
+
+#. type: Title ###
+#, no-wrap
+msgid "mp3DirectCut"
+msgstr "mp3DirectCut"
+
+#. type: Bullet: '* '
+msgid "Contact: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+msgstr "Kontakt: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+
+#. type: Title ###
+#, no-wrap
+msgid "Newfon"
+msgstr "Newfon"
+
+#. type: Bullet: '* '
+msgid "Issues: no compatibility information"
+msgstr "Problemi: nema podataka o kompatibilnosti"
+
+#. type: Bullet: '* '
+msgid "Contact: Sergey Shishmintzev"
+msgstr "Kontakt: Sergey Shishmintzev"
+
+#. type: Title ###
+#, no-wrap
+msgid "NoBeepsSpeechMode"
+msgstr "Modus govora bez zvučnih signala"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Buffolino <a.buffolino@gmail.com>"
+msgstr "Kontakt: Alberto Buffolino <a.buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Notepad++"
+msgstr "Notepad++"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Remote Support"
+msgstr "Podrška za daljinski NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum."
+"net>"
+msgstr ""
+"Kontakt: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum."
+"net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Object Location Tones"
+msgstr "Zvukovi za lociranje objekata"
+
+#. type: Title ###
+#, no-wrap
+msgid "ObjPad"
+msgstr "Upravljanje strelicama"
+
+#. type: Title ###
+#, no-wrap
+msgid "OCR"
+msgstr "OCR"
+
+#. type: Bullet: '* '
+msgid "Contact: NV Access <info@nvaccess.org>"
+msgstr "Kontakt: NV Access <info@nvaccess.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Outlook Extended"
+msgstr "Prošireni Outlook"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf Kefferpuetz "
+"<ralf.kefferpuetz@elra-consulting.de>"
+msgstr ""
+"Kontakt: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf Kefferpuetz "
+"<ralf.kefferpuetz@elra-consulting.de>"
+
+#. type: Title ###
+#, no-wrap
+msgid "placeMarkers"
+msgstr "Oznake pozicija"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>"
+msgstr ""
+"Kontakt: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Read Feeds"
+msgstr "Čitaj feedove"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src."
+"gnome.org>"
+msgstr ""
+"Kontakt: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src."
+"gnome.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Report Symbols"
+msgstr "Izvijesti o znakovima"
+
+#. type: Title ###
+#, no-wrap
+msgid "Resource Monitor"
+msgstr "Prati stanje resursa"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alex Hall <mehgcap@gmail.com>, Joseph Lee <joseph.lee22590@gmail."
+"com>, beqa gozalishvili <beqaprogger@gmail.com>, Tuukka Ojala <tuukka."
+"ojala@gmail.com>, Ethin Probst <harlydavidsen@gmail.com> and other NVDA "
+"contributors"
+msgstr ""
+"Kontakt: Alex Hall <mehgcap@gmail.com>, Joseph Lee <joseph.lee22590@gmail."
+"com>, beqa gozalishvili <beqaprogger@gmail.com>, Tuukka Ojala <tuukka."
+"ojala@gmail.com>, Ethin Probst <harlydavidsen@gmail.com> i drugi NVDA "
+"doprinositelji"
+
+#. type: Title ###
+#, no-wrap
+msgid "Review Cursor Copier"
+msgstr "Kopiranje preglednog kursora"
+
+#. type: Bullet: '* '
+msgid "Contact: Tuukka Ojala <tuukka.ojala@gmail.com>"
+msgstr "Kontakt: Tuukka Ojala <tuukka.ojala@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "sayCurrentKeyboardLanguage"
+msgstr "Izgovori jezik trenutačne tipkovnice"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>"
+msgstr ""
+"Kontakt: Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "SentenceNav"
+msgstr "Kretanje po rečenicama"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speak Passwords"
+msgstr "Izgovori lozinke"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speech History"
+msgstr "Kronologija govora"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey, James Scholes"
+msgstr "Kontakt: Tyler Spivey, James Scholes"
+
+#. type: Title ###
+#, no-wrap
+msgid "Station Playlist"
+msgstr "Station Playlist"
+
+#. type: Bullet: '* '
+msgid "Contact: Geoff Shang, Joseph Lee and other contributors"
+msgstr "Kontakt: Geoff Shang, Joseph Lee i drugi doprinositelji"
+
+#. type: Title ###
+#, no-wrap
+msgid "Switch synth"
+msgstr "Zamjena govorne jedinice"
+
+#. type: Title ###
+#, no-wrap
+msgid "systrayList"
+msgstr "Popis programske trake"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista "
+"<ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, NVDA "
+"Community Contributors"
+msgstr ""
+"Kontakt: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista "
+"<ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, "
+"doprinositelji NVDA zajednice"
+
+#. type: Title ###
+#, no-wrap
+msgid "TeamTalk Classic"
+msgstr "TeamTalk Classic"
+
+#. type: Bullet: '* '
+msgid ""
+"Issues: missing modules due to syntax errors, no compatibility information"
+msgstr ""
+"Problemi: nedostaju moduli zbog sintaktičke greške, nema podataka o "
+"kompatibilnosti"
+
+#. type: Bullet: '* '
+msgid "Contact: Doug Lee with initial work by Tyler Spivey and others"
+msgstr "Kontakt: Doug Lee s izvornim radom od Tyler Spivey i drugi"
+
+#. type: Title ###
+#, no-wrap
+msgid "Text Information"
+msgstr "Informacije o tekstu"
+
+#. type: Bullet: '* '
+msgid "Contact: Carter Temm <crtbraille@gmail.com>"
+msgstr "Kontakt: Carter Temm <crtbraille@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "TextNav"
+msgstr "Kretanje po tekstu"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tip of the Day"
+msgstr "Savjet dana"
+
+#. type: Bullet: '* '
+msgid "Compatible: Planned"
+msgstr "Kompatibilno: Planirano"
+
+#. type: Title ###
+#, no-wrap
+msgid "ToolbarsExplorer"
+msgstr "Istraživanje alatnih traka"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tone Master"
+msgstr "Tone Master"
+
+#. type: Bullet: '* '
+msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>"
+msgstr "Kontakt: Hrvoje Katić <hrvojekatic@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "UnicodeBrailleInput"
+msgstr "Unos brajice u unikod formatu"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA <patrick@zajda."
+"fr>, Leonard de Ruijter (Babbage B.V.) <leonard@babbage.com>"
+msgstr ""
+"Kontakt: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA <patrick@zajda."
+"fr>, Leonard de Ruijter (Babbage B.V.) <leonard@babbage.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Virtual Review"
+msgstr "Virtualni pregled"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Batista <ruiandrebatista@gmail.com> and NVDA Addon Team"
+msgstr "Kontakt: Rui Batista <ruiandrebatista@gmail.com> i tim NVDA dodataka"
+
+#. type: Title ###
+#, no-wrap
+msgid "VLC Media Player"
+msgstr "VLC Media Player"
+
+#. type: Title ###
+#, no-wrap
+msgid "Weather Plus"
+msgstr "Vremenska prognoza plus"
+
+#. type: Bullet: '* '
+msgid "Contact: Adriano Barbieri <adrianobarb@yahoo.it>"
+msgstr "Kontakt: Adriano Barbieri <adrianobarb@yahoo.it>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Windows 10 App Essentials"
+msgstr "Osnovni dodaci za Windows 10 aplikacije"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer <driemer."
+"riemer@gmail.com> and others"
+msgstr ""
+"Kontakt: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer <driemer."
+"riemer@gmail.com> i drugi"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announcements]]\n"
+msgstr "[[!tag announcements]]\n"
+
+#~ msgid ""
+#~ "Issues: out of date compatibility information (last compatible: 2019.1)"
+#~ msgstr ""
+#~ "Problemi: zastarjeli podaci o kompatibilnosti (zadnja kompatibilnost: "
+#~ "2019.1)"
+
+#~ msgid ""
+#~ "Issues: synthesizer level changes required, no compatibility information"
+#~ msgstr ""
+#~ "Problemi: potrebne su promjene na razini govorne jedinice, nema podataka "
+#~ "o kompatibilnosti"
+
+#~ msgid ""
+#~ "Issues: Attribute errors, out of date compatibility information (last "
+#~ "compatible: 2019.1)"
+#~ msgstr ""
+#~ "Problemi: greške u svojstvima, zastarjeli podaci o kompatibilnosti "
+#~ "(zadnja kompatibilnost: 2019.1)"
+
+#~ msgid ""
+#~ "Issues: out of date compatibility information (last compatible: 2019.2)"
+#~ msgstr ""
+#~ "Problemi: zastarjeli podaci o kompatibilnosti (zadnja kompatibilnost: "
+#~ "2019.2)"
+
+#~ msgid "Issues: Missing modules due to syntax errors"
+#~ msgstr "Problemi: nedostaju moduli zbog sintaktičke greške"
+
+#~ msgid "Issues: Attribute errors"
+#~ msgstr "Problemi: Greške u atributima"
+
+#~ msgid "Issues: missing module due to syntax errors"
+#~ msgstr "Problemi: nedostaje modul zbog sintaktičke greške"

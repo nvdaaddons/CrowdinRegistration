@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2020-12-28 13:00+0100\n"
+"Last-Translator: Fabrizio Marini <marini.carlo@fastwebnet.it>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Mozilla Apps Enhancements\"]]\n"
+msgstr "[[!meta title=\"Mozilla Apps Enhancements\"]]\n"
+
+#. type: Bullet: '*   '
+msgid "Author: Javi Dominguez"
+msgstr "Autore: Javi Dominguez"
+
+#. type: Bullet: '*   '
+msgid "download [stable version][1]"
+msgstr "Scarica la [versione stabile][1]"
+
+#. type: Plain text
+msgid "This add-on provides NVDA enhancements for Mozilla aps."
+msgstr ""
+"Questo componente aggiuntivo fornisce miglioramenti per le applicazioni "
+"sviluppate da  Mozilla Foundation."
+
+#. type: Title ##
+#, no-wrap
+msgid "Firefox"
+msgstr "Firefox"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+A (desktop) or NVDA+Control+A (laptop) Reads the page address. If "
+"pressed twice quickly, copies it to clipboard."
+msgstr ""
+"NVDA+A (desktop) o NVDA+Control+A (laptop) Legge l'indirizzo della pagina. "
+"Se premuto due volte lo copia negli appunti."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+End (desktop) or NVDA+Shift+End (laptop) Reads the status bar. If "
+"pressed twice quickly, copies it to clipboard."
+msgstr ""
+"NVDA+Fine (desktop) o NVDA+Shift+Fine (laptop) Legge la barra di stato. Se "
+"premuto due volte la copia negli appunti."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+F8 Shows a list of opened tabs. If pressed twice quickly, shows buttons "
+"of tool bar."
+msgstr ""
+"NVDA+F8 Mostra un elenco delle schede aperte. Se premuto due volte in rapida "
+"successione, mostra i pulsanti della barra degli strumenti."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Control+N Reads the last notification and it takes the system focus to "
+"it if it is possible. By pressing two times quickly shows the history of "
+"notifications."
+msgstr ""
+"NVDA+Control+N Legge l'ultima notifica e se possibile vi posiziona il focus. "
+"Una doppia pressione visualizzerà lo storico delle notifiche ricevute."
+
+#. type: Bullet: '* '
+msgid "NVDA+F6 Brings the focus to the document."
+msgstr "NVDA+F6 Porta il focus sul documento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "* In a message window:\n"
+#| "\t* Control+Shift+(1-4) Reads the sender and recipients of the message. If pressed twice quickly, opens the options menu.\n"
+#| "\t* Control+Shift+5 Reads the subject of the message.\n"
+#| "\t* Control+Shift+6 Reads date of the message.\n"
+#| "\t* Control+Shift+A Brings the focus to the list of attachments, if any.\n"
+#| "(These scripts are also available in the list of messages if you activate the preview pane.)\n"
+#| "* In the bar of fast filtering:\n"
+#| "\t* Press down Arrow to display more options, enter to check/unchek the selected option.\n"
+#| "* In messages list:\n"
+#| "\t* If the preview pane is active, press NVDA+downArrow (desktop) or NVDA+A (laptop) to read the message without leaving the list.\n"
+#| "\t* Control+NVDA+1-9 moves between columns.\n"
+#| "\t* NVDA+H Displays a dialog in which you can change the order of the columns in the message list.\n"
+msgid ""
+"* In a message window:\n"
+"\t* Control+Shift+(1-4) Reads the sender and recipients of the message. If pressed twice quickly, opens the options menu.\n"
+"\t* Control+Shift+5 Reads the subject of the message.\n"
+"\t* Control+Shift+6 Reads date of the message.\n"
+"\t* Control+Shift+A Brings the focus to the list of attachments, if any.\n"
+"(These scripts are also available in the list of messages if you activate the preview pane.)\n"
+"* In the bar of fast filtering:\n"
+"\t* Press down Arrow to display more options, enter to check/unchek the selected option.\n"
+"* In messages list:\n"
+"\t* If the preview pane is active, press NVDA+downArrow (desktop) or NVDA+A (laptop) to read the message without leaving the list.\n"
+"\t* Control+NVDA+1-9 moves between columns.\n"
+"\t* NVDA+H Displays a dialog in which you can change the order of the columns in the message list.\n"
+msgstr ""
+"* Nella finestra di un messaggio:\n"
+"\t* Control+Shift+(1-4) Legge il mittente e i destinatari del messaggio. Se premuto due volte in rapida successione, apre il menu opzioni.\n"
+"\t* Control+Shift+5 Legge l'oggetto del messaggio.\n"
+"\t* Control+Shift+6 Legge la data del messaggio.\n"
+"\t* Control+Shift+A Sposta il focus nell'elenco allegati, se ne esistono.\n"
+"\t* Questi script sono disponibili anche nell'elenco dei messaggi, se si attiva il riquadro di anteprima.\n"
+"* Nella barra filtro veloce:\n"
+"\t* Premere la Freccia giù per visualizzare altre opzioni, invio per attivare/disattivare l'opzione selezionata.\n"
+"* Nell'elenco messaggi:\n"
+"\t* Se il riquadro di anteprima è attivo,  premere NVDA+frecciaGiù (desktop) o NVDA+A (laptop) per leggere il messaggio senza aprirlo e senza spostarsi dall'elenco.\n"
+"\t* Control+NVDA+1-9 Si sposta tra le colonne.\n"
+"\t* NVDA+H Visualizza una finestra di dialogo nella quale è possibile modificare l'ordine delle colonne nell'elenco messaggi.\n"
+"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "Keystrokes can be customized in  Preferences  of NVDA > Input gestures when Firefox or Thunderbird are open.\n"
+msgstr "Tutti i tasti rapidi possono essere personalizzati dal menu preferenze di NVDA > Gesti e tasti di immissione, quando Firefox o Thunderbird sono aperti.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=moz"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=moz"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=moz"

@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2020-05-10 12:53+0200\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Enhanced Aria\"]]\n"
+msgstr "[[!meta title=\"Enhanced Aria\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Jose Manuel Delicado"
+msgstr "Autore: Jose Manuel Delicado"
+
+#. type: Bullet: '* '
+msgid "Legacy add-on: NVDA 2019.3 and later can read articles on the web"
+msgstr ""
+"Add-on non più necessario. NVDA 2019.3 e le versioni successive sono in "
+"grado di leggere gli articoli nelle pagine web"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.4 to 2019.2"
+msgstr "Compatibilità con NVDA: dalla versione 2017.4 alla 2019.2"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Scarica la [versione stabile][1]"
+
+#. type: Plain text
+msgid ""
+"This addon allows you to customize which aria landmarks are reported by NVDA "
+"when you browse the Internet."
+msgstr ""
+"Questo componente aggiuntivo consente di personalizzare quali punti di "
+"riferimento ARIA NVDA debba annunciare quando si naviga in Internet."
+
+#. type: Plain text
+msgid ""
+"Its functionality is very simple. Once installed, open your webbrowser and "
+"visit the web as usual. The default aria landmarks reported by Firefox and "
+"Chrome will also be visible in Internet Explorer, so you will be able to "
+"press quick navigation keys to jump between them, and list them by pressing "
+"NVDA+f7 in all browsers. Read the NVDA User Guide for more information."
+msgstr ""
+"Le sue funzioni sono molto semplici. Una volta installato, aprire il browser "
+"e navigare come al solito. I landmark ARIA di default mostrati in Google "
+"Chrome e Firefox verranno mostrate anche in Internet Explorer; sarà pertanto "
+"possibile passare da una all'altra come sempre con i tasti di navigazione "
+"veloce, e usare NVDA-f7 per visualizzarle tutte in un elenco. Per maggiori "
+"informazioni su queste funzioni native di NVDA consultare il manuale "
+"dell'utente."
+
+#. type: Plain text
+msgid ""
+"The addon adds an extra landmark not included by default in NVDA, the "
+"article (abbreviated in Braille as art)."
+msgstr ""
+"Il componente aggiunge un nuovo tipo di punto di riferimento, non incluso in "
+"NVDA, chiamato Articolo, (abbreviato in braille art)."
+
+#. type: Title ##
+#, no-wrap
+msgid "The configuration dialog"
+msgstr "La finestra di configurazione"
+
+#. type: Plain text
+msgid ""
+"You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
+"Aria Settings or from the appropriate category in the NVDA options dialog. "
+"The dialog has a checkbox for each landmark. If you disable a landmark, you "
+"won't be able to jump to it pressing the d key when browsing a webpage, and "
+"NVDA won't report it."
+msgstr ""
+"Puoi attivare o disattivare i punti di riferimento andando nel menu di NVDA -"
+"> preferenze->  Enhanced Aria Settings, o dalle impostazioni di NVDA nella "
+"relativa categoria. Nella finestra esiste una casella di controllo per "
+"ciascun punto di riferimento. Se si disattiva uno di questi, non sarà "
+"possibile utilizzare il tasto \"D\" per raggiungerlo quando si naviga in una "
+"pagina web e NVDA non lo leggerà più come tale."
+
+#. type: Title ##
+#, no-wrap
+msgid "Contact info"
+msgstr "Informazioni di contatto"
+
+#. type: Plain text
+msgid ""
+"This addon has been developed by Jose Manuel Delicado. If you want to "
+"contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
+"GitHub at https://github.com/jmdaweb/enhancedAria"
+msgstr ""
+"Questo componente è stato sviluppato da Jose Manuel Delicado. Per contatti è "
+"possibile inviare un'email a jmdaweb@hotmail.com, o aprire una segnalazione "
+"su GitHub su https://github.com/jmdaweb/enhancedAria"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changelog"
+msgstr "Cambiamenti"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.8"
+msgstr "Versione 2.8"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Traduzioni nuove e aggiornate"
+
+#. type: Bullet: '* '
+msgid "Updated NVDA compatibility flags."
+msgstr "Aggiunti i flag di compatibilità di NVDA."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.7"
+msgstr "Versione 2.7"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility flags for recent NVDA versions."
+msgstr "Aggiunta la compatibilità con le recenti versioni di NVDA. "
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.6"
+msgstr "Versione 2.6"
+
+#. type: Bullet: '* '
+msgid ""
+"Updated compatibility flags for recent NVDA versions. This version is only "
+"compatible with NVDA 2017.4 and above."
+msgstr ""
+"Aggiunta la compatibilità con le recenti versioni di NVDA. Questa versione è "
+"compatibile solo con NVDA 2017.4 o superiori."
+
+#. type: Bullet: '* '
+msgid ""
+"Now, the configuration is automatically applied after switching NVDA "
+"profiles and restoring settings to factory defaults."
+msgstr ""
+"Ora, la configurazione viene automaticamente applicata dopo aver cambiato i "
+"profili NVDA e ripristinato le impostazioni predefinite di fabbrica."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.5"
+msgstr "Versione 2.5"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.4"
+msgstr "Versione 2.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Now, settings are removed only when the add-on is uninstalled. Configuration "
+"is nolonger reset when upgrading."
+msgstr ""
+"Ora, le impostazioni vengono rimosse solo quando viene disinstallato il "
+"componente aggiuntivo. La configurazione non viene più ripristinata durante "
+"l'aggiornamento."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.3"
+msgstr "Versione 2.3"
+
+#. type: Bullet: '* '
+msgid "Added compatibility with recent NVDA releases."
+msgstr "Aggiunta la compatibilità con le recenti versioni di NVDA. "
+
+#. type: Bullet: '* '
+msgid "New translations."
+msgstr "Nuove traduzioni. "
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.2"
+msgstr "Versione 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a fatal error when a Braille display was used and the article role was "
+"configured to be reported."
+msgstr ""
+"Corretto un errore critico che si verificava quando veniva utilizzato un "
+"display Braille e la lettura del ruolo \"articolo\" era attivata."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.1"
+msgstr "Versione 2.1"
+
+#. type: Bullet: '* '
+msgid "Stability improvements"
+msgstr "Miglioramenti alla stabilità "
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.0"
+msgstr "Versione 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added support for multi-category settings dialog available on NVDA 2018.2 "
+"and later"
+msgstr ""
+"Aggiunto il supporto per la finestra impostazioni multiCategoria, "
+"disponibile da NVDA 2018.2 e successive"
+
+#. type: Bullet: '* '
+msgid "Added Python 3 compatibility"
+msgstr "Aggiunta compatibilità con Python 3"
+
+#. type: Bullet: '* '
+msgid "Now guiHelper module is used to create the addon interface"
+msgstr ""
+"Viene ora usato il modulo guiHelper per creare l'interfaccia utente del "
+"componente"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "Versione 1.3"
+
+#. type: Bullet: '* '
+msgid "Added configobj specification for addon settings"
+msgstr "Aggiunte specifiche configobj per le impostazioni del componente"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Versione 1.2"
+
+#. type: Bullet: '* '
+msgid "Bugs fixed"
+msgstr "Corretti bug vari"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Versione 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed issues which prevented opening the addon settings dialog when "
+"reverting to NVDA saved configuration"
+msgstr ""
+"Corretti bug che impedivano l'apertura della finestra impostazioni "
+"dell'addon, dopo che la configurazione di NVDA è stata ripristinata"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable legacy]]\n"
+msgstr "[[!tag dev stable legacy]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=earia"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=earia"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=earia"

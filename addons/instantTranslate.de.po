@@ -1,0 +1,488 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-05-10 21:28+0000\n"
+"PO-Revision-Date: 2023-05-07 05:36+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"instantTranslate\"]]\n"
+msgstr "[[!meta title=\"Sofortübersetzung\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino "
+"and other NVDA contributors."
+msgstr ""
+"Autoren: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino "
+"und andere NVDA-Entwickler."
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Stabile Version herunterladen][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "[Entwicklerversion herunterladen][2]"
+
+#. type: Plain text
+msgid ""
+"This add-on is used to translate selected and/or clipboard text from one "
+"language to another.  This is done using the Google Translate service."
+msgstr ""
+"Diese Erweiterung wird verwendet, um ausgewählten Text und/oder Text aus der "
+"Zwischenablage von einer Sprache in eine andere zu übersetzen. Dies "
+"geschieht über den Google-Dienst für Übersetzungen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuring languages"
+msgstr "Sprachen einstellen"
+
+#. type: Plain text
+#, no-wrap
+msgid "To configure source, target and in case swap language, go to: NVDA Menu >> Preferences >> Instant Translate Settings.\n"
+msgstr "Um die Quell-, Ziel- und ggf. Tauschsprache zu konfigurieren, gehen Sie zu: NVDA-Menü >> Einstellungen >> Einstellungen für die Sofortübersetzung.\n"
+
+#. type: Plain text
+msgid ""
+"There are two comboboxes labeled \"Source language\" and \"Target language"
+"\", and a checkbox to decide if it must copy the translation to clipboard."
+msgstr ""
+"Es gibt zwei Ausklapplisten mit den Bezeichnungen\"Quellsprache\" und"
+"\"Zielsprache\" und ein Kontrollkästchen, um zu entscheiden, ob die "
+"Übersetzung in die Zwischenablage kopiert werden soll."
+
+#. type: Plain text
+msgid ""
+"In addition, if you selected auto option (the first choice) from \"Source "
+"language\" combobox, there are also a combobox labeled \"Language for "
+"swapping\" and a checkbox about the auto-swap."
+msgstr ""
+"Zusätzlich, wenn Sie die Auto-Option (die erste Wahl) aus der \"Quellsprache"
+"\"-Ausklappliste ausgewählt haben, gibt es auch eine Ausklappliste mit der "
+"Bezeichnung\"Sprachentausch\" und ein Kontrollkästchen Automatischer Tausch."
+
+#. type: Plain text
+msgid ""
+"The meaning of two first comboboxes and checkbox for copy is clear, but some "
+"words about the rest are necessary. Remember always that the explanations "
+"below assume the source language set on the auto option."
+msgstr ""
+"Die Bedeutung der beiden ersten Ausklapplisten und des Kontrollfeldes für "
+"die Kopie ist klar, aber einige Worte über den Rest sind notwendig. Denken "
+"Sie immer daran, dass die folgenden Erklärungen die Quellsprache mit Auto-"
+"Option voraussetzen."
+
+#. type: Plain text
+msgid ""
+"The \"Language for swapping\" combobox is useful when you swap via script "
+"(see below) the source and target language; in fact, a target language set "
+"on the auto option has no sense, so the addon sets it to value of combobox "
+"above."
+msgstr ""
+"Die Ausklappliste \"Sprachentausch\" ist nützlich, wenn Sie per Skript "
+"(siehe unten) die Quell- und Zielsprache austauschen. Tatsächlich hat eine "
+"Zielsprache, die auf der Auto-Option eingestellt ist, keinen Sinn, also "
+"setzt die Erweiterung sie auf den Wert der obigen Ausklappliste."
+
+#. type: Plain text
+msgid ""
+"So, imagine this situation: you usually translate into English (your main "
+"language), but sometimes (for example, when you write a document) you need "
+"to translate into Italian (your second language, suppose); you can set "
+"\"Language for swapping\" combobox to Italian, so you will translate from "
+"English to Italian without accessing directly to the addon settings. "
+"Obviously this function has a major or minor utility according to your more "
+"frequent needs."
+msgstr ""
+"Stellen Sie sich diese Situation vor: Sie übersetzen normalerweise ins "
+"Englische (Ihre Hauptsprache). Manchmal (zum Beispiel, wenn Sie ein Dokument "
+"schreiben) müssen Sie ins Italienische übersetzen (Ihre zweite Sprache). "
+"Nehmen Sie an Sie könnten die \"Sprachentausch\"-Ausklappliste auf "
+"Italienisch einstellen, so dass Sie aus dem Englischen ins Italienische "
+"übersetzen ohne direkt auf die Erweiterungseinstellungen zuzugreifen. "
+"Offensichtlich hat diese Funktion einen höheren oder geringeren Nutzen, je "
+"nach Ihren individuellen Bedürfnissen."
+
+#. type: Plain text
+msgid ""
+"Now, the auto-swap checkbox: it appears if and only if you set the auto "
+"option in \"Source language\" combobox, and is directly connected with "
+"\"Language for swapping\" combobox. If you activate it, then the addon tries "
+"to commute automatically from your source and target configuration to a "
+"configuration where target becomes the source language, and language "
+"selected in \"Language for swapping\" combobox is the new target language; "
+"extremely useful if the source language of the text you want translate is "
+"the target language."
+msgstr ""
+"Das Auto-Tausch-Kontrollkästchen erscheint ausschließlich wenn Sie die Auto-"
+"Option in der Ausklappliste \"Quellsprache\" eingestellt haben. Das "
+"Kontrollkästchen ist direkt mit der Ausklappliste \"Sprachentausch\" "
+"verbunden. Wenn Sie es aktivieren, dann versucht die Erweiterung automatisch "
+"von Ihrer Quell- und Zielkonfiguration in eine Konfiguration umzuwandeln, "
+"bei der die Ziel- zur Quellsprache wird und die Sprache, die in der "
+"\"Sprachentausch\"-Ausklappliste ausgewählt wurde, Zielsprache wird. Dies "
+"ist äußerst nützlich, wenn die Quellsprache des zu übersetzenden Textes die "
+"Zielsprache ist."
+
+#. type: Plain text
+msgid ""
+"A simple example: take again in mind the situation imagined previously; if "
+"you translate a text in a language different from English, there is no "
+"problem, you get the correct translation in English. But if you need to "
+"translate a text from English, normally you get a translation into English "
+"identical to original text, and this is a bit useless. Thanks to auto-swap "
+"function, however, assuming that you want to know how your text sounds into "
+"Italian, the addon commutes automatically the target language to Italian, so "
+"it returns a valid translation."
+msgstr ""
+"Ein einfaches Beispiel: Denken Sie noch einmal an die Situation, die Sie "
+"sich vorher vorgestellt haben. Wenn Sie einen Text aus einer anderen Sprache "
+"als Englisch übersetzen, gibt es kein Problem. Sie erhalten die richtige "
+"Übersetzung ins Englische. Aber wenn Sie einen Text aus dem Englischen "
+"übersetzen müssen, erhalten Sie normalerweise eine Übersetzung ins "
+"Englische, die mit dem Originaltext identisch ist. Das ist ein Wenig "
+"nutzlos. Durch die Auto-Swap-Funktion geht die Erweiterung davon aus, dass "
+"Sie wissen wollen wie Ihr Text ins Italienische klingt. Die Funktion "
+"schaltet automatisch die Zielsprache ins Italienische um, so dass eine "
+"gültige Übersetzung ausgegeben wird."
+
+#. type: Plain text
+msgid ""
+"Anyway, this is a temporary configuration; if this option has no effect "
+"(it's experimental), try to commute manually to a stable configuration, "
+"using the gesture for swapping described below. It's experimental because in "
+"some situations (with short texts, typically), Google does not recognize the "
+"real source language correctly, and you have to swap languages manually via "
+"script, so to force the source language to be the previous target language "
+"(English in our example)."
+msgstr ""
+"Wie auch immer, dies ist eine temporäre Konfiguration; Wenn diese Option "
+"keine Wirkung hat (sie ist experimentell), versuchen Sie, manuell zu einer "
+"stabilen Konfiguration zu wechseln, indem Sie die unten beschriebene "
+"Tastenkombination zum Wechseln verwenden. Es ist experimentell, da Google in "
+"einigen Situationen (in der Regel bei kurzen Texten) die echte "
+"Ausgangssprache nicht richtig erkennt und Sie die Sprachen manuell per "
+"Skript austauschen müssen, um die Ausgangssprache als vorherige Zielsprache "
+"zu erzwingen (Englisch in unserem Beispiel)."
+
+#. type: Plain text
+#, no-wrap
+msgid "At least, in the speech settings parameters dialog (NVDA Menu >> Preferences >> Speech), you may want to check the \"Automatic language switching (when supported)\" option. This way, if you are using a multi-lingual synthesizer, the translation will be announced using the target language voice of the synthesizer.\n"
+msgstr "Zumindest im Dialogfeld mit den Sprach-Einstellungen (NVDA-Menü -> Einstellungen -> Sprache) möchten Sie vielleicht die Option \"Automatische Sprachumschaltung (wenn unterstützt)\" aktivieren. Wenn Sie einen mehrsprachigen Synthesizer verwenden, wird die Übersetzung auf diese Weise mit der zielsprachlichen Stimme der Sprachausgabe angesagt.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Using"
+msgstr "Verwendung"
+
+#. type: Plain text
+msgid "You can use this add-on in three ways:"
+msgstr "Sie können diese Erweiterung auf drei Arten verwenden:"
+
+#. type: Bullet: '1. '
+msgid ""
+"Select some text using selection commands (shift with arrow keys, for "
+"example) and press associated key to translate. translation result will be "
+"read with synthesizer which you are using."
+msgstr ""
+"Wählen Sie Text mit Tastenkombinationen zur Auswahl aus (z. B. Umschalten "
+"mit den Pfeiltasten) und drücken Sie zum Übersetzen die entsprechende Taste. "
+"Das Übersetzungsergebnis wird von der verwendeten Sprachausgabe mitgeteilt."
+
+#. type: Bullet: '2. '
+msgid "You can also translate text from the Clipboard."
+msgstr "Sie können auch den Text der Zwischenablage übersetzen lassen."
+
+#. type: Bullet: '3. '
+msgid "Press the dedicated shortcut key to translate the last spoken text."
+msgstr ""
+"Drücken Sie die entsprechende Tastenkombination, um den zuletzt gesprochenen "
+"Text zu übersetzen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcuts"
+msgstr "Tastenkürzel"
+
+#. type: Plain text
+msgid ""
+"All following commands must be pressed after modifier key \"NVDA+Shift+t\":"
+msgstr ""
+"Alle folgenden Befehle müssen nach der zuvor gedrückten Modifikationstaste "
+"\"NVDA+Shift+t\" gedrückt werden:"
+
+#. type: Bullet: '* '
+msgid "T: Translate selected text,"
+msgstr "T: Markierten Text übersetzen,"
+
+#. type: Bullet: '* '
+msgid "Shift+t: translate text from the Clipboard,"
+msgstr "Umschalt+t: Text aus der Zwischenablage übersetzen,"
+
+#. type: Bullet: '* '
+msgid "S: swap source and target languages,"
+msgstr "S: tausche Ausgangs- und Zielsprache,"
+
+#. type: Bullet: '* '
+msgid "A: announce current configuration,"
+msgstr "A: aktuelle Konfiguration ansagen,"
+
+#. type: Bullet: '* '
+msgid "C: copy last result to clipboard,"
+msgstr "C: kopiere letztes Ergebnis in die Zwischenablage,"
+
+#. type: Bullet: '* '
+msgid "I: identify the language of selected text,"
+msgstr "I: die Sprache des markierten Texts ermitteln,"
+
+#. type: Bullet: '* '
+msgid "L: translate the last spoken text,"
+msgstr "L: Den zuletzt vorgelesenen Text übersetzen,"
+
+#. type: Bullet: '* '
+msgid "O: open translation settings dialog"
+msgstr "O: Einstellungen für die Übersetzungen öffnen"
+
+#. type: Bullet: '* '
+msgid "H: announces all available layered commands."
+msgstr "H: Nennt alle verfügbaren Tastenbefehle."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.4.3"
+msgstr "Änderungen in 4.4.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to replace underscores with spaces, may provide better "
+"translation results depending on context (thanks to Beka Gozalishvili)"
+msgstr ""
+"Es wurde die Möglichkeit hinzugefügt, Unterstriche durch Leerzeichen zu "
+"ersetzen, was je nach Kontext zu besseren Übersetzungsergebnissen führen "
+"kann (Dank an Beka Gozalishvili)"
+
+#. type: Bullet: '* '
+msgid "Added compatibility for NVDA 2022.1"
+msgstr "Kompatibilität für NVDA 2022.1 hinzugefügt"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.4.2"
+msgstr "Änderungen in 4.4.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Restore language detection and auto-swapping (Thanks to Cyrille for fix)"
+msgstr ""
+"Stellt die Spracherkennung und den automatischen Austausch wieder her (Danke "
+"an Cyrille für die Korrektur)"
+
+#. type: Bullet: '* '
+msgid "updated languages for translation (thanks to Cyrille)"
+msgstr "aktualisierte Sprachen für die Übersetzung (Dank an Cyrille)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.4"
+msgstr "Änderungen in 4.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Instant translate is now compatible with NVDA 2019.3 (Python 3 versions of "
+"NVDA)"
+msgstr "Instant Translate ist jetzt mit neueren NVDA (Python 3) kompatibel."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.3"
+msgstr "Änderungen in 4.3"
+
+#. type: Bullet: '* '
+msgid ""
+"nvda compatibility fix Now instant translate will be compatible with latest "
+"nvda builds."
+msgstr "Instant Translate ist mit den neuesten NVDA-Builds kompatibel."
+
+#. type: Bullet: '* '
+msgid "found a way to use google as a translation service again."
+msgstr "einen Weg gefunden, Google wieder als Übersetzungsdienst zu nutzen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.2"
+msgstr "Änderungen in 4.2"
+
+#. type: Bullet: '* '
+msgid "Restored working state with newer versions of nvda."
+msgstr "Betriebszustand mit neueren Versionen von NVDA wiederhergestellt."
+
+#. type: Bullet: '* '
+msgid "Restored automatic language detection."
+msgstr "Automatische Spracherkennung wiederhergestellt."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.1"
+msgstr "Änderungen in 4.1"
+
+#. type: Bullet: '* '
+msgid ""
+"InstantTranslate is working again, now with Yandex translator service "
+"instead of Google."
+msgstr ""
+"Sofortübersetzung funktioniert wieder, jetzt jedoch mit Yandex-Übersetzer "
+"statt mit Google."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Änderungen in 4.0"
+
+#. type: Bullet: '* '
+msgid "Translation is automatically performed after swapping."
+msgstr ""
+"Übersetzungsergebnisse  werden nun automatisch in die Zwischenablage "
+"kopiert, um diese weiter verwenden zu können."
+
+#. type: Bullet: '* '
+msgid "Cache bug fixed."
+msgstr "Cache-Problem behoben."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Änderungen in 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Change way how Shortcuts are used, now you can press instantTranslate "
+"modifier key \"NVDA+Shift+t\", and then single letter key to perform some "
+"action (see all Commands in the \"Shortcuts\" section)."
+msgstr ""
+"Ändert die Art und Weise, wie Shortcuts verwendet werden. Jetzt können Sie "
+"die Änderungstasten der Sofortübersetzung (NVDA+Shift+t) drücken und dann "
+"einen Buchstaben, um eine Aktion auszuführen (siehe alle Befehle im Abschnitt"
+"\"Tastenbefehle\")."
+
+#. type: Bullet: '* '
+msgid "Implemented swapping languages."
+msgstr "Sprachen vertauschen implementiert."
+
+#. type: Bullet: '* '
+msgid ""
+"Changed configuration format, now we can change instant translate settings "
+"if we are in readonly pane, but remember that this will work before first "
+"restart of NVDA."
+msgstr ""
+"Geändertes Einstellungsformat, jetzt können Sie die Einstellungen für die "
+"Sofortübersetzung ändern, wenn Sie sich im Nur-Lesen-Fenster befinden. Dies "
+"wird nur vor dem ersten Neustart von NVDA funktionieren."
+
+#. type: Bullet: '* '
+msgid "Removed limit on amount of text that can be translated."
+msgstr ""
+"Die Begrenzung der Textmenge, die übersetzt werden kann, wurde entfernt."
+
+#. type: Bullet: '* '
+msgid "Added shortcut t to the Instant Translate Settings menu item"
+msgstr ""
+"Tastenkürzel T zum Menüpunkt für die Einstellungen von Sofortübersetzung "
+"hinzugefügt"
+
+#. type: Bullet: '* '
+msgid ""
+"The auto option is now in first position in source combo, and absent in "
+"target combo."
+msgstr ""
+"Die Auto-Option befindet sich jetzt an erster Stelle in der Quellkombination "
+"und fehlt in der Zielkombination."
+
+#. type: Bullet: '* '
+msgid "Added a checkbox for configuring copying translation results."
+msgstr ""
+"Option hinzugefügt, um festzulegen, ob das Resultat der Übersetzung kopiert "
+"werden soll."
+
+#. type: Bullet: '* '
+msgid "Store config file in the root of settings folder."
+msgstr "Konfigurationsdatei wird im Einstellungsverzeichnis gespeichert."
+
+#. type: Bullet: '* '
+msgid ""
+"Source and target languages syncronized with what Google Translate currently "
+"exposes (22 Apr 2015)."
+msgstr ""
+"Ausgangs- und Zielsprache mit Google-Translate-Vorschlägen synchronisiert "
+"( 22. April 2015 )."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Änderungen in 2.1"
+
+#. type: Bullet: '* '
+msgid "Now addon can translate text from clipboard when pressing nvda+shift+y."
+msgstr ""
+"Die Erweiterung übersetzt nun den Text aus der Zwischenablage mittels NVDA+Y."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Änderungen in 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added gui configurator where you can choose source and target languages."
+msgstr "Einstellungsdialog zur Wahl der Ein- und Ausgabesprache hinzugefügt."
+
+#. type: Bullet: '* '
+msgid "Added addon menu item found under preferences menu."
+msgstr "Menü für die Erweiterung im Einstellungen-Menü hinzugefügt."
+
+#. type: Bullet: '* '
+msgid "Settings now is written in separate config file."
+msgstr "Einstellungen werden in eine separate Datei geschrieben."
+
+#. type: Bullet: '* '
+msgid ""
+"Translation results now automatically copies into the clipboard for future "
+"manipulations."
+msgstr ""
+"Übersetzungsergebnisse  werden nun automatisch in die Zwischenablage "
+"kopiert, um diese weiter verwenden zu können."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Änderungen in 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Erste Version."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=instantTranslate"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=instantTranslate"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=it-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=it-dev"

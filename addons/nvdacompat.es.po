@@ -1,0 +1,1156 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:37+0000\n"
+"PO-Revision-Date: 2024-02-13 17:42+0100\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Add-ons and backwards incompatible NVDA releases\"]]\n"
+msgstr "[[!meta title=\"Complementos y versiones de NVDA que rompen la compatibilidad\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Note: this document is based on an older \"NVDA add-ons and Python 3\" document, which is also "
+"available for historical reasons."
+msgstr ""
+"Nota: este documento está basado en un documento anterior llamado \"Complementos de NVDA y Python "
+"3\", que también se encuentra disponible por motivos históricos."
+
+#. type: Plain text
+msgid ""
+"This page aims to document add-ons compatible with latest backwards incompatible version of NVDA, "
+"as well as highlighting their status regarding their availability on this website."
+msgstr ""
+"Esta página pretende documentar los complementos compatibles con la versión incompatible más "
+"reciente de NVDA, así como resaltar su estado respecto a su disponibilidad en este sitio web."
+
+#. type: Title ##
+#, no-wrap
+msgid "What you need to know about backwards incompatible NVDA releases and add-ons"
+msgstr "Lo que necesitas saber sobre versiones incompatibles hacia atrás de NVDA y los complementos"
+
+#. type: Plain text
+msgid ""
+"Once a year, NV Access may publish a backwards incompatible NVDA release, typically the first "
+"major release (year.1). Here, \"backwards incompatible\" refers to NVDA releases that make add-"
+"ons incompatible due to API changes. When this happens, authors must test their add-ons for "
+"compatibility and release updates accordingly."
+msgstr ""
+"Una vez al año, NV Access puede publicar una versión de NVDA incompatible hacia atrás "
+"(normalmente, año.1). Aquí, \"incompatible hacia atrás\" hace referencia a versiones de NVDA que "
+"hacen que los complementos sean incompatibles por cambios en la API. Cuando esto sucede, los "
+"autores deben probar sus complementos para realizar actualizaciones de versión y compatibilidad "
+"según corresponda."
+
+#. type: Plain text
+msgid "As mentioned in the NVDA's user guide:"
+msgstr "Tal y como se menciona en la guía de usuario de NVDA:"
+
+#. type: Plain text
+msgid ""
+"The Incompatible Add-ons Manager, which can be accessed via the \"view incompatible add-ons\" "
+"button in the Add-on manager, allows you to inspect any incompatible add-ons, and the reason they "
+"are considered incompatible. Add-ons are considered incompatible when they have not been updated "
+"to work with significant changes to NVDA, or when they rely on a feature not available in the "
+"version of NVDA you are using. The Incompatible add-ons manager has a short message to explain "
+"its purpose as well as the version of NVDA."
+msgstr ""
+"El Administrador de Complementos Incompatibles, al que se puede acceder a través de los botones "
+"\"ver complementos incompatibles\" en el Administrador de Complementos, te permite inspeccionar "
+"cualquier complemento incompatible y la razón por la que se consideran incompatibles. Los "
+"complementos se consideran incompatibles cuando no han sido actualizados para funcionar con "
+"cambios significativos de NVDA, o cuando se basan en una característica no disponible en la "
+"versión de NVDA que estás utilizando. El Administrador de Complementos Incompatibles tiene un "
+"mensaje breve para explicar su propósito así como la versión de NVDA."
+
+#. type: Plain text
+msgid ""
+"The Incompatible add-ons manager also has an \"About add-on...\" button. This dialog will provide "
+"you with the full details of the add-on, which is helpful when contacting the add-on author."
+msgstr ""
+"El Administrador de Complementos Incompatibles también tiene un botón \"Acerca del complemento..."
+"\". Esto abre lo que te permitirá conocer todos los detalles del complemento, lo cual es de ayuda "
+"cuando contactes con el autor del complemento."
+
+#. type: Title ###
+#, no-wrap
+msgid "Key changes in backwards incompatible NVDA releases"
+msgstr "Cambios clave en versiones de NVDA incompatibles hacia atrás"
+
+#. type: Plain text
+msgid "Below is a list of backwards incompatible NVDA releases and key changes in each:"
+msgstr ""
+"A continuación se encuentra una lista de versiones de NVDA incompatibles hacia atrás y cambios "
+"clave de cada una:"
+
+#. type: Bullet: '* '
+msgid "2019.3: Python 2 to 3, speech refactor"
+msgstr "2019.3: se pasa de Python 2 a 3, refactorización del habla"
+
+#. type: Bullet: '* '
+msgid "2021.1: code refactoring, wxPython 4.1.1"
+msgstr "2021.1: refactorización del código, wxPython 4.1.1"
+
+#. type: Bullet: '* '
+msgid "2022.1: control types refactor"
+msgstr "2022.1: refactorización de controlTypes"
+
+#. type: Bullet: '* '
+msgid "2023.1 (current): security and speech changes"
+msgstr "2023.1 (actual): cambios en el habla y la seguridad"
+
+#. type: Plain text
+msgid ""
+"Note to add-on authors: when backwards incompatible NVDA release enters beta testing phase (with "
+"the release of beta 1), be sure to test your add-ons and report your next steps, including update "
+"plans and release announcements to NVDA community through various channels (add-ons list, users "
+"list, Facebook, Twitter, etc.). Also, send a pull request against nvaccess/addon-datastore repo "
+"on GitHub so that updated add-ons can be posted on this website."
+msgstr ""
+"Nota para autores de complementos: cuando la versión incompatible hacia atrás de NVDA entra en "
+"fase de pruebas beta (con la liberación de la beta 1), asegúrate de probar tus complementos e "
+"informar de tus próximos pasos, incluyendo planes de actualización y anuncio de nuevas versiones "
+"a la comunidad de NVDA mediante diversos canales (lista de complementos, lista de usuarios, "
+"Facebook, Twitter, etc.). Envía también una solicitud de cambios al repositorio nvaccess/addon-"
+"datastore en GitHub para que los complementos actualizados puedan llegar a este sitio web."
+
+#. type: Plain text
+msgid ""
+"Unless otherwise specified, add-ons listed on this page are checked against latest backwards "
+"incompatible NVDA release (2023.1)."
+msgstr ""
+"A menos que se indique lo contrario, los complementos enumerados en esta página se han comprobado "
+"con la versión incompatible hacia atrás de NVDA más reciente (2023.1)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Status of add-ons compatible with NVDA 2023.1 and availability on the website"
+msgstr "Estado de los complementos compatibles con NVDA 2023.1 y su disponibilidad en el sitio web"
+
+#. type: Plain text
+msgid ""
+"Below is a list of add-ons hosted on this website (in the stable section). The list also includes "
+"contact information for add-on author(s)."
+msgstr ""
+"A continuación se encuentra una lista de los complementos alojados en este sitio web (en la "
+"sección estable). La lista también incluye información de contacto del autor(es) del complemento."
+
+#. type: Title ###
+#, no-wrap
+msgid "Notes:"
+msgstr "Notas:"
+
+#. type: Bullet: '* '
+msgid "Add-on compatibility status subject to change without notice."
+msgstr "Estado de compatibilidad del complemento sujeto a cambios sin previo aviso."
+
+#. type: Bullet: '* '
+msgid ""
+"Please do NOT change the manifest.ini file of incompatible add-ons if you don't know what you're "
+"doing since this may result in unpredictable behavior such as making NVDA less stable."
+msgstr ""
+"Por favor, no cambies el archivo manifest.ini de complementos incompatibles si no sabes lo que "
+"estás haciendo, ya que esto puede dar como resultado un comportamiento impredecible, como hacer "
+"que NVDA sea menos estable."
+
+#. type: Bullet: '* '
+msgid ""
+"When maintainers have asked to post an add-on on the website via a pull request or an add-on "
+"store submission or publishes plans for testing add-on compatibility, this will be reflected as "
+"\"coming soon to the website\"."
+msgstr ""
+"Cuando los responsables del mantenimiento hayan solicitado publicar un complemento en el sitio "
+"web mediante una solicitud de cambios o un envío a la tienda de complementos o publiquen un plan "
+"de prueba de la compatibilidad del complemento, esto se reflejará como \"pronto llegará al sitio "
+"web\"."
+
+#. type: Bullet: '* '
+msgid "If an add-on is marked as no longer maintained, contact the author about add-on maintenance."
+msgstr ""
+"Si un complemento se marca como no mantenido, contacta con el autor para preguntarle por su "
+"mantenimiento."
+
+#. type: Title ###
+#, no-wrap
+msgid "Access8Math"
+msgstr "Access8Math"
+
+#. type: Bullet: '* '
+msgid "Compatible: Yes (available on the website)"
+msgstr "Compatible: Sí (disponible en el sitio web)"
+
+#. type: Bullet: '* '
+msgid "Contact: Tseng Woody <tsengwoody.tw@gmail.com>"
+msgstr "Contacto: Tseng Woody <tsengwoody.tw@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-on Updater"
+msgstr "Add-on Updater"
+
+#. type: Bullet: '* '
+msgid "Contact: Joseph Lee <joseph.lee22590@gmail.com>"
+msgstr "Contacto: Joseph Lee <joseph.lee22590@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-ons documentation"
+msgstr "Documentación de complementos"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel"
+msgstr "Contacto: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy y Abdel"
+
+#. type: Title ###
+#, no-wrap
+msgid "Addon to count elements of selected text"
+msgstr "Complemento para contar elementos del texto seleccionado"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Fontes <rui.fontes@tiflotecnia.com>"
+msgstr "Contacto: Rui Fontes <rui.fontes@tiflotecnia.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Application Dictionary"
+msgstr "Application Dictionary"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com> and Ricardo Leonarczyk <ricardo."
+"leonarczyk95@gmail.com> and colaboration of Cyrille Bougot"
+msgstr ""
+"Contacto: Rui Fontes <rui.fontes@tiflotecnia.com> y Ricardo Leonarczyk <ricardo."
+"leonarczyk95@gmail.com> y colaboración de Cyrille Bougot"
+
+#. type: Title ###
+#, no-wrap
+msgid "Beep keyboard"
+msgstr "Beep keyboard"
+
+#. type: Bullet: '* '
+msgid "Compatible: No"
+msgstr "Compatible: No"
+
+#. type: Bullet: '* '
+msgid "Contact: David CM <dhf360@gmail.com>"
+msgstr "Contacto: David CM <dhf360@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bluetooth Audio"
+msgstr "Bluetooth Audio"
+
+#. type: Bullet: '* '
+msgid "Contact: Tony Malykh <anton.malykh@gmail.com>"
+msgstr "Contacto: Tony Malykh <anton.malykh@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Braille Extender"
+msgstr "Braille Extender"
+
+#. type: Bullet: '* '
+msgid "Contact: André-Abush Clause <dev@andreabc.net>"
+msgstr "Contacto: André-Abush Clause <dev@andreabc.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "BrowserNav"
+msgstr "BrowserNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Calibre"
+msgstr "Calibre"
+
+#. type: Bullet: '* '
+msgid "Contact: Javi Dominguez <fjavids@gmail.com>"
+msgstr "Contacto: Javi Dominguez <fjavids@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Character Information"
+msgstr "Character Information"
+
+#. type: Bullet: '* '
+msgid "Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+msgstr "Contacto: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Check Input Gestures"
+msgstr "Check Input Gestures"
+
+#. type: Bullet: '* '
+msgid "Contact: Oleksandr Gryshchenko <grisov.nvaccess@mailnull.com>"
+msgstr "Contacto: Oleksandr Gryshchenko <grisov.nvaccess@mailnull.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Classic Selection"
+msgstr "Classic Selection"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey <tspivey@pcdesk.net>"
+msgstr "Contacto: Tyler Spivey <tspivey@pcdesk.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clip Contents Designer"
+msgstr "Clip Contents Designer"
+
+#. type: Bullet: '* '
+msgid "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+msgstr "Contacto: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clipspeak"
+msgstr "Clipspeak"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes, Ângelo Abrantes, Abel Passos Júnior and colaboration of Noelia Ruiz "
+"Martínez, based on the work of Damien Sykes-Lindley"
+msgstr ""
+"Contacto: Rui Fontes, Ângelo Abrantes, Abel Passos Júnior y colaboración de Noelia Ruiz Martínez, "
+"basado en el trabajo de Damien Sykes-Lindley"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clock and calendar Add-on for NVDA"
+msgstr "Reloj y calendario para NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+msgstr "Contacto: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Columns Review"
+msgstr "Columns Review"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alberto Buffolino <a.buffolino@gmail.com>, Łukasz Golonka <lukasz.golonka@mailbox.org>, "
+"other contributors"
+msgstr ""
+"Contacto: Alberto Buffolino <a.buffolino@gmail.com>, Łukasz Golonka <lukasz.golonka@mailbox.org> "
+"y otros colaboradores"
+
+#. type: Title ###
+#, no-wrap
+msgid "Console Toolkit"
+msgstr "Console Toolkit"
+
+#. type: Title ###
+#, no-wrap
+msgid "Control Usage Assistant"
+msgstr "Control Usage Assistant"
+
+#. type: Title ###
+#, no-wrap
+msgid "Crash Hero"
+msgstr "Crash Hero"
+
+#. type: Bullet: '* '
+msgid "Contact: Derek Riemer <driemer.riemer@gmail.com>"
+msgstr "Contacto: Derek Riemer <driemer.riemer@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Cursor Locator"
+msgstr "Cursor Locator"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Sergio Gómez Codina <gomezcodinasergio@gmail."
+"com>"
+msgstr ""
+"Contacto: Noelia Ruiz Martínez <nrm1977@gmail.com>, Sergio Gómez Codina <gomezcodinasergio@gmail."
+"com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Day of the week"
+msgstr "Day of the week"
+
+#. type: Bullet: '* '
+msgid "Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>"
+msgstr "Contacto: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Debug Helper/Dev Helper"
+msgstr "Debug Helper / Dev Helper"
+
+#. type: Bullet: '* '
+msgid "Note: renamed to Dev Helper in 2021"
+msgstr "Nota: renombrado como Dev Helper en 2021"
+
+#. type: Bullet: '* '
+msgid "Contact: Luke Davis <newanswertech@gmail.com>"
+msgstr "Contacto: Luke Davis <newanswertech@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Developer Toolkit"
+msgstr "Developer Toolkit"
+
+#. type: Bullet: '* '
+msgid "Contact: Andy Borka <ajborka@gmail.com>"
+msgstr "Contacto: Andy Borka <ajborka@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Direct Link"
+msgstr "Enlace Directo"
+
+#. type: Bullet: '* '
+msgid "Contact: Fawaz Abdul rahman <fawaz.ar94@gmail.com>"
+msgstr "Contacto: Fawaz Abdul rahman <fawaz.ar94@gmail.com>Contacto: Andy Borka <ajborka@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Fontes <rui.fontes@tiflotecnia.com>s"
+msgstr "Contacto: Rui Fontes <rui.fontes@tiflotecnia.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dual Voice"
+msgstr "Dual Voice"
+
+#. type: Bullet: '* '
+msgid "Contact: Seyed Mahmood Taghavi-Shahri"
+msgstr "Contacto: Seyed Mahmood Taghavi-Shahri"
+
+#. type: Title ###
+#, no-wrap
+msgid "Easy Table Navigator"
+msgstr "Easy Table Navigator"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, Corentin Bacqué-Cazenave <corentin@progaccess."
+"net>"
+msgstr ""
+"Contacto: Joseph Lee <joseph.lee22590@gmail.com>, Corentin Bacqué-Cazenave <corentin@progaccess."
+"net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Emoticons"
+msgstr "Emoticons"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed "
+"<mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>"
+msgstr ""
+"Contacto: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar "
+"Hameed <mesar.hameed@gmail.com>, Francisco Javier Estrada Martínez <Fjestrad@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "eMule"
+msgstr "eMule"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>, Alberto <a."
+"buffolino@gmail.com>"
+msgstr ""
+"Contacto: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>, Alberto <a."
+"buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Annotations"
+msgstr "Enhanced Annotations"
+
+#. type: Bullet: '* '
+msgid "Contact: George Kerscher <kerscher@montana.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>"
+msgstr "Contacto: George Kerscher <kerscher@montana.com>, Noelia Ruiz Martínez <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Aria"
+msgstr "Enhanced Aria"
+
+#. type: Bullet: '* '
+msgid "Note: add-on features included in NVDA 2019.3."
+msgstr "Nota: funciones del complemento incluidas en NVDA 2019.3."
+
+#. type: Bullet: '* '
+msgid "Contact: José Manuel Delicado <jm.delicado@nvda.es>"
+msgstr "Contacto: José Manuel Delicado <jm.delicado@nvda.es>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Touch Gestures"
+msgstr "Enhanced Touch Gestures"
+
+#. type: Bullet: '* '
+msgid "Note: no longer maintained"
+msgstr "Nota: ya no se mantiene"
+
+#. type: Title ###
+#, no-wrap
+msgid "Event Tracker"
+msgstr "Rastreador de eventos"
+
+#. type: Title ###
+#, no-wrap
+msgid "extendedWinamp"
+msgstr "extendedWinamp"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Hrvoje Katić <hrvojekatic@gmail.com>, beqa gozalishvili <beqaprogger@gmail.com>, NVDA "
+"Add-ons Team"
+msgstr ""
+"Contacto: Hrvoje Katić <hrvojekatic@gmail.com>, beqa gozalishvili <beqaprogger@gmail.com>, el "
+"equipo de complementos de NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "Focus Highlight"
+msgstr "Focus Highlight"
+
+#. type: Bullet: '* '
+msgid "Contact: Takuya Nishimoto <nishimotz@gmail.com>"
+msgstr "Contacto: Takuya Nishimoto <nishimotz@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Golden Cursor"
+msgstr "Golden Cursor"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph.lee22590@gmail.com>, "
+"Abdel <abdelkrim.bensaid@gmail.com>"
+msgstr ""
+"Contacto: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph.lee22590@gmail."
+"com>, Abdel <abdelkrim.bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "GoldWave"
+msgstr "GoldWave"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn <xkill85@gmx.net>, Mesar Hameed "
+"<mhameed@src.gnome.org>"
+msgstr ""
+"Contacto: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn <xkill85@gmx.net>, Mesar Hameed "
+"<mhameed@src.gnome.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Ignore blanks Indentation Reporting"
+msgstr "Ignorar anuncio de sangría en blanco"
+
+#. type: Bullet: '* '
+msgid "Contact: Samuel Kacer <samuel.kacer@gmail.com>"
+msgstr "Contacto: Samuel Kacer <samuel.kacer@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "IndentNav"
+msgstr "IndentNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Input Lock"
+msgstr "Input Lock"
+
+#. type: Title ###
+#, no-wrap
+msgid "instantTranslate"
+msgstr "instantTranslate"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alexy Sadovoy aka Lex <lex@progger.su>, ruslan <ru2020slan@yandex.ru>, beqa "
+"<beqaprogger@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Alberto Buffolino <a."
+"buffolino@gmail.com>"
+msgstr ""
+"Contacto: Alexy Sadovoy aka Lex <lex@progger.su>, ruslan <ru2020slan@yandex.ru>, beqa "
+"<beqaprogger@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Alberto Buffolino <a."
+"buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Kill NVDA"
+msgstr "Kill NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "Lambda Add-On for NVDA"
+msgstr "Complemento de Lambda para NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Zanella, Ivan Novegil"
+msgstr "Contacto: Alberto Zanella, Iván Novegil"
+
+#. type: Title ###
+#, no-wrap
+msgid "MathCAT"
+msgstr "MathCAT"
+
+#. type: Bullet: '* '
+msgid "Contact: Neil Soiffer <soiffer@alum.mit.edu>"
+msgstr "Contacto: Neil Soiffer <soiffer@alum.mit.edu>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Mozilla Apps Enhancements"
+msgstr "Mejoras de las aplicaciones de Mozilla"
+
+#. type: Title ###
+#, no-wrap
+msgid "mp3DirectCut"
+msgstr "mp3DirectCut"
+
+#. type: Bullet: '* '
+msgid "Contact: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+msgstr "Contacto: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+
+#. type: Title ###
+#, no-wrap
+msgid "Newfon"
+msgstr "Newfon"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Sergey Shishmintsev, Alexy Sadovoi, Sergey A.K.A. Electrik, Kvark and other developers"
+msgstr ""
+"Contacto: Sergey Shishmintsev, Alexy Sadovoi, Sergey A.K.A. Electrik, Kvark y otros "
+"desarrolladores"
+
+#. type: Title ###
+#, no-wrap
+msgid "NoBeepsSpeechMode"
+msgstr "NoBeepsSpeechMode"
+
+#. type: Bullet: '* '
+msgid ""
+"Note: new releases are compatible with 2021.1 and later, older versions should be used for older "
+"NVDA releases"
+msgstr ""
+"Nota: las nuevas versiones son sólo compatibles con 2021.1 o posterior, las versiones más "
+"antiguas deberían usarse con versiones anteriores de NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Buffolino <a.buffolino@gmail.com>"
+msgstr "Contacto: Alberto Buffolino <a.buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Notepad++"
+msgstr "Notepad++"
+
+#. type: Title ###
+#, no-wrap
+msgid "Numpad Nav Mode"
+msgstr "Numpad Nav Mode"
+
+#. type: Bullet: '* '
+msgid "Contact: Luke Davis (Open Source Systems, Ltd.) <newanswertech@gmail.com>"
+msgstr "Contacto: Luke Davis (Open Source Systems, Ltd.) <newanswertech@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Dev & Test Toolbox"
+msgstr "NVDA Dev & Test Toolbox"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Remote Support"
+msgstr "NVDA Remote Support"
+
+#. type: Bullet: '* '
+msgid "Compatible: Yes (available externally)"
+msgstr "Compatible: Sí (disponible externamente)"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum.net>"
+msgstr "Contacto: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Unmute"
+msgstr "NVDA Unmute"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDAUpdate Channel Selector"
+msgstr "Selector del canal de actualización de NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: Jose Manuel Delicado <jm.delicado@nvda.es>"
+msgstr "Contacto: José Manuel Delicado <jm.delicado@nvda.es>"
+
+#. type: Title ###
+#, no-wrap
+msgid "NV Speech Player. "
+msgstr "NV Speech Player. "
+
+#. type: Bullet: '* '
+msgid "Note: add-on features included in recent eSpeak NG releases"
+msgstr "Nota: funciones del complemento incluidas en versiones recientes de eSpeak NG"
+
+#. type: Bullet: '* '
+msgid "Contact: NV Access"
+msgstr "Contacto: NV AccessContacto: NV Access <info@nvaccess.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Object Location Tones"
+msgstr "Object Location Tones"
+
+#. type: Title ###
+#, no-wrap
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. type: Title ###
+#, no-wrap
+msgid "OCR"
+msgstr "OCR"
+
+#. type: Bullet: '* '
+msgid "Contact: Łukasz Golonka <lukasz.golonka@mailbox.org>"
+msgstr "Contacto: Łukasz Golonka <lukasz.golonka@mailbox.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Office Desk"
+msgstr "Office Desk"
+
+#. type: Title ###
+#, no-wrap
+msgid "Outlook Extended"
+msgstr "Outlook Extended"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf Kefferpuetz <ralf.kefferpuetz@elra-"
+"consulting.de>"
+msgstr ""
+"Contacto: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf Kefferpuetz <ralf.kefferpuetz@elra-"
+"consulting.de>"
+
+#. type: Title ###
+#, no-wrap
+msgid "PC Keyboard Braille Input for NVDA"
+msgstr "Entrada Braille a través del teclado para NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "Phonetic Punctuation"
+msgstr "Phonetic Punctuation"
+
+#. type: Title ###
+#, no-wrap
+msgid "placeMarkers"
+msgstr "placeMarkers"
+
+#. type: Bullet: '* '
+msgid "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>"
+msgstr "Contacto: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Proxy support for NVDA"
+msgstr "Soporte proxy para NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "Quick Dictionary"
+msgstr "Quick Dictionary"
+
+#. type: Title ###
+#, no-wrap
+msgid "Quick Notetaker"
+msgstr "Anotador rápido"
+
+#. type: Bullet: '* '
+msgid "Contact: Eilana Benish <benish.ilana@gmail.com, Mohammad Suliman <mohmad.s93@gmail.com>"
+msgstr "Contacto: Eilana Benish <benish.ilana@gmail.com, Mohammad Suliman <mohmad.s93@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Read Feeds"
+msgstr "Read Feeds"
+
+#. type: Bullet: '* '
+msgid "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed"
+msgstr "Contacto: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed"
+
+#. type: Title ###
+#, no-wrap
+msgid "Report Passwords"
+msgstr "Report Passwords"
+
+#. type: Title ###
+#, no-wrap
+msgid "Report Symbols"
+msgstr "Report Symbols"
+
+#. type: Title ###
+#, no-wrap
+msgid "Resource Monitor"
+msgstr "Resource Monitor"
+
+#. type: Bullet: '* '
+msgid "Contact: Kefas Lungu"
+msgstr "Contacto: Kefas Lungu"
+
+#. type: Title ###
+#, no-wrap
+msgid "Review Cursor Copier"
+msgstr "Review Cursor Copier"
+
+#. type: Bullet: '* '
+msgid "Contact: Tuukka Ojala <tuukka.ojala@gmail.com>"
+msgstr "Contacto: Tuukka Ojala <tuukka.ojala@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "sayCurrentKeyboardLanguage"
+msgstr "sayCurrentKeyboardLanguage"
+
+#. type: Bullet: '* '
+msgid "Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>"
+msgstr "Contacto: Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Say Product Name and Version"
+msgstr "Decir nombre de producto y versión"
+
+#. type: Bullet: '* '
+msgid "Contact: Luke Davis <XLTechie@newanswertech.com>"
+msgstr "Contacto: Luke Davis <XLTechie@newanswertech.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Screenshots wizard"
+msgstr "Screenshots wizard"
+
+#. type: Bullet: '* '
+msgid "Contact: Javi Domínguez <fjavids@gmail.com>"
+msgstr "Contacto: Javi Domínguez <fjavids@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Search With"
+msgstr "Search With"
+
+#. type: Bullet: '* '
+msgid "Contact: Ibrahim Hamadeh <ibra.hamadeh@hotmail.com>"
+msgstr "Contacto: Ibrahim Hamadeh <ibra.hamadeh@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "SentenceNav"
+msgstr "SentenceNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Skype"
+msgstr "Skype"
+
+#. type: Bullet: '* '
+msgid "Contact: Doug Lee"
+msgstr "Contacto: Doug Lee"
+
+#. type: Title ###
+#, no-wrap
+msgid "Sound Splitter"
+msgstr "Sound Splitter"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speak Passwords"
+msgstr "Speak Passwords"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speech History"
+msgstr "Speech History"
+
+#. type: Bullet: '* '
+msgid "Compatible: Yes (coming soon to the website)"
+msgstr "Compatible: Sí (llegará pronto al sitio web)"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey <tspivey@pcdesk.net>, James Scholes"
+msgstr "Contacto: Tyler Spivey <tspivey@pcdesk.net>, James Scholes"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speech Logger"
+msgstr "Speech Logger"
+
+#. type: Title ###
+#, no-wrap
+msgid "Station Playlist"
+msgstr "Station Playlist"
+
+#. type: Bullet: '* '
+msgid "Contact: Geoff Shang, Joseph Lee and other contributors"
+msgstr "Contacto: Geoff Shang, Joseph Lee y otros colaboradores"
+
+#. type: Title ###
+#, no-wrap
+msgid "Switch synth"
+msgstr "Switch synth"
+
+#. type: Title ###
+#, no-wrap
+msgid "Synth ring settings selector"
+msgstr "Selector de opciones del anillo del sintetizador"
+
+#. type: Title ###
+#, no-wrap
+msgid "systrayList"
+msgstr "systrayList"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, Joseph "
+"Lee <joseph.lee22590@gmail.com>, NVDA Community Contributors"
+msgstr ""
+"Contacto: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista <ruiandrebatista@gmail.com>, "
+"Joseph Lee <joseph.lee22590@gmail.com>, colaboradores de la comunidad de NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "TeamTalk Classic"
+msgstr "TeamTalk Classic"
+
+#. type: Bullet: '* '
+msgid "Contact: Doug Lee with initial work by Tyler Spivey and others"
+msgstr "Contacto: Doug Lee con el trabajo inicial de Tyler Spivey y otros"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tele NVDA remote assistance"
+msgstr "Asistencia remota TeleNVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Asociación Comunidad Hispanohablante de NVDA <contacto@nvda.es> and other contributors, "
+"Original work by Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum.net>"
+msgstr ""
+"Contacto: Asociación Comunidad Hispanohablante de NVDA <contacto@nvda.es> y otros colaboradores, "
+"trabajo original de Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "TesseractOCR"
+msgstr "TesseractOCR"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com> and Abel "
+"Passos do Nascimento Jr. <abel.passos@gmail.com>"
+msgstr ""
+"Contacto: Rui Fontes <rui.fontes@tiflotecnia.com>, Ângelo Abrantes <ampa4374@gmail.com> y Abel "
+"Passos do Nascimento Jr. <abel.passos@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Text Information"
+msgstr "Text Information"
+
+#. type: Bullet: '* '
+msgid "Contact: Carter Temm <crtbraille@gmail.com>"
+msgstr "Contacto: Carter Temm <crtbraille@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "TextNav"
+msgstr "TextNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Thunderbird+"
+msgstr "Thunderbird+"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Pierre-Louis Renaud (Thunderbird v. 78 to 102), Daniel Poiraud (TB v. 68 to 91), "
+"Abdelkrim Bensaïd for a part of TB 78, Yannick (TB v. 38 to 60)"
+msgstr ""
+"Contacto: Pierre-Louis Renaud (Thunderbird v. 78 a 102), Daniel Poiraud (TB v. 68 a 91), "
+"Abdelkrim Bensaïd por una parte de TB 78, Yannick (TB v. 38 a 60)"
+
+#. type: Title ###
+#, no-wrap
+msgid "Time Zoner"
+msgstr "Time Zoner"
+
+#. type: Bullet: '* '
+msgid "Contact: Munawar Bijani"
+msgstr "Contacto: Munawar Bijani"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tip of the Day"
+msgstr "Tip of the Day"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tony's enhancements"
+msgstr "Mejoras de Tony"
+
+#. type: Title ###
+#, no-wrap
+msgid "ToolbarsExplorer"
+msgstr "ToolbarsExplorer"
+
+#. type: Title ###
+#, no-wrap
+msgid "Training Keyboard commands"
+msgstr "Training Keyboard commands"
+
+#. type: Title ###
+#, no-wrap
+msgid "UnicodeBrailleInput"
+msgstr "UnicodeBrailleInput"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA <patrick@zajda.fr>, Leonard de "
+"Ruijter (Babbage B.V.) <leonard@babbage.com>"
+msgstr ""
+"Contacto: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA <patrick@zajda.fr>, Leonard de "
+"Ruijter (Babbage B.V.) <leonard@babbage.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "UnigramPlus"
+msgstr "UnigramPlus"
+
+#. type: Bullet: '* '
+msgid "Contact: Kostya Gladkiy <gladkiy.kostya@gmail.com>"
+msgstr "Contacto: Kostya Gladkiy <gladkiy.kostya@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "URL Shortener"
+msgstr "Acortador URL"
+
+#. type: Title ###
+#, no-wrap
+msgid "Virtual Audio Cable"
+msgstr "Virtual Audio Cable"
+
+#. type: Title ###
+#, no-wrap
+msgid "Virtual Review"
+msgstr "Virtual Review"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Batista <ruiandrebatista@gmail.com> and NVDA Addon Team"
+msgstr "Contacto: Rui Batista <ruiandrebatista@gmail.com> y el equipo de complementos de NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "VLC Media Player"
+msgstr "VLC Media Player"
+
+#. type: Title ###
+#, no-wrap
+msgid "Vocalizer"
+msgstr "Vocalizer"
+
+#. type: Bullet: '* '
+msgid "Contact: Tiflotecnia, LDA. <tiflotecnia@tiflotecnia.com>"
+msgstr "Contacto: Tiflotecnia, LDA. <tiflotecnia@tiflotecnia.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Weather Plus"
+msgstr "Weather Plus"
+
+#. type: Bullet: '* '
+msgid "Contact: Adriano Barbieri <adrianobarb@yahoo.it>"
+msgstr "Contacto: Adriano Barbieri <adrianobarb@yahoo.it>"
+
+#. type: Title ###
+#, no-wrap
+msgid "WhatsAppPlus"
+msgstr "WhatsAppPlus"
+
+#. type: Bullet: '* '
+msgid "Contact: Kostya Gladkiy<gladkiy.kostya@gmail.com>"
+msgstr "Contacto: Kostya Gladkiy <gladkiy.kostya@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Windows App Essentials"
+msgstr "Windows App Essentials"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer <driemer.riemer@gmail.com> and "
+"others"
+msgstr ""
+"Contacto: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer <driemer.riemer@gmail.com> y otros"
+
+#. type: Title ###
+#, no-wrap
+msgid "Windows Magnifier"
+msgstr "Lupa de Windows"
+
+#. type: Title ###
+#, no-wrap
+msgid "Win Wizard"
+msgstr "Win Wizard"
+
+#. type: Bullet: '* '
+msgid "Contact: Oriol Gomez <ogomez.s92@gmail.com>, Łukasz Golonka <lukasz.golonka@mailbox.org>"
+msgstr "Contacto: Oriol Gómez <ogomez.s92@gmail.com>, Łukasz Golonka <lukasz.golonka@mailbox.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "WordNav"
+msgstr "WordNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Zoom Accessibility Enhancements"
+msgstr "Mejoras de accesibilidad para Zoom"
+
+#. type: Bullet: '* '
+msgid "Contact: Mohammad Suliman <mohmad.s93@gmail.com>, Eilana Benish <benish.ilana@gmail.com>"
+msgstr "Contacto: Mohammad Suliman <mohmad.s93@gmail.com>, Eilana Benish <benish.ilana@gmail.com>"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announcements]]\n"
+msgstr "[[!tag announcements]]\n"

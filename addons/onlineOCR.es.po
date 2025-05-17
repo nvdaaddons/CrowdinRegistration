@@ -1,0 +1,1688 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-10 21:28+0000\n"
+"PO-Revision-Date: 2023-04-16 14:25+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Online image describer\"]]\n"
+msgstr "[[!meta title=\"Descriptor de imágenes en línea\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Larry Wang"
+msgstr "Autor: Larry Wang"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: from 2018.3 to 2020.2"
+msgstr "Compatibilidad con NVDA: de 2018.3 a 2020.2"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Descargar [versión de desarrollo][2]"
+
+#. type: Plain text
+msgid "This addon aims at adding online image recognition engines to NVDA."
+msgstr ""
+"El propósito de este complemento es añadir motores de reconocimiento de "
+"imágenes en línea a NVDA."
+
+#. type: Plain text
+msgid "There are two types of engines. OCR and image describer."
+msgstr "Hay dos tipos de motores. OCR y descriptor de imágenes."
+
+#. type: Plain text
+msgid "OCR extract text from image."
+msgstr "El OCR extrae texto de las imágenes."
+
+#. type: Plain text
+msgid ""
+"Image describer describe visual features in image in text form, such as "
+"general description, color type landmarks and so on."
+msgstr ""
+"Los descriptores de imágenes describen características visuales de la imagen "
+"en forma de texto, tales como su descripción general, marcas de tipo de "
+"color y demás."
+
+#. type: Plain text
+msgid ""
+"Internet connection is required to use this addon, since image describe "
+"services are provided by API endpoints on the Internet."
+msgstr ""
+"Es necesario disponer de conexión a Internet para usar este complemento, ya "
+"que los servicios de descripción de imágenes se proporcionan a través de "
+"conexiones a una API en Internet."
+
+#. type: Plain text
+msgid "They are called engines in this addon."
+msgstr "En este complemento se conocen como motores."
+
+#. type: Plain text
+msgid "There are three types of engine for this addon."
+msgstr "Hay tres tipos de motores en este complemento."
+
+#. type: Bullet: '* '
+msgid "Online OCR engine"
+msgstr "Motor de OCR en línea"
+
+#. type: Bullet: '* '
+msgid "Online image describer engine"
+msgstr "Motor de descripción de imágenes en línea"
+
+#. type: Bullet: '* '
+msgid "Windows 10 OCR engine (offline)"
+msgstr "OCR de Windows 10 (fuera de línea)"
+
+#. type: Plain text
+msgid "You also need to choose the source of recognition image."
+msgstr "También debes elegir la fuente de reconocimiento de la imagen."
+
+#. type: Bullet: '* '
+msgid "Current navigator object"
+msgstr "Navegador de objetos actual"
+
+#. type: Bullet: '* '
+msgid "Current foreground window"
+msgstr "Ventana actual en primer plano"
+
+#. type: Bullet: '* '
+msgid "The whole screen"
+msgstr "Toda la pantalla"
+
+#. type: Bullet: '* '
+msgid "Image data or file from clipboard"
+msgstr "Datos de imagen o archivo desde el portapapeles"
+
+#. type: Bullet: '* '
+msgid "Image file pathname or image url from clipboard"
+msgstr "Ruta a un archivo de imagen o URL a una imagen desde el portapapeles"
+
+#. type: Title ###
+#, no-wrap
+msgid "Keyboard commands"
+msgstr "Órdenes de teclado"
+
+#. type: Plain text
+#, no-wrap
+msgid "After choosing these types, you can start recognition with one gesture.  \n"
+msgstr "Después de elegir los tipos, puedes iniciar el reconocimiento con un gesto.\n"
+
+#. type: Plain text
+msgid ""
+"NVDA+Alt+P Perform recognize according to source and engine type setting, "
+"Then read result. If pressed twice, open a virtual result document."
+msgstr ""
+"NVDA+alt+p reconoce el objeto en función del tipo de fuente y motor "
+"configurados y lee el resultado. Si se pulsa dos veces, abre un documento "
+"virtual con el resultado."
+
+#. type: Plain text
+msgid ""
+"There are four additional gestures left unassigned. Please assign them "
+"before using."
+msgstr ""
+"Hay cuatro gestos más sin asignar. Por favor, asígnalos antes de usarlos."
+
+#. type: Plain text
+msgid "Cycle through different recognition engine types."
+msgstr "Alternar entre los diferentes tipos de motores de reconocimiento."
+
+#. type: Plain text
+msgid "Cycle through different recognition source types."
+msgstr "Alternar entre los distintos tipos de fuentes de reconocimiento."
+
+#. type: Plain text
+msgid "Cancel current recognition"
+msgstr "Cancelar el reconocimiento actual"
+
+#. type: Plain text
+msgid ""
+"This gesture can be useful if you think you have waited for too long and "
+"want to cancel."
+msgstr ""
+"Este gesto puede ser útil si crees que has esperado demasiado y quieres "
+"cancelar."
+
+#. type: Plain text
+msgid ""
+"Also sometimes you do not want to be disturbed by recognition message "
+"because you need to review some messages arrived after recognition start."
+msgstr ""
+"Además hay veces en las que no te gustaría que el mensaje de reconocimiento "
+"te molestara porque quieres revisar los mensajes que han llegado después de "
+"iniciar el reconocimiento."
+
+#. type: Plain text
+msgid "Show previous result in a virtual result document."
+msgstr "Mostrar el resultado anterior en un documento de resultados virtual."
+
+#. type: Plain text
+msgid ""
+"Though there is a feature to copy result to clipboard. Character position "
+"information cannot be preserved, so this gesture is added to solve this "
+"problem."
+msgstr ""
+"Aunque hay una función para copiar el resultado al portapapeles, no se puede "
+"preservar la información de posición de los caracteres, por lo que se añade "
+"este gesto para resolver el problema."
+
+#. type: Plain text
+#, no-wrap
+msgid "There are also four old gestures are left unassigned for users who prefer gestures in previous versions.  \n"
+msgstr "Hay también cuatro gestos sin asignar para aquellos usuarios que prefieran los gestos de versiones anteriores.\n"
+
+#. type: Plain text
+msgid ""
+"It is recommended to use new gesture and switch engine type according to "
+"your need."
+msgstr ""
+"Se recomienda usar el gesto nuevo y pasar entre motores de reconocimiento "
+"según tus necesidades."
+
+#. type: Plain text
+msgid ""
+"Recognize current navigator object with online OCR engine Then read result. "
+"If pressed twice, open a virtual result document."
+msgstr ""
+"Reconoce el objeto actual del navegador de objetos con un motor OCR en línea "
+"y lee el resultado. Si se pulsa dos veces, abre un documento virtual con el "
+"resultado."
+
+#. type: Plain text
+msgid ""
+"Recognizes image in clipboard with online OCR engine. Then read result. If "
+"pressed twice, open a virtual result document."
+msgstr ""
+"Reconoce la imagen del portapapeles con un motor OCR en línea y lee el "
+"resultado. Si se pulsa dos veces, abre un documento virtual con el resultado."
+
+#. type: Plain text
+msgid ""
+"Recognize current navigator object Then read result. If pressed twice, open "
+"a virtual result document."
+msgstr ""
+"Reconoce el objeto bajo el navegador de objetos y lee el resultado. Si se "
+"pulsa dos veces, abre un documento virtual con el resultado."
+
+#. type: Plain text
+msgid ""
+"Recognizes image in clipboard . Then read result. If pressed twice, open a "
+"virtual result document."
+msgstr ""
+"Reconoce la imagen del portapapeles y lee el resultado. Si se pulsa dos "
+"veces, abre un documento virtual con el resultado."
+
+#. type: Title ##
+#, no-wrap
+msgid "Engine Configuration"
+msgstr "Configuración de motor"
+
+#. type: Plain text
+msgid ""
+"You can choose recognition engines and configure them in detail in *Online "
+"Image Describer* category in NVDA settings dialog."
+msgstr ""
+"Puedes elegir motores de reconocimiento y configurarlos en detalle en la "
+"categoría *Online image describer* del diálogo de opciones de NVDA."
+
+#. type: Plain text
+msgid ""
+"The author of addon have registered account with free API quota and set up a "
+"proxy server on www.nvdacn.com to make this addon easier to test at first. "
+"Test quota is limited and may be cancelled by API provider anytime."
+msgstr ""
+"El autor de este complemento ha registrado cuentas con cuota de API gratuita "
+"y ha configurado un servidor proxy en www.nvdacn.com para permitir que este "
+"complemento sea más fácil de probar al principio. La cuota de pruebas está "
+"limitada y puede ser cancelada por el proveedor de la API en cualquier "
+"momento."
+
+#. type: Plain text
+msgid ""
+"It is highly recommended to register your own key according to guide in each "
+"engine."
+msgstr ""
+"Se recomienda encarecidamente que registres tu propia clave siguiendo las "
+"guías de cada motor."
+
+#. type: Plain text
+msgid "The following settings are applicable to all engines."
+msgstr "Los siguientes ajustes se aplican a todos los motores."
+
+#. type: Bullet: '* '
+msgid ""
+"Copy recognition result to the clipboard: if enabled, recognition result "
+"text will be copied to clipboard after recognition."
+msgstr ""
+"Copiar resultado al portapapeles después del reconocimiento: si se activa, "
+"el texto del resultado del reconocimiento se copiará al portapapeles tras el "
+"reconocimiento."
+
+#. type: Bullet: '* '
+msgid ""
+"Use browseable message for text result: if enabled, recognition result text "
+"will be shown in a popup window instead of speech or braille message."
+msgstr ""
+"Usar mensaje explorable para el texto del resultado: si se activa, el texto "
+"del resultado del reconocimiento se mostrará en una ventana emergente en "
+"lugar de enviarse por mensajes de voz y braille."
+
+#. type: Bullet: '* '
+msgid ""
+"Swap the effect of repeated gesture with none repeated ones: by default, a "
+"virtual result document is shown only if you press the corresponding gesture "
+"twice, if you use that frequently you can enable this option so that you "
+"only need to press once to get a result viewer."
+msgstr ""
+"Intercambiar el efecto de gestos repetidos con los que no están repetidos: "
+"por defecto, sólo se muestra un documento virtual con el resultado si pulsas "
+"el gesto correspondiente dos veces. Si haces esto frecuentemente puedes "
+"activar esta opción, de tal forma que sólo pulses una vez para abrir el "
+"visor de resultados."
+
+#. type: Bullet: '* '
+msgid ""
+"Enable more verbose logging for debug purposes: some logs are essential for "
+"debugging but affects performance and takes up a lot of space. Only turn "
+"this on if specifically instructed to by the addon author or an NVDA "
+"developer."
+msgstr ""
+"Activar registro más detallado con propósitos de depuración: algunos "
+"registros son esenciales para depurar, pero afectan al rendimiento y "
+"consumen mucho espacio. Activa esta opción sólo si el autor del complemento "
+"o un desarrollador de NVDA te lo pide."
+
+#. type: Bullet: '* '
+msgid ""
+"Proxy type: which type of proxy you are using. If you do not know what a "
+"proxy is just leave it as is."
+msgstr ""
+"Tipo de proxy: indica el tipo de proxy que estás usando. Si no sabes qué es "
+"un proxy, no modifiques esta opción."
+
+#. type: Bullet: '* '
+msgid ""
+"Proxy address: full URL of your proxy. If you do not know what a proxy is "
+"just leave it as is. If you choose to use proxy your proxy will be verified "
+"before saving , after verification, there will be a prompt to tell you "
+"result."
+msgstr ""
+"Dirección del proxy: URL completa del proxy. Si no sabes qué es un proxy no "
+"cambies esta opción. Si eliges usar un proxy, este se verificará antes de "
+"guardar. Tras la verificación, un mensaje te indicará el resultado."
+
+#. type: Plain text
+msgid ""
+"The following settings means the same in all engines, describe them here to "
+"save space."
+msgstr ""
+"Los siguientes ajustes significan lo mismo en todos los motores, por lo que "
+"se describen aquí para ahorrar espacio."
+
+#. type: Bullet: '* '
+msgid ""
+"API Access Type: this controls how you get access to the corresponding API "
+"endpoints."
+msgstr ""
+"Tipo de acceso a la API: controla cómo se accede a las conexiones de la API "
+"corresponiente."
+
+#. type: Bullet: '    * '
+msgid ""
+"If you choose \"Use public quota\", you are using free quota in an account "
+"registered by addon author."
+msgstr ""
+"Si eliges \"Usar cuota pública\", estás usando una cuota gratuita registrada "
+"por el autor del complemento."
+
+#. type: Bullet: '    * '
+msgid ""
+"If you choose \"Use your own API key\", this addon will use quota from your "
+"own account."
+msgstr ""
+"Si eliges \"Usar mi propia clave de API\", el complemento consumirá de la "
+"cuota de tu propia cuenta."
+
+#. type: Bullet: '* '
+msgid ""
+"APP ID, API key or API Secret Key: if you want to use quota from your own "
+"account corresponding access tokens is required. Some engines only need API "
+"key. Some engines require two tokens. These are only valid if you choose "
+"\"use your own API key\" in API Access type."
+msgstr ""
+"ID de aplicación, clave de API o clave secreta de API: si quieres usar la "
+"cuota de tu propia cuenta será necesario que dispongas de los tokens de "
+"acceso correspondientes. Algunos motores sólo necesitan una clave de API. "
+"Algunos motores necesitan dos tokens. Estos sólo son válidos si eliges "
+"\"Usar tu propia clave de API\" en tipo de acceso a la API."
+
+#. type: Plain text
+msgid ""
+"Note that the quality and accuracy of results are affected by many factors."
+msgstr ""
+"Ten en cuenta que la calidad y la precisión de los resultados dependen de "
+"muchos factores."
+
+#. type: Bullet: '* '
+msgid "Models and techniques used by engine provider"
+msgstr "Modelos y técnicas empleados por el proveedor del motor"
+
+#. type: Bullet: '* '
+msgid "Quality of uploaded image"
+msgstr "Calidad de la imagen subida"
+
+#. type: Bullet: '* '
+msgid "Is navigator object hidden behind something else"
+msgstr "Navegador de objetos oculto tras algo"
+
+#. type: Bullet: '* '
+msgid "Screen resolution"
+msgstr "Resolución de pantalla"
+
+#. type: Title ##
+#, no-wrap
+msgid "Online image description"
+msgstr "Descripción de imágenes en línea"
+
+#. type: Plain text
+msgid "Here are three engines available."
+msgstr "Hay tres motores disponibles."
+
+#. type: Title ###
+#, no-wrap
+msgid "Microsoft Azure Image Analyser"
+msgstr "Analizador de imágenes de Microsoft Azure"
+
+#. type: Plain text
+#, no-wrap
+msgid "This engine extracts a rich set of visual features based on the image content.  \n"
+msgstr "Este motor extrae un rico conjunto de características visuales basándose en el contenido de la imagen.\n"
+
+#. type: Plain text
+msgid ""
+"This engine is english only. If you want description in other languages, you "
+"can use Microsoft Azure Image Describer"
+msgstr ""
+"Este motor está sólo en inglés. Si quieres que la descripción se muestre en "
+"otros idiomas, puedes usar el descriptor de imágenes de Microsoft Azure"
+
+#. type: Plain text
+msgid "Visual Features include:"
+msgstr "Entre las características visuales se incluyen:"
+
+#. type: Bullet: '* '
+msgid ""
+"Adult - detects if the image is pornographic in nature (depicts nudity or a "
+"sex act). Sexually suggestive content is also detected."
+msgstr ""
+"Adulto - detecta si la imagen es de naturaleza pornográfica (representa la "
+"desnudez o un acto sexual). También se detecta el contenido sexualmente "
+"sugerente."
+
+#. type: Bullet: '* '
+msgid ""
+"Brands - detects various brands within an image, including the approximate "
+"location. The Brands argument is only available in English."
+msgstr ""
+"Marcas - detecta diversas marcas dentro de la imagen, incluyendo su "
+"ubicación aproximada. El argumento de marcas sólo está disponible en inglés."
+
+#. type: Bullet: '* '
+msgid ""
+"Categories - categorizes image content according to a taxonomy defined in "
+"documentation."
+msgstr ""
+"Categorías - clasifica el contenido de la imagen según una taxonomía "
+"definida en la documentación."
+
+#. type: Bullet: '* '
+msgid ""
+"Color - determines the accent color, dominant color, and whether an image is "
+"black&white."
+msgstr ""
+"Color - determina el color más llamativo, el color predominante y si la "
+"imagen está en blanco y negro."
+
+#. type: Bullet: '* '
+msgid ""
+"Description - describes the image content with a complete sentence in "
+"supported languages."
+msgstr ""
+"Descripción - describe el contenido de la imagen con una frase completa en "
+"los idiomas soportados."
+
+#. type: Bullet: '* '
+msgid ""
+"Faces - detects if faces are present. If present, generate coordinates, "
+"gender and age."
+msgstr ""
+"Caras - detecta si hay caras presentes. Si las hay, identifica sus "
+"coordenadas, género y edad."
+
+#. type: Bullet: '* '
+msgid "ImageType - detects if image is clip art or a line drawing."
+msgstr ""
+"Tipo de imagen - detecta si la imagen es prediseñada o se ha dibujado a mano."
+
+#. type: Bullet: '* '
+msgid ""
+"Objects - detects various objects within an image, including the approximate "
+"location. The Objects argument is only available in English."
+msgstr ""
+"Objetos - detecta diversos objetos dentro de la imagen, incluyendo su "
+"ubicación aproximada. El argumento de objetos sólo está disponible en inglés."
+
+#. type: Bullet: '* '
+msgid ""
+"Tags - tags the image with a detailed list of words related to the image "
+"content."
+msgstr ""
+"Etiquetas - etiqueta la imagen con una lista detallada de palabras "
+"relacionadas con su contenido."
+
+#. type: Plain text
+msgid "Some features also provide additional details:"
+msgstr "Algunas características también proporcionan detalles adicionales:"
+
+#. type: Bullet: '* '
+msgid "Celebrities - identifies celebrities if detected in the image."
+msgstr "Famosos - Identifica personas famosas si se detectan en la imagen."
+
+#. type: Bullet: '* '
+msgid "Landmarks - identifies landmarks if detected in the image."
+msgstr ""
+"Puntos de referencia - identifica puntos de referencia si se detectan en la "
+"imagen."
+
+#. type: Title ###
+#, no-wrap
+msgid "Microsoft Azure Image describer"
+msgstr "Descriptor de imágenes de Microsoft Azure"
+
+#. type: Plain text
+msgid ""
+"This engine generates a description of an image in human readable language "
+"with complete sentences. The description is based on a collection of content "
+"tags, which are also returned by the operation."
+msgstr ""
+"Este motor genera descripciones de imágenes en un lenguaje natural con "
+"frases completas. La descripción se basa en una colección de etiquetas de "
+"contenido, también devueltas por la operación."
+
+#. type: Plain text
+msgid ""
+"More than one description can be generated for each image. Descriptions are "
+"ordered by their confidence score."
+msgstr ""
+"Se puede generar más de una descripción para cada imagen. Las descripciones "
+"se ordenan según su puntuación de confianza."
+
+#. type: Plain text
+msgid "There are two settings for this engine."
+msgstr "Hay dos ajustes para este motor."
+
+#. type: Bullet: '* '
+msgid ""
+"Language: the language in which the service will return a description of the "
+"image. English by default."
+msgstr ""
+"Idioma: el idioma que usará el servicio para devolver una descripción de la "
+"imagen. Por defecto, inglés."
+
+#. type: Bullet: '* '
+msgid ""
+"Maximum Candidates: maximum number of candidate descriptions to be returned. "
+"The default is 1."
+msgstr ""
+"Número máximo de candidatos: cantidad máxima de descripciones candidatas que "
+"se devuelven. Por defecto 1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Online OCR"
+msgstr "OCR en línea"
+
+#. type: Plain text
+msgid "Online engines rely on the use and presence of the following services."
+msgstr ""
+"Los motores en línea se apoyan en el uso y presencia de los siguientes "
+"servicios."
+
+#. type: Plain text
+msgid "<https://www.nvdacn.com>"
+msgstr "<https://www.nvdacn.com>"
+
+#. type: Plain text
+msgid "<https://ocr.space/ocrapi>"
+msgstr "<https://ocr.space/ocrapi>"
+
+#. type: Plain text
+msgid "<https://azure.microsoft.com/en-us/services/cognitive-services/>"
+msgstr "<https://azure.microsoft.com/es-es/services/cognitive-services/>"
+
+#. type: Plain text
+msgid "<http://ai.qq.com>"
+msgstr "<http://ai.qq.com>"
+
+#. type: Plain text
+msgid "<http://ai.baidu.com>"
+msgstr "<http://ai.baidu.com>"
+
+#. type: Plain text
+msgid "<http://ai.sogou.com/>"
+msgstr "<http://ai.sogou.com/>"
+
+#. type: Plain text
+msgid "<https://intl.cloud.tencent.com>"
+msgstr "<https://intl.cloud.tencent.com>"
+
+#. type: Title ##
+#, no-wrap
+msgid "Engines"
+msgstr "Motores"
+
+#. type: Plain text
+msgid "There are five engines available."
+msgstr "Hay cinco motores disponibles."
+
+#. type: Title ###
+#, no-wrap
+msgid "Tencent Cloud OCR"
+msgstr "Tencent Cloud OCR"
+
+#. type: Plain text
+msgid ""
+"This API is sponsored by [Tencent Cloud](https://intl.cloud.tencent.com) and "
+"[Aceessibility Research Association](http://www.siaa.org.cn), with a quota "
+"of 15000 per day."
+msgstr ""
+"Esta API está patrocinada por [Tencent Cloud](https://intl.cloud.tencent."
+"com) y la [Accessibility Research Association](http://www.siaa.org.cn), con "
+"un límite de 15000 por día."
+
+#. type: Plain text
+msgid "This engine support 19 languages."
+msgstr "Este motor soporta 19 idiomas."
+
+#. type: Bullet: '* '
+msgid "Chinese-English mix"
+msgstr "Una mezcla entre chino e inglés"
+
+#. type: Bullet: '* '
+msgid "Japanese"
+msgstr "Japonés"
+
+#. type: Bullet: '* '
+msgid "Korean"
+msgstr "Coreano"
+
+#. type: Bullet: '* '
+msgid "Spanish"
+msgstr "Español"
+
+#. type: Bullet: '* '
+msgid "French"
+msgstr "Francés"
+
+#. type: Bullet: '* '
+msgid "German"
+msgstr "Alemán"
+
+#. type: Bullet: '* '
+msgid "Portuguese"
+msgstr "Portugués"
+
+#. type: Bullet: '* '
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#. type: Bullet: '* '
+msgid "Malay"
+msgstr "Malayo"
+
+#. type: Bullet: '* '
+msgid "Russian"
+msgstr "Ruso"
+
+#. type: Bullet: '* '
+msgid "Italian"
+msgstr "Italiano"
+
+#. type: Bullet: '* '
+msgid "Dutch"
+msgstr "Holandés"
+
+#. type: Bullet: '* '
+msgid "Swedish"
+msgstr "Sueco"
+
+#. type: Bullet: '* '
+msgid "Finnish"
+msgstr "Finés"
+
+#. type: Bullet: '* '
+msgid "Danish"
+msgstr "Danés"
+
+#. type: Bullet: '* '
+msgid "Norwegian"
+msgstr "Noruego"
+
+#. type: Bullet: '* '
+msgid "Hungarian"
+msgstr "Húngaro"
+
+#. type: Bullet: '* '
+msgid "Thai"
+msgstr "Tailandés"
+
+#. type: Bullet: '* '
+msgid "Latin"
+msgstr "Latín"
+
+#. type: Plain text
+msgid "Here is the settings of this engine."
+msgstr "Estos son los ajustes de este motor."
+
+#. type: Bullet: '* '
+msgid "Language: Text language for recognition. Auto detection by default."
+msgstr ""
+"Idioma: idioma de reconocimiento del texto. Por defecto detectar "
+"automáticamente."
+
+#. type: Title ###
+#, no-wrap
+msgid "OCR space"
+msgstr "OCR space"
+
+#. type: Plain text
+msgid ""
+"This one is a paid API with free quota provided by [OCR Space](https://ocr."
+"space)"
+msgstr ""
+"Este servicio consta de una API de pago con cuota gratuita proporcionada por "
+"[OCR Space](https://ocr.space)"
+
+#. type: Plain text
+msgid "It supports 24 languages"
+msgstr "Soporta 24 idiomas"
+
+#. type: Bullet: '* '
+msgid "Arabic"
+msgstr "Árabe"
+
+#. type: Bullet: '* '
+msgid "Bulgarian"
+msgstr "Búlgaro"
+
+#. type: Bullet: '* '
+msgid "Chinese(Simplified)"
+msgstr "Chino (simplificado)"
+
+#. type: Bullet: '* '
+msgid "Chinese(Traditional)"
+msgstr "Chino (tradicional)"
+
+#. type: Bullet: '* '
+msgid "Croatian"
+msgstr "Croata"
+
+#. type: Bullet: '* '
+msgid "Czech"
+msgstr "Checo"
+
+#. type: Bullet: '* '
+msgid "English"
+msgstr "Inglés"
+
+#. type: Bullet: '* '
+msgid "Greek"
+msgstr "Griego"
+
+#. type: Bullet: '* '
+msgid "Polish"
+msgstr "Polaco"
+
+#. type: Bullet: '* '
+msgid "Slovenian"
+msgstr "Esloveno"
+
+#. type: Bullet: '* '
+msgid "Turkish"
+msgstr "Turco"
+
+#. type: Plain text
+msgid "Here are settings for this engine:"
+msgstr "Estos son los ajustes de este motor:"
+
+#. type: Bullet: '* '
+msgid "Language: text language for recognition. English by default."
+msgstr "Idioma: idioma de reconocimiento del texto. Por defecto inglés."
+
+#. type: Bullet: '* '
+msgid ""
+"Detect image orientation: if set to true, the API autorotates the image "
+"correctly."
+msgstr ""
+"Detectar orientación de la imagen: si se activa, la API gira automáticamente "
+"la imagen correctamente."
+
+#. type: Bullet: '* '
+msgid ""
+"Scale image for better quality: if set to true, the API does some internal "
+"upscaling. This can improve the OCR result significantly, especially for low-"
+"resolution PDF scans."
+msgstr ""
+"Escalar imagen para mejorar la calidad: si se activa, la API escala la "
+"imagen internamente. Esto puede mejorar el resultado del OCR de forma "
+"significativa, especialmente para documentos PDF escaneados con baja "
+"resolución."
+
+#. type: Bullet: '* '
+msgid ""
+"Optimize for table recognition: if set to true, the OCR logic makes sure "
+"that the parsed text result is always returned line by line. This switch is "
+"recommended for table OCR, receipt OCR, invoice processing and all other "
+"type of input documents that have a table like structure."
+msgstr ""
+"Optimizar para reconocimiento de tablas: si se activa, la lógica del OCR se "
+"asegura de que el texto del resultado interpretado siempre se devuelva línea "
+"a línea. Esta opción se recomienda para hacer OCR en tablas, recibos, "
+"facturas, y todos los tipos de documentos entrantes que tengan estructura de "
+"tabla."
+
+#. type: Plain text
+msgid "If you want to use your own key, you also need to specify API Key."
+msgstr ""
+"Si quieres usar tu propia clave, también deberás especificar tu clave de API."
+
+#. type: Plain text
+msgid ""
+"You can get your own free API key by registering on[OCR space](https://ocr."
+"space/ocrapi)"
+msgstr ""
+"Puedes obtener tu propia clave de API gratuita registrándote en [OCR space]"
+"(https://ocr.space/ocrapi)"
+
+#. type: Plain text
+msgid "Here is a simple guide."
+msgstr "Aquí hay una guía simple."
+
+#. type: Plain text
+msgid "Find the link \"Register for free API key\""
+msgstr "Busca el enlace \"Register for free API key\""
+
+#. type: Plain text
+msgid "Click on it and you will find a form to fill in."
+msgstr "Púlsalo y llegarás a un formulario que hay que rellenar."
+
+#. type: Plain text
+msgid "The form asks you to enter the following data"
+msgstr "El formulario te pide que introduzcas los siguientes datos"
+
+#. type: Bullet: '* '
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#. type: Bullet: '* '
+msgid "First Name"
+msgstr "Nombre"
+
+#. type: Bullet: '* '
+msgid "Last Name"
+msgstr "Apellidos"
+
+#. type: Bullet: '* '
+msgid "How do you plan to use the OCR API?"
+msgstr "¿Cómo tienes pensado usar la API del OCR?"
+
+#. type: Plain text
+msgid "After filling it and submit. You may also need to pass a captcha"
+msgstr ""
+"Después de rellenarlo y enviarlo, puede que tengas que superar un captcha"
+
+#. type: Plain text
+msgid "Then you will receive a confirmation e-mail"
+msgstr "A continuación, recibirás un correo electrónico de confirmación"
+
+#. type: Plain text
+msgid ""
+"Find the link named \"Yes, subscribe me to this list.\" in that e-mail. "
+"Access that link and you will receive API key by e-mail soon."
+msgstr ""
+"Busca el enlace \"Yes, subscribe me to this list.\" en ese correo. Accede a "
+"ese enlace y recibirás la clave de API pronto."
+
+#. type: Title ###
+#, no-wrap
+msgid "Microsoft Azure OCR"
+msgstr "Microsoft Azure OCR"
+
+#. type: Plain text
+msgid ""
+"This engine uses OCR API in Microsoft Azure Cognitive Services Computer "
+"Vision."
+msgstr ""
+"Este motor utiliza la API del OCR de los Servicios Cognitivos de Visión "
+"Artificial de Microsoft Azure."
+
+#. type: Plain text
+msgid "It supports 24 languages including"
+msgstr "Soporta 24 idiomas, incluyendo"
+
+#. type: Bullet: '* '
+msgid "Chinese Simplified"
+msgstr "Chino simplificado"
+
+#. type: Bullet: '* '
+msgid "Chinese Traditional"
+msgstr "Chino tradicional"
+
+#. type: Bullet: '* '
+msgid "Romanian"
+msgstr "Rumano"
+
+#. type: Bullet: '* '
+msgid "Serbian Cyrillic"
+msgstr "Serbio cirílico"
+
+#. type: Bullet: '* '
+msgid "Serbian Latin"
+msgstr "Serbio latino"
+
+#. type: Bullet: '* '
+msgid "Slovak"
+msgstr "Eslovaco"
+
+#. type: Bullet: '* '
+msgid "Language: text language for recognition. Auto detection by default."
+msgstr ""
+"Idioma: idioma de reconocimiento del texto. Por defecto detectar "
+"automáticamente."
+
+#. type: Plain text
+msgid ""
+"If you use your own key, you should get a subscription key for using "
+"Microsoft Computer Vision API from the link below:"
+msgstr ""
+"Si quieres usar tu propia clave, deberías obtener una clave de suscripción "
+"para utilizar la API de Visión Artificial de Microsoft desde el siguiente "
+"enlace:"
+
+#. type: Plain text
+msgid ""
+"Step 1: Create an account on [Azure website](https://azure.microsoft.com/en-"
+"ua/try/cognitive-services/)"
+msgstr ""
+"Paso 1: crea una cuenta en el [sitio web de Azure](https://azure.microsoft."
+"com/es-es/try/cognitive-services/)"
+
+#. type: Plain text
+msgid ""
+"Please note that the key must be created for the Computer Vision API. The "
+"first \"GET API key\" button you encounter with single key navigation. "
+"Currently Microsoft provides the option to create a trial key for 7 days. "
+"You can also sign up for a free azure account for more trail. Signing up "
+"requires a credit card. If you already have a subscription account, you can "
+"skip this step."
+msgstr ""
+"Ten en cuenta que debes crear una clave para la API de visión artificial. Es "
+"el primer botón \"Obtener clave de API\" que encuentras con la navegación de "
+"una sola letra. Actualmente Microsoft ofrece la opción de crear una clave de "
+"prueba que funciona durante 7 días. También puedes crear una cuenta gratuita "
+"de Azure para tener más pruebas. Al registrarse será obligatorio aportar los "
+"datos de una tarjeta de crédito. Si ya tienes una cuenta con suscripción, "
+"puedes saltarte este paso."
+
+#. type: Plain text
+msgid "Step 2: Deploy Cognitive Services"
+msgstr "Paso 2: despliega los servicios cognitivos"
+
+#. type: Plain text
+#, no-wrap
+msgid "Now you have an azure account.  \n"
+msgstr "Ahora tienes una cuenta de Azure.\n"
+
+#. type: Plain text
+msgid "First login on [Azure Portal](https://portal.azure.com)"
+msgstr ""
+"Primero, inicia sesión en el [portal de Azure](https://portal.azure.com)"
+
+#. type: Plain text
+msgid ""
+"Wait until you get the message Portal is Ready you are logged into azure "
+"portal."
+msgstr ""
+"Espera hasta que oigas el mensaje \"El portal está listo, has iniciado "
+"sesión en el portal de Azure\"."
+
+#. type: Plain text
+msgid ""
+"Find the link called All resources after All services button and activate it."
+msgstr ""
+"Busca el enlace llamado \"Todos los recursos\" después del botón \"Todos los "
+"servicios\" y actívalo."
+
+#. type: Plain text
+msgid ""
+"Wait until you get the message Blade All resources are ready , your focus "
+"will be an edit box, then press shift tab find a menu item called add and "
+"activate it."
+msgstr ""
+"Espera hasta que oigas el mensaje \"La hoja Todos los recursos está lista\". "
+"El foco se encontrará en un cuadro de edición. Pulsa shift+tab hasta que "
+"llegues a un elemento de menú llamado Agregar y actívalo."
+
+#. type: Plain text
+msgid ""
+"Wait until you get the message Search the Marketplace, type Cognitive "
+"Services and press down arrow."
+msgstr ""
+"Espera hasta que oigas el mensaje \"Buscar en marketplace\", escribe "
+"cognitive services y pulsa flecha abajo."
+
+#. type: Plain text
+msgid ""
+"Wait until you get the message List of options Cognitive Services one of "
+"five, then press enter."
+msgstr ""
+"Espera hasta que oigas el mensaje Lista de opciones Cognitive services 1 de "
+"5, y a continuación pulsa intro."
+
+#. type: Plain text
+msgid ""
+"Wait until you get the message Blade Cognitive Services is ready press tab "
+"or b to find a button named Create activate it."
+msgstr ""
+"Espera hasta que oigas el mensaje La hoja Cognitive Services está lista. "
+"Pulsa tab o la letra b para buscar un botón llamado Crear y actívalo."
+
+#. type: Plain text
+msgid ""
+"Wait until you get the message Blade Create is ready, your focus will be an "
+"edit box, type a name for this resource. Note that Your resource name can "
+"only include alphanumeric characters, '_', '-', and can't end with '_' or "
+"'-'."
+msgstr ""
+"Espera hasta que oigas el mensaje La hoja Crear está lista. El foco estará "
+"en un cuadro de edición. Escribe un nombre para el recurso. Ten en cuenta "
+"que el nombre del recurso sólo puede incluir caracteres alfanuméricos, '_' y "
+"'-', y no puede terminar en '_' ni '-'."
+
+#. type: Plain text
+msgid "I choose NVDA_OCR."
+msgstr "Yo elijo NVDA_OCR."
+
+#. type: Plain text
+msgid ""
+"Press tab to go to Subscription combo box. Usually you can leave it as is."
+msgstr ""
+"Pulsa tab para ir al cuadro combinado de suscripción. Normalmente puedes "
+"dejarlo como está."
+
+#. type: Plain text
+#, no-wrap
+msgid "Press tab to go to Location combo box. Choose one close to your current location.  \n"
+msgstr "Pulsa tabulador para ir al cuadro combinado de región. Elige una que se encuentre cerca de tu ubicación actual.\n"
+
+#. type: Plain text
+msgid ""
+"Be sure to remember this since location is required in engine configuration."
+msgstr ""
+"Recuerda esta región, ya que tendrás que especificarla en la configuración "
+"del motor."
+
+#. type: Plain text
+msgid ""
+"Press tab to go to Pricing tie combo box. Usually a free tie like F0 is "
+"adequate. If that is not enough you can choose other tier after reading full "
+"pricing details in View full pricing details link."
+msgstr ""
+"Pulsa tabulador para ir al cuadro combinado de capa. Normalmente una capa "
+"gratuita como f0 es adecuada. Si no es suficiente para ti, puedes elegir "
+"otra capa después de leer todos los detalles del precio en el enlace \"Ver "
+"detalles completos del precio\"."
+
+#. type: Plain text
+#, no-wrap
+msgid "Press tab to go to Create new Resource group  edit box. You should create one if you do not have any Resource group. Press tab  find Create new button.  \n"
+msgstr "Tabula hasta que llegues a un cuadro de edición llamado Crear nuevo grupo de recursos. Deberías crear uno si no tienes ninguno. Busca el botón Crear Nuevo.\n"
+
+#. type: Plain text
+msgid "Then press tab go to Create Button to create this resource."
+msgstr ""
+"Después pulsa tab hasta el botón Crear y actívalo para crear este recurso."
+
+#. type: Plain text
+msgid "Wait until you get the message Deployment succeeded."
+msgstr "Espera hasta que oigas el mensaje \"Despliegue completado_\"."
+
+#. type: Plain text
+msgid ""
+"Then find Go to resource button sometimes you need go up to activate "
+"Notifications button before you can find Go to resource button."
+msgstr ""
+"Después busca el botón \"Ir al recurso\". A veces es necesario subir y "
+"activar el botón Notificaciones para encontrar este botón."
+
+#. type: Plain text
+msgid "Wait until you get the message Blade Quick Start is busy."
+msgstr "Espera hasta que oigas el mensaje La hoja Primeros pasos está lista."
+
+#. type: Plain text
+msgid "Find the link named keys, then activate it."
+msgstr "Busca el enlace llamado Claves y actívalo."
+
+#. type: Plain text
+msgid "Wait until you get the message Blade Manage keys is ready."
+msgstr "Espera hasta que oigas el mensaje La hoja Gestionar claves está lista."
+
+#. type: Plain text
+msgid ""
+"Find edit box named key 1 or key 2. The content of that edit box is the API "
+"key required in engine configuration. Press Ctrl-C to copy it for engine "
+"configuration"
+msgstr ""
+"Busca un cuadro de edición llamado Clave 1 o Clave 2. El contenido de ese "
+"cuadro de edición es la clave de API que se necesita para la configuración "
+"del motor. Pulsa ctrl+c para copiarla al portapapeles"
+
+#. type: Plain text
+msgid ""
+"Then you can fill in these two settings required if you use your own API key."
+msgstr ""
+"A continuación, puedes rellenar estas dos opciones, necesarias si usas tu "
+"propia clave de API."
+
+#. type: Bullet: '* '
+msgid ""
+"Azure resource Region: the region you choose when deploying Cognitive "
+"Services in Azure Portal."
+msgstr ""
+"Región de recursos de Azure: la región que elegiste al desplegar los "
+"servicios cognitivos en el portal de Azure."
+
+#. type: Bullet: '* '
+msgid ""
+"API key: the key you get after successfully deploying Cognitive Services in "
+"Azure Portal, KEY 2 is recommended."
+msgstr ""
+"Clave de API: la clave que obtienes al desplegar con éxito los servicios "
+"cognitivos en el portal de Azure, se recomienda la clave 2."
+
+#. type: Title ###
+#, no-wrap
+msgid "Baidu OCR"
+msgstr "Baidu OCR"
+
+#. type: Plain text
+msgid "This one is also a paid API with free quota provided by Baidu."
+msgstr ""
+"Este también ofrece una API de pago con cuota gratuita proporcionada por "
+"Baidu."
+
+#. type: Plain text
+msgid "Baidu OCR supports 10 languages including"
+msgstr "El OCR de Baidu soporta 10 idiomas, incluyendo"
+
+#. type: Bullet: '* '
+msgid "Chinese and English mixture"
+msgstr "Una mezcla entre chino e inglés"
+
+#. type: Plain text
+msgid "This engine can also get position of every character"
+msgstr "Este motor también puede obtener la posición de cada carácter"
+
+#. type: Plain text
+msgid "Here are its settings:"
+msgstr "Aquí están sus ajustes:"
+
+#. type: Bullet: '* '
+msgid ""
+"Get position of every character allows you to do more precise operation on "
+"some inaccessible application. Enabling this will make recognition slightly "
+"slower."
+msgstr ""
+"Obtener posición de cada carácter: permite operar de forma más precisa en "
+"algunas aplicaciones inaccesibles. Al activar esta opción el reconocimiento "
+"se volverá algo más lento."
+
+#. type: Bullet: '* '
+msgid ""
+"Use Accurate API: if is enabled will use a different endpoint. That accurate "
+"endpoint takes longer time but has higher quality and (If you use your own "
+"API key its price is also higher)."
+msgstr ""
+"Usar API precisa: si se habilita usará otro punto de conexión. Esta conexión "
+"precisa dura más tiempo, pero tiene mejor calidad y (si usas tu propia clave "
+"de API) el precio es más alto."
+
+#. type: Plain text
+msgid "It has four endpoints with separate quota limit."
+msgstr "Tiene cuatro conexiones con límites de cuota separados."
+
+#. type: Bullet: '* '
+msgid ""
+"Basic OCR without any information about text location. Currently 50000 times "
+"a day."
+msgstr ""
+"OCR básico sin información sobre la ubicación del texto. Actualmente 50000 "
+"veces al día."
+
+#. type: Bullet: '* '
+msgid ""
+"Basic OCR with information about text location. Currently 500 times a day."
+msgstr ""
+"OCR básico con información sobre la ubicación del texto. Actualmente 500 "
+"veces al día."
+
+#. type: Bullet: '* '
+msgid ""
+"Accurate OCR without any information about text location. Currently 500 "
+"times a day."
+msgstr ""
+"OCR preciso sin información sobre la ubicación del texto. Actualmente 500 "
+"veces al día."
+
+#. type: Bullet: '* '
+msgid ""
+"Accurate with information about text location. Currently 50 times a day."
+msgstr ""
+"Preciso con información sobre la ubicación del texto. Actualmente 50 veces "
+"al día."
+
+#. type: Plain text
+#, no-wrap
+msgid "If you press the gesture which only read result, you are using endpoints without any information about text location.  \n"
+msgstr "Si pulsas el gesto que sólo lee el resultado, usarás conexiones sin información de posición del texto.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "If you press the gesture which shows an result viewer, you are using endpoints with information about text location.  \n"
+msgstr "Si pulsas el gesto que muestra el visor de resultados, usarás las conexiones que muestran información sobre la ubicación del texto.\n"
+
+#. type: Plain text
+msgid ""
+"Though it provides a quite generous free quota, its website is Chinese only "
+"and not quite accessible."
+msgstr ""
+"Aunque proporciona una cuota gratuita bastante generosa, su sitio web sólo "
+"está en chino y no es muy accesible."
+
+#. type: Title ###
+#, no-wrap
+msgid "Tencent AI OCR"
+msgstr "Tencent AI OCR"
+
+#. type: Plain text
+#, no-wrap
+msgid "This API is free to use with frequency limit about two query per second.  \n"
+msgstr "Esta API tiene uso gratuito, con un límite de frecuencia de dos consultas por segundo.  \n"
+
+#. type: Plain text
+msgid ""
+"If you want to bypass the limit you can register your own API key. The "
+"website of this API is Chinese only and not quite accessible."
+msgstr ""
+"Si quieres sobrepasar el límite, puedes registrar tu propia clave de API. La "
+"web de esta API se encuentra sólo en chino y no es muy accesible."
+
+#. type: Plain text
+#, no-wrap
+msgid "There is no information about language support in the document. According to my test Chinese and English and their mixture is supported.  \n"
+msgstr "No hay información sobre los idiomas soportados en la documentación de esta API. Según las pruebas realizadas, se soportan el chino, el inglés y una mezcla de ambos.\n"
+
+#. type: Plain text
+msgid "There is no additional configuration for this API."
+msgstr "No hay configuración adicional para esta API."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change Log"
+msgstr "Registro de cambios"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.19"
+msgstr "0.19"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2020.2"
+msgstr "Compatible con NVDA 2020.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Add Tencent Cloud OCR engine sponsored by [Tencent Cloud](https://intl.cloud."
+"tencent.com) and [Aceessibility Research Association](http://www.siaa.org.cn)"
+msgstr ""
+"Se ha añadido el OCR de Tencent Cloud, patrocinado por [Tencent Cloud]"
+"(https://intl.cloud.tencent.com) y la [Accessibility Research Association]"
+"(http://www.siaa.org.cn)"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed unavailable Sougou OCR and Machine Learning Engine by Oliver Edholm."
+msgstr ""
+"Se han eliminado el OCR Sougou y el motor de aprendizaje automático de "
+"Oliver Edholm, ya que no están disponibles."
+
+#. type: Bullet: '* '
+msgid "Fix public endpoint on [NVDA China Site](https://www.nvdacn.com)"
+msgstr ""
+"Se corrige la conexión pública al [sitio de NVDA en China](https://www."
+"nvdacn.com)"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.18"
+msgstr "0.18"
+
+#. type: Bullet: '* '
+msgid "Compatible with python3"
+msgstr "Compatible con Python 3"
+
+#. type: Bullet: '* '
+msgid ""
+"Introduce the concept of recognition source type and engine type to reduce "
+"gesture usage."
+msgstr ""
+"Se introducen los conceptos de tipo de fuente de reconocimiento y tipo de "
+"motor para reducir el uso de gestos."
+
+#. type: Bullet: '* '
+msgid ""
+"Add a new unassigned gesture to cycle through different recognition source "
+"types."
+msgstr ""
+"Se añade un gesto nuevo sin asignar para alternar entre los diferentes tipos "
+"de fuentes de reconocimiento."
+
+#. type: Bullet: '* '
+msgid ""
+"Add a new unassigned gesture to cycle through different recognition engine "
+"types."
+msgstr ""
+"Se añade un nuevo gesto sin asignar para alternar entre los diferentes tipos "
+"de motores de reconocimiento."
+
+#. type: Bullet: '* '
+msgid ""
+"Add a new gesture to recognize according to image source and engine type "
+"setting."
+msgstr ""
+"Se añade un nuevo gesto para reconocer según los ajustes de fuente de la "
+"imagen y tipo de motor."
+
+#. type: Bullet: '* '
+msgid ""
+"Add a new unassigned gesture to show previous result in a virtual result "
+"document."
+msgstr ""
+"Se añade un nuevo gesto sin asignar para mostrar el resultado anterior en un "
+"documento de resultado virtual."
+
+#. type: Title ###
+#, no-wrap
+msgid "0.17"
+msgstr "0.17"
+
+#. type: Bullet: '* '
+msgid "Fixed following issues:"
+msgstr "Se han corregido los siguientes problemas:"
+
+#. type: Bullet: '    * '
+msgid ""
+"Jump directly to panel when switch to onlineImageDescriber in settings dialog"
+msgstr ""
+"Se salta directamente al panel cuando se cambia a Descriptor de imágenes en "
+"línea en el diálogo de opciones"
+
+#. type: Bullet: '    * '
+msgid "Fix wrong description in azure analyzer"
+msgstr "Errata de descripción en el analizador de Azure"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.16"
+msgstr "0.16"
+
+#. type: Bullet: '* '
+msgid "Add a cancel recognition gesture"
+msgstr "Se ha añadido un gesto para cancelar el reconocimiento"
+
+#. type: Bullet: '    * '
+msgid "CheckListBox state change not announced"
+msgstr ""
+"No se anunciaban los cambios de estado en la lista de casillas de "
+"verificación"
+
+#. type: Bullet: '    * '
+msgid ""
+"Swap the effect of repeated gesture not working in online image describer"
+msgstr ""
+"Intercambiar el efecto de gestos repetidos no funcionaba en Online Image "
+"Describer"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.15"
+msgstr "0.15"
+
+#. type: Bullet: '* '
+msgid ""
+"Add an option to pop up a window containing message instead of speech or "
+"braille message for text results"
+msgstr ""
+"Se ha añadido una opción para mostrar una ventana que contiene el mensaje en "
+"vez de usar mensajes de voz y braille para el texto de los resultados"
+
+#. type: Bullet: '* '
+msgid ""
+"Change checkboxes for visual features in Microsoft Azure Image Analyzer into "
+"a CheckBoxList."
+msgstr ""
+"Las casillas de verificación con las características visuales del analizador "
+"de imágenes de Microsoft Azure ahora están en una lista."
+
+#. type: Bullet: '* '
+msgid "Fix following issues:"
+msgstr "Se han corregido los siguientes problemas:"
+
+#. type: Bullet: '    * '
+msgid "Cannot load jpg image file from clipboard"
+msgstr "No se podía cargar un archivo de imagen JPG desde el portapapeles"
+
+#. type: Bullet: '    * '
+msgid "Result document object do not show up after recognition."
+msgstr ""
+"El objeto del documento con el resultado no se mostraba después del "
+"reconocimiento."
+
+#. type: Bullet: '    * '
+msgid ""
+"Position in result document objects are not reliable if image is resized "
+"internally."
+msgstr ""
+"La posición en los objetos del documento de resultados no era fiable si la "
+"imagen se redimensionaba internamente."
+
+#. type: Bullet: '    * '
+msgid ""
+"Result from Microsoft Azure Image Describer is in the same line which makes "
+"it hard to navigate around."
+msgstr ""
+"El resultado del analizador de imágenes de Microsoft Azure se mostraba en "
+"una línea, complicando la navegación."
+
+#. type: Title ###
+#, no-wrap
+msgid "0.14"
+msgstr "0.14"
+
+#. type: Bullet: '* '
+msgid "Fixed some bugs:"
+msgstr "Corregidos algunos fallos:"
+
+#. type: Bullet: '    * '
+msgid "Cannot use your own API key in Microsoft Azure engines"
+msgstr ""
+"No podías usar tu propia clave de API en los motores de Microsoft Azure"
+
+#. type: Bullet: '    * '
+msgid "Cannot get text result if there is a braille display"
+msgstr ""
+"No se podía obtener el texto del resultado si había una pantalla braille"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.13"
+msgstr "0.13"
+
+#. type: Bullet: '* '
+msgid ""
+"Make sure that the add-on works when reloading the plug-ins without restart "
+"(NVDA+Control+F3)"
+msgstr ""
+"Ahora el complemento funciona al recargar los plugins sin reiniciar (NVDA"
+"+ctrl+f3)"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.12"
+msgstr "0.12"
+
+#. type: Bullet: '* '
+msgid "Fixed browse mode message of Microsoft Azure Image Describer"
+msgstr ""
+"Corregido el mensaje en modo exploración del descriptor de imágenes de "
+"Microsoft Azure"
+
+#. type: Bullet: '* '
+msgid "The accent color is now represented as NVDA colour descriptions."
+msgstr ""
+"El tono del color ahora se representa con la descripción de colores de NVDA."
+
+#. type: Bullet: '* '
+msgid "Improved result format of Microsoft Azure Image Analyser"
+msgstr ""
+"Se ha mejorado el formato de resultado del analizador de imágenes de "
+"Microsoft Azure"
+
+#. type: Bullet: '* '
+msgid "Improve document according to review comments"
+msgstr ""
+"Se ha mejorado la documentación a partir de los comentarios de la revisión"
+
+#. type: Bullet: '* '
+msgid "Fixed gesture inconsistency."
+msgstr "Corregida inconsistencia de gestos."
+
+#. type: Bullet: '* '
+msgid "Control+Shift+NVDA for clipboard while NVDA+ALT for navigator object"
+msgstr ""
+"Ctrl+shift+NVDA para el portapapeles y NVDA+alt para el navegador de objetos"
+
+#. type: Bullet: '* '
+msgid "Fix missing imageInfo error while recognizing."
+msgstr ""
+"Se ha corregido un error de información ausente de imagen mientras se "
+"reconocía."
+
+#. type: Title ###
+#, no-wrap
+msgid "0.11"
+msgstr "0.11"
+
+#. type: Bullet: '* '
+msgid "Added image description capability"
+msgstr "Se ha añadido la capacidad de describir imágenes"
+
+#. type: Bullet: '* '
+msgid "Change addon summary to online image describer"
+msgstr ""
+"Se ha cambiado la descripción corta del complemento a Online Image Describer"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.10"
+msgstr "0.10"
+
+#. type: Bullet: '* '
+msgid "Fix error using user's own API key in sougou API."
+msgstr ""
+"Corregido un error al utilizar la clave propia de API del usuario en la API "
+"de Sougou."
+
+#. type: Bullet: '* '
+msgid "Fix unknown panel issue by adding settings to supportedSettings"
+msgstr ""
+"Corregido un problema de panel desconocido añadiendo los ajustes a "
+"supportedSettings"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.9"
+msgstr "0.9"
+
+#. type: Bullet: '* '
+msgid "Fix double press gesture no effect issue."
+msgstr ""
+"Corregido un problema que provocaba que no hubiera efecto alguno al realizar "
+"una doble pulsación."
+
+#. type: Bullet: '* '
+msgid "Revised document to reflect changes in code."
+msgstr ""
+"Se ha revisado la documentación para reflejar los cambios más recientes en "
+"el código."
+
+#. type: Bullet: '* '
+msgid ""
+"Clarified what kind of clipboard image is supported and how to copy image "
+"for recognition."
+msgstr ""
+"Se ha clarificado qué tipo de imágenes del portapapeles se soportan y cómo "
+"copiarlas para reconocerlas."
+
+#. type: Bullet: '* '
+msgid "Fixed the clipboard recognition cannot open result viewer issue."
+msgstr ""
+"Solucionado el problema que impedía abrir el visor de resultados cuando se "
+"hacía el reconocimiento desde el portapapeles."
+
+#. type: Bullet: '* '
+msgid "Added support to recognize copied local image file path in clipboard."
+msgstr ""
+"Se ha añadido soporte para reconocer una imagen desde una ruta de archivo "
+"local copiada al portapapeles."
+
+#. type: Title ###
+#, no-wrap
+msgid "0.8"
+msgstr "0.8"
+
+#. type: Bullet: '* '
+msgid "Added friendly notice if recognition result is empty."
+msgstr ""
+"Se ha añadido un aviso más amigable si el resultado del reconocimiento está "
+"vacío."
+
+#. type: Bullet: '* '
+msgid "Fixed another place do not work well with non ascii config path"
+msgstr ""
+"Resuelto otro problema que provocaba un mal funcionamiento si la ruta a los "
+"archivos de configuración contiene caracteres no ASCII"
+
+#. type: Title ###
+#, no-wrap
+msgid "0.6"
+msgstr "0.6"
+
+#. type: Bullet: '* '
+msgid ""
+"Added proxy settings for people with access of Internet behind a specific "
+"proxy."
+msgstr ""
+"Se han añadido opciones de proxy para aquellos usuarios que accedan a "
+"Internet a través de un proxy específico."
+
+#. type: Bullet: '* '
+msgid "Added several general options."
+msgstr "Se han añadido varias opciones generales."
+
+#. type: Bullet: '* '
+msgid "Fix Unicode decode error due to sending Unicode URL to urllib3."
+msgstr ""
+"Se ha corregido un error de decodificación Unicode causado por el envío de "
+"una URL Unicode a urllib3."
+
+#. type: Title ###
+#, no-wrap
+msgid "0.5"
+msgstr "0.5"
+
+#. type: Bullet: '* '
+msgid ""
+"Fix Unicode error if OCR engine upload image file directly instead of base64 "
+"encode."
+msgstr ""
+"Se ha corregido un error Unicode que ocurría si el motor del OCR subía el "
+"archivo de imagen directamente en vez de codificarlo en Base64."
+
+#. type: Bullet: '* '
+msgid ""
+"Change gesture of recognizing clipboard to Control+Shift+NVDA+R since NVDA"
+"+Shift+R is used in Word and Excel to define row headers in tables, or to "
+"delete the definitions when pressed twice."
+msgstr ""
+"Modificado el gesto para reconocer el portapapeles a ctrl+NVDA+shift+r, ya "
+"que NVDA+shift+r se usa en Word y Excel para definir cabeceras de fila en "
+"tablas, o para eliminar las definiciones si se pulsan dos veces."
+
+#. type: Title ###
+#, no-wrap
+msgid "0.4"
+msgstr "0.4"
+
+#. type: Bullet: '* '
+msgid "Fix installation error when config path contains non-ascii characters"
+msgstr ""
+"Se ha corregido un error de instalación que ocurría cuando la ruta a la "
+"configuración contenía caracteres no ASCII"
+
+#. type: Bullet: '* '
+msgid "Change gesture to avoid collision with golden cursor."
+msgstr "Se ha cambiado el gesto para evitar una colisión con Golden Cursor."
+
+#. type: Bullet: '* '
+msgid ""
+"Change default engine to Microsoft azure because it can detect text language "
+"automatically."
+msgstr ""
+"Se ha cambiado el motor por defecto a Microsoft Azure, ya que es capaz de "
+"detectar automáticamente el idioma del texto."
+
+#. type: Title ###
+#, no-wrap
+msgid "0.3  "
+msgstr "0.3  "
+
+#. type: Bullet: '* '
+msgid "Add detail documentation on how to get API key of Microsoft Azure OCR"
+msgstr ""
+"Se ha añadido documentación detallada sobre cómo obtener la clave de API del "
+"OCR de Microsoft Azure"
+
+#. type: Bullet: '* '
+msgid "Fix issue about new installation."
+msgstr "Se ha corregido un problema con las nuevas instalaciones."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed auto OCR since this feature is problematic and may confuse with "
+"online engines. Auto OCR will be a separate addon, when it is stable enough."
+msgstr ""
+"Eliminado el OCR automático, ya que esta función es problemática y puede "
+"resultar confusa con los motores en línea. AutoOCR se liberará como un "
+"complemento separado cuando sea suficientemente estable."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=oid-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=oid-dev"

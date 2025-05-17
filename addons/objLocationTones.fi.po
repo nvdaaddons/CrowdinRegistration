@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Object location tones\n"
+"POT-Creation-Date: 2023-05-25 07:07+0000\n"
+"PO-Revision-Date: 2023-05-25 17:06+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Object Location Tones\"]]\n"
+msgstr "[[!meta title=\"Objektin sijaintiäänet\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee"
+msgstr "Tekijä: Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr "Yhteensopivuus: NVDA 2022.4 ja uudemmat"
+
+#. type: Bullet: '* '
+msgid "Note: this add-on is no longer actively maintained since 2021."
+msgstr ""
+"Huom: Tätä lisäosaa ei enää ylläpidetä aktiivisesti vuoden 2021 jälkeen."
+
+#. type: Plain text
+msgid ""
+"After installing this add-on and restarting NVDA (or when you enable this "
+"add-on), as you navigate to different controls, you'll hear tones to "
+"indicate where the object is located on screen. To turn object location "
+"tones off, uninstall or disable this add-on from add-ons manager."
+msgstr ""
+"Kun olet asentanut tämän lisäosan (tai ottanut sen käyttöön) ja käynnistänyt "
+"NVDA:n uudelleen, kuulet objektin sijainnin ruudulla ilmaisevia äänimerkkejä "
+"siirtyessäsi eri säätimiin. Poista objektin sijaintiäänet käytöstä "
+"poistamalla lisäosan asennus tai poistamalla se käytöstä lisäosien "
+"hallinnasta."
+
+#. type: Plain text
+msgid "Important notes:"
+msgstr "Tärkeitä huomautuksia:"
+
+#. type: Bullet: '* '
+msgid ""
+"If using Audio Themes or similar add-ons, it is advised to disable Object "
+"Location Tones add-on."
+msgstr ""
+"Mikäli käytössä on Ääniteemat- tai muu samankaltainen lisäosa,  Objektin "
+"sijaintiäänet -lisäosan käytöstä poistaminen on suositeltavaa."
+
+#. type: Bullet: '* '
+msgid "If a control is offscreen, tones will not be played."
+msgstr "Jos säädin on näytön ulkopuolella, ääniä ei toisteta."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=objLocTones"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=objLocTones"
+
+#~ msgid ""
+#~ "Download [older version][2] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr ""
+#~ "Lataa [vanhempi versio,][2] joka on yhteensopiva NVDA 2019.2.1:n ja sitä "
+#~ "vanhempien kanssa"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=objLoc-2019"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=objLoc-2019"

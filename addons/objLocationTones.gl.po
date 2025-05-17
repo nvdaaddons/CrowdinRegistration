@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: website add-ons files\n"
+"POT-Creation-Date: 2023-05-25 07:07+0000\n"
+"PO-Revision-Date: 2023-01-18 12:38+0100\n"
+"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
+"Language-Team: Galician translation team <oprisniki@gmail.com>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Object Location Tones\"]]\n"
+msgstr "[[!meta title=\"Object Location Tones\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee"
+msgstr "Autor: Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Descargar [Versión estable][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr "Compatibilidade con NVDA: 2022.4 e posterior"
+
+#. type: Bullet: '* '
+msgid "Note: this add-on is no longer actively maintained since 2021."
+msgstr "Nota: este complemento xa non se mantén activamente dende 2021."
+
+#. type: Plain text
+msgid ""
+"After installing this add-on and restarting NVDA (or when you enable this "
+"add-on), as you navigate to different controls, you'll hear tones to "
+"indicate where the object is located on screen. To turn object location "
+"tones off, uninstall or disable this add-on from add-ons manager."
+msgstr ""
+"Despois de instalar este complemento e de reiniciar o NVDA (para cando "
+"habilites este complemento), segundo navegues a diferentes controis, "
+"escoitarás tons para indicar onde está localizado o obxecto na pantalla. "
+"Para desactivar os tons de localización do obxecto, desinstala ou "
+"deshabilita este complemento dende  o Administrador de complementos."
+
+#. type: Plain text
+msgid "Important notes:"
+msgstr "Notas importantes:"
+
+#. type: Bullet: '* '
+msgid ""
+"If using Audio Themes or similar add-ons, it is advised to disable Object "
+"Location Tones add-on."
+msgstr ""
+"Se usas Audio Themes ou complementos semellantes, aconséllase deshabilitar o "
+"complemento Object Location Tones."
+
+#. type: Bullet: '* '
+msgid "If a control is offscreen, tones will not be played."
+msgstr "Se un control está fora da pantalla, os tons non se reproducirán."
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev stable]]\n"
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objLoc"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=objLocTones"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=objLoc"
+
+#~ msgid ""
+#~ "Download [older version][2] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr ""
+#~ "Descargar [versión máis antiga][2] compatible con NVDA 2019.2.1 e "
+#~ "anteriores"
+
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objLoc"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=objLoc-2019"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=objLoc-2019"

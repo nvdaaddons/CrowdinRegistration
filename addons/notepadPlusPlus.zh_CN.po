@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 19:14+0000\n"
+"PO-Revision-Date: 2022-09-18 13:16+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Notepad++\"]]\n"
+msgstr "[[!meta title=\"Notepad++ 增强插件\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Derek Riemer, Tuukka Ojala"
+msgstr "作者: Derek Riemer, Tuukka Ojala"
+
+#. type: Bullet: '* '
+msgid "Download [Stable Version][1]"
+msgstr "下载 [稳定版][1]"
+
+#. type: Plain text
+msgid ""
+"This addon improves the accessibility of the notepad++ text editor. To learn "
+"more, and to read the documentation before installation, visit [the addons "
+"github page](https://github.com/derekriemer/nvda-notepadplusplus)"
+msgstr ""
+"此插件改进了notepad++文本编辑器的无障碍体验性。要了解更多信息，并在安装前阅读"
+"文档，请访问[插件的 Github 页面](https://github.com/derekriemer/nvda-"
+"notepadplusplus)"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[1]: https://addons.nvda-project.org/files/get.php?file=NotepadPlusPlus"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=NotepadPlusPlus"
+msgstr ""
+"[1]: https://addons.nvda-project.org/files/get.php?file=NotepadPlusPlus"
+
+#~ msgid ""
+#~ "[1]: https://files.derekriemer.com/NotepadPlusPlus-2019.09.0.nvda-addon"
+#~ msgstr ""
+#~ "[1]: https://files.derekriemer.com/NotepadPlusPlus-2019.09.0.nvda-addon"

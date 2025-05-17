@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-22 17:52+0000\n"
+"PO-Revision-Date: 2023-02-02 13:42+0100\n"
+"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
+"Language-Team: \n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Event Tracker\"]]\n"
+msgstr "[[!meta title=\"Event Tracker\"]]\n"
+
+#. type: Title #
+#, fuzzy, no-wrap
+#| msgid "Event name"
+msgid "Event Tracker"
+msgstr "Nome do evento"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Author: Joseph Lee, Thiago Seus"
+msgid "Author: Joseph Lee, Thiago Seus"
+msgstr "Autor: Joseph Lee, Thiago Seus"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Descargar [Versión estable][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr "Compatibilidade con NVDA: 2022.4 e posterior"
+
+#. type: Plain text
+msgid ""
+"This add-on outputs information about objects for which events were fired. "
+"Properties recorded in debug log mode include object type, name, role, "
+"event, app module, and accessibility API specific information such as "
+"accName for IAccessible object and Automation Id for UIA objects."
+msgstr ""
+"Este complemento fornece información sobre obxectos para os que se "
+"dispararon eventos. As propiedades gravadas no modo depuración do rexistro "
+"inclúen o tipo de obxecto, nome, rol, evento, módulo de aplicación, e "
+"informaación específica da API de accesibilidade como accName para obxectos "
+"IAccessible e Automation Id para obxectos UIA."
+
+#. type: Plain text
+msgid "Notes:"
+msgstr "Notas:"
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on is designed for developers and power users needing to track "
+"events coming from apps and various controls."
+msgstr ""
+"Este complemento está deseñado para desenvolvedores e usuarios avanzados que "
+"necesiten vixiar eventos provenientes de apps e varios controis."
+
+#. type: Bullet: '* '
+msgid ""
+"In order to use the add-on, NVDA must be logging in debug mode (configured "
+"from general settings/logging level, or restart with debug logging enabled)."
+msgstr ""
+"Para utilizar o complemento, NVDA ten que estar rexistrando en modo "
+"depuración (configurado dende as opcións xerais/nivel do logging, ou "
+"reiniciando co rexistro de depuración habilitado)."
+
+#. type: Bullet: '* '
+msgid ""
+"It might be possible that add-ons loaded earlier than Event Tracker may not "
+"pass on the event to other add-ons, including Event Tracker. If this "
+"happens, Event Tracker will not be able to log events."
+msgstr ""
+"Podería ser posible que que complementos cargados antes que Event Tracker "
+"non pasasen os eventos a outros complementos, incluído Event Tracker. Se "
+"isto sucede, Event Tracker non será capaz de rexistrar eventos."
+
+#. type: Bullet: '* '
+msgid ""
+"Events are handled from global plugins, app modules, tree interceptors, and "
+"NVDA objects, in that order."
+msgstr ""
+"Os eventos recóllense dende as extensións globais (global plugins), os "
+"módulos de aplicación, os interceptores de árbore e obxectos de NVDA, nesa "
+"orde."
+
+#. type: Title ##
+#, no-wrap
+msgid "Events and their information"
+msgstr "Os eventos e a súa información"
+
+#. type: Plain text
+msgid "The following events are tracked and recorded:"
+msgstr "Séguense e grávanse os seguintes eventos:"
+
+#. type: Bullet: '* '
+msgid "Focus manipulation: gain focus, lose focus, focus entered, foreground"
+msgstr ""
+"Manipulación do foco: obter foco, perder foco, entrada do foco, primeiro "
+"plano"
+
+#. type: Bullet: '* '
+msgid "Changes: name, value, state, description, live region"
+msgstr "Cambios: nome, valor, estado, descrición, rexión activa"
+
+#. type: Bullet: '* '
+msgid "Other events: alert"
+msgstr "Outros eventos: alert"
+
+#. type: Bullet: '* '
+msgid ""
+"UIA events: controller for, drag drop and drop target effects, element "
+"selected, item status, layout invalidated, notification, system alert, text "
+"change, tooltip open, window open"
+msgstr ""
+"Eventos UIA: controller for, efectos drag drop e drop target, element "
+"selected, item status, layout invalidated, notification, system alert, text "
+"change, tooltip open, window open"
+
+#. type: Plain text
+msgid "For each event, the following information will be recorded:"
+msgstr "Para cada evento, gravarase a seguinte información:"
+
+#. type: Bullet: '* '
+msgid "Event name"
+msgstr "Nome do evento"
+
+#. type: Bullet: '* '
+msgid "Object"
+msgstr "Obxecto"
+
+#. type: Bullet: '* '
+msgid "Object name"
+msgstr "Nome do obxecto"
+
+#. type: Bullet: '* '
+msgid "Object role"
+msgstr "Rol do obxecto"
+
+#. type: Bullet: '* '
+msgid "Object value or state depending on events"
+msgstr "Valor ou estado do obxecto, depende do evento"
+
+#. type: Bullet: '* '
+msgid "App module"
+msgstr "Módulo de aplicación"
+
+#. type: Bullet: '* '
+msgid "For IAccessible objects: acc name, child ID"
+msgstr "Para obxectos IAccessible: acc name, child ID"
+
+#. type: Bullet: '* '
+msgid ""
+"For UIA objects: Automation Id, class name, notification properties if "
+"recording notification event information, child count for layout invalidated "
+"event, properties for item status, drag drop, and drop target effect if "
+"defined"
+msgstr ""
+"Para obxectos UIA: Automation Id, class name, propiedades da notificación se "
+"se están rexistrando notificacións UIA, child count para o evento layout "
+"invalidated, properties para item status, efecto drag drop, and drop target "
+"se se definiu"
+
+#. type: Plain text
+msgid ""
+"You can also assign a gesture to view the events on a list (NVDA menu/"
+"Preferences/Input gestures, Event Tracker category). The list saves up to "
+"100 latest events processed."
+msgstr ""
+"Tamén podes asignar un xesto para ver os eventos nunha lista (menú NVDA/"
+"Preferencias/Xestos de entrada, categoría Event Tracker). A lista garda ata "
+"os 100 eventos máis recentes."
+
+#. type: Plain text
+msgid ""
+"If you find this add-on useful, please [review it][2] in the NVDA Add-on "
+"Store."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 22.10"
+msgid "Version 24.1.0"
+msgstr "Versión 22.10"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA compatibility: 2022.4 and later"
+msgid "NVDA 2024.1 compatibility."
+msgstr "Compatibilidade con NVDA: 2022.4 e posterior"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Versión 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "Require NVDA 2022.4 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Requírese Windows 10 21H2 (Actualización de novembro de 2021/compilación "
+"19044) ou posterior."
+
+#. type: Bullet: '* '
+msgid "Alert event (mostly for IAccessible objects) will be tracked."
+msgstr ""
+"Seguiranse os eventos alert (principalmente para obxectos IAccessible)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Versión 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "Require NVDA 2022.3 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+"Requírese Windows 10 ou posterior xa que Windows 7, 8, e 8.1 xa non se "
+"soportan dende Microsoft dende xaneiro do 2023."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.12"
+msgstr "Versión 22.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Added events list dialog (command unassigned) to list up to 100 recent "
+"events recorded by the add-on (Thiago Seus)."
+msgstr ""
+"Engadido o diálogo de lista de eventos (orde sen asignar) para listar ata os "
+"100 eventos máis recentes rexistrados polo complemento (Thiago Seus)."
+
+#. type: Bullet: '* '
+msgid ""
+"Additional event information such as UIA notification properties are "
+"recorded at the same time as events."
+msgstr ""
+"Ó mesmo tempo que os eventos, rexístrase tamén información adicional do "
+"evento como as propiedades da notificación UIA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.10"
+msgstr "Versión 22.10"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.2 or later is required due to security."
+msgstr "Require NVDA 2022.2 ou posterior por razóns de seguridade."
+
+#. type: Bullet: '* '
+msgid ""
+"The following UIA property changes are tracked: drag drop effect, drop "
+"target effect."
+msgstr ""
+"Séguense os seguintes cambios de propiedades UIA: drag drop effect, drop "
+"target effect."
+
+#. type: Bullet: '* '
+msgid "UIA item status property text is logged."
+msgstr "Rexístrase o texto da propiedade UIA item status."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing if an object "
+"does not define a window class name."
+msgstr ""
+"NVDA xa non reproducirá tons de erro ou parecerá non facer nada se un "
+"obxecto non define un nome de clase de xanela (window class name)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.06"
+msgstr "Versión 22.06"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required due to security."
+msgstr "Require NVDA 2021.3 ou posterior por razóns de seguridade."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "Versión 21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+"Requírese NVDA 2021.2 ou posterior debido a cambios en NVDA que afectan a "
+"este complemento."
+
+#. type: Bullet: '* '
+msgid "UIA layout invalidated event will be tracked."
+msgstr "Seguirase o evento UIA layout invalidated."
+
+#. type: Bullet: '* '
+msgid ""
+"Object role and states information will resemble developer info found in "
+"more recent NVDA releases."
+msgstr ""
+"A información sobre o rol e os estados do obxecto asemellarase á información "
+"para desenvolvedores presente en versións de NVDA máis recentes."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.07"
+msgstr "Versión 21.07"
+
+#. type: Bullet: '* '
+msgid "Initial release."
+msgstr "Publicación inicial."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=evttracker"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=evtTracker"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=evttracker"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=evttracker"
+msgid "[2]: https://github.com/nvaccess/addon-datastore/discussions/2717"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=evttracker"

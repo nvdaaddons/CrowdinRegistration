@@ -1,0 +1,1012 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA add-ons and Python 3\n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2020-02-11 14:45+0700\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
+"Language-Team: Sao Mai Center For The Blind <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NVDA add-ons and Python 3\"]]\n"
+msgstr "[[!meta title=\"NVDA add-on và Python 3\"]]\n"
+
+#. type: Plain text
+msgid ""
+"The NVDA community has transitioned from Python 2 to Python 3 as part of "
+"NVDA 2019.3. This page aims to document add-ons compatible with NVDA 2019.3 "
+"(Python 3 version of NVDA), as well as highlighting issues when using add-"
+"ons with future NVDA releases."
+msgstr ""
+"Cộng đồng NVDA đã chuyển từ Python 2 sang Python 3 là một phần của NVDA "
+"2019.3. Mục đích của trang này là một tài liệu về các add-on tương thích với "
+"NVDA 2019.3 (phiên bản Python 3 của NVDA), cũng như các vấn đề nổi cộm khi "
+"dùng các add-on với các bản NVDA phát hành trong tương lai."
+
+#. type: Title ##
+#, no-wrap
+msgid "What is Python 3 transition?"
+msgstr "Chuyển sang Python 3 là gì?"
+
+#. type: Plain text
+msgid ""
+"Released in 2000, Python 2.x is one of the most popular programming "
+"languages. With support for Unicode, web technologies, and thousands of "
+"third-party libraries, Python became a language of choice for many projects, "
+"including NVDA in 2006."
+msgstr ""
+"Ra đời từ những năm 2000, Python 2.x là một trong những ngôn ngữ lập trình "
+"phổ biến. Với hỗ trợ cho Unicode, các công nghệ web, và hàng ngàn thư viện "
+"của bên thứ ba, Python đã trở nên một ngôn ngữ được nhiều dự án lựa chọn, "
+"bao gồm NVDA vào năm 2006."
+
+#. type: Plain text
+msgid ""
+"In late 2000's, Python developers announced Python 3000, a project to "
+"modernize Python. Changes were made to Python syntax, standard library, and "
+"other underlying framework, including the print function, more comprehensive "
+"support for Unicode, changes to standard library, and changing iteration "
+"methods such as xrange to range. Although Python 3.x did modernize Python "
+"programming language, due to large-scale deployment of Python 2, Python "
+"developers decided to support Python 2.7 (the last version of Python 2) "
+"until January 2020 to give people time to move to Python 3."
+msgstr ""
+"Cuối những năm 2000, nhà phát triển Python thông báo ra mắt Python 3000, một "
+"dự án nhằm hiện đại hóa Python. Các thay đổi đã thực hiện cho cú pháp của "
+"Python , thư viện chuẩn, và những khuôn khổ cơ bản khác, bao gồm hàm print, "
+"hỗ trợ toàn diện hơn cho Unicode, các thay đổi cho thư viện chuẩn, và thay "
+"đổi các phương pháp vòng lặp như xrange thành range. Dù Python 3.x đã hiện "
+"đại hóa ngôn ngữ lập trình Python, nhưng vì đã triển khai quy mô lớn của "
+"Python 2, nhà phát triển Python đã quyết định hỗ trợ Python 2.7 (phiên bản "
+"cuối cùng của Python 2) đến tháng 01/2020 để mọi người có thời gian chuyển "
+"sang Python 3."
+
+#. type: Plain text
+msgid ""
+"In 2019, NV Access began its work on Python 3 transition, citing popularity "
+"of NVDA and project longevity. This work culminated with release of Project "
+"Threshold builds of NVDA in July 2019, which is based on Python 3.7 and "
+"includes a host of changes in addition to Python 3 transition such as speech "
+"refactor, which will affect add-ons. NVDA 2019.3, released on February 10, "
+"2020, is powered by Python 3.7."
+msgstr ""
+"Năm 2019, NV Access bắt đầu việc chuyển sang Python 3, dẫn chứng cho tính "
+"phổ biến của NVDA và tính lâu dài của dự án. Công việc này đã đến đỉnh điểm "
+"với sự ra mắt của ngưỡng đề án NVDA được dựng vào tháng 07/2019, được xây "
+"dựng trên nền tản Python 3.7 và bao gồm một loạt những thay đổi cho việc "
+"chuyển sang Python 3 như tái cấu trúc bộ đọc, sẽ ảnh hưởng đến các add-on. "
+"NVDA 2019.3, ra mắt vào ngày 10/02/2020 được viết bằng Python 3.7."
+
+#. type: Title ##
+#, no-wrap
+msgid "What you need to know about Python 3 transition and add-ons"
+msgstr "Bạn cần biết gì về việc chuyển sang Python 3 và các add-on"
+
+#. type: Plain text
+msgid ""
+"Python 3 transition affects many add-ons hosted on this website. "
+"Specifically, the following issues are known:"
+msgstr ""
+"Việc chuyển sang Python 3  ảnh hưởng tới nhiều add-on chứa trên trang này. "
+"Cụ thể, các vấn đề sau đã được biết:"
+
+#. type: Bullet: '* '
+msgid "Add-on does not load because they are flagged as incompatible by NVDA."
+msgstr "Không gọi được add-on vì đã được NVDA đánh dấu là không tương thích."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on does load, but errors such as syntax errors and module not found "
+"errors are seen."
+msgstr ""
+"Gọi được add-on, nhưng các lỗi như lỗi cú pháp và các module không được tìm "
+"thấy đã được phát hiện."
+
+#. type: Bullet: '* '
+msgid "Add-on does not load due to bytecode mismatch."
+msgstr "Không gọi được add-on vì bytecode không phù hợp."
+
+#. type: Bullet: '* '
+msgid "Add-on behaves oddly when working with text."
+msgstr "Các add-on hoạt động một cách kì quặc khi làm việc với văn bản."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on works, but certain features that rely on Python standard library are "
+"not working such as internet access."
+msgstr ""
+"Add-on hoạt động được, nhưng một số tính năng dựa vào thư viện chuẩn của "
+"Python như truy cập mạng không hoạt động."
+
+#. type: Bullet: '* '
+msgid ""
+"Some speech synthesizer and braille display add-ons behave oddly around text "
+"output."
+msgstr ""
+"Add-on cho vài bộ đọc và màn hình nổi hoạt động kì quặc với đầu ra văn bản."
+
+#. type: Plain text
+msgid ""
+"When you encounter these issues, you should contact the author(s) of the add-"
+"on(s) in question (see the below list for contact info for add-ons hosted on "
+"this website). Be sure to provide details when contacting authors."
+msgstr ""
+"Khi gặp những vấn đề nói trên, bạn nên liên hệ với tác giả của các add-on để "
+"hỏi (xem danh sách bên dưới để biết thông tin liên hệ cho các add-on chứa "
+"trên trang này). Nhớ cung cấp các thông tin chi tiết khi liên hệ với tác giả."
+
+#. type: Plain text
+msgid "Compatibility status key for add-ons listed below:"
+msgstr ""
+"Từ khóa về  trạng thái tương thích của các add-on được liệt kê dưới đây:"
+
+#. type: Bullet: '* '
+msgid "Yes: compatible"
+msgstr "Yes (có): tương thích"
+
+#. type: Bullet: '* '
+msgid "Included in NVDA: add-on functionality is now part of NVDA as of 2019.3"
+msgstr ""
+"Đã tích hợp trong NVDA: tính năng của add-on đã là một phần của NVDA từ "
+"phiên bản 2019.3"
+
+#. type: Bullet: '* '
+msgid ""
+"No: incompatible (manifest edits and other tricks will not work; this "
+"includes add-ons with compatibility manifest issues)"
+msgstr ""
+"No: không: không tương thích (việc chỉnh sửa tập tin manifest hay các thủ "
+"thuật khác sẽ không làm nó hoạt động; điều này bao gồm các add-on có các vấn "
+"đề về tương thích manifest)"
+
+#. type: Bullet: '* '
+msgid "TBD: to be determined"
+msgstr "TBD: cần được xác định"
+
+#. type: Bullet: '* '
+msgid "Planned: author indicated plans to port the add-on"
+msgstr "Planned: tác giả đã lên kế hoạch để cập nhật add-on"
+
+#. type: Bullet: '* '
+msgid ""
+"Work in progress: add-on is being ported to Python 3, including testing in "
+"progress"
+msgstr ""
+"Work in progress (đang tiến hành): add-on đang được chuyển sang Python 3, "
+"bao gồm cả việc đang tiến hành kiểm tra"
+
+#. type: Title ##
+#, no-wrap
+msgid "Status of add-ons compatible with Python 3 and other changes"
+msgstr "Trạng thái các add-on tương thích với Python 3 và các thay đổi khác"
+
+#. type: Plain text
+msgid ""
+"Below is a list of add-ons hosted on this website, along with their "
+"compatibility status with Python 3 version of NVDA and known issues if any. "
+"The list also includes contact information for add-on author(s)."
+msgstr ""
+"Dưới đây là danh sách các add-on chứa trên trang này cũng như trạng thái "
+"tương thích của chúng với phiên bản Python 3 của NVDA và các vấn đề đã biết "
+"nếu có. Danh sách này cũng bao gồm thông tin liên hệ với tác giả của add-on."
+
+#. type: Plain text
+msgid ""
+"Note: Add-on compatibility status subject to change without notice. Also, "
+"although one way to work around compatibility issues is editing the add-on "
+"manifest, some add-ons listed below are still incompatible."
+msgstr ""
+"Lưu ý: trạng thái tương thích của add-on có thể thay đổi mà không cần thông "
+"báo. Cũng vậy, dù rằng một cách để làm việc với các vấn đề tương thích là "
+"chỉnh sửa tập tin add-on manifest, vài add-on được liệt kê dưới đây vẫn "
+"không tương thích."
+
+#. type: Title ###
+#, no-wrap
+msgid "Access8Math"
+msgstr "Access8Math"
+
+#. type: Bullet: '* '
+msgid "Compatible: Yes"
+msgstr "Tương thích: có"
+
+#. type: Bullet: '* '
+msgid "Contact: Tseng Woody <tsengwoody.tw@gmail.com>"
+msgstr "Thông tin liên hệ: Tseng Woody <tsengwoody.tw@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-on Updater"
+msgstr "Cập nhật add-on"
+
+#. type: Bullet: '* '
+msgid "Contact: Joseph Lee <joseph.lee22590@gmail.com>"
+msgstr "Thông tin liên hệ: Joseph Lee <joseph.lee22590@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-ons Documentation"
+msgstr "Add-ons Documentation"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel"
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel"
+msgstr ""
+"Thông tin liên hệ: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy "
+"and Abdel"
+
+#. type: Title ###
+#, no-wrap
+msgid "Addon to count elements of selected text"
+msgstr "Addon đếm các thành phần của văn bản được chọn"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Fontes <rui.fontes@tiflotecnia.com>"
+msgstr "Thông tin liên hệ: Rui Fontes <rui.fontes@tiflotecnia.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Audio Themes"
+msgstr "Audio Themes"
+
+#. type: Bullet: '* '
+msgid "Compatible: Work in progress"
+msgstr "Tương thích: đang tiến hành"
+
+#. type: Bullet: '* '
+msgid "Contact: Musharraf Omer <ibnomer2011@hotmail.com>"
+msgstr "Thông tin liên hệ: Musharraf Omer <ibnomer2011@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "AudioChart"
+msgstr "AudioChart"
+
+#. type: Bullet: '* '
+msgid "Contact: Tony Malykh <anton.malykh@gmail.com>"
+msgstr "Thông tin liên hệ: Tony Malykh <anton.malykh@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Beep keyboard"
+msgstr "Beep keyboard"
+
+#. type: Bullet: '* '
+msgid "Contact: David CM <dhf360@gmail.com>"
+msgstr "Thông tin liên hệ: David CM <dhf360@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bit Che"
+msgstr "Bit Che"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alberto Zanella <lapostadialberto@gmail.com>, Alberto Buffolino <a."
+"buffolino@gmail.com>, other contributors"
+msgstr ""
+"Thông tin liên hệ: Alberto Zanella <lapostadialberto@gmail.com>, Alberto "
+"Buffolino <a.buffolino@gmail.com>, các cộng tác viên khác"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bluetooth Audio"
+msgstr "Bluetooth Audio"
+
+#. type: Title ###
+#, no-wrap
+msgid "Braille Extender"
+msgstr "Braille Extender"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Contact: André-Abush Clause <dev@andreabc.net>"
+msgid "Contact: André-Abush Clause <dev@andreabc.net>"
+msgstr "Thông tin liên hệ: André-Abush Clause <dev@andreabc.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "BrowserNav"
+msgstr "BrowserNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Calibre"
+msgstr "Calibre"
+
+#. type: Bullet: '* '
+msgid "Contact: Javi Dominguez <fjavids@gmail.com>"
+msgstr "Thông tin liên hệ: Javi Dominguez <fjavids@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Character Information"
+msgstr "Character Information"
+
+#. type: Bullet: '* '
+msgid "Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+msgstr "Thông tin liên hệ: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Classic Selection"
+msgstr "Classic Selection"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey <tspivey@pcdesk.net>"
+msgstr "Thông tin liên hệ: Tyler Spivey <tspivey@pcdesk.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clip Contents Designer"
+msgstr "Clip Contents Designer"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+msgid "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+msgstr "Thông tin liên hệ: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clipspeak"
+msgstr "Clipspeak"
+
+#. type: Bullet: '* '
+msgid "Contact: Damien Sykes-Lindley <damien@dcpendleton.plus.com>"
+msgstr "Thông tin liên hệ: Damien Sykes-Lindley <damien@dcpendleton.plus.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clock and calendar Add-on for NVDA"
+msgstr "Đồng hồ và lịch add-on cho NVDA"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Contact: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim."
+#| "bensaid@gmail.com>"
+msgid ""
+"Contact: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim."
+"bensaid@gmail.com>"
+msgstr ""
+"Thông tin liên hệ: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim."
+"bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Control Usage Assistant"
+msgstr "Control Usage Assistant"
+
+#. type: Title ###
+#, no-wrap
+msgid "Crash Hero"
+msgstr "Crash Hero"
+
+#. type: Bullet: '* '
+msgid "Compatible: No"
+msgstr "Tương thích: không"
+
+#. type: Bullet: '* '
+msgid "Issues: Python 3 syntax errors, no compatibility information"
+msgstr ""
+"Vấn đề: lỗi cú pháp với Python 3, không có thông tin về tính tương thích"
+
+#. type: Bullet: '* '
+msgid "Contact: Derek Riemer <driemer.riemer@gmail.com>"
+msgstr "Thông tin liên hệ: Derek Riemer <driemer.riemer@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Day of the week"
+msgstr "Ngày của tuần"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez "
+#| "<nrm1977@gmail.com>"
+msgid ""
+"Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>"
+msgstr ""
+"Thông tin liên hệ: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Debug Helper"
+msgstr "Debug Helper"
+
+#. type: Bullet: '* '
+msgid "Contact: Luke Davis <newanswertech@gmail.com>"
+msgstr "Thông tin liên hệ: Luke Davis <newanswertech@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Developer Toolkit"
+msgstr "Developer Toolkit"
+
+#. type: Bullet: '* '
+msgid "Contact: Andy Borka <ajborka@gmail.com>"
+msgstr "Thông tin liên hệ: Andy Borka <ajborka@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Patrick Zajda <patrick@zajda.fr>, Filaos and other contributors"
+msgstr ""
+"Thông tin liên hệ: Patrick Zajda <patrick@zajda.fr>, Filaos và các cộng tác "
+"viên khác"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dual Voice"
+msgstr "Dual Voice"
+
+#. type: Bullet: '* '
+msgid "Contact: Seyed Mahmood Taghavi-Shahri"
+msgstr "Thông tin liên hệ: Seyed Mahmood Taghavi-Shahri"
+
+#. type: Title ###
+#, no-wrap
+msgid "Easy Table Navigator"
+msgstr "Easy Table Navigator"
+
+#. type: Title ###
+#, no-wrap
+msgid "Emoticons"
+msgstr "Các biểu tượng cảm xúc"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Contact: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez "
+#| "<nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco "
+#| "Javier Estrada Martínez <Fjestrad@hotmail.com>"
+msgid ""
+"Contact: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier "
+"Estrada Martínez <Fjestrad@hotmail.com>"
+msgstr ""
+"Thông tin liên hệ: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier "
+"Estrada Martínez <Fjestrad@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "eMule"
+msgstr "eMule"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris "
+#| "<llajta2012@gmail.com>, Alberto <a.buffolino@gmail.com>"
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>, Alberto <a.buffolino@gmail.com>"
+msgstr ""
+"Thông tin liên hệ: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris "
+"<llajta2012@gmail.com>, Alberto <a.buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Aria"
+msgstr "Enhanced Aria"
+
+#. type: Bullet: '* '
+msgid "Compatible: Included in NVDA"
+msgstr "Compatible (tương thích): đã tích hợp trong NVDA"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Contact: José Manuel Delicado <jm.delicado@nvda.es>"
+msgid "Contact: José Manuel Delicado <jm.delicado@nvda.es>"
+msgstr "Thông tin liên hệ: José Manuel Delicado <jm.delicado@nvda.es>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Touch Gestures"
+msgstr "Enhanced Touch Gestures"
+
+#. type: Title ###
+#, no-wrap
+msgid "extendedWinamp"
+msgstr "extendedWinamp"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>, NVDA Add-ons Team"
+msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>, NVDA Add-ons Team"
+msgstr ""
+"Thông tin liên hệ: Hrvoje Katić <hrvojekatic@gmail.com>, Nhóm NVDA Add-on"
+
+#. type: Title ###
+#, no-wrap
+msgid "Focus Highlight"
+msgstr "Focus Highlight"
+
+#. type: Bullet: '* '
+msgid "Contact: Takuya Nishimoto <nishimotz@gmail.com>"
+msgstr "Thông tin liên hệ: Takuya Nishimoto <nishimotz@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Golden Cursor"
+msgstr "Golden Cursor"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph."
+"lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+msgstr ""
+"Thông tin liên hệ: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph "
+"Lee <joseph.lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "GoldWave"
+msgstr "GoldWave"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn <xkill85@gmx."
+"net>, Mesar Hameed <mhameed@src.gnome.org>"
+msgstr ""
+"Thông tin liên hệ: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn "
+"<xkill85@gmx.net>, Mesar Hameed <mhameed@src.gnome.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Image Describer"
+msgstr "Image Describer"
+
+#. type: Bullet: '* '
+msgid ""
+"Issues: attempting to import a module that no longer exists in Python 3, out "
+"of date compatibility information (last compatible: 2019.1)"
+msgstr ""
+"Vấn đề: cố gắng nạp một module không còn tồn tại trong Python 3, tính tương "
+"thích đã lỗi thời (bản tương thích cuối cùng: 2019.1)"
+
+#. type: Bullet: '* '
+msgid "Contact: Oliver Edholm <oliver.edholm@gmail.com>"
+msgstr "Thông tin liên hệ: Oliver Edholm <oliver.edholm@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "IndentNav"
+msgstr "IndentNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Input Lock"
+msgstr "Khóa đầu vào"
+
+#. type: Title ###
+#, no-wrap
+msgid "Lambda Add-On for NVDA"
+msgstr "Lambda Add-On for NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Zanella, Ivan Novegil"
+msgstr "Thông tin liên hệ: Alberto Zanella, Ivan Novegil"
+
+#. type: Title ###
+#, no-wrap
+msgid "Mozilla Apps Enhancements"
+msgstr "Mozilla Apps Enhancements"
+
+#. type: Title ###
+#, no-wrap
+msgid "mp3DirectCut"
+msgstr "mp3DirectCut"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Contact: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+msgid "Contact: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+msgstr ""
+"Thông tin liên hệ: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+
+#. type: Title ###
+#, no-wrap
+msgid "Newfon"
+msgstr "Newfon"
+
+#. type: Bullet: '* '
+msgid "Issues: no compatibility information"
+msgstr "Vấn đề: không có thông tin tương thích"
+
+#. type: Bullet: '* '
+msgid "Contact: Sergey Shishmintzev"
+msgstr "Thông tin liên hệ: Sergey Shishmintzev"
+
+#. type: Title ###
+#, no-wrap
+msgid "NoBeepsSpeechMode"
+msgstr "NoBeepsSpeechMode"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Buffolino <a.buffolino@gmail.com>"
+msgstr "Thông tin liên hệ: Alberto Buffolino <a.buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Notepad++"
+msgstr "Notepad++"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Remote Support"
+msgstr "NVDA Remote Support"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum."
+"net>"
+msgstr ""
+"Thông tin liên hệ: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-"
+"continuum.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Object Location Tones"
+msgstr "Object Location Tones"
+
+#. type: Title ###
+#, no-wrap
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. type: Title ###
+#, no-wrap
+msgid "OCR"
+msgstr "OCR"
+
+#. type: Bullet: '* '
+msgid "Contact: NV Access <info@nvaccess.org>"
+msgstr "Thông tin liên hệ: NV Access <info@nvaccess.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Outlook Extended"
+msgstr "Outlook Extended"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf Kefferpuetz "
+"<ralf.kefferpuetz@elra-consulting.de>"
+msgstr ""
+"Thông tin liên hệ: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf "
+"Kefferpuetz <ralf.kefferpuetz@elra-consulting.de>"
+
+#. type: Title ###
+#, no-wrap
+msgid "placeMarkers"
+msgstr "Đánh dấu"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris "
+#| "<llajta2012@gmail.com>"
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>"
+msgstr ""
+"Thông tin liên hệ: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris "
+"<llajta2012@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Read Feeds"
+msgstr "Read Feeds"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed "
+#| "<mhameed@src.gnome.org>"
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src."
+"gnome.org>"
+msgstr ""
+"Thông tin liên hệ: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed "
+"<mhameed@src.gnome.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Report Symbols"
+msgstr "Report Symbols"
+
+#. type: Title ###
+#, no-wrap
+msgid "Resource Monitor"
+msgstr "Theo dõi tài nguyên"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alex Hall <mehgcap@gmail.com>, Joseph Lee <joseph.lee22590@gmail."
+"com>, beqa gozalishvili <beqaprogger@gmail.com>, Tuukka Ojala <tuukka."
+"ojala@gmail.com>, Ethin Probst <harlydavidsen@gmail.com> and other NVDA "
+"contributors"
+msgstr ""
+"Thông tin liên hệ: Alex Hall <mehgcap@gmail.com>, Joseph Lee <joseph."
+"lee22590@gmail.com>, beqa gozalishvili <beqaprogger@gmail.com>, Tuukka Ojala "
+"<tuukka.ojala@gmail.com>, Ethin Probst <harlydavidsen@gmail.com> and other "
+"NVDA contributors"
+
+#. type: Title ###
+#, no-wrap
+msgid "Review Cursor Copier"
+msgstr "Review Cursor Copier"
+
+#. type: Bullet: '* '
+msgid "Contact: Tuukka Ojala <tuukka.ojala@gmail.com>"
+msgstr "Thông tin liên hệ: Tuukka Ojala <tuukka.ojala@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "sayCurrentKeyboardLanguage"
+msgstr "Báo ngôn ngữ bàn phím hiện tại"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>"
+msgstr ""
+"Thông tin liên hệ: Abdel <abdelkrim.bensaid@gmail.com>, Noelia "
+"<nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "SentenceNav"
+msgstr "SentenceNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speak Passwords"
+msgstr "Nói mật khẩu"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speech History"
+msgstr "Speech History"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey, James Scholes"
+msgstr "Thông tin liên hệ: Tyler Spivey, James Scholes"
+
+#. type: Title ###
+#, no-wrap
+msgid "Station Playlist"
+msgstr "Station Playlist"
+
+#. type: Bullet: '* '
+msgid "Contact: Geoff Shang, Joseph Lee and other contributors"
+msgstr "Thông tin liên hệ: Geoff Shang, Joseph Lee và các cộng tác viên khác"
+
+#. type: Title ###
+#, no-wrap
+msgid "Switch synth"
+msgstr "Switch synth"
+
+#. type: Title ###
+#, no-wrap
+msgid "systrayList"
+msgstr "systrayList"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista "
+"<ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, NVDA "
+"Community Contributors"
+msgstr ""
+"Thông tin liên hệ: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista "
+"<ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, cộng "
+"tác viên của cộng đồng NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "TeamTalk Classic"
+msgstr "TeamTalk Classic"
+
+#. type: Bullet: '* '
+msgid ""
+"Issues: missing modules due to syntax errors, no compatibility information"
+msgstr ""
+"Vấn đề: thiếu các module do lỗi cú pháp, không có thông tin về tính tương "
+"thích"
+
+#. type: Bullet: '* '
+msgid "Contact: Doug Lee with initial work by Tyler Spivey and others"
+msgstr ""
+"Thông tin liên hệ: Doug Lee with initial work by Tyler Spivey and others"
+
+#. type: Title ###
+#, no-wrap
+msgid "Text Information"
+msgstr "Text Information"
+
+#. type: Bullet: '* '
+msgid "Contact: Carter Temm <crtbraille@gmail.com>"
+msgstr "Thông tin liên hệ: Carter Temm <crtbraille@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "TextNav"
+msgstr "TextNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tip of the Day"
+msgstr "Tip of the Day"
+
+#. type: Bullet: '* '
+msgid "Compatible: Planned"
+msgstr "Tương thích: đã lên kế hoạch"
+
+#. type: Title ###
+#, no-wrap
+msgid "ToolbarsExplorer"
+msgstr "ToolbarsExplorer"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tone Master"
+msgstr "Tone Master"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>"
+msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>"
+msgstr "Thông tin liên hệ: Hrvoje Katić <hrvojekatic@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "UnicodeBrailleInput"
+msgstr "UnicodeBrailleInput"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA <patrick@zajda."
+"fr>, Leonard de Ruijter (Babbage B.V.) <leonard@babbage.com>"
+msgstr ""
+"Thông tin liên hệ: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA "
+"<patrick@zajda.fr>, Leonard de Ruijter (Babbage B.V.) <leonard@babbage.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Virtual Review"
+msgstr "Virtual Review"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Batista <ruiandrebatista@gmail.com> and NVDA Addon Team"
+msgstr ""
+"Thông tin liên hệ: Rui Batista <ruiandrebatista@gmail.com> và nhóm NVDA Addon"
+
+#. type: Title ###
+#, no-wrap
+msgid "VLC Media Player"
+msgstr "VLC Media Player"
+
+#. type: Title ###
+#, no-wrap
+msgid "Weather Plus"
+msgstr "Weather Plus"
+
+#. type: Bullet: '* '
+msgid "Contact: Adriano Barbieri <adrianobarb@yahoo.it>"
+msgstr "Thông tin liên hệ: Adriano Barbieri <adrianobarb@yahoo.it>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Windows 10 App Essentials"
+msgstr "Windows 10 App Essentials"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer <driemer."
+"riemer@gmail.com> and others"
+msgstr ""
+"Thông tin liên hệ: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer "
+"<driemer.riemer@gmail.com> và những người khác"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announcements]]\n"
+msgstr "[[!tag announcements]]\n"
+
+#~ msgid ""
+#~ "Issues: out of date compatibility information (last compatible: 2019.1)"
+#~ msgstr ""
+#~ "Vấn đề: thông tin về tính tương thích đã lỗi thời (bản tương thích cuối "
+#~ "cùng: 2019.1)"
+
+#~ msgid ""
+#~ "Issues: synthesizer level changes required, no compatibility information"
+#~ msgstr ""
+#~ "Vấn đề: yêu cầu thay đổi cấp độ bộ đọc, không có thong tin về tinh tương "
+#~ "thích"
+
+#~ msgid ""
+#~ "Issues: Attribute errors, out of date compatibility information (last "
+#~ "compatible: 2019.1)"
+#~ msgstr ""
+#~ "Vấn đề: lỗi thuộc tính, thông tin về tính tương thích đã lỗi thời (bản "
+#~ "tương thích cuối cùng: 2019.1)"
+
+#~ msgid ""
+#~ "Issues: out of date compatibility information (last compatible: 2019.2)"
+#~ msgstr ""
+#~ "Vấn đề: thông tin về tính tương thích đã lỗi thời (bản tương thích cuối "
+#~ "cùng: 2019.2)"
+
+#~ msgid "Issues: Missing modules due to syntax errors"
+#~ msgstr "Vấn đề: thiếu các module do lỗi cú pháp"
+
+#~ msgid "Issues: Attribute errors"
+#~ msgstr "Vấn đề: lỗi thuộc tính"
+
+#~ msgid "Issues: missing module due to syntax errors"
+#~ msgstr "Vấn đề: thiếu module do lỗi cú pháp"
+
+#~ msgid "Issues: importing a module that no longer exists in Python 3"
+#~ msgstr "Vấn đề: nạp một module không còn tồn tại trong Python 3"
+
+#~ msgid "Issues: Attribute error"
+#~ msgstr "Vấn đề: lỗi thuộc tính"
+
+#~ msgid "Issues: missing module import due to syntax errors"
+#~ msgstr "Lỗi: thiếu module nạp vào do lỗi cú pháp"
+
+#~ msgid ""
+#~ "Issues: Runtime error while attempting to import an incompatible module"
+#~ msgstr "Vấn đề: lỗi runtime khi nỗ lực nạp một module không tương thích"
+
+#~ msgid "Issues: wrong data format used when locating Winamp main window"
+#~ msgstr ""
+#~ "Vấn đề: dùng định dạng dữ liệu sai khi xác định cửa sổ chính của Winamp"
+
+#~ msgid "Issues: Attribute error when installing add-on"
+#~ msgstr "Vấn đề: lỗi thuộc tính khi cài đặt add-on"
+
+#~ msgid ""
+#~ "Issues: Missing modules, not updated yet to support recent NVDA releases"
+#~ msgstr ""
+#~ "Vấn đề: thiếu các module, chưa được cập nhật để hỗ trợ các bản NVDA phát "
+#~ "hành gần đây"
+
+#~ msgid "Compatible: TBD"
+#~ msgstr "Tương thích: cần được xác định"
+
+#~ msgid ""
+#~ "\t* Compatible: No\n"
+#~ "\t* \n"
+#~ "\t* Contact: Tyler Spivey <tspivey@pcdesk.net>\n"
+#~ "* Issues: Outdated compatibility information\n"
+#~ "* Clip Contents Designer\n"
+#~ msgstr ""
+#~ "\t* Tương thích: không\n"
+#~ "\t* \n"
+#~ "\t* Thông tin liên hệ: Tyler Spivey <tspivey@pcdesk.net>\n"
+#~ "* Vấn đề: thông tin tương thích đã lỗi thời\n"
+#~ "* Clip Contents Designer\n"

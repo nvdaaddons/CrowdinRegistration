@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-08-14 13:52+0000\n"
+"PO-Revision-Date: 2024-12-27 22:10-0300\n"
+"Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NoBeepsSpeechMode\"]]\n"
+msgstr "[[!meta title=\"Modo de fala sem bipe\"]]\n"
+
+#. type: Bullet: '*	 '
+msgid "Author: Alberto Buffolino."
+msgstr "Autor: Alberto Buffolino."
+
+#. type: Bullet: '*	 '
+msgid "download [stable version][1]"
+msgstr "baixe a [versão estável][1]"
+
+#. type: Bullet: '*	 '
+msgid "download [development version][2]"
+msgstr "baixe a [versão em desenvolvimento][2]"
+
+#. type: Plain text
+msgid ""
+"This add-on excludes beeps in the speech mode when pressing NVDA+s.  You can "
+"only toggle between off or talk."
+msgstr ""
+"Este complemento exclui os bipes dos modos de fala ao pressionar NVDA+s. Só "
+"é possível alternar entre desativado e falar."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Mudanças na 2.0"
+
+#. type: Bullet: '*	 '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "A ajuda do complemento está disponível no Gestor de Complementos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.5"
+msgstr "Mudanças na 1.5"
+
+#. type: Bullet: '*	 '
+msgid "Added script category (speech)."
+msgstr "Adicionada uma categoria de script (fala)."
+
+#. type: Bullet: '*	 '
+msgid ""
+"Check for an older version of the addon which is not community supported, "
+"and prompt user before removing it."
+msgstr ""
+"Procura uma versão antiga do complemento que não tenha suporte da comunidade "
+"e avisa o usuário antes de removê-la."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.4"
+msgstr "Mudanças na 1.4"
+
+#. type: Bullet: '*	 '
+msgid ""
+"From this version, the messages about speech mode are automatically "
+"translated from NVDA in the correct language, no specific translation for "
+"addon required (with the possible obvious exception of manifest.ini and "
+"script documentation)."
+msgstr ""
+"Desta versão em diante, as mensagens sobre o modo de fala são traduzidas "
+"automaticamente a partir do NVDA no idioma correto, não se exigindo mais uma "
+"tradução específica para o complemento (com a possível exceção óbvia do "
+"manifest.ini e documentação de scripts)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.3"
+msgstr "Mudanças na 1.3"
+
+#. type: Bullet: '*	 '
+msgid ""
+"Fixed bug in translations support: added python sources to make strings "
+"translatable."
+msgstr ""
+"Corrigido problema no suporte a traduções: adicionados fontes em Python para "
+"tornar traduzíveis as cadeias."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Mudanças na 1.2"
+
+#. type: Bullet: '*	 '
+msgid "Initial version."
+msgstr "Versão inicial."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=noBeepsSpeechMode"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=noBeepsSpeechMode"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=noBeepsSpeechMode-dev"
+msgstr ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=noBeepsSpeechMode-dev"

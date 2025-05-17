@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-07-27 05:41+0000\n"
+"PO-Revision-Date: 2020-05-24 08:29+0200\n"
+"Last-Translator: Fabrizio Marini <marini.carlo@fastwebnet.it>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Screen Curtain\"]]\n"
+msgstr "[[!meta title=\"Screen Curtain\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Babbage B.V., Joseph Lee"
+msgstr "Autori: Babbage B.V., Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "Scarica la  [versione in sviluppo][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2018.3 to 2019.2"
+msgstr "Compatibilità con NVDA: dalla 2018.3 alla 2019.2"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "This is a legacy add-on: NVDA 2019.3 will include screen curtain "
+#| "functionality"
+msgid ""
+"This is a legacy add-on: NVDA 2019.3 includes screen curtain functionality"
+msgstr ""
+"Questo è un componente aggiuntivo obsoleto: NVDA 2019.3 includerà la tendina "
+"schermo"
+
+#. type: Plain text
+msgid ""
+"This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
+"functionality on Windows 8 and later."
+msgstr ""
+"Questo componente consente di utilizzare la funzione Tendina per lo schermo "
+"disponibile in Windows 8 e successivi; risolve il problema di NVDA 7857."
+
+#. type: Plain text
+msgid ""
+"To use this add-on, go to NVDA menu/Tools/Screen Curtain. If the item is "
+"checked, screen curtain is active, otherwise it is off. You can also assign "
+"a command to toggle screen curtain from everywhere. When toggling this "
+"feature, NVDA will announce a status message, and in case screen curtain is "
+"active when NVDA starts, a tone will be heard."
+msgstr ""
+"Per usare il componente aggiuntivo, aprire il menu di NVDA, Strumenti, "
+"Screen Curtain. Se la voce è attivata, allora significa che la tendina è "
+"attiva, diversamente non lo è. E' possibile assegnare un tasto rapido per "
+"l'attivazione o disattivazione della Tendina. Quando la tendina viene "
+"attivata o disattivata NVDA vocalizza un messaggio di stato; se la tendina è "
+"attiva al riavvio di NVDA, verrà emesso un suono di avviso."
+
+#. type: Plain text
+msgid ""
+"To ask NVDA to turn on screen curtain while using it, go to NVDA menu/"
+"Preferences/Settings/Screen curtain. Check \"use screen curtain\" checkbox "
+"to enable screen curtain, uncheck to disable. You can also configure this "
+"setting while profiles other than normal configuration is active so you can "
+"use screen curtain while a profile is active (while using an app, for "
+"example)."
+msgstr ""
+"Se si vuole usare la tendina ogni volta che si usa NVDA, aprire  il menu "
+"Preferenze, Impostazioni, Screen Curtain. Attivare la casella di controllo "
+"per usare la tendina, disattivarla se non si vuole nascondere lo schermo. La "
+"configurazione per Screen Curtain si può impostare anche per profili diversi "
+"dalla Configurazione Normale, utile per esempio quando si vuol nascondere lo "
+"schermo con la tendina in uno specifico profilo per una determinata "
+"applicazione."
+
+#. type: Plain text
+msgid ""
+"IMPORTANT: this is a proof of concept add-on. As screen curtain "
+"functionality is [included in NVDA][2] as of 2019.3, this add-on is "
+"discontinued."
+msgstr ""
+"Importante: questa funzione è stata aggiunta come componente aggiuntivo in "
+"forma provisoria. Poiché questa funzione è [inclusa in NVDA][2] a partire "
+"dalla versione 2019.3, lo sviluppo del componente aggiuntivo è sospeso."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08"
+msgstr "Versione 18.08"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Versione iniziale."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr ""
+"[[!tag legacy]]\n"
+"[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=nvda7857"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=nvda7857"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/7857"

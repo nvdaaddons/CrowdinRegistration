@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-03-24 15:56+0000\n"
+"PO-Revision-Date: 2013-10-25 17:41+0100\n"
+"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Control Usage Assistant\"]]\n"
+msgstr "[[!meta title=\"PomočnikZaUporaboKontrolnikov\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Author: Joseph Lee"
+msgid "Author: Joseph Lee, Noelia Ruiz Martínez"
+msgstr "Avtor: Joseph Lee"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Use this add-on to find out how to interact with the focused control.  "
+#| "Press NvDA+H to obtain a short help message on interacting with the "
+#| "focused control, such as checkboxes, edit fields and so on."
+msgid ""
+"Use this add-on to find out how to interact with the focused control.  Press "
+"NVDA+H to obtain a short help message on interacting with the focused "
+"control, such as checkboxes, edit fields and so on."
+msgstr ""
+"Uporabite ta dodatek kot pomoč pri ugotavljanju kako delati s kontrolnikom v "
+"žarišču.  Pritisnite NvDA+H, da slišite kratko sporočilo pomoči kako "
+"manipulirati s kontrolnikom v žarišču, kot so izbirniki, polja za urejanje "
+"in drugi."
+
+#. type: Plain text
+msgid ""
+"Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage "
+"Asistant category to configure add-on settings:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic messages for focus: Checked by default."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Type the message to be used when an object can be activated: You may include "
+"a short message indicating the default or your configured gesture to know if "
+"the current object has an associated action when pressing a gesture like "
+"NVDA+enter in object navigation."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Select output modes for automatic messages: This list of checkboxes allows "
+"to select speech and braille."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Pitch change for automatic messages: This spin box allows to set the pitch "
+"change when NVDA reads automatic messages (from -30 to +30)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20240324.0.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved support for edit controls and suggestions."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2023.02.19"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The message configured for clickable objects will be reported after other "
+"properties."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2022.07.10"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to set a message for object navigation, to announce if the "
+"current object can be activated."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2022.03.27"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2022.1 or later."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.01"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added support for automatic messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved support for requested messages in browse mode."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.10"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Help messages are announced in languages other than English."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"obtain help for certain browse mode controls."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 3.0/19.11"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Version scheme is now year.month."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When NVDA+H is pressed, a help screen will be displayed instead of a flash "
+"message being shown."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.5"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Compatible with Python 3."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Novi in posodobljeni prevodi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Help messages for more controls added, including terminal windows."
+msgstr ""
+"Dodana sporočila pomoči za več kontrolnikov vključno s terminalskimi okni."
+
+#. type: Bullet: '* '
+msgid ""
+"Added help messages for working in some areas of applications, such as "
+"Microsoft Excel and Powerpoint and Windows 8 start screen."
+msgstr ""
+"Dodana so bila sporočila pomoči za delo v posameznih odsekih programov, kot "
+"so Microsoft Excel, Microsoft PowerPoint in začetni zaslon Windows 8."
+
+#. type: Bullet: '* '
+msgid ""
+"Added help messages for working with forms in both browse and focus modes in "
+"virtual buffer documents (Internet Explorer, Adobe Reader, Mozilla Firefox, "
+"etc.)."
+msgstr ""
+"Dodana so bila sporočila pomoči za delo z obrazci tako v brskalniškem kot v "
+"žariščnem delovanju v dokumentih iz navideznega predpomnilnika, kot so "
+"dokumenti v Internet Explorerju, Adobe Readerju, Mozilla Farefoxu in drugih "
+"programih."
+
+#. type: Bullet: '* '
+msgid "New language: Danish."
+msgstr "Nov jezik: Danščina."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 1.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Prva različica."
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!tag stable]]\n"
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=controlUsageAssistant"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+
+#, fuzzy
+#~| msgid "Download: [version 2.1][1]"
+#~ msgid ""
+#~ "Download [development version][2] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "Prenesi: [različico 2.1][1]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+
+#, fuzzy
+#~| msgid "Download: [version 2.1][1]"
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Prenesi: [različico 2.1][1]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+#~ msgid ""
+#~ "[1]: https://addons.nvda-project.org/files/get.php?file=cua [2]: https://"
+#~ "addons.nvda-project.org/files/get.php?file=cua-dev"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=cua-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cua"
+
+#~ msgid "2.1"
+#~ msgstr "2.1"
+
+#~ msgid "2.0"
+#~ msgstr "2.0"
+
+#~ msgid "1.0"
+#~ msgstr "1.0"

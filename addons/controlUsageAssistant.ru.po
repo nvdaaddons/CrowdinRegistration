@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-03-24 15:56+0000\n"
+"PO-Revision-Date: 2024-06-17 22:40+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
+"Language-Team: Translators <nvda-translations@groups.io>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Control Usage Assistant\"]]\n"
+msgstr "[[!meta title=\"Control Usage Assistant\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee, Noelia Ruiz Martínez"
+msgstr "Автор: Joseph Lee, Noelia Ruiz Martínez"
+
+#. type: Plain text
+msgid ""
+"Use this add-on to find out how to interact with the focused control.  Press "
+"NVDA+H to obtain a short help message on interacting with the focused "
+"control, such as checkboxes, edit fields and so on."
+msgstr ""
+"Используйте это дополнение, чтобы узнать, как взаимодействовать с типом "
+"управления в фокусе. Нажмите NVDA+H, чтобы получить короткую справку по "
+"взаимодействию с определённым типом управления, например, флажки, поля "
+"редактирования и так далее."
+
+#. type: Plain text
+msgid ""
+"Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage "
+"Asistant category to configure add-on settings:"
+msgstr ""
+"Перейдите в меню NVDA, подменю \"Параметры\", диалог \"Настройки\", "
+"категорию \"Control Usage Asistant\", чтобы настроить параметры дополнения:"
+
+#. type: Bullet: '* '
+msgid "Automatic messages for focus: Checked by default."
+msgstr ""
+"Автоматические сообщения для элементов в фокусе: по умолчанию включено."
+
+#. type: Bullet: '* '
+msgid ""
+"Type the message to be used when an object can be activated: You may include "
+"a short message indicating the default or your configured gesture to know if "
+"the current object has an associated action when pressing a gesture like "
+"NVDA+enter in object navigation."
+msgstr ""
+"Введите сообщение, которое будет использоваться при активации объекта: Вы "
+"можете включить короткое сообщение с указанием жеста по умолчанию или "
+"настроенного вами жеста, чтобы узнать, связано ли действие с текущим "
+"объектом, при нажатии жеста, подобного NVDA+enter, в навигации по объектам."
+
+#. type: Bullet: '* '
+msgid ""
+"Select output modes for automatic messages: This list of checkboxes allows "
+"to select speech and braille."
+msgstr ""
+"Выбор режимов вывода автоматических сообщений: Этот список флажков позволяет "
+"выбрать речь и Брайль."
+
+#. type: Bullet: '* '
+msgid ""
+"Pitch change for automatic messages: This spin box allows to set the pitch "
+"change when NVDA reads automatic messages (from -30 to +30)."
+msgstr ""
+"Изменение высоты тона для автоматических сообщений: Этот счётчик позволяет "
+"настроить изменение высоты тона при считывании автоматических сообщений NVDA "
+"(от -30 до +30)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20240324.0.0"
+msgstr "Версия 20240324.0.0"
+
+#. type: Bullet: '* '
+msgid "Improved support for edit controls and suggestions."
+msgstr "Улучшена поддержка элементов управления редактирования и предложений."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2023.02.19"
+msgstr "Версия 2023.02.19"
+
+#. type: Bullet: '* '
+msgid ""
+"The message configured for clickable objects will be reported after other "
+"properties."
+msgstr ""
+"Сообщение, настроенное для интерактивных объектов, будет отображаться после "
+"других свойств."
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr "Совместимо с NVDA 2023.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2022.07.10"
+msgstr "Версия 2022.07.10"
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to set a message for object navigation, to announce if the "
+"current object can be activated."
+msgstr ""
+"Добавлена возможность установки сообщения для навигации по объекту, чтобы "
+"сообщить, может ли текущий объект быть активирован."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2022.03.27"
+msgstr "Версия 2022.03.27"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2022.1 or later."
+msgstr "Требуется NVDA 2022.1 или выше."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.01"
+msgstr "Версия 22.01"
+
+#. type: Bullet: '* '
+msgid "Added support for automatic messages."
+msgstr "Добавлена поддержка автоматических сообщений."
+
+#. type: Bullet: '* '
+msgid "Improved support for requested messages in browse mode."
+msgstr "Улучшена поддержка запрошенных сообщений в режиме просмотра."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "Версия 21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+"Требуется NVDA 2021.2 или выше из-за изменений в NVDA, которые влияют на это "
+"дополнение."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.10"
+msgstr "Версия 20.10"
+
+#. type: Bullet: '* '
+msgid "Help messages are announced in languages other than English."
+msgstr "Сообщения о помощи публикуются на других языках, кроме английского."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr "Версия 20.06"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr ""
+"Устранены многие проблемы со стилем кодирования и потенциальные ошибки с "
+"помощью Flake8."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones when trying to "
+"obtain help for certain browse mode controls."
+msgstr ""
+"NVDA больше не будет отображать бездействие или воспроизводить сигналы об "
+"ошибках при попытке получить справку по определенным элементам управления в "
+"режиме обзора."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "Версия 20.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required."
+msgstr "Требуется NVDA 2019.3 или выше."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 3.0/19.11"
+msgstr "Версия 3.0/19.11"
+
+#. type: Bullet: '* '
+msgid "Version scheme is now year.month."
+msgstr "Схема версий теперь год.месяц."
+
+#. type: Bullet: '* '
+msgid ""
+"When NVDA+H is pressed, a help screen will be displayed instead of a flash "
+"message being shown."
+msgstr ""
+"При нажатии клавиш NVDA+H вместо всплывающего сообщения будет отображен "
+"экран справки."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.5"
+msgstr "Версия 2.5"
+
+#. type: Bullet: '* '
+msgid "Compatible with Python 3."
+msgstr "Совместимо с Python 3."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.1"
+msgstr "Версия 2.1"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Новые и обновленные переводы."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 2.0"
+msgstr "Версия 2.0"
+
+#. type: Bullet: '* '
+msgid "Help messages for more controls added, including terminal windows."
+msgstr ""
+"Добавлены справочные сообщения о дополнительных элементах управления, "
+"включая окна терминала."
+
+#. type: Bullet: '* '
+msgid ""
+"Added help messages for working in some areas of applications, such as "
+"Microsoft Excel and Powerpoint and Windows 8 start screen."
+msgstr ""
+"Добавлены сообщения справки для работы в некоторых областях приложений, "
+"таких как Microsoft Excel и Powerpoint и стартовый экран Windows 8."
+
+#. type: Bullet: '* '
+msgid ""
+"Added help messages for working with forms in both browse and focus modes in "
+"virtual buffer documents (Internet Explorer, Adobe Reader, Mozilla Firefox, "
+"etc.)."
+msgstr ""
+"Добавлены сообщения справки для работы с формами в обоих режимах, обзора и "
+"редактирования, в виртуальных буферах документов (Internet Explorer, Adobe "
+"Reader, Mozilla Firefox и др.)."
+
+#. type: Bullet: '* '
+msgid "New language: Danish."
+msgstr "Новый язык: датский."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 1.0"
+msgstr "Версия 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Начальная версия."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"

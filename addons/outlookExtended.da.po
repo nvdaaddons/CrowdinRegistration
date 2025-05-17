@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-07-26 10:23+0000\n"
+"PO-Revision-Date: 2022-11-06 10:19+0100\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Outlook extended\"]]\n"
+msgstr "[[!meta title=\"Udvidelse til Outlook\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Cyrille Bougot, Ralf Kefferpuetz"
+msgstr "Forfattere: Cyrille Bougot, Ralf Kefferpuetz"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "NVDA-kompatibilitet: 2019.3 og derefter"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Download [stabil version][1]"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This addon improves the use of Microsoft Outlook by vocalizing some "
+#| "commands and adding extra commands."
+msgid ""
+"This addon improves the use of Microsoft Outlook with NVDA: it vocalizes "
+"some native commands and adds extra commands and features."
+msgstr ""
+"Denne tilføjelse forbedrer brugen af Microsoft Outlook ved at udtale nogle "
+"kommandoer og tilføje ekstra kommandoer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Kommandoer"
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+1 to Alt+9, Alt+0, Alt+-, Alt+=: Reports the header field 1 to 12 in a "
+"message, calendar item or task window. If pressed twice, moves the focus to "
+"this field if possible. If pressed three times, copies its content to the "
+"clipboard."
+msgstr ""
+"Alt+1 til Alt+9, Alt+0, Alt+-, alt+=: Rapporterer felterne fra 1 til 12 i "
+"overskrifterne i en besked, kalenderobjekt eller opgavevindue. Hvis denne "
+"kommando trykkes to gange, flyttes fokus til det pågældende felt hvis "
+"muligt. Hvis kommandoen trykkes to gange, kopieres indholdet til "
+"udklipsholderen."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+shift+I (desktop layout) / NVDA+control+shift+I (laptop layout): "
+"Reports the information bar in a message, calendar item or task window. If "
+"pressed twice, moves the focus to it. If pressed three times, copies its "
+"content to the clipboard."
+msgstr ""
+"NVDA+shift+I (desktoplayout) NVDA+Shift+Ctrl+I (Laptoplayout): Rapporterer "
+"informationslinjen i en besked, kalenderobjekt eller opgavevindue. Hvis du "
+"trykker to gange, flyttes fokus til den. Hvis du trykker tre gange, kopierer "
+"du indholdet til udklipsholderen."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+shift+M (desktop layout) / NVDA+control+shift+M (laptop layout): "
+#| "Moves the focus to the message body."
+msgid "NVDA+shift+A (desktop layout) / NVDA+control+shift+A (laptop layout):"
+msgstr ""
+"NVDA+Shift+M (Desktoplayout) NVDA+Shift+M (Laptoplayout): flytter fokus til "
+"beskedområdet."
+
+#. type: Bullet: '    * '
+#, fuzzy
+#| msgid ""
+#| "NVDA+shift+A (desktop layout) / NVDA+control+shift+A (laptop layout): "
+#| "Reports the number and the names of attachments in a message window. If "
+#| "pressed twice, moves the focus to it."
+msgid ""
+"In a message window: reports the number and the names of attachments; if "
+"pressed twice, moves the focus to it."
+msgstr ""
+"NVDA+shift+A (Desktoplayout) NVDA+Shift+Ctrl+A (Laptoplayout): Rapporterer "
+"nummeret og navnene på vedhæftede filer i et meddelelsesvindue. Hvis du "
+"trykker to gange, flyttes fokus til det pågældende område."
+
+#. type: Bullet: '    * '
+msgid ""
+"In a meeting window, in the all attendees tab: display in a browseable "
+"message the attendees status on the time slot of the meeting."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+shift+M (desktop layout) / NVDA+control+shift+M (laptop layout): Moves "
+"the focus to the message body."
+msgstr ""
+"NVDA+Shift+M (Desktoplayout) NVDA+Shift+M (Laptoplayout): flytter fokus til "
+"beskedområdet."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+shift+I (desktop layout) / NVDA+control+shift+I (laptop layout): "
+#| "Reports the information bar in a message, calendar item or task window. "
+#| "If pressed twice, moves the focus to it. If pressed three times, copies "
+#| "its content to the clipboard."
+msgid ""
+"NVDA+shift+N (desktop layout) / NVDA+control+shift+N (laptop layout): "
+"Reports the notification in a message window. If pressed twice, moves the "
+"focus to it. If pressed three times, copies its content to the clipboard."
+msgstr ""
+"NVDA+shift+I (desktoplayout) NVDA+Shift+Ctrl+I (Laptoplayout): Rapporterer "
+"informationslinjen i en besked, kalenderobjekt eller opgavevindue. Hvis du "
+"trykker to gange, flyttes fokus til den. Hvis du trykker tre gange, kopierer "
+"du indholdet til udklipsholderen."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+Q: in the message list, marks the selected message or group of "
+"messages as read."
+msgstr ""
+"Ctrl+Q: Markerer den valgte besked eller gruppe af meddelelser som læst i "
+"meddelelseslisten."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+U: in the message list, marks the selected message or group of "
+"messages as unread."
+msgstr ""
+"Ctrl+U: Markerer den valgte besked eller gruppe af meddelelser som ulæste i "
+"meddelelseslisten."
+
+#. type: Title ##
+#, no-wrap
+msgid "Additional improvements"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When the recipient you have entered in the To, Cc or Bcc fields sends "
+"automatic out of office replies or is not present anymore on the Exchange "
+"server, Outlook report it in the notification area of the message window. In "
+"this notification area, you also have buttons to remove the address of these "
+"recipients.  This add-on will inform you with a ding when this notification "
+"area appears, disappears or is updated. You can then press NVDA+shif+N / "
+"NVDA+control+shift+N once to have it read and twice to jump to this area. "
+"Then move with the arrows on the recipient buttons and press a button to "
+"remove the corresponding recipient."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In the address book's result list, you can use horizontal table navigation "
+"commands to read the content of each column."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Bemærkninger"
+
+#. type: Plain text
+msgid ""
+"All the gestures can be modified in the NVDA command gestures dialog. You "
+"may want to modify them especially in the following situations:"
+msgstr ""
+"Alle kommandoer kan ændres i dialogboksen for inputbevægelser. Du skal i "
+"nogle tilfælde ændre dem særligt i følgende situationer:"
+
+#. type: Bullet: '* '
+msgid ""
+"The default gestures to mark messages as read or unread are the ones for "
+"Outlook english version. If they differ from the ones of your Outlook local "
+"version, you will have to change them accordingly."
+msgstr ""
+"Standardkommandoerne til at markere meddelelser som læst eller ulæst er dem "
+"til Outlook i engelsk udgave. Hvis de adskiller sig fra dem i din Outlook-"
+"version på dit pågældende sprog, skal du ændre dem i overensstemmelse hermed."
+
+#. type: Bullet: '* '
+msgid ""
+"The default gestures to read headers correspond to Alt combined with the "
+"keys of the first row of the alpha-numeric keyboard. You may need to re-map "
+"the gestures tor read header 11 and 12 if they do not match your local "
+"keyboard layout."
+msgstr ""
+"Standardkommandoerne til at læse overskrifter svarer til Alt kombineret med "
+"tasterne til den første række af det alfanumeriske tastatur. Du skal "
+"muligvis tildele andre kommandoer for at læse overskrift 11 og 12, hvis de "
+"ikke passer til dit lokale tastaturlayout."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log"
+msgstr "Ændringshistorik"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.0"
+msgid "Version 3.0"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In a meeting window, in the all attendees tab, pressing NVDA+shift+A "
+"(desktop layout) / NVDA+control+shift+A (laptop layout) now displays in a "
+"browseable message the attendees status on the time slot of the meeting."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.0"
+msgid "Version 2.4"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatibility with NVDA 2022.1."
+msgid "Compatibility with NVDA 2024.1."
+msgstr "Kompatibilitet med NVDA 2022.1."
+
+#. type: Bullet: '* '
+msgid "Relevant commands are now usable in on-demand speech mode."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.0"
+msgid "Version 2.3"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Note: From now on, translation updates will not appear anymore in the change "
+"log."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.0"
+msgid "Version 2.2"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatibility with NVDA 2022.1."
+msgid "Restored compatibiliity with NVDA 2019.3.1."
+msgstr "Kompatibilitet med NVDA 2022.1."
+
+#. type: Bullet: '* '
+msgid "Updated localizations."
+msgstr "Opdaterede oversættelser."
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.0"
+msgid "Version 2.1"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid "Removed the dev channel."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.0"
+msgid "Version 2.0"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Improve the user experience with the notifications appearing when entering e-"
+"mail addresses which are not valid anymore or which send automatic out of "
+"office replies: a sound alerts when such notifications appear or are "
+"updated, a gesture allows to read it or to move to it, and navigation in "
+"this area with arrows is made more easy."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.1"
+msgid "Version 1.10"
+msgstr "Version 1.1"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatibility with NVDA 2022.1."
+msgid "Compatibility with NVDA 2023.1."
+msgstr "Kompatibilitet med NVDA 2022.1."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.9"
+msgstr "Version 1.9"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2022.1."
+msgstr "Kompatibilitet med NVDA 2022.1."
+
+#. type: Bullet: '* '
+msgid "Dropped compatibility for versions of NVDA below 2019.3."
+msgstr "Droppet kompatibilitet for versioner af NVDA under 2019.3."
+
+#. type: Bullet: '* '
+msgid ""
+"The release is now performed thanks to a GitHub action instead of appVeyor."
+msgstr ""
+"Udgivelsen udføres nu takket være en GitHub-handling i stedet for appVeyor."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the announcement when the user triple-presses alt+number shortcuts."
+msgstr ""
+"Rettede meddelelsen, når brugeren udfører et tredobbelte trykk på alt+nummer "
+"genveje."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue preventing from reading calendar items headers of some "
+"versions of Outlook 365."
+msgstr ""
+"Rettede et problem, der forhindrede i at læse kalenderelementer i nogle "
+"versioner af Outlook 365."
+
+#. type: Bullet: '* '
+msgid ""
+"Improvement of the test environment of the add-on: navigation in the fake "
+"root dialog."
+msgstr ""
+"Forbedring af testmiljøet for tilføjelsen: navigation i den falske roddialog."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.8"
+msgstr "Version 1.8"
+
+#. type: Bullet: '* '
+msgid ""
+"Ensure that all the variable from the original Outlook appModule are still "
+"available."
+msgstr ""
+"Sørget for, at alle variabler fra det originale Outlook appModule stadig er "
+"tilgængelige."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.7"
+msgstr "Version 1.7"
+
+#. type: Bullet: '* '
+msgid "Update compatibility for NVDA 2021.1."
+msgstr "Opdateret kompatibilitetsstatus til NVDA 2021.1."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.6"
+msgstr "Version 1.6"
+
+#. type: Bullet: '* '
+msgid "Fixed various issues when reading messages headers in Outlook 365."
+msgstr ""
+"Rettet forskellige problemer, når du læser beskedoverskrifter i Outlook 365."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an error in announce attachments script when a braille keyboard is "
+"used."
+msgstr ""
+"Rettede en fejl i scriptet til annoncering af vedhæftelser, når et "
+"punkttastatur bruges."
+
+#. type: Bullet: '* '
+msgid "Added a unit test framework."
+msgstr "Tilføjet et unit test framework."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.5"
+msgstr "Version 1.5"
+
+#. type: Bullet: '* '
+msgid "Reading the information bar is now working with NVDA 2019.3."
+msgstr "Læsning af statuslinjen fungerer nu med NVDA 2019.3."
+
+#. type: Bullet: '* '
+msgid ""
+"Table navigation in the address book results is now working with NVDA 2019.3."
+msgstr ""
+"Tabelnavigation i resultaterne af adressebogen fungerer nu med NVDA 2019.3."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.4"
+msgstr "Version 1.4"
+
+#. type: Bullet: '* '
+msgid "The script to move focus to headers is working again."
+msgstr "Scriptet for at flytte fokus til overskrifter fungerer igen."
+
+#. type: Bullet: '* '
+msgid ""
+"The script to move to attachments is now working when more attachments are "
+"present."
+msgstr ""
+"Skriptet, der skal flytte til vedhæftede filer, fungerer nu, når flere "
+"vedhæftede filer er til stede."
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr "Tilføjede oversættelser."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "Version 1.3"
+
+#. type: Bullet: '* '
+msgid "Fixed message headers reading for newer Office 365 release."
+msgstr ""
+"Rettede læsning af meddelelsesoverskrifter, der læser for nyere Office 365-"
+"udgivelse."
+
+#. type: Bullet: '* '
+msgid "Updates to support newer versions of NVDA (Python 2 and 3 compatible)."
+msgstr ""
+"Opdateringer til understøttelse af nyere versioner af NVDA (kompatibel med "
+"Python 2 og 3)"
+
+#. type: Bullet: '* '
+msgid "Releases performed now with appveyor."
+msgstr "Udgivelser udføres nu med appveyor."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Version 1.2"
+
+#. type: Bullet: '* '
+msgid "Fixed header reading when forwarding meeting."
+msgstr "Rettede læsning af overskrifter, når der videresendes møder."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Version 1.1"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release."
+msgstr "Første udgivelse."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "[1]: https://addons.nvda-project.org/files/get.php?file=outlookextended"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=outlookextended"
+msgstr ""
+"[1]: https://addons.nvda-project.org/files/get.php?file=outlookextended"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Download [udviklingsversion][2]"
+
+#, fuzzy
+#~| msgid ""
+#~| "[2]: https://addons.nvda-project.org/files/get.php?file=outlookextended-"
+#~| "dev"
+#~ msgid ""
+#~ "[2]: https://www.nvaccess.org/addonStore/legacy?file=outlookextended-dev"
+#~ msgstr ""
+#~ "[2]: https://addons.nvda-project.org/files/get.php?file=outlookextended-"
+#~ "dev"
+
+#~ msgid ""
+#~ "Control+Alt+Left and Control+Alt+Right: in the address book search result "
+#~ "list, navigates between the fields of the currently selected line."
+#~ msgstr ""
+#~ "Ctrl+Alt+Venstre og Ctrl+Alt+Højre: I adressebogens søgeresultatliste vil "
+#~ "kommandoen navigere mellem felterne for den aktuelt valgte linje."

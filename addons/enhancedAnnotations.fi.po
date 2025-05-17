@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Enhanced Annotations\n"
+"POT-Creation-Date: 2024-12-01 07:34+0000\n"
+"PO-Revision-Date: 2024-02-16 16:25+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: fi_FI <janikinnunen340@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Enhanced Annotations\"]]\n"
+msgstr "[[!meta title=\"Laajennetut merkinnät\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: George Kerscher, Noelia Ruiz Martínez"
+msgstr "Tekijät: George Kerscher ja Noelia Ruiz Martínez"
+
+#. type: Plain text
+msgid ""
+"In the DAISY Consortium, best practices are developed for publishers and "
+"authors for providing extended (long) descriptions."
+msgstr ""
+"DAISY-konsortiossa kehitetään parhaita käytäntöjä julkaisijoille ja "
+"tekijöille laajennettujen (pitkien) kuvausten antamiseen."
+
+#. type: Plain text
+msgid ""
+"The best practices use the HTML details element that follows the image, or a "
+"link to another file that contains the extended description."
+msgstr ""
+"Parhaissa käytännöissä käytetään HTML:n tietoelementtiä (details), joka "
+"seuraa kuvaa tai linkkiä toiseen tiedostoon, joka sisältää laajennetun "
+"kuvauksen."
+
+#. type: Plain text
+msgid ""
+"In both options, the user would need to move to the details or the link and "
+"activate it."
+msgstr ""
+"Molemmissa vaihtoehdoissa käyttäjän on siirryttävä tietoihin tai linkkiin ja "
+"aktivoitava se."
+
+#. type: Plain text
+msgid "Having a keystroke to put focus on the details or the link is ideal."
+msgstr ""
+"Ihanteellista on,  että kohdistus siirtyy tietoihin tai linkkiin tiettyä "
+"näppäinkomentoa painamalla."
+
+#. type: Plain text
+msgid ""
+"Our best practices recommend that the details or the link immediately "
+"follows the image, and if the link is followed, a back link to the exact "
+"location must be provided. This makes it certain that the user will not get "
+"lost."
+msgstr ""
+"Parhaat käytännöt suosittelevat, että tiedot tai linkki seuraa välittömästi "
+"kuvaa, ja jos linkkiä seurataan, tulee käytettävissä olla tarkasti "
+"edelliseen kohtaan siirtävä linkki. Tämä varmistaa, ettei käyttäjä eksy."
+
+#. type: Plain text
+msgid ""
+"However it is probable that authors in the wild will place the extended "
+"(long) description almost anywhere. In these cases, the user would want to "
+"return to the image and hence the need for a way to return to the original "
+"image."
+msgstr ""
+"On kuitenkin todennäköistä, että tekijät sijoittavat laajennetun (pitkän) "
+"kuvauksen melkein minne tahansa. Näissä tapauksissa käyttäjä haluaa palata "
+"kuvaan, ja siksi tarvitaan tapa palata alkuperäiseen kuvaan."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This add-on provides both features, in support of this [issue opened in "
+#| "NVDA's repository][2]."
+msgid ""
+"This add-on provides both features, in support of this [issue opened in "
+"NVDA's repository][1]."
+msgstr ""
+"Tämä lisäosa tarjoaa molemmat ominaisuudet, jotka tukevat tätä [NVDA:n "
+"lähdekoodivarastossa avattua ongelmaa][2]."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Komennot"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+alt+d: moves the cursor to the element identified with aria-details."
+msgstr ""
+"NVDA+Alt+D: siirtää kohdistimen aria-details-attribuutilla merkittyyn "
+"elementtiin."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+alt+shift+d: moves the cursor to the original element, for example, an "
+"image with furter details like a long description. If NVDA+alt+d has been "
+"pressed several times to move to related annotations, it'll be possible to "
+"go back to each origin."
+msgstr ""
+"NVDA+Alt+Vaihto+D: siirtää kohdistimen alkuperäiseen elementtiin, "
+"esimerkiksi kuvaan, jossa on tarkempia tietoja, kuten pitkä kuvaus. Jos "
+"NVDA+Alt+D:tä on painettu useita kertoja liittyviin merkintöihin "
+"siirtymiseksi, kuhunkin alkuperään on mahdollista palata takaisin."
+
+#. type: Plain text
+msgid ""
+"The above commands can be modified from NVDA's menu, Preferences submenu, "
+"Input gestures dialog, Browse mode category."
+msgstr ""
+"Yllä olevia komentoja voidaan muokata kohdasta NVDA-valikko -> Asetukset-"
+"alivalikko -> Näppäinkomennot-valintaikkuna -> Selaustila-kategoria."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Muutokset versiossa 2.0"
+
+#. type: Bullet: '* '
+msgid "Added ability to move back through multiple annotation origins."
+msgstr "Lisätty mahdollisuus siirtyä useita merkintöjen alkuperiä taaksepäin."
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2023.1 or later."
+msgstr "Edellyttää NVDA 2023.1:tä tai uudempaa."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://github.com/nvaccess/nvda/issues/13940"
+msgid "[1]: https://github.com/nvaccess/nvda/issues/13940"
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/13940"
+
+#~ msgid ""
+#~ "[download stable version][1] (compatible with NVDA 2023.1 and beyond)"
+#~ msgstr ""
+#~ "[Lataa vakaa versio][1] (yhteensopiva NVDA 2023.1:n ja uudempien kanssa)"
+
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedAnnotations"
+#~ msgstr ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedAnnotations"

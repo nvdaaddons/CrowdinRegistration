@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-12 03:17+0000\n"
+"PO-Revision-Date: 2023-06-13 21:11+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Kill NVDA\"]]\n"
+msgstr "[[!meta title=\"NVDA'yı öldür\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Tyler Spivey"
+msgstr "Yazar: Tyler Spivey"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.2 to 2019.3"
+msgstr "NVDA uyumluluğu: 2019.2 - 2019.3"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü][1] indir"
+
+#. type: Plain text
+msgid ""
+"This add-on is designed to temporarily kill NVDA, so that you can recover if "
+"it freezes."
+msgstr ""
+"Bu eklenti, donduğunda kurtarabilmeniz için NVDA'yı geçici olarak öldürmek "
+"üzere tasarlanmıştır."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Kullanım"
+
+#. type: Bullet: '1. '
+msgid "Install this add-on."
+msgstr "Bu eklentiyi yükleyin."
+
+#. type: Bullet: '2. '
+msgid "Copy it to the logon screen with the button in General Settings."
+msgstr ""
+"Genel Ayarlar'da ilgili düğmeyi  kullanarak oturum açma ekranına kopyalayın."
+
+#. type: Bullet: '3. '
+msgid ""
+"When NVDA dies, press control alt delete, then activate the NVDA menu, "
+"Tools, Kill NVDA."
+msgstr ""
+"NVDA donduğunda , kontrol alt sil düğmesine basın, ardından NVDA menüsü, "
+"Araçlar, NVDA'yı Öldür'ü etkinleştirin."
+
+#. type: Plain text
+msgid ""
+"After that, press escape. NVDA restarts, but you should be able to use your "
+"computer again."
+msgstr ""
+"Bundan sonra, esc tuşuna basın. NVDA yeniden başlatılır, ancak "
+"bilgisayarınızı yeniden kullanabilmeniz gerekir."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=killnvda"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=killnvda"

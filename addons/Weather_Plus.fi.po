@@ -1,0 +1,760 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Weather Plus\n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2025-03-09 14:48+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Weather Plus\"]]\n"
+msgstr "[[!meta title=\"Weather Plus\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Adriano Barbieri"
+msgstr "Tekijä: Adriano Barbieri"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.3 to beyond"
+msgstr "Yhteensopivuus: NVDA 2017.3 ja uudemmat"
+
+#. type: Bullet: '* '
+msgid "Download: [Stable Version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Title #
+#, no-wrap
+msgid "ABOUT WEATHER PLUS:"
+msgstr "Tietoa Weather Plus -lisäosasta:"
+
+#. type: Bullet: '* '
+msgid ""
+"This plugin adds local temperature and forecasts to 24 hours up to 2 "
+"additional days and hourlyforecast for NVDA."
+msgstr ""
+"Tämä lisäosa lisää NVDA:han paikalliset lämpötila- ja sääennusteet 24 tunnin "
+"ajalta aina 2 päivään saakka sekä lisäksi tuntiennusteen."
+
+#. type: Bullet: '* '
+msgid "Copyright (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)"
+msgstr "Copyright (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)"
+
+#. type: Bullet: '* '
+msgid "Released under the GNU GPL (General Public License) v2"
+msgstr "Julkaistu GNU GPL (General Public License) v2 -lisenssin alaisuudessa"
+
+#. type: Bullet: '* '
+msgid ""
+"Weather Plus works through the use and presence of the following services:"
+msgstr "Weather Plus käyttää seuraavia palveluita:"
+
+#. type: Bullet: '* '
+msgid "[https://www.weatherapi.com/](https://www.weatherapi.com/)"
+msgstr "[https://www.weatherapi.com/](https://www.weatherapi.com/)"
+
+#. type: Bullet: '* '
+msgid "[http://www.geonames.org/](http://www.geonames.org/)"
+msgstr "[http://www.geonames.org/](http://www.geonames.org/)"
+
+#. type: Bullet: '* '
+msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+msgstr "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+
+#. type: Bullet: '* '
+msgid "[http://www.nvda.it/](http://www.nvda.it/)"
+msgstr "[http://www.nvda.it/](http://www.nvda.it/)"
+
+#. type: Title #
+#, no-wrap
+msgid "USAGE:"
+msgstr "Käyttö:"
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+w to get the information about current temperature and weather "
+"conditions."
+msgstr "Saat selville nykyisen lämpö- ja säätilan painamalla NVDA+W."
+
+#. type: Bullet: '* '
+msgid "Press NVDA+shift+W to get 24 hours forecast and forecast up to 2 days."
+msgstr ""
+"Saat ennusteen alkaen 24 tunnin ajalle aina 2 päivään saakka painamalla "
+"NVDA+Vaihto+W."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+shift+W twice to get hourlyforecast of temperature and "
+"atmospheric conditions."
+msgstr ""
+"Saat selville tuntiennusteen lämpötilasta ja ilmakehän olosuhteista "
+"painamalla kahdesti NVDA+Vaihto+W."
+
+#. type: Bullet: '* '
+msgid "Press NVDA+shift+control+w to set a temporary city."
+msgstr "Määritä väliaikainen kaupunki painamalla NVDA+Vaihto+Ctrl+W."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+shift+control+alt+w to open the Weather Plus settings dialog."
+msgstr ""
+"Avaa Weather Plus:n asetusvalintaikkuna painamalla NVDA+Vaihto+Ctrl+Alt+W."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+alt+w to get the date and time, when the weather report was "
+"updated."
+msgstr "Saat selville sääennusteen päivitysajankohdan painamalla NVDA+Alt+W."
+
+#. type: Bullet: '* '
+msgid ""
+"Press control+shift+w to toggle between Fahrenheit, Celsius or Kelvin "
+"temperature scales."
+msgstr ""
+"Vaihda Fahrenheit-, celsius- tai Kelvin-asteikon välillä painamalla "
+"Ctrl+Vaihto+W."
+
+#. type: Title #
+#, no-wrap
+msgid "Weather Plus setup:"
+msgstr "Weather Plus:n asetusten määritys:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* You must set the Weather Plus addon before its first use! Go to the Preferences submenu, Weather Plus Settings submenu and choose one of the following options:\n"
+" * Set and Manage Your Cities... - Displays or allows to set the current city from a list.\n"
+" * Set a temporary city... - Displays and allows to set one temporary city from a list if available.\n"
+" * Documentation - Opens the help file for the current language.\n"
+" * Check for Update... - Notifies about the availability of the new version.\n"
+msgstr ""
+"* Weather Plus:n asetukset on määritettävä ennen sen ensimmäistä käyttökertaa. Valitse NVDA-valikosta Asetukset -> Weather Plus ja valitse sitten jokin seuraavista vaihtoehdoista:\n"
+" * Määritä ja hallinnoi kaupunkeja...: Näyttää nykyisen kaupungin tai mahdollistaa sen valitsemisen luettelosta.\n"
+" * Määritä väliaikainen kaupunki...: Näyttää nykyisen väliaikaisen kaupungin tai mahdollistaa sen valitsemisen luettelosta.\n"
+" * Dokumentaatio: Avaa ohjetiedoston nykyisellä kielellä.\n"
+" * Tarkista päivitys...: Ilmoittaa, jos uusi versio on saatavilla.\n"
+
+#. type: Plain text
+msgid "To add a new city: press the following item:"
+msgstr "Lisää uusi kaupunki painamalla seuraavaa painiketta:"
+
+#. type: Bullet: '* '
+msgid ""
+"Set and Manage Your Cities... - Displays or allows to set the current city "
+"from a list."
+msgstr ""
+"Määritä ja hallinnoi kaupunkeja...: Näyttää nykyisen kaupungin tai "
+"mahdollistaa sen valitsemisen luettelosta."
+
+#. type: Bullet: '* '
+msgid ""
+"The following message is displayed only for the first time! Settings Preset "
+"None F1: help placing, F2: last TAB selection, F3: list and edit box, F4: "
+"control duration Weather Forecast, F5: volume controls."
+msgstr ""
+"Seuraava ilmoitus näytetään vain ensimmäisellä käyttökerralla. "
+"Oletuskaupunki Ei mitään F1: ohje, F2: viimeisimmän välilehden valitseminen, "
+"F3: luettelo- ja muokkausruutu, F4: muuta sääennusteen kestoa, F5: "
+"äänenvoimakkuuden säätimet."
+
+#. type: Bullet: '* '
+msgid ""
+"In the edit box, enter a City or choose one from the list, if available. "
+"Note: The F5 key is available if the sound effects are activated."
+msgstr ""
+"Kirjoita tähän muokkauskenttään kaupunki tai valitse se luettelosta. Huom: "
+"F5-näppäin on käytettävissä, mikäli äänitehosteet on otettu käyttöön."
+
+#. type: Bullet: '* '
+msgid ""
+"After pressing enter on the item \"Set and Manage Your Cities...\", you will "
+"find other buttons as follows:"
+msgstr ""
+"Kun olet valinnut \"Määritä ja hallinnoi kaupunkeja...\" -kohdan, "
+"käytettävissä ovat seuraavat painikkeet:"
+
+#. type: Bullet: '* '
+msgid "Test - Test the validity of the city and find the data of it."
+msgstr "Testaa: Testaa kaupungin kelvollisuus ja hae sen tiedot."
+
+#. type: Bullet: '* '
+msgid ""
+"Add - Adds the current city into your list. This button can be activated if "
+"you select a city from the list, when the city entered passed the test."
+msgstr ""
+"Lisää: Lisää nykyisen kaupungin luetteloon. Tämä painike on käytettävissä, "
+"jos valitset luettelosta kaupungin tai mikäli se on läpäissyt testin."
+
+#. type: Bullet: '* '
+msgid ""
+"Details - Displays information about the current city. This button is "
+"activated if you select a city from the list, or it has passed the test."
+msgstr ""
+"Tiedot: Näyttää nykyisen kaupungin tiedot. Tämä painike on käytettävissä, "
+"jos valitset luettelosta kaupungin tai mikäli se on läpäissyt testin."
+
+#. type: Bullet: '* '
+msgid ""
+"Define - Allows you to define the area, in order to adapt the sound effects. "
+"This button can be activated if the audio effects are installed and "
+"activated, and you select a city from the list."
+msgstr ""
+"Määritä: Voit määrittää alueen äänitehosteiden mukauttamiseksi. Tämä painike "
+"on käytettävissä, mikäli äänitehosteet on asennettu ja ne ovat "
+"käytettävissä, ja valitset luettelosta kaupungin."
+
+#. type: Bullet: '* '
+msgid ""
+"Preset - Presets a city as the default, will be used every time you restart "
+"the plugin. This button is activated if you select a city previously "
+"inserted in the list and not preset, or it has passed the test."
+msgstr ""
+"Aseta oletukseksi: Määrittää kaupungin oletukseksi, jolloin sitä käytetään "
+"aina, kun käynnistät lisäosan uudelleen. Tämä painike on käytettävissä, "
+"mikäli valitset luetteloon aiemmin lisätyn kaupungin, jota ei ole asetettu "
+"oletukseksi, tai joka on läpäissyt testin."
+
+#. type: Bullet: '* '
+msgid ""
+"Remove - Deletes the current city from your list. This button can be "
+"activated if you select a city previously inserted in the list."
+msgstr ""
+"Poista: Poistaa nykyisen kaupungin luettelosta. Tämä painike on "
+"käytettävissä, mikäli valitset luetteloon aiemmin lisätyn kaupungin, jota ei "
+"ole asetettu oletukseksi, tai joka on läpäissyt testin."
+
+#. type: Bullet: '* '
+msgid ""
+"Rename - Rename the current city. This button can be activated if you select "
+"a city previously inserted in the list."
+msgstr ""
+"Nimeä uudelleen: Nimeä nykyinen kaupunki uudelleen. Tämä painike on "
+"käytettävissä, mikäli valitset luetteloon aiemmin lisätyn kaupungin, jota ei "
+"ole asetettu oletukseksi, tai joka on läpäissyt testin."
+
+#. type: Bullet: '* '
+msgid ""
+"Import new cities... - This button allows you to import cities from the "
+"another list of cities with the extension *.zipcodes; you can select the "
+"city you want to import, by turning on the checkbox associated with it."
+msgstr ""
+"Tuo uusia kaupunkeja...: Tällä painikkeella voit tuoda kaupunkeja "
+"tiedostosta, jonka pääte on .zipcodes. Valitse tuotava kaupunki valitsemalla "
+"sitä vastaava valintaruutu."
+
+#. type: Bullet: '* '
+msgid ""
+"Export your cities... - It allows you to save the cities in the specified "
+"file with the extension *.zipcodes. This button is activated if you have "
+"added and saved at least one city into the list."
+msgstr ""
+"Vie kaupunkeja...: Tällä painikkeella voit tallentaa kaupunkeja tiedostoon, "
+"jonka pääte on .zipcodes. Toiminto aktivoidaan, jos olet lisännyt ja "
+"tallentanut luettelooon vähintään yhden kaupungin."
+
+#. type: Bullet: '* '
+msgid ""
+"hourly forecast setting... - This button allows you to choose the contents "
+"of the hourly forecast report."
+msgstr ""
+"Tuntiennusteen asetukset...: Tällä painikkeella voit valita "
+"tuntiennusteraportin sisällön."
+
+#. type: Bullet: '* '
+msgid ""
+"Scale of temperature measurement: Use the radio button to select between "
+"Celsius (by default), Fahrenheit and Kelvin."
+msgstr ""
+"Lämpötilamittauksen asteikko: Käytä tätä valintapainiketta valitaksesi "
+"asteikoksi Celsius (oletuksena), Fahrenheit tai Kelvin."
+
+#. type: Bullet: '* '
+msgid ""
+"Degrees shown as: Use the radio button to select between: Celsius `-` "
+"Fahrenheit `-` Kelvin (by default) C `-` F `-` K or Unspecified."
+msgstr ""
+"Asteet näytetään muodossa: Käytä tätä valintapainiketta valitaksesi "
+"seuraavien vaihtoehtojen väliltä: Celsius `-` Fahrenheit `-` Kelvin "
+"(oletuksena), C `-` F `-` K tai Ei määritetty."
+
+#. type: Bullet: '* '
+msgid ""
+"Combo box: Weather Forecasts up to days: 1; you can choose between 1 to 3 (1 "
+"days by default)"
+msgstr ""
+"Sääennuste näin monelle päivälle: Tästä yhdistelmäruudusta voit valita "
+"sääennusteen 1-3 päivälle (oletusarvoisesti yksi päivä)"
+
+#. type: Bullet: '* '
+msgid ""
+"Combo box: API response language: English, en; you can choose the language "
+"of the weather conditions text."
+msgstr ""
+"Ohjelmointirajapinnan vastauksen kieli: Tästä yhdistelmäruudusta voit valita "
+"säätilan tekstin kielen (oletusarvoisesti englanti)."
+
+#. type: Bullet: '* '
+msgid "To perform the following actions, toggle the following checkboxes:"
+msgstr "Valitse seuraavat valintaruudut suorittaaksesi niiden toiminnot:"
+
+#. type: Bullet: '* '
+msgid ""
+"Copy the weather report and weather forecast, including city details to "
+"clipboard; checkbox not checked (by default)"
+msgstr ""
+"Kopioi sääraportti ja -ennuste leikepöydälle (kaupungin tiedot mukaan "
+"lukien): Tätä valintaruutua ei ole oletusarvoisesti valittu."
+
+#. type: Bullet: '* '
+msgid ""
+"Enable audio effects (only for the current weather conditions); this "
+"checkbox also allows you to manage the installation of sound effects; if the "
+"sound effects are installed and the checkbox is activated, the F5 key and "
+"the volume setting becomes available."
+msgstr ""
+"Ota käyttöön äänitehosteet (vain nykyiselle säätilalle): Tällä "
+"valintaruudulla voit myös hallita äänitehosteiden asennusta. Mikäli "
+"äänitehosteet on asennettu ja valintaruutu valitaan, F5-näppäin ja "
+"äänenvoimakkuusasetus ovat käytettävissä."
+
+#. type: Bullet: '* '
+msgid ""
+"There will also be available an additional checkbox: \"Use only weather "
+"effects\"."
+msgstr ""
+"Käytettävissä on myös ylimääräinen valintaruutu: \"Käytä vain "
+"säätehosteita\"."
+
+#. type: Bullet: '* '
+msgid ""
+"You can change the overall volume or change the last heard sound effect and "
+"filter out the others sounds in your environment. Checkbox is not checked by "
+"default."
+msgstr ""
+"Voit muuttaa yleistä äänenvoimakkuutta tai muuttaa viimeksi kuultua "
+"äänitehostetta ja suodattaa pois muut äänet ympäristöstäsi. Tätä "
+"valintaruutua ei ole valittu oletuksena."
+
+#. type: Bullet: '* '
+msgid ""
+"Use only weather effects - This option is available if sound effects are "
+"enabled; if is enabled, allows to listen only weather effects such as rain, "
+"wind, thunder, etc., filtering out all environmental ones. (unchecked by "
+"default)"
+msgstr ""
+"Käytä vain säätehosteita: Tämä vaihtoehto on käytettävissä, jos "
+"äänitehosteet ovat käytössä. Mikäli tämä asetus on käytössä, vain "
+"säätehosteet, kuten sade, tuuli, ukkonen jne. sallitaan suodattaen pois "
+"kaikki ympäristötehosteet (ei ole oletusarvoisesti valittuna)."
+
+#. type: Bullet: '* '
+msgid ""
+"Enable the reading of the hours in 24-hour format. - If this checkbox is "
+"unchecked, announces the time in 12-hour format for example, 12 AM `-` 12 "
+"PM. Checkbox is checked (by default)"
+msgstr ""
+"Ilmoita aika 24 tunnin muodossa: Jos tätä valintaruutua ei ole valittu, "
+"kellonaika ilmoitetaan 12 tunnin muodossa, esim. 12 AM `-` 12 PM. "
+"Valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Enable help buttons in the settings window; checkbox checked (by default)"
+msgstr ""
+"Ota käyttöön asetusikkunan ohjepainikkeet: Tämä valintaruutu on "
+"oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Read wind information; checkbox not checked (by default). If this checkbox "
+"is enabled, you can also activate the following checkboxes:"
+msgstr ""
+"Lue tuulitiedot: Tämä valintaruutu ei ole oletusarvoisesti valittuna. Mikäli "
+"se on valittuna, voit valita myös seuraavat valintaruudut:"
+
+#. type: Bullet: '* '
+msgid ""
+"Add wind direction; indicates the provenance of the wind. Checkbox checked "
+"(by default)"
+msgstr ""
+"Lisää tuulen suunta: Ilmaisee suunnan, josta tuuli puhaltaa. Tämä "
+"Valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Add speed of the wind; indicates the speed in kilometers or miles per hour. "
+"Checkbox checked (by default)"
+msgstr ""
+"Lisää tuulen nopeus: Ilmaisee tuulen nopeuden kilometreinä tai maileina "
+"tunnissa. Tämä valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Add speed in meters per second of the wind; checkbox checked (by default)"
+msgstr ""
+"Lisää tuulen nopeus metreinä sekunnissa: Tämä valintaruutu on "
+"oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid "Add wind gust speed of the wind; checkbox checked (by default)"
+msgstr ""
+"Lisää tuulen nopeus puuskissa: Tämä valintaruutu on oletusarvoisesti "
+"valittuna."
+
+#. type: Bullet: '* '
+msgid "Add perceived temperature; checkbox checked (by default)"
+msgstr ""
+"Lisää havaittu lämpötila: Tämä valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Read atmospherical information; checkbox not checked (by default). If "
+"enabled, you can also check the following checkboxes:"
+msgstr ""
+"Lue ilmakehän tiedot: Tätä valintaruutua ei ole oletusarvoisesti valittu. "
+"Jos se on valittuna, voit valita myös seuraavat valintaruudut:"
+
+#. type: Bullet: '* '
+msgid ""
+"Add humidity value; indicates the humidity in percent. Checkbox checked (by "
+"default)"
+msgstr ""
+"Lisää kosteusarvo: Ilmaisee kosteuden prosentteina. Tämä valintaruutu on "
+"oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Add visibility value; indicate in kilometres or miles the distance visible. "
+"Checkbox checked (by default)"
+msgstr ""
+"Lisää näkyvyysarvo: Ilmaisee näkyvyyden kilometreinä tai maileina. Tämä "
+"valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Add atmospheric pressure value; indicates the atmospheric pressure in "
+"millibars or inches of mercury. If it's checked, enable an additional "
+"checkbox that allows you to indicate the pressure in millimeters of mercury. "
+"Checkbox checked (by default)"
+msgstr ""
+"Lisää ilmakehän painearvo: Ilmaisee ilmakehän paineen millibaareina tai "
+"elohopeatuumina. Mikäli tämä  valintaruutu on valittuna, ota käyttöön myös "
+"ylimääräinen valintaruutu, joka ilmoittaa paineen elohopeamillimetreinä. "
+"Tämä valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid "Add status of barometric pressure; check box checked (by default)"
+msgstr ""
+"Lisää ilmanpaineen tila: Tämä valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid "Add cloudiness value; check box checked (by default)"
+msgstr "Lisää pilvisyysarvo: Tämä valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid "Add precipitation value; check box checked (by default)"
+msgstr "Lisää sademäärä: Tämä valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid "Add ultraviolet radiation value; check box checked (by default)"
+msgstr ""
+"Lisää ultraviolettisäteilyn arvo: Tämä valintaruutu on oletusarvoisesti "
+"valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Read astronomical information; indicates the time of sunrise and sunset and "
+"the time of moonrise and moonset. Checkbox not checked (by default)"
+msgstr ""
+"Lue tähtitieteelliset tiedot: Ilmaisee auringonnousun ja -laskun sekä kuun "
+"nousun ja laskun kellonajan. Tätä valintaruutua ei ole oletusarvoisesti "
+"valittu."
+
+#. type: Bullet: '* '
+msgid ""
+"Use the comma to separate decimals; if enabled, uses the comma as a decimal "
+"separator, otherwise, use the point. Checkbox not checked (by default)"
+msgstr ""
+"Käytä pilkkua desimaalierottimena: Jos tämä on käytössä, pilkkua käytetään "
+"desimaalierottimena. Muutoin käytetään pistettä. Tätä valintaruutua ei ole "
+"oletusarvoisesti valittu."
+
+#. type: Bullet: '* '
+msgid ""
+"Check for upgrade; if is activated this alerts when there is an update of "
+"the addon. Checkbox checked (by default)"
+msgstr ""
+"Tarkista päivitykset: Jos tämä on käytössä, lisäosa näyttää ilmoituksen, kun "
+"päivitys on saatavilla. Tämä valintaruutu on oletusarvoisesti valittuna."
+
+#. type: Bullet: '* '
+msgid ""
+"Press the OK button to confirm the action or the Cancel button to cancel the "
+"action."
+msgstr ""
+"Vahvista toiminto painamalla OK-painiketta tai peruuta painamalla Peruuta-"
+"painiketta."
+
+#. type: Bullet: '* '
+msgid ""
+"If you have modified the cities list, by pressing \"Cancel\", you will be "
+"remembered and you can still save it. Note: your settings will be save in "
+"the file named:"
+msgstr ""
+"Mikäli olet muokannut kaupunkien luetteloa, sinua muistutetaan siitä "
+"painaessasi Peruuta-painiketta, ja voit edelleen tallentaa tekemäsi "
+"muutokset. Huom: Asetukset tallennetaan tiedostoon:"
+
+#. type: Bullet: '* '
+msgid "\"Weather.ini\": startup settings of Weather Plus."
+msgstr "\"Weathe r.ini\": Weather Plus:n asetukset."
+
+#. type: Bullet: '* '
+msgid ""
+"\"Weather.volumes\": custom audio volume levels, regardless of the overall "
+"volume."
+msgstr ""
+"\"Weather.volumes\": mukautetut äänenvoimakkuuden tasot, jotka eivät ole "
+"riippuvaisia yleisestä äänenvoimakkuudesta ."
+
+#. type: Bullet: '* '
+msgid ""
+"\"Weather.zipcodes\": list of cities with their zip code and definitions."
+msgstr ""
+"\"Weather.zipcodes\": Luettelo kaupungeista sekä niiden postinumeroista ja "
+"muista määrityksistä."
+
+#. type: Bullet: '* '
+msgid "\"Weather.default\": Your default city."
+msgstr "\"Weather.default\": Oletuskaupunki."
+
+#. type: Bullet: '* '
+msgid "\"Weather_searchkey\": search key saved."
+msgstr "\"Weather_searchkey\": Tallennettu hakusana."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+
+#, fuzzy
+#~| msgid ""
+#~| "Set and Manage Your Cities... - Displays or allows to set the current "
+#~| "city from a list."
+#~ msgid ""
+#~ "Set a temporary city... - Displays and allows to set one temporary city "
+#~ "from a list if available."
+#~ msgstr ""
+#~ "Määritä ja hallinnoi kaupunkeja...: Näyttää nykyisen kaupungin tai "
+#~ "mahdollistaa sen valitsemisen luettelosta."
+
+#~ msgid ""
+#~ "[https://developer.yahoo.com/weather/](https://developer.yahoo.com/"
+#~ "weather/)"
+#~ msgstr ""
+#~ "[https://developer.yahoo.com/weather/](https://developer.yahoo.com/"
+#~ "weather/)"
+
+#~ msgid ""
+#~ "[http://woeid.rosselliot.co.nz/lookup/](http://woeid.rosselliot.co.nz/"
+#~ "lookup/)"
+#~ msgstr ""
+#~ "[http://woeid.rosselliot.co.nz/lookup/](http://woeid.rosselliot.co.nz/"
+#~ "lookup/)"
+
+#, fuzzy
+#~| msgid "Weather Plus Settings submenu"
+#~ msgid "Changes in the Weather Plus Settings window"
+#~ msgstr "Weather Plus... -alivalikkoon"
+
+#, fuzzy
+#~| msgid "Weather Plus Settings submenu"
+#~ msgid "Changes in details button function in settings window"
+#~ msgstr "Weather Plus... -alivalikkoon"
+
+#, fuzzy
+#~| msgid ""
+#~| "Press NVDA + shift + control + alt + w to open the Weather Plus settings "
+#~| "dialog."
+#~ msgid ""
+#~ "Added hotkey NVDA+shift+control+alt+w; it Opens the Weather Plus settings "
+#~ "dialog."
+#~ msgstr ""
+#~ "Avaa Weather Plus:n asetusvalintaikkuna painamalla NVDA+Vaihto+Ctrl+Alt+W."
+
+#, fuzzy
+#~| msgid "Weather Plus Settings submenu"
+#~ msgid "Changes to the Weather Plus Settings window"
+#~ msgstr "Weather Plus... -alivalikkoon"
+
+#, fuzzy
+#~| msgid "Note: The F5 key is available if the sound effects are activated."
+#~ msgid ""
+#~ "F3 jumps into volume controls (if the sound effects are installed and "
+#~ "activated)."
+#~ msgstr ""
+#~ "Huom: F5-näppäin on käytettävissä, mikäli äänitehosteet on otettu "
+#~ "käyttöön."
+
+#, fuzzy
+#~| msgid "Note: The F5 key is available if the sound effects are activated."
+#~ msgid ""
+#~ "Changed, the button \"define\" is now disabled if the sound effects are "
+#~ "not installed and activated."
+#~ msgstr ""
+#~ "Huom: F5-näppäin on käytettävissä, mikäli äänitehosteet on otettu "
+#~ "käyttöön."
+
+#, fuzzy
+#~| msgid "Note: The F5 key is available if the sound effects are activated."
+#~ msgid ""
+#~ "Added volume controls; you can adjust the overall volume and the last "
+#~ "heard sound effect; this option is enabled if the sound effects are "
+#~ "installed and activated."
+#~ msgstr ""
+#~ "Huom: F5-näppäin on käytettävissä, mikäli äänitehosteet on otettu "
+#~ "käyttöön."
+
+#, fuzzy
+#~| msgid "Weather Plus Settings submenu"
+#~ msgid "Weather Plus Settings menu in Preferences submenu moved."
+#~ msgstr "Weather Plus... -alivalikkoon"
+
+#, fuzzy
+#~| msgid "Displays or allows to set the current city from a list"
+#~ msgid ""
+#~ "Set and Manage Your Cities... Displays or allows to set the current city "
+#~ "from a list"
+#~ msgstr ""
+#~ "Näyttää nykyisen kaupungin tai mahdollistaa sen valitsemisen luettelosta."
+
+#, fuzzy
+#~| msgid "Weather Plus Settings submenu"
+#~ msgid "Changes in the Weather Plus Settings window:"
+#~ msgstr "Weather Plus... -alivalikkoon"
+
+#~ msgid "Press the item:"
+#~ msgstr "Valitse kohde:"
+
+#~ msgid "You must set the Weather Plus addon before its first use!"
+#~ msgstr ""
+#~ "Sinun on määritettävä Weather Plus -lisäosan asetukset ennen sen käyttöä."
+
+#~ msgid "Set and Manage Your Cities..."
+#~ msgstr "Aseta ja hallinnoi kaupunkeja..."
+
+#~ msgid "Displays or allows to set the current city from a list"
+#~ msgstr ""
+#~ "Näyttää nykyisen kaupungin tai mahdollistaa sen valitsemisen luettelosta."
+
+#~ msgid "The following message is displayed only for the first time!"
+#~ msgstr "Seuraava ilmoitus näytetään vain ensimmäisellä käyttökerralla."
+
+#~ msgid "Settings Preset"
+#~ msgstr "Esiasetukset"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgid "*None\n"
+#~ msgstr "Ei mitään"
+
+#~ msgid "Note: The F5 key is available if the sound effects are activated."
+#~ msgstr ""
+#~ "Huom: F5-näppäin on käytettävissä, mikäli äänitehosteet on otettu "
+#~ "käyttöön."
+
+#, fuzzy
+#~| msgid "Add the current city into your list."
+#~ msgid "Add - adds the current city into your list."
+#~ msgstr "Lisää nykyinen kaupunki luetteloosi."
+
+#, fuzzy
+#~| msgid "Displays information on the current city."
+#~ msgid "Details - displays information about the current city."
+#~ msgstr "Näyttää tietoja nykyisestä kaupungista."
+
+#, fuzzy
+#~| msgid "Allows you to define the area, in order to adapt the sound effects."
+#~ msgid ""
+#~ "Define - Allows you to define the area, in order to adapt the sound "
+#~ "effects."
+#~ msgstr "Tämän avulla voit määrittää alueen, jossa äänitehosteita käytetään."
+
+#~ msgid "USE:"
+#~ msgstr "Käyttö:"
+
+#~ msgid "To set Weather Plus:"
+#~ msgstr "Weather Plus:n asetusten määrittäminen:"
+
+#~ msgid "Read the section: Weather Plus First Settings."
+#~ msgstr "Lue kappale Weather Plus:n alkuasetukset."
+
+#~ msgid "Go to:"
+#~ msgstr "Mene:"
+
+#~ msgid "Preferences submenu"
+#~ msgstr "Asetukset-alivalikkoon"
+
+#~ msgid "Weather Plus Settings submenu"
+#~ msgstr "Weather Plus... -alivalikkoon"
+
+#~ msgid "Show configuration items."
+#~ msgstr "Näytä asetukset."
+
+#~ msgid "Press the item for:"
+#~ msgstr "Valitse jokin seuraavista:"
+
+#~ msgid "Test"
+#~ msgstr "Testaa"
+
+#~ msgid "Add"
+#~ msgstr "Lisää"
+
+#~ msgid "Details"
+#~ msgstr "Tiedot"
+
+#~ msgid "Define"
+#~ msgstr "Määritä"
+
+#~ msgid "Preset"
+#~ msgstr "Esiasetus"
+
+#~ msgid ""
+#~ "Presets a city as the default, will be used every time you restart the "
+#~ "plugin."
+#~ msgstr ""
+#~ "Asettaa kaupungin oletukseksi, jolloin sitä käytetään aina, kun "
+#~ "käynnistät lisäosan uudelleen."
+
+#~ msgid "Remove"
+#~ msgstr "Poista"
+
+#~ msgid "Delete the current city from your list."
+#~ msgstr "Poista nykyinen kaupunki luettelosta."
+
+#, fuzzy
+#~| msgid ""
+#~| "Press NVDA + shift + control + alt + w to open the Weather Plus settings "
+#~| "dialog."
+#~ msgid ""
+#~ "* Added hotkey NVDA+shift+control+alt+w;\n"
+#~ "\t* Open the Weather Plus settings dialog.\n"
+#~ "* Correct some English strings.\n"
+#~ msgstr ""
+#~ "Avaa Weather Plus:n asetusvalintaikkuna painamalla NVDA+Vaihto+Ctrl+Alt+W."

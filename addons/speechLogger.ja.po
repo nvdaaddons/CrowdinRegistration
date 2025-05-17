@@ -1,0 +1,381 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-04-12 22:03+0000\n"
+"PO-Revision-Date: 2023-07-30 11:17+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Speech Logger\"]]\n"
+msgstr "[[!meta title=\"Speech Logger\"]]\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Speech Logger add-on"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Author: Luke Davis, with contributions by James Scholes"
+msgstr "作者:Luke Davis, また、James Scholesによる貢献と共に"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "ダウンロード[安定版][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3.1 and later"
+msgstr "NVDA互換性: 2019.3.1以降"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "An [NVDA](https://nvaccess.org/) add-on to log speech to a file or "
+#| "files.  It can log speech generated on the local machine into a text "
+#| "file.  It can also log speech from a remote machine received through the "
+#| "[NVDA Remote](https://nvdaremote.com/) add-on, either to the same or a "
+#| "different file."
+msgid ""
+"An [NVDA][3] add-on to log speech to a file or files.  It can log speech "
+"generated on the local machine into a text file.  It can also log speech "
+"from a remote machine received through the [NVDA Remote][5] add-on, either "
+"to the same or a different file."
+msgstr ""
+"読み上げのログをファイルに保存する [NVDA](https://nvaccess.org/) アドオンで"
+"す。ローカルマシンで生成された読み上げのログをテキストファイルに保存できま"
+"す。[NVDA Remote](https://nvdaremote.com/) アドオンを介して受信したリモートマ"
+"シンからの読み上げを同じ、または別のファイルに保存することもできます。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Configuration"
+msgstr "設定"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Note: the add-on can only be configured while in the Normal Configuration "
+#| "profile of NVDA.  The add-on is not profile-aware.  If you can think of "
+#| "some use case that requires it to operate differently in different "
+#| "profiles, please contact the author or file an issue on the [GitHub repo]"
+#| "[2]."
+msgid ""
+"To configure this add-on, open the NVDA menu, go to Preferences, then "
+"Settings, then Speech Logger (NVDA+N, P, S, then press S until you get "
+"there, on a default U.S. English keyboard).  There is also an unassigned "
+"gesture in the Input Gestures \"Configuration\" category, which you can "
+"assign and use to quickly open the add-on's settings directly.  Note: the "
+"add-on can only be configured while in the Normal Configuration profile of "
+"NVDA.  The add-on is not profile-aware.  If you can think of some use case "
+"that requires it to operate differently in different profiles, please "
+"contact the author or file an issue on the [GitHub repo][2]."
+msgstr ""
+"注意: このアドオンは、NVDAの標準プロファイルの場合にのみ設定できます。プロ"
+"ファイル別の設定にはなりません。もし、異なったプロファイルで異なる動作を要す"
+"る利用例がありましたら、作者に連絡するか、 [GitHub repo][2]にissueを提出して"
+"下さい。"
+
+#. type: Title ###
+#, no-wrap
+msgid "The following settings are available:"
+msgstr "以下のような設定が可能です:"
+
+#. type: Bullet: '* '
+msgid ""
+"The log directory. You can enter or browse for your desired destination "
+"directory, which must already exist. System variables such as %temp%, "
+"%userprofile%, etc., can be used in this field."
+msgstr ""
+"ログのディレクトリ。保存先のディレクトリを入力、または参照できます。ディレク"
+"トリはその時点ですでに存在する必要があります。システム変数として、%temp%, "
+"%userprofile%などを、このフィールドで使用できます。"
+
+#. type: Bullet: '* '
+msgid ""
+"Local log filename. The created file will be placed in the above directory. "
+"This will contain speech logged while the local log mode is engaged. This "
+"can be the same as the remote log file. Leave blank to disable this kind of "
+"logging completely."
+msgstr ""
+"ローカルログファイル名。作られたファイルは上記のディレクトリに入ります。ログ"
+"モードになっている時の読み上げが保存されます。リモートログファイルについても"
+"同様です。こういったログ保存を使用しない場合は空白にして下さい。"
+
+#. type: Bullet: '* '
+msgid ""
+"Remote log filename. The created file will be placed in the above directory. "
+"This will contain speech logged while the remote log mode is engaged. It can "
+"be the same as the local log file. Leave blank to disable this kind of "
+"logging completely."
+msgstr ""
+"リモートログファイル名。作られたファイルは上記のディレクトリに入ります。リ"
+"モートログモードになっている時の読み上げが保存されます。ローカルログファイル"
+"と同様です。こういったログ保存を使用しない場合は空白にして下さい。"
+
+#. type: Bullet: '* '
+msgid ""
+"Separator. This combobox lets you choose one of the available utterance "
+"separators. See below for more information."
+msgstr ""
+"セパレータ。このコンボボックスで、使用可能な発話セパレータの1つを選択できま"
+"す。詳しくは以下をお読み下さい。"
+
+#. type: Bullet: '* '
+msgid ""
+"Custom separator. This field lets you enter a custom utterance separator "
+"(see below), which is used if \"custom\" is chosen in the combobox."
+msgstr ""
+"カスタムセパレータ。このフィールドにより、カスタム発話セパレータを入力できま"
+"す（以下参照）。コンボボックスで「カスタム」が選択されている場合に使用されま"
+"す。"
+
+#. type: Bullet: '* '
+msgid ""
+"Timestamp mode. This combobox allows you to choose between no timestamps, "
+"and a timestamp at the start and end of each log session."
+msgstr ""
+"タイムスタンプモード。このコンボボックスでは、タイムスタンプなしと、それぞれ"
+"のログセッションの開始と終了でのタイムスタンプとの間を選択出来ます。"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Log speech during say-all (read to end) mode. As of version 23.2, this "
+#| "add-on logs speech generated when you press NVDA+DownArrow (NVDA+a in "
+#| "laptop layout). If you would rather not have this kind of narrative long "
+#| "reading logged, un-check this box."
+msgid ""
+"Log speech during say-all (read to end) mode. This add-on logs speech "
+"generated when you press NVDA+DownArrow (NVDA+a in laptop layout). If you "
+"would rather not have that kind of narrative long reading logged, un-check "
+"this box."
+msgstr ""
+"全て読み上げ（最後まで読み上げ）の間のログスピーチモード。バージョン23.2で"
+"は、このアドオンはNVDA+下矢印(ラップトップ配列でNVDA+a)が押された時に生成され"
+"たスピーチのログを記録します。もしこういった長い読み上げの記録を取得しない場"
+"合は、このボックスのチェックを外します。"
+
+#. type: Bullet: '* '
+msgid ""
+"Begin logging at startup. You can set this option to \"Always\", if you want "
+"speech to be logged automatically when NVDA starts. This only applies to "
+"local speech, and the default is \"never\"."
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "Utterance separator"
+msgstr "発話セパレータ"
+
+#. type: Plain text
+msgid ""
+"When NVDA speaks something such as \"`recycle bin 1 of 55`\" while it's "
+"reading your desktop, this is considered two separate utterances.  The first "
+"one is the item name (\"`Recycle bin`\", in this example), and the second is "
+"the object position information (\"`1 of 55`\", in this example)."
+msgstr ""
+"NVDAがデスクトップを読んでいる時に、「ゴミ箱　55の1」のような読み上げをする"
+"時、2つの別々の発話と考えられます。1つ目は項目名で（この例では「ゴミ箱」）、2"
+"つ目はオブジェクトの位置情報（この例では「55の1」）です。"
+
+#. type: Plain text
+msgid ""
+"Depending on what you are reading, and how you have NVDA configured, there "
+"can be several separate utterances that happen during a single speech "
+"sequence."
+msgstr ""
+"何を読んでいるか、そしてNVDAがどのように設定されているかで、1回の読み上げシー"
+"ケンスで、複数の発話がされる場合があります。"
+
+#. type: Plain text
+msgid ""
+"In the normal NVDA log at debug level, each individual utterance is "
+"separated with two spaces, as it is written in the example above."
+msgstr ""
+"標準のNVDAログのデバッグレベルでは、それぞれの別々の発話は、上記の例に書かれ"
+"るように、2つのスペースにより分離されます。"
+
+#. type: Plain text
+msgid ""
+"Speech Logger allows you to separate utterances in the same way NVDA does "
+"(with two spaces), or by one of a few reasonable alternatives (a newline, a "
+"comma and a space, a tab, two underscores), or by a custom sequence of your "
+"own devising."
+msgstr ""
+"スピーチロガーにより、NVDAと同じように（2つのスペースで）、または一つの適した"
+"代替文字（改行、カンマ、スペース、タブ、2つのアンダースコア）、または自分で選"
+"べるカスタム文字列で分けることが出来ます。"
+
+#. type: Plain text
+msgid ""
+"If, for example, you wanted your utterance separator to be two dollar signs "
+"(`$$`), you would set the combobox to \"custom\", and enter \"`$"
+"$`\" (without the quotes), in the custom separator field.  If you wanted it "
+"to be a newline followed by a tab, you could enter \"`\\n\\t`\"."
+msgstr ""
+"もし、例えば、発話セパレータを2つのドルマーク（$$）にしたい場合、コンボボック"
+"スを「カスタム」にし、カスタムセパレータフィールドに\"'$$'\"（引用符なし）を"
+"入力します。セパレータを改行とタブにしたい場合、\"`\\n\\t`\"と入力できます。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Controls:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This add-on has two keyboard shortcuts set by default, and one that is "
+"unassigned."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The default gestures, which you can change in the NVDA Input Gestures "
+"\"`Speech Logger`\" category, are:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA+Alt+L: start/stop logging of local speech."
+msgstr "NVDA+Alt+L: ローカル読み上げのログの開始/停止。"
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+Alt+L: start/stop logging of remote speech."
+msgstr "NVDA+Shift+Alt+L: リモート読み上げのログの開始/停止。"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Look for \"Toggles logging of local speech\" and \"Toggles logging of "
+#| "remote speech\"."
+msgid ""
+"These are listed as \"Toggles logging of local speech\" and \"Toggles "
+"logging of remote speech\", respectively."
+msgstr ""
+"「ローカル読み上げのログにトグル」と「リモート読み上げのログにトグル」を探し"
+"て下さい。"
+
+#. type: Plain text
+msgid ""
+"Additionally, it has one unassigned gesture for opening its configuration "
+"panel, which you may assign from the `Speech Logger` category in NVDA's "
+"Input Gestures."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "A note on remote speech logging"
+msgstr "リモート読み上げのログについての注記"
+
+#. type: Plain text
+msgid ""
+"This add-on is intended to work with the NVDA Remote add-on, for logging of "
+"remote speech."
+msgstr ""
+"このアドオンは、NVDAリモートアドオンと共に動作して、リモート読み上げのログを"
+"出来るようになっています。"
+
+#. type: Plain text
+msgid ""
+"It is important to know, that it is not possible to start logging for remote "
+"sessions until you actually start one.  There is no way to, for example, "
+"start logging, and have it wait, on stand-by, until a remote session starts, "
+"and begin logging at that time."
+msgstr ""
+"リモートセッションのログの開始は、実際にリモートセッションを開始するまで出来"
+"ないことにご注意下さい。例えば、ログを開始し、待機を開始し、待機中にリモート"
+"セッションを開始し、その後にログを開始する方法はありません。"
+
+#. type: Plain text
+msgid "However, once started, logging will continue across remote sessions."
+msgstr "しかし、一旦開始すると、リモートセッションの間、ログを続けます。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Feedback and feature requests"
+msgstr "フィードバックと機能リクエスト"
+
+#. type: Plain text
+msgid ""
+"If you would like to suggest a feature or report a bug, please reach out by "
+"email, or file an [issue][2]."
+msgstr ""
+"機能の提案やバグ報告を希望する場合、eメールでご連絡いただくか、[issue][2]を投"
+"稿して下さい。"
+
+#. type: Plain text
+msgid ""
+"If you find this add-on useful, it would really help if you could [leave a "
+"review][4]."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "As always, I appreciate hearing that my add-ons are useful, and what "
+#| "people are using them for."
+msgid ""
+"As always, I appreciate hearing that my add-ons are helpful, and finding out "
+"what people are using them for."
+msgstr ""
+"いつものように、このアドオンが役に立っていることや、どのように使用しているか"
+"を教えていただけたら、ありがたく思います。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger"
+
+#. type: Plain text
+msgid "[2]: https://github.com/opensourcesys/speechLogger/issues/new"
+msgstr "[2]: https://github.com/opensourcesys/speechLogger/issues/new"
+
+#. type: Plain text
+msgid "[3]: https://nvaccess.org/"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://github.com/opensourcesys/speechLogger/issues/new"
+msgid "[4]: https://github.com/nvaccess/addon-datastore/discussions/2636"
+msgstr "[2]: https://github.com/opensourcesys/speechLogger/issues/new"
+
+#. type: Plain text
+msgid "[5]: https://nvdaremote.com/"
+msgstr ""
+
+#, no-wrap
+#~ msgid "Starting and stopping logging"
+#~ msgstr "ログの開始と停止"
+
+#~ msgid ""
+#~ "This add-on has two gestures set by default.  You can change them in the "
+#~ "NVDA Input Gestures Tools category.  Look for \"Toggles logging of local "
+#~ "speech\" and \"Toggles logging of remote speech\"."
+#~ msgstr ""
+#~ "このアドオンは、初期状態で2つのジェスチャーが設定されています。これらは、"
+#~ "NVDA入力ジェスチャーツールカテゴリで変更できます。「ローカルスピーチのログ"
+#~ "を切り替え」と「リモートスピーチのログを切り替え」を探して下さい。"
+
+#~ msgid ""
+#~ "To configure this add-on, open the NVDA menu, go to Preferences, then "
+#~ "Settings, then Speech Logger (NVDA+N, P, S, then press S until you get "
+#~ "there, on a default U.S. English keyboard)."
+#~ msgstr ""
+#~ "このアドオンを設定するにはNVDAメニューを開き、設定(P)、設定(S)、そして、"
+#~ "Speech Logger (NVDA+N, P, S そして、そこに着くまでSを押します。但し、初期"
+#~ "設定のUS英語キーボードの場合)。"

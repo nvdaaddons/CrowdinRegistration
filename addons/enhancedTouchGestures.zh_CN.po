@@ -1,0 +1,800 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-01-26 19:19+0000\n"
+"PO-Revision-Date: 2025-02-02 18:08+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Enhanced Touch Gestures\"]]\n"
+msgstr "[[!meta title=\"触摸屏手势增强插件-Enhanced Touch Gestures\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee"
+msgstr "作者: Joseph Lee"
+
+#. type: Plain text
+msgid ""
+"This add-on provides additional touchscreen gestures for NVDA. It also "
+"provides a set of gestures for easier browse mode navigation."
+msgstr ""
+"此插件为 NVDA 提供了更多的触摸屏支持手势。其中包括一组浏览模式导航手势。"
+
+#. type: Plain text
+msgid ""
+"Note: this add-on requires NVDA 2024.1 or later running on a touchscreen "
+"computer with Windows 10 or 11."
+msgstr ""
+"注意：此插件需要在具备触摸屏的 Windows 10 或 11 的计算机上运行，并且需要 "
+"NVDA 2024.1 或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "命令"
+
+#. type: Title ###
+#, no-wrap
+msgid "Available everywhere"
+msgstr "随处可用"
+
+#. type: Bullet: '* '
+msgid "4 finger double tap: toggle input help mode."
+msgstr "4指双击：切换输入帮助模式。"
+
+#. type: Bullet: '* '
+msgid "Four finger flick right: toggle touch keyboard (usually enables it)."
+msgstr "四指向右滑动：切换触摸键盘（通常启用）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Four finger flick left: toggle dictation (Windows+H; Windows 10 Version 1709 "
+"or later)."
+msgstr "四指向左滑动：切换听写（Windows+H；Windows 10 版本 1709 或更高版本）。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Object mode"
+msgstr "对象导航模式"
+
+#. type: Bullet: '* '
+msgid "3 finger flick down: read current window."
+msgstr "3指向下滑动：读取当前窗口。"
+
+#. type: Bullet: '* '
+msgid "3 finger flick left: report object with focus."
+msgstr "3指向左滑动：读出具有焦点的对象。"
+
+#. type: Bullet: '* '
+msgid "3 finger flick right: report current navigator object."
+msgstr "3指向右滑动：读出当前导航对象。"
+
+#. type: Bullet: '* '
+msgid "4 finger flick up: report title of the current window."
+msgstr "4指向上滑动：读出当前窗口标题。"
+
+#. type: Bullet: '* '
+msgid "4 finger flick down: report status bar text."
+msgstr "4指向下滑动：读出状态栏文本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Web touch mode"
+msgstr "网页触摸模式"
+
+#. type: Plain text
+msgid ""
+"This touch mode, available in browse mode, allows you to navigate the "
+"document by selected element. To switch to web mode, from browse mode "
+"documents, perform 3 finger tap. From this mode, flicking up or down with "
+"one finger cycles through available element navigation modes, while flicking "
+"right or left with one finger moves to next or previous chosen element, "
+"respectively. Once you move away from browse mode documents, object touch "
+"mode is used."
+msgstr ""
+"此触摸模式（在浏览模式下可用）支持按元素导航。要从浏览模式文档切换到 Web模"
+"式，可以使用3指点击。在该模式下，用一个手指向上或向下轻扫，循环切换可用于导航"
+"的元素，随后用一个手指向右或向左清扫，根据切换到的元素分别移动到下一个或上一"
+"个。退出浏览模式后，则使用对象导航模式。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Synth settings touch mode"
+msgstr "语音设置模式"
+
+#. type: Plain text
+msgid ""
+"You can use this mode to quickly change synthesizer settings such as "
+"choosing a voice and changing volume. In this mode, use two finger flick "
+"left or right to move between synth settings and use two finger flick up and "
+"down gestures to change values. This gestures mirrors that of synth settings "
+"ring commands on the keyboard."
+msgstr ""
+"您可以在此模式下快速更改语音合成器设置，例如选择语音和调节音量。在此模式下，"
+"使用两个手指向左或向右滑动以在合成器设置之间切换，然后使用两个手指向上和向下"
+"清扫来更改相应设置的值。该手势对应于键盘上的语音循环切换。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.02"
+msgstr "版本25.02"
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr "恢复了对Windows 8.1的有限支持。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.01"
+msgstr "版本25.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr "文档中不再提供插件的下载链接。您可以从NV Access 插件商店下载插件。"
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+"Lintting 工具从 flake8 转为 ruff，并重新格式化插件模块，以更好地与NVDA编码标"
+"准保持一致。"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr "从插件更新器中删除了对自动更新的支持。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.05"
+msgstr "版本24.05"
+
+#. type: Bullet: '* '
+msgid "NVDA 2024.1 or later is required."
+msgstr "需要NVDA 2024.1或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.06.1"
+msgstr "版本23.06.1"
+
+#. type: Bullet: '* '
+msgid ""
+"audio ducking moved to 4 finger tap due to conflict with speech stops NVDA "
+"command."
+msgstr "由于跟停止朗读手势存在冲突，将切换音频闪避的手势改为4指单机。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.06"
+msgstr "版本23.06"
+
+#. type: Bullet: '* '
+msgid "Enhanced Touch gestures nvda-addon is now maintained by Kefas Lungu."
+msgstr "触摸增强插件目前由  Kefas Lungu 维护。"
+
+#. type: Bullet: '* '
+msgid "All gestures in object mode are now available everywhere."
+msgstr "现在，对象模式下的所有手势全局生效。"
+
+#. type: Bullet: '* '
+msgid "New gestures are now available."
+msgstr "支持了新的手势。"
+
+#. type: Bullet: '  * '
+msgid ""
+"3 finger double tap: Cycles through speech symbol levels which determine "
+"what symbols are spoken"
+msgstr "3指双击：在语音符号级别之间循环切换，已确定朗读哪些符号"
+
+#. type: Bullet: '  * '
+msgid "2 finger tripple tap: Quit NVDA!."
+msgstr "2指三击：退出 NVDA"
+
+#. type: Bullet: '  * '
+msgid "4 finger tap: Cycles through audio ducking modes."
+msgstr "4指单击：在音频闪避模式之间切换，以确定何时减小其他声音的音量"
+
+#. type: Bullet: '  * '
+msgid "Triple tap: Toggles between beeps, speech, beeps and speech, and off."
+msgstr "三击：在语音模式之间循环切换。"
+
+#. type: Bullet: '* '
+msgid ""
+"In web mode, it is now possible to Use buttons, graphics, and landmarks in "
+"addition to the already available browse element list."
+msgstr ""
+"在Web模式下，除了原有支持导航列表以外，现在还支持按钮，图形和路标的导航。"
+
+#. type: Bullet: '* '
+msgid ""
+"In web mode, NVDA is no longer going to say normal, but default when you "
+"switch to default navigation from other browse element list. For example, "
+"when switching from buttons, NVDA will now say default."
+msgstr "在Web模式下，从其他元素类型导航切换到“默认”模式后，NVDA 提示“默认”。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "版本 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "需要 NVDA 2022.4 或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr "需要 Windows 10 21H2（2021 年 11 月更新/内部版本 19044）或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "版本23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "现在需要NVDA 2022.3或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 8.1 is no longer supported by "
+"Microsoft as of January 2023."
+msgstr ""
+"需要 Windows 10 或更高版本，因为自 2023 年 1 月起，Microsoft 不再支持 "
+"Windows 8.1。"
+
+#. type: Bullet: '* '
+msgid ""
+"It is possible to reassign touch keyboard and dictation toggle commands from "
+"input gestures dialog under Enhanced Touch Gestures category."
+msgstr ""
+"可以从按键与手势对话框中触摸手势增强类别下重新分配触摸键盘和听写切换命令。"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed read-only state workaround for touch keyboard keys as it is resolved "
+"in Windows 10."
+msgstr "删除了触摸键盘键的只读状态解决方法，已在 Windows 10 中得到解决。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.03"
+msgstr "版本 22.03"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr "现在需要NVDA 2021.3或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr "试图在 Windows 7、8 和 8.1 上安装插件时将会显示一条警告消息。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "版本 21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr "由于 NVDA 的更改对本插件的影响，您需要使用 NVDA 2021.2 或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.08"
+msgstr "版本21.08"
+
+#. type: Bullet: '* '
+msgid "Initial support for Windows 11."
+msgstr "对 Windows 11 的初步支持。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.01"
+msgstr "版本21.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2020.3 or later is required."
+msgstr "现在需要NVDA 2020.3或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"On Windows 10 Version 1709 and later, doing a four finger flick left will "
+"toggle dictation (Windows+H)."
+msgstr ""
+"在 Windows 10 版本 1709 及更高版本上，四指向左滑动可切换听写模式 (即 "
+"Windows+H)。"
+
+#. type: Bullet: '* '
+msgid ""
+"Remove dedicated touch interaction support toggle command from the add-on."
+msgstr "从插件中删除专用的触摸支持命令。"
+
+#. type: Bullet: '* '
+msgid ""
+"As touch interaction support can be toggled from NVDA's touch interaction "
+"settings panel, a dedicated Enhanced Touch Gestures settings panel has been "
+"removed."
+msgstr "由于 NVDA 本身支持了触摸交互设置，故此插件删除了设置面板的相关选项。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.09"
+msgstr "版本20.09"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed ability to let NVDA turn off touch interaction for up to ten seconds "
+"(touch command passthrough)."
+msgstr "删除了让 NVDA 关闭触摸交互10秒（以直接传递触摸命令）的功能。"
+
+#. type: Bullet: '* '
+msgid "Removed coordinate announcement beep feature."
+msgstr "删除了坐标通知提示音功能。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.07"
+msgstr "版本20.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a keyboard command to toggle touch interaction or enable/disable touch "
+"passthrough (Control+Alt+NVDA+T)."
+msgstr "添加了切换启用/禁用触摸 (Ctrl+Alt+NVDA+T) 的键盘命令。"
+
+#. type: Bullet: '* '
+msgid ""
+"As NVDA 2020.1 and later includes a touch command to perform right mouse "
+"click (one finger tap and hold), the command has been removed from this add-"
+"on. AS a result, NVDA 2020.1 or later is required."
+msgstr ""
+"由于 NVDA 2020.1 及更高版本包含用于执行鼠标右键单击（单指点击并按住）的触摸命"
+"令，该命令已从此插件中删除。因此，需要 NVDA 2020.1 或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"The ability to let NVDA turn off touch interaction for up to ten seconds "
+"(touch command passthrough) is deprecated. In the future this feature will "
+"toggle touch interaction instead."
+msgstr ""
+"让 NVDA 关闭触摸交互10秒（以直接传递触摸命令）的功能已被弃用。将来，此功能使"
+"用切换触摸交互代替。"
+
+#. type: Bullet: '* '
+msgid ""
+"In NVDA development snapshots, due to touch interaction feature changes, "
+"touch command passthrough feature and Enhanced Touch Gestures settings panel "
+"will be disabled. The command used to enable touch command passthrough will "
+"toggle touch interaction instead."
+msgstr ""
+"在 NVDA 开发快照中，由于触摸交互功能的变化，触摸命令传递功能和增强的触摸手势"
+"设置面板将被禁用。用于启用触摸命令传递的命令将改为切换触摸交互。"
+
+#. type: Bullet: '* '
+msgid ""
+"Coordinate announcement beep feature is deprecated and will be removed in a "
+"future add-on release."
+msgstr "坐标通知提示音功能已弃用，并将在未来的附加版本中删除。"
+
+#. type: Bullet: '* '
+msgid ""
+"Coordinate announcement beep will not be heard while using touch keyboard."
+msgstr "使用触摸键盘时不会听到坐标通知提示音。"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones while exploring "
+"modern input facility such as emoji panel via touch."
+msgstr ""
+"在通过触摸探索现代输入工具（例如表情符号面板）时，NVDA 将不在没有提示或播放错"
+"误提示音。"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will present an error message if touch keyboard cannot be activated "
+"(four finger flick right)."
+msgstr "如果无法激活触摸键盘（四指向右滑动），NVDA 将显示错误消息。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr "版本20.06"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr "使用 Flake8 解决了许多编码样式问题和潜在错误。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.04"
+msgstr "版本20.04"
+
+#. type: Bullet: '* '
+msgid ""
+"Right mouse click gesture (one finger tap and hold) is now part of NVDA "
+"2020.1."
+msgstr "鼠标右键单击手势（一个手指点击并按住）现在是 NVDA 2020.1 的一部分。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required."
+msgstr "现在需要NVDA 2019.3或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"Touch support toggle command (including touch passthrough) will no longer "
+"function if touch support is turned off completely."
+msgstr "如果完全关闭触摸支持，则触摸支持切换命令（包括触摸传递）将不再起作用。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.11"
+msgstr "版本19.11"
+
+#. type: Bullet: '* '
+msgid "Added input help messages for additional touch commands."
+msgstr "为其他触摸命令添加输入帮助消息。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.09"
+msgstr "版本19.09"
+
+#. type: Bullet: '* '
+msgid ""
+"Touch support can now be disabled from everywhere, not just from profiles "
+"other than normal profile."
+msgstr ""
+"触摸支持现在可以从任何地方禁用，而不仅仅是从配置文件以外的正常配置文件。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.07"
+msgstr "版本19.07"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "内部更改以支持未来的NVDA版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "版本18.12"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08"
+msgstr "版本18.08"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr "兼容NVDA 2018.3和未来版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.06"
+msgstr "版本18.06"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on settings is now found in new multi-category NVDA Settings screen "
+"under \"Enhanced Touch Gestures\" category. As a result, NVDA 2018.2 is "
+"required."
+msgstr ""
+"现在，“增强触摸手势”的设置已整合进NVDA新版设置。因此，需要NVDA 2018.2。"
+
+#. type: Bullet: '* '
+msgid "Fixed compatibility issues with wxPython 4."
+msgstr "修复了wxPython 4的兼容性问题。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.04"
+msgstr "版本18.04"
+
+#. type: Bullet: '* '
+msgid ""
+"Resolves an issue where touch interaction category in NVDA Settings panel "
+"may cause error sounds to be heard due to changes made from this add-on."
+msgstr ""
+"解决了NVDA设置面板中的触摸交互类别可能导致由于此插件所做的更改而听到错误声音"
+"的问题。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.03"
+msgstr "版本18.03"
+
+#. type: Bullet: '* '
+msgid "NVDA 2018.1 is required."
+msgstr "现在需要NVDA 2018.1。"
+
+#. type: Bullet: '* '
+msgid ""
+"Because NVDA 2018.1 comes with touch typing checkbox, the checkbox is no "
+"longer included in this add-on."
+msgstr "由于NVDA 2018.1带有触摸输入复选框，因此此插件中不再包含该复选框。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.12"
+msgstr "版本17.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Requires NVDA 2017.4. Specifically, this add-on can now handle configuration "
+"profile switches."
+msgstr "现在需要NVDA 2017.4。具体来说，此插件现在可以处理配置文件切换。"
+
+#. type: Bullet: '* '
+msgid ""
+"As NVDA 2017.4 includes screen orientation announcement, this feature is no "
+"longer part of this add-on."
+msgstr "由于NVDA 2017.4包含屏幕方向通知，因此此功能不再是此插件的一部分。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a hidden checkbox in Touch Interaction dialog to completely disable "
+"touch support (available if profiles other than normal configuration is "
+"active)."
+msgstr ""
+"在“触摸交互”对话框中添加了一个隐藏复选框，以完全禁用触摸支持（如果正常配置以"
+"外的配置文件处于活动状态。"
+
+#. type: Bullet: '* '
+msgid ""
+"If using NVDA 2018.1 or later, Touch Interaction dialog will be listed twice "
+"under NVDA's preferences menu. The second item is the dialog that comes with "
+"the add-on."
+msgstr ""
+"如果使用NVDA 2018.1或更高版本，则“触摸交互”对话框将在NvDA的选项菜单下列出两"
+"次。第二项是插件随附的对话框。"
+
+#. type: Bullet: '* '
+msgid ""
+"In Touch Interaction dialog for the add-on, touch typing mode is no longer "
+"shown if using NVDA 2018.1 or later."
+msgstr ""
+"在插件的“触摸交互”对话框中，如果使用NVDA 2018.1或更高版本，则不再显示触摸键入"
+"模式。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.10"
+msgstr "版本17.10"
+
+#. type: Bullet: '* '
+msgid ""
+"Due to support policy from Microsoft, Windows 8 (original release) is no "
+"longer supported."
+msgstr "由于Microsoft的支持策略，不再支持Windows 8（原始版本）。"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer announce screen orientation twice when running NVDA "
+"2017.4 development snapshots."
+msgstr "运行NVDA 2017.4开发快照时，NVDA将不再宣布屏幕方向两次。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.07.1"
+msgstr "版本17.07.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option in touch interaction dialog to manually toggle touch "
+"passthrough without use of a timer."
+msgstr ""
+"在触摸交互对话框中添加了一个选项，可以在不使用计时器的情况下手动切换触摸直"
+"通。"
+
+#. type: Bullet: '* '
+msgid ""
+"With manual passthrough mode off, if touch passthrough is turned on before "
+"the passthrough duration expires, touch interaction would be enabled."
+msgstr ""
+"关闭手动直通模式后，如果在直通持续时间到期之前打开触摸直通，则会启用触摸交"
+"互。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.07"
+msgstr "版本17.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new dialog named Touch Interaction under NVDA's preferences menu to "
+"configure how NVDA works with touchscreens."
+msgstr ""
+"在NVDA的首选项菜单下添加了一个名为Touch Interaction的新对话框，以配置NVDA如何"
+"与触摸屏配合使用。"
+
+#. type: Bullet: '* '
+msgid ""
+"After installing this version, when pressing keys on the touch keyboard, one "
+"must double tap the desired key. You can switch back to the old way by "
+"enabling touch typing from Touch Interaction dialog."
+msgstr ""
+"安装此版本后，按下触摸键盘上的按键时，必须双击所需的按键。您可以通过在“触摸交"
+"互”对话框中启用触摸键入来切换回旧方法。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a command (unassigned) to allow NVDA to ignore touch gestures for up "
+"to 10 seconds."
+msgstr "添加了一个命令（未分配），允许NVDA忽略触摸手势长达10秒。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option in Touch Interaction dialog to allow NVDA to pause touch "
+"interaction between 3 to 10 seconds in order to perform touchscreen gestures "
+"directly (as though NVDA is not running; default is 5 seconds)."
+msgstr ""
+"在“触摸交互”对话框中添加了一个选项，允许NVDA暂停3到10秒之间的触摸交互，以便直"
+"接执行触摸屏手势（就像NVDA未运行;默认为5秒）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added debug logging messages when performing right clicks (tap and hold) to "
+"be recorded in the NVDA log (requires NVDA 2017.1 or later)."
+msgstr ""
+"在执行右键单击（点击并按住）以记录在NVDA日志中时需要添加调试日志消息（需要"
+"NVDA 2017.1或更高版本）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes made when playing screen coordinates, NVDA 2017.1 or later is "
+"required."
+msgstr "由于在播放屏幕坐标时所做的更改，需要NVDA 2017.1或更高版本。"
+
+#. type: Plain text
+msgid "##Version 17.03"
+msgstr "##版本 17.03"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where coordinate announcement beep did not play or an error "
+"tone played instead when using NVDA 2017.1 or later."
+msgstr ""
+"修复了使用NVDA 2017.1或更高版本时未播放坐标公告蜂鸣声或播放错误音的问题。"
+
+#. type: Plain text
+msgid "##Version 16.12"
+msgstr "##版本 16.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Web touch mode works in Microsoft Edge, Microsoft Word and others where "
+"browse mode is used."
+msgstr ""
+"Web触摸模式适用于Microsoft Edge，Microsoft Word和其他使用浏览模式的模式。"
+
+#. type: Bullet: '* '
+msgid "Added lists and landmarks to web touch mode elements."
+msgstr "为web触摸模式元素添加了列表和标记。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.06"
+msgstr "版本16.06"
+
+#. type: Bullet: '* '
+msgid "Initial stable version."
+msgstr "发布初始版本。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "下载 [稳定版][1]"
+
+#~ msgid "NVDA compatibility: 2022.4 and later"
+#~ msgstr "NVDA 兼容性：2022.4 及更高版本"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ets-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ets-dev"
+
+#~ msgid "Control+Alt+NVDA+T: toggles touch interaction."
+#~ msgstr "Ctrl+Alt+NVDA+T:切换触摸交互。"
+
+#~ msgid ""
+#~ "If you've enabled play mouse coordinates setting in mouse settings, "
+#~ "you'll hear beeps to indicate current screen coordinate when you invoke "
+#~ "touch exploration gestures."
+#~ msgstr ""
+#~ "如果您在鼠标设置中启用了播放鼠标坐标设置，则在调用触摸探测手势时，您将听到"
+#~ "蜂鸣声以指示当前屏幕坐标。"
+
+#, fuzzy
+#~| msgid "Touch command passthrough"
+#~ msgid "Touch interaction toggle/passthrough"
+#~ msgstr "触摸命令窗口"
+
+#, fuzzy
+#~| msgid ""
+#~| "An unassigned command is available to allow you to use touchscreen "
+#~| "gestures as though NVDA is not running. In order to use this, you need "
+#~| "to assign a command (via Input Gestures dialog) under Enhanced Touch "
+#~| "Gestures category to let you do this for up to ten seconds or toggle "
+#~| "this manually. Then go to NVDA menu/Preferences/Touch Interaction, then "
+#~| "configure pause NVDA's touch command value between 3 to 10 seconds "
+#~| "(default is 5 seconds)."
+#~ msgid ""
+#~ "An unassigned command is available to allow you to toggle touch "
+#~ "interaction or temporarily use touchscreen gestures (touch command "
+#~ "passthrough) as though NVDA is not running. In order to use this, you "
+#~ "need to assign a command (via Input Gestures dialog) under Enhanced Touch "
+#~ "Gestures category to let you do this for up to ten seconds or toggle this "
+#~ "manually. Then go to NVDA menu/Preferences/Touch Interaction, then "
+#~ "configure pause NVDA's touch command value between 3 to 10 seconds "
+#~ "(default is 5 seconds)."
+#~ msgstr ""
+#~ "未分配的命令可用于允许您使用触摸屏手势，就像NVDA未运行一样。要使用此功能，"
+#~ "您需要在Enhanced Touch Gestures类别下分配命令（通过“输入手势”对话框），以"
+#~ "便最多执行此操作10秒或手动切换。然后转到NVDA菜单/首选项/触摸交互，然后将暂"
+#~ "停NVDA的触摸命令值配置为3到10秒（默认为5秒）。"
+
+#~ msgid ""
+#~ "Tap and hold: performs right click at the object under your finger (now "
+#~ "part of NVDA 2020.1 and later)."
+#~ msgstr "点按并按住：右键单击手指下方的对象（现在是NVDA 2020.1的一部分）。"
+
+#~ msgid ""
+#~ "Download [older version][3] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr "下载 [兼容于 NVDA 2019.2.1][3] 的旧版本插件"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=ets-2019"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=ets-2019"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "下载 [开发板][2]"
+
+#~ msgid "Disable touch support in profiles"
+#~ msgstr "禁用配置文件中的触摸支持"
+
+#~ msgid ""
+#~ "If profiles other than normal configuration is active and if you go to "
+#~ "Touch Interaction dialog, you'll see a checkbox named \"completely "
+#~ "disable touch support\". Checking this box and answering yes if prompted "
+#~ "will completely turn off touch support for that profile. This is useful "
+#~ "in apps that provide their own touch commands. To restore touch "
+#~ "functionality, either uncheck this checkbox or manually toggle touch "
+#~ "passthrough."
+#~ msgstr ""
+#~ "如果正常配置以外的配置文件处于活动状态，并且您转到“触摸交互”对话框，则会看"
+#~ "到一个名为“完全禁用触摸支持”的复选框。选中此框并在提示时回答“是”将完全关闭"
+#~ "该配置文件的触摸支持。这在提供自己的触摸命令的应用程序中很有用。要恢复触控"
+#~ "功能，请取消选中此复选框或手动切换触摸直通。"

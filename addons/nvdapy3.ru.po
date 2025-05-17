@@ -1,0 +1,892 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2024-07-13 23:21+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
+"Language-Team: Translators <nvda-translations@groups.io>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NVDA add-ons and Python 3\"]]\n"
+msgstr "[[!meta title=\"Дополнения NVDA и Python 3\"]]\n"
+
+#. type: Plain text
+msgid ""
+"The NVDA community has transitioned from Python 2 to Python 3 as part of "
+"NVDA 2019.3. This page aims to document add-ons compatible with NVDA 2019.3 "
+"(Python 3 version of NVDA), as well as highlighting issues when using add-"
+"ons with future NVDA releases."
+msgstr ""
+"Сообщество NVDA перешло с Python 2 на Python 3 в рамках NVDA 2019.3. Эта "
+"страница предназначена для документирования дополнений, совместимых с NVDA "
+"2019.3 (версия NVDA на Python 3), а также для освещения проблем при "
+"использовании дополнений в будущих версиях NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "What is Python 3 transition?"
+msgstr "Что такое переход на Python 3?"
+
+#. type: Plain text
+msgid ""
+"Released in 2000, Python 2.x is one of the most popular programming "
+"languages. With support for Unicode, web technologies, and thousands of "
+"third-party libraries, Python became a language of choice for many projects, "
+"including NVDA in 2006."
+msgstr ""
+"Выпущенный в 2000 году, Python 2.x является одним из самых популярных языков "
+"программирования. Благодаря поддержке Unicode, веб-технологий и тысяч "
+"библиотек сторонних разработчиков, Python стал предпочтительным языком для "
+"многих проектов, включая NVDA в 2006 году."
+
+#. type: Plain text
+msgid ""
+"In late 2000's, Python developers announced Python 3000, a project to "
+"modernize Python. Changes were made to Python syntax, standard library, and "
+"other underlying framework, including the print function, more comprehensive "
+"support for Unicode, changes to standard library, and changing iteration "
+"methods such as xrange to range. Although Python 3.x did modernize Python "
+"programming language, due to large-scale deployment of Python 2, Python "
+"developers decided to support Python 2.7 (the last version of Python 2) "
+"until January 2020 to give people time to move to Python 3."
+msgstr ""
+"В конце 2000-х годов разработчики Python анонсировали Python 3000, проект по "
+"модернизации Python. Были внесены изменения в синтаксис Python, стандартную "
+"библиотеку и другие базовые платформы, включая функцию печати, более полную "
+"поддержку Unicode, изменения в стандартной библиотеке и изменение методов "
+"итерации, таких как xrange на range. Хотя в Python 3.x действительно была "
+"проведена модернизация языка программирования Python, из-за масштабного "
+"внедрения Python 2 разработчики Python решили поддерживать Python 2.7 "
+"(последнюю версию \n"
+"из Python 2) до января 2020 года, чтобы дать людям время перейти на Python 3."
+
+#. type: Plain text
+msgid ""
+"In 2019, NV Access began its work on Python 3 transition, citing popularity "
+"of NVDA and project longevity. This work culminated with release of Project "
+"Threshold builds of NVDA in July 2019, which is based on Python 3.7 and "
+"includes a host of changes in addition to Python 3 transition such as speech "
+"refactor, which will affect add-ons. NVDA 2019.3, released on February 10, "
+"2020, is powered by Python 3.7."
+msgstr ""
+"В 2019 году NV Access начала работу над переходом на Python 3, сославшись на "
+"популярность NVDA и долговечность проекта. Кульминацией этой работы стал "
+"выпуск сборки Project Threshold для NVDA в июле 2019 года, которая основана "
+"на Python 3.7 и включает в себя множество изменений в дополнение к переходу "
+"на Python 3, таких как рефакторинг речи, который затронет дополнения. NVDA "
+"2019.3, выпущенный 10 февраля 2020 года, работает на Python 3.7."
+
+#. type: Title ##
+#, no-wrap
+msgid "What you need to know about Python 3 transition and add-ons"
+msgstr "Что вам нужно знать о переходе на Python 3 и дополнениях"
+
+#. type: Plain text
+msgid ""
+"Python 3 transition affects many add-ons hosted on this website. "
+"Specifically, the following issues are known:"
+msgstr ""
+"Переход на Python 3 влияет на многие дополнения, размещённые на этом веб-"
+"сайте. В частности, известны следующие проблемы:"
+
+#. type: Bullet: '* '
+msgid "Add-on does not load because they are flagged as incompatible by NVDA."
+msgstr ""
+"Дополнения не загружаются, поскольку NVDA помечает их как несовместимые."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on does load, but errors such as syntax errors and module not found "
+"errors are seen."
+msgstr ""
+"Дополнение загружается, но отображаются такие ошибки, как синтаксические "
+"ошибки и ошибки \"модуль не найден\"."
+
+#. type: Bullet: '* '
+msgid "Add-on does not load due to bytecode mismatch."
+msgstr "Дополнение не загружается из-за несоответствия байт-кода."
+
+#. type: Bullet: '* '
+msgid "Add-on behaves oddly when working with text."
+msgstr "Дополнение странно ведёт себя при работе с текстом."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on works, but certain features that rely on Python standard library are "
+"not working such as internet access."
+msgstr ""
+"Дополнение работает, но некоторые функции, которые полагаются на стандартную "
+"библиотеку Python, не работают, например, доступ в Интернет."
+
+#. type: Bullet: '* '
+msgid ""
+"Some speech synthesizer and braille display add-ons behave oddly around text "
+"output."
+msgstr ""
+"Некоторые дополнения речевых синтезаторов и брайлевских дисплеев ведут себя "
+"странно при выводе текста."
+
+#. type: Plain text
+msgid ""
+"When you encounter these issues, you should contact the author(s) of the add-"
+"on(s) in question (see the below list for contact info for add-ons hosted on "
+"this website). Be sure to provide details when contacting authors."
+msgstr ""
+"Если вы столкнётесь с этими проблемами, вам следует связаться с автором "
+"(ами) соответствующего дополнения(ий) (контактную информацию о дополнениях, "
+"размещенных на этом веб-сайте, смотрите в приведённом ниже списке). "
+"Обязательно указывайте подробности при обращении к авторам."
+
+#. type: Plain text
+msgid "Compatibility status key for add-ons listed below:"
+msgstr "Ключ состояния совместимости для дополнений, перечисленных ниже:"
+
+#. type: Bullet: '* '
+msgid "Yes: compatible"
+msgstr "Да: совместимо"
+
+#. type: Bullet: '* '
+msgid "Included in NVDA: add-on functionality is now part of NVDA as of 2019.3"
+msgstr ""
+"Включено в NVDA: функциональные возможности дополнения теперь являются "
+"частью NVDA с 2019.3"
+
+#. type: Bullet: '* '
+msgid ""
+"No: incompatible (manifest edits and other tricks will not work; this "
+"includes add-ons with compatibility manifest issues)"
+msgstr ""
+"Нет: несовместимо (изменения в манифесте и другие уловки не сработают; это "
+"касается дополнений с проблемами в манифесте совместимости)"
+
+#. type: Bullet: '* '
+msgid "TBD: to be determined"
+msgstr "TBD: предстоит определить"
+
+#. type: Bullet: '* '
+msgid "Planned: author indicated plans to port the add-on"
+msgstr "Запланировано: автор указал планы по переносу дополнения"
+
+#. type: Bullet: '* '
+msgid ""
+"Work in progress: add-on is being ported to Python 3, including testing in "
+"progress"
+msgstr ""
+"Ведётся работа: дополнение портируется на Python 3, включая текущее "
+"тестирование"
+
+#. type: Title ##
+#, no-wrap
+msgid "Status of add-ons compatible with Python 3 and other changes"
+msgstr "Состояние дополнений, совместимых с Python 3, и другие изменения"
+
+#. type: Plain text
+msgid ""
+"Below is a list of add-ons hosted on this website, along with their "
+"compatibility status with Python 3 version of NVDA and known issues if any. "
+"The list also includes contact information for add-on author(s)."
+msgstr ""
+"Ниже приведён список дополнений, размещённых на этом веб-сайте, а также их "
+"состояние совместимости с версией NVDA для Python 3 и известные проблемы, "
+"если таковые имеются. Список также содержит контактную информацию авторов "
+"дополнений."
+
+#. type: Plain text
+msgid ""
+"Note: Add-on compatibility status subject to change without notice. Also, "
+"although one way to work around compatibility issues is editing the add-on "
+"manifest, some add-ons listed below are still incompatible."
+msgstr ""
+"Примечание: Состояние совместимости дополнений может быть изменено без "
+"предварительного уведомления. Кроме того, хотя одним из способов решения "
+"проблем совместимости является редактирование манифеста дополнения, "
+"некоторые из перечисленных ниже дополнений по-прежнему несовместимы."
+
+#. type: Title ###
+#, no-wrap
+msgid "Access8Math"
+msgstr "Access8Math"
+
+#. type: Bullet: '* '
+msgid "Compatible: Yes"
+msgstr "Совместимо: Да"
+
+#. type: Bullet: '* '
+msgid "Contact: Tseng Woody <tsengwoody.tw@gmail.com>"
+msgstr "Для связи: Tseng Woody <tsengwoody.tw@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-on Updater"
+msgstr "Обновление дополнений"
+
+#. type: Bullet: '* '
+msgid "Contact: Joseph Lee <joseph.lee22590@gmail.com>"
+msgstr "Для связи: Joseph Lee <joseph.lee22590@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Add-ons Documentation"
+msgstr "Документация дополнений"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy and Abdel"
+msgstr ""
+"Для связи: Rui Fontes <rui.fontes@tiflotecnia.com>, Zougane, Rémy и Abdel"
+
+#. type: Title ###
+#, no-wrap
+msgid "Addon to count elements of selected text"
+msgstr "Дополнение для подсчета элементов выделенного текста"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Fontes <rui.fontes@tiflotecnia.com>"
+msgstr "Для связи: Rui Fontes <rui.fontes@tiflotecnia.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Audio Themes"
+msgstr "Звуковые Темы"
+
+#. type: Bullet: '* '
+msgid "Compatible: Work in progress"
+msgstr "Совместимо: Ведётся работа"
+
+#. type: Bullet: '* '
+msgid "Contact: Musharraf Omer <ibnomer2011@hotmail.com>"
+msgstr "Для связи: Musharraf Omer <ibnomer2011@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "AudioChart"
+msgstr "AudioChart"
+
+#. type: Bullet: '* '
+msgid "Contact: Tony Malykh <anton.malykh@gmail.com>"
+msgstr "Для связи: Tony Malykh <anton.malykh@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Beep keyboard"
+msgstr "Сигнал Клавиатуры"
+
+#. type: Bullet: '* '
+msgid "Contact: David CM <dhf360@gmail.com>"
+msgstr "Для связи: David CM <dhf360@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bit Che"
+msgstr "Bit Che"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alberto Zanella <lapostadialberto@gmail.com>, Alberto Buffolino <a."
+"buffolino@gmail.com>, other contributors"
+msgstr ""
+"Для связи: Alberto Zanella <lapostadialberto@gmail.com>, Alberto Buffolino "
+"<a.buffolino@gmail.com>, другие участники"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bluetooth Audio"
+msgstr "Bluetooth Audio"
+
+#. type: Title ###
+#, no-wrap
+msgid "Braille Extender"
+msgstr "Braille Extender"
+
+#. type: Bullet: '* '
+msgid "Contact: André-Abush Clause <dev@andreabc.net>"
+msgstr "Для связи: André-Abush Clause <dev@andreabc.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "BrowserNav"
+msgstr "BrowserNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Calibre"
+msgstr "Calibre"
+
+#. type: Bullet: '* '
+msgid "Contact: Javi Dominguez <fjavids@gmail.com>"
+msgstr "Для связи: Javi Dominguez <fjavids@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Character Information"
+msgstr "Информация о Символе"
+
+#. type: Bullet: '* '
+msgid "Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+msgstr "Для связи: Cyrille Bougot <cyrille.bougot2@laposte.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Classic Selection"
+msgstr "Классическое Выделение"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey <tspivey@pcdesk.net>"
+msgstr "Для связи: Tyler Spivey <tspivey@pcdesk.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clip Contents Designer"
+msgstr "Clip Contents Designer"
+
+#. type: Bullet: '* '
+msgid "Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+msgstr "Для связи: Noelia Ruiz Martínez <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clipspeak"
+msgstr "Clipspeak"
+
+#. type: Bullet: '* '
+msgid "Contact: Damien Sykes-Lindley <damien@dcpendleton.plus.com>"
+msgstr "Для связи: Damien Sykes-Lindley <damien@dcpendleton.plus.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Clock and calendar Add-on for NVDA"
+msgstr "Дополнение часов и календаря для NVDA"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim."
+"bensaid@gmail.com>"
+msgstr ""
+"Для связи: Hrvoje Katić <hrvojekatic@gmail.com>, Abdel <abdelkrim."
+"bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Control Usage Assistant"
+msgstr "Control Usage Assistant"
+
+#. type: Title ###
+#, no-wrap
+msgid "Crash Hero"
+msgstr "Crash Hero"
+
+#. type: Bullet: '* '
+msgid "Compatible: No"
+msgstr "Совместимо: Нет"
+
+#. type: Bullet: '* '
+msgid "Issues: Python 3 syntax errors, no compatibility information"
+msgstr ""
+"Проблемы: синтаксические ошибки Python 3, нет информации о совместимости"
+
+#. type: Bullet: '* '
+msgid "Contact: Derek Riemer <driemer.riemer@gmail.com>"
+msgstr "Для связи: Derek Riemer <driemer.riemer@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Day of the week"
+msgstr "День недели"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>"
+msgstr ""
+"Для связи: Abdel <abdelkrim.bensaid@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Debug Helper"
+msgstr "Помощник по Отладке"
+
+#. type: Bullet: '* '
+msgid "Contact: Luke Davis <newanswertech@gmail.com>"
+msgstr "Для связи: Luke Davis <newanswertech@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Developer Toolkit"
+msgstr "Инструментарий Разработчика"
+
+#. type: Bullet: '* '
+msgid "Contact: Andy Borka <ajborka@gmail.com>"
+msgstr "Для связи: Andy Borka <ajborka@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Patrick Zajda <patrick@zajda.fr>, Filaos and other contributors"
+msgstr "Для связи: Patrick Zajda <patrick@zajda.fr>, Filaos и другие участники"
+
+#. type: Title ###
+#, no-wrap
+msgid "Dual Voice"
+msgstr "Dual Voice"
+
+#. type: Bullet: '* '
+msgid "Contact: Seyed Mahmood Taghavi-Shahri"
+msgstr "Для связи: Seyed Mahmood Taghavi-Shahri"
+
+#. type: Title ###
+#, no-wrap
+msgid "Easy Table Navigator"
+msgstr "Простой Навигатор по Таблицам"
+
+#. type: Title ###
+#, no-wrap
+msgid "Emoticons"
+msgstr "Смайлики"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier "
+"Estrada Martínez <Fjestrad@hotmail.com>"
+msgstr ""
+"Для связи: Chris Leo <llajta2012@gmail.com>, Noelia Ruiz Martínez "
+"<nrm1977@gmail.com>, Mesar Hameed <mhameed@src.gnome.org>, Francisco Javier "
+"Estrada Martínez <Fjestrad@hotmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "eMule"
+msgstr "eMule"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>, Alberto <a.buffolino@gmail.com>"
+msgstr ""
+"Для связи: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>, Alberto <a.buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Aria"
+msgstr "Расширенные Атрибуты Aria"
+
+#. type: Bullet: '* '
+msgid "Compatible: Included in NVDA"
+msgstr "Совместимо: Включено в NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: José Manuel Delicado <jm.delicado@nvda.es>"
+msgstr "Для связи: José Manuel Delicado <jm.delicado@nvda.es>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Enhanced Touch Gestures"
+msgstr "Улучшенные Сенсорные Жесты"
+
+#. type: Title ###
+#, no-wrap
+msgid "extendedWinamp"
+msgstr "extendedWinamp"
+
+#. type: Bullet: '* '
+msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>, NVDA Add-ons Team"
+msgstr "Для связи: Hrvoje Katić <hrvojekatic@gmail.com>, NVDA Add-ons Team"
+
+#. type: Title ###
+#, no-wrap
+msgid "Focus Highlight"
+msgstr "Focus Highlight"
+
+#. type: Bullet: '* '
+msgid "Contact: Takuya Nishimoto <nishimotz@gmail.com>"
+msgstr "Для связи: Takuya Nishimoto <nishimotz@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Golden Cursor"
+msgstr "Golden Cursor"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph."
+"lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+msgstr ""
+"Для связи: Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee "
+"<joseph.lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "GoldWave"
+msgstr "GoldWave"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn <xkill85@gmx."
+"net>, Mesar Hameed <mhameed@src.gnome.org>"
+msgstr ""
+"Для связи: Joseph Lee <joseph.lee22590@gmail.com>, David Parduhn "
+"<xkill85@gmx.net>, Mesar Hameed <mhameed@src.gnome.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Image Describer"
+msgstr "Image Describer"
+
+#. type: Bullet: '* '
+msgid ""
+"Issues: attempting to import a module that no longer exists in Python 3, out "
+"of date compatibility information (last compatible: 2019.1)"
+msgstr ""
+"Проблемы: попытка импортировать модуль, который больше не существует в "
+"Python 3, устаревшая информация о совместимости (последняя совместимость: "
+"2019.1)"
+
+#. type: Bullet: '* '
+msgid "Contact: Oliver Edholm <oliver.edholm@gmail.com>"
+msgstr "Для связи: Oliver Edholm <oliver.edholm@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "IndentNav"
+msgstr "IndentNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Input Lock"
+msgstr "Блокировка Ввода"
+
+#. type: Title ###
+#, no-wrap
+msgid "Lambda Add-On for NVDA"
+msgstr "Lambda Add-On for NVDA"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Zanella, Ivan Novegil"
+msgstr "Для связи: Alberto Zanella, Ivan Novegil"
+
+#. type: Title ###
+#, no-wrap
+msgid "Mozilla Apps Enhancements"
+msgstr "Расширения для Приложений от Mozilla"
+
+#. type: Title ###
+#, no-wrap
+msgid "mp3DirectCut"
+msgstr "mp3DirectCut"
+
+#. type: Bullet: '* '
+msgid "Contact: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+msgstr "Для связи: Abdel, Rémy Ruiz, Abdellah Zineddine, Jean-François Colas"
+
+#. type: Title ###
+#, no-wrap
+msgid "Newfon"
+msgstr "Newfon"
+
+#. type: Bullet: '* '
+msgid "Issues: no compatibility information"
+msgstr "Проблемы: нет информации о совместимости"
+
+#. type: Bullet: '* '
+msgid "Contact: Sergey Shishmintzev"
+msgstr "Для связи: Sergey Shishmintzev"
+
+#. type: Title ###
+#, no-wrap
+msgid "NoBeepsSpeechMode"
+msgstr "NoBeepsSpeechMode"
+
+#. type: Bullet: '* '
+msgid "Contact: Alberto Buffolino <a.buffolino@gmail.com>"
+msgstr "Для связи: Alberto Buffolino <a.buffolino@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Notepad++"
+msgstr "Notepad++"
+
+#. type: Title ###
+#, no-wrap
+msgid "NVDA Remote Support"
+msgstr "NVDA Remote Support"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-continuum."
+"net>"
+msgstr ""
+"Для связи: Tyler Spivey <tspivey@pcdesk.net>, Christopher Toth <q@q-"
+"continuum.net>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Object Location Tones"
+msgstr "Сигналы Расположения Объекта"
+
+#. type: Title ###
+#, no-wrap
+msgid "ObjPad"
+msgstr "ObjPad"
+
+#. type: Title ###
+#, no-wrap
+msgid "OCR"
+msgstr "OCR"
+
+#. type: Bullet: '* '
+msgid "Contact: NV Access <info@nvaccess.org>"
+msgstr "Для связи: NV Access <info@nvaccess.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Outlook Extended"
+msgstr "Outlook Extended"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf Kefferpuetz "
+"<ralf.kefferpuetz@elra-consulting.de>"
+msgstr ""
+"Для связи: Cyrille Bougot <cyrille.bougot2@laposte.net>, Ralf Kefferpuetz "
+"<ralf.kefferpuetz@elra-consulting.de>"
+
+#. type: Title ###
+#, no-wrap
+msgid "placeMarkers"
+msgstr "placeMarkers"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>"
+msgstr ""
+"Для связи: Noelia Ruiz Martínez <nrm1977@gmail.com>, Chris <llajta2012@gmail."
+"com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Read Feeds"
+msgstr "Read Feeds"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed <mhameed@src."
+"gnome.org>"
+msgstr ""
+"Для связи: Noelia Ruiz Martínez <nrm1977@gmail.com>, Mesar Hameed "
+"<mhameed@src.gnome.org>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Report Symbols"
+msgstr "Сообщать Символы"
+
+#. type: Title ###
+#, no-wrap
+msgid "Resource Monitor"
+msgstr "Resource Monitor"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Alex Hall <mehgcap@gmail.com>, Joseph Lee <joseph.lee22590@gmail."
+"com>, beqa gozalishvili <beqaprogger@gmail.com>, Tuukka Ojala <tuukka."
+"ojala@gmail.com>, Ethin Probst <harlydavidsen@gmail.com> and other NVDA "
+"contributors"
+msgstr ""
+"Для связи: Alex Hall <mehgcap@gmail.com>, Joseph Lee <joseph.lee22590@gmail."
+"com>, beqa gozalishvili <beqaprogger@gmail.com>, Tuukka Ojala <tuukka."
+"ojala@gmail.com>, Ethin Probst <harlydavidsen@gmail.com> и другие участники "
+"NVDA"
+
+#. type: Title ###
+#, no-wrap
+msgid "Review Cursor Copier"
+msgstr "Review Cursor Copier"
+
+#. type: Bullet: '* '
+msgid "Contact: Tuukka Ojala <tuukka.ojala@gmail.com>"
+msgstr "Для связи: Tuukka Ojala <tuukka.ojala@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "sayCurrentKeyboardLanguage"
+msgstr "sayCurrentKeyboardLanguage"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>"
+msgstr ""
+"Для связи: Abdel <abdelkrim.bensaid@gmail.com>, Noelia <nrm1977@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "SentenceNav"
+msgstr "SentenceNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speak Passwords"
+msgstr "Speak Passwords"
+
+#. type: Title ###
+#, no-wrap
+msgid "Speech History"
+msgstr "История Речи"
+
+#. type: Bullet: '* '
+msgid "Contact: Tyler Spivey, James Scholes"
+msgstr "Для связи: Tyler Spivey, James Scholes"
+
+#. type: Title ###
+#, no-wrap
+msgid "Station Playlist"
+msgstr "Station Playlist"
+
+#. type: Bullet: '* '
+msgid "Contact: Geoff Shang, Joseph Lee and other contributors"
+msgstr "Для связи: Geoff Shang, Joseph Lee и другие участники"
+
+#. type: Title ###
+#, no-wrap
+msgid "Switch synth"
+msgstr "Switch synth"
+
+#. type: Title ###
+#, no-wrap
+msgid "systrayList"
+msgstr "systrayList"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista "
+"<ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, NVDA "
+"Community Contributors"
+msgstr ""
+"Для связи: Rui Fontes <rui.fontes@tiflotecnia.com>, Rui Batista "
+"<ruiandrebatista@gmail.com>, Joseph Lee <joseph.lee22590@gmail.com>, NVDA "
+"Community Contributors"
+
+#. type: Title ###
+#, no-wrap
+msgid "TeamTalk Classic"
+msgstr "TeamTalk Classic"
+
+#. type: Bullet: '* '
+msgid ""
+"Issues: missing modules due to syntax errors, no compatibility information"
+msgstr ""
+"Проблемы: отсутствуют модули из-за синтаксических ошибок, отсутствует "
+"информация о совместимости"
+
+#. type: Bullet: '* '
+msgid "Contact: Doug Lee with initial work by Tyler Spivey and others"
+msgstr "Для связи: Doug Lee with initial work by Tyler Spivey and others"
+
+#. type: Title ###
+#, no-wrap
+msgid "Text Information"
+msgstr "Text Information"
+
+#. type: Bullet: '* '
+msgid "Contact: Carter Temm <crtbraille@gmail.com>"
+msgstr "Для связи: Carter Temm <crtbraille@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "TextNav"
+msgstr "TextNav"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tip of the Day"
+msgstr "Совет Дня"
+
+#. type: Bullet: '* '
+msgid "Compatible: Planned"
+msgstr "Совместимо: Запланировано"
+
+#. type: Title ###
+#, no-wrap
+msgid "ToolbarsExplorer"
+msgstr "ToolbarsExplorer"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tone Master"
+msgstr "Tone Master"
+
+#. type: Bullet: '* '
+msgid "Contact: Hrvoje Katić <hrvojekatic@gmail.com>"
+msgstr "Для связи: Hrvoje Katić <hrvojekatic@gmail.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "UnicodeBrailleInput"
+msgstr "UnicodeBrailleInput"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA <patrick@zajda."
+"fr>, Leonard de Ruijter (Babbage B.V.) <leonard@babbage.com>"
+msgstr ""
+"Для связи: Mesar Hameed <mhameed@src.gnome.org>, Patrick ZAJDA "
+"<patrick@zajda.fr>, Leonard de Ruijter (Babbage B.V.) <leonard@babbage.com>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Virtual Review"
+msgstr "Виртуальный Просмотр"
+
+#. type: Bullet: '* '
+msgid "Contact: Rui Batista <ruiandrebatista@gmail.com> and NVDA Addon Team"
+msgstr "Для связи: Rui Batista <ruiandrebatista@gmail.com> and NVDA Addon Team"
+
+#. type: Title ###
+#, no-wrap
+msgid "VLC Media Player"
+msgstr "Медиапроигрыватель VLC"
+
+#. type: Title ###
+#, no-wrap
+msgid "Weather Plus"
+msgstr "Weather Plus"
+
+#. type: Bullet: '* '
+msgid "Contact: Adriano Barbieri <adrianobarb@yahoo.it>"
+msgstr "Для связи: Adriano Barbieri <adrianobarb@yahoo.it>"
+
+#. type: Title ###
+#, no-wrap
+msgid "Windows 10 App Essentials"
+msgstr "Windows 10 App Essentials"
+
+#. type: Bullet: '* '
+msgid ""
+"Contact: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer <driemer."
+"riemer@gmail.com> and others"
+msgstr ""
+"Для связи: Joseph Lee <joseph.lee22590@gmail.com>, Derek Riemer <driemer."
+"riemer@gmail.com> и другие"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announcements]]\n"
+msgstr "[[!tag announcements]]\n"

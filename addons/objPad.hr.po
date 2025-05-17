@@ -1,0 +1,311 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Tea Turković <tturkovi@gmail.com>, 2018.
+# Milo Ivir <mail@milotype.de>, 2019., 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ObjPad\n"
+"POT-Creation-Date: 2025-04-30 11:45+0000\n"
+"PO-Revision-Date: 2024-05-12 16:54+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"ObjPad\"]]\n"
+msgstr "[[!meta title=\"Upravljaj objektima (ObjPad)\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph "
+"Lee, Cleverson Uliana and others"
+msgstr ""
+"Autori: Christopher Duffley <nvda@chrisduffley.com>, izvorno od Joseph Lee, "
+"Cleverson Uliana i drugih"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr "NVDA kompatibilnost: 2022.4 i novije verzije"
+
+#. type: Plain text
+msgid ""
+"This add-on provides quick commands to manage objects on screen, including "
+"navigation and other possibilities."
+msgstr ""
+"Ovaj dodatak pruža brze naredbe za upravljanje objektima na ekranu, "
+"uključujući kretanje i druge mogućnosti."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Naredbe"
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+TAB: Steps through arrow key modes (see below for details)."
+msgstr ""
+"Kontrol+NVDA+TAB: Prolazi kroz različite moduse za upotrebu tipki sa "
+"strelicama (vidi dolje za detalje)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Arrow key modes"
+msgstr "Modusi za upotrebu tipki sa strelicama"
+
+#. type: Plain text
+msgid "The add-on provides four ways to use arrow keys:"
+msgstr "Dodatak nudi četiri modusa za upotrebu tipki sa strelicama:"
+
+#. type: Bullet: '* '
+msgid "Classic (or normal mode): use arrow keys to move cursor."
+msgstr ""
+"Klasični (ili uobičajeni modus): koristite tipke sa strelicama za "
+"premještanje kursora."
+
+#. type: Bullet: '* '
+msgid ""
+"Object nav: use arrow keys to move to next/previous/parent/first child "
+"objects."
+msgstr ""
+"Kretanje po objektima: koristite tipke sa strelicama za premještanje na "
+"prethodne, sljedeće, nadređene i podređene objekte."
+
+#. type: Bullet: '* '
+msgid "Web: use arrow keys to cycle through elements and move between them."
+msgstr ""
+"Web: Pomoću tipki sa strelicama kružite kroz elemente i krećite se između "
+"njih."
+
+#. type: Bullet: '* '
+msgid ""
+"Scan mode: use arrow keys to move through objects on screen regardless of "
+"hierarchy."
+msgstr ""
+"Modus skeniranja: koristite tipke sa strelicama za kretanje između objekata "
+"na ekranu bez obzira na hijerarhiju."
+
+#. type: Plain text
+msgid "The following commands are available with arrow keys set to object nav:"
+msgstr ""
+"Sljedeće naredbe su dostupne, ako su tipke sa strelicama postavljene na "
+"kretanje po objektima:"
+
+#. type: Bullet: '* '
+msgid "Right arrow: next object."
+msgstr "Strelica desno: sljedeći objekt."
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous object."
+msgstr "Strelica lijevo: prethodni objekt."
+
+#. type: Bullet: '* '
+msgid "Up arrow: parent object."
+msgstr "Strelica gore: nadređeni objekt."
+
+#. type: Bullet: '* '
+msgid "Down arrow: first child object."
+msgstr "Strelica dolje: podređeni objekt."
+
+#. type: Bullet: '* '
+msgid "SPACE or ENTER: activate."
+msgstr "RAZMAKNICA ili ENTER: aktiviranje."
+
+#. type: Plain text
+msgid ""
+"With web mode active (elements are normal or moving by object, link, form "
+"field, heading, frame, table, list, landmark):"
+msgstr ""
+"Kad je web modus aktivan (elementi su uobičajeni ili se kreću po objektu, "
+"poveznici, polju obrasca, naslovu, okviru, tablici, popisu, orijentiru):"
+
+#. type: Bullet: '* '
+msgid "Right arrow: next element."
+msgstr "Strelica desno: sljedeći element."
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous element."
+msgstr "Strelica lijevo: prethodni element."
+
+#. type: Bullet: '* '
+msgid "Up arrow: previous element type."
+msgstr "Strelica gore: prethodna vrsta elementa."
+
+#. type: Bullet: '* '
+msgid "Down arrow: next element type."
+msgstr "Strelica dolje: sljedeća vrsta elementa."
+
+#. type: Plain text
+msgid "With scan mode active:"
+msgstr "Kad je modus skeniranja aktivan:"
+
+#. type: Bullet: '* '
+msgid "Down arrow: next object or the next line."
+msgstr "Strelica dolje: sljedeći objekt ili sljedeći redak."
+
+#. type: Bullet: '* '
+msgid "Up arrow: previous object or previous line."
+msgstr "Strelica gore: prethodni objekt ili prethodni redak."
+
+#. type: Bullet: '* '
+msgid "Right arrow: review next character."
+msgstr "Strelica desno: pregled sljedećeg znaka."
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous character."
+msgstr "Strelica lijevo: prethodni znak."
+
+#. type: Bullet: '* '
+msgid "Control+right arrow: next word."
+msgstr "Kontrol+Strelica desno: sljedeća riječ."
+
+#. type: Bullet: '* '
+msgid "Control+left arrow: previous word."
+msgstr "Kontrol+Strelica lijevo: prethodna riječ."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05"
+msgstr "Verzija 23.05"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Verzija 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "Zahtijeva NVDA 2022.4 ili noviju verziju."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Verzija 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "Zahtijeva NVDA 2022.3 ili noviju verziju."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+"Zahtijeva Windows 10 ili noviju verziju, jer od siječnja 2023. Microsoft "
+"više ne pordržava Windows 7, 8 i 8.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.06"
+msgstr "Verzija 22.06"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2021.3 or later."
+msgstr "Zahtijeva NVDA 2021.3 ili noviju verziju."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.04"
+msgstr "Verzija 21.04"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2020.1 or later."
+msgstr "Zahtijeva NVDA verziju 2020.1 ili noviju."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "Verzija 20.01"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Zahtijeva NVDA verziju 2019.3 ili noviju."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "Verzija 18.12"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Unutarnje promjene, kako bi se podržala buduća NVDA izdanja."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.09"
+msgstr "Verzija 18.09"
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr "Dodane lokalizacije."
+
+#. type: Bullet: '* '
+msgid "Enter key (regular and Numpad) can be used to activate objects."
+msgstr ""
+"Tipka enter (obična i numerička tipkovnica) se može koristiti za aktiviranje "
+"objekata."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.03"
+msgstr "Verzija 18.03"
+
+#. type: Bullet: '* '
+msgid "Better compatibility with NVDA 2018.1."
+msgstr "Bolja kompatibilnost s NVDA verzijom 2018.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.12"
+msgstr "Verzija 16.12"
+
+#. type: Bullet: '* '
+msgid "Added web mode."
+msgstr "Dodan web modus."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.10"
+msgstr "Verzija 16.10"
+
+#. type: Bullet: '* '
+msgid "Initial stable version."
+msgstr "Inicijalna stabilna verzija."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Preuzmi [razvojnu verziju][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"

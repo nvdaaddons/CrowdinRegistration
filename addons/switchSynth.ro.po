@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2017-06-03 15:38+0300\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Switch synth \"]]\n"
+msgstr "[[!meta title=\"Switch synth \"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Tyler Spivey"
+msgstr "Autor: Tyler Spivey"
+
+#. type: Bullet: '* '
+msgid "Download: [version 1.02][1]"
+msgstr "Descărcați: [versiunea 1.02][1]"
+
+#. type: Title #
+#, no-wrap
+msgid "Switch synth"
+msgstr "Switch synth"
+
+#. type: Plain text
+msgid ""
+"This addon allows easy switching of synthesizers via hotkeys.  It is an "
+"improved version of my earlier switch_synth addon with an underscore, which "
+"must be uninstalled. Any preexisting synthesizer configurations will "
+"continue to work with this version."
+msgstr ""
+"Acest supliment permite o comutare ușoară a sintetizatoarelor prin "
+"combinații de taste.  Este o versiune îmbunătățită a vechiului meu add-on "
+"switch_synth cu o liniuță joasă care trebuie dezinstalat. Orice configurări "
+"ale unui sintetizator existent vor continua să funcționeze cu această "
+"versiune."
+
+#. type: Plain text
+msgid ""
+"There are 6 synthesizer slots, 1 through 6. By default, they are empty.  "
+"Slots can be switched by pressing control+shift+NVDA+1 through control+shift"
+"+NVDA+6.  Once a slot is switched to, its synthesizer and settings will be "
+"loaded if they exist.  To save the current synthesizer and its settings to "
+"the currently active slot, press control+shift+NVDA+v."
+msgstr ""
+"Există 6 sloturi de sintetizator, de la 1 până la 6. În mod implicit, ele "
+"sunt goale.  Sloturile pot fi comutate apăsând control+shift+NVDA+1 până la "
+"control+shift+NVDA+6.  După ce un slot este comutat, sintetizatorul său și "
+"setările vor fi încărcate dacă există. Pentru a salva sintetizatorul curent "
+"și setările sale în slotul activ, apăsați control+shift+NVDA+v."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=switchSynth"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sws"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sws"

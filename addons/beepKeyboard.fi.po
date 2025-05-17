@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: beepKeyboard\n"
+"POT-Creation-Date: 2023-04-15 16:53+0000\n"
+"PO-Revision-Date: 2023-04-16 18:58+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Beep Keyboard\"]]\n"
+msgstr "[[!meta title=\"Näppäimistön äänimerkki\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: David CM"
+msgstr "Tekijä: David CM"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "Download [Development version][2]"
+msgstr "Lataa [kehitysversio][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2018.2 to 2019.2"
+msgstr "Yhteensopivuus: NVDA 2018.2-2019.2"
+
+#. type: Plain text
+msgid ""
+"This add-on allows the user to configure NVDA to beeps with some keyboard "
+"events."
+msgstr ""
+"Tämän lisäosan avulla käyttäjä voi määrittää NVDA:n ilmaisemaan piippaamalla "
+"jotkin näppäimistötapahtumat."
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr "Ominaisuudet"
+
+#. type: Plain text
+msgid ""
+"This add-on provides the following features you can use to adapt NVDA "
+"keyboard behavior:"
+msgstr ""
+"Tämä lisäosa tarjoaa seuraavat ominaisuudet, joita voit käyttää NVDA:n "
+"näppäimistötoiminnallisuuden mukauttamiseen:"
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for uppercases when caps lock is on: if this feature is enabled, NVDA "
+"will beep when you typing an uppercase and caps lock is on. Don't make any "
+"more uppercase mistakes!"
+msgstr ""
+"Ilmaise isot kirjaimet äänimerkillä, kun Caps Lock on käytössä: Mikäli tämä "
+"toiminto otetaan käyttöön, NVDA antaa äänimerkin kirjoittaessasi isoja "
+"kirjaimia Caps Lockin ollessa käytössä."
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for typed characters when shift is pressed: with this feature NVDA will "
+"beep if you type a character with shift key pressed."
+msgstr ""
+"Ilmaise kirjoitetut merkit äänimerkillä Vaihto-näppäintä painettaessa: Kun "
+"tämä toiminto on käytössä, NVDA antaa äänimerkin, mikäli kirjoitat merkkejä "
+"painaessasi Vaihto-näppäintä."
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for toggle keys changes: with this feature, NVDA will beep higher if a "
+"toggle key goes on, and lower tone if it goes off. Please note that Windows "
+"has a toggle keys beep function built-in on Ease of Access Center. This "
+"native feature works well if you don't use laptop keyboard layout setting."
+msgstr ""
+"Ilmaise alasjäävien näppäinten muutokset: Kun tämä toiminto on käytössä, "
+"NVDA antaa korkeamman äänimerkin, kun alasjäävä näppäin otetaan käyttöön ja "
+"matalamman äänimerkin, kun se poistetaan käytöstä. Huom: Windowsin "
+"Helppokäyttökeskuksessa  on sisäänrakennettu alasjäävien näppäinten "
+"äänimerkkitoiminto. Tämä natiivi toiminto toimii hyvin, mikäli et käytä "
+"kannettavan tietokoneen näppäimistöasettelua."
+
+#. type: Bullet: '* '
+msgid ""
+"Announce toggle keys changes: just when \"Beep for toggle keys changes\" is "
+"on. You can enable or disable NVDA to announce toggle key status."
+msgstr ""
+"Puhu alasjäävien näppäinten muutokset: Kun \"Ilmaise alasjäävien näppäinten "
+"muutokset\" on käytössä, voit ottaa käyttöön tai poistaa käytöstä "
+"alasjäävien näppäinten muutosten puhumisen."
+
+#. type: Bullet: '* '
+msgid ""
+"Beep for specified characters: NVDA will beep for all characters that you "
+"set in advanced settings."
+msgstr ""
+"Mukautetut merkit: NVDA ilmaisee äänimerkillä kaikki lisäasetuksissa "
+"määrittämäsi merkit."
+
+#. type: Bullet: '* '
+msgid ""
+"Disable beeping on password fields: this feature is enabled by default to "
+"aboid security risks. Disable it if you want to hear beeps on password "
+"fields."
+msgstr ""
+"Ei äänimerkkiä salasanakentissä: Tämä toiminto on oletusarvoisesti käytössä "
+"tietoturvariskien välttämiseksi. Poista se käytöstä, mikäli haluat kuulla "
+"äänimerkkejä salasanakentissä."
+
+#. type: Title ##
+#, no-wrap
+msgid "Requirements"
+msgstr "Vaatimukset"
+
+#. type: Plain text
+msgid "You need NVDA 2018.2 or later."
+msgstr "Tarvitset NVDA 2018.2:n tai uudemman."
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation"
+msgstr "Asentaminen"
+
+#. type: Plain text
+msgid "Just install it as a NVDA add-on."
+msgstr "Asenna se NVDA-lisäosana."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Käyttö"
+
+#. type: Plain text
+#, no-wrap
+msgid "To enable or disable features, go to NVDA settings and select beep keyboard category. In that category you can configure all  supported features by this add-on.  \n"
+msgstr "Valitse käytettävät asetukset menemällä NVDA:n asetuksiin ja valitsemalla Näppäimistön äänimerkit. Tästä kategoriasta voit määrittää kaikki tämän lisäosan tukemat toiminnot.\n"
+
+#. type: Bullet: '* '
+msgid "\"Beep for uppercases when caps lock is on\" is enabled by default."
+msgstr ""
+"\"Ilmaise isot kirjaimet äänimerkillä, kun Caps Lock on käytössä\" on "
+"oletusarvoisesti käytössä."
+
+#. type: Plain text
+msgid ""
+"If you need more settings, open the advanced settings dialog that contains "
+"the following options:"
+msgstr ""
+"Mikäli tarvitset lisää asetuksia, avaa lisäasetusten valintaikkuna, jossa on "
+"valittavissa seuraavat asetukset:"
+
+#. type: Bullet: '* '
+msgid ""
+"Ignored characters with shift pressed: all characters here will be ignored "
+"to beeping when shift is pressed. Escape Sequences are allowed, e.g. \"\\t\" "
+"for tab, \"\\r\" for carriage return."
+msgstr ""
+"Ohitettavat merkit Vaihto-näppäintä painettaessa: kaikki tässä luetellut "
+"merkit eivät anna äänimerkkiä, kun ne kirjoitetaan Vaihto-näppäin pohjassa. "
+"Escape-koodit ovat sallittuja, esim. \"\\t\" = sarkain, \"\\r\" = "
+"rivinvaihto."
+
+#. type: Bullet: '* '
+msgid ""
+"Beep always for the following characters: set here all characters that you "
+"want NVDA beeps for. Escape Sequences are allowed, e.g. \"\\t\" for tab, "
+"\"\\r\" for carriage return."
+msgstr ""
+"Anna aina äänimerkki näille merkeille: Lisää tähän merkit, joista haluat "
+"NVDA:n antavan äänimerkin. Escape-koodit ovat sallittuja, esim. \"\\t\" = "
+"sarkain, \"\\r\" = rivinvaihto."
+
+#. type: Bullet: '* '
+msgid ""
+"Select tone to configure: you can configure parameters for all tones. Select "
+"one here, and set the parameters in the next text boxes. When change "
+"selection, NVDA will beep for the current selected tone with the current "
+"parameters set in the dialog."
+msgstr ""
+"Valitse määritettävä äänimerkki: Voit muuttaa tässä äänimerkkien "
+"parametreja. Valitse haluamasi ja aseta parametrit seuraavissa "
+"tekstiruuduissa. Kun valittua äänimerkkiä on muutettu, NVDA toistaa sen "
+"tässä valintaikkunassa asetetuilla parametreilla."
+
+#. type: Bullet: '* '
+msgid "Tone pitch: tone pitch for the current selected tone."
+msgstr "Äänimerkin korkeus: Valitun äänimerkin korkeus."
+
+#. type: Bullet: '* '
+msgid "Tone length: tone length for the current selected tone."
+msgstr "Äänimerkin kesto: Valitun äänimerkin kesto."
+
+#. type: Bullet: '* '
+msgid "Tone volume: tone volume for the current selected tone."
+msgstr "Äänimerkin voimakkuus: Valitun äänimerkin voimakkuus."
+
+#. type: Bullet: '* '
+msgid ""
+"Test tone: this button lets you to play a test with the current set "
+"parameters."
+msgstr ""
+"Testaa äänimerkkiä: Tällä painikkeella voit toistaa testin nykyisiä "
+"parametreja käyttäen."
+
+#. type: Bullet: '* '
+msgid "Press OK button to save settings or cancel to discard."
+msgstr ""
+"Tallenna asetukset painamalla OK-painiketta tai hylkää muutokset painamalla "
+"Peruuta."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=beepkeyboard"

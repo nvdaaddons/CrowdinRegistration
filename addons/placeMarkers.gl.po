@@ -1,0 +1,862 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Add-on website files\n"
+"POT-Creation-Date: 2024-12-01 07:42+0000\n"
+"PO-Revision-Date: 2022-12-06 19:49+0100\n"
+"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
+"Language-Team: Add-ons translation team <oprisniki@gmail.com>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"placeMarkers\"]]\n"
+msgstr "[[!meta title=\"placeMarkers\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Noelia, Chris."
+msgstr "Autores: Noelia, Chris."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This addon is used for saving and searching specific text strings or "
+#| "bookmarks. It can be used  on web pages or documents in NVDA's browse "
+#| "mode. It can also be used for saving or searching strings of text in "
+#| "multi-line controls; in this case, if it's not possible to update the "
+#| "caret, the corresponding string will be copied to the clipboard, so that "
+#| "it can be searched using other tools.  The plugin saves the specified "
+#| "strings and bookmarks to files whose name is based on the title and URL "
+#| "of the current document.  This addon is based on SpecificSearch and "
+#| "Bookmark&Search, developed by the same author. You should uninstall them "
+#| "to use this one, since they have common keystrokes and features."
+msgid ""
+"This add-on is used for saving and searching specific text strings or "
+"placemarkers. It can be used on web pages or documents in NVDA's browse "
+"mode. It can also be used for saving or searching strings of text in multi-"
+"line controls; in this case, if it's not possible to update the caret, the "
+"corresponding string will be copied to the clipboard, so that it can be "
+"searched using other tools.  The plugin saves the specified strings and "
+"placemarkers to files whose name is based on the title and URL of the "
+"current document.  This add-on is based on SpecificSearch and "
+"Bookmark&Search, developed by the same author. You should uninstall them to "
+"use this one, since they have common keystrokes and features."
+msgstr ""
+"Este complemento úsase para gardar e restaurar cadeas de texto específicas "
+"ou marcas. Pode usarse en páxinas web ou en documentos no modo exploración "
+"do NVDA. Tamén pode usarse para gardar ou procurar cadeas de texto en "
+"controis multiliña; neste caso, se non é posible actualizar o cursor, a "
+"cadea correspondente copiarase ao portapapeis, tal que se poda procurar "
+"usando outras ferramentas.  O plugin garda as cadeas especificadas e marcas "
+"en ficheiros con nombres baseados no título e URL do documento actual.  Este "
+"complemento baséase en SpecificSearch y Bookmark&Search, desenvolvidos polo  "
+"mesmo autor. Deberías desinstalalos para usar este, xa que teñen as mesmas "
+"combinacións de teclas e características."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands:"
+msgstr "Ordes de teclado:"
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+NVDA+f: Opens a dialog with an edit box that shows the last "
+"saved search; in this dialog you can also select the previously saved "
+"searches from a combo box or remove the selected string from the history "
+"using a checkbox. You can choose if the text contained in the edit box will "
+"be added to the history of your saved texts. Finally, choose an action from "
+"the next group of radio buttons (between Search next, Search previous or "
+"Don't search), and specify if NVDA will make a case sensitive search. When "
+"you press okay, NVDA will search for this string."
+msgstr ""
+"control+shift+NVDA+f: abre un diálogo cunha caixa de edición que amosa a "
+"última procura gardada; neste diálogo tamén podes selecionar as procuras "
+"anteriormente gardadas dende unha Caixa combinada ou borrar a cadea "
+"selecionada dende o historial utilizando unha caixa de verificación. Podes "
+"escoller se o texto contido na caixa de edición se engadirá ao histórico de "
+"textos gardados. Finalmente, escoller unha acción do seguinte grupo de "
+"botóns de opción (entre procurar seguinte, procurar anterior ou non "
+"procurar), e especificar se NVDA fará unha procura sensible ás maiúsculas. "
+"Cando premas Aceptar, NVDA procurará esta cadea."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "control+shift+NVDA+k: Saves the current position as a bookmark. If you "
+#| "want to provide a name for this bookmark, select some text from this "
+#| "position before saving it."
+msgid ""
+"control+shift+NVDA+y: Saves the current position as a placemarker. If you "
+"want to provide a name for this placemarker, select some text from this "
+"position before saving it."
+msgstr ""
+"control+shift+NVDA+k: garda a posición actual coma unha marca. Se queres "
+"proporcionar un nome para esta marca, seleciona algún texto desta posición "
+"antes de gardala."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "control+shift+NVDA+delete: Deletes the bookmark corresponding to this "
+#| "position."
+msgid ""
+"control+shift+NVDA+delete: Deletes the placemarker corresponding to this "
+"position."
+msgstr ""
+"control+shift+NVDA+suprimir: borra a marca correspondente a esta posición."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid "NVDA+k: Moves to the next bookmark."
+msgid "NVDA+y: Moves to the next placemarker."
+msgstr "NVDA+k: Move á marca seguinte."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid "shift+NVDA+k: Moves to the previous bookmark."
+msgid "shift+NVDA+y: Moves to the previous placemarker."
+msgstr "shift+NVDA+k: move á marca anterior."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Not assigned: Shows the file name where the place markers data will be "
+#| "saved in browse mode, without an extension."
+msgid ""
+"Not assigned: Shows the file name where the placemarkers data will be saved "
+"in browse mode, without an extension."
+msgstr ""
+"Sen asignar: Amosa o nome do arquivo no que se gardarán os datos dos "
+"marcadores de ubicación en modo exploración, sen extensión."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "alt+NVDA+k: Opens a dialog with the bookmarks saved for this document. "
+#| "You can write a note for each bookmark; press Save note to save changes. "
+#| "Pressing Delete you can remove the selected bookmark. Pressing OK you can "
+#| "move to the selected position."
+msgid ""
+"alt+NVDA+y: Opens a dialog with the placemarkers saved for this document. "
+"You can write a note for each placemarker; press Save note to save changes. "
+"Pressing Delete you can remove the selected placemarker. Pressing OK you can "
+"move to the selected position."
+msgstr ""
+"alt+NVDA+k: abre un diálogo coas marcas gardadas para este documento. Podes "
+"escreber unha nota para cada marca; preme Gardar Nota para guardar cambios. "
+"Pulsando Aceptar puedes moverte al a la posición seleccionada."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid "Not assigned: Saves a position as a temporary bookmark."
+msgid "Not assigned: Saves a position as a temporary placemarker."
+msgstr "Sen asignar: garda a posición actual coma unha marca temporal."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Not assigned: Moves to the temporary bookmark for the current document."
+msgid ""
+"Not assigned: Moves to the temporary placemarker for the current document."
+msgstr "Sen asignar: Móvese á marca temporal para o documento actual."
+
+#. type: Bullet: '*	'
+msgid ""
+"Not assigned: Finds the next occurrence of the last text searched for any "
+"specific document."
+msgstr ""
+"Sen asignar: Buscar seguinte ocorrencia do último texto procurado en "
+"calquera documento específico."
+
+#. type: Bullet: '*	'
+msgid ""
+"Not assigned: Finds the previous occurrence of the last text searched for "
+"any specific document."
+msgstr ""
+"Sen asignar: Buscar ocorrencia anterior do último texto procurado en "
+"calquera documento específico."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Place markers Submenu (NVDA+N)"
+msgid "PlaceMarkers Submenu (NVDA+N)"
+msgstr "Submenú Place markers (NVDA+N)"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Using the Place markers submenu under NVDA's Preferences menu, you can "
+#| "access:"
+msgid ""
+"Using the PlaceMarkers submenu under NVDA's Preferences menu, you can access:"
+msgstr "Usando o submenú Place markers no Menú Preferencias, podes acceder a:"
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Specific search folder: opens a folder of specific searches previously "
+#| "saved."
+msgid ""
+"Specific search folder: Opens a folder of specific searches previously saved."
+msgstr ""
+"Cartafol de busca específica:abre un cartafol de buscas específicas gardadas "
+"anteriormente."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid "Bookmarks folder: Opens a folder of the saved bookmarks."
+msgid "Bookmarks folder: Opens a folder of the saved placemarkers."
+msgstr "Cartafol de marcas: abre un cartafol de marcas gardadas."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Copy placeMarkers folder: You can save a copy of the bookmarks folder."
+msgid ""
+"Copy placeMarkers folder: You can save a copy of the placeMarkers folder."
+msgstr ""
+"Copiar cartafol de marcadores: podes gardar unha copia do cartafol de marcas."
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Restore placeMarkers: You can restore your bookmarks from a previously "
+#| "saved placeMarkers folder."
+msgid ""
+"Restore placeMarkers: You can restore your placeMarkers from a previously "
+"saved placeMarkers folder."
+msgstr ""
+"Restaurar marcadores: Podes restaurar as túas marcas dende un cartafol de "
+"marcadores gardado anteriormente."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Note: The bookmark position is based on the number of characters; and "
+#| "therefore in dynamic pages it is better to use the specific search, not "
+#| "bookmarks."
+msgid ""
+"Note: The placemarker position is based on the number of characters; and "
+"therefore in dynamic pages it is better to use the specific search, not "
+"placemarkers."
+msgstr ""
+"Nota: A posición da marca baséase no número de caracteres, polo tanto en "
+"páxinas con contido dinámico é mellor usar a busca específica,e non as "
+"marcas."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 35.0"
+msgstr "Cambios para 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed URL parameters from file names, so that bookmarks are valid for "
+"specific websites in different sessions."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 24.0"
+msgstr "Cambios para 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Y is used instead of k in gestures such as NVDA+k, NVDA+shift+k, NVDA+alt+k "
+"and NVDA+control+shift+k."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatible with NVDA 2021.1 or later (required)."
+msgid "Compatible with NVDA 2023.1."
+msgstr "Compatible co NVDA 2021.1 ou posterior (requerido)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 23.0"
+msgstr "Cambios para 23.0"
+
+#. type: Bullet: '* '
+msgid "The add-on works again with Microsoft Word."
+msgstr "O complemento volve a funcionar con Microsoft Word."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 22.0"
+msgstr "Cambios para 22.0"
+
+#. type: Bullet: '* '
+msgid ""
+"We can move to bookmarks and delete them with UIA enabled, thanks to Abdel."
+msgstr ""
+"Podemos movernos a marcadores e eliminalos con UIA activado, grazas a Abdel."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 21.0"
+msgstr "Cambios para 21.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Bookmarks can be saved with UIA enabled in browsers based on Chromium, "
+"thanks to Abdel."
+msgstr ""
+"Pódense gardar os marcadores con UIA activado en navegadores baseados en "
+"Chromium, grazas a Abdel."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20.0"
+msgstr "Cambios para 20.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2022.1 or later."
+msgstr "Require NVDA 2022.1 ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 19.0"
+msgstr "Cambios para 19.0"
+
+#. type: Bullet: '* '
+msgid "The add-on cannot be run on secure screens."
+msgstr "O complemento non se pode executar en pantallas seguras."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 18.0"
+msgstr "Cambios para 18.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The command to see the path for placeMarkers shows if there are permanent "
+"bookmarks, text for specific search or a temporary bookmark for the current "
+"document."
+msgstr ""
+"O atallo para amosar a ruta de placeMarkers amosa se hai marcas permanentes, "
+"texto para busca específica ou unha marca temporal para o documento actual."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 17.0"
+msgstr "Cambios para 17.0"
+
+#. type: Bullet: '* '
+msgid "Fixed a bug which didn't allow to save place markers in some documents."
+msgstr ""
+"Arranxado un erro que non permitía gardar marcas de posición nalgúns "
+"documentos."
+
+#. type: Bullet: '* '
+msgid "Fixed translated strings making translations to work properly."
+msgstr ""
+"Arranxadas as cadeas traducidas facendo funcionar correctamente as "
+"traducións."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 16.0"
+msgstr "Cambios para 16.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatible with NVDA 2018.3 or later (required)."
+msgid "Compatible with NVDA 2021.1 or later (required)."
+msgstr "Compatible co NVDA 2018.3 ou posterior (requerido)."
+
+#. type: Bullet: '* '
+msgid "Skim reading is supported when moving to temporary bookmarks."
+msgstr "Sopórtase a lectura superficial ao moverse a unha marca temporal."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "If needed, you can download [other versions](https://github.com/nvdaes/"
+#| "placeMarkers/releases)."
+msgid ""
+"If needed, you can download [other versions](https://github.com/nvdaes/"
+"placeMarkers/releases)."
+msgstr ""
+"Se o precisas, podes descargar [outras versións](https://github.com/nvdaes/"
+"placeMarkers/releases)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 15.0"
+msgstr "Cambios para 15.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When reading with say all in browse mode, the specific find next and "
+"specific find previous commands do not stop reading anymore if Allow skim "
+"reading option is enabled, according to find next and find previous commands "
+"from NVDA 2020.4."
+msgstr ""
+"Ó ler con ler todo en modo exploración, os atallos específico buscar "
+"anterior e específico buscar seguinte xa non deteñen a lectura se a opción "
+"Permitir lectura superficial está habilitada, en consoancia cos atallos "
+"buscar seguinte e buscar anterior de NVDA 2020.4."
+
+#. type: Bullet: '* '
+msgid ""
+"When the Specific search dialog is opened after running the Specific find "
+"previous command, the Search previous option will be selected."
+msgstr ""
+"Cando o diálogo de busca específico se abre despois de executar o atallo "
+"específico buscar anterior, seleccionarase a opción buscar anterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 14.0"
+msgstr "Cambios para 14.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"The command to copy the name of the file where place markers data will be "
+"saved has been replaced by a command which shows this file name in browse "
+"mode. This is not assigned to a gesture."
+msgstr ""
+"O atallo para copiar o nome do arquivo onde se gardarán os datos dos "
+"marcadores de ubicación reemprazouse por un atallo que amosa este nome de "
+"arquivo en modo exploración. Está sen asignar a ningún xesto."
+
+#. type: Bullet: '*	'
+msgid ""
+"The \"Text to search\" field does not overlap the \"Saved text\" field "
+"anymore. (Thanks to Cyrille Bougot)."
+msgstr ""
+"O campo \"Texto a buscar\" xa non solapa ao campo \"Texto gardado\". (Grazas "
+"a Cyrille Bougot)."
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Require NVDA 2019.3 ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 13.0"
+msgstr "Cambios para 13.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Added not assigned commands to find the next and previous occurrences of the "
+"last text searched for any specific document."
+msgstr ""
+"Engadidas ordes sen asignar para buscar a próxima e anterior ocorrencia do "
+"último texto procurado en calquera documento específico."
+
+#. type: Bullet: '*	'
+msgid "The specific search feature works when the NVDA's About dialog is open."
+msgstr ""
+"A característica de busca específica funciona cando o diálogo Acerca de NVDA "
+"está aberto."
+
+#. type: Bullet: '*	'
+msgid ""
+"In the Specific search dialog, the case sensitive checkbox will be checked "
+"if this option was selected for the last search."
+msgstr ""
+"No diálogo Busca específica, a caixa de verificación sensible ás maiúsculas "
+"estará verificada se esta opción se seleccionou na busca anterior."
+
+#. type: Bullet: '*	'
+msgid ""
+"When the add-on is updated, bookmarks and strings for specific search saved "
+"in the previous version of the add-on will be automatically copied to the "
+"new version, unless you prefer to import place markers saved in the main "
+"configuration folder of NVDA."
+msgstr ""
+"Cando o complemento se actualice, os marcadores e as cadeas da busca "
+"específica gardadas na versión anterior do complemento copiaranse "
+"automaticamente á nova versión, a menos que prefiras importar os marcadores "
+"de lugar gardados no cartafol principal de configuración de NVDA."
+
+#. type: Bullet: '*	'
+msgid ""
+"When using the dialog to copy place markers, if the chosen folder is not "
+"named placeMarkersBackup, a subfolder with this name will be created to "
+"prevent the deletion of directories containing important data, such as "
+"Documents or Downloads."
+msgstr ""
+"Ao utilizar o diálogo para copiar marcadores de lugar, se o cartafol "
+"escollido non se chama placeMarkersBackup, crearase un subcartafol co mesmo "
+"nome para previr a eliminación de directorios que conteñan datos "
+"importantes, como Documentos ou Descargas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 12.0"
+msgstr "Cambios para 12.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Fixed a critical bug which caused NVDA to crash when trying to open the "
+"Notes dialog, if chinese characters were selected before saving bookmarks."
+msgstr ""
+"Solucionado un erro crítico que causaba o peche de NVDA ao tratar de abrir o "
+"diálogo de notas cando estaban seleccionados caracteres chinos antes de "
+"gardar marcadores."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 11.0"
+msgstr "Cambios para 11.0"
+
+#. type: Bullet: '*	'
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr "Compatible co NVDA 2018.3 ou posterior (requerido)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 10.0"
+msgstr "Cambios para 10.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"In Edge, gestures associated with bookmarks selection, such as NVDA+k, "
+"NVDA+shift+k or NVDA+alt+k, will be sent to the application instead of "
+"trying to move the cursor to bookmarks, to avoid errors, especially in long "
+"documents."
+msgstr ""
+"En Edge, os xestos asociados coa seleción de marcas, como NVDA+k, "
+"NVDA+shift+k ou NVDA+alt+k, enviaranse á aplicación en lugar de tentar mover "
+"o cursor ás marcas, para evitar erros, especialmente en documentos longos."
+
+#. type: Bullet: '*	'
+msgid "Now specific search is supported in Edge."
+msgstr "Agora admítese a procura específica en Edge."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 9.0"
+msgstr "Cambios para 9.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"When moving to a bookmark from the Notes dialog, the review cursor follows "
+"the system cursor."
+msgstr ""
+"Ao se mover a unha marca dende a Caixa de diálogo Notas, o cursor de "
+"revisión segue ao cursor do sistema."
+
+#. type: Bullet: '*	'
+msgid "The command to select the previous bookmark works properly again."
+msgstr ""
+"A orde para selecionar a marca anterior funciona de novo adecuadamente."
+
+#. type: Bullet: '*	'
+msgid "Bookmarks can be deleted from the Notes dialog."
+msgstr "As marcas poden borrarse dende a Caixa de diálogo Notas."
+
+#. type: Bullet: '*	'
+msgid ""
+"Now you can assign gestures to save and move to a temporary bookmark for "
+"each document."
+msgstr ""
+"Agora podes asignar xestos para gardar e moverte a unha marca temporal para "
+"cada documento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 8.0"
+msgstr "Cambios para 8.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Removed fragment identifiers from bookmark filenames, which can avoid issues "
+"in the VitalSource Bookshelf ePUB reader."
+msgstr ""
+"Elimináronse os identificadores de fragmentos dos nomes de ficheiro de "
+"marcadores , que poden evitar problemas no VitalSource Bookshelf  EPUBReader."
+
+#. type: Bullet: '*	'
+msgid ""
+"Added a Notes dialog, to associate comments for saved bookmarks and move to "
+"the selected position."
+msgstr ""
+"Engadiuse un diálogo Notas, para asociar comentarios para marcas gardadas e "
+"para moverte cara a posición selecionada."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 7.0"
+msgstr "Cambios para 7.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"The dialog to save a string of text for specific search has been removed. "
+"This functionality is now included in the Specific search dialog, which has "
+"been redesigned to allow different actions when pressing the OK button."
+msgstr ""
+"O diálogo para gardar unha cadea de texto para unha procura específica "
+"eliminouse. Esta funcionalidade agora inclúese no diálogo Procura "
+"Específica, o que se rediseñou para permitir accións diferentes ao se premer "
+"o botón Aceptar."
+
+#. type: Bullet: '*	'
+msgid ""
+"The visual presentation of the dialogs has been enhanced, adhering to the "
+"appearance of the dialogs shown in NVDA."
+msgstr ""
+"Mellorouse a presentación visual do diálogo, adheríndose á apariencia dos "
+"diálogos amosados no NVDA."
+
+#. type: Bullet: '*	'
+msgid ""
+"Performing a Find Next or Find Previous command in Browse Mode will now "
+"correctly do a case sensitive search if the original Find was case sensitive."
+msgstr ""
+"Ao se realizar unha orde procurar seguinte ou procurar anterior en Modo "
+"exploración agora farase correctamente unha procura sensible ás maiúsculas "
+"se a procura orixinal era sensible ás maiúsculas."
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2016.4 or later."
+msgstr "Requírese do NVDA 2016.4 ou posterior."
+
+#. type: Bullet: '*	'
+msgid ""
+"Now you can assign gestures to open the Copy and Restore place markers "
+"dialogs."
+msgstr ""
+"Agora podes asignar xestos para abrir os diálogos Copiar e Restaurar "
+"marcadores."
+
+#. type: Bullet: '*	'
+msgid ""
+"NVDA will present a message to notify when place markers have been copied or "
+"restored with the corresponding dialogs."
+msgstr ""
+"NVDA presentará unha mensaxe para notificar cando se copiaran ou restauraran "
+"os marcadores cos diálogos correspondentes."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Cambios para 6.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the add-on features are not usable, gestures are sent to the "
+"corresponding application."
+msgstr ""
+"Cando as características do complemento non son usables, os xestos envíanse "
+"á aplicación correspondente."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Cambios para 5.0"
+
+#. type: Bullet: '* '
+msgid "Added case sensitive search."
+msgstr "Engadida busca sensible ás maiúsculas."
+
+#. type: Bullet: '* '
+msgid "Removed option to open documentation from Place markers menu."
+msgstr ""
+"Eliminada a opción para abrir documentación dende o menú Place markers."
+
+#. type: Bullet: '* '
+msgid "More intuitive key commands."
+msgstr "Ordes de teclado máis intuitivas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Cambios para 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed fragment identifiers from bookmark filenames, which can avoid issues "
+"in ePUBREADER Firefox add-on."
+msgstr ""
+"Elimináronse os identificadores de fragmentos dos nomes de ficheiro de "
+"marcadores , que poden evitar problemas no complemento de Firefox EPUBReader."
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr ""
+"A axuda do complemento está dispoñible no Administrador de Complementos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.1"
+msgstr "Cambios para 3.1"
+
+#. type: Bullet: '* '
+msgid "Translation updates and new language."
+msgstr "Actualizacións das traduccións e novas linguas."
+
+#. type: Bullet: '* '
+msgid "Bookmark position is not announced in skim reading."
+msgstr "A posición do marcador non se anuncia na lectura superficial."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Cambios para 3.0"
+
+#. type: Bullet: '* '
+msgid "Added support for skim reading."
+msgstr "Engadido o soporte para lectura superficial."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Cambios para 2.0"
+
+#. type: Bullet: '* '
+msgid "Added options to save and delete different searches for each file."
+msgstr ""
+"Engadidas opcións para gardar e borrar diferentes buscas para cada ficheiro."
+
+#. type: Bullet: '* '
+msgid "Fixed bug which broke when paths contained non latin characters."
+msgstr ""
+"Solucionado un problema que rompía cando as rutas contiñan caracteres non "
+"latinos."
+
+#. type: Bullet: '* '
+msgid "Shortcuts can now be reassigned using the NVDA gesture input dialog."
+msgstr ""
+"Os atallos de teclado agora pódense reasignar utilizando o diálogo xestos de "
+"entrada do NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Cambios para 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Versión inicial."
+
+#. type: Bullet: '* '
+msgid ""
+"Translated into: Brazilian Portuguese, Farsi, Finnish, French, Galician, "
+"German, Italian, Japanese, Korean, Nepali, Portuguese, Spanish, Slovak, "
+"Slovenian, Tamil."
+msgstr ""
+"Traducido ó: Alemán, Español, Eslovaco, Esloveno, Farsi, Finés, Francés, "
+"Galego, Italiano, Coreán, Nepalí, Portugués, Portugués do Brasil, Tamil, "
+"Xaponés."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#~ msgid ""
+#~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
+#~ "[3]."
+#~ msgstr ""
+#~ "Se fora necesario, podes descargar a [última versión compatible co NVDA "
+#~ "2017.3][3]."
+
+#, fuzzy
+#~| msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
+#~ msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=pm-o"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pm-o"
+
+#~ msgid ""
+#~ "download [stable version][1] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr ""
+#~ "descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=placeMarkers"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pm"
+
+#~ msgid ""
+#~ "download [development version][2] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr ""
+#~ "Descargar [versión de desenvolvemento][2] (compatible con NVDA 2022.1 en "
+#~ "diante)"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev"
+
+#~ msgid "NVDA compatibility: 2021.1 or later."
+#~ msgstr "Compatibilidade con NVDA: 2021.1 ou posterior."
+
+#~ msgid "download [stable version][1]"
+#~ msgstr "descarga [versión estable][1]"
+
+#~ msgid ""
+#~ "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: "
+#~ "https://github.com/nvdaes/placeMarkers/releases/download/10.2/"
+#~ "placeMarkers-10.2.nvda-addon"
+#~ msgstr ""
+#~ "[2]: https://addons.nvda-project.org/files/get.php?file=pm-dev [3]: "
+#~ "https://github.com/nvdaes/placeMarkers/releases/download/10.2/"
+#~ "placeMarkers-10.2.nvda-addon"
+
+#~ msgid ""
+#~ "This addon is based on SpecificSearch and Bookmark&Search, developed by "
+#~ "the same author. You should uninstall them to use this one, since they "
+#~ "have common keystrokes and features."
+#~ msgstr ""
+#~ "Este complemento está baseado en SpecificSearch e Bookmark&Search, "
+#~ "desenvolvido polo mesmo autor. Debes desinstalalos para usar este, xa que "
+#~ "teñen os atallos de teclado e as características comúns."
+
+#~ msgid ""
+#~ "*\tcontrol+shift+NVDA+s; Opens a dialog that allows you to save a text "
+#~ "string   you want to find in the current document. By default, the text "
+#~ "previously saved for this file is shown. Delete this text and press Ok "
+#~ "button if you wish to remove the text file corresponding to the saved "
+#~ "search, or type new text to add another search.\n"
+#~ "*\tcontrol+shift+NVDA+f; opens a dialog with a edit box that shows the "
+#~ "last saved search; in this dialog you can also select the previously "
+#~ "saved searches from a combo box and choose an action from the next combo "
+#~ "box. If there is no available files for specific search in the current "
+#~ "document, NVDA will warn you that it is not found any file for specific "
+#~ "search.\n"
+#~ "*\tcontrol+shift+NVDA+k; Saves the current position as a bookmark\n"
+#~ "*\tcontrol+shift+NVDA+delete; Deletes the bookmark corresponding to this "
+#~ "position.\n"
+#~ "*\tNVDA+k; Moves to the next bookmark.\n"
+#~ "*\tshift+NVDA+k; Moves to the previous bookmark.\n"
+#~ "*\tcontrol+shift+k; Copies to clipboard the file name, without extension, "
+#~ "where the place markers data will be saved.\n"
+#~ msgstr ""
+#~ "*\tcontrol+shift+NVDA+s; Abre un diálogo que che permite gardar unha "
+#~ "cadea de texto   que queres atopar no documento actual. De maneira "
+#~ "predeterminada, amósase o texto gardado con anterioridade para este "
+#~ "ficheiro. Elimina este texto e preme o botón Aceptar se desexas borrar o "
+#~ "ficheiro de texto correspondente á busca gardada, ou teclea texto novo "
+#~ "para engadir outra busca.\n"
+#~ "*\tcontrol+shift+NVDA+f; abre un diálogo cun cadro de edición que amosa a "
+#~ "última busca gardada; neste diálogo tamén podes selecionar as buscas "
+#~ "gardadas con anterioridade dende un cadro combinado e escoller unha  "
+#~ "acción dende o seguinte cadro combinado. Se non hai ficheiros dispoñibles "
+#~ "para buscas específicas no documento actual, NVDA advertiráche de que non "
+#~ "se atopa ningún ficheiro para busca específica.\n"
+#~ "*\tcontrol+shift+NVDA+k; Garda a posición actual como unha marca\n"
+#~ "*\tcontrol+shift+NVDA+suprimir; borra a marca correspondente a esta "
+#~ "posición.\n"
+#~ "*\tNVDA+k; Móvese cara a seguinte marca.\n"
+#~ "*\tshift+NVDA+k; Móvese cara a marca anterior.\n"
+#~ "*\tcontrol+shift+k; Copia ó portapapeis o nome do ficheiro, sin "
+#~ "extensión, onde gardará os datos place marker.\n"
+
+#~ msgid ""
+#~ "Documentation file, in your selected language if available, or English by "
+#~ "default."
+#~ msgstr ""
+#~ "Arquivo de documentación, no teu idioma escollido, se tes un, ou en "
+#~ "inglés por defecto."

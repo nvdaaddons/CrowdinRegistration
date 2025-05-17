@@ -1,0 +1,1011 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2025-01-25 17:43+0000\n"
+"PO-Revision-Date: 2025-02-01 20:58+0100\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"Language-Team: NVDA ÇSpanish translation team <oprisniki@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Resource Monitor\"]]\n"
+msgstr "[[!meta title=\"Resource Monitor\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka "
+"Ojala, Ethin Probst and other NVDA contributors"
+msgstr ""
+"Autores: Alex Hall, Joseph Lee, Kefas Lungu, beqa gozalishvili, Tuukka "
+"Ojala, Ethin Probst y otros colaboradores de NVDA"
+
+#. type: Plain text
+msgid ""
+"This add-on gives information about CPU load, memory usage and other "
+"resource usage information."
+msgstr ""
+"Este plugin nos da información acerca de la carga de la CPU, de la "
+"utilización de la memoria y de otra información de uso de recursos."
+
+#. type: Title #
+#, no-wrap
+msgid "Shortcuts"
+msgstr "Atajos de teclado"
+
+#. type: Plain text
+msgid "All commands support speech on demand mode."
+msgstr "Todas las órdenes soportan el modo de voz a petición."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+E: presents used ram, average processor load, and battery info if "
+"available."
+msgstr ""
+"NVDA+Shift+E: Presenta la ram utilizada, la carga promedio del procesador, e "
+"información de la batería si está disponible."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+1: presents the average processor load and if multicore CPU's are "
+"present the load of each core."
+msgstr ""
+"NVDA+Shift+1: Presenta la carga promedio del procesador y el promedio de la "
+"carga de cada uno de los núcleos si los hay."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+2/5: presents the used and total space for both physical and "
+"virtual ram."
+msgstr ""
+"NVDA+Shift+2/5: Presenta el espacio utilizado y total de la RAM física y "
+"virtual."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+3: presents the used and total space of the static and removable "
+"drives."
+msgstr ""
+"NVDA+Shift+3: Presenta el espacio utilizado y el total de las unidades "
+"estáticas y extraíbles."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+4: presents battery percentage, charging status, remaining time "
+"(if not charging), and a warning if the battery is low or critical."
+msgstr ""
+"NVDA+Shift+4: Presenta el porcentaje de la batería, el estado de la carga, "
+"el tiempo restante (si no se está cargando), y una advertencia si la batería "
+"está baja o crítica."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+6: presents CPU Architecture and Windows version and service pack "
+"numbers."
+msgstr ""
+"NVDA+Shift+6: Presenta la Arquitectura de la CPU y la versión de Windows y "
+"el número del Service Pack."
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+7: presents the system's uptime."
+msgstr "NVDA+Shift+7: presenta el tiempo de actividad del sistema."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+8: presents information on the wireless connection, ssid name and "
+"strength, or no ssid if there is none available."
+msgstr ""
+"NVDA+shift+8: presenta información sobre la conexión inalámbrica, nombre de "
+"SSID e intensidad, o sin nombre si no hay ninguno disponible."
+
+#. type: Plain text
+msgid "You can change these shortcut keys via input gestures dialog."
+msgstr "Puedes cambiar estos atajos desde el diálogo Gestos de entrada."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage notes"
+msgstr "Notas de uso"
+
+#. type: Plain text
+msgid ""
+"This add-on does not replace task manager and other system information "
+"programs for Windows. Also note the following:"
+msgstr ""
+"Este complemento no sustituye al administrador de tareas y a otros programas "
+"de información del sistema para Windows. También ten en cuenta lo siguiente:"
+
+#. type: Bullet: '* '
+msgid ""
+"Resource information cannot be copied to clipboard if running the add-on in "
+"secure screens."
+msgstr ""
+"No se puede copiar la información de recursos al portapapeles si el "
+"complemento se ejecuta en pantallas seguras."
+
+#. type: Bullet: '* '
+msgid ""
+"CPU usage is given for logical processors, not physical cores. This is "
+"noticeable for processors which uses Hyper-Threading where number of CPU's "
+"is twice the number of CPU cores. On some newer computers, not all CPU cores "
+"will have hyper-threading enabled."
+msgstr ""
+"El uso de la CPU se da para procesadores lógicos, y no núcleos físicos. Esto "
+"es perceptible para los procesadores que utilizan Hyper Threading donde el "
+"número de CPUs es el doble del número de núcleos de CPU. En algunos "
+"ordenadores más modernos, no todos los núcleos de CPU tienen activado el "
+"Hyper Threading."
+
+#. type: Bullet: '* '
+msgid ""
+"If there is heavy disk activity such as copying large files, there might be "
+"delays when obtaining disk usage information."
+msgstr ""
+"Si hay una actividad pesada de disco tal como el copiado de ficheros "
+"grandes, podría haber retrasos al obtener información de uso de disco."
+
+#. type: Bullet: '* '
+msgid ""
+"When announcing processor architecture information, \"x86\" and \"AMD64\" "
+"refer to 32-bit and 64-bit (x64) Intel and AMD processors, respectively."
+msgstr ""
+"Al anunciar la información de arquitectura del procesador, \"x86\" y "
+"\"AMD64\" se refieren a procesadores (Intel y AMD) de 32 y 64 bits, "
+"respectivamente."
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on requires Windows 10 22H2 (2022 Update/build 19045) or later."
+msgstr ""
+"Este complemento necesita Windows 10 22H2 (Actualización de 2022 /"
+"compilación 19045) o posterior."
+
+#. type: Bullet: '* '
+msgid "Installing the add-on on Windows 10/11 LTSC is not supported."
+msgstr "No se soporta la instalación del complemento en Windows 10/11 LTSC."
+
+#. type: Plain text
+msgid ""
+"Note on license: this add-on uses Psutil, licensed under 3-Clause BSD "
+"License which is compatible with GNU General Public License."
+msgstr ""
+"Nota sobre licencias: este complemento usa Psutil, liberado bajo la licencia "
+"3-Clause BSD, que es compatible con la Licencia Pública General GNU."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.02"
+msgstr "Versión 25.02"
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr "Se restaura el soporte limitado para Windows 8.1."
+
+#. type: Bullet: '* '
+msgid ""
+"Improved accuracy of used and total memory information announcement "
+"(@danstiv)."
+msgstr ""
+"Se mejora la precisión de la información de la memoria usada y total "
+"(@danstiv)."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to freeze briefly when performing memory usage "
+"command (NVDA+Shift+2/5) the first time after starting NVDA."
+msgstr ""
+"NVDA ya no parecerá colgarse brevemente al ejecutar la orden de uso de "
+"memoria (NVDA+shift+2/5) la primera vez tras iniciar NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows Insider Preview releases are no longer reported as \"Windows "
+"Insider\"."
+msgstr ""
+"Las versiones de Windows Insider Preview ya no se anuncian como \"Windows "
+"Insider\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.08"
+msgstr "Versión 24.08"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2024.2 or later is required. This allows psutil dependency to be "
+"removed from the add-on as NVDA includes it."
+msgstr ""
+"Se requiere NVDA 2024.2 o posterior. Esto permite eliminar la dependencia "
+"psutil del complemento, ya que NVDA la incluye."
+
+#. type: Bullet: '* '
+msgid ""
+"Updated psutil dependency to the version included with NVDA 2024.2 (6.0.0)."
+msgstr ""
+"Actualizada la dependencia sutíl a la versión incluida en NVDA 2024.2 "
+"(6.0.0)."
+
+#. type: Bullet: '* '
+msgid "Ruff replaces Flake8 as code linter."
+msgstr "Ruff sustituye a Flake8 como comprobador del código."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.05"
+msgstr "Versión 24.05"
+
+#. type: Bullet: '* '
+msgid "NVDA 2024.1 or later is required."
+msgstr "Se requiere NVDA 2024.1 o posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize wireless networks with WPA3 authentication methods such "
+"as simultaneous authentication of equals (SAE)."
+msgstr ""
+"NVDA reconocerá redes inalámbricas con métodos de autenticación WPA3 como "
+"autenticación compartida de iguales (SAE)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.04"
+msgstr "Versión 24.04"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.8."
+msgstr "Actualizada la dependencia psutil a 5.9.8."
+
+#. type: Bullet: '* '
+msgid ""
+"Added support for speech on demand mode so resource information can be "
+"announced in this mode."
+msgstr ""
+"Se añade soporte para el modo de voz a petición, por lo que la información "
+"de los recursos se anuncia con este modo."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.11"
+msgstr "Versión 23.11"
+
+#. type: Bullet: '* '
+msgid ""
+"Downgraded psutil dependency to 5.9.4 due to problems with memory usage "
+"announcements."
+msgstr ""
+"Se vuelve a usar la dependencia Psutil 5.9.4 a causa de problemas con los "
+"mensajes de anuncio de memoria."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.10"
+msgstr "Versión 23.10"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.5."
+msgstr "Actualizada la dependencia psutil a 5.9.5."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.09"
+msgstr "Versión 23.09"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer log startup error messages on Windows Server systems "
+"when wireless capability modules are unavailable."
+msgstr ""
+"NVDA ya no registrará mensajes de error al iniciar en sistemas Windows "
+"Server cuando los módulos de red inalámbrica no estén disponibles."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.06"
+msgstr "Versión 23.06"
+
+#. type: Bullet: '* '
+msgid ""
+"Situation where resourceMonitor doesn't work properly due to unavailability "
+"of wireless adapters has been fixed."
+msgstr ""
+"Se ha corregido una situación en la que Resource Monitor no funcionaba "
+"adecuadamente a causa de falta de disponibilidad de los módulos de red "
+"inalámbrica."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05.1"
+msgstr "Versión 23.05.1"
+
+#. type: Plain text
+msgid "wlanReporter NVDA-addon is now part of resourceMonitor!"
+msgstr ""
+"¡El complemento Wlan Reporter para NVDA ahora forma parte de Resource "
+"Monitor!"
+
+#. type: Bullet: '* '
+msgid ""
+"The old way of checking for wireless connections has been replaced by the "
+"windows API from wlanReporter: https://github.com/kvark128/WlanReporter/ ."
+msgstr ""
+"Se ha sustituido el método antiguo para comprobar las conexiones "
+"inalámbricas por la API de Windows de Wlan Reporter: https://github.com/"
+"kvark128/WlanReporter/ ."
+
+#. type: Bullet: '	* '
+msgid ""
+"After speaking SSID name and strength, NVDA will also now tell you the "
+"security type of your network."
+msgstr ""
+"Tras verbalizar el nombre de la red y su intensidad, NVDA también indicará "
+"el tipo de seguridad de la red."
+
+#. type: Bullet: '	* '
+msgid ""
+"NVDA will now alert you when you connect and disconnect from a wireless "
+"network."
+msgstr ""
+"NVDA ahora avisará al conectarse y desconectarse de una red inalámbrica."
+
+#. type: Bullet: '	* '
+msgid "NVDA will now alert you when wireless connections is turned on or off."
+msgstr ""
+"NVDA ahora avisará al activar o desactivar las conexiones inalámbricas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05"
+msgstr "Versión 23.05"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to detect and present the state of the connected wireless "
+"network."
+msgstr ""
+"se ha añadido la capacidad de detectar y presentar el estado de la red "
+"inalámbrica conectada."
+
+#. type: Bullet: '	* '
+msgid "Announces the name of the connected wireless SSID."
+msgstr "Anuncia el nombre del SSID inalámbrico conectado."
+
+#. type: Bullet: '	* '
+msgid "Announces the strength of the ssid"
+msgstr "Anuncia la intensidad del SSID"
+
+#. type: Bullet: '	* '
+msgid "Announce SSID not found if None is detected."
+msgstr "Anuncia SSID no encontrado si no se detecta ninguno."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Versión 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "Se requiere NVDA 2022.4 o posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Se requiere Windows 10 21H2 (actualización de noviembre de 2021 / "
+"compilación 19044) o posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Versión 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "Se requiere NVDA 2022.3 o posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+"Se requiere Windows 10 o posterior, ya que Microsoft no soporta Windows 7, 8 "
+"y 8.1 a partir de enero de 2023."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.4."
+msgstr "Actualizada la dependencia psutil a 5.9.4."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will announce actual processor architecture (x86/AMD64/ARM64) as part "
+"of Windows version information."
+msgstr ""
+"NVDA anunciará la arquitectura real del procesador (x86 / AMD64 / ARM64) "
+"como parte de la información de versión de Windows."
+
+#. type: Bullet: '* '
+msgid ""
+"On single-core systems, NVDA will no longer announce CPU core load as "
+"average CPU load is the same as core load."
+msgstr ""
+"En sistemas de un solo núcleo, NVDA ya no anunciará la carga del núcleo de "
+"CPU, ya que coincide con la carga media de la CPU."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.03"
+msgstr "Versión 22.03"
+
+#. type: Plain text
+msgid ""
+"Version 22.03 is the last stable version to support Windows 7 Service Pack "
+"1, 8, and 8.1."
+msgstr ""
+"La versión 22.03 es la última versión estable que soporta Windows 7 Service "
+"Pack 1, 8 y 8.1."
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr "Se requiere NVDA 2021.3 o posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr ""
+"Se mostrará un mensaje de aviso al intentar instalar el complemento en "
+"Windows 7, 8 y 8.1."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.9.0."
+msgstr "Actualizada la dependencia psutil a 5.9.0."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.01"
+msgstr "Versión 22.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.2 or later is required."
+msgstr "Se requiere NVDA 2021.2 o posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "Versión 21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.1 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+"Se requiere NVDA 2021.1 o posterior a causa de cambios en NVDA que afectan a "
+"este complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.08"
+msgstr "Versión 21.08"
+
+#. type: Bullet: '* '
+msgid "Minimum Windows release requirement is now tied to NVDA releases."
+msgstr ""
+"El requisito mínimo de versión de Windows ahora está vinculado a la versión "
+"de NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows builds 20348 and 22000 are recognized as Windows Server 2022 and "
+"Windows 11, respectively."
+msgstr ""
+"Las compilaciones de Windows 20348 y 22000 se reconocen como Windows Server "
+"2022 y Windows 11, respectivamente."
+
+#. type: Bullet: '* '
+msgid ""
+"On Insider Preview builds, Windows release such as \"Windows 10\" will not "
+"be used. Instead NvDA will announce \"Windows Insider\"."
+msgstr ""
+"En compilaciones de prueba Insider, no se usarán versiones de Windows como "
+"\"Windows 10\". En su lugar, NVDA anunciará \"Windows Insider\"."
+
+#. type: Bullet: '* '
+msgid ""
+"On 64-bit systems, processor architecture (x64 or ARM64) will be announced "
+"as part of Windows version information."
+msgstr ""
+"En sistemas de 64 bits, se anunciará la arquitectura del procesador (X64 o "
+"ARM64) como parte de la información de versión de Windows."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.04"
+msgstr "Versión 21.04"
+
+#. type: Bullet: '* '
+msgid "NVDA 2020.4 or later is required."
+msgstr "Se requiere NVDA 2020.4 o posterior."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.8.0."
+msgstr "Actualizada la dependencia psutil a 5.8.0."
+
+#. type: Bullet: '* '
+msgid ""
+"When pressing add-on commands twice to copy resource information to "
+"clipboard, NVDA will announce resource summary that is being copied."
+msgstr ""
+"Al pulsar las órdenes del complemento dos veces rápidamente para copiar la "
+"información del recurso al portapapeles, NVDA anunciará un resumen del "
+"recurso que se copia."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.01"
+msgstr "Versión 21.01"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.7.3."
+msgstr "Actualizada la dependencia psutil a 5.7.3."
+
+#. type: Bullet: '* '
+msgid "Shortened Windows version message."
+msgstr "Acortado el mensaje de versión de Windows."
+
+#. type: Bullet: '* '
+msgid ""
+"On Windows 8.1, build.revision will be announced as part of Windows version "
+"message, similar to Windows 10."
+msgstr ""
+"En Windows 8.1, se anunciará compilación.revisión como parte del mensaje de "
+"versión de Windows, similar a Windows 10."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.09"
+msgstr "Versión 20.09"
+
+#. type: Bullet: '* '
+msgid "System uptime is now given as days, hours, minutes, seconds."
+msgstr ""
+"El tiempo que lleva iniciado el sistema se expresa en días, horas, minutos y "
+"segundos."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows Server Insider Preview build 20201 or later is properly recognized "
+"as a Server Insider build."
+msgstr ""
+"Se reconoce la compilación preliminar Windows Server Insider versión 20201 y "
+"posteriores como una compilación de Server Insider."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.07"
+msgstr "Versión 20.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 Version 20H2 is properly recognized when obtaining Windows "
+"version information (NVDA+Shift+6)."
+msgstr ""
+"Al obtener información sobre la versión de Windows (NVDA+shift+6), se "
+"reconoce adecuadamente la versión 20H2 de Windows 10."
+
+#. type: Bullet: '* '
+msgid ""
+"Simplified Windows 10 version message i.e. Windows 10 YYMM instead of "
+"Windows 10verYYMM when pressing NVDA+Shift+6."
+msgstr ""
+"Simplificado el mensaje de versión de Windows 10 al pulsar NVDA+shift+6. "
+"Ahora será Windows 10 AAMM en vez de Windows 10 ver AAMM."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr "Versión 20.06"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr ""
+"Se han resuelto muchos problemas de estilo del código y fallos potenciales "
+"con Flake8."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.04"
+msgstr "Versión 20.04"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.7.0."
+msgstr "Actualizada la dependencia psutil a 5.7.0."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "Versión 20.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required due to extensive use of Python 3."
+msgstr "Se requiere NVDA 2019.3 o posterior debido al uso extenso de Python 3."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.11"
+msgstr "Versión 19.11"
+
+#. type: Bullet: '* '
+msgid ""
+"Improved detection of Windows Insider Preview builds, especially for 20H1 "
+"and beyond."
+msgstr ""
+"Se ha mejorado la detección de compilaciones de Windows Insider, "
+"especialmente para la 20H1 y posteriores."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.07"
+msgstr "Versión 19.07"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.6.3."
+msgstr "Actualizada la dependencia psutil a 5.6.3."
+
+#. type: Bullet: '* '
+msgid "Internal changes to battery status announcement command."
+msgstr "Cambios internos en la orden de anuncio del estado de la batería."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "Versión 18.12"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Cambios internos para dar soporte a futuras versiones de NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.10"
+msgstr "Versión 18.10"
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr "El código se ha hecho más compatible con Python 3."
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.4.7."
+msgstr "Actualizada la dependencia psutil a 5.4.7."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+"Al obtener la capacidad de disco o el uso de la memoria, NVDA ya no dará "
+"errores si se utiliza un ordenador o servicio con más de un petabyte de ram "
+"o disco."
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+"Los valores de uso de la memoria y de disco se muestran con hasta dos cifras "
+"decimales (por ejemplo, 4.00 GB en vez de 4.0 GB)."
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
+msgstr "Se ha mejorado la detección de compilaciones de Windows Insider."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.04"
+msgstr "Versión 18.04"
+
+#. type: Plain text
+msgid ""
+"Version 18.04.x is the last release to support Windows releases earlier than "
+"7 SP1."
+msgstr ""
+"La versión 18.04.x es la última que soporta versiones de Windows anteriores "
+"a la 7 SP1."
+
+#. type: Bullet: '* '
+msgid "Last release to support Windows Server 2003, Vista and Server 2008."
+msgstr "Última versión en soportar Windows Server 2003, Vista y Server 2008."
+
+#. type: Bullet: '* '
+msgid ""
+"Better detection of Windows 10 releases and distinguishing between public "
+"and Insider Preview builds."
+msgstr ""
+"Mejor detección de versión de Windows 10 y distinción entre compilaciones "
+"public e Insider para pruebas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.12"
+msgstr "Versión 17.12"
+
+#. type: Bullet: '* '
+msgid "Added support for 64-bit ARM processors on Windows 10."
+msgstr "Añadido el soporte para procesadores ARM de 64 bits en Windows 10."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.09"
+msgstr "Versión 17.09"
+
+#. type: Plain text
+msgid "Important: Version 17.09.x is the last version to support Windows XP."
+msgstr "Importante: la versión 17.09.x es la última que soporta Windows XP."
+
+#. type: Bullet: '* '
+msgid "Last version to run on Windows XP."
+msgstr "Última versión que se ejecuta en Windows XP."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 build 16278 and later is recognized as Version 1709. A minor "
+"revision for this add-on will be released once Version 1709 stable build is "
+"released."
+msgstr ""
+"El Windows 10 compilación 16278 y posterior se reconoce como Versión 1709. "
+"Se lanzará una revisión menor de este complemento una vez la versión 1709 "
+"stable build se libere."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.07.1"
+msgstr "Versión 17.07.1"
+
+#. type: Bullet: '* '
+msgid "Reintroduce support for Windows XP (broken since version 17.02)."
+msgstr ""
+"Se reintroduce el soporte para Windows XP (roto desde la versión 17.02)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.05"
+msgstr "Versión 17.05"
+
+#. type: Bullet: '* '
+msgid ""
+"Announcement of system uptime (time passed since last boot; NVDA+Shift+7)."
+msgstr ""
+"Anunciado del tiempo de funcionamiento del sistema (tiempo transcurrido "
+"desde el último arranque; NVDA+Shift+7)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.02"
+msgstr "Versión 17.02"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 5.0.1."
+msgstr "Actualizado psutil dependency a 5.0.1."
+
+#. type: Bullet: '* '
+msgid ""
+"When checking disk usage, NVDA will no longer present an error dialog on "
+"some systems where a removable media is not properly recognized (such as "
+"when a card isn't inserted into a card reader).)"
+msgstr ""
+"Cuando se verifica el uso de disco, NVDA ya no presenta un diálogo de error "
+"en algunos sistemas donde no se reconoce apropiadamente un medio extraíble "
+"(tal como cuando una tarjeta no se inserta en un lector de tarjetas).)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.08"
+msgstr "Versión 16.08"
+
+#. type: Plain text
+msgid ""
+"Starting with version 16.08, add-on releases will be shown as year.month."
+"revision."
+msgstr ""
+"Comenzando con la versión 16.08, las versiones del complemento se mostrarán "
+"como año.mes.revisión."
+
+#. type: Bullet: '* '
+msgid ""
+"Various revisions of Windows 10 are now properly recognized (such as 1607 "
+"for build 14393)."
+msgstr ""
+"Ahora se reconocen apropiadamente varias revisiones de Windows 10 (tales "
+"como 1607 para la compilación 14393)."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 build revisions (after installing cumulative updates) are "
+"properly recognized (such as 14393.51)."
+msgstr ""
+"Las compilaciones de revisiones de Windows 10 (después de instalar "
+"actualizaciones acumulativas) se reconocen apropiadamente (tales como "
+"14393.51)."
+
+#. type: Bullet: '* '
+msgid "If using Insider Preview builds, this fact is recognized."
+msgstr "Si se utilizan compilaciones Insider Preview, este hecho se reconoce."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.5"
+msgstr "Cambios para 4.5"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on repository has moved to GitHub (can be found at https://github.com/"
+"josephsl/resourcemonitor)."
+msgstr ""
+"El repositorio del complemento se ha movido a GitHub (puede encontrarse en "
+"https://github.com/josephsl/resourcemonitor)."
+
+#. type: Bullet: '* '
+msgid "Windows Server 2016 is properly recognized."
+msgstr "Se reconoce apropiadamente Windows Server 2016."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Cambios para 4.0"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 2.2.1."
+msgstr "Actualizado psutil dependency a 2.2.1."
+
+#. type: Bullet: '* '
+msgid "Vastly improved performance when obtaining information on CPU load."
+msgstr ""
+"Mejorado enormemente el rendimiento al obtener información en la carga de la "
+"CPU."
+
+#. type: Bullet: '* '
+msgid "Added support for recognition of Windows 10."
+msgstr "Añadido el soporte para reconocimiento de Windows 10."
+
+#. type: Bullet: '* '
+msgid "In Windows 10, the build number of Windows will also be announced."
+msgstr ""
+"En Windows 10, también se anunciará el número de compilación de Windows."
+
+#. type: Bullet: '* '
+msgid "You can use Add-ons Manager to access add-on help."
+msgstr ""
+"Puedes utilizar el Administrador de Complementos para acceder a la ayuda del "
+"complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.1"
+msgstr "Cambios para 3.1"
+
+#. type: Bullet: '* '
+msgid "Resource Monitor officially supports Windows 8.1."
+msgstr "Resource Monitor soporta oficialmente Windows 8.1."
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "Se actualizan las traducciones."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Cambios para 3.0"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 1.2.1."
+msgstr "Actualizada dependencia psutil a 1.2.1."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcement of current Windows version, CPU architecture and service pack "
+"if any (NVDA+Shift+6)."
+msgstr ""
+"Anunciado de la versión de Windows, la arquitectura de la CPU y el service "
+"pack  actual en su caso (NVDA+Shift+6)."
+
+#. type: Bullet: '* '
+msgid "Ability to change add-on shortcut keys (NVDA 2013.3 or later)."
+msgstr ""
+"Posibilidad de cambiar los atajos de teclado de los complementos (NVDA "
+"2013.3 o posterior)."
+
+#. type: Bullet: '* '
+msgid ""
+"Ability to copy individual resource information to clipboard by pressing "
+"resource commands two times."
+msgstr ""
+"Posibilidad de copiar la información individual de recursos al portapapeles "
+"pulsando órdenes de recursos dos veces."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.4"
+msgstr "Cambios para 2.4"
+
+#. type: Bullet: '* '
+msgid "New languages: Chinese (simplified), Ukrainian."
+msgstr "Nuevos idiomas: Chino (simplificado), Ucraniano."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "Cambios para 2.3"
+
+#. type: Bullet: '* '
+msgid "Added Bulgarian translation."
+msgstr "Añadida la traducción al búlgaro."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "Cambios para 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Added following translations: Arabic, Aragonese, Croatian, Dutch, Finnish, "
+"French, Galician, German, Hungarian, Italian, Japanese, Korean, Nepali, "
+"Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and "
+"Turkish."
+msgstr ""
+"Añadidas siguientes traducciones: árabe, aragonés, croata, holandés, "
+"finlandés, francés, gallego, alemán, japonés húngaro, italiano, coreano, "
+"nepalí, polaco, portugués (Brasil), ruso, eslovaco, esloveno, español, tamil "
+"y turco."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Cambios para 2.1"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to version 0.6.1."
+msgstr "Actualizada dependencia sutíl a la versión 0.6.1."
+
+#. type: Bullet: '* '
+msgid "Fixed long delay when getting information of drives."
+msgstr "Corregidos los grandes retrasos al optenerse información de unidades."
+
+#. type: Bullet: '* '
+msgid "Code cleanup."
+msgstr "Limpieza de código."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Cambios para 2.0"
+
+#. type: Bullet: '* '
+msgid "added translation support and translation comments."
+msgstr ""
+"añadido el soporte para traducciones y los comentarios de las traducciones."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Cambios para 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Versión inicial"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=resourceMonitor"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=resourceMonitor"

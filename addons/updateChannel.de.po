@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2024-06-25 11:50+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NVDAUpdate Channel Selector\"]]\n"
+msgstr "[[!meta title=\"Update-Kanal-Auswahl\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Jose Manuel Delicado"
+msgstr "Autor: José Manuel Delicado"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2023.3.4 and beyond"
+msgstr "NVDA-Kompatibilität: 2023.3.4 und neuer"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Stabile Version herunterladen][1]"
+
+#. type: Plain text
+msgid ""
+"This add-on allows you to download and install the latest NVDA version of "
+"the chosen type without visiting any webpage nor using your web browser. It "
+"is useful when, for example, you want to test new features in a NVDA "
+"snapshot and then return back to the most recent stable release. If you test "
+"regularly NVDA snapshots and you usually install them in your computer, you "
+"will save a lot of time with this add-on. If you prefer testing snapshots in "
+"portable mode keeping your installed copy of NVDA unchanged, this add-on is "
+"for you as well."
+msgstr ""
+"Mit dieser NVDA-Erweiterung können Sie die neueste NVDA-Version des "
+"ausgewählten Typs herunterladen und installieren, ohne einen Web-Browser zu "
+"benutzen. Dies ist nützlich, wenn Sie beispielsweise neue Funktionen in "
+"einem NVDA-Snapshot testen und dann zur neuesten stabilen Version "
+"zurückkehren möchten. Wenn Sie regelmäßig NVDA-Snapshots testen und diese in "
+"der Regel auf Ihrem Computer installieren, sparen Sie mit dieser NVDA-"
+"Erweiterung viel Zeit. Wenn Sie es vorziehen, Snapshots als portable Version "
+"zu testen und die installierte NVDA-Version unverändert zu lassen, ist diese "
+"NVDA-Erweiterung ebenfalls für Sie geeignet."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Verwendung"
+
+#. type: Plain text
+msgid ""
+"You can change the NVDA update channel by going to NVDA menu, Preferences, "
+"Settings, Update channel category. Once you choose the desired channel and "
+"press OK, wait until the next automatic update check or go to NVDA help menu "
+"and choose \"Check for updates\" option. For now, these are the available "
+"channels:"
+msgstr ""
+"Sie können den Kanal für die NVDA-Updates ändern, in dem Sie über das NVDA-"
+"Menü, Optionen, Einstellungen, Kategorie \"Update-Kanal-Auswahl\" gehen. "
+"Nach dem Sie den gewünschten Kanal ausgewählt und auf \"OK\" geklickt haben, "
+"warten Sie bis zur nächsten automatischen Update-Prüfung oder im NVDA-Menü, "
+"Hilfe und wählen Sie die Option \"Nach Updates suchen\" aus. Im Moment sind "
+"dies die verfügbaren Kanäle:"
+
+#. type: Bullet: '* '
+msgid ""
+"Default: this is the default channel used by your NVDA version. Choosing "
+"this option means the same as disabling the add-on."
+msgstr ""
+"Standard: Dies ist der Standardkanal, der von der aktuellen NVDA-Version "
+"verwendet wird. Die Auswahl dieser Option bedeutet dasselbe wie das "
+"Deaktivieren der NVDA-Erweiterung."
+
+#. type: Bullet: '* '
+msgid ""
+"Stable: force update channel to stable. Useful when you want to return to a "
+"stable version from a snapshot."
+msgstr ""
+"Stabil: Aktualisierungskanal auf stabil erzwingen. Nützlich, wenn Sie von "
+"einem Snapshot zu einer stabilen Version zurückkehren möchten."
+
+#. type: Bullet: '* '
+msgid ""
+"Rc and beta: this is the channel for beta releases. You will receive the "
+"first beta version once it is released. This channel allows you to update "
+"through betas and release candidates."
+msgstr ""
+"RC und Beta: Dies ist der Kanal für Beta-Versionen. Sie erhalten die erste "
+"Beta-Version, sobald sie veröffentlicht wird. Über diesen Kanal können Sie "
+"Updates durch Beta- und RC-Versionen installieren."
+
+#. type: Bullet: '* '
+msgid ""
+"Alpha (snapshots): choose this option to update to the latest alpha. Alpha "
+"snapshots allows you to test new features, but they are quite unstable. "
+"Please, be careful."
+msgstr ""
+"Alpha (Snapshots): Wählen Sie diese Option aus, um auf die neueste Alpha zu "
+"aktualisieren. Mit den Alpha-Snapshots können Sie neue Funktionen "
+"ausprobieren, aber sie können noch ziemlich instabil sein; daher auf eigene "
+"Gefahr."
+
+#. type: Bullet: '* '
+msgid ""
+"Disable updates (not recommended): this option disables the update channel. "
+"If you check for updates an error message will be displayed. Remember that "
+"you can disable automatic updates from the General settings category. Use "
+"this option only with testing purposes."
+msgstr ""
+"Updates deaktivieren (nicht empfohlen): Diese Option deaktiviert den Update-"
+"Kanal. Wenn Sie nach Updates suchen, wird eine Fehlermeldung angezeigt. "
+"Denken Sie daran, dass Sie automatische Updates in den Einstellungen in der "
+"Kategorie Allgemein deaktivieren können. Verwenden Sie diese Option nur zu "
+"Testzwecken."
+
+#. type: Plain text
+msgid ""
+"Information about available updates for each channel will be retrieved in "
+"the background once the settings panel is opened. Press tab to navigate to a "
+"read only edit field, where you can see this information. This information "
+"will be dynamically updated when you change the update channel from the "
+"combo box. If there is an update available for the selected channel, one or "
+"two links will appear next to the edit field:"
+msgstr ""
+"Informationen zu verfügbaren Updates für jeden Kanal werden im Hintergrund "
+"abgerufen, sobald das Einstellungsfenster geöffnet wird. Drücken Sie die "
+"Tabulatortaste, um zu einem schreibgeschützten Bearbeitungsfeld zu "
+"navigieren, in dem Sie diese Informationen sehen können. Sie werden "
+"dynamisch aktualisiert, wenn Sie den Update-Kanal über das Kombinationsfeld "
+"ändern. Ist für den ausgewählten Kanal ein Update verfügbar, werden neben "
+"dem Bearbeitungsfeld ein oder zwei Links dazu angezeigt:"
+
+#. type: Bullet: '* '
+msgid ""
+"Download: press spacebar on this link to open it in your web browser and "
+"download the latest installer."
+msgstr ""
+"Download: Betätigen Sie die Leertaste auf diesem Link, um die neueste Setup-"
+"Datei im Web-Browser zu öffnen und sie herunterzuladen."
+
+#. type: Bullet: '* '
+msgid ""
+"View changelog: press spacebar on this link to open the What's new document "
+"in your web browser. For some channels, this link won't be displayed."
+msgstr ""
+"Änderungsprotokoll anzeigen: Betätigen Sie die Leertaste auf diesem Link, um "
+"das Dokument im Web-Browser zu öffnen. Bei einigen Kanälen wird dieser Link "
+"nicht angezeigt."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changelog"
+msgstr "Änderungsprotokoll"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.4"
+msgstr "Version 1.4"
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "Aktualisierte Übersetzungen."
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr "Kompatibel mit NVDA 2023.1."
+
+#. type: Bullet: '* '
+msgid "For security reasons, minimum NVDA version is set to 2022.4."
+msgstr ""
+"Aus Sicherheitsgründen ist die Mindestversion von NVDA auf 2022.4 festgelegt."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "Version 1.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug which prevented creating portable copies from alpha snapshots."
+msgstr ""
+"Es wurde ein Fehler behoben, der die Erstellung portabler Versionen von "
+"Alpha-Schnappschüssen verhinderte."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Version 1.2"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2022.1."
+msgstr "Kompatibel mit NVDA 2022.1."
+
+#. type: Bullet: '* '
+msgid "For security reasons, minimum NVDA version is set to 2021.3."
+msgstr ""
+"Aus Sicherheitsgründen wurde die Mindestanforderung der NVDA-Version auf "
+"2021.3 festgelegt."
+
+#. type: Bullet: '* '
+msgid ""
+"Workaround for a bug in the NV Access server which caused version 2019.2.1 "
+"to be offered when updating from alpha to stable."
+msgstr ""
+"Workaround für einen Fehler im Server bei NV Access, der dazu führte, dass "
+"beim Update von Alpha auf Stable die Version 2019.2.1 angeboten wurde."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Version 1.1"
+
+#. type: Bullet: '* '
+msgid "Removed unsupported channels."
+msgstr "Nicht unterstützte Kanäle entfernt."
+
+#. type: Bullet: '* '
+msgid "Added information of currently available updates to the settings panel."
+msgstr ""
+"Informationen zu derzeit verfügbaren Updates zum Einstellungsfeld "
+"hinzugefügt."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Erste Version."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=updateChannel"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=updateChannel"
+
+#~ msgid ""
+#~ "Beta (snapshots): choose this option to update to the latest beta "
+#~ "snapshot built from the beta branch. Beta code has been more tested than "
+#~ "Alpha. However, until the official beta version is released, it may not "
+#~ "be stable enough for most users."
+#~ msgstr ""
+#~ "Beta (Snapshots): Wählen Sie diese Option aus, um auf den neuesten Beta-"
+#~ "Snapshot zu aktualisieren, der aus dem Beta-Zweig erstellt wurde. Beta-"
+#~ "Code wurde mehr getestet als Alpha. Bis die offizielle Beta-Version "
+#~ "veröffentlicht wird, ist sie jedoch für die meisten Benutzer "
+#~ "möglicherweise nicht stabil genug."
+
+#~ msgid ""
+#~ "RC (snapshots): choose this option to update to the latest release "
+#~ "candidate snapshot built from the rc branch. RC code has been more tested "
+#~ "than Beta. However, until the official rc version is released, it may not "
+#~ "be stable enough for most users."
+#~ msgstr ""
+#~ "RC (Snapshots): Wählen Sie diese Option aus, um auf den neuesten Release "
+#~ "Candidate-Snapshot zu aktualisieren, der aus dem rc-Zweig erstellt wurde. "
+#~ "RC-Code wurde mehr getestet als Beta. Bis die offizielle RC-Version "
+#~ "veröffentlicht wird, ist sie jedoch für die meisten Benutzer "
+#~ "möglicherweise nicht ausreichend stabil."

@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TeamViewer add-on\n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2019-12-01 10:45+0100\n"
+"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"Language-Team: Polish <killer@tyflonet.com>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"TeamViewer\"]]\n"
+msgstr "[[!meta title=\"TeamViewer\"]]\n"
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed."
+msgid "Authors: Noelia Ruiz Martínez, Mesar Hameed."
+msgstr "Autorzy: Noelia Ruiz Martínez, Mesar Hameed."
+
+#. type: Bullet: '*	'
+msgid "download [stable version][1]"
+msgstr "pobierz [wersja stabilna][1]"
+
+#. type: Bullet: '*	'
+msgid "download [development version][2]"
+msgstr "pobierz [wersja rozwojowa][2]"
+
+#. type: Plain text
+msgid "This add-on improves accessibility of TeamViewer with NVDA."
+msgstr "Ten dodatek poprawia dostępność TeamViewer w NVDA."
+
+#. type: Plain text
+msgid ""
+"It's based on TeamViewerNVDASupport add-on, developed by the same author. "
+"You should uninstall that old add-on to use this one, since both have common "
+"keystrokes and features."
+msgstr ""
+"Bazuje na dodatku TeamViewerNVDASupport stworzonym przez tego samego autora. "
+"Powinieneś odinstalować ten stary dodatek przed użyciem tego, ponieważ oba "
+"mają wspólne funkcje i klawisze skrótu."
+
+#. type: Plain text
+msgid "Tested on [TeamViewer][3] 9, trial version."
+msgstr "Przetestowany na [TeamViewer][3] 9, wersja trial."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands:"
+msgstr "Klawisze poleceń:"
+
+#. type: Bullet: '*	'
+msgid ""
+"nvda+shift+C: Copies the ID and current password to the clipboard, so that "
+"they can be pasted and sent via chat for example when remote control is "
+"required."
+msgstr ""
+"nvda+shift+C: kopiuje do schowka ID i aktualne hasło, które dzięki temu mogą "
+"być wklejone i przesłane na chacie, jeśli potrzebna jest zdalna kontrola."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+tab and control+shift+tab: Switch to other tab in the TeamViewer "
+"main dialog."
+msgstr ""
+"control+tab i control+shift+tab: przełącza do innej zakładki w oknie głównym "
+"TeamViewer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Zmiany dla 2.0"
+
+#. type: Bullet: '*	 '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Pomoc dodatku dostępna w managerze dodatków."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Zmiany dla 1.0"
+
+#. type: Bullet: '*	 '
+msgid "Initial version."
+msgstr "Pierwsza wersja."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=tv"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=tv"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=tv"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=tv-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=tv-dev"
+
+#. type: Plain text
+msgid "[3]: https://www.teamviewer.com"
+msgstr "[3]: https://www.teamviewer.com"

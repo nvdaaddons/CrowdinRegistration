@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2020-01-21 20:22+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Switch synth \"]]\n"
+msgstr "[[!meta title=\"Hlasové profily\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Tyler Spivey"
+msgstr "Autor: Tyler Spivey"
+
+#. type: Bullet: '* '
+msgid "Download: [version 1.02][1]"
+msgstr "Stiahnuť: [Verziu 1.02][1]"
+
+#. type: Title #
+#, no-wrap
+msgid "Switch synth"
+msgstr "Hlasové profily"
+
+#. type: Plain text
+msgid ""
+"This addon allows easy switching of synthesizers via hotkeys.  It is an "
+"improved version of my earlier switch_synth addon with an underscore, which "
+"must be uninstalled. Any preexisting synthesizer configurations will "
+"continue to work with this version."
+msgstr ""
+"Umožňuje rýchle prepínanie medzi hlasovými výstupmi pomocou klávesových "
+"skratiek. Ide o vylepšenú verziu doplnku switch_synth. Prosím, odinštalujte "
+"staršiu verziu. Profily, ktoré ste uložili v staršej verzii doplnku budú "
+"fungovať aj s touto verziou."
+
+#. type: Plain text
+msgid ""
+"There are 6 synthesizer slots, 1 through 6. By default, they are empty.  "
+"Slots can be switched by pressing control+shift+NVDA+1 through control+shift"
+"+NVDA+6.  Once a slot is switched to, its synthesizer and settings will be "
+"loaded if they exist.  To save the current synthesizer and its settings to "
+"the currently active slot, press control+shift+NVDA+v."
+msgstr ""
+"K dispozícii máte 6 pozícií. Prepínate sa medzi nimi skratkami ctrl+shift"
+"+nvda+1 až ctrl+shift+nvda+6. Po stlačení skratky sa spustí príslušný "
+"hlasový výstup aj s jeho nastaveniami. Ak chcete uložiť aktuálne nastavenia "
+"do vybratého slotu, stlačte ctrl+shift+nvda+v."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=switchSynth"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=sws"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=sws"

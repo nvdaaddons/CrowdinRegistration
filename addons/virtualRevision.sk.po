@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2020-01-28 13:39+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Virtual Review\"]]\n"
+msgstr "[[!meta title=\"Virtualizácia okna\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Rui Batista and NVDA Addon Team"
+msgstr "Autori: Rui Batista a tím NVDA"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Stiahnuť [stabilnú verziu][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Funguje od verzie NVDA 2019.3"
+
+#. type: Plain text
+msgid ""
+"This Addon allows NVDA users to review a Window content in a text box, "
+"similar to window virtualization of JAWS for Windows.  Note, however, that "
+"this is just a convenience for users and does not replace NVDA's excellent "
+"review modes and object navigation support."
+msgstr ""
+"Doplnok umožňuje zobraziť obsah okna v jednoduchom textovom poli rovnako, "
+"ako funkcia virtualizácia oknaprogramu JAWS pre Windows. Upozorňujeme však, "
+"že ide len o zjednodušenie pre používateľov a tento doplnok nenahrádza "
+"funkcie režim prezerania a objektovú navigáciu NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "použitie"
+
+#. type: Plain text
+msgid ""
+"Press NVDA+control+w to open the virtual revision Window.  Then simply "
+"navigate the shown textbox as you do in any other text content.  You can "
+"press Escape to close the virtual revision window."
+msgstr ""
+"Okno virtualizujete skratkou ctrl+nvda+w. Po texte sa pohybujte tak, ako v "
+"ostatných editačných poliach. Okno zavriete klávesom escape."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Zmeny vo verzii 3.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Vyžaduje NVDA od verzie 2019.3"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "Zmeny vo verzii 2.3"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Interné zmeny na podporu novších vydaní NVDA"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "Zmeny vo verzii 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"When windows are minimized or if the foreground window has no title, NVDA "
+"will record this fact when displaying virtual review window."
+msgstr "NVDA zaznamená, ak je okno minimalizované, alebo nemá názov."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Zmeny vo verzii 2.1"
+
+#. type: Bullet: '* '
+msgid "The title of the screen under virtual review will be included."
+msgstr "NVDA oznamuje aj názov obrazovky vo virtuálnom zobrazení."
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to review contents of Universal Windows Platform (UWP) "
+"apps in Windows 10 and most modern apps in Windows 8.x."
+msgstr ""
+"Je možné virtuálne zobraziť okná navrhnuté v prostredí UWP (Universal "
+"Windows app). Ide o moderné aplikácie pre Windows od verzie 8."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining screen contents for modern and universal apps, a beep will be "
+"heard to indicate when the virtual review window is ready."
+msgstr ""
+"NVDA pípnutím oznamuje, že sa dokončilo virtualizovanie okna v prostredí "
+"modernej aplikácie."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Zmeny vo verzii 2.0"
+
+#. type: Bullet: '* '
+msgid "New name: Virtual Review."
+msgstr "Nový názov (len v angličtine)"
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes in how content is shown, NVDA 2015.2 or later is required."
+msgstr "Vyžaduje sa NVDA od verzie 2015.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Thanks to new features in 2015.2 and later, you can now find text in "
+"virtualized windows."
+msgstr ""
+"Odteraz je vďaka novým funkciám v NVDA 2015.2 možné vo virtuálnom okne "
+"vyhľadávať."
+
+#. type: Bullet: '* '
+msgid "Fixed the add-on functionality with non-console window."
+msgstr "opravené zobrazenie okien konzololvých prostredí."
+
+#. type: Bullet: '* '
+msgid "Removed useless blank lines at bottom of virtualized console window."
+msgstr "Odstránené zbytočné prázdne riadky v zobrazení konzllových aplikácii."
+
+#. type: Bullet: '* '
+msgid "Some minor adjustments."
+msgstr "Ďalšie malé úpravy."
+
+#. type: Bullet: '* '
+msgid "Translations added."
+msgstr "Aktualizované preklady."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Zmeny vo verzii 1.2"
+
+#. type: Bullet: '* '
+msgid "Support virtualizing of console windows"
+msgstr "Podpora pre virtualizáciu okna príkazového riadku"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Zmeny vo verzii 1.1"
+
+#. type: Bullet: '* '
+msgid "Converted virtual revision to an add-on."
+msgstr "Vytvorenie štandardného doplnku NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Zmeny vo verzii 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "prvé vydanie"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+
+#~ msgid ""
+#~ "Download [older version][2] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr "Stiahnuť  [Staršiu verziu pre][2] pre NVDA do verzie 2019.2.1."
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"

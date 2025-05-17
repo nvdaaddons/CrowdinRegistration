@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) 2023-2025 NVDA Contributors.
+# This file is distributed under the same license as the PACKAGE package.
+# Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Exploração Virtual add-on webpage\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2025-02-06 15:54-0300\n"
+"Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Virtual Review\"]]\n"
+msgstr "[[!meta title=\"Exploração Virtual\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Rui Batista and NVDA Addon Team"
+msgstr "Autores: Rui Batista e time de complementos do NVDA"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Baixe a [versão estável][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Compatibilidade com NVDA: 2019.3 e posteriores"
+
+#. type: Plain text
+msgid ""
+"This Addon allows NVDA users to review a Window content in a text box, "
+"similar to window virtualization of JAWS for Windows.  Note, however, that "
+"this is just a convenience for users and does not replace NVDA's excellent "
+"review modes and object navigation support."
+msgstr ""
+"Este complemento possibilita aos usuários do NVDA explorar o conteúdo duma "
+"janela numa caixa de texto, de modo similar à virtualização de janelas do "
+"JAWS for Windows. Note, porém, que se trata apenas dum recurso de "
+"conveniência para os usuários e não substitui o excelente suporte do NVDA à "
+"revisão plana e à navegação por objetos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Uso"
+
+#. type: Plain text
+msgid ""
+"Press NVDA+control+w to open the virtual revision Window.  Then simply "
+"navigate the shown textbox as you do in any other text content.  You can "
+"press Escape to close the virtual revision window."
+msgstr ""
+"Pressione NVDA+Control+w para abrir a janela de exploração virtual. Aí "
+"simplesmente navegue na caixa de texto exibida como se faz em qualquer outro "
+"conteúdo textual. Pode pressionar escape para fechar a janela de exploração "
+"virtual."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Mudanças na 3.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Requer NVDA 2019.3 ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "Mudanças na 2.3"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Alterações internas para suportar futuras versões de NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "Mudanças na 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"When windows are minimized or if the foreground window has no title, NVDA "
+"will record this fact when displaying virtual review window."
+msgstr ""
+"Quando as janelas estiverem minimizadas ou se a janela em primeiro plano não "
+"possuir título, o NVDA registrará esse fato ao mostrar a janela virtual de "
+"exploração."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Mudanças na 2.1"
+
+#. type: Bullet: '* '
+msgid "The title of the screen under virtual review will be included."
+msgstr "O título da tela sob a exploração virtual será incluído."
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to review contents of Universal Windows Platform (UWP) "
+"apps in Windows 10 and most modern apps in Windows 8.x."
+msgstr ""
+"Agora é possível explorar o conteúdo de apps da Plataforma Universal do "
+"Windows (UWP) em Windows 10 e a maioria dos apps modernos em Windows 8.x."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining screen contents for modern and universal apps, a beep will be "
+"heard to indicate when the virtual review window is ready."
+msgstr ""
+"Ao obter o conteúdo da tela em apps modernos e universais, um bipe será "
+"ouvido para indicar quando a janela virtual de exploração estiver pronta."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Mudanças na 2.0"
+
+#. type: Bullet: '* '
+msgid "New name: Virtual Review."
+msgstr "Novo nome: Exploração virtual."
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes in how content is shown, NVDA 2015.2 or later is required."
+msgstr ""
+"Devido a mudanças em como os conteúdos são exibidos, requer-se o NVDA 2015.2 "
+"ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Thanks to new features in 2015.2 and later, you can now find text in "
+"virtualized windows."
+msgstr ""
+"Graças a novos recursos no 2015.2 e posteriores, pode-se agora localizar "
+"textos em janelas virtuais."
+
+#. type: Bullet: '* '
+msgid "Fixed the add-on functionality with non-console window."
+msgstr ""
+"Corrigida funcionalidade do complemento com janelas que não são de console."
+
+#. type: Bullet: '* '
+msgid "Removed useless blank lines at bottom of virtualized console window."
+msgstr ""
+"Removidas linhas em branco inúteis ao fundo da janela virtualizada de "
+"console."
+
+#. type: Bullet: '* '
+msgid "Some minor adjustments."
+msgstr "Alguns ajustes menores."
+
+#. type: Bullet: '* '
+msgid "Translations added."
+msgstr "Adicionadas traduções."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Mudanças na 1.2"
+
+#. type: Bullet: '* '
+msgid "Support virtualizing of console windows"
+msgstr "Suporte à virtualização de janelas de console"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Mudanças na 1.1"
+
+#. type: Bullet: '* '
+msgid "Converted virtual revision to an add-on."
+msgstr "Exploração virtual transformado num complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Mudanças na 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Lançamento inicial"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+
+#~ msgid ""
+#~ "Download [older version][2] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr ""
+#~ "Baixe a [versão mais antiga][2] compatível com NVDA 2019.2.1 e anteriores"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Baixe a [versão em desenvolvimento][2]"

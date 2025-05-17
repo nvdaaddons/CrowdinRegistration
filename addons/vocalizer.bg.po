@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:46+0000\n"
+"PO-Revision-Date: 2024-05-24 16:17+0300\n"
+"Last-Translator: Kostadin Kolev <k.kolev1985@gmail.com>\n"
+"Language-Team: \n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Nuance Vocalizer series\"]]\n"
+msgstr "[[!meta title=\"Nuance Vocalizer\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Nuance Communications (distributor: Tiflotecnia, LDA)"
+msgstr "Автори: Nuance Communications (дистрибутор: Tiflotecnia, LDA)"
+
+#. type: Bullet: '* '
+msgid "download [Vocalizer Automotive driver][1]"
+msgstr "Изтегляне на [драйвер за Vocalizer Automotive][1]"
+
+#. type: Bullet: '* '
+msgid "download [Vocalizer Expressive driver][2]"
+msgstr "Изтегляне на [драйвер за Vocalizer Expressive][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 (2022.1 for Expressive) and later"
+msgstr ""
+"Съвместимост с NVDA: от 2019.3 (от 2022.1 за Expressive) и по-нови версии"
+
+#. type: Plain text
+msgid ""
+"Vocalizer synthesizer series (Automotive and Expressive) are a series of "
+"commercial synthesizers from Nuance Communications, with the add-ons "
+"licensed, packaged, and distributed by Tiflotecnia, LDA. These add-ons "
+"include:"
+msgstr ""
+"Групата от синтезатори Vocalizer (Automotive и Expressive) е група от "
+"комерсиални синтезатори от Nuance Communications, като добавките са "
+"лицензирани, пакетирани и разпространявани от Tiflotecnia, LDA. Тези добавки "
+"включват:"
+
+#. type: Bullet: '* '
+msgid "Vocalizer Automotive (driver 2.x)"
+msgstr "Vocalizer Automotive (драйвер 2.x)"
+
+#. type: Bullet: '* '
+msgid "Vocalizer Expressive (driver 3.x)"
+msgstr "Vocalizer Expressive (драйвер 3.x)"
+
+#. type: Plain text
+msgid ""
+"For more information and to purchase the package, visit [Tiflotecnia website]"
+"[3]."
+msgstr ""
+"За повече информация и за закупуване на пакета посетете [уеб сайта на "
+"Tiflotecnia][3]."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerautomotive"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerautomotive"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerexpressive"
+msgstr ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerexpressive"
+
+#. type: Plain text
+msgid "[3]: https://vocalizer-nvda.com/"
+msgstr "[3]: https://vocalizer-nvda.com/"

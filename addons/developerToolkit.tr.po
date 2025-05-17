@@ -1,0 +1,683 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Geliştirici Araç Seti\n"
+"POT-Creation-Date: 2024-02-13 14:34+0000\n"
+"PO-Revision-Date: 2024-08-02 15:59+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Developer Toolkit\"]]\n"
+msgstr "[[!meta title=\"Geliştirici Araç Seti\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Andy Borka"
+msgstr "Yazarı: Andy Borka"
+
+#. type: Bullet: '* '
+msgid "download [stable version][1]"
+msgstr "[kararlı sürümü indirin][1]"
+
+#. type: Bullet: '* '
+msgid "download [development version][2]"
+msgstr "[geliştirme sürümünü indirin][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.1 to 2020.1"
+msgstr "NVDA uyumluluğu: 2019.1 - 2020.1"
+
+#. type: Plain text
+msgid ""
+"Developer toolkit (DTK) is an NVDA add-on that helps blind and visually "
+"impaired developers independently create visually appealing user interfaces "
+"and web content. It provides gestures that enable you to navigate through "
+"objects and obtain information about them, such as their size, position, and "
+"characteristics. To begin using DTK, place focus on a control, then press "
+"**ALT+WINDOWS+K**. To disable it, press **ALT+WINDOWS+K** again. When on the "
+"web, press **NVDA+SPACE** to put NVDA in Focus Mode and press "
+"NVDA+SHIFT+SPACE to disable Single Letter Navigation."
+msgstr ""
+"Geliştirici araç seti (GAS), görme engelli ve görme engelli geliştiricilerin "
+"bağımsız olarak görsel olarak çekici kullanıcı arayüzleri ve web içeriği "
+"oluşturmasına yardımcı olan bir NVDA eklentisidir. Nesneler arasında "
+"gezinmenizi ve nesneler hakkında boyutları, konumları ve özellikleri gibi "
+"bilgileri almanızı sağlayan hareketler sağlar. GAS'ni kullanmaya başlamak "
+"için odağı bir denetime getirin ve ardından **ALT+WINDOWS+K** tuşlarına "
+"basın. Devre dışı bırakmak için **ALT+WINDOWS+K** tuşlarına tekrar basın. "
+"Web'deyken, NVDA'yı Odak Moduna getirmek için **NVDA+Boşluk Çubuğu** "
+"tuşlarına basın ve Tek Harfli Gezinmeyi devre dışı bırakmak için "
+"NVDA+SHIFT+Boşluk Çubuğu tuşlarına basın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Gestures"
+msgstr "Kısa yollar"
+
+#. type: Plain text
+msgid "The following gestures are available when DTK is enabled."
+msgstr "GAS etkinleştirildiğinde aşağıdaki hareketler kullanılabilir."
+
+#. type: Bullet: '* '
+msgid "**ALT+WINDOWS+K** - Enable or disable DTK features."
+msgstr ""
+"**ALT+WINDOWS+K** - GAS özelliklerini etkinleştirir veya devre dışı bırakır."
+
+#. type: Bullet: '* '
+msgid "**LEFT ARROW** - Move to previous sibling."
+msgstr "**SOL OK** - Önceki kardeşe git."
+
+#. type: Bullet: '* '
+msgid "**RIGHT ARROW** - Move to next sibling."
+msgstr "**SAĞ OK** - Sonraki kardeşe git."
+
+#. type: Bullet: '* '
+msgid "**UP ARROW** - Move to parent."
+msgstr "**YUKARI OK** - Üst öğeye git."
+
+#. type: Bullet: '* '
+msgid "**DOWN ARROW** - Move to first child."
+msgstr "**AŞAĞI OK** - İlk çocuğa git."
+
+#. type: Bullet: '* '
+msgid "**CTRL+HOME** - Move to top-most parent."
+msgstr "**CTRL+Baş** - En üstteki ebeveyne git."
+
+#. type: Bullet: '* '
+msgid "**HOME** - Move to the relative parent if one is assigned."
+msgstr "**Baş** - Atanmışsa ilgili ebeveyne git."
+
+#. type: Bullet: '* '
+msgid ""
+"**A** - In web content, speak HTML attributes. Press twice quickly to copy "
+"to the clipboard."
+msgstr ""
+"**A** - Web içeriğinde, HTML niteliklerini Söyleur. Panoya kopyalamak için "
+"hızlıca iki kez basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**B** - Speak the position of the object's bottom edge. Press twice quickly "
+"to copy to the clipboard."
+msgstr ""
+"**B** - Nesnenin alt kenarının konumunu söyle. Panoya kopyalamak için iki "
+"kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**SHIFT+B** - Speak the distance between the object's bottom edge and the "
+"relative parent's bottom edge. Press twice quickly to copy to the clipboard."
+msgstr ""
+"**SHIFT+B** - Nesnenin alt kenarı ile ilgili ebeveynin alt kenarı arasındaki "
+"mesafeyi söyle. Panoya kopyalamak için iki kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**C** - Speak the number of children contained inside the object. Press "
+"twice quickly to copy to the clipboard."
+msgstr ""
+"**C** - Nesnenin içindeki çocuk sayısını söyler. Panoya kopyalamak için iki "
+"kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid "**control+c** - Switch between RGB, Hex, and Name color values."
+msgstr "**kontrol+c** - RGB, Hex ve Ad renk değerleri arasında geçiş yapar."
+
+#. type: Bullet: '* '
+msgid "**CTRL+D** - Enable or disable detailed messages."
+msgstr ""
+"**CTRL+D** - Ayrıntılı mesajları etkinleştirir veya devre dışı bırakır."
+
+#. type: Bullet: '* '
+msgid ""
+"**F** - In web content, speaks the object's font and formatting information. "
+"Press twice quickly to copy to the clipboard."
+msgstr ""
+"**F** - Web içeriğinde nesnenin yazı tipi ve biçimlendirme bilgilerini "
+"söyler. Panoya kopyalamak için iki kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**H** - Speak the object's height. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**H** - Nesnenin yüksekliğini söyler. Panoya kopyalamak için iki kez hızlıca "
+"basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**L** - Speak the position of the object's left edge. Press twice quickly to "
+"copy to the clipboard."
+msgstr ""
+"**L** - Nesnenin sol kenarının konumunu söyler. Panoya kopyalamak için iki "
+"kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**n** - Speak the object's name. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**n** - Nesnenin adını söyler. Panoya kopyalamak için iki kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**CTRL+P** - Set the relative parent for obtaining size/location of objects."
+msgstr ""
+"**CTRL+P** - Nesnelerin boyutunu/konumunu elde etmek için geçerli üst öğeyi "
+"ayarlar."
+
+#. type: Bullet: '* '
+msgid ""
+"**P** - Speak the relative parent's name. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**P** - İlgili ebeveynin adını söyler. Panoya kopyalamak için iki kez "
+"hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**R** - Speak the position of the object's right edge. Press twice quickly "
+"to copy to the clipboard."
+msgstr ""
+"**R** - Nesnenin sağ kenarının konumunu söyler. Panoya kopyalamak için iki "
+"kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**SHIFT+R** - Speak the distance between the object's right edge and the "
+"relative parent's right edge. Press twice quickly to copy to the clipboard."
+msgstr ""
+"**SHIFT+R** - Nesnenin sağ kenarı ile ilgili üst öğenin sağ kenarı "
+"arasındaki mesafeyi söyler. Panoya kopyalamak için iki kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**ALT+R** - Speak the object's Role/control type. Press twice quickly to "
+"copy it to the clipboard."
+msgstr ""
+"**ALT+R** - Nesnenin Rol/kontrol türünü söyler. Panoya kopyalamak için iki "
+"kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**S** - Speak the number of siblings relative to the object. Press twice "
+"quickly to copy to the clipboard."
+msgstr ""
+"**S** - Nesneye göre kardeş sayısını söyler. Panoya kopyalamak için iki kez "
+"hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**SHIFT+S** - Speak the object's control states. Press twice quickly to copy "
+"it to the clipboard."
+msgstr ""
+"**SHIFT+S** - Nesnenin kontrol durumlarını söyler. Panoya kopyalamak için "
+"iki kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**T** - Speak the position of the object's top edge. Press twice quickly to "
+"copy to the clipboard."
+msgstr ""
+"**T** - Nesnenin üst kenarının konumunu söyler. Panoya kopyalamak için iki "
+"kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**V** - Speak Developer toolkit version. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**V** - Geliştirici araç seti sürümünü söyler. Panoya kopyalamak için iki "
+"kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"**W** - Speak the object's width. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**W** - Nesnenin genişliğini söyler. Panoya kopyalamak için iki kez hızlıca "
+"basın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Notlar"
+
+#. type: Bullet: '* '
+msgid ""
+"When using home or any modified version of the home key, using the numpad "
+"home key fails because NVDA will send the numpad7 keypress instead of a "
+"numpadHome keypress. Other keyboard add-ons that attempt to reassign numpad7 "
+"to the home key will fail in this add-on."
+msgstr ""
+"Ana sayfa tuşunu veya ana sayfa tuşunun değiştirilmiş herhangi bir sürümünü "
+"kullanırken, sayısal tuş takımı ana tuşunun kullanılması başarısız olur "
+"çünkü NVDA, sayısal tuş takımıHome tuşuna basılması yerine numpad7 tuşuna "
+"basılmasını gönderecektir. Numpad7'yi giriş tuşuna yeniden atamaya çalışan "
+"diğer klavye eklentileri bu eklentide başarısız olacaktır."
+
+#. type: Bullet: '* '
+msgid ""
+"When using the relative parent feature, DTK will set the relative parent to "
+"the desktop under the following conditions."
+msgstr ""
+"İlgili üst öğe özelliği kullanılırken, GAS aşağıdaki koşullar altında "
+"Geçerli üst öğeyi masaüstüne ayarlayacaktır."
+
+#. type: Bullet: '	* '
+msgid "The focused object and the relative parent are the same."
+msgstr "Odaklanılan nesne ve ilgili üst öğe aynıdır."
+
+#. type: Bullet: '	* '
+msgid "The relative parent is not a direct ancestor of the focused object."
+msgstr "Geçerli üst öğe, odaklanılan nesnenin doğrudan atası değildir."
+
+#. type: Bullet: '* '
+msgid ""
+"DTK cannot access information such as CSS rules, padding, borders, or z-"
+"index. Doing so requires accessing them outside of the NVDA context, which "
+"presents a security concern for users."
+msgstr ""
+"GAS, CSS kuralları, dolgu, kenarlıklar veya z-indeksi gibi bilgilere "
+"erişemez. Bunu yapmak için bunlara NVDA bağlamının dışından erişmek gerekir, "
+"bu da kullanıcılar için bir güvenlik endişesi oluşturur."
+
+#. type: Title ##
+#, no-wrap
+msgid "Known issues"
+msgstr "Bilinen Sorunlar"
+
+#. type: Bullet: '* '
+msgid ""
+"The customizable list of font attributes found in Developer toolkit settings "
+"may be cumbersome to use. This is a limitation found in NVDA's user "
+"interface library."
+msgstr ""
+"Geliştirici araç seti ayarlarında bulunan özelleştirilebilir yazı tipi "
+"özellikleri listesinin kullanımı zahmetli olabilir. Bu, NVDA'nın kullanıcı "
+"arayüzü kütüphanesinde bulunan bir sınırlamadır."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version history"
+msgstr "Sürüm geçmişi"
+
+#. type: Title ###
+#, no-wrap
+msgid "20.04"
+msgstr "20.04"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a gesture (home) that gives the ability to move to the defined "
+"relative parent."
+msgstr ""
+"Tanımlanan göreli ebeveyne gitme olanağı sağlayan bir hareket (Home) eklendi."
+
+#. type: Title ###
+#, no-wrap
+msgid "20.03"
+msgstr "20.03"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a gesture (ALT+R) that obtains the currently focused object's control "
+"type. Examples include button, listitem, list, checkbox, and section."
+msgstr ""
+"O anda odaklanılan nesnenin kontrol türünü elde eden bir hareket (ALT+R) "
+"eklendi. Örnekler arasında düğme, liste öğesi, liste, onay kutusu ve bölüm "
+"yer alır."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a gesture (SHIFT+S) that obtains the currently focused object's "
+"control states. Examples include focused, focusable, selected, checked, "
+"pressed, and readonly."
+msgstr ""
+"O anda odaklanılan nesnenin kontrol durumlarını elde eden bir hareket "
+"(SHIFT+S) eklendi. Örnekler arasında odaklanmış, odaklanabilir, seçili, "
+"işaretli, basılı ve salt okunur bulunur."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for IAccessible's unique ID because it is not reliable in "
+"most contexts."
+msgstr ""
+"Çoğu bağlamda güvenilir olmadığından IAccessible'ın benzersiz kimliğine "
+"yönelik destek kaldırıldı."
+
+#. type: Bullet: '* '
+msgid ""
+"Abbreviated the version number to xx.yy where xx is the last two digits of "
+"the current year, and yy is the update number for the current year. Thus "
+"20.03 is the third major update in 2020."
+msgstr ""
+"Sürüm numarası xx.yy olarak kısaltılmıştır; burada xx geçerli yılın son iki "
+"basamağı ve yy geçerli yılın güncelleme numarasıdır. Dolayısıyla 20.03, "
+"2020'deki üçüncü büyük güncellemedir."
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.2"
+msgstr "2020.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Starting DTK retains the cursor’s current position in web content. If the "
+"object under the caret can’t gain focus, DTK will place focus on the first "
+"available ancestor."
+msgstr ""
+"GAS'ın başlatılması, imlecin web içeriğindeki geçerli konumunu korur. "
+"İmlecin altındaki nesne odak kazanamazsa, GAS odağı mevcut ilk ataya "
+"yerleştirir."
+
+#. type: Bullet: '* '
+msgid "Removed legacy support for unicode strings."
+msgstr "Unicode dizeler için eski destek kaldırıldı."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed the enable/disable Developer toolkit features setting from Developer "
+"toolkit settings dialog found in NVDA menu>preferences>settings. Users can "
+"still enable/disable features by pressing alt+windows+k."
+msgstr ""
+"NVDA menüsü>tercihler>ayarlar'da bulunan Geliştirici araç seti ayarları "
+"iletişim kutusundaki Geliştirici araç seti özelliklerini etkinleştirme/devre "
+"dışı bırakma ayarı kaldırıldı. Kullanıcılar alt+windows+k tuşlarına basarak "
+"özellikleri etkinleştirmeye/devre dışı bırakmaya devam edebilir."
+
+#. type: Bullet: '* '
+msgid ""
+"The formatting attributes obtained by pressing 'f' when Developer toolkit is "
+"enabled is now configurable in preferences>settings>Developer toolkit."
+msgstr ""
+"Geliştirici araç seti etkinleştirildiğinde 'f' tuşuna basılarak elde edilen "
+"biçimlendirme özellikleri artık tercihler>ayarlar>Geliştirici araç setinde "
+"yapılandırılabilir."
+
+#. type: Bullet: '	* '
+msgid ""
+"Add new formatting attributes by pressing the 'new attribute' button. Type "
+"in a name of a valid formatting attribute, press tab to put it in the list, "
+"then press escape to leave edit mode."
+msgstr ""
+"'Yeni Özellik' düğmesine basarak yeni biçimlendirme Özellikleri ekleyin. "
+"Geçerli bir biçimlendirme Özelliğinin adını yazın, listeye eklemek için tab "
+"tuşuna basın, ardından düzenleme modundan çıkmak için escape tuşuna basın."
+
+#. type: Bullet: '	* '
+msgid ""
+"Remove an attribute by selecting it in the list, then pressing the 'delete "
+"attribute' button."
+msgstr "Listeden seçip 'özelliği sil' düğmesine basarak bir Özelliği kaldırın."
+
+#. type: Bullet: '	* '
+msgid ""
+"Rename an attribute by pressing the 'Rename attribute' button, typing a new "
+"name, pressing tab to put it in the list, then pressing escape to leave edit "
+"mode."
+msgstr ""
+"'Özelliği yeniden adlandır' düğmesine basarak bir özelliği yeniden "
+"adlandırın, yeni bir ad yazın, listeye eklemek için tab tuşuna basın ve "
+"ardından düzenleme modundan çıkmak için escape tuşuna basın."
+
+#. type: Bullet: '	* '
+msgid ""
+"Move an attribute up in the list by selecting it and pressing the 'Move up' "
+"button. Repeat this until it reaches the desired location in the list."
+msgstr ""
+"Bir özelliği seçip 'Yukarı taşı' düğmesine basarak listede yukarı taşıyın. "
+"Listede istediğiniz konuma ulaşana kadar bunu tekrarlayın."
+
+#. type: Bullet: '	* '
+msgid ""
+"Move an attribute down in the list by selecting it and pressing the 'Move "
+"down' button. Repeat this until it reaches the desired location in the list."
+msgstr ""
+"Bir özelliği seçip 'Aşağı taşı' düğmesine basarak listede aşağı taşıyın. "
+"Listede istediğiniz konuma ulaşana kadar bunu tekrarlayın."
+
+#. type: Bullet: '* '
+msgid ""
+"Users now have the ability to change the way color values are displayed "
+"while obtaining formatting information. The setting is found in "
+"preferences>settings>Developer toolkit, then choosing a color display "
+"format. The color display format can also be changed by pressing control+c "
+"while Developer toolkit features are enabled."
+msgstr ""
+"Kullanıcılar artık biçimlendirme bilgilerini alırken renk değerlerinin "
+"görüntülenme şeklini değiştirme olanağına sahip. Ayar, "
+"tercihler>ayarlar>Geliştirici araç setinde bulunur ve ardından da renkli "
+"ekran Biçimi seçilir. Renkli ekran biçimi, Geliştirici araç seti özellikleri "
+"etkinken control+c tuşlarına basılarak da değiştirilebilir."
+
+#. type: Bullet: '	* '
+msgid ""
+"**RGB** - Red/Green/Blue value. Defines a color through a red, green, blue "
+"color combination. Good for graphic art, especially non-web safe colors."
+msgstr ""
+"**RGB** - Kırmızı/Yeşil/Mavi değeri. Kırmızı, yeşil, mavi renk "
+"kombinasyonuyla bir rengi tanımlar. Grafik sanatlar için, özellikle de web "
+"uyumlu olmayan renkler için iyidir."
+
+#. type: Bullet: '	* '
+msgid ""
+"**Hex** - string starting with a '#' and followed by 6 characters consisting "
+"of 1-0 and A-F. Usually good for web content."
+msgstr ""
+"**Hex** - '#' ile başlayan ve ardından 1-0 ve A-F'den oluşan 6 karakter "
+"gelen dize. Genellikle web içeriği için iyidir."
+
+#. type: Bullet: '	* '
+msgid ""
+"**Name** - The human readable value for the color. Good for general purpose "
+"usage and verifying other color value formats."
+msgstr ""
+"**Name** - Rengin insan tarafından okunabilen değeri. Genel amaçlı kullanım "
+"ve diğer renk değeri formatlarının doğrulanması için idealdir."
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.1.1"
+msgstr "2020.1.1"
+
+#. type: Bullet: '* '
+msgid "Improved unicode support."
+msgstr "Geliştirilmiş unicode desteği."
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.1.0"
+msgstr "2020.1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Developers now have the ability to focus on smaller areas of their user "
+"interfaces by pressing CTRL+p to set a relative parent. Use a relative "
+"parent as a reference point when obtaining size and location information. To "
+"use this feature, enable DTK features, navigate to the object to use as a "
+"relative parent, then press CTRL+p. Then, return to your work as usual."
+msgstr ""
+"Geliştiriciler artık göreli bir üst öğe ayarlamak için CTRL+p tuşlarına "
+"basarak kullanıcı arayüzlerinin daha küçük alanlarına odaklanabilecekler. "
+"Boyut ve konum bilgilerini elde ederken referans noktası olarak göreli bir "
+"üst öğe kullanın. Bu özelliği kullanmak için GAS özelliklerini "
+"etkinleştirin, göreli üst öğe olarak kullanılacak nesneye gidin ve ardından "
+"CTRL+p tuşlarına basın. Daha sonra, her zamanki gibi çalışmanıza geri dönün."
+
+#. type: Bullet: '* '
+msgid ""
+"Press the letter p while working in DTK to obtain the relative parent's "
+"name. Press twice quickly to copy to the clipboard."
+msgstr ""
+"İlgili ebeveynin adını almak için GAS'da çalışırken p harfine basın. Panoya "
+"kopyalamak için iki kez hızlıca basın."
+
+#. type: Bullet: '* '
+msgid ""
+"Use SHIFT+b to obtain the distance between the focused object's bottom edge "
+"and the relative paren'ts bottom edge. DTK features must be enable to use "
+"this feature."
+msgstr ""
+"Odaklanılan nesnenin alt kenarı ile ilgili üst öğenin alt kenarı arasındaki "
+"mesafeyi elde etmek için SHIFT+b tuşlarını kullanın. Bu özelliğin "
+"kullanılabilmesi için GAS özelliklerinin etkinleştirilmesi gerekir."
+
+#. type: Bullet: '* '
+msgid ""
+"Use SHIFT+r to obtain the distance between the focused object's right edge "
+"and the relative paren'ts right edge. DTK features must be enable to use "
+"this feature."
+msgstr ""
+"Odaklanılan nesnenin sağ kenarı ile ilgili ana öğenin sağ kenarı arasındaki "
+"mesafeyi elde etmek için SHIFT+r tuşlarını kullanın. Bu özelliğin "
+"kullanılabilmesi için GAS özelliklerinin etkinleştirilmesi gerekir."
+
+#. type: Bullet: '* '
+msgid "DTK now gracefully handles configuration profile switches."
+msgstr ""
+"GAS artık konfigürasyon profili anahtarlarını sorunsuz bir şekilde yönetiyor."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed '-preview' from the version number to avoid version number problems "
+"with add-on updater."
+msgstr ""
+"Eklenti güncelleyicide sürüm numarası sorunlarını önlemek için sürüm "
+"numarasından '-Ön izleme' kaldırıldı."
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.0 preview"
+msgstr "2020.0 önizlemesi"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version number to 2020.0 preview to reflect the impending switch to "
+"Python 3."
+msgstr ""
+"Python 3'e yaklaşan geçişi yansıtmak için sürüm numarası 2020.0 önizleme "
+"olarak değiştirildi."
+
+#. type: Bullet: '* '
+msgid "Added Python 3 compatibility."
+msgstr "Python 3 uyumluluğu eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new gesture, \"n\" that speaks the object's name. If one is not "
+"assigned, speaks the word 'None' as the object's name."
+msgstr ""
+"Nesnenin adını söyleyen yeni bir \"n\" hareketi eklendi. Eğer atanmamışsa, "
+"nesnenin adı olarak 'Hiçbiri' kelimesini söyler."
+
+#. type: Bullet: '* '
+msgid ""
+"DTK no longer adds duplicate settings panels in the NVDA settings window "
+"when reloading add-ons."
+msgstr ""
+"GAS artık eklentileri yeniden yüklerken NVDA ayarlar penceresine yinelenen "
+"ayar panelleri eklememektedir."
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.1.2"
+msgstr "2019.1.2"
+
+#. type: Bullet: '* '
+msgid "DTK will now report size and position values if they are 0."
+msgstr "GAS artık boyut ve konum değerlerini 0 ise raporlayacak."
+
+#. type: Bullet: '* '
+msgid "Navigation now honors the detailed messages setting."
+msgstr "Gezinti artık ayrıntılı mesajlar ayarını dikkate alıyor."
+
+#. type: Bullet: '* '
+msgid "Made reporting of size/position information more concise."
+msgstr "Boyut/konum bilgilerinin raporlanması daha kısa hale getirildi."
+
+#. type: Bullet: '* '
+msgid "Stability improvements."
+msgstr "Kararlılık iyileştirmeleri."
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.1.1"
+msgstr "2019.1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"DTK will no longer attempt to load itself multiple times when announcing the "
+"version number."
+msgstr ""
+"GAS artık sürüm numarasını duyururken kendini birden fazla kez yüklemeye "
+"çalışmayacak."
+
+#. type: Bullet: '* '
+msgid ""
+"DTK features will be disabled on install. Previously, DTK features were "
+"enabled on install. This is different than enabling or disabling the add-on "
+"in the NVDA toolls>manage add-ons window."
+msgstr ""
+"GAS özellikleri kurulumda devre dışı bırakılacaktır. Önceden, GAS "
+"özellikleri kurulumda etkinleştiriliyordu. Bu, NVDA Araçlar>Eklenti Mağazası "
+"penceresinde eklentiyi etkinleştirmek veya devre dışı bırakmaktan farklıdır."
+
+#. type: Bullet: '* '
+msgid "Messages presented to the user can now contain non-ascii characters."
+msgstr ""
+"Kullanıcıya sunulan mesajlar artık ascii olmayan karakterler içerebilir."
+
+#. type: Bullet: '* '
+msgid ""
+"Pressing gestures such as a, b, c, f, h, l, r, s, t, v, and w no longer "
+"interupt NVDA speech when copying to the clipboard."
+msgstr ""
+"Panoya kopyalama yaparken a, b, c, f, h, l, r, s, t, v ve w gibi hareketlere "
+"basmak artık NVDA konuşmasını kesmiyor."
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.1"
+msgstr "2019.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a compatibility problem where DTK declared a minimum NVDA version that "
+"hasn't been released yet."
+msgstr ""
+"GAS'nin henüz yayınlanmamış bir minimum NVDA sürümü bildirmesine neden olan "
+"bir uyumluluk sorunu düzeltildi."
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.0 (initial stable release)"
+msgstr "2019.0 (ilk kararlı sürüm)"
+
+#. type: Bullet: '* '
+msgid "Initial build with basic navigation."
+msgstr "Temel gezinme ile ilk derleme."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=devtoolkit"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=devtoolkit"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=devtoolkit-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=devtoolkit-dev"

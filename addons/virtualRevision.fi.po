@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2023-04-16 21:50+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Virtual Review\"]]\n"
+msgstr "[[!meta title=\"Virtuaalitarkastelu\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Rui Batista and NVDA Addon Team"
+msgstr "Tekijät: Rui Batista ja NVDA-lisäosatiimi"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Yhteensopivuus: NVDA 2019.3 ja uudemmat"
+
+#. type: Plain text
+msgid ""
+"This Addon allows NVDA users to review a Window content in a text box, "
+"similar to window virtualization of JAWS for Windows.  Note, however, that "
+"this is just a convenience for users and does not replace NVDA's excellent "
+"review modes and object navigation support."
+msgstr ""
+"Tämän lisäosan avulla NVDA:n käyttäjät voivat tarkastella ikkunan sisältöä "
+"tekstiruudussa samaan tapaan kuin JAWSin ikkunan virtualisointitoiminnossa.  "
+"Tämä on kuitenkin vain käyttäjien mukavuuden vuoksi, eikä se korvaa NVDA:n "
+"tarkastelutiloja tai objektinavigointia."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Käyttö"
+
+#. type: Plain text
+msgid ""
+"Press NVDA+control+w to open the virtual revision Window.  Then simply "
+"navigate the shown textbox as you do in any other text content.  You can "
+"press Escape to close the virtual revision window."
+msgstr ""
+"Virtualisoi aktiivinen ikkuna painamalla NVDA+Ctrl+W. Voit liikkua näkyviin "
+"tulevassa tekstiruudussa kuten missä tahansa muussa tekstissä.  Sulje ikkuna "
+"painamalla Esc."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Muutokset versiossa 3.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Vaatii NVDA 2019.3:n tai uudemman."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "Muutokset versiossa 2.3"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Sisäisiä muutoksia tulevien NVDA-versioiden tukemiseksi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "Muutokset versiossa 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"When windows are minimized or if the foreground window has no title, NVDA "
+"will record this fact when displaying virtual review window."
+msgstr ""
+"Kun ikkunat on pienennetty tai kun etualalla olevalla ikkunalla ei ole "
+"nimeä, NVDA ilmaisee sen näyttäessään virtuaalitarkastelun ikkunan."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Muutokset versiossa 2.1"
+
+#. type: Bullet: '* '
+msgid "The title of the screen under virtual review will be included."
+msgstr "Ikkunan nimi näytetään virtuaalitarkastelussa."
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to review contents of Universal Windows Platform (UWP) "
+"apps in Windows 10 and most modern apps in Windows 8.x."
+msgstr ""
+"Windows 10:n Universal Windows Platform (UWP)- sekä useimpien Windows 8.x:n "
+"modernien sovellusten tarkastelu on nyt mahdollista."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining screen contents for modern and universal apps, a beep will be "
+"heard to indicate when the virtual review window is ready."
+msgstr ""
+"Äänimerkki ilmaisee moderneissa ja universaaleissa sovelluksissa ruudun "
+"sisältöä noudettaessa, kun virtuaalitarkastelun ikkuna on valmiina."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Muutokset versiossa 2.0"
+
+#. type: Bullet: '* '
+msgid "New name: Virtual Review."
+msgstr "Uusi nimi: Virtuaalitarkastelu."
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes in how content is shown, NVDA 2015.2 or later is required."
+msgstr ""
+"Sisällön näyttämiseen tehtyjen muutosten vuoksi edellytetään NVDA 2015.2:ta "
+"tai uudempaa."
+
+#. type: Bullet: '* '
+msgid ""
+"Thanks to new features in 2015.2 and later, you can now find text in "
+"virtualized windows."
+msgstr ""
+"NVDA 2015.2:n ja sitä uudempien versioiden uusien ominaisuuksien ansiosta "
+"tekstin etsiminen on nyt mahdollista virtualisoiduista ikkunoista."
+
+#. type: Bullet: '* '
+msgid "Fixed the add-on functionality with non-console window."
+msgstr ""
+"Lisäosa ei toiminut oikein muualla kuin komentorivi-ikkunoissa. Tämä on nyt "
+"korjattu."
+
+#. type: Bullet: '* '
+msgid "Removed useless blank lines at bottom of virtualized console window."
+msgstr ""
+"Poistettu turhat tyhjät rivit virtualisoidun komentorivi-ikkunan alaosasta."
+
+#. type: Bullet: '* '
+msgid "Some minor adjustments."
+msgstr "Tehty joitakin pieniä muutoksia."
+
+#. type: Bullet: '* '
+msgid "Translations added."
+msgstr "Käännöksiä lisätty."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Muutokset versiossa 1.2"
+
+#. type: Bullet: '* '
+msgid "Support virtualizing of console windows"
+msgstr "Tukee konsoli-ikkunoiden virtualisointia"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Muutokset versiossa 1.1"
+
+#. type: Bullet: '* '
+msgid "Converted virtual revision to an add-on."
+msgstr "Liitännäinen muunnettu lisäosaksi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Muutokset versiossa 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Ensimmäinen versio"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+
+#~ msgid ""
+#~ "Download [older version][2] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr ""
+#~ "Lataa [vanhempi versio,][2], joka on yhteensopiva NVDA 2019.2.1:n ja sitä "
+#~ "vanhempien kanssa"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Lataa [kehitysversio][2]"

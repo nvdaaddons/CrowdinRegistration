@@ -1,0 +1,932 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA add-ons translation\n"
+"POT-Creation-Date: 2025-01-26 19:19+0000\n"
+"PO-Revision-Date: 2023-02-02 13:41+0100\n"
+"Last-Translator: Iván Novegil Cancelas <ivan.novegil.cancelas@gmail.com>\n"
+"Language-Team: NVDA add-ons translation team <oprisniki@gmail.com>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Enhanced Touch Gestures\"]]\n"
+msgstr "[[!meta title=\"Enhanced Touch Gestures\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee"
+msgstr "Autor: Joseph Lee"
+
+#. type: Plain text
+msgid ""
+"This add-on provides additional touchscreen gestures for NVDA. It also "
+"provides a set of gestures for easier browse mode navigation."
+msgstr ""
+"Este complemento proporciona xestos táctiles adicionais para NVDA. Tamén "
+"proporciona un conxunto de xestos para unha mellor navegación do modo "
+"exploración."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Note: this add-on requires NVDA 2022.3 or later running on a touchscreen "
+#| "computer with Windows 10 or 11."
+msgid ""
+"Note: this add-on requires NVDA 2024.1 or later running on a touchscreen "
+"computer with Windows 10 or 11."
+msgstr ""
+"Nota: este complemento require do NVDA 2022.3 ou posterior executándose nun "
+"computador con pantalla táctil con Windows 10 ou 11."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Ordes"
+
+#. type: Title ###
+#, no-wrap
+msgid "Available everywhere"
+msgstr "Dispoñible dende calquera lugar"
+
+#. type: Bullet: '* '
+msgid "4 finger double tap: toggle input help mode."
+msgstr "Doble toque con 4 dedos: conmuta o modo de axuda de entrada."
+
+#. type: Bullet: '* '
+msgid "Four finger flick right: toggle touch keyboard (usually enables it)."
+msgstr ""
+"Deslizamento de catro dedos cara a dereita: conmuta o teclado tactil "
+"(normalmente actívao)."
+
+#. type: Bullet: '* '
+msgid ""
+"Four finger flick left: toggle dictation (Windows+H; Windows 10 Version 1709 "
+"or later)."
+msgstr ""
+"Barrido con catro dedos á esquerda: alternar dictado (Windows+H); Windows 10 "
+"versión 1709 ou posterior."
+
+#. type: Title ###
+#, no-wrap
+msgid "Object mode"
+msgstr "Modo Obxecto"
+
+#. type: Bullet: '* '
+msgid "3 finger flick down: read current window."
+msgstr "Deslizar 3 dedos cara abaixo: ler ventá actual."
+
+#. type: Bullet: '* '
+msgid "3 finger flick left: report object with focus."
+msgstr "Deslizar 3 dedos á esquerda: anunciar obxecto co foco."
+
+#. type: Bullet: '* '
+msgid "3 finger flick right: report current navigator object."
+msgstr "Deslizar 3 dedos á dereita: anunciar actual navegador de obxectos."
+
+#. type: Bullet: '* '
+msgid "4 finger flick up: report title of the current window."
+msgstr "deslizar 4 dedos cara arriba: anunciar o título da ventá actual."
+
+#. type: Bullet: '* '
+msgid "4 finger flick down: report status bar text."
+msgstr "Deslizar 4 dedos cara abaixo: anunciar texto da barra de estado."
+
+#. type: Title ##
+#, no-wrap
+msgid "Web touch mode"
+msgstr "Modo Web táctil"
+
+#. type: Plain text
+msgid ""
+"This touch mode, available in browse mode, allows you to navigate the "
+"document by selected element. To switch to web mode, from browse mode "
+"documents, perform 3 finger tap. From this mode, flicking up or down with "
+"one finger cycles through available element navigation modes, while flicking "
+"right or left with one finger moves to next or previous chosen element, "
+"respectively. Once you move away from browse mode documents, object touch "
+"mode is used."
+msgstr ""
+"Este modo táctil, dispoñible no modo exploración, permíteche navegar o "
+"documento por elementos seleccionados. Para cambiar a modo web, dende "
+"documentos de modo exploración, realiza un toque con 3 dedos. Dende este "
+"modo, desliza arriba ou abaixo cun dedo cíclicamente a través dos modos de "
+"navegación dispoñibles, mentras que deslizando á dereita ou á esquerda cun "
+"dedo móveste ó elemento seguinte ou ó anterior, respectivamente. Unha vez "
+"saias dos documentos en modo exploración, utilízase o modo táctil obxeto."
+
+#. type: Title ##
+#, no-wrap
+msgid "Synth settings touch mode"
+msgstr "Modo táctil de opcións do sintetizador"
+
+#. type: Plain text
+msgid ""
+"You can use this mode to quickly change synthesizer settings such as "
+"choosing a voice and changing volume. In this mode, use two finger flick "
+"left or right to move between synth settings and use two finger flick up and "
+"down gestures to change values. This gestures mirrors that of synth settings "
+"ring commands on the keyboard."
+msgstr ""
+"Podes utilizar este modo to cambiar cíclicamente as opcións do sintetizador "
+"como a elección dunha voz e o cambio do volume. Neste modo, utiliza o "
+"desprazamento con dous dedos á esquerda e aá dereita para te mover entre "
+"opcións do sintetizador e utiliza os xestos de desprazar dous dedos cara "
+"arriba e cara abaixo para cambiar os valores. Estos xestos refrexan as ordes "
+"do grupo de opcións do sintetizador no teclado."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.01"
+msgid "Version 25.02"
+msgstr "Versión 23.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Initial support for Windows 11."
+msgid "Restored limited support for Windows 8.1."
+msgstr "Soporte inicial para Windows 11."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.01"
+msgid "Version 25.01"
+msgstr "Versión 23.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.02"
+msgid "Version 24.05"
+msgstr "Versión 23.02"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2022.4 or later is required."
+msgid "NVDA 2024.1 or later is required."
+msgstr "Require NVDA 2022.4 ou posterior."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.01"
+msgid "Version 23.06.1"
+msgstr "Versión 23.01"
+
+#. type: Bullet: '* '
+msgid ""
+"audio ducking moved to 4 finger tap due to conflict with speech stops NVDA "
+"command."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.02"
+msgid "Version 23.06"
+msgstr "Versión 23.02"
+
+#. type: Bullet: '* '
+msgid "Enhanced Touch gestures nvda-addon is now maintained by Kefas Lungu."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "All gestures in object mode are now available everywhere."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New gestures are now available."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"3 finger double tap: Cycles through speech symbol levels which determine "
+"what symbols are spoken"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "2 finger tripple tap: Quit NVDA!."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "4 finger tap: Cycles through audio ducking modes."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "Triple tap: Toggles between beeps, speech, beeps and speech, and off."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In web mode, it is now possible to Use buttons, graphics, and landmarks in "
+"addition to the already available browse element list."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In web mode, NVDA is no longer going to say normal, but default when you "
+"switch to default navigation from other browse element list. For example, "
+"when switching from buttons, NVDA will now say default."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Versión 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "Require NVDA 2022.4 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Requírese Windows 10 21H2 (Actualización de novembro de 2021/compilación "
+"19044) ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Versión 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "Require NVDA 2022.3 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 8.1 is no longer supported by "
+"Microsoft as of January 2023."
+msgstr ""
+"Requírese Windows 10 ou posterior xa que Windows 7, 8, e 8.1 xa non se "
+"soportan dende Microsoft dende xaneiro do 2023."
+
+#. type: Bullet: '* '
+msgid ""
+"It is possible to reassign touch keyboard and dictation toggle commands from "
+"input gestures dialog under Enhanced Touch Gestures category."
+msgstr ""
+"É posible reasignar as ordes de alternar o teclado táctil e o dictado dende "
+"o diálogo de xestos de entrada baixo a categoría Enhanced Touch Gestures."
+
+#. type: Bullet: '* '
+msgid ""
+"Removed read-only state workaround for touch keyboard keys as it is resolved "
+"in Windows 10."
+msgstr ""
+"Eliminado o método para superar o estado de só lectura para as teclas do "
+"teclado táctil, xa que se resolveu en Windows 10."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.03"
+msgstr "Versión 22.03"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr "Require NVDA 2021.3 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr ""
+"Amosarase unha mensaxe de advertencia ao tentar instalar o complemento en "
+"Windows 7, 8, e 8.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "Versión 21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+"Requírese NVDA 2021.2 ou posterior debido a cambios en NVDA que afectan a "
+"este complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.08"
+msgstr "Versión 21.08"
+
+#. type: Bullet: '* '
+msgid "Initial support for Windows 11."
+msgstr "Soporte inicial para Windows 11."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.01"
+msgstr "Versión 21.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2020.3 or later is required."
+msgstr "Require NVDA 2020.3 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"On Windows 10 Version 1709 and later, doing a four finger flick left will "
+"toggle dictation (Windows+H)."
+msgstr ""
+"En Windows 10 versión 1709 e posterior, facendo un barrido con catro dedos á "
+"esquerda alternarase o dictado (windows+H)."
+
+#. type: Bullet: '* '
+msgid ""
+"Remove dedicated touch interaction support toggle command from the add-on."
+msgstr ""
+"Eliminado o xesto dedicado para alternar o soporte para interacción táctil "
+"do complemento."
+
+#. type: Bullet: '* '
+msgid ""
+"As touch interaction support can be toggled from NVDA's touch interaction "
+"settings panel, a dedicated Enhanced Touch Gestures settings panel has been "
+"removed."
+msgstr ""
+"Xa que o soporte para interacción táctil pode activarse e desactivarse dende "
+"o panel de interacción táctil de NVDA, eliminouse un panel dedicado para "
+"Enhanced Touch Gestures."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.09"
+msgstr "Versión 20.09"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed ability to let NVDA turn off touch interaction for up to ten seconds "
+"(touch command passthrough)."
+msgstr ""
+"Eliminouse a posibilidade de deixar que NVDA desactive a interacción táctil "
+"durante ata dez segundos (deixar pasar xesto táctil)."
+
+#. type: Bullet: '* '
+msgid "Removed coordinate announcement beep feature."
+msgstr "Eliminouse a característica de nunciado con pitidos das coordenadas."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.07"
+msgstr "Versión 20.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a keyboard command to toggle touch interaction or enable/disable touch "
+"passthrough (Control+Alt+NVDA+T)."
+msgstr ""
+"Engadida unha orde de teclado para alternar a interacción táctil ou "
+"habilitar/deshabilitar deixar pasar xestos táctiles (Control+Alt+NVDA+T)."
+
+#. type: Bullet: '* '
+msgid ""
+"As NVDA 2020.1 and later includes a touch command to perform right mouse "
+"click (one finger tap and hold), the command has been removed from this add-"
+"on. AS a result, NVDA 2020.1 or later is required."
+msgstr ""
+"Xa que NVDA 2020.1 e posterior inclúe un xesto táctil para realizar click "
+"dereito co rato (tocar e manter cun dedo), o xesto eliminouse deste "
+"complemento. En consecuencia, requírese NVDA 2020.1 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"The ability to let NVDA turn off touch interaction for up to ten seconds "
+"(touch command passthrough) is deprecated. In the future this feature will "
+"toggle touch interaction instead."
+msgstr ""
+"A posibilidade de deixar que NVDA desactive a interacción táctil durante ata "
+"dez segundos (deixar pasar xesto táctil) está obsoleta. No futuro este "
+"comando alternará a interacción táctil no seu lugar."
+
+#. type: Bullet: '* '
+msgid ""
+"In NVDA development snapshots, due to touch interaction feature changes, "
+"touch command passthrough feature and Enhanced Touch Gestures settings panel "
+"will be disabled. The command used to enable touch command passthrough will "
+"toggle touch interaction instead."
+msgstr ""
+"Nas versións de desenvolvemento de NVDA, debido a trocos na característica "
+"de interacción táctil, a característica de deixar pasar xesto táctil e o "
+"panel de opcións de Enhanced Touch Gestures deshabilitaranse. A orde "
+"utilizada para habilitar deixar pasar xesto táctil alternará a interacción "
+"táctil no seu lugar."
+
+#. type: Bullet: '* '
+msgid ""
+"Coordinate announcement beep feature is deprecated and will be removed in a "
+"future add-on release."
+msgstr ""
+"A característica de pitido de anuncio de coordeada está obsoleta e "
+"eliminarase nunha versión futura do complemento."
+
+#. type: Bullet: '* '
+msgid ""
+"Coordinate announcement beep will not be heard while using touch keyboard."
+msgstr ""
+"Non se oirá o pitido de anuncio de coordeada ao utilizar o teclado táctil."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones while exploring "
+"modern input facility such as emoji panel via touch."
+msgstr ""
+"NVDA xa non parecerá non facer nada nin reproducirá tons de erro ao explorar "
+"vía táctil unha facilidade de entrada moderna como o panel de emoji."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will present an error message if touch keyboard cannot be activated "
+"(four finger flick right)."
+msgstr ""
+"NVDA presentará unha mensaxe de erro se non se pode activar o teclado táctil "
+"(deslizamento con catro dedos á dereita)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.06"
+msgstr "Versión 20.06"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr ""
+"Resoltas varias incidencias de estilo do código e erros potenciais con "
+"Flake8."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.04"
+msgstr "Versión 20.04"
+
+#. type: Bullet: '* '
+msgid ""
+"Right mouse click gesture (one finger tap and hold) is now part of NVDA "
+"2020.1."
+msgstr ""
+"O xesto de click co botón dereito do rato (un tap mantido cun dedo) agora "
+"forma parte de NVDA 2020.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "Versión 20.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required."
+msgstr "Requírese NVDA 2019.3 ou posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"Touch support toggle command (including touch passthrough) will no longer "
+"function if touch support is turned off completely."
+msgstr ""
+"A orde alternar soporte táctil (incluído o paso de ordes táctiles) xa non "
+"funcionará se o soporte táctil está desactivado completamente."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.11"
+msgstr "Versión 19.11"
+
+#. type: Bullet: '* '
+msgid "Added input help messages for additional touch commands."
+msgstr ""
+"Engadidas mensaxes de axuda de entrada para xestos táctiles adicionais."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.09"
+msgstr "Versión 19.09"
+
+#. type: Bullet: '* '
+msgid ""
+"Touch support can now be disabled from everywhere, not just from profiles "
+"other than normal profile."
+msgstr ""
+"Xa se pode desactivar o soporte táctil dende calquera lugar, non só dende "
+"perfiles que non sexan o normal."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 19.07"
+msgstr "Versión 19.07"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Cambios internos para soportar versións futuras de NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "Versión 18.12"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08"
+msgstr "Versión 18.08"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr "Compatible con NVDA 2018.3 e versións futuras."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.06"
+msgstr "Versión 18.06"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on settings is now found in new multi-category NVDA Settings screen "
+"under \"Enhanced Touch Gestures\" category. As a result, NVDA 2018.2 is "
+"required."
+msgstr ""
+"A configuración do complemento agora atópase na nova pantalla multicategoría "
+"Opcións do NVDA na categoría \"Enhanced Touch Gestures\". A consecuencia do "
+"que requírese do NVDA 2018.2."
+
+#. type: Bullet: '* '
+msgid "Fixed compatibility issues with wxPython 4."
+msgstr "Arranxados os problemas de compatibilidade con wxPython 4."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.04"
+msgstr "Versión 18.04"
+
+#. type: Bullet: '* '
+msgid ""
+"Resolves an issue where touch interaction category in NVDA Settings panel "
+"may cause error sounds to be heard due to changes made from this add-on."
+msgstr ""
+"Resolto un erro que podería causar a reprodución de sons de erro na "
+"categoría de Interacción Táctil no panel de Preferencias do NVDA debido a "
+"cambios feitos por este complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.03"
+msgstr "Versión 18.03"
+
+#. type: Bullet: '* '
+msgid "NVDA 2018.1 is required."
+msgstr "Requírese NVDA 2018.1."
+
+#. type: Bullet: '* '
+msgid ""
+"Because NVDA 2018.1 comes with touch typing checkbox, the checkbox is no "
+"longer included in this add-on."
+msgstr ""
+"Xa que NVDA 2018.1 vén cunha caixa de verificación Escritura Táctil, ésta xa "
+"non se inclúe no complemento."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.12"
+msgstr "Versión 17.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Requires NVDA 2017.4. Specifically, this add-on can now handle configuration "
+"profile switches."
+msgstr ""
+"Requírese do NVDA 2017.4. Específicamente, este complemento agora pode "
+"manexar cambios de perfil de configuración."
+
+#. type: Bullet: '* '
+msgid ""
+"As NVDA 2017.4 includes screen orientation announcement, this feature is no "
+"longer part of this add-on."
+msgstr ""
+"Dado que o NVDA 2017.4 inclúe o anunciado da horientación da pantalla, esta "
+"característica xa non forma parte deste complemento."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a hidden checkbox in Touch Interaction dialog to completely disable "
+"touch support (available if profiles other than normal configuration is "
+"active)."
+msgstr ""
+"Engadida unha caixa de verificación oculta no diálogo Interación Tactil para "
+"desactivar compretamente o soporte tactil (dispoñible se os perfís distintos "
+"á configuración normal están activos)."
+
+#. type: Bullet: '* '
+msgid ""
+"If using NVDA 2018.1 or later, Touch Interaction dialog will be listed twice "
+"under NVDA's preferences menu. The second item is the dialog that comes with "
+"the add-on."
+msgstr ""
+"Se se usa NVDA 2018.1 en adiante, o diálogo Interacción Táctil listarase "
+"dúas veces no menú Preferencias do NVDA. O segundo elemento é o diálogo que "
+"vén co complemento."
+
+#. type: Bullet: '* '
+msgid ""
+"In Touch Interaction dialog for the add-on, touch typing mode is no longer "
+"shown if using NVDA 2018.1 or later."
+msgstr ""
+"No diálogo Interación Tactil para o complemento, o modo de escritura tactil "
+"xa non se amosa se se usa NVDA 2018.1 en adiante."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.10"
+msgstr "Versión 17.10"
+
+#. type: Bullet: '* '
+msgid ""
+"Due to support policy from Microsoft, Windows 8 (original release) is no "
+"longer supported."
+msgstr ""
+"Debido a políticas de soporte de Microsoft, Windows 8 (versión orixinal) xa "
+"non se soporta."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer announce screen orientation twice when running NVDA "
+"2017.4 development snapshots."
+msgstr ""
+"O NVDA xa non anunciará a orientación da pantalla dúas veces ao executar "
+"snapshots de desenvolvemento do NVDA 2017.4."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.07.1"
+msgstr "Versión 17.07.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option in touch interaction dialog to manually toggle touch "
+"passthrough without use of a timer."
+msgstr ""
+"Engadida una opción no diálogo Interación Táctil para activar manualmente "
+"deixar pasar toque sen usar un temporizador."
+
+#. type: Bullet: '* '
+msgid ""
+"With manual passthrough mode off, if touch passthrough is turned on before "
+"the passthrough duration expires, touch interaction would be enabled."
+msgstr ""
+"Co modo deixar pasar manual desactivado, se deixar pasar toque se activa "
+"antes de que expire a duración de deixar pasar, voltaríase a activar a "
+"interación táctil."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 17.07"
+msgstr "Versión 17.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new dialog named Touch Interaction under NVDA's preferences menu to "
+"configure how NVDA works with touchscreens."
+msgstr ""
+"Engadido un novo diálogo chamado Interacción Tactil no menú Preferencias do "
+"NVDA para configurar cómo traballa o NVDA coas pantallas tactiles."
+
+#. type: Bullet: '* '
+msgid ""
+"After installing this version, when pressing keys on the touch keyboard, one "
+"must double tap the desired key. You can switch back to the old way by "
+"enabling touch typing from Touch Interaction dialog."
+msgstr ""
+"Despois de instalar esta versión, ao se premer teclas no teclado tactil, "
+"Débese facer un doble toque na tecla desexada. Podes voltar ao vello xeito "
+"habilitando a escritura tactil dende o diálogo Interacción Tactil."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a command (unassigned) to allow NVDA to ignore touch gestures for up "
+"to 10 seconds."
+msgstr ""
+"Engadida unha orde (non asignada) para permitir ao NVDA ignorar xestos "
+"tactiles por ata 10 segundos."
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option in Touch Interaction dialog to allow NVDA to pause touch "
+"interaction between 3 to 10 seconds in order to perform touchscreen gestures "
+"directly (as though NVDA is not running; default is 5 seconds)."
+msgstr ""
+"Engadida unha opción no diálogo Interacción Tactil para permitir ao NVDA "
+"pausar a interacción tactil entre 3 e 10 segundos para realizar xestos da "
+"pantalla táctil directamente (coma se o NVDA non se está a executar; por "
+"defecto é 5 segundos)."
+
+#. type: Bullet: '* '
+msgid ""
+"Added debug logging messages when performing right clicks (tap and hold) to "
+"be recorded in the NVDA log (requires NVDA 2017.1 or later)."
+msgstr ""
+"Engadidas mensaxes de depuración no rexistro ao se realizar clic dereito "
+"(tocar e manter) para grabalos no rexistro do NVDA (require do NVDA 2017.1 "
+"ou posterior)."
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes made when playing screen coordinates, NVDA 2017.1 or later is "
+"required."
+msgstr ""
+"Debido a cambios feitos ao se reproducir as coordinadas da pantalla, "
+"requírese do NVDA 2017.1 ou posterior."
+
+#. type: Plain text
+msgid "##Version 17.03"
+msgstr "##Versión 17.03"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where coordinate announcement beep did not play or an error "
+"tone played instead when using NVDA 2017.1 or later."
+msgstr ""
+"Correxido un fallo cando o pitido de anunciado de coordinadas non se "
+"reproducía ou reproducíase un ton de erro no seu lugar cando se utiliza NVDA "
+"2017.1 ou anterior."
+
+#. type: Plain text
+msgid "##Version 16.12"
+msgstr "##Versión 16.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Web touch mode works in Microsoft Edge, Microsoft Word and others where "
+"browse mode is used."
+msgstr ""
+"O modo web táctil funciona no Microsoft Edge, no Microsoft Word e outros "
+"onde se use o modo exploración."
+
+#. type: Bullet: '* '
+msgid "Added lists and landmarks to web touch mode elements."
+msgstr ""
+"Engadidas listas e pontos de referencia aos elementos do modo web tactil."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.06"
+msgstr "Versión 16.06"
+
+#. type: Bullet: '* '
+msgid "Initial stable version."
+msgstr "Versión estable inicial."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Descargar [versión estable][1]"
+
+#~ msgid "NVDA compatibility: 2022.4 and later"
+#~ msgstr "Compatibilidade con NVDA: 2022.4 e posterior"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ets-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ets-dev"
+
+#~ msgid "Control+Alt+NVDA+T: toggles touch interaction."
+#~ msgstr "Control+Alt+NVDA+T: alterna a interacción táctil."
+
+#~ msgid ""
+#~ "If you've enabled play mouse coordinates setting in mouse settings, "
+#~ "you'll hear beeps to indicate current screen coordinate when you invoke "
+#~ "touch exploration gestures."
+#~ msgstr ""
+#~ "Se habilitaches a opción Reproducir coordenadas do rato Nas Opcións do "
+#~ "Rato, escoitarás pitidos para indicar as coordenadas actuais da pantalla "
+#~ "ó invocar os xestos de exploración tactil."
+
+#~ msgid ""
+#~ "Note: coordinate announcement beep will not be heard while using touch "
+#~ "keyboard. In the future this feature will be removed altogether."
+#~ msgstr ""
+#~ "Nota: o pitido de anuncio de coordeada non se oirá ao utilizar o teclado "
+#~ "táctil. No futuro esta característica removerase completamente."
+
+#~ msgid "Touch interaction toggle/passthrough"
+#~ msgstr "Alternar/deixar pasar interacción táctil"
+
+#~ msgid ""
+#~ "An unassigned command is available to allow you to toggle touch "
+#~ "interaction or temporarily use touchscreen gestures (touch command "
+#~ "passthrough) as though NVDA is not running. In order to use this, you "
+#~ "need to assign a command (via Input Gestures dialog) under Enhanced Touch "
+#~ "Gestures category to let you do this for up to ten seconds or toggle this "
+#~ "manually. Then go to NVDA menu/Preferences/Touch Interaction, then "
+#~ "configure pause NVDA's touch command value between 3 to 10 seconds "
+#~ "(default is 5 seconds)."
+#~ msgstr ""
+#~ "Está dispoñible unha orde non asignada para permitirche alternar a "
+#~ "interacción táctil ou temporalmente usar xestos da pantalla táctil "
+#~ "(deixar pasar orde táctil) como se NVDA non estibera  en execución. Para "
+#~ "poder usar isto, necesitas asignar unha orde (a través do diálogo Xestos "
+#~ "de Entrada) na categoría Enhanced Touch Gestures para permitirche facer "
+#~ "isto en ata 10 segundos ou cambialo manualmente. Logo vai ao menú NVDA/"
+#~ "Preferencias/Interacción Táctil, logo configura pausar a orde de valor "
+#~ "tzctil de NVDA entre 3 e 10 segundos (o predeterminado é 5 segundos)."
+
+#~ msgid ""
+#~ "Note: the ability to let NVDA turn off touch interaction for up to ten "
+#~ "seconds (touch command passthrough) is deprecated. In the future this "
+#~ "command will toggle touch interaction instead."
+#~ msgstr ""
+#~ "Nota: a posibilidade de deixar que NVDA desactive a interacción táctil "
+#~ "durante ata dez segundos (deixar pasar xesto táctil) está obsoleta. No "
+#~ "futuro este comando alternará a interacción táctil no seu lugar."
+
+#~ msgid ""
+#~ "Tap and hold: performs right click at the object under your finger (now "
+#~ "part of NVDA 2020.1 and later)."
+#~ msgstr ""
+#~ "Tocar e manter: leva a cabo clic dereito no obxecto baixo o teu dedo "
+#~ "(parte agora de NVDA 2020.1 ou posterior)."
+
+#~ msgid ""
+#~ "Download [older version][3] compatible with NVDA 2019.2.1 and earlier"
+#~ msgstr ""
+#~ "Descargar [versión máis antiga][3] compatible con NVDA 2019.2.1 e "
+#~ "anteriores"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=ets-2019"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=ets-2019"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Descargar [versión de desenvolvemento][2]"
+
+#~ msgid "Disable touch support in profiles"
+#~ msgstr "Deshabilitar soporte tactil en perfís"
+
+#~ msgid ""
+#~ "If profiles other than normal configuration is active and if you go to "
+#~ "Touch Interaction dialog, you'll see a checkbox named \"completely "
+#~ "disable touch support\". Checking this box and answering yes if prompted "
+#~ "will completely turn off touch support for that profile. This is useful "
+#~ "in apps that provide their own touch commands. To restore touch "
+#~ "functionality, either uncheck this checkbox or manually toggle touch "
+#~ "passthrough."
+#~ msgstr ""
+#~ "Se outros perfís distintos á configuración normal están activos e se vas "
+#~ "ao diálogo Interación Tactil, verás unha caixa de verificación chamada "
+#~ "\"deshabilitar compretamente soporte tactil\". Marcando esta caixa e "
+#~ "respondento si ao se cho pedir desactivará por compreto o soporte tactil "
+#~ "para ese perfil. Esto é útil en aplicacións que proporcionen as súas "
+#~ "proprias ordes tactiles. Para restaurar a funcionalidade tactil, desmarca "
+#~ "esta caixa de verificación ou activa manualmente deixar pasar toque."
+
+#~ msgid "Touch keyboard"
+#~ msgstr "Teclado tactil"
+
+#~ msgid ""
+#~ "With the add-on installed, when typing on the touch keyboard, you need to "
+#~ "perform a double tap in order to press keys (termed standard typing). You "
+#~ "can change it to touch typing (where you let go of the key and the key "
+#~ "will be pressed) by going to NVDA menu/Preferences/Touch Interaction and "
+#~ "checking touch typing checkbox."
+#~ msgstr ""
+#~ "Co complemento instalado, ao escrebir no teclado tactil, necesitas "
+#~ "realizar un dobre toque para premer teclas (denominado escritura "
+#~ "estándar). podes cambialo a escritura tactil (onde premes a tecla e logo "
+#~ "sóltala) vai ao menú NVDA /Preferenciass/Interacción Tactil e marca a "
+#~ "caixa de verificación Escritura Tactil."
+
+#~ msgid "Screen orientation"
+#~ msgstr "Orientación da pantalla"
+
+#~ msgid ""
+#~ "NVDA can announce screen orientation changes. Note that NvDA cannot "
+#~ "distinguish between primary and secondary orientation at this time."
+#~ msgstr ""
+#~ "NVDA pode anunciar cambios na orientación da pantalla. Ten en conta que "
+#~ "NvDA non pode distinguir entre a orientación principal e secundaria neste "
+#~ "intre."

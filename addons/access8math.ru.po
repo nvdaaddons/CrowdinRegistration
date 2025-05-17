@@ -1,0 +1,1654 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-04-30 14:39+0000\n"
+"PO-Revision-Date: 2024-08-20 10:57+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
+"Language-Team: Translators <nvda-translations@groups.io>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Access8Math\"]]\n"
+msgstr "[[!meta title=\"Access8Math\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Woody Tseng"
+msgstr "Авторы: Woody Tseng"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Загрузить [стабильную версию][1]"
+
+#. type: Title #
+#, no-wrap
+msgid "Access8Math Introduction"
+msgstr "Введение в Access8Math"
+
+#. type: Plain text
+msgid ""
+"Access8Math is an NVDA add-on that enhances the user experience when reading and "
+"writing mathematical content."
+msgstr ""
+"Access8Math - это дополнение для NVDA, улучшающее работу пользователей при чтении и "
+"записи математического содержимого."
+
+#. type: Plain text
+msgid ""
+"Access8Math offers text-to-speech/Braille functionality for MathML content. MathML "
+"is the standard language for describing math structure and content on the web, which "
+"enables visually readable math content through a web browser."
+msgstr ""
+"Access8Math предлагает функции преобразования текста в речь/брайль для содержимого "
+"MathML. MathML - это стандартный язык для описания математической структуры и "
+"содержимого в Интернете, который позволяет визуально считывать его через веб-браузер."
+
+#. type: Plain text
+msgid ""
+"Access8Math can also assist in writing and converting LaTeX to MathML. LaTex is a "
+"typesetting system which is easy to write and learn. It’s commonly used for "
+"representing math formulas."
+msgstr ""
+"Access8Math также может помочь в написании и преобразовании LaTeX в MathML. LaTeX - "
+"это система набора текста, которая проста в написании и освоении. Она обычно "
+"используется для представления математических формул."
+
+#. type: Plain text
+msgid ""
+"With Access8Math's reading, writing, and conversion features, visually impaired "
+"users can read and write math content with ease. Based on MathML and LaTeX, two "
+"common math markups, Access8Math significantly reduces the difficulty of two-way "
+"communication between visually impaired and sighted users."
+msgstr ""
+"Благодаря функциям чтения, записи и преобразования в Access8Math незрячие "
+"пользователи могут легко читать и записывать математическое содержимое. Основанный "
+"на MathML и LaTeX, двух распространенных математических разметках, Access8Math "
+"значительно упрощает двустороннюю связь между пользователями с ослабленным зрением и "
+"зрячими пользователями."
+
+#. type: Title ##
+#, no-wrap
+msgid "Reading Features Overview"
+msgstr "Обзор возможностей чтения"
+
+#. type: Bullet: '* '
+msgid "Read MathML content in a web browser."
+msgstr "Читать содержимое MathML в веб-браузере."
+
+#. type: Bullet: '* '
+msgid "Read MathType content in Microsoft Word."
+msgstr "Читать содержимое MathType в Microsoft Word."
+
+#. type: Bullet: '* '
+msgid "Read a full paragraph that contains text and math content."
+msgstr "Читать полный абзац, содержащий текстовое и математическое содержимое."
+
+#. type: Bullet: '* '
+msgid ""
+"Provide customized speech output rules, including simplified outputs and pauses "
+"between math segments."
+msgstr ""
+"Предоставлять индивидуальные правила вывода речи, включая упрощённые выходы и паузы "
+"между математическими сегментами."
+
+#. type: Bullet: '* '
+msgid "Allow customization of math symbol speech output and Braille output."
+msgstr "Позволяет настраивать вывод символов с помощью речи и по брайлю."
+
+#. type: Title ##
+#, no-wrap
+msgid "Interaction Features Overview"
+msgstr "Обзор возможностей взаимодействия"
+
+#. type: Bullet: '* '
+msgid "Allow navigating between, zooming in, or zooming out of math segments."
+msgstr ""
+"Позволяет перемещаться между математическими сегментами увеличенного или "
+"уменьшённого масштаба."
+
+#. type: Bullet: '* '
+msgid "Use NVDA review cursor to read text."
+msgstr "Использовать курсор обзора NVDA для чтения текста."
+
+#. type: Bullet: '* '
+msgid "Provide mathematical meaning of items when interacting."
+msgstr "Обеспечивать математическое значение элементов при взаимодействии."
+
+#. type: Title ##
+#, no-wrap
+msgid "Writing Features Overview"
+msgstr "Обзор возможностей написания"
+
+#. type: Bullet: '* '
+msgid "Convert LaTeX/Nemeth to MathML."
+msgstr "Преобразовывать LaTeX/код Немета в MathML."
+
+#. type: Bullet: '* '
+msgid "Provide a command menu to facilitate LaTeX input."
+msgstr "Обеспечивать командное меню для облегчения ввода в LaTeX."
+
+#. type: Bullet: '* '
+msgid "Provide shortcut gestures to facilitate LaTeX input."
+msgstr "Использовать быстрые жесты для облегчения ввода в LaTeX."
+
+#. type: Bullet: '* '
+msgid "Help moving the editing cursor more efficiently while editing."
+msgstr ""
+"Помогает более эффективно перемещать курсор редактирования во время редактирования."
+
+#. type: Bullet: '* '
+msgid "Preview content that includes LaTeX/Nemeth while editing."
+msgstr ""
+"Предварительный просмотр содержимого, включающего LaTeX/код Немета, во время "
+"редактирования."
+
+#. type: Bullet: '* '
+msgid "Convert plain text files into accessible HTML files for preview and export."
+msgstr ""
+"Преобразовывать обычные тексты в доступные HTML-файлы для предварительного просмотра "
+"и экспорта."
+
+#. type: Title #
+#, no-wrap
+msgid "Access8Math Description"
+msgstr "Описание Access8Math"
+
+#. type: Plain text
+msgid ""
+"The Access8Math add-on provides comprehensive math content reading and writing "
+"capabilities."
+msgstr ""
+"Дополнение Access8Math предоставляет широкие возможности для чтения и записи "
+"математического содержимого."
+
+#. type: Plain text
+msgid ""
+"Access8Math offers customizable speech and braille output, and an Interactive Mode "
+"to access and understand math content. In Interactive Mode, users can read math "
+"content in smaller segments, as well as choosing the size of the segments through "
+"keyboard shortcuts. In this way, they can understand the structure and hierarchical "
+"relationships of long math content more easily."
+msgstr ""
+"Access8Math предлагает настраиваемую речь и вывод по брайлю, а также интерактивный "
+"режим для доступа к математическому содержимому и его пониманию. В интерактивном "
+"режиме пользователи могут читать математическое содержимое небольшими сегментами, а "
+"также выбирать размер сегментов с помощью сочетаний клавиш. Таким образом, они "
+"смогут легче понять структуру и иерархические связи объемного математического "
+"содержимого."
+
+#. type: Plain text
+msgid ""
+"Access8Math also provides a command menu to make writing LaTeX easier. Instead of "
+"memorizing complex LaTeX syntaxes, users can navigate through the command menu to "
+"input math markups.."
+msgstr ""
+"Access8Math также предоставляет меню команд, упрощающее написание LaTeX. Вместо "
+"запоминания сложного синтаксиса LaTeX пользователи могут перемещаться по меню команд "
+"для ввода математических пометок."
+
+#. type: Plain text
+msgid ""
+"In addition, users can preview their inputs while editing, which helps users to find "
+"and fix syntax errors as soon as possible."
+msgstr ""
+"Кроме того, пользователи могут предварительно просматривать свои вводимые данные во "
+"время редактирования, что помогает им быстро находить и исправлять синтаксические "
+"ошибки."
+
+#. type: Plain text
+msgid ""
+"Finally, Access8Math converts text and math content written in LaTeX into visually "
+"readable HTML files. Since both text and math content can be displayed together "
+"visually, it makes math discussion between visually impaired and sighted people more "
+"fluid."
+msgstr ""
+"Наконец, Access8Math преобразует текст и математическое содержимое, написанное в "
+"LaTeX, в визуально читаемые HTML-файлы. Поскольку текст и математическое содержимое "
+"могут отображаться визуально одновременно, это делает обсуждение математики между "
+"незрячими и зрячими людьми более понятным."
+
+#. type: Title ##
+#, no-wrap
+msgid "MathML Examples"
+msgstr "Примеры MathML"
+
+#. type: Plain text
+msgid "Math contents on Wikipedia are written in MathML:"
+msgstr "Математические материалы в Википедии написаны на языке MathML:"
+
+#. type: Bullet: '* '
+msgid "Quadratic equation: https://en.wikipedia.org/wiki/Quadratic_equation"
+msgstr "Квадратное уравнение: https://en.wikipedia.org/wiki/Quadratic_equation"
+
+#. type: Bullet: '* '
+msgid "Matrix multiplication: https://en.wikipedia.org/wiki/Matrix_multiplication"
+msgstr "Умножение матриц: https://en.wikipedia.org/wiki/Matrix_multiplication"
+
+#. type: Bullet: '* '
+msgid "Cubic equation: https://en.wikipedia.org/wiki/Cubic_equation"
+msgstr "Кубическое уравнение: https://en.wikipedia.org/wiki/Cubic_equation"
+
+#. type: Title #
+#, no-wrap
+msgid "Access8Math User Guide"
+msgstr "Руководство пользователя Access8Math"
+
+#. type: Title ##
+#, no-wrap
+msgid "Reading Features"
+msgstr "Возможности чтения"
+
+#. type: Title ###
+#, no-wrap
+msgid "Language Setting"
+msgstr "Настройка Языка"
+
+#. type: Plain text
+#, no-wrap
+msgid "Select the language in which the math content in Access8Math will be converted in Settings > Reading. If your language is not supported by the system, see the \"Adding a new language\" paragraph in the \"Localization\" section of this document.\n"
+msgstr "Выберите язык, на который будет переведено математическое содержимое Access8Math, в разделе настроек > чтение. Если ваш язык не поддерживается системой, ознакомьтесь с разделом \"Добавление нового языка\" в разделе \"Локализация\" этого документа.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Reading Experience Settings"
+msgstr "Настройки удобства чтения"
+
+#. type: Title ####
+#, no-wrap
+msgid "Mathematical Structure Analysis"
+msgstr "Математический структурный анализ"
+
+#. type: Plain text
+msgid ""
+"These rules are designed to enhance the reading experience of commonly used "
+"mathematical structures. The system analyzes the content according to the MathML "
+"structure and mathematical rules, so that the speech outputs and Braille outputs are "
+"more consistent with the mathematical meaning. For example, \"x^2\" will be read as "
+"\"square of x\" instead of \"x super 2\"."
+msgstr ""
+"Эти правила предназначены для улучшения восприятия при чтении часто используемых "
+"математических структур. Система анализирует содержимое в соответствии со структурой "
+"MathML и математическими правилами, чтобы речевой вывод и вывод по брайлю, в большей "
+"степени соответствовали математическому значению. Например, \"x ^ 2\" будет читаться "
+"как \"квадрат x\" вместо \"x super 2\"."
+
+#. type: Plain text
+#, no-wrap
+msgid "Enable or disable this functionality by checking the \"Analyze mathematical meaning of contents\" checkbox in Settings > Reading. Uncheck this option to view the original MathML structure.\n"
+msgstr "Эта функция включается или отключается флажком \"Анализировать значение математического содержимого\" в разделе \"Настройки\" > \"Чтение\". Снимите этот флажок, чтобы просмотреть исходную структуру MathML.\n"
+
+#. type: Plain text
+msgid ""
+"This option also changes the given additional information of the mathematical "
+"meaning when navigating between math segments in Interactive Mode."
+msgstr ""
+"Эта опция также изменяет заданную дополнительную информацию математического значения "
+"при навигации между математическими сегментами в интерактивном режиме."
+
+#. type: Title ####
+#, no-wrap
+msgid "Simplified Speech Outputs"
+msgstr "Упрощённый речевой вывод"
+
+#. type: Plain text
+msgid ""
+"When the system analyzes mathematical rules, it will read them out in a simplified "
+"way. If there is only one single item in the math content, it can omit the markups "
+"before and after while reading, so that it can be understood more efficiently. For "
+"example, \"\\(\\frac{1}{2}\\)\" will be read as \"1 over 2\" instead of \"fraction "
+"with numerator 1 and denominator 2 end fraction\"."
+msgstr ""
+"Когда система анализирует математические правила, она считывает их в упрощенном "
+"виде. Если в математическом содержимом есть только один элемент, она может опустить "
+"пометки до и после чтения, чтобы его можно было понять более эффективно. Например, "
+"\"\\(\\\\frac{1}{2}\\)\" будет читаться как \"1 на 2\" вместо \"дроби с числителем 1 "
+"и знаменателем 2 в конце дроби\"."
+
+#. type: Plain text
+#, no-wrap
+msgid "Enable or disable a simplified rule from the list of checkboxes in Settings > Rules.\n"
+msgstr "Включите или отключите упрощенное правило из списка флажков в разделе Настройки > Правила.\n"
+
+#. type: Title ####
+#, no-wrap
+msgid "Pauses Between Segments"
+msgstr "Паузы между Сегментами"
+
+#. type: Plain text
+msgid ""
+"Access8Math reads math content with a pause between items to make the math content "
+"easier to understand."
+msgstr ""
+"Access8Math считывает математическое содержимое с паузами между элементами, чтобы "
+"облегчить его понимание."
+
+#. type: Plain text
+#, no-wrap
+msgid "To adjust the pause time between items, set a value from 1 to 100 in Settings > Reading. A smaller value means a shorter pause time and a larger value means a longer pause time.\n"
+msgstr "Чтобы настроить время паузы между элементами, установите значение от 1 до 100 в меню настроек > чтение. Меньшее значение означает более короткое время паузы, а большее - более длительное время.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Math Reader Settings"
+msgstr "Настройки математического считывателя"
+
+#. type: Plain text
+#, no-wrap
+msgid "Select the source of the math reader in Settings > Math Reader.\n"
+msgstr "Выберите источник программы math Reader в меню Настройки > Программа Math Reader.\n"
+
+#. type: Bullet: '* '
+msgid "Speech Source: Use Access8Math/MathCAT/Math Player for speech outputs."
+msgstr "Источник речи: Используйте Access8Math / MathCat /Math Player для вывода речи."
+
+#. type: Bullet: '* '
+msgid "Braille Source: Use Access8Math/MathCAT/Math Player for Braille outputs."
+msgstr ""
+"Источник Брайля: Используйте Access8Math / MathCat /Math Player для вывода текста по "
+"Брайлю."
+
+#. type: Bullet: '* '
+msgid "Interaction Source: Use Access8Math/MathCAT/Math Player for Interactive Mode."
+msgstr ""
+"Источник взаимодействия: Используйте Access8Math / MathCat /Math Player для режима "
+"взаимодействия."
+
+#. type: Title ###
+#, no-wrap
+msgid "Customize Math Symbol Speech Outputs and Braille Outputs"
+msgstr "Настройка речевого вывода и вывода по Брайлю математических символов"
+
+#. type: Plain text
+msgid ""
+"In the \"Localization\" menu, it’s possible to edit the table of math symbols and "
+"the table of mathematical rules. For more details, please refer to the "
+"\"Localization\" section of this document."
+msgstr ""
+"В меню \"Локализация\" можно редактировать таблицу математических символов и таблицу "
+"математических правил. Для получения более подробной информации, пожалуйста, "
+"обратитесь к разделу \"Локализация\" этого документа."
+
+#. type: Title ##
+#, no-wrap
+msgid "Interaction Features"
+msgstr "Особенности взаимодействия"
+
+#. type: Title ###
+#, no-wrap
+msgid "How to Activate NVDA Interactive Mode?"
+msgstr "Как активировать режим взаимодействия NVDA?"
+
+#. type: Plain text
+msgid ""
+"For speech-oriented users, it is often preferable to listen to a math equation in "
+"smaller segments rather than hearing the whole equation at once. If currently in "
+"Browse mode, move the cursor over the math content and press the Space or Enter key."
+msgstr ""
+"Для пользователей, ориентированных на речь, часто предпочтительнее прослушать "
+"математическое уравнение в виде небольших фрагментов, а не всё уравнение сразу. Если "
+"вы находитесь в режиме обзора, наведите курсор на математическое содержимое и "
+"нажмите пробел или клавишу Enter."
+
+#. type: Plain text
+msgid ""
+"If not in Browse mode: 1. Move the review cursor to the location of the math "
+"content. By default, the review cursor follows the system caret so the system cursor "
+"can be moved to the math content.  2. Execute the following shortcut: NVDA + Alt + M "
+"to interact with the math content."
+msgstr ""
+"Если вы не в режиме обзора, выполните следующие действия: 1. Переместите "
+"просмотровый курсор в место, где находится математическое содержимое. По умолчанию "
+"просмотровый курсор следует за системной кареткой, чтобы системный курсор можно было "
+"переместить на математическое содержимое.  2. Выполните следующее сочетание клавиш: "
+"NVDA + Alt + M для взаимодействия с математическим содержимым."
+
+#. type: Plain text
+msgid ""
+"Once in Interactive Mode, use commands such as the arrow keys to explore an "
+"equation. For example, use the left and right arrow to move within an equation, and "
+"use the down arrow to explore a segment of the equation."
+msgstr ""
+"Перейдя в интерактивный режим, используйте команды, такие как клавиши со стрелками, "
+"для изучения уравнения. Например, используйте стрелки влево и вправо для перемещения "
+"по уравнению, а стрелку вниз - для изучения сегмента уравнения."
+
+#. type: Plain text
+msgid ""
+"When finished reading, simply press Esc to return to the document. For more "
+"information about reading and navigating in Math Content, see the next section."
+msgstr ""
+"Закончив чтение, просто нажмите Esc, чтобы вернуться к документу. Дополнительные "
+"сведения о чтении и навигации по математическому содержимому приведены в следующем "
+"разделе."
+
+#. type: Title ###
+#, no-wrap
+msgid "Available Keyboard Controls in Access8Math Interactive Mode"
+msgstr "Доступные элементы управления с клавиатуры в режиме взаимодействия Access8Math"
+
+#. type: Bullet: '* '
+msgid "Down arrow: Reduces the scope of the reading segment."
+msgstr "Стрелка вниз: Уменьшает объём сегмента чтения."
+
+#. type: Bullet: '* '
+msgid "Up arrow: Enlarges the scope of the reading segment."
+msgstr "Стрелка вверх: Увеличивает объём сегмента чтения."
+
+#. type: Bullet: '* '
+msgid "Left arrow: Go to the previous math segment."
+msgstr "Стрелка влево: Переход к предыдущему математическому разделу."
+
+#. type: Bullet: '* '
+msgid "Right arrow: Go to the next math segment."
+msgstr "Стрелка вправо: Переход к следующему математическому разделу."
+
+#. type: Bullet: '* '
+msgid "Ctrl + C: Copy the MathML of the object."
+msgstr "Ctrl + C: Скопировать объект MathML."
+
+#. type: Bullet: '* '
+msgid "Home key: Reads the entire math content."
+msgstr "Клавиша home: Считывает всё математическое содержимое целиком."
+
+#. type: Bullet: '* '
+msgid ""
+"Numeric Keypad 1-9: Use NVDA Review Mode to read the math content (see the Review "
+"Mode section of the NVDA User Guide)."
+msgstr ""
+"1-9 на цифровом блоке: Используйте режим обзора NVDA для чтения математического "
+"содержимого (см. раздел \"Режим обзора\" Руководства пользователя NVDA)."
+
+#. type: Bullet: '* '
+msgid "Esc key: Quit Interactive Mode."
+msgstr "Клавиша Esc: Выход из интерактивного режима."
+
+#. type: Bullet: '* '
+msgid ""
+"Table navigation: In a math table, use Ctrl + Alt + arrow keys to move up or down a "
+"column, left or right a row. The navigation is the same as NVDA table navigation."
+msgstr ""
+"Навигация по таблице: В математической таблице используйте сочетания клавиш Ctrl + "
+"Alt + стрелки для перемещения вверх или вниз по столбцу, влево или вправо по строке. "
+"Навигация аналогична навигации по таблице NVDA."
+
+#. type: Bullet: '* '
+msgid "Ctrl + Alt + Left arrow: Move to the left column."
+msgstr "Ctrl + Alt + стрелка влево: перейти к столбцу влево."
+
+#. type: Bullet: '* '
+msgid "Ctrl + Alt + Right arrow: Move to the right column."
+msgstr "Ctrl + Alt + стрелка вправо: перейти к столбцу вправо."
+
+#. type: Bullet: '* '
+msgid "Ctrl + Alt + Up arrow: Move to the previous row."
+msgstr "Ctrl + Alt + стрелка вверх: Переход к предыдущей строке."
+
+#. type: Bullet: '* '
+msgid "Ctrl + Alt + Down arrow: Move to the next row."
+msgstr "Ctrl + Alt + стрелка вниз: Переход к следующей строке."
+
+#. type: Title ###
+#, no-wrap
+msgid "Adjust Additional Information for Outputs in Interactive Mode"
+msgstr "Настроить дополнительную информацию для вывода в интерактивном режиме"
+
+#. type: Bullet: '* '
+msgid ""
+"Provide auto-generated additional information: In Interactive Mode, the system "
+"provides additional information about the number of items when meanings of sub-nodes "
+"are not fully defined in a math rule. This feature applies to situations where some "
+"MathML markups may have a variable number of sub-nodes, such as tables, matrices, or "
+"equations. The system provides additional information like \"first column\", "
+"\"second item\", and so on, while navigating. If not willing to hear the additional "
+"information, uncheck this setting."
+msgstr ""
+"Автоматически генерируемая дополнительная информация: В интерактивном режиме система "
+"предоставляет дополнительную информацию о количестве элементов, если значения "
+"подузлов не полностью определены в математическом правиле. Эта функция применима к "
+"ситуациям, когда некоторые разметки MathML могут содержать переменное количество "
+"подузлов, таких как таблицы, матрицы или уравнения. При навигации система "
+"предоставляет дополнительную информацию, такую как \"первый столбец\", \"второй "
+"элемент\" и т.д. Если вы не хотите получать дополнительную информацию, снимите этот "
+"флажок."
+
+#. type: Bullet: '* '
+msgid ""
+"Use an audio effect to indicate that no movement is possible: When checked, a beep "
+"sound appears when it’s not possible to move to a new item; when unchecked, the "
+"sound will be replaced by the text \"no movement\"."
+msgstr ""
+"Использовать звуковой эффект, чтобы указать, что перемещение невозможно: если флажок "
+"установлен, появляется звуковой сигнал, когда невозможно перейти к новому элементу; "
+"если флажок снят, звук будет заменён текстом \"перемещение запрещено\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Writing Features"
+msgstr "Возможности написания"
+
+#. type: Title ###
+#, no-wrap
+msgid "Access8Math Editor and Access8Math Document"
+msgstr "Редактор и документ Access8Math"
+
+#. type: Plain text
+msgid ""
+"Since Windows 11, the editor of Notepad is a Rich Text Editor (RTE) instead of a "
+"traditional editor, so it’s necessary to use Access8Math Editor to be able to use "
+"the writing gestures in Windows 11. The editor also offers the ability to open old "
+"files, save files, preview, and more. On the other hand, in Windows 10 or earlier, "
+"either Access8Math editor or Windows Notepad can be used."
+msgstr ""
+"Начиная с Windows 11, редактор Notepad представляет собой форматированный текстовый "
+"редактор (RTE), а не традиционный редактор, поэтому необходимо использовать редактор "
+"Access8Math, чтобы иметь возможность использовать жесты для записи в Windows 11. "
+"Редактор также предоставляет возможность открывать старые файлы, сохранять их, "
+"просматривать и многое другое. С другой стороны, в Windows 10 или более ранних "
+"версиях можно использовать либо редактор Access8Math, либо блокнот Windows."
+
+#. type: Plain text
+msgid ""
+"With Access8Math editor, it’s possible to write Markdown documents and add resources "
+"such as images and links in the editor. When clicking the Export button in the "
+"editor, the referenced resources in the document will be compressed into a zip file, "
+"which is an Access8Math Document file. Please refer to the \"Importing and "
+"Exporting'' section of this document for more details."
+msgstr ""
+"С помощью редактора Access8Math можно создавать документы Markdown и добавлять в "
+"редакторе такие ресурсы, как изображения и ссылки. При нажатии кнопки \"Экспорт\" в "
+"редакторе ресурсы, на которые ссылаются ссылки в документе, будут сжаты в zip-файл, "
+"который является файлом документа Access8Math. Пожалуйста, обратитесь к разделу "
+"\"Импорт и экспорт\" этого документа для получения более подробной информации."
+
+#. type: Title ###
+#, no-wrap
+msgid "Separators"
+msgstr "Разделители"
+
+#. type: Plain text
+msgid ""
+"When writing, special characters are used to separate text content from math "
+"content. In other words, the content inside the separators is math content written "
+"in a specific math markup, while the content outside is general text content."
+msgstr ""
+"При написании используются специальные символы, чтобы отделить текстовое содержимое "
+"от математического. Другими словами, содержимое внутри разделителей - это "
+"математическое содержимое, написанное с помощью специальной математической разметки, "
+"в то время как содержимое снаружи - это общее текстовое содержимое."
+
+#. type: Plain text
+msgid ""
+"| Category | Staring Separator | Ending Separator | | --- | --- | --- | | LaTeX "
+"(Parentheses) | \\( | \\) | | LaTeX (Dollar sign) | $ | $ | | Nemeth (UEB) | _% | _: "
+"| | Nemeth (at) | @ | @ |"
+msgstr ""
+"| Категория | Начальный Разделитель | Конечный Разделитель | | --- | --- | --- | | "
+"LaTeX (Скобки) | \\( | \\) | | LaTeX (Знаки доллара) | $ | $ | | Код Немета (UEB) | "
+"_% | _: | | Код Немета (at) | @ | @ |"
+
+#. type: Plain text
+#, no-wrap
+msgid "Note: It’s possible to change the separators used in LaTeX/Nemeth in the Settings > Document.\n"
+msgstr "Примечание: Можно изменить разделители, используемые при написании в LaTeX/Кодом Немета, в меню Настройки > документ.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Mixed Content Examples"
+msgstr "Примеры смешанного содержимого"
+
+#. type: Bullet: '* '
+msgid ""
+"LaTeX (Parentheses): The solution to the quadratic equation \\(ax^2+bx+c=0\\) is "
+"\\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\)."
+msgstr ""
+"LaTeX (Скобки): Решением квадратного уравнения \\(ax^2+bx+c=0\\) является "
+"\\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\)."
+
+#. type: Bullet: '* '
+msgid ""
+"LaTeX (Dollar sign): The solution to the quadratic equation $ax^2+bx+c=0$ is "
+"$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$."
+msgstr ""
+"LaTeX (знаки доллара): Решением квадратного уравнения $ax^2+bx+c=0$ является "
+"$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$."
+
+#. type: Bullet: '* '
+msgid ""
+"Nemeth(UEB): The solution to the quadratic equation _%⠁⠭⠘⠆⠐⠬⠃⠭⠬⠉⠀⠨⠅⠀⠴_: is "
+"_%⠭⠀⠨⠅⠀⠹⠤⠃⠬⠤⠜⠃⠘⠆⠐⠤⠲⠁⠉⠻⠌⠆⠁⠼_:."
+msgstr ""
+"Код Немета (UEB): Решением квадратного уравнения _%⠁⠭⠘⠆⠐⠬⠃⠭⠬⠉⠀⠨⠅⠀⠴_: является "
+"_%⠭⠀⠨⠅⠀⠹⠤⠃⠬⠤⠜⠃⠘⠆⠐⠤⠲⠁⠉⠻⠌⠆⠁⠼_:."
+
+#. type: Bullet: '* '
+msgid ""
+"Nemeth(at): The solution to the quadratic equation @⠁⠭⠘⠆⠐⠬⠃⠭⠬⠉⠀⠨⠅⠀⠴@ is "
+"@⠭⠀⠨⠅⠀⠹⠤⠃⠬⠤⠜⠃⠘⠆⠐⠤⠲⠁⠉⠻⠌⠆⠁⠼@."
+msgstr ""
+"Nemeth(at): Решение квадратного уравнения @⠁⠭⠘⠆⠐⠬⠃⠭⠬⠉⠀⠨⠅⠀⠴@ является "
+"@⠭⠀⠨⠅⠀⠹⠤⠃⠬⠤⠜⠃⠘⠆⠐⠤⠲⠁⠉⠻⠌⠆⠁⠼@."
+
+#. type: Bullet: '* '
+msgid ""
+"MathML: The solution to the quadratic equation <math display=\"inline\"><mi>a</"
+"mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</"
+"mi><mo>=</mo><mn>0</mn></math> is <math display=\"inline\"><mfrac><mrow><mo>−</"
+"mo><mi>b</mi><mi>±</mi><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</"
+"mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></"
+"math>."
+msgstr ""
+"MathML: Решением квадратного уравнения <math display=\"inline\"><mi>a</"
+"mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</"
+"mi><mo>=</mo><mn>0</mn></math> является <math display=\"inline\"><mfrac><mrow><mo>-</"
+"mo><mi>b</mi><mi>±</mi><msqrt><msup><mi>b</mi><mn>2</mn></msup><mo>-</mo><mn>4</"
+"mn><mi>a</mi><mi>c</mi></msqrt></mrow><mrow><mn>2</mn><mi>a</mi></mrow></mfrac></"
+"math>."
+
+#. type: Title ###
+#, no-wrap
+msgid "Command Gestures (Toggle: NVDA + Alt + C)"
+msgstr "Командные жесты (переключение: NVDA + Alt + C)"
+
+#. type: Bullet: '* '
+msgid ""
+"Alt + M: Display the markup command menu. In the window, select LaTeX/Nemeth, and "
+"press Enter. It will add the LaTeX/Nemeth markups before and after the currently "
+"selected text (or at the current editing cursor if no text is selected), and "
+"automatically move the editing cursor into the markups."
+msgstr ""
+"Alt + M: Отобразить меню команд разметки. В открывшемся окне выберите LaTeX/Nemeth и "
+"нажмите Enter. Он добавит разметки LaTeX/Nemeth до и после текущего выделенного "
+"текста (или к текущему курсору редактирования, если текст не выделен) и "
+"автоматически переместит курсор редактирования в эти разметки."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt + L: Display the LaTeX command menu (virtual menu). In the window, select a "
+"LaTeX command item, and press Enter. The corresponding LaTeX syntax will be added to "
+"the current editing cursor, and the editing cursor will be moved to the appropriate "
+"input point automatically. If the editing cursor is not in the LaTeX area, the "
+"starting and ending separators will be added automatically."
+msgstr ""
+"Alt + L: Отобразить меню команд LaTeX (виртуальное меню). В окне выберите пункт "
+"команды LaTeX и нажмите Enter. К текущему курсору редактирования будет добавлен "
+"соответствующий синтаксис LaTeX, и курсор редактирования будет автоматически "
+"перемещён в соответствующую точку ввода. Если курсор редактирования находится не в "
+"области LaTeX, начальный и конечный разделители будут добавлены автоматически."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* LaTeX Command Menu\n"
+"    * In this command menu, use the up and down arrow to select items in the list, and use the right and left arrow to enter or quit a sub-menu. The LaTeX command menu contains two levels: categories and LaTeX markups. For example, use the up and down arrow to select a category in the category list, then use the right arrow to enter the LaTeX markup sub-menu to select the LaTeX markup to be inserted.\n"
+"    * Select any LaTeX command item and press A ~ Z or F1 ~ F12 to set the shortcut gesture.\n"
+"    * Select any LaTeX command item and press Delete/Backspace to remove the set shortcut gesture.\n"
+"    * Select any LaTeX command item and press Enter to add the corresponding LaTeX syntax to the current editing cursor.\n"
+"* Alt + I: Interact with the math block when the editing cursor is over it.\n"
+"* Alt + H: Show the view command menu (virtual menu) for preview or export. Please refer to the “Import and Export” section for more details.\n"
+msgstr ""
+"* Командное меню LaTeX\n"
+"    * В этом командном меню используйте стрелки вверх и вниз для выбора элементов в списке, а также стрелки вправо и влево для входа в подменю или выхода из него. Командное меню LaTeX содержит два уровня: категории и разметки LaTeX. Например, используйте стрелки вверх и вниз, чтобы выбрать категорию в списке категорий, затем используйте стрелку вправо, чтобы войти в подменю разметки LaTeX и выбрать вставляемую разметку LaTeX.\n"
+"    * Выберите любой элемент команды LaTeX и нажмите ~ Z или F1 ~ F12 для выбора быстрого жеста.\n"
+"    * Выберите любой элемент команды LaTeX и нажмите Delete/Backspace, чтобы удалить установленный жест быстрого доступа.\n"
+"    * Выберите любой элемент команды LaTeX и нажмите Enter, чтобы добавить соответствующий синтаксис LaTeX к текущему курсору редактирования.\n"
+"* Alt + I: Взаимодействовать с математическим блоком, когда на нём находится курсор редактирования.\n"
+"* Alt + H: Показать меню просмотра команд (виртуальное меню) для предварительного просмотра или экспорта. Для получения более подробной информации обратитесь к разделу “Импорт и экспорт”.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "Note: Enable or disable command gestures at startup in Settings > Writing. Press NVDA + Alt + C in the editing area to enable or disable the command gesture. The shortcut can be changed in the NVDA input gestures.\n"
+msgstr "Примечание: Включите или отключите командные жесты при запуске в меню Настройки > Запись. Нажмите NVDA + Alt + C в области редактирования, чтобы включить или отключить командный жест. Ярлык можно изменить в жестах ввода NVDA.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Shortcut Gestures (Toggle: NVDA + Alt + S)"
+msgstr "Быстрые жесты (переключение: NVDA + Alt + S)"
+
+#. type: Plain text
+msgid ""
+"When the editing cursor is in the LaTeX block, press A ~ Z or F1 ~ F12 to quickly "
+"insert the bound LaTeX, and press Shift + Alphabets, Shift + F1 ~ F12 to read out "
+"the bound LaTeX of the shortcut gesture (it’s necessary to set up the shortcut "
+"gesture in the LaTeX Command Menu first)."
+msgstr ""
+"Когда курсор редактирования находится в блоке LaTeX, нажмите A ~ Z или F1 ~ F12, "
+"чтобы быстро вставить привязанный LaTeX, и нажмите Shift + буквы, Shift + F1 ~ F12, "
+"чтобы прочитать привязанный быстрый жест LaTeX (сначала необходимо настроить быстрый "
+"жест в командном меню LaTeX)."
+
+#. type: Plain text
+#, no-wrap
+msgid "Note: Enable or disable shortcut gestures at startup in Settings > Writing. Press NVDA + Alt + S in the editor to enable or disable shortcut gestures. The shortcut can be changed in the NVDA input gestures.\n"
+msgstr "Примечание: Включить или отключить жесты быстрого доступа при запуске в меню Настройки > Написание. Нажмите NVDA + Alt + S в редакторе, чтобы включить или отключить жесты быстрого доступа. Горячую клавишу можно изменить в меню жестов ввода NVDA.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Greek Alphabets Gestures (Toggle: NVDA + Alt + G)"
+msgstr "Жесты греческого алфавита (Переключить: NVDA + Alt + G)"
+
+#. type: Plain text
+msgid ""
+"When the editing cursor is in the LaTeX block, press a letter key to quickly insert "
+"the LaTeX markup of the corresponding Greek letter. See the \"Appendix\" of this "
+"document for Alphabet to Greek Alphabet Table."
+msgstr ""
+"Когда курсор редактирования находится в блоке LaTeX, нажмите буквенную клавишу, "
+"чтобы быстро вставить разметку LaTeX соответствующей греческой буквы. Таблицу "
+"преобразования алфавита в греческий смотрите в \"Приложении\" к этому документу."
+
+#. type: Title ###
+#, no-wrap
+msgid "Editing and Navigating Between Blocks "
+msgstr "Редактирование и навигация между блоками "
+
+#. type: Plain text
+msgid ""
+"In Access8Math editor, content separated by separators is treated as different "
+"blocks, such as text blocks and math content blocks. The editing cursor can be "
+"quickly moved between different blocks using the block navigation."
+msgstr ""
+"В редакторе Access8Math содержимое, разделенное разделителями, рассматривается как "
+"различные блоки, такие как текстовые блоки и блоки математического содержимого. "
+"Курсор редактирования можно быстро перемещать между различными блоками с помощью "
+"навигации по блокам."
+
+#. type: Plain text
+msgid ""
+"Take the content \"The solution of the quadratic equation \\(ax^2+bx+c=0\\) is "
+"\\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\)\" as an example, there are two main math "
+"content blocks and two text blocks, which can be labeled as Block A, Block B, Block "
+"C and Block D:"
+msgstr ""
+"Возьмём в качестве примера содержание \"Решение квадратного уравнения "
+"\\(ax^2+bx+c=0\\) is \\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\)\", в котором есть два "
+"основных блоки математического содержания и два текстовых блока, которые могут быть "
+"обозначены как Блок A, Блок B, блок C и блок D:"
+
+#. type: Bullet: '* '
+msgid ""
+"Block A: The six words \"The solution of the quadratic equation\" is one text block."
+msgstr ""
+"Блок A: Шесть слов \"Решение квадратного уравнения\" - это один текстовый блок."
+
+#. type: Bullet: '* '
+msgid ""
+"Block B: The math block \\(ax^2+bx+c=0\\) starts with a starting separator and ends "
+"with the ending separator after 0."
+msgstr ""
+"Блок B: Математический блок \\(ax^2+bx+c=0\\) начинается с начального разделителя и "
+"заканчивается конечным разделителем после 0."
+
+#. type: Bullet: '* '
+msgid "Block C: The word \"is\" is another text block."
+msgstr "Блок C: Слово \"есть\" - это еще один текстовый блок."
+
+#. type: Bullet: '* '
+msgid ""
+"Block D: The second math block \\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\) starts with "
+"the starting separator and ends with the closing separator after the whole "
+"expression."
+msgstr ""
+"Блок D: Второй математический блок \\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\) "
+"начинается с начального разделителя и заканчивается конечным разделителем после "
+"всего выражения."
+
+#. type: Title ####
+#, no-wrap
+msgid "Block Navigation Gestures (Toggle: NVDA + Alt + N)"
+msgstr "Жесты навигации по блокам (Переключить: NVDA + Alt + N)"
+
+#. type: Bullet: '* '
+msgid "Alt + Left arrow: Move to the beginning of the previous block."
+msgstr "Alt + Стрелка влево: Перейти к началу предыдущего блока."
+
+#. type: Bullet: '* '
+msgid "Alt + Down arrow: Read out the content of the current block without moving."
+msgstr "Alt + Стрелка вниз: Прочитать содержимое текущего блока без перемещения."
+
+#. type: Bullet: '* '
+msgid "Alt + Right arrow: Move to the beginning of the next block."
+msgstr "Alt + Стрелка вправо: Перейти к началу следующего блока."
+
+#. type: Bullet: '* '
+msgid "Alt + Home: Move to the beginning of the current block."
+msgstr "Alt + Home: Перейти к началу текущего блока."
+
+#. type: Bullet: '* '
+msgid "Alt + End: Move to the end of the current block."
+msgstr "Alt + End: Перейти к концу текущего блока."
+
+#. type: Bullet: '* '
+msgid "Alt + Shift + Left arrow: Move to the previous block and select it."
+msgstr "Alt + Shift + Стрелка влево: Перейти к предыдущему блоку и выделить его."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt + Shift + Down arrow: Select the content of the current data block without "
+"moving."
+msgstr ""
+"Alt + Shift + Стрелка вниз: Выделить содержимое текущего блока данных без "
+"перемещения."
+
+#. type: Bullet: '* '
+msgid "Alt + Shift + Right arrow: Move to the next block and select it."
+msgstr "Alt + Shift + Стрелка вправо: Перейти к следующему блоку и выделить его."
+
+#. type: Plain text
+#, no-wrap
+msgid "Note: Enable or disable block navigation gestures at startup in Settings > Writing. Press NVDA + Alt + N in the editor to enable or disable block navigation gestures. The shortcut can be changed in the NVDA input gestures.\n"
+msgstr "Примечание: Включите или отключите жесты навигации по блокам при запуске в меню Настройки > Написание. Нажмите NVDA + Alt + N в редакторе, чтобы включить или отключить жесты навигации по блокам. Горячую клавишу можно изменить в меню жестов ввода NVDA.\n"
+
+#. type: Title ####
+#, no-wrap
+msgid "Block Browse Mode (Toggle: NVDA + Space)"
+msgstr "Режим обзора по блокам (Переключить: NVDA + Пробел)"
+
+#. type: Plain text
+msgid ""
+"When using the Block Browsing mode, the system will output the mathematical meaning "
+"of the content instead of the original math markup of the current block. For "
+"example, “\\(\\frac{1}{2}\\) as a decimal is 0.5” will output as \"1 over 2 as a "
+"decimal is 0.5\" instead of “\\(\\frac{1}{2}\\) as a decimal is 0.5”."
+msgstr ""
+"При использовании режима обзора по блокам система будет выводить математический "
+"смысл содержимого вместо исходной математической разметки текущего блока. Например, "
+"“\\(\\frac{1}{2}\\) as a decimal is 0.5” will output as \"1 over 2 as a decimal is "
+"0.5\" instead of “\\(\\frac{1}{2}\\) as a decimal is 0.5”."
+
+#. type: Plain text
+msgid ""
+"Use the following gestures to move the editing cursor and enter the Interactive Mode:"
+msgstr ""
+"Используйте следующие жесты, чтобы переместить курсор редактирования и перейти в "
+"интерактивный режим:"
+
+#. type: Bullet: '* '
+msgid "Left arrow: Move to the beginning of the previous block and read it."
+msgstr "Стрелка влево: Перейти к началу предыдущего блока и прочитать его."
+
+#. type: Bullet: '* '
+msgid "Right arrow: Move to the beginning of the next block and read it."
+msgstr "Стрелка вправо: Перейти к началу следующего блока и прочитать его."
+
+#. type: Bullet: '* '
+msgid "Up arrow: Move to the previous line and read all the blocks in that line."
+msgstr ""
+"Стрелка вверх: Перейти к предыдущей строке и прочитать все блоки в этой строке."
+
+#. type: Bullet: '* '
+msgid "Down arrow: Move to the next line and read all the blocks in that line."
+msgstr "Стрелка вниз: Перейти к следующей строке и прочитать все блоки в этой строке."
+
+#. type: Bullet: '* '
+msgid "Page Up: Move up ten lines and read all the blocks in this area."
+msgstr "Page Up: Перейти на десять строк вверх и прочитать все блоки в этой области."
+
+#. type: Bullet: '* '
+msgid "Page Down: Move down ten lines and read all the blocks in this area."
+msgstr "Page Down: Перейти вниз на десять строк и прочитать все блоки в этой области."
+
+#. type: Bullet: '* '
+msgid "Home: Move to the first block of the line where the editing cursor is located."
+msgstr ""
+"Home: Перейти к первому блоку строки, на которой находится курсор редактирования."
+
+#. type: Bullet: '* '
+msgid "End: Move to the last block of the line where the editing cursor is located."
+msgstr ""
+"End: Перейти к последнему блоку строки, на которой находится курсор редактирования."
+
+#. type: Plain text
+msgid "Press Shift with the above keys to select the text."
+msgstr "Нажмите Shift с вышеуказанными клавишами, чтобы выделить текст."
+
+#. type: Bullet: '* '
+msgid ""
+"Space/Enter: Press Space/Enter when the editing cursor is on a math block to enter "
+"the Interactive Mode."
+msgstr ""
+"Пробел/Enter: Нажмите пробел/Enter, когда курсор редактирования находится на "
+"математическом блоке, чтобы перейти в интерактивный режим."
+
+#. type: Plain text
+msgid ""
+"If pressing the following keys only, the editing cursor will jump to the next block "
+"of that type. If pressing Shift + the key at the same time, the editing cursor will "
+"jump to the previous block of that type:"
+msgstr ""
+"При нажатии только следующих клавиш курсор редактирования перейдёт к следующему "
+"блоку этого типа. При одновременном нажатии Shift + клавиши курсор редактирования "
+"перейдёт к предыдущему блоку этого типа:"
+
+#. type: Bullet: '* '
+msgid "L: Move to the next LaTeX block and read it."
+msgstr "L: Перейти к следующему блоку LaTeX и прочитать его."
+
+#. type: Bullet: '* '
+msgid "N: Move to the next Nemeth block and read it."
+msgstr "N: Перейти к следующему блоку кода Немета и прочитать его."
+
+#. type: Bullet: '* '
+msgid "M: Move to the next MathML block and read it."
+msgstr "M: Перейти к следующему блоку MathML и прочитать его."
+
+#. type: Bullet: '* '
+msgid "T: Move to the next text block and read it."
+msgstr "T: Перейти к следующему текстовому блоку и прочитать его."
+
+#. type: Bullet: '* '
+msgid "Tab: Move to the next interactive block (Math block) and read it."
+msgstr ""
+"Tab: Перейти к следующему интерактивному блоку (математическому блоку) и прочитать "
+"его."
+
+#. type: Plain text
+msgid "Use the following gestures to edit the document:"
+msgstr "Для редактирования документа используйте следующие жесты:"
+
+#. type: Bullet: '* '
+msgid "Ctrl + X: Cut the contents of the current editing block."
+msgstr "Ctrl + X: Вырезать содержимое текущего блока редактирования."
+
+#. type: Bullet: '* '
+msgid "Ctrl + C: Copy the content of the current editing block."
+msgstr "Ctrl + C: Скопировать содержимое текущего блока редактирования."
+
+#. type: Bullet: '* '
+msgid "Ctrl + V: Paste the content behind the current editing block."
+msgstr "Ctrl + V: Вставить содержимое за текущий блок редактирования."
+
+#. type: Bullet: '* '
+msgid "Delete/Backspace: Delete the content of the current block."
+msgstr "Delete/Backspace: Удалить содержимое текущего блока."
+
+#. type: Title ###
+#, no-wrap
+msgid "Import and Export"
+msgstr "Импорт и экспорт"
+
+#. type: Title ####
+#, no-wrap
+msgid "Export a Document"
+msgstr "Экспорт документа"
+
+#. type: Plain text
+msgid ""
+"Using the View menu in the Access8Math editor or the command gesture Alt + H can "
+"display the Export option in the View command menu. By exporting, the system "
+"converts the edited document to an HTML file and compresses it with the original "
+"text file into an Access8Math Document, which is a zip file."
+msgstr ""
+"Используя меню \"Вид\" в редакторе Access8Math или командный жест Alt + H, можно "
+"отобразить опцию \"Экспорт\" в командном меню \"Вид\". При экспорте система "
+"преобразует отредактированный документ в HTML-файл и сжимает его вместе с исходным "
+"текстовым файлом в документ Access8Math, который представляет собой zip-файл."
+
+#. type: Plain text
+msgid ""
+"Both methods create an Access8Math document. The only difference is that using the "
+"Export option in the Access8Math editor also compresses the referenced resources "
+"into the zip file."
+msgstr ""
+"Оба метода создают документ Access8Math. Единственное различие заключается в том, "
+"что при использовании опции экспорта в редакторе Access8Math ресурсы, на которые "
+"имеются ссылки, также сжимаются в zip-файл."
+
+#. type: Plain text
+msgid ""
+"An Access8Math Document contains an HTML file with math content in MathML. Users can "
+"read the math content in various ways (text reading, speech listening, braille "
+"reading)."
+msgstr ""
+"Документ Access8Math содержит HTML-файл с математическим содержимым в формате "
+"MathML. Пользователи могут читать математическое содержимое различными способами "
+"(чтение текста, прослушивание речи, чтение по Брайлю)."
+
+#. type: Title ####
+#, no-wrap
+msgid "Import a Document"
+msgstr "Импорт документа"
+
+#. type: Plain text
+msgid ""
+"In the File Explorer, press the NVDA + application key. When the selected file is an "
+"Access8Math Document, a virtual context menu will be displayed, allowing users to "
+"quickly open the file for viewing or editing."
+msgstr ""
+"В проводнике нажмите клавишу NVDA + application. Если выбранный файл является "
+"документом Access8Math, отобразится виртуальное контекстное меню, позволяющее "
+"пользователям быстро открыть файл для просмотра или редактирования."
+
+#. type: Plain text
+#, no-wrap
+msgid "Note: Configure whether or not the math objects in the exported HTML are independant blocks with the “HTML Math Display'' setting in Settings > File. This setting will affect whether the math objects are read independently or mixed with normal text when navigating with arrow keys to read the whole line in the Browse Mode.\n"
+msgstr "Примечание: Настройте, являются ли математические объекты в экспортированном HTML-файле независимыми блоками, установив параметр “Математическое отображение HTML\" в разделе \"Настройки\" > \"Файл\". Этот параметр влияет на то, будут ли математические объекты считываться независимо или смешиваться с обычным текстом при навигации с помощью клавиш со стрелками для чтения всей строки в режиме обзора.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Virtual Menus"
+msgstr "Виртуальные меню"
+
+#. type: Plain text
+msgid ""
+"Virtual menus will be presented only as speech and braille outputs. There is no "
+"actual visual menu. Select an item in the list by using the up/down arrow. If the "
+"menu item has a sub-menu, use the right key to enter the sub-menu; use the left key "
+"to exit the sub-menu."
+msgstr ""
+"Виртуальные меню будут присутствовать только в виде речи и по Брайлю. Реального "
+"визуального меню нет. Выберите элемент в списке с помощью стрелок вверх/вниз. Если "
+"элемент меню содержит подменю, используйте стрелку вправо для входа в подменю; "
+"используйте стрелку влево для выхода из подменю."
+
+#. type: Title ##
+#, no-wrap
+msgid "Localisation"
+msgstr "Локализация"
+
+#. type: Title ###
+#, no-wrap
+msgid "Adding a New Language"
+msgstr "Добавление нового языка"
+
+#. type: Plain text
+#, no-wrap
+msgid "By clicking this option in the “Localisation” menu, languages that are not originally supported by the system can be added. Once added, the newly added language will appear in the \"Settings\" > \"Reading\" > \"Language\" menu. However, the added language is only a copy of the English language template. The speech and Braille outputs need to be defined through \"Symbol Dictionary\" and \"Math Rules\" to achieve customized localization.\n"
+msgstr "Выбрав эту опцию в меню “Локализация”, можно добавить языки, которые изначально не поддерживались системой. После добавления новый язык появится в меню \"Настройки\" > \"Чтение\" > \"Язык\". Однако добавленный язык является всего лишь копией шаблона на английском языке. Для индивидуальной локализации необходимо настроить речевой и шрифт Брайля в \"Словаре символов\" и \"Математических правилах\".\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Customizing Speech and Braille Outputs for Math Symbols"
+msgstr "Настройка речевого вывода и вывода по Брайлю математических символов"
+
+#. type: Plain text
+#, no-wrap
+msgid "In the \"Tools\" > \"Access8Math\" > \"Localization\" menu, speech and Braille outputs can be customized. Both speech and Braille outputs are divided into two parts: \"Symbol Dictionary\" and \"Math Rules.\"\n"
+msgstr "В меню \"Сервис\" > \"Access8Math\" > \"Локализация\" можно настроить речевой вывод и вывод по Брайлю. Речевой вывод и вывод по Брайлю разделены на две части: \"Словарь символов\" и \"Математические правила\".\n"
+
+#. type: Bullet: '* '
+msgid "Symbol Speech Dictionary: Customize how different math symbols are read."
+msgstr ""
+"Словарь речевых символов: Настройте способ чтения различных математических символов."
+
+#. type: Bullet: '* '
+msgid "Math Rules Speech Output: Customize how different math rules are read."
+msgstr ""
+"Речевой вывод математических правил: Настройте способ чтения различных "
+"математических правил."
+
+#. type: Bullet: '* '
+msgid ""
+"Symbol Braille Dictionary: Customize how different math symbols are displayed in "
+"Braille outputs."
+msgstr ""
+"Словарь символов Брайля: Настройте способ отображения различных математических "
+"символов вывода по Брайлю."
+
+#. type: Bullet: '* '
+msgid ""
+"Math Rules Braille Output: Customize how different math rules are displayed in "
+"Braille outputs."
+msgstr ""
+"Математические правила вывода по Брайлю: Настройте способ отображения различных "
+"математических правил в выводе по Брайлю."
+
+#. type: Title ###
+#, no-wrap
+msgid "Editing Symbol Dictionary"
+msgstr "Редактирование словаря символов"
+
+#. type: Plain text
+msgid ""
+"Access8Math maps specific symbols to corresponding text/ braille outputs through a "
+"dictionary file to solve issues where rare symbols cannot be read by speech "
+"synthesizers or where symbols have different meanings between mathematical contexts "
+"and general text."
+msgstr ""
+"Access8Math сопоставляет определенные символы с соответствующими текстовыми/ "
+"набранными шрифтом Брайля выводами через файл словаря, чтобы решить проблемы, когда "
+"редкие символы не могут быть прочитаны синтезаторами речи или когда символы имеют "
+"разные значения в математическом контексте и в общем тексте."
+
+#. type: Plain text
+msgid ""
+"For example, \"!\" means \"factorial\" in mathematical content, while in general "
+"text it represents emotion. By editing the dictionary file, symbols can be mapped to "
+"new alternative texts or Braille outputs to update incorrect outputs.."
+msgstr ""
+"Например, \"!\" означает \"факториал\" в математическом содержании, в то время как в "
+"обычном тексте он обозначает эмоцию. Отредактировав файл словаря, символы можно "
+"сопоставить с новыми альтернативными текстами или выводами Брайля, чтобы обновить "
+"неверные выходные данные.."
+
+#. type: Bullet: '* '
+msgid ""
+"Add: Introduce a new symbol entry to the dictionary. After selecting the add button, "
+"enter the desired symbol in the dialog box and confirm. Then, the added symbol will "
+"appear in the entry list in the Symbol Dictionary dialog."
+msgstr ""
+"Добавить: Внесите новую запись о символе в словарь. После нажатия кнопки "
+"\"Добавить\" введите нужный символ в диалоге и подтвердите. После этого добавленный "
+"символ появится в списке записей в диалоге \"Словарь символов\"."
+
+#. type: Bullet: '* '
+msgid ""
+"Modify: Choose a symbol and edit its alternative text. The system will then read out "
+"and display Braille outputs based on the alternative text."
+msgstr ""
+"Изменить: выберите символ и отредактируйте его альтернативный текст. Затем система "
+"будет считывать и отображать данные, набранные поБрайлю, на основе альтернативного "
+"текста."
+
+#. type: Bullet: '* '
+msgid ""
+"Remove: Select a symbol and press the remove button to eliminate the chosen entry."
+msgstr ""
+"Удалить: Выберите символ и нажмите кнопку удалить, чтобы удалить выбранную запись."
+
+#. type: Bullet: '* '
+msgid ""
+"Restore Default Values: Reset the dictionary to the default entries defined by the "
+"system."
+msgstr ""
+"Восстановить значения по умолчанию: восстановить в словаре значения по умолчанию, "
+"определенные системой."
+
+#. type: Bullet: '* '
+msgid ""
+"Import: Bring in a symbol dictionary file, which can load exported symbol dictionary "
+"files."
+msgstr ""
+"Импорт: введите файл словаря символов, который может загружать экспортированные "
+"файлы словаря символов."
+
+#. type: Bullet: '* '
+msgid ""
+"Export: Save the symbol dictionary file to a specified path for sharing or saving."
+msgstr ""
+"Экспорт: Сохранить файл словаря символов по указанному пути для совместного "
+"использования или сохранения."
+
+#. type: Title ###
+#, no-wrap
+msgid "Editing Math Rules"
+msgstr "Редактирование математических правил"
+
+#. type: Plain text
+msgid ""
+"Access8Math establishes corresponding mathematical rules for the MathML structure of "
+"commonly used math content. When encountering MathML structures that match the "
+"rules, the system will read out and display them according to the content defined in "
+"the mathematical rules. The speech outputs and Braille outputs can be customized "
+"according to the habits of different regions."
+msgstr ""
+"Access8Math устанавливает соответствующие математические правила для структуры "
+"MathML часто используемого математического содержимого. При обнаружении структур "
+"MathML, которые соответствуют правилам, система считывает и отображает их в "
+"соответствии с содержанием, определенным в математических правилах. Речевой и по "
+"Брайлю выводы могут быть настроены в соответствии с особенностями различных регионов."
+
+#. type: Bullet: '* '
+msgid ""
+"Edit: In the Math Rules dialog, there is a list of mathematical rules. Select any "
+"rule and click the \"Edit\" button to enter the editing dialog. The editable fields "
+"of the rule can be divided into two parts, \"Serialization Order\" and "
+"\"Mathematical Meaning of Specific Nodes.\""
+msgstr ""
+"Редактировать: В диалоговом окне \"Математические правила\" отображается список "
+"математических правил. Выберите любое правило и нажмите кнопку \"Редактировать\", "
+"чтобы перейти в диалоговое окно редактирования. Редактируемые поля правила можно "
+"разделить на две части: \"Порядок сериализации\" и \"Математическое значение "
+"определенных узлов\"."
+
+#. type: Bullet: '  * '
+msgid ""
+"Serialization Order: In Access8Math, each math rule is divided into several "
+"segments, and these segments are output in a specific order. In this section, the "
+"output order of specific segments, as well as the text at the beginning, between "
+"segments, and at the end can be adjusted. For example, in the fraction rule "
+"\"mfrac\", this rule is divided into five segments. Orders 0, 2, and 4 represent the "
+"starting text, the separating text between segments 1 and 3, and the ending text. "
+"Each text can be adjusted according to preference. Orders 1 and 3 allow adjustments "
+"to the output order of specific segments by the drop-down menu."
+msgstr ""
+"Порядок сериализации: В Access8Math каждое математическое правило разделено на "
+"несколько сегментов, и эти сегменты выводятся в определенном порядке. В этом разделе "
+"можно настроить порядок вывода определенных сегментов, а также текст в начале, между "
+"сегментами и в конце. Например, в правиле дроби \"mfrac\" это правило разделено на "
+"пять сегментов. Порядковые номера 0, 2 и 4 представляют собой начальный текст, "
+"разделительный текст между сегментами 1 и 3 и конечный текст. Каждый текст может "
+"быть изменен в зависимости от предпочтений. Заказы 1 и 3 позволяют изменять порядок "
+"вывода определенных сегментов с помощью выпадающего меню."
+
+#. type: Bullet: '  * '
+msgid ""
+"Mathematical Meaning of Specific Nodes: The mathematical meaning of specific "
+"segments of the math rule can be adjusted in this section. Taking the fraction rule "
+"\"mfrac\" as an example, this rule contains two specific segments: the numerator and "
+"the denominator. You can change the meaning of each specific segment according to "
+"the math rule."
+msgstr ""
+"Математическое значение определенных узлов: в этом разделе можно настроить "
+"математическое значение определенных сегментов математического правила. В качестве "
+"примера возьмем правило дробей \"mfrac\", которое содержит два определенных "
+"сегмента: числитель и знаменатель. Вы можете изменить значение каждого конкретного "
+"сегмента в соответствии с математическим правилом."
+
+#. type: Bullet: '* '
+msgid ""
+"Example: Verify if a rule is read in the correct way after editing. Clicking the "
+"“Example” button will bring up default mathematical content that matches the "
+"corresponding mathematical rule. Users can interact with the content to see whether "
+"a rule is read in the correct way."
+msgstr ""
+"Пример: Проверьте, правильно ли прочитано правило после редактирования. Нажав на "
+"кнопку “Пример”, вы увидите математическое содержимое по умолчанию, соответствующее "
+"данному математическому правилу. Пользователи могут взаимодействовать с содержимым, "
+"чтобы увидеть, правильно ли прочитано правило."
+
+#. type: Bullet: '* '
+msgid ""
+"Restore Default Values: Reset the list of mathematical rules to the initial default "
+"values."
+msgstr ""
+"Восстановить значения по умолчанию: Вернуть список математических правил к исходным "
+"значениям по умолчанию."
+
+#. type: Bullet: '* '
+msgid ""
+"Import: Import a mathematical rules file, which can be used to load exported "
+"mathematical rules files."
+msgstr ""
+"Импорт: импортировать файл математических правил, который можно использовать для "
+"загрузки экспортированных файлов математических правил."
+
+#. type: Bullet: '* '
+msgid ""
+"Export: Save the mathematical rules file to the specified path for sharing or saving."
+msgstr ""
+"Экспорт: Сохранить файл математических правил по указанному пути для совместного "
+"использования или сохранения."
+
+#. type: Plain text
+msgid ""
+"If you are interested in localizing symbol dictionaries and mathematical rules, edit "
+"them through these two windows, and use the export function to obtain edited files. "
+"Then, you can provide these files to the development team through Access8Math GitHub "
+"Pull requests or Email (tsengwoody.tw@gmail.com). We would be happy to include your "
+"translation in Access8Math."
+msgstr ""
+"Если вы заинтересованы в локализации словарей символов и математических правил, "
+"отредактируйте их через эти два окна и используйте функцию экспорта для получения "
+"отредактированных файлов. Затем вы можете предоставить эти файлы команде "
+"разработчиков через Access8Math на GitHub или по электронной почте (tsengwoody."
+"tw@gmail.com). Мы будем рады включить ваш перевод в Access8Math."
+
+#. type: Title ##
+#, no-wrap
+msgid "Appendix"
+msgstr "Приложение"
+
+#. type: Title ###
+#, no-wrap
+msgid "LaTeX Menu"
+msgstr "Меню LaTeX"
+
+#. type: Plain text
+msgid ""
+"| id | latex | category | order | label | | --- | --- | --- | --- | --- | | "
+"matrix2X2 | \\left [ \\begin{matrix} {} &{} \\\\ {} &{} \\end{matrix} \\right ] | 2-"
+"dimension | 0 | matrix (2X2) | | matrix3X3 | \\left [ \\begin{matrix} {} &{} &{} \\"
+"\\ {} &{} &{} \\\\ {} &{} &{} \\end{matrix} \\right ] | 2-dimension | 1 | matrix "
+"(3X3) | | determinant2X2 | \\left | \\begin{array} {cc} {} &{} \\\\ {} &{} "
+"\\end{array} \\right | | 2-dimension | 2 | determinant (2X2) | | determinant3X3 | "
+"\\left | \\begin{array} {ccc} {} &{} &{} \\\\ {} &{} &{} \\\\ {} &{} &{} "
+"\\end{array} \\right | | 2-dimension | 3 | determinant (3X3) | | leftarrow | "
+"\\leftarrow | arrow | 0 | left arrow | | rightarrow | \\rightarrow | arrow | 1 | "
+"right arrow | | leftrightarrow | \\leftrightarrow | arrow | 2 | left right arrow | | "
+"uparrow | \\uparrow | arrow | 3 | up arrow | | downarrow | \\downarrow | arrow | 4 | "
+"down arrow | | updownarrow | \\updownarrow | arrow | 5 | up down arrow | | "
+"dotproduct | \\cdot | calculus | 5 | dot product | | integral | \\int_{}^{}{} "
+"\\mathrm d | calculus | 1 | integral | | nabla | \\nabla | calculus | 2 | nabla | | "
+"partial | \\partial | calculus | 4 | partial derivative | | prime | \\prime | "
+"calculus | 3 | derivative | | differential | \\mathrm{d} | calculus | 0 | "
+"differential | | combination | C_{}^{} | combinatorics | 0 | combination | | "
+"permutation | P_{}^{} | combinatorics | 1 | permutation | | combination-with-"
+"repetition | H_{}^{} | combinatorics | 2 | combination with repetition | | unordered-"
+"selection | U_{}^{} | combinatorics | 3 | unordered selection | | frac | \\frac{}{} "
+"| common | 0 | fractions | | sqrt | \\sqrt{} | common | 1 | square root | | root | "
+"\\sqrt[]{} | common | 2 | root | | sumupdown | \\sum_{}^{} | common | 3 | summation "
+"| | vector | \\vec{} | common | 4 | vector | | limit | \\lim_{{} \\to {}} | common | "
+"5 | limit | | logarithm | \\log_{} | common | 6 | logarithm | | arc | "
+"\\overset{\\frown}{} | geometry | 0 | arc | | triangle | \\triangle{} | geometry | 1 "
+"| triangle | | angle | \\angle{} | geometry | 2 | angle | | degree | ^{\\circ} | "
+"geometry | 3 | degree | | circ | \\circ | geometry | 4 | circle | | parallel | "
+"\\parallel | geometry | 5 | parallel | | perp | \\perp | geometry | 6 | "
+"perpendicular | | square | \\square{} | geometry | 7 | square | | small-diamond | "
+"\\diamond{} | geometry | 8 | small diamond | | large-diamond | \\Diamond{} | "
+"geometry | 9 | large diamond | | because | \\because | logic | 0 | because | | "
+"therefore | \\therefore | logic | 1 | therefore | | iff | \\iff | logic | 2 | if and "
+"only if | | implies | \\implies | logic | 3 | implies | | impliedby | \\impliedby | "
+"logic | 4 | implied by | | times | \\times | operator | 0 | times | | div | \\div | "
+"operator | 1 | divide | | pm | \\pm | operator | 2 | plus-minus sign | | modulus | "
+"\\bmod | operator | 3 | modulus | | overline | \\overline{} | other | 0 | line "
+"segment | | overleftrightarrow | \\overleftrightarrow{} | other | 1 | line | | "
+"overrightarrow | \\overrightarrow{} | other | 2 | ray | | binom | \\binom{}{} | "
+"other | 3 | binomial coefficient | | simultaneous-equations | \\begin{cases} {} &{} "
+"\\\\ {} &{} \\end{cases} | other | 4 | simultaneous equations | | infty | \\infty | "
+"other | 5 | infty | | repeating-decimal | 0.\\overline{} | other | 6 | repeating "
+"decimal | | ge | \\ge | relation | 0 | greater than or equal to | | le | \\le | "
+"relation | 1 | less than or equal to | | ne | \\ne | relation | 2 | not equal to | | "
+"approx | \\approx | relation | 3 | approximate | | cong | \\cong | relation | 5 | "
+"full equal | | sim | \\sim | relation | 6 | similar | | doteqdot | \\doteqdot | "
+"relation | 4 | approximately equal to | | propto | \\propto | relation | 7 | "
+"proportional to | | in | \\in | set | 0 | belong to | | notin | \\not\\in | set | 1 "
+"| not belong to | | ni | \\ni | set | 2 | include element | | notni | \\not\\ni | "
+"set | 3 | not include element | | subset | \\subset | set | 4 | lie in | | "
+"subsetneqq | \\subsetneqq | set | 5 | properly lie in | | not-subset | \\not\\subset "
+"| set | 6 | not lie in | | supset | \\supset | set | 7 | include | | supsetneqq | "
+"\\supsetneqq | set | 8 | properly include | | not-supset | \\not\\supset | set | 9 | "
+"not include | | cap | \\cap | set | 10 | intersection set | | cup | \\cup | set | 11 "
+"| union set | | setminus | \\setminus | set | 12 | difference set | | complement | "
+"\\complement_{} | set | 13 | complement | | emptyset | \\emptyset | set | 14 | empty "
+"set | | natural-number | \\mathbb{N} | set | 15 | natural number | | real-number | "
+"\\mathbb{R} | set | 16 | real number | | forall | \\forall | set | 17 | for all | | "
+"exists | \\exists | set | 18 | exists | | sine | \\sin{} | trigonometric | 0 | sine "
+"| | cosine | \\cos{} | trigonometric | 1 | cosine | | tangent | \\tan{} | "
+"trigonometric | 2 | tangent | | cotangent | \\cot{} | trigonometric | 3 | cotangent "
+"| | secant | \\sec{} | trigonometric | 4 | secant | | cosecant | \\csc{} | "
+"trigonometric | 5 | cosecant | | arcsine | \\arcsin{} | trigonometric | 6 | arcsine "
+"| | arccosine | \\arccos{} | trigonometric | 7 | arccosine | | arctangent | "
+"\\arctan{} | trigonometric | 8 | arctangent | | hyperbolic-sine | \\sinh{} | "
+"trigonometric | 9 | hyperbolic sine | | hyperbolic-cosine | \\cosh{} | trigonometric "
+"| 10 | hyperbolic cosine | | hyperbolic-tangent | \\tanh{} | trigonometric | 11 | "
+"hyperbolic tangent | | hyperbolic-cotangent | \\coth{} | trigonometric | 12 | "
+"hyperbolic cotangent | | floor | \\lfloor \\rfloor | other | 7 | floor | | ceil | "
+"\\lceil \\rceil | other | 8 | ceil |"
+msgstr ""
+"| идентификатор | latex | категория | порядок регистрации | метка | | --- | --- | "
+"--- | --- | --- | | matrix2X2 | \\left [ \\begin{matrix} {} &{} \\\\ {} &{} "
+"\\end{matrix} \\right ] | 2-dimension | 0 | matrix (2X2) | | matrix3X3 | \\left "
+"[ \\begin{matrix} {} &{} &{} \\\\ {} &{} &{} \\\\ {} &{} &{} \\end{matrix} \\right ] "
+"| 2-dimension | 1 | matrix (3X3) | | determinant2X2 | \\left | \\begin{array} {cc} "
+"{} &{} \\\\ {} &{} \\end{array} \\right | | 2-dimension | 2 | determinant (2X2) | | "
+"determinant3X3 | \\left | \\begin{array} {ccc} {} &{} &{} \\\\ {} &{} &{} \\\\ {} "
+"&{} &{} \\end{array} \\right | | 2-dimension | 3 | determinant (3X3) | | leftarrow | "
+"\\leftarrow | arrow | 0 | left arrow | | rightarrow | \\rightarrow | arrow | 1 | "
+"right arrow | | leftrightarrow | \\leftrightarrow | arrow | 2 | left right arrow | | "
+"uparrow | \\uparrow | arrow | 3 | up arrow | | downarrow | \\downarrow | arrow | 4 | "
+"down arrow | | updownarrow | \\updownarrow | arrow | 5 | up down arrow | | "
+"dotproduct | \\cdot | calculus | 5 | dot product | | integral | \\int_{}^{}{} "
+"\\mathrm d | calculus | 1 | integral | | nabla | \\nabla | calculus | 2 | nabla | | "
+"partial | \\partial | calculus | 4 | partial derivative | | prime | \\prime | "
+"calculus | 3 | derivative | | differential | \\mathrm{d} | calculus | 0 | "
+"differential | | combination | C_{}^{} | combinatorics | 0 | combination | | "
+"permutation | P_{}^{} | combinatorics | 1 | permutation | | combination-with-"
+"repetition | H_{}^{} | combinatorics | 2 | combination with repetition | | unordered-"
+"selection | U_{}^{} | combinatorics | 3 | unordered selection | | frac | \\frac{}{} "
+"| common | 0 | fractions | | sqrt | \\sqrt{} | common | 1 | square root | | root | "
+"\\sqrt[]{} | common | 2 | root | | sumupdown | \\sum_{}^{} | common | 3 | summation "
+"| | vector | \\vec{} | common | 4 | vector | | limit | \\lim_{{} \\to {}} | common | "
+"5 | limit | | logarithm | \\log_{} | common | 6 | logarithm | | arc | "
+"\\overset{\\frown}{} | geometry | 0 | arc | | triangle | \\triangle{} | geometry | 1 "
+"| triangle | | angle | \\angle{} | geometry | 2 | angle | | degree | ^{\\circ} | "
+"geometry | 3 | degree | | circ | \\circ | geometry | 4 | circle | | parallel | "
+"\\parallel | geometry | 5 | parallel | | perp | \\perp | geometry | 6 | "
+"perpendicular | | square | \\square{} | geometry | 7 | square | | small-diamond | "
+"\\diamond{} | geometry | 8 | small diamond | | large-diamond | \\Diamond{} | "
+"geometry | 9 | large diamond | | because | \\because | logic | 0 | because | | "
+"therefore | \\therefore | logic | 1 | therefore | | iff | \\iff | logic | 2 | if and "
+"only if | | implies | \\implies | logic | 3 | implies | | impliedby | \\impliedby | "
+"logic | 4 | implied by | | times | \\times | operator | 0 | times | | div | \\div | "
+"operator | 1 | divide | | pm | \\pm | operator | 2 | plus-minus sign | | modulus | "
+"\\bmod | operator | 3 | modulus | | overline | \\overline{} | other | 0 | line "
+"segment | | overleftrightarrow | \\overleftrightarrow{} | other | 1 | line | | "
+"overrightarrow | \\overrightarrow{} | other | 2 | ray | | binom | \\binom{}{} | "
+"other | 3 | binomial coefficient | | simultaneous-equations | \\begin{cases} {} &{} "
+"\\\\ {} &{} \\end{cases} | other | 4 | simultaneous equations | | infty | \\infty | "
+"other | 5 | infty | | repeating-decimal | 0.\\overline{} | other | 6 | repeating "
+"decimal | | ge | \\ge | relation | 0 | greater than or equal to | | le | \\le | "
+"relation | 1 | less than or equal to | | ne | \\ne | relation | 2 | not equal to | | "
+"approx | \\approx | relation | 3 | approximate | | cong | \\cong | relation | 5 | "
+"full equal | | sim | \\sim | relation | 6 | similar | | doteqdot | \\doteqdot | "
+"relation | 4 | approximately equal to | | propto | \\propto | relation | 7 | "
+"proportional to | | in | \\in | set | 0 | belong to | | notin | \\not\\in | set | 1 "
+"| not belong to | | ni | \\ni | set | 2 | include element | | notni | \\not\\ni | "
+"set | 3 | not include element | | subset | \\subset | set | 4 | lie in | | "
+"subsetneqq | \\subsetneqq | set | 5 | properly lie in | | not-subset | \\not\\subset "
+"| set | 6 | not lie in | | supset | \\supset | set | 7 | include | | supsetneqq | "
+"\\supsetneqq | set | 8 | properly include | | not-supset | \\not\\supset | set | 9 | "
+"not include | | cap | \\cap | set | 10 | intersection set | | cup | \\cup | set | 11 "
+"| union set | | setminus | \\setminus | set | 12 | difference set | | complement | "
+"\\complement_{} | set | 13 | complement | | emptyset | \\emptyset | set | 14 | empty "
+"set | | natural-number | \\mathbb{N} | set | 15 | natural number | | real-number | "
+"\\mathbb{R} | set | 16 | real number | | forall | \\forall | set | 17 | for all | | "
+"exists | \\exists | set | 18 | exists | | sine | \\sin{} | trigonometric | 0 | sine "
+"| | cosine | \\cos{} | trigonometric | 1 | cosine | | tangent | \\tan{} | "
+"trigonometric | 2 | tangent | | cotangent | \\cot{} | trigonometric | 3 | cotangent "
+"| | secant | \\sec{} | trigonometric | 4 | secant | | cosecant | \\csc{} | "
+"trigonometric | 5 | cosecant | | arcsine | \\arcsin{} | trigonometric | 6 | arcsine "
+"| | arccosine | \\arccos{} | trigonometric | 7 | arccosine | | arctangent | "
+"\\arctan{} | trigonometric | 8 | arctangent | | hyperbolic-sine | \\sinh{} | "
+"trigonometric | 9 | hyperbolic sine | | hyperbolic-cosine | \\cosh{} | trigonometric "
+"| 10 | hyperbolic cosine | | hyperbolic-tangent | \\tanh{} | trigonometric | 11 | "
+"hyperbolic tangent | | hyperbolic-cotangent | \\coth{} | trigonometric | 12 | "
+"hyperbolic cotangent | | floor | \\lfloor \\rfloor | other | 7 | floor | | ceil | "
+"\\lceil \\rceil | other | 8 | ceil |"
+
+#. type: Title ###
+#, no-wrap
+msgid "English Alphabets to Greek Alphabets Table"
+msgstr "Таблица соответствия английского алфавита греческому"
+
+#. type: Plain text
+msgid ""
+"| English Alphabet | Greek Alphabet | LaTeX | | --- | --- | --- | | a | α | \\alpha "
+"| | b | β | \\beta | | c | θ | \\theta | | d | δ | \\delta | | e | ε | \\epsilon | | "
+"f | φ | \\phi | | g | γ | \\gamma | | h | η | \\eta | | i | ι | \\iota | | k | κ | "
+"\\kappa | | l | λ | \\lambda | | m | μ | \\mu | | n | ν | \\nu | | o | ο | \\omicron "
+"| | p | π | \\pi | | r | ρ | \\rho | | s | σ | \\sigma | | t | τ | \\tau | | u | υ | "
+"\\upsilon | | v | φ | \\psi | | w | ω | \\omega | | x | χ | \\chi | | y | ξ | \\xi | "
+"| z | ζ | \\zeta |"
+msgstr ""
+"| Английский Алфавит | Греческий Алфавит | LaTeX | | --- | --- | --- | | a | α | "
+"\\alpha | | b | β | \\beta | | c | θ | \\theta | | d | δ | \\delta | | e | ε | "
+"\\epsilon | | f | φ | \\phi | | g | γ | \\gamma | | h | η | \\eta | | i | ι | \\iota "
+"| | k | κ | \\kappa | | l | λ | \\lambda | | m | μ | \\mu | | n | ν | \\nu | | o | ο "
+"| \\omicron | | p | π | \\pi | | r | ρ | \\rho | | s | σ | \\sigma | | t | τ | \\tau "
+"| | u | υ | \\upsilon | | v | φ | \\psi | | w | ω | \\omega | | x | χ | \\chi | | y "
+"| ξ | \\xi | | z | ζ | \\zeta |"
+
+#. type: Title #
+#, no-wrap
+msgid "Access8Math update log"
+msgstr "Журнал обновлений Access8Math"
+
+#. type: Title ##
+#, no-wrap
+msgid "Access8Math v4.0 Update"
+msgstr "Обновление Access8Math версии 4.0"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1"
+msgstr "Совместимость с NVDA 2024.1"
+
+#. type: Bullet: '* '
+msgid "Removed legacy code"
+msgstr "Удален устаревший код"
+
+#. type: Title ##
+#, no-wrap
+msgid "Access8Math v3.8 Update"
+msgstr "Обновление Access8Math версии 3.8"
+
+#. type: Bullet: '* '
+msgid ""
+"Added table navigation support (ctrl+alt+arrow keys) for Mtable in interactive mode."
+msgstr ""
+"Добавлена поддержка навигации по таблицам (ctrl+alt+ клавиши-стрелки) для Mtable в "
+"интерактивном режиме."
+
+#. type: Bullet: '* '
+msgid ""
+"Added new categories to the LaTeX menu, including Geometry, Combinatorics, "
+"Trigonometric Functions, and Calculus."
+msgstr ""
+"Добавлены новые категории в меню LaTeX, включая геометрию, комбинаторику, "
+"тригонометрические функции и математический анализ."
+
+#. type: Bullet: '* '
+msgid "Added new items to the LaTeX menu."
+msgstr "Добавлены новые пункты в меню LaTeX."
+
+#. type: Bullet: '* '
+msgid "Included the rounding symbol."
+msgstr "Включён символ округления."
+
+#. type: Bullet: '* '
+msgid "Fixed conversion errors of .1 and > symbols when converting Nemeth to LaTeX."
+msgstr ""
+"Исправлены ошибки преобразования символов .1 и > при преобразовании кода Немета в "
+"LaTeX."
+
+#. type: Bullet: '* '
+msgid "Fixed the path error for restoring default files in the math rules dialog."
+msgstr ""
+"Исправлена ошибка пути для восстановления файлов по умолчанию в диалоге "
+"математических правил."
+
+#. type: Title ##
+#, no-wrap
+msgid "Access8Math v3.7 Update"
+msgstr "Обновление Access8Math версии 3.7"
+
+#. type: Bullet: '* '
+msgid "new feature: Auto-Complete feature in write feature."
+msgstr "новая возможность: возможность автозаполнения в функции записи."
+
+#. type: Bullet: '* '
+msgid "Added \"mixed number\" rule to the Nemeth to LaTeX translator."
+msgstr "Добавлено правило \"смешанного числа\" для транслятора кода Немета в LaTeX."
+
+#. type: Bullet: '* '
+msgid ""
+"In Access8Math editor, Added close button on the upper right corner to close the "
+"Access8Math editor."
+msgstr ""
+"В редакторе Access8Math добавлена кнопка закрытия в правом верхнем углу для закрытия "
+"редактора Access8Math."
+
+#. type: Bullet: '* '
+msgid "Fixed SimultaneousEquationsType rule(read feature)."
+msgstr "Исправлено правило SimultaneousEquationsType (возможность чтения)."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed \"|\" symbol don`t convert to text according in Unicode dictionary(read "
+"feature)."
+msgstr ""
+"Исправлен символ \"|\", который не преобразуется в текст в соответствии со словарём "
+"Unicode (возможность чтения)."
+
+#. type: Bullet: '* '
+msgid "Fix issues with Converting ∫ Nemeth Braille to LaTeX."
+msgstr "Исправлены проблемы с преобразованием ∫ из кода Немета в LaTeX."
+
+#. type: Title ##
+#, no-wrap
+msgid "Access8Math v3.6 Update"
+msgstr "Обновление Access8Math версии 3.6"
+
+#. type: Bullet: '* '
+msgid ""
+"new feature: Nemeth Braille Input, with the same functionality as LaTeX input. "
+"Allows for real-time interactive navigation (Alt+I) during editing and supports "
+"outputting HTML+MathML documents."
+msgstr ""
+"новая возможность: ввод данных по Брайлю в Коде Немета с той же функциональностью, "
+"что и при вводе в LaTeX. Позволяет осуществлять интерактивную навигацию в режиме "
+"реального времени (Alt +I) во время редактирования и поддерживает вывод документов "
+"HTML + MathML."
+
+#. type: Bullet: '* '
+msgid "new feature: Added Nemeth delimiter UEB/at(@@) for distinguish Nemeth content."
+msgstr ""
+"новая возможность: Добавлен разделитель для кода Немета UEB/at(@@) для различия "
+"содержимого, написанного в коде Немета."
+
+#. type: Bullet: '* '
+msgid ""
+"new feature: You can convert and copy LaTeX from Math object in interactive "
+"navigation mode."
+msgstr ""
+"новая возможность: Вы можете конвертировать и копировать LaTeX из Math object в "
+"режиме интерактивной навигации."
+
+#. type: Bullet: '* '
+msgid ""
+"Added the NVDA+Shift+F10 shortcut to open virtual context menu in the file explorer."
+msgstr ""
+"Добавлено сочетание клавиш NVDA+Shift+F10 для открытия виртуального контекстного "
+"меню в проводнике файлов."
+
+#. type: Bullet: '* '
+msgid "Fixed and optimized localized UI issues and cleaned localized file format."
+msgstr ""
+"Исправлены и оптимизированы проблемы с локализованным пользовательским интерфейсом и "
+"очищен локализованный формат файла."
+
+#. type: Title ##
+#, no-wrap
+msgid "Access8Math v3.5 Update"
+msgstr "Обновление Access8Math версии 3.5"
+
+#. type: Bullet: '* '
+msgid "Vectors and rays can be distinguished correctly"
+msgstr "Можно правильно различать векторы и лучи"
+
+#. type: Bullet: '* '
+msgid ""
+"Utilizing dialogue to display image, video, or audio resources in an Access8Math "
+"HTML document"
+msgstr ""
+"Использование диалога для отображения изображений, видео- или аудиоресурсов в HTML-"
+"документе Access8Math"
+
+#. type: Bullet: '* '
+msgid "Using a new window to open link resources in an Access8Math HTML document"
+msgstr ""
+"Использование нового окна для открытия ссылок на ресурсы в HTML-документе Access8Math"
+
+#. type: Bullet: '* '
+msgid ""
+"The MathML namespace is exported when copying MathML from the Math object in "
+"interactive navigation mode"
+msgstr ""
+"Пространство имен MathML экспортируется при копировании MathML из объекта Math в "
+"режиме интерактивной навигации"
+
+#. type: Bullet: '* '
+msgid "Display font adjustment, find and replace feature in Access8Math editor"
+msgstr "Отображение функций настройки шрифта, поиска и замены в редакторе Access8Math"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2023.1"
+msgstr "Совместимость с NVDA 2023.1"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=access8math"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=access8math"

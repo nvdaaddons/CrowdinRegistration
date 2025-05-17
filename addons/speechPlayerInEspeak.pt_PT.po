@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2018-09-26 15:52+0100\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
+msgstr "[[!meta title=\"SpeechPlayer in Espeak\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: NV Access Limited"
+msgstr "Autor: NV Access Limited"
+
+#. type: Bullet: '* '
+msgid "Download [SpeechPlayer in Espeak][1]"
+msgstr "Baixar [SpeechPlayer in Espeak][1]"
+
+#. type: Plain text
+msgid "A hybrid of speechPlayer and eSpeak, containing the Edward voice."
+msgstr "Um híbrido de speechPlayer e eSpeak, que contém a voz do Edward."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev synth]]\n"
+msgstr "[[!tag dev synth]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spie"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=spie"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spie"

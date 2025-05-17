@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:34+0000\n"
+"PO-Revision-Date: 2021-04-29 07:08+0200\n"
+"Last-Translator: Fabrizio Marini <marini.carlo@fastwebnet.it>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Debug Helper\"]]\n"
+msgstr "[[!meta title=\"Debug Helper\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Luke Davis"
+msgstr "Autore: Luke Davis"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Scarica [la versione stabile][1]."
+
+#. type: Plain text
+msgid ""
+"The purpose of this add-on is to make debugging things in NVDA easier.  New "
+"features will be added based on user suggestions. All emails or [GitHub "
+"issues](https://github.com/XLTechie/debugHelper) with feedback or feature "
+"ideas are most welcome."
+msgstr ""
+"Lo scopo di questo addon è quello di semplificare il processo di debugging "
+"in NVDA. Verranno aggiunte nuove funzionalità in base alle richieste degli "
+"utenti. Qualsiasi problema o idea può essere segnalata tramite posta "
+"elettronica oppure tramite [GitHub issues](https://github.com/XLTechie/"
+"debugHelper)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Command"
+msgstr "Comando principale"
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+F1: Inserts a mark line in the NVDA log."
+msgstr "NVDA + Maiusc + F1: inserisce una linea di marcatura nel log NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Explanation and Usage"
+msgstr "Spiegazioni e utilizzo"
+
+#. type: Plain text
+msgid ""
+"When you press the command key, the add-on inserts a line like the following "
+"in the NVDA log (at the Info level):"
+msgstr ""
+"Quando si utilizza il comando principale NVDA+Shift+F1, NVDA inserisce una "
+"riga simile alla seguente nel log, al livello Info:"
+
+#. type: Plain text
+#, no-wrap
+msgid "-- Mark 1 --\n"
+msgstr "``` -- Mark 1 -- \n"
+
+#. type: Plain text
+msgid "It will also announce: \"Logged Mark 1!\""
+msgstr "Verrà anche annunciato: \"inserito nel log Mark 1!\""
+
+#. type: Plain text
+msgid "If you press the key again, you will get:"
+msgstr "Se si preme il tasto nuovamente, si otterrà:"
+
+#. type: Plain text
+#, no-wrap
+msgid "-- Mark 2 --\n"
+msgstr "``` -- Mark 2 -- \n"
+
+#. type: Plain text
+msgid "and \"Logged Mark 2!\" will be spoken."
+msgstr "e la sintesi vocale dirà: \"inserito nel log Mark 2!\"."
+
+#. type: Plain text
+msgid ""
+"Let us say for example that you were about to perform a series of tasks, "
+"that you know generate lengthy error content in the NVDA log. You are going "
+"to post the relevant portions of your log to a mailing list or the [NVDA "
+"GitHub issue tracker](https://github.com/nvaccess/nvda/issues). However you "
+"don't want to hunt through your entire log to find the relevant content. So "
+"you use this add-on to insert mark 1, right before you do the thing that "
+"causes the first error. If you know something else will generate further "
+"errors, or a different kind, you insert another mark to separate that error "
+"from the previous one, or so you can say \"this is what I was doing at mark "
+"3, where some errors occurred.\" Another example: While using some "
+"application, something happens that causes an error (maybe you hear the "
+"Windows error sound). You want to go back and find that error later, but you "
+"don't want to stop working and save the log right now. So you use this add-"
+"on again, to insert a mark in your log. This time the mark will appear after "
+"the errors in your log, instead of before. But either way, the marks will "
+"help you narrow down the important sections of your log."
+msgstr ""
+"Diciamo, ad esempio, che stiate eseguendo una serie di operazioni che "
+"producono messaggi di errore lunghi nel log di NVDA. Vorreste postare le "
+"parti più importanti del log in una mailing list o nell'[NVDA GitHub issue "
+"tracker](https://github.com/nvaccess/nvda/issues), ma non vorreste leggervi "
+"tutto il log per individuare le parti suddette. Utilizzate questo add-on per "
+"inserire la prima marcatura, subito prima di compiere la prima operazione "
+"che causa il primo errore. Se sapete che qualche altra operazione genererà "
+"ulteriori errori o comunque messaggi di interesse, inserite questa marcatura "
+"per separare questi errori dai precedenti, o per dire \"Ecco cosa stavo "
+"facendo al mark 3, dove si sono verificati alcuni errori\". Un altro "
+"esempio: mentre utilizzate un'applicazione, accade qualcosa che causa un "
+"errore (probabilmente sentite il suono di errore di Windows). Vorreste "
+"tornare indietro e trovare quell'errore più tardi, ma non volete "
+"interrompere il lavoro e salvare il log proprio ora. Utilizzate nuovamente "
+"questo add-on per inserire una marcatura nel log. Questa volta la marcatura "
+"apparirà dopo gli errori nel log, anziché prima. In entrambi i casi, "
+"comunque, le marcature vi aiuteranno a delimitare le parti importanti del "
+"vostro log."
+
+#. type: Plain text
+msgid ""
+"The mark lines shown above can be easily searched for with the find command "
+"in a text editor such as Notepad or Notepad++.  Additionally, by default, "
+"there is a blank line inserted above each mark. Blank lines are also "
+"possible after the mark. Blank lines can be helpful if you are using NVDA's "
+"log viewer, or another text editor, and want to use the arrow keys to "
+"quickly read up/down through the log, to find a particular mark. It is easy "
+"to pick the word \"blank\" out of a bunch of text being spoken as you "
+"quickly move through the log. If you arrow really fast, you might need more "
+"than one blank line, which you can adjust in settings."
+msgstr ""
+"Le linee di demarcazione sopra mostrate possono essere facilmente cercate "
+"con il comando \"trova\" in un editor di testi, come Notepad or Notepad++. "
+"Inoltre, per default, viene inserita una linea vuota sopra ogni marcatura. "
+"E' anche possibile inserire linee vuote dopo la marcatura stessa. Le linee "
+"vuote possono essere utili se si sta utilizzando il visualizzatore di log di "
+"NVDA o un altro editor di testi e si vogliono utilizzare i tasti freccia per "
+"scorrere velocemente il log, per trovare una certa marcatura. E' facile "
+"discernere la parola \"vuoto\" in mezzo a tante altre parole che la sintesi "
+"vocale recita quando ci si muove rapidamente attraverso il log. Se vi "
+"spostate molto velocemente, potreste aver bisogno di più righe vuote; potete "
+"settare questo parametro nelle impostazioni."
+
+#. type: Plain text
+msgid ""
+"Note: The mark count will survive the reloading of plugins "
+"(NVDA+Control+F3), but will start back at one if you restart NVDA."
+msgstr ""
+"Nota: il conteggio delle marcature non viene perso quando i plugins vengono "
+"ricaricati (NVDA+Control+F3), ma riparte da 1 se si riavvia NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration:"
+msgstr "Configurazione:"
+
+#. type: Plain text
+msgid ""
+"In the Settings section of NVDA Preferences, you will find a \"Debug "
+"Helper\" category. In the settings dialog you can change the number of blank "
+"lines inserted before and after each mark line. The default is one line "
+"before, and zero after, although you can use 0 through 10 lines for either.  "
+"Under the Tools category of NVDA's Input Gestures panel, you can change "
+"NVDA+Shift+F1 to a key sequence of your choice."
+msgstr ""
+"Nella sezione Impostazioni delle preferenze di NVDA, troverete la categoria "
+"\"Debug Helper\". Nella relativa finestra potete modificare il numero di "
+"linee vuote inserite prima e dopo ogni linea di marcatura. Il default è una "
+"linea prima e zero dopo, ma potete inserire valori da 0 a 10. Nella "
+"categoria Strumenti della finestra Gesti e Tasti di Immissione di NVDA, "
+"potete sostituire NVDA+Shift+F1 con un'altra combinazione di tasti a vostra "
+"scelta."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changelog"
+msgstr "Changelog"
+
+#. type: Bullet: '* '
+msgid "Version 1.0.2 (2019-08-28)"
+msgstr "Novità nella versione 1.0.2 (28-08-2019)"
+
+#. type: Bullet: '    - '
+msgid "Translation and code cleanup."
+msgstr "Pulizia del codice e della traduzione."
+
+#. type: Bullet: '* '
+msgid "Version 1.0.1 (2019-08-26)"
+msgstr "Novità nella versione 1.0.1 (26-08-2019)"
+
+#. type: Bullet: '    - '
+msgid ""
+"Minor bugfix version to probably fix an install problem on certain versions "
+"of Windows."
+msgstr ""
+"Correzione di bug minori per (probabilmente) correggere un problema di "
+"installazione su alcune versioni di Windows."
+
+#. type: Bullet: '* '
+msgid "Version 1.0 (2019-08-22)"
+msgstr "Novità nella versione 1.0 (22-08-2019)"
+
+#. type: Bullet: '    - '
+msgid "Initial release. Including following features:"
+msgstr "Versione iniziale, che comprende le seguenti caratteristiche:"
+
+#. type: Bullet: '        + '
+msgid "Ability to generate numbered mark lines in the log (at info level)."
+msgstr ""
+"Capacità di generare linee di marcatura numerate nel log (al livello info)."
+
+#. type: Bullet: '        + '
+msgid "Ability to add 0-10 blank lines before and after each mark line."
+msgstr ""
+"Capacità di aggiungere da 0 a 10 linee vuote prima e dopo ogni linea di "
+"marcatura."
+
+#. type: Bullet: '        + '
+msgid "Configuration via NVDA settings dialog system."
+msgstr "Configurazione attraverso le impostazioni di NVDA."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=debughelper"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=debughelper"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=debughelper"

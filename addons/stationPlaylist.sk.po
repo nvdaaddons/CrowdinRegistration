@@ -1,0 +1,3500 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-05-10 17:19+0000\n"
+"PO-Revision-Date: 2020-09-20 09:58+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: \n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"StationPlaylist\"]]\n"
+msgstr "[[!meta title=\"Station Playlist\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Christopher Duffley <nvda@chrisduffley.com> (formerly Joseph Lee "
+"<joseph.lee22590@gmail.com>, originally by Geoff Shang and other "
+"contributors)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This add-on package provides improved usage of StationPlaylist Studio and "
+"other StationPlaylist apps, as well as providing utilities to control Studio "
+"from anywhere. Supported apps include Studio, Creator, Track Tool, VT "
+"Recorder, and Streamer, as well as SAM, SPL, and AltaCast encoders."
+msgstr ""
+"Doplnok zlepšuje prístupnosť Station Playlist Studio a ďalších pridružených "
+"aplikácií a tiež umožňuje ovládať Station Playlist mimo hlavného okna "
+"aplikácie. Podporuje tiež aplikácie Studio, Creator, Track Tool, VT "
+"Recorder, Streamer, a tiež SAM, SPL, a AltaCast enkodéri."
+
+#. type: Plain text
+msgid "For more information about the add-on, read the [add-on guide][1]."
+msgstr ""
+
+#. type: Plain text
+msgid "IMPORTANT NOTES:"
+msgstr "Dôležité:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "This add-on requires StationPlaylist suite 5.20 or later."
+msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgstr "Doplnok vyžaduje StationPlaylist suite od verzie 5.20."
+
+#. type: Bullet: '* '
+msgid ""
+"Some add-on features will be disabled or limited if NVDA is running in "
+"secure mode such as in logon screen."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "If using Windows 8 or later, for best experience, disable audio ducking "
+#| "mode."
+msgid "For best experience, disable audio ducking mode."
+msgstr ""
+"Ak používate Systém od verzie Windows 8, odporúčame vám vypnúť funkciu "
+"automatického stišovania."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Starting from 2018, [changelogs for old add-on releases][5] will be found "
+#| "on GitHub. This add-on readme will list changes from version 20.01 (2020) "
+#| "onwards."
+msgid ""
+"Starting from 2018, [changelogs for old add-on releases][2] will be found on "
+"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"onwards."
+msgstr ""
+"Od roku 2018 je [Zoznam zmien (anglicky)][5] na serveri GitHub. V tomto "
+"dokumente sú uvedené zmeny od verzie 20.01 (2020) "
+
+#. type: Bullet: '* '
+msgid ""
+"While Studio is running, you can save, reload saved settings, or reset add-"
+"on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or "
+"Control+NVDA+R three times, respectively. This is also applicable to encoder "
+"settings - you can save and reset (not reload) encoder settings if using "
+"encoders."
+msgstr ""
+"Z okna SPL studio je možné uložiť nastavenia skratkou ctrl+nvda+c. Môžete "
+"tiež načítať uložené nastavenia skratkou ctrl+nvda+r. Takisto je možné "
+"obnoviť pôvodné nastavenia skratkou nvda+ctrl+r stlačením trikrát rýchlo za "
+"sebou. Toto sa týka aj nastavení enkodéra. Tieto je však možné len uložiť "
+"alebo obnoviť."
+
+#. type: Bullet: '* '
+msgid ""
+"Many commands will provide speech output while NVDA is in speak on demand "
+"mode (NVDA 2024.1 and later)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcut keys"
+msgstr "Klávesové skratky"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Most of these will work in Studio only unless otherwise specified."
+msgid ""
+"Most of these will work in Studio only unless otherwise specified. Unless "
+"noted otherwise, these commands support speak on demand mode."
+msgstr "Väčšina skratiek je určených pre Studio, ak nie je uvedené inak."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+Shift+T from Studio window: announce elapsed time for the currently "
+#| "playing trakc."
+msgid ""
+"Alt+Shift+T from Studio window: announce elapsed time for the currently "
+"playing track."
+msgstr ""
+"alt+shift+T v okne  studio: Oznámy čas do konca práve prehrávanej skladby."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+T (two finger flick down in SPL touch mode) from Studio "
+#| "window: announce remaining time for the currently playing trakc."
+msgid ""
+"Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: "
+"announce remaining time for the currently playing track."
+msgstr ""
+"Ctrl+Alt+T v okne studio (švihnutie dvoma prstami v dotykovom režime): "
+"Oznámy čas do konca práve prehrávanej skladby."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: "
+"announces broadcaster time such as 5 minutes to top of the hour. Pressing "
+"this command twice will announce minutes and seconds till top of the hour."
+msgstr ""
+"nvda+shift+F12 (švihnutie dvoma prstami hore v dotykovom režime) v okne "
+"Studio: oznámi čas vysielania, napríklad 5 minút do celej hodiny. Stlačené "
+"dvakrát rýchlo za sebou oznamuje minúty aj sekundy."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+#| "alarms category in Studio add-on configuration dialog."
+msgid ""
+"Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+"alarms category in Studio add-on configuration dialog (does not support "
+"speak on demand)."
+msgstr ""
+"alt+NVDA+1 (švihnutie dvoma prstami doprava v dotykovom režime spl) v okne "
+"Studio: otvorí kategóriu upozornenia v nastaveniach doplnku."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces scheduled time for the loaded playlist."
+msgstr ""
+"alt+nvda+1 pri úprave playlistu v okne creator a Remote VT playlist editor: "
+"Oznámi plánovaný čas spustenia playlistu."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces total playlist duration."
+msgstr ""
+"Alt+NVDA+2 pri úprave playlistu v okne creator a Remote VT playlist editor: "
+"Oznámi celkový čas skladieb v playliste."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+#| "assignments."
+msgid ""
+"Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart "
+"assignments (does not support speak on demand)."
+msgstr "alt+NVDA+3 v okne Studio : zapína a vypína prehliadač jinglov."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces when the selected track is scheduled to play."
+msgstr ""
+"Alt+NVDA+3 pri úprave playlistu v okne creator a Remote VT playlist editor: "
+"Oznámi čas odohratia vybratej skladby."
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: "
+"Announces rotation and category associated with the loaded playlist."
+msgstr ""
+"Alt+NVDA+4 pri úprave playlistu v okne creator a Remote VT playlist editor: "
+"Oznámi kategóriu a rotáciu pre načítaný playlist."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+f from Studio window: Opens a dialog to find a track based "
+#| "on artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to "
+#| "find backward."
+msgid ""
+"Control+NVDA+F from Studio window: Opens a dialog to find a track based on "
+"artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find "
+"backward (does not support speak on demand)."
+msgstr ""
+"Ctrl+NVDA+f v okne Studio: otvorí okno, v ktorom môžete nájsť skladbu podľa "
+"názvu alebo interpreta. NVDA+F3 hľadá dopredu, NVDA+shift+F3 hľadá dozadu."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+R from Studio window: Steps through library scan announcement "
+#| "settings."
+msgid ""
+"Shift+NVDA+R from Studio window: Steps through library scan announcement "
+"settings (does not support speak on demand)."
+msgstr "Alt+NVDA+R v okne Studio: Prepína oznamovanie skenovania knižnice."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Shift+X from Studio window: Steps through braille timer settings."
+msgid ""
+"Control+Shift+X from Studio window: Steps through braille timer settings "
+"(does not support speak on demand)."
+msgstr "Ctrl+Shift+X v okne Studio: Prepína zobrazenie na braillovskom riadku."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+left/right arrow (while focused on a track in Studio, "
+#| "Creator, Remote VT, and Track Tool): Move to previous/next track column."
+msgid ""
+"Control+Alt+left/right arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track column (does not "
+"support speak on demand)."
+msgstr ""
+"Ctrl+Alt+šípky doľava a doprava (pri zobrazení skladby v oknách Studio, "
+"Creator, Remote VT, a Track Tool): presunie kurzor na predchádzajúci alebo "
+"nasledujúci stĺpec."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+Alt+up/down arrow (while focused on a track in Studio, Creator, "
+#| "Remote VT, and Track Tool): Move to previous/next track and announce "
+#| "specific columns."
+msgid ""
+"Control+Alt+up/down arrow (while focused on a track in Studio, Creator, "
+"Remote VT, and Track Tool): Move to previous/next track and announce "
+"specific columns (does not support speak on demand)."
+msgstr ""
+"Ctrl+Alt+šípky hore a dole (pri zobrazení skladby v okne Studio): presunie "
+"kurzor na nasledujúcu alebo predchádzajúcu skladbu a oznámi vybraté metadáta."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+1 through 0 (while focused on a track in Studio, Creator "
+"(including Playlist Editor), Remote VT, and Track Tool): Announce column "
+"content for a specified column (first ten columns by default). Pressing this "
+"command twice will display column information on a browse mode window."
+msgstr ""
+"Ctrl+NVDA+1 až 0 (Pri zobrazení skladby v okne Studio, Creator (vrátane "
+"úpravy playlistu), Remote VT, a Track Tool): Oznámi príslušné metadáta "
+"(prvých 10). Stlačené dvakrát rýchlo za sebou zobrazí metadáta v režime "
+"prehliadania."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Control+NVDA+- (hyphen while focused on a track in Studio, Creator, "
+#| "Remote VT, and Track Tool): display data for all columns in a track on a "
+#| "browse mode window."
+msgid ""
+"Control+NVDA+- (hyphen while focused on a track in Studio, Creator, Remote "
+"VT, and Track Tool): display data for all columns in a track on a browse "
+"mode window (does not support speak on demand)."
+msgstr ""
+"Ctrl+NVDA+- (pomlčka pri zobrazení skladby v oknách Studio, Creator, a Track "
+"Tool): Zobrazí všetky metadáta v režime prehliadania."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+C while focused on a track (Studio only): announces track "
+#| "comments if any."
+msgid ""
+"NVDA+V while focused on a track (Studio's playlist viewer only): toggles "
+"track column announcement between screen order and custom order (does not "
+"support speak on demand)."
+msgstr ""
+"Alt+NVDA+C (pri zobrazení skladby v okne Studio): oznámi komentár k skladbe."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+C while focused on a track (Studio only): announces track "
+#| "comments if any."
+msgid ""
+"Alt+NVDA+C while focused on a track (Studio's playlist viewer only): "
+"announces track comments if any."
+msgstr ""
+"Alt+NVDA+C (pri zobrazení skladby v okne Studio): oznámi komentár k skladbe."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
+#| "dialog."
+msgid ""
+"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
+"(does not support speak on demand)."
+msgstr "Alt+NVDA+0 z okna studio: Otvorí nastavenia doplnku."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog."
+msgid ""
+"Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog "
+"(does not support speak on demand)."
+msgstr "Alt+NVDA+p z okna studio: Otvorí nastavenia vysielacích profilov."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Alt+NVDA+F1: Open welcome dialog."
+msgid "Alt+NVDA+F1: Open welcome dialog (does not support speak on demand)."
+msgstr "Alt+NVDA+F1: Otvorí uvítací dialóg doplnku."
+
+#. type: Title ##
+#, no-wrap
+msgid "Unassigned commands"
+msgstr "Funkcie bez klávesových skratiek"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The following commands are not assigned by default; if you wish to assign "
+#| "them, use Input Gestures dialog to add custom commands. To do so, from "
+#| "Studio window, open NVDA menu, Preferences, then Input Gestures. Expand "
+#| "StationPlaylist category, then locate unassigned commands from the list "
+#| "below and select \"Add\", then type the gesutre you wish to use."
+msgid ""
+"The following commands are not assigned by default; if you wish to assign "
+"them, use Input Gestures dialog to add custom commands. To do so, from "
+"Studio window, open NVDA menu, Preferences, then Input Gestures. Expand "
+"StationPlaylist category, then locate unassigned commands from the list "
+"below and select \"Add\", then type the gesture you wish to use."
+msgstr ""
+"Nasledujúce funkcie nemajú predvolene priradené klávesové skratky. Môžete "
+"ich priradiť, ak z okna Station Playlist otvoríte dialóg klávesové skratky. "
+"Tam hľadajte vetvu Station playlist. Po vybratí príslušnej funkcie v "
+"kontextovej ponuke aktivujte tlačidlo Pridať."
+
+#. type: Plain text
+msgid ""
+"Important: some of these commands will not work if NVDA is running in secure "
+"mode such as from login screen. Not all commands support speak on demand."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Switching to SPL Studio window from any program."
+msgid ""
+"Switching to SPL Studio window from any program (unavailable in secure mode, "
+"does not support speak on demand)."
+msgstr "Zobrazenie okna Studio odkiaľkoľvek."
+
+#. type: Bullet: '* '
+msgid "SPL Controller layer (unavailable in secure mode)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Announcing Studio status such as track playback from other programs."
+msgid ""
+"Announcing Studio status such as track playback from other programs "
+"(unavailable in secure mode)."
+msgstr "Oznamovanie stavových informácií, napríklad prehrávanie odkiaľkoľvek."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Announcing encoder connection status from any program."
+msgid ""
+"Announcing encoder connection status from any program (unavailable in secure "
+"mode)."
+msgstr "Oznamovanie stavu pripojenia k streamu z iných aplikácií."
+
+#. type: Bullet: '* '
+msgid "SPL Assistant layer from SPL Studio."
+msgstr "Podmnožina informačných príkazov."
+
+#. type: Bullet: '* '
+msgid "Announce time including seconds from SPL Studio."
+msgstr "Oznámiť čas vrátane sekúnd z okna Studio."
+
+#. type: Bullet: '* '
+msgid "Announcing temperature."
+msgstr "Oznámiť teplotu."
+
+#. type: Bullet: '* '
+msgid "Announcing title of next track if scheduled."
+msgstr "Oznámiť názov nasledujúcej naplánovanej skladby."
+
+#. type: Bullet: '* '
+msgid "Announcing title of the currently playing track."
+msgstr "Oznámiť názov aktuálne prehrávanej skladby."
+
+#. type: Bullet: '* '
+msgid "Marking current track for start of track time analysis."
+msgstr "Označenie aktuálnej skladby ako počiatočnej na časovú analýzu."
+
+#. type: Bullet: '* '
+msgid "Performing track time analysis."
+msgstr "Spustenie časovej analýzy."
+
+#. type: Bullet: '* '
+msgid "Take playlist snapshots."
+msgstr "Zobrazenie štatistiky playlistu."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Find text in specific columns."
+msgid "Find text in specific columns (does not support speak on demand)."
+msgstr "Vyhľadanie textu v určených metadátach."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Find tracks with duration that falls within a given range via time range "
+#| "finder."
+msgid ""
+"Find tracks with duration that falls within a given range via time range "
+"finder (does not support speak on demand)."
+msgstr "Vyhľadanie skladieb s určitou dĺžkou."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Quickly enable or disable metadata streaming."
+msgid ""
+"Quickly enable or disable metadata streaming (does not support speak on "
+"demand)."
+msgstr "Zapnutie a vypnutie vysielania metadát."
+
+#. type: Title ##
+#, no-wrap
+msgid "Additional commands when using encoders"
+msgstr "Ďalšie príkazy pre enkodéry"
+
+#. type: Plain text
+msgid ""
+"The following commands are available when using encoders, and the ones used "
+"for toggling options for on-connection behavior such as focusing to Studio, "
+"playing the first track, and toggling of background monitoring can be "
+"assigned through the Input Gestures dialog in NVDA menu, Preferences, Input "
+"Gestures, under the StationPlaylist category. These commands do not support "
+"speak on demand."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "F9: connect the selected encoder."
+msgstr "F9: Pripojiť zvolený stream."
+
+#. type: Bullet: '* '
+msgid "F10 (SAM encoder only): Disconnect the selected encoder."
+msgstr "F10 (SAM encoder): Odpojí zvolený stream."
+
+#. type: Bullet: '* '
+msgid "Control+F9: Connect all encoders."
+msgstr "Ctrl+F9: Pripojiť všetky streami."
+
+#. type: Bullet: '* '
+msgid "Control+F10 (SAM encoder only): Disconnect all encoders."
+msgstr "Ctrl+F10 (len SAM encoder): odpojí všetky streami."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "F11: Toggles whether NVDA will switch to Studio window for the selected "
+#| "encoder if connected."
+msgid ""
+"Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the "
+"selected encoder if connected."
+msgstr ""
+"F11: Aktivuje a deaktivuje automatické prepnutie do okna Studio po pripojení."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+F11: Toggles whether Studio will play the first selected track when "
+"encoder is connected to a streaming server."
+msgstr ""
+"Shift+F11: určuje, či sa automaticky prehrá prvá vybratá skladba po "
+"pripojení na server."
+
+#. type: Bullet: '* '
+msgid "Control+F11: Toggles background monitoring of the selected encoder."
+msgstr ""
+"Ctrl+F11: Zapína a vypína monitorovanie vybratého pripojenia na pozadí."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+F12: opens a dialog to select the encoder you have deleted (to "
+"realign encoder labels and settings)."
+msgstr ""
+"ctrl+F12: Otvorí okno na výber odstráneného streamu (kde môžete zmeniť názvy "
+"a nastavenia)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Alt+NVDA+0: Opens encoder settings dialog to configure options such as "
+#| "encoder label."
+msgid ""
+"Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such "
+"as encoder label."
+msgstr ""
+"Alt+NVDA+0: Otvorí nastavenia enkodéra, kde je možné napríklad nastaviť "
+"názov."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "In addition, column review commands are available, including:"
+msgid ""
+"In addition, column review commands are available, including (supports speak "
+"on demand):"
+msgstr "Dostupné sú tieto príkazy na prezeranie stĺpcov:"
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+1: Encoder position."
+msgstr "Ctrl+NVDA+1: Pozícia enkodéra."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+2: encoder label."
+msgstr "Ctrl+NVDA+2: Názov pripojenia."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3 from SAM Encoder: Encoder format."
+msgstr "Ctrl+nvda+3 z okna Sam Encoder: Formát."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings."
+msgstr "Ctrl+nvda+3 z aplikácie SPL a AltaCast Encoder: Nastavenia enkodéra."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+4 from SAM Encoder: Encoder connection status."
+msgstr "Ctrl+nvda+4 z okna SAM Encoder: Stav pripojenia."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection "
+"status."
+msgstr ""
+"Ctrl+NVDA+4 z aplikácie SPL a AltaCast Encoder: Stav a rýchlosť pripojenia."
+
+#. type: Bullet: '* '
+msgid "Control+NVDA+5 from SAM Encoder: Connection status description."
+msgstr "Ctrl+NVDA+5 z okna SAM Encoder: stav pripojenia."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Assistant layer"
+msgstr "Podmnožina informačných príkazov"
+
+#. type: Plain text
+msgid ""
+"This layer command set allows you to obtain various status on SPL Studio, "
+"such as whether a track is playing, total duration of all tracks for the "
+"hour and so on. From any SPL Studio window, press the SPL Assistant layer "
+"command, then press one of the keys from the list below (one or more "
+"commands are exclusive to playlist viewer). You can also configure NVDA to "
+"emulate commands from other screen readers."
+msgstr ""
+"Táto podmnožina umožňuje zistiť stav SPL Studio, napríklad prehrávanie "
+"skladby, celkové trvanie skladieb v časovom slote a podobne. Najprv je "
+"potrebné stlačiť skratku podmnožiny príkazov a potom príslušné písmeno. "
+"Väčšina príkazov je určených pre okno Studio a špeciálne pre zobrazenie "
+"playlistu. V nastaveniach doplnku je navyše možné prepnúť skratky tak, aby "
+"simulovali správanie, na ktoré ste zvyknutí z iných čítačov obrazovky."
+
+#. type: Plain text
+msgid "The available commands are (most commands support speak on demand):"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "A: Automation."
+msgstr "A: autopylot."
+
+#. type: Bullet: '* '
+msgid "C (Shift+C in JAWS layout): Title for the currently playing track."
+msgstr "C (Shift+C v rozložení pre JAWS): Oznámi názov prehrávanej skladby."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "C (JAWS layout): Toggle cart explorer (playlist viewer only)."
+msgid ""
+"C (JAWS layout): Toggle cart explorer (playlist viewer only, does not "
+"support speak on demand)."
+msgstr "C (Rozloženie JAWS): Zobraziť jingle (len z playlistu)."
+
+#. type: Bullet: '* '
+msgid ""
+"D (R in JAWS layout): Remaining duration for the playlist (if an error "
+"message is given, move to playlist viewer and then issue this command)."
+msgstr ""
+"D (R v rozložení pre JAWS): Oznámi ostávajúci čas do konca skladby. (Ak "
+"nefunguje, zopakujte skratku zo zobrazenia playlistu)."
+
+#. type: Bullet: '* '
+msgid "Control+D (Studio 6.10 and later): Control keys enabled/disabled."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "E: Metadata streaming status."
+msgstr "E: Oznámi Stav streamovania metadát."
+
+#. type: Bullet: '* '
+msgid ""
+"Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming "
+"URL's (0 is for DSP encoder)."
+msgstr ""
+"Shift+1 až Shift+4: Stav jednotlivých pripojení. Shift+0: Stav pre DSP "
+"enkodér."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F: Find track (playlist viewer only)."
+msgid "F: Find track (playlist viewer only, does not support speak on demand)."
+msgstr "F: Nájsť skladbu (len zo zoznamu skladieb)."
+
+#. type: Bullet: '* '
+msgid "H: Duration of music for the current hour slot."
+msgstr "H: Oznámi Trvanie skladieb v aktuálnom hodinovom slote."
+
+#. type: Bullet: '* '
+msgid "Shift+H: Remaining track duration for the hour slot."
+msgstr "Shift+H: Oznámi zostávajúci čas skladieb v aktuálnom hodinovom slote."
+
+#. type: Bullet: '* '
+msgid "I (L in JAWS layout): Listener count."
+msgstr "I (L v rozložení pre JAWS): Oznámi počet pripojených poslucháčov."
+
+#. type: Bullet: '* '
+msgid "K: Move to the marked track (playlist viewer only)."
+msgstr "K: Prejde na záložku (vyznačenú skladbu v zozname skladieb)."
+
+#. type: Bullet: '* '
+msgid ""
+"Control+K: Set the current track as the place marker track (playlist viewer "
+"only)."
+msgstr "Ctrl+K: Nastaví aktuálnu skladbu ako záložku (v zobrazení playlistu)."
+
+#. type: Bullet: '* '
+msgid "L (Shift+L in JAWS layout): Line in."
+msgstr "L (Shift+L v rozložení JAWS): Line in."
+
+#. type: Bullet: '* '
+msgid "M: Microphone."
+msgstr "M: Mikrofón."
+
+#. type: Bullet: '* '
+msgid "N: Title for the next scheduled track."
+msgstr "N: Oznámi Názov nasledujúcej skladby."
+
+#. type: Bullet: '* '
+msgid "O: Playlist hour over/under by."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "P: Playback status (playing or stopped)."
+msgstr "P: Oznámi Stav prehrávania (prehrávanie alebo zastavené)."
+
+#. type: Bullet: '* '
+msgid "Shift+P: Pitch of the current track."
+msgstr "Shift+P: Oznámi tóninu skladby."
+
+#. type: Bullet: '* '
+msgid "R (Shift+E in JAWS layout): Record to file enabled/disabled."
+msgstr "R (Shift+E v rozložení JAWS): zapína a vypína nahrávanie do súboru."
+
+#. type: Bullet: '* '
+msgid "Shift+R: Monitor library scan in progress."
+msgstr "Shift+R: Oznámi stav skenovania knižnice."
+
+#. type: Bullet: '* '
+msgid "S: Track starts (scheduled)."
+msgstr "S: Oznámi naplánovaný čas spustenia skladby."
+
+#. type: Bullet: '* '
+msgid "Shift+S: Time until selected track will play (track starts in)."
+msgstr "Shift+S: Oznámi čas do spustenia (začína o)."
+
+#. type: Bullet: '* '
+msgid "T: Cart edit/insert mode on/off."
+msgstr "T: zapína a vypína editáciu jinglov."
+
+#. type: Bullet: '* '
+msgid "U: Studio up time."
+msgstr "U: Oznámi čas od spustenia aplikácie Studio."
+
+#. type: Bullet: '* '
+msgid "W: Weather and temperature if configured."
+msgstr "W: Oznámi Predpoveď počasia."
+
+#. type: Bullet: '* '
+msgid "Y: Playlist modified status."
+msgstr "Y: Oznámi stav úpravy playlistu."
+
+#. type: Bullet: '* '
+msgid "F8: Take playlist snapshots (number of tracks, longest track, etc.)."
+msgstr ""
+"F8: Zobrazí štatistiku playlistu (počet skladieb, trvanie playlistu, "
+"najkratšia a najdlhšia skladba)."
+
+#. type: Bullet: '* '
+msgid "Shift+F8: Request playlist transcripts in numerous formats."
+msgstr "Shift+F8: Uloží prepis playlistu vo viacerých formátoch."
+
+#. type: Bullet: '* '
+msgid ""
+"F9: Mark current track for start of playlist analysis (playlist viewer only)."
+msgstr "F9: Označí skladbu ako počiatočnú pre analýzu (v zobrazení skladieb)."
+
+#. type: Bullet: '* '
+msgid "F10: Perform track time analysis (playlist viewer only)."
+msgstr "F10: Analyzuje skladby (zo zobrazenia skladieb)."
+
+#. type: Bullet: '* '
+msgid "F12: Switch between current and a predefined profile."
+msgstr "F12: Prepína medzi konfiguračnými profilmi."
+
+#. type: Bullet: '* '
+msgid "F1: Layer help."
+msgstr "F1: Oznámi funkcie a klávesové skratky."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL Controller"
+msgstr "príkazy na ovládanie SPL"
+
+#. type: Plain text
+msgid ""
+"The SPL Controller is a set of layered commands you can use to control SPL "
+"Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "
+"\"SPL Controller.\" Press another command to control various Studio settings "
+"such as microphone on/off or play the next track."
+msgstr ""
+"je to množina príkazov, pomocou ktorej môžete SPL ovládať aj ak nemáte "
+"zamerané okno SPL Studio. NVDA Povie \"ovládanie\". NVDA počká na ďalší "
+"príkaz, ktorým môžete sledovať stav mikrofónu, alebo prehrávanie "
+"nasledujúcej skladby."
+
+#. type: Plain text
+msgid ""
+"Important: SPL Controller layer commands are disabled if NVDA is running in "
+"secure mode."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "The available SPL Controller commands are:"
+msgid ""
+"The available SPL Controller commands are (some commands support speak on "
+"demand):"
+msgstr "Dostupné sú tieto príkazy:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press P to play the next selected track."
+msgid "P: Play the next selected track."
+msgstr "P: prehrá nasledujúcu skladbu."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press U to pause or unpause playback."
+msgid "U: Pause or unpause playback."
+msgstr "U: pozastaví alebo spustí prehrávanie."
+
+#. type: Bullet: '* '
+msgid "S: Stop the track with fade out."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "T: Instant stop."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "M: Microphone."
+msgid "M: Turn on microphone."
+msgstr "M: Mikrofón."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "M: Microphone."
+msgid "Shift+M: Turn off microphone."
+msgstr "M: Mikrofón."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "A: Automation."
+msgid "A: Turn on automation."
+msgstr "A: autopylot."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "A: Automation."
+msgid "Shift+A: Turn off automation."
+msgstr "A: autopylot."
+
+#. type: Bullet: '* '
+msgid "L: Turn on line-in input."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Shift+L: Turn off line-in input."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press R to hear remaining time for the currently playing track."
+msgid "R: Remaining time for the currently playing track."
+msgstr "r: Oznámy čas do konca práve prehrávanej skladby."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Shift+R: Monitor library scan in progress."
+msgid "Shift+R: Library scan progress."
+msgstr "Shift+R: Oznámi stav skenovania knižnice."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press C to let NVDA announce name and duration of the currently playing "
+#| "track."
+msgid ""
+"C: Title and duration of the currently playing track (supports speak on "
+"demand)."
+msgstr "C: Oznámi názov a trvanie prehrávanej skladby."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press Shift+C to let NVDA announce name and duration of the upcoming "
+#| "track if any."
+msgid ""
+"Shift+C: Title and duration of the upcoming track if any (supports speak on "
+"demand)."
+msgstr "Shift+C: Oznámi názov a trvanie najbližšej skladby."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Control+NVDA+4 from SAM Encoder: Encoder connection status."
+msgid "E: Encoder connection status (supports speak on demand)."
+msgstr "Ctrl+nvda+4 z okna SAM Encoder: Stav pripojenia."
+
+#. type: Bullet: '* '
+msgid "I: Listener count (supports speak on demand)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press Q to obtain various status information about Studio including "
+#| "whether a track is playing, microphone is on and others."
+msgid ""
+"Q: Studio status information such as whether a track is playing, microphone "
+"is on and others (supports speak on demand)."
+msgstr ""
+"Q: Oznámi stavové informácie, napríklad aktívne prehrávanie, aktívny "
+"mikrofón a podobne."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press cart keys (F1, Control+1, for example) to play assigned carts from "
+#| "anywhere."
+msgid ""
+"Cart keys (F1, Control+1, for example): Play assigned carts from anywhere."
+msgstr "Jingle môžete odkiaľ koľvek spúšťať skratkami F1, ctrl+1 a podobne."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "F1: Layer help."
+msgid "H: Layer help."
+msgstr "F1: Oznámi funkcie a klávesové skratky."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track and microphone alarms"
+msgstr "Upozornenia na zapnutý mikrofón, intro a koniec skladby"
+
+#. type: Plain text
+msgid ""
+"By default, NVDA will play a beep if five seconds are left in the track "
+"(outro) and/or intro, as well as to hear a beep if microphone has been "
+"active for a while. To configure track and microphone alarms, press "
+"Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can "
+"also use this screen to configure if you'll hear a beep, a message or both "
+"when alarms are turned on."
+msgstr ""
+"Predvolene NVDA zapípa 5 sekúnd pred koncom skladby alebo pred koncom intra "
+"skladby a tiež upozorňuje, keď je zapnutý mikrofón. Toto nastavenie je možné "
+"zapnúť, vypnúť a upraviť hodnoty po stlačení alt+nvda+1. Je možné nastaviť "
+"upozornenie pípaním, rečou alebo oboje."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track Finder"
+msgstr "Vyhľadávač skladieb"
+
+#. type: Plain text
+msgid ""
+"If you wish to quickly find a song by an artist or by song name, from track "
+"list, press Control+NVDA+F. Type or choose the name of the artist or the "
+"song name. NVDA will either place you at the song if found or will display "
+"an error if it cannot find the song you're looking for. To find a previously "
+"entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or "
+"backward."
+msgstr ""
+"Ak chcete rýchlo nájsť skladbu podľa názvu interpreta alebo názvu skladby, "
+"stlačte ctrl+nvda+f. Zadajte názov skladby alebo interpreta. NVDA vás "
+"presunie na skladbu, ak sa našla, alebo zobrazí chybu, ak sa skladbu "
+"nepodarilo nájsť. Ak chcete zopakovať to isté hľadanie smerom dopredu, "
+"stlačte nvda+F3. Vyhľadávanie opačným smerom spustíte skratkou nvda+shift+F3."
+
+#. type: Plain text
+msgid "Note: Track Finder is case-sensitive."
+msgstr "Pozor: Hľadanie rozlišuje veľké a malé písmená."
+
+#. type: Title ##
+#, no-wrap
+msgid "Cart Explorer"
+msgstr "Prehliadač jinglov"
+
+#. type: Plain text
+msgid ""
+"Depending on edition, SPL Studio allows up to 96 carts to be assigned for "
+"playback. NVDA allows you to hear which cart, or jingle is assigned to these "
+"commands."
+msgstr ""
+"Studio umožňuje uložiť a zaradiť až 96 jinglov, v závislosti od edície, "
+"ktorú používate. Pomocou NVDA môžete zistiť pozície jinglov v prehliadači."
+
+#. type: Plain text
+msgid ""
+"To learn cart assignments, from SPL Studio, press Alt+NVDA+3. Pressing the "
+"cart command once will tell you which jingle is assigned to the command. "
+"Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to "
+"exit cart explorer. See the add-on guide for more information on cart "
+"explorer."
+msgstr ""
+"Aby ste zistili pozíciu jingla, v okne studio stlačte alt+NVDA+3. Ak príkaz "
+"stlačíte raz, dozviete sa, ktorý efekt je priradený konkrétnej skratke. Po "
+"dvojitom stlačení sa zvuk prehrá. Prehliadač opustíte opäť skratkou "
+"alt+nvda+3. Podrobnosti nájdete v návode k tomuto doplnku."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track time analysis"
+msgstr "Analyzovanie času"
+
+#. type: Plain text
+msgid ""
+"To obtain length to play selected tracks, mark current track for start of "
+"track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when "
+"reaching end of selection."
+msgstr ""
+"Ak chcete analyzovať čas vybratých skladieb, postupujte nasledovne: Nájdite "
+"požadovanú počiatočnú skladbu. Potom stlačte skratku na spl zložený príkaz "
+"nasledovanú klávesom F9. Potom nájdite koncovú skladbu, opätovne stlačte "
+"skratku na spl zložený príkaz nasledovaný klávesom F10."
+
+#. type: Title ##
+#, no-wrap
+msgid "Columns Explorer"
+msgstr "Prehliadač metadát"
+
+#. type: Plain text
+msgid ""
+"By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
+"columns. By default, these are first ten columns for a track item (in "
+"Studio: artist, title, duration, intro, outro, category, year, album, genre, "
+"mood). For playlist editor in Creator and Remote VT client, column data "
+"depends on column order as shown on screen. In Studio, Creator's main track "
+"list, and Track Tool, column slots are preset regardless of column order on "
+"screen and can be configured from add-on settings dialog under columns "
+"explorer category."
+msgstr ""
+"Skratkami Ctrl+NVDA+1 až 0, môžete čítať metadáta k skladbe. Predvolene je "
+"to v okne studio: interpret, názov, dĺžka, intro, outro, kategória, rok, "
+"album, žáner a nálada. V editoroch playlistu Creator a Remote VT závisí "
+"poradie podľa toho, ako je nastavené usporiadanie na obrazovke. Zobrazené "
+"metadáta sa dajú nastavovať v prehliadači metadát v nastaveniach doplnku. "
+"Tieto nastavenia sa zohľadňujú len pre Studio a Tracktool."
+
+#. type: Title ##
+#, no-wrap
+msgid "Track column announcement"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can ask NVDA to announce track columns found in Studio's playlist viewer "
+"in the order it appears on screen or using a custom order and/or exclude "
+"certain columns. Press NVDA+V to toggle this behavior while focused on a "
+"track in Studio's playlist viewer. To customize column inclusion and order, "
+"from column announcement settings panel in add-on settings, uncheck "
+"\"Announce columns in the order shown on screen\" and then customize "
+"included columns and/or column order."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist snapshots"
+msgstr "Štatistika playlistu"
+
+#. type: Plain text
+msgid ""
+"You can press SPL Assistant, F8 while focused on a playlist in Studio to "
+"obtain various statistics about a playlist, including number of tracks in "
+"the playlist, longest track, top artists and so on. After assigning a custom "
+"command for this feature, pressing the custom command twice will cause NVDA "
+"to present playlist snapshot information as a webpage so you can use browse "
+"mode to navigate (press escape to close)."
+msgstr ""
+"Zloženým príkazom SPL F8 si môžete z okna studio zo zoznamu skladieb "
+"zobraziť štatistiku playlistu. Tu zistíte počet skladieb, najdlhšiu skladbu, "
+"najhranejšieho interpreta a podobne. Ak si priradíte k tejto funkcii vlastnú "
+"skratku, môžete po jej dvojitom stlačení zobraziť informáciu v režime "
+"prehliadania. Okno so štatistikou zatvoríte klávesom ESC."
+
+#. type: Title ##
+#, no-wrap
+msgid "Playlist Transcripts"
+msgstr "Prepisy playlistu"
+
+#. type: Plain text
+msgid ""
+"Pressing SPL Assistant, Shift+F8 will present a dialog to let you request "
+"playlist transcripts in numerous formats, including in a plain text format, "
+"an HTML table or a list."
+msgstr ""
+"Zložený príkaz SPL shift+F8 umožní uložiť playlist ako prepis v čistom texte "
+"alebo ako tabuľku HTML."
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration dialog"
+msgstr "Nastavenia doplnku"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "From studio window, you can press Alt+NVDA+0 to open the add-on "
+#| "configuration dialog. Alternatively, go to NVDA's preferences menu and "
+#| "select SPL Studio Settings item. This dialog is also used to manage "
+#| "broadcast profiles."
+msgid ""
+"From studio window, you can press Alt+NVDA+0 to open the add-on "
+"configuration dialog. Alternatively, go to NVDA's preferences menu and "
+"select SPL Studio Settings item. Not all settings are available if NVDA is "
+"running in secure mode."
+msgstr ""
+"Z okna Studio môžete skratkou alt+nvda+0 otvoriť nastavenia doplnku. Môžete "
+"tiež použiť ponuku NVDA > možnosti. Tu tiež môžete nastaviť profily."
+
+#. type: Title ##
+#, no-wrap
+msgid "Broadcast profiles dialog"
+msgstr "Profily"
+
+#. type: Plain text
+msgid ""
+"You can save settings for specific shows into broadcast profiles. These "
+"profiles can be managed via SPL broadcast profiles dialog which can be "
+"accessed by pressing Alt+NVDA+P from Studio window."
+msgstr ""
+"Pre rôzne relácie si môžete vytvoriť rôzne profily. Nastavenia vyvoláte "
+"skratkou alt+nvda+p."
+
+#. type: Title ##
+#, no-wrap
+msgid "SPL touch mode"
+msgstr "Dotykový režim"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "If you are using Studio on a touchscreen computer running Windows 8 or "
+#| "later and have NVDA 2012.3 or later installed, you can perform some "
+#| "Studio commands from the touchscreen. First use three finger tap to "
+#| "switch to SPL mode, then use the touch commands listed above to perform "
+#| "commands."
+msgid ""
+"If you are using Studio on a touchscreen computer with NVDA installed, you "
+"can perform some Studio commands from the touchscreen. First use three "
+"finger tap to switch to SPL mode, then use the touch commands listed above "
+"to perform commands."
+msgstr ""
+"Ak máte k dispozícii dotykovú obrazovku, používate Windows od verzie 8 a "
+"NVDA  od verzie 2012.3, môžete na ovládanie doplnku použiť dotykové príkazy. "
+"Najprv je potrebné dotknúť sa obrazovky tromi prstami. Následne vykonajte "
+"gestá spomenúté vyššie v tomto návode."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.09-LTS"
+msgid "Version 25.06-LTS"
+msgstr "verzia 20.09-LTS"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Version 20.09.x is the last release series to support Studio 5.20 and "
+#| "based on old technologies, with future releases supporting Studio 5.30 "
+#| "and more recent NVDA features. Some new features will be backported to "
+#| "20.09.x if needed."
+msgid ""
+"Version 25.06.x is the last release series to support Studio 5.x with future "
+"releases requiring Studio 6.x. Some new features will be backported to 25.06."
+"x if needed."
+msgstr ""
+"Verzia 20.09.x je posledná, ktorá podporuje Studio 5.20 so staršou "
+"technológiou. Od verzie 18.10 podporujeme Studio 5.30. Niektoré nové funkcie "
+"môžu byť časom portované aj do verzie 20.09.X."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new command in SPL Assistant to announce playlist hour over/under by "
+"in minutes and seconds (O)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, the command to step through library scan announcement settings "
+"has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles "
+"remote access feature in NVDA 2025.1."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In Creator, NVDA will no longer play error tones or appear to do nothing "
+#| "when focused on certain lists."
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing when performing "
+"some SPL Assistant commands after resizing Studio window."
+msgstr "V niektorých zoznamoch v okne Creator NVDA viac nehlási chybu."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize track column changes introduced in Creator and Track "
+"Tool 6.11."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play wrong carts when playing them via SPL Controller "
+"layer."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.05"
+msgstr "Verzia 20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2018.3 or later is required."
+msgid "NVDA 2024.1 or later is required due to Python 3.11 upgrade."
+msgstr "Kompatibilné s NVDA od verzie 2018.3."
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Moved ad-on wiki documents such as add-on changelog to the main code "
+"repository."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added close button to playlist snapshots, playlist transcripts, and SPL "
+"Assistant and Controller layer help screens (NVDA 2025.1 and later)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA will no longer appear to do nothing or play error tones when it "
+#| "starts while an encoder window is focused."
+msgid ""
+"NVDA will no longer do nothing or play error tones when announcing weather "
+"and temperature information in Studio 6.x (SPL Assistant, W)."
+msgstr ""
+"NVDA pri štarte so zameraním na okno s nastavením enkodéra viac nehlási "
+"chybu."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.01"
+msgstr "Verzia 20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 Service Pack 1 or later is required."
+msgid "64-bit Windows 10 21H2 (build 19044) or later is required."
+msgstr "Vyžaduje sa minimálne Windows 7 a Servicepack 1."
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio 6.10 and later, added a new command in SPL Assistant to announce "
+"control keys enabled/disabled status (Control+D)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 24.03"
+msgstr "Verzia 20.01"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2024.1."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2018.3 or later is required."
+msgid "NVDA 2023.3.3 or later is required."
+msgstr "Kompatibilné s NVDA od verzie 2018.3."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Initial support for StationPlaylist suite 5.40."
+msgid "Support for StationPlaylist suite 6.10."
+msgstr "Prvotná podpora pre StationPlaylist suite 5.40."
+
+#. type: Bullet: '* '
+msgid ""
+"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
+"spoken in this mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 24.01"
+msgstr "Verzia 20.01"
+
+#. type: Bullet: '* '
+msgid ""
+"The commands for the Encoder Settings dialog for use with the SPL and SAM "
+"Encoders are now assignable, meaning that you can change them from their "
+"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
+"Input Gestures. The ones that are not assignable are the connect and "
+"disconnect commands. Also, to prevent command conflicts and make much easier "
+"use of this command on remote servers, the default gesture for switching to "
+"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
+"of these can of course still be toggled from the Encoder Settings dialog "
+"(NVDA+Alt+0 or F12)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 23.05"
+msgstr "Verzia 20.01"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 23.02"
+msgstr "Verzia 20.01"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA 2018.3 or later is required."
+msgid "NVDA 2022.4 or later is required."
+msgstr "Kompatibilné s NVDA od verzie 2018.3."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Windows 7 Service Pack 1 or later is required."
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr "Vyžaduje sa minimálne Windows 7 a Servicepack 1."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "In Studio's playlist viewer, NVDA will not include column headers if this "
+#| "setting is disabled from add-on settings and custom column order or "
+#| "inclusion settings are not defined."
+msgid ""
+"In Studio's playlist viewer, NVDA will not announce column headers such as "
+"artist and title if table headers setting is set to either \"rows and "
+"columns\" or \"columns\" in NVDA's document formatting settings panel."
+msgstr ""
+"Odteraz NVDA v playliste v okne Studio neoznamuje hlavičky stĺpcov, ak je "
+"oznamovanie vypnuté, ale súčasne nie je definované poradie stĺpcov."
+
+#. type: Title ##
+#, no-wrap
+msgid "Older releases"
+msgstr "Staršie verzie"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Please see changelog link for release notes for old add-on releases."
+msgid ""
+"Please see the [changelog][2] for release notes for old add-on releases."
+msgstr ""
+"Výpis zmien pre staršie verzie doplnku nájdete na samostatnej stránke "
+"(anglicky)."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
+msgid ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+msgstr "[4]: https://github.com/josephsl/stationplaylist/wiki/SPLAddonGuide"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
+msgid ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+msgstr "[5]: https://github.com/josephsl/stationplaylist/wiki/splchangelog"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Stiahnuť [stabilnú verziu][1]"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2019.3 to 2020.3"
+#~ msgid "NVDA compatibility: 2023.3.3 and later"
+#~ msgstr "Funguje s NVDA 2019.3 až 2020.3"
+
+#~ msgid "The following commands are available when using encoders:"
+#~ msgstr "Dostupné sú tieto príkazy:"
+
+#~ msgid "The available commands are:"
+#~ msgstr "Dostupné sú tieto príkazy:"
+
+#, fuzzy
+#~| msgid "I (L in JAWS layout): Listener count."
+#~ msgid "I: Listener count."
+#~ msgstr "I (L v rozložení pre JAWS): Oznámi počet pripojených poslucháčov."
+
+#~ msgid "Authors: Geoff Shang, Joseph Lee and other contributors"
+#~ msgstr "Autori: Geoff Shang, Joseph Lee a ďalší"
+
+#, fuzzy
+#~| msgid "Version 20.01"
+#~ msgid "Version 22.03"
+#~ msgstr "Verzia 20.01"
+
+#, fuzzy
+#~| msgid "NVDA 2018.3 or later is required."
+#~ msgid "NVDA 2021.3 or later is required."
+#~ msgstr "Kompatibilné s NVDA od verzie 2018.3."
+
+#, fuzzy
+#~| msgid ""
+#~| "In Studio's playlist viewer, NVDA will no longer appear to do nothing or "
+#~| "play error tones when attempting to delete tracks or after clearing the "
+#~| "loaded playlist while focused on playlist viewer."
+#~ msgid ""
+#~ "In Studio, NVDA will no longer do nothing or play error tones if "
+#~ "attempting to obtain playlist snapshots (SPL Assistant, F8) if the loaded "
+#~ "playlist consists only of hour markers."
+#~ msgstr ""
+#~ "NVDA správne reaguje pri pokuse zmazať položku z playlistu alebo vymazať "
+#~ "celý playlist."
+
+#~ msgid ""
+#~ "Control+Alt+Home/End (while focused on a track in Studio, Creator, Remote "
+#~ "VT, and Track Tool): Move to first/last track column."
+#~ msgstr ""
+#~ "Ctrl+Alt+home a end (pri zobrazení skladby v oknách Studio, Creator, "
+#~ "Remote VT, a Track Tool): presunie kurzor na prvý alebo posledný stĺpec."
+
+#~ msgid "SPL Controller layer."
+#~ msgstr "Podpríkazy na ovládanie a informácie stavu SPL."
+
+#, fuzzy
+#~| msgid "Version 20.06"
+#~ msgid "Version 21.11"
+#~ msgstr "verzia 20.06"
+
+#, fuzzy
+#~| msgid "Version 20.06"
+#~ msgid "Version 21.10"
+#~ msgstr "verzia 20.06"
+
+#, fuzzy
+#~| msgid "NVDA 2019.3 or later is required due to extensive use of Python 3."
+#~ msgid ""
+#~ "NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+#~ "add-on."
+#~ msgstr "Vyžadujeme NVDA od verzie 2019.3 nakoľko používame Python3."
+
+#~ msgid "Shift+F1: Opens online user guide."
+#~ msgstr "Shift+F1: Otvorí online používateľskú príručku."
+
+#, fuzzy
+#~| msgid "Version 20.06"
+#~ msgid "Version 21.08"
+#~ msgstr "verzia 20.06"
+
+#, fuzzy
+#~| msgid ""
+#~| "In SAM encoders, NVDA will no longer appear to do nothing or play error "
+#~| "tones if an encoder entry is deleted while being monitored in the "
+#~| "background."
+#~ msgid ""
+#~ "In SAM encoders, NVDA will no longer play a tone if the selected encoder "
+#~ "becomes idle as this tone is really meant to help when debugging the add-"
+#~ "on."
+#~ msgstr ""
+#~ "NVDA viac nehlási chybu, ak odstránite pripojenie, ktoré monitorujete na "
+#~ "pozadí."
+
+#, fuzzy
+#~| msgid "Version 20.06"
+#~ msgid "Version 21.06"
+#~ msgstr "verzia 20.06"
+
+#, fuzzy
+#~| msgid ""
+#~| "NVDA will no longer appear to do nothing or play error tones when trying "
+#~| "to announce metadata streaming status when Studio starts if configured "
+#~| "to do so."
+#~ msgid ""
+#~ "NVDA will no longer do nothing or play error tones when trying to open "
+#~ "various add-on dialogs such as encoder settings dialog. This is a "
+#~ "critical fix required to support NVDA 2021.1."
+#~ msgstr ""
+#~ "NVDA viac nehlási chybu ak sa pokúšate zistiť stav streamovania metadát "
+#~ "pri spúšťaní okna Studio."
+
+#, fuzzy
+#~| msgid ""
+#~| "NVDA will no longer appear to do nothing or play error tones when trying "
+#~| "to announce metadata streaming status when Studio starts if configured "
+#~| "to do so."
+#~ msgid ""
+#~ "NVDA will no longer appear to do nothing or play error tones when trying "
+#~ "to announce complete time (hours, minutes, seconds) from Studio (command "
+#~ "unassigned). This affects NVDA 2021.1 or later."
+#~ msgstr ""
+#~ "NVDA viac nehlási chybu ak sa pokúšate zistiť stav streamovania metadát "
+#~ "pri spúšťaní okna Studio."
+
+#, fuzzy
+#~| msgid "Version 20.10/20.09.2-LTS"
+#~ msgid "Version 21.04/20.09.7-LTS"
+#~ msgstr "Verzia 20.10/20.09.2-LTS"
+
+#, fuzzy
+#~| msgid "19.08: NVDA 2019.1 or later is required."
+#~ msgid "21.04: NVDA 2020.4 or later is required."
+#~ msgstr "19.08: Vyžaduje NVDA od verzie 2019.1."
+
+#, fuzzy
+#~| msgid "Version 20.10/20.09.2-LTS"
+#~ msgid "Version 21.03/20.09.6-LTS"
+#~ msgstr "Verzia 20.10/20.09.2-LTS"
+
+#, fuzzy
+#~| msgid ""
+#~| "NVDA will no longer announce \"monitoring library scan\" after closing "
+#~| "Studio in some situations."
+#~ msgid ""
+#~ "NVDA will no longer announce \"0 items in the library\" when Studio exits "
+#~ "in the middle of a library scan."
+#~ msgstr "NVDA po zatvorení okna Studio viac nehlási skenovanie knižnice."
+
+#, fuzzy
+#~| msgid "Version 20.10/20.09.2-LTS"
+#~ msgid "Version 21.01/20.09.5-LTS"
+#~ msgstr "Verzia 20.10/20.09.2-LTS"
+
+#, fuzzy
+#~| msgid "Version 19.06 supports SPL Studio 5.20 and later."
+#~ msgid "Version 21.01 supports SPL Studio 5.30 and later."
+#~ msgstr "Verzia 19.06 podporuje SPL Studio od verzie 5.20."
+
+#, fuzzy
+#~| msgid "19.08: NVDA 2019.1 or later is required."
+#~ msgid "21.01: NVDA 2020.3 or later is required."
+#~ msgstr "19.08: Vyžaduje NVDA od verzie 2019.1."
+
+#, fuzzy
+#~| msgid ""
+#~| "20.10: column header inclusion setting from add-on settings is "
+#~| "deprecated and will be removed in a future release. In the future NVDA's "
+#~| "own table column header setting will control column header announcements "
+#~| "across SPL suite and encoders."
+#~ msgid ""
+#~ "21.01: column header inclusion setting from add-on settings has been "
+#~ "removed. NVDA's own table column header setting will control column "
+#~ "header announcements across SPL suite and encoders."
+#~ msgstr ""
+#~ "20.10: Odstránené oznamovanie hlavičiek v playlistoch. Doplnok sa bude "
+#~ "riadiť nastaveniami NVDA."
+
+#, fuzzy
+#~| msgid "Version 20.10/20.09.2-LTS"
+#~ msgid "Version 20.11.1/20.09.4-LTS"
+#~ msgstr "Verzia 20.10/20.09.2-LTS"
+
+#, fuzzy
+#~| msgid "Version 20.10/20.09.2-LTS"
+#~ msgid "Version 20.11/20.09.3-LTS"
+#~ msgstr "Verzia 20.10/20.09.2-LTS"
+
+#, fuzzy
+#~| msgid "19.08: NVDA 2019.1 or later is required."
+#~ msgid "20.11: NVDA 2020.1 or later is required."
+#~ msgstr "19.08: Vyžaduje NVDA od verzie 2019.1."
+
+#, fuzzy
+#~| msgid "Resolved many coding style issues and potential bugs with Flake8."
+#~ msgid ""
+#~ "20.11: Resolved more coding style issues and potential bugs with Flake8."
+#~ msgstr "Opravené drobné chyby v kóde."
+
+#, fuzzy
+#~| msgid ""
+#~| "When using Columns Explorer slots (Control+NVDA+number row commands) or "
+#~| "column navigation commands (Control+Alt+home/end/left arrow/right arrow) "
+#~| "in Creator and Remote VT client, NVDA will no longer announce wrong "
+#~| "column data after changing column position on screen via mouse."
+#~ msgid ""
+#~ "If vertical column announcement is set to a value other than \"whichever "
+#~ "column I'm reviewing\", NVDA will no longer announce wrong column data "
+#~ "after changing column position on screen via mouse."
+#~ msgstr ""
+#~ "Ak zmeníte poradie metadát myšou a následne použijete skratky na "
+#~ "prezeranie metadát, NVDA správne zohľadní zmeny."
+
+#~ msgid "Version 20.10/20.09.2-LTS"
+#~ msgstr "Verzia 20.10/20.09.2-LTS"
+
+#~ msgid ""
+#~ "Due to changes to encoder settings file format, installing an older "
+#~ "version of this add-on after installing this version will cause "
+#~ "unpredictable behavior."
+#~ msgstr ""
+#~ "Z dôvodu zmien v súboroch s nastaveniami streamov nie je možné z tejto "
+#~ "verzie prejsť na staršiu verziu doplnku. Pri pokuse prejsť na staršiu "
+#~ "verziu sa môžete stretnúť s nečakanými problémami."
+
+#~ msgid ""
+#~ "It is no longer necessary to restart NVDA with debug logging mode to read "
+#~ "debug messages from log viewer. You can view debug messages if log level "
+#~ "is set to \"debug\" from NVDA's general settings panel."
+#~ msgstr ""
+#~ "Odteraz nie je potrebné reštartovať NVDA, ak chcete do logu zapisovať "
+#~ "informácie od úrovne debug. Stačí len nastaviť úroveň záznamu."
+
+#~ msgid ""
+#~ "20.10: column header inclusion setting from add-on settings is deprecated "
+#~ "and will be removed in a future release. In the future NVDA's own table "
+#~ "column header setting will control column header announcements across SPL "
+#~ "suite and encoders."
+#~ msgstr ""
+#~ "20.10: Odstránené oznamovanie hlavičiek v playlistoch. Doplnok sa bude "
+#~ "riadiť nastaveniami NVDA."
+
+#~ msgid ""
+#~ "When SPL Studio is minimized to the system tray (notification area), NVDA "
+#~ "will announce this fact when trying to switch to Studio from other "
+#~ "programs either through a dedicated command or as a result of an encoder "
+#~ "connecting."
+#~ msgstr ""
+#~ "Ak je SPL studio minimalizované na systémový panel, NVDA túto skutočnosť "
+#~ "oznámi pri pokuse aktivovať okno Studio po pripojení streamu alebo pri "
+#~ "použití klávesovej skratky."
+
+#~ msgid ""
+#~ "Due to changes in NVDA, --spl-configvolatile command line switch is no "
+#~ "longer available to make add-on settings read-only. You can emulate this "
+#~ "by unchecking \"Save configuration when exiting NVDA\" checkbox from "
+#~ "NVDA's general settings panel."
+#~ msgstr ""
+#~ "Vzhľadom na úpravy v aktuálnych verziách NVDA, nie je viac možné "
+#~ "nastavenia doplnku chrániť proti zápisu príkazom --spl-configvolatile. "
+#~ "Odteraz je potrebné priamo v nastaveniach NVDA v časti všeobecné "
+#~ "odčiarknuť možnosť Uložiť nastavenia pri ukončení."
+
+#~ msgid ""
+#~ "Removed pilot features setting from Advanced settings category under add-"
+#~ "on settings (Alt+NVDA+0), used to let development snapshot users test "
+#~ "bleeding-edge code."
+#~ msgstr "Odstránená možnosť testovať pylotné funkcie."
+
+#~ msgid ""
+#~ "Column navigation commands in Studio are now available in track lists "
+#~ "found in listener requests, insert tracks and other screens."
+#~ msgstr ""
+#~ "Navigácia po stĺpcoch s metadátami je odteraz dostupná tiež v žiadostiach "
+#~ "od poslucháčov, pri vkladaní skladieb cez dialóg vložiť a tiež v "
+#~ "ostatných dialógoch."
+
+#~ msgid ""
+#~ "Various column navigation commands will behave like NVDA's own table "
+#~ "navigation commands. Besides simplifying these commands, it brings "
+#~ "benefits such as ease of use by low vision users."
+#~ msgstr ""
+#~ "Navigácia po metadátach odteraz funguje rovnako, ako štandardná navigácia "
+#~ "NVDA po tabuľkách. Okrem zjednodušenia skratiek je tento spôsob výhodný "
+#~ "aj pre slabozrakých používateľov."
+
+#~ msgid ""
+#~ "Vertical column navigation (Control+Alt+up/down arrow) commands are now "
+#~ "available for Creator, playlist editor, Remote VT, and Track Tool."
+#~ msgstr ""
+#~ "Vertikálna navigácia (ctrl+alt+šípky hore a dole) odteraz funguje v "
+#~ "oknách Creator, playlist editor, Remote VT, a Track Tool."
+
+#~ msgid ""
+#~ "Track columns viewer command (Control+NVDA+hyphen) is now available in "
+#~ "Creator's Playlist Editor and Remote VT."
+#~ msgstr ""
+#~ "Zobrazenie metadát (ctrl+nvda+-) funguje pri úprave playlistu v okne "
+#~ "Creator a REmote VT."
+
+#~ msgid ""
+#~ "Track columns viewer command will respect column order displayed on "
+#~ "screen."
+#~ msgstr "Poradie je zobrazené tak, ako na obrazovke."
+
+#~ msgid ""
+#~ "In SAM encoders, improved NVDA's responsiveness when pressing Control+F9 "
+#~ "or Control+F10 to connect or disconnect all encoders, respectively. This "
+#~ "may result in increased verbosity when announcing the selected encoder "
+#~ "information."
+#~ msgstr ""
+#~ "Zrýchlená odozva pri práci so streamami v oknách SAM enkodéra, konkrétne "
+#~ "pri pripájaní (ctrl+F9) a odpájaní (ctrl+F10)."
+
+#~ msgid ""
+#~ "In SPL and AltaCast encoders, pressing F9 will now connect the selected "
+#~ "encoder."
+#~ msgstr ""
+#~ "Skratkou F9 je možné v okne AltaCast a SPL enkodéra pripojiť vybratý "
+#~ "stream."
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Stiahnuť [vývojovú verziu][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=spl-dev"
+
+#~ msgid "Download [long-term support version][3] - for Studio 5.20 users"
+#~ msgstr "Stiahnuť [Verziu s dlhodobou podporou][3] - pre Studio v 5.20"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts20"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=spl-lts20"
+
+#~ msgid ""
+#~ "Alt+NVDA+- (hyphen) from Studio window: Send feedback to add-on developer "
+#~ "using the default email client."
+#~ msgstr ""
+#~ "Alt+NVDA+- (pomlčka) z okna studio: Otvorí predvoleného e-mailového "
+#~ "klienta na zaslanie e-mailu vývojárovi doplnku."
+
+#~ msgid ""
+#~ "For more information about the add-on, read the [add-on guide][4]. For "
+#~ "developers seeking to know how to build the add-on, see buildInstructions."
+#~ "txt located at the root of the add-on source code repository."
+#~ msgstr ""
+#~ "Podrobnosti si môžete prečítať v [dokumentácii (anglicky)][4]. Ak chcete "
+#~ "zostaviť vlastnú verziu, pozrite si inštrukcie v súbore buildInstructions."
+#~ "txt v hlavnom priečinku repozitára doplnku (anglicky)."
+
+#~ msgid ""
+#~ "Certain add-on features won't work under some conditions, including "
+#~ "running NVDA in secure mode."
+#~ msgstr ""
+#~ "Niektoré funkcie doplnku nemusia vždy fungovať, napríklad ak sa "
+#~ "nachádzate na zabezpečenej obrazovke."
+
+#~ msgid ""
+#~ "Due to tecnical limitations, you cannot install or use this add-on on "
+#~ "Windows Store version of NVDA."
+#~ msgstr ""
+#~ "Z technických príčin nie je možné tento doplnok používať na verzii NVDA z "
+#~ "Windows obchodu."
+
+#~ msgid ""
+#~ "Features marked as \"experimental\" are meant to test something before a "
+#~ "wider release, so they will not be enabled in stable releases."
+#~ msgstr ""
+#~ "Funkcie označené ako experimentálne sú v štádiu testovania a nie sú "
+#~ "zatiaľ zaradené do stabilnej verzie doplnku."
+
+#~ msgid ""
+#~ "Press S to stop the track with fade out, or to stop the track instantly, "
+#~ "press T."
+#~ msgstr ""
+#~ "S: postupne stíši prehrávanie. Klávesom T zastavíte prehrávanie okamžite."
+
+#~ msgid ""
+#~ "Press M or Shift+M to turn on or off the microphone, respectively, or "
+#~ "press N to enable microphone without fade."
+#~ msgstr ""
+#~ "M zapne mikrofón, shift+M vypne mikrofón. Písmeno n zapne mikrofón bez "
+#~ "stíšenia skladby."
+
+#~ msgid "Press A to enable automation or Shift+A to disable it."
+#~ msgstr "A: spustí autopylota, shift+A ho zastaví."
+
+#~ msgid "Press L to enable line-in input or Shift+L to disable it."
+#~ msgstr "L: povolí line-in vstup, shift+L: vypne line in vstup."
+
+#~ msgid "Press Shift+R to get a report on library scan progress."
+#~ msgstr "Shift+R: Oznámi stav skenovania knižnice."
+
+#~ msgid "Press E to hear which encoders are connected."
+#~ msgstr "E: Oznámi aktívne pripojenia."
+
+#~ msgid "Press I to obtain listener count."
+#~ msgstr "I: Oznámi počet pripojených poslucháčov."
+
+#~ msgid "Press H to show a help dialog which lists available commands."
+#~ msgstr "H: Oznámi dostupné príkazy a funkcie."
+
+#~ msgid "Version 20.07"
+#~ msgstr "verzia 20.07"
+
+#~ msgid ""
+#~ "When searching for tracks in Studio's insert tracks dialog, NVDA will "
+#~ "announce search results if results are found."
+#~ msgstr ""
+#~ "Ak v okne vkladania súboru použijete vyhľadávanie v knižnici, NVDA "
+#~ "oznamuje nájdené položky."
+
+#~ msgid ""
+#~ "NVDA will no longer appear to do nothing or play error tones when trying "
+#~ "to switch to a newly created broadcast profile and save add-on settings."
+#~ msgstr ""
+#~ "NVDA nehlási chybu a nezamrzne, pri zmene vysielacieho profilu a uložení "
+#~ "nastavení."
+
+#~ msgid ""
+#~ "In encoder settings, \"stream label\" has been renamed to \"encoder "
+#~ "label\"."
+#~ msgstr ""
+#~ "Premenovaná položka názov streamu v nastaveniach (týka sa anglickej "
+#~ "verzie doplnku)."
+
+#~ msgid ""
+#~ "Dedicated stream labeler command (F12) has been removed from encoders. "
+#~ "Encoder labels can be defined from encoder settings dialog (Alt+NVDA+0)."
+#~ msgstr ""
+#~ "Odstránená skratka F12 na pomenovanie streamu. Názov streamu je možné "
+#~ "definovať v nastaveniach doplnku alt+nvda+0."
+
+#~ msgid ""
+#~ "System focus will no longer move to Studio repeatedly or selected track "
+#~ "will be played when an encoder being monitored in the background "
+#~ "(Control+F11) connects and disconnects repeatedly."
+#~ msgstr ""
+#~ "Ak ste určili, že sa po pripojení streamu má zamerať okno Studio alebo sa "
+#~ "má prehrať vybratá skladba, NVDA viac nebude presúvať fokus pri výpadkoch "
+#~ "pripojenia."
+
+#~ msgid ""
+#~ "In SPL encoders, added Control+F9 command to connect all encoders (same "
+#~ "as F9 command)."
+#~ msgstr ""
+#~ "Pridaná skratka ctrl+F9 pre pripojenie všetkých streamov v okne SPL "
+#~ "encoder."
+
+#~ msgid "Resolved many coding style issues and potential bugs with Flake8."
+#~ msgstr "Opravené drobné chyby v kóde."
+
+#~ msgid ""
+#~ "Fixed many instances of encoders support feature messages spoken in "
+#~ "English despite translated into other languages."
+#~ msgstr ""
+#~ "Opravené oznamovanie správ doplnku v Angličtine v situáciách, keď bol "
+#~ "dostupný preklad."
+
+#~ msgid "Time-based broadcast profiles feature has been removed."
+#~ msgstr "Časovo aktivované profily nie sú viac podporované."
+
+#~ msgid ""
+#~ "Window-Eyes command layout for SPL Assistant has been removed. Window-"
+#~ "Eyes command layout users will be migrated to NVDA layout."
+#~ msgstr ""
+#~ "Odstránené rozloženie klávesovách skratiek pre Window-eyes. Ak ste mali "
+#~ "nastavené toto rozloženie, bude sa odteraz používať rozloženie NVDA."
+
+#~ msgid ""
+#~ "As audio ducking feature in NVDA does not impact streaming from Studio "
+#~ "except for specific hardware setups, audio ducking reminder dialog has "
+#~ "been removed."
+#~ msgstr ""
+#~ "Odstránené upozornenie na stišovanie audia, nakoľko toto v skutočnosti "
+#~ "zasahuje len málo používateľou so špecifickým nastavením."
+
+#~ msgid ""
+#~ "When errors are found in encoder settings, it is no longer necessary to "
+#~ "switch to Studio window to let NVDA reset settings to defaults. You must "
+#~ "now switch to an encoder from encoders window to let NVDA reset encoder "
+#~ "settings."
+#~ msgstr ""
+#~ "Ak pri nastavovaní enkodéra dôjde k chybe, nie je potrebné vracať sa do "
+#~ "okna studio. Nastavenia sa vynulujú pri prechode do okna enkodéra."
+
+#~ msgid ""
+#~ "The title of encoder settings dialog for SAM encoders now displays "
+#~ "encoder format rather than encoder position."
+#~ msgstr ""
+#~ "V názve okna SAM enkodéra sa zobrazuje formát streamu a nie pozícia."
+
+#~ msgid "Version 20.05"
+#~ msgstr "verzia 20.05"
+
+#~ msgid ""
+#~ "Initial support for Remote VT (voice track) client, including remote "
+#~ "playlist editor with same commands as Creator's playlist editor."
+#~ msgstr ""
+#~ "Prvotná podpora pre aplikáciu na nahrávanie vstupov Remote VT (voice "
+#~ "track), a tiež podpora pre remote playlist editor s rovnakými príkazmi "
+#~ "ako Creator."
+
+#~ msgid ""
+#~ "Commands used to open separate alarm settings dialogs (Alt+NVDA+1, "
+#~ "Alt+NVDA+2, Alt+NVDA+4) has been combined into Alt+NVDA+1 and will now "
+#~ "open alarms settings in SPL add-on settings screen where track outro/"
+#~ "intro and microphone alarm settings can be found."
+#~ msgstr ""
+#~ "Príkazy na otvorenie nastavení upozornení (alt+nvda+1, alt+nvda+2, "
+#~ "alt+nvda+4) sú odteraz zlúčené do jedného okna, ktoré otvoríte skratkou "
+#~ "alt+nvda+1. Tu môžete nastaviť upozornenie na začiatok a koniec skladby a "
+#~ "zapnutý mikrofón."
+
+#~ msgid ""
+#~ "In triggers dialog found in broadcast profiles dialog, removed the user "
+#~ "interface associated with time-based broadcast profiles feature such as "
+#~ "profile switch day/time/duration fields."
+#~ msgstr "Odstránená možnos nastaviť čas a dĺžku trvania spusteného profilu."
+
+#~ msgid ""
+#~ "Profile switch countdown setting found in broadcast profiles dialog has "
+#~ "been removed."
+#~ msgstr "Odstránená možnosť odpočítavania pri spustení časovaného profilu."
+
+#~ msgid ""
+#~ "As Window-Eyes is no longer supported by Vispero since 2017, SPL "
+#~ "Assistant command layout for Window-Eyes is deprecated and will be "
+#~ "removed in a future add-on release. A warning will be shown at startup "
+#~ "urging users to change SPL Assistant command layout to NVDA (default) or "
+#~ "JAWS."
+#~ msgstr ""
+#~ "Keďže čítač obrazovky Window-Eyes už firma Vispero  nevyvíja od roku "
+#~ "2017, budú z nasledujúcich verzií doplnku odstránené skratky pre tento "
+#~ "čítač obrazovky. Ak používate rozloženie pre Window-eyes, NVDA na túto "
+#~ "skutočnosť upozorní a odporučí nastavenie iného rozloženia (JAWS alebo "
+#~ "NVDA)."
+
+#~ msgid ""
+#~ "When using Columns Explorer slots (Control+NVDA+number row commands) or "
+#~ "column navigation commands (Control+Alt+home/end/left arrow/right arrow) "
+#~ "in Creator and Remote VT client, NVDA will no longer announce wrong "
+#~ "column data after changing column position on screen via mouse."
+#~ msgstr ""
+#~ "Ak zmeníte poradie metadát myšou a následne použijete skratky na "
+#~ "prezeranie metadát, NVDA správne zohľadní zmeny."
+
+#~ msgid ""
+#~ "In encoders and Streamer, NVDA will no longer appear to do nothing or "
+#~ "play error tones when exiting NVDA while focused on something other than "
+#~ "encoders list without moving focus to encoders first."
+#~ msgstr ""
+#~ "Ak ukončíte NVDA a nemáte v okne s nastavením enkodéra zameraný zoznam "
+#~ "pripojení, NVDA viac nehlási chybu a dá sa ukončiť bez nutnosti zamerať "
+#~ "zoznam pripojení."
+
+#~ msgid "Version 20.04"
+#~ msgstr "verzia 20.04"
+
+#~ msgid ""
+#~ "Time-based broadcast profiles feature is deprecated. A warning message "
+#~ "will be shown when first starting Studio after installing add-on 20.04 if "
+#~ "you have defined one or more time-based broadcast profiles."
+#~ msgstr ""
+#~ "Profily viazané na určitý čas viac nie sú podporované. Doplnok vás na "
+#~ "túto skutočnosť upozorní, ak používate verziu doplnku 20.04 a máte "
+#~ "definované profily so spustením v určitom čase."
+
+#~ msgid ""
+#~ "Broadcast profiles management has been split from SPL add-on settings "
+#~ "dialog into its own dialog. You can access broadcast profiles dialog by "
+#~ "pressing Alt+NVDA+P from Studio window."
+#~ msgstr ""
+#~ "Nastavenia profilov boli presunuté do samostatného okna, ktoré je "
+#~ "dostupné pod skratkou alt+nvda+p."
+
+#~ msgid ""
+#~ "Due to duplication with Control+NVDA+number row commands for Studio "
+#~ "tracks, columns explorer commands from SPL Assistant (number row) has "
+#~ "been removed."
+#~ msgstr ""
+#~ "Boli odstránené skratky na prezeranie metadát zo spl asistenta, keďže "
+#~ "dochádzalo ku konfliktom so skratkami nvda+ctrl+čísla."
+
+#~ msgid ""
+#~ "Changed error message shown when trying to open a Studio add-on settings "
+#~ "dialog (such as metadata streaming dialog) while another settings dialog "
+#~ "(such as end of track alarm dialog) is active. The new error message is "
+#~ "same as the message shown when trying to open multiple NVDA settings "
+#~ "dialogs."
+#~ msgstr ""
+#~ "Opravené zobrazovanie správ, ak sa pokúšate otvoriť viacero dialógov "
+#~ "doplnku. Využívame teraz hlásenie integrované v NVDA."
+
+#~ msgid ""
+#~ "NVDA will no longer play error tones or appear to do nothing when "
+#~ "clicking OK button from Columns Explorer dialog after configuring column "
+#~ "slots."
+#~ msgstr ""
+#~ "Po nastavení poradia zobrazovaných metadát a ich uložení NVDA viac "
+#~ "nehlási chybu."
+
+#~ msgid ""
+#~ "In encoders, you can now save and reset encoder settings (including "
+#~ "stream labels) by pressing Control+NVDA+C or Control+NVDA+R three times, "
+#~ "respectively."
+#~ msgstr ""
+#~ "Odteraz je možné uložiť nastavenia a názvy enkodéra skratkou ctrl+nvda+c. "
+#~ "Nastavenia obnovíte skratkou ctrl+nvda+r stlačené trikrát rýchlo za sebou."
+
+#~ msgid "Version 20.03"
+#~ msgstr "verzia 20.03"
+
+#~ msgid ""
+#~ "Columns Explorer will now announce first ten columns by default (existing "
+#~ "installations will continue to use old column slots)."
+#~ msgstr ""
+#~ "Prezeranie metadát oznamuje prvých desať položiek (existujúce staršie "
+#~ "inštalácie budú používať naďalej staršie sloty metadát)."
+
+#~ msgid ""
+#~ "The ability to announce name of the playing track automatically from "
+#~ "places other than Studio has been removed. This feature, introduced in "
+#~ "add-on 5.6 as a workaround for Studio 5.1x, is no longer functional. "
+#~ "Users must now use SPL Controller and/or Assistant layer command to hear "
+#~ "title of the currently playing track from everywhere (C)."
+#~ msgstr ""
+#~ "Prepracovaná možnosť oznamovania hrajúcej skladby odkiaľkoľvek. Odteraz "
+#~ "sa používa zložený príkaz. Automatické oznamovanie viac nie je "
+#~ "podporované."
+
+#~ msgid ""
+#~ "Due to removal of automatic announcement of playing track title, the "
+#~ "setting to configure this feature has been removed from add-on settings/"
+#~ "status announcement category."
+#~ msgstr ""
+#~ "Odstránené nepotrebné nastavenie na automatické oznamovanie hrajúcej "
+#~ "skladby."
+
+#~ msgid ""
+#~ "In encoders, NVDA will play connection tone every half a second while an "
+#~ "encoder is connecting."
+#~ msgstr "NVDA oznamuje pripájanie dvakrát za sekundu pípaním."
+
+#~ msgid ""
+#~ "In encoders, NVDA will now announce connection attempt messages until an "
+#~ "encoder is actually connected. Previously NVDA stopped when an error was "
+#~ "encountered."
+#~ msgstr ""
+#~ "NVDA oznamuje chyby pripojenia aj v prípade, že dôjde k chybeale pokus o "
+#~ "pripájanie pokračuje."
+
+#~ msgid ""
+#~ "A new setting has been added to encoder settings to let NVDA announce "
+#~ "connection messages until the selected encoder is connected. This setting "
+#~ "is enabled by default."
+#~ msgstr ""
+#~ "Do nastavení pridaná možnosť oznamovať stav pripájania až po úspešné "
+#~ "pripojenie. Predvolene je zapnuté."
+
+#~ msgid "Version 20.02"
+#~ msgstr "verzia 20.02"
+
+#~ msgid "Initial support for StationPlaylist Creator's Playlist Editor."
+#~ msgstr "Prvotná podpora pre Station Playlist Creator."
+
+#~ msgid ""
+#~ "Added Alt+NVDA+number row commands to announce various status information "
+#~ "in Playlist Editor. These include date and time for the playlist (1), "
+#~ "total playlist duration (2), when the selected track is scheduled to play "
+#~ "(3), and rotation and category (4)."
+#~ msgstr ""
+#~ "Pridané skratky alt+nvda+číslice  na zisťovanie stavových informácií pri "
+#~ "úprave playlistu: Dátum a čas playlistu (1), trvanie playlistu (2), "
+#~ "plánované odohratie vybratej skladby (3), rotáciu a kategóriu (4)."
+
+#~ msgid ""
+#~ "While focused on a track in Creator and Track Tool (except in Creator's "
+#~ "Playlist Editor), pressing Control+NVDA+Dash will display data for all "
+#~ "columns on a browse mode window."
+#~ msgstr ""
+#~ "Ctrl+nvda+- zobrazí metadáta skladby v režime prehliadania. Funguje pri "
+#~ "zameraní skladby v oknách Creator, Tracktool (ale nie v okne s úpravou "
+#~ "playlistu Creator)."
+
+#~ msgid ""
+#~ "If NVDA Recognizes a track list item with less than 10 columns, NVDA will "
+#~ "no longer announce headers for nonexistent columns if Control+NVDA+number "
+#~ "row for out of range column is pressed."
+#~ msgstr ""
+#~ "Ak má skladba priradených menej ako 10 metadát, NVDA nebude oznamovať "
+#~ "neexistujúce metadáta."
+
+#~ msgid ""
+#~ "In creator, NVDA will no longer announce column information if "
+#~ "Control+NVDA+number row keys are pressed while focused on places other "
+#~ "than track list."
+#~ msgstr ""
+#~ "NVDA v okne Creator po stlačení skratiek ctrl+nvda+0-9 neoznamuje "
+#~ "metadáta, ak nie ste v zozname skladieb."
+
+#~ msgid ""
+#~ "When a track is playing, NVDA will no longer announce \"no track is "
+#~ "playing\" if obtaining information about current and next tracks via SPL "
+#~ "Assistant or SPL Controller."
+#~ msgstr ""
+#~ "NVDA viac netvrdí, že sa nič neprehráva, hoci prehrávanie beží a vy "
+#~ "zisťujete stav cez zložené príkazy."
+
+#~ msgid ""
+#~ "If an alarm options dialog (intro, outro, microphone) is open, NVDA will "
+#~ "no longer appear to do nothing or play error tone if attempting to open a "
+#~ "second instance of any alarm dialog."
+#~ msgstr ""
+#~ "NVDA upozorní, že je otvorený dialóg s upozorneniami, ak sa ho pokúsite "
+#~ "opätovne otvoriť."
+
+#~ msgid ""
+#~ "When trying to switch between active profile and an instant profile via "
+#~ "SPL Assistant (F12), NVDA will present a message if attempting to do so "
+#~ "while add-on settings screen is open."
+#~ msgstr ""
+#~ "NVDA upozorní, keď je otvorené okno s nastaveniami a vy sa pokúsite "
+#~ "zmeniť aktívny profil."
+
+#~ msgid ""
+#~ "In encoders, NVDA will no longer forget to apply no connection tone "
+#~ "setting for encoders when NVDA is restarted."
+#~ msgstr ""
+#~ "NVDA po reštarte nezabudne pípať v prípade, že nie je aktívne žiadne "
+#~ "pripojenie."
+
+#~ msgid "F10 (SAM encoder only): Disconnect from the streaming server."
+#~ msgstr "F10 (len sam Encoder): Odpojiť od vysielacieho servera."
+
+#~ msgid "Version 19.11.1/18.09.13-LTS"
+#~ msgstr "verzia 19.11.1/18.09.13-LTS"
+
+#~ msgid ""
+#~ "In Studio, playlist snapshots (SPL Assistant, F8) and various time "
+#~ "announcement commands such as remaining time (Control+Alt+T) will no "
+#~ "longer cause NVDA to play error tones or do nothing if using NVDA 2019.3 "
+#~ "or later."
+#~ msgstr ""
+#~ "Ak používate NVDA od verzie 2019.3, funkcie na generovanie štatistiky "
+#~ "playllistu a oznamovanie času nehlásia chybu."
+
+#~ msgid ""
+#~ "In Creator's track list items, \"Language\" column added in Creator 5.31 "
+#~ "and later is properly recognized."
+#~ msgstr ""
+#~ "V zozname skladieb v okne Creator je od verzie 5.31 rozpoznaný stĺpec "
+#~ "jazyk."
+
+#~ msgid ""
+#~ "In various lists in Creator apart from track list, NVDA will no longer "
+#~ "announce odd column information if Control+NVDA+number row command is "
+#~ "pressed."
+#~ msgstr ""
+#~ "V rôznych zoznamoch v okne creator NVDA pri prezeraní metadát správne "
+#~ "oznamuje stĺpce pri použití ctrl+nvda+číslice."
+
+#~ msgid "Version 19.11"
+#~ msgstr "Verzia 19.11"
+
+#~ msgid ""
+#~ "Encoder status command from SPL Controller (E) will announce connection "
+#~ "status for the active encoder set instead of encoders being monitored in "
+#~ "the background."
+#~ msgstr ""
+#~ "Z podmnožiny príkazov skratka E oznamuje stav vybratého aktívneho "
+#~ "enkodéra a nie toho, ktorý je nastavený na monitorovanie na pozadí."
+
+#~ msgid ""
+#~ "Shortened the version announcement message for Studio when it starts."
+#~ msgstr "Skrátené oznamovanie verzie aplikácie Studio po štarte."
+
+#~ msgid "Version information for Creator will be announced when it starts."
+#~ msgstr "pridané oznamovanie verzie aplikácie Creator po štarte."
+
+#~ msgid ""
+#~ "19.10: custom command can be assigned for encoder status command from SPL "
+#~ "Controller (E) so it can be used from everywhere."
+#~ msgstr ""
+#~ "19.10: Je možné priradiť vlastnú skratku na zistenie stavu enkodéru a tak "
+#~ "zistiť stav odkiaľkoľvek."
+
+#~ msgid ""
+#~ "Initial support for AltaCast encoder (Winamp plugin and must be "
+#~ "recognized by Studio). Commands are same as SPL Encoder."
+#~ msgstr ""
+#~ "Prvotná podpora pre AltaCast encoder (Winamp plugin musí byť rozpoznaný v "
+#~ "Studio). Má rovnaké príkazy ako vstavaný enkodér SPL."
+
+#~ msgid "Version 19.08.1"
+#~ msgstr "Verzia 19.08.1"
+
+#~ msgid "Version 19.08/18.09.11-LTS"
+#~ msgstr "Verzia 19.08/18.09.11-LTS"
+
+#~ msgid ""
+#~ "19.08: NVDA will no longer appear to do nothing or play error tones when "
+#~ "restarting it while Studio add-on settings dialog is open."
+#~ msgstr ""
+#~ "19.08: NVDA viac nehlási chybu, ak ho reštartujete a súčasne ponecháte "
+#~ "otvorené okno s nastaveniami doplnku."
+
+#~ msgid ""
+#~ "NVDA will remember profile-specific setttings when switching between "
+#~ "settings panels even after renaming the currently selected broadcast "
+#~ "profile from add-on settings."
+#~ msgstr ""
+#~ "NVDA si zapamätá nastavenia profilu aj vtedy, ak sa prepínate medzi "
+#~ "panelmi nastavení a premenujete profil v nastaveniach doplnku."
+
+#~ msgid ""
+#~ "NVDA will no longer forget to honor changes to time-based profiles when "
+#~ "OK button is pressed to close add-on settings. This bug has been present "
+#~ "since migrating to multi-page settings in 2018."
+#~ msgstr ""
+#~ "NVDA Zohľadňuje časovú aktiváciu profilov po aktivovaní tlačidla OK v "
+#~ "nastaveniach. Problém nastal po migrovaní do stromu nastavení."
+
+#~ msgid "Version 19.07/18.09.10-LTS"
+#~ msgstr "Verzia 19.07/18.09.10-LTS"
+
+#~ msgid ""
+#~ "Renamed the add-on from \"StationPlaylist Studio\" to \"StationPlaylist\" "
+#~ "to better describe apps and features supported by this add-on."
+#~ msgstr ""
+#~ "Doplnok premenovaný zo \"Station playlist studio\" na \"Station "
+#~ "playlist\", keďže teraz podporuje viacero aplikácií z ponuky Station "
+#~ "playlist."
+
+#~ msgid "Internal security enhancements."
+#~ msgstr "Opravené mierne bezpečnostné chyby."
+
+#~ msgid ""
+#~ "If microphone alarm or metadata streaming settings are changed from add-"
+#~ "on settings, NVDA will no longer fail to apply changed settings. This "
+#~ "resolves an issue where microphone alarm did not start or stop properly "
+#~ "after changing settings via add-on settings."
+#~ msgstr ""
+#~ "Opravená chyba s ukladaním nastavení streamovania metadát a upozornenia "
+#~ "na zapnutý mikrofón."
+
+#~ msgid "Version 19.06/18.09.9-LTS"
+#~ msgstr "Verzia 19.06/18.09.9-LTS"
+
+#~ msgid "Initial support for StationPlaylist Streamer."
+#~ msgstr "Prvotná podpora pre Station Playlist Streamer."
+
+#~ msgid ""
+#~ "While running various Studio apps such as Track Tool and Studio, if a "
+#~ "second instance of the app is started and then exits, NVDA will no longer "
+#~ "cause Studio add-on configuration routines to produce errors and stop "
+#~ "working correctly."
+#~ msgstr ""
+#~ "Ak je spustený Tracktool alebo Studio a spustíte nové okno aplikácie, "
+#~ "ktoré neskôr zatvoríte, doplnok sa naďalej bude správať korektne."
+
+#~ msgid ""
+#~ "Added labels for various options in SPL Encoder configuration dialog."
+#~ msgstr "Pridané popisky prvkov v nastavení enkodéra."
+
+#~ msgid "Version 19.04.1"
+#~ msgstr "Verzia 19.04.1"
+
+#~ msgid ""
+#~ "Fixed several issues with redesigned column announcements and playlist "
+#~ "transcripts panels in add-on settings, including changes to custom column "
+#~ "order and inclusion not being reflected when saving and/or switching "
+#~ "between panels."
+#~ msgstr ""
+#~ "Opravené problémy s ukladaním nastavení, upravenými stĺpcami metadát a "
+#~ "prepisom playlistu."
+
+#~ msgid "Version 19.04/18.09.8-LTS"
+#~ msgstr "Verzia 19.04/18.09.8-LTS"
+
+#~ msgid ""
+#~ "Various global commands such as entering SPL Controller and switching to "
+#~ "Studio window will be turned off if NVDA is running in secure mode or as "
+#~ "a Windows Store application."
+#~ msgstr ""
+#~ "Množina príkazov SPL nebude fungovať, ak ste na zabezpečenej obrazovke, "
+#~ "alebo spúšťate verziu NVDA z Windows obchodu."
+
+#~ msgid ""
+#~ "19.04: in column announcements and playlist transcripts panels (add-on "
+#~ "settings), custom column inclusion/order controls will be visible up "
+#~ "front instead of having to select a button to open a dialog to configure "
+#~ "these settings."
+#~ msgstr ""
+#~ "19.04: Pri prepise playlistu a nastavovaní zobrazeného poradia metadát "
+#~ "nie je viac potrebné otvoriť nové okno. Všetko nastavíte priamo v "
+#~ "aktívnom okne."
+
+#~ msgid "Version 19.03/18.09.7-LTS"
+#~ msgstr "verzia 19.03/18.09.7-LTS"
+
+#~ msgid ""
+#~ "Pressing Control+NVDA+R to reload saved settings will now also reload "
+#~ "Studio add-on settings, and pressing this command three times will also "
+#~ "reset Studio add-on settings to defaults along with NVDA settings."
+#~ msgstr ""
+#~ "Skratka Ctrl+NVDA+R načíta uložené nastavenia aj pre tento doplnok. "
+#~ "Rovnako trojité stlačenie vynuluje aj nastavenia doplnku."
+
+#~ msgid ""
+#~ "Renamed Studio add-on settings dialog's \"Advanced options\" panel to "
+#~ "\"Advanced\"."
+#~ msgstr "Premenované pokročilé nastavenia len na pokročilé."
+
+#~ msgid ""
+#~ "19.03 experimental: in column announcements and playlist transcripts "
+#~ "panels (add-on settings), custom column inclusion/order controls will be "
+#~ "visible up front instead of having to select a button to open a dialog to "
+#~ "configure these settings."
+#~ msgstr ""
+#~ "19.03 experimentálne: Pri prepise playlistu a nastavovaní zobrazeného "
+#~ "poradia metadát nie je viac potrebné otvoriť nové okno. Všetko nastavíte "
+#~ "priamo v aktívnom okne."
+
+#~ msgid "Version 19.02"
+#~ msgstr "Verzia 19.02"
+
+#~ msgid ""
+#~ "Removed standalone add-on update check feature, including update check "
+#~ "command from SPL Assistant (Control+Shift+U) and add-on update check "
+#~ "options from add-on settings. Add-on update check is now performed by Add-"
+#~ "on Updater."
+#~ msgstr ""
+#~ "Odstránená kontrola aktualizácie doplnku. Doplnok aktualizujte cez "
+#~ "aktualizačný nástroj pre doplnky."
+
+#~ msgid ""
+#~ "NVDA will no longer appear to do nothing or play error tones when "
+#~ "microphone active interval is set, used to remind broadcasters that "
+#~ "microphone is active with periodic beeps."
+#~ msgstr ""
+#~ "NVDA viac nehlási chybu po nastavení intervalu upozornenia na zapnutý "
+#~ "mikrofón."
+
+#~ msgid ""
+#~ "When resetting add-on settings from add-on settings dialog/reset panel, "
+#~ "NVDA will ask once more if an instant switch profile or a time-based "
+#~ "profile is active."
+#~ msgstr ""
+#~ "NVDA pri pokuse obnoviť nastavenia doplnku upozorní, ak je aktívny iný "
+#~ "profil."
+
+#~ msgid ""
+#~ "After resetting Studio add-on settings, NVDA will turn off microphone "
+#~ "alarm timer and announce metadata streaming status, similar to after "
+#~ "switching between broadcast profiles."
+#~ msgstr ""
+#~ "NVDA po obnove nastavení vypne upozornenie na zapnutý mikrofón a "
+#~ "upozornenie na streamovanie metadát."
+
+#~ msgid "Version 19.01.1"
+#~ msgstr "Verzia 19.01.1"
+
+#~ msgid "Version 19.01/18.09.6-LTS"
+#~ msgstr "Verzia 19.01/18.09.6-LTS"
+
+#~ msgid "NVDA 2018.4 or later is required."
+#~ msgstr "Vyžaduje sa NVDA od verzie 2018.4."
+
+#~ msgid "More code changes to make the add-on compatible with Python 3."
+#~ msgstr "Upravený kód pre Python 3."
+
+#~ msgid ""
+#~ "19.01: some message translations from this add-on will resemble NVDA "
+#~ "messages."
+#~ msgstr ""
+#~ "19.01: Namiesto vlastných prekladov v niektorých situáciách používame "
+#~ "priamo správy integrované v NVDA."
+
+#~ msgid ""
+#~ "19.01: add-on update check feature from this add-on is no more. An error "
+#~ "message will be presented when trying to use SPL Assistant, "
+#~ "Control+Shift+U to check for updates. For future updates, please use Add-"
+#~ "on Updater add-on."
+#~ msgstr ""
+#~ "19.01: Odstránená podpora pre aktualizáciu doplnku. Aktualizujte pomocou "
+#~ "aktualizačného nástroja pre doplnky NVDA."
+
+#~ msgid ""
+#~ "Slight performance improvements when using NVDA with apps other than "
+#~ "Studio while Voice Track Recorder is active. NVDA will still show "
+#~ "performance issues when using Studio itself with Voice Track Recorder "
+#~ "active."
+#~ msgstr ""
+#~ "Upravená odozva pri nahrávaní vstupov a súčasnom použití aplikácie Voice "
+#~ "Track Recorder. Stále je ale zhoršená odozva pri súčasnom použití Studio "
+#~ "a Voice Track Recorder."
+
+#~ msgid ""
+#~ "In encoders, if an encoder settings dialog is open (Alt+NVDA+0), NVDA "
+#~ "will present an error message if trying to open another encoder settings "
+#~ "dialog."
+#~ msgstr ""
+#~ "NVDA zobrazí chybu pri pokuse otvoriť novú inštanciu okna s nastavením "
+#~ "enkodéru."
+
+#~ msgid "Version 18.12"
+#~ msgstr "Verzia 18.12"
+
+#~ msgid ""
+#~ "Internal changes to make the add-on compatible with future NVDA releases."
+#~ msgstr "Úpravy pre budúce verzie NVDA."
+
+#~ msgid ""
+#~ "Fixed many instances of add-on messages spoken in English despite "
+#~ "translated into other languages."
+#~ msgstr ""
+#~ "Opravené oznamovanie správ doplnku v Angličtine v situáciách, keď bol "
+#~ "dostupný preklad."
+
+#~ msgid ""
+#~ "If using SPL Assistant to check for add-on updates (SPL Assistant, "
+#~ "Control+Shift+U), NVDA will not install new add-on releases if they "
+#~ "require a newer version of NVDA."
+#~ msgstr ""
+#~ "Po kontrole aktualizácie doplnku sa táto nenainštaluje, ak vyžaduje novú "
+#~ "verziu NVDA."
+
+#~ msgid ""
+#~ "Some SPL Assistant commands will now require that the playlist viewer is "
+#~ "visible and populated with a playlist, and in some cases, a track is "
+#~ "focused. Commands affected include remaining duration (D), playlist "
+#~ "snapshots (F8), and playlist transcripts (Shift+F8)."
+#~ msgstr ""
+#~ "Pri použití niektorých funkcií je potrebné najprv zamerať playlist a "
+#~ "vybrať konkrétnu skladbu. Týka sa zisťovania času (d), štatistiky "
+#~ "playlistu (F8), a prepisu playlistu (shift+F8)."
+
+#~ msgid ""
+#~ "Playlist remaining duration command (SPL Assistant, D) will now require a "
+#~ "track from playlist viewer be focused."
+#~ msgstr ""
+#~ "Pre zobrazenie ostávajúceho času do konca odohratia playlistu (zložený "
+#~ "príkaz nasledovaný písmenom D) je potrebné byť v zozname skladieb a mať "
+#~ "vybratú skladbu."
+
+#~ msgid ""
+#~ "In SAM Encoders, you can now use table navigation commands "
+#~ "(Control+Alt+arrow keys) to review various encoder status information."
+#~ msgstr ""
+#~ "V okne SAM Encoder je možné prezerať stav pripojenia pomocou príkazov na "
+#~ "navigáciu v tabuľke (ctrl+alt+šípky)."
+
+#~ msgid "Version 18.11/18.09.5-LTS"
+#~ msgstr "Verzia 18.11/18.09.5-LTS"
+
+#~ msgid ""
+#~ "Note: 18.11.1 replaces 18.11 in order to provide better support for "
+#~ "Studio 5.31."
+#~ msgstr ""
+#~ "Verzia 18.11.1 nahrádza 18.11 ktorá má lepšiu podporu pre Studio 5.31."
+
+#~ msgid "Initial support for StationPlaylist Studio 5.31."
+#~ msgstr "Prvotná podpora pre StationPlaylist Studio 5.31."
+
+#~ msgid ""
+#~ "You can now obtain playlist snapshots (SPL Assistant, F8) and transcripts "
+#~ "(SPL Assistant, Shift+F8) while a playlist is loaded but the first track "
+#~ "isn't focused."
+#~ msgstr ""
+#~ "Odteraz je možné získať štatistiku a prepis playlistu aj v prípade, že je "
+#~ "zameraný zoznam skladieb a nie je vybratá prvá skladba."
+
+#~ msgid ""
+#~ "If configured to announce metadata streaming status at startup, metadata "
+#~ "streaming status announcement will no longer cut off announcements about "
+#~ "status bar changes and vice versa."
+#~ msgstr ""
+#~ "Oznamovanie streamovania metadát a iné stavové informácie sú oznamované v "
+#~ "celku a navzájom sa neprerušujú."
+
+#~ msgid "Version 18.10.2/18.09.4-LTS"
+#~ msgstr "verzia 18.10.2/18.09.4-LTS"
+
+#~ msgid ""
+#~ "Fixed inability to close the add-on settings screen if Apply button was "
+#~ "pressed and subsequently OK or Cancel buttons were pressed."
+#~ msgstr ""
+#~ "Odteraz je možné zatvoriť nastavenia doplnku po stlačení tlačidla použiť "
+#~ "a následnom stlačení tlačidla OK alebo zrušiť."
+
+#~ msgid "Version 18.10.1/18.09.3-LTS"
+#~ msgstr "verzia 18.10.1/18.09.3-LTS"
+
+#~ msgid ""
+#~ "Resolved several issues related to encoder connection announcement "
+#~ "feature, including not announcing status messages, failing to play the "
+#~ "first selected track, or not switching to Studio window when connected. "
+#~ "These bugs are caused by wxPython 4 (NVDA 2018.3 or later)."
+#~ msgstr ""
+#~ "Opravené viaceré problémy s enkodérmi, konkrétne napríklad neoznamovanie "
+#~ "stavu pripojenia, nespustenie prvej skladby z playlistu po pripojení, "
+#~ "alebo nefunkčné automatické zameranie okna Studio po pripojení. Všetko "
+#~ "bolo spôsobené prechodom na wxPython 4 (NVDA od verzie 2018.3)."
+
+#~ msgid "Version 18.10"
+#~ msgstr "Verzia 18.10"
+
+#~ msgid "Internal changes to make the add-on more compatible with Python 3."
+#~ msgstr "Upravený kód pre Python 3."
+
+#~ msgid "Version 18.09.1-LTS"
+#~ msgstr "verzia 18.09.1-LTS"
+
+#~ msgid ""
+#~ "When obtaining playlist transcripts in HTML table format, column headers "
+#~ "are no longer rendered as a Python list string."
+#~ msgstr ""
+#~ "Pri prepise playlistu do html tabuľky sa viac na generovanie hlavičiek "
+#~ "nepoužívajú Python list string."
+
+#~ msgid ""
+#~ "NVDA 2018.3 or later is recommended due to introduction of wxPython 4."
+#~ msgstr "Vyžadujeme NVDA od verzie 2018.3 lebo prechádzame na wxPython 4."
+
+#~ msgid ""
+#~ "Add-on settings screen is now fully based on multi-page interface derived "
+#~ "from NVDA 2018.2 and later."
+#~ msgstr ""
+#~ "Nastavenia doplnku sú prispôsobené pre strom s nastaveniami predstavený v "
+#~ "NVDA od verzie 2018.2."
+
+#~ msgid ""
+#~ "Test Drive Fast and Slow rings have been combined into \"development\" "
+#~ "channel, with an option for development snapshot users to test pilot "
+#~ "features by checking the new pilot features checkbox found in Advanced "
+#~ "add-on settings panel. Users formerly on Test Drive Fast ring will "
+#~ "continue to test pilot features."
+#~ msgstr ""
+#~ "Testovacie verzie boli skombinované do jednej vývojovej verzie. Vývojové "
+#~ "verzie budete dostávať po začiarknutí príslušného políčka v pokročilých "
+#~ "nastaveniach."
+
+#~ msgid ""
+#~ "The ability to select different add-on update channel from add-on "
+#~ "settings has been removed. Users wishing to switch to a different release "
+#~ "channel should visit NVDA community add-ons website (addons.nvda-project."
+#~ "org), select StationPlaylist Studio, then download the appropriate "
+#~ "release."
+#~ msgstr ""
+#~ "Odteraz nie je možné nastaviť aktualizačný kanál. Ak chcete prejsť na "
+#~ "vývojovú verziu doplnku, z tejto stránky si stiahnite vývojovú verziu."
+
+#~ msgid ""
+#~ "Column inclusion checkboxes for column announcement and playlist "
+#~ "transcripts, as well as metadata streams checkboxes have been converted "
+#~ "to checkable list controls."
+#~ msgstr ""
+#~ "Začiarkávacie políčka pre vybratie metadát na prepis a oznamovanie, ako "
+#~ "aj začiarkávacie polia pre pripojenia boli zmenené na zoznamso "
+#~ "začiarkávacími poliami."
+
+#~ msgid ""
+#~ "When switching between settings panels, NVDA will remember current "
+#~ "settings for profile-specific settings (alarms, column announcements, "
+#~ "metadata streaming settings)."
+#~ msgstr ""
+#~ "NVDA si zapamätá špecifické nastavenia pre konkrétny profil pri zmene "
+#~ "panela s nastaveniami. Jedná sa o upozornenia, oznamovanie metadát a "
+#~ "streamovanie metadát."
+
+#~ msgid ""
+#~ "Added CSV (comma-separated values) format as a playlist transcripts "
+#~ "format."
+#~ msgstr ""
+#~ "Prepis playlistu je možné uložiť vo formáte CSV (zoznam oddelený "
+#~ "čiarkami\v)."
+
+#~ msgid ""
+#~ "Pressing Control+NVDA+C to save settings will now also save Studio add-on "
+#~ "settings (requires NVDA 2018.3)."
+#~ msgstr ""
+#~ "Skratka na uloženie nastavení ctrl+nvda+c uloží aj nastavenia doplnku. "
+#~ "Vyžaduje sa NVDA od verzie 2018.3."
+
+#~ msgid ""
+#~ "F12: Opens a dialog to enter custom label for the selected encoder or "
+#~ "stream."
+#~ msgstr ""
+#~ "F12: Otvorí dialóg, v ktorom môžete zadať vlastný názov vybratého streamu "
+#~ "alebo enkodéra."
+
+#~ msgid ""
+#~ "E (Window-Eyes layout): Elapsed time for the currently playing track."
+#~ msgstr ""
+#~ "E (rozloženie Window-Eyes): Oznámy čas do konca práve prehrávanej skladby."
+
+#~ msgid ""
+#~ "Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+#~ "end of track setting dialog."
+#~ msgstr ""
+#~ "alt+nvda+1 (švihnutie dvoma prstami doprava v dotykovom režime) v okne "
+#~ "Studio: otvorí dialóg s nastavením konca skladby."
+
+#~ msgid "Alt+NVDA+4 from Studio window: Opens microphone alarm dialog."
+#~ msgstr ""
+#~ "Alt+NVDA+4 v okne Studio: Otvorí nastavenia upozornenia na zapnutý "
+#~ "mikrofón."
+
+#~ msgid "Track alarms"
+#~ msgstr "Upozornenia"
+
+#~ msgid ""
+#~ "You can ask NVDA to play a sound when microphone has been active for a "
+#~ "while. Press Alt+NVDA+4 to configure alarm time in seconds (0 disables "
+#~ "it)."
+#~ msgstr ""
+#~ "NVDA môže upozorniť, že je dlhšie zapnutý mikrofón. Nastavenie upravíte "
+#~ "skratkou alt+nvda+4. Nastavte príslušný počet sekúnd. Upozornenia vypnete "
+#~ "nastavením hodnoty 0."
+
+#~ msgid "Version 18.08.2"
+#~ msgstr "verzia 18.08.2"
+
+#~ msgid ""
+#~ "NVDA will no longer check for Studio add-on updates if Add-on Updater "
+#~ "(proof of concept) add-on is installed. Consequently, add-on settings "
+#~ "will no longer include add-on update related settings if this is the "
+#~ "case. If using Add-on Updater, users should use features provided by this "
+#~ "add-on to check for Studio add-on updates."
+#~ msgstr ""
+#~ "Ak je nainštalovaný aktualizačný nástroj pre doplnky, tento doplnok viac "
+#~ "nebude kontrolovať aktualizácie a nastavenia pre aktualizácie viac nebudú "
+#~ "dostupné. V takomto prípade aktualizujte cez aktualizačný nástroj "
+#~ "doplnkov."
+
+#~ msgid "Version 18.08.1"
+#~ msgstr "verzia 18.08.1"
+
+#~ msgid ""
+#~ "Fixed yet another wxPython 4 compatibility issue seen when Studio exits."
+#~ msgstr "Opravený problém s wxPython 4  pri ukončení okna Studio."
+
+#~ msgid ""
+#~ "NVDA will announce an appropriate message when playlist modification text "
+#~ "isn't present, commonly seen after loading an unmodified playlist or when "
+#~ "Studio starts."
+#~ msgstr ""
+#~ "NVDA správne oznamuje, že nedošlo k zmene playlistu, ak zmenu zisťujete "
+#~ "hneď po štarte Studio alebo po otvorení nového playlistu."
+
+#~ msgid "Version 18.08"
+#~ msgstr "Verzia 18.08"
+
+#~ msgid ""
+#~ "Add-on settings dialog is now based on multi-category settings interface "
+#~ "found in NVDA 2018.2. Consequently, this release requires NVDA 2018.2 or "
+#~ "later. The old add-on settings interface is deprecated and will be "
+#~ "removed later in 2018."
+#~ msgstr ""
+#~ "Nastavenia doplnku sú prispôsobené pre strom s nastaveniami predstavený v "
+#~ "NVDA od verzie 2018.2. Preto vyžadujeme túto verziu NVDA. Staršie "
+#~ "rozhranie doplnku sa viac nevyvíja a bude odstránené."
+
+#~ msgid ""
+#~ "Added a new section (button/panel) in add-on settings to configure "
+#~ "playlist transcripts options, which is used to configure column inclusion "
+#~ "and ordering for this feature and other settings."
+#~ msgstr ""
+#~ "Pridané nastavenie pre prepis playlistu. Môžete tu nastaviť zahrnutie "
+#~ "metadát, poradie a iné nastavenia."
+
+#~ msgid ""
+#~ "When creating a table-based playlist transcripts and if custom column "
+#~ "ordering and/or column removal is in effect, NVDA will use custom column "
+#~ "presentation order specified from add-on settings and/or not include "
+#~ "information from removed columns."
+#~ msgstr ""
+#~ "Ak ukladáte prepis playlistu do tabuľky a použiete vlastné usporiadanie "
+#~ "metadát, NVDA toto správne zahrnie do tabuľky a nebude zapisovať údaje, "
+#~ "ktoré ste nezvolili."
+
+#~ msgid ""
+#~ "Significant improvements to NVDA's responsiveness when using column "
+#~ "navigation commands in Creator and Track Tool. In particular, when using "
+#~ "Creator, NVDA will respond better when using column navigation commands."
+#~ msgstr ""
+#~ "Zrýchlená odozva pri navigácii po metadátach, hlavne v okne Creator a "
+#~ "Tracktool."
+
+#~ msgid ""
+#~ "NVDA will no longer play error tones or appear to do nothing when "
+#~ "attempting to add comments to tracks in Studio or when exiting NVDA while "
+#~ "using Studio, caused by wxPython 4 compatibility issue."
+#~ msgstr ""
+#~ "NVDA nehlási chybu alebo neignoruje pokus pridať komentár k skladbe alebo "
+#~ "pri pokuse ukončiť NVDA z okna Studio. Chyba bola spôsobená použitím "
+#~ "wxPython 4."
+
+#~ msgid "Version 18.07"
+#~ msgstr "Verzia 18.07"
+
+#~ msgid ""
+#~ "Added an experimental multi-category add-on settings screen, accessible "
+#~ "by toggling a setting in add-on settings/Advanced dialog (you need to "
+#~ "restart NVDA after configuring this setting for the new dialog to show "
+#~ "up). This is for NVDA 2018.2 users, and not all add-on settings can be "
+#~ "configured from this new screen."
+#~ msgstr ""
+#~ "Používatelia NVDA 2018.2 môžu v pokročilých nastaveniach zapnúť použitie "
+#~ "nového stromu s nastaveniami. Zatiaľ tento strom neobsahuje všetky "
+#~ "nastavenia, časom ale nahradí súčasné okná s nastaveniami doplnku. Aby sa "
+#~ "prejavili zmeny, je potrebné reštartovať NVDA."
+
+#~ msgid ""
+#~ "NVDA will no longer play error tones or appear to do nothing when trying "
+#~ "to rename a broadcast profile from add-on settings, caused by wxPython 4 "
+#~ "compatibility issue."
+#~ msgstr ""
+#~ "NVDA viac nehlási chybu alebo neignoruje príkaz na premenovanie profilu z "
+#~ "nastavení doplnku. Chybu spôsobovala implementácia wxPython 4."
+
+#~ msgid ""
+#~ "When restarting NVDA and/or Studio after making changes to settings in a "
+#~ "broadcast profile other than normal profile, NVDA will no longer revert "
+#~ "to old settings."
+#~ msgstr ""
+#~ "NVDA viac nezabudne nastavenia profilu po reštarte NVDA alebo Studio."
+
+#~ msgid ""
+#~ "It is now possible to obtain playlist transcripts for the current hour. "
+#~ "Select \"current hour\" from list of playlist range options in playlist "
+#~ "transcripts dialog (SPL Assistant, Shift+F8)."
+#~ msgstr ""
+#~ "Pridaná možnosť vytvoriť prepis playlistu pre aktuálnu hodinu. Stačí v "
+#~ "okne s prepisom vybrať príslušnú možnosť."
+
+#~ msgid ""
+#~ "Added an option in Playlist Transcripts dialog to have transcripts saved "
+#~ "to a file (all formats) or copied to the clipboard (text and Markdown "
+#~ "table formats only) in addition to viewing transcripts on screen. When "
+#~ "transcripts are saved, they are saved to user's Documents folder under "
+#~ "\"nvdasplPlaylistTranscripts\" subfolder."
+#~ msgstr ""
+#~ "Prepis playlistu je možné odteraz uložiť do súboru (všetky formáty). "
+#~ "Súbory sa ukladajú do adresára \"nvdasplPlaylistTranscripts\". Takisto je "
+#~ "možné prepis vložiť do schránky (formát markdown a čistý text). Ostala aj "
+#~ "možnosť zobraziť prepis v samostatnom okne."
+
+#~ msgid ""
+#~ "Status column is no longer included when creating playlist transcripts in "
+#~ "HTML and Markdown table formats."
+#~ msgstr ""
+#~ "Pri vytváraní prepisu v markdown a html sa nezobrazuje hlavička stav."
+
+#~ msgid ""
+#~ "When focused on a track in Creator and Track Tool, pressing "
+#~ "Control+NVDA+number row twice will present column information on a browse "
+#~ "mode window."
+#~ msgstr ""
+#~ "Pridaná možnosť zobraziť metadáta v režime prehliadania, ak v zozname "
+#~ "skladieb stlačíte dvakrát príslušnú skratku ctrl+nvda+číslo."
+
+#~ msgid ""
+#~ "In Creator and Track Tool, added Control+Alt+Home/End keys to move Column "
+#~ "Navigator to first or last column for the focused track."
+#~ msgstr ""
+#~ "V oknách Tracktool a Creator pridané skratky ctrl+alt+home a end na "
+#~ "prechod k prvému a poslednému údaju metadát."
+
+#~ msgid "Version 18.06.1"
+#~ msgstr "verzia 18.06.1"
+
+#~ msgid ""
+#~ "Fixed several compatibility issues with wxPython 4, including inability "
+#~ "to open track finder (Control+NVDA+F), column search and time ranger "
+#~ "finder dialogs in Studio and stream labeler dialog (F12) from encoders "
+#~ "window."
+#~ msgstr ""
+#~ "Opravené chyby v oknách hľadania skladieb, hľadanie v metadátach, časová "
+#~ "analýza v aplikácii Studio a okno s enkodérmi. Chyby boli spôsobené "
+#~ "prechodom na wxPython 4."
+
+#~ msgid ""
+#~ "While opening a find dialog from Studio and an unexpected error occurs, "
+#~ "NVDA will present more appropriate messages instead of saying that "
+#~ "another find dialog is open."
+#~ msgstr ""
+#~ "Ak pri otvorení dialógu na hľadanie skladby nastane chyba, NVDA poskytne "
+#~ "bližšie informácie a neuspokojí sa s hlásením, že je už otvorené iné okno."
+
+#~ msgid ""
+#~ "In encoders window, NVDA will no longer play error tones or appear to do "
+#~ "nothing when attempting to open encoder settings dialog (Alt+NVDA+0)."
+#~ msgstr ""
+#~ "Ak z okna enkodérov otvoríte nastavenie enkodérov (alt+nvda+0), NVDA "
+#~ "nehlási chybu."
+
+#~ msgid "Version 18.06"
+#~ msgstr "Verzia 18.06"
+
+#~ msgid ""
+#~ "In add-on settings, added \"Apply\" button so changes to settings can be "
+#~ "applied to the currently selected and/or active profile without closing "
+#~ "the dialog first. This feature is available for NVDA 2018.2 users."
+#~ msgstr ""
+#~ "Od verzie NVDA 2018.2 je možné v nastaveniach stlačiť tlačidlo Použiť, "
+#~ "aby sa prejavili nastavenia okamžite a nebolo potrebné najprv zatvoriť "
+#~ "dialóg."
+
+#~ msgid ""
+#~ "Resolved an issue where NVDA would apply changes to Columns Explorer "
+#~ "settings despite pressing Cancel button from add-on settings dialog."
+#~ msgstr ""
+#~ "Ak v dialógu s nastavením poradia a zobrazenia metadát stlačíte Zrušiť, "
+#~ "NVDA naozaj nastavenia zahodí a neuloží ich."
+
+#~ msgid ""
+#~ "In Studio, when pressing Control+NVDA+number row twice while focused on a "
+#~ "track, NVDA will display column information for a specific column on a "
+#~ "browse mode window."
+#~ msgstr ""
+#~ "Dvojité stlačenie skratiek ctrl+nvda+číslo v okne Studio v zozname "
+#~ "skladieb zobrazí príslušné metadáta v režime prehliadania."
+
+#~ msgid ""
+#~ "While focused on a track in Studio, pressing Control+NVDA+Dash will "
+#~ "display data for all columns on a browse mode window."
+#~ msgstr ""
+#~ "Pridaná skratka nvda+ctrl+-, ktorá po stlačení v zozname skladieb v okne "
+#~ "Studio zobrazí všetky metadáta v režime prehliadania."
+
+#~ msgid ""
+#~ "In StationPlaylist Creator, when focused on a track, pressing "
+#~ "Control+NVDA+number row will announce data in specific column."
+#~ msgstr ""
+#~ "V okne Creator je možné použiť skratky ctrl+nvda+0-9 v zozname skladieb "
+#~ "na oznamovanie metadát."
+
+#~ msgid ""
+#~ "Added a button in Studio add-on settings to configure Columns Explorer "
+#~ "for SPL Creator."
+#~ msgstr "Pridaná možnosť nastaviť poradie metadát pre okno Creator."
+
+#~ msgid "Added Markdown table format as a playlist transcripts format."
+#~ msgstr "Prepis playlistu je možné uložiť vo formáte markdown."
+
+#~ msgid ""
+#~ "The developer feedback email command has changed from Control+NVDA+dash "
+#~ "to Alt+NVDA+dash."
+#~ msgstr ""
+#~ "Zmenená skratka na zaslanie e-mailu vývojárovi z ctrl+NVDA+- na "
+#~ "Alt+NVDA+-."
+
+#~ msgid "Version 18.05"
+#~ msgstr "Verzia 18.05"
+
+#~ msgid ""
+#~ "Added ability to take partial playlist snapshots. This can be done by "
+#~ "defining analysis range (SPL Assistant, F9 at the start of the analysis "
+#~ "range) and moving to another item and performing playlist snapshots "
+#~ "command."
+#~ msgstr ""
+#~ "Štatistiku playlistu okrem celého playllistu môžete získať len z jeho "
+#~ "časti. Zamerajte prvú skladbu, stlačte množinu príkazov SPL nasledovanú "
+#~ "klávesom F9. Potom nájdite poslednú skladbu, ktorú chcete do analýzy "
+#~ "zahrnúť. Stlačte množinu príkazov spl a kláves F10."
+
+#~ msgid ""
+#~ "Added a new command in SPL Assistant to request playlist transcripts in a "
+#~ "number of formats (Shift+F8). These include plain text, an HTML table, or "
+#~ "an HTML list."
+#~ msgstr ""
+#~ "Pridaná funkcia prepis playlistu. Môžetesi nechať prepísať playlist do "
+#~ "čistého textu, tabuľky alebo zoznam html."
+
+#~ msgid ""
+#~ "Various playlist analysis features such as track time analysis and "
+#~ "playlist snapshots are now grouped under the theme of \"Playlist "
+#~ "Analyzer\"."
+#~ msgstr ""
+#~ "Funkcie na analýzu playlistu (čas, štatistika a podobne) sú odteraz "
+#~ "zoskupené."
+
+#~ msgid "Version 18.04.1"
+#~ msgstr "verzia 18.04.1"
+
+#~ msgid ""
+#~ "NVDA will no longer fail to start countdown timer for time-based "
+#~ "broadcast profiles if NVDA with wxPython 4 toolkit installed is in use."
+#~ msgstr ""
+#~ "NVDA dokáže správne spustiť odpočítavanie pre časovo aktivovaný profil, "
+#~ "ak už používate NVDA s podporou wxPython 4 toolkit."
+
+#~ msgid "Version 18.04"
+#~ msgstr "Verzia 18.04"
+
+#~ msgid ""
+#~ "Changes were made to make add-on update check feature more reliable, "
+#~ "particularly if automatic add-on update check is enabled."
+#~ msgstr "Opravené problémy s automatickou aktualizáciou doplnku."
+
+#~ msgid ""
+#~ "NVDA will play a tone to indicate start of library scan when it is "
+#~ "configured to play beeps for various announcements."
+#~ msgstr ""
+#~ "Ak nastavíte oznamovanie zvukom, NVDA bude zvukom oznamovať aj skenovanie "
+#~ "knižnice."
+
+#~ msgid ""
+#~ "NVDA will start library scan in the background if library scan is started "
+#~ "from Studio's Options dialog or at startup."
+#~ msgstr ""
+#~ "NVDA bude na pozadí sledovať skenovanie knižnice, ak sa automaticky "
+#~ "spustí alebo ho spustíte ručne."
+
+#~ msgid ""
+#~ "Double-tapping on a track on a touchscreen computer or performing default "
+#~ "action command will now select the track and move system focus to it."
+#~ msgstr ""
+#~ "Poklepanie na skladbe na dotykovej obrazovke vyberie skladbu a presunie "
+#~ "na ňu fokus."
+
+#~ msgid ""
+#~ "When taking playlist snapshots (SPL Assistant, F8), if a playlist "
+#~ "consists of hour markers only, resolves several issues where NVDA "
+#~ "appeared to not take snapshots."
+#~ msgstr "NVDA prepíše aj taký playlist, ktorý obsahuje len časové značky."
+
+#~ msgid "Version 18.03/15.14-LTS"
+#~ msgstr "verzia 18.03/15.14-LTS"
+
+#~ msgid ""
+#~ "If NVDA is configured to announce metadata streaming status when Studio "
+#~ "starts, NVDA will honor this setting and no longer announce streaming "
+#~ "status when switching to and from instant switch profiles."
+#~ msgstr ""
+#~ "Ak zapnete oznamovanie streamovania metadát po starte Studio, NVDA "
+#~ "zohľadní toto nastavenie a nebude oznamovať stav počas prepínania "
+#~ "profilov."
+
+#~ msgid ""
+#~ "If switching to and from an instant switch profile and NVDA is configured "
+#~ "to announce metadata streaming status whenever this happens, NVDA will no "
+#~ "longer announce this information multiple times when switching profiles "
+#~ "quickly."
+#~ msgstr ""
+#~ "NVDA viac neoznamuje opakovane stav pripojenia počas zmeny profilov a "
+#~ "súčasnom aktívnom oznamovaní streamovania metadát."
+
+#~ msgid ""
+#~ "NVDA will remember to switch to the appropriate time-based profile (if "
+#~ "defined for a show) after NVDA restarts multiple times during broadcasts."
+#~ msgstr ""
+#~ "Profily sú spustené v správnom čase aj vtedy, ak počas vysielania "
+#~ "viackrát reštartujete NVDA."
+
+#~ msgid ""
+#~ "If a time-based profile with profile duration set is active and when add-"
+#~ "on settings dialog is opened and closed, NVDA will still switch back to "
+#~ "the original profile once the time-based profile is finished."
+#~ msgstr ""
+#~ "Ak je aktívny profil s časovým spustením aopakovane zatvoríte a otvoríte "
+#~ "dialóg s nastavením doplnku, po skončení príslušného času NVDA prepne "
+#~ "naspäť do pôvodného profilu."
+
+#~ msgid ""
+#~ "If a time-based profile is active (particularly during broadcasts), "
+#~ "changing broadcast profile triggers via add-on settings dialog will not "
+#~ "be possible."
+#~ msgstr ""
+#~ "Ak je aktívny profil s časovým spustením, nie je možné viac zmeniť "
+#~ "spúšťanie profilu."
+
+#~ msgid "Version 18.02/15.13-LTS"
+#~ msgstr "Verzia 18.02/15.13-LTS"
+
+#~ msgid ""
+#~ "18.02: Due to internal changes made to support extension points and other "
+#~ "features, NVDA 2017.4 is required."
+#~ msgstr "18.02: Vyžaduje sa NVDA od verzie2017.4."
+
+#~ msgid ""
+#~ "Add-on updating won't be possible under some cases. These include running "
+#~ "NVDA from source code or with secure mode turned on. Secure mode check is "
+#~ "applicable to 15.13-LTS as well."
+#~ msgstr ""
+#~ "Nie je viac možné spúšťať aktualizáciu, ak NVDA beží zo zdroja alebo na "
+#~ "zabezpečenej obrazovke. Týka sa aj verzie 15.13-LTS."
+
+#~ msgid ""
+#~ "If errors occur while checking for updates, these will be logged and NVDA "
+#~ "will advise you to read the NVDA log for details."
+#~ msgstr ""
+#~ "Ak počas aktualizácie nastane chyba, NVDA informáciu zapíše do logu a "
+#~ "odporučí jeho prečítanie."
+
+#~ msgid ""
+#~ "In add-on settings, various update settings in advanced settings section "
+#~ "such as update interval will not be displayed if add-on updating is not "
+#~ "supported."
+#~ msgstr ""
+#~ "Ak nie je možné aktualizovať doplnok, skryjú sa aj príslušné nastavenia "
+#~ "týkajúce sa aktualizácie."
+
+#~ msgid ""
+#~ "NVDA will no longer appear to freeze or do nothing when switching to an "
+#~ "instant switch profile or a time-based profile and NVDA is configured to "
+#~ "announce metadata streaming status."
+#~ msgstr ""
+#~ "NVDA viac nezamrzne, keď je zapnuté oznamovanie streamovaných metadát a "
+#~ "dôjde k zmene profilu."
+
+#~ msgid "Version 18.01/15.12-LTS"
+#~ msgstr "Verzia 18.01/15.12-LTS"
+
+#~ msgid ""
+#~ "When using JAWS layout for SPL Assistant, update check command "
+#~ "(Control+Shift+U) now works correctly."
+#~ msgstr ""
+#~ "Príkaz na aktualizáciu doplnku funguje aj vtedy, ak je aktívne rozloženie "
+#~ "klávesnice pre JAWS."
+
+#~ msgid ""
+#~ "When changing microphone alarm settings via the alarm dialog "
+#~ "(Alt+NVDA+4), changes such as enabling alarm and changes to microphone "
+#~ "alarm interval are applied when closing the dialog."
+#~ msgstr ""
+#~ "Po zatvorení dialógu s nastavením upozornenia na zapnutý mikrofón sa toto "
+#~ "nastavenie uloží."
+
+#~ msgid "Version 17.12"
+#~ msgstr "Verzia 17.12"
+
+#~ msgid ""
+#~ "Several add-on features were enhanced with extension points. This allows "
+#~ "microphone alarm and metadata streaming feature to respond to changes in "
+#~ "broadcast profiles. This requires NVDA 2017.4."
+#~ msgstr ""
+#~ "V profiloch je teraz možné mať rôzne nastavené oznamovanie streamovania "
+#~ "metadát a upozornenia na zapnutý mikrofón. Toto vyžaduje NVDA od verzie "
+#~ "2017.4."
+
+#~ msgid ""
+#~ "When Studio exits, various add-on dialogs such as add-on settings, alarm "
+#~ "dialogs and others will close automatically. This requires NVDA 2017.4."
+#~ msgstr ""
+#~ "Ak ukončíte Studio, automaticky sa zatvoria aj dialógi doplnku. Vyžaduje "
+#~ "NVDA od verzie 2017.4."
+
+#~ msgid ""
+#~ "Added a new command in SPL Controller layer to announce name of the "
+#~ "upcoming track if any (Shift+C)."
+#~ msgstr ""
+#~ "Do množiny príkazov pridaná skratka shift+c, ktorá oznámi nasledujúcu "
+#~ "naplánovanú skladbu."
+
+#~ msgid ""
+#~ "You can now press cart keys (F1, for example) after entering SPl "
+#~ "Controller layer to play assigned carts from anywhere."
+#~ msgstr ""
+#~ "Odteraz je možné odkiaľkoľvek spúšťať jingle. Použite množinú príkazov "
+#~ "SPL nasledovanú skratkou jingla."
+
+#~ msgid ""
+#~ "Due to changes introduced in wxPython 4 GUI toolkit, stream label eraser "
+#~ "dialog is now a combo box instead of a number entry field."
+#~ msgstr ""
+#~ "Zoznam s enkodérmi na odstránenie nie je viac číslovaný zoznam ale "
+#~ "zoznamový rámik. Je to spôsobené prechodom na wxPython 4 GUI toolkit."
+
+#~ msgid "Version 17.11.2"
+#~ msgstr "Verzia 17.11.2"
+
+#~ msgid ""
+#~ "This is the last stable version to support Windows XP, Vista and 7 "
+#~ "without Service Pack 1. The next stable version for these Windows "
+#~ "releases will be a 15.x LTS release."
+#~ msgstr ""
+#~ "Toto je posledná stabilná verzia, ktorá podporuje Windows XP, Vista a 7 "
+#~ "bez Service Pack 1. Ďalšia stabilná verzia pre tieto systémy bude 15.x "
+#~ "LTS."
+
+#~ msgid ""
+#~ "If using Windows releases prior to Windows 7 Service Pack 1, you cannot "
+#~ "switch to development channels."
+#~ msgstr ""
+#~ "Na starších systémoch Windows nie je možné používať vývojovú verziu "
+#~ "doplnku."
+
+#~ msgid "Version 17.11.1/15.11-LTS"
+#~ msgstr "Verzia 17.11.1/15.11-LTS"
+
+#~ msgid ""
+#~ "NVDA will no longer play error tones or appear to do nothing when using "
+#~ "Control+Alt+left or right arrow keys to navigate columns in Track Tool "
+#~ "5.20 with a track loaded. Because of this change, when using Studio 5.20, "
+#~ "build 48 or later is required."
+#~ msgstr ""
+#~ "NVDA viac nehlási chybu alebo nezamrzne pri prezeraní metadát skratkami "
+#~ "ctrl+Alt+šípky v Track Tool 5.20. Vyžadujeme ale Studio 5.20, zostava 48."
+
+#~ msgid "Version 17.11/15.10-LTS"
+#~ msgstr "Verzia 17.11/15.10-LTS"
+
+#~ msgid "Initial support for StationPlaylist Studio 5.30."
+#~ msgstr "Prvotná podpora pre StationPlaylist Studio 5.30."
+
+#~ msgid ""
+#~ "If microphone alarm and/or interval timer is turned on and if Studio "
+#~ "exits while microphone is on, NVDA will no longer play microphone alarm "
+#~ "tone from everywhere."
+#~ msgstr ""
+#~ "Ak je zapnutý mikrofón, súčasne aktívne oznamovanie zapnutého mikrofónu a "
+#~ "ukončíte Studio, NVDA nepokračuje v oznamovaní upozornenia."
+
+#~ msgid ""
+#~ "When deleting broadcast profiles and if another profile happens to be an "
+#~ "instant switch profile, instant switch flag won't be removed from the "
+#~ "switch profile."
+#~ msgstr ""
+#~ "Ak odstránite profil a aktivuje sa iný profil, doplnok nezruší príznak "
+#~ "ručného spustenia pre aktívny profil."
+
+#~ msgid ""
+#~ "If deleting an active profile that is not an instant switch or a time-"
+#~ "based profile, NVDA will ask once more for confirmation before proceeding."
+#~ msgstr ""
+#~ "Ak odstraňujete profil, NVDA sa uistí, že ho naoozaj chcete odstrániť."
+
+#~ msgid ""
+#~ "NVDA will apply correct settings for microphone alarm settings when "
+#~ "switching profiles via add-on settings dialog."
+#~ msgstr ""
+#~ "NVDA načíta správne nastavenie pre upozornenie na zapnutý mikrofón pri "
+#~ "zmene profilu z nastavení doplnku."
+
+#~ msgid ""
+#~ "You can now press SPL Controller, H to obtain help for SPL Controller "
+#~ "layer."
+#~ msgstr ""
+#~ "Do množiny príkazov pridaná funkcia na výpis skratiek, je pod písmenom H."
+
+#~ msgid "Version 17.10"
+#~ msgstr "Verzia 17.10"
+
+#~ msgid ""
+#~ "If using Windows releases prior to Windows 7 Service Pack 1, you cannot "
+#~ "switch to Test Drive Fast update channel. A future release of this add-on "
+#~ "will move users of old Windows versions to a dedicated support channel."
+#~ msgstr ""
+#~ "Na starších systémoch Windows nie je možné používať vývojovú verziu "
+#~ "doplnku. Ďalšie verzie doplnku presmerujú používateľov starších systémov "
+#~ "do príslušného aktualizačného kanála."
+
+#~ msgid ""
+#~ "Several general settings such as status announcement beeps, top and "
+#~ "bottom of playlist notification and others are now located in the new "
+#~ "general add-on settings dialog (accessed from a new button in add-on "
+#~ "settings)."
+#~ msgstr ""
+#~ "Viaceré všeobecné nastavenia (ako oznamovanie stavu pípaním, upozornenie "
+#~ "na začiatok a koniec playlistu) sú presunuté do nového okna s "
+#~ "nastaveniami."
+
+#~ msgid ""
+#~ "It is now possible to make add-on options read-only, use only the normal "
+#~ "profile, or not load settings from disk when Studio starts. These are "
+#~ "controlled by new command-line switches specific to this add-on."
+#~ msgstr ""
+#~ "Z príkazového riadka je možné vypnúť ukladanie nastavení pre tento "
+#~ "doplnok, použitie predvoleného profilu, alebo ignorovať nastavenia na "
+#~ "disku pri spustení Studio."
+
+#~ msgid ""
+#~ "When running NVDA from Run dialog (Windows+R), you can now pass in "
+#~ "additional command-line switches to change how the add-on works. These "
+#~ "include \"--spl-configvolatile\" (read-only settings), \"--spl-"
+#~ "configinmemory\" (do not load settings from disk), and \"--spl-"
+#~ "normalprofileonly\" (only use normal profile)."
+#~ msgstr ""
+#~ "Pri spustení NVDA napríklad z okna spustiť (Windows+r), môžete použiť "
+#~ "tieto parametre:\"--spl-configvolatile\" (prečítaj nastavenia ale "
+#~ "neukladaj), \"--spl-configinmemory\" (Nenačítavaj nastavenia z disku), a "
+#~ "\"--spl-normalprofileonly\" (Použi len predvolený profil)."
+
+#~ msgid ""
+#~ "If exitting Studio (not NVDA) while an instant switch profile is active, "
+#~ "NVDA will no longer give misleading announcement when switching to an "
+#~ "instant switch profile when using Studio again."
+#~ msgstr ""
+#~ "Ak ukončíte Studio a súčasne je ručne aktivovaný profil, NVDA neoznamuje "
+#~ "nesprávne informácie pri opätovnom spustení Studio."
+
+#~ msgid "Version 17.09.1"
+#~ msgstr "Verzia 17.09.1"
+
+#~ msgid ""
+#~ "As a result of announcement from NV Access that NVDA 2017.3 will be the "
+#~ "last version to support Windows versions prior to windows 7 Service Pack "
+#~ "1, Studio add-on will present a reminder message about this if running "
+#~ "from old Windows releases. End of support for old Windows releases from "
+#~ "this add-on (via long-term support release) is scheduled for April 2018."
+#~ msgstr ""
+#~ "NVDA 2017.3 je posledná verzia, ktorá funguje na  systéme Windows staršej "
+#~ "ako windows 7 Service Pack 1. Preto doplnok na túto skutočnosť "
+#~ "používateľov upozorní. Ukončenie podpory pre tieto systémy je pokiaľ ide "
+#~ "o tento doplnok plánované na apríl 2018."
+
+#~ msgid ""
+#~ "NVDA will no longer display startup dialogs and/or announce Studio "
+#~ "version if started with minimal (nvda -rm) flag set. The sole exception "
+#~ "is the old Windows release reminder dialog."
+#~ msgstr ""
+#~ "NVDA nebude zobrazovať úvodné správy  a oznamovať verziu SPL, ak je "
+#~ "spustené s parametrom nvda -rm. Výnimku tvorí upozornenie na zastaralú "
+#~ "verziu Windows."
+
+#~ msgid "Version 17.09"
+#~ msgstr "verzia 17.09"
+
+#~ msgid ""
+#~ "If a user enters advanced options dialog under add-on settings while the "
+#~ "update channel and interval was set to Test Drive Fast and/or zero days, "
+#~ "NVDA will no longer present the channel and/or interval warning message "
+#~ "when exitting this dialog."
+#~ msgstr ""
+#~ "Ak používateľ otvorí pokročilé nastavenia a aktualizačný kanál je "
+#~ "nastavený na niektorú z vývojových verzií, NVDA viac nezobrazuje dialóg s "
+#~ "varovaním."
+
+#~ msgid ""
+#~ "Playlist remainder and trakc time analysis commands will now require that "
+#~ "a playlist be loaded, and a more accurate error message will be presented "
+#~ "otherwise."
+#~ msgstr ""
+#~ "Mnohé príkazy teraz vyžadujú, aby bol fokus v zozname so skladbami. Ak to "
+#~ "tak nie je, NVDA na to upozorní."
+
+#~ msgid "Version 17.08.1"
+#~ msgstr "Verzia 17.08.1"
+
+#~ msgid ""
+#~ "NVDA will no longer fail to cause Studio to play the first track when an "
+#~ "encoder is connected."
+#~ msgstr ""
+#~ "Správne funguje prehratie prvej skladby z playlistu po úspešnom pripojení."
+
+#~ msgid "Version 17.08"
+#~ msgstr "Verzia 17.08"
+
+#~ msgid ""
+#~ "Changes to update channel labels: try build is now Test Drive Fast, "
+#~ "development channel is Test Drive Slow. The true \"try\" builds will be "
+#~ "reserved for actual try builds that require users to manually install a "
+#~ "test version."
+#~ msgstr "Upravené aktualizačné kanály."
+
+#~ msgid ""
+#~ "Update interval can now be set to 0 (zero) days. This allows the add-on "
+#~ "to check for updates when NVDA and/or SPL Studio starts. A confirmation "
+#~ "will be required to change update interval to zero days."
+#~ msgstr ""
+#~ "Počet dní na aktualizáciu je možné nastaviť na 0. Toto bude kontrolovať "
+#~ "aktualizáciu po každom štarte NVDA a SPL. Nastavenie je potrebné potvrdiť."
+
+#~ msgid ""
+#~ "NVDA will no longer fail to check for add-on updates if update interval "
+#~ "is set to 25 days or longer."
+#~ msgstr ""
+#~ "NVDA dokáže skontrolovať aktualizáciu, ak je interval nastavený na 25 a "
+#~ "viac dní."
+
+#~ msgid ""
+#~ "In add-on settings, added a checkbox to let NVDA play a sound when "
+#~ "listener requests arrive. To use this fully, requests window must pop up "
+#~ "when requests arrive."
+#~ msgstr ""
+#~ "Pridaná možnosť upozorniť na žiadosť od poslucháča. Aby fungovalo "
+#~ "správne, musí SPL zobraziť príslušné okno."
+
+#~ msgid ""
+#~ "Pressing broadcaster time command (NVDA+Shift+F12) twice will now cause "
+#~ "NVDA to announce minutes and seconds remaining in the current hour."
+#~ msgstr ""
+#~ "Dvojité stlačenie skratky nvda+shift+F12 oznamuje ostávajúci čas do konca "
+#~ "hodiny v sekundách."
+
+#~ msgid ""
+#~ "It is now possible to use Track Finder (Control+NVDA+F) to search for "
+#~ "names of tracks you've searched before by selecting a search term from a "
+#~ "history of terms."
+#~ msgstr "V okne s vyhľadávaním skladby je možné vybrať reťazec z histórie."
+
+#~ msgid ""
+#~ "When announcing title of current and next track via SPL Assistant, it is "
+#~ "now possible to include information about which Studio internal player "
+#~ "will play the track (e.g. player 1)."
+#~ msgstr ""
+#~ "Pri oznamovaní aktuálnej a nasledujúcej skladby je možné zapnúť aj "
+#~ "oznamovanie, ktorý interný prehrávač SPL skladbu prehrá."
+
+#~ msgid ""
+#~ "Added a setting in add-on settings under status announcements to include "
+#~ "player information when announcing title of the current and the next "
+#~ "track."
+#~ msgstr "Pridaná možnosť zapnúť a vypnúť oznamovanie interného prehrávača."
+
+#~ msgid ""
+#~ "Fixed an issue in temporary cue and other dialogs where NVDA would not "
+#~ "announce new values when manipulating time pickers."
+#~ msgstr "Opravené oznamovanie úpravy času v niektorých dialógoch."
+
+#~ msgid ""
+#~ "NVDA can suppress announcement of column headers such as Artist and "
+#~ "Category when reviewing tracks in playlist viewer. This is a broadcast "
+#~ "profile specific setting."
+#~ msgstr ""
+#~ "NVDA môže potlačiť oznamovanie niektorých metadát a ich hlavičiek pri "
+#~ "prezeraní playlistu. Toto nastavenie môže byť rôzne pre rôzne profily."
+
+#~ msgid ""
+#~ "Added a checkbox in add-on settings dialog to suppress announcement of "
+#~ "column headers when reviewing tracks in playlist viewer."
+#~ msgstr ""
+#~ "Pridané nastavenie na zapnutie a vypnutie oznamovania metadát a hlavičiek."
+
+#~ msgid ""
+#~ "Added a command in SPL Controller layer to announce name and duration of "
+#~ "the currently playing track from anywhere (C)."
+#~ msgstr ""
+#~ "Do množiny príkazov pridaná skratka c, ktorá oznámi trvanie a názov "
+#~ "hrajúcej skladby (c)."
+
+#~ msgid ""
+#~ "When obtaining status information via SPL Controller (Q) while using "
+#~ "Studio 5.1x, information such as microphone status, cart edit mode and "
+#~ "others will also be announced in addition to playback and automation."
+#~ msgstr ""
+#~ "Stavová informácia (množina príkazov q) oznamuje od verzie studio 5.1x "
+#~ "stav mikrofónu, úpravu jinglov, stav prehrávania a autopylota."
+
+#~ msgid "1 through 0: Announce column content for a specified column."
+#~ msgstr "1 až 0: Oznámi príslušné metadáta."
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid "[5]: https://addons.nvda-project.org/files/get.php?file=spl-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.06"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.05.1"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.05/15.7-LTS"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.04"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "Added a command in SPL Controller to report remaining time for the "
+#~| "currently playing track (R)."
+#~ msgid ""
+#~ "Added a new command in SPL Controller layer to announce Studio status "
+#~ "such as track playback and microphone status (Q)."
+#~ msgstr ""
+#~ "Do množiny príkazov pridaná skratka r, ktorá oznámi zostávajúci čas."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.03"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#~ msgid "Updated translations."
+#~ msgstr "Pridané nové jazykové preklady."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 17.01/15.5-LTS"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.12.1"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.12/15.4-LTS"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.11/15.3-LTS"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 16.10.1/15.2-LTS"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Version 8.0/16.10/15.0-LTS"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "The following commands are not assigned by default; if you wish to "
+#~| "assign it, use Input Gestures dialog to add custom commands."
+#~ msgid ""
+#~ "The following commands are not assigned by default; if you wish to assign "
+#~ "them, use Input Gestures dialog to add custom commands."
+#~ msgstr "Tieto funkcie nemajú vlastné klávesové skratky"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.3"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.2"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid ""
+#~| "Added a command in SPL Controller to report remaining time for the "
+#~| "currently playing track (R)."
+#~ msgid "Added a command in SPL Controller to report listener count (I)."
+#~ msgstr ""
+#~ "Do množiny príkazov pridaná skratka r, ktorá oznámi zostávajúci čas."
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.1"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 7.0"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.4"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.3"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.2"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.1"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 6.0"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.6"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.5"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.4"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.3"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.2"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.1"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "Changes for 3.0"
+#~ msgid "Changes for 5.0"
+#~ msgstr "Zmeny vo verzii 3.0"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spl"
+#~ msgid ""
+#~ "[3]: https://www.josephsl.net/files/nvdaaddons/getupdate.php?file=spl-"
+#~ "lts16"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spl"

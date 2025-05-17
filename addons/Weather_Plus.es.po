@@ -1,0 +1,569 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2025-01-10 23:45+0100\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Weather Plus\"]]\n"
+msgstr "[[!meta title=\"Weather Plus\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Adriano Barbieri"
+msgstr "Autor: Adriano Barbieri"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.3 to beyond"
+msgstr "Compatibilidad con NVDA: de 2017.3 hasta más allá"
+
+#. type: Bullet: '* '
+msgid "Download: [Stable Version][1]"
+msgstr "Descargar: [versión estable][1]"
+
+#. type: Title #
+#, no-wrap
+msgid "ABOUT WEATHER PLUS:"
+msgstr "ACERCA DE WEATHER PLUS:"
+
+#. type: Bullet: '* '
+msgid ""
+"This plugin adds local temperature and forecasts to 24 hours up to 2 "
+"additional days and hourlyforecast for NVDA."
+msgstr ""
+"Este complemento añade la temperatura local y el pronóstico del tiempo "
+"actual a 24 horas y la predicción hasta 2 días adicionales y el pronóstico "
+"horario para NVDA."
+
+#. type: Bullet: '* '
+msgid "Copyright (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)"
+msgstr "Copyright (C) [Adriano Barbieri](mailto:adrianobarb@yahoo.it)"
+
+#. type: Bullet: '* '
+msgid "Released under the GNU GPL (General Public License) v2"
+msgstr "Liberado bajo la licencia GNU GPL (General Public License) v2"
+
+#. type: Bullet: '* '
+msgid ""
+"Weather Plus works through the use and presence of the following services:"
+msgstr ""
+"Weather Plus funciona a través del uso y la presencia de los siguientes "
+"servicios:"
+
+#. type: Bullet: '* '
+msgid "[https://www.weatherapi.com/](https://www.weatherapi.com/)"
+msgstr "[https://www.weatherapi.com/](https://www.weatherapi.com/)"
+
+#. type: Bullet: '* '
+msgid "[http://www.geonames.org/](http://www.geonames.org/)"
+msgstr "[http://www.geonames.org/](http://www.geonames.org/)"
+
+#. type: Bullet: '* '
+msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+msgstr "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+
+#. type: Bullet: '* '
+msgid "[http://www.nvda.it/](http://www.nvda.it/)"
+msgstr "[http://www.nvda.it/](http://www.nvda.it/)"
+
+#. type: Title #
+#, no-wrap
+msgid "USAGE:"
+msgstr "USO:"
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+w to get the information about current temperature and weather "
+"conditions."
+msgstr ""
+"Pulsar NVDA+w para obtener la información acerca de la temperatura actual y "
+"para las condiciones del tiempo."
+
+#. type: Bullet: '* '
+msgid "Press NVDA+shift+W to get 24 hours forecast and forecast up to 2 days."
+msgstr ""
+"Pulsar NVDA+shift+W para obtener el pronóstico del tiempo a 24 horas y la "
+"predicción hasta 2 días."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+shift+W twice to get hourlyforecast of temperature and "
+"atmospheric conditions."
+msgstr ""
+"Pulsar NVDA+Shift+W dos veces para obtener el pronóstico horario de la "
+"temperatura y para las condiciones atmosféricas."
+
+#. type: Bullet: '* '
+msgid "Press NVDA+shift+control+w to set a temporary city."
+msgstr "Pulsar NVDA+shift+control+w para configurar una ciudad temporal."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+shift+control+alt+w to open the Weather Plus settings dialog."
+msgstr ""
+"Pulsar NVDA+shift+control+alt+w para abrir el cuadro de diálogo "
+"Configuración de Weather Plus."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+alt+w to get the date and time, when the weather report was "
+"updated."
+msgstr ""
+"Pulsar NVDA+alt+w para obtener la fecha y la hora de la última actualización "
+"del boletín meteorológico."
+
+#. type: Bullet: '* '
+msgid ""
+"Press control+shift+w to toggle between Fahrenheit, Celsius or Kelvin "
+"temperature scales."
+msgstr ""
+"Pulsar Control+shift+w para conmutar la escalas de temperatura entre "
+"Fahrenheit, Celsius o Kelvin."
+
+#. type: Title #
+#, no-wrap
+msgid "Weather Plus setup:"
+msgstr "Configurar Weather Plus:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* You must set the Weather Plus addon before its first use! Go to the Preferences submenu, Weather Plus Settings submenu and choose one of the following options:\n"
+" * Set and Manage Your Cities... - Displays or allows to set the current city from a list.\n"
+" * Set a temporary city... - Displays and allows to set one temporary city from a list if available.\n"
+" * Documentation - Opens the help file for the current language.\n"
+" * Check for Update... - Notifies about the availability of the new version.\n"
+msgstr ""
+"* ¡Debe configurar el complemento Weather Plus antes de su primer uso! Ir al submenú Preferencias, submenú Weather Plus Configuración y elija una de las siguientes opciones:\n"
+" * Establecer y Administrar Tus Ciudades... - Muestra o permite establecer las ciudades actuales en una lista.\n"
+" * Establecer una ciudad temporal... - Muestra y permite establecer una ciudad temporal en una lista si está disponible.\n"
+" * Documentación - Abrir el archivo de ayuda para el IDIOMA actual.\n"
+" * Buscar Actualización... - Indicar si se dispone de una versión actualizada.\n"
+
+#. type: Plain text
+msgid "To add a new city: press the following item:"
+msgstr "Para añadir una nueva Ciudad: pulsa el siguiente elemento:"
+
+#. type: Bullet: '* '
+msgid ""
+"Set and Manage Your Cities... - Displays or allows to set the current city "
+"from a list."
+msgstr ""
+"Establecer y Administrar Tus Ciudades... - Muestra o permite establecer las "
+"ciudades actuales en una lista."
+
+#. type: Bullet: '* '
+msgid ""
+"The following message is displayed only for the first time! Settings Preset "
+"None F1: help placing, F2: last TAB selection, F3: list and edit box, F4: "
+"control duration Weather Forecast, F5: volume controls."
+msgstr ""
+"¡El siguiente mensaje se muestra sólo por primera vez! Configuración "
+"Predeterminar Ninguno F1: ayuda con la localización, F2: última selección "
+"con TAB, F3: lista y cuadro de edición, F4: control de la duración del "
+"Pronóstico del Tiempo, F5: controles de volumen."
+
+#. type: Bullet: '* '
+msgid ""
+"In the edit box, enter a City or choose one from the list, if available. "
+"Note: The F5 key is available if the sound effects are activated."
+msgstr ""
+"En el cuadro de edición, ingresar una Ciudad o elegir una de la lista, si "
+"está disponible. Nota: La tecla F5 está disponible si están activados los "
+"efectos de sonido."
+
+#. type: Bullet: '* '
+msgid ""
+"After pressing enter on the item \"Set and Manage Your Cities...\", you will "
+"find other buttons as follows:"
+msgstr ""
+"Después de pulsar Intro en el elemento \"Establecer y Administrar Tus "
+"Ciudades...\", puedes encontrar otros botones como sigue:"
+
+#. type: Bullet: '* '
+msgid "Test - Test the validity of the city and find the data of it."
+msgstr "Prueba - Prueba la validéz de la ciudad y encuentra los datos de esta."
+
+#. type: Bullet: '* '
+msgid ""
+"Add - Adds the current city into your list. This button can be activated if "
+"you select a city from the list, when the city entered passed the test."
+msgstr ""
+"Añadir - Añade la ciudad actual a tu lista. Este botón se activa si "
+"selecciona una ciudad en la lista, o ha pasado la prueba."
+
+#. type: Bullet: '* '
+msgid ""
+"Details - Displays information about the current city. This button is "
+"activated if you select a city from the list, or it has passed the test."
+msgstr ""
+"Detalles - Muestra información sobre la ciudad actual. Este botón se activa "
+"si selecciona una ciudad en la lista, o ha pasado la prueba."
+
+#. type: Bullet: '* '
+msgid ""
+"Define - Allows you to define the area, in order to adapt the sound effects. "
+"This button can be activated if the audio effects are installed and "
+"activated, and you select a city from the list."
+msgstr ""
+"Definir - Te permite de definir la zona, con el fin de adaptar los efectos "
+"de sonido. Este botón se activa Si los efectos de audio están instalados, y "
+"activados, y seleccionas una ciudad en la lista."
+
+#. type: Bullet: '* '
+msgid ""
+"Preset - Presets a city as the default, will be used every time you restart "
+"the plugin. This button is activated if you select a city previously "
+"inserted in the list and not preset, or it has passed the test."
+msgstr ""
+"Predeterminar - Predetermina la ciudad actual por defecto, se usará cada vez "
+"que reinicies el complemento. Este botón se activa si selecciona una ciudad "
+"previamente insertada en la lista y no predeterminada, o ha pasado la prueba."
+
+#. type: Bullet: '* '
+msgid ""
+"Remove - Deletes the current city from your list. This button can be "
+"activated if you select a city previously inserted in the list."
+msgstr ""
+"Quitar - Eliminar la ciudad actual de tu lista. Este botón se activa si "
+"selecciona una ciudad previamente insertada en la lista."
+
+#. type: Bullet: '* '
+msgid ""
+"Rename - Rename the current city. This button can be activated if you select "
+"a city previously inserted in the list."
+msgstr ""
+"Renombrar - Renombrar una ciudad actual. Este botón se activa si selecciona "
+"una ciudad previamente insertada en la lista."
+
+#. type: Bullet: '* '
+msgid ""
+"Import new cities... - This button allows you to import cities from the "
+"another list of cities with the extension *.zipcodes; you can select the "
+"city you want to import, by turning on the checkbox associated with it."
+msgstr ""
+"Importar las nuevas ciudades... - Este botón te permite importar las "
+"ciudades de otra lista de ciudades con la extensión *.zipcodes; puedes "
+"seleccionar la ciudad que desea importar, activando la casilla de "
+"verificación asociada."
+
+#. type: Bullet: '* '
+msgid ""
+"Export your cities... - It allows you to save the cities in the specified "
+"file with the extension *.zipcodes. This button is activated if you have "
+"added and saved at least one city into the list."
+msgstr ""
+"Exportar tus ciudades... - Permite guardar las ciudades en el archivo "
+"especificado con la extensión * .zipcodes. Este botón se activa si tienes "
+"añadido y guardado al menos una ciudad en la lista."
+
+#. type: Bullet: '* '
+msgid ""
+"hourly forecast setting... - This button allows you to choose the contents "
+"of the hourly forecast report."
+msgstr ""
+"configuración del pronóstico horario... - Este botón te permite elegir los "
+"contenidos del boletín del pronóstico horario."
+
+#. type: Bullet: '* '
+msgid ""
+"Scale of temperature measurement: Use the radio button to select between "
+"Celsius (by default), Fahrenheit and Kelvin."
+msgstr ""
+"Escala de medición de la temperatura: Utiliza los botones de opciones para "
+"seleccionar entre Celsius (por defecto), Fahrenheit y Kelvin."
+
+#. type: Bullet: '* '
+msgid ""
+"Degrees shown as: Use the radio button to select between: Celsius `-` "
+"Fahrenheit `-` Kelvin (by default) C `-` F `-` K or Unspecified."
+msgstr ""
+"Indica los grados como: Utiliza los botones de opciones para seleccionar "
+"entre: Celsius `-` Fahrenheit `-` Kelvin (por defecto) C `-` F `-` K o No "
+"especificado."
+
+#. type: Bullet: '* '
+msgid ""
+"Combo box: Weather Forecasts up to days: 1; you can choose between 1 to 3 (1 "
+"days by default)"
+msgstr ""
+"Cuadro combinado: Pronóstico del Tiempo hasta días: 1; elija entre 1 a 3 (1 "
+"días por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Combo box: API response language: English, en; you can choose the language "
+"of the weather conditions text."
+msgstr ""
+"Cuadro combinado: Idioma de respuesta de la API: English, en; elija el "
+"idioma del texto de las condiciones del tiempo."
+
+#. type: Bullet: '* '
+msgid "To perform the following actions, toggle the following checkboxes:"
+msgstr ""
+"Para llevar a cabo las siguientes acciones, activar y desactivar las "
+"siguientes casillas de verificación:"
+
+#. type: Bullet: '* '
+msgid ""
+"Copy the weather report and weather forecast, including city details to "
+"clipboard; checkbox not checked (by default)"
+msgstr ""
+"Copia el reporte del clima y el pronóstico del tiempo, incluyendo los "
+"detalles de la ciudad al portapapeles; casilla de verificación no marcado "
+"(por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Enable audio effects (only for the current weather conditions); this "
+"checkbox also allows you to manage the installation of sound effects; if the "
+"sound effects are installed and the checkbox is activated, the F5 key and "
+"the volume setting becomes available."
+msgstr ""
+"Habilitar efectos de audio (sólo para las condiciones del tiempo actuales); "
+"esta casilla de verificación también te permite gestionar la instalación de "
+"los efectos de audio; si los efectos de audio están instalados y la casilla "
+"de verificación está activada, la tecla F5 y el parámetro del volumen está "
+"disponible."
+
+#. type: Bullet: '* '
+msgid ""
+"There will also be available an additional checkbox: \"Use only weather "
+"effects\"."
+msgstr ""
+"También estará disponible una casilla de verificación adicional: \"Usa solo "
+"efectos del tiempo\"."
+
+#. type: Bullet: '* '
+msgid ""
+"You can change the overall volume or change the last heard sound effect and "
+"filter out the others sounds in your environment. Checkbox is not checked by "
+"default."
+msgstr ""
+"Puedes cambiar el volumen general o cambiar el último efecto de audio "
+"escuchado y filtrar los otros efectos de audio en tu entorno. Esta casilla "
+"de verificación no está marcado por defecto."
+
+#. type: Bullet: '* '
+msgid ""
+"Use only weather effects - This option is available if sound effects are "
+"enabled; if is enabled, allows to listen only weather effects such as rain, "
+"wind, thunder, etc., filtering out all environmental ones. (unchecked by "
+"default)"
+msgstr ""
+"Usa solo efectos del tiempo - Esta opción está disponible si los efectos de "
+"audio están habilitados; si está habilitado, permite escuchar solo los "
+"efectos del tiempo como lluvia, viento, truenos, etc., filtrando todos los "
+"efectos ambientales. (no marcado por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Enable the reading of the hours in 24-hour format. - If this checkbox is "
+"unchecked, announces the time in 12-hour format for example, 12 AM `-` 12 "
+"PM. Checkbox is checked (by default)"
+msgstr ""
+"Habilitar la lectura de las horas en formato 24-horas. - Si esta casilla de "
+"verificación está deshabilitado anuncia la hora en formato 12-horas, "
+"ejemplo: 12 AM `-` 12 PM. Esta casilla de verificación está marcado (por "
+"defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Enable help buttons in the settings window; checkbox checked (by default)"
+msgstr ""
+"Habilitar botones de ayuda en la ventana de configuración; casilla de "
+"verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Read wind information; checkbox not checked (by default). If this checkbox "
+"is enabled, you can also activate the following checkboxes:"
+msgstr ""
+"Leer la información del viento; casilla de verificación no marcado (por "
+"defecto). Si está habilitado esta casilla de verificación, también puede "
+"activar las siguientes casillas de verificación:"
+
+#. type: Bullet: '* '
+msgid ""
+"Add wind direction; indicates the provenance of the wind. Checkbox checked "
+"(by default)"
+msgstr ""
+"Añadir dirección del viento; indica la procedencia del viento. Casilla de "
+"verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Add speed of the wind; indicates the speed in kilometers or miles per hour. "
+"Checkbox checked (by default)"
+msgstr ""
+"Añadir velocidad del viento; indica la velocidad en kilómetros o millas por "
+"hora. Casilla de verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Add speed in meters per second of the wind; checkbox checked (by default)"
+msgstr ""
+"Añadir velocidad en metros por segundo del viento; casilla de verificación "
+"marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid "Add wind gust speed of the wind; checkbox checked (by default)"
+msgstr ""
+"Añadir velocidad de ráfaga del viento; casilla de verificación marcado (por "
+"defecto)"
+
+#. type: Bullet: '* '
+msgid "Add perceived temperature; checkbox checked (by default)"
+msgstr ""
+"Añadir temperatura percibida; casilla de verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Read atmospherical information; checkbox not checked (by default). If "
+"enabled, you can also check the following checkboxes:"
+msgstr ""
+"Leer la información atmosférica; casilla de verificación no marcado (por "
+"defecto). Si está habilitado, también puede activar las siguientes casillas "
+"de verificación:"
+
+#. type: Bullet: '* '
+msgid ""
+"Add humidity value; indicates the humidity in percent. Checkbox checked (by "
+"default)"
+msgstr ""
+"Añadir valor de humedad; indica la humedad en porcentaje. Casilla de "
+"verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Add visibility value; indicate in kilometres or miles the distance visible. "
+"Checkbox checked (by default)"
+msgstr ""
+"Añadir valor de visibilidad; indica en kilómetros o millas la distancia "
+"visible. Casilla de verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Add atmospheric pressure value; indicates the atmospheric pressure in "
+"millibars or inches of mercury. If it's checked, enable an additional "
+"checkbox that allows you to indicate the pressure in millimeters of mercury. "
+"Checkbox checked (by default)"
+msgstr ""
+"Añadir valor de la presión atmosférica; indica la presión atmosférica en "
+"milibares o pulgadas de mercurio. Si está habilitado, activa una casilla de "
+"verificación adicional que te permite indicar la presión en milímetros de "
+"mercurio. Casilla de verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid "Add status of barometric pressure; check box checked (by default)"
+msgstr ""
+"Añadir estado de la presión barométrica; casilla de verificación marcado "
+"(por defecto)"
+
+#. type: Bullet: '* '
+msgid "Add cloudiness value; check box checked (by default)"
+msgstr ""
+"Añadir valor de nubosidad; casilla de verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid "Add precipitation value; check box checked (by default)"
+msgstr ""
+"Añadir valor de precipitación; casilla de verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid "Add ultraviolet radiation value; check box checked (by default)"
+msgstr ""
+"Añadir valor de radiación ultravioleta; casilla de verificación marcado (por "
+"defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Read astronomical information; indicates the time of sunrise and sunset and "
+"the time of moonrise and moonset. Checkbox not checked (by default)"
+msgstr ""
+"Leer la información astronómica; indica la hora de salida y puesta del sol y "
+"la hora de salida y puesta de la luna. Casilla de verificación no marcado "
+"(por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Use the comma to separate decimals; if enabled, uses the comma as a decimal "
+"separator, otherwise, use the point. Checkbox not checked (by default)"
+msgstr ""
+"Utiliza la coma para separar los décimales; si está habilitado, utiliza la "
+"coma como un separador decimal, de lo contrario, utiliza el punto. Casilla "
+"de verificación no marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Check for upgrade; if is activated this alerts when there is an update of "
+"the addon. Checkbox checked (by default)"
+msgstr ""
+"Buscar Actualización; si está habilitado, este da una alerta cuando hay una "
+"actualización del complemento. Casilla de verificación marcado (por defecto)"
+
+#. type: Bullet: '* '
+msgid ""
+"Press the OK button to confirm the action or the Cancel button to cancel the "
+"action."
+msgstr ""
+"Pulsa el botón Aceptar para confirmar la acción o el botón Cancelar para "
+"anular la acción."
+
+#. type: Bullet: '* '
+msgid ""
+"If you have modified the cities list, by pressing \"Cancel\", you will be "
+"remembered and you can still save it. Note: your settings will be save in "
+"the file named:"
+msgstr ""
+"Si has modificado la lista de ciudades, pulsando \"Cancelar\", se te "
+"recordará y podrás guardarla. Nota: tu configuración será guardada en el "
+"archivo llamado:"
+
+#. type: Bullet: '* '
+msgid "\"Weather.ini\": startup settings of Weather Plus."
+msgstr "\"Weather.ini\": configuración de inicio de Weather Plus."
+
+#. type: Bullet: '* '
+msgid ""
+"\"Weather.volumes\": custom audio volume levels, regardless of the overall "
+"volume."
+msgstr ""
+"\"Weather.volumes\": niveles de volumen de audio personalizado, cualquiera "
+"que sea el volumen general."
+
+#. type: Bullet: '* '
+msgid ""
+"\"Weather.zipcodes\": list of cities with their zip code and definitions."
+msgstr ""
+"\"Weather.zipcodes\": lista de las ciudades con su código postal y "
+"definiciones."
+
+#. type: Bullet: '* '
+msgid "\"Weather.default\": Your default city."
+msgstr "\"Weather.default\": Tu ciudad por defecto."
+
+#. type: Bullet: '* '
+msgid "\"Weather_searchkey\": search key saved."
+msgstr "\"Weather_searchkey\": clave de búsqueda guardada."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"

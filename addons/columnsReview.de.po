@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:38+0000\n"
+"PO-Revision-Date: 2023-08-15 02:37+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Columns Review\"]]\n"
+msgstr "[[!meta title=\"Spalten-Betrachter\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Author: Alberto Buffolino, Łukasz Golonka, other contributors"
+msgid "Author: Alberto Buffolino, Łukasz Golonka, other contributors"
+msgstr "Autoren: Alberto Buffolino, Łukasz Golonka und weitere Entwickler"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][stable]"
+msgstr "[Stabile Version herunterladen][stable]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][dev]"
+msgstr "[Entwicklerversion herunterladen][dev]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.3 and beyond"
+msgstr "NVDA-Kompatibilität: 2017.3 und neuer"
+
+#. type: Plain text
+msgid "Columns Review is an add-on to enhance NVDA experience with lists."
+msgstr ""
+"Spaltenbetrachter ist eine NVDA-Erweiterung zur Verbesserung der NVDA-"
+"Erfahrung mit Listen."
+
+#. type: Plain text
+msgid "Its features include:"
+msgstr "Zu den Funktionen gehören:"
+
+#. type: Bullet: '* '
+msgid ""
+"customizable actions on column header and/or content (available actions are "
+"read, copy, spell and show in browse mode);"
+msgstr ""
+"anpassbare Aktionen für Spaltenüberschriften und/oder -Inhalt (verfügbare "
+"Aktionen sind Lesen, Kopieren, Buchstabieren und Anzeigen im Lesemodus);"
+
+#. type: Bullet: '* '
+msgid "ability to cycle between columns in ten-by-ten intervals;"
+msgstr "Fähigkeit, zwischen Spalten in Zehn-bis-Zehn-Intervallen zu wechseln;"
+
+#. type: Bullet: '* '
+msgid "simplified header management (mouse clicks);"
+msgstr "Vereinfachte Überschriften-Verwaltung (Maus-Klicks);"
+
+#. type: Bullet: '* '
+msgid ""
+"on-demand reading of relative current item position (i.e.: item 7 of 10);"
+msgstr ""
+"Ausgabe der aktuellen Positionsinformation bei Bedarf (bspw. Eintrag 7 von "
+"10)"
+
+#. type: Bullet: '* '
+msgid "customizable gestures with or without numpad;"
+msgstr "anpassbare Tastenbefehle mit oder ohne Nummernblock;"
+
+#. type: Bullet: '* '
+msgid ""
+"\"0 items\" announcement when list is empty (not working in Win8/10 folders, "
+"unfortunately);"
+msgstr ""
+"Die Ansage \"0 Einträge\", wenn die Liste lehr ist (derzeit nicht in Windows "
+"8/10-Ordnern)"
+
+#. type: Bullet: '* '
+msgid "say all support;"
+msgstr "Unterstützung für Alles Vorlesen;"
+
+#. type: Bullet: '* '
+msgid "report of selected items (amount and item names);"
+msgstr "Ansage der markierten Einträge (Anzahl und Namen der Einträge);"
+
+#. type: Bullet: '* '
+msgid "list search (with item multiselection, if checked/supported)."
+msgstr ""
+"Listensuche (mit Mehrfachauswahl von Listeneinträgen, falls angehakt/"
+"unterstützt)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Gestures"
+msgstr "Tastenbefehle"
+
+#. type: Plain text
+msgid ""
+"Default keys for columns, headers and position are NVDA+control, but you can "
+"customize them from add-on settings (not \"Input gestures\" dialog!)."
+msgstr ""
+"Die Standard-Tastenkombinationen für Spalten, Überschriften und Position "
+"beinhalten NVDA+Steuerung. Dies kann in den Erweiterungseinstellungen, (aber "
+"nicht in den \"Tastenbefehlen\") geändert werden."
+
+#. type: Plain text
+msgid ""
+"Note that your keyboard could have problems processing some key "
+"combinations, so try all add-on gestures and adjust them for better results."
+msgstr ""
+"Beachten Sie, dass Ihre Tastatur Probleme bei der Verarbeitung einiger "
+"Tastenkombinationen haben könnte. Probieren Sie daher alle zusätzlichen "
+"Gesten aus und passen Sie diese für bessere Ergebnisse an."
+
+#. type: Plain text
+msgid ""
+"See also add-on preferences for numpad mode, keyboard layout (without "
+"numpad), and the four available actions for columns."
+msgstr ""
+"Siehe auch die Einstellungen der NVDA-Erweiterung für den Nummernblock-"
+"Modus, Tastaturschema (ohne Nummernblock) und die vier verfügbaren Aktionen "
+"für Spalten."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+control+digits from 1 to 0 (keyboard mode) or from 1 to 9 (numpad "
+"mode): by default, read the chosen column if pressed once, copy it if "
+"pressed twice;"
+msgstr ""
+"NVDA+Steuerung+Ziffern von 1 bis 0 (Tastaturmodus) oder von 1 bis 9 "
+"(Nummernblockmodus): einmal drücken: die ausgewählte Spalte wird vorgelesen; "
+"zweimal drücken: die Spalte wird in die Zwischenablage kopiert;"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+control+numpadMinus (numpad mode): like NVDA+control+0 in keyboard "
+"mode, read or copy the 10th, 20th, etc column;"
+msgstr ""
+"NVDA+Steuerung+nummernblock Minus (Nummernblockmodus): wie NVDA+Steuerung+0 "
+"im Tastatur-Modus, Lesen oder Kopieren der 10ten, 20ten Spalte usw.;"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+control+- (keyboard mode, EN-US layout): in a list with 10+ columns, "
+"change interval and process columns from 11 to 20, from 21 to 30, and so on "
+"(change last char according to your layout, from settings);"
+msgstr ""
+"NVDA+Steuerung+- (Tastaturmodus, Layout EN-US): Ändern Sie in einer Liste "
+"mit mehr als 10 Spalten das Interwall und greifen so auf die Spalten 11-20, "
+"21-30, usw. zu. Ändern Sie das letzte Zeichen in den Einstellungen passend "
+"zu Ihrem Tastaturschema;"
+
+#. type: Bullet: '* '
+msgid "NVDA+control+numpadPlus (numpad mode): like previous command;"
+msgstr ""
+"NVDA+Steuerung+nummernblock Plus (Nummernblockmodus): genau wie beim "
+"vorherigen Befehl nur rückwärts;"
+
+#. type: Bullet: '* '
+msgid "NVDA+control+enter (numpadEnter in numpad mode): open header manager;"
+msgstr ""
+"NVDA+Steuerung+Eingabe (nummernblock Eingabe im Nummernblockmodus): "
+"Spaltenüberschriften-Manager öffnen;"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+control+delete (numpadDelete in numpad mode): read relative current "
+"item position (i.e.: item 7 of 10);"
+msgstr ""
+"NVDA+Steuerung+entfernen (Nummernblock entfernen im Nummernblock-Modus): "
+"Lese die aktuelle sowie die relative  Position des Listeneintrags, bspw. "
+"Eintrag 7 von 10;"
+
+#. type: Bullet: '* '
+msgid "Arrows and NVDA+tab (in empty list): repeat \"0 items\" message;"
+msgstr ""
+"Pfeiltasten und NVDA+tab (in einer leeren Liste): Nachricht \"0 Elemente\" "
+"wird wiederholt;"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+downArrow (desktop layout) or NVDA+a (laptop layout): start say all "
+"(this gesture depends on original one under \"Input gestures\"/\"System "
+"caret\");"
+msgstr ""
+"NVDA+Pfeil nach unten (Desktop-Schema) oder NVDA+a (Laptop-Schema): Startet "
+"alles lesen (diese Geste hängt von der Belegung der \"Tastenbefehle\" "
+"Kategorie „Systemcursor“ ab);"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+shift+upArrow (desktop layout) or NVDA+shift+s (laptop layout): report "
+"amount and names of current selected list items (like previous command for "
+"customization);"
+msgstr ""
+"NVDA+Umschalt+Pfeil nach oben (Desktop-Schema) oder NVDA+Umschalt+s (Laptop-"
+"Schema): Sagt die Anzahl und die Namen der ausgewählten Listeneinträge an "
+"(wie der vorherige Befehl zur Anpassung);"
+
+#. type: Bullet: '* '
+msgid "NVDA+control+f: open find dialog (not customizable);"
+msgstr "NVDA+Strg+F: Suchdialog öffnen (nicht anpassbar);"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+f3: find next occurrence of previously entered text (not customizable);"
+msgstr ""
+"NVDA+f3: Nächstes Vorkommen von zuvor eingegebenem Text finden (nicht "
+"anpassbar);"
+
+#. type: Bullet: '* '
+msgid "NVDA+shift+f3: find previous occurrence (not customizable)."
+msgstr "NVDA+Umschalt+f3: suche vorheriges vorkommen (nicht veränderbar)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Support"
+msgstr "Unterstützung"
+
+#. type: Plain text
+msgid ""
+"This add-on provide a general support for more common lists (see below), and "
+"some specific applications. Main author (Alberto Buffolino) cannot guarantee "
+"compatibility/functionality for those applications he not uses, like Outlook "
+"and Windows Mail, but he'll be happy to collaborate with their users or "
+"accept a pull request for them."
+msgstr ""
+"Diese NVDA-Erweiterung bietet eine allgemeine Unterstützung für gängige "
+"Listen (siehe unten) und einige spezielle Anwendungen. Der Hauptautor "
+"(Alberto Buffolino) kann die Kompatibilität/Funktionalität für die "
+"Anwendungen, die er nicht benutzt, wie Outlook und Windows Mail, nicht "
+"garantieren, aber er ist gerne bereit, mit deren Nutzern zusammenzuarbeiten "
+"oder einen Pull-Request für sie einzureichen."
+
+#. type: Plain text
+msgid "Lists supported are:"
+msgstr "Unterstützte Listen sind:"
+
+#. type: Bullet: '* '
+msgid "SysListView32;"
+msgstr "SysListView32;"
+
+#. type: Bullet: '* '
+msgid "DirectUIHWND (present in 64-bit systems);"
+msgstr "DirectUIHWND (in 64-Bit-Systemen vorhanden);"
+
+#. type: Bullet: '* '
+msgid "WindowsForms10.SysListView32.* (applications that use .NET);"
+msgstr "WindowsForms10.SysListView32.* (Anwendungen, die .NET verwenden);"
+
+#. type: Bullet: '* '
+msgid "multi-column treeview like as that presents in RSSOwlnix;"
+msgstr "mehrspaltige Baumansicht wie in RSSOwlnix;"
+
+#. type: Bullet: '* '
+msgid ""
+"Mozilla table (tipically, Thunderbird message list, thread-grouping "
+"supported)."
+msgstr ""
+"Mozilla-Tabelle (typischerweise die Nachrichtenliste in Mozilla Thunderbird, "
+"gruppierte Beiträge werden unterstützt)."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[stable]: https://www.nvaccess.org/addonStore/legacy?file=columnsReview"
+msgstr ""
+"[stable]: https://www.nvaccess.org/addonStore/legacy?file=columnsReview"
+
+#. type: Plain text
+msgid ""
+"[dev]: https://www.nvaccess.org/addonStore/legacy?file=columnsReview-dev"
+msgstr ""
+"[dev]: https://www.nvaccess.org/addonStore/legacy?file=columnsReview-dev"
+
+#~ msgid "Author: Alberto Buffolino."
+#~ msgstr "Autor: Alberto Buffolino."
+
+#~ msgid ""
+#~ "Columns Review is an add-on to read and copy items in a list column by "
+#~ "column. It supports lists with a potentially infinite number of columns, "
+#~ "and you can navigate them using keyboard or numpad digits. The column "
+#~ "headers can be read but not copied, or vice versa."
+#~ msgstr ""
+#~ "Der Betrachter für Spalten ist eine Erweiterung, welche das spaltenweise "
+#~ "Lesen und Kopieren von einzelnen Elementen in einer Liste ermöglicht. Sie "
+#~ "unterstützt Listen mit einer potenziell unendlichen Anzahl von Spalten. "
+#~ "Die Navigation zwischen Spalten funktioniert mit der Tastatur oder mit "
+#~ "dem Nummernblock. Die Spaltenüberschriften können gelesen, aber nicht "
+#~ "kopiert werden."
+
+#~ msgid ""
+#~ "Additionally, it provides a way to interact with column headers, and can "
+#~ "announce \"0 elements\" when a list is empty."
+#~ msgstr ""
+#~ "Darüber hinaus bietet diese Erweiterung die Möglichkeit mit "
+#~ "Spaltenüberschriften zu interagieren. Sie ermöglicht auch die Ansage \"0-"
+#~ "Elemente\", wenn eine Liste leer ist."
+
+#~ msgid "See below for more details about supported list."
+#~ msgstr ""
+#~ "Für weitere Details lesen Sie weiter unten mehr Informationen über "
+#~ "unterstützte Listen."
+
+#~ msgid "Key Commands"
+#~ msgstr "Tastenkombinationen"
+
+#~ msgid "For developers and advanced users"
+#~ msgstr "Für Entwickler und fortgeschrittene Anwender"
+
+#~ msgid ""
+#~ "All numeric gestures are associated on and only on supported lists, when "
+#~ "these are not empty."
+#~ msgstr ""
+#~ "Alle numerischen Gesten sind ausschließlich in unterstützten Listen "
+#~ "zugeordnet, wenn diese nicht leer sind."
+
+#~ msgid ""
+#~ "Any listview potentially supports empty announcement (so, not "
+#~ "DirectUIHWND nor Mozilla table)."
+#~ msgstr ""
+#~ "Jede ListView unterstützt normalerweise die Ankündigung \"0 Elemente\". "
+#~ "Das heißt weder DirectUIHWND noch Mozilla-Tabelle unterstützen die \"0 "
+#~ "Elemente\"."

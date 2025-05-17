@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-10 21:28+0000\n"
+"PO-Revision-Date: 2023-05-07 06:12+0200\n"
+"Last-Translator: Bernd Dorer <mail@bdorer.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"ObjPad\"]]\n"
+msgstr "[[!meta title=\"ObjPad\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph "
+"Lee, Cleverson Uliana and others"
+msgstr ""
+"Autor: Christopher Duffley <nvda@chrisduffley.com> (ursprünglich geschrieben "
+"von Joseph Lee, Cleverson Uliana und weitere Entwickler)"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Stabile Version herunterladen][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr "NVDA-Kompatibilität: 2022.4 und neuer"
+
+#. type: Plain text
+msgid ""
+"This add-on provides quick commands to manage objects on screen, including "
+"navigation and other possibilities."
+msgstr ""
+"Dieses Add-on bietet schnelle Befehle zur Verwaltung von Objekten auf dem "
+"Bildschirm, einschließlich Navigation und anderer Möglichkeiten."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Befehle"
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+TAB: Steps through arrow key modes (see below for details)."
+msgstr ""
+"Strg+NVDA+Tab: Wechselt zwischen den Navigationsarten auf dem Bildschirm "
+"(Details siehe unten)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Arrow key modes"
+msgstr "Navigationsarten"
+
+#. type: Plain text
+msgid "The add-on provides four ways to use arrow keys:"
+msgstr ""
+"Die Erweiterung bietet vier Möglichkeiten der Navigation mit Pfeiltasten:"
+
+#. type: Bullet: '* '
+msgid "Classic (or normal mode): use arrow keys to move cursor."
+msgstr ""
+"Klassisch (oder Normalmodus): Verwenden Sie die Pfeiltasten, um den Cursor "
+"zu steuern."
+
+#. type: Bullet: '* '
+msgid ""
+"Object nav: use arrow keys to move to next/previous/parent/first child "
+"objects."
+msgstr ""
+"Objektnavigation: Benutzen Sie die Pfeiltasten, um zu den nächsten/"
+"vorherigen Hauptobjekten bzw. ersten/vorherigen/nächsten Unterobjekten zu "
+"gelangen."
+
+#. type: Bullet: '* '
+msgid "Web: use arrow keys to cycle through elements and move between them."
+msgstr ""
+"Web: Benutzen Sie die Pfeiltasten, um durch die Elementtypen zu blättern und "
+"sich zwischen elementen zu bewegen."
+
+#. type: Bullet: '* '
+msgid ""
+"Scan mode: use arrow keys to move through objects on screen regardless of "
+"hierarchy."
+msgstr ""
+"Erkundungsmodus: Benutzen Sie die Pfeiltasten, um unabhängig von der "
+"Hierarchie durch die Objekte auf dem Bildschirm zu navigieren."
+
+#. type: Plain text
+msgid "The following commands are available with arrow keys set to object nav:"
+msgstr ""
+"Die folgenden Befehle sind verfügbar, wenn die Pfeiltasten auf "
+"Objektnavigation eingestellt sind:"
+
+#. type: Bullet: '* '
+msgid "Right arrow: next object."
+msgstr "Pfeiltaste nach rechts: Nächstes Objekt."
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous object."
+msgstr "Pfeiltaste nach links: Vorheriges Objekt."
+
+#. type: Bullet: '* '
+msgid "Up arrow: parent object."
+msgstr "Pfeiltaste nach oben: Hauptobjekt für die aktuelle Region."
+
+#. type: Bullet: '* '
+msgid "Down arrow: first child object."
+msgstr "Pfeiltaste nach unten: Erstes Unterobjekt des Hauptobjekts."
+
+#. type: Bullet: '* '
+msgid "SPACE or ENTER: activate."
+msgstr "Leertaste or Eingabetaste: Aktivieren."
+
+#. type: Plain text
+msgid ""
+"With web mode active (elements are normal or moving by object, link, form "
+"field, heading, frame, table, list, landmark):"
+msgstr ""
+"Elemente können im Webmodus normal eingestellt werden. Sie können aber auch "
+"zwischen den Elementtypen Objekte, Links, Formularfelder, Überschriften, "
+"Rahmen, Tabellen, Listen, Sprungmarken navigieren:"
+
+#. type: Bullet: '* '
+msgid "Right arrow: next element."
+msgstr "Pfeiltaste nach rechts: Nächstes Element."
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous element."
+msgstr "Pfeiltaste nach links: Vorheriges Element."
+
+#. type: Bullet: '* '
+msgid "Up arrow: previous element type."
+msgstr "Pfeiltaste nach oben: Vorheriges Elementtyp."
+
+#. type: Bullet: '* '
+msgid "Down arrow: next element type."
+msgstr "Pfeiltaste nach unten: Nächstes Elementtyp."
+
+#. type: Plain text
+msgid "With scan mode active:"
+msgstr "Bei aktiviertem Scan-Modus:"
+
+#. type: Bullet: '* '
+msgid "Down arrow: next object or the next line."
+msgstr "Pfeiltaste nach unten: Nächstes Objekt oder nächste Zeile."
+
+#. type: Bullet: '* '
+msgid "Up arrow: previous object or previous line."
+msgstr "Pfeiltaste nach oben: Vorheriges Objekt oder vorherige Zeile."
+
+#. type: Bullet: '* '
+msgid "Right arrow: review next character."
+msgstr "Pfeiltaste nach rechts: Nächster Buchstabe."
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous character."
+msgstr "Pfeiltaste nach links: Vorheriger Buchstabe."
+
+#. type: Bullet: '* '
+msgid "Control+right arrow: next word."
+msgstr "Strg+Pfeil nach rechts: Nächstes Wort."
+
+#. type: Bullet: '* '
+msgid "Control+left arrow: previous word."
+msgstr "Strg+Pfeil nach links: Vorheriges Wort."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.05"
+msgstr "Version 23.05"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+"Um die Änderung zur Wartung zu berücksichtigen, wurde das Manifest "
+"aktualisiert, um dies anzuzeigen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Version 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "NVDA 2022.4 oder neuer wird benötigt."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Windows 10 Version 21H2 (November 2021 Update / Build 19044) oder neuer wird "
+"benötigt."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Version 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "NVDA 2022.3 oder neuer ist erforderlich."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+"Windows 10 oder neuer ist erforderlich, da Windows 7, 8 und 8.1 ab Januar "
+"2023 nicht mehr von Microsoft unterstützt werden."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.06"
+msgstr "Version 22.06"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2021.3 or later."
+msgstr "Benötigt NVDA 2021.3 oder neuer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.04"
+msgstr "Version 21.04"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2020.1 or later."
+msgstr "Erfordert NVDA 2020.1 oder höher."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "Version 20.01"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Erfordert NVDA 2019.3 oder höher."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "Version 18.12"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "Interne Änderungen zur Unterstützung zukünftiger NVDA-Versionen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.09"
+msgstr "Version 18.09"
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr "Lokalisierungen wurden hinzugefügt."
+
+#. type: Bullet: '* '
+msgid "Enter key (regular and Numpad) can be used to activate objects."
+msgstr ""
+"Eingabetaste (normal und Numpad) kann zum Aktivieren von Objekten verwendet "
+"werden."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.03"
+msgstr "Version 18.03"
+
+#. type: Bullet: '* '
+msgid "Better compatibility with NVDA 2018.1."
+msgstr "Bessere Kompatibilität mit NVDA 2018.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.12"
+msgstr "Version 16.12"
+
+#. type: Bullet: '* '
+msgid "Added web mode."
+msgstr "Web-Modus wurde hinzugefügt."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.10"
+msgstr "Version 16.10"
+
+#. type: Bullet: '* '
+msgid "Initial stable version."
+msgstr "Erstveröffentlichung."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "[Entwicklerversion herunterladen][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"

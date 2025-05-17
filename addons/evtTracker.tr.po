@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Olayİzleyici\n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2025-04-30 17:58+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Event Tracker\"]]\n"
+msgstr "[[!meta title=\"Olay İzleyici\"]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Event Tracker"
+msgstr "Olay İzleyici"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee, Thiago Seus"
+msgstr "Yazarlar: Joseph Lee, Thiago Seus"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü indir][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr "NVDA uyumluluğu: 2022.4 ve sonrası"
+
+#. type: Plain text
+msgid ""
+"This add-on outputs information about objects for which events were fired. "
+"Properties recorded in debug log mode include object type, name, role, "
+"event, app module, and accessibility API specific information such as "
+"accName for IAccessible object and Automation Id for UIA objects."
+msgstr ""
+"Bu eklenti, olayların tetiklendiği nesneler hakkında bilgi verir. Hata "
+"ayıklama günlük modunda kaydedilen özellikler, nesne türü, ad, rol, olay, "
+"uygulama modülü ve IAccessible nesnesi için accName ve UIA nesneleri için "
+"Otomasyon Kimliği gibi erişilebilirlik API'sine özgü bilgileri içerir."
+
+#. type: Plain text
+msgid "Notes:"
+msgstr "Notlar:"
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on is designed for developers and power users needing to track "
+"events coming from apps and various controls."
+msgstr ""
+"Bu eklenti, uygulamalardan ve çeşitli denetimlerden gelen olayları izlemesi "
+"gereken geliştiriciler ve uzman kullanıcılar için tasarlanmıştır."
+
+#. type: Bullet: '* '
+msgid ""
+"In order to use the add-on, NVDA must be logging in debug mode (configured "
+"from general settings/logging level, or restart with debug logging enabled)."
+msgstr ""
+"Eklentiyi kullanmak için, NVDA'nın hata ayıklama modunda oturum açması "
+"gerekir (genel ayarlar/kayıt düzeyinden yapılandırılır veya hata ayıklama "
+"günlüğü etkinken yeniden başlatılır)."
+
+#. type: Bullet: '* '
+msgid ""
+"It might be possible that add-ons loaded earlier than Event Tracker may not "
+"pass on the event to other add-ons, including Event Tracker. If this "
+"happens, Event Tracker will not be able to log events."
+msgstr ""
+"Olay İzleyicisi'nden önce yüklenen eklentilerin, olayı Olay İzleyicisi de "
+"dahil olmak üzere diğer eklentilere aktarmaması mümkün olabilir. Bu durumda, "
+"Olay İzleyici olayları günlüğe kaydedemez."
+
+#. type: Bullet: '* '
+msgid ""
+"Events are handled from global plugins, app modules, tree interceptors, and "
+"NVDA objects, in that order."
+msgstr ""
+"Olaylar, bu sırayla global eklentiler, uygulama modülleri, ağaç önleyiciler "
+"ve NVDA nesnelerinden işlenir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Events and their information"
+msgstr "Olaylar ve bilgileri"
+
+#. type: Plain text
+msgid "The following events are tracked and recorded:"
+msgstr "Aşağıdaki olaylar izlenir ve kaydedilir:"
+
+#. type: Bullet: '* '
+msgid "Focus manipulation: gain focus, lose focus, focus entered, foreground"
+msgstr "Odak manipülasyonu: odak kazan, odak kaybet, odak girildi, ön plan"
+
+#. type: Bullet: '* '
+msgid "Changes: name, value, state, description, live region"
+msgstr "Değişiklikler: ad, değer, durum, açıklama, canlı bölge"
+
+#. type: Bullet: '* '
+msgid "Other events: alert"
+msgstr "Diğer olaylar: uyarı"
+
+#. type: Bullet: '* '
+msgid ""
+"UIA events: controller for, drag drop and drop target effects, element "
+"selected, item status, layout invalidated, notification, system alert, text "
+"change, tooltip open, window open"
+msgstr ""
+"UIA olayları: denetleyici, sürükle bırak ve bırak hedef efektleri, seçilen "
+"öğe, öğe durumu, düzen geçersiz kılındı, bildirim, sistem uyarısı, metin "
+"değişikliği, araç ipucu açık, pencere açık"
+
+#. type: Plain text
+msgid "For each event, the following information will be recorded:"
+msgstr "Her olay için aşağıdaki bilgiler kaydedilecektir:"
+
+#. type: Bullet: '* '
+msgid "Event name"
+msgstr "Olay adı"
+
+#. type: Bullet: '* '
+msgid "Object"
+msgstr "Nesne"
+
+#. type: Bullet: '* '
+msgid "Object name"
+msgstr "Nesne adı"
+
+#. type: Bullet: '* '
+msgid "Object role"
+msgstr "Nesne rolü"
+
+#. type: Bullet: '* '
+msgid "Object value or state depending on events"
+msgstr "Olaylara bağlı olarak nesne değeri veya durumu"
+
+#. type: Bullet: '* '
+msgid "App module"
+msgstr "Uygulama modülü"
+
+#. type: Bullet: '* '
+msgid "For IAccessible objects: acc name, child ID"
+msgstr "IErişilebilir nesneler için: erişim adı, alt kimlik"
+
+#. type: Bullet: '* '
+msgid ""
+"For UIA objects: Automation Id, class name, notification properties if "
+"recording notification event information, child count for layout invalidated "
+"event, properties for item status, drag drop, and drop target effect if "
+"defined"
+msgstr ""
+"UIA nesneleri için: Otomasyon Kimliği, sınıf adı, bildirim olay bilgisi "
+"kaydediliyorsa bildirim özellikleri, düzen geçersiz kılınan olay için çocuk "
+"sayısı, öğe durumu özellikleri, tanımlıysa sürükle bırak ve bırakma hedefi "
+"etkisi"
+
+#. type: Plain text
+msgid ""
+"You can also assign a gesture to view the events on a list (NVDA menu/"
+"Preferences/Input gestures, Event Tracker category). The list saves up to "
+"100 latest events processed."
+msgstr ""
+"Ayrıca olayları bir listede görüntülemek için bir hareket atayabilirsiniz "
+"(NVDA menüsü/Tercihler/Girdi hareketleri, Olay İzleyici kategorisi). Liste, "
+"işlenen en son 100 olayı kaydeder."
+
+#. type: Plain text
+msgid ""
+"If you find this add-on useful, please [review it][2] in the NVDA Add-on "
+"Store."
+msgstr ""
+"Bu eklentiyi yararlı buluyorsanız, lütfen NVDA Eklenti Mağazasında "
+"[inceleyin][2]."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.1.0"
+msgstr "Sürüm 24.1.0"
+
+#. type: Bullet: '* '
+msgid "NVDA 2024.1 compatibility."
+msgstr "NVDA uyumluluğu: 2024.1 ve sonrası."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Sürüm 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "NVDA 2022.4 veya üstü gereklidir."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü "
+"gereklidir."
+
+#. type: Bullet: '* '
+msgid "Alert event (mostly for IAccessible objects) will be tracked."
+msgstr "Uyarı olayı (çoğunlukla IAccessible nesneler için) izlenecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Sürüm 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "NVDA 2022.3 veya üstü gereklidir."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+"Ocak 2023 itibariyle Windows 7, 8 ve 8.1 artık Microsoft tarafından "
+"desteklenmediğinden Windows 10 veya sonraki sürümleri gereklidir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.12"
+msgstr "Sürüm 22.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Added events list dialog (command unassigned) to list up to 100 recent "
+"events recorded by the add-on (Thiago Seus)."
+msgstr ""
+"Eklenti (Thiago Seus) tarafından kaydedilen en son 100 olayı listelemek için "
+"olaylar listesi iletişim kutusu (komut atanmamış) eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"Additional event information such as UIA notification properties are "
+"recorded at the same time as events."
+msgstr ""
+"UIA bildirim özellikleri gibi ek olay bilgileri, olaylarla aynı anda "
+"kaydedilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.10"
+msgstr "Sürüm 22.10"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.2 or later is required due to security."
+msgstr "Güvenlik nedeniyle NVDA 2022.2 veya üstü gereklidir."
+
+#. type: Bullet: '* '
+msgid ""
+"The following UIA property changes are tracked: drag drop effect, drop "
+"target effect."
+msgstr ""
+"Aşağıdaki UIA özellik değişiklikleri izlenir: sürükle bırak efekti, bırakma "
+"hedefi etkisi."
+
+#. type: Bullet: '* '
+msgid "UIA item status property text is logged."
+msgstr "UIA öğe durumu özellik metni günlüğe kaydedilir."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer play error tones or appear to do nothing if an object "
+"does not define a window class name."
+msgstr ""
+"Bir nesne bir pencere sınıfı adı tanımlamıyorsa, NVDA artık hata sesleri "
+"çalmayacak veya hiçbir şey yapmıyormuş gibi görünecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.06"
+msgstr "Sürüm 22.06"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required due to security."
+msgstr "Güvenlik nedeniyle NVDA 2021.3 veya üstü gereklidir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.10"
+msgstr "Sürüm 21.10"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+"Bu eklentiyi etkileyen NVDA değişiklikleri nedeniyle NVDA 2021.2 veya üstü "
+"gereklidir."
+
+#. type: Bullet: '* '
+msgid "UIA layout invalidated event will be tracked."
+msgstr "UIA düzeni geçersiz kılınan olay izlenecektir."
+
+#. type: Bullet: '* '
+msgid ""
+"Object role and states information will resemble developer info found in "
+"more recent NVDA releases."
+msgstr ""
+"Nesne rolü ve durum bilgileri, daha yeni NVDA sürümlerinde bulunan "
+"geliştirici bilgilerine benzeyecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.07"
+msgstr "Sürüm 21.07"
+
+#. type: Bullet: '* '
+msgid "Initial release."
+msgstr "İlk sürüm."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=evtTracker"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=evtTracker"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/addon-datastore/discussions/2717"
+msgstr "[2]: https://github.com/nvaccess/addon-datastore/discussions/2717"

@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2021-08-27 10:06+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: Simplified Chinese translate team <vgjh2005@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"dropbox\"]]\n"
+msgstr "[[!meta title=\"dropbox 支持插件\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors"
+msgstr "作者： Patrick ZAJDA, Filaos和其他贡献者"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: NVDA 2019.1 or later"
+msgstr "NVDA兼容版本： 2019.1 或更高版本"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "下载[稳定版 version][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "下载[开发板 version][1]"
+
+#. type: Plain text
+msgid ""
+"This plugin add a shortcut to announce Dropbox status or open the Dropbox "
+"systray menu when pressed once or twice respectively.  It also enhances "
+"DropBox item lists."
+msgstr ""
+"此插件添加了快捷方式以宣布Dropbox的状态或分别按下一次或两次时打开Dropbox的系"
+"统托盘菜单。它还增强了DropBox项目列表。"
+
+#. type: Bullet: '* '
+msgid "Shortcut: NVDA+Alt+D"
+msgstr "快捷键: NVDA + Alt + D"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.6"
+msgstr "版本4.6"
+
+#. type: Bullet: '* '
+msgid "Specify NVDA 2021.1 compatibility"
+msgstr "指定 NVDA 2021.1 兼容性"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.4"
+msgstr "版本4.4"
+
+#. type: Bullet: '* '
+msgid "Python 3 compatibility"
+msgstr "兼容Python 3"
+
+#. type: Bullet: '* '
+msgid "Use the last addon template"
+msgstr "使用最新的插件模板"
+
+#. type: Bullet: '* '
+msgid "Repository change to be built with Appveyor"
+msgstr "现在存储库使用Appveyor构建插件"
+
+#. type: Bullet: '* '
+msgid "Fixed wrong and removed unused shortcuts in the documentation"
+msgstr "修复了错误并删除了文档中未使用的快捷方式"
+
+#. type: Bullet: '* '
+msgid ""
+"Update the description in the documentation which still referenced the "
+"announcement of the version"
+msgstr "更新仍参考版本公告的文档中的描述"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "版本4.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "插件管理器现在提供了插件帮助。"
+
+#. type: Bullet: '* '
+msgid ""
+"The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid "
+"conflict with audio ducking support."
+msgstr ""
+"获取Dropbox状态的快捷方式已更改为Alt + NVDA + D，以避免与音频闪避支持冲突。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.1"
+msgstr "版本3.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Use another way to get cancel button and page tab. Now we don't have to "
+"focus them before using shortcuts."
+msgstr ""
+"使用其他方法来访问“取消”按钮和页面选项卡，我们不必一定使用快捷键聚焦在他们的"
+"上面。"
+
+#. type: Bullet: '* '
+msgid ""
+"When changing the active tab, the focus move to the tab page so when "
+"pressing tab, the first item of the tab is activated instead of staying to "
+"the previous used tab even if it is not activated anymore."
+msgstr ""
+"当更改激活的选项卡时，如果按下“Tab”键，焦点会移动到选项卡页面，第一个选项卡会"
+"被激活，而并非上次使用的选项卡，即使他从未被激活。"
+
+#. type: Bullet: '* '
+msgid ""
+"In the preferences dialog, it is now possible to press control+page up/down "
+"to switch between tabs. Control+tab and control+shift+tab still work."
+msgstr ""
+"在“偏好”对话框中，无法通过按下\"“CTRL加上下光标键”在选项卡之间切换，“CTRL加"
+"Tab”和“CTRL加Shift加Tab”仍然可用。"
+
+#. type: Bullet: '* '
+msgid "All localized manifest files should now be OK."
+msgstr "所有的本地化manifest文件现在都已经好了。"
+
+#. type: Bullet: '* '
+msgid "Minor corrections."
+msgstr "小的改动。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "3.0的更新"
+
+#. type: Bullet: '* '
+msgid ""
+"Minor correction in the main manifest file (authors are correctly displayed)."
+msgstr "为完善的清单文件修正。"
+
+#. type: Bullet: '* '
+msgid "Improved context menu detection when pressing Shift+NVDA+D three times."
+msgstr "完善上下文菜单检测，可连续三次按下组合键“Shift+NVDA+D”实现。"
+
+#. type: Bullet: '* '
+msgid ""
+"The escape button now works (only when using Dropbox in the same language "
+"NVDA uses)."
+msgstr "“退出”按钮有效（仅当 DropBox使用的语言与 NVDA相同时）。"
+
+#. type: Bullet: '* '
+msgid "A lot of corrections in the code."
+msgstr "许多代码的修正。"
+
+#. type: Bullet: '* '
+msgid "Added/updated documentations of all scripts."
+msgstr "增加/更新所有脚本的文档。"
+
+#. type: Bullet: '* '
+msgid ""
+"New languages: Arabic, Brazilian Portuguese, Czech, Dutch, Finnish, "
+"Galician, German, Hungarian, Japanese, Nepali, Polish, Russian, Spanish, "
+"Slovak, Tamil, Turkish."
+msgstr ""
+"新语言支持：包括阿拉伯语巴西葡萄牙语、捷克语、荷兰语、芬兰语、加利西亚与、德"
+"语、匈牙利语、日本语、尼泊尔语、波兰语、俄语、西班牙语、斯洛伐克语、坦尼耳"
+"语、 土耳其语。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "2.0的更新"
+
+#. type: Bullet: '* '
+msgid "New languages: Italian"
+msgstr "新语言：意大利语"
+
+#. type: Bullet: '* '
+msgid ""
+"Pressing the shortcut three times or more when already being in the context "
+"menu doesn't cause problem anymore."
+msgstr "当托盘菜单打开时，极使重复按下该快捷键多次也不会再产生任何故障。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "1.0的更新"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "初始版本"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
+
+#~ msgid "Ctrl+Alt+T announce the active tab."
+#~ msgstr "Ctrl+Alt+T 朗读激活的标签。"
+
+#~ msgid "Known issues"
+#~ msgstr "没有讨论"
+
+#~ msgid ""
+#~ "* If you switch between tabs using the shortcuts, when you'll close the "
+#~ "preferences window, NVDA won't be able to know the windows doesn't exist "
+#~ "anymore.\n"
+#~ "It is a known issue on NVDA and cannot be fixed.\n"
+#~ msgstr ""
+#~ "* 如果您使用快捷键进行选项卡切换，当您关闭“偏好”设置窗口以后，NVDA 就无法"
+#~ "获知窗口是否存在。\n"
+#~ "此问题与 NVDA 无关，无法修复。\n"

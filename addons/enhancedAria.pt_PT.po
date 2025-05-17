@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2021-07-21 19:34+0100\n"
+"Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Enhanced Aria\"]]\n"
+msgstr "[[!meta title=\"Ária melhorada\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Jose Manuel Delicado"
+msgstr "Autor: José Manuel Delicado"
+
+#. type: Bullet: '* '
+msgid "Legacy add-on: NVDA 2019.3 and later can read articles on the web"
+msgstr ""
+"Complemento de legado: NVDA 2019.3 e posteriores podem ler artigos na web"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.4 to 2019.2"
+msgstr "Compatibilidade com NVDA: 2017.4 até 2019.2"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Baixar [versão estável][1]"
+
+#. type: Plain text
+msgid ""
+"This addon allows you to customize which aria landmarks are reported by NVDA "
+"when you browse the Internet."
+msgstr ""
+"Este extra permite personalizar quais os marcadores que são reportados pelo "
+"NVDA quando navega na Internet."
+
+#. type: Plain text
+msgid ""
+"Its functionality is very simple. Once installed, open your webbrowser and "
+"visit the web as usual. The default aria landmarks reported by Firefox and "
+"Chrome will also be visible in Internet Explorer, so you will be able to "
+"press quick navigation keys to jump between them, and list them by pressing "
+"NVDA+f7 in all browsers. Read the NVDA User Guide for more information."
+msgstr ""
+"A sua funcionalidade é muito simples. Uma vez instalado o extra, abra o seu "
+"navegador e visite a web como de costume. Os pontos de referência da ária "
+"padrão relatados pelo Firefox e pelo Chrome também estarão visíveis no "
+"Internet Explorer, portanto, poderá pressionar as teclas de navegação rápida "
+"para alternar entre eles e listá-los pressionando NVDA + f7 em todos os "
+"navegadores. Leia o Guia do Usuário do NVDA para mais informações."
+
+#. type: Plain text
+msgid ""
+"The addon adds an extra landmark not included by default in NVDA, the "
+"article (abbreviated in Braille as art)."
+msgstr ""
+"O Extra adiciona um marcador extra não incluído por padrão no NVDA, o artigo "
+"(abreviado em Braille como arte)."
+
+#. type: Title ##
+#, no-wrap
+msgid "The configuration dialog"
+msgstr "O diálogo de configuração"
+
+#. type: Plain text
+msgid ""
+"You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
+"Aria Settings or from the appropriate category in the NVDA options dialog. "
+"The dialog has a checkbox for each landmark. If you disable a landmark, you "
+"won't be able to jump to it pressing the d key when browsing a webpage, and "
+"NVDA won't report it."
+msgstr ""
+"Pode activar ou desactivar os pontos de referência, acedendo ao menu do "
+"NVDA, preferências e as configurações avançadas do extra  Área Realçada. "
+"Esta caixa de diálogo tem uma caixa de selecção para cada ponto de "
+"referência. Se desabilitar um ponto de referência, não será possível saltar "
+"para ele pressionando a tecla d ao navegar numa página da Web, e o NVDA não "
+"o indicará."
+
+#. type: Title ##
+#, no-wrap
+msgid "Contact info"
+msgstr "Informação de contacto"
+
+#. type: Plain text
+msgid ""
+"This addon has been developed by Jose Manuel Delicado. If you want to "
+"contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
+"GitHub at https://github.com/jmdaweb/enhancedAria"
+msgstr ""
+"Este extra foi desenvolvido por José Manuel Delicado. Se quiser entrar em "
+"contato comigo, envie um e-mail para jmdaweb@hotmail.com ou abra um problema "
+"no GitHub em https://github.com/jmdaweb/enhancedAria"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changelog"
+msgstr "Alterações:"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.8"
+msgstr "Versão 2.8"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Novas Traduções, adicionadas e actualizadas:"
+
+#. type: Bullet: '* '
+msgid "Updated NVDA compatibility flags."
+msgstr "Etiquetas de compatibilidade do NVDA actualizadas."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.7"
+msgstr "Versão 2.7"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility flags for recent NVDA versions."
+msgstr ""
+"Adicionadas etiquetas para compatibilidade com as versões recentes do NVDA "
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.6"
+msgstr "Versão 2.6"
+
+#. type: Bullet: '* '
+msgid ""
+"Updated compatibility flags for recent NVDA versions. This version is only "
+"compatible with NVDA 2017.4 and above."
+msgstr ""
+"Etiquetas de compatibilidade actualizadas para versões recentes do NVDA. "
+"Esta versão é compatível apenas com o NVDA 2017.4 e superior."
+
+#. type: Bullet: '* '
+msgid ""
+"Now, the configuration is automatically applied after switching NVDA "
+"profiles and restoring settings to factory defaults."
+msgstr ""
+"Agora, a configuração é aplicada automaticamente, após alternar os perfis do "
+"NVDA e restaurar as configurações para os padrões originais."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.5"
+msgstr "Versão 2.5"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.4"
+msgstr "Versão 2.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Now, settings are removed only when the add-on is uninstalled. Configuration "
+"is nolonger reset when upgrading."
+msgstr ""
+"Agora, as configurações são removidas somente quando o extra é desinstalado. "
+"A configuração não é mais redefinida durante a actualização."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.3"
+msgstr "Versão 2.3"
+
+#. type: Bullet: '* '
+msgid "Added compatibility with recent NVDA releases."
+msgstr "Acrescentada compatibilidade com as versões recentes do NVDA "
+
+#. type: Bullet: '* '
+msgid "New translations."
+msgstr "Novas Traduções:"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.2"
+msgstr "Versão 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a fatal error when a Braille display was used and the article role was "
+"configured to be reported."
+msgstr ""
+"Corrigido um erro fatal que ocorria quando uma exibição em Braille era usada "
+"e a função de artigo era configurada para ser relatada."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.1"
+msgstr "Versão 2.1"
+
+#. type: Bullet: '* '
+msgid "Stability improvements"
+msgstr "Melhorias de estabilidade"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.0"
+msgstr "Versão 2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added support for multi-category settings dialog available on NVDA 2018.2 "
+"and later"
+msgstr ""
+"Adicionado suporte para o diálogo de configurações multi-categoria "
+"disponível no NVDA 2018.2 e posterior"
+
+#. type: Bullet: '* '
+msgid "Added Python 3 compatibility"
+msgstr "Adicionada compatibilidade com o Python 3"
+
+#. type: Bullet: '* '
+msgid "Now guiHelper module is used to create the addon interface"
+msgstr "Agora o módulo guiHelper é usado para criar a interface do extra"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "Versão 1.3"
+
+#. type: Bullet: '* '
+msgid "Added configobj specification for addon settings"
+msgstr ""
+"Adicionado especificação de configuração de objectos para configurações do "
+"extra"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Versão 1.2"
+
+#. type: Bullet: '* '
+msgid "Bugs fixed"
+msgstr "Solução de bugs."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Versão 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed issues which prevented opening the addon settings dialog when "
+"reverting to NVDA saved configuration"
+msgstr ""
+"Corrigidos problemas que impediam a abertura da caixa de diálogo de "
+"configurações do extra ao reverter para a configuração guardada do NVDA"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable legacy]]\n"
+msgstr "[[!tag dev dev stable legacy]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=earia"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=earia"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=earia"

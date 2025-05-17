@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2016-12-29 13:47-0800\n"
+"Last-Translator: Leonard de Ruijter <mail@leonardder.nl>\n"
+"Language-Team: NL <nvda-nl@googlegroups.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"UnicodeBrailleInput\"]]\n"
+msgstr "[[!meta title=\"UnicodeBraille-invoer\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Authors: Mesar Hameed, Patrick Zajda."
+msgid "Authors: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+msgstr "Auteurs: Mesar Hameed, Patrick Zajda."
+
+#. type: Bullet: '* '
+msgid "download [stable version][1]"
+msgstr "download [stabiele versie][1]"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This add-on allows you to convert text from braille (E.G. "
+#| "1345-1236-145-1) to Unicode braille characters."
+msgid ""
+"This add-on allows you to convert text from braille (E.G. 1345-1236-145-1) "
+"to Unicode braille characters.  You can also convert text according to the "
+"currently selected input braille table."
+msgstr ""
+"Deze add-on stelt u in staat om tekst van braille (bv 1345-1236-145-1) te "
+"converteren naar unicode braillekarakters."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The purpose of this specialized addon is to make it easier to help to "
+#| "improve liblouis tables and to add automatic tests for your language."
+msgid ""
+"The purpose of this specialized addon is to make it easier to help to "
+"improve liblouis tables and to add automatic tests for your language.  With "
+"the addition of unicode braille table in NVDA 2017.3, this add-on is no "
+"longer required for this, as users can choose to input braille with the new "
+"table.  However, this add-on can still aid in converting normal text to "
+"unicode braille according to a particular input table."
+msgstr ""
+"Het doel van deze gespecialiseerde add-on is om het makkelijker te maken om "
+"Liblouis tabellen te verbeteren en automatische tests voor talen toe te "
+"voegen."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Gebruik"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Open a unicode aware text editor (for example Notepad plus plus)"
+msgid "Open a unicode aware text editor (for example Notepad++)."
+msgstr ""
+"Open een tekstverwerker die unicode ondersteunt (bijvoorbeeld Notepad plus "
+"plus)."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Press NVDA+Ctrl+U or choose Unicode Braille Input found under NVDA tools "
+#| "menu"
+msgid ""
+"Press NVDA+Ctrl+U or choose Unicode Braille Input found under NVDA tools "
+"menu."
+msgstr ""
+"Druk op NVDA+Ctrl+U of kies Unicode Braille-invoer vanuit het NVDA Extra menu"
+
+#. type: Bullet: '* '
+msgid ""
+"Select whether your input consists of braille dots (e.g. 1345-1236-145-1) or "
+"normal text according to the current braille table (e.g. Dutch (Netherlands)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Type your braille text in numeric form."
+msgid ""
+"Type your braille text in numeric form or your normal text, respectively."
+msgstr "Type uw brailletekst in numerieke vorm."
+
+#. type: Bullet: '* '
+msgid "Press OK."
+msgstr "Druk op OK."
+
+#. type: Bullet: '* '
+msgid ""
+"The required unicode characters will be copied to your clipboard ready for "
+"you to paste."
+msgstr ""
+"De benodigde unicode-karakters zullen naar het klembord worden gekopieerd, "
+"klaar om geplakt te worden."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 3.0"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "New maintainer: Leonard de Ruijter."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on is compatible with Python 3 and therefore with NVDA 2019.3 and above."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to create unicode braille from normal text according to "
+"the currently selected input braille table."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Veranderingen in 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Help voor de add-on is beschikbaar vanuit het venster Add-ons beheren."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Veranderingen in 1.1"
+
+#. type: Bullet: '* '
+msgid "Improve delay to allow announcements to be heard correctly."
+msgstr "Vertraging verbeterd zodat mededelingen correct gehoord kunnen worden."
+
+#. type: Bullet: '* '
+msgid "Many new translations."
+msgstr "Diverse nieuwe vertalingen."
+
+#. type: Bullet: '* '
+msgid "Added documentation under NVDA help menu."
+msgstr "Documentatie toegevoegd in het NVDA help menu."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a checkbox to optionally replace the space braille (character 0x2800) "
+"by the regular space character."
+msgstr ""
+"Selectievakje toegevoegd om het brailleteken voor spatie (teken 0x2800) te "
+"vervangen door het reguliere teken voor spatie."
+
+#. type: Bullet: '* '
+msgid ""
+"Shortcuts can now be reassigned using the NVDA gesture input dialog, under "
+"the Tools category."
+msgstr ""
+"Sneltoetsen kunnen nu opnieuw toegewezen worden in het NVDA venster "
+"Invoerhandelingen koppelen, onder de categorie Extra."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Veranderingen in 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release"
+msgstr "Eerste versie"
+
+#. type: Bullet: '* '
+msgid "New Languages: French"
+msgstr "Nieuwe vertalingen: Frans"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+msgstr ""
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+
+#~ msgid "download [development version][2]"
+#~ msgstr "download [ontwikkelversie][2]"
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ubi-dev"

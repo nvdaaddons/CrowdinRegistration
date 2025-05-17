@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-20 01:25+0000\n"
+"PO-Revision-Date: 2022-05-30 09:29+0200\n"
+"Last-Translator: Zvonimir <9a5dsz@gozaltech.org>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Say Product Name and Version\"]]\n"
+msgstr "[[!meta title=\"Say Product Name and Version\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Author: Luke Davis <XLTechie@newanswertech.com>, Patrick ZAJDA "
+"<patrick@zajda.fr>"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA compatibility: 2017.3 or later"
+msgid "NVDA compatibility: 2017.3 through 2024.X"
+msgstr "Zgodność z NVDA: 2017.3 lub nowsza"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Pobierz [Wersja stabilna][1]"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This NVDA add-on adds a shortcut to announce product name and version of "
+#| "the foreground application, or copy these informations to the clipboard."
+msgid ""
+"This [NVDA](https://nvaccess.org/) add-on adds a shortcut to announce "
+"product name and version of the foreground application, or copies this "
+"information to the clipboard."
+msgstr ""
+"Ten dodatek NVDA dodaje skrót do ogłaszania nazwy produktu i wersji "
+"aplikacji pierwszoplanowej lub kopiowania tych informacji do schowka."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Shortcut: NVDA+Shift+V"
+msgid "Shortcut: `NVDA+shift+v`"
+msgstr "Skrót: NVDA+Shift+V"
+
+#. type: Bullet: '* '
+msgid "Press it twice to copy product name and version to the clipboard."
+msgstr ""
+"Naciśnij go dwukrotnie, aby skopiować nazwę i wersję produktu do schowka."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Press it twice to copy product name and version to the clipboard."
+msgid "Press it three times to copy only the version to the clipboard."
+msgstr ""
+"Naciśnij go dwukrotnie, aby skopiować nazwę i wersję produktu do schowka."
+
+#. type: Plain text
+msgid ""
+"This shortcut may be remapped in the Tools category of NVDA's Input Gestures."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you like this add-on and are willing to help others decide whether it is "
+"useful, please leave a [review][3]."
+msgstr ""
+
+#. type: Plain text
+msgid "For change history, please read the [changelog][2]."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Tips"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"To find out the Windows version with this add-on, you can focus on any "
+"Windows component (such as desktop, the start menu, the run dialog, etc.), "
+"and press the shortcut key. Note, that this does not give you the release "
+"version name, such as \"23H3\". Instead it gives you something closer to the "
+"build version, as you would get from the second line of the \"`winver`\" "
+"command."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"To get the NVDA version, open any NVDA dialog or menu, and press this add-"
+"on's shortcut key. For example, press `NVDA+n` to open the NVDA menu, then "
+"press `NVDA+shift+v`, then press `escape` to leave the menu."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=spnav"
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=spnav"
+
+#. type: Plain text
+msgid ""
+"[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/"
+"changelog.md#readme"
+msgstr ""
+
+#. type: Plain text
+msgid "[3]: https://github.com/nvaccess/addon-datastore/discussions/2683"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Author: Patrick ZAJDA <patrick@zajda.fr>"
+#~ msgid ""
+#~ "Author: Patrick ZAJDA <patrick@zajda.fr>, Luke Davis "
+#~ "<XLTechie@newanswertech.com>"
+#~ msgstr "Autor: Patrick ZAJDA <patrick@zajda.fr>"
+
+#~ msgid "Changes for 2021.07"
+#~ msgstr "Zmiany na rok 2021.07"
+
+#~ msgid "Add Croatian translation thanks to Tarik Hadžirović and Goran Parać"
+#~ msgstr ""
+#~ "Dodaj chorwackie tłumaczenie dzięki Tarikowi Hadžirovićowi i Goranowi "
+#~ "Paraciowi"
+
+#~ msgid "Update help message"
+#~ msgstr "Komunikat pomocy dotyczący aktualizacji"
+
+#~ msgid "Update documentation style for visually impaired users"
+#~ msgstr "Aktualizowanie stylu dokumentacji dla użytkowników niedowidzących"
+
+#~ msgid "Move shortcut from Speech to tools category"
+#~ msgstr "Przenoszenie skrótu z kategorii Mowa do kategorii narzędzia"
+
+#~ msgid "Changes for 2020.02"
+#~ msgstr "Zmiany na rok 2020.02"
+
+#~ msgid "Python 3 compatibility"
+#~ msgstr "Zgodność z Pythonem 3"
+
+#~ msgid ""
+#~ "Use informations from NVDA itself instead of using an external module"
+#~ msgstr ""
+#~ "Użyj informacji z samego NVDA zamiast korzystać z zewnętrznego modułu"
+
+#~ msgid "Use script decorator for global plugin informations"
+#~ msgstr "Użyj dekoratora skryptów do globalnych informacji o wtyczkach"
+
+#~ msgid "Use last version of add-on template"
+#~ msgstr "Użyj ostatniej wersji szablonu dodatku"
+
+#~ msgid "Changes for 1.0.1"
+#~ msgstr "Zmiany w wersji 1.0.1"
+
+#~ msgid ""
+#~ "Fixed the message after copying informations to the clipboard which was "
+#~ "not translated."
+#~ msgstr ""
+#~ "Naprawiono komunikat po skopiowaniu informacji do schowka, które nie "
+#~ "zostały przetłumaczone."
+
+#~ msgid "Changes for 1.0"
+#~ msgstr "Zmiany dla wersji 1.0"
+
+#~ msgid "Initial Release"
+#~ msgstr "Wstępne wydanie"

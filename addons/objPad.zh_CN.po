@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-27 03:12+0000\n"
+"PO-Revision-Date: 2023-01-27 19:12+0800\n"
+"Last-Translator: 完美很难 <1872265132@qq.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"ObjPad\"]]\n"
+msgstr "[[!meta title=\"ObjPad-NVDA简易导航器\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Author: Joseph Lee, Cleverson Uliana and others"
+msgid ""
+"Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph "
+"Lee, Cleverson Uliana and others"
+msgstr "作者: Joseph Lee, Cleverson Uliana and others"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "下载 [稳定版][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2022.4 and later"
+msgstr "NVDA 兼容性：2022.4 及更高版本"
+
+#. type: Plain text
+msgid ""
+"This add-on provides quick commands to manage objects on screen, including "
+"navigation and other possibilities."
+msgstr "此插件提供了一组快捷键来处理屏幕上的对象，包括导航和其他可能性。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "快捷键"
+
+#. type: Bullet: '* '
+msgid ""
+"Control+NVDA+TAB: Steps through arrow key modes (see below for details)."
+msgstr "Control + NVDA + TAB 切换以下模式（详见下文）。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Arrow key modes"
+msgstr "光标键模式"
+
+#. type: Plain text
+msgid "The add-on provides four ways to use arrow keys:"
+msgstr "插件提供了四种使用光标键的方式："
+
+#. type: Bullet: '* '
+msgid "Classic (or normal mode): use arrow keys to move cursor."
+msgstr "经典（或普通模式）：使用光标键移动光标。"
+
+#. type: Bullet: '* '
+msgid ""
+"Object nav: use arrow keys to move to next/previous/parent/first child "
+"objects."
+msgstr "对象导航：使用光标键移动到下一个/上一个/父/第一个子对象。"
+
+#. type: Bullet: '* '
+msgid "Web: use arrow keys to cycle through elements and move between them."
+msgstr "网页模式：使用光标键循环切换元素类型并在相应元素之间移动。"
+
+#. type: Bullet: '* '
+msgid ""
+"Scan mode: use arrow keys to move through objects on screen regardless of "
+"hierarchy."
+msgstr "扫描模式：使用光标键在屏幕上移动对象，而忽略层次结构。"
+
+#. type: Plain text
+msgid "The following commands are available with arrow keys set to object nav:"
+msgstr "光标键设置为对象导航模式时，有以下快捷键可用："
+
+#. type: Bullet: '* '
+msgid "Right arrow: next object."
+msgstr "右光标：下一个对象。"
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous object."
+msgstr "左光标：上一个对象。"
+
+#. type: Bullet: '* '
+msgid "Up arrow: parent object."
+msgstr "上光标：父对象。"
+
+#. type: Bullet: '* '
+msgid "Down arrow: first child object."
+msgstr "下光标：第一个子对象。"
+
+#. type: Bullet: '* '
+msgid "SPACE or ENTER: activate."
+msgstr "空格或回车：激活。"
+
+#. type: Plain text
+msgid ""
+"With web mode active (elements are normal or moving by object, link, form "
+"field, heading, frame, table, list, landmark):"
+msgstr ""
+"光标键设置为网页模式时（元素正常或按对象，链接，表单字段，标题，框架，表格，"
+"列表，地标移动）："
+
+#. type: Bullet: '* '
+msgid "Right arrow: next element."
+msgstr "右光标：下一个元素。"
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous element."
+msgstr "左光标：上一个元素。"
+
+#. type: Bullet: '* '
+msgid "Up arrow: previous element type."
+msgstr "上光标：上一个元素类型。"
+
+#. type: Bullet: '* '
+msgid "Down arrow: next element type."
+msgstr "下光标：下一个元素类型。"
+
+#. type: Plain text
+msgid "With scan mode active:"
+msgstr "方向键设置为扫描模式时："
+
+#. type: Bullet: '* '
+msgid "Down arrow: next object or the next line."
+msgstr "下光标：下一个对象或下一行。"
+
+#. type: Bullet: '* '
+msgid "Up arrow: previous object or previous line."
+msgstr "上光标：上一个对象或上一行。"
+
+#. type: Bullet: '* '
+msgid "Right arrow: review next character."
+msgstr "右光标：查看下一个字符。"
+
+#. type: Bullet: '* '
+msgid "Left arrow: previous character."
+msgstr "左光标：查看上一个字符。"
+
+#. type: Bullet: '* '
+msgid "Control+right arrow: next word."
+msgstr "Ctrl + 右光标: 下一个单词。"
+
+#. type: Bullet: '* '
+msgid "Control+left arrow: previous word."
+msgstr "Ctrl+左光标: 上一个单词。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 23.02"
+msgid "Version 23.05"
+msgstr "版本 23.02"
+
+#. type: Bullet: '* '
+msgid ""
+"To reflect the maintainer change, the manifest has been updated to indicate "
+"as such."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "版本 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "需要 NVDA 2022.4 或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr "需要 Windows 10 21H2（2021 年 11 月更新/内部版本 19044）或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "版本 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "需要 NVDA 2022.3 或更高版本。"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+"需要 Windows 10 或更高版本，因为自 2023 年 1 月起，Microsoft 不再支持 "
+"Windows 7、8 和 8.1。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.06"
+msgstr "版本 22.06"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2021.3 or later."
+msgstr "需要 NVDA 2021.3 或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 21.04"
+msgstr "版本21.04"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2020.1 or later."
+msgstr "需要 NVDA 2020.1 或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 20.01"
+msgstr "版本20.01"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "需要NVDA 2019.3或更高版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.12"
+msgstr "版本18.12"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr "内部更改以支持 NVDA 后续的新版本。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.09"
+msgstr "版本18.09"
+
+#. type: Bullet: '* '
+msgid "Added localizations."
+msgstr "添加本地化。"
+
+#. type: Bullet: '* '
+msgid "Enter key (regular and Numpad) can be used to activate objects."
+msgstr "回车键（大键盘和小键盘上的两个回车键）都可用于激活对象。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.03"
+msgstr "版本18.03"
+
+#. type: Bullet: '* '
+msgid "Better compatibility with NVDA 2018.1."
+msgstr "更好地兼容 NVDA 2018.1。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.12"
+msgstr "版本16.12"
+
+#. type: Bullet: '* '
+msgid "Added web mode."
+msgstr "添加了网页模式。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 16.10"
+msgstr "版本16.10"
+
+#. type: Bullet: '* '
+msgid "Initial stable version."
+msgstr "发布初始版本。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=objPad"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "下载 [开发板][2]"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=objPad-dev"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=objPad-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=objPad"

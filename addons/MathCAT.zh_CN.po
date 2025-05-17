@@ -1,0 +1,660 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-06-21 19:14+0000\n"
+"PO-Revision-Date: 2024-03-24 18:50+0800\n"
+"Last-Translator: Zhang Yunxi <zhyx-work@outlook.com>\n"
+"Language-Team: NVDA Simplified Chinese team\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"MathCAT\"]]\n"
+msgstr "[[!meta title=\"MathCAT\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Neil Soiffer"
+msgstr "作者: 尼尔·索伊弗尔(Neil Soiffer)"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2018.1 or later (untested in earlier versions)"
+msgstr "NVDA 兼容性： 2018.1 或更高版本（未在早期版本中测试）"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "下载 [稳定版][1]"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "MathCAT is designed to eventually replace MathPlayer because MathPlayer "
+#| "is no longer supported. MathCAT generates speech and braille from MathML. "
+#| "The speech for math produced by MathCAT is enhanced with prosody so that "
+#| "it sounds more natural. The speech can be navigated in three modes using "
+#| "the same commands as MathPlayer. In addition, the navigation node is "
+#| "indicated on a braille display. Both Nemeth and UEB technical are "
+#| "supported."
+msgid ""
+"MathCAT is designed to eventually replace MathPlayer because MathPlayer is "
+"no longer supported. MathCAT generates speech and braille from MathML. The "
+"speech for math produced by MathCAT is enhanced with prosody so that it "
+"sounds more natural. The speech can be navigated in three modes using the "
+"same commands as MathPlayer. In addition, the navigation node is indicated "
+"on a braille display. Both Nemeth and UEB technical are supported."
+msgstr ""
+"MathCAT 旨在最终取代不在被支持的 MathPlayer。MathCAT 从 MathML 生成语音和盲"
+"文。MathCAT 生成的数学语音通过韵律进行了增强，使其听起来更自然。语音可以使用"
+"与 MathPlayer 相同的命令在三种模式下导航。此外，在盲文显示器上指示导航节点。"
+"支持 Nemeth 和 UEB technical 等盲文方案。"
+
+#. type: Plain text
+msgid ""
+"MathCAT has a number of configuration options that control speech, "
+"navigation, and braille.  Many of these can be set in the MathCAT settings "
+"dialog (found NVDA Preferences menu).  For more information on these "
+"settings, see the [MathCAT documentation](https://nsoiffer.github.io/MathCAT/"
+"users.html).  The documentation includes a link to [a table listing all of "
+"the navigation commands in MathCAT](https://nsoiffer.github.io/MathCAT/nav-"
+"commands.html)."
+msgstr ""
+"MathCAT 有许多控制语音、导航和盲文的配置选项。其中许多可以在 MathCAT 设置对话"
+"框中设置 （可从 NVDA 首选项菜单中找到）。有关这些设置的更多信息，请参阅 "
+"[MathCAT 文档](https://nsoiffer.github.io/MathCAT/users.html)。该文档包含指"
+"向 [MathCAT 导航命令表](https://nsoiffer.github.io/MathCAT/nav-commands."
+"html) 的链接。"
+
+#. type: Plain text
+msgid ""
+"Note: MathCAT is a general library for generating speech and braille from "
+"MathML. It is used by other AT projects besides NVDA. For information on the "
+"MathCAT project in general, see the main [MathCAT Documentation page]"
+"(https://nsoiffer.github.io/MathCAT)."
+msgstr ""
+"注意： MathCAT 是一个用于从 MathML 生成语音和盲文的通用库。除了 NVDA 之外，其"
+"他 AT （辅助工具）项目也在使用。有关 MathCAT 项目的常规信息，请参阅 [MathCAT "
+"文档主页](https://nsoiffer.github.io/MathCAT)。"
+
+#. type: Plain text
+msgid "Who should use MathCAT:"
+msgstr "谁应该使用 MathCAT："
+
+#. type: Bullet: '* '
+msgid ""
+"Those who need high quality Nemeth braille (MathPlayer's Nemeth is based on "
+"liblouis' Nemeth generation which has a number of significant bugs that are "
+"technically difficult to fix)."
+msgstr ""
+"那些需要高质量 Nemeth 码盲文的人 （MathPlayer 的 Nemeth 码基于 liblouis 的 "
+"Nemeth 码一代，有许多技术上难以修复的重大错误）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Those who need UEB technical braille, CMU (Spanish/Portuguese), German "
+"LaTeX, ASCIIMath, or Vietnamese braille"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Those who want to try out the latest technology and are willing to help by "
+"reporting bugs"
+msgstr "那些想要尝试最新技术并愿意通过报告 Bug 来提供帮助的人"
+
+#. type: Bullet: '* '
+msgid "Those who use Eloquence as a voice"
+msgstr "那些用 Eloquence 合成器的人"
+
+#. type: Plain text
+msgid "Who should NOT use MathCAT:"
+msgstr "谁不应该使用 MathCAT："
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Anyone who uses MathPlayer with a non-English language (translations "
+#| "exist for Indonesian and Vietnamese; translations will be coming in the "
+#| "future)"
+msgid ""
+"Anyone who uses MathPlayer with a language that is not yet supported by "
+"MathCAT (translations exist for Chinese (Traditional), Spanish, Indonesian "
+"and Vietnamese; translations will be coming in the future) and are not "
+"comfortable with speech in one of the supported languages."
+msgstr ""
+"任何使用非英语语言的 MathPlayer 的人 （存在印度尼西亚语和越南语翻译； 更多翻"
+"译将会在未来推出）。"
+
+#. type: Bullet: '* '
+msgid ""
+"Anyone who prefers Access8Math to MathPlayer (for speech or other features)"
+msgstr ""
+"任何喜欢 Access8Math 而不是 MathPlayer 的人 (需要使用语音或其他更多功能的人)"
+
+#. type: Plain text
+msgid ""
+"MathCAT's rules for speech are not yet as extensive as MathPlayer's rules -- "
+"that may be another reason to stick with MathPlayer. MathCAT is being used "
+"as a testbed for ideas for MathML 4 that allow authors to express their "
+"intent so that ambiguous notations can be spoken correctly and not guessed "
+"at. I have held off on adding too many rules since the architecture of "
+"MathCAT is centered around using and inferring author intent and these are "
+"not fully settled yet."
+msgstr ""
+"MathCAT 的语音规则还没有 MathPlayer 的规则那么全面——这可能是坚持使用 "
+"MathPlayer 的另一个原因。MathCAT 被用作 MathML 4 思想的测试平台，它允许作者表"
+"达他们的意图，以便能够正确地说出不明确的符号，而不是猜测。我没有添加太多规"
+"则，因为 MathCAT 的体系结构以使用和推断作者意图为中心，这些还没有完全解决。"
+
+#. type: Title ##
+#, no-wrap
+msgid "MathCAT Update Log"
+msgstr "MathCAT 更新日志"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 0.3.3"
+msgid "Version 0.6.3"
+msgstr "版本 0.3.3"
+
+#. type: Bullet: '* '
+msgid ""
+"All the language and braille Rule files are zipped up per directory and "
+"unzipped on demand."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid ""
+"This currently saves ~5mb when Rules.zip is unzipped, and will save even "
+"more as more languages and braille codes are added."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid "This is in preparation for MathCAT being built into NVDA 2024.3"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added new preference `DecimalSeparator`."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid ""
+"The default value is `Auto`, with other values being \".\", \",\", and "
+"\"Custom\". The first three values set `DecimalSeparators` and "
+"`BlockSeparators`."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid ""
+"`Auto` sets those preferences based on the value of the `Language` pref. For "
+"some language such as Spanish, `,` is used in some countries and `.` is used "
+"in others. In this case, it is best to set the language to also include the "
+"country code (e.g, `es-es` or `es-mx`) to ensure the right value is used."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added Swedish to supported languages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added more Unicode chars to include both all Unicode chars marked as \"Sm\" "
+"and those with a mathclass (except Alphabetic and Glyph classes) in the "
+"Unicode standard."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"After changing how prefs work in a previous version, I forgot to change "
+"`MathRate` and `PauseFactor` to be numbers, not strings."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed bug in the braille Rules (missed change from earlier) where a third "
+"argument should have been given to say to look in the _Braille_ `definitions."
+"yaml` files and not the speech ones when looking up the value of a "
+"definition."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Cleaned up use of `definitions.yaml`."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fixed some bugs in the MathML cleanup for \",\" decimal separators."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Found a bug in braille highlighting when nothing is highlighted (maybe never "
+"happens which is why I didn't see it in practice?)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed \"Describe\" mode so that it works -- it is still very minimal and "
+"probably not useful yet"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fixed minimum supported version"
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 0.5.0"
+msgid "Version 0.5.6"
+msgstr "版本 0.5.0"
+
+#. type: Bullet: '* '
+msgid "Added Copy As... to the MathCAT dialog (in the \"Navagation\" pane)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug where the language reverted to English when changing speech "
+"styles."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fixed a bug with navigation and braille"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fixed some Asciimath spacing problems."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Improved recognition of chemistry"
+msgid "Improved chemistry recognition"
+msgstr "完善了对化学的识别"
+
+#. type: Bullet: '* '
+msgid ""
+"Updated MathCAT to new BANA Nemeth chemistry spec (still only single line "
+"and special case style/font changes not handled)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix a crash when non-ASCII digits (e.g., bold digits) are used in numbers"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Don't use italic indicators in braille codes when the math alphanumeric "
+"italic chars are used"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Some other smaller bug fixes that weren't reported by users"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.5.0"
+msgstr "版本 0.5.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added German LaTeX braille code. Unlike other braille codes, this generates "
+"ASCII chars and uses the current braille output table to translate the "
+"characters to braille."
+msgstr ""
+"添加了德语 LaTeX 盲文代码。与其他盲文代码不同，这会生成 ASCII 字符，并使用当"
+"前盲文输出表将字符转换为盲文。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added (expermental) ASCIIMath braille code. Like the LaTeX braille code, "
+"this generates ASCII chars and uses the current braille output table to "
+"translate the characters to braille."
+msgstr ""
+"增加了（实验） ASCII Math 盲文码。与 LaTeX 盲文代码一样，它生成 ASCII 字符，"
+"并使用当前盲文输出表将字符转换为盲文。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added \"CopyAs\" preference that supports copying as MathML, LaTeX, or "
+"ASCIIMath using cntl+C when focused on MathML (as before). The currently "
+"focused node is copied. Note: this is only listed in the prefs.yaml file and "
+"is not exposed (yet) in the MathCAT Preferences dialog."
+msgstr ""
+"添加了`CopyAs`首选项，支持在关注 MathML 时使用 ctrl+C 复制为 MathML、LaTeX "
+"或 ASCII Math（如前所述）。将复制当前关注的节点。注意：这仅列在 prefs.yaml 文"
+"件中，并且尚未在 “MathCAT首选项” 对话框中公开。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.4.2"
+msgstr "版本 0.4.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed language switching when voice changes and MathCAT language is \"Auto\""
+msgstr "修复了语音变化且 MathCAT 语言为“自动”时的语言切换问题"
+
+#. type: Bullet: '* '
+msgid ""
+"Added more checks for $Impairments to improve reading when it is not set for "
+"those who are blind"
+msgstr "添加了更多 $Impairments 检查，以在未为盲人设置时提高阅读能力"
+
+#. type: Bullet: '* '
+msgid "Nemeth: fix for \"~\" when it isn't part of an mrow"
+msgstr "Nemeth:修复了“~”不是 mrow 的一部分时的问题"
+
+#. type: Bullet: '* '
+msgid "UEB: character additions, \"~\" spacing fix if prefix, xor fix,"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "MathML cleanup for accented vowels (mainly for Vietnamese)"
+msgstr "对重音元音的 MathML 清理(主要针对越南语)"
+
+#. type: Bullet: '* '
+msgid ""
+"Major rewrite of preference reading/updating code with big speedup -- added "
+"`CheckRuleFiles` pref to control which files are checked for updates"
+msgstr ""
+"首选项读取/更新代码的重大重写，速度大大加快--添加了`CheckRuleFiles`前缀以控制"
+"检查哪些文件进行更新"
+
+#. type: Bullet: '* '
+msgid ""
+"Added two new interface calls -- enables setting the navigaton location from "
+"the braille cursor (not part of MathCAT addon yet)"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.3.11"
+msgstr "版本 0.3.11"
+
+#. type: Bullet: '* '
+msgid "Upgraded to python 3.11 and verified working with NVDA 2024.1"
+msgstr "升级到 python 3.11，并验证可以与 NVDA 2024.1 一起工作"
+
+#. type: Bullet: '* '
+msgid ""
+"Fix bugs in Vietnamese braille and also in Speech, mostly for chemistry."
+msgstr "修复越南语盲文和语音中的错误，主要用于化学。"
+
+#. type: Bullet: '* '
+msgid ""
+"Fix broken braille when braille code and dependent language don't match "
+"(specifically Vietnam braille and Vietnamese speech)"
+msgstr ""
+"修复当盲文代码和相关语言不匹配时停止工作的问题（特别是越南盲文和越南语语音）"
+
+#. type: Bullet: '* '
+msgid "Fix whitespace bug in HTML inside of tokens"
+msgstr "修复了 HTML 标记内部的空白错误"
+
+#. type: Bullet: '* '
+msgid "Improve roman numeral detection"
+msgstr "改进了罗马数字检测"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.3.9"
+msgstr "版本 0.3.9"
+
+#. type: Bullet: '* '
+msgid "Added Traditional Chinese translation (thanks to Hon-Jang Yang)"
+msgstr "增加了繁体中文翻译（感谢 Hon-Jang Yang）"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed bug with navigating into the base of a scripted expression that has "
+"parenthesis"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Significantly changed the way whitespace is handled. This mainly affects "
+"braille output (spaces and \"omission\" detection)."
+msgstr "显著改变了空白的处理方式。这主要影响盲文输出（空白和“省略”检测）。"
+
+#. type: Bullet: '* '
+msgid "Improved recognition of chemistry"
+msgstr "完善了对化学的识别"
+
+#. type: Bullet: '* '
+msgid "UEB braille fixes that came up from adding chemistry examples"
+msgstr "添加化学示例后产生的UEB盲文修复"
+
+#. type: Bullet: '* '
+msgid "UEB fixes for adding auxillary parenthesis in some cases"
+msgstr "UEB 修复了在某些情况下添加辅助括号的问题"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.3.8"
+msgstr "版本 0.3.8"
+
+#. type: Plain text
+msgid "Braille:"
+msgstr "盲文："
+
+#. type: Bullet: '* '
+msgid ""
+"Dialog has been internationalized for several languages (many thanks to the "
+"translators!)"
+msgstr "对话已经国际化（非常感谢翻译者们！）"
+
+#. type: Bullet: '* '
+msgid ""
+"Initial implementation of CMU -- the braille code used in Spanish and "
+"Portuguese speaking countries"
+msgstr "CMU 的初步实施——CMU 盲文码在西班牙和几个葡萄牙语国家使用"
+
+#. type: Bullet: '* '
+msgid "Fix some UEB bugs and added some characters for UEB"
+msgstr "修复了一些 UEB 错误，并为 UEB 添加了一些字符"
+
+#. type: Bullet: '* '
+msgid "Significant improvements to Vietnamese braille"
+msgstr "越南盲文的重大改进"
+
+#. type: Plain text
+msgid "Other fixes:"
+msgstr "其他修复:"
+
+#. type: Bullet: '* '
+msgid ""
+"Change relative rate dialog slider to have a maximum value of 100% (now only "
+"allows setting slower rates). Also, added step sizes so it is easier to "
+"raise/lower the rate significantly."
+msgstr ""
+"更改相对速率对话框滑块，使其最大值为 100% （现在只允许设置较慢的语速）。此"
+"外，增加了步长，因此更容易显著提高/降低语速。"
+
+#. type: Bullet: '* '
+msgid ""
+"Fix eSpeak bug that sometimes cut off speech when the relative rate was "
+"changed"
+msgstr "修复了当相对速率改变时有时会中断语音的 espeak 错误"
+
+#. type: Bullet: '* '
+msgid "Improvements to Vietnamese speech"
+msgstr "越南语语音的改进"
+
+#. type: Bullet: '* '
+msgid "Fixed bug with OneCore voices saying \"a\""
+msgstr "修正了 OneCore 语音说 “a” 的错误"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed some navigation bugs when `AutoZoomOut` is False (not the default)"
+msgstr "修复了`AutoZoomOut`为 False （非默认值） 时的一些导航错误"
+
+#. type: Bullet: '* '
+msgid ""
+"Fix updating around language changes and some other dialog changes so they "
+"take effect immediately upon clicking \"Apply\" or \"OK\"."
+msgstr ""
+"修复了围绕语言更改和其他一些对话框更改的更新，以便它们在单击“应用”或“确认”后"
+"立即生效。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added an \"Use Voice's Language\" option so that out of the box, MathCAT "
+"will speak in the right language (if there is a translation)"
+msgstr ""
+"添加了“使用语音的语言”选项，这样 MathCAT 就可以使用正确的语言（如果有翻译的"
+"话）"
+
+#. type: Bullet: '* '
+msgid "Several improvements for cleaning up poor MathML code"
+msgstr "有关清理 MathML 码的几个改进"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.3.3"
+msgstr "版本 0.3.3"
+
+#. type: Plain text
+msgid ""
+"This release has a number of bug fixes in it. The major new features and bug "
+"fixes are:"
+msgstr "此版本修复了许多错误。主要的新功能和错误修复如下："
+
+#. type: Bullet: '* '
+msgid "Added Spanish Translation (thanks to Noelia Ruiz and María Allo Roldán)"
+msgstr "添加了西班牙语翻译 （感谢 Noelia Ruiz 和  María Allo Roldán）"
+
+#. type: Bullet: '* '
+msgid "Modified navigation so that it starts zoomed in one level"
+msgstr "修改导航以便于在一个级别内开始放大"
+
+#. type: Bullet: '* '
+msgid ""
+"Added cntrl+alt+arrow as a way to navigate tabular structures. These keys "
+"should be more memorable because they are used for table navigation in NVDA."
+msgstr ""
+"添加了 ctrl+alt+箭头键用于导航表格结构。这些按键应该很容易记忆，因为它们与 "
+"NVDA 在使用的导航表格按键很类似。"
+
+#. type: Bullet: '* '
+msgid ""
+"Worked around NVDA bug for eSpeak voices that caused them to slow down when "
+"the relative MathRate was set to be slower than the text speech rate."
+msgstr ""
+"解决了 NVDA 的 eSpeak 语音的错误，当相对数学语速设置为低于文本语速时，该错误"
+"会导致语音减慢。"
+
+#. type: Bullet: '* '
+msgid ""
+"Worked around a OneCore voice problem so that they will speak the long 'a' "
+"sound."
+msgstr "解决了 OneCore 的语音问题，以便于它们能说出长 “a” 音。"
+
+#. type: Plain text
+msgid ""
+"There are lots of small tweaks to the speech and some bug fixes for both "
+"Nemeth and UEB."
+msgstr "语音有一些小的调整， Nemeth 码和 UEB 有一些错误修复。"
+
+#. type: Plain text
+msgid ""
+"Note: there is now an option to get Vietnam's braille standard as braille "
+"output. This is still a work in progress and is too buggy to be used other "
+"than for testing. I expect the next MathCAT release will contain a reliable "
+"implementation."
+msgstr ""
+"注： 现在可以选择将越南的盲文标准作为盲文输出。这仍然是一项正在进行的工作，并"
+"且存在太多的 bug，不能用于测试之外的其他用途。我预计下一个 MathCAT 版本将包含"
+"一个可靠的实现。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.2.5"
+msgstr "版本 0.2.5"
+
+#. type: Bullet: '* '
+msgid "More improvements chemistry"
+msgstr "进一步化学改进"
+
+#. type: Bullet: '* '
+msgid "Fixes for Nemeth:"
+msgstr "对 Nemeth 码的修复："
+
+#. type: Bullet: '	* '
+#, fuzzy
+#| msgid "Added \"omission\" rules"
+msgid "Added \"omission\" rules"
+msgstr "增加了省略规则"
+
+#. type: Bullet: '	* '
+#, fuzzy
+#| msgid "Added some rules for English Language Indicators"
+msgid "Added some rules for English Language Indicators"
+msgstr "增加了一些英语语言指示符的规则"
+
+#. type: Bullet: '	* '
+#, fuzzy
+#| msgid "Added more cases where the Mulitpurpose indicator is needed"
+msgid "Added more cases where the Mulitpurpose indicator is needed"
+msgstr "添加了更多需要多用途指示符的情况"
+
+#. type: Bullet: '	* '
+#, fuzzy
+#| msgid "Fixes related to Nemeth and punctuation"
+msgid "Fixes related to Nemeth and punctuation"
+msgstr "Nemeth 码标点相关的修复"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 0.2"
+msgstr "版本 0.2"
+
+#. type: Bullet: '* '
+msgid "Lots of bug fixes"
+msgstr "大量错误修复"
+
+#. type: Bullet: '* '
+msgid "Improvements to speech"
+msgstr "改善语音"
+
+#. type: Bullet: '* '
+msgid ""
+"A preference setting to control the duration of pausing (works with changes "
+"to relative speech rate for math)"
+msgstr "一个首选项用于控制暂停持续时间 （适用于数学中相对语速的更改）"
+
+#. type: Bullet: '* '
+msgid "Support to recognize chemistry notation and speak it appropriately"
+msgstr "支持识别并是当说出化学符号"
+
+#. type: Bullet: '* '
+msgid "Translations to Indonesian and Vietnamese"
+msgstr "印尼语和越南语翻译"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=mathcat"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=mathcat"
+
+#~ msgid "Those who need UEB technical braille"
+#~ msgstr "需要 UEB technical 盲文的人"
+
+#~ msgid ""
+#~ "Anyone who uses MathPlayer with a non-Nemeth/non-UEB braille output "
+#~ "(contact me if you want to help out with a braille translation)"
+#~ msgstr ""
+#~ "任何使用 MathPlayer 的非 Nemeth 码、 UEB 盲文输出的人 (如果您想帮助进行盲"
+#~ "文翻译，请联系我)"

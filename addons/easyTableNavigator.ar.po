@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:36+0000\n"
+"PO-Revision-Date: 2015-04-29 02:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Easy Table Navigator\"]]\n"
+msgstr "[[!meta title=\"Easy Table Navigator\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Corentin Bacqué-Cazenave, Joseph Lee"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This plugin adds a layer command to use simplified key combination to "
+"navigate table cells.  When the layered commands are enabled, you can "
+"perform the following actions:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Navigate to the previous or next cell horizontally or vertically using arrow "
+"keys"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Navigate to the first or last cell of the row or the column using "
+"control+arrow keys or Home, End, PageUp and PageDown"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Read the whole row or column without moving the system caret using "
+"windows+leftArrow / windows+upArrow"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Read the row or column starting from the current cell using "
+"windows+rightArrow / windows+downArrow"
+msgstr ""
+
+#. type: Plain text
+msgid "Currently supported tables are:"
+msgstr "الجداول التي تدعمها حالايا هي:"
+
+#. type: Bullet: '* '
+msgid "Browse mode (Internet Explorer, Firefox, etc.)."
+msgstr "جداول نمط التصفح (Internet Explorer, Firefox, إلخ.)."
+
+#. type: Bullet: '* '
+msgid "Microsoft Word."
+msgstr "[جداول Microsoft Word."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "مفاتيح الخاتصار"
+
+#. type: Bullet: '* '
+msgid "Toggles table navigator layer on and off (unassigned)."
+msgstr ""
+"التبديل بين تشغيل وتعطيل نمط الأوامر, الذي سيمكنك من استخدام الأسهم للحركة "
+"على خلايا الجدول, (لم يتم تعيين مفتاح اختصار)"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 2.4"
+msgstr "مستجدات الإصدار 1.0"
+
+#. type: Plain text
+msgid "For this release, many thanks goes to Cyrille Bougot for his work."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Table navigation fixed in MS Word"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Introduce new commands following changes in NVDA 2022.2 and 2022.4"
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid "home/end/pgUp/pgDown to jump to start/end of row/column"
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"control+left/right/up/downArrow to jump to start/end of row/column "
+"(alternative shortcut key for the same result)"
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+left/up to read the whole row/column starting from the first cell "
+"without moving the current position of the cursor"
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+right/down for sayAll in row/column, i.e. read the cells of the current "
+"row/column, starting from the current cell and moving the cursor's position "
+"while reading until the last cell of the row/column."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Remaped some keys to avoid conflicts:"
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+upArrow/leftArrow becomes windows+upArrow/leftArrow (to read full "
+"column/row)"
+msgstr ""
+
+#. type: Bullet: '    * '
+msgid ""
+"NVDA+downArrow/rightArrow becomes windows+downArrow/rightArrow (say all in "
+"column/row)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2023.1"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 2.3"
+msgstr "مستجدات الإصدار 1.0"
+
+#. type: Bullet: '* '
+msgid "It is now possible to disable table navigation layer from everywhere"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2022.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix error when reloading the addon"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.1"
+msgid "Changes for 2.2.1"
+msgstr "مستجدات الإصدار 1.1"
+
+#. type: Bullet: '* '
+msgid "Fixed an error in some type of documents including Word and Outlook"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 2.2"
+msgstr "مستجدات الإصدار 1.0"
+
+#. type: Bullet: '* '
+msgid "Update documentation style from addons template"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "First translated version"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.1"
+msgid "Changes for 2.1.1"
+msgstr "مستجدات الإصدار 1.1"
+
+#. type: Bullet: '* '
+msgid "New author in manifest and documentation"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 2.1"
+msgstr "مستجدات الإصدار 1.0"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2021.1"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 2.0"
+msgstr "مستجدات الإصدار 1.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Made various add-on messages translatable."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.1"
+msgid "Changes for 1.2"
+msgstr "مستجدات الإصدار 1.1"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "مستجدات الإصدار 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where errors might be heard when spell checking a message in "
+"Outlook."
+msgstr ""
+"معالجة مشكلة سماع صوت خطأ عند فحص خطأ هجائي بإحدى الرسائل بتطبيق outlook."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "مستجدات الإصدار 1.0"
+
+#. type: Bullet: '*   '
+msgid "Initial release."
+msgstr "إصدار أولي"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=etn"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=etn"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=etn"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=etn-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=etn-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=etn-dev"
+
+#~ msgid ""
+#~ "This plugin adds a layer command to use arrow keys to navigate table "
+#~ "cells."
+#~ msgstr ""
+#~ "تضيف هذه الإضافة البرمجية نمط أوامر يمكن المستخدم من استخدام الأسهم "
+#~ "للحركة على خلايا الجدول. "
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=etn"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=etn-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=etn"
+
+#, fuzzy
+#~| msgid ""
+#~| "*   Author: Joseph Lee\n"
+#~| "* Download [stable version][1]\n"
+#~| "* Download [development version][2]\n"
+#~ msgid ""
+#~ "*   Author: Joseph Lee\n"
+#~ "* Download [stable version][1]\n"
+#~ "* Download [development version][2]\n"
+#~ "* NVDA compatibility: 2019.3 and beyond\n"
+#~ "* Download [older version][3] compatible with NVDA 2019.2.1 and earlier\n"
+#~ msgstr ""
+#~ "* مطور الإضافة: Joseph Lee\n"
+#~ "* تحميل [الإصدار النهائي][Joseph Lee\n"
+#~ "* تحميل [الإصدار التجريبي][2]\n"

@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-01-03 15:21+1000\n"
+"PO-Revision-Date: 2017-03-05 20:22+0200\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Visual Studio\"]]\n"
+msgstr "[[!meta title=\"Visual Studio\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Author: Mohammad Suliman"
+msgstr "Autor: Mohammad Suliman"
+
+#. type: Plain text
+msgid ""
+"This add-on provides enhanced support for Microsoft Visual Studio 2010 and "
+"later. For more information about this add-on, visit [add-on homepage.][1]"
+msgstr ""
+"Acest supliment oferă suport îmbunătățit pentru Microsoft Visual Studio "
+"2010 sau mai nou. Pentru mai multe informații despre acest add-on, "
+"vizitați [pagina add-on-ului.][1]"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+msgid "[1]: https://github.com/mohammad-suliman/visualstudioaddon"
+msgstr "[1]: https://github.com/mohammad-suliman/visualstudioaddon"

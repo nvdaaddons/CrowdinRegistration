@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-04-27 13:20+0000\n"
+"PO-Revision-Date: 2020-02-25 05:18+0100\n"
+"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Input Lock\"]]\n"
+msgstr "[[!meta title=\"Blokovanie vstupu\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Jose Manuel Delicado"
+msgstr "Autor: Jose Manuel Delicado"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA compatibility: 2017.3 to 2019.1"
+msgid "NVDA compatibility: 2023.3.4 and beyond"
+msgstr "Funguje s NVDA 2017.3 do 2019.1"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Stiahnuť [stabilnú verziu][1]"
+
+#. type: Title ##
+#, no-wrap
+msgid "Introduction"
+msgstr "Úvod"
+
+#. type: Plain text
+msgid ""
+"Do you have kids or pets at home? Do you have a cat and It likes very much "
+"climbing your table and walking over your keyboard? Do you accidentally move "
+"the mouse to random parts in the screen while using your laptop? Then Input "
+"Lock is for you! You will be able to leave your computer alone and turned on "
+"without risk."
+msgstr ""
+"Máte doma deti alebo domácich miláčikov? Často si náhodne presuniete myš a "
+"potom píšete na nesprávne miesto? Doplnok blokovanie vstupu je práve pre "
+"vás. Môžete bez obáv nechať váš počítač bez dozoru."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Once installed, you will be able to lock your keyboard, touch screen, if "
+#| "your laptop has one, mouse and Braille display."
+msgid ""
+"Once installed, you will be able to lock your keyboard, touch screen (if "
+"your laptop has one), touchpad, mouse and Braille display."
+msgstr ""
+"Doplnok umožňuje zablokovať klávesnicu, dotykovú obrazovku, myš aj "
+"braillovský riadok."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Použitie"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This addon adds two extra gestures to NVDA. By default they are "
+#| "unassigned, so you will have to configure them from Input gestures "
+#| "dialog. Read the NVDA User Guide for more information."
+msgid ""
+"This addon adds three extra gestures to NVDA. By default they are "
+"unassigned, so you will have to configure them from Input gestures dialog. "
+"Read the NVDA User Guide for more information."
+msgstr ""
+"Doplnok poskytuje dve nové klávesové skratky. Tieto predvolene nie sú "
+"nastavené a je potrebné ich nastaviť v dialógu klávesové skratky. Návod na "
+"používanie tejto funkcie nájdete v návode NVDA."
+
+#. type: Plain text
+msgid ""
+"When you press the toggle input lock gesture, NVDA will say \"Input "
+"locked\". Your input devices will be blocked until you press the same "
+"gesture again. In that moment, NVDA will say \"Input unlocked\" and "
+"everything will work as usual."
+msgstr ""
+"Ak stlačíte skratku na blokovanie vstupu, NVDA povie \"vstup zamknutý\" a "
+"automaticky zablokuje vstup zo všetkých zariadení. Odblokovať ho môžete tou "
+"istou klávesovou skratkou."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "When you press the toggle input lock gesture, NVDA will say \"Input "
+#| "locked\". Your input devices will be blocked until you press the same "
+#| "gesture again. In that moment, NVDA will say \"Input unlocked\" and "
+#| "everything will work as usual."
+msgid ""
+"Locking the touchpad can prevent us from accidentally touching it, "
+"especially those who are used to using the laptop keyboard directly. When "
+"you press the toggle touchpad lock gesture, NVDA will say \"Touchpad "
+"locked\". Your touchpad will be blocked until you press the same gesture "
+"again. In that moment, NVDA will say \"Touchpad unlocked\" and everything "
+"will work as usual."
+msgstr ""
+"Ak stlačíte skratku na blokovanie vstupu, NVDA povie \"vstup zamknutý\" a "
+"automaticky zablokuje vstup zo všetkých zariadení. Odblokovať ho môžete tou "
+"istou klávesovou skratkou."
+
+#. type: Plain text
+msgid ""
+"If you press the toggle mouse block gesture, your mouse will be locked. "
+"Press this command again to unlock it. While mouse is locked, you can use "
+"NVDA gestures to move it, and click with left and right buttons, but You "
+"can't move the mouse itself. Mouse clicks can also be disabled from Input "
+"lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on "
+"settings dialog for older versions, available under preferences menu. In "
+"addition, from these settings you can control wether mouse locks when NVDA "
+"is started or not."
+msgstr ""
+"Druhá klávesová skratka umožňuje zamknúť len myš. Po zamknutí myši môžete s "
+"kurzorom myši pracovať cez príkazy NVDA, nebudete ale môcť použiť fyzickú "
+"myš. V nastaveniach doplnku môžete tiež aktivovať zamknutie klikania myši a "
+"aktivovať °°automatické zamknutie myši po štarte NVDA."
+
+#. type: Plain text
+msgid ""
+"Note: when mouse clicks are blocked, you can't use any NVDA gestures to work "
+"with the mouse."
+msgstr ""
+"Upozorňujeme, že ak povolíte zamknutie myši vrátane klikania, niektoré "
+"funkcie NVDA nebudú fungovať."
+
+#. type: Title ##
+#, no-wrap
+msgid "Limitations and known problems"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Input Lock has the following limitations:"
+msgid "Input Lock has the following known problems:"
+msgstr "Doplnok má tieto obmedzenia:"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "The shortcut control+alt+del can be used even when the keyboard is locked."
+msgid ""
+"The shortcuts control+alt+del and windows+l can be used even when the "
+"keyboard is locked."
+msgstr ""
+"Skratka ctrl+alt+del funguje aj v prípade, ak zamknete vstup z klávesnice."
+
+#. type: Bullet: '* '
+msgid ""
+"For gestures used to lock the touchpad, please try to assign a small number "
+"of key combination gestures. It is recommended to use NVDA+letters or "
+"numbers, Ctrl+F keys etc."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changelog"
+msgstr "Zmeny"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.1"
+msgid "Version 1.13"
+msgstr "Verzia 1.1"
+
+#. type: Bullet: '* '
+msgid "Now, minimum supported version is 2023.3.4."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Updated translations. Starting from version 1.13, changelog won't be "
+"modified when a new release only includes localization updates."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "The addon gestures are unassigned by default."
+msgid "Added a gesture (unassigned by default) to lock/unlock the touchpad."
+msgstr "Klávesové skratky nie sú pridelené."
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.1"
+msgid "Version 1.12"
+msgstr "Verzia 1.1"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility flags for recent NVDA versions."
+msgstr "Upravené požiadavky kompatibility pre aktuálne verzie NVDA."
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "Aktualizované preklady."
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.1"
+msgid "Version 1.11"
+msgstr "Verzia 1.1"
+
+#. type: Bullet: '* '
+msgid "Now, minimum supported version is 2022.4."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.1"
+msgid "Version 1.10"
+msgstr "Verzia 1.1"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated translations."
+msgid "Updated documentation."
+msgstr "Aktualizované preklady."
+
+#. type: Bullet: '* '
+msgid "Now, minimum supported version is 2021.3."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The input will remain blocked after waking up from standby mode. Thanks to "
+"Javi Dominguez."
+msgstr ""
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.8"
+msgid "Version 1.9"
+msgstr "Verzia 1.8"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.8"
+msgstr "Verzia 1.8"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.7"
+msgstr "Verzia 1.7"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.6"
+msgstr "Verzia 1.6"
+
+#. type: Bullet: '* '
+msgid ""
+"Now, settings are removed only when the add-on is uninstalled. Configuration "
+"is nolonger reset when upgrading."
+msgstr ""
+"Nastavenia sa odteraz odstránia len po odinštalovaní doplnku. Pri "
+"aktualizácii doplnku ostanú zachované."
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Nové a aktualizované preklady."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.5"
+msgstr "Verzia 1.5"
+
+#. type: Bullet: '* '
+msgid "Added compatibility with recent NVDA releases."
+msgstr "Upravené pre aktuálne verzie NVDA."
+
+#. type: Bullet: '* '
+msgid "New translations."
+msgstr "Nové preklady."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.4"
+msgstr "Verzia 1.4"
+
+#. type: Bullet: '* '
+msgid "The addon gestures are unassigned by default."
+msgstr "Klávesové skratky nie sú pridelené."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "Verzia 1.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a configuration panel in settings dialog. For old NVDA versions, a "
+"menu item and a dialog have been added too."
+msgstr ""
+"Pridaný dialóg s nastaveniami v starších verziách NVDA a príslušná vetva do "
+"stromu s nastaveniami pre novšie verzie NVDA."
+
+#. type: Bullet: '* '
+msgid "Added a setting to lock the mouse when NVDA is started."
+msgstr "Pridaná možnosť zablokovať myš automaticky po štarte NVDA."
+
+#. type: Bullet: '* '
+msgid "Added a setting to block also mouse clicks while mouse is locked."
+msgstr "Pridaná možnosť zablokovať aj klikanie myšou."
+
+#. type: Bullet: '* '
+msgid ""
+"Small bugs fixed, some code optimizations and less duplicated strings for "
+"translators"
+msgstr ""
+"Drobné úpravy v kóde vrátane odstránených nadbytočných fráz na prekladanie"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Verzia 1.2"
+
+#. type: Bullet: '* '
+msgid "Now the mouse can also be locked"
+msgstr "Pridaná možnosť zamknúť myš"
+
+#. type: Bullet: '* '
+msgid "New command to lock and unlock only the mouse"
+msgstr "Pridaná skratka na zamknutie a odomknutie myši"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Verzia 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"If another addon has previously added a capture function to inputManager, it "
+"is restored when the input is unlocked."
+msgstr ""
+"Ak iný doplnok sleduje stav zariadenia, sledovanie sa obnoví po odblokovaní "
+"vstupu."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0"
+msgstr "Verzia 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release"
+msgstr "Prvé vydanie"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=inputLock"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=inputlock"
+
+#~ msgid "Limitations"
+#~ msgstr "Obmedzenia"

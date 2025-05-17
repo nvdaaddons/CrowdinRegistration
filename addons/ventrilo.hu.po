@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2016-01-22 10:30+0100\n"
+"Last-Translator: OAron <oaron@nvda.hu>\n"
+"Language-Team: HU\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Ventrilo\"]]\n"
+msgstr "[[!meta title=\"Ventrilo\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Beqa Gozalishvili, Kyle Borah"
+msgstr "Készítők: Beqa Gozalishvili, Kyle Borah"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Letöltés [Fejlesztői verzió][2]"
+
+#. type: Plain text
+msgid ""
+"This add-on enhances support for Ventrilo chat client. For more information "
+"on Ventrilo, visit [Ventrilo website][3]."
+msgstr ""
+"Ez a kiegészítő a Ventrilo chat kliensprogram akadálymentes használatát "
+"támogatja. További információkért keresse fel a [Ventrilo weboldalát][3]."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vent"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=vent"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vent"
+
+#. type: Plain text
+msgid "[3]: https://www.ventrilo.com/"
+msgstr "[3]: https://www.ventrilo.com/"

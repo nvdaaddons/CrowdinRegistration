@@ -1,0 +1,350 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2024-03-10 18:42+0000\n"
+"PO-Revision-Date: 2023-05-07 05:20+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"eMule\"]]\n"
+msgstr "[[!meta title=\"eMule\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Authors: Noelia, Chris, Alberto."
+msgstr "Authoren: Noelia, Chris, Alberto."
+
+#. type: Plain text
+msgid ""
+"This add-on helps to improve accessibility of eMule with nVDA.  It also "
+"provides additional keyboard commands for moving in different windows and "
+"gives Useful information about eMule."
+msgstr ""
+"Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  Des "
+"weiteren stellt die Erweiterung außerdem Tastenkombinationen zum Navigieren "
+"zu verschiedenen Fenstern von Emule sowie weitere Informationen zur "
+"Verfügung."
+
+#. type: Plain text
+msgid ""
+"It's based on the eMuleNVDASupport add-on, developed by the same author. You "
+"should uninstall that old add-on to use this one, since both have common "
+"keystrokes and features."
+msgstr ""
+"Diese Erweiterung basiert auf EmuleNVDASupport des selben Autors. Sie "
+"sollten die alte Erweiterung deinstallieren, bevor Sie diese Erweiterung "
+"verwenden, da beide die gleichen Tastenkombinationen und Funktionen bieten."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Tested on [eMule][2] 0.50a."
+msgid "Tested on [eMule][1] 0.50a."
+msgstr "Getestet mit [eMule][2] 0.50a."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands:"
+msgstr "Tastenbefehle:"
+
+#. type: Bullet: '*	'
+msgid "control+shift+h: Moves focus and mouse to main toolbar."
+msgstr ""
+"Strg+Umschaltt+H: Verschiebt den Fokus und die Maus auf die "
+"Hauptsymbolleiste."
+
+#. type: Bullet: '*	'
+msgid "control+shift+t: Reads the current window."
+msgstr "Strg+Umschalt+T: Liest das aktuelle Fenster aus."
+
+#. type: Bullet: '*	'
+msgid "control+shift+n: Moves the focus to the Name field in the Find window."
+msgstr ""
+"Strg+Umschalt+N: Verschiebt den Fokus in das Feld \"Name\" im Suchfenster."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+p: In the Search window, moves focus and mouse to the list of "
+"search parameters, or edit field options."
+msgstr ""
+"Strg+Umschalt+P: Bewegt den Fokus im Suchfenster in die Liste der "
+"Suchparameter."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+b: Move the focus to the list in the current window. For "
+"example usable in the Search window, downloads in Transfer window, etc."
+msgstr ""
+"Strg+Umschalt+B: Bewegt den Fokus in die Liste im aktuellen Fenster. Zum "
+"Beispiel verwendbar im Suchfenster, Downloads in Übertragungsfenster, etc."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+o: Move the focus to read-only edit boxes in the current "
+"window. For example the IRC received messages, available Servers, etc."
+msgstr ""
+"Strg+Umschalt+O: Bewegt den Fokus zum schreibgeschützten Feld, im aktuellen "
+"Fenster. Zum Beispiel die empfangenen Nachrichten im IRC, verfügbare Server, "
+"etc."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+NVDA+f: If the caret is located in a read only edit box, opens a "
+"find dialog to use the commands for searching text available in NVDA."
+msgstr ""
+"Strg+NVDA+F: Wenn sich der Systemcursor in einem schreibgeschützten "
+"Eingabefeld befindet, wird ein Suchfeld geöffnet."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+l: Moves the navigator object and mouse to the headers of the "
+"current list."
+msgstr ""
+"Strg+Umschalt+L: Bewegt den Navigator und die Maus zur Überschrift der "
+"aktuellen Liste."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+q: Reads the first object in the status bar; provides "
+"information about recent activity."
+msgstr ""
+"Strg+Umschalt+Q: Zeigt das erste Element in der Statuszeile (die letzten "
+"Aktivitäten) an."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+w: Reads the second object of the status bar; contains "
+"information about files and users on the current server."
+msgstr ""
+"Strg+Umschalt+W: Zeigt das zweite Element auf der Statuszeile an (Dateien "
+"und Nutzer auf dem aktuellen Server)."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+e: Reads the third object of the status bar; useful to know "
+"the UpLoad/DownLoad speed."
+msgstr ""
+"Strg+Umschalt+E: Zeigt das dritte Element der Statuszeile an (die "
+"Datenübertragungsraten)."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+r: Reads The fourth object of the status bar; reports on "
+"connecting of eD2K and Kad network."
+msgstr ""
+"Strg+Umschalt+R: Zeigt das vierte Element der Statuszeile an (Informationen "
+"zu Verbindungen mit ed2k- und Kademia-Netzwerken)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Managing columns."
+msgstr "Spalten verwalten."
+
+#. type: Plain text
+msgid ""
+"When within a list, you can move the caret between the rows and columns "
+"using alt+control+ Arrows.  In this Add-on the following key commands are "
+"also available:"
+msgstr ""
+"Wenn sich der Fokus in einer Liste befindet, können Sie sich mit "
+"Strg+Alt+Pfeiltasten zwischen den Zeilen und Spalten bewegen. Folgende "
+"Befehle sind außerdem verfügbar:"
+
+#. type: Bullet: '*	'
+msgid "nvda+control+1-0: Reads the first 10 columns."
+msgstr "NVDA+Strg+1-0: Liest die ersten 10 Spalten."
+
+#. type: Bullet: '*	'
+msgid "nvda+shift+1-0: Reads columns 11 to 20."
+msgstr "NVDA+Umschalt+1-0: Liest die Spalten 11 bis 20."
+
+#. type: Bullet: '*	'
+msgid ""
+"nvda+shift+C: Copies the contents of the last read column to the clipboard."
+msgstr ""
+"NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in die "
+"Zwischenablage."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 7.0"
+msgstr "Änderungen in 7.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr "Kompatibel mit NVDA 2023.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Änderungen in 6.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2022.1 or later."
+msgstr "Benötigt NVDA 2022.1 oder neuer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Änderungen in 5.0"
+
+#. type: Bullet: '*	'
+msgid "Compatible with NVDA 2021.1."
+msgstr "Kompatibel mit NVDA 2021.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Änderungen in 4.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Erfordert NVDA 2019.3 oder höher."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Änderungen in 3.0"
+
+#. type: Bullet: '*	 '
+#, fuzzy
+#| msgid ""
+#| "To search text in the readonly edit boxes,  the find dialog  can be used, "
+#| "such as nvda+control+f to activate the find dialog."
+msgid ""
+"To search text in the readonly edit boxes,  the find dialog  can be used, "
+"such as nvda+control+f to activate the find dialog."
+msgstr ""
+"Um Text in den schreibgeschützten Bearbeitungsfeldern zu suchen, kann das "
+"Suchdialogfeld verwendet werden, z. B. nvda+control+f, um das Suchdialogfeld "
+"zu aktivieren."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Änderungen in 2.0"
+
+#. type: Bullet: '*	 '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr ""
+"Die Hilfe zur Erweiterung ist über die Erweiterungsverwaltung verfügbar."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Änderungen in 1.2"
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving to the IRC messages, the selected text is reported properly."
+msgstr ""
+"Wenn Sie sich zu den IRC-Nachrichten bewegen, wird ausgewählter Text "
+"vorgelesen."
+
+#. type: Bullet: '*	 '
+msgid ""
+"The keystroke used for moving to the Search results list has been "
+"generalized to be able to move focus to any available list in the current "
+"window."
+msgstr ""
+"Mit der Tastenkombination können Sie mittlerweile anstatt nur die "
+"Suchergebnisse auch sämtliche Listen im aktuellen Fenster ansteuern."
+
+#. type: Bullet: '*	 '
+msgid ""
+"The command used to focus the IRC messages has been generalized to move to "
+"any read-only edit box, making it possible to review connection information "
+"in the Servers window."
+msgstr ""
+"Der Befehl wurde zuvor generell zum Fokussieren der IRC-Nachrichten "
+"verwendet. Mittlerweile können Sie jetzt auch damit im Fenster der "
+"Verbindungen zu den Servern auslesen."
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving mouse and focus to the toolbar, in some cases it was announced "
+"twice. This has been fixed."
+msgstr ""
+"Beim Bewegen der Maus und dem Fokus zur Werkzeugleiste wurde unter Umständen "
+"die Aktion doppelt angesagt. Dies ist nun behoben worden."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Änderungen in 1.1"
+
+#. type: Bullet: '*	 '
+msgid ""
+"Fixed bug in eMule item under NVDA's help menu, when the user config folder "
+"name contains non latin characters."
+msgstr ""
+"Fehler im Eintrag Emule im NVDA-Hilfemenü behoben, wenn der Namen des "
+"Benutzerverzeichnises nicht-lateinische Zeichen enthiellt."
+
+#. type: Bullet: '*	 '
+msgid "Shortcuts can now be reassigned using the NVDA gesture input dialog."
+msgstr ""
+"Tastenkombinationen können nun mittels des Dialogs Eingaben neu zugewiesen "
+"werden."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Änderungen in 1.0"
+
+#. type: Bullet: '*	 '
+msgid "Initial version."
+msgstr "Ehrstveröffentlichung."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://www.emule-project.net"
+msgid "[1]: https://www.emule-project.net"
+msgstr "[2]: https://www.emule-project.net"
+
+#~ msgid "NVDA compatibility: 2022.1 or later."
+#~ msgstr "NVDA-Kompatibilität: 2022.1 oder neuer."
+
+#~ msgid ""
+#~ "download [stable version][1] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr ""
+#~ "[Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule"
+
+#~ msgid "download [version compatible with NVDA 2017.3][4]"
+#~ msgstr "[kompatible Version für NVDA 2017.3][4] herunterladen"
+
+#~ msgid "[4]: http://addons.nvda-project.org/files/get.php?file=em-o"
+#~ msgstr "[4]: http://addons.nvda-project.org/files/get.php?file=em-o"
+
+#~ msgid ""
+#~ "download [development version][3] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr ""
+#~ "[Entwicklerversion herunterladen][3] (kompatibel mit NVDA 2022.1 und "
+#~ "neuer)"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+
+#~ msgid "download [stable version][1]"
+#~ msgstr "[Stabile Version herunterladen][1]"
+
+#~ msgid "download [development version][3]"
+#~ msgstr "[Entwicklerversion herunterladen][3]"

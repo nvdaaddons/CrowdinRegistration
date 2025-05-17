@@ -1,0 +1,439 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2020-05-10 23:55+0200\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
+"Language-Team: LANGUAGsimone.dalmasoE <simone.dalmaso@gmail.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Focus Highlight\"]]\n"
+msgstr "[[!meta title=\"Focus Highlight\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Takuya Nishimoto, Karl-Otto Rosenqvist"
+msgstr "Autori: Takuya Nishimoto, Karl-Otto Rosenqvist"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][2]"
+msgstr "Scarica la [versione stabile][2]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "Scarica la [versione in sviluppo][1]"
+
+#. type: Plain text
+msgid ""
+"By drawing a colored rectangle, this addon enables partially sighted users, "
+"sighted educators, or developers to track the location of the nvda navigator "
+"object and the focused object/control."
+msgstr ""
+"Disegnando un rettangolo colorato, questo addon consente agli utenti "
+"ipovedenti, educatori vedenti o agli sviluppatori di tenere traccia della "
+"posizione dell'oggetto su cui si trova il navigatore ad oggetti, oppure "
+"dell'oggetto che ha il focus."
+
+#. type: Plain text
+msgid "The following colors are used by this addon:"
+msgstr "Sono utilizzati i colori seguenti:"
+
+#. type: Bullet: '* '
+msgid ""
+"Green thin dashed-dotted line rectangle shows NVDA is in browse mode, and "
+"this is the navigator object."
+msgstr ""
+"Un rettangolo delimitato da una sottile linea verde tratteggiata e "
+"punteggiata indica che NVDA è in modalità navigazione e la posizione del "
+"navigatore ad oggetti."
+
+#. type: Bullet: '* '
+msgid ""
+"Red thin rectangle shows NVDA is in browse mode, and this is the focused "
+"object/control."
+msgstr ""
+"Un Rettangolo sottile rosso indica che NVDA è in modalità navigazione e "
+"questo è l'oggetto o il controllo  focalizzato."
+
+#. type: Bullet: '* '
+msgid ""
+"Red thick rectangle shows NVDA is in browse mode, and this is both the "
+"navigator object and the focused object which are overlapping."
+msgstr ""
+"Un Rettangolo spesso rosso indica che ci si trova in modalità navigazione e "
+"questi sono il navigatore a oggetti e l'oggetto focalizzato, che si "
+"sovrappongono."
+
+#. type: Bullet: '* '
+msgid ""
+"Blue thick dotted line rectangle indicates NVDA is in focus mode, i.e., key "
+"types are passed to the control."
+msgstr ""
+"Un rettangolo spesso e blu con linee punteggiate sta ad indicare che NVDA è "
+"in modalità focus, ossia che ciò che scriviamo viene visualizzato a schermo "
+"oppure il tasto premuto viene passato al controllo."
+
+#. type: Plain text
+msgid ""
+"To toggle object tracking, press NVDA+Alt+P. You can assign other gestures "
+"using the Input Gestures dialog.  Note that it works with NVDA 2018.3 or "
+"later.  Otherwise, you should disable or uninstall the addon itself for "
+"disabling object tracking."
+msgstr ""
+"Per attivare il tracciamento degli oggetti, premere NVDA + Alt + P. Puoi "
+"assegnare altri gesti usando la finestra di dialogo Gesti e tasti di "
+"immissione. Funziona con NVDA 2018.3 o versioni successive. Altrimenti, è "
+"necessario disabilitare o disinstallare l'addon stesso per far sì che gli "
+"oggetti non vengano più tracciati."
+
+#. type: Plain text
+msgid ""
+"When Focus Highlight category of NVDA Settings dialog is available, "
+"following items can be used."
+msgstr ""
+"Quando la categoria Focus Highlight è disponibile nella finestra "
+"impostazioni di NVDA, è possibile utilizzare le voci seguenti:"
+
+#. type: Bullet: '* '
+msgid ""
+"Make focus mode the default: This checkbox is enabled by default. When it is "
+"unchecked, this add-on behaves same as version 5.6 or previous versions, i."
+"e., if browse mode is not available for an app, the focus is shown using the "
+"thick red rectangle."
+msgstr ""
+"Rendi la modalità focus predefinita: questa casella di controllo è abilitata "
+"per impostazione predefinita. Quando è deselezionata, questo componente "
+"aggiuntivo si comporta come la versione 5.6 o versioni precedenti, ossia, se "
+"la modalità navigazione non è disponibile per un'app, viene mostrato il "
+"focus utilizzando il rettangolo rosso spesso."
+
+#. type: Bullet: '* '
+msgid ""
+"Focus in focus mode, Focus in browse mode, Navigator object: Each of these "
+"groups contains Color, Thickness, and Style."
+msgstr ""
+"Focus in modalità focus, Focus in modalità navigazione, navigatore ad "
+"oggetti: Ognuno di questi gruppi contiene Colore, Spessore e Stile."
+
+#. type: Bullet: '    * '
+msgid ""
+"Color: This edit field allows you to type the HTML color code, i.e., six-"
+"character hexadecimal number. For example, \"ffffff\" is white, \"ff0000\" "
+"is red, and so on. Note that \"000000\" can not be used."
+msgstr ""
+"Colore: Questo campo editazione consente di digitare il codice colore HTML, "
+"ossia un numero esadecimale di sei cifre. Ad esempio, \"ffffff\" è bianco, "
+"\"ff0000\" è rosso e così via. Si noti che \"000000\" non può essere "
+"utilizzato."
+
+#. type: Bullet: '    * '
+msgid ""
+"Thickness: This edit field allows you to type the thickness of the box. You "
+"can enter a value between 1 and 30."
+msgstr ""
+"Spessore: digitare un valore compreso tra 1 e 30 per modificare lo spessore "
+"della casella."
+
+#. type: Bullet: '    * '
+msgid "Style: The choices are Solid, Dash, Dot, Dash dot, and Dash dot-dot."
+msgstr ""
+"Stile: le opzioni sono Solido, Tratteggiato, Punto, tratteggiato-Punto e "
+"tratteggiato-Punto-punto."
+
+#. type: Bullet: '* '
+msgid ""
+"Restore defaults: This button allows you to reset your settings to their "
+"original defaults."
+msgstr ""
+"Ripristina impostazioni predefinite: questo pulsante consente di "
+"ripristinare le impostazioni ai valori predefiniti originali."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.3"
+msgstr "Novità nella versione 6.3"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Nuove Traduzioni e aggiornamenti di quelle esistenti."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that dash styles of focus (in browse mode) and navigator "
+"object are not able to change."
+msgstr ""
+"Risolto un problema per cui lo stile tratteggiato del focus (in modalità "
+"navigazione) e del navigatore a oggetti non possono cambiare."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed the issue that 'Cancel' button of setting panel does not work after "
+"'Restore defaults' button is pressed."
+msgstr ""
+"Risolto il problema per cui il pulsante \"Annulla\" del pannello "
+"impostazioni non funzionava dopo aver premuto il pulsante \"Ripristina "
+"impostazioni predefinite\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.2"
+msgstr "Novità nella versione 6.2."
+
+#. type: Bullet: '* '
+msgid ""
+"You can now turn object tracking on and off using NVDA+Alt+P. Karl-Otto "
+"Rosenqvist contributed for this."
+msgstr ""
+"Ora puoi attivare e disattivare il tracciamento degli oggetti utilizzando "
+"NVDA + Alt + P. ha contribuito per questo Karl-Otto Rosenqvist "
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.1"
+msgstr "Novità nella versione 6.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/14) "
+"with the latest development versions of NVDA."
+msgstr ""
+"Affrontato [il problema](https://github.com/nvdajp/focusHighlight/issues/14) "
+"con le ultime versioni in sviluppo di NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"Focus Highlight category of NVDA Settings dialog is now available. Note that "
+"it works only with NVDA 2018.3 or later."
+msgstr ""
+"è ora disponibile la categoria Focus Highlight nella finestra impostazioni "
+"di NVDA. Funziona dalla versione 2018.3 in poi."
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding customizing colors](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+msgstr ""
+"[Discussioni sulla personalizzazione dei colori](https://github.com/nvdajp/"
+"focusHighlight/issues/3)"
+
+#. type: Bullet: '* '
+msgid ""
+"[Discussions regarding 'Make focus mode the default'](https://github.com/"
+"nvdajp/focusHighlight/issues/13)"
+msgstr ""
+"[discussioni su 'Rendere la modalità focus predefinita'](https://github.com/"
+"nvdajp/focusHighlight/issues/13)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Novità nella versione 6.0."
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/13) "
+"regarding the browse mode."
+msgstr ""
+"Affrontato [il problema](https://github.com/nvdajp/focusHighlight/issues/13) "
+"inerente la modalità navigazione."
+
+#. type: Bullet: '* '
+msgid ""
+"Since this version, if the browse mode of NVDA is not available for an "
+"application, it is always shown that NVDA is in focus mode for the "
+"application, rather than using the red thick rectangle."
+msgstr ""
+"Da questa versione, se la modalità navigazione di NVDA non è disponibile per "
+"un'applicazione, viene sempre mostrato che NVDA è in modalità focus per "
+"l'applicazione, anziché utilizzare il rettangolo spesso rosso."
+
+#. type: Bullet: '* '
+msgid ""
+"The thickness of the line representing the focus mode has been reduced to "
+"half."
+msgstr ""
+"Lo spessore della linea che rappresenta la modalità focus è stato dimezzato."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.6"
+msgstr "Novità nella versione 5.6"
+
+#. type: Bullet: '* '
+msgid "Addresses the compatibility issue with NVDA snapshot alpha-16682."
+msgstr "Sistemata la compatibilità con NVDA snapshot alpha-16682."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.5"
+msgstr "Novità nella versione 5.5"
+
+#. type: Bullet: '* '
+msgid "Addresses the issue with NVDA 2018.4 and Firefox/Chrome web browsers."
+msgstr ""
+"Affronta il problema che si verifica con  NVDA 2018.4 e i webbrowser Firefox/"
+"Chrome."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.4"
+msgstr "Novità nella versione 5.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/11) "
+"regarding version compatibility."
+msgstr ""
+"Affronta [il problema](https://github.com/nvdajp/focusHighlight/issues/11) "
+"riguardante la compatibilità tra le versioni."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.3"
+msgstr "Novità nella versione 5.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Addresses [the issue](https://github.com/nvdajp/focusHighlight/issues/10) "
+"regarding Chrome browser and application sleep mode."
+msgstr ""
+"Affronta [il problema](https://github.com/nvdajp/focusHighlight/issues/10) "
+"che riguarda il browser Chrome e la  modalità riposo dell'applicazione"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.2"
+msgstr "Novità nella versione 5.2"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.1"
+msgstr "Novità nella versione 5.1"
+
+#. type: Bullet: '* '
+msgid "Removed debug log output."
+msgstr "Rimosso l'output del log di debug ."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Novità nella versione 5.0."
+
+#. type: Bullet: '* '
+msgid "Indicators of navigator object and focus mode were changed."
+msgstr ""
+"Sono stati modificati gli indicatori della modalità focus e del navigatore "
+"ad oggetti."
+
+#. type: Bullet: '* '
+msgid "Multiple monitors are supported."
+msgstr "Sono supportati monitor multipli."
+
+#. type: Bullet: '* '
+msgid "It now uses GDI Plus technology for drawing."
+msgstr "Per la visualizzazione ora viene usata la tecnologia GDI Plus."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Novità nella versione 4.0."
+
+#. type: Bullet: '* '
+msgid "Hide rectangle if current application is in sleep mode."
+msgstr ""
+"Nasconde il rettangolo se l'applicazione corrente è in modalità riposo."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Novità nella versione 3.0."
+
+#. type: Bullet: '* '
+msgid "Fixed issue regarding expanded combo box."
+msgstr "Risolto un problema con le caselle combinate espanse."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with Windows Task Manager."
+msgstr "Risolto un problema con il gestore attività di Windows."
+
+#. type: Bullet: '* '
+msgid "Ability to indicate the focus mode."
+msgstr "Capacità di indicare la modalità focus."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Novità nella versione 2.1"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Novità nella versione 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "L'aiuto è disponibile dalla gestione componenti aggiuntivi di NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Novità nella versione 1.1"
+
+#. type: Bullet: '* '
+msgid "Changed navigator object rectangle to jagged line."
+msgstr ""
+"Modificato il navigatore ad oggetti, da rettangolo a linea frastagliata."
+
+#. type: Bullet: '* '
+msgid "Fixed issue with 'Reload plugins'."
+msgstr "Risolto un problema con \"ricarica plugin\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Novità nella versione 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In Internet Explorer 10 and in Skype on Windows 8, fix a problem with the "
+"navigator object."
+msgstr ""
+"In Internet Explorer 10 e in Skype su Windows 8, risolto un problema con il "
+"navigatore ad oggetti."
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Versione iniziale."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=fh-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=fh-dev"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=fh"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=fh"
+
+#, fuzzy
+#~| msgid "To disable object tracking, uninstall the addon."
+#~ msgid "To disable object tracking, disable or uninstall the addon."
+#~ msgstr "Per disabilitare il monitor  dell'oggetto, disinstallare l'addon."

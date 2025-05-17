@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 19:14+0000\n"
+"PO-Revision-Date: 2015-12-21 23:50+0100\n"
+"Last-Translator: Bernd Dorer <bdorer@mailbox.org>\n"
+"Language-Team: \n"
+"Language: an\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Quick Books 2014 support\"]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: NV Access Limited, with help from My Blind Spot, Intuit, and "
+"community testers."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download: [version 2014.4.7][1]"
+msgstr "[version 2014.4.7][1] herunterladen"
+
+#. type: Plain text
+#, no-wrap
+msgid "This add-on   makes it possible to use NVDA with the Intuit Quickbooks 2014 accounting software.\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=qb-dev"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=qb-dev"

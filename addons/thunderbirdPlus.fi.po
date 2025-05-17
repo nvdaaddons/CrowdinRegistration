@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunderbird+\n"
+"POT-Creation-Date: 2023-08-08 16:02+0000\n"
+"PO-Revision-Date: 2023-07-01 08:04+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: fi_FI <janikinnunen340@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Thunderbird+\"]]\n"
+msgstr "[[!meta title=\"Thunderbird+\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Pierre-Louis Renaud (From Thunderbird 78 to 102) & Cyrille Bougot "
+"(TB 102), Daniel Poiraud (From TB 78 to 91), Yannick (TB 45 to 60);"
+msgstr ""
+"Tekijät: Pierre-Louis Renaud (Thunderbirdin versiot 78-102), Daniel Poiraud "
+"(TB:n versiot 68-91), Abdelkrim Bensaïd osasta TB:n versiota 78, Yannick (TB:"
+"n versiot 38-60)"
+
+#. type: Bullet: '* '
+msgid ""
+"URL: [User manual][4] ; [History of changes at RPTools.org][5] ; [Contact in "
+"French or English][6] ;"
+msgstr ""
+"URL: [käyttöopas][4], [muutoshistoria osoitteessa RPTools.org][5], "
+"[yhteydenotot ranskaksi tai englanniksi][6]"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "Download [Latest version from RPTools.org][3] ;"
+msgstr "Lataa [viimeisin versio RPTools.orgista][3]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and later;"
+msgstr "Yhteensopivuus: NVDA 2019.3 ja uudemmat"
+
+#. type: Bullet: '* '
+msgid "Thunderbird compatibility: versions 102.x;"
+msgstr "Yhteensopivat Thunderbirdin versiot: 102.x"
+
+#. type: Bullet: '* '
+msgid "[Source code on gitHub][2]"
+msgstr "[Lähdekoodi GitHubissa][2]"
+
+#. type: Title ##
+#, no-wrap
+msgid "Description"
+msgstr "Kuvaus"
+
+#. type: Plain text
+msgid ""
+"This add-on greatly improves the Mozilla Thunderbird messaging client's "
+"comfort and efficient use with NVDA."
+msgstr ""
+"Tämä lisäosa parantaa huomattavasti Mozilla Thunderbird -sähköpostiohjelman "
+"käytön tehokkuutta ja mukavuutta NVDA:lla."
+
+#. type: Plain text
+msgid "Improvements relate to the following aspects:"
+msgstr "Parannukset liittyvät seuraaviin osa-alueisiin:"
+
+#. type: Title ###
+#, no-wrap
+msgid "Auditory Comfort"
+msgstr "Puhutut ilmoitukset"
+
+#. type: Bullet: '* '
+msgid ""
+"Alerts such as \"so-and-so requested a return receipt\" can be deactivated "
+"via an option;"
+msgstr ""
+"\"Se ja se on pyytänyt vastaanottokuittausta\" -ilmoitukset voidaan poistaa "
+"käytöstä asetuksista."
+
+#. type: Bullet: '* '
+msgid ""
+"The alerts \"This is a draft\" and \"Thunderbird thinks this message is "
+"fraudulent\" are simply dismissed in silence;"
+msgstr ""
+"\"Tämä on luonnos\"- ja \"Thunderbirdin mielestä tämä viesti on petollinen\" "
+"-ilmoitukset jätetään huomiotta."
+
+#. type: Bullet: '* '
+msgid ""
+"Options allow you to disable mailing list names announcement, remove or "
+"group \"RE\" mentions and clean up the names of correspondents by removing "
+"numbers and other annoying special characters;"
+msgstr ""
+"Asetukset mahdollistavat postituslistojen nimien ilmoittamisen käytöstä "
+"poistamisen, \"RE\"-etuliitteiden poistamisen tai ryhmittelyn sekä "
+"vastaanottajien nimien siivoamisen poistamalla niistä numerot ja muut "
+"hankalat erikoismerkit."
+
+#. type: Title ###
+#, no-wrap
+msgid "Navigating The Main Window"
+msgstr "Pääikkunassa liikkuminen"
+
+#. type: Bullet: '* '
+msgid ""
+"Moving to the next panel is done using the TAB key, while the Escape key "
+"returns to the previous panel. This is more comfortable than through F6 and "
+"Shift+F6."
+msgstr ""
+"Seuraavaan paneeliin siirrytään Sarkain-näppäimellä ja Esc-näppäimellä "
+"palataan edelliseen. Tämä on mukavampaa kuin F6:n ja Vaihto+F6:n käyttäminen."
+
+#. type: Bullet: '* '
+msgid ""
+"The selection of tabs with Control+Tab and Control+number is spoken as in "
+"this example: Tab 1 of 4, inbox;"
+msgstr ""
+"Välilehden valitseminen näppäinkomennoilla Ctrl+Sarkain ja Ctrl+numero "
+"puhutaan, kuten tässä esimerkissä: välilehti 1 / 4, saapuneet."
+
+#. type: Bullet: '* '
+msgid ""
+"A keyboard shortcut allows you to list tabs in a menu in order to easily "
+"activate one of them;"
+msgstr ""
+"Pikanäppäimen avulla on mahdollista nöyttää välilehtien luettelo valikkona, "
+"josta voi valita helposti haluamansa."
+
+#. type: Bullet: '* '
+msgid ""
+"A keyboard shortcut is used to display the context menu of the tabs bar;"
+msgstr "Välilehtipalkin pikavalikon näyttämiseen käytetään pikanäppäintä."
+
+#. type: Title ###
+#, no-wrap
+msgid "The Folder Tree view"
+msgstr "Kansioiden puunäkymä"
+
+#. type: Bullet: '* '
+msgid ""
+"Alt+Down Arrow and Alt+Up Arrow let you navigate among folders containing "
+"unread messages;"
+msgstr ""
+"Alt+Nuoli alas/ylös mahdollistavat liikkumisen lukemattomia viestejä "
+"sisältävien kansioiden välillä."
+
+#. type: Bullet: '* '
+msgid ""
+"Typing a letter or number selects the next folder whose name begins with "
+"that character. With the Shift key, the move occurs from bottom to top. "
+"Besides, the name of the account to which the folder belongs is announced;"
+msgstr ""
+"Kirjaimen tai numeron painaminen valitsee seuraavan kansion, jonka nimi "
+"alkaa kyseisellä merkillä. Vaihto-näppäimen kanssa painettaessa siirtyminen "
+"tapahtuu alhaalta ylös. Lisäksi ilmoitetaan sen tilin nimi, johon kansio "
+"kuuluu."
+
+#. type: Bullet: '* '
+msgid ""
+"Pressing Space bar on a folder containing unread messages selects the first "
+"unread message of the message list;"
+msgstr ""
+"Väli-näppäimen painaminen lukemattomia viestejä sisältävän kansion kohdalla "
+"valitsee luettelossa ensimmäisenä olevan lukemattoman viestin."
+
+#. type: Bullet: '* '
+msgid ""
+"Two dialogs for accounts and their associated folders allow you to filter "
+"them by keyword or display only folders with unread messages;"
+msgstr ""
+"Kaksi valintaikkunaa tileille ja niiden liittyville kansioille "
+"mahdollistavat suodattamisen avainsanalla tai näyttämällä vain kansiot, "
+"joissa on lukemattomia viestejä."
+
+#. type: Title ###
+#, no-wrap
+msgid "The Message List"
+msgstr "Viestiluettelo"
+
+#. type: Bullet: '* '
+msgid ""
+"Choosing columns and their layout within the message list is made accessible "
+"through a simple dialog;"
+msgstr ""
+"Sarakkeiden valitseminen ja niiden järjestäminen viestiluettelossa on tehty "
+"saavutettavaksi yksinkertaisen valintaikkunan avulla."
+
+#. type: Bullet: '* '
+msgid ""
+"Viewing the columns of the message list: shortcuts allow you to easily "
+"listen to, spell or copy the sender's name, the message subject or its date "
+"by typing a digit on the alphanumeric keypad. For instance, a single press "
+"on 1 or & announces the sender, two presses spell the name and three presses "
+"copy it to the clipboard;"
+msgstr ""
+"Viestiluettelon sarakkeiden puhuminen: Mahdollistaa lähettäjän nimen, "
+"viestin aiheen tai päivämäärän puhuttamisen, tavaamisen tai leikepöydälle "
+"kopioimisen painamalla numeroa aakkosnumeeriselta näppäimistöltä. "
+"Esimerkiksi 1 tai & ilmoittaa lähettäjän, kaksi painallusta tavaa sen ja "
+"kolme painallusta kopioi leikepöydälle."
+
+#. type: Bullet: '* '
+msgid ""
+"Viewing the headers in the header pane displayed using F8: with Alt+ a "
+"digit, 1 press announces any header containing the sender's addresses or "
+"recipients, 2 presses open a dialog to copy them, 3 presses open the native "
+"Thunderbird context menu associated with the header;"
+msgstr ""
+"F8:lla näytettävän esikatseluruudun otsakkeiden puhuminen: Alt+numeron yksi "
+"painallus puhuu lähettäjän tai vastaanottajien osoitteet sisältävän "
+"otsakkeen, kaksi painallusta avaa valintaikkunan, jossa ne voidaan kopioida "
+"leikepöydälle, kolme painallusta avaa natiivin Thunderbird-pikavalikon "
+"otsakkeelle."
+
+#. type: Bullet: '* '
+msgid ""
+"Cleaned quick message text preview via space key, Alt+down arrow or F4: "
+"Large header blocks in message quotes are replaced by the phrase \"Sender "
+"name wrote\". NVDA will also announce \"clickable link\" instead of the long "
+"address of the link."
+msgstr ""
+"Viestin tekstin puhdistettu pikaesikatselu Väli-näppäimellä, Alt+Nuoli alas -"
+"näppäimillä tai F4:llä: Viestilainausten suuret lohko-otsakkeet korvataan "
+"\"Lähettäjän nimi kirjoitti\" -virkkeellä. NVDA sanoo lisäksi "
+"\"napsautettava linkki\" pitkän linkin osoitteen sijaan."
+
+#. type: Bullet: '* '
+msgid ""
+"Quick overview of quotes in chronological order, from bottom to top, via "
+"Shift+Space, Alt+up arrow or Shift+F4;"
+msgstr ""
+"Lainausten pikakatselu kronologisessa järjestyksessä alhaalta ylös Vaihto"
+"+Väli-näppäimellä, Alt+Nuoli ylös -näppäimillä tai Vaihto+F4:llä."
+
+#. type: Bullet: '* '
+msgid ""
+"Easy access to attachments using the shortcut Alt+page down or via number 1 "
+"of alphanumeric keypad;"
+msgstr ""
+"Helppo pääsy liitteisiin pikanäppäimellä Alt+Page down tai aakkosnumeerisen "
+"näppäimistön numero 1:llä."
+
+#. type: Title ###
+#, no-wrap
+msgid "Quick Filter Bar And Priority Tag Management "
+msgstr "Pikasuodatuspalkki ja tärkeystunnuksien hallinta"
+
+#. type: Bullet: '* '
+msgid ""
+"It is possible to navigate filtering options with the vertical arrows. The "
+"Enter key is used to check or uncheck a filter;"
+msgstr ""
+"Suodatinvaihtoehtojen välillä on mahdollista liikkua nuolinäppäimillä ylös "
+"ja alas. Vaihtoehto valitaan tai sen valinta poistetaan Enter-näppäimellä."
+
+#. type: Bullet: '* '
+msgid ""
+"Adding or removing tags is done by simply pressing Shift+ a digit on the "
+"alphanumeric keyboard. For example, press Shift+4 to add the \"To Do\" tag "
+"to a message. You can then filter the message list by tag via the quick "
+"filter bar which is hence accessible;"
+msgstr ""
+"Tärkeystunnuksia lisätään tai poistetaan painamalla Vaihto+numeroa "
+"aakkosnumeeriselta näppäimistöltä. Esimerkiksi numero 4:n painaminen lisää "
+"viestiin \"Tehtävä\"-tunnuksen. Tämän jälkeen viestiluetteloa voidaan "
+"suodattaa tunnuksien perusteella pikasuodatuspalkista, joka on nyt "
+"saavutettava."
+
+#. type: Title ###
+#, no-wrap
+msgid "The Message Write Window"
+msgstr "Viestinkirjoitusikkuna"
+
+#. type: Plain text
+msgid ""
+"Alt+1 announces the Sender, Alt+2 announces the Recipient, Alt+3 announces "
+"the Attachments, etc. Two presses place the focus on one of these fields;"
+msgstr ""
+"Alt+1 puhuu lähettäjän, Alt+2 vastaanottajan, Alt+3 liitteet jne. Kaksi "
+"painallusta siirtää kohdistuksen kyseiseen kenttään."
+
+#. type: Title ###
+#, no-wrap
+msgid "Spell-check Dialog"
+msgstr "Oikeinkirjoituksen tarkistuksen valintaikkuna"
+
+#. type: Bullet: '* '
+msgid ""
+"The misspelled word is announced with or without spelling before the "
+"suggested word. The shortcuts NVDA+Tab or Alt+up arrow announce misspelled "
+"and replacement words: 1 press spells the words at normal speed, 2 presses "
+"spell them quickly, 3 presses copy the misspelled word to the clipboard for "
+"analysis in another edit field;"
+msgstr ""
+"Väärin kirjoitettu sana puhutaan tavattuna tai ilman tavausta ennen "
+"ehdotettua sanaa. NVDA+Sarkain- tai Alt+Nuoli ylös -pikanäppäimet puhuvat "
+"väärin kirjoitetun ja korvaavan sanan: Yhdellä painalluksella sanat tavataan "
+"normaalinopeudella, kahdella painalluksella ne tavataan nopeasti, kolmella "
+"painalluksella väärin kirjoitettu sana kopioidaan leikepöydälle."
+
+#. type: Bullet: '* '
+msgid ""
+"Various combinations involving the Enter key trigger the Replace, Replace "
+"All, Ignore, Ignore All, or Add Word to Dictionary buttons have been added "
+"for even more convenience within this dialog;"
+msgstr ""
+"Lisätty tämän valintaikkunan käyttömukavuutta lisäämällä Enter-näppäimen eri "
+"yhdistelmiä Korvaa-, Korvaa kaikki-, Ohita-, Ohita kaikki- tai Lisää "
+"sanastoon -painikkeiden painamiseen."
+
+#. type: Title ###
+#, no-wrap
+msgid "Automatic Update"
+msgstr "Automaattinen päivitys"
+
+#. type: Plain text
+msgid ""
+"ThunderbirdPlus contains an independent auto-update system with deactivation/"
+"reactivation and postponement features;"
+msgstr ""
+"ThunderbirdPlus sisältää itsenäisen automaattisen päivitysjärjestelmän, "
+"jossa on käytöstäpoisto/käyttöönotto- ja päivityksen lykkäystoiminnot."
+
+#. type: Title ###
+#, no-wrap
+msgid "Side-to-side Operation with Chichi"
+msgstr "Käyttäminen Chichin kanssa"
+
+#. type: Plain text
+msgid ""
+"ThunderbirdPlus is designed to work seamlessly with Chichi, an add-on that "
+"installs directly onto Thunderbird."
+msgstr ""
+"ThunderbirdPlus on suunniteltu toimimaan saumattomasti Chichi-lisäosan "
+"kanssa, joka asennetaan suoraan Thunderbirdiin."
+
+#. type: Plain text
+msgid "Read about this on the [page of Chichi][7] ;"
+msgstr "Lue lisää [Chichin sivulta][7] ;"
+
+#. type: Plain text
+msgid ""
+"And many other things that you will discover by reading the [user manual]"
+"[4] ;"
+msgstr "Sekä monia muita ominaisuuksia, jotka löytyvät [käyttöoppaasta][4]."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<!-- Translators : in the links 4, 5 and 7 below, where you see lang=en, replace en with your language code -->\n"
+msgstr "<!-- Translators: in the links 4, 5 and 7 below, where you see lang=en, replace en with your language code -->\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=thunderbirdPlus"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=thunderbirdPlus"
+
+#. type: Plain text
+msgid "[2]: https://github.com/RPTools-org/ThunderbirdPlus/"
+msgstr "[2]: https://github.com/RPTools-org/ThunderbirdPlus/"
+
+#. type: Plain text
+msgid "[3]: https://www.rptools.org/?p=8610"
+msgstr "[3]: https://www.rptools.org/?p=8610"
+
+#. type: Plain text
+msgid "[4]: https://www.rptools.org/NVDA-Thunderbird/get.php?pg=manual&lang=en"
+msgstr ""
+"[4]: https://www.rptools.org/NVDA-Thunderbird/get.php?pg=manual&lang=en"
+
+#. type: Plain text
+msgid ""
+"[5]: https://www.rptools.org/NVDA-Thunderbird/get.php?pg=changes&lang=en"
+msgstr ""
+"[5]: https://www.rptools.org/NVDA-Thunderbird/get.php?pg=changes&lang=en"
+
+#. type: Plain text
+msgid "[6]: https://www.rptools.org/NVDA-Thunderbird/toContact.html"
+msgstr "[6]: https://www.rptools.org/NVDA-Thunderbird/toContact.html"
+
+#. type: Plain text
+msgid "[7]: https://www.rptools.org/NVDA-Thunderbird/get.php?pg=chichi&lang=en"
+msgstr ""
+"[7]: https://www.rptools.org/NVDA-Thunderbird/get.php?pg=chichi&lang=en"
+
+#~ msgid ""
+#~ "Note: This add-on is not compatible with the Mozilla Apps Enhancements "
+#~ "add-on. If the latter is installed, you will have to disable or uninstall "
+#~ "it before installing Thunderbird+;"
+#~ msgstr ""
+#~ "Huom: Tämä lisäosa ei ole yhteensopiva Mozilla-sovellusten laajennukset -"
+#~ "lisäosan kanssa. Mikäli se on asennettuna, poista se käytöstä tai poista "
+#~ "se ennen tämän lisäosan asentamista."
+
+#~ msgid ""
+#~ "URL: [User manual](https://www.rptools.org/Outils-DV/NVDA-ThunderbirdPlus-"
+#~ "en.html) , [Contact in French or English](https://www.rptools.org/Outils-"
+#~ "DV/contact.html)"
+#~ msgstr ""
+#~ "URL: [Käyttöopas](https://www.rptools.org/Outils-DV/NVDA-ThunderbirdPlus-"
+#~ "en.html) , [Ota yhteyttä ranskaksi tai englanniksi](https://www.rptools."
+#~ "org/Outils-DV/contact.html)"
+
+#~ msgid "Hearing comfort"
+#~ msgstr "Kuulomukavuus"
+
+#~ msgid "Improved navigation"
+#~ msgstr "Paranneltu navigointi"
+
+#~ msgid "\t## Compose message window\n"
+#~ msgstr "\t## Viestinkirjoitusikkuna\n"

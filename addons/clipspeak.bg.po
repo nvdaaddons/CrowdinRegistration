@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:37+0000\n"
+"PO-Revision-Date: 2024-05-24 15:46+0300\n"
+"Last-Translator: Kostadin Kolev <k.kolev1985@gmail.com>\n"
+"Language-Team: \n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Clipspeak\"]]\n"
+msgstr "[[!meta title=\"Изговаряне на клипборда (Clipspeak)\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Informations"
+msgstr "Информация"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: \"Rui Fontes, Ângelo Abrantes, Abel Passos Júnior and colaboration "
+"of Noelia Ruiz Martínez, based on the work of Damien Sykes-Lindley"
+msgstr ""
+"Автори: Rui Fontes, Ângelo Abrantes, Abel Passos Júnior и със "
+"сътрудничеството на Noelia Ruiz Martínez, базирано на работата на Damien "
+"Sykes-Lindley"
+
+#. type: Bullet: '* '
+msgid "Updated in 10/04/2022"
+msgstr "Обновено на 10.04.2022 г."
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
+
+#. type: Bullet: '* '
+msgid "Compatibility: NVDA version 2019.3 and beyond"
+msgstr "Съвместимост с NVDA: 2019.3 и по-нови версии"
+
+#. type: Title ##
+#, no-wrap
+msgid "Presentation"
+msgstr "Представяне"
+
+#. type: Plain text
+msgid ""
+"Clipspeak is an addon that allows NVDA to automatically announce clipboard "
+"operations (such as cut, copy and paste), along with other common editing "
+"operations such as undo and redo."
+msgstr ""
+"\"Изговаряне на клипборда\" (\"Clipspeak\") е добавка, която позволява на "
+"NVDA автоматично да докладва операции в клипборда (като изрязване, копиране "
+"и поставяне), заедно с други общи операции за редактиране, като отмяна и "
+"повторение."
+
+#. type: Plain text
+msgid ""
+"In order to prevent announcement in inappropriate situations, Clipspeak "
+"performs checks on the control and the clipboard in order to make an "
+"informed decision as to whether such an announcement is necessary."
+msgstr ""
+"С цел избягване на съобщаването на тези операции в случаите в които те "
+"реално не се извършват, \"Изговаряне на клипборда\" извършва проверки на "
+"контролата и клипборда с цел да прецени дали в дадения случай трябва да се "
+"осъществи съобщаване."
+
+#. type: Plain text
+msgid ""
+"You can choose between only announcing copy/cut/paste or also whats is being "
+"copied/cutted/pasted on NVDA, configurations, clipspeak."
+msgstr ""
+"Можете да избирате между само докладване на копирането/изрязването/"
+"поставянето или също какво се копира/изрязва/поставя в прозореца с "
+"настройките на NVDA, в раздела \"ClipSpeak\"."
+
+#. type: Plain text
+msgid ""
+"By default, Clipspeak's gestures are mapped to those commonly used by "
+"English versions of Windows:"
+msgstr ""
+"По подразбиране, командите (жестовете) на \"Изговаряне на клипборда\" "
+"съвпадат с тези, използвани в английските дистрибуции на Windows. Например:"
+
+#. type: Bullet: '* '
+msgid "CTRL+Z: Undo"
+msgstr "Control+Z: Отмяна"
+
+#. type: Bullet: '* '
+msgid "CTRL+Y: Redo"
+msgstr "Control+Y: Връщане"
+
+#. type: Bullet: '* '
+msgid "CTRL+X: Cut"
+msgstr "Control+X: Изрязване"
+
+#. type: Bullet: '* '
+msgid "CTRL+C: Copy"
+msgstr "Control+C: Копиране"
+
+#. type: Bullet: '* '
+msgid "CTRL+V: Paste"
+msgstr "Control+V: Поставяне"
+
+#. type: Plain text
+msgid ""
+"If these are not the shortcuts commonly used for these tasks on your version "
+"of Windows, you will need to remap these gestures in the input gestures "
+"configuration under the Clipboard category."
+msgstr ""
+"Ако това не са командите, използвани за тези задачи във вашата версия на "
+"Windows, ще трябва да преназначите тези жестове в прозореца за настройка на "
+"жестовете на въвеждане на NVDA, в категорията \"Клипборд\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Automatic update"
+msgstr "Автоматично обновяване"
+
+#. type: Plain text
+msgid ""
+"This add-on includes an automatic update feature.  The check for a new "
+"version will be executed everytime NVDA is loaded.  If you want this, go to "
+"NVDA, Preferences, Options and in the add-on category check the check box."
+msgstr ""
+"Тази добавка включва функция за автоматично обновяване. Проверката за нова "
+"версия ще се изпълнява всеки път, когато се зареди NVDA. Ако искате това, "
+"отидете в менюто на NVDA -> Настройки -> Опции и в категорията за добавката "
+"включете съответната опция."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=clipspeak"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=clipspeak"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
+
+#, fuzzy
+#~| msgid ""
+#~| "Clipspeak is an addon that allows NVDA to automatically announce "
+#~| "clipboard operations (such as cut, copy and paste), along with other "
+#~| "common editing operations such as select all, undo and redo.  In order "
+#~| "to prevent announcement in inappropriate situations, Clipspeak performs "
+#~| "checks on the control and the clipboard in order to make an informed "
+#~| "decision as to whether such an announcement is necessary. Because of "
+#~| "this, Clipspeak's announcements may be inaccurate.  By default, "
+#~| "Clipspeak's gestures are mapped to those commonly used by English "
+#~| "versions of Windows, I.E.:"
+#~ msgid ""
+#~ "Clipspeak is an addon that allows NVDA to automatically announce "
+#~ "clipboard operations (such as cut, copy and paste), along with other "
+#~ "common editing operations such as undo and redo.  In order to prevent "
+#~ "announcement in inappropriate situations, Clipspeak performs checks on "
+#~ "the control and the clipboard in order to make an informed decision as to "
+#~ "whether such an announcement is necessary.  You can choose between only "
+#~ "announcing copy/cut/paste or also whats is being copied/cutted/pasted on "
+#~ "NVDA, configurations, clipspeak.  By default, Clipspeak's gestures are "
+#~ "mapped to those commonly used by English versions of Windows: * CTRL+Z: "
+#~ "Undo * CTRL+Y: Redo * CTRL+X: Cut * CTRL+C: Copy * CTRL+V: Paste"
+#~ msgstr ""
+#~ "\"Изговаряне на клипборда\" (Clipspeak) е добавка, която позволява на "
+#~ "NVDA автоматично да съобщава операциите, свързани с клипборда (като "
+#~ "например изрязване, копиране и поставяне), в допълнение с други често "
+#~ "използвани действия по редактиране на текст (като например избор на "
+#~ "всичко, отмяна и връщане).  С цел избягване на съобщаването на тези "
+#~ "операции в случаите в които те реално не се извършват, \"Изговаряне на "
+#~ "клипборда\" извършва проверки на контролата и клипборда с цел да прецени "
+#~ "дали в дадения случай трябва да се осъществи съобщаване. Поради тази "
+#~ "причина съобщенията от страна на \"Изговаряне на клипборда\" може да са "
+#~ "неточни.  По подразбиране, командите (жестовете) на \"Изговаряне на "
+#~ "клипборда\" съвпадат с тези, използвани в английските дистрибуции на "
+#~ "Windows. Например:"
+
+#~ msgid "Author: Damien Garwood"
+#~ msgstr "Автор: Damien Garwood"
+
+#~ msgid "NVDA compatibility: 2018.3 to 2019.3"
+#~ msgstr "Съвместимост с NVDA: от 2018.3 до 2019.3"
+
+#~ msgid "CTRL+A: Select all"
+#~ msgstr "Control+A: Избор на всичко"

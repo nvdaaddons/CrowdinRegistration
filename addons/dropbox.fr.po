@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Addons website FR for Dropbox\n"
+"POT-Creation-Date: 2023-05-10 21:28+0000\n"
+"PO-Revision-Date: 2023-04-25 13:18+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"dropbox\"]]\n"
+msgstr "[[!meta title=\"dropbox\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors"
+msgstr ""
+"Auteurs : Patrick ZAJDA <patrick@zajda.fr>, Filaos et d'autres contributeurs"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: NVDA 2019.1 or later"
+msgstr "Compatibilité NVDA : 2019.1 et ultérieurs"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Télécharger [version stable][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Télécharger [version de développement][2]"
+
+#. type: Plain text
+msgid ""
+"This plugin add a shortcut to announce Dropbox status or open the Dropbox "
+"systray menu when pressed once or twice respectively.  It also enhances "
+"DropBox item lists."
+msgstr ""
+"Cette extension ajoute un raccourci permettant d'annoncer le statut ou la "
+"version de Dropbox, mais aussi d'ouvrire le menu contextuel de l'icône "
+"Dropbox dans la zone de notification.  Elle rends également possible "
+"d'utiliser les onglets de la boîte de dialogue préférences avec Ctrl+tab / "
+"Ctrl+Maj+Tab et Ctrl+PagePréc/Suiv.  Pour conclure, ajoute échapp pour "
+"activer le bouton Annuler."
+
+#. type: Bullet: '* '
+msgid "Shortcut: NVDA+Alt+D"
+msgstr "Raccourci : NVDA+Alt+D"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.6"
+msgstr "Changements pour la version 4.6"
+
+#. type: Bullet: '* '
+msgid "Specify NVDA 2021.1 compatibility"
+msgstr "Spécifie la compatibilité avec NVDA 2021.1"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.4"
+msgstr "Changements pour la version 4.4"
+
+#. type: Bullet: '* '
+msgid "Python 3 compatibility"
+msgstr "Compatibilité Python 3"
+
+#. type: Bullet: '* '
+msgid "Use the last addon template"
+msgstr "Utilisation du dernier modèle d'extension"
+
+#. type: Bullet: '* '
+msgid "Repository change to be built with Appveyor"
+msgstr "Changement de dépôt pour être compatible avec Appveyor"
+
+#. type: Bullet: '* '
+msgid "Fixed wrong and removed unused shortcuts in the documentation"
+msgstr ""
+"Correction de raccourcis inutilisés ou incorrects et supprimés dans la "
+"documentation"
+
+#. type: Bullet: '* '
+msgid ""
+"Update the description in the documentation which still referenced the "
+"announcement of the version"
+msgstr ""
+"Mise à jour de la description dans la documentation qui faisait encore "
+"référence à l'annonce de la version"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Changements pour la version 4.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr ""
+"L'aide de l'extension est disponible à partir du Gestionnaire d'Extensions."
+
+#. type: Bullet: '* '
+msgid ""
+"The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid "
+"conflict with audio ducking support."
+msgstr ""
+"Le raccourci pour obtenir le statut de Dropbox a été changé par Alt+NVDA+D "
+"pour éviter tout conflit avec le support d'atténuation audio."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.1"
+msgstr "Changements pour la version 3.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Use another way to get cancel button and page tab. Now we don't have to "
+"focus them before using shortcuts."
+msgstr ""
+"- Le bouton échappe et les onglets fonctionne même si le bouton Annulé/la "
+"liste d'onglets n'a jamais eu le focus."
+
+#. type: Bullet: '* '
+msgid ""
+"When changing the active tab, the focus move to the tab page so when "
+"pressing tab, the first item of the tab is activated instead of staying to "
+"the previous used tab even if it is not activated anymore."
+msgstr ""
+"Lorsque l'on change d'onglet, le premier élément de celui-ci a le focus "
+"comme dans une fenêtre Windows standard."
+
+#. type: Bullet: '* '
+msgid ""
+"In the preferences dialog, it is now possible to press control+page up/down "
+"to switch between tabs. Control+tab and control+shift+tab still work."
+msgstr ""
+"Dans le dialogue des préférences de Dropbox, il est maintenant possible "
+"d'utiliser control+page prec/suiv en plus de Ctrl+Tab/Ctrl+Shift+tab pour "
+"changer d'onglet."
+
+#. type: Bullet: '* '
+msgid "All localized manifest files should now be OK."
+msgstr "Tous les fichiers Manifest sont corrigés."
+
+#. type: Bullet: '* '
+msgid "Minor corrections."
+msgstr "Corrections mineures."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Changements pour la version 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Minor correction in the main manifest file (authors are correctly displayed)."
+msgstr ""
+"Corrections mineures dans le fichier manifest.ini principal (les auteurs "
+"sont correctement affichés)"
+
+#. type: Bullet: '* '
+msgid "Improved context menu detection when pressing Shift+NVDA+D three times."
+msgstr ""
+"Amélioration de la détection du menu contextuel lorsqu'on appui trois fois "
+"sur maj+NVDA+D."
+
+#. type: Bullet: '* '
+msgid ""
+"The escape button now works (only when using Dropbox in the same language "
+"NVDA uses)."
+msgstr ""
+"Le bouton échapp fonctionne maintenant (seulement si Dropbox est dans la "
+"même langue que NVDA)."
+
+#. type: Bullet: '* '
+msgid "A lot of corrections in the code."
+msgstr "De nombreuses corrections dans le code."
+
+#. type: Bullet: '* '
+msgid "Added/updated documentations of all scripts."
+msgstr "Ajout/mise à jours de la documentation de tous les scripts."
+
+#. type: Bullet: '* '
+msgid ""
+"New languages: Arabic, Brazilian Portuguese, Czech, Dutch, Finnish, "
+"Galician, German, Hungarian, Japanese, Nepali, Polish, Russian, Spanish, "
+"Slovak, Tamil, Turkish."
+msgstr ""
+"Nouvelles langues: Arabe, Portugais Brésilien, Tchèque, Néerlandais, "
+"Finnois, Galicien, Allemand, Hongrois, Japonais, Népalais, Polonais, Russe, "
+"Espagnol, Slovak, Tamoul, Turc."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Changements pour la version 2.0"
+
+#. type: Bullet: '* '
+msgid "New languages: Italian"
+msgstr "Nouvelles langues : Italien"
+
+#. type: Bullet: '* '
+msgid ""
+"Pressing the shortcut three times or more when already being in the context "
+"menu doesn't cause problem anymore."
+msgstr ""
+"Faire trois fois le raccourci pour ouvrire le menu contextuel lorsque celui-"
+"ci est déjà ouvert ne le refermera plus ni ne le fera buguer autrement."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Changements pour la version 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Première version."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=dx"
+
+#~ msgid "Ctrl+Alt+T announce the active tab."
+#~ msgstr "Ctrl+Alt+T annonce l'onglet actif."
+
+#~ msgid "Known issues"
+#~ msgstr "Problèmes connus"
+
+#~ msgid ""
+#~ "* If you switch between tabs using the shortcuts, when you'll close the "
+#~ "preferences window, NVDA won't be able to know the windows doesn't exist "
+#~ "anymore.\n"
+#~ "It is a known issue on NVDA and cannot be fixed.\n"
+#~ msgstr ""
+#~ "* Si vous changez entre les onglets en utilisant les raccourcis, lorsque "
+#~ "vous fermerez la fenêtre des préférences, NVDA ne pourra pas savoir que "
+#~ "les fenêtres n'existent plus.\n"
+#~ "Ce souci est connu dans NVDA, il est probablement du à Windows et ne peut "
+#~ "donc pas être corrigé.\n"

@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2016-12-29 14:42-0800\n"
+"Last-Translator: OAron <info@o-soft.hu>\n"
+"Language-Team: HU <LL@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"instantTranslate\"]]\n"
+msgstr "[[!meta title=\"Gyorsfordító\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino "
+"and other NVDA contributors."
+msgstr ""
+"Készítők: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino, "
+"és további NVDA közreműködők."
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Letöltés [Stabil verzió][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Letöltés [Fejlesztői verzió][2]"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This add-on is used to translate selected and/or clipboard text from one "
+#| "language to another.  This is done using an external service."
+msgid ""
+"This add-on is used to translate selected and/or clipboard text from one "
+"language to another.  This is done using the Google Translate service."
+msgstr ""
+"A kiegészítő használatával egy kijelölt és/vagy vágólapra másolt szöveget "
+"fordíthat le egyik nyelvről a másikra egy külső fordítási szolgáltató, "
+"jelenleg a Yandex  fordító segítségével."
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuring languages"
+msgstr "Nyelvek beállítása"
+
+#. type: Plain text
+#, no-wrap
+msgid "To configure source, target and in case swap language, go to: NVDA Menu >> Preferences >> Instant Translate Settings.\n"
+msgstr "A forrás, célnyelv, és nyelvek felcserélésére szolgáló lehetőségeket az NVDA menü->beállítások->Gyorsfordító beállításai menüpontban érheti el.\n"
+
+#. type: Plain text
+msgid ""
+"There are two comboboxes labeled \"Source language\" and \"Target language"
+"\", and a checkbox to decide if it must copy the translation to clipboard."
+msgstr ""
+"A megnyíló ablakban két kombinált listamező található a forrásnyelv és "
+"célnyelv beállítására, ill. egy jelölőnégyzet, mellyel a fordítás vágólapra "
+"másolását lehet elrendelni vagy tiltani."
+
+#. type: Plain text
+msgid ""
+"In addition, if you selected auto option (the first choice) from \"Source "
+"language\" combobox, there are also a combobox labeled \"Language for "
+"swapping\" and a checkbox about the auto-swap."
+msgstr ""
+"Amennyiben a forrásnyelvnél az automatikus nyelvfelismerését választotta ki "
+"(a listában az első elem), megjelenik egy \"Felcserélés nyelve\" megnevezésű "
+"lista, amellyel a nyelv felcserélését lehet konfigurálni, és egy az "
+"automatikus felcserélés beállítására való jelölőnégyzet is."
+
+#. type: Plain text
+msgid ""
+"The meaning of two first comboboxes and checkbox for copy is clear, but some "
+"words about the rest are necessary. Remember always that the explanations "
+"below assume the source language set on the auto option."
+msgstr ""
+"Az első két kombinált listamező és a másolást szabályzó jelölőnégyzet "
+"működése egyértelmű, viszont a többi beállítás bővebb magyarázatra szorul. "
+"Fontos, hogy az alábbiak csak akkor érvényesek, ha a forrás nyelve "
+"automatikusra van állítva."
+
+#. type: Plain text
+msgid ""
+"The \"Language for swapping\" combobox is useful when you swap via script "
+"(see below) the source and target language; in fact, a target language set "
+"on the auto option has no sense, so the addon sets it to value of combobox "
+"above."
+msgstr ""
+"A \"Felcserélés nyelve\" funkció abban az esetben hasznos, ha a forrás és "
+"cél nyelv váltását automatikusan szeretné megoldani. Mivel az automatikus "
+"felismerésnek a cél nyelv esetén nincs értelme, így ez ebben a listában nem "
+"jelenik meg."
+
+#. type: Plain text
+msgid ""
+"So, imagine this situation: you usually translate into English (your main "
+"language), but sometimes (for example, when you write a document) you need "
+"to translate into Italian (your second language, suppose); you can set "
+"\"Language for swapping\" combobox to Italian, so you will translate from "
+"English to Italian without accessing directly to the addon settings. "
+"Obviously this function has a major or minor utility according to your more "
+"frequent needs."
+msgstr ""
+"Képzelje el a következő szituációt: Minden szöveget magyar nyelvre szeretne "
+"lefordítani, de olykor a magyarul begépelt szövegnek szeretné megnézni az "
+"angol fordítását is. Amennyiben a felcserélés nyelvét angolra állítja, úgy a "
+"két nyelv közötti fordítás automatikusan megtörténik, anélkül, hogy "
+"megnyitná a kiegészítő párbeszédablakát."
+
+#. type: Plain text
+msgid ""
+"Now, the auto-swap checkbox: it appears if and only if you set the auto "
+"option in \"Source language\" combobox, and is directly connected with "
+"\"Language for swapping\" combobox. If you activate it, then the addon tries "
+"to commute automatically from your source and target configuration to a "
+"configuration where target becomes the source language, and language "
+"selected in \"Language for swapping\" combobox is the new target language; "
+"extremely useful if the source language of the text you want translate is "
+"the target language."
+msgstr ""
+"Ha a forrás nyelvnél az automatikus felismerés van kiválasztva, megjelenik "
+"egy jelölőnégyzet az automatikus forrás és célnyelv felcseréléséről. Ha "
+"aktiválja ezt, a kiegészítő megpróbálja automatikusan váltogatni a forrás és "
+"a célnyelvet. Ekkor a forrás nyelv lesz a célnyelv, és a \"Felcserélés nyelve"
+"\" az új forrás nyelv. Ez a lehetőség akkor nagyon hasznos, hogyha a "
+"beállított célnyelvről szeretnénk egy szöveget lefordíttatni."
+
+#. type: Plain text
+msgid ""
+"A simple example: take again in mind the situation imagined previously; if "
+"you translate a text in a language different from English, there is no "
+"problem, you get the correct translation in English. But if you need to "
+"translate a text from English, normally you get a translation into English "
+"identical to original text, and this is a bit useless. Thanks to auto-swap "
+"function, however, assuming that you want to know how your text sounds into "
+"Italian, the addon commutes automatically the target language to Italian, so "
+"it returns a valid translation."
+msgstr ""
+"A fenti példából  kiindulva, ha bármilyen szöveget lefordít magyarra, az "
+"eredmény magyar nyelvű lesz. A felcserélés nyelve funkció használata nélkül "
+"ha egy magyar szöveget ad meg a programnak, ugyanazt a szöveget kapja "
+"vissza, aminek nincs túl sok értelme. Az automatikus felcserélésnek "
+"köszönhetően a kiegészítő felismeri, hogy az éppen kijelölt szöveget milyen "
+"nyelvre kell lefordítania, ha a szöveg nyelve nem egyezik meg a "
+"célnyelvével, akkor automatikusan a célnyelven adja vissza."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Anyway, this is a temporary configuration; if this option has no effect "
+#| "(it's experimental), try to commute manually to a stable configuration, "
+#| "using the gesture for swapping described below. It's experimental because "
+#| "in some situations (with short texts, tipically), Google does not "
+#| "recognize the real source language correctly, and you have to swap "
+#| "languages manually via script, so to force the source language to be the "
+#| "previous target language (English in our example)."
+msgid ""
+"Anyway, this is a temporary configuration; if this option has no effect "
+"(it's experimental), try to commute manually to a stable configuration, "
+"using the gesture for swapping described below. It's experimental because in "
+"some situations (with short texts, typically), Google does not recognize the "
+"real source language correctly, and you have to swap languages manually via "
+"script, so to force the source language to be the previous target language "
+"(English in our example)."
+msgstr ""
+"Ez egy kísérleti funkció, így főképp rövid szövegeknél a fordító nem ismeri "
+"fel a megadott forrás nyelvét, ekkor a fentebb taglalt funkció nem működik "
+"megfelelően."
+
+#. type: Plain text
+#, no-wrap
+msgid "At least, in the speech settings parameters dialog (NVDA Menu >> Preferences >> Speech), you may want to check the \"Automatic language switching (when supported)\" option. This way, if you are using a multi-lingual synthesizer, the translation will be announced using the target language voice of the synthesizer.\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Using"
+msgstr "Használat"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "You can use this add-on in two ways:"
+msgid "You can use this add-on in three ways:"
+msgstr "Kétféle módon is használható ez a kiegészítő:"
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Select some text using selection commands (shift with arrow keys, for "
+#| "example) and press associated key to translate. translation result willbe "
+#| "read with synthesizer which you are using."
+msgid ""
+"Select some text using selection commands (shift with arrow keys, for "
+"example) and press associated key to translate. translation result will be "
+"read with synthesizer which you are using."
+msgstr ""
+"Jelölje ki a lefordítandó szöveget a kijelölési parancsokkal (pl. Shift"
+"+nyilak), majd nyomja meg a fordításhoz szükséges billentyűparancsot. A "
+"lefordított szöveg egy kis idő elteltével elhangzik a célnyelven (feltéve, "
+"ha a használatban lévő beszédszintetizátor támogatja azt)."
+
+#. type: Bullet: '2. '
+msgid "You can also translate text from the Clipboard."
+msgstr "A kiegészítő képes a vágólapon lévő szöveg lefordítására is."
+
+#. type: Bullet: '3. '
+msgid "Press the dedicated shortcut key to translate the last spoken text."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcuts"
+msgstr "Billentyűparancsok"
+
+#. type: Plain text
+msgid ""
+"All following commands must be pressed after modifier key \"NVDA+Shift+t\":"
+msgstr ""
+"Az alábbi parancsok az \"NVDA+Shift+t\" módosító billentyűparancs lenyomása "
+"után használhatók:"
+
+#. type: Bullet: '* '
+msgid "T: Translate selected text,"
+msgstr "T: Lefordítja a kijelölt szöveget,"
+
+#. type: Bullet: '* '
+msgid "Shift+t: translate text from the Clipboard,"
+msgstr "Shift+t: Lefordítja a vágólapon található szöveget,"
+
+#. type: Bullet: '* '
+msgid "S: swap source and target languages,"
+msgstr "S: Felcseréli a forrás- és a célnyelvet."
+
+#. type: Bullet: '* '
+msgid "A: announce current configuration,"
+msgstr "A: Bemondja az aktuális beállításokat,"
+
+#. type: Bullet: '* '
+msgid "C: copy last result to clipboard,"
+msgstr "C: Az utolsó fordítás eredményét a vágólapra másolja,"
+
+#. type: Bullet: '* '
+msgid "I: identify the language of selected text,"
+msgstr "I: Felismeri a kijelölt szöveg nyelvét,"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "T: Translate selected text,"
+msgid "L: translate the last spoken text,"
+msgstr "T: Lefordítja a kijelölt szöveget,"
+
+#. type: Bullet: '* '
+msgid "O: open translation settings dialog"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "H: announces all available commands to user."
+msgid "H: announces all available layered commands."
+msgstr "H: Bemondja az összes rendelkezésre álló felhasználói parancsot."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.1"
+msgid "Changes for 4.4.3"
+msgstr "A 4.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to replace underscores with spaces, may provide better "
+"translation results depending on context (thanks to Beka Gozalishvili)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added compatibility for NVDA 2022.1"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.1"
+msgid "Changes for 4.4.2"
+msgstr "A 4.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"Restore language detection and auto-swapping (Thanks to Cyrille for fix)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "updated languages for translation (thanks to Cyrille)"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.1"
+msgid "Changes for 4.4"
+msgstr "A 4.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"Instant translate is now compatible with NVDA 2019.3 (Python 3 versions of "
+"NVDA)"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.1"
+msgid "Changes for 4.3"
+msgstr "A 4.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"nvda compatibility fix Now instant translate will be compatible with latest "
+"nvda builds."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "found a way to use google as a translation service again."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.1"
+msgid "Changes for 4.2"
+msgstr "A 4.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Restored working state with newer versions of nvda."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Restored automatic language detection."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.1"
+msgstr "A 4.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"InstantTranslate is working again, now with Yandex translator service "
+"instead of Google."
+msgstr ""
+"A gyorsfordító újra működik, a Google szolgáltatása helyett Yandex fordító "
+"szolgáltatásával."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "A 4.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Translation is automatically performed after swapping."
+msgstr ""
+"A fordítás eredménye automatikusan a vágólapra kerül a nyelv  felcserélést "
+"követöen."
+
+#. type: Bullet: '* '
+msgid "Cache bug fixed."
+msgstr "A gyorsítótárazási hibát javították."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "A 3.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"Change way how Shortcuts are used, now you can press instantTranslate "
+"modifier key \"NVDA+Shift+t\", and then single letter key to perform some "
+"action (see all Commands in the \"Shortcuts\" section)."
+msgstr ""
+"Megváltoztatták a billentyűparancsok felépítését, az NVDA+shift+t megnyomása "
+"után az egykarakteres gyorsbillentyűt lenyomva aktiválható a kiválasztott "
+"funkció. Bővebb információk a {\"Billentyűparancsok\" fejezetben} olvashatók."
+
+#. type: Bullet: '* '
+msgid "Implemented swapping languages."
+msgstr "Beépítették a nyelvek felcserélése funkciót."
+
+#. type: Bullet: '* '
+msgid ""
+"Changed configuration format, now we can change instant translate settings "
+"if we are in readonly pane, but remember that this will work before first "
+"restart of NVDA."
+msgstr ""
+"A beállítás módjának megváltoztatása, így módosíthatóak a Gyorsfordító "
+"beállításai egy csak olvasható eszközön is, de ezek csak az NVDA "
+"újraindításáig maradnak életben."
+
+#. type: Bullet: '* '
+msgid "Removed limit on amount of text that can be translated."
+msgstr "A lefordítható szöveg mennyisége korlátozásának megszüntetése."
+
+#. type: Bullet: '* '
+msgid "Added shortcut t to the Instant Translate Settings menu item"
+msgstr "Gyorsbillentyű hozzáadása a Gyorsfordító menüjének eléréséhez."
+
+#. type: Bullet: '* '
+msgid ""
+"The auto option is now in first position in source combo, and absent in "
+"target combo."
+msgstr ""
+"Az automatikus felismerés a legelső a forrásnyelv listában, a célnyelvéből "
+"pedig hiányzik."
+
+#. type: Bullet: '* '
+msgid "Added a checkbox for configuring copying translation results."
+msgstr "Egy jelölőnégyzet hozzáadása a fordítás eredményének konfigurálásához."
+
+#. type: Bullet: '* '
+msgid "Store config file in the root of settings folder."
+msgstr "A konfigurációs fájl a beállítások főmappájában található."
+
+#. type: Bullet: '* '
+msgid ""
+"Source and target languages syncronized with what Google Translate currently "
+"exposes (22 Apr 2015)."
+msgstr ""
+"A forrás és célnyelv már a Google-nek megfelelő formátumban kerül elküldésre "
+"(2015 április22)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "A 2.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Now addon can translate text from clipboard when pressing nvda+shift+y."
+msgstr ""
+"Mostantól a kiegészítő képes a vágólapon lévő szöveg lefordítására is az nvda"
+"+shift+y billentyűparanccsal."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "A 2.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"Added gui configurator where you can choose source and target languages."
+msgstr "Grafikus ablak hozzáadása, ahol kiválasztható a forrás és a célnyelv."
+
+#. type: Bullet: '* '
+msgid "Added addon menu item found under preferences menu."
+msgstr "A kiegészítő menüjének hozzáadása a beállítások menühöz."
+
+#. type: Bullet: '* '
+msgid "Settings now is written in separate config file."
+msgstr "A beállítások mostantól egy elkülönített konfigurációs fájlba íródnak."
+
+#. type: Bullet: '* '
+msgid ""
+"Translation results now automatically copies into the clipboard for future "
+"manipulations."
+msgstr ""
+"A fordítás eredménye automatikusan a vágólapra kerül, így később ez könnyen "
+"használható."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Az 1.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Első változat"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "[[!tag dev]]\n"
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=it"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=instantTranslate"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=it"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=it-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=it-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=it-dev"

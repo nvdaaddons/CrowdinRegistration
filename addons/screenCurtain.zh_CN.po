@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-07-27 05:41+0000\n"
+"PO-Revision-Date: 2023-07-27 18:47+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Screen Curtain\"]]\n"
+msgstr "[[!meta title=\"黑屏-Screen Curtain\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Babbage B.V., Joseph Lee"
+msgstr "作者: Babbage B.V., Joseph Lee"
+
+#. type: Bullet: '* '
+msgid "Download [development version][1]"
+msgstr "下载 [开发板][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2018.3 to 2019.2"
+msgstr "NVDA兼容版本: 2018.3至2019.2"
+
+#. type: Bullet: '* '
+msgid ""
+"This is a legacy add-on: NVDA 2019.3 includes screen curtain functionality"
+msgstr "这是旧版插件：NVDA 2019.3已集成黑屏功能。"
+
+#. type: Plain text
+msgid ""
+"This add-on brings NVDA Core issue 7857 to life: adding screen curtain "
+"functionality on Windows 8 and later."
+msgstr ""
+"此插件主要是NVDA Core issue 7857的概念证明，主要实现了：在Windows 8及更高版"
+"本中添加屏幕幕布功能，这可以在运行NVDA的过程中让屏幕变黑，最终目的是保护用户"
+"的隐私不受侵犯。"
+
+#. type: Plain text
+msgid ""
+"To use this add-on, go to NVDA menu/Tools/Screen Curtain. If the item is "
+"checked, screen curtain is active, otherwise it is off. You can also assign "
+"a command to toggle screen curtain from everywhere. When toggling this "
+"feature, NVDA will announce a status message, and in case screen curtain is "
+"active when NVDA starts, a tone will be heard."
+msgstr ""
+"要使用此插件，请打开NVDA菜单/工具/屏幕幕布。如果选中该项目，则幕布处于活动状"
+"态，否则将关闭。您还可以指定快捷键以从任何位置切换屏幕幕布。切换此功能时，"
+"NVDA将朗读状态信息，如果NVDA启动时屏幕幕布有效，将听到提示音。"
+
+#. type: Plain text
+msgid ""
+"To ask NVDA to turn on screen curtain while using it, go to NVDA menu/"
+"Preferences/Settings/Screen curtain. Check \"use screen curtain\" checkbox "
+"to enable screen curtain, uncheck to disable. You can also configure this "
+"setting while profiles other than normal configuration is active so you can "
+"use screen curtain while a profile is active (while using an app, for "
+"example)."
+msgstr ""
+"要让NVDA在使用时打开屏幕幕布，请打开NVDA菜单/首选项/设置/屏幕幕布。选中“使用"
+"屏幕幕布”复选框以启用屏幕幕布，取消选中以禁用。您还可以在正常配置以外的配置"
+"文件处于活动状态时配置此设置，以便在配置文件处于活动状态时（例如，在使用应用"
+"程序时）使用屏幕幕布。"
+
+#. type: Plain text
+msgid ""
+"IMPORTANT: this is a proof of concept add-on. As screen curtain "
+"functionality is [included in NVDA][2] as of 2019.3, this add-on is "
+"discontinued."
+msgstr ""
+"重要提示：这是概念插件。由于自2019.3起[NVDA中已包含屏幕帘功能] [2]，因此该插"
+"件已停止开发。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 18.08"
+msgstr "版本18.08"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "发布初始版本。"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=nvda7857"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=nvda7857"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvaccess/nvda/issues/7857"
+msgstr "[2]: https://github.com/nvaccess/nvda/issues/7857"

@@ -1,0 +1,981 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TeleNVDA\n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2025-04-30 18:38+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"TeleNVDA\"]]\n"
+msgstr "[[!meta title=\"TeleNVDA\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: Asociación Comunidad Hispanohablante de NVDA and other "
+"contributors. Original work by Tyler Spivey and Christopher Toth"
+msgstr ""
+"Yazarlar: NVDA İspanyol Topluluğu Derneği ve diğer katkıda bulunanlar. Tyler "
+"Spivey ve Christopher Toth'un orijinal çalışması"
+
+#. type: Bullet: '* '
+msgid "NVDA Compatibility: 2019.3 and beyond"
+msgstr "NVDA Uyumluluğu: 2019.3 ve sonrası"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü indir][1]"
+
+#. type: Plain text
+msgid ""
+"Note: in order to make download easier for users who need assistance or "
+"training and have limited computing skills, we provide an alternate link to "
+"the latest stable version which is easy to remember and share. You can go to "
+"[nvda.es/tele](https://nvda.es/tele) and download the add-on directly, "
+"without intermediate web pages."
+msgstr ""
+"Not: Yardıma veya eğitime ihtiyaç duyan ve sınırlı bilgi işlem becerilerine "
+"sahip kullanıcılar için indirmeyi kolaylaştırmak amacıyla, hatırlaması ve "
+"paylaşması kolay en son kararlı sürüme alternatif bir bağlantı sağlıyoruz. "
+"[nvda.es/tele](https://nvda.es/tele) adresine gidip eklentiyi ara web "
+"sayfaları olmadan doğrudan indirebilirsiniz."
+
+#. type: Plain text
+msgid ""
+"Welcome to the TeleNVDA addon, which will allow you to connect to another "
+"computer running the free NVDA screen reader. With this add-on, you can "
+"connect to another person's computer, or allow a trusted person to connect "
+"to your system to perform routine maintenance, diagnose a problem, or "
+"provide training. This add-on is a modified version of the [NVDA Remote add-"
+"on](https://nvdaremote.com), and is maintained by the NVDA spanish "
+"community. It's fully compatible with NVDA Remote. These are the current "
+"differences:"
+msgstr ""
+"Ücretsiz NVDA ekran okuyucusunu çalıştıran başka bir bilgisayara "
+"bağlanmanızı sağlayacak TeleNVDA eklentisine hoş geldiniz. Bu eklenti ile "
+"başka bir kişinin bilgisayarına bağlanabilir veya güvendiğiniz bir kişinin "
+"rutin bakım yapmak, bir sorunu teşhis etmek veya eğitim vermek için "
+"sisteminize bağlanmasına izin verebilirsiniz. Bu eklenti, [NVDA Uzaktan "
+"Destek eklentisinin](https://nvdaremote.com) değiştirilmiş bir versiyonudur "
+"ve NVDA ispanyol topluluğu tarafından sağlanmaktadır. NVDA Uzaktan Destek "
+"ile tamamen uyumludur. Var olan farklılıklar aşağıdaki gibidir:"
+
+#. type: Bullet: '* '
+msgid ""
+"A gesture (unassigned by default) reports how many computers are connected "
+"to a remote session."
+msgstr ""
+"Bir hareket (varsayılan olarak atanmamış), uzak bir oturuma kaç bilgisayarın "
+"bağlı olduğunu bildirir."
+
+#. type: Bullet: '* '
+msgid "An option allows blocking remote speech commands different from text."
+msgstr ""
+"Bir seçenek, metinden farklı uzaktan konuşma komutlarının engellenmesini "
+"sağlar."
+
+#. type: Bullet: '* '
+msgid ""
+"An option allows displaying server welcome message (also known as message of "
+"the day) only on first connection or whenever the message changes, ignoring "
+"the server preferences."
+msgstr ""
+"Bir seçenek, sunucu hoş geldiniz mesajının (günün mesajı olarak da bilinir) "
+"yalnızca ilk bağlantıda veya mesaj değiştiğinde sunucu tercihlerini göz ardı "
+"ederek görüntülenmesine olanak tanır."
+
+#. type: Bullet: '* '
+msgid ""
+"An option to mute remote speech when controlling the local machine and "
+"unmute it when controlling the remote machine."
+msgstr ""
+"Yerel makineyi kontrol ederken uzaktan konuşmayı susturma ve uzak makineyi "
+"kontrol ederken sesini açma seçeneği."
+
+#. type: Bullet: '* '
+msgid ""
+"Improved support for proxy servers and TOR hidden services ([Proxy support "
+"add-on](https://addons.nvda-project.org/addons/proxy.en.html) is required)."
+msgstr ""
+"Proxy sunucuları ve TOR gizli hizmetleri için geliştirilmiş destek ([Proxy "
+"desteği eklentisi](https://addons.nvda-project.org/addons/proxy.en.html) "
+"gereklidir)."
+
+#. type: Bullet: '* '
+msgid ""
+"Ability to change the f11 key to another gesture. Now this works as a common "
+"script so, you can assign gestures in the \"Input Gestures\" dialog."
+msgstr ""
+"F11 tuşunu başka bir hareketle değiştirebilme. Şimdi bu ortak bir komut "
+"olarak çalışır, böylece \"Girdi Hareketleri\" iletişim kutusunda hareketleri "
+"atayabilirsiniz."
+
+#. type: Bullet: '* '
+msgid "a gesture (unassigned by default) to open the addon options"
+msgstr ""
+"eklenti seçeneklerini açmak için bir hareket (varsayılan olarak atanmamıştır)"
+
+#. type: Bullet: '* '
+msgid ""
+"Ability to assign a gesture to the send ctrl+alt+delete option in the input "
+"Gestures dialog. Warning! you shouldn't assighn the ctrl+alt+delete keys to "
+"this option. Doing it will stil work normally, but anytime you press "
+"ctrl+alt+delete keys to send the ctrl+alt+delete to the remote machine, your "
+"own machine will also be affected by the ctrl+alt+delete function, which is "
+"likely not what you expect!"
+msgstr ""
+"Girdi Hareketleri iletişim kutusundaki ctrl+alt+delete gönder seçeneğine bir "
+"hareket atayabilme. Uyarı! Bu seçeneğe Ctrl+Alt+Delete tuşlarını "
+"atamamalısınız. Bunu yapmak yine de normal şekilde çalışacaktır, ancak "
+"ctrl+alt+delete'i uzak makineye göndermek için ctrl+alt+delete tuşlarına her "
+"bastığınızda, kendi makineniz de ctrl+alt+delete işlevinden etkilenecektir, "
+"ki bu muhtemelen beklediğiniz gibi değildir!"
+
+#. type: Bullet: '* '
+msgid ""
+"Ability to ignore the next immediate gesture completely, it is useful if you "
+"need to send to the remote machine the gesture used to toggle between host "
+"and remote machine."
+msgstr ""
+"Bir sonraki hareketi tamamen görmezden gelme yeteneği, ana makine ile uzak "
+"makine arasında geçiş yapmak için kullanılan hareketi uzak makineye "
+"göndermeniz gerekiyorsa kullanışlıdır."
+
+#. type: Bullet: '* '
+msgid ""
+"Ability to exchange small files (up to 10 MB) among users connected to the "
+"same session."
+msgstr ""
+"Aynı oturuma bağlı kullanıcılar arasında küçük dosya alışverişi (10 MB'a "
+"kadar) yapabilme."
+
+#. type: Bullet: '* '
+msgid "Ability to forward ports via UPNP."
+msgstr "UPNP aracılığıyla bağlantı noktalarını iletme yeteneği."
+
+#. type: Bullet: '* '
+msgid "Ability to use a custom portcheck service."
+msgstr "Özel bir portcheck hizmeti kullanabilme."
+
+#. type: Bullet: '* '
+msgid "Some GUI tweaks."
+msgstr "Bazı GUI düzenlemeleri."
+
+#. type: Bullet: '* '
+msgid "Several bug fixes."
+msgstr "Birkaç hata düzeltmesi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Before You Begin"
+msgstr "Başlamadan Önce"
+
+#. type: Plain text
+msgid ""
+"You will need to have installed NVDA on both computers, and obtain the "
+"TeleNVDA addon."
+msgstr ""
+"NVDA'yı her iki bilgisayara da kurmuş olmanız ve TeleNVDA eklentisini "
+"edinmiş olmanız gerekir."
+
+#. type: Plain text
+msgid ""
+"The installation of both NVDA and the TeleNVDA addon are standard. If you "
+"need more information, this can be found in NVDA's User Guide."
+msgstr ""
+"Hem NVDA'nın hem de TeleNVDA eklentisinin kurulumu standarttır. Daha fazla "
+"bilgiye ihtiyaç duyarsanız, bu NVDA Kullanıcı Kılavuzunda bulunabilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Updating"
+msgstr "Güncelleştirme"
+
+#. type: Plain text
+msgid ""
+"When updating the addon, if you have installed TeleNVDA on the secure "
+"desktop, it is recommended that you also update the copy on the secure "
+"desktop."
+msgstr ""
+"Eklentiyi güncellerken, TeleNVDA'yı güvenli masaüstüne yüklediyseniz, "
+"kopyayı güvenli masaüstünde de güncellemeniz önerilir."
+
+#. type: Plain text
+msgid ""
+"To do this, first update your existing addon. Then open the NVDA menu, "
+"preferences, General settings, and press the button labeled \"Use currently "
+"saved settings on the logon and other secure screens (requires administrator "
+"privileges)\"."
+msgstr ""
+"Bunun için öncelikle mevcut eklentinizi güncelleyin. Ardından NVDA menüsünü, "
+"tercihleri, Ayarlar, geneli açın ve \"Oturum açma ve diğer güvenli "
+"ekranlarda (yönetici ayrıcalıkları gerektirir) şu anda kayıtlı ayarları "
+"kullan\" etiketli düğmeye basın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Starting a remote session through a relay server"
+msgstr "Aktarıcı sunucu üzerinden uzak oturum başlatma"
+
+#. type: Title ###
+#, no-wrap
+msgid "On the computer to be controlled"
+msgstr "Kontrol edilecek bilgisayarda"
+
+#. type: Bullet: '1. '
+msgid ""
+"Open the NVDA menu, Tools, Remote, Connect. Or directly press NVDA+alt+page "
+"up. This gesture can be modified from the NVDA input gestures dialog."
+msgstr ""
+"NVDA menüsü, Araçlar, Uzak bağlantı, Bağlan'ı açın. Veya doğrudan "
+"NVDA+alt+Sonraki sayfa tuşlarına basın. Bu hareket, NVDA girdi hareketleri "
+"iletişim kutusundan değiştirilebilir."
+
+#. type: Bullet: '2. '
+msgid "Choose client in the first radio button."
+msgstr "İlk radyo düğmesinde istemciyi seçin."
+
+#. type: Bullet: '4. '
+msgid ""
+"Select Allow this machine to be controlled in the second set of radio "
+"buttons."
+msgstr ""
+"İkinci radyo düğmesi setinde Bu bilgisayarın kontrol edilmesine izin ver "
+"öğesini seçin."
+
+#. type: Bullet: '4. '
+msgid ""
+"In the host field, enter the host of the server you are connecting to, for "
+"example remote.nvda.es. When the particular server uses an alternative port, "
+"you can enter the host in the form &lt;host&gt;:&lt;port&gt;, for example "
+"remote.nvda.es:1234. If you are connecting to an IPV6 address, enter it "
+"between square brackets, for example [2603:1020:800:2::32]."
+msgstr ""
+"Ana bilgisayar alanına, bağlandığınız sunucunun ana bilgisayarını girin, "
+"örneğin remote.nvda.es. Belirli bir sunucu alternatif bir bağlantı noktası "
+"kullandığında, ana bilgisayarı <host>:<port> biçiminde girebilirsiniz, "
+"örneğin remote.nvda.es:1234. Bir IPV6 adresine bağlanıyorsanız, bunu köşeli "
+"parantezler arasında girin, örneğin [2603:1020:800:2::32]."
+
+#. type: Bullet: '5. '
+msgid ""
+"Enter a key into the key field, or press the generate key button. The key is "
+"what others will use to control your computer. The machine being controlled "
+"and all its clients need to use the same key."
+msgstr ""
+"Anahtar alanına bir anahtar girin veya anahtar oluştur düğmesine basın. "
+"Anahtar, başkalarının bilgisayarınızı kontrol etmek için kullanacağı şeydir. "
+"Kontrol edilen makine ve tüm istemcilerinin aynı anahtarı kullanması gerekir."
+
+#. type: Bullet: '6. '
+msgid ""
+"Press ok. Once done, you will hear a tone and connected. If the server "
+"includes a message of the day, it will be displayed in a dialog box. You "
+"will see this dialog everytime you connect or only the first time, depending "
+"on the server configuration."
+msgstr ""
+"Tamam tuşuna basın. Bittiğinde, bir ses duyacaksınız ve bağlanacaksınız. "
+"Sunucu günün mesajını içeriyorsa, bir iletişim kutusunda görüntülenecektir. "
+"Sunucu yapılandırmasına bağlı olarak, her bağlandığınızda veya yalnızca ilk "
+"kez bu iletişim kutusunu göreceksiniz."
+
+#. type: Title ###
+#, no-wrap
+msgid "On the machine that is to be the controlling computer"
+msgstr "Kontrol bilgisayarı olacak makinede"
+
+#. type: Bullet: '3. '
+msgid "Select Control another machine in the second set of radio buttons."
+msgstr ""
+"İkinci radyo düğmesi setinde Başka bir bilgisayarı yönet seçeneğini "
+"belirleyin."
+
+#. type: Bullet: '5. '
+msgid ""
+"Enter a key into the key field, or press the generate key button. The "
+"machine being controlled and all its clients need to use the same key."
+msgstr ""
+"Anahtar alanına bir anahtar girin veya anahtar oluştur düğmesine basın. "
+"Kontrol edilen makine ve tüm istemcilerinin aynı anahtarı kullanması gerekir."
+
+#. type: Title ###
+#, no-wrap
+msgid "Connection security warning"
+msgstr "Bağlantı güvenliği uyarısı"
+
+#. type: Plain text
+msgid ""
+"If you connect to a server without a valid SSL certificate, you will receive "
+"a connection security warning."
+msgstr ""
+"Geçerli bir SSL sertifikası olmayan bir sunucuya bağlanırsanız, bir bağlantı "
+"güvenlik uyarısı alırsınız."
+
+#. type: Plain text
+msgid ""
+"This may mean that your connection is insecure. If you trust this server "
+"fingerprint, you can press \"Connect\" to connect once, or \"Connect and do "
+"not ask again for this server\" to connect and save the fingerprint."
+msgstr ""
+"Bu, bağlantınızın güvensiz olduğu anlamına gelebilir. Bu sunucu parmak izine "
+"güveniyorsanız, bir kez bağlanmak için \"Bağlan\" düğmesine veya bağlanmak "
+"ve parmak izini kaydetmek için \"Bağlan ve bu sunucu için bir daha sorma\" "
+"seçeneğine basabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Direct connections"
+msgstr "Doğrudan bağlantılar"
+
+#. type: Plain text
+msgid ""
+"The server option in the connect dialog allows you to set up a direct "
+"connection."
+msgstr ""
+"Bağlan iletişim kutusundaki sunucu seçeneği, doğrudan bağlantı kurmanıza "
+"olanak tanır."
+
+#. type: Plain text
+msgid ""
+"Once selecting this, select which mode your end of the connection will be in."
+msgstr ""
+"Bunu seçtikten sonra, bağlantınızın sonunun hangi modda olacağını seçin."
+
+#. type: Plain text
+msgid "The other person will connect to you using the opposite."
+msgstr "Diğer kişi ise tam tersini kullanarak size bağlanacaktır."
+
+#. type: Plain text
+msgid ""
+"Once the mode is selected, you can use the Get External IP button to get "
+"your external IP address and make sure the port which is entered in the port "
+"field is forwarded correctly. If enabled on your router, you can forward the "
+"port using UPNP before performing portcheck."
+msgstr ""
+"Mod seçildikten sonra Harici IP Alın butonunu kullanarak harici IP "
+"adresinizi alabilir ve port alanına girilen portun doğru yönlendirildiğinden "
+"emin olabilirsiniz. Yönlendiricinizde etkinleştirildiyse, port kontrolü "
+"gerçekleştirmeden önce UPNP kullanarak portu iletebilirsiniz."
+
+#. type: Plain text
+msgid ""
+"If portcheck detects that your port (6837 by default) is not reachable, a "
+"warning will appear."
+msgstr ""
+"Bağlantı noktası kontrolü, bağlantı noktanıza (varsayılan olarak 6837) "
+"ulaşılamadığını tespit ederse, bir uyarı görüntülenir."
+
+#. type: Plain text
+msgid ""
+"Forward your port and try again. Also, ensure that the NVDA process is "
+"allowed through Windows firewall."
+msgstr ""
+"Bağlantı noktanızı iletin ve tekrar deneyin. Ayrıca, NVDA işlemine Windows "
+"güvenlik duvarı üzerinden izin verildiğinden emin olun."
+
+#. type: Plain text
+msgid ""
+"Note: The process for forwarding ports, enabling UPNP or configuring Windows "
+"firewall is outside of the scope of this document. Please consult the "
+"information provided with your router for further instruction."
+msgstr ""
+"Not: Bağlantı noktalarını iletme, UPNP'yi etkinleştirme veya Windows "
+"güvenlik duvarını yapılandırma işlemleri bu belgenin kapsamı dışındadır. "
+"Daha fazla talimat için lütfen yönlendiricinizle birlikte verilen bilgilere "
+"bakın."
+
+#. type: Plain text
+msgid ""
+"Enter a key into the key field, or press generate. The other person will "
+"need your external IP along with the key to connect. If you entered a port "
+"other than the default (6837) in the port field, make sure that the other "
+"person appends the alternative port to the host address in the form "
+"&lt;external ip&gt;:&lt;port&gt;."
+msgstr ""
+"Anahtar alanına bir anahtar girin veya oluştur'a basın. Diğer kişi, "
+"bağlanmak için anahtarla birlikte harici IP'nize ihtiyaç duyacaktır. "
+"Bağlantı noktası alanına varsayılandan (6837) farklı bir bağlantı noktası "
+"girdiyseniz, diğer kişinin alternatif bağlantı noktasını ana bilgisayar "
+"adresine <harici ip>:<bağlantı noktası> biçiminde eklediğinden emin olun."
+
+#. type: Plain text
+msgid ""
+"If you want to forward the chosen port using UPNP, enable the \"Use UPNP to "
+"forward this port if possible\" checkbox."
+msgstr ""
+"Seçilen bağlantı noktasını UPNP kullanarak iletmek istiyorsanız, \"Mümkünse "
+"bu bağlantı noktasını iletmek için UPNP kullan\" onay kutusunu etkinleştirin."
+
+#. type: Plain text
+msgid ""
+"Once ok is pressed, you will be connected. When the other person connects, "
+"you can use TeleNVDA normally."
+msgstr ""
+"Tamam düğmesine basıldığında bağlanacaksınız. Diğer kişi bağlandığında, "
+"TeleNVDA'yı normal şekilde kullanabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Controlling the remote machine"
+msgstr "Uzak makineyi kontrol etme"
+
+#. type: Plain text
+msgid ""
+"Once the session is connected, the user of the controlling machine can press "
+"f11 to start controlling the remote machine (e.g. by sending keyboard keys "
+"or braille input). This gesture can be changed from NVDA Input Gestures "
+"Dialog."
+msgstr ""
+"Oturum bağlandıktan sonra, kontrol eden makinenin kullanıcısı uzak makineyi "
+"kontrol etmeye başlamak için f11 tuşuna basabilir (ör. klavye tuşları veya "
+"braille girişi göndererek). Bu hareket, NVDA Girdi Hareketleri İletişim "
+"Kutusundan değiştirilebilir."
+
+#. type: Plain text
+msgid ""
+"When NVDA says controlling remote machine, the keyboard and braille display "
+"keys you press will go to the remote machine. Furthermore, when the "
+"controlling machine is using a braille display, information from the remote "
+"machine will be displayed on it. Press f11 again to stop sending keys and "
+"switch back to the controlling machine."
+msgstr ""
+"NVDA uzak makine kullanılıyor dediğinde, bastığınız klavye ve braille ekran "
+"tuşları uzak makineye gidecektir. Ayrıca, kontrol eden makine bir braille "
+"ekran kullanıyorsa, uzak makineden gelen bilgiler bu ekranda "
+"görüntülenecektir. Tuş göndermeyi durdurmak ve kontrol eden makineye geri "
+"dönmek için tekrar f11 tuşuna basın."
+
+#. type: Plain text
+msgid ""
+"For best compatibility, please ensure that the keyboard layouts on both "
+"machines match."
+msgstr ""
+"En iyi uyumluluk için lütfen her iki makinedeki klavye düzenlerinin "
+"eşleştiğinden emin olun."
+
+#. type: Title ##
+#, no-wrap
+msgid "Sharing your session"
+msgstr "Oturumu paylaşma"
+
+#. type: Plain text
+msgid ""
+"To share a link so someone else can easily join your TeleNVDA session, "
+"select Copy Link from the Remote menu. You can also assign gestures from the "
+"NVDA Input Gestures dialog to speed up this task."
+msgstr ""
+"Bir başkasının TeleNVDA oturumunuza kolayca katılabilmesi için bir bağlantı "
+"paylaşmak üzere Uzak Bağlantı menüsünden Bağlantıyı Kopyala'yı seçin. Bu "
+"görevi hızlandırmak için NVDA Girdi Hareketleri iletişim kutusundan da "
+"hareketler atayabilirsiniz."
+
+#. type: Plain text
+msgid ""
+"You can choose between two link formats. First one is compatible with both "
+"NVDA Remote and TeleNVDA, and is the most recommended for now. Second one is "
+"compatible only with TeleNVDA."
+msgstr ""
+"İki bağlantı biçimi arasından seçim yapabilirsiniz. İlki hem NVDA Uzaktan "
+"Destek hem de TeleNVDA ile uyumludur ve şimdilik en çok önerilendir. "
+"İkincisi yalnızca TeleNVDA ile uyumludur."
+
+#. type: Plain text
+msgid ""
+"IF you are connected as the controlling computer, this link will allow "
+"someone else to connect and be controlled."
+msgstr ""
+"Kontrol eden bilgisayar olarak bağlıysanız, bu bağlantı başka birinin "
+"bağlanmasına ve kontrol edilmesine izin verecektir."
+
+#. type: Plain text
+msgid ""
+"If instead you have set up your computer to be controlled, the link will "
+"allow people who you share it with to control your machine."
+msgstr ""
+"Bunun yerine bilgisayarınızı kontrol edilecek şekilde ayarladıysanız, "
+"bağlantı, onu paylaştığınız kişilerin makinenizi kontrol etmesine izin "
+"verecektir."
+
+#. type: Plain text
+msgid ""
+"Many applications will allow users to activate this link automatically, but "
+"if it does not run from within a specific app, it can be coppied to the "
+"clipboard and run from the run dialog."
+msgstr ""
+"Birçok uygulama, kullanıcıların bu bağlantıyı otomatik olarak "
+"etkinleştirmesine izin verir, ancak belirli bir uygulama içinden "
+"çalışmıyorsa, panoya kopyalanabilir ve çalıştır iletişim kutusundan "
+"çalıştırılabilir."
+
+#. type: Plain text
+msgid ""
+"Note that the shared link may not work if you copy it from a server running "
+"in direct connection mode."
+msgstr ""
+"Doğrudan bağlantı modunda çalışan bir sunucudan kopyalarsanız paylaşılan "
+"bağlantının çalışmayabileceğini unutmayın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Send Ctrl+Alt+Del"
+msgstr "Ctrl+Alt+Sil komutu Gönder"
+
+#. type: Plain text
+msgid ""
+"While sending keys, it is not possible to send the CTRL+Alt+del combination "
+"normally."
+msgstr ""
+"Tuşları gönderirken CTRL+Alt+Sil kombinasyonunu normal şekilde göndermek "
+"mümkün değildir."
+
+#. type: Plain text
+msgid ""
+"If you need to send CTRL+Alt+del, and the remote system is on the secure "
+"desktop, use this command. You can also assighn a gesture for this command "
+"in the input Gestures dialog."
+msgstr ""
+"CTRL+Alt+del göndermeniz gerekiyorsa ve uzaktaki sistem güvenli "
+"masaüstündeyse bu komutu kullanın. Girdi Hareketleri iletişim kutusunda da "
+"bu komut için bir hareket atayabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Send toggle key between local and remote computer"
+msgstr "Yerel ve uzak bilgisayar arasında geçiş anahtarı gönder"
+
+#. type: Plain text
+msgid ""
+"Usually when you press the assigned gesture to switch between the local and "
+"the remote machine, it won't be sent to the remote machine; it will switch "
+"between the local machine and the remote machine instead."
+msgstr ""
+"Genellikle, yerel ve uzak makine arasında geçiş yapmak için atanmış harekete "
+"bastığınızda, bu hareket uzak makineye gönderilmez; bunun yerine yerel "
+"makine ile uzak makine arasında geçiş yapacaktır."
+
+#. type: Plain text
+msgid ""
+"If you need to send this or any gesture to the remote machine, you can "
+"override this behavior for the next immediate gesture by activating the "
+"ignore next gesture script."
+msgstr ""
+"Bunu veya herhangi bir hareketi uzaktaki makineye göndermeniz gerekirse, "
+"sonraki hareketi yoksay komut dosyasını etkinleştirerek bu davranışı bir "
+"sonraki anlık hareket için geçersiz kılabilirsiniz."
+
+#. type: Plain text
+msgid ""
+"By default, this script is assigned to the control + f11 key. This gesture "
+"can be changed from NVDA Input Gestures Dialog."
+msgstr ""
+"Varsayılan olarak, bu komut, kontrol + f11 tuşuna atanır. Bu hareket, NVDA "
+"Girdi Hareketleri İletişim Kutusundan değiştirilebilir."
+
+#. type: Plain text
+msgid ""
+"When this script is called, the next gesture will be ignored and will be "
+"sent to the remote machine, including the gesture to activate the ignore "
+"next gesture script. Once the next gesture has been sent, it will return to "
+"the usual behavior."
+msgstr ""
+"Bu komut çağrıldığında, sonraki hareket yoksayılacak ve sonraki hareketi "
+"yoksay'ı etkinleştirme hareketi de dahil olmak üzere uzak makineye "
+"gönderilecektir. Bir sonraki hareket gönderildikten sonra normal davranışa "
+"dönecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Remotely Controlling an Unattended Computer"
+msgstr "Katılımsız Bir Bilgisayarı Uzaktan Kontrol Etme"
+
+#. type: Plain text
+msgid ""
+"Sometimes, you may wish to control one of your own computers remotely. This "
+"is especially helpful if you are traveling, and you wish to control your "
+"home PC from your laptop. Or, you may want to control a computer in one room "
+"of your house while sitting outside with another PC. A little advanced "
+"preparation makes this convenient and possible."
+msgstr ""
+"Bazen kendi bilgisayarlarınızdan birini uzaktan kontrol etmek "
+"isteyebilirsiniz. Bu, özellikle seyahat ediyorsanız ve ev bilgisayarınızı "
+"dizüstü bilgisayarınızdan kontrol etmek istiyorsanız yararlıdır. Ya da "
+"evinizin bir odasındaki bir bilgisayarı dışarıda otururken başka bir "
+"bilgisayarla kontrol etmek isteyebilirsiniz. Biraz gelişmiş hazırlık, bunu "
+"uygun ve mümkün kılar."
+
+#. type: Bullet: '1. '
+msgid ""
+"Enter the NVDA menu, and choose Tools, then Remote. Finally, press Enter on "
+"Options."
+msgstr ""
+"NVDA menüsüne girin, Araçlar'ı ve ardından Uzak Bağlantı'yı seçin. Son "
+"olarak, Seçenekler'de Enter tuşuna basın."
+
+#. type: Bullet: '2. '
+msgid "Check the box that says, \"Auto connect to control server on startup\"."
+msgstr ""
+"\"Başlangıçta kontrol sunucusuna otomatik bağlan\" yazan kutuyu işaretleyin."
+
+#. type: Bullet: '3. '
+msgid ""
+"Select whether to use a remote relay server or to locally host the "
+"connection. If you decide to host the connection, you can try to forward "
+"ports using UPNP by checking the provided checkbox."
+msgstr ""
+"Bir uzak geçiş sunucusu kullanmayı veya bağlantıyı yerel olarak barındırmayı "
+"seçin. Bağlantıyı barındırmaya karar verirseniz, sağlanan onay kutusunu "
+"işaretleyerek bağlantı noktalarını UPNP kullanarak iletmeyi deneyebilirsiniz."
+
+#. type: Bullet: '5. '
+msgid ""
+"If you host the connection yourself, you will need to ensure that the port "
+"entered in the port field (6837 by default) on the controlled machine can be "
+"accessed from the controlling machines."
+msgstr ""
+"Bağlantıyı kendiniz barındırıyorsanız, kontrol edilen makinede bağlantı "
+"noktası alanına girilen bağlantı noktasına (varsayılan olarak 6837) kontrol "
+"eden makinelerden erişilebildiğinden emin olmanız gerekir."
+
+#. type: Bullet: '6. '
+msgid ""
+"If you wish to use a relay server, Fill in both the Host and Key fields, tab "
+"to OK, and press Enter. The Generate Key option is not available in this "
+"situation. It is best to come up with a key you will remember so you can "
+"easily use it from any remote location."
+msgstr ""
+"Bir aktarma sunucusu kullanmak istiyorsanız, Ana Bilgisayar ve Anahtar "
+"alanlarının her ikisini de doldurun, sekme ile Tamam üzerine gelin ve Enter "
+"tuşuna basın. Anahtar Oluştur seçeneği bu durumda kullanılamaz. Herhangi bir "
+"uzak konumdan kolayca kullanabilmeniz için hatırlayacağınız bir anahtar "
+"bulmak en iyisidir."
+
+#. type: Plain text
+msgid ""
+"For advanced use, you can also configure NVDA Remote to automatically "
+"connect to a local or remote relay server in controlling mode. If you want "
+"this, select Control another machine in the second set of radio buttons."
+msgstr ""
+"Gelişmiş kullanım için, NVDA Uzaktan Desteği kontrol modunda yerel veya uzak "
+"bir aktarma sunucusuna otomatik olarak bağlanacak şekilde de "
+"yapılandırabilirsiniz. Bunu istiyorsanız, ikinci radyo düğmeleri kümesinde "
+"Başka bir makineyi kontrol et seçeneğini belirleyin."
+
+#. type: Plain text
+msgid ""
+"Note: The autoconnect at startup-related options in the options dialog do "
+"not apply until NVDA is restarted."
+msgstr ""
+"Not: Seçenekler iletişim kutusundaki başlangıçta otomatik bağlantı ile "
+"ilgili seçenekler, NVDA yeniden başlatılana kadar geçerli değildir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Muting Speech on the Remote Computer"
+msgstr "Uzak Bilgisayarda Konuşmayı Susturma"
+
+#. type: Plain text
+msgid ""
+"If you do not wish to hear the remote computer's speech or NVDA specific "
+"sounds, simply access the NVDA menu, Tools, and Remote. Arrow down to Mute "
+"Remote, and press Enter. You can assign a gesture to this option from the "
+"NVDA Input Gestures dialog. Please note that this option will not disable "
+"remote braille output to the controlling display when the controlling "
+"machine is sending keys."
+msgstr ""
+"Uzak bilgisayarın konuşmasını veya NVDA'ya özgü sesleri duymak "
+"istemiyorsanız, NVDA menüsüne, Araçlar'a ve Uzak Bağlantı'ya erişmeniz "
+"yeterlidir. Uzaktakini sustura gidin ve Enter tuşuna basın. NVDA Girdi "
+"Hareketleri iletişim kutusundan bu seçeneğe bir hareket atayabilirsiniz. "
+"Lütfen bu seçeneğin, kontrol eden makine anahtarları gönderirken kontrol "
+"ekranına uzaktan braille çıkışını devre dışı bırakmayacağını unutmayın."
+
+#. type: Plain text
+msgid ""
+"You can mute permanently the remote speech while you work on your local "
+"machine by enabling that setting from the TeleNVDA category on the NVDA "
+"settings dialog."
+msgstr ""
+"NVDA ayarları iletişim kutusundaki TeleNVDA kategorisinden bu ayarı "
+"etkinleştirerek, yerel makinenizde çalışırken uzaktan konuşmayı kalıcı "
+"olarak susturabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Ending a remote Session"
+msgstr "Uzak Oturumu Sonlandırma"
+
+#. type: Plain text
+msgid "To end a remote session, do the following:"
+msgstr "Bir uzak oturumu sonlandırmak için aşağıdakileri yapın:"
+
+#. type: Bullet: '1. '
+msgid ""
+"On the controlling computer, press F11 to stop controlling the remote "
+"machine. You should hear or read the message: \"Controlling local machine.\" "
+"If you instead hear or read a message that you are controlling the remote "
+"machine, press F11 once more."
+msgstr ""
+"Kontrol eden bilgisayarda, uzak makineyi kontrol etmeyi durdurmak için F11'e "
+"basın. \"Yerel makine kontrol ediliyor\" mesajını duymalı veya okumalısınız. "
+"Bunun yerine, uzak makineyi kontrol ettiğinize dair bir mesaj duyar veya "
+"okursanız, bir kez daha F11 tuşuna basın."
+
+#. type: Bullet: '2. '
+msgid ""
+"Access the NVDA menu, then Tools, Remote, and press Enter on Disconnect."
+msgstr ""
+"NVDA menüsüne, Araçlar, Uzak Bağlantıya erişin ve Bağlantıyı Kes üzerinde "
+"Enter'a basın."
+
+#. type: Plain text
+msgid ""
+"Alternatively, you can press NVDA+alt+page down to directly disconnect the "
+"session. This gesture can be changed from NVDA Input Gestures Dialog. To "
+"keep the other end safe, you may press this gesture while sending keys to "
+"disconnect the remote computer."
+msgstr ""
+"Alternatif olarak, oturumun bağlantısını doğrudan kesmek için "
+"NVDA+alt+Önceki Sayfa tuşlarına da basabilirsiniz. Bu hareket, NVDA Girdi "
+"Hareketleri İletişim Kutusundan değiştirilebilir. Diğer ucu güvende tutmak "
+"için, uzak bilgisayarın bağlantısını kesmek üzere anahtarlar gönderirken bu "
+"harekete basabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Push clipboard"
+msgstr "Panoya gönderme"
+
+#. type: Plain text
+msgid ""
+"The Push clipboard option in the remote menu allows you to push text from "
+"your clipboard."
+msgstr ""
+"Uzak Bağlantı menüsündeki Pano içeriğini gönder seçeneği, panonuzdan metin "
+"göndermenizi sağlar."
+
+#. type: Plain text
+msgid ""
+"When activated, any text on the clipboard will be pushed to the other "
+"machines."
+msgstr ""
+"Etkinleştirildiğinde, panodaki herhangi bir metin diğer makinelere "
+"iletilecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Sending files"
+msgstr "Dosya gönderme"
+
+#. type: Plain text
+msgid ""
+"The Send file option in the remote menu allows you to send small files to "
+"all session members, including the controlled machine. Please note, you can "
+"only send files smaller than 10 MB. Sending or receiving files on secure "
+"screens is not allowed."
+msgstr ""
+"Uzak Bağlantı menüsündeki Dosya gönder seçeneği, kontrol edilen makine dahil "
+"tüm oturum üyelerine küçük dosyalar göndermenizi sağlar. Lütfen yalnızca 10 "
+"MB'tan küçük dosyaları gönderebileceğinizi unutmayın. Güvenli ekranlarda "
+"dosya gönderilmesine veya alınmasına izin verilmez."
+
+#. type: Plain text
+msgid ""
+"Also note that sending files may consume too much network traffic on the "
+"server, depending on the file size, the computers connected to the same "
+"session and the amount of files sent. Contact your server administrator and "
+"ask them if the traffic is billed. In that case, consider using another "
+"platform to exchange files."
+msgstr ""
+"Ayrıca dosya göndermenin, dosya boyutuna, aynı oturuma bağlı bilgisayarlara "
+"ve gönderilen dosya miktarına bağlı olarak sunucuda çok fazla ağ trafiği "
+"tüketebileceğini unutmayın. Sunucu yöneticinize başvurun ve trafiğin "
+"faturalandırılıp faturalandırılmadığını sorun. Bu durumda, dosya alışverişi "
+"için başka bir platform kullanmayı düşünün."
+
+#. type: Plain text
+msgid ""
+"When the file is received on the remote machines, a Save as dialog will pop "
+"up, allowing you to choose where to save the file."
+msgstr ""
+"Dosya uzaktaki makinelerde alındığında, dosyayı nereye kaydedeceğinizi "
+"seçmenize izin veren Farklı kaydet iletişim kutusu açılır."
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuring TeleNVDA to Work on a Secure Desktop"
+msgstr "TeleNVDA'yı Güvenli Bir Masaüstünde Çalışacak Şekilde Yapılandırma"
+
+#. type: Plain text
+msgid ""
+"In order for TeleNVDA to work on the secure desktop, the addon must be "
+"installed in the NVDA running on the secure desktop."
+msgstr ""
+"TeleNVDA'nın güvenli masaüstünde çalışması için, güvenli masaüstünde çalışan "
+"NVDA'da eklentinin kurulu olması gerekir."
+
+#. type: Bullet: '1. '
+msgid "From the NVDA menu, select Preferences, then General Settings."
+msgstr "NVDA menüsünden Tercihler'i, ardından Ayarları açın ve Geneli seçin."
+
+#. type: Bullet: '2. '
+msgid ""
+"Tab to the Use Currently Saved Settings on the Logon and Other Secure "
+"Screens (requires administrator privileges) button, and press Enter."
+msgstr ""
+"Oturum Açma ve Diğer Güvenli Ekranlarda Şu Anda Kaydedilmiş Ayarları Kullan "
+"(yönetici ayrıcalıkları gerektirir) düğmesine gidin ve Enter'a basın."
+
+#. type: Bullet: '3. '
+msgid ""
+"Answer Yes to the prompts regarding copying your settings and about copying "
+"plugins, and respond to the User Account Control prompt that may appear."
+msgstr ""
+"Ayarlarınızı kopyalamak ve eklentileri kopyalamakla ilgili istemlere Evet "
+"yanıtı verin ve görünebilecek Kullanıcı Hesabı Denetimi istemine yanıt verin."
+
+#. type: Bullet: '4. '
+msgid ""
+"When settings are copied, press Enter to dismiss the OK button. Tab to OK "
+"and Enter once more to exit the dialog."
+msgstr ""
+"Ayarlar kopyalandığında, Tamam düğmesine basın. İletişim kutusundan çıkmak "
+"için Sekme ile Tamam üzerine gelin ve Enter tuşuna tekrar basın."
+
+#. type: Plain text
+msgid ""
+"Once TeleNVDA is installed on the secure desktop, if you are currently being "
+"controlled in a remote session, you will have speech and braille access to "
+"the secure desktop when switched to."
+msgstr ""
+"TeleNVDA güvenli masaüstüne yüklendikten sonra, şu anda uzak bir oturumda "
+"kontrol ediliyorsanız, geçiş yaptığınızda güvenli masaüstüne konuşma ve "
+"braille erişimine sahip olacaksınız."
+
+#. type: Title ##
+#, no-wrap
+msgid "Clearing SSL certificate fingerprints"
+msgstr "SSL sertifikası parmak izlerini temizleme"
+
+#. type: Plain text
+msgid ""
+"If you no longer want to trust the server fingerprints you've trusted, you "
+"can clear all of the trusted fingerprints by pressing the \"Delete all "
+"trusted fingerprints\" button in the Options dialog."
+msgstr ""
+"Güvendiğiniz sunucu parmak izlerine artık güvenmek istemiyorsanız, "
+"Seçenekler iletişim kutusundaki \"Tüm güvenilen parmak izlerini sil\" "
+"düğmesine basarak tüm güvenilen parmak izlerini temizleyebilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Using a custom portcheck service"
+msgstr "Özel bir portcheck hizmeti kullanma"
+
+#. type: Plain text
+msgid ""
+"By default, TeleNVDA checks open ports using a service provided by the NVDA "
+"spanish community. You can change the service URL from the options dialog. "
+"Ensure that the port to check is part of the custom URL and the results are "
+"returned in the expected format. A portcheck sample script is distributed in "
+"TeleNVDA repository, so you can host your own copy if desired."
+msgstr ""
+"Varsayılan olarak TeleNVDA, NVDA İspanyol topluluğu tarafından sağlanan bir "
+"hizmeti kullanarak açık bağlantı noktalarını kontrol eder. Hizmet Adresini "
+"seçenekler iletişim kutusundan değiştirebilirsiniz. Kontrol edilecek "
+"bağlantı noktasının özel URL'nin parçası olduğundan ve sonuçların beklenen "
+"biçimde döndürüldüğünden emin olun. TeleNVDA deposunda bir portcheck örnek "
+"komut dosyası dağıtılır, böylece isterseniz kendi kopyanızı "
+"barındırabilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Altering TeleNVDA"
+msgstr "TeleNVDA'yı Değiştirme"
+
+#. type: Plain text
+msgid ""
+"This project is covered by the GNU General Public License, version 2 or "
+"later. You may clone [this repo][2] to make alteration to TeleNVDA, provided "
+"that you read, understand and respect the license terms. The MiniUPNP module "
+"is licensed under a BSD-3 clause license."
+msgstr ""
+"Bu proje, GNU Genel Kamu Lisansı, sürüm 2 veya üzeri kapsamındadır. Lisans "
+"koşullarını okumanız, anlamanız ve bunlara saygı göstermeniz koşuluyla [bu "
+"depoyu][2] TeleNVDA'da değişiklik yapmak için kopyalayabilirsiniz. MiniUPNP "
+"modülü, bir BSD-3 yan tümce lisansı altında lisanslanmıştır."
+
+#. type: Title ###
+#, no-wrap
+msgid "3rd Party dependencies"
+msgstr "3. Taraf bağımlılıkları"
+
+#. type: Plain text
+msgid "These can be installed with pip:"
+msgstr "Bunlar pip ile kurulabilir:"
+
+#. type: Bullet: '* '
+msgid "Markdown"
+msgstr "Markdown"
+
+#. type: Bullet: '* '
+msgid "scons"
+msgstr "scons"
+
+#. type: Plain text
+msgid ""
+"In order to build the URL handler executable, you need Visual Studio 2019 or "
+"later."
+msgstr ""
+"URL işleyici yürütülebilir dosyasını oluşturmak için Visual Studio 2019 veya "
+"sonraki bir sürüme ihtiyacınız var."
+
+#. type: Title ###
+#, no-wrap
+msgid "To package the add-on for distribution:"
+msgstr "Eklentiyi dağıtım amacıyla paketlemek için:"
+
+#. type: Bullet: '1. '
+msgid "Open a command line, change to the root of [this repo][2]"
+msgstr "Bir komut satırı açın, [bu depo][2] kök dizinine geçin"
+
+#. type: Bullet: '2. '
+msgid ""
+"Run the **scons** command. The created add-on, if there were no errors, is "
+"placed in the current directory."
+msgstr ""
+"**scons** komutunu çalıştırın. Oluşturulan eklenti, herhangi bir hata yoksa "
+"geçerli dizine yerleştirilir."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=TeleNVDA"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=TeleNVDA"
+
+#. type: Plain text
+msgid "[2]: https://github.com/nvda-es/TeleNVDA"
+msgstr "[2]: https://github.com/nvda-es/TeleNVDA"
+
+#~ msgid "Forward your port and try again."
+#~ msgstr "Bağlantı noktanızı iletin ve tekrar deneyin."
+
+#~ msgid ""
+#~ "Select whether to use a remote relay server or to locally host the "
+#~ "connection."
+#~ msgstr ""
+#~ "Bir uzak geçiş sunucusu kullanmayı veya bağlantıyı yerel olarak "
+#~ "barındırmayı seçin."

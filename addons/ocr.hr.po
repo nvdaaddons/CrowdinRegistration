@@ -1,0 +1,143 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Tea Turković <tturkovi@gmail.com>, 2018.
+# Milo Ivir <mail@milotype.de>, 2019., 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ocr\n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2024-05-12 16:54+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"OCR\"]]\n"
+msgstr "[[!meta title=\"OCR\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: NV Access Limited, Lukasz Golonka and other contributors"
+msgstr "Autori: NV Access Limited, Lukasz Golonka i drugi doprinositelji"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "NVDA kompatibilnost: 2019.3 i nadalje"
+
+#. type: Bullet: '* '
+msgid "Download [Stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Bullet: '* '
+msgid "Download [version compatible with NVDA 2019.2 and older][2]"
+msgstr ""
+"Preuzmi [verziju koja je kompatibilna s NVDA 2019.2 i starijim verzijama)[2]"
+
+#. type: Plain text
+msgid ""
+"Important: if you are using NVDA 2017.3 or later on Windows 10, please "
+"consider using built-in Windows 10 OCR."
+msgstr ""
+"Važno: ako koristiš NVDA verziju 2017.3 ili noviju na sustavu Windows 10, "
+"predlažemo upotrebu ugrađenog OCR-a u sustavu Windows 10."
+
+#. type: Plain text
+msgid ""
+"Performs optical character recognition (OCR) to extract text from an object "
+"which is inaccessible. The Tesseract OCR engine is used. To perform OCR, "
+"move to the object in question using object navigation and press NVDA+r. You "
+"can set the OCR recognition language by going to the NVDA settings panel and "
+"selecting OCR settings. The keyboard shortcut can be reassigned from NVDA "
+"input gestures dialog in the \"Miscellaneous\" category."
+msgstr ""
+"Izvodi optičko prepoznavanje znakova (OCR) kako bi se izdvojio tekst iz "
+"nepristupačnog objekta. Tesseract se koristi kao pogon za prepoznavanje "
+"teksta. Za izvođenje optičkog prepoznavanja, pomakni se na željeni objekt "
+"koristeći objektnu navigaciju i pritisni NVDA+r. Jezik prepoznavanja znakova "
+"određuje se u izborniku postavki NVDA čitača, odabirom OCR postavki. "
+"Tipkovni prečac može se dodijeliti u dijaloškom okviru NVDA čitača za ulazne "
+"geste, u kategoriji „Razno”."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log:"
+msgstr "Zapis promjena:"
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.1:"
+msgstr "Promjene u verziji 2.1:"
+
+#. type: Bullet: '* '
+msgid ""
+"When recognition is performed on an edit field it is now possible to "
+"navigate it with the system caret without moving focus from it and back "
+"again."
+msgstr ""
+"Kad se izvodi prepoznavanje na polju za uređivanje, sada mu se može "
+"pristupiti se sistemskim kursorom bez premještanja fokusa s njega i vraćanja "
+"natrag."
+
+#. type: Bullet: '* '
+msgid "Tesseract release info is no longer written to the focused console."
+msgstr "Podaci izdanja Tesseract više se ne ispisuju u fokusiranu konzolu."
+
+#. type: Bullet: '* '
+msgid "When no text is recognized this fact is announced to the user."
+msgstr "Kad se nijedan tekst ne prepozna, to se objavljuje korisniku."
+
+#. type: Bullet: '* '
+msgid "It is no longer possible to attempt recognition on an invisible object."
+msgstr "Pokušaj prepoznavanja na nevidljivom objektu više nije moguć."
+
+#. type: Bullet: '* '
+msgid "WX is now used to capture images instead of Pillow."
+msgstr "Za snimanje slika sada se koristi WX umjesto Pillow."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.0:"
+msgstr "Promjene u verziji 2.0:"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2019.3 and later."
+msgstr "NVDA kompatibilnost: 2019.3 i novija izdanja."
+
+#. type: Bullet: '* '
+msgid ""
+"It is possible to set different recognition languages for different "
+"configuration profiles."
+msgstr ""
+"Moguće je postaviti različite jezike prepoznavanja za različite "
+"konfiguracijske profile."
+
+#. type: Bullet: '* '
+msgid ""
+"OCR settings can now be changed from NVDA settings dialog rather than from a "
+"separate dialog in the tools menu."
+msgstr ""
+"Postavke OCR-a sada se mogu mijenjati u dijaloškom okviru postavki NVDA "
+"čitača, umjesto u zasebnom dijaloškom okviru u izborniku alata."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=ocr"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=ocr"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/files/nvda-addons/ocr_0.20120529.01.nvda-addon"
+msgstr ""
+"[2]: https://www.nvaccess.org/files/nvda-addons/ocr_0.20120529.01.nvda-addon"

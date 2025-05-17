@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: crashHero\n"
+"POT-Creation-Date: 2023-10-31 02:07+0000\n"
+"PO-Revision-Date: 2023-11-01 20:39+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Crash Hero\"]]\n"
+msgstr "[[!meta title=\"Crash Hero\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Derek Riemer"
+msgstr "Tekijä: Derek Riemer"
+
+#. type: Bullet: '* '
+msgid "Download [beta version][1]"
+msgstr "Lataa [beetaversio][1]"
+
+#. type: Plain text
+msgid ""
+"Note: This add-on is primarily useful for developers, or people running test "
+"versions of NVDA. Use this add-on to let NVDA prompt you for more "
+"information after a crash. For more information, visit [the Crash Hero add-"
+"on blog post][2]."
+msgstr ""
+"Huom: Tästä lisäosasta on hyötyä pääasiassa kehittäjille tai NVDA:n "
+"kehitysversioiden käyttäjille. NVDA pyytää tätä lisäosaa käytettäessä "
+"tarkempia tietoja kaatumisensa jälkeen. Saat lisätietoja lukemalla [Crash "
+"Hero -blogikirjoituksen][2]."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=crashHero-beta"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=crashHero-beta"
+
+#. type: Plain text
+msgid "[2]: https://derekriemer.com/node/44"
+msgstr "[2]: https://derekriemer.com/node/44"

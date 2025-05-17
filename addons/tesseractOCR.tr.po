@@ -1,0 +1,734 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: TesseractOCR: Bir OCR eklentisi\n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2025-04-30 18:39+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"TesseractOCR: An OCR add-on\"]]\n"
+msgstr "[[!meta title=\"TesseractOCR: Bir OCR eklentisi\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Rui Fontes, Ângelo Abrantes and Abel Passos do Nascimento Jr."
+msgstr "Yazarlar: Rui Fontes, Ângelo Abrantes ve Abel Passos do Nascimento Jr."
+
+#. type: Bullet: '* '
+msgid "Updated in 04/05/2023"
+msgstr "30/05/2023 tarihinde güncellendi"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü indir][1]"
+
+#. type: Bullet: '* '
+msgid "Compatibility: NVDA version 2019.3 and beyond"
+msgstr "Uyumluluk: NVDA sürüm 2019.3 ve sonrası"
+
+#. type: Title ##
+#, no-wrap
+msgid "Information"
+msgstr "Bilgi"
+
+#. type: Plain text
+msgid ""
+"This add-on uses the free and open source Tesseract OCR engine, to perform "
+"optical character recognition on an image file, PDF, JPG, TIF or other, "
+"without the need to open it."
+msgstr ""
+"Bu eklenti, bir görüntü dosyası, PDF, JPG, TIF veya diğerlerini açmaya gerek "
+"kalmadan optik karakter tanıma gerçekleştirmek için ücretsiz ve açık "
+"kaynaklı Tesseract OCR motorunu kullanır."
+
+#. type: Plain text
+msgid ""
+"It also allows access to WIA enabled scanners to perform OCR to a paper "
+"document."
+msgstr ""
+"Ayrıca, WIA özellikli tarayıcılara erişebilmek ve bir kağıt belgeye OCR "
+"yapabilmek için wia-cmd-Tarayıcı'sı kullanır."
+
+#. type: Plain text
+msgid ""
+"In the NVDA menu, Preferences, a TesseractOCR section is added, where you "
+"can configure the following:"
+msgstr ""
+"NVDA menüsü, Tercihler Ayarlar iletişim kutusuna aşağıdakileri "
+"yapılandırabileceğiniz bir TesseractOCR bölümü eklenir:"
+
+#. type: Bullet: '* '
+msgid "languages to be used in recognition;"
+msgstr "tanımada kullanılacak diller;"
+
+#. type: Bullet: '* '
+msgid "the type of documents to be recognized;"
+msgstr "tanınacak belgelerin türü;"
+
+#. type: Bullet: '* '
+msgid ""
+"if should be asked or not a PDF password. If you have this option checked, "
+"and the PDF does not have a password, just press Enter in the dialog asking "
+"for password;"
+msgstr ""
+"pdf parolası istenip istenmeyeceği. Bu seçeneği işaretlediyseniz ve PDF'nin "
+"parolası yoksa, parola soran iletişim kutusunda Enter tuşuna basmanız "
+"yeterlidir;"
+
+#. type: Bullet: '* '
+msgid "Select the scanner to be used;"
+msgstr "Kullanılacak tarayıcıyı seçin;"
+
+#. type: Bullet: '* '
+msgid "set the scanner resolution between 150 and 400 dpi."
+msgstr "tarayıcı çözünürlüğünü 150 ile 400 dpi arasında ayarlayın."
+
+#. type: Plain text
+msgid ""
+"With the exception of English and Portuguese, which are already included in "
+"add-on, the other languages will be downloaded and installed when you select "
+"a language that does not already exist in the add-on."
+msgstr ""
+"Halihazırda eklentiye dahil olan İngilizce ve Portekizce dışında, eklentide "
+"mevcut olmayan bir dili seçtiğinizde diğer diller indirilir ve kurulur."
+
+#. type: Plain text
+msgid ""
+"Note that as the number of selected recognition languages increases, the OCR "
+"process will take longer."
+msgstr ""
+"Seçili tanıma dillerinin sayısı arttıkça OCR işleminin daha uzun süreceğini "
+"unutmayın."
+
+#. type: Plain text
+msgid "We therefore recommend that you use only the languages you need."
+msgstr "Bu nedenle, yalnızca ihtiyacınız olan dilleri kullanmanızı öneririz."
+
+#. type: Plain text
+msgid ""
+"Note also that the quality of recognition may vary according to the order of "
+"languages."
+msgstr ""
+"Tanıma kalitesinin dillerin sırasına göre değişebileceğini de unutmayın."
+
+#. type: Plain text
+msgid ""
+"Therefore, if the recognition result is not satisfactory, you may want to "
+"try another language ordering."
+msgstr ""
+"Bu nedenle, tanıma sonucu tatmin edici değilse, başka bir dil sıralaması "
+"denemek isteyebilirsiniz."
+
+#. type: Title ##
+#, no-wrap
+msgid "Shortcut"
+msgstr "Kısayollar"
+
+#. type: Plain text
+msgid "The default commands are:"
+msgstr "Varsayılan komutlar şunlardır:"
+
+#. type: Bullet: '* '
+msgid "Windows+Control+r - to recognize the selected document;"
+msgstr "Windows+Control+r - seçilen belgeyi tanımak için;"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows+Control+w - to scan and recognize a document through the scanner;"
+msgstr ""
+"Windows+Control+w - tarayıcı aracılığıyla bir belgeyi taramak ve tanımak "
+"için;"
+
+#. type: Bullet: '* '
+msgid "Windows+Control+c - To cancel the scanning process."
+msgstr "Windows+Control+c - Tarama işlemini iptal etmek için."
+
+#. type: Plain text
+msgid ""
+"Please note: It must be issued before the dialog asking if you want to scan "
+"more pages appear!"
+msgstr ""
+"Lütfen dikkat: Daha fazla sayfa taramak isteyip istemediğinizi soran "
+"iletişim kutusundan önce verilmiş olması gerekir!"
+
+#. type: Plain text
+msgid "Then just wait the browseable message appears with the recognized text."
+msgstr ""
+"Ardından, göz atılabilir mesajın tanınan metinle birlikte görünmesini "
+"bekleyin."
+
+#. type: Plain text
+msgid ""
+"If you want to preserve the recognized text, don't forget to save it in some "
+"folder, as the results are deleted at the start of the next OCR process!"
+msgstr ""
+"Tanınan metni korumak istiyorsanız, bir sonraki OCR işleminin başlangıcında "
+"sonuçlar silineceğinden onu bir klasöre kaydetmeyi unutmayın!"
+
+#. type: Plain text
+msgid ""
+"This commands can be modified in the \"Input gestures\" dialog in the "
+"\"TesseractOCR\" section."
+msgstr ""
+"Bu komutlar, \"Girdi hareketleri\" \"TesseractOCR\" dalındaki  iletişim "
+"kutusunda değiştirilebilir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Known problems"
+msgstr "Bilinen sorunlar"
+
+#. type: Plain text
+msgid ""
+"When selecting the \"Various\" option in the \"Documents type\" combobox, "
+"the recognized text probably appear with many blank lines"
+msgstr ""
+"\"Belge türü\" açılır kutusunda \"Çeşitli\" seçeneğini seçerken, tanınan "
+"metin muhtemelen birçok boş satırla görünüyor"
+
+#. type: Plain text
+msgid ""
+"This is a known problem with Tesseract, and, without consumming lots of "
+"processing time, I haven't yet found any solution. But, I still haven't "
+"given up!"
+msgstr ""
+"Bu Tesseract ile ilgili bilinen bir sorundur ve çok fazla işlem süresi "
+"tüketmeden henüz bir çözüm bulamadım. Ama yine de vazgeçmedim!"
+
+#. type: Title ##
+#, no-wrap
+msgid "Languages supported"
+msgstr "Desteklenen diller"
+
+#. type: Plain text
+msgid "The supported languages in this version are:"
+msgstr "Bu sürümde desteklenen diller şunlardır:"
+
+#. type: Bullet: '* '
+msgid "Afrikans"
+msgstr "Afrikaner Dili"
+
+#. type: Bullet: '* '
+msgid "Albanian"
+msgstr "Arnavutça"
+
+#. type: Bullet: '* '
+msgid "Amharik"
+msgstr "Amharca"
+
+#. type: Bullet: '* '
+msgid "Arabic"
+msgstr "Arapça"
+
+#. type: Bullet: '* '
+msgid "Armenian"
+msgstr "Ermenice"
+
+#. type: Bullet: '* '
+msgid "Assamese"
+msgstr "Assam dili"
+
+#. type: Bullet: '* '
+msgid "Azerbaijani (Latin)"
+msgstr "Azerice (Latin)"
+
+#. type: Bullet: '* '
+msgid "Basque"
+msgstr "Bask"
+
+#. type: Bullet: '* '
+msgid "Belarusian"
+msgstr "Belarusça"
+
+#. type: Bullet: '* '
+msgid "Bengali"
+msgstr "Bengalce"
+
+#. type: Bullet: '* '
+msgid "Bosnian"
+msgstr "Boşnakça"
+
+#. type: Bullet: '* '
+msgid "Breton"
+msgstr "Bretonca"
+
+#. type: Bullet: '* '
+msgid "Bulgarian"
+msgstr "Bulgarca"
+
+#. type: Bullet: '* '
+msgid "Burnese"
+msgstr "Burnese"
+
+#. type: Bullet: '* '
+msgid "Catalan/Valencian"
+msgstr "Katalanca/Valensiya Dili"
+
+#. type: Bullet: '* '
+msgid "Cebuano"
+msgstr "Cebuano"
+
+#. type: Bullet: '* '
+msgid "Cherokee"
+msgstr "Çeroki"
+
+#. type: Bullet: '* '
+msgid "Chinese simplified"
+msgstr "Çince Basitleştirilmiş"
+
+#. type: Bullet: '* '
+msgid "Chinese traditional"
+msgstr "Çince Geleneksel"
+
+#. type: Bullet: '* '
+msgid "Corsican"
+msgstr "Korsika dili"
+
+#. type: Bullet: '* '
+msgid "Croatian"
+msgstr "Hırvatça"
+
+#. type: Bullet: '* '
+msgid "Czech"
+msgstr "Çekce"
+
+#. type: Bullet: '* '
+msgid "Dannish"
+msgstr "Danca"
+
+#. type: Bullet: '* '
+msgid "Deutch"
+msgstr "Almanca"
+
+#. type: Bullet: '* '
+msgid "Dhivehi"
+msgstr "Dhivehi"
+
+#. type: Bullet: '* '
+msgid "Dutch (Flemish)"
+msgstr "Felemenkçe (Flamanca)"
+
+#. type: Bullet: '* '
+msgid "Dzongkha"
+msgstr "Dzongkha"
+
+#. type: Bullet: '* '
+msgid "English"
+msgstr "İngilizce"
+
+#. type: Bullet: '* '
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#. type: Bullet: '* '
+msgid "Estonian"
+msgstr "Estonyaca"
+
+#. type: Bullet: '* '
+msgid "Faroese"
+msgstr "Faroece"
+
+#. type: Bullet: '* '
+msgid "Filipino"
+msgstr "Filipince"
+
+#. type: Bullet: '* '
+msgid "Finnish"
+msgstr "Fince"
+
+#. type: Bullet: '* '
+msgid "French"
+msgstr "Fransızca"
+
+#. type: Bullet: '* '
+msgid "Galician"
+msgstr "Galiçyaca"
+
+#. type: Bullet: '* '
+msgid "Georgian"
+msgstr "Gürcüce"
+
+#. type: Bullet: '* '
+msgid "Greek"
+msgstr "Yunanca"
+
+#. type: Bullet: '* '
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#. type: Bullet: '* '
+msgid "Haitian"
+msgstr "Haitice"
+
+#. type: Bullet: '* '
+msgid "Hebrew"
+msgstr "İbranice"
+
+#. type: Bullet: '* '
+msgid "Hindi"
+msgstr "Hintçe"
+
+#. type: Bullet: '* '
+msgid "Hungarian"
+msgstr "Macarca"
+
+#. type: Bullet: '* '
+msgid "Icelandic"
+msgstr "İzlandaca"
+
+#. type: Bullet: '* '
+msgid "Indonesian"
+msgstr "Endonezya dili"
+
+#. type: Bullet: '* '
+msgid "Inuktitut"
+msgstr "İnuitçe"
+
+#. type: Bullet: '* '
+msgid "Irish"
+msgstr "İrlandaca"
+
+#. type: Bullet: '* '
+msgid "Italian"
+msgstr "İtalyanca"
+
+#. type: Bullet: '* '
+msgid "Javanese"
+msgstr "Cava dili"
+
+#. type: Bullet: '* '
+msgid "Japanese"
+msgstr "Japonca"
+
+#. type: Bullet: '* '
+msgid "Kannada"
+msgstr "Kannada"
+
+#. type: Bullet: '* '
+msgid "Kazakh"
+msgstr "Kazakça"
+
+#. type: Bullet: '* '
+msgid "Khmer (Central)"
+msgstr "Khmer (Merkezi)"
+
+#. type: Bullet: '* '
+msgid "Kirghiz"
+msgstr "Kırgızca"
+
+#. type: Bullet: '* '
+msgid "Korean"
+msgstr "Korece"
+
+#. type: Bullet: '* '
+msgid "Kurdish Kurmanji"
+msgstr "Kürtçe Kurmanci"
+
+#. type: Bullet: '* '
+msgid "Lao"
+msgstr "Laos"
+
+#. type: Bullet: '* '
+msgid "Latin"
+msgstr "Latince"
+
+#. type: Bullet: '* '
+msgid "Lativia"
+msgstr "Letonya"
+
+#. type: Bullet: '* '
+msgid "Lituanian"
+msgstr "Litvanyaca"
+
+#. type: Bullet: '* '
+msgid "Luxembourgish"
+msgstr "Lüksemburgca"
+
+#. type: Bullet: '* '
+msgid "Macedonian"
+msgstr "Makedonca"
+
+#. type: Bullet: '* '
+msgid "Malay"
+msgstr "Malayca"
+
+#. type: Bullet: '* '
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#. type: Bullet: '* '
+msgid "Maltese"
+msgstr "Malta"
+
+#. type: Bullet: '* '
+msgid "Maori"
+msgstr "Maori"
+
+#. type: Bullet: '* '
+msgid "Marathi"
+msgstr "Marathi"
+
+#. type: Bullet: '* '
+msgid "Math / equation detection module"
+msgstr "Matematik / denklem algılama modülü"
+
+#. type: Bullet: '* '
+msgid "Mongolian"
+msgstr "Moğolca"
+
+#. type: Bullet: '* '
+msgid "Nepali"
+msgstr "Nepalce"
+
+#. type: Bullet: '* '
+msgid "Norwegian"
+msgstr "Norveççe"
+
+#. type: Bullet: '* '
+msgid "Occitan"
+msgstr "Oksitanca"
+
+#. type: Bullet: '* '
+msgid "Oriya"
+msgstr "Ortaca"
+
+#. type: Bullet: '* '
+msgid "Panjabi"
+msgstr "Panjabi"
+
+#. type: Bullet: '* '
+msgid "Pashto"
+msgstr "Peştuca"
+
+#. type: Bullet: '* '
+msgid "Persian"
+msgstr "Farsça"
+
+#. type: Bullet: '* '
+msgid "Polish"
+msgstr "Lehçe"
+
+#. type: Bullet: '* '
+msgid "Portuguese"
+msgstr "Portekizce"
+
+#. type: Bullet: '* '
+msgid "Quechua"
+msgstr "Keçuva"
+
+#. type: Bullet: '* '
+msgid "Romanian/Moldave"
+msgstr "Romence/Moldavca"
+
+#. type: Bullet: '* '
+msgid "Russian"
+msgstr "Rusça"
+
+#. type: Bullet: '* '
+msgid "Sanskrit"
+msgstr "Sanskritçe"
+
+#. type: Bullet: '* '
+msgid "Scottish Gaelic"
+msgstr "İskoç Galcesi"
+
+#. type: Bullet: '* '
+msgid "Serbian (Latin)"
+msgstr "Sırpça (Latin)"
+
+#. type: Bullet: '* '
+msgid "Slovak)"
+msgstr "Slovakça"
+
+#. type: Bullet: '* '
+msgid "Slovenian)"
+msgstr "Slovence)"
+
+#. type: Bullet: '* '
+msgid "Sindhi"
+msgstr "Sintçe"
+
+#. type: Bullet: '* '
+msgid "Sinhalese"
+msgstr "Sinhalese"
+
+#. type: Bullet: '* '
+msgid "Spanish"
+msgstr "İspanyolca"
+
+#. type: Bullet: '* '
+msgid "Sundanese"
+msgstr "Sundan dili"
+
+#. type: Bullet: '* '
+msgid "Swahili"
+msgstr "Svahili"
+
+#. type: Bullet: '* '
+msgid "Swedish"
+msgstr "İsveççe"
+
+#. type: Bullet: '* '
+msgid "Syriac"
+msgstr "Süryanice"
+
+#. type: Bullet: '* '
+msgid "Tajik"
+msgstr "Tacikçe"
+
+#. type: Bullet: '* '
+msgid "Tamil"
+msgstr "Tamilce"
+
+#. type: Bullet: '* '
+msgid "Tatar"
+msgstr "Tatarca"
+
+#. type: Bullet: '* '
+msgid "Telugu"
+msgstr "Telugu"
+
+#. type: Bullet: '* '
+msgid "Thai"
+msgstr "Tay dili"
+
+#. type: Bullet: '* '
+msgid "Tibetan"
+msgstr "Tibet dili"
+
+#. type: Bullet: '* '
+msgid "Tigrinya"
+msgstr "Tigrinya"
+
+#. type: Bullet: '* '
+msgid "Tonga"
+msgstr "Tonga"
+
+#. type: Bullet: '* '
+msgid "Turkish"
+msgstr "Türkçe"
+
+#. type: Bullet: '* '
+msgid "Uighur"
+msgstr "Uygurca"
+
+#. type: Bullet: '* '
+msgid "Ukrainian"
+msgstr "Ukraynaca"
+
+#. type: Bullet: '* '
+msgid "Urdu"
+msgstr "Urduca"
+
+#. type: Bullet: '* '
+msgid "Uzbek (Latin)"
+msgstr "Özbekçe (Latin)"
+
+#. type: Bullet: '* '
+msgid "Vietnamese"
+msgstr "Vietnamca"
+
+#. type: Bullet: '* '
+msgid "Welsh"
+msgstr "Galce"
+
+#. type: Bullet: '* '
+msgid "West Frisian"
+msgstr "Batı Frizce"
+
+#. type: Bullet: '* '
+msgid "Yiddish"
+msgstr "Yidiş"
+
+#. type: Bullet: '* '
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#. type: Title ##
+#, no-wrap
+msgid "Image types supported"
+msgstr "Desteklenen resim türleri"
+
+#. type: Plain text
+msgid "This add-on supports the following types of files:"
+msgstr "Bu eklenti aşağıdaki dosya türlerini destekler:"
+
+#. type: Bullet: '* '
+msgid "PDF"
+msgstr "PDF"
+
+#. type: Bullet: '* '
+msgid "jpg"
+msgstr "jpg"
+
+#. type: Bullet: '* '
+msgid "tif"
+msgstr "tif"
+
+#. type: Bullet: '* '
+msgid "png"
+msgstr "png"
+
+#. type: Bullet: '* '
+msgid "bmp"
+msgstr "bmp"
+
+#. type: Bullet: '* '
+msgid "pnm"
+msgstr "pnm"
+
+#. type: Bullet: '* '
+msgid "pbm"
+msgstr "pbm"
+
+#. type: Bullet: '* '
+msgid "pgm"
+msgstr "pgm"
+
+#. type: Bullet: '* '
+msgid "jp2"
+msgstr "jp2"
+
+#. type: Bullet: '* '
+msgid "gif"
+msgstr "gif"
+
+#. type: Bullet: '* '
+msgid "jfif"
+msgstr "jfif"
+
+#. type: Bullet: '* '
+msgid "jpeg"
+msgstr "jpeg"
+
+#. type: Bullet: '* '
+msgid "tiff"
+msgstr "tiff"
+
+#. type: Bullet: '* '
+msgid "spix"
+msgstr "spix"
+
+#. type: Bullet: '* '
+msgid "webp"
+msgstr "webp"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=tesseractOCR"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=tesseractOCR"

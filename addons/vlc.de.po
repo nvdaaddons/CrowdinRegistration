@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-10 21:28+0000\n"
+"PO-Revision-Date: 2023-05-07 06:58+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"VLC Media Player\"]]\n"
+msgstr "[[!meta title=\"VLC Media Player\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Javi Dominguez"
+msgstr "Autor: Javi Dominguez"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Stabile Version herunterladen][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "[Entwicklerversion herunterladen][2]"
+
+#. type: Plain text
+msgid "This addon provides some accessibility features for VLC Media Player."
+msgstr ""
+"Diese Erweiterung stellt Funktionen zur Verbesserung der Zugänglichkeit für "
+"VLC media player zur Verfügung."
+
+#. type: Bullet: '1. '
+msgid ""
+"Allows navigating through the playback controls using Tab and Shift+Tab. To "
+"activate a selected control press enter."
+msgstr ""
+"Ermöglicht das Navigieren durch die Wiedergabesteuerelemente mit Tab und "
+"Umschalt + Tab. Um ein ausgewähltes Steuerelement zu aktivieren, drücken Sie "
+"die Eingabetaste."
+
+#. type: Bullet: '2. '
+msgid ""
+"Reads status bar information (press I). The gesture can be set up in NVDA "
+"preferences."
+msgstr ""
+"Liest Informationen der Statusleiste (drücken Sie i). Die Geste kann in NVDA-"
+"Einstellungen eingerichtet werden."
+
+#. type: Bullet: '3. '
+msgid ""
+"Says elapsed time when moving back and forward using VLC keystrokes: Control "
+"plus left/right arrow to skip 1 minute and Shift plus left/right arrows to "
+"skip 5 seconds. You can set the verbosity in the NVDA preferences. You can "
+"also assign a keyboard shortcut to toggle it."
+msgstr ""
+"Gibt die abgelaufene Zeit an, wenn Sie mit VLC-Tastenbefehlen vor- und "
+"zurückgehen: Strg + Pfeil links / rechts, um 1 Minute vor- und "
+"zurückzuspulen bzw. Umschalt + Pfeil links / rechts, um 5 Sekunden vor- und "
+"zurückzuspulen. Sie können die Ausführlichkeit in den NVDA-Einstellungen "
+"festlegen und eine Tastenkombination zum Umschalten zuweisen."
+
+#. type: Bullet: '4. '
+msgid ""
+"Announces state when change random mode (key R) and repeat mode (key L)."
+msgstr ""
+"Gibt den Status beim Ändern des Zufallsmodus (Taste R) und des "
+"Wiederholungsmodus (Taste L) an."
+
+#. type: Bullet: '5. '
+msgid ""
+"There are some layered windows and panels that NVDA is not able to focus it "
+"automatically when they are displayed. Press Control+Tab to try to bring "
+"them to the front."
+msgstr ""
+"Es gibt einige mehrschichtige Fenster und Panels, die NVDA nicht automatisch "
+"fokussieren kann, wenn sie angezeigt werden. Drücken Sie Strg+Tab, um sie in "
+"den Vordergrund zu holen."
+
+#. type: Bullet: '* '
+msgid ""
+"Important note: This addon is optimized for versions of VLC 3.0 and higher; "
+"it will not work correctly with earlier versions."
+msgstr ""
+"Wichtiger Hinweis: Diese Erweiterung ist für VLC ab Version 3.0 optimiert; "
+"es läuft nicht korrekt mit älteren Versionen."
+
+#. type: Bullet: '* '
+msgid ""
+"Covered by the GNU General Public License. See the [file COPYING.txt]"
+"(https://github.com/javidominguez/VLC/blob/master/COPYING.txt) for more "
+"details."
+msgstr ""
+"Lizenziert durch GNU General Public License. Weitere Informationen finden "
+"Sie in der [Datei COPYING.txt](https://github.com/javidominguez/VLC/blob/"
+"master/COPYING.txt)."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=vlc"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=vlc"
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=vlc-dev"
+msgstr "[2]: https://www.nvaccess.org/addonStore/legacy?file=vlc-dev"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=vlc-18"
+
+#~| msgid "Download [stable version][2]"
+#~ msgid "Download [stable version for VLC Media Player 3.x][2]"
+#~ msgstr "[stabile Version für VLC 3.x oder neuer herunterladen][2]"
+
+#, fuzzy
+#~| msgid "Download [stable version][2]"
+#~ msgid "Download [stable version for VLC Media Player 2.x][1]"
+#~ msgstr "[stabile Version herunterladen][2]"
+
+#, fuzzy
+#~| msgid "[[!meta title=\"VLC Media Player\"]]\n"
+#~ msgid "VLC Media Player"
+#~ msgstr "[[!meta title=\"VLC Media Player\"]]\n"

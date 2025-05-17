@@ -1,0 +1,162 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2024-05-11 16:56+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Office Desk\"]]\n"
+msgstr "[[!meta title=\"Office Desk\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Joseph Lee and contributors"
+msgstr "Autori: Joseph Lee i doprinositelji"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2023.1 and later"
+msgstr "NVDA kompatibilnost: 2023.1 i novije verzije"
+
+#. type: Plain text
+msgid ""
+"This add-on provides improved support for Microsoft Office applications."
+msgstr "Ovaj dodatak pruža poboljšanu podršku za Microsoft Office aplikacije."
+
+#. type: Plain text
+msgid ""
+"The following Office (sometimes called Microsoft 365) applications are "
+"supported:"
+msgstr "Podržane su sljedeće Office aplikacije (ponekad zvane Microsoft 365):"
+
+#. type: Title ##
+#, no-wrap
+msgid "Word"
+msgstr "Word"
+
+#. type: Plain text
+msgid "Notes:"
+msgstr "Napomene:"
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on requires Windows 10 or later and is optimized for Office 2016 "
+"and later, including Microsoft 365 subscription versions."
+msgstr ""
+"Ovaj dodatak zahtijeva Windows 10 ili noviju verziju i optimiran je za "
+"Office 2016 i novije verzije, uključujući verzije pretplata na Microsoft 365."
+
+#. type: Title ##
+#, no-wrap
+msgid "General"
+msgstr "Opće"
+
+#. type: Bullet: '* '
+msgid ""
+"In backstage view, NVDA will announce search count when search results "
+"appear."
+msgstr ""
+"U pozadinskom prikazu će NVDA objaviti broj pretraga kada se rezultati "
+"pretrage pojave."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer announce formatting changes such as bold and italic "
+"onoff multiple times."
+msgstr ""
+"NVDA više neće najavljivati promjene formatiranja poput uključivanja/"
+"isključivanja podebljanog i kurzivnog teksta više puta."
+
+#. type: Bullet: '* '
+msgid "In Envelopes dialog, NVDA will announce edit field labels."
+msgstr ""
+"U dijaloškom okviru „Omotnice”, NVDA će najaviti oznake polja za uređivanje."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 24.04"
+msgstr "Verzija 24.04"
+
+#. type: Bullet: '* '
+msgid "NVDA 2023.1 or later is required."
+msgstr "Potrebna je NVDA verzija 2023.1 ili novija."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.02"
+msgstr "Verzija 23.02"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr "Potrebna je NVDA verzija 2022.4 ili novija."
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+"Potreban je sustav Windows 10 21H2 (aktualizirana verzija iz studenog 2021./"
+"izgradnja 19044) ili novija verzija."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 23.01"
+msgstr "Verzija 23.01"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr "Potrebna je NVDA verzija 2022.3 ili novija."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.12"
+msgstr "Verzija 22.12"
+
+#. type: Bullet: '* '
+msgid "Search suggestion sounds are heard once again in NVDA alpha snapshots."
+msgstr ""
+"Zvukovi prijedloga za pretraživanje ponovo se čuju u alfa verzijama NVDA "
+"čitača."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 22.10"
+msgstr "Verzija 22.10"
+
+#. type: Bullet: '* '
+msgid "Initial release."
+msgstr "Prvo izdanje."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag legacy]]\n"
+msgstr "[[!tag legacy]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=officeDesk"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=officeDesk"
+
+#~ msgid ""
+#~ "In backstage view, NVDA will announce search count when search results "
+#~ "appear, as well as announcing results when up and down arrow keys are "
+#~ "pressed. Search field and suggestions list item detection are now part of "
+#~ "NVDA 2023.1."
+#~ msgstr ""
+#~ "U „backstage” prikazu, NVDA će najaviti broj pretraživanja kad se pojave "
+#~ "rezultati pretraživanja. Rezultate će najaviti i kad se pritisnu tipke sa "
+#~ "strelicama gore i dolje. Otkrivanje polja za pretraživanje i popisa "
+#~ "prijedloga je sada dio NVDA čitača 2023.1."

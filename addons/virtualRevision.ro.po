@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2017-06-24 21:29+0300\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Virtual Review\"]]\n"
+msgstr "[[!meta title=\"Virtual Review\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Rui Batista and NVDA Addon Team"
+msgstr "Autori: Rui Batista și echipa de suplimente NVDA"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Descărcați [versiunea stabilă][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This Addon allows NVDA users to review a Window content in a text box, "
+"similar to window virtualization of JAWS for Windows.  Note, however, that "
+"this is just a convenience for users and does not replace NVDA's excellent "
+"review modes and object navigation support."
+msgstr ""
+"Acest supliment le permite utilizatorilor NVDA să examineze un conținut de "
+"ferestre într-o casetă de text, similar cu virtualizarea ferestrei JAWS "
+"pentru Windows. Rețineți, totuși, că aceasta este doar o comoditate pentru "
+"utilizatori și nu înlocuiește modurile excelente de examinare și suportul "
+"navigării obiectului din NVDA."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Utilizare"
+
+#. type: Plain text
+msgid ""
+"Press NVDA+control+w to open the virtual revision Window.  Then simply "
+"navigate the shown textbox as you do in any other text content.  You can "
+"press Escape to close the virtual revision window."
+msgstr ""
+"Apăsați NVDA+control+w pentru a deschide fereastra virtual revision . Apoi, "
+"pur și simplu navigați la caseta de text arătată ca și în orice alt conținut "
+"de text. Puteți apăsa Escape pentru a închide fereastra virtual revision."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 3.0"
+msgstr "Modificări aduse în versiunea 2.0"
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.2"
+msgid "Changes for 2.3"
+msgstr "Modificări aduse în versiunea 2.2"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "Modificări aduse în versiunea 2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"When windows are minimized or if the foreground window has no title, NVDA "
+"will record this fact when displaying virtual review window."
+msgstr ""
+"Când ferestrele sunt minimizate sau dacă fereastra din prim-plan nu are "
+"niciun titlu, NVDA va înregistra acest fapt la afișarea ferestrei de "
+"examinare virtuală."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "Modificări aduse în versiunea 2.1"
+
+#. type: Bullet: '* '
+msgid "The title of the screen under virtual review will be included."
+msgstr "Titlul ecranului de sub examinarea virtuală va fi inclus."
+
+#. type: Bullet: '* '
+msgid ""
+"It is now possible to review contents of Universal Windows Platform (UWP) "
+"apps in Windows 10 and most modern apps in Windows 8.x."
+msgstr ""
+"Acum este posibilă examinarea conținuturilor din platforma universală "
+"Windows (UWP) aplicațiile din Windows 10 și cele mai moderne aplicații din "
+"Windows 8.x."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining screen contents for modern and universal apps, a beep will be "
+"heard to indicate when the virtual review window is ready."
+msgstr ""
+"La obținerea conținuturilor de ecran pentru aplicațiile moderne și "
+"universale, un bip va fi auzit pentru a indica când fereastra de examinare "
+"virtuală este pregătită."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Modificări aduse în versiunea 2.0"
+
+#. type: Bullet: '* '
+msgid "New name: Virtual Review."
+msgstr "Nume nou: Virtual Review."
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes in how content is shown, NVDA 2015.2 or later is required."
+msgstr ""
+"Datorită modificărilor la modul în care este afișat conținutul, NVDA 2015.2 "
+"sau mai nou este necesar."
+
+#. type: Bullet: '* '
+msgid ""
+"Thanks to new features in 2015.2 and later, you can now find text in "
+"virtualized windows."
+msgstr ""
+"Datorită caracteristicilor din 2015.2 sau mai nou, puteți găsi texte în "
+"ferestre virtualizate."
+
+#. type: Bullet: '* '
+msgid "Fixed the add-on functionality with non-console window."
+msgstr "A fost fixată funcționalitatea add-on-ului cu o fereastră non-console."
+
+#. type: Bullet: '* '
+msgid "Removed useless blank lines at bottom of virtualized console window."
+msgstr ""
+"Au fost eliminate liniile goale la partea de jos a ferestrei consolei "
+"virtualizate."
+
+#. type: Bullet: '* '
+msgid "Some minor adjustments."
+msgstr "Niște ajustări minore."
+
+#. type: Bullet: '* '
+msgid "Translations added."
+msgstr "Au fost adăugate traduceri."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Modificări aduse în versiunea 1.2"
+
+#. type: Bullet: '* '
+msgid "Support virtualizing of console windows"
+msgstr "Suport în virtualizarea ferestrelor consolelor"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Modificări aduse în versiunea 1.1"
+
+#. type: Bullet: '* '
+msgid "Converted virtual revision to an add-on."
+msgstr "Examinarea virtuală a fost convertită într-un add-on."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Modificări aduse în versiunea 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Versiunea inițială"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=virtualRevision"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=VR"
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=VR"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=VR-2019"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=VR"
+
+#~ msgid "Download [development version][2]"
+#~ msgstr "Descărcați [versiunea în dezvoltare][2]"

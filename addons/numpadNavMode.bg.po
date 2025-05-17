@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-22 18:27+0000\n"
+"PO-Revision-Date: 2024-03-22 20:05+0200\n"
+"Last-Translator: Kostadin Kolev <k.kolev1985@gmail.com>\n"
+"Language-Team: \n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Numpad Nav Mode\"]]\n"
+msgstr "[[!meta title=\"Навигационен режим на цифровия блок (Numpad Nav Mode)\"]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Numpad Nav Mode"
+msgstr "Навигационен режим на цифровия блок"
+
+#. type: Bullet: '* '
+msgid "Author: Luke Davis (Open Source Systems, Ltd.)"
+msgstr "Автор: Luke Davis (Open Source Systems ООД)"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
+
+#. type: Plain text
+msgid ""
+"Numpad Nav Mode is an [NVDA][2] add-on, which allows you to easily switch "
+"your keyboard's numpad between NVDA's navigation controls and the non-"
+"screenreader Windows navigation controls. This can be especially useful for "
+"users migrating from Jaws to NVDA. This add-on also gives granular control "
+"over the numlock key toggle, both when NVDA starts, and optionally in "
+"profiles."
+msgstr ""
+"\"Навигационен режим на цифровия блок\" е добавка за [NVDA][2], която ви "
+"позволява лесно да превключвате цифровия блок на клавиатурата между режима "
+"му на работа при включен NVDA и нормалния му режим на работа без работещ "
+"екранен четец. Това може да бъде особено полезно за потребители, преминаващи "
+"от JAWS към NVDA. Тази добавка също дава гъвкав контрол върху превключването "
+"на клавиша Num Lock, както при стартиране на NVDA, така и по избор "
+"посредством конфигурационните профили."
+
+#. type: Title ###
+#, no-wrap
+msgid "Navigation modes explanation and features"
+msgstr "Разяснение и характеристики на режимите на навигация"
+
+#. type: Plain text
+msgid ""
+"The normal functions of the PC number pad, with numlock off, are: page up, "
+"page down, home, end, four-way arrow keys, and a delete key.  But NVDA "
+"completely takes over the numpad, to provide review keys, mouse controls, "
+"and object navigation controls. This is true even in laptop keyboard mode, "
+"which also duplicates those functions on non-numpad keys."
+msgstr ""
+"Нормалните функции на цифровата клавиатура на компютъра с изключен Num Lock "
+"са: Page Up, Page Down, Home, End, четири стрелки за движение нагоре, "
+"надолу, наляво и надясно и клавиш Delete. Но NVDA напълно прихваща цифровия "
+"блок, за да осигури клавиши за преглед, управление на мишката и клавиши за "
+"навигация по обекти. Това е така дори при използване на клавиатурна подредба "
+"за лаптоп, което дублира тези функции на клавиши, които не са част от "
+"цифровия блок, за случаите в които не е наличен цифров блок."
+
+#. type: Plain text
+msgid ""
+"However some users do have a numpad on their laptop, and would prefer to use "
+"it for Windows navigation purposes (at least some of the time), especially "
+"because some laptops do not provide home, end, or other such keys.  That is "
+"where this add-on can help.  Additionally, some desktop users, for example "
+"those used to the way the numpad works in JAWS, may sometimes find it "
+"convenient to use the numpad for those keyboard functions rather than the "
+"normal NVDA keys, which this add-on enables.  This includes the popular JAWS "
+"command NumpadInsert+Numpad2, for read to end, which was a specific feature "
+"request from some early users of this add-on."
+msgstr ""
+"Някои потребители обаче разполагат с цифров блок на своя лаптоп и биха "
+"предпочели да го използват за навигация в Windows, особено когато някои "
+"лаптопи не разполагат с Home, End или други подобни клавиши. Това са част от "
+"случаите, в които тази добавка може да помогне. Освен това, някои "
+"потребители на настолни компютри понякога може да предпочетат да използват "
+"цифровия блок за тези функции на клавиатурата вместо стандартните клавиши, "
+"което тази добавка позволява. Това включва популярната команда на JAWS "
+"Insert от цифровия блок+2 от цифровия блок, за прочитане на всичко, което "
+"беше конкретна заявка за функция от някои ранни потребители на тази добавка."
+
+#. type: Title ###
+#, no-wrap
+msgid "How it works"
+msgstr "Как работи"
+
+#. type: Plain text
+msgid ""
+"With numlock off, no matter what keyboard layout you are using, this add-on "
+"will let you press Alt+NVDA+NumpadPlus (which is usually the long key second "
+"up on the right), to quickly and easily switch between the normal NVDA "
+"navigation controls, and the classic Windows navigation controls. This key "
+"can be remapped under Input Gestures, in the Input section."
+msgstr ""
+"При изключен Num Lock, без значение коя клавиатурна подредба се ползва, тази "
+"добавка ще ви позволи да натиснете Alt+NVDA+Плюс от цифровия блок (който "
+"обикновено е дългият клавиш втори подред от долу нагоре в десния край), за "
+"бързо и лесно превключване между нормалната навигация на NVDA и класическите "
+"команди за навигация на Windows. Тази клавишна команда може да бъде "
+"променена в диалоговия прозорец \"Жестове на въвеждане\", в категорията "
+"\"Въвеждане\"."
+
+#. type: Plain text
+msgid ""
+"Note that this add-on doesn't disable the use of numpad insert as an NVDA "
+"modifier, if you have it set as such. If you want that feature, please let "
+"me know, although you can manually turn off numpad insert as a modifier in "
+"NVDA keyboard settings. It also doesn't change the NVDA function of numpad "
+"delete (key between zero and enter)--contact me if you desire this."
+msgstr ""
+"Имайте предвид, че тази добавка не забранява използването на Insert от "
+"цифровия блок като модификатор на NVDA, ако сте указали да е така. Ако "
+"искате тази функция, моля, уведомете ме, въпреки че можете ръчно да "
+"изключите Insert от цифровия блок като модификатор в настройките на "
+"клавиатурата на NVDA. Също така не променя функцията на NVDA с Delete от "
+"цифровия блок (клавишът между нула и Enter) – свържете се с мен, ако желаете "
+"такава функция."
+
+#. type: Plain text
+msgid ""
+"If you would prefer to have NVDA start with the Windows nav mode active by "
+"default, you can configure that in NVDA configuration.  Go to NVDA's "
+"preferences, then settings, and find the Numpad Nav Mode settings panel.  "
+"There you will be able to select a checkbox to turn Windows Nav Mode on by "
+"default when you start NVDA.  To get there quickly, press NVDA+N, P, S, then "
+"N one or more times until you hear \"Numpad Nav Mode\"."
+msgstr ""
+"Ако предпочитате да стартирате NVDA с активен по подразбиране навигационен "
+"режим на Windows, можете да конфигурирате това в настройките на NVDA. От "
+"менюто на NVDA изберете \"Настройки\" и след това \"Опции\" и намерете "
+"панела за настройки на добавката \"Навигационен режим на цифровия блок\". "
+"Там ще можете да поставите отметка, с която да укажете навигационния режим "
+"на Windows да е активен по подразбиране при стартиране на NVDA. За да "
+"стигнете бързо, натиснете NVDA+N -> Н -> О, след това Н един или няколко "
+"пъти, докато не чуете \"Навигационен режим на цифровия блок\"."
+
+#. type: Title ###
+#, no-wrap
+msgid "Numlock features"
+msgstr "Функции на Num Lock"
+
+#. type: Plain text
+msgid "By default, nothing is done with the numlock key."
+msgstr "По подразбиране нищо не се прави с клавиша Num Lock."
+
+#. type: Plain text
+msgid ""
+"However, if you share your computer with a sighted user who prefers that "
+"numlock always be turned on, but you like having it off so that the numpad "
+"works with NVDA, you may want the numlock to automatically turned off when "
+"NVDA starts.  Alternatively, you may enter a lot of data, and so prefer the "
+"numlock to always be on when you start NVDA."
+msgstr ""
+"Ако споделяте компютъра си със зрящ потребител, който предпочита Num Lock "
+"винаги да е включен, но вие предпочитате да е изключен, така че цифровият "
+"блок да работи с NVDA, може да искате Num Lock да се изключва автоматично "
+"при стартиране на NVDA. Друг вариант е, ако въвеждате много данни, да "
+"предпочитате Num Lock винаги да е включен когато стартирате NVDA."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+" Go to NVDA menu, Preferences, Settings, Numpad Nav Mode, and use the \"state of numlock when NVDA starts or profile loads\" selector. This has three options. The first, \"do not change\", is the default, and won't touch the numlock. It will be in whatever state it was in before NVDA started.\n"
+"The second option, is \"turn numlock off\", which will always turn the numlock off when NVDA starts. The third option, \"Turn numlock on\", will turn the numlock on if it was off when NVDA started.\n"
+"If you choose either the second or third option, the numlock will be restored to whatever state it was in before, when you exit NVDA. For example, if you choose \"Turn numlock off\", and numlock was on when you started NVDA: it will be turned off while you use NVDA, but will be turned back on when you exit NVDA.\n"
+msgstr ""
+"Отидете в менюто на NVDA -> Настройки -> Опции -> Навигационен режим на цифровия блок и използвайте селектора \"Състояние на Num Lock при стартиране на NVDA или зареждане на профил\". Там има три опции:\n"
+"Първата, \"Без промяна\", е по подразбиране и няма да засяга Num Lock. Той ще бъде в състоянието, в което е бил преди стартирането на NVDA.\n"
+"Втората опция е \"Изключване на Num Lock\", която винаги ще изключва NumLock, когато NVDA стартира.\n"
+"Третата опция, \"Включване на Num Lock\", ще включи numlock, ако при стартиране на NVDA е бил в изключено състояние.\n"
+"Ако изберете втората или третата опция, при изход от NVDA, Num Lock ще бъде възстановен до състоянието, в което е бил преди това. Например, ако изберете \"Изключване на Num Lock\" и Num Lock при стартиране на NVDA е бил включен, той ще бъде изключен докато използвате NVDA, но ще бъде включен отново, при изход от NVDA.\n"
+
+#. type: Title ####
+#, no-wrap
+msgid "Advanced use cases"
+msgstr "Специални случаи на употреба"
+
+#. type: Plain text
+msgid ""
+"If you use NVDA's powerful configuration profiles, and you would like the "
+"numlock to automatically turn on when you enter certain profiles, do the "
+"following:"
+msgstr ""
+"Ако използвате конфигурационните профили на NVDA и искате Num Lock да се "
+"включва автоматично, когато се задействат определени профили, направете "
+"следното:"
+
+#. type: Bullet: '* '
+msgid ""
+"While in the \"normal profile\", go to the Numpad Nav Mode settings panel "
+"described above. Check the box for \"Initial numlock state is configuration "
+"profile dependent\". This option is unchecked by default."
+msgstr ""
+"Докато сте в профила \"Обичайни настройки\", отидете на панела с настройки "
+"на \"Навигационен режим на цифровия блок\", описан по-горе. Поставете "
+"отметка в полето \"Първоначалното състояние на Num Lock зависи от "
+"конфигурационния профил\". Тази опция по подразбиране не е включена."
+
+#. type: Bullet: '* '
+msgid "Select OK."
+msgstr "Задействайте бутона \"OK\"."
+
+#. type: Bullet: '* '
+msgid ""
+"Change to the profile where you want numlock to be always turned off or on."
+msgstr ""
+"Превключете на профила, в който искате Num Lock винаги да бъде изключен или "
+"включен."
+
+#. type: Bullet: '* '
+msgid ""
+"Go back to the Numpad Nav Mode settings panel, and select the option to Turn "
+"numlock off or on, as you prefer."
+msgstr ""
+"Върнете се в панела с настройки на \"Навигационен режим на цифровия блок\" и "
+"задайте опцията за включване/изключване на Num Lock, както предпочитате."
+
+#. type: Bullet: '* '
+msgid ""
+"Then select OK. Now, whenever you enter this profile, the numlock will "
+"automatically change to the desired state."
+msgstr ""
+"След това задействайте бутона \"OK\". Сега, когато се задейства този профил, "
+"Num Lock автоматично ще се промени в желаното състояние."
+
+#. type: Plain text
+msgid ""
+"Note that this is a new feature, and I don't know if anyone has use for this "
+"feature. If you find one, please send an email or open [an issue][3], to let "
+"me know how you have found to make use of it."
+msgstr ""
+"Имайте предвид, че това е нова функция и не знам дали някой има полза от "
+"нея. Ако намерите такава, моля, пишете ми или [пуснете доклад][3], за да ми "
+"споделите за какво я използвате."
+
+#. type: Plain text
+msgid ""
+"Or, better yet, leave a [review][4] for the add-on, and comment on it there! "
+"Reviews are very helpful, whether or not you use that feature."
+msgstr ""
+"Или още по-добре – [дайте отзив][4] за добавката и я коментирайте там! "
+"Отзивите са много полезни, независимо дали използвате тази функция или не."
+
+#. type: Title ###
+#, no-wrap
+msgid "New features"
+msgstr "Нови възможности"
+
+#. type: Plain text
+msgid ""
+"I encourage you to post an [issue][3], or email with any feature "
+"suggestions, or other use cases that I haven't listed here, or just to let "
+"me know you find the add-on useful! But as mentioned above, if you do find "
+"it useful, please leave a [review][4]."
+msgstr ""
+"Окуражавам ви да [пуснете доклад][3] или да ми пишете на е-пощата с всякакви "
+"предложения за функции или други начини на използване на добавката, които не "
+"съм изброил тук, или просто да ме уведомите, че добавката ви е от полза! Но "
+"както споменах по-горе, ако я намирате за полезна, моля, [дайте отзив][4]."
+
+#. type: Title ###
+#, no-wrap
+msgid "History"
+msgstr "История"
+
+#. type: Plain text
+msgid ""
+"This add-on was the direct result of requests I've heard from users over the "
+"years, and a GitHub discussion in [#9549](https://github.com/nvaccess/nvda/"
+"issues/9549). With thanks to @Qchristensen and @feerrenrut.  The basic "
+"implementation of the numlock features was borrowed from the legacy NumLock "
+"Manager add-on, by Noelia Ruiz (@nvdaes on GitHub), and others. Used with "
+"permission."
+msgstr ""
+"Тази добавка е пряк резултат от искания от страна на потребителите, на които "
+"съм попадал през годините и дискусия в GitHub в [доклад #9549](https://"
+"github.com/nvaccess/nvda/issues/9549). Благодарности на @Qchristensen и "
+"@feerrenrut. Основното изпълнение на функциите на numlock е заимствано от "
+"остарялата добавка \"NumLock Manager\" от Noelia Ruiz (@nvdaes в GitHub) и "
+"други. Използва се с разрешение."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changelog"
+msgstr "Списък с промените"
+
+#. type: Plain text
+msgid "(This changelog is incomplete. See Git log for full details.)"
+msgstr ""
+"Този списък с промените е непълен. Вижте Git log за повече подробности."
+
+#. type: Bullet: '* '
+msgid "24.1.0: NVDA 2024.X compatibility."
+msgstr "24.1.0: Съвместимост с NVDA 2024.x."
+
+#. type: Bullet: '* '
+msgid ""
+"23.1.0: Added numlock management features. Better logging. Improved config "
+"profile handling (WIP)."
+msgstr ""
+"23.1.0: Добавена е функция за управление на Num Lock. По-добро "
+"протоколиране. Подобрено управление на конфигурационните профили (WIP)."
+
+#. type: Bullet: '* '
+msgid "23.0: NVDA 2023.X compatibility."
+msgstr "23.0: Съвместимост с NVDA 2023.X."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=numpadNavMode"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=numpadNavMode"
+
+#. type: Plain text
+msgid "[2]: https://nvaccess.org/"
+msgstr "[2]: https://nvaccess.org/"
+
+#. type: Plain text
+msgid "[3]: https://github.com/opensourcesys/numpadNavMode/issues/new"
+msgstr "[3]: https://github.com/opensourcesys/numpadNavMode/issues/new"
+
+#. type: Plain text
+msgid "[4]: https://github.com/nvaccess/addon-datastore/discussions/2630"
+msgstr "[4]: https://github.com/nvaccess/addon-datastore/discussions/2630"
+
+#~ msgid ""
+#~ "If you use NVDA's powerful configuration profiles, and you would like the "
+#~ "numlock to automatically turn on when you enter certain profiles, do the "
+#~ "following: * While in the \"normal profile\", go to the Numpad Nav Mode "
+#~ "settings panel described above. Check the box for \"Initial numlock state "
+#~ "is configuration profile dependent\". This option is unchecked by "
+#~ "default.  * Select OK.  * Change to the profile where you want numlock to "
+#~ "be always turned off or on.  * Go back to the Numpad Nav Mode settings "
+#~ "panel, and select the option to Turn numlock off or on, as you prefer.  * "
+#~ "Then select OK. Now, whenever you enter this profile, the numlock will "
+#~ "automatically change to the desired state."
+#~ msgstr ""
+#~ "Ако използвате мощните конфигурационни профили на NVDA и искате numlock "
+#~ "да се включва автоматично, когато въведете определени профили, направете "
+#~ "следното:\n"
+#~ "  * Докато сте в профила \"Обичайни настройки\", отидете в панела с "
+#~ "настройки на \"Навигационен режим на цифровия блок\", описан по-горе. "
+#~ "Поставете отметка в квадратчето за \"Първоначалното състояние на Num Lock "
+#~ "зависи от конфигурационния профил\". Тази опция не е включена по "
+#~ "подразбиране.\n"
+#~ "  * Задействайте бутона OK.\n"
+#~ "  * Превключете на профила, където искате Num Lock винаги да бъде "
+#~ "изключен или включен.\n"
+#~ "  * Върнете се в панела с настройки на \"Навигационен режим на цифровия "
+#~ "блок\" и задайте режима на Num Lock, както предпочитате.\n"
+#~ "  * След това задействайте бутона OK. Сега, когато бъде задействан този "
+#~ "профил, Num Lock автоматично ще се промени в желаното състояние."
+
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=numpadNavMode [2]: "
+#~ "https://nvaccess.org/ [3]: https://github.com/opensourcesys/numpadNavMode/"
+#~ "issues/new [4]: https://github.com/nvaccess/addon-datastore/"
+#~ "discussions/2630"
+#~ msgstr ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=numpadNavMode [2]: "
+#~ "https://nvaccess.org/ [3]: https://github.com/opensourcesys/numpadNavMode/"
+#~ "issues/new [4]: https://github.com/nvaccess/addon-datastore/"
+#~ "discussions/2630"
+
+#~ msgid "Inspiration"
+#~ msgstr "Вдъхновение"

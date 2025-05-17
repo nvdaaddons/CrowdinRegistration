@@ -1,0 +1,777 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2025-01-26 19:19+0000\n"
+"PO-Revision-Date: 2016-08-14 09:20+0100\n"
+"Last-Translator: OAron <info@o-soft.hu>\n"
+"Language-Team: HU\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Enhanced Touch Gestures\"]]\n"
+msgstr "[[!meta title=\"továbbfejlesztett  érintési parancsok\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Joseph Lee"
+msgstr "Készítő: Joseph Lee"
+
+#. type: Plain text
+msgid ""
+"This add-on provides additional touchscreen gestures for NVDA. It also "
+"provides a set of gestures for easier browse mode navigation."
+msgstr ""
+"A kiegészítő kibővíti az NVDA érintőképernyős támogatását, ezen felül "
+"gesztusokat biztosít böngészőmód esetén a navigáció megkönnyítésére."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Note that you need NVDA 2012.3 or later installed on a touchscreen "
+#| "computer running Windows 8 or later."
+msgid ""
+"Note: this add-on requires NVDA 2024.1 or later running on a touchscreen "
+"computer with Windows 10 or 11."
+msgstr ""
+"Fontos hogy az érintőképernyővel rendelkező számítógépen Windows 8 vagy "
+"újabb operációs rendszer fusson, ezen kívül telepítve legyen az NVDA 2012.3 "
+"vagy újabb verziója."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Parancsok"
+
+#. type: Title ###
+#, no-wrap
+msgid "Available everywhere"
+msgstr "Mindenhol elérhető"
+
+#. type: Bullet: '* '
+msgid "4 finger double tap: toggle input help mode."
+msgstr "Négy ujjas dupla koppintás: Be vagy kikapcsolja a beviteli súgót."
+
+#. type: Bullet: '* '
+msgid "Four finger flick right: toggle touch keyboard (usually enables it)."
+msgstr ""
+"Négy ujjas jobbra pöccintés: Váltás érintőképernyős billentyűzetre "
+"(általában megjeleníti)"
+
+#. type: Bullet: '* '
+msgid ""
+"Four finger flick left: toggle dictation (Windows+H; Windows 10 Version 1709 "
+"or later)."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Object mode"
+msgstr "Elem érintőmód"
+
+#. type: Bullet: '* '
+msgid "3 finger flick down: read current window."
+msgstr "3 ujjas pöccintés lefelé: Az aktuális ablak tartalmának felolvasása."
+
+#. type: Bullet: '* '
+msgid "3 finger flick left: report object with focus."
+msgstr "3 ujjas pöccintés balra: A fókuszban lévő elem bemondása."
+
+#. type: Bullet: '* '
+msgid "3 finger flick right: report current navigator object."
+msgstr "3  ujjas pöccintés jobbra: A navigátor kurzor elemének bemondása."
+
+#. type: Bullet: '* '
+msgid "4 finger flick up: report title of the current window."
+msgstr "4 ujjas pöccintés fölfelé: Az aktuális ablak címének bemondása."
+
+#. type: Bullet: '* '
+msgid "4 finger flick down: report status bar text."
+msgstr "4 ujjas pöccintés  lefelé: Az állapotsor tartalmának bemondása."
+
+#. type: Title ##
+#, no-wrap
+msgid "Web touch mode"
+msgstr "Webes érintő mód"
+
+#. type: Plain text
+msgid ""
+"This touch mode, available in browse mode, allows you to navigate the "
+"document by selected element. To switch to web mode, from browse mode "
+"documents, perform 3 finger tap. From this mode, flicking up or down with "
+"one finger cycles through available element navigation modes, while flicking "
+"right or left with one finger moves to next or previous chosen element, "
+"respectively. Once you move away from browse mode documents, object touch "
+"mode is used."
+msgstr ""
+"Ez a böngészőmódban elérhető érintési mód lehetővé teszi a dokumentum "
+"kiválasztott elemei közti navigációt. E módot aktiválni egy böngészőmódú "
+"dokumentumban 3 ujjas koppintással lehet. Egyujjas felfelé és lefelé "
+"pöccintéssel lehet váltogatni az egyes elem navigációs módok közül. Egyujjas "
+"jobbra és balra pöccintéssel lehet navigálni az egyes elemek között. Ha "
+"kilép a böngészőmódú dokumentumból, onnantól az Elem érintőmód lesz aktív."
+
+#. type: Title ##
+#, no-wrap
+msgid "Synth settings touch mode"
+msgstr "Beszédszintetizátor érintő mód"
+
+#. type: Plain text
+msgid ""
+"You can use this mode to quickly change synthesizer settings such as "
+"choosing a voice and changing volume. In this mode, use two finger flick "
+"left or right to move between synth settings and use two finger flick up and "
+"down gestures to change values. This gestures mirrors that of synth settings "
+"ring commands on the keyboard."
+msgstr ""
+"Ezzel a móddal gyorsan változtathat a beszédszintetizátor beállításain, mint "
+"hangkarakter váltása, vagy a hangerő megváltoztatása. Ebben a módban "
+"kétujjas balra, ill. jobbra pöccintéssel választhatja ki a módosítani kívánt "
+"opciót, az értékeket kétujjas felfelé, ill. lefelé pöccintéssel "
+"módosíthatja. Ezek az érintési parancsok tükrözik a beszédszintetizátor "
+"opcióinak módosítására szolgáló billentyűparancsokat."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 25.02"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Restored limited support for Windows 8.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 25.01"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Download links for add-on releases are no longer included in add-on "
+"documentation. You can download the add-on from NV Access add-on store."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Switched linting tool from Flake8 to Ruff and reformatted add-on modules to "
+"better align with NVDA coding standards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for automatic add-on updates feature from Add-on Updater add-"
+"on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 24.05"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2024.1 or later is required."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 23.06.1"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"audio ducking moved to 4 finger tap due to conflict with speech stops NVDA "
+"command."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 23.06"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Enhanced Touch gestures nvda-addon is now maintained by Kefas Lungu."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "All gestures in object mode are now available everywhere."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New gestures are now available."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"3 finger double tap: Cycles through speech symbol levels which determine "
+"what symbols are spoken"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "2 finger tripple tap: Quit NVDA!."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "4 finger tap: Cycles through audio ducking modes."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "Triple tap: Toggles between beeps, speech, beeps and speech, and off."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In web mode, it is now possible to Use buttons, graphics, and landmarks in "
+"addition to the already available browse element list."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In web mode, NVDA is no longer going to say normal, but default when you "
+"switch to default navigation from other browse element list. For example, "
+"when switching from buttons, NVDA will now say default."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 23.02"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 23.01"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 8.1 is no longer supported by "
+"Microsoft as of January 2023."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"It is possible to reassign touch keyboard and dictation toggle commands from "
+"input gestures dialog under Enhanced Touch Gestures category."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed read-only state workaround for touch keyboard keys as it is resolved "
+"in Windows 10."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 22.03"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 21.10"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.2 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 21.08"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Initial support for Windows 11."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 21.01"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2020.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"On Windows 10 Version 1709 and later, doing a four finger flick left will "
+"toggle dictation (Windows+H)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Remove dedicated touch interaction support toggle command from the add-on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"As touch interaction support can be toggled from NVDA's touch interaction "
+"settings panel, a dedicated Enhanced Touch Gestures settings panel has been "
+"removed."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 20.09"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed ability to let NVDA turn off touch interaction for up to ten seconds "
+"(touch command passthrough)."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Coordinate announcement beep"
+msgid "Removed coordinate announcement beep feature."
+msgstr "Koordinátákat bejelentő hang"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 20.07"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a keyboard command to toggle touch interaction or enable/disable touch "
+"passthrough (Control+Alt+NVDA+T)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"As NVDA 2020.1 and later includes a touch command to perform right mouse "
+"click (one finger tap and hold), the command has been removed from this add-"
+"on. AS a result, NVDA 2020.1 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The ability to let NVDA turn off touch interaction for up to ten seconds "
+"(touch command passthrough) is deprecated. In the future this feature will "
+"toggle touch interaction instead."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In NVDA development snapshots, due to touch interaction feature changes, "
+"touch command passthrough feature and Enhanced Touch Gestures settings panel "
+"will be disabled. The command used to enable touch command passthrough will "
+"toggle touch interaction instead."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Coordinate announcement beep feature is deprecated and will be removed in a "
+"future add-on release."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Coordinate announcement beep will not be heard while using touch keyboard."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to do nothing or play error tones while exploring "
+"modern input facility such as emoji panel via touch."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will present an error message if touch keyboard cannot be activated "
+"(four finger flick right)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 20.06"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 20.04"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Right mouse click gesture (one finger tap and hold) is now part of NVDA "
+"2020.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 20.01"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Touch support toggle command (including touch passthrough) will no longer "
+"function if touch support is turned off completely."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 19.11"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Added input help messages for additional touch commands."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 19.09"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Touch support can now be disabled from everywhere, not just from profiles "
+"other than normal profile."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 19.07"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 18.12"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 18.08"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 and future versions."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 18.06"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on settings is now found in new multi-category NVDA Settings screen "
+"under \"Enhanced Touch Gestures\" category. As a result, NVDA 2018.2 is "
+"required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fixed compatibility issues with wxPython 4."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 18.04"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Resolves an issue where touch interaction category in NVDA Settings panel "
+"may cause error sounds to be heard due to changes made from this add-on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 18.03"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2018.1 is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Because NVDA 2018.1 comes with touch typing checkbox, the checkbox is no "
+"longer included in this add-on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 17.12"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Requires NVDA 2017.4. Specifically, this add-on can now handle configuration "
+"profile switches."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"As NVDA 2017.4 includes screen orientation announcement, this feature is no "
+"longer part of this add-on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a hidden checkbox in Touch Interaction dialog to completely disable "
+"touch support (available if profiles other than normal configuration is "
+"active)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If using NVDA 2018.1 or later, Touch Interaction dialog will be listed twice "
+"under NVDA's preferences menu. The second item is the dialog that comes with "
+"the add-on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Touch Interaction dialog for the add-on, touch typing mode is no longer "
+"shown if using NVDA 2018.1 or later."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 17.10"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Due to support policy from Microsoft, Windows 8 (original release) is no "
+"longer supported."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer announce screen orientation twice when running NVDA "
+"2017.4 development snapshots."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 17.07.1"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option in touch interaction dialog to manually toggle touch "
+"passthrough without use of a timer."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"With manual passthrough mode off, if touch passthrough is turned on before "
+"the passthrough duration expires, touch interaction would be enabled."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 17.07"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new dialog named Touch Interaction under NVDA's preferences menu to "
+"configure how NVDA works with touchscreens."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"After installing this version, when pressing keys on the touch keyboard, one "
+"must double tap the desired key. You can switch back to the old way by "
+"enabling touch typing from Touch Interaction dialog."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a command (unassigned) to allow NVDA to ignore touch gestures for up "
+"to 10 seconds."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option in Touch Interaction dialog to allow NVDA to pause touch "
+"interaction between 3 to 10 seconds in order to perform touchscreen gestures "
+"directly (as though NVDA is not running; default is 5 seconds)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added debug logging messages when performing right clicks (tap and hold) to "
+"be recorded in the NVDA log (requires NVDA 2017.1 or later)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Due to changes made when playing screen coordinates, NVDA 2017.1 or later is "
+"required."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Version: [0.6][1]"
+msgid "##Version 17.03"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue where coordinate announcement beep did not play or an error "
+"tone played instead when using NVDA 2017.1 or later."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Version: [0.6][1]"
+msgid "##Version 16.12"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Web touch mode works in Microsoft Edge, Microsoft Word and others where "
+"browse mode is used."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added lists and landmarks to web touch mode elements."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 16.06"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Download [stable version][1]"
+msgid "Initial stable version."
+msgstr "Letöltés[stabil verzió][1]"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Letöltés[stabil verzió][1]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ets-dev"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#~ msgid ""
+#~ "If you've enabled play mouse coordinates setting in mouse settings, "
+#~ "you'll hear beeps to indicate current screen coordinate when you invoke "
+#~ "touch exploration gestures."
+#~ msgstr ""
+#~ "Amennyiben bekapcsolja \"Az egérmutató mozgásának jelzése hanggal\" "
+#~ "opciót az NVDA Egér párbeszédpanelén, akkor a képernyő felfedezésére "
+#~ "használt érintési parancsok esetében épp úgy jelzi az NVDA a képernyő "
+#~ "aktuális koordinátáit, mint ahogy azt az egérmutató mozgásánál teszi."
+
+#, fuzzy
+#~| msgid "Tap and hold: performs right click at the object under your finger."
+#~ msgid ""
+#~ "Tap and hold: performs right click at the object under your finger (now "
+#~ "part of NVDA 2020.1 and later)."
+#~ msgstr ""
+#~ "Koppintás és tartás: Jobb egérgombos kattintást végez az ujj alatt lévő "
+#~ "elemen."
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=ets-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#, fuzzy
+#~| msgid "Download [stable version][1]"
+#~ msgid "Download [development version][2]"
+#~ msgstr "Letöltés[stabil verzió][1]"
+
+#~ msgid "Screen orientation"
+#~ msgstr "Képernyő tájolás"
+
+#~ msgid ""
+#~ "NVDA can announce screen orientation changes. Note that NvDA cannot "
+#~ "distinguish between primary and secondary orientation at this time."
+#~ msgstr ""
+#~ "Az NVDA képes bejelenteni a képernyő tájolásának változását. Az NVDA nem "
+#~ "tudja megkülönböztetni az elsődleges és másodlagos tájolást. "

@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OCR\n"
+"POT-Creation-Date: 2023-04-15 19:14+0000\n"
+"PO-Revision-Date: 2023-04-16 19:24+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"OCR\"]]\n"
+msgstr "[[!meta title=\"OCR\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: NV Access Limited, Lukasz Golonka and other contributors"
+msgstr "Tekijät: NV Access Limited, Lukasz Golonka sekä muut"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Yhteensopivuus: NVDA 2019.3 ja uudemmat"
+
+#. type: Bullet: '* '
+msgid "Download [Stable version][1]"
+msgstr "Lataa [vakaa versio][1]"
+
+#. type: Bullet: '* '
+msgid "Download [version compatible with NVDA 2019.2 and older][2]"
+msgstr "Lataa [NVDA 2019.2:n ja sitä vanhempien kanssa yhteensopiva versio][2]"
+
+#. type: Plain text
+msgid ""
+"Important: if you are using NVDA 2017.3 or later on Windows 10, please "
+"consider using built-in Windows 10 OCR."
+msgstr ""
+"Tärkeää: Mikäli käytät NVDA 2017.3:a tai sitä uudempaa Windows 10:ssä, "
+"harkitse Windows 10:n sisäänrakennetun tekstintunnistuksen käyttöä."
+
+#. type: Plain text
+msgid ""
+"Performs optical character recognition (OCR) to extract text from an object "
+"which is inaccessible. The Tesseract OCR engine is used. To perform OCR, "
+"move to the object in question using object navigation and press NVDA+r. You "
+"can set the OCR recognition language by going to the NVDA settings panel and "
+"selecting OCR settings. The keyboard shortcut can be reassigned from NVDA "
+"input gestures dialog in the \"Miscellaneous\" category."
+msgstr ""
+"Poimii tekstin esteellisestä objektista suorittamalla sille "
+"tekstintunnistuksen. Tunnistuksessa käytetään Tesseract-moottoria. "
+"Tekstintunnistus suoritetaan siirtymällä  haluttuun objektiin "
+"objektinavigointia käyttäen ja painamalla NVDA+R. Tunnistuksen kieli voidaan "
+"määrittää valitsemalla Tekstintunnistus-vaihtoehto NVDA:n asetuspaneelista. "
+"Pikanäppäin on mahdollista muuttaa NVDA:n Syöttökomennot-valintaikkunan "
+"Sekalaiset-kategoriasta."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log:"
+msgstr "Muutosloki:"
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.1:"
+msgstr "Muutokset versiossa 2.1:"
+
+#. type: Bullet: '* '
+msgid ""
+"When recognition is performed on an edit field it is now possible to "
+"navigate it with the system caret without moving focus from it and back "
+"again."
+msgstr ""
+"Kun tekstintunnistus suoritetaan muokkauskentässä, siinä on nyt mahdollista "
+"liikkua nuolinäppäimillä siirtämättä kohdistusta pois ja taas takaisin."
+
+#. type: Bullet: '* '
+msgid "Tesseract release info is no longer written to the focused console."
+msgstr ""
+"Tesseractin versiotietoja ei enää kirjoiteta aktiivisena olevaan konsoliin."
+
+#. type: Bullet: '* '
+msgid "When no text is recognized this fact is announced to the user."
+msgstr "Kun tekstiä ei tunnistettu, siitä ilmoitetaan käyttäjälle."
+
+#. type: Bullet: '* '
+msgid "It is no longer possible to attempt recognition on an invisible object."
+msgstr ""
+"Enää ei ole mahdollista yrittää tekstintunnistusta näkymättömässä objektissa."
+
+#. type: Bullet: '* '
+msgid "WX is now used to capture images instead of Pillow."
+msgstr "Kuvien kaappaamiseen käytetään nyt WX:ää Pillowin asemesta."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.0:"
+msgstr "Muutokset versiossa 2.0:"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2019.3 and later."
+msgstr "Yhteensopivuus: NVDA 2019.3 ja sitä uudemmat"
+
+#. type: Bullet: '* '
+msgid ""
+"It is possible to set different recognition languages for different "
+"configuration profiles."
+msgstr ""
+"Eri tunnistuskielien määrittäminen on mahdollista eri asetusprofiileille."
+
+#. type: Bullet: '* '
+msgid ""
+"OCR settings can now be changed from NVDA settings dialog rather than from a "
+"separate dialog in the tools menu."
+msgstr ""
+"Tekstintunnistuksen asetuksia muutetaan nyt NVDA:n asetusvalintaikkunasta "
+"erillisen, Työkalut-valikosta avattavan valintaikkunan asemesta."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=ocr"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=ocr"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/files/nvda-addons/ocr_0.20120529.01.nvda-addon"
+msgstr ""
+"[2]: https://www.nvaccess.org/files/nvda-addons/ocr_0.20120529.01.nvda-addon"
+
+#~ msgid "This is legacy add-on: no active development since 2012."
+#~ msgstr ""
+#~ "Tämä on vanhentunut lisäosa: ei aktiivista kehitystä vuoden 2012 jälkeen."

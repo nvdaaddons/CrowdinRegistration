@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Bluetooth Audio\n"
+"POT-Creation-Date: 2025-04-30 11:44+0000\n"
+"PO-Revision-Date: 2024-07-12 16:46+0300\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"BluetoothAudio\"]]\n"
+msgstr "[[!meta title=\"BluetoothAudio\"]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Notice"
+msgstr "Huomautus"
+
+#. type: Plain text
+msgid ""
+"Bluetooth Audio add-on is abandoned. Silence playing functionality has been "
+"merged to NVDA core as of version 2024.2 and is turned on by default, so no "
+"further action is required."
+msgstr ""
+"Bluetooth Audio -lisäosan kehitys on lopetettu.  Hiljaisuuden toistamisen "
+"toiminnallisuus on lisätty NVDA 2024.2:een, ja se on oletuksena käytössä, "
+"joten lisätoimenpiteitä ei tarvita."
+
+#. type: Plain text
+msgid ""
+"If you would like to hear white noise, you would need to set a hidden option:"
+msgstr ""
+"Jos haluat kuulla valkoista kohinaa, sinun täytyy muuttaa piilotettua "
+"asetusta:"
+
+#. type: Bullet: '1. '
+msgid ""
+"Open `NVDA.ini`. If you have installed copy of NVDA, it is located at "
+"`%APPDATA%\\NVDA\\nvda.ini`."
+msgstr ""
+"Avaa `NVDA.ini`. Mikäli sinulla on NVDA:n asennettu versio, tiedoston polku "
+"on `%APPDATA%\\NVDA\n"
+"vda.ini`."
+
+#. type: Bullet: '2. '
+msgid "Quit NVDA and open Narrator."
+msgstr "Sulje NVDA ja käynnistä Lukija."
+
+#. type: Bullet: '3. '
+msgid "Find `[audio]` section."
+msgstr "Etsi `[audio]`-osio."
+
+#. type: Bullet: '4. '
+msgid "Within that section, add the following line:"
+msgstr "Lisää kyseiseen osioon seuraava rivi:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    ```\n"
+"    whiteNoiseVolume = 50\n"
+"    ```\n"
+msgstr ""
+"    ```\n"
+"    whiteNoiseVolume = 50\n"
+"    ```\n"
+
+#. type: Bullet: '5. '
+msgid "Save and close the file. Restart NVDA."
+msgstr "Tallenna tiedosto ja sulje se. Käynnistä NVDA uudelleen."
+
+#. type: Title #
+#, no-wrap
+msgid "nvda-bluetooth-audio"
+msgstr "nvda-bluetooth-audio"
+
+#. type: Plain text
+msgid ""
+"Bluetooth Audio is an NVDA add-on that improves sound quality when working "
+"with bluetooth or RF headphones or speakers."
+msgstr ""
+"Bluetooth Audio on lisäosa, joka parantaa äänenlaatua bluetooth- sekä RF-"
+"kuulokkeita tai kaiuttimia käytettäessä."
+
+#. type: Plain text
+msgid ""
+"Most bluetooth devices enter standby mode after a few seconds of inactivity. "
+"That means that when NVDA starts speaking again, the first split second of "
+"sound will be lost. Bluetooth Audio add-on prevents bluetooth devices from "
+"entering standby mode by constantly playing a silent sound, that is "
+"inaudible to a human ear."
+msgstr ""
+"Useimmat bluetooth-laitteet siirtyvät valmiustilaan, kun ne ovat olleet "
+"käyttämättömänä muutaman sekunnin. Tämä tarkoittaa, että kun NVDA alkaa "
+"puhua uudestaan, pieni osa äänen alusta menetetään. Bluetooth Audio -lisäosa "
+"estää bluetooth-laitteita siirtymästä valmiustilaan toistamalla jatkuvasti "
+"hiljaista, ihmiskorvalle kuulumatonta ääntä."
+
+#. type: Plain text
+msgid ""
+"Bluetooth Audio can optionally play white noise sound instead of silence. "
+"This can be good for testing or to ascertain that Bluetooth Audio works as "
+"expected. However, same level of audio quality improvement can be achieved "
+"by playing silence."
+msgstr ""
+"Bluetooth Audio voi vaihtoehtoisesti toistaa valkoista kohinaa hiljaisuuden "
+"sijaan. Tämä voi olla hyödyllistä testaustarkoituksessa tai varmistettaessa, "
+"että Bluetooth Audio toimii odotetusti. Sama äänenlaadun parannus voidaan "
+"kuitenkin saavuttaa toistamalla hiljaisuutta."
+
+#. type: Plain text
+msgid ""
+"Warning: using Bluetooth Audio add-on might reduce battery life of your "
+"bluetooth device."
+msgstr ""
+"Varoitus: Tämän lisäosan käyttäminen saattaa lyhentää bluetooth-laitteen "
+"akun käyttöikää."
+
+#. type: Title ##
+#, no-wrap
+msgid "Download"
+msgstr "Lataa"
+
+#. type: Bullet: '* '
+msgid ""
+"Current stable version (Python 3 only, requires NVDA 2019.3 or later): "
+"[BluetoothAudio](https://github.com/mltony/nvda-bluetooth-audio/releases/"
+"latest/download/bluetoothaudio.nvda-addon)"
+msgstr ""
+"Nykyinen vakaa versio (vain Python 3, edellyttää NVDA 2019.3:ea tai "
+"uudempaa): [BluetoothAudio](https://github.com/mltony/nvda-bluetooth-audio/"
+"releases/latest/download/bluetoothaudio.nvda-addon)"
+
+#. type: Bullet: '* '
+msgid ""
+"Last Python 2 version (compatible with NVDA 2019.2 and prior): [v1.0]"
+"(https://github.com/mltony/nvda-bluetooth-audio/releases/download/v1.0/"
+"bluetoothaudio-1.0.nvda-addon)"
+msgstr ""
+"Viimeinen Python 2 -versio (yhteensopiva NVDA 2019.2:n ja vanhempien "
+"kanssa): [v1.0](https://github.com/mltony/nvda-bluetooth-audio/releases/"
+"download/v1.0/bluetoothaudio-1.0.nvda-addon)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Keystrokes"
+msgstr "Näppäinkomennot"
+
+#. type: Plain text
+msgid ""
+"Bluetooth Audio add-on doesn't have any keystrokes. It works as long as it "
+"is installed."
+msgstr ""
+"Bluetooth Audio -lisäosalla ei ole näppäinkomentoja. Se toimii niin kauan "
+"kuin se on asennettuna."
+
+#. type: Title ##
+#, no-wrap
+msgid "Source code"
+msgstr "Lähdekoodi"
+
+#. type: Plain text
+msgid ""
+"Source code is available at <http://github.com/mltony/nvda-bluetooth-audio>."
+msgstr ""
+"Lähdekoodi on saatavilla osoitteessa <http://github.com/mltony/nvda-"
+"bluetooth-audio>."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=bluetoothaudio"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=bluetoothaudio"
+
+#~ msgid "Author: Tony Malykh"
+#~ msgstr "Tekijä: Tony Malykh"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Lataa [vakaa versio][1]"

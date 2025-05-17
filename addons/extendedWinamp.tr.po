@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Genişletilmiş Wİnamp Desteği\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2024-12-01 22:09+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Tur <cagrid@hotmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Extended Winamp\"]]\n"
+msgstr "[[!meta title=\"Genişletilmiş Wİnamp Desteği\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Hrvoje Katic, Beqa Gozalishvili and NVDA-addon-team"
+msgstr "Yazarlar: Hrvoje Katic, Beqa Gozalishvili ve NVDA-eklenti-takımı"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Kararlı sürümü][1] indir"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2020.1 and beyond"
+msgstr "NVDA uyumluluğu: 2020.1 ve sonrası"
+
+#. type: Plain text
+msgid ""
+"This add-on extends the original Winamp app module found in NVDA with some "
+"extra functionality."
+msgstr ""
+"Bu eklenti, NVDA'da bulunan orijinal Winamp uygulama modülünü bazı ekstra "
+"işlevlerle genişletir."
+
+#. type: Bullet: '* '
+msgid "S: toggle shuffle on/off"
+msgstr "s: karışık çalmayı açıp kapatır"
+
+#. type: Bullet: '* '
+msgid "R: toggle repeat on/off"
+msgstr "r: tekrar çalmayı açıp kapatır"
+
+#. type: Bullet: '* '
+msgid "F5: mute playback"
+msgstr "F5: sesi tamamen kısar"
+
+#. type: Bullet: '* '
+msgid "F6: set playback volume to 25%"
+msgstr "F6: sesi %25 seviyesine getirir"
+
+#. type: Bullet: '* '
+msgid "F7: set playback volume to 50%"
+msgstr "F7: sesi %50 seviyesine getirir"
+
+#. type: Bullet: '* '
+msgid "F8: set playback volume to 100%"
+msgstr "F8: sesi %100 seviyesine getirir"
+
+#. type: Bullet: '* '
+msgid "Shift+Left arrow: pan Left"
+msgstr "Shift+sol ok: sesi sola kaydırır"
+
+#. type: Bullet: '* '
+msgid "Shift+Right arrow: pan Right"
+msgstr "Shift+Sağ ok: sesi sağa kaydırır"
+
+#. type: Bullet: '* '
+msgid "Shift+Up arrow: pan Center"
+msgstr "Shift+Yukarı ok: sesi ortalar"
+
+#. type: Bullet: '* '
+msgid "Control+Shift+T: speaks total Track Length"
+msgstr "Control+Shift+t: toplam süreyi söyler"
+
+#. type: Bullet: '* '
+msgid "Control+Shift+E: speaks track Elapsed Time"
+msgstr "Control+Shift+e: geçen süreyi söyler"
+
+#. type: Bullet: '* '
+msgid "Control+Shift+R: speaks track Remaining Time"
+msgstr "Control+Shift+r: kalan süreyi söyler"
+
+#. type: Bullet: '* '
+msgid "Shift+R: Review the end of track \"last 6 seconds by default\""
+msgstr "Shift+r: parça sonunu çalar \"varsayılan süre 6 saniye\""
+
+#. type: Bullet: '* '
+msgid ""
+"Control+R: Set the review time \"in seconds\" for use with Review End of "
+"Track command"
+msgstr "Control+r: Parça sonu gözden geçirme süresini belirle"
+
+#. type: Bullet: '* '
+msgid "Shift+J: Set alternate jump time \"in seconds\""
+msgstr "Shift+j: alternatif ileri-geri alma süresini belirle"
+
+#. type: Bullet: '* '
+msgid "Control+Right arrow: alternate Jump Forward \"6 seconds by default\""
+msgstr "Control+Sağ ok alternatif ileri alma \"varsayılan süre 6 saniye \""
+
+#. type: Bullet: '* '
+msgid "Control+Left arrow: alternate Jump Backward \"6 seconds by default\""
+msgstr "Control+Sol ok alternatif  geri alma \"varsayılan süre 6 saniye\""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "2.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr "Flake8 ile birçok kodlama stili sorunu ve olası hatalar çözüldü."
+
+#. type: Bullet: '* '
+msgid "Made compatible with NVDA 2021.1."
+msgstr "NVDA 2021.1 ile uyumlu hale getirildi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "1.2 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Updated Addon to work on NVDA 2019.3 and above."
+msgstr ""
+"Eklenti, NVDA 2019.3 ve üzeri sürümlerde çalışacak şekilde güncellendi."
+
+#. type: Bullet: '* '
+msgid "New languages: Croatian, Polish, Simplified Chinese."
+msgstr "Yeni diller: Hırvatça, Lehçe, Basitleştirilmiş Çince."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "1.1 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid ""
+"New languages: Aragonese, Arabic, Dutch, German, Finnish, French, Galician, "
+"Hungarian, Italian, Japanese, Korean, Nepali, Portuguese (Brazil), Russian, "
+"Slovak, Slovenian, Spanish, Tamil, Turkish."
+msgstr ""
+"Yeni diller: Aragonca, Arapça, Felemenkçe, Almanca, Fince, Fransızca, "
+"Galiçyaca, Macarca, İtalyanca, Japonca, Korece, Nepalce, Portekizce "
+"(Brezilya), Rusça, Slovakça, Slovence, İspanyolca, Tamilce, Türkçe."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "1.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "İlk sürüm"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=extendedWinamp"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=extendedWinamp"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ew"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ew"

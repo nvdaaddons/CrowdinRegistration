@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-03-26 20:46+0000\n"
+"PO-Revision-Date: 2023-07-26 09:44+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"sayCurrentKeyboardLanguage\"]]\n"
+msgstr "[[!meta title=\"Aktive Tastatursprache ansagen\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Author(s): Abdel, Noelia;"
+msgid "Author(s): Abdel, Noelia."
+msgstr "Autoren: Abdel, Noelia;"
+
+#. type: Title #
+#, no-wrap
+msgid "Presentation"
+msgstr "Einführung"
+
+#. type: Plain text
+msgid ""
+"This addon was created following a request from a member on the nvda-addons "
+"mailing list."
+msgstr ""
+"Diese Erweiterung wurde auf Anfrage eines Mitglieds der nvda-addons "
+"Mailingliste erstellt."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "It provides a keyboard shortcut, NVDA + F4, which allows to retrieve and "
+#| "give the language of the current keyboard."
+msgid ""
+"It provides a script without gesture, which allows to retrieve and give the "
+"language of the current keyboard."
+msgstr ""
+"Diese Erweiterung  stellt eine Tastenkombination (NVDA+F4) zur Verfügung, "
+"welche die Informationen zum verwendeten Tastaturlayout mitteilt."
+
+#. type: Plain text
+msgid "If pressed twice, gives the default language of the system."
+msgstr "Bei zweimaligem Drücken wird die Standardsprache des Systems angesagt."
+
+#. type: Plain text
+msgid ""
+"At the first version of this module, it had been proposed as simple "
+"globalPlugin to paste in the configuration directory of NVDA, it was then "
+"transformed into addon."
+msgstr ""
+"Bei der ersten Version dieses Moduls war es lediglich ein globales Plugin, "
+"welches in die NVDA-Konfiguration integriert werden musste. Später wurde es "
+"in eine Erweiterung ausgelagert."
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "Anmerkungen"
+
+#. type: Plain text
+msgid ""
+"To set a gesture to the script giving the keyboard language, follow these "
+"steps:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Open the NVDA's menu, with \"NVDA + N\";"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Go to NVDA's preferences menu;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Then go to the submenu \"Input gestures\"."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Then select the category \"Input\", and open it with right arrow."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "If pressed twice, gives the default language of the system."
+msgid ""
+"Go to the item labeled \"Gives the language of the keyboard in use, if "
+"pressed twice, give the default language of the system\";"
+msgstr "Bei zweimaligem Drücken wird die Standardsprache des Systems angesagt."
+
+#. type: Bullet: '* '
+msgid ""
+"Once done, press Alt + A to add a gesture, and type \"NVDA + F4\" or another "
+"gesture of your choice;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"This done, press the up arrow once, you hear \"your chosen gesture, all "
+"layout\";"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Validate on enter, then tab to OK then enter;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Your chosen gesture should then call the script giving keyboard language."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Compatibility"
+msgstr "Kompatibilität"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "This add-on is compatible with the versions of NVDA ranging from 2014.3 "
+#| "and beyond."
+msgid ""
+"This add-on is compatible with the versions of NVDA ranging from 2019.3 and "
+"beyond."
+msgstr "Diese NVDA-Erweiterung ist kompatibel mit NVDA 2014.3 und neuer."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for version 20230426.0.0 and beyond##"
+msgid "Changes for 20240326.0.0"
+msgstr "Änderungen in Version 20230426.0.0 und neuer"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility for nvda-2024.1.;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Deleted download link from readme, the download link for future updates will "
+"now only be available from the add-on store."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for version 20230426.0.0 and beyond##"
+msgid "Changes for 20231229.0.0"
+msgstr "Änderungen in Version 20230426.0.0 und neuer"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a backward compatible implementation to support speak on demand mode, "
+"which will soon be available with nvda-2024.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for version 20230426.0.0 and beyond##"
+msgid "Changes for 20230729.0.0"
+msgstr "Änderungen in Version 20230426.0.0 und neuer"
+
+#. type: Bullet: '* '
+msgid "Applied the flake8 and mypy rules to the code;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Changed the minimum supported NVDA version to 2019.3 to support annotations "
+"introduced in Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Removed the \"NVDA + F4\" gesture calling the script giving the keyboard "
+"language., to allow users to choose their preferred gesture."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 20230426.0.0 and beyond##"
+msgstr "Änderungen in Version 20230426.0.0 und neuer"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version number, minimum NVDA version and download link according to "
+"store conventions/requirements."
+msgstr ""
+"Die Versionsnummer, die minimale NVDA-Version und der Download-Link wurden "
+"entsprechend den Konventionen bzw. der Anforderungen für den Store für NVDA-"
+"Erweiterungen geändert."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 19.02"
+msgstr "Änderungen in Version 19.02"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version numbering using YY.MM (The year in 2 digits, followed by a "
+"dot, followed by the month in 2 digits);"
+msgstr ""
+"Die Versionsnummerierung wurde mit JJ.MM geändert (das Jahr in 2 Ziffern, "
+"gefolgt von einem Punkt, gefolgt von dem Monat in 2 Ziffern);"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Added compatibility with the new versioning format of add-on, appeared "
+#| "since nvda 2019.1.\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"
+msgid ""
+"Added compatibility with the new versioning format of add-on, appeared since "
+"nvda 2019.1."
+msgstr ""
+"Kompatibilität mit dem neuen Versionsformat der NVDA-Erweiterung, das seit "
+"NVDA 2019.1 erschienen ist."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.1"
+msgstr "Änderungen in Version 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"The addon has been renamed from getCurKeyboardLanguage to "
+"sayCurrentKeyboardLanguage;"
+msgstr ""
+"Die Erweiterung wurde von \"getCurKeyboardLanguage\" in "
+"\"sayCurrentKeyboardLanguage\" umbenannt;"
+
+#. type: Bullet: '* '
+msgid "Added the GPL license to the addon;"
+msgstr "Die GPL-Lizenz wurde zur Erweiterung hinzugefügt;"
+
+#. type: Bullet: '* '
+msgid ""
+"Added the script getCurKeyboardLanguage to the \"System status\" category;"
+msgstr ""
+"Das Skript \"getCurKeyboardLanguage\" wurde zur Kategorie \"System status\" "
+"hinzugefügt;"
+
+#. type: Bullet: '* '
+msgid "Fixed some errors in the code."
+msgstr "Einige Fehler im code wurden behoben."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for version 1.0"
+msgstr "Änderungen in Version 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Erste Version."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "Download [development version](https://www.nvaccess.org/addonStore/"
+#~| "legacy?file=sayCurrentKeyboardLanguage)"
+#~ msgid ""
+#~ "Download [development version](https://github.com/abdel792/"
+#~ "sayCurrentKeyboardLanguage/releases/download/v23.12.29-beta/"
+#~ "sayCurrentKeyboardLanguage-20231229.0.1.nvda-addon)"
+#~ msgstr ""
+#~ "[Entwicklerversion herunterladen](https://www.nvaccess.org/addonStore/"
+#~ "legacy?file=sayCurrentKeyboardLanguage)"
+
+#~ msgid ""
+#~ "Download [stable version](https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage)"
+#~ msgstr ""
+#~ "[Stabile Version herunterladen](https://www.nvaccess.org/addonStore/"
+#~ "legacy?file=sayCurrentKeyboardLanguage)"
+
+#~ msgid ""
+#~ "If the NVDA + F4 keyboard shortcut conflicts with another command, you "
+#~ "can change it by going to the Preferences menu of NVDA, in the \"Input "
+#~ "gestures\" submenu."
+#~ msgstr ""
+#~ "Falls die Tastenkombination NVDA+F4 mit einer anderen Tastenkombination "
+#~ "kollidieren sollte, können Sie sie in den NVDA-Einstellungen im Untermenü "
+#~ "\"Eingaben\" anpassen."
+
+#~ msgid "You will then find the script in the \"System status\" category."
+#~ msgstr "Sie finden den Befehl in der Kategorie \"Systemstatus\"."
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "[Stabile Version herunterladen][1]"
+
+#, fuzzy
+#~| msgid "Download [development version][2]."
+#~ msgid "Download [development version][2]"
+#~ msgstr "[Entwicklerversion herunterladen][2]"
+
+#~ msgid "Compatible with NVDA2023.1 and beyond."
+#~ msgstr "Kompatibel mit NVDA2023.1 und neuer."
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+#~ msgid ""
+#~ "[2]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ckbl-dev"
+
+#, fuzzy
+#~| msgid ""
+#~| "[1]: https://www.nvaccess.org/addonStore/legacy?"
+#~| "file=sayCurrentKeyboardLanguage"
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage [2]: https://www.nvaccess.org/addonStore/"
+#~ "legacy?file=sayCurrentKeyboardLanguage"
+#~ msgstr ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?"
+#~ "file=sayCurrentKeyboardLanguage"

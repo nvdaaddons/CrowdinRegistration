@@ -1,0 +1,776 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:34+0000\n"
+"PO-Revision-Date: 2022-08-19 10:21+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Developer Toolkit\"]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Author: Andy Borka"
+msgstr "作者: Andy Borka"
+
+#. type: Bullet: '* '
+msgid "download [stable version][1]"
+msgstr "ダウンロード [安定版][1]"
+
+#. type: Bullet: '* '
+msgid "download [development version][2]"
+msgstr "ダウンロード [開発版][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.1 to 2020.1"
+msgstr "NVDA互換性: 2019.1から2020.1"
+
+#. type: Plain text
+msgid ""
+"Developer toolkit (DTK) is an NVDA add-on that helps blind and visually "
+"impaired developers independently create visually appealing user interfaces "
+"and web content. It provides gestures that enable you to navigate through "
+"objects and obtain information about them, such as their size, position, and "
+"characteristics. To begin using DTK, place focus on a control, then press "
+"**ALT+WINDOWS+K**. To disable it, press **ALT+WINDOWS+K** again. When on the "
+"web, press **NVDA+SPACE** to put NVDA in Focus Mode and press "
+"NVDA+SHIFT+SPACE to disable Single Letter Navigation."
+msgstr ""
+"Developer toolkit(DTK)は、視覚障害のある開発者が、独力で見た目の良いユーザー"
+"インターフェースとwebコンテンツを作成する助けとなるNVDAアドオンです。オブジェ"
+"クトをたどり、それらのサイズ、位置、特徴といった情報を得るためのジェスチャー"
+"を提供します。DTKの使用を開始するには、コントロールにフォーカスを置き、"
+"ALT+WINDOWS+Kを押します。終了するには、ALT+WINDOWS+Kをもう一度押します。webで"
+"は、NVDA+SPACEを押してNVDAをフォーカスモードにし、NVDA+SHIFT+SPACEを押して、"
+"一文字ナビゲーションを無効化します。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Gestures"
+msgstr "ショートカット"
+
+#. type: Plain text
+msgid "The following gestures are available when DTK is enabled."
+msgstr "DTKが有効な時、次のショートカットが使用出来ます。"
+
+#. type: Bullet: '* '
+msgid "**ALT+WINDOWS+K** - Enable or disable DTK features."
+msgstr "**ALT+WINDOWS+K** - DTKの機能を有効化または無効化します。"
+
+#. type: Bullet: '* '
+msgid "**LEFT ARROW** - Move to previous sibling."
+msgstr "**左矢印** - 前の兄弟要素に移動します。"
+
+#. type: Bullet: '* '
+msgid "**RIGHT ARROW** - Move to next sibling."
+msgstr "**右矢印** - 次の兄弟要素に移動します。"
+
+#. type: Bullet: '* '
+msgid "**UP ARROW** - Move to parent."
+msgstr "**上矢印** - 親要素に移動します。"
+
+#. type: Bullet: '* '
+msgid "**DOWN ARROW** - Move to first child."
+msgstr "**下矢印** - 一番目の子要素に移動します。"
+
+#. type: Bullet: '* '
+msgid "**CTRL+HOME** - Move to top-most parent."
+msgstr "**CTR+HOME** - 一番上の親要素に移動します。"
+
+#. type: Bullet: '* '
+msgid "**HOME** - Move to the relative parent if one is assigned."
+msgstr "**HOME** - 割り当てされている場合、相対的な親要素に移動します。"
+
+#. type: Bullet: '* '
+msgid ""
+"**A** - In web content, speak HTML attributes. Press twice quickly to copy "
+"to the clipboard."
+msgstr ""
+"**A** - webコンテンツでは、HTML属性を読み上げます。2回素早く押すとクリップ"
+"ボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**B** - Speak the position of the object's bottom edge. Press twice quickly "
+"to copy to the clipboard."
+msgstr ""
+"**B** - オブジェクトの下端の位置を読み上げます。2回素早く押すとクリップボード"
+"にコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**SHIFT+B** - Speak the distance between the object's bottom edge and the "
+"relative parent's bottom edge. Press twice quickly to copy to the clipboard."
+msgstr ""
+"**Shift+B** - オブジェクトの下端と、相対的な親要素の下端との距離を読み上げま"
+"す。2回素早く押すとクリップボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**C** - Speak the number of children contained inside the object. Press "
+"twice quickly to copy to the clipboard."
+msgstr ""
+"**C** - オブジェクト内部の子要素の数を読み上げます。2回素早く押すとクリップ"
+"ボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid "**control+c** - Switch between RGB, Hex, and Name color values."
+msgstr "**control+c** - 色の値をRGB, Hex, Nameの間で切り替えます。"
+
+#. type: Bullet: '* '
+msgid "**CTRL+D** - Enable or disable detailed messages."
+msgstr "**CTRL+D** - 詳細のメッセージを有効または無効にします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**F** - In web content, speaks the object's font and formatting information. "
+"Press twice quickly to copy to the clipboard."
+msgstr ""
+"**F** - webコンテンツにて、オブジェクトのフォントと書式の情報を読み上げます。"
+"2回素早く押すとクリップボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**H** - Speak the object's height. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**H** - オブジェクトの高さを読み上げます。2回素早く押すとクリップボードにコ"
+"ピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**L** - Speak the position of the object's left edge. Press twice quickly to "
+"copy to the clipboard."
+msgstr ""
+"**L** - オブジェクトの左端の位置を読み上げます。2回素早く押すとクリップボード"
+"にコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**n** - Speak the object's name. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**n**- オブジェクト名を読み上げます。2回素早く押すとクリップボードにコピーし"
+"ます。"
+
+#. type: Bullet: '* '
+msgid ""
+"**CTRL+P** - Set the relative parent for obtaining size/location of objects."
+msgstr ""
+"**CTRL+P** - オブジェクトのサイズ/位置を取得するために、相対的な親要素を設定"
+"します。"
+
+#. type: Bullet: '* '
+msgid ""
+"**P** - Speak the relative parent's name. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**P** - 相対的な親要素の名前を読み上げます。2回素早く押すとクリップボードにコ"
+"ピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**R** - Speak the position of the object's right edge. Press twice quickly "
+"to copy to the clipboard."
+msgstr ""
+"**R** - オブジェクトの右端の位置を読み上げます。2回素早く押すとクリップボード"
+"にコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**SHIFT+R** - Speak the distance between the object's right edge and the "
+"relative parent's right edge. Press twice quickly to copy to the clipboard."
+msgstr ""
+"**SHIFT+R** - オブジェクトの右端と相対的な親要素の右端の間の距離を読み上げま"
+"す。2回素早く押すとクリップボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**ALT+R** - Speak the object's Role/control type. Press twice quickly to "
+"copy it to the clipboard."
+msgstr ""
+"**ALT+R** - オブジェクトのロール/コントロールタイプを読み上げます。2回素早く"
+"押すとクリップボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**S** - Speak the number of siblings relative to the object. Press twice "
+"quickly to copy to the clipboard."
+msgstr ""
+"**S** - オブジェクトの相対的な兄弟要素の数を読み上げます。2回素早く押すとク"
+"リップボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**SHIFT+S** - Speak the object's control states. Press twice quickly to copy "
+"it to the clipboard."
+msgstr ""
+"**SHIFT+S** - オブジェクトのコントロール状態を読み上げます。2回素早く押すとク"
+"リップボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**T** - Speak the position of the object's top edge. Press twice quickly to "
+"copy to the clipboard."
+msgstr ""
+"**T** - オブジェクトの上端の位置を読み上げます。2回素早く押すとクリップボード"
+"にコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**V** - Speak Developer toolkit version. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**V** - Developer toolkitのバージョンを読み上げます。2回素早く押すとクリップ"
+"ボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"**W** - Speak the object's width. Press twice quickly to copy to the "
+"clipboard."
+msgstr ""
+"**W** - オブジェクトの幅を読み上げます。2回素早く押すとクリップボードにコピー"
+"します。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Notes"
+msgstr "備考"
+
+#. type: Bullet: '* '
+msgid ""
+"When using home or any modified version of the home key, using the numpad "
+"home key fails because NVDA will send the numpad7 keypress instead of a "
+"numpadHome keypress. Other keyboard add-ons that attempt to reassign numpad7 "
+"to the home key will fail in this add-on."
+msgstr ""
+"homeや、変更したバージョンのhomeキーを使用する時は、テンキーのhomeキーを使用"
+"すると、NVDAはテンキーHomeのキーの代わりにテンキー7を送るため、失敗します。テ"
+"ンキー7にhomeキーを割り当てようとする他のキーボードアドオンは、このアドオンで"
+"は失敗します。"
+
+#. type: Bullet: '* '
+msgid ""
+"When using the relative parent feature, DTK will set the relative parent to "
+"the desktop under the following conditions."
+msgstr ""
+"相対的な親要素機能を使用する時、DTKは、相対的な親要素を、以下の条件で、デスク"
+"トップに設定します。"
+
+#. type: Bullet: '	* '
+msgid "The focused object and the relative parent are the same."
+msgstr "フォーカスされたオブジェクトと、相対的な親要素が同じ。"
+
+#. type: Bullet: '	* '
+msgid "The relative parent is not a direct ancestor of the focused object."
+msgstr "相対的な親要素は、フォーカスされたオブジェクトの直接的な先祖ではない。"
+
+#. type: Bullet: '* '
+msgid ""
+"DTK cannot access information such as CSS rules, padding, borders, or z-"
+"index. Doing so requires accessing them outside of the NVDA context, which "
+"presents a security concern for users."
+msgstr ""
+"DTKは、CSS規則、パディング、ボーダー、またはz-インデックスといった要素の情報"
+"にはアクセス出来ません。そうするためには、NVDAのコンテキストの外側にアクセス"
+"する必要があり、ユーザーのセキュリティの問題が生じるからです。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Known issues"
+msgstr "認識している問題"
+
+#. type: Bullet: '* '
+msgid ""
+"The customizable list of font attributes found in Developer toolkit settings "
+"may be cumbersome to use. This is a limitation found in NVDA's user "
+"interface library."
+msgstr ""
+"Developer toolkitの設定で見つかるフォント属性のカスタマイズ可能なリストは、使"
+"用しずらいものであるかもしれません。これは、NVDAのユーザーインターフェースラ"
+"イブラリにおいて見つかる制約です。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Version history"
+msgstr "バージョン履歴"
+
+#. type: Title ###
+#, no-wrap
+msgid "20.04"
+msgstr "20.04"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a gesture (home) that gives the ability to move to the defined "
+"relative parent."
+msgstr ""
+"定義した相対的な親オブジェクトに移動可能なジェスチャー(home)を追加しました。"
+
+#. type: Title ###
+#, no-wrap
+msgid "20.03"
+msgstr "20.03"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a gesture (ALT+R) that obtains the currently focused object's control "
+"type. Examples include button, listitem, list, checkbox, and section."
+msgstr ""
+"現在フォーカスしているオブジェクトのコントロールタイプを取得するジェスチャー"
+"(ALT+R)を追加しました。例えば、ボタン、リスト項目、リスト、チェックボックス、"
+"セクションを含みます。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a gesture (SHIFT+S) that obtains the currently focused object's "
+"control states. Examples include focused, focusable, selected, checked, "
+"pressed, and readonly."
+msgstr ""
+"現在フォーカスしているオブジェクトのコントロール状態を取得するジェスチャー"
+"(SHIFT+S)を追加しました。例えば、フォーカスされている、フォーカス可能、選択さ"
+"れている、チェックされている、押されている、読み取り専用を含みます。"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed support for IAccessible's unique ID because it is not reliable in "
+"most contexts."
+msgstr ""
+"多くのコンテキストで信頼性がないため、IAccessibleのユニークIDをサポートしなく"
+"なりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Abbreviated the version number to xx.yy where xx is the last two digits of "
+"the current year, and yy is the update number for the current year. Thus "
+"20.03 is the third major update in 2020."
+msgstr ""
+"バージョン番号を、xx.yyと省略形にしました。xxは、現在の年の下2桁、yyは現在の"
+"年のアップデート番号です。よって、20.03は、2020年の3番目のメジャーアップデー"
+"トとなります。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.2"
+msgstr "2020.2"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Starting DTK retains the cursor’s current position in web content. If the "
+#| "object under the caret can’t gain focus, DTK will place focus on the "
+#| "first available ancestor."
+msgid ""
+"Starting DTK retains the cursor’s current position in web content. If the "
+"object under the caret can’t gain focus, DTK will place focus on the first "
+"available ancestor."
+msgstr ""
+"webコンテンツでのカーソルの現在の位置が、DTKを開始した時に維持されるようにな"
+"りました。もしキャレット下のオブジェクトがフォーカスを得られない場合、DTKは、"
+"1番目に利用可能な祖先にフォーカスを置きます。"
+
+#. type: Bullet: '* '
+msgid "Removed legacy support for unicode strings."
+msgstr "ユニコード文字列のレガシーなサポートをしなくなりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed the enable/disable Developer toolkit features setting from Developer "
+"toolkit settings dialog found in NVDA menu>preferences>settings. Users can "
+"still enable/disable features by pressing alt+windows+k."
+msgstr ""
+"NVDAメニュー>設定(P)>設定(S)にあるDeveloper toolkitダイアログで設定する、"
+"Developer toolkitを有効/無効にする機能を取り除きました。ユーザーは現在も"
+"alt+windows+kを押して有効/無効にすることが出来ます。"
+
+#. type: Bullet: '* '
+msgid ""
+"The formatting attributes obtained by pressing 'f' when Developer toolkit is "
+"enabled is now configurable in preferences>settings>Developer toolkit."
+msgstr ""
+"Developer toolkitが有効な時に、‘f’を押して取得する書式属性が、設定(P)>設定"
+"(S)>Developer toolkitで設定可能になりました。"
+
+#. type: Bullet: '	* '
+msgid ""
+"Add new formatting attributes by pressing the 'new attribute' button. Type "
+"in a name of a valid formatting attribute, press tab to put it in the list, "
+"then press escape to leave edit mode."
+msgstr ""
+"‘新しい属性’ボタンを押して、新しい書式属性を追加します。有効な書式属性の名前"
+"を入力し、タブキーを押してそれをリストに入れ、エスケープを押してエディット"
+"モードを抜けます。"
+
+#. type: Bullet: '	* '
+msgid ""
+"Remove an attribute by selecting it in the list, then pressing the 'delete "
+"attribute' button."
+msgstr "リストで選択し、’属性を削除’ボタンを押して、属性を取り除きます。"
+
+#. type: Bullet: '	* '
+msgid ""
+"Rename an attribute by pressing the 'Rename attribute' button, typing a new "
+"name, pressing tab to put it in the list, then pressing escape to leave edit "
+"mode."
+msgstr ""
+"属性の名前を変更します。‘属性の名前を変更’ボタンを押して、新しい名前を入力"
+"し、タブキーを押してそれをリストに入れ、エスケープを押してエディットモードを"
+"抜けます。"
+
+#. type: Bullet: '	* '
+msgid ""
+"Move an attribute up in the list by selecting it and pressing the 'Move up' "
+"button. Repeat this until it reaches the desired location in the list."
+msgstr ""
+"属性をリストの上に移動します。選択して、’上に移動’ボタンを押します。リストの"
+"希望の位置に着くまで、これを繰り返します。"
+
+#. type: Bullet: '	* '
+msgid ""
+"Move an attribute down in the list by selecting it and pressing the 'Move "
+"down' button. Repeat this until it reaches the desired location in the list."
+msgstr ""
+"属性をリストの下に移動します。選択して’下に移動’ボタンを押します。リストの希"
+"望の位置に着くまで、これを繰り返します。"
+
+#. type: Bullet: '* '
+msgid ""
+"Users now have the ability to change the way color values are displayed "
+"while obtaining formatting information. The setting is found in "
+"preferences>settings>Developer toolkit, then choosing a color display "
+"format. The color display format can also be changed by pressing control+c "
+"while Developer toolkit features are enabled."
+msgstr ""
+"書式情報を取得する時、ユーザーは、色の値が表示される方法を変更出来るようにな"
+"りました。この設定は、設定(P)>設定(S)>Developer toolkitの中にあり、色の表示"
+"フォーマットを選択します。色の表示フォーマットは、Developer toolkitの機能が有"
+"効な時に、control+cを押すことでも変更出来ます。"
+
+#. type: Bullet: '	* '
+msgid ""
+"**RGB** - Red/Green/Blue value. Defines a color through a red, green, blue "
+"color combination. Good for graphic art, especially non-web safe colors."
+msgstr ""
+"**RGB** - 赤/緑/青の値です。色を赤、緑、青の色の組み合わせで定義します。グラ"
+"フィックアート、特に、webセーフカラーでない物に向いています。"
+
+#. type: Bullet: '	* '
+msgid ""
+"**Hex** - string starting with a '#' and followed by 6 characters consisting "
+"of 1-0 and A-F. Usually good for web content."
+msgstr ""
+"**Hex** - ‘#’から始まり、1-0とA-Fを含む6つの文字がその後に続く文字列です。web"
+"コンテンツに大抵向いています。"
+
+#. type: Bullet: '	* '
+msgid ""
+"**Name** - The human readable value for the color. Good for general purpose "
+"usage and verifying other color value formats."
+msgstr ""
+"Name - 色について人間が読める値です。一般的な目的の用途や、他の色の値のフォー"
+"マットを確認するのに向いています。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.1.1"
+msgstr "2020.1.1"
+
+#. type: Bullet: '* '
+msgid "Improved unicode support."
+msgstr "ユニコードのサポートを改善しました。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.1.0"
+msgstr "2020.1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Developers now have the ability to focus on smaller areas of their user "
+"interfaces by pressing CTRL+p to set a relative parent. Use a relative "
+"parent as a reference point when obtaining size and location information. To "
+"use this feature, enable DTK features, navigate to the object to use as a "
+"relative parent, then press CTRL+p. Then, return to your work as usual."
+msgstr ""
+"開発者が、CTRL+pを押して、相対的な親要素を設定することにより、ユーザーイン"
+"ターフェースのより小さな領域にフォーカス出来るようになりました。相対的な親要"
+"素を、サイズや位置の情報を得る時に、参照点として使用します。この機能を使用す"
+"るには、DTKの機能を有効にし、相対的な親要素として使用するオブジェクトに移動"
+"し、CTRL+pを押します。そして、通常の作業に戻ります。"
+
+#. type: Bullet: '* '
+msgid ""
+"Press the letter p while working in DTK to obtain the relative parent's "
+"name. Press twice quickly to copy to the clipboard."
+msgstr ""
+"DTKで作業している時に、文字pを押して、相対的な親要素の名前を取得します。2回素"
+"早く押すとクリップボードにコピーします。"
+
+#. type: Bullet: '* '
+msgid ""
+"Use SHIFT+b to obtain the distance between the focused object's bottom edge "
+"and the relative paren'ts bottom edge. DTK features must be enable to use "
+"this feature."
+msgstr ""
+"SHIFT+bを使用して、フォーカスされたオブジェクトの下端と相対的な親要素の下端の"
+"間の距離を取得します。この機能を使用するには、DTKの機能が有効でないとなりませ"
+"ん。"
+
+#. type: Bullet: '* '
+msgid ""
+"Use SHIFT+r to obtain the distance between the focused object's right edge "
+"and the relative paren'ts right edge. DTK features must be enable to use "
+"this feature."
+msgstr ""
+"SHIFT+rを使用して、フォーカスされたオブジェクトの右端と、相対的な親要素の右端"
+"の間の距離を取得します。この機能を使用するには、DTKの機能が有効でないとなりま"
+"せん。"
+
+#. type: Bullet: '* '
+msgid "DTK now gracefully handles configuration profile switches."
+msgstr "DTKが設定プロファイルの切り替えを正しく扱えるようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Removed '-preview' from the version number to avoid version number problems "
+"with add-on updater."
+msgstr ""
+"add-on updaterでのバージョン番号の問題を避けるため、バージョン番号から‘-"
+"preview’を除去しました。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2020.0 preview"
+msgstr "2020.0 プレビュー"
+
+#. type: Bullet: '* '
+msgid ""
+"Changed version number to 2020.0 preview to reflect the impending switch to "
+"Python 3."
+msgstr ""
+"Python 3への切り替えの遅れを反映するため、バージョン番号を2020.0 プレビューに"
+"変更しました。"
+
+#. type: Bullet: '* '
+msgid "Added Python 3 compatibility."
+msgstr "Python 3への互換性を追加しました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a new gesture, \"n\" that speaks the object's name. If one is not "
+"assigned, speaks the word 'None' as the object's name."
+msgstr ""
+"新しいジェスチャーを追加しました。”n”でオブジェクトの名前が読み上げられます。"
+"割り当てられていない場合、オブジェクトの名前として「なし」という言葉が読み上"
+"げられます。"
+
+#. type: Bullet: '* '
+msgid ""
+"DTK no longer adds duplicate settings panels in the NVDA settings window "
+"when reloading add-ons."
+msgstr ""
+"DTKは、アドオンを再読み込みした時に、NVDA設定ウィンドウの設定パネルを複製しな"
+"くなりました。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.1.2"
+msgstr "2019.1.2"
+
+#. type: Bullet: '* '
+msgid "DTK will now report size and position values if they are 0."
+msgstr "DTKは、0の時にサイズと位置を報告するようになりました。"
+
+#. type: Bullet: '* '
+msgid "Navigation now honors the detailed messages setting."
+msgstr "ナビゲーションが詳細メッセージ設定を重んじるようになりました。"
+
+#. type: Bullet: '* '
+msgid "Made reporting of size/position information more concise."
+msgstr "サイズ/位置情報の報告が、より簡潔になりました。"
+
+#. type: Bullet: '* '
+msgid "Stability improvements."
+msgstr "安定性を改善しました。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.1.1"
+msgstr "2019.1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"DTK will no longer attempt to load itself multiple times when announcing the "
+"version number."
+msgstr ""
+"バージョン番号を通知する時、DTKが自分自身を複数回読み込まないようになりまし"
+"た。"
+
+#. type: Bullet: '* '
+msgid ""
+"DTK features will be disabled on install. Previously, DTK features were "
+"enabled on install. This is different than enabling or disabling the add-on "
+"in the NVDA toolls>manage add-ons window."
+msgstr ""
+"DTKの機能がインストール後に無効になりました。以前は、DTKの機能がインストール"
+"後に有効になっていました。これは、NVDAのツール>アドオンマネージャウィンドウで"
+"の、有効化または無効化とは異なります。"
+
+#. type: Bullet: '* '
+msgid "Messages presented to the user can now contain non-ascii characters."
+msgstr ""
+"ユーザーに表示されるメッセージが、非アスキー文字を含むようになりました。"
+
+#. type: Bullet: '* '
+msgid ""
+"Pressing gestures such as a, b, c, f, h, l, r, s, t, v, and w no longer "
+"interupt NVDA speech when copying to the clipboard."
+msgstr ""
+"クリップボードへのコピーでa, b, c, f, h, l, r, s, t, v, やwといったジェス"
+"チャーを押しても、NVDAの読み上げを中断しないようになりました。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.1"
+msgstr "2019.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a compatibility problem where DTK declared a minimum NVDA version that "
+"hasn't been released yet."
+msgstr ""
+"DTKが、リリースされていない、最小NVDAバージョンを宣言する互換性の問題を修正し"
+"ました。"
+
+#. type: Title ###
+#, no-wrap
+msgid "2019.0 (initial stable release)"
+msgstr "2019.0 (最初の安定版リリース)"
+
+#. type: Bullet: '* '
+msgid "Initial build with basic navigation."
+msgstr "ベーシックナビゲーションの最初のビルド"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=devtoolkit"
+msgstr ""
+
+#. type: Plain text
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=devtoolkit-dev"
+msgstr ""
+
+#~ msgid ""
+#~ "DTK helps developers create user interfaces. This add-on is not an "
+#~ "analytical tool for third-party user interfaces."
+#~ msgstr ""
+#~ "DTKはユーザーインターフェースを作成するのを支援します。このアドオンは、"
+#~ "サードパーティのユーザーインターフェースの解析ツールではありません。"
+
+#~ msgid ""
+#~ "When using Chrome, not all web elements will appear in the accessibility "
+#~ "tree. To force an element to appear in the accessibility tree, give it a "
+#~ "title attribute."
+#~ msgstr ""
+#~ "Chromeを使用している時、すべてのWeb要素がアクセシビリティツリーに現れるわ"
+#~ "けではありません。要素がアクセシビリティツリーに現れるようにするには、タイ"
+#~ "トル属性を与えなければなりません。"
+
+#~ msgid ""
+#~ "When using Firefox, phantom elements may appear in the accessibility "
+#~ "tree. For example, a text frame may appear as a text block’s container. "
+#~ "These phantom elements are a part of Mozilla’s implementation of the "
+#~ "accessibility tree."
+#~ msgstr ""
+#~ "Firefoxを使用している時、お化け要素がアクセシビリティツリーに現れるかもし"
+#~ "れません。例えば、テキストフレームがテキストブロックのコンテナとして現れる"
+#~ "かもしれません。これらのお化け要素は、Mozillaのアクセシビリティツリーの実"
+#~ "装の一部です。"
+
+#~ msgid ""
+#~ "Edge has not been completely tested. Therefore, anything reported by the "
+#~ "add-on should be considered with care."
+#~ msgstr ""
+#~ "Edgeは完全にはテストされていません。よって、このアドオンにより通知される内"
+#~ "容に対し、注意する必要があります。"
+
+#~ msgid ""
+#~ "In web content, everything except a text block is a container. For "
+#~ "instance, a paragraph (p tag) may have multiple elements inside."
+#~ msgstr ""
+#~ "Webコンテンツの中で、テキストブロックを除く全てはコンテナです。例えば、段"
+#~ "落（pタグ）は内側に複数の要素を持つかもしれません。"
+
+#~ msgid "div tags are reported as a section in HTML5."
+#~ msgstr "divタグはHTML5内でセクションとして通知されます。"
+
+#~ msgid ""
+#~ "To avoid names of web elements appearing as \"None\", always give "
+#~ "elements a title attribute."
+#~ msgstr ""
+#~ "Web要素の名前が「なし」と通知されるのを避けるには、要素に常にタイトル属性"
+#~ "を与えます。"
+
+#~ msgid ""
+#~ "Font information is only available in web content. This should be fixed "
+#~ "in a future version."
+#~ msgstr ""
+#~ "フォント情報は、Webコンテンツのみで利用可能です。将来のバージョンで修正す"
+#~ "る予定です。"
+
+#~ msgid ""
+#~ "The add-on does not teach a user proper user interface/web content design "
+#~ "concepts."
+#~ msgstr ""
+#~ "このアドオンは、ユーザーに適切なユーザーインターフェースやWebコンテンツの"
+#~ "デザインコンセプトを教える物ではありません。"
+
+#~ msgid ""
+#~ "Users are not automatically notified of the enabled/disabled state of the "
+#~ "add-on's features when switching between windows."
+#~ msgstr ""
+#~ "ユーザーは、ウィンドウを切り替える際、このアドオンの機能が有効な状態か、無"
+#~ "効な状態かを、自動的に通知されません。"
+
+#~ msgid ""
+#~ "The margins of a control are only available in web content, and are "
+#~ "browser dependent."
+#~ msgstr ""
+#~ "コントロールのマージンは、Webコンテンツのみで利用可能で、ブラウザに依存し"
+#~ "ます。"
+
+#~ msgid ""
+#~ "The border and padding attributes are not available. This is a long-"
+#~ "standing issue."
+#~ msgstr ""
+#~ "ボーダーとパディング属性は利用可能ではありません。これは長期的な問題です。"
+
+#~ msgid ""
+#~ "There is no way to restrict DTK to a specific content type or application "
+#~ "window."
+#~ msgstr ""
+#~ "特定のコンテンツタイプやアプリケーションウィンドウにDTKを制限する方法があ"
+#~ "りません。"
+
+#~ msgid ""
+#~ "The font information when pressing F is messy, and will get fixed in a "
+#~ "future version."
+#~ msgstr ""
+#~ "Fを押す時のフォント情報は正確ではありません。将来のバージョンで修正予定で"
+#~ "す。"

@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-10 21:27+0000\n"
+"PO-Revision-Date: 2023-04-16 14:21+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Notepad++\"]]\n"
+msgstr "[[!meta title=\"Notepad++\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Derek Riemer, Tuukka Ojala"
+msgstr "Autores: Derek Riemer, Tuukka Ojala"
+
+#. type: Bullet: '* '
+msgid "Download [Stable Version][1]"
+msgstr "Descargar [versión estable][1]"
+
+#. type: Plain text
+msgid ""
+"This addon improves the accessibility of the notepad++ text editor. To learn "
+"more, and to read the documentation before installation, visit [the addons "
+"github page](https://github.com/derekriemer/nvda-notepadplusplus)"
+msgstr ""
+"Este complemento mejora la accesibilidad del editor de texto Notepad++. Para "
+"saber más, y para leer la documentación antes de la instalación, visita [la "
+"página del complemento en Github](https://github.com/derekriemer/nvda-"
+"notepadplusplus)"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=NotepadPlusPlus"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=NotepadPlusPlus"

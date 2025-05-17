@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:37+0000\n"
+"PO-Revision-Date: 2022-05-29 13:52+0200\n"
+"Last-Translator: zvonimir stanecic <zvonimirek222@yandex.com>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Clipspeak\"]]\n"
+msgstr "[[!meta title=\"Clipspeak\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Informations"
+msgstr "Informacje"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Authors: \"Rui Fontes, Ângelo Abrantes, Abel Passos Júnior and "
+#| "colaboration of Noelia Ruiz Martínez, based on the work of Damien Sykes-"
+#| "Lindley"
+msgid ""
+"Authors: \"Rui Fontes, Ângelo Abrantes, Abel Passos Júnior and colaboration "
+"of Noelia Ruiz Martínez, based on the work of Damien Sykes-Lindley"
+msgstr ""
+"Autorzy: \"Rui Fontes, Ângelo Abrantes, Abel Passos Júnior i współpraca "
+"Noelii Ruiz Martínez, na podstawie twórczości Damiena Sykesa-Lindleya"
+
+#. type: Bullet: '* '
+msgid "Updated in 10/04/2022"
+msgstr "Zaktualizowano w 10/04/2022"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Pobierz [wersja stabilna][1]"
+
+#. type: Bullet: '* '
+msgid "Compatibility: NVDA version 2019.3 and beyond"
+msgstr "Kompatybilność: wersja NVDA 2019.3 i nowsze"
+
+#. type: Title ##
+#, no-wrap
+msgid "Presentation"
+msgstr "Opis"
+
+#. type: Plain text
+msgid ""
+"Clipspeak is an addon that allows NVDA to automatically announce clipboard "
+"operations (such as cut, copy and paste), along with other common editing "
+"operations such as undo and redo."
+msgstr ""
+"Clipspeak to dodatek, który pozwala NVDA automatycznie ogłaszać operacje "
+"schowka (takie jak wycinanie, kopiowanie i wklejanie), a także inne typowe "
+"operacje edycyjne, takie jak cofanie i ponawianie."
+
+#. type: Plain text
+msgid ""
+"In order to prevent announcement in inappropriate situations, Clipspeak "
+"performs checks on the control and the clipboard in order to make an "
+"informed decision as to whether such an announcement is necessary."
+msgstr ""
+"Aby zapobiec ogłoszeniu w nieodpowiednich sytuacjach, Clipspeak sprawdza "
+"kontrolę i schowek w celu podjęcia świadomej decyzji, czy takie ogłoszenie "
+"jest konieczne."
+
+#. type: Plain text
+msgid ""
+"You can choose between only announcing copy/cut/paste or also whats is being "
+"copied/cutted/pasted on NVDA, configurations, clipspeak."
+msgstr ""
+"Możesz wybrać między tylko ogłaszaniem kopiowania / wycinania / wklejania, a "
+"także tego, co jest kopiowane / wycinane / wklejane na NVDA, konfiguracje, "
+"clipspeak."
+
+#. type: Plain text
+msgid ""
+"By default, Clipspeak's gestures are mapped to those commonly used by "
+"English versions of Windows:"
+msgstr ""
+"Domyślnie gesty Clipspeak są mapowane na gesty powszechnie używane przez "
+"angielskie wersje systemu Windows:"
+
+#. type: Bullet: '* '
+msgid "CTRL+Z: Undo"
+msgstr "CTRL+Z: Cofnij"
+
+#. type: Bullet: '* '
+msgid "CTRL+Y: Redo"
+msgstr "CTRL+Y: ponów"
+
+#. type: Bullet: '* '
+msgid "CTRL+X: Cut"
+msgstr "CTRL+X: Wytnij"
+
+#. type: Bullet: '* '
+msgid "CTRL+C: Copy"
+msgstr "CTRL+C: Kopiuj"
+
+#. type: Bullet: '* '
+msgid "CTRL+V: Paste"
+msgstr "CTRL+V: Wklej"
+
+#. type: Plain text
+msgid ""
+"If these are not the shortcuts commonly used for these tasks on your version "
+"of Windows, you will need to remap these gestures in the input gestures "
+"configuration under the Clipboard category."
+msgstr ""
+"Jeśli nie są to skróty powszechnie używane do tych zadań w używanej wersji "
+"systemu Windows, należy ponownie zamapować te gesty w konfiguracji gestów "
+"wejściowych w kategorii Schowek."
+
+#. type: Title ##
+#, no-wrap
+msgid "Automatic update"
+msgstr "Firmware auto update"
+
+#. type: Plain text
+msgid ""
+"This add-on includes an automatic update feature.  The check for a new "
+"version will be executed everytime NVDA is loaded.  If you want this, go to "
+"NVDA, Preferences, Options and in the add-on category check the check box."
+msgstr ""
+"Ten dodatek zawiera funkcję automatycznej aktualizacji.  Sprawdzanie nowej "
+"wersji będzie wykonywane za każdym razem, gdy NVDA zostanie załadowana.  "
+"Jeśli chcesz, przejdź do NVDA, Preferencje, Opcje iw kategorii dodatków "
+"zaznacz pole wyboru."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=clipspeak"
+msgstr ""
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=cs"
+
+#, fuzzy
+#~| msgid ""
+#~| "Clipspeak is an addon that allows NVDA to automatically announce "
+#~| "clipboard operations (such as cut, copy and paste), along with other "
+#~| "common editing operations such as select all, undo and redo.  In order "
+#~| "to prevent announcement in inappropriate situations, Clipspeak performs "
+#~| "checks on the control and the clipboard in order to make an informed "
+#~| "decision as to whether such an announcement is necessary. Because of "
+#~| "this, Clipspeak's announcements may be inaccurate.  By default, "
+#~| "Clipspeak's gestures are mapped to those commonly used by English "
+#~| "versions of Windows, I.E.:"
+#~ msgid ""
+#~ "Clipspeak is an addon that allows NVDA to automatically announce "
+#~ "clipboard operations (such as cut, copy and paste), along with other "
+#~ "common editing operations such as undo and redo.  In order to prevent "
+#~ "announcement in inappropriate situations, Clipspeak performs checks on "
+#~ "the control and the clipboard in order to make an informed decision as to "
+#~ "whether such an announcement is necessary.  You can choose between only "
+#~ "announcing copy/cut/paste or also whats is being copied/cutted/pasted on "
+#~ "NVDA, configurations, clipspeak.  By default, Clipspeak's gestures are "
+#~ "mapped to those commonly used by English versions of Windows: * CTRL+Z: "
+#~ "Undo * CTRL+Y: Redo * CTRL+X: Cut * CTRL+C: Copy * CTRL+V: Paste"
+#~ msgstr ""
+#~ "Clipspeak, to dodatek, który umoźliwia NVDA automatyczne zgłaszanie "
+#~ "działań schowka, takich jak wytnij, kopiuj i wklej, oraz innych "
+#~ "podstawowych funkcji edycji, takich jak zaznacz wszystko, ponów i "
+#~ "cofnij.  Aby zapobiec zgłaszaniu operacji w niewłaściwych sytuacjach, "
+#~ "Clipspeak sprawdza kontrolki i schowek, aby mógł odpowiednio poinformować "
+#~ "użytkownika, czy zgłaszanie operacji jest potrzebne. dla tego, ogłoszenia "
+#~ "Clipspeaka mogąbyć nieprawdą.  Domyślnie, gesty dodatku Clipspeak "
+#~ "mapowane są dla angielskich wersji Windows, np.:"
+
+#~ msgid "Author: Damien Garwood"
+#~ msgstr "Autor: Damien Garwood"
+
+#~ msgid "NVDA compatibility: 2018.3 to 2019.3"
+#~ msgstr "Zgodność z wersjami NVDA: 2018.3 to 2019.3"
+
+#~ msgid "CTRL+A: Select all"
+#~ msgstr "CTRL+A: Zaznacz wszystko"

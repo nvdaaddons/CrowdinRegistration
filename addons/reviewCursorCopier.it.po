@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 19:14+0000\n"
+"PO-Revision-Date: 2020-05-11 12:28+0200\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@gmail.com>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Review Cursor Copier\"]]\n"
+msgstr "[[!meta title=\"Review Cursor Copier\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Tuukka Ojala <tuukka.ojala@iki.fi>"
+msgstr "Autore: Tuukka Ojala <tuukka.ojala@gmail.com>"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Download [versione stabile][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Download [versione in sviluppo][2]"
+
+#. type: Plain text
+msgid ""
+"This NVDA add-on provides various commands for copying the text under the "
+"review cursor to the clipboard. Currently, the following commands are "
+"implemented:"
+msgstr ""
+"Questo componente aggiuntivo fornisce numerosi comandi per copiare il testo "
+"presente sotto al cursore di controllo  negli appunti. Sono attualmente "
+"disponibili i seguenti comandi:"
+
+#. type: Bullet: '* '
+msgid "Copy the line under the review cursor"
+msgstr "Copia la riga su cui si trova il cursore di controllo"
+
+#. type: Bullet: '* '
+msgid "Copy the word under the review cursor"
+msgstr "Copia la parola su cui si trova il cursore di controllo"
+
+#. type: Bullet: '* '
+msgid "Copy from the start of the current line to the review cursor"
+msgstr ""
+"Copia dall'inizio della riga corrente fino alla posizione del cursore di "
+"controllo"
+
+#. type: Bullet: '* '
+msgid "Copy from the review cursor to the end of the current line"
+msgstr "Copia dalla posizione del cursore di controllo fino a fine riga"
+
+#. type: Bullet: '* '
+msgid "Copy from the start of the current word to the review cursor"
+msgstr ""
+"Copia dall'inizio della parola corrente fino alla posizione del cursore di "
+"controllo"
+
+#. type: Bullet: '* '
+msgid "Copy from the review cursor to the end of the current word"
+msgstr "Copia dalla posizione del cursore di controllo fino a fine parola"
+
+#. type: Plain text
+msgid ""
+"None of these commands have key bindings by default. Please use the input "
+"gestures dialog located under the NVDA settings menu to set them. All of the "
+"commands provided by this add-on can be found under the \"text review\" "
+"category. More information about setting and modifying input gestures can be "
+"found in the NVDA user guide."
+msgstr ""
+"Non ci sono scorciatoie da tastiera associate a questi comandi per default. "
+"Per effettuare un'associazione, servirsi della finestra gesti e tasti di "
+"immissione, presente nelle preferenze di NVDA. Consultare il manuale utente "
+"nel caso in cui si trovasse difficoltà nel compiere questa operazione. Tutti "
+"i comandi si trovano nella categoria revisione del testo."
+
+#. type: Title ##
+#, no-wrap
+msgid "License"
+msgstr "Licenza"
+
+#. type: Plain text
+msgid "This work is licensed under the GNU General Public License, version 2."
+msgstr ""
+"Questo lavoro è rilasciato sotto la GNU General Public License, versione 2."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=reviewCursorCopier"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rccp"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=rccp-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=rccp-dev"

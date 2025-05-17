@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA-addons-community\n"
+"POT-Creation-Date: 2017-12-01 05:27+1000\n"
+"PO-Revision-Date: 2024-06-19 14:45+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
+"Language-Team: Translators <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"NVDA Add-ons discussion forum is now hosted at Groups.IO\"]]\n"
+msgstr "[[!meta title=\"Дискуссионный форум по дополнениям NVDA теперь размещен на Groups.IO\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Since May 2013, the NVDA Add-ons Central at Freelists served as a one-stop "
+"location for discussing add-ons and posting release announcements. However, "
+"due to numerous issues, it was decided to move the discussion forum to "
+"Groups.IO. Thus, from July 1, 2017, the official add-ons list addresses are:"
+msgstr ""
+"С мая 2013 года, Freelists служил единым местом для обсуждения дополнений и "
+"размещения их выпусков. Однако в связи с многочисленными проблемами, было "
+"решено перенести форум на Groups.IO. Таким образом, с 1 июля 2017 года, "
+"официальный адрес для рассылки дополнений NVDA:"
+
+#. type: Bullet: '* '
+msgid "Mailing list website: https://nvda-addons.groups.io/g/nvda-addons"
+msgstr "Сайт рассылки: https://nvda-addons.groups.io/g/nvda-addons"
+
+#. type: Bullet: '* '
+msgid "Subscribe: Send a blank email to: nvda-addons+subscribe@groups.io"
+msgstr ""
+"Подписаться: Отправьте пустое письмо на: nvda-addons+subscribe@groups.io"
+
+#. type: Plain text
+msgid "The old Freelists list is hereby deprecated. Thank you."
+msgstr "Старый список Freelists устарел. Спасибо."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announcements]]\n"
+msgstr "[[!tag announcements]]\n"

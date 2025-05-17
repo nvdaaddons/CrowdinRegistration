@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: eMule\n"
+"POT-Creation-Date: 2024-03-10 18:42+0000\n"
+"PO-Revision-Date: 2017-06-02 22:39+0100\n"
+"Last-Translator: Nikola Jovic <wwenikola123@gmail.com>\n"
+"Language-Team: NVDA Serbian translation\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"eMule\"]]\n"
+msgstr "[[!meta title=\"eMule\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Authors: Noelia, Chris, Alberto."
+msgstr "Autori: Noelia, Chris, Alberto."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This add-on helps to improve accessibility of eMule with nVDA.  Also "
+#| "provides additional keyboard commands for moving in different windows and "
+#| "gives Useful information of eMule."
+msgid ""
+"This add-on helps to improve accessibility of eMule with nVDA.  It also "
+"provides additional keyboard commands for moving in different windows and "
+"gives Useful information about eMule."
+msgstr ""
+"Ovaj dodatak poboljšava pristupačnost programa eMule sa NVDA.  Takođe pruža "
+"dodatne komande za premeštanje na različite prozore i dobijanje korisnih "
+"informacija o eMule."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "It's based on eMuleNVDASupport add-on, developed by the same author. You "
+#| "should uninstall that old add-on to use this one, since both have common "
+#| "keystrokes and features."
+msgid ""
+"It's based on the eMuleNVDASupport add-on, developed by the same author. You "
+"should uninstall that old add-on to use this one, since both have common "
+"keystrokes and features."
+msgstr ""
+"Baziran je na dodatku eMuleNVDASupport, programiran od strane istog autora. "
+"Morate ukloniti taj dodatak kako biste koristili ovaj, zbog toga što oba "
+"dodatka imaju slične karakteristike i prečice."
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Tested on [eMule][2] 0.50a."
+msgid "Tested on [eMule][1] 0.50a."
+msgstr "Testirano na [eMule][2] 0.50a."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands:"
+msgstr "Glavne prečice"
+
+#. type: Bullet: '*	'
+msgid "control+shift+h: Moves focus and mouse to main toolbar."
+msgstr "control+shift+h: Pomera fokus i miš na glavnu traku."
+
+#. type: Bullet: '*	'
+msgid "control+shift+t: Reads the current window."
+msgstr "control+shift+t: Čita trenutni prozor."
+
+#. type: Bullet: '*	'
+msgid "control+shift+n: Moves the focus to the Name field in the Find window."
+msgstr ""
+"control+shift+n: Premešta fokus na polje za unos imena u dijalogu za "
+"pretragu."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+p: In the Search window, moves focus and mouse to the list of "
+"search parameters, or edit field options."
+msgstr ""
+"control+shift+p: U prozoru za pretragu, premešta fokus na listu podešavanja "
+"pretrage, ili opcije polja za uređivanje."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+b: Move the focus to the list in the current window. For "
+"example usable in the Search window, downloads in Transfer window, etc."
+msgstr ""
+"control+shift+b: Premešta fokus na listu u trenutnom prozoru. Na primer "
+"korisno u prozoru za pretragu, Preuzimanjima u prozoru za prebacivanje, i "
+"tako dalje."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+o: Move the focus to read-only edit boxes in the current "
+"window. For example the IRC received messages, available Servers, etc."
+msgstr ""
+"control+shift+o: Premešta fokus na polja koja su samo za čitanje u trenutnom "
+"prozoru. Na primer IRC primljene poruke, dostupni serveri, i tako dalje."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+NVDA+f: If the caret is located in a read only edit box, opens a "
+"find dialog to use the commands for searching text available in NVDA."
+msgstr ""
+"control+NVDA+f: Ako je kursor u polju koje je samo za čitanje, otvara "
+"dijalog za pretragu kako biste koristili NVDA komande."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+l: Moves the navigator object and mouse to the headers of the "
+"current list."
+msgstr ""
+"control+shift+l: Pomera miš i navigacioni objekat na zaglavlje trenutne "
+"liste."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+q: Reads the first object in the status bar; provides "
+"information about recent activity."
+msgstr ""
+"control+shift+q: Čita prvi objekat na statusnoj traci; pruža informacije o "
+"poslednjim aktivnostima."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+w: Reads the second object of the status bar; contains "
+"information about files and users on the current server."
+msgstr ""
+"control+shift+w: Čita drugi objekat statusne trake; sadrži informacije o "
+"datotekama i korisnicima na trenutnom serveru."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+e: Reads the third object of the status bar; useful to know "
+"the UpLoad/DownLoad speed."
+msgstr ""
+"control+shift+e: Čita treći objekat statusne trake; korisno kako biste znali "
+"trenutnu brzinu odpremanja i preuzimanja."
+
+#. type: Bullet: '*	'
+msgid ""
+"control+shift+r: Reads The fourth object of the status bar; reports on "
+"connecting of eD2K and Kad network."
+msgstr ""
+"control+shift+r: Čita četvrti objekat statusne trake; prijavjuje povezivanja "
+"na eD2K i Kad mrežu."
+
+#. type: Title ##
+#, no-wrap
+msgid "Managing columns."
+msgstr "Upravljanje kolona"
+
+#. type: Plain text
+msgid ""
+"When within a list, you can move the caret between the rows and columns "
+"using alt+control+ Arrows.  In this Add-on the following key commands are "
+"also available:"
+msgstr ""
+"Kada ste u listi, možete pomerati kursor između kolona i redova koristeći "
+"alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:"
+
+#. type: Bullet: '*	'
+msgid "nvda+control+1-0: Reads the first 10 columns."
+msgstr "nvda+control+1-0: čita prvih deset kolona."
+
+#. type: Bullet: '*	'
+msgid "nvda+shift+1-0: Reads columns 11 to 20."
+msgstr "nvda+shift+1-0: Čita kolone 11 do 20."
+
+#. type: Bullet: '*	'
+msgid ""
+"nvda+shift+C: Copies the contents of the last read column to the clipboard."
+msgstr ""
+"nvda+shift+C: Kopira sadržaj zadnje pročitane kolone u privremenu memoriju."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 7.0"
+msgstr "Promene u 3.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 6.0"
+msgstr "Promene u 3.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2022.1 or later."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 5.0"
+msgstr "Promene u 3.0"
+
+#. type: Bullet: '*	'
+msgid "Compatible with NVDA 2021.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 4.0"
+msgstr "Promene u 3.0"
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2019.3 or later."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Promene u 3.0"
+
+#. type: Bullet: '*	 '
+#, fuzzy
+#| msgid ""
+#| "To search text in readonly edit boxes, now we can use the dialog and "
+#| "commands available in NVDA."
+msgid ""
+"To search text in the readonly edit boxes,  the find dialog  can be used, "
+"such as nvda+control+f to activate the find dialog."
+msgstr ""
+"Za pretragu teksta u poljima koja su samo za čitanje, sada možete koristiti "
+"NVDA komande"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Promene u 2.0"
+
+#. type: Bullet: '*	 '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Pomoć za dodatak je dostupna iz menia za upravljanje dodacima."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.2"
+msgstr "Promene u 1.2"
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving to the IRC messages, the selected text is reported properly."
+msgstr "Kada ste u IRC porukama, izabran tekst je ispravno pročitan."
+
+#. type: Bullet: '*	 '
+msgid ""
+"The keystroke used for moving to the Search results list has been "
+"generalized to be able to move focus to any available list in the current "
+"window."
+msgstr ""
+"Prečica za prelazak na rezultate pretrage sada prelazi na bilo koju listu u "
+"trenutnom prozoru."
+
+#. type: Bullet: '*	 '
+msgid ""
+"The command used to focus the IRC messages has been generalized to move to "
+"any read-only edit box, making it possible to review connection information "
+"in the Servers window."
+msgstr ""
+"Komanda za čitanje IRC poruka sada prelazi na bilo koje polje koje je samo "
+"za čitanje, tako da možete pregledati informacije o konekciji u bilo kom "
+"prozoru."
+
+#. type: Bullet: '*	 '
+msgid ""
+"When moving mouse and focus to the toolbar, in some cases it was announced "
+"twice. This has been fixed."
+msgstr ""
+"Kada premestite fokus i miš na traku sa alatkama, u nekim slučajevima bila "
+"je izgovorena dva puta. Ovo je popravljeno."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Promene u 1.1"
+
+#. type: Bullet: '*	 '
+msgid ""
+"Fixed bug in eMule item under NVDA's help menu, when the user config folder "
+"name contains non latin characters."
+msgstr ""
+"Popravljen bag u eMule stavci u NVDA Meniju za pomoć, kada folder za "
+"korisnička podešavanja sadrži znakove koji nisu latinični."
+
+#. type: Bullet: '*	 '
+msgid "Shortcuts can now be reassigned using the NVDA gesture input dialog."
+msgstr "Prečice sada mogu biti promenjene u NVDA dijalogu za ulazne gestove."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Promene u 1.0"
+
+#. type: Bullet: '*	 '
+msgid "Initial version."
+msgstr "Prva verzija"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://www.emule-project.net"
+msgid "[1]: https://www.emule-project.net"
+msgstr "[2]: https://www.emule-project.net"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+#~ msgid "[4]: http://addons.nvda-project.org/files/get.php?file=em-o"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=em"
+
+#, fuzzy
+#~| msgid "download [development version][3]"
+#~ msgid ""
+#~ "download [development version][3] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "Preuzmi[verziju u razvoju][3]"
+
+#~ msgid "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=em-dev"
+
+#~ msgid "download [stable version][1]"
+#~ msgstr "Preuzmi[stabilnu verziju][1]"

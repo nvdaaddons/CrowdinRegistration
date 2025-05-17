@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2024-05-07 02:19+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Quick Books 2014 support\"]]\n"
+msgstr "[[!meta title=\"Quick Books 2014 support\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: NV Access Limited, with help from My Blind Spot, Intuit, and "
+"community testers."
+msgstr ""
+"Авторы: NV Access Limited, с помощью My Blind Spot, Intuit и тестировщиков "
+"сообщества."
+
+#. type: Bullet: '* '
+msgid "Download: [version 2014.4.7][1]"
+msgstr "Скачать: [версия 2014.4.7][1]"
+
+#. type: Plain text
+#, no-wrap
+msgid "This add-on   makes it possible to use NVDA with the Intuit Quickbooks 2014 accounting software.\n"
+msgstr "Это дополнение позволяет использовать NVDA с бухгалтерским программным обеспечением Intuit Quickbooks 2014.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr "Функции"
+
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
+msgstr "Автоматическое включение режима специальных возможностей QuickBooks."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr "Маркировка многих полей ввода."
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr "Отслеживание фокуса и выделение для таких списков, как план счетов."
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+"Правильная идентификация типа элемента управления пользовательскими "
+"флажками, переключателями и кнопками."
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr ""
+"Автоматические отчеты о сообщениях в настраиваемых диалоговых окнах "
+"сообщений."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=qb-dev"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=qb-dev"

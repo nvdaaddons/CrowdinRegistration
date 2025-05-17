@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:46+0000\n"
+"PO-Revision-Date: 2024-05-12 18:04+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Nuance Vocalizer series\"]]\n"
+msgstr "[[!meta title=\"Nuance Vocalizer\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Nuance Communications (distributor: Tiflotecnia, LDA)"
+msgstr "Autori: Nuance Communications (distributer: Tiflotecnia, LDA)"
+
+#. type: Bullet: '* '
+msgid "download [Vocalizer Automotive driver][1]"
+msgstr "Preuzmi [Upravljački program Vocalizer Automotive][1]"
+
+#. type: Bullet: '* '
+msgid "download [Vocalizer Expressive driver][2]"
+msgstr "Preuzmi [Upravljački program Vocalizer Expressive][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 (2022.1 for Expressive) and later"
+msgstr "NVDA kompatibilnost: 2019.3 (2022.1 za Expressive) i novije verzije"
+
+#. type: Plain text
+msgid ""
+"Vocalizer synthesizer series (Automotive and Expressive) are a series of "
+"commercial synthesizers from Nuance Communications, with the add-ons "
+"licensed, packaged, and distributed by Tiflotecnia, LDA. These add-ons "
+"include:"
+msgstr ""
+"Paket govorne jedinice Vocalizer (Automotive i Expressive) je skup "
+"komercijalnih govornih jedinica tvrtke Nuance Communications, s dodacima "
+"koje licencira, pakira i distribuira Tiflotecnia, LDA. Ovi dodaci uključuju:"
+
+#. type: Bullet: '* '
+msgid "Vocalizer Automotive (driver 2.x)"
+msgstr "Vocalizer Automotive (upravljački program 2.x)"
+
+#. type: Bullet: '* '
+msgid "Vocalizer Expressive (driver 3.x)"
+msgstr "Vocalizer Expressive (upravljački program 3.x)"
+
+#. type: Plain text
+msgid ""
+"For more information and to purchase the package, visit [Tiflotecnia website]"
+"[3]."
+msgstr ""
+"Za više informacija i kupnju paketa posjeti [Tiflotecnia web stranicu][3]."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerautomotive"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerautomotive"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerexpressive"
+msgstr ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=vocalizerexpressive"
+
+#. type: Plain text
+msgid "[3]: https://vocalizer-nvda.com/"
+msgstr "[3]: https://vocalizer-nvda.com/"

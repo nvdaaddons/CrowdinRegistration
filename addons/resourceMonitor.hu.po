@@ -1,0 +1,1010 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2025-01-25 17:43+0000\n"
+"PO-Revision-Date: 2017-11-09 21:57-0800\n"
+"Last-Translator: Dr. Simon Gergely <dr.simon.gergely@gmail.com>\n"
+"Language-Team: HU <LL@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Resource Monitor\"]]\n"
+msgstr "[[!meta title=\"Erőforrás-kilistázó\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Authors: Alex Hall, Joseph Lee, beqa gozalishvili and other NVDA "
+#| "contributors"
+msgid ""
+"Authors: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka "
+"Ojala, Ethin Probst and other NVDA contributors"
+msgstr ""
+"Fejlesztők: Alex Hall , Joseph Lee, beqa gozalishvili és további NVDA "
+"közreműködők"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This plugin gives information about CPU load, memory usage and other "
+#| "resource usage information."
+msgid ""
+"This add-on gives information about CPU load, memory usage and other "
+"resource usage information."
+msgstr ""
+"A kiegészítő hasznos információkat ad a memória, processzor, háttértár és az "
+"akkumulátor aktuális állapotáról."
+
+#. type: Title #
+#, no-wrap
+msgid "Shortcuts"
+msgstr "Billentyűparancsok"
+
+#. type: Plain text
+msgid "All commands support speech on demand mode."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+Shift+E Presents used ram, average processor load, and battery info "
+#| "if available."
+msgid ""
+"NVDA+Shift+E: presents used ram, average processor load, and battery info if "
+"available."
+msgstr ""
+"NVDA+shift+e Bemondja a memória és az átlagos processzor használatot és a "
+"telep töltöttségi szintjét, ha elérhető."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+Shift+1 Presents the average processor load and if multicore CPU's "
+#| "are present the load of each core."
+msgid ""
+"NVDA+Shift+1: presents the average processor load and if multicore CPU's are "
+"present the load of each core."
+msgstr ""
+"NVDA+shift+1 Bemondja az átlagos processzor terheltségét együttesen és "
+"magokra lebontva egyaránt."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+Shift+2/5 Presents the used and total space for both physical and "
+#| "virtual ram."
+msgid ""
+"NVDA+Shift+2/5: presents the used and total space for both physical and "
+"virtual ram."
+msgstr ""
+"NVDA+shift+2/NVDA+shift+5 Bemondja a teljes és foglalt fizikai és virtuális "
+"memória méretét."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+Shift+3 Presents the used and total space of the static and "
+#| "removable drives."
+msgid ""
+"NVDA+Shift+3: presents the used and total space of the static and removable "
+"drives."
+msgstr ""
+"NVDA+shift+3 Bemondja a beépített és hordozható meghajtók teljes és "
+"lefoglalt méretét."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+Shift+4 Presents battery percentage, charging status, remaining time "
+#| "(if not charging), and a warning if the battery is low or critical."
+msgid ""
+"NVDA+Shift+4: presents battery percentage, charging status, remaining time "
+"(if not charging), and a warning if the battery is low or critical."
+msgstr ""
+"NVDA+shift+4 Információkat ad a telep töltöttségéről, a hátralévő időről (ha "
+"nincs hálózatra csatlakoztatva), figyelmeztet, ha az akkumulátor töltöttsége "
+"kritikusan alacsony."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "NVDA+Shift+6 Presents CPU Architecture 32/64-bit and Windows version and "
+#| "service pack numbers."
+msgid ""
+"NVDA+Shift+6: presents CPU Architecture and Windows version and service pack "
+"numbers."
+msgstr ""
+"NVDA+Shift+6 Megjeleníti a feltelepített Windows verzióját és "
+"szervizcsomagját, ha elérhető."
+
+#. type: Bullet: '* '
+msgid "NVDA+Shift+7: presents the system's uptime."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+Shift+8: presents information on the wireless connection, ssid name and "
+"strength, or no ssid if there is none available."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "If you have NvDA 2013.3 or later installed, you can change these shortcut "
+#| "keys."
+msgid "You can change these shortcut keys via input gestures dialog."
+msgstr ""
+"Ha az NVDA 2013.3-as vagy újabb verzióját használja, lehetősége van a "
+"billentyűparancsok megváltoztatására."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage notes"
+msgstr "Használati megjegyzések"
+
+#. type: Plain text
+msgid ""
+"This add-on does not replace task manager and other system information "
+"programs for Windows. Also note the following:"
+msgstr ""
+"Ez a kiegészítő nem helyettesíti a feladatkezelőt és a többi rendszerfigyelő "
+"Windows-os programot. Fontos megjegyezni a következőket:"
+
+#. type: Bullet: '* '
+msgid ""
+"Resource information cannot be copied to clipboard if running the add-on in "
+"secure screens."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "CPU usage is given for logical processors, not physical cores. This is "
+#| "noticeable for processors which uses Hyper-Threading where number of "
+#| "CPU's is twice the number of CPU cores."
+msgid ""
+"CPU usage is given for logical processors, not physical cores. This is "
+"noticeable for processors which uses Hyper-Threading where number of CPU's "
+"is twice the number of CPU cores. On some newer computers, not all CPU cores "
+"will have hyper-threading enabled."
+msgstr ""
+"A processzor használata logikai processzorok alapján történik, nem a fizikai "
+"magok szerint. Ez azoknál a processzoroknál észrevehető, amelyek a Hyper "
+"Threading technológiát használják, ahol a processzorok száma kétszerese a "
+"magszámnak."
+
+#. type: Bullet: '* '
+msgid ""
+"If there is heavy disk activity such as copying large files, there might be "
+"delays when obtaining disk usage information."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"When announcing processor architecture information, \"x86\" and \"AMD64\" "
+"refer to 32-bit and 64-bit (x64) Intel and AMD processors, respectively."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"This add-on requires Windows 10 22H2 (2022 Update/build 19045) or later."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Installing the add-on on Windows 10/11 LTSC is not supported."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Note on license: this add-on uses Psutil, licensed under 3-Clause BSD "
+"License which is compatible with GNU General Public License."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 25.02"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Resource Monitor officially supports Windows 8.1."
+msgid "Restored limited support for Windows 8.1."
+msgstr "Az Erőforrás-kilistázómár támogatja a Windows 8 operációs rendszert."
+
+#. type: Bullet: '* '
+msgid ""
+"Improved accuracy of used and total memory information announcement "
+"(@danstiv)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer appear to freeze briefly when performing memory usage "
+"command (NVDA+Shift+2/5) the first time after starting NVDA."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows Insider Preview releases are no longer reported as \"Windows "
+"Insider\"."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 24.08"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2024.2 or later is required. This allows psutil dependency to be "
+"removed from the add-on as NVDA includes it."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to version 0.6.1."
+msgid ""
+"Updated psutil dependency to the version included with NVDA 2024.2 (6.0.0)."
+msgstr "A psutil függőség frissítése a 0.6.1 verzióra."
+
+#. type: Bullet: '* '
+msgid "Ruff replaces Flake8 as code linter."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 24.05"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2024.1 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will recognize wireless networks with WPA3 authentication methods such "
+"as simultaneous authentication of equals (SAE)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 24.04"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.9.8."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid ""
+"Added support for speech on demand mode so resource information can be "
+"announced in this mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.11"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Downgraded psutil dependency to 5.9.4 due to problems with memory usage "
+"announcements."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.10"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.9.5."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.09"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer log startup error messages on Windows Server systems "
+"when wireless capability modules are unavailable."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.06"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Situation where resourceMonitor doesn't work properly due to unavailability "
+"of wireless adapters has been fixed."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.05.1"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Plain text
+msgid "wlanReporter NVDA-addon is now part of resourceMonitor!"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The old way of checking for wireless connections has been replaced by the "
+"windows API from wlanReporter: https://github.com/kvark128/WlanReporter/ ."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid ""
+"After speaking SSID name and strength, NVDA will also now tell you the "
+"security type of your network."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid ""
+"NVDA will now alert you when you connect and disconnect from a wireless "
+"network."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid "NVDA will now alert you when wireless connections is turned on or off."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.05"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to detect and present the state of the connected wireless "
+"network."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid "Announces the name of the connected wireless SSID."
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid "Announces the strength of the ssid"
+msgstr ""
+
+#. type: Bullet: '	* '
+msgid "Announce SSID not found if None is detected."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.02"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.4 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 23.01"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2022.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer "
+"supported by Microsoft as of January 2023."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.9.4."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will announce actual processor architecture (x86/AMD64/ARM64) as part "
+"of Windows version information."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"On single-core systems, NVDA will no longer announce CPU core load as "
+"average CPU load is the same as core load."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 22.03"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Plain text
+msgid ""
+"Version 22.03 is the last stable version to support Windows 7 Service Pack "
+"1, 8, and 8.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.3 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"A warning message will be displayed when attempting to install the add-on on "
+"Windows 7, 8, and 8.1."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.9.0."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 22.01"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2021.2 or later is required."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 21.10"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA 2021.1 or later is required due to changes to NVDA that affects this "
+"add-on."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 21.08"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "Minimum Windows release requirement is now tied to NVDA releases."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows builds 20348 and 22000 are recognized as Windows Server 2022 and "
+"Windows 11, respectively."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"On Insider Preview builds, Windows release such as \"Windows 10\" will not "
+"be used. Instead NvDA will announce \"Windows Insider\"."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"On 64-bit systems, processor architecture (x64 or ARM64) will be announced "
+"as part of Windows version information."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 21.04"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2020.4 or later is required."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.8.0."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid ""
+"When pressing add-on commands twice to copy resource information to "
+"clipboard, NVDA will announce resource summary that is being copied."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 21.01"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.7.3."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid "Shortened Windows version message."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"On Windows 8.1, build.revision will be announced as part of Windows version "
+"message, similar to Windows 10."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 20.09"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "System uptime is now given as days, hours, minutes, seconds."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows Server Insider Preview build 20201 or later is properly recognized "
+"as a Server Insider build."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 20.07"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 Version 20H2 is properly recognized when obtaining Windows "
+"version information (NVDA+Shift+6)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Simplified Windows 10 version message i.e. Windows 10 YYMM instead of "
+"Windows 10verYYMM when pressing NVDA+Shift+6."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 20.06"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "Resolved many coding style issues and potential bugs with Flake8."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 20.04"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.7.0."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 20.01"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "NVDA 2019.3 or later is required due to extensive use of Python 3."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 19.11"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Improved detection of Windows Insider Preview builds, especially for 20H1 "
+"and beyond."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 19.07"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.6.3."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid "Internal changes to battery status announcement command."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 18.12"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "Internal changes to support future NVDA releases."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 18.10"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "Code has been made more compatible with Python 3."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.4.7."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid ""
+"When obtaining disk capacity and memory usage, NVDA will no longer give "
+"errors if using a computer or a service with more than a petabyte of RAM or "
+"disk size."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Values for memory and disk usage are shown with up to two decimal places (e."
+"g. 4.00 GB instead of 4.0 GB)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Improved detection of Windows Insider Preview builds."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 18.04"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Plain text
+msgid ""
+"Version 18.04.x is the last release to support Windows releases earlier than "
+"7 SP1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Last release to support Windows Server 2003, Vista and Server 2008."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Better detection of Windows 10 releases and distinguishing between public "
+"and Insider Preview builds."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 17.12"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Added support for recognition of Windows 10."
+msgid "Added support for 64-bit ARM processors on Windows 10."
+msgstr "Hozzáadtáka Windows 10 támogatását."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 17.09"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Plain text
+msgid "Important: Version 17.09.x is the last version to support Windows XP."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Last version to run on Windows XP."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 build 16278 and later is recognized as Version 1709. A minor "
+"revision for this add-on will be released once Version 1709 stable build is "
+"released."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 17.07.1"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid "Reintroduce support for Windows XP (broken since version 17.02)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 17.05"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Announcement of system uptime (time passed since last boot; NVDA+Shift+7)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 17.02"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Updated psutil dependency to 2.2.1."
+msgid "Updated psutil dependency to 5.0.1."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid ""
+"When checking disk usage, NVDA will no longer present an error dialog on "
+"some systems where a removable media is not properly recognized (such as "
+"when a card isn't inserted into a card reader).)"
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [3.1][1]"
+msgid "Version 16.08"
+msgstr "Verzió: [3.1][1]"
+
+#. type: Plain text
+msgid ""
+"Starting with version 16.08, add-on releases will be shown as year.month."
+"revision."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Various revisions of Windows 10 are now properly recognized (such as 1607 "
+"for build 14393)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Windows 10 build revisions (after installing cumulative updates) are "
+"properly recognized (such as 14393.51)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "If using Insider Preview builds, this fact is recognized."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.5"
+msgstr "A 4.5 verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on repository has moved to GitHub (can be found at https://github.com/"
+"josephsl/resourcemonitor)."
+msgstr ""
+"A bővítmény tárolóját áthelyezték a GitHubra (Megtalálható a https://github."
+"com/josephsl/resourcemonitor oldalon)."
+
+#. type: Bullet: '* '
+msgid "Windows Server 2016 is properly recognized."
+msgstr "A bővítmény már megfelelően felismeri a Windows server 2016-ot."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "A 4.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 2.2.1."
+msgstr "A psutil függőség frissítése az 2.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid "Vastly improved performance when obtaining information on CPU load."
+msgstr ""
+"Jelentősen javult a teljesítmény a processzor terhelésének lekérésekor."
+
+#. type: Bullet: '* '
+msgid "Added support for recognition of Windows 10."
+msgstr "Hozzáadtáka Windows 10 támogatását."
+
+#. type: Bullet: '* '
+msgid "In Windows 10, the build number of Windows will also be announced."
+msgstr "Windows 10 esetén már elhangzik a build szám."
+
+#. type: Bullet: '* '
+msgid "You can use Add-ons Manager to access add-on help."
+msgstr "A kiegészítő súgójának eléréséhez használja a Bővítménykezelőt."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.1"
+msgstr "A 3.1 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Resource Monitor officially supports Windows 8.1."
+msgstr "Az Erőforrás-kilistázómár támogatja a Windows 8 operációs rendszert."
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "Fordítások frissítése"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "A 3.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to 1.2.1."
+msgstr "A psutil függőség frissítése az 1.2.1. verzióra."
+
+#. type: Bullet: '* '
+msgid ""
+"Announcement of current Windows version, CPU architecture and service pack "
+"if any (NVDA+Shift+6)."
+msgstr ""
+"Bemondja a feltelepített Windows verzióját és szervizcsomagját, ha elérhető. "
+"(NVDA+Shift+6)"
+
+#. type: Bullet: '* '
+msgid "Ability to change add-on shortcut keys (NVDA 2013.3 or later)."
+msgstr ""
+"Lehetőség van a kiegészítő billentyűparancsainak megváltoztatására (NVDA "
+"2013.3-tól)"
+
+#. type: Bullet: '* '
+msgid ""
+"Ability to copy individual resource information to clipboard by pressing "
+"resource commands two times."
+msgstr ""
+"Lehetőség van az egyéni erőforrás információkat a vágólapra másolni egy "
+"kiválasztott erőforrás billentyűparancsának kétszeri lenyomásával."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.4"
+msgstr "A 2.4. verzió változásai"
+
+#. type: Bullet: '* '
+msgid "New languages: Chinese (simplified), Ukrainian."
+msgstr "Új nyelvek: egyszerűsített kínai, ukrán."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.3"
+msgstr "A 2.3. verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Added Bulgarian translation."
+msgstr "Bolgár fordítás hozzáadása."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.2"
+msgstr "A 2.2. verzió változásai"
+
+#. type: Bullet: '* '
+msgid ""
+"Added following translations: Arabic, Aragonese, Croatian, Dutch, Finnish, "
+"French, Galician, German, Hungarian, Italian, Japanese, Korean, Nepali, "
+"Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and "
+"Turkish."
+msgstr ""
+"Új fordítások: Arab, Aragóniai, Horvát, Holland, Finn, Francia, Galíciai, "
+"Német, Magyar, Olasz, Japán, Koreai, Nepáli, Lengyel, Portugál (Brazíliai), "
+"Orosz, Szlovák, Szlovén, Spanyol, Tamil és Török."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.1"
+msgstr "A 2.1. verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Updated psutil dependency to version 0.6.1."
+msgstr "A psutil függőség frissítése a 0.6.1 verzióra."
+
+#. type: Bullet: '* '
+msgid "Fixed long delay when getting information of drives."
+msgstr ""
+"A hosszú várakozás kiküszöbölése a meghajtókról való információk beszerzése "
+"közben."
+
+#. type: Bullet: '* '
+msgid "Code cleanup."
+msgstr "Kódtisztítás."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "A 2.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "added translation support and translation comments."
+msgstr "Fordítások támogatása, és fordítási megjegyzések hozzáadása."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Az 1.0 változásai"
+
+#. type: Bullet: '* '
+msgid "Initial Release"
+msgstr "Első kiadás"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=resourceMonitor"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Letöltés [Stabil verzió][1]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=rm-2019"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rm"

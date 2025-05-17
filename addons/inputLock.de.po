@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-04-27 13:20+0000\n"
+"PO-Revision-Date: 2023-05-07 05:36+0200\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Input Lock\"]]\n"
+msgstr "[[!meta title=\"Eingabesperre\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Jose Manuel Delicado"
+msgstr "Autor: Jose Manuel Delicado"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA compatibility: 2022.4 and beyond"
+msgid "NVDA compatibility: 2023.3.4 and beyond"
+msgstr "NVDA-Kompatibilität: 2022.4 oder neuer"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "[Stabile Version herunterladen][1]"
+
+#. type: Title ##
+#, no-wrap
+msgid "Introduction"
+msgstr "Einführung"
+
+#. type: Plain text
+msgid ""
+"Do you have kids or pets at home? Do you have a cat and It likes very much "
+"climbing your table and walking over your keyboard? Do you accidentally move "
+"the mouse to random parts in the screen while using your laptop? Then Input "
+"Lock is for you! You will be able to leave your computer alone and turned on "
+"without risk."
+msgstr ""
+"Haben Sie Kinder oder Haustiere zu Hause? Haben Sie eine Katze, die sehr "
+"gerne auf Ihren Tisch klettert und über Ihre Tastatur läuft? Bewegen Sie "
+"versehentlich die Maus in zufällige Bereiche auf dem Bildschirm, während Sie "
+"Ihren Laptop benutzen? Dann ist die Eingabesperre für Sie optimal! Sie "
+"können Ihren Computer ohne Risiko eingeschaltet lassen, sodass Sie diesen "
+"nicht beaufsichtigen müssen."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Once installed, you will be able to lock your keyboard, touch screen, if "
+#| "your laptop has one, mouse and Braille display."
+msgid ""
+"Once installed, you will be able to lock your keyboard, touch screen (if "
+"your laptop has one), touchpad, mouse and Braille display."
+msgstr ""
+"Nach der Installation werden Sie in der Lage sein, Ihre Tastatur, den "
+"Touchscreen, Maus und auch die Braillezeile zu sperren."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Verwendung"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This addon adds two extra gestures to NVDA. By default they are "
+#| "unassigned, so you will have to configure them from Input gestures "
+#| "dialog. Read the NVDA User Guide for more information."
+msgid ""
+"This addon adds three extra gestures to NVDA. By default they are "
+"unassigned, so you will have to configure them from Input gestures dialog. "
+"Read the NVDA User Guide for more information."
+msgstr ""
+"Diese Erweiterung fügt zwei zusätzliche Gesten für NVDA hinzu. Standardmäßig "
+"sind Sie nicht zugeordnet, so dass Sie diese im Dialog  Eingaben... "
+"konfigurieren müssen. Für weitere Informationen lesen Sie das NVDA-"
+"Benutzerhandbuch."
+
+#. type: Plain text
+msgid ""
+"When you press the toggle input lock gesture, NVDA will say \"Input "
+"locked\". Your input devices will be blocked until you press the same "
+"gesture again. In that moment, NVDA will say \"Input unlocked\" and "
+"everything will work as usual."
+msgstr ""
+"Wenn Sie die Tastenkombination zum Ein- / Ausschalten der Eingabesperre "
+"drücken, sagt NVDA \"Eingaben gesperrt\". Es werden alle Eingabegeräte "
+"gesperrt, bis Sie die gleiche Tastenkombination erneut drücken. In diesem "
+"Moment sagt NVDA \"Eingaben entsperrt\" und alles wird wie gewohnt "
+"funktionieren."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "When you press the toggle input lock gesture, NVDA will say \"Input "
+#| "locked\". Your input devices will be blocked until you press the same "
+#| "gesture again. In that moment, NVDA will say \"Input unlocked\" and "
+#| "everything will work as usual."
+msgid ""
+"Locking the touchpad can prevent us from accidentally touching it, "
+"especially those who are used to using the laptop keyboard directly. When "
+"you press the toggle touchpad lock gesture, NVDA will say \"Touchpad "
+"locked\". Your touchpad will be blocked until you press the same gesture "
+"again. In that moment, NVDA will say \"Touchpad unlocked\" and everything "
+"will work as usual."
+msgstr ""
+"Wenn Sie die Tastenkombination zum Ein- / Ausschalten der Eingabesperre "
+"drücken, sagt NVDA \"Eingaben gesperrt\". Es werden alle Eingabegeräte "
+"gesperrt, bis Sie die gleiche Tastenkombination erneut drücken. In diesem "
+"Moment sagt NVDA \"Eingaben entsperrt\" und alles wird wie gewohnt "
+"funktionieren."
+
+#. type: Plain text
+msgid ""
+"If you press the toggle mouse block gesture, your mouse will be locked. "
+"Press this command again to unlock it. While mouse is locked, you can use "
+"NVDA gestures to move it, and click with left and right buttons, but You "
+"can't move the mouse itself. Mouse clicks can also be disabled from Input "
+"lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on "
+"settings dialog for older versions, available under preferences menu. In "
+"addition, from these settings you can control wether mouse locks when NVDA "
+"is started or not."
+msgstr ""
+"Wenn Sie den Befehl \"Maus blockieren\" ausführen, wird Ihre Maus gesperrt. "
+"Führen Sie diesen Befehl erneut aus, um die Maus zu entsperren. Während die "
+"Maus gesperrt ist, können Sie Funktionen von NVDA verwenden, um Sie zu "
+"bewegen und links oder rechts klicken, aber Sie können die Maus nicht selbst "
+"bewegen. Mausklicks können auch in der Kategorie Input-Lock im NVDA-"
+"Einstellungsdialog (ab NVDA 2018.2) deaktiviert werden. In älteren Versionen "
+"finden sich die Einstellungen im Einstellungsdialog der Erweiterungen im "
+"Einstellungsmenü.\n"
+"\n"
+"Darüber hinaus können Sie festlegen, ob die Maus beim Start von NVDA "
+"automatisch gesperrt werden soll."
+
+#. type: Plain text
+msgid ""
+"Note: when mouse clicks are blocked, you can't use any NVDA gestures to work "
+"with the mouse."
+msgstr ""
+"Hinweis: Wenn Mausklicks blockiert sind, können Sie keine NVDA-Funktionen "
+"verwenden, um mit der Maus zu arbeiten."
+
+#. type: Title ##
+#, no-wrap
+msgid "Limitations and known problems"
+msgstr "Einschränkungen und bekannte Probleme"
+
+#. type: Plain text
+msgid "Input Lock has the following known problems:"
+msgstr "Folgende und bekannte Probleme:"
+
+#. type: Bullet: '* '
+msgid ""
+"The shortcuts control+alt+del and windows+l can be used even when the "
+"keyboard is locked."
+msgstr ""
+"Die Tastenkombinationen Strg+Alt+Entf und Fenster+l können auch bei "
+"gesperrter Tastatur verwendet werden."
+
+#. type: Bullet: '* '
+msgid ""
+"For gestures used to lock the touchpad, please try to assign a small number "
+"of key combination gestures. It is recommended to use NVDA+letters or "
+"numbers, Ctrl+F keys etc."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changelog"
+msgstr "Änderungen"
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.1"
+msgid "Version 1.13"
+msgstr "Version 1.1"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Now, minimum supported version is 2022.4."
+msgid "Now, minimum supported version is 2023.3.4."
+msgstr "Mindestens Version 2022.4 wird unterstützt."
+
+#. type: Bullet: '* '
+msgid ""
+"Updated translations. Starting from version 1.13, changelog won't be "
+"modified when a new release only includes localization updates."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "The addon gestures are unassigned by default."
+msgid "Added a gesture (unassigned by default) to lock/unlock the touchpad."
+msgstr ""
+"Die Funktionen der Erweiterung sind standardmäßig keinen Tastenkombinationen "
+"zugeordnet."
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "Version 1.1"
+msgid "Version 1.12"
+msgstr "Version 1.1"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility flags for recent NVDA versions."
+msgstr ""
+"Es wurde die Kompatibilität mit den neuesten NVDA-Versionen aktualisiert."
+
+#. type: Bullet: '* '
+msgid "Updated translations."
+msgstr "Aktualisierte Übersetzungen."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.11"
+msgstr "Version 1.11"
+
+#. type: Bullet: '* '
+msgid "Now, minimum supported version is 2022.4."
+msgstr "Mindestens Version 2022.4 wird unterstützt."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.10"
+msgstr "Version 1.10"
+
+#. type: Bullet: '* '
+msgid "Updated documentation."
+msgstr "Aktualisierte Dokumentation."
+
+#. type: Bullet: '* '
+msgid "Now, minimum supported version is 2021.3."
+msgstr "Es wird mindestens die Version 2021.3 unterstützt."
+
+#. type: Bullet: '* '
+msgid ""
+"The input will remain blocked after waking up from standby mode. Thanks to "
+"Javi Dominguez."
+msgstr ""
+"Die Eingabe bleibt nach dem Aufwachen aus dem Standby-Modus blockiert. Dank "
+"an Javi Dominguez."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.9"
+msgstr "Version 1.9"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.8"
+msgstr "Version 1.8"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.7"
+msgstr "Version 1.7"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.6"
+msgstr "Version 1.6"
+
+#. type: Bullet: '* '
+msgid ""
+"Now, settings are removed only when the add-on is uninstalled. Configuration "
+"is nolonger reset when upgrading."
+msgstr ""
+"Jetzt werden die Einstellungen nur noch entfernt, wenn die Erweiterung "
+"deinstalliert wird. Die Konfiguration wird beim Aktualisieren nicht mehr "
+"zurückgesetzt."
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "Neue und aktualisierte Übersetzungen."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.5"
+msgstr "Version 1.5"
+
+#. type: Bullet: '* '
+msgid "Added compatibility with recent NVDA releases."
+msgstr ""
+"Es wurde die Kompatibilität mit den neuesten NVDA-Versionen hinzugefügt."
+
+#. type: Bullet: '* '
+msgid "New translations."
+msgstr "Neue Übersetzungen."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.4"
+msgstr "Version 1.4"
+
+#. type: Bullet: '* '
+msgid "The addon gestures are unassigned by default."
+msgstr ""
+"Die Funktionen der Erweiterung sind standardmäßig keinen Tastenkombinationen "
+"zugeordnet."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "Version 1.3"
+
+#. type: Bullet: '* '
+msgid ""
+"Added a configuration panel in settings dialog. For old NVDA versions, a "
+"menu item and a dialog have been added too."
+msgstr ""
+"Im Einstellungsdialog wurde eine Einstellungskategorie hinzugefügt. Für alte "
+"NVDA-Versionen wurden auch ein Menüpunkt und ein Dialog hinzugefügt."
+
+#. type: Bullet: '* '
+msgid "Added a setting to lock the mouse when NVDA is started."
+msgstr ""
+"Es wurde eine Einstellung hinzugefügt, um die Maus zu sperren, wenn NVDA "
+"gestartet wird."
+
+#. type: Bullet: '* '
+msgid "Added a setting to block also mouse clicks while mouse is locked."
+msgstr ""
+"Es wurde eine Einstellung hinzugefügt, um auch Mausklicks zu blockieren, "
+"während die Maus gesperrt ist."
+
+#. type: Bullet: '* '
+msgid ""
+"Small bugs fixed, some code optimizations and less duplicated strings for "
+"translators"
+msgstr ""
+"Kleinere Fehlerbehebungen, einige Code-Optimierungen und weniger doppelte "
+"Zeichenketten für Übersetzer"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Version 1.2"
+
+#. type: Bullet: '* '
+msgid "Now the mouse can also be locked"
+msgstr "Nun kann die Maus auch gesperrt werden"
+
+#. type: Bullet: '* '
+msgid "New command to lock and unlock only the mouse"
+msgstr "Neue Tastenkombination, um die Maus zu sperren oder zu entsperren"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Version 1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"If another addon has previously added a capture function to inputManager, it "
+"is restored when the input is unlocked."
+msgstr ""
+"Wenn eine andere Erweiterung bereits auf die Eingabenverwaltung zugreift, "
+"wird der Zugriff wiederhergestellt, sobald die Eingabesperre aufgehoben wird."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0"
+msgstr "Version 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release"
+msgstr "Erstveröffentlichung"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=inputLock"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=inputLock"
+
+#~ msgid ""
+#~ "On some laptops, the touchpad still accepts user input after mouse is "
+#~ "blocked."
+#~ msgstr ""
+#~ "Bei einigen Laptops akzeptiert das Touchpad immer noch Benutzereingaben, "
+#~ "nachdem die Maus blockiert wurde."
+
+#~ msgid ""
+#~ "NVDA unlocks the keyboard and other input methods when the computer wakes "
+#~ "up from standby mode or the session is restored from the Windows lock "
+#~ "screen."
+#~ msgstr ""
+#~ "NVDA entsperrt die Tastatur und andere Eingabemethoden, wenn der Computer "
+#~ "aus dem Standby-Modus aufwacht oder die Sitzung über den Windows-"
+#~ "Sperrbildschirm wiederhergestellt wird."
+
+#~ msgid "Limitations"
+#~ msgstr "Einschränkungen"

@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2024-05-12 17:16+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Quick Dictionary\"]]\n"
+msgstr "[[!meta title=\"Brzi rječnik (Quick Dictionary)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Oleksandr Gryshchenko"
+msgstr "Autor: Oleksandr Gryshchenko"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Preuzmi [razvojnu verziju][2]"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 to 2020.3"
+msgstr "NVDA kompatibilnost: 2019.3 do 2020.3"
+
+#. type: Plain text
+msgid ""
+"Welcome to NVDA Quick Dictionary addon, which will allow you to quickly get "
+"a dictionary article with the translation of a word or phrase into your "
+"chosen language by pressing a key combination. There are few basic keyboard "
+"shortcuts and they are all intuitive and convenient so you will remember "
+"them quickly."
+msgstr ""
+"NVDA dodatak „Brzi rječnik” omogućuje brz pristup članku rječnika s "
+"prijevodom riječi ili izraza na odabrani jezik pomoću tipkovnih prečaca. "
+"Postoji nekoliko osnovnih tipkovnih prečaca i svi su intuitivni i prikladni, "
+"tako da se mogu lako zapamtiti."
+
+#. type: Plain text
+msgid ""
+"Dictionary articles contain detailed information about a word, such as part "
+"of speech, gender, plural or singular, translation options, list of "
+"meanings, synonyms and detailed examples. Such information will be useful "
+"for people who are learning foreign languages, or seek to use in "
+"communication all the richness and diversity of their own language."
+msgstr ""
+"Članci rječnika sadrže detaljne informacije o riječi, poput dijela govora, "
+"roda, množine ili jednine, mogućnosti prijevoda, popis značenja, sinonime i "
+"detaljne primjere. Takve će informacije biti korisne ljudima koji uče strane "
+"jezike ili nastoje u komunikaciji koristiti svo bogatstvo i raznolikost "
+"vlastitog jezika."
+
+#. type: Plain text
+msgid ""
+"The add-on supports several online dictionary services. You can select the "
+"desired remote dictionary in the appropriate dialog box or by using keyboard "
+"shortcuts. Each available service has its own settings panel."
+msgstr ""
+"Dodatak podržava nekoliko internetskih usluga rječnika. Željeni rječnik se "
+"može odabrati u odgovarajućem dijaloškom okviru ili pomoću tipkovnih "
+"prečaca. Svaka dostupna usluga ima vlastitu ploču s postavkama."
+
+#. type: Plain text
+msgid ""
+"There are also advanced opportunities for working with profiles of the voice "
+"synthesizers. You can associate a voice synthesizer profile with a specific "
+"language, after that translations into this language will be automatically "
+"voiced by the selected synthesizer."
+msgstr ""
+"Postoje i napredne mogućnosti za rad s profilima govornih jedinica. Profil "
+"govorne jedinice možeš povezati s određenim jezikom, nakon čega će odabrana "
+"govorna jedinica automatski izgovarati prijevode na tom jeziku."
+
+#. type: Plain text
+#, no-wrap
+msgid "Below are all the features of the add-on and keyboard shortcuts to control them. By default all functions are called using two-layer commands. But for any of these methods you can always assign convenient for you keyboard shortcuts. You can do it in the NVDA \"Preferences\" -> \"Input gestures...\" dialog.\n"
+msgstr "Ispod su navedene sve funkcije dodatka i odgovarajući tipkovni prečaci. Standardno se sve funkcije pozivaju pomoću dvoslojnih naredbi. Ali za bilo koju od ovih metoda uvijek je moguće dodijeliti prikladne tipkovne prečace putem izbornika „Postavke”, podstavka „Ulazne geste …”.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Receiving a dictionary article"
+msgstr "Primanje članka rječnika"
+
+#. type: Plain text
+msgid ""
+"In order to get an article from the dictionary, you must first select the "
+"word you are interested in or copy it to the clipboard. Then just press "
+"NVDA+Y twice.  There is also another way to get a dictionary entry: pressing "
+"NVDA+Y once switches the keyboard to add-on control mode, then just use the "
+"D key."
+msgstr ""
+"Za primanje članka iz rječnika, najprije moraš odabrati riječ koja te zanima "
+"ili je kopirati u međuspremnik. Zatim dvaput pritisni NVDA+Y. Postoji i "
+"drugi način za pristup rječniku: jednim pritiskom tipki NVDA+Y, tipkovnica "
+"se prebacuje u modus upravljanja dodatkom. Tada koristi tipku D."
+
+#. type: Title ##
+#, no-wrap
+msgid "Add-on control mode"
+msgstr "Modus upravljanja dodatkom"
+
+#. type: Plain text
+msgid ""
+"To access all the features of the add-on, you need to switch to add-on "
+"control mode, you can do this by pressing NVDA+Y once. You will hear a short "
+"low beep and will be able to use the other commands described below. When "
+"you press a key that is not used in the add-on, you will hear another signal "
+"notifying you of an erroneous command and the add-on control mode will be "
+"automatically turned off."
+msgstr ""
+"Za pristup svim funkcijama dodatka, moraš se prebaciti na modus upravljanja "
+"dodatkom, jednim pritiskom tipki NVDA+Y. Čut ćeš kratak zvučni signal i moći "
+"ćeš koristiti ostale dolje opisane naredbe. Kad pritisneš tipku koja se ne "
+"koristi u dodatku, čut ćeš jedan drugi signal koji obavještava o pogrešnoj "
+"naredbi i modus upravljanja dodatkom automatski će se isključiti."
+
+#. type: Title ##
+#, no-wrap
+msgid "Add-on commands list"
+msgstr "Popis naredbi dodatka"
+
+#. type: Plain text
+msgid "Basic dictionary commands:"
+msgstr "Osnovne naredbe za riječnik:"
+
+#. type: Bullet: '* '
+msgid ""
+"D - announce a dictionary entry for a selected word or phrase (same as "
+"NVDA+Y);"
+msgstr ""
+"D – najavi zapis u rječniku za odabranu riječ ili izraz (isto kao NVDA+Y);"
+
+#. type: Bullet: '* '
+msgid "W - show dictionary entry in a separate browseable window;"
+msgstr "W – prikaži zapis u rječniku u zasebnom prozoru;"
+
+#. type: Bullet: '* '
+msgid "S - swap languages and get Quick Dictionary translation;"
+msgstr "S – zamijeni jezike i pruzmi prijevod iz brzog rječnika;"
+
+#. type: Bullet: '* '
+msgid "A - announce the current source and target languages;"
+msgstr "A – najavljuje trenutačne izvorne i ciljane jezike;"
+
+#. type: Bullet: '* '
+msgid "C - copy last dictionary entry to the clipboard;"
+msgstr "C – kopiraj zadnji zapis u rječniku u međuspremnik;"
+
+#. type: Bullet: '* '
+msgid "E - edit text before sending;"
+msgstr "E – uredi tekst prije slanja;"
+
+#. type: Bullet: '* '
+msgid ""
+"U - download from online dictionary and save the current list of available "
+"languages;"
+msgstr ""
+"U – preuzmi iz internetskog rječnika i spremi trenutačni popis dostupnih "
+"jezika;"
+
+#. type: Bullet: '* '
+msgid "function keys - select online dictionary service;"
+msgstr "funkcijske tipke – odaberi internetsku uslugu rječnika;"
+
+#. type: Bullet: '* '
+msgid "Q - statistics on the using the online service;"
+msgstr "Q – statistika o upotrebi internetske usluge;"
+
+#. type: Bullet: '* '
+msgid "F - choose online service."
+msgstr "F – odaberi internetsku uslugu."
+
+#. type: Plain text
+msgid "Voice synthesizers profiles management:"
+msgstr "Upravljanje profilima govornih jedinica:"
+
+#. type: Bullet: '* '
+msgid "from 1 to 9 - selection of the voice synthesizer profile;"
+msgstr "od 1 do 9 – biranje profila govorne jedinice;"
+
+#. type: Bullet: '* '
+msgid "G - announce the selected profile of voice synthesizers;"
+msgstr "G – najavljuje odabrani profil govornih jedinica;"
+
+#. type: Bullet: '* '
+msgid "B - back to previous voice synthesizer;"
+msgstr "B – natrag na prethodnu govornu jedinicu;"
+
+#. type: Bullet: '* '
+msgid "R - restore default voice synthesizer;"
+msgstr "R – obnovi standardnu govornu jedinicu;"
+
+#. type: Bullet: '* '
+msgid "Del - delete the selected voice synthesizer profile;"
+msgstr "Del – izbriši odabrani profil govorne jedinice;"
+
+#. type: Bullet: '* '
+msgid "V - save configured voice synthesizer profile;"
+msgstr "V – spremi konfigurirani profil govorne jedinice;"
+
+#. type: Bullet: '* '
+msgid "P - display a list of all customized voice synthesizers profiles."
+msgstr "P – prikazuje popis prilagođenih profila govornih jedinica."
+
+#. type: Plain text
+msgid "Press O to open add-on settings dialog."
+msgstr "Pritisni O za otvaranje dijaloškog okvira postavki dodatka."
+
+#. type: Title ##
+#, no-wrap
+msgid "Help on add-on commands"
+msgstr "Pomoć za naredbe dodatka"
+
+#. type: Plain text
+msgid "You can see a list of all the commands used in the add-on as follows:"
+msgstr ""
+"Popis svih korištenih naredbi u dodatku možeš vidjeti na sljedeći način:"
+
+#. type: Bullet: '* '
+msgid ""
+"Via the NVDA menu - by pressing NVDA+N, go to the submenu \"Tools\", then - "
+"\"Quick Dictionary\" and activate the menu item \"Help on add-on commands\"."
+msgstr ""
+"U NVDA izborniku pritisni NVDA+N, idi na podizbornik „Alati”, zatim „Brzi "
+"rječnik” i aktiviraj „Pomoć za naredbe dodatka”."
+
+#. type: Bullet: '* '
+msgid "Press the H key in add-on control mode (NVDA+Y)."
+msgstr "Pritisni tipku H u modusu upravljanja dodatkom (NVDA+Y)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Add-on help"
+msgstr "Pomoć za dodatak"
+
+#. type: Plain text
+msgid ""
+"To open the add-on help - press NVDA+N, go to the \"Tools\" submenu, then - "
+"\"Quick Dictionary\" and activate the menu item \"Help\"."
+msgstr ""
+"Za otvaranje pomoći za dodatak, pritisni NVDA+N, idi na podizbornik „Alati”, "
+"zatim „Brzi rječnik” i aktiviraj „Pomoć”."
+
+#. type: Title ##
+#, no-wrap
+msgid "Contributions"
+msgstr "Doprinosi"
+
+#. type: Plain text
+msgid ""
+"We are very grateful to everyone who made the effort to develop, translate "
+"and maintain this add-on:"
+msgstr ""
+"Zahvaljujemo se svima koji pomažu pri razvoju, prevođenju i održavanju ovog "
+"dodatka:"
+
+#. type: Bullet: '* '
+msgid "Cagri Dogan - Turkish translation;"
+msgstr "Cagri Dogan – prijevod na turski;"
+
+#. type: Bullet: '* '
+msgid "Wafiqtaher - Arabic translation."
+msgstr "Wafiqtaher – prijevod na arapski."
+
+#. type: Plain text
+msgid ""
+"Several good solutions from other developments were used in the Quick "
+"Dictionary add-on. Thanks to the authors of the following add-ons:"
+msgstr ""
+"U dodatku „Brzi rječnik” koristi se nekoliko dobrih rješenja iz drugih "
+"projekata. Zahvaljujemo autorima sljedećih dodataka:"
+
+#. type: Bullet: '* '
+msgid ""
+"Instant Translate - Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto "
+"Buffolino and other NVDA contributors."
+msgstr ""
+"Brzo prevođenje – Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto "
+"Buffolino i drugi NVDA suradnici."
+
+#. type: Bullet: '* '
+msgid ""
+"To work with voice synthesizers profiles were used ideas from the Switch "
+"Synth add-on (thanks to Tyler Spivey)."
+msgstr ""
+"Za rad s profilima govornih jedinica korištene su ideje iz dodatka „Zamjena "
+"govorne jedinice” (hvala Tyler Spivey)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log"
+msgstr "Dnevnik promjena"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.1"
+msgstr "Verzija 2.1"
+
+#. type: Bullet: '* '
+msgid "added a dialog to edit the text before sending to remote service;"
+msgstr ""
+"dodan je dijaloški okvir za uređivanje teksta prije slanja na udaljenu "
+"uslugu;"
+
+#. type: Bullet: '* '
+msgid "separated add-on help page from ReadMe;"
+msgstr "stranica pomoći za dodatke odvojena je od datoteke ReadMe;"
+
+#. type: Bullet: '* '
+msgid "Turkish translation added (thanks to Cagri Dogan)."
+msgstr "Dodan je prijevod na turski (hvala Cagri Dogan)."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.0"
+msgstr "Verzija 2.0"
+
+#. type: Bullet: '* '
+msgid "added the ability to connect other online dictionary services;"
+msgstr "dodana je mogućnost za povezivanje drugih usluga online rječnika;"
+
+#. type: Bullet: '* '
+msgid "added Lexicala service and its settings panel;"
+msgstr "dodana je usluga Lexicala i njezina ploča s postavkama;"
+
+#. type: Bullet: '* '
+msgid ""
+"added a dialog for choosing an online service from the list of available "
+"ones;"
+msgstr "dodan je dijaloški okvir za biranje online usluge s popisa dostupnih;"
+
+#. type: Bullet: '* '
+msgid "added a command to get information about the selected service;"
+msgstr "dodana je naredba za dobivanje informacija o odabranoj usluzi;"
+
+#. type: Bullet: '* '
+msgid "added a dialog for working with profiles of voice synthesizers;"
+msgstr "dodan je dijaloški okvir za rad s profilima govornih jedinica;"
+
+#. type: Bullet: '* '
+msgid ""
+"implemented the procedure for switching to the previous voice synthesizer;"
+msgstr "implementiran je postupak za mijenjanje na prethodnu govornu jedinicu;"
+
+#. type: Bullet: '* '
+msgid "implemented a parallel thread to monitor the state of the synthesizer;"
+msgstr ""
+"implementiran je paralelni slijed komentara za praćenje stanja govorne "
+"jedinice;"
+
+#. type: Bullet: '* '
+msgid ""
+"due to an increase in the number of functions in the add-on - help for "
+"commands is now displayed in a separate window;"
+msgstr ""
+"zbog povećanja broja funkcija u dodatku – pomoć za naredbe sada se prikazuje "
+"u zasebnom prozoru;"
+
+#. type: Bullet: '* '
+msgid "updated procedure for caching requests to online services;"
+msgstr "aktualiziran je postupak za predmemoriranje zahtjeva za online usluge;"
+
+#. type: Bullet: '* '
+msgid "added add-on submenu to NVDA menu;"
+msgstr "dodan je podizbornik za dodatke u NVDA izbornik;"
+
+#. type: Bullet: '* '
+msgid "updated ReadMe."
+msgstr "aktualizirana je datoteka ReadMe."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "Verzija 1.2"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to automatically switch voice synthesizers for selected "
+"languages;"
+msgstr ""
+"dodana je mogućnost automatskog prebacivanja govornih jedinica za odabrane "
+"jezike;"
+
+#. type: Bullet: '* '
+msgid ""
+"added the ability to download the current list of languages available in the "
+"online-dictionary;"
+msgstr ""
+"dodana je mogućnost preuzimanja aktualnog popisa jezika dostupnih u online "
+"rječniku;"
+
+#. type: Bullet: '* '
+msgid "Turkish translation added thanks to Cagri Dogan."
+msgstr "Dodan je prijevod na turski (hvala Cagri Dogan)."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "Verzija 1.1"
+
+#. type: Bullet: '* '
+msgid "changed some keyboard shortcuts which conflicted with other add-ons;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "changed the description of the main add-on features;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "updated help and translation of the add-on;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"removed some keyboard shortcuts and gave to user opportunity to setup them "
+"yourself;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fixed error in Ukrainian translation (thanks to Volodymyr Perig);"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "added russian translation."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.0: features of implementation"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"execution of requests to the remote server in a separate thread to avoid "
+"blocking the operation of NVDA;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "signals while waiting for a response from the server;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"caching of the last 100 requests to reduce the load on the remote dictionary "
+"service;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "switching to add-on control mode;"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "possibility to use an alternative server;"
+msgstr "mogućnost korištenja alternativnog poslužitelja;"
+
+#. type: Bullet: '* '
+msgid "add-on settings dialog."
+msgstr "dijaloški okvir postavki dodatka."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary-dev"
+msgstr ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=quickdictionary-dev"

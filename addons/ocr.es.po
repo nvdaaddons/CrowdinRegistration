@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NVDA Community Addons website\n"
+"POT-Creation-Date: 2023-05-10 21:27+0000\n"
+"PO-Revision-Date: 2023-04-16 14:24+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"Language-Team: spanish add-ons translation team <oprisniki@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"OCR\"]]\n"
+msgstr "[[!meta title=\"OCR\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: NV Access Limited, Lukasz Golonka and other contributors"
+msgstr "Autores: NV Access Limited, Lukasz Golonka y otros colaboradores"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2019.3 and beyond"
+msgstr "Compatibilidad con NVDA: 2019.3 y posterior"
+
+#. type: Bullet: '* '
+msgid "Download [Stable version][1]"
+msgstr "Descargar [versión estable][1]"
+
+#. type: Bullet: '* '
+msgid "Download [version compatible with NVDA 2019.2 and older][2]"
+msgstr "Descargar [versión compatible con NVDA 2019.2 y anteriores][2]"
+
+#. type: Plain text
+msgid ""
+"Important: if you are using NVDA 2017.3 or later on Windows 10, please "
+"consider using built-in Windows 10 OCR."
+msgstr ""
+"Importante: si estás utilizando NVDA 2017.3 o posterior en Windows 10, "
+"plantéate utilizar el OCR incorporado en Windows 10."
+
+#. type: Plain text
+msgid ""
+"Performs optical character recognition (OCR) to extract text from an object "
+"which is inaccessible. The Tesseract OCR engine is used. To perform OCR, "
+"move to the object in question using object navigation and press NVDA+r. You "
+"can set the OCR recognition language by going to the NVDA settings panel and "
+"selecting OCR settings. The keyboard shortcut can be reassigned from NVDA "
+"input gestures dialog in the \"Miscellaneous\" category."
+msgstr ""
+"Lleva a cabo el reconocimiento óptico de caracteres (OCR) para extraer texto "
+"de un objeto que sea  inaccesible. se utiliza el motor OCR  Tesseract.  Para "
+"realizar el OCR, muévete al objeto en cuestión utilizando la navegación de "
+"objetos y pulsa NVDA+r.  Puedes configurar el idioma de reconocimiento del "
+"OCR yendo al diálogo de opciones de NVDA y eligiendo los ajustes de OCR. Se "
+"puede reasignar el atajo de teclado desde el diálogo Gestos de entrada de "
+"NVDA en la categoría \"Miscelánea\"."
+
+#. type: Title ##
+#, no-wrap
+msgid "Change log:"
+msgstr "Registro de cambios:"
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.1:"
+msgstr "Cambios para 2.1:"
+
+#. type: Bullet: '* '
+msgid ""
+"When recognition is performed on an edit field it is now possible to "
+"navigate it with the system caret without moving focus from it and back "
+"again."
+msgstr ""
+"Cuando se realiza el reconocimiento en un cuadro de edición, es posible "
+"navegar por él con el cursor del sistema sin tener que sacar el foco y "
+"volver a llevarlo."
+
+#. type: Bullet: '* '
+msgid "Tesseract release info is no longer written to the focused console."
+msgstr ""
+"Ya no se imprime la información de versión de Tesseract en la consola que "
+"tiene el foco."
+
+#. type: Bullet: '* '
+msgid "When no text is recognized this fact is announced to the user."
+msgstr "Si no se reconoce ningún texto, esta situación se anuncia al usuario."
+
+#. type: Bullet: '* '
+msgid "It is no longer possible to attempt recognition on an invisible object."
+msgstr "Ya no es posible intentar el reconocimiento en un objeto invisible."
+
+#. type: Bullet: '* '
+msgid "WX is now used to capture images instead of Pillow."
+msgstr "Se utiliza WX en vez de Pyllow para capturar imágenes."
+
+#. type: Title ###
+#, no-wrap
+msgid "Changes for 2.0:"
+msgstr "Cambios para 2.0:"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2019.3 and later."
+msgstr "Compatibilidad con NVDA: 2019.3 y posterior."
+
+#. type: Bullet: '* '
+msgid ""
+"It is possible to set different recognition languages for different "
+"configuration profiles."
+msgstr ""
+"Es posible configurar distintos idiomas de reconocimiento en perfiles "
+"diferentes."
+
+#. type: Bullet: '* '
+msgid ""
+"OCR settings can now be changed from NVDA settings dialog rather than from a "
+"separate dialog in the tools menu."
+msgstr ""
+"Las opciones del OCR se pueden modificar desde el diálogo de opciones de "
+"NVDA, ya no se utiliza el diálogo independiente que se abría desde el menú "
+"Herramientas."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=ocr"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=ocr"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/files/nvda-addons/ocr_0.20120529.01.nvda-addon"
+msgstr ""
+"[2]: https://www.nvaccess.org/files/nvda-addons/ocr_0.20120529.01.nvda-addon"

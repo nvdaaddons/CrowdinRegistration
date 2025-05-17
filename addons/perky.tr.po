@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Perky Duck\n"
+"POT-Creation-Date: 2024-11-24 08:12+0000\n"
+"PO-Revision-Date: 2024-11-24 17:57+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Perky Duck\"]]\n"
+msgstr "[[!meta title=\"Perky Duck\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Authors: Alejandro Iván Castro Orozco, Noelia Ruiz Martínez"
+msgstr "Yazarlar: Alejandro Iván Castro Orozco, Noelia Ruiz Martínez"
+
+#. type: Plain text
+msgid ""
+"This add-on is used to improve the reading experience with Perky Duck, "
+"available at <https://www.duxburysystems.com>."
+msgstr ""
+"Bu eklenti, <https://www.duxburysystems.com> adresinde bulunan Perky Duck "
+"ile okuma deneyimini geliştirmek için kullanılır."
+
+#. type: Title ###
+#, no-wrap
+msgid "Features"
+msgstr "Özellikler"
+
+#. type: Bullet: '* '
+msgid ""
+"Enables NVDA to detect selection changes when UI Automation is disabled in "
+"Perky Duck. Without the add-on, NVDA detects these changes only when UI "
+"Automation is enabled."
+msgstr ""
+"Perky Duck'ta UI Otomasyonu devre dışı bırakıldığında NVDA'nın seçim "
+"değişikliklerini algılamasını sağlar. Eklenti olmadan, NVDA bu "
+"değişiklikleri yalnızca UI Otomasyonu etkinleştirildiğinde algılar."
+
+#. type: Bullet: '* '
+msgid ""
+"Adds the possibility of using the speak typed characters feature of NVDA in "
+"Perky Duck documents."
+msgstr ""
+"Perky Duck belgelerinde NVDA'nın konuşarak yazılan karakterleri kullanma "
+"olanağını ekler."
+
+#. type: Title ##
+#, no-wrap
+msgid "Commands"
+msgstr "Komutlar"
+
+#. type: Plain text
+msgid ""
+"The following commands can be assigned from NVDA's menu, Preferences "
+"submenu, Input gestures dialog, Perky Duck category. This will be available "
+"from Perky Duck documents:"
+msgstr ""
+"Aşağıdaki komutlar NVDA menüsünden, Tercihler alt menüsünden, Girdi "
+"hareketleri iletişim kutusundan, Perky Duck kategorisinden atanabilir. Bu "
+"komutlara Perky Duck belgelerinden ulaşılabilir:"
+
+#. type: Bullet: '* '
+msgid ""
+"Shows the selected text converted to braille using symbols for the current "
+"language."
+msgstr ""
+"Geçerli dilin simgeleri kullanılarak braille'e dönüştürülmüş seçili metni "
+"gösterir."
+
+#. type: Bullet: '* '
+msgid "Shows the selected text in browse mode."
+msgstr "Seçilen metni göz atma modunda gösterir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 7.0.0"
+msgstr "7.0.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid ""
+"To avoid possible issues, the dialog to add and customize speech symbols "
+"dictionaries from Perky Duck documents has been removed."
+msgstr ""
+"Olası sorunlardan kaçınmak için Perky Duck belgelerinden konuşma simgeleri "
+"sözlüklerini ekleme ve özelleştirme iletişim kutusu kaldırıldı."
+
+#. type: Bullet: '* '
+msgid ""
+"The Perky Duck spanish speech symbols dictionary can be enabled or disabled "
+"from NVDA's Speech settings dialog."
+msgstr ""
+"Perky Duck ispanyolca konuşma sembolleri sözlüğü, NVDA'nın Konuşma ayarları "
+"iletişim kutusundan etkinleştirilebilir veya devre dışı bırakılabilir."
+
+#. type: Bullet: '* '
+msgid ""
+"Configuration profiles may be used to enable this or other dictionaries, "
+"manually or automatically when the application is active."
+msgstr ""
+"Uygulama etkinken bu veya diğer sözlükleri el ile veya otomatik olarak "
+"etkinleştirmek için yapılandırma profilleri kullanılabilir."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#~ msgid ""
+#~ "Opens the symbols dialog for reading characters typed in Perky. From this "
+#~ "dialog, you can save and choose symbols dictionaries."
+#~ msgstr ""
+#~ "Perky'de yazılan karakterleri okumak için semboller iletişim kutusunu "
+#~ "açar. Bu iletişim kutusunda sembol sözlüklerini kaydedebilir ve "
+#~ "seçebilirsiniz."

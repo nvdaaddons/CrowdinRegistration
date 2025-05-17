@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-10 21:27+0000\n"
+"PO-Revision-Date: 2023-04-16 15:06+0200\n"
+"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Training Keyboard commands\"]]\n"
+msgstr "[[!meta title=\"Práctica de órdenes de teclado\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Ibrahim Hamadeh"
+msgstr "Autor: Ibrahim Hamadeh"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Descargar [versión estable][1]"
+
+#. type: Bullet: '* '
+msgid "Download [development version][2]"
+msgstr "Descargar [versión de desarrollo][2]"
+
+#. type: Plain text
+msgid ""
+"This addon is aimed to train NVDA commands in a game like way, for either "
+"keyboard layout modes desktop or laptop layout."
+msgstr ""
+"Este complemento está diseñado para practicar las órdenes de NVDA como si se "
+"tratara de un juego, tanto para la disposición de teclado de escritorio como "
+"la portátil."
+
+#. type: Plain text
+msgid ""
+"All commands data is scraped from keyCommands.html file in locale "
+"documentation folder in NVDA."
+msgstr ""
+"Todos los datos de las órdenes se extraen del archivo keyCommands.html de la "
+"carpeta de documentación de tu idioma en NVDA."
+
+#. type: Plain text
+msgid "This addon does not have any default gesture or shortcut."
+msgstr "Este complemento no tiene por defecto ningún gesto o atajo."
+
+#. type: Plain text
+#, no-wrap
+msgid "You have to assign a specific gesture to it via: NVDA menu>preferences>inputGestures>trainingKeyboardCommands.\n"
+msgstr "Tienes que asignar un gesto específico para él mediante: menú NVDA > Preferencias > Gestos de entrada > Práctica de órdenes de NVDA.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Modo de uso"
+
+#. type: Bullet: '* '
+msgid "You choose the keyboard layout mode you want to train, and begin play"
+msgstr ""
+"Eliges el modo de distribución de teclado con el que quieres practicar, y "
+"comienzas a jugar"
+
+#. type: Bullet: '* '
+msgid ""
+"A question or command and it's description will be displayed, and you have "
+"to pick the right related keys or answer"
+msgstr ""
+"Se mostrarán una orden o pregunta y su descripción. Debes pulsar las teclas "
+"adecuadas o responder"
+
+#. type: Bullet: '* '
+msgid "If you have chose the right answer, your score wi be added one point"
+msgstr "Si has elegido la respuesta correcta, ganarás un punto"
+
+#. type: Bullet: '* '
+msgid ""
+"If the answer was wrong, the score will not change, and go on with no loose"
+msgstr ""
+"Si la respuesta fue incorrecta, la puntuación no cambiará y continuarás sin "
+"perder nada"
+
+#. type: Bullet: '* '
+msgid ""
+"At any time, if you want to exit, you will be asked if you want to save the "
+"remaining questions for next round"
+msgstr ""
+"En cualquier momento, si quieres salir, se te preguntará si quieres guardar "
+"las preguntas restantes para la siguiente ronda"
+
+#. type: Bullet: '* '
+msgid ""
+"If in a later time you choose a layout wit saved questions, you will be "
+"asked if you want to resume the remaining questions from previous round"
+msgstr ""
+"Si más adelante eliges una distribución con preguntas guardadas, se te "
+"preguntará si quieres continuar con las preguntas restantes de la ronda "
+"anterior"
+
+#. type: Bullet: '* '
+msgid ""
+"Answering all questions, about 110 for each layout, you will be declared a "
+"winner deserving NVDA addon's cup."
+msgstr ""
+"Si respondes bien todas las preguntas, aproximadamente 110 en cada "
+"distribución, se te declarará ganador y merecedor de la copa de complementos "
+"de NVDA."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=trainingKeyboardCommands"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=trainingKeyboardCommands"
+
+#. type: Plain text
+msgid ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=trainingKeyboardCommands"
+msgstr ""
+"[2]: https://www.nvaccess.org/addonStore/legacy?file=trainingKeyboardCommands"

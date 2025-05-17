@@ -1,0 +1,413 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Console Toolkit\n"
+"POT-Creation-Date: 2024-05-31 18:22+0000\n"
+"PO-Revision-Date: 2024-06-08 15:13+0300\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: fi_FI <janikinnunen340@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Console Toolkit\"]]\n"
+msgstr "[[!meta title=\"Konsolin työkalupakki\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Console Toolkit is NVDA add-on, that provides accessibility improvements for "
+"Windows console, also known as Command prompt. It also works well in Windows "
+"PowerShell. Some of the features may work in alternative terminals, such as "
+"Cygwin, PuTTY and Windows Terminal, however, the add-on has only been "
+"carefully tested with the default Windows Console. SSH users might find this "
+"add-on especially handy."
+msgstr ""
+"Konsolin työkalupakki on NVDA-lisäosa, joka tarjoaa esteettömyysparannuksia "
+"Windows-konsolille, joka tunnetaan myös komentokehotteena. Se toimii myös "
+"hyvin PowerShellissä. Jotkut ominaisuudet saattavat toimia myös "
+"vaihtoehtoisissa pääteohjelmissa, kuten Cygwin, PuTTY ja Windows Terminal, "
+"mutta lisäosa on testattu vain oletusarvoisen Windows-konsolin kanssa. SSH-"
+"käyttäjille tämä lisäosa saattaa olla erityisen kätevä."
+
+#. type: Plain text
+msgid ""
+"Some of the features were previously part of [Tony's enhancements add-on]"
+"(https://github.com/mltony/nvda-tonys'enhancements/)."
+msgstr ""
+"Jotkut ominaisuuksista olivat aiemmin osa [Tonyn laajennukset -lisäosaa]"
+"(https://github.com/mltony/nvda-tonys'enhancements/)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Downloads"
+msgstr "Lataukset"
+
+#. type: Plain text
+msgid "Install from add-on store."
+msgstr "Asenna lisäosakaupasta."
+
+#. type: Title ##
+#, no-wrap
+msgid "Jump to the first visible line"
+msgstr "Siirry ensimmäiselle näkyvälle riville"
+
+#. type: Plain text
+msgid ""
+"Console toolkit overrides `shift+numpad7` command in UIA consoles: instead "
+"of reading the first line in the entire buffer it now reads the first "
+"visible line at the top of the window. Press `shift+numpad7` twice to revert "
+"to the old behavior and read the first line of the buffer."
+msgstr ""
+"Konsolin työkalupakki -lisäosa ohittaa `Vaihto+Laskinnäppäimistön 7` -"
+"komennon UIA-konsoleissa: sen sijaan, että luettaisiin koko puskuri "
+"ensimmäinen rivi, se lukee nyt ikkunan yläosassa näkyvän ensimmäisen rivin. "
+"Palaa vanhaan toiminnallisuuteen ja lue puskurin ensimmäinen rivi painamalla "
+"kahdesti `Vaihto+Laskinnäppäimistön 7`."
+
+#. type: Title ##
+#, no-wrap
+msgid "Real-time console speech"
+msgstr "Reaaliaikainen puhe konsolissa"
+
+#. type: Plain text
+msgid ""
+"This option makes NVDA to speak new lines immediately as they appear in "
+"console output, instead of queueing new speech utterances. For example, if "
+"NVDA is busy speaking a line that appeared on the screen 1 minute ago, and "
+"now a new line appears, this option will cancel speaking the old line and "
+"start speaking the new line right away, thus providing a more real-time "
+"feedback on what's happening in console window."
+msgstr ""
+"Tämä asetus saa NVDA:n puhumaan uudet rivit heti, kun ne näkyvät konsolin "
+"tulosteessa, sen sijaan, että se odottaisi uutta puhuttavaa. Jos esimerkiksi "
+"NVDA on varattu puhuessaan riviä, joka ilmestyi näytölle minuutti sitten ja "
+"nyt uusi rivi tulee näkyviin, tämä vaihtoehto peruuttaa vanhan rivin "
+"puhumisen ja alkaa puhua uutta riviä heti, mikä tarjoaa reaaliaikaisemman "
+"palautteen konsoli-ikkunan tapahtumista."
+
+#. type: Title ##
+#, no-wrap
+msgid "Beep on console updates"
+msgstr "Ilmaise konsolin päivitykset äänimerkillä"
+
+#. type: Plain text
+msgid "Beep a low pitch impulse every time console text is updated."
+msgstr "Antaa matalan äänimerkin aina, kun konsolin teksti päivittyy."
+
+#. type: Title ##
+#, no-wrap
+msgid "Enforce Control+V in consoles"
+msgstr "Pakota Ctrl+V konsoleissa"
+
+#. type: Plain text
+msgid "This option makes Control+V shortcut to work inside `ssh` sessions."
+msgstr "Tämä asetus saa Ctrl+V-pikanäppäimen toimimaan `SSH`-istunnoissa."
+
+#. type: Title ##
+#, no-wrap
+msgid "Experimental: command prompt editing"
+msgstr "Kokeellinen: komentokehotteen muokkaus"
+
+#. type: Plain text
+msgid ""
+"Note: this feature is experimental. Please read this section carefully and "
+"make sure you understand how it works before reporting issues."
+msgstr ""
+"Huom: Ominaisuus on kokeellinen. Lue tämä osio huolellisesti ja varmista, "
+"että ymmärrät sen toiminnan, ennen kuin ilmoitat ongelmista."
+
+#. type: Plain text
+msgid ""
+"Press `NVDA+E` to identify current prompt in console window and edit it in "
+"an accessible \"Edit prompt\" window. After editing you can either press "
+"`Escape` to update current command line, or `Enter` to update and "
+"immediately execute command. Alternatively you can press `Alt+F4` to close "
+"edit prompt window without updating command line."
+msgstr ""
+"Paina `NVDA+E` tunnistaaksesi nykyisen kehotteen konsoli-ikkunassa ja "
+"muokataksesi sitä esteettömässä \"Muokkaa kehotetta\" -ikkunassa. "
+"Muokkauksen jälkeen voit joko painaa \"Esc\" päivittääksesi nykyisen "
+"komentorivin tai \"Enter\" päivittääksesi ja suorittaaksesi komennon "
+"välittömästi. Vaihtoehtoisesti voit painaa `Alt+F4` sulkeaksesi "
+"kehotteenmuokkausikkunan päivittämättä komentoriviä."
+
+#. type: Plain text
+msgid ""
+"This feature has been tested in Windows command prompt `cmd.exe` as well as "
+"in bash shell over ssh connections, as well as in WSL and cygwin. It might "
+"also work in alternative Unix shells, however it hasn't been tested."
+msgstr ""
+"Tämä ominaisuus on testattu Windowsin `cmd.exe`-komentokehotteessa, Bash-"
+"komentokehotteessa SSH-yhteydellä  sekä WSL:ssä ja cygwinissä. Se saattaa "
+"toimia myös vaihtoehtoisissa Unix-komentokehotteissa, mutta tätä ei ole "
+"testattu."
+
+#. type: Plain text
+msgid "Here is how add-on extracts current command."
+msgstr "Näin lisäosa purkaa nykyisen komennon."
+
+#. type: Bullet: '1. '
+msgid ""
+"It presses `End` key and then sends a control character, that is a rare "
+"Unicodecharacter not likely to be used anywhere."
+msgstr ""
+"Se painaa End-näppäintä ja lähettää sitten ohjausmerkin, joka on harvinainen "
+"Unicode-merkki, jota ei todennäköisesti käytetä missään."
+
+#. type: Bullet: '2. '
+msgid "Then it presses `home` key and sends another control character."
+msgstr "Sitten se painaa `Home`-näppäintä ja lähettää toisen ohjausmerkin."
+
+#. type: Bullet: '3. '
+msgid ""
+"Then it waits for control characters to appear on the screen, which might "
+"take some time on slow SSH connections."
+msgstr ""
+"Tämän jälkeen se odottaa ohjausmerkkien ilmestymistä näytölle, mikä saattaa "
+"kestää jonkin aikaa hitailla SSH-yhteyksillä."
+
+#. type: Bullet: '4. '
+msgid "Command is what appears between two control characters."
+msgstr "Komento näkyy kahden ohjausmerkin välissä."
+
+#. type: Bullet: '5. '
+msgid ""
+"When \"Use UI Automation to access the Windows Console when available\" "
+"option is enabled in NVDA settings, it sends one more control character in "
+"the beginning of the string. This is needed to parse multiline commands "
+"correctly: UIA implementation trims whitespaces in the end of each line, so "
+"in order to deduce whether there is a space between two lines, we need to "
+"shift them by one character. Please note, however, that this way we don't "
+"preserve the number of spaces between words, we only guarantee to preserve "
+"the presence of spaces."
+msgstr ""
+"Kun NVDA:n asetuksista on valittu vaihtoehto \"Käytä UI Automation -"
+"rajapintaa Windows-konsolissa, kun käytettävissä\", se lähettää merkkijonon "
+"alkuun vielä yhden ohjausmerkin. Tämä on tarpeen monirivisten komentojen "
+"jäsentämiseksi oikein: UIA-toteutus poistaa välilyönnit jokaisen rivin "
+"lopusta, joten jotta voimme päätellä, onko kahden rivin välissä välilyönti, "
+"meidän on siirrettävä niitä yhdellä merkillä. Huomaa kuitenkin, että tällä "
+"tavalla sanojen välissä säilyy vain yksi välilyönti, koska niiden tarkkaa "
+"määrää ei voi selvittää."
+
+#. type: Bullet: '6. '
+msgid ""
+"Before editing add-on makes sure to remove control characters by placing "
+"cursor in the beginning and end and simulating `Delete` and `Backspace` key "
+"presses."
+msgstr ""
+"Ennen muokkausta lisäosa varmistaa, että ohjausmerkit poistetaan siirtämällä "
+"kohdistimen alkuun ja loppuun ja simuloimalla `Del`- ja `Askelpalautin`-"
+"näppäinpainalluksia."
+
+#. type: Bullet: '7. '
+msgid "It presents command in \"Edit prompt\" window for user to view or edit."
+msgstr ""
+"Se näyttää komennon \"Muokkaa kehotetta\" -ikkunassa, jossa käyttäjä voi "
+"tarkastella tai muokata sitä."
+
+#. type: Bullet: '8. '
+msgid ""
+"After user presses `Enter` or `Escape`,it first erases current line in the "
+"console.  This is achieved via one of four methods, the choice of the method "
+"is configurable. Currently four methods are supported:"
+msgstr ""
+"Kun käyttäjä painaa `Enter` tai `Esc`, lisäosa pyyhkii ensin nykyisen rivin "
+"konsolista. Tämä saavutetaan yhdellä neljästä menetelmästä, joka on "
+"valittavissa. Tällä hetkellä tuetaan neljää menetelmää:"
+
+#. type: Bullet: '    * '
+msgid ""
+"`Control+C`: works in both `cmd.exe` and `bash`, but leaves previous prompt "
+"visible on the screen; doesn't work in emacs; sometimes unreliable on slow "
+"SSH connections"
+msgstr ""
+"`Ctrl+C`: toimii sekä `cmd.exe`- että `Bash`-konsoleissa, mutta jättää "
+"edellisen kehotteen näkyviin näytölle; ei toimi Emacsissa; toisinaan "
+"epäluotettava hitailla SSH-yhteyksillä"
+
+#. type: Bullet: '    * '
+msgid "`Escape`: works only in `cmd.exe`\"),"
+msgstr "`Esc`: toimii vain `cmd.exessä`\"),"
+
+#. type: Bullet: '    * '
+msgid ""
+"`Control+A Control+K`: works in `bash` and `emacs`; doesn't work in `cmd.exe`"
+msgstr ""
+"`Ctrl+A Ctrl+K`: toimii `Bashissa` ja `Emacsissa`; ei toimi `cmd.exessä`"
+
+#. type: Bullet: '    * '
+msgid ""
+"`Backspace` (recommended): works in all environments; however slower and may "
+"cause corruption if the length of the line has changed"
+msgstr ""
+"`Askelpalautin` (suositus): toimii kaikissa ympäristöissä; on kuitenkin "
+"hitaampi ja voi aiheuttaa rivin rikkoutumista, mikäli sen pituus on muuttunut"
+
+#. type: Bullet: '9. '
+msgid ""
+"Then add-on simulates keystrokes to type the updated command and optionally "
+"simulates `Enter` key press."
+msgstr ""
+"Tämän jälkeen lisäosa simuloi näppäinpainalluksia päivitetyn komennon "
+"kirjoittamiseksi sekä vaihtoehtoisesti `Enter`-näppäimen painallusta."
+
+#. type: Plain text
+msgid "Troubleshooting:"
+msgstr "Vianmääritys:"
+
+#. type: Bullet: '* '
+msgid ""
+"Verify that 'Home', 'End', 'Delete' and 'Backspace' keys work as expected in "
+"your console."
+msgstr ""
+"Varmista, että Home-, End-, Del- ja Askelpalautin-näppäimet toimivat "
+"odotetulla tavalla konsolissasi."
+
+#. type: Bullet: '* '
+msgid ""
+"Verify that your console supports Unicode characters. Some ssh connections "
+"don't support Unicode."
+msgstr ""
+"Varmista, että konsolisi tukee Unicode-merkkejä. Jotkut SSH-yhteydet eivät "
+"tue Unicodea."
+
+#. type: Bullet: '* '
+msgid "Verify that selected deleting method works in your console."
+msgstr "Varmista, että valittu poistomenetelmä toimii konsolissasi."
+
+#. type: Title ##
+#, no-wrap
+msgid "Experimental: capturing command output"
+msgstr "Kokeellinen: kaappaa komentotuloste"
+
+#. type: Plain text
+msgid ""
+"While in command line or in \"Edit prompt\" window, press `Control+Enter` to "
+"capture command output. This add-on is capable of capturing large output "
+"that spans multiple screens, although when output is larger than 10 screens "
+"capturing process takes significant time to complete. Add-on will play a "
+"long chime sound, and it will last as long as the add-on is capturing the "
+"output of currently running command, or until timeout has been reached. "
+"Alternatively, press `NVDA+E` to interrupt capturing."
+msgstr ""
+"Kun olet komentorivillä tai \"Muokkaa kehotetta\" -ikkunassa, paina "
+"`Ctrl+Enter` kaapataksesi komennon tulosteen. Tämä lisäosa pystyy "
+"kaappaamaan suuria tulosteita, jotka kattavat useita näyttöjä, vaikka 10 "
+"näytöllistä suurempien tulosteiden kaappausprosessi viekin huomattavasti "
+"aikaa. Lisäosa toistaa pitkän äänimerkin, ja se kestää niin kauan kuin "
+"komennon tulostetta kaapataan tai kunnes aikakatkaisu on saavutettu. "
+"Vaihtoehtoisesti paina `NVDA+E` keskeyttääksesi kaappauksen."
+
+#. type: Plain text
+msgid ""
+"When \"Use UI Automation to access the Windows Console when available\" "
+"feature is enabled in NVDA settings, you can switch to other windows while "
+"capturing is going on. However, if this option is disabled, then NVDA is "
+"using a legacy console code, that only works when consoel is focused, and "
+"therefore switching to any other window will pause capturing."
+msgstr ""
+"Kun \"Käytä UI Automation -rajapintaa Windows-konsolissa, kun "
+"käytettävissä\" -asetus on otettu käyttöön NVDA:n asetuksissa, voit vaihtaa "
+"muihin ikkunoihin kaappauksen aikana. Jos tämä asetus on kuitenkin poistettu "
+"käytöstä, NVDA käyttää vanhaa konsolikoodia, joka toimii vain, kun konsoli "
+"on aktiivisena, ja siksi siirtyminen johonkin toiseen ikkunaan keskeyttää "
+"kaappauksen."
+
+#. type: Plain text
+msgid ""
+"Command capturing works by redirecting command output to `less` command. "
+"Default suffix that is appended to commands is:"
+msgstr ""
+"Komennon kaappaus toimii ohjaamalla tulosteen `less`-komennolle. Komentoihin "
+"liitettävä oletusarvoinen jälkiliite on:"
+
+#. type: Plain text
+#, no-wrap
+msgid "|less -c 2>&1\n"
+msgstr "|less -c 2>&1\n"
+
+#. type: Plain text
+msgid ""
+"Please only change it if you know what you're doing. This add-on knows how "
+"to interact with the output of `less` command to retrieve output page by "
+"page."
+msgstr ""
+"Muuta sitä vain, mikäli tiedät, mitä olet tekemässä. Tämä lisäosa osaa "
+"toimia vuorovaikutuksessa `less`-komennon kanssa hakeakseen sen tulosteen "
+"sivu kerrallaan."
+
+#. type: Plain text
+msgid ""
+"On Windows `less.exe` tool needs to be installed separately. You can install "
+"it via cygwin, or download a windows binary elsewhere."
+msgstr ""
+"Windowsissa `less.exe`-työkalu on asennettava erikseen. Voit asentaa sen "
+"Cygwinin kautta tai ladata Windows-binäärin muualta."
+
+#. type: Plain text
+msgid ""
+"If you are using `tmux` or `screen` in Linux, please make sure that no "
+"status line is displayed in the bottom. In `tmux` run"
+msgstr ""
+"Jos käytät `tmuxia` tai `screeniä` Linuxissa, varmista, ettei tilariviä "
+"näytetä ruudun alareunassa. Suorita `tmuxissa`"
+
+#. type: Plain text
+#, no-wrap
+msgid "tmux set status off\n"
+msgstr "tmux set status off\n"
+
+#. type: Plain text
+msgid "to get rid of status line, or modify your `tmux.conf` file."
+msgstr "päästäksesi eroon tilarivistä tai muokkaamalla tmux.conf-tiedostoa."
+
+#. type: Bullet: '* '
+msgid ""
+"After a failed output capturing attempt, press `UpArrow` in the console to "
+"check what command has actually been executed."
+msgstr ""
+"Paina epäonnistuneen tulosteen kaappausyrityksen jälkeen konsolissa `Nuoli "
+"ylös` tarkistaaksesi, mikä komento on suoritettu."
+
+#. type: Bullet: '* '
+msgid "Revert back to default capturing suffix, mentioned above."
+msgstr "Palauta yllä mainittu kaappauksen oletusarvoinen jälkiliite."
+
+#. type: Bullet: '* '
+msgid "Try troubleshooting steps from \"command prompt editing\" section."
+msgstr "Kokeile vianetsintävaiheita \"Komentokehotteen muokkaus\" -osiosta."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=consoletoolkit"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=consoletoolkit"
+
+#~ msgid "Author: Tony Malykh"
+#~ msgstr "Tekijä: Tony Malykh"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Lataa [vakaa versio][1]"
+
+#~ msgid "NVDA compatibility: 2019.3 and later"
+#~ msgstr "Yhteensopivuus: NVDA 2019.3 ja uudemmat"
+
+#~ msgid ""
+#~ "[Console toolkit](https://github.com/mltony/nvda-console-toolkit/releases/"
+#~ "latest/download/consoleToolkit.nvda-addon)"
+#~ msgstr ""
+#~ "[Konsolin työkalupakki](https://github.com/mltony/nvda-console-toolkit/"
+#~ "releases/latest/download/consoleToolkit.nvda-addon)"

@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-04-15 18:15+0000\n"
+"PO-Revision-Date: 2019-12-01 12:24+0800\n"
+"Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Enhanced Aria\"]]\n"
+msgstr "[[!meta title=\"增强aria“\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Author: Jose Manuel Delicado"
+msgstr "作者: Jose Manuel Delicado"
+
+#. type: Bullet: '* '
+msgid "Legacy add-on: NVDA 2019.3 and later can read articles on the web"
+msgstr "旧版插件：NVDA 2019.3和更高版本现在可以在网上阅读文章"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.4 to 2019.2"
+msgstr "NVDA兼容版本: 2017.4至2019.2"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "下载 [稳定版][1]"
+
+#. type: Plain text
+msgid ""
+"This addon allows you to customize which aria landmarks are reported by NVDA "
+"when you browse the Internet."
+msgstr "此插件允许您在浏览Internet时自定义NVDA报告哪些Aria地标。"
+
+#. type: Plain text
+msgid ""
+"Its functionality is very simple. Once installed, open your webbrowser and "
+"visit the web as usual. The default aria landmarks reported by Firefox and "
+"Chrome will also be visible in Internet Explorer, so you will be able to "
+"press quick navigation keys to jump between them, and list them by pressing "
+"NVDA+f7 in all browsers. Read the NVDA User Guide for more information."
+msgstr ""
+"它的功能非常简单。安装后，打开浏览器并照常浏览网页。 Firefox和Chrome报告的默"
+"认aria地标也会在Internet Explorer中显示，因此您可以按快速导航键在它们之间跳"
+"转，并在所有浏览器中按NVDA + f7列出它们。请阅读NVDA用户指南了解更多信息。"
+
+#. type: Plain text
+msgid ""
+"The addon adds an extra landmark not included by default in NVDA, the "
+"article (abbreviated in Braille as art)."
+msgstr "插件增加了NVDA中默认不包含的额外路标，文章（缩写为盲文作为艺术）。"
+
+#. type: Title ##
+#, no-wrap
+msgid "The configuration dialog"
+msgstr "配置"
+
+#. type: Plain text
+msgid ""
+"You can enable or disable landmarks by going to NVDA, preferences, Enhanced "
+"Aria Settings or from the appropriate category in the NVDA options dialog. "
+"The dialog has a checkbox for each landmark. If you disable a landmark, you "
+"won't be able to jump to it pressing the d key when browsing a webpage, and "
+"NVDA won't report it."
+msgstr ""
+"您可以通过转到NVDA，首选项，增强型Aria设置或NVDA选项对话框中的相应类别来启用"
+"或禁用地标。该对话框有一个每个地标的复选框。如果禁用地标，则在浏览网页时无法"
+"按d键跳转到该地标，NVDA将不会朗读。"
+
+#. type: Title ##
+#, no-wrap
+msgid "Contact info"
+msgstr "联系信息"
+
+#. type: Plain text
+msgid ""
+"This addon has been developed by Jose Manuel Delicado. If you want to "
+"contact me, send an e-mail to jm.delicado@nvda.es, or open an issue on "
+"GitHub at https://github.com/jmdaweb/enhancedAria"
+msgstr ""
+"这个插件由Jose Manuel Delicado开发。如果您想与我联系，请发送电子邮件至jm."
+"delicado@nvda.es，或通过https://github.com/jmdaweb/enhancedAria在GitHub上提交"
+"问题"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changelog"
+msgstr "更新日志"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.8"
+msgstr "版本2.8"
+
+#. type: Bullet: '* '
+msgid "New and updated translations."
+msgstr "新的更新和翻译。"
+
+#. type: Bullet: '* '
+msgid "Updated NVDA compatibility flags."
+msgstr "更新NVDA兼容性标志。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.7"
+msgstr "版本2.7"
+
+#. type: Bullet: '* '
+msgid "Updated compatibility flags for recent NVDA versions."
+msgstr "更新了最新NVDA版本的兼容性标志。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.6"
+msgstr "版本2.6"
+
+#. type: Bullet: '* '
+msgid ""
+"Updated compatibility flags for recent NVDA versions. This version is only "
+"compatible with NVDA 2017.4 and above."
+msgstr "更新了最新NVDA版本的兼容性标志。此版本仅与NVDA 2017.4及更高版本兼容。"
+
+#. type: Bullet: '* '
+msgid ""
+"Now, the configuration is automatically applied after switching NVDA "
+"profiles and restoring settings to factory defaults."
+msgstr "现在，在切换NVDA配置文件并将设置恢复为默认设置后，将自动应用配置。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.5"
+msgstr "版本2.5"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.4"
+msgstr "版本2.4"
+
+#. type: Bullet: '* '
+msgid ""
+"Now, settings are removed only when the add-on is uninstalled. Configuration "
+"is nolonger reset when upgrading."
+msgstr "现在，仅在卸载插件时才会删除设置。升级时，配置不再重置。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.3"
+msgstr "版本2.3"
+
+#. type: Bullet: '* '
+msgid "Added compatibility with recent NVDA releases."
+msgstr "新增与最近NVDA版本的兼容性。"
+
+#. type: Bullet: '* '
+msgid "New translations."
+msgstr "新的翻译。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.2"
+msgstr "版本2.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a fatal error when a Braille display was used and the article role was "
+"configured to be reported."
+msgstr "修复了使用盲文显示器并将文章角色配置为报告时的致命错误。"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.1"
+msgstr "版本2.1"
+
+#. type: Bullet: '* '
+msgid "Stability improvements"
+msgstr "稳定性改进"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 2.0"
+msgstr "版本2.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added support for multi-category settings dialog available on NVDA 2018.2 "
+"and later"
+msgstr "增加了对NVDA 2018.2及更高版本上可用的多分类设置对话框的支持"
+
+#. type: Bullet: '* '
+msgid "Added Python 3 compatibility"
+msgstr "增加了Python 3的兼容性"
+
+#. type: Bullet: '* '
+msgid "Now guiHelper module is used to create the addon interface"
+msgstr "现在，guiHelper模块用于创建插件界面"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.3"
+msgstr "版本1.3"
+
+#. type: Bullet: '* '
+msgid "Added configobj specification for addon settings"
+msgstr "增加了用于插件设置的configobj规范"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.2"
+msgstr "版本1.2"
+
+#. type: Bullet: '* '
+msgid "Bugs fixed"
+msgstr "错误修复"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 1.1"
+msgstr "版本1.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed issues which prevented opening the addon settings dialog when "
+"reverting to NVDA saved configuration"
+msgstr "修复了在恢复到NVDA保存配置时阻止打开插件设置对话框的问题"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable legacy]]\n"
+msgstr "[[!tag dev stable legacy]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=earia"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=earia"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=earia"

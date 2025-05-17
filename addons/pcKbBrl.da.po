@@ -1,0 +1,444 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-12-01 07:34+0000\n"
+"PO-Revision-Date: 2022-11-06 10:22+0100\n"
+"Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"PC Keyboard Braille Input for NVDA\"]]\n"
+msgstr "[[!meta title=\"Indtast punkt med PC-tastatur og NVDA\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Author: NV Access Limited, Noelia Ruiz Martínez"
+msgid "Author: NV Access Limited, Noelia Ruiz Martínez"
+msgstr "Forfatter: NV Access Limited, Noelia Ruiz Martínez"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Copyright: 2012-2022 NV Access Limited, Noelia Ruiz Martínez"
+msgid "Copyright: 2012-2023 NV Access Limited, Noelia Ruiz Martínez"
+msgstr "Copyright: 2012-2022 NV Access Limited, Noelia Ruiz Martínez"
+
+#. type: Bullet: '* '
+msgid "License: GNU General Public License version 2.0"
+msgstr "Licens: GNU General Public License version 2.0"
+
+#. type: Plain text
+msgid ""
+"This NVDA add-on allows braille to be entered via the PC keyboard.  "
+"Currently, the following keyboard layouts are supported:"
+msgstr ""
+"Denne NVDA-tilføjelse gør det muligt at indtaste punktskrift via pc-"
+"tastaturet. I øjeblikket understøttes følgende tastaturlayouter:"
+
+#. type: Bullet: '* '
+msgid "English QWERTY keyboard."
+msgstr "Engelsk QWERTY -tastatur."
+
+#. type: Bullet: '* '
+msgid "French (France)."
+msgstr "Fransk (Frankrig)."
+
+#. type: Bullet: '* '
+msgid "German (Germany)."
+msgstr "Tysk (Tyskland)."
+
+#. type: Bullet: '* '
+msgid "Italian (Italy)."
+msgstr "Italiensk (Italien)."
+
+#. type: Bullet: '* '
+msgid "Persian."
+msgstr "Persisk."
+
+#. type: Bullet: '* '
+msgid "Portuguese (Portugal)."
+msgstr "Portugisisk (Portugal)."
+
+#. type: Bullet: '* '
+msgid "Spanish (Spain and Mexico)."
+msgstr "Spansk (Spanien og Mexico)."
+
+#. type: Bullet: '* '
+msgid "Turkish."
+msgstr "Tyrkisk."
+
+#. type: Title ##
+#, no-wrap
+msgid "How to configure"
+msgstr "Sådan konfigureres tilføjelsen"
+
+#. type: Plain text
+msgid ""
+"The add-on can be configured from its category in the NVDA's settings "
+"dialog, under NVDA's menu, Preferences submenu. A gesture for opening the "
+"add-on settings panel can be assigned from Input gestures dialog, "
+"configuration category."
+msgstr ""
+"Tilføjelsen kan konfigureres fra den tilsvarende kategori i NVDAs "
+"indstillinger. En tastaturkommando kan ligeledes tildeles denne tilføjelse "
+"under \"Håndter kommandoer\" i NVDA-menuen ved at vælge punktet "
+"\"Opsætning\"."
+
+#. type: Plain text
+msgid ""
+"Check the corresponding checkbox if you want to type using only one hand, or "
+"ensure it's not checked if you prefer to type using the standard mode (two "
+"hands)."
+msgstr ""
+"Marker det tilsvarende afkrydsningsfelt, hvis du kun vil skrive med én hånd, "
+"eller sørg for, at det ikke er markeret, hvis du foretrækker at skrive med "
+"standardtilstand (to hænder)."
+
+#. type: Plain text
+msgid ""
+"You can also select if NVDA should speak a single typed dot (using )the "
+"feature of \"one hand mode\")."
+msgstr ""
+"Du kan også vælge, om NVDA skal oplæse hvert enkelt indtastede punkt (ved "
+"hjælp af funktionen \"enhåndstilstand\")."
+
+#. type: Plain text
+msgid ""
+"If you want dots to be sent automatically when typing with one hand, use the "
+"spin control to set a timeout greater than 0."
+msgstr ""
+"Hvis du ønsker, at punkttegn skal sendes automatisk, når du skriver med én "
+"hånd, skal du bruge drejeknappen til at indstille en timeout på mere end 0."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "In addition, you can set the characters to send and clear dots when "
+#| "typing with one hand."
+msgid ""
+"In addition, you can set the characters to send, clear and compose dots when "
+"typing with one hand, as well as characters to be ignored in one hand or "
+"standard mode."
+msgstr ""
+"Derudover kan du indstille tegnene til at sende og slette punkttegn, når du "
+"skriver med én hånd."
+
+#. type: Plain text
+msgid "It's also possible to restore defaults in the add-on settings panel."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "How to Use"
+msgstr "Sådan bruges tilføjelsen"
+
+#. type: Bullet: '1. '
+msgid ""
+"Press NVDA+0 to enable braille input. This gesture can be changed from Input "
+"gestures dialog, Braille category."
+msgstr ""
+"Tryk på NVDA+0 for at aktivere punktskrift. Denne kommando kan ændres fra "
+"dialogboksen Håndter kommandoer, punktskriftskategori."
+
+#. type: Bullet: '2. '
+msgid ""
+"Type braille by pressing keys together on the PC keyboard as if it were a "
+"braille keyboard."
+msgstr ""
+"Skriv punktskrift ved at trykke tasterne på pc -tastaturet, som var det et "
+"punktskriftstastatur."
+
+#. type: Bullet: '	* '
+msgid ""
+"If you want to enter text using two hands, use the following keys if you "
+"work with a QWERTY English keyboard, or the keys located at the "
+"corresponding positions in other layouts:"
+msgstr ""
+"Hvis du vil indtaste tekst med to hænder, skal du bruge følgende taster, "
+"hvis du arbejder med et QWERTY engelsk tastatur eller tasterne placeret på "
+"de tilsvarende positioner i andre layout:"
+
+#. type: Bullet: '		* '
+msgid "f, d and s for dots 1, 2 and 3 respectively."
+msgstr "f, d og s for henholdsvis punkt 1, 2 og 3."
+
+#. type: Bullet: '		* '
+msgid "j, k and l for dots 4, 5 and 6 respectively."
+msgstr "j, k og l for henholdsvis punkterne 4, 5 og 6."
+
+#. type: Bullet: '		* '
+msgid "Use the keys a and ; (semi-colon) for dots 7 and 8, respectively."
+msgstr "Brug tasterne a og æ for henholdsvis punkterne 7 og 8."
+
+#. type: Bullet: '		* '
+msgid ""
+"You can also use the keys on the row above; i.e. q, w, e, r, u, i, o and p."
+msgstr ""
+"Du kan også bruge tasterne på rækken ovenfor,  dvs. q, w, e, r, u, i, o og p."
+
+#. type: Bullet: '	* '
+msgid ""
+"If you want to type text using one hand, you can compose characters pressing "
+"keys simultaneously or in several keystrokes, adding the dots corresponding "
+"to the desired character. Press g or h to type the character when you have "
+"added all its dots. If you make a mistake building a character, you can "
+"clear the dots before typing it by pressing t or y. The keys used in QWERTY "
+"English keyboard are the following:"
+msgstr ""
+"Hvis du vil skrive tekst med én hånd, kan du komponere tegn ved at trykke på "
+"tasterne samtidigt eller i flere tastetryk og tilføje de punkter, der svarer "
+"til det ønskede tegn. Tryk på g eller h for at skrive tegnet, når du har "
+"skrevet alle dets punkter. Hvis du laver en fejl under indtastningen af "
+"punkterne for det ønskede tegn, kan du slette punkterne, før du skriver det "
+"ved at trykke på t eller y. De taster, der bruges på QWERTY engelsk "
+"tastatur, er følgende:"
+
+#. type: Bullet: '		* '
+msgid "Left hand: f, d, s, r, e, w, a, q for dots 1, 2, 3, 4, 5, 6, 7 and 8."
+msgstr ""
+"Venstre hånd: f, d, s, r, e, w, a, q for punkterne 1, 2, 3, 4, 5, 6, 7 og 8."
+
+#. type: Bullet: '		* '
+msgid ""
+"Right hand: j, k, l, u, i, o, ; (semicolon), p for dots 1, 2, 3, 4, 5, 6, 7 "
+"and 8."
+msgstr ""
+"Højre hånd: j, k, l, u, i, o,æ, p for punkterne 1, 2, 3, 4, 5, 6, 7 og 8."
+
+#. type: Bullet: '3. '
+msgid ""
+"You can press most other keys as normal, including space, backspace, enter "
+"and function keys. Take care about not pressing alt+shift, since changing "
+"the keyboard layout may affect the entered dots."
+msgstr ""
+"Du kan trykke på de fleste andre taster som normalt, herunder mellemrum, "
+"backspace, enter og funktionstaster. Pas på ikke at trykke på alt+shift, da "
+"ændring af tastaturlayoutet kan påvirke de indtastningen af punktskrift."
+
+#. type: Bullet: '4. '
+msgid ""
+"Press space bar in combination with braille dots to move the system cursor "
+"(or report the current line), just if you were using a braille display. For "
+"example, space+dot1 to emulate upArrow, space+dot4+dot5+dot6 to emulate "
+"control+end, space+dot1+dot4 to report the current line, etc."
+msgstr ""
+"Tryk på mellemrumstasten i kombination med punkter for at flytte "
+"systemmarkøren (eller rapportere den aktuelle linje), som hvis du brugte et "
+"punktdisplay. For eksempel mellemrum+punkt1 for at emulere pil op, "
+"mellemrum+punkt4+punkt5+punkt6 for at emulere Ctrl+end, "
+"mellemrum+punkt1+punkt4 for at rapportere den aktuelle linje osv."
+
+#. type: Bullet: '5. '
+msgid "Press NVDA+0 to disable braille input."
+msgstr "Tryk på NVDA+0 for at deaktivere punktindtastning."
+
+#. type: Title ##
+#, no-wrap
+msgid "Important Notes"
+msgstr "Vigtige bemærkninger:"
+
+#. type: Plain text
+msgid ""
+"This add-on uses NVDA's in-built braille input support.  Therefore, the "
+"input table used is that specified in NVDA's Braille Settings dialog."
+msgstr ""
+"Denne tilføjelse bruger NVDAs indbyggede punktskrift. Derfor er den anvendte "
+"indtastningstabel den, der er angivet i NVDAs punktindstillinger."
+
+#. type: Plain text
+msgid ""
+"Some keyboards, particularly laptop keyboards, cannot handle certain "
+"combinations of keys being pressed.  When this happens, certain keys are "
+"simply ignored.  Unfortunately, there is nothing that can be done to fix "
+"this, as the keys are simply never received by Windows or NVDA.  In some "
+"cases, using the upper row of keys with either or both hands might help, as "
+"your keyboard may allow these keys."
+msgstr ""
+"Nogle tastaturer, især bærbare tastaturer, kan ikke håndtere bestemte "
+"kombinationer af taster, der trykkes ned. Når dette sker, ignoreres visse "
+"nøgler simpelthen. Desværre er der ikke noget, der kan gøres for at løse "
+"dette, da tasterne simpelthen aldrig modtages af Windows eller NVDA. I nogle "
+"tilfælde kan det være en hjælp at bruge den øverste række af taster med én "
+"eller begge hænder, da dit tastatur muligvis tillader disse taster."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2022.1"
+msgid "Changes for 28.0.0"
+msgstr "Ændringer for 2022.1"
+
+#. type: Bullet: '* '
+msgid "Changed default values for One hand mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2022.1"
+msgid "Changes for 2023.02.23"
+msgstr "Ændringer for 2022.1"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Added an option to speak single dots typed in one hand mode."
+msgid "Added ability to configure keys used to type dots in one hand mode."
+msgstr ""
+"Tilføjet en mulighed for at tale enkelte punkter skrevet i enhåndstilstand."
+
+#. type: Bullet: '* '
+msgid ""
+"Now you can configure keys that should be ignored when typing in braille."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"A restore to defaults button has been added to the add-on settings panel."
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatible with NVDA 2021.1."
+msgid "Compatible with NVDA 2023.1."
+msgstr "Kompatibel med NVDA 2021.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2022.1"
+msgstr "Ændringer for 2022.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to configure keys to send and clear dots when writing with one "
+"hand. Also, it's possible to set a timeout to send dots automatically, "
+"without pressing confirmation keys."
+msgstr ""
+"Tilføjet mulighed for at konfigurere taster til at sende og rydde punkttegn, "
+"når du skriver med én hånd. Det er også muligt at indstille en timeout, der "
+"automatisk sender de indtastede punkttegn uden at trykke på "
+"bekræftelsestaster."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2021.1"
+msgstr "Ændringer for 2021.1"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA won't try to speak dots when One hand mode is not active or if space "
+"has been pressed."
+msgstr ""
+"NVDA vil ikke forsøge at sige de indtastede punkttegn, når enhåndstilstand "
+"ikke er aktiv, eller hvis der er blevet trykket på mellemrumstasten."
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2021.1."
+msgstr "Kompatibel med NVDA 2021.1."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2020.1"
+msgstr "Ændringer for 2020.1"
+
+#. type: Bullet: '* '
+msgid ""
+"You can press space bar in combination with braille dots to emulate "
+"gestures, similar to commands available in braille displays."
+msgstr ""
+"Du kan trykke på mellemrumstasten i kombination med punktskriftspunkter for "
+"at efterligne bevægelser, der ligner kommandoer, der er tilgængelige på "
+"punktdisplays."
+
+#. type: Bullet: '* '
+msgid "Added an option to speak single dots typed in one hand mode."
+msgstr ""
+"Tilføjet en mulighed for at tale enkelte punkter skrevet i enhåndstilstand."
+
+#. type: Title ##
+#, no-wrap
+msgid "Contributors"
+msgstr "Bidragsydere"
+
+#. type: Bullet: '* '
+msgid "James Teh"
+msgstr "James Teh"
+
+#. type: Bullet: '* '
+msgid "Noelia."
+msgstr "Noelia."
+
+#. type: Bullet: '* '
+msgid "Mohammadreza Rashad"
+msgstr "Mohammadreza Rashad"
+
+#. type: Bullet: '* '
+msgid "Cagri Dogan"
+msgstr "Cagri Dogan"
+
+#. type: Bullet: '* '
+msgid "Bernd Dorer"
+msgstr "Bernd Dorer"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Ângelo Abrantes"
+msgid "Ângelo Abrantes"
+msgstr "Ângelo Abrantes"
+
+#. type: Bullet: '* '
+msgid "Cyrille Bougot"
+msgstr "Cyrille Bougot"
+
+#. type: Bullet: '* '
+msgid "Abdel."
+msgstr "Abdel."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#~ msgid "[version 2014.1][3] (compatible with NVDA 2017.3 to 2019.2)"
+#~ msgstr "[version 2014.1] [3] (kompatibel med NVDA 2017.3 til 2019.2)"
+
+#, fuzzy
+#~| msgid "[3]: https://addons.nvda-project.org/files/get.php?file=pckbbrl-o"
+#~ msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=pckbbrl-o"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=pckbbrl-o"
+
+#~ msgid "Download: [stable version][1] (compatible with NVDA 2019.3 or later)"
+#~ msgstr ""
+#~ "Download: [stabil version][1] (kompatibel med NVDA 2019.3 eller nyere)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Download: [stable version][1] (compatible with NVDA 2019.3 or later)"
+#~ msgid "Download: [beta version][2] (compatible with NVDA 2019.3 or later)"
+#~ msgstr ""
+#~ "Download: [stabil version][1] (kompatibel med NVDA 2019.3 eller nyere)"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=pcKbBrl"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
+#~ msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=pcKbBrl-beta"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=pckbbrl"
+
+#~ msgid ""
+#~ "Download: [development version][2] (compatible with NVDA 2019.3 or later)"
+#~ msgstr ""
+#~ "Download: [udviklingsversion][2] (kompatibel med NVDA 2019.3 eller nyere)"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=pckbbrl-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=pckbbrl-dev"

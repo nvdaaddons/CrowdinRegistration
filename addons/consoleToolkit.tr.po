@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Konsol Araç Seti\n"
+"POT-Creation-Date: 2025-04-30 11:45+0000\n"
+"PO-Revision-Date: 2025-04-30 17:37+0300\n"
+"Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Console Toolkit\"]]\n"
+msgstr "[[!meta title=\"Konsol Araç Seti\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Console Toolkit is NVDA add-on, that provides accessibility improvements for "
+"Windows console, also known as Command prompt. It also works well in Windows "
+"PowerShell. Some of the features may work in alternative terminals, such as "
+"Cygwin, PuTTY and Windows Terminal, however, the add-on has only been "
+"carefully tested with the default Windows Console. SSH users might find this "
+"add-on especially handy."
+msgstr ""
+"Konsol Araç Seti, Komut istemi olarak da bilinen Windows konsolu için "
+"erişilebilirlik geliştirmeleri sağlayan NVDA eklentisidir. Windows "
+"PowerShell'de de iyi çalışır. Bazı özellikler Cygwin, PuTTY ve Windows "
+"Terminal gibi alternatif terminallerde çalışabilir, ancak eklenti yalnızca "
+"varsayılan Windows Konsolu ile dikkatli bir şekilde test edilmiştir. SSH "
+"kullanıcıları bu eklentiyi özellikle kullanışlı bulabilir."
+
+#. type: Plain text
+msgid ""
+"Some of the features were previously part of [Tony's enhancements add-on]"
+"(https://github.com/mltony/nvda-tonys'enhancements/)."
+msgstr ""
+"Bazı özellikler daha önce [Tony'nin geliştirme eklentisinin](https://"
+"github.com/mltony/nvda-tonys'enhancements/) parçasıydı."
+
+#. type: Title ##
+#, no-wrap
+msgid "Downloads"
+msgstr "İndirmeler"
+
+#. type: Plain text
+msgid "Install from add-on store."
+msgstr "Eklenti mağazasından yükleyin."
+
+#. type: Title ##
+#, no-wrap
+msgid "Jump to the first visible line"
+msgstr "İlk görünen satıra atla"
+
+#. type: Plain text
+msgid ""
+"Console toolkit overrides `shift+numpad7` command in UIA consoles: instead "
+"of reading the first line in the entire buffer it now reads the first "
+"visible line at the top of the window. Press `shift+numpad7` twice to revert "
+"to the old behavior and read the first line of the buffer."
+msgstr ""
+"Konsol araç seti, UIA konsollarındaki \"shift+numpad7\" komutunu geçersiz "
+"kılar: arabelleğin tamamındaki ilk satırı okumak yerine artık pencerenin üst "
+"kısmında görünen ilk satırı okur. Eski davranışa dönmek ve ara belleğin ilk "
+"satırını okumak için \"shift+numpad7\" tuşlarına iki kez basın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Real-time console speech"
+msgstr "Gerçek zamanlı konsol konuşması"
+
+#. type: Plain text
+msgid ""
+"This option makes NVDA to speak new lines immediately as they appear in "
+"console output, instead of queueing new speech utterances. For example, if "
+"NVDA is busy speaking a line that appeared on the screen 1 minute ago, and "
+"now a new line appears, this option will cancel speaking the old line and "
+"start speaking the new line right away, thus providing a more real-time "
+"feedback on what's happening in console window."
+msgstr ""
+"Bu seçenek, NVDA'nın yeni konuşma ifadelerini sıraya koymak yerine, konsol "
+"çıktısında göründükleri anda yeni satırları konuşmasını sağlar. Örneğin, "
+"NVDA 1 dakika önce ekranda beliren bir satırı konuşmakla meşgulse ve şimdi "
+"yeni bir satır belirirse, bu seçenek eski satırı konuşmayı iptal eder ve "
+"hemen yeni satırı konuşmaya başlar, böylece konsol penceresinde neler olup "
+"bittiğine dair daha gerçek zamanlı bir geri bildirim sağlar."
+
+#. type: Title ##
+#, no-wrap
+msgid "Beep on console updates"
+msgstr "Konsol güncellemelerinde bip sesi"
+
+#. type: Plain text
+msgid "Beep a low pitch impulse every time console text is updated."
+msgstr "Konsol metni her güncellendiğinde düşük perdeli bir uyarı sesi verir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Enforce Control+V in consoles"
+msgstr "Konsollarda Control+V'yi zorunlu kıl"
+
+#. type: Plain text
+msgid "This option makes Control+V shortcut to work inside `ssh` sessions."
+msgstr ""
+"Bu seçenek, Control+V kısayolunun `ssh` oturumlarında çalışmasını sağlar."
+
+#. type: Title ##
+#, no-wrap
+msgid "Experimental: command prompt editing"
+msgstr "Deneysel: komut istemi düzenleme"
+
+#. type: Plain text
+msgid ""
+"Note: this feature is experimental. Please read this section carefully and "
+"make sure you understand how it works before reporting issues."
+msgstr ""
+"Not: Bu özellik deneyseldir. Lütfen bu bölümü dikkatlice okuyun ve sorunları "
+"bildirmeden önce nasıl çalıştığını anladığınızdan emin olun."
+
+#. type: Plain text
+msgid ""
+"Press `NVDA+E` to identify current prompt in console window and edit it in "
+"an accessible \"Edit prompt\" window. After editing you can either press "
+"`Escape` to update current command line, or `Enter` to update and "
+"immediately execute command. Alternatively you can press `Alt+F4` to close "
+"edit prompt window without updating command line."
+msgstr ""
+"Konsol penceresindeki mevcut komut satırını belirlemek ve erişilebilir bir "
+"\"Komut satırını düzenle\" penceresinde düzenlemek için `NVDA+E` tuşlarına "
+"basın. Düzenlemeden sonra mevcut komut satırını güncellemek için `Escape` "
+"tuşuna ya da güncellemek ve komutu hemen çalıştırmak için `Enter` tuşuna "
+"basabilirsiniz. Alternatif olarak komut satırını güncellemeden düzenleme "
+"istemi penceresini kapatmak için `Alt+F4` tuşlarına basabilirsiniz."
+
+#. type: Plain text
+msgid ""
+"This feature has been tested in Windows command prompt `cmd.exe` as well as "
+"in bash shell over ssh connections, as well as in WSL and cygwin. It might "
+"also work in alternative Unix shells, however it hasn't been tested."
+msgstr ""
+"Bu özellik, Windows komut istemi `cmd.exe`de, ayrıca ssh bağlantıları "
+"üzerinden bash kabuğunda, WSL ve cygwin'de test edilmiştir. Alternatif Unix "
+"kabuklarında da çalışabilir, ancak test edilmemiştir."
+
+#. type: Plain text
+msgid "Here is how add-on extracts current command."
+msgstr "Eklentinin geçerli komutu nasıl ayıkladığı aşağıda açıklanmıştır."
+
+#. type: Bullet: '1. '
+msgid ""
+"It presses `End` key and then sends a control character, that is a rare "
+"Unicodecharacter not likely to be used anywhere."
+msgstr ""
+"End` tuşuna basar ve ardından herhangi bir yerde kullanılması muhtemel "
+"olmayan nadir bir Unicode karakteri olan bir kontrol karakteri gönderir."
+
+#. type: Bullet: '2. '
+msgid "Then it presses `home` key and sends another control character."
+msgstr "Ardından `home` tuşuna basar ve başka bir kontrol karakteri gönderir."
+
+#. type: Bullet: '3. '
+msgid ""
+"Then it waits for control characters to appear on the screen, which might "
+"take some time on slow SSH connections."
+msgstr ""
+"Ardından, yavaş SSH bağlantılarında biraz zaman alabilen kontrol "
+"karakterlerinin ekranda görünmesini bekler."
+
+#. type: Bullet: '4. '
+msgid "Command is what appears between two control characters."
+msgstr "Komut, iki kontrol karakteri arasında görünen şeydir."
+
+#. type: Bullet: '5. '
+msgid ""
+"When \"Use UI Automation to access the Windows Console when available\" "
+"option is enabled in NVDA settings, it sends one more control character in "
+"the beginning of the string. This is needed to parse multiline commands "
+"correctly: UIA implementation trims whitespaces in the end of each line, so "
+"in order to deduce whether there is a space between two lines, we need to "
+"shift them by one character. Please note, however, that this way we don't "
+"preserve the number of spaces between words, we only guarantee to preserve "
+"the presence of spaces."
+msgstr ""
+"NVDA ayarlarında \"Kullanılabilir olduğunda Windows Konsoluna erişmek için "
+"UI Otomasyonu kullan\" seçeneği etkinleştirildiğinde, dizenin başına bir "
+"kontrol karakteri daha gönderir. Bu, çok satırlı komutları doğru bir şekilde "
+"ayrıştırmak için gereklidir: UIA uygulaması her satırın sonundaki boşlukları "
+"keser, bu nedenle iki satır arasında boşluk olup olmadığını anlamak için "
+"bunları bir karakter kaydırmamız gerekir. Ancak, bu şekilde sözcükler "
+"arasındaki boşluk sayısını korumadığımızı, yalnızca boşluk varlığını "
+"korumayı garanti ettiğimizi lütfen unutmayın."
+
+#. type: Bullet: '6. '
+msgid ""
+"Before editing add-on makes sure to remove control characters by placing "
+"cursor in the beginning and end and simulating `Delete` and `Backspace` key "
+"presses."
+msgstr ""
+"Eklentiyi düzenlemeden önce, imleci başa ve sona getirerek ve 'Delete' ve "
+"'Backspace' tuşlarına basmayı simüle ederek kontrol karakterlerini "
+"kaldırdığınızdan emin olun."
+
+#. type: Bullet: '7. '
+msgid "It presents command in \"Edit prompt\" window for user to view or edit."
+msgstr ""
+"Komutu, kullanıcının görüntülemesi veya düzenlemesi için \"Komut istemini "
+"düzenle\" penceresinde sunar."
+
+#. type: Bullet: '8. '
+msgid ""
+"After user presses `Enter` or `Escape`,it first erases current line in the "
+"console.  This is achieved via one of four methods, the choice of the method "
+"is configurable. Currently four methods are supported:"
+msgstr ""
+"Kullanıcı `Enter` veya `Escape` tuşuna bastıktan sonra, önce konsoldaki "
+"mevcut satırı siler. Bu, dört yöntemden biri aracılığıyla elde edilir, "
+"yöntemin seçimi yapılandırılabilir. Şu anda dört yöntem desteklenmektedir:"
+
+#. type: Bullet: '    * '
+msgid ""
+"`Control+C`: works in both `cmd.exe` and `bash`, but leaves previous prompt "
+"visible on the screen; doesn't work in emacs; sometimes unreliable on slow "
+"SSH connections"
+msgstr ""
+"`Control+C`: hem `cmd.exe` hem de `bash` içinde çalışır, ancak önceki komut "
+"istemini ekranda görünür bırakır; emac'larda çalışmaz; yavaş SSH "
+"bağlantılarında bazen güvenilmez"
+
+#. type: Bullet: '    * '
+msgid "`Escape`: works only in `cmd.exe`\"),"
+msgstr "`Escape`: sadece `cmd.exe`de çalışır\"),"
+
+#. type: Bullet: '    * '
+msgid ""
+"`Control+A Control+K`: works in `bash` and `emacs`; doesn't work in `cmd.exe`"
+msgstr ""
+"`Control+A Control+K`: `bash` ve `emacs` ile çalışır; `cmd.exe`de çalışmıyor"
+
+#. type: Bullet: '    * '
+msgid ""
+"`Backspace` (recommended): works in all environments; however slower and may "
+"cause corruption if the length of the line has changed"
+msgstr ""
+"`Backspace` (önerilir): tüm ortamlarda çalışır; ancak daha yavaştır ve "
+"satırın uzunluğu değişirse bozulmaya neden olabilir"
+
+#. type: Bullet: '9. '
+msgid ""
+"Then add-on simulates keystrokes to type the updated command and optionally "
+"simulates `Enter` key press."
+msgstr ""
+"Ardından eklenti, güncellenen komutu yazmak için tuş vuruşlarını simüle eder "
+"ve isteğe bağlı olarak \"Enter\" tuşuna basmayı simüle eder."
+
+#. type: Plain text
+msgid "Troubleshooting:"
+msgstr "Sorun giderme:"
+
+#. type: Bullet: '* '
+msgid ""
+"Verify that 'Home', 'End', 'Delete' and 'Backspace' keys work as expected in "
+"your console."
+msgstr ""
+"'Baş', 'Son', 'Sil' ve 'Geri Al' tuşlarının konsolunuzda beklendiği gibi "
+"çalıştığını doğrulayın."
+
+#. type: Bullet: '* '
+msgid ""
+"Verify that your console supports Unicode characters. Some ssh connections "
+"don't support Unicode."
+msgstr ""
+"Konsolunuzun Unicode karakterleri desteklediğini doğrulayın. Bazı ssh "
+"bağlantıları Unicode'u desteklemez."
+
+#. type: Bullet: '* '
+msgid "Verify that selected deleting method works in your console."
+msgstr "Seçilen silme yönteminin konsolunuzda çalıştığını doğrulayın."
+
+#. type: Title ##
+#, no-wrap
+msgid "Experimental: capturing command output"
+msgstr "Deneysel: komut çıktısını yakalama"
+
+#. type: Plain text
+msgid ""
+"While in command line or in \"Edit prompt\" window, press `Control+Enter` to "
+"capture command output. This add-on is capable of capturing large output "
+"that spans multiple screens, although when output is larger than 10 screens "
+"capturing process takes significant time to complete. Add-on will play a "
+"long chime sound, and it will last as long as the add-on is capturing the "
+"output of currently running command, or until timeout has been reached. "
+"Alternatively, press `NVDA+E` to interrupt capturing."
+msgstr ""
+"Komut satırındayken veya \"Komut istemini düzenle\" penceresindeyken, komut "
+"çıktısını almak için \"Control+Enter\" tuşlarına basın. Bu eklenti, birden "
+"çok ekrana yayılan büyük çıktıları yakalayabilir, ancak çıktı 10 ekrandan "
+"büyük olduğunda yakalama işleminin tamamlanması önemli ölçüde zaman alır. "
+"Eklenti uzun bir zil sesi çalacak ve eklenti o anda çalışan komutun "
+"çıktısını yakaladığı sürece veya zaman aşımına ulaşılana kadar sürecek. "
+"Alternatif olarak, yakalamayı durdurmak için \"NVDA+E\" tuşlarına basın."
+
+#. type: Plain text
+msgid ""
+"When \"Use UI Automation to access the Windows Console when available\" "
+"feature is enabled in NVDA settings, you can switch to other windows while "
+"capturing is going on. However, if this option is disabled, then NVDA is "
+"using a legacy console code, that only works when consoel is focused, and "
+"therefore switching to any other window will pause capturing."
+msgstr ""
+"NVDA ayarlarında \"Kullanılabilir olduğunda Windows Konsoluna erişmek için "
+"UI Otomasyonu kullan\" özelliği etkinleştirildiğinde, yakalama devam ederken "
+"diğer pencerelere geçebilirsiniz. Ancak, bu seçenek devre dışı bırakılırsa "
+"NVDA, yalnızca konsol odaklandığında çalışan eski bir konsol kodu kullanıyor "
+"demektir ve bu nedenle başka bir pencereye geçmek, yakalamayı duraklatır."
+
+#. type: Plain text
+msgid ""
+"Command capturing works by redirecting command output to `less` command. "
+"Default suffix that is appended to commands is:"
+msgstr ""
+"Komut yakalama, komut çıktısını \"less\" komutuna yönlendirerek çalışır. "
+"Komutlara eklenen varsayılan son ek şudur:"
+
+#. type: Plain text
+#, no-wrap
+msgid "|less -c 2>&1\n"
+msgstr "|less -c 2>&1\n"
+
+#. type: Plain text
+msgid ""
+"Please only change it if you know what you're doing. This add-on knows how "
+"to interact with the output of `less` command to retrieve output page by "
+"page."
+msgstr ""
+"Lütfen sadece ne yaptığınızı biliyorsanız değiştirin. Bu eklenti, çıktıyı "
+"sayfa sayfa almak için \"less\" komutunun çıktısıyla nasıl etkileşim "
+"kurulacağını bilir."
+
+#. type: Plain text
+msgid ""
+"On Windows `less.exe` tool needs to be installed separately. You can install "
+"it via cygwin, or download a windows binary elsewhere."
+msgstr ""
+"Windows'ta `less.exe` aracının ayrıca yüklenmesi gerekir. Bunu cygwin "
+"aracılığıyla yükleyebilir veya başka bir yerden bir Windows ikili dosyası "
+"indirebilirsiniz."
+
+#. type: Plain text
+msgid ""
+"If you are using `tmux` or `screen` in Linux, please make sure that no "
+"status line is displayed in the bottom. In `tmux` run"
+msgstr ""
+"Eğer Linux`ta `tmux` veya `screen` kullanıyorsanız, lütfen alt kısımda "
+"herhangi bir durum satırının görüntülenmediğinden emin olun. tmux` içinde "
+"çalıştırın"
+
+#. type: Plain text
+#, no-wrap
+msgid "tmux set status off\n"
+msgstr "tmux set status off\n"
+
+#. type: Plain text
+msgid "to get rid of status line, or modify your `tmux.conf` file."
+msgstr "durum satırından kurtulmak veya tmux.conf dosyanızı değiştirmek için."
+
+#. type: Bullet: '* '
+msgid ""
+"After a failed output capturing attempt, press `UpArrow` in the console to "
+"check what command has actually been executed."
+msgstr ""
+"Başarısız bir çıktı yakalama girişiminden sonra, gerçekte hangi komutun "
+"yürütüldüğünü kontrol etmek için konsolda 'Yukarı Ok' tuşuna basın."
+
+#. type: Bullet: '* '
+msgid "Revert back to default capturing suffix, mentioned above."
+msgstr "Yukarıda bahsedilen varsayılan yakalama ekine geri dönün."
+
+#. type: Bullet: '* '
+msgid "Try troubleshooting steps from \"command prompt editing\" section."
+msgstr ""
+"\"Komut istemi düzenleme\" bölümündeki sorun giderme adımlarını deneyin."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=consoletoolkit"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=consoletoolkit"
+
+#, no-wrap
+#~ msgid ""
+#~ "Here is how add-on extracts current command.\n"
+#~ "1. It presses `End` key and then sends a control character, that is a rare Unicodecharacter not likely to be used anywhere.\n"
+#~ "2. Then it presses `home` key and sends another control character.\n"
+#~ "3. Then it waits for control characters to appear on the screen, which might take some time on slow SSH connections.\n"
+#~ "4. Command is what appears between two control characters.\n"
+#~ "5. When \"Use UI Automation to access the Windows Console when available\" option is enabled in NVDA settings, it sends one more control character in the beginning of the string. This is needed to parse multiline commands correctly: UIA implementation trims whitespaces in the end of each line, so in order to deduce whether there is a space between two lines, we need to shift them by one character. Please note, however, that this way we don't preserve the number of spaces between words, we only guarantee to preserve the presence of spaces.\n"
+#~ "6. Before editing add-on makes sure to remove control characters by placing cursor in the beginning and end and simulating `Delete` and `Backspace` key presses.\n"
+#~ "7. It presents command in \"Edit prompt\" window for user to view or edit.\n"
+#~ "8. After user presses `Enter` or `Escape`,it first erases current line in the console.  This is achieved via one of four methods, the choice of the method is configurable. Currently four methods are supported:\n"
+#~ "    - `Control+C`: works in both `cmd.exe` and `bash`, but leaves previous prompt visible on the screen; doesn't work in emacs; sometimes unreliable on slow SSH connections\n"
+#~ "    - `Escape`: works only in `cmd.exe`\"),\n"
+#~ "    - `Control+A Control+K`: works in `bash` and `emacs`; doesn't work in `cmd.exe`\n"
+#~ "    - `Backspace` (recommended): works in all environments; however slower and may cause corruption if the length of the line has changed\n"
+#~ "9. Then add-on simulates keystrokes to type the updated command and optionally simulates `Enter` key press.\n"
+#~ msgstr ""
+#~ "Eklentinin geçerli komutu nasıl çıkardığı aşağıda açıklanmıştır.\n"
+#~ "1. 'Son' tuşuna basar ve ardından bir kontrol karakteri gönderir; bu, muhtemelen herhangi bir yerde kullanılması muhtemel olmayan nadir bir Unicode karakteridir.\n"
+#~ "2. Daha sonra 'home' tuşuna basar ve başka bir kontrol karakteri gönderir.\n"
+#~ "3. Ardından kontrol karakterlerinin ekranda görünmesini bekler, bu da yavaş SSH bağlantılarında biraz zaman alabilir.\n"
+#~ "4. Komut, iki kontrol karakteri arasında görünen şeydir.\n"
+#~ "5. NVDA ayarlarında \"Mümkün olduğunda Windows Konsoluna erişmek için UI Otomasyonunu kullan\" seçeneği etkinleştirildiğinde, dizenin başına bir kontrol karakteri daha gönderilir. Çok satırlı komutları doğru bir şekilde ayrıştırmak için bu gereklidir: UIA uygulaması her satırın sonundaki boşlukları keser, bu nedenle iki satır arasında boşluk olup olmadığını anlamak için bunları bir karakter kaydırmamız gerekir. Ancak bu şekilde kelimeler arasındaki boşlukların sayısını korumadığımızı, yalnızca boşlukların varlığını korumayı garanti ettiğimizi lütfen unutmayın.\n"
+#~ "6. Eklentiyi düzenlemeden önce, imleci başına ve sonuna yerleştirerek ve 'Sil' ve 'Geri Al' tuşuna basmayı simüle ederek kontrol karakterlerini kaldırdığınızdan emin olun.\n"
+#~ "7. Kullanıcının görüntülemesi veya düzenlemesi için \"İstemi düzenle\" penceresinde komut sunar.\n"
+#~ "8. Kullanıcı 'Enter' veya 'Escape' tuşuna bastıktan sonra ilk olarak konsoldaki mevcut satırı siler.  Bu, dört yöntemden biriyle gerçekleştirilir; yöntemin seçimi yapılandırılabilir. Şu anda dört yöntem desteklenmektedir:\n"
+#~ "    - `CTRL+C`: hem \"cmd.exe\" hem de \"bash\"ta çalışır, ancak önceki istemi ekranda görünür bırakır; emacs'ta çalışmıyor; yavaş SSH bağlantılarında bazen güvenilmez\n"
+#~ "    - `Escape`: yalnızca \"cmd.exe\"de çalışır\"),\n"
+#~ "    - `CTRL+A CTRL+K`: 'bash' ve 'emacs'ta çalışır; 'cmd.exe'de çalışmıyor\n"
+#~ "    - `Backspace` (önerilen): tüm ortamlarda çalışır; ancak daha yavaştır ve satırın uzunluğunun değişmesi halinde bozulmaya neden olabilir\n"
+#~ "9. Daha sonra eklenti, güncellenen komutu yazmak için tuş vuruşlarını simüle eder ve isteğe bağlı olarak 'Enter' tuşuna basmayı simüle eder.\n"
+
+#~ msgid ""
+#~ "Troubleshooting: - Verify that 'Home', 'End', 'Delete' and 'Backspace' "
+#~ "keys work as expected in your console.  - Verify that your console "
+#~ "supports Unicode characters. Some ssh connections don't support Unicode.  "
+#~ "- Verify that selected deleting method works in your console."
+#~ msgstr ""
+#~ "Sorun Giderme: - 'Ana Sayfa', 'Son', 'Sil' ve 'Geri Al' tuşlarının "
+#~ "konsolunuzda beklendiği gibi çalıştığını doğrulayın.  - Konsolunuzun "
+#~ "Unicode karakterleri desteklediğini doğrulayın. Bazı ssh bağlantıları "
+#~ "Unicode'u desteklemez.  - Seçilen silme yönteminin konsolunuzda "
+#~ "çalıştığını doğrulayın."
+
+#~ msgid "Author: Tony Malykh"
+#~ msgstr "Yazar: Tony Malykh"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "[Kararlı sürümü indir][1]"
+
+#~ msgid "NVDA compatibility: 2019.3 and later"
+#~ msgstr "NVDA uyumluluğu: 2019.3 ve sonrası"
+
+#~ msgid ""
+#~ "[Console toolkit](https://github.com/mltony/nvda-console-toolkit/releases/"
+#~ "latest/download/consoleToolkit.nvda-addon)"
+#~ msgstr ""
+#~ "[konsol araç Seti](https://github.com/mltony/nvda-console-toolkit/"
+#~ "releases/latest/download/consoleToolkit.nvda-addon)"

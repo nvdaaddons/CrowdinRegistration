@@ -1,0 +1,81 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Zvonimir Stanečić <zvonimirek222@yandex.com>, 2014.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: quickBooks2014\n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2024-05-12 17:15+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Quick Books 2014 support\"]]\n"
+msgstr "[[!meta title=\"Podrška za Quick Books 2014\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Authors: NV Access Limited, with help from My Blind Spot, Intuit, and "
+"community testers."
+msgstr ""
+"Autori: NV Access Limited, uz pomoć My Blind Spot, Intuit i testera "
+"zajednice."
+
+#. type: Bullet: '* '
+msgid "Download: [version 2014.4.7][1]"
+msgstr "Preuzmi: [verzija 2014.4.7][1]"
+
+#. type: Plain text
+#, no-wrap
+msgid "This add-on   makes it possible to use NVDA with the Intuit Quickbooks 2014 accounting software.\n"
+msgstr "Ovaj dodatak omogućuje korištenje NVDA čitača s računovodstvenim softverom Intuit Quickbooks 2014.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Features"
+msgstr "Funkcije"
+
+#. type: Bullet: '* '
+msgid "Automatic enabling of QuickBooks accessibility mode."
+msgstr "Automatsko aktiviranje modusa pristupačnosti QuickBooks programa."
+
+#. type: Bullet: '* '
+msgid "Labeling of many input fields."
+msgstr "Označavanje mnogih polja unosa."
+
+#. type: Bullet: '* '
+msgid ""
+"Tracking of focus and highlighting for lists such as the Chart of Accounts."
+msgstr "Praćenje fokusa i isticanje popisa, kao što su grafikoni računa."
+
+#. type: Bullet: '* '
+msgid ""
+"Correct control type identification of custom check boxes, radio buttons and "
+"buttons."
+msgstr ""
+"Ispravno prepoznavanje vrste kontrola prilagođenih potvrdnih okvira, "
+"odabirnih gumba i gumba."
+
+#. type: Bullet: '* '
+msgid "Automatic reporting of messages in custom message dialogs."
+msgstr "Automatsko izvještavanje o porukama u dijalozima prilagođenih poruka."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=qb-dev"
+msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=qb-dev"

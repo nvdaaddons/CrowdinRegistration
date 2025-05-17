@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-30 11:43+0000\n"
+"PO-Revision-Date: 2024-03-20 10:02+0200\n"
+"Last-Translator: Kostadin Kolev <k.kolev1985@gmail.com>\n"
+"Language-Team: \n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Say Product Name and Version\"]]\n"
+msgstr "[[!meta title=\"Докладване на името и версията на продукта (Say Product Name and Version)\"]]\n"
+
+#. type: Bullet: '* '
+msgid ""
+"Author: Luke Davis <XLTechie@newanswertech.com>, Patrick ZAJDA "
+"<patrick@zajda.fr>"
+msgstr ""
+"Автор: Luke Davis <XLTechie@newanswertech.com>, Patrick ZAJDA <patrick@zajda."
+"fr>"
+
+#. type: Bullet: '* '
+msgid "NVDA compatibility: 2017.3 through 2024.X"
+msgstr "Съвместимост с NVDA: от 2017.3 до 2024.x"
+
+#. type: Bullet: '* '
+msgid "Download [stable version][1]"
+msgstr "Изтегляне на [стабилна версия][1]"
+
+#. type: Plain text
+msgid ""
+"This [NVDA](https://nvaccess.org/) add-on adds a shortcut to announce "
+"product name and version of the foreground application, or copies this "
+"information to the clipboard."
+msgstr ""
+"Тази добавка за [NVDA](https://nvaccess.org/) предоставя команда за "
+"докладване на името на продукта и версията на приложението на фокус или за "
+"копирането на тази информация в клипборда."
+
+#. type: Bullet: '* '
+msgid "Shortcut: `NVDA+shift+v`"
+msgstr "Клавишна комбинация: `NVDA+Shift+V`"
+
+#. type: Bullet: '* '
+msgid "Press it twice to copy product name and version to the clipboard."
+msgstr ""
+"Двукратното й натискане копира името и версията на продукта в клипборда."
+
+#. type: Bullet: '* '
+msgid "Press it three times to copy only the version to the clipboard."
+msgstr ""
+"Натиснете я три пъти, за да копирате в клипборда само номера на версията."
+
+#. type: Plain text
+msgid ""
+"This shortcut may be remapped in the Tools category of NVDA's Input Gestures."
+msgstr ""
+"Тази клавишна команда може да бъде променена в категорията \"Инструменти\" в "
+"прозореца \"Жестове на въвеждане\" на NVDA."
+
+#. type: Plain text
+msgid ""
+"If you like this add-on and are willing to help others decide whether it is "
+"useful, please leave a [review][3]."
+msgstr ""
+"Ако харесвате тази добавка и желаете да помогнете на другите да решат дали е "
+"полезна, моля, оставете [отзив][3]."
+
+#. type: Plain text
+msgid "For change history, please read the [changelog][2]."
+msgstr "За списък с промените, моля, прочетете [файла с промените][2]."
+
+#. type: Title ###
+#, no-wrap
+msgid "Tips"
+msgstr "Съвети"
+
+#. type: Bullet: '* '
+msgid ""
+"To find out the Windows version with this add-on, you can focus on any "
+"Windows component (such as desktop, the start menu, the run dialog, etc.), "
+"and press the shortcut key. Note, that this does not give you the release "
+"version name, such as \"23H3\". Instead it gives you something closer to the "
+"build version, as you would get from the second line of the \"`winver`\" "
+"command."
+msgstr ""
+"За да разберете версията на Windows с тази добавка, можете да се фокусирате "
+"върху всеки компонент на Windows (като работен плот, менюто \"Старт\", "
+"диалоговият прозорец за изпълнение и т.н.) и да натиснете съответната "
+"клавишна команда. Обърнете внимание, че това не ви дава името на версията на "
+"изданието, като например \"23H3\". Вместо това ви дава нещо по-близко до "
+"версията на компилацията, както бихте получили от втория ред на командата "
+"``winver``."
+
+#. type: Bullet: '* '
+msgid ""
+"To get the NVDA version, open any NVDA dialog or menu, and press this add-"
+"on's shortcut key. For example, press `NVDA+n` to open the NVDA menu, then "
+"press `NVDA+shift+v`, then press `escape` to leave the menu."
+msgstr ""
+"За да получите версията на NVDA, отворете който и да е диалогов прозорец или "
+"меню на NVDA и натиснете съответната клавишна команда на тази добавка. "
+"Например, натиснете `NVDA+N`, за да отворите менюто на NVDA, след това "
+"натиснете `NVDA+Shift+V`, след което натиснете `Escape`, за да излезете от "
+"менюто."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag stable]]\n"
+msgstr "[[!tag stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion"
+
+#. type: Plain text
+msgid ""
+"[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/"
+"changelog.md#readme"
+msgstr ""
+"[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/"
+"changelog.md#readme"
+
+#. type: Plain text
+msgid "[3]: https://github.com/nvaccess/addon-datastore/discussions/2683"
+msgstr "[3]: https://github.com/nvaccess/addon-datastore/discussions/2683"
+
+#~ msgid ""
+#~ "Author: Patrick ZAJDA <patrick@zajda.fr>, Luke Davis "
+#~ "<XLTechie@newanswertech.com>"
+#~ msgstr ""
+#~ "Автори: Patrick ZAJDA <patrick@zajda.fr>, Luke Davis "
+#~ "<XLTechie@newanswertech.com>"
+
+#~ msgid "Changes for 2021.07"
+#~ msgstr "Промени във версия 2021.07"
+
+#~ msgid "Add Croatian translation thanks to Tarik Hadžirović and Goran Parać"
+#~ msgstr ""
+#~ "Добавен е превод на хърватски (благодарности на Tarik Hadžirović и Goran "
+#~ "Parać)"
+
+#~ msgid "Update help message"
+#~ msgstr "Обновено е помощното съобщение"
+
+#~ msgid "Update documentation style for visually impaired users"
+#~ msgstr ""
+#~ "Обновен е стила на документацията, с цел улесняване на потребителите със "
+#~ "слабо зрение"
+
+#~ msgid "Move shortcut from Speech to tools category"
+#~ msgstr ""
+#~ "Клавишната команда е преместена от категорията \"Реч\" в категорията "
+#~ "\"Инструменти\""
+
+#~ msgid "Changes for 2020.02"
+#~ msgstr "Промени във версия 2020.02"
+
+#~ msgid "Python 3 compatibility"
+#~ msgstr "Съвместимост с Python 3"
+
+#~ msgid ""
+#~ "Use informations from NVDA itself instead of using an external module"
+#~ msgstr ""
+#~ "Използване на информация директно от NVDA, вместо използване на външен "
+#~ "модул"
+
+#~ msgid "Use script decorator for global plugin informations"
+#~ msgstr ""
+#~ "Използване на скриптов декоратор за информация относно глобалния плъгин"
+
+#~ msgid "Use last version of add-on template"
+#~ msgstr "Използване на последната версия на шаблона за добавки"
+
+#~ msgid "Changes for 1.0.1"
+#~ msgstr "Промени във версия 1.0.1"
+
+#~ msgid ""
+#~ "Fixed the message after copying informations to the clipboard which was "
+#~ "not translated."
+#~ msgstr ""
+#~ "Поправена е грешка, водеща до това, че съобщението извеждано след "
+#~ "копиране на информацията в клипборда не е преведено."
+
+#~ msgid "Changes for 1.0"
+#~ msgstr "Промени във версия 1.0"
+
+#~ msgid "Initial Release"
+#~ msgstr "Първо издание"

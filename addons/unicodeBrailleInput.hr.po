@@ -1,0 +1,194 @@
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# unknown, 2015.
+# Milo Ivir <mail@milotype.de>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: UnicodeBrailleInput\n"
+"POT-Creation-Date: 2023-04-15 21:52+0000\n"
+"PO-Revision-Date: 2024-05-12 17:58+0200\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"UnicodeBrailleInput\"]]\n"
+msgstr "[[!meta title=\"Unos brajice u unikod formatu (UnicodeBrailleInput)\"]]\n"
+
+#. type: Bullet: '* '
+msgid "Authors: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+msgstr "Authors: Mesar Hameed, Patrick Zajda, Leonard de Ruijter."
+
+#. type: Bullet: '* '
+msgid "download [stable version][1]"
+msgstr "Preuzmi [stabilnu verziju][1]"
+
+#. type: Plain text
+msgid ""
+"This add-on allows you to convert text from braille (E.G. 1345-1236-145-1) "
+"to Unicode braille characters.  You can also convert text according to the "
+"currently selected input braille table."
+msgstr ""
+"Ovaj dodatak omogućuje konvertiranje teksta iz brajice (npr. "
+"1345-1236-145-1) u brajeve unikod znakove. Tekst je moguće konvertirati i "
+"prema trenutačnoj brajevoj tablici za unos."
+
+#. type: Plain text
+msgid ""
+"The purpose of this specialized addon is to make it easier to help to "
+"improve liblouis tables and to add automatic tests for your language.  With "
+"the addition of unicode braille table in NVDA 2017.3, this add-on is no "
+"longer required for this, as users can choose to input braille with the new "
+"table.  However, this add-on can still aid in converting normal text to "
+"unicode braille according to a particular input table."
+msgstr ""
+"Svrha ovog specijaliziranog dodatka je pomoć pri izradi testova za liblouis "
+"tablice, kao i za automatske testove za tvoj jezik. Dodavanjem brajeve "
+"unikod tablice u NVDA 2017.3, ovaj dodatak za to više nije potreban, jer "
+"korisnici mogu odabrati unos brajice pomoću nove tablice. Međutim, ovaj "
+"dodatak i dalje može pomoći konvertirati normalni tekst u brajeve unikod "
+"znakove, na osnovi određene tablice za unos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Primjena"
+
+#. type: Bullet: '* '
+msgid "Open a unicode aware text editor (for example Notepad++)."
+msgstr "Otvori uređivač teksta koji prepoznaje unikod (na primjer Notepad++)."
+
+#. type: Bullet: '* '
+msgid ""
+"Press NVDA+Ctrl+U or choose Unicode Braille Input found under NVDA tools "
+"menu."
+msgstr ""
+"Pritisni NVDA+kontrol+U ili odaberi „Unos brajice u unikod formatu” u NVDA "
+"izborniku Alati."
+
+#. type: Bullet: '* '
+msgid ""
+"Select whether your input consists of braille dots (e.g. 1345-1236-145-1) or "
+"normal text according to the current braille table (e.g. Dutch (Netherlands)."
+msgstr ""
+"Odaberi vrstu unosa: brajeve točke (npr. 1345-1236-145-1) ili normalni tekst "
+"prema trenutačnoj brajevoj tablici (npr. Hrvatski (Hrvatska)."
+
+#. type: Bullet: '* '
+msgid ""
+"Type your braille text in numeric form or your normal text, respectively."
+msgstr "Tipkaj brajev tekst u numeričkom obliku, odnosno normalni tekst."
+
+#. type: Bullet: '* '
+msgid "Press OK."
+msgstr "Pritisni u redu."
+
+#. type: Bullet: '* '
+msgid ""
+"The required unicode characters will be copied to your clipboard ready for "
+"you to paste."
+msgstr ""
+"Potrebni unikod znakovi će se kopirati u međuspremnik, spremni za "
+"lijepljenje."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Promjene u verziji 3.0"
+
+#. type: Bullet: '* '
+msgid "New maintainer: Leonard de Ruijter."
+msgstr "Novi održavač: Leonard de Ruijter."
+
+#. type: Bullet: '* '
+msgid ""
+"Add-on is compatible with Python 3 and therefore with NVDA 2019.3 and above."
+msgstr ""
+"Dodatak je kompatibilan s Python 3, a samim tim i s NVDA 2019.3 i novijim "
+"verzijama."
+
+#. type: Bullet: '* '
+msgid ""
+"Added the ability to create unicode braille from normal text according to "
+"the currently selected input braille table."
+msgstr ""
+"Dodana je mogućnost generiranja brajice u unikod formatu iz normalnog teksta "
+"prema trenutačno odabranoj brajevoj tablici za unos."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Promjene u verziji 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Pomoć za dodatak dostupna je u upravljaču za dodatke."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Promjene u verziji 1.1"
+
+#. type: Bullet: '* '
+msgid "Improve delay to allow announcements to be heard correctly."
+msgstr "Poboljšano kašnjenje, kako bi se obavijesti mogle točno čuti."
+
+#. type: Bullet: '* '
+msgid "Many new translations."
+msgstr "Puno novih prijevoda."
+
+#. type: Bullet: '* '
+msgid "Added documentation under NVDA help menu."
+msgstr "Dodana dokumentacija u NVDA izborniku Pomoć."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a checkbox to optionally replace the space braille (character 0x2800) "
+"by the regular space character."
+msgstr ""
+"Dodan potvrdni okvir koji omogućuje opcionalnu zamjenu brajevog znaka za "
+"razmak (znak 0x2800) s normalnim znakom za razmak."
+
+#. type: Bullet: '* '
+msgid ""
+"Shortcuts can now be reassigned using the NVDA gesture input dialog, under "
+"the Tools category."
+msgstr ""
+"Prečaci se sada mogu promijeniti koristeći NVDA dijaloški okvir ulaznih "
+"gesti, pod kategorijom Alati."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Promjene u verziji 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial release"
+msgstr "Prva verzija"
+
+#. type: Bullet: '* '
+msgid "New Languages: French"
+msgstr "Novi jezici: francuski"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#. type: Plain text
+msgid ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+msgstr ""
+"[1]: https://www.nvaccess.org/addonStore/legacy?file=unicodeBrailleInput"
+
+#~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ubi"

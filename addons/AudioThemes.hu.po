@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-13 14:38+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: OAron <info@o-soft.hu>\n"
+"Language-Team: HU\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"- Új hang hozzáadása: A gomb lenyomása után egy párbeszédablak jelenik meg, "
+"első kombinált listamezőjében az objektum típusát kell kiválasztani,amihez "
+"hangot szeretne rendelni (jelölőnégyzet, ablak, menü, stb.), majd a Tallózás "
+"gomb lenyomása után válogathat a számítógépén található wav fájlok közül. A "
+"Meghallgat gomb lenyomásával ellenőrizheti, hogy a megfelelő hangot "
+"választotta-e ki, az Ok gomb lenyomásával pedig jóváhagyhatja az új "
+"hozzárendelést.\n"
+"- Bezár: A gomb lenyomásával bezárhatja a párbeszédpanelt.\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Audio Themes\"]]\n"
+msgstr "[[!meta title=\"Hangtémák\"]]\n"
+
+#. type: Bullet: '*   '
+msgid "Authors: Musharraf Omer and others"
+msgstr "Készítők: Musharraf Omer és mások"
+
+#. type: Bullet: '*   '
+msgid "download [stable version][1]"
+msgstr "[stabil verzió][1] letöltése"
+
+#. type: Bullet: '*   '
+msgid "download [development version][2]"
+msgstr "[Fejlesztői verzió][2] letöltése"
+
+#. type: Plain text
+msgid ""
+"This add-on creates a virtual audio display that plays sounds when focusing "
+"or navigating objects (such as buttons, links etc...) the audio will be "
+"played in a location that corresponds to the object's location in the visual "
+"display."
+msgstr ""
+"Ez a kiegészítő  különböző hangok lejátszásával jelzi a fókuszba kerülő elem "
+"típusát (gomb, link, stb). A hang a vizuális megjelenítésnek megfelelően "
+"szólal meg, így hallható, hogy az adott elem hol helyezkedik el a képernyőn."
+
+#. type: Plain text
+msgid ""
+"The add-on also enables you to activate, install, remove, edit, create, and "
+"distribute audio theme packages."
+msgstr ""
+"A kiegészítő  lehetővé teszi hangtéma csomagok  aktiválását, telepítését, "
+"eltávolítását, szerkesztését, létrehozását és terjesztését."
+
+#. type: Title ##
+#, no-wrap
+msgid "Usage"
+msgstr "Használat"
+
+#. type: Plain text
+msgid ""
+"This add-on enables you to perform three distinct tasks, including managing "
+"your installed audio themes, editing the currently active audio theme, and "
+"creating a new audio theme."
+msgstr ""
+"Ezzel a kiegészítővel kezelheti a telepített hangtémáit, szerkesztheti "
+"azokat, valamint újakat hozhat létre."
+
+#. type: Plain text
+msgid ""
+"You can access these functions from the add-on's menu which is found in the "
+"main NVDA menu."
+msgstr "A kiegészítő menüje az NVDA főmenüjében található, onnan érheti el."
+
+#. type: Title ###
+#, no-wrap
+msgid "Managing Your Audio Themes"
+msgstr "Hangtémák kezelése"
+
+#. type: Bullet: '- '
+msgid ""
+"The 'Manage Audio Themes' dialogue enables you to activate or deactivate "
+"audio themes, in addition to installing and removing audio themes."
+msgstr ""
+"Ezen a párbeszédpanelen váltogathat a különböző hangtémák közt, ill. itt "
+"telepítheti és el is távolíthatja azokat."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"- In this dialogue there are some additional options including:\n"
+" - Play sounds in 3D mode: When you uncheck this box the add-on will play the sounds in mono mode (always in the centre of the audio display) regardless of the object location.\n"
+" - Speak role such as button, edit box , link etc.: When you uncheck this box NVDA will start announcing the role when focusing objects rather than ignoring it (which is the default behaviour when installing this add-on).\n"
+" - Use Synthesizer Volume: Checking this box will set the sound player of this add-on to use the active voice sound, thus making all audible output the same as the voice volume when ever you change that volume.\n"
+" - Audio Theme Volume Slider: Alternatively you can set the volume for the add-on using this slider. Setting it to 0 will mute all sounds, and 100 is the maximum volume.\n"
+msgstr ""
+"- További opciók:\n"
+" - 3D mód: Ha nincs bejelölve,akkor az NVDA a hangokat monó módban játssza le, mind egységesen középről szól, nem követi az egyes elemek elhelyezkedését a képernyőn.\n"
+" - hangjelzés helyett beszéd mint gomb, szerkesztőmező, hivatkozás stb.: Ha be van jelölve, az NVDA bemondja az egyes képernyőelemek nevét, ha nincs bejelölve,akkor az NVDA az egyes hangtémákban beállított hangjelzésekkel jelzi a képernyőelemeket. Ez utóbbi az alapértelmezett viselkedés.\n"
+" - használja a beszédszintetizátor hangerejét: Bejelölt állapotban a kiegészítő hangjai az aktív beszédszintetizátor hangerejéhez igazodnak, és követik a változásait.\n"
+" - Hangtéma hangerő csúszka: Ezzel a csúszkával beállíthatja a kiegészítő hangerejét az NVDA beszédszintetizátoraitól függetlenül. A 0 érték elnémítja az összes hangot, 100 a maximális hangerő.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Editing The Active Audio Theme:"
+msgstr "Aktív hangtéma szerkesztése"
+
+#. type: Bullet: '- '
+msgid ""
+"When you click on the 'Edit the active audio theme' option, a dialogue will "
+"open with a list containing all the sounds contained in the currently active "
+"theme. From this dialogue you can:"
+msgstr ""
+"Ezen a párbeszédpanelen megjelenik az aktív hangtéma hangjainak listája."
+
+#. type: Bullet: '- '
+msgid ""
+"Change Selected: Selecting a sound from the list and clicking this button, "
+"will open a standard open file dialogue, select an ogg or wave audio file "
+"from your file system to replace the selected sound, and click OK to "
+"complete the process."
+msgstr ""
+"Szerkesztés: A kiválasztott hangot lecserélheti egy másikra. Egy szabványos "
+"fájlmegnyitás párbeszédpanelen keresztül kiválaszthat egy másik ogg vagy wav "
+"fájlt a számítógépéről."
+
+#. type: Bullet: '- '
+msgid ""
+"Remove Selected: This will remove the selected sound from the theme, click "
+"'Yes' to confirm the removal process, and the selected sound will be removed."
+msgstr ""
+"Eltávolítás: Eltávolítja a kijelölt hangot a listáról. Az \"Igen\" gomb "
+"aktiválásával a folyamat véglegesíthető, és a kiválasztott hang "
+"eltávolításra kerül."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"- Add New Sound: When clicking this button a new dialogue will be shown. From the first combo box in the newly opened dialogue select the object type you want to assign the sound to it, for example (button, link, tab, menu and so on), then click the 'Browse to an audio file' button to select the sound you want to assign for the previously selected object type. Optionally you can click the preview   button to preview the sound, and finally clicking the OK button will apply the changes and assign the selected sound to the selected object. \n"
+"- Close: Will  exit the dialogue without performing any action.\n"
+msgstr ""
+"- Új hang hozzáadása: A gomb lenyomására egy párbeszédpanel jelenik meg. Az első kombinált listamezőben válassza ki azt az elemet,amihez hangot szeretne hozzárendelni (pl. gomb, hivatkozás, fül, menü, stb.), majd kattintson a 'Tallózás' gombra a kívánt hangfájl kiválasztásához. A 'Meghallgat' gombra kattintva ellenőrizheti, hogy a kívánt hangot választotta-e ki. Az OK gomb lenyomásával jóváhagyhatja a hozzárendelést.\n"
+"- Bezárás: Bezárja a párbeszédpanelt.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Creating A New Audio Theme"
+msgstr "Új hangtéma létrehozása"
+
+#. type: Plain text
+msgid ""
+"- If you have a good sound production skills you can apply them here and "
+"create an audio theme of your own, rather than editing an existing one. To "
+"do this you can follow these steps.  - Collect your audio files in one "
+"place, they must be in ogg or wave format, and rename them to what ever make "
+"sense to you. For example when I was creating the default audio theme for "
+"this add-on, I grouped sounds according to interaction patterns, for "
+"example, the combo box, the drop down button, and the split button can all "
+"have the same sound, while the Check box, The toggle button, and the menu "
+"check item can have the same sound.  - From the add-on menu click 'Create a "
+"new audio theme' - A dialogue will be opened asking you for some information "
+"about your new audio theme, including: *\tTheme Name : The name of your "
+"theme which will be shown in the audio themes manager. This must be a valid "
+"windows folder name.  *\tYour Name: Enter your real name or a nick name.  "
+"*\tTheme description : A Brief description about your audio theme.  - Click "
+"OK to move to the next step.  - In the next step a dialogue similar to the "
+"'Audio Themes Editor' will be shown, and from their the process is the same "
+"as the Theme editing process, so refer to 'Editing The Active Audio Theme' "
+"section."
+msgstr ""
+"- Ha Önnek jó képességei vannak hangtervezésre, itt megvalósíthatja és "
+"készíthet magának hangtémát ahelyett, hogy egy létezőt szerkesztene át. "
+"Ehhez kövesse az alábbi lépéseket.  - Gyűjtse össze a hangfájljait egy "
+"helyre, legyenek ogg vagy wave formátumban, majd nevezze át őket "
+"értelemszerűen. Például, amikor én ezt a hangtémát elkészítettem ehhez a "
+"bővítményhez, a hangokat a vezérlés sémája szerint csoportosítottam, így "
+"például a kombinált listamező, az osztott gomb és a körvonalgomb ugyanazt a "
+"hangot kapta, míg a jelölőnégyzetnek, a bejelölhető menüelemnek és a "
+"kapcsológombnak ugyanaz a hangja.  - Az NVDA/hangtémák menüben válassza az "
+"új hangtéma készítése menüpontot, egy párbeszédpanel fog megnyílni. Ez "
+"mutatja a hangtémák kezelőjét. Itt egy érvényes windows mappanevet kell "
+"megadni.  *\tAz Ön neve szerkesztőmezőbe írja be a saját valódi nevét vagy "
+"egy nicknevet.  *\tLeírás: itt lehet megadni egy rövid leírást a "
+"hangtémához.  - Kattintson az ok gombra a folytatáshoz.  - A következő "
+"lépésben egy hasonló párbeszédpanel, a hangtéma-szerkesztő jelenik meg, és "
+"ettől kezdve a tennivaló ugyanaz, mint a hangtéma szerkesztésekor, a további "
+"információkat a hangtéma szerkesztése szakaszban találja. "
+
+#. type: Title ##
+#, no-wrap
+msgid "Copyright:"
+msgstr "Copyright:"
+
+#. type: Plain text
+msgid "Copyright (c) 2014-2016 Musharraf Omer and Others"
+msgstr "Copyright (c) 2014-2016 Musharraf Omer és mások"
+
+#. type: Plain text
+msgid ""
+"Although this add-on was started as an independent project, it evolved to be "
+"an enhanced version of the 'Unspoken' add-on by Austin Hicks and Bryan "
+"Smart. The majority of this add-on's development went into creating the "
+"tools to manage, edit and create audio theme packages. So a big thank you to "
+"them for creating such a wonderful add-on, and making it available for us to "
+"build on top of their work."
+msgstr ""
+"Annak ellenére, hogy ennek a bővítménynek az elkészítése egy független "
+"projektként indult, hallgatólagosan Austin Hicks és Bryan Smart munkájának "
+"kiterjesztett verziójaként bocsátották ki. Ennek a bővítménynek a "
+"fejlesztésekor a munka oroszlánrészét azoknak az eszközöknek a fejlesztésére "
+"fordították, amelyek hangtéma-csomagok készítésére, szerkesztésére és "
+"kezelésére vonatkoznak. Nagy köszönet illeti őket ennek a nagyszerű "
+"bővítménynek az elkészítéséért, valamint azért, hogy munkájukat a számunkra "
+"hozzáférhetővé tették, és befejezhettük az ő munkájukat."
+
+#. type: Title ##
+#, no-wrap
+msgid "A Note on Third-party audio files:"
+msgstr "Megjegyzés a külső forrásból származó audio fájlokhoz:"
+
+#. type: Plain text
+msgid ""
+"The **Default** audio theme package in this add-on uses sounds from several "
+"sources, here is a breakdown for them: - Unspoken 3D Audio: An add-on for "
+"NVDA - TWBlue: A free and open source twitter client - Mushy TalkBack: An "
+"alternative talkback with better sounds."
+msgstr ""
+"Az alapértelmezett hangcsomag az alábbi szoftverekből származó fájlokat "
+"használja: - Unspoken 3D Audio: EgyNVDA kiegészítő;- TWBlue: Ingyenes és "
+"nyílt forráskodú Twitter kliens;- Mushy TalkBack: Alternatív TalkBack, jobb "
+"hangokkal."
+
+#. type: Title ##
+#, no-wrap
+msgid "Licence"
+msgstr "Licenc"
+
+#. type: Plain text
+msgid ""
+"Licensed under the GNU General Public License. See the file **copying** for "
+"more details."
+msgstr ""
+"GNU General Public License licensz. Bővebb információkért olvassa el a "
+"**copying** fájlt."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev]]\n"
+msgstr "[[!tag dev]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ath"
+msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=ath"
+msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ath"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ath-dev"
+msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=ath-dev"
+msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ath-dev"
