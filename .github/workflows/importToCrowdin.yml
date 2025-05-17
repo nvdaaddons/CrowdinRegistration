@@ -51,4 +51,5 @@ jobs:
           for dir in ${{ github.event.inputs.repo }}/addon/doc/**; do 
           lang=$(basename "$dir"); 
           echo "$lang"; 
+          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$dir"
           done;
