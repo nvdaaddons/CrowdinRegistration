@@ -49,6 +49,8 @@ jobs:
       - name: Move translated documentation to add-on doc folder
         run: |
           for dir in ${{ github.event.inputs.repo }}/addon/doc/**; do 
+          if [ $dir -eq en ]; then
+          continue
           lang=$(basename "$dir"); 
           echo "$lang"; 
           mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$dir"
