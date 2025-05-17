@@ -57,6 +57,8 @@ jobs:
           echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
           fi
           done;
+      - name: List files
+        run: ls -r ${{ github.event.inputs.repo }}
       - name: Crowdin sync
         uses: crowdin/github-action@v2
         with:
