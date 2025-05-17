@@ -53,18 +53,10 @@ jobs:
           cd ${{ github.event.inputs.repo }}
           mkdir doc
           cd doc
-          for dir in ${{ github.event.inputs.repo }}/addon/doc/*; do 
-          if [ "$(basename "$dir")" = "en" ] || [ "$(basename "$dir")" = "style.css" ]]; then
-          continue
-            fi
-          lang=$(basename "$dir")
-          echo "$lang"
-          if [ -f "addons/${{ github.event.inputs.repo }}.$lang.po" ]; then
+          for file in ${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.*.po; do
+          lang = sed 's/${{ github.event.inputs.repo }}\.\(.*\)\.po/\1/' $file
           mkdir $lang
-          mv "addons/${{ github.event.inputs.repo }}.$lang.po" "$lang"
-          else
-          echo "Warning: File addons/${{ github.event.inputs.repo }}.$lang.po does not exist."
-          fi
+          mv "$file" "$lang"
           done;
       - name: List files
         run: ls -R ${{ github.event.inputs.repo }}
