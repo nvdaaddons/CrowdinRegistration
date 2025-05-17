@@ -5,8 +5,6 @@ on:
     inputs:
       repo:
         description: 'Repository name'
-env:
-  REPO: ${{ github.event.inputs.repo }}
 
 jobs:
   importToCrowdin:
@@ -41,6 +39,7 @@ jobs:
         run: |
           cd ${{ github.event.inputs.repo }}
           scons pot
+          mv ${{  github.event.inputs.repo}}.pot nvda.pot
 
       - name: Convert markdown to pot
         run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}

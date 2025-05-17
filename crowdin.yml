@@ -5,19 +5,19 @@
 
 "files": [
   {
-    "source": "$REPO/$REPO.pot",
-    "translation": "$REPO/addon/locale/%two_letters_code%LC_MESSAGES/nvda.po"
+    "source": "**/nvda.pot",
+    "translation": "**/addon/locale/%two_letters_code%LC_MESSAGES/nvda.po"
   },
   {
-    "source": "$REPO/$REPO.pot",
-    "translation": "$REPO/addon/locale/%locale_with_underscore%LC_MESSAGES/nvda.po"
+    "source": "**/nvda.pot",
+    "translation": "**/addon/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
   },
   {
-    "source": "$REPO/readme.pot",
-    "translation": "$REPO/doc/%two_letters_code%/readme.po"
+    "source": "**/readme.pot",
+    "translation": "**/addon/doc/%two_letters_code%/readme.po"
   },
   {
-    "source": "$REPO/readme.pot",
-    "translation": "$REPO/doc/%locale_with_underscore%/readme.po"
+    "source": "**/readme.pot",
+    "translation": "**/addon/doc/%locale_with_underscore%/readme.po"
   }
 ]
