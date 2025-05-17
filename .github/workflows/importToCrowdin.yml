@@ -59,7 +59,7 @@ jobs:
         run: |
           for file in "addons/${{ github.event.inputs.repo }}.*.po"; do
           lang = $(echo "$file" | sed "s/^${{ github.event.inputs.repo }}\.\(.*\)\.po$/\1/") echo "$lang"
-          mv "$file" "$ {{github.event.inputs.repo }}/$lang"
+          mv "$file" "$ {{github.event.inputs.repo }}/doc/$lang"
           done;
       - name: List files
         run: ls -R ${{ github.event.inputs.repo }}
