@@ -6,18 +6,18 @@
 "files": [
   {
     "source": "**/nvda.pot",
-    "translation": "**/addon/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
+    "translation": "**/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
   },
   {
     "source": "**/nvda.pot",
-    "translation": "**/addon/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+    "translation": "**/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
   },
   {
     "source": "**/readme.pot",
-    "translation": "**/addon/doc/%two_letters_code%/readme.po"
+    "translation": "**/doc/%two_letters_code%/readme.po"
   },
   {
     "source": "**/readme.pot",
-    "translation": "**/addon/doc/%locale_with_underscore%/readme.po"
+    "translation": "**/doc/%locale_with_underscore%/readme.po"
   }
 ]
