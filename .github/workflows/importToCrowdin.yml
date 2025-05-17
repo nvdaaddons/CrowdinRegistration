@@ -42,7 +42,7 @@ jobs:
 
       - name: Convert markdown to pot
         run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
-      - name: : List files
+      - name: List files
         run: |
           cd ${{ github.event.inputs.repo }}
           ls
