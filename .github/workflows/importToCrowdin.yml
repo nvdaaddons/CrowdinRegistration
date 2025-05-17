@@ -57,10 +57,14 @@ jobs:
           fi
       - name: Move translated doc to add-on repo folder
         run: |
-          for file in "addons/${{ github.event.inputs.repo }}.*.po"; do
-          lang = $(echo "$file" | sed "s/^${{ github.event.inputs.repo }}\.\(.*\)\.po$/\1/") echo "$lang"
-          mv "$file" "$ {{github.event.inputs.repo }}/doc/$lang"
-          done;
+          for dir in "${{ github.event.inputs.repo }}/doc*"; do
+          if [ $(basename "$dir") = "en" || $(basename "$dir") = "style.css"; then
+          continue
+          if [ -f "addons/${{github.event.inputs.repo }}.$dir.po"]; then
+          mv "$file" "$dir"
+          else
+          echo "Warning: File addons/${{github.event.inputs.repo }}.$dir.po does not exist."
+          fi
       - name: List files
         run: ls -R ${{ github.event.inputs.repo }}
       - name: Crowdin sync
