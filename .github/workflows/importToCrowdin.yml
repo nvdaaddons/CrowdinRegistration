@@ -73,30 +73,26 @@ jobs:
           done
       - name: List files
         run: ls -R ${{ github.event.inputs.repo }}
-      - name: Crowdin upload interface messages
+      - name: Crowdin upload interface messages main langs
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
           upload_translations: true
           auto_approve_imported: true
           source: ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
-          translation: |
-            ${{ github.event.inputs.repo }}/locale/%two_letters_code%/LC_MESSAGES/nvda.po
-            ${{ github.event.inputs.repo }}/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po
+          translation: ${{ github.event.inputs.repo }}/locale/%two_letters_code%/LC_MESSAGES/nvda.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Crowdin upload doc
+      - name: Crowdin upload doc main langs
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
           upload_translations: true
           auto_approve_imported: true
           source: ${{ github.event.inputs.repo }}/readme.pot
-          translation: |
-            ${{ github.event.inputs.repo }}/doc/%two_letters_code%/readme.po
-            ${{ github.event.inputs.repo }}/doc/%locale_with_underscore%/readme.po
+          translation: ${{ github.event.inputs.repo }}/doc/%two_letters_code%/readme.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
