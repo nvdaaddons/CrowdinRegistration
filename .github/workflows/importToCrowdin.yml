@@ -97,4 +97,28 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Crowdin upload interface messages dialects
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          auto_approve_imported: true
+          source: ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
+          translation: ${{ github.event.inputs.repo }}/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Crowdin upload doc dialects
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          auto_approve_imported: true
+          source: ${{ github.event.inputs.repo }}/readme.pot
+          translation: ${{ github.event.inputs.repo }}/doc/%locale_with_underscore%/readme.po
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
           
