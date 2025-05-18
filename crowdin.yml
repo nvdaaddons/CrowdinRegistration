@@ -1,0 +1,23 @@
+"project_id_env": "CROWDIN_PROJECT_ID"
+"api_token_env": "CROWDIN_PERSONAL_TOKEN"
+"base_path": "."
+"preserve_hierarchy": true
+
+"files": [
+  {
+    "source": "$repo/$repo.pot",
+    "translation": "$repo/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
+  },
+  {
+    "source": "$repo/$repo.pot",
+    "translation": "$repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+  },
+  {
+    "source": "$repo/readme.pot",
+    "translation": "$repo/doc/%two_letters_code%/readme.po"
+  },
+  {
+    "source": "$repo/readme.pot",
+    "translation": "$repo/doc/%locale_with_underscore%/readme.po"
+  }
+]
