@@ -71,8 +71,10 @@ jobs:
             echo "Warning: File addons/${{ github.event.inputs.repo }}.$dirBasename.po does not exist."
           fi
           done
+      - name: Store input repo in env variable
+        run: echo "repo=${{ github.event.inputs.repo}}" >> $GITHUB_ENV
       - name: List files
-        run: ls -R ${{ github.event.inputs.repo }}
+        run: ls -R $repo
       - name: Crowdin upload interface messages main langs
         uses: crowdin/github-action@v2
         with:
