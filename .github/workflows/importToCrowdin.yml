@@ -73,12 +73,30 @@ jobs:
           done
       - name: List files
         run: ls -R ${{ github.event.inputs.repo }}
-      - name: Crowdin sync
+      - name: Crowdin upload interface messages
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
           upload_translations: true
           auto_approve_imported: true
+          source: ${{ github.event.inputs.repo }}/nvda.po
+          translation: |
+            "${{ github.event.inputs.repo }}/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
+            "${{ github.event.inputs.repo }}/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Crowdin upload doc
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          auto_approve_imported: true
+          source: ${{ github.event.inputs.repo }}/readme.po
+          translation: |
+            "${{ github.event.inputs.repo }}/doc/%two_letters_code%/readme.po"
+            "${{ github.event.inputs.repo }}/doc/%locale_with_underscore%/readme.po"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
