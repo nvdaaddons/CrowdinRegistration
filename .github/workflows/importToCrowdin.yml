@@ -5,6 +5,7 @@ on:
     inputs:
       repo:
         description: 'Repository name'
+        required: true
 
 jobs:
   importToCrowdin:
@@ -87,13 +88,13 @@ jobs:
           git branch -u origin/main
           git pull
           git push
-      #- name: Crowdin upload
-        #uses: crowdin/github-action@v2
-        #with:
-          #upload_sources: true
-          #upload_translations: true
-          #auto_approve_imported: true
-        #env:
-          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          #CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
-          #CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Crowdin upload
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+          upload_translations: true
+          auto_approve_imported: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
