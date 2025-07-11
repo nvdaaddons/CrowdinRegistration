@@ -79,15 +79,15 @@ jobs:
           sed -i'.bak' 's/\(^.*\/\)\(repo.po\)\(.*$\)/\1${{ github.event.inputs.repo }}.po\3/' crowdin.yml
 
 
-      - name: Commit and push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add crowdin.yml
-          git commit -m "Update configuration to register ${{github.event.inputs.repo}}"
-          git branch -u origin/main
-          git pull
-          git push
+      #- name: Commit and push
+        #run: |
+          #git config user.name github-actions
+          #git config user.email github-actions@github.com
+          #git add crowdin.yml
+          #git commit -m "Update configuration to register ${{github.event.inputs.repo}}"
+          #git branch -u origin/main
+          #git pull
+          #git push
       - name: Crowdin upload
         uses: crowdin/github-action@v2
         with:
