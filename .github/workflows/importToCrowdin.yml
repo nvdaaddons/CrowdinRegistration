@@ -82,7 +82,7 @@ jobs:
           git config user.email github-actions@github.com
           git add crowdin.yml
           git commit -m "Update configuration to register ${{github.event.inputs.repo}}"
-          git branch -u origin/master
+          git branch -u origin/main
           git pull
           git push
       #- name: Crowdin upload
