@@ -6,19 +6,19 @@
 "files": [
   {
     # Replace with repo name, for example, objPad
-    "source": "enhancedTouchGestures/enhancedTouchGestures.pot",
-    "translation": "enhancedTouchGestures/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
+    "source": "placeMarkersenhancedTouchGestures.pot",
+    "translation": "placeMarkersnvda.po"
   },
   {
-    "source": "enhancedTouchGestures/enhancedTouchGestures.pot",
-    "translation": "enhancedTouchGestures/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+    "source": "placeMarkersenhancedTouchGestures.pot",
+    "translation": "placeMarkersnvda.po"
   },
   {
-    "source": "enhancedTouchGestures/readme.pot",
-    "translation": "enhancedTouchGestures/doc/%two_letters_code%/readme.po"
+    "source": "placeMarkersreadme.pot",
+    "translation": "placeMarkersreadme.po"
   },
   {
-    "source": "enhancedTouchGestures/readme.pot",
-    "translation": "enhancedTouchGestures/doc/%locale_with_underscore%/readme.po"
+    "source": "placeMarkersreadme.pot",
+    "translation": "placeMarkersreadme.po"
   }
 ]
