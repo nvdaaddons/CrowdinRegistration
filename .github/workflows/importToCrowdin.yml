@@ -74,7 +74,7 @@ jobs:
 
       - name: Set configuration for add-on repo
         run: |
-          sed -i'.bak' 's/\(^.*: \"\)\(.*\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
+          sed -i'.bak' 's/\(^.*: \"\)\(.*?\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
 
       - name: Commit and push
         run: |
