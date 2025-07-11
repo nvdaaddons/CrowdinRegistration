@@ -71,13 +71,27 @@ jobs:
             echo "Warning: File addons/${{ github.event.inputs.repo }}.$dirBasename.po does not exist."
           fi
           done
-      - name: Crowdin upload
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
-          upload_translations: true
-          auto_approve_imported: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+
+      - name: Set configuration for add-on repo
+        run: |
+          sed -i'.bak' 's/\(^.*: \"\)\(.*\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\3/' crowdin.yml
+
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update configuration to register ${{github.event.inputs.repo}}"
+          git branch -u origin/master
+          git pull
+          git push
+      #- name: Crowdin upload
+        #uses: crowdin/github-action@v2
+        #with:
+          #upload_sources: true
+          #upload_translations: true
+          #auto_approve_imported: true
+        #env:
+          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          #CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
