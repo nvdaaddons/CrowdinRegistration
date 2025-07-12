@@ -95,6 +95,8 @@ jobs:
           upload_sources: true
           upload_translations: true
           auto_approve_imported: true
+          download_sources: true
+          download_translations: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
