@@ -20,5 +20,23 @@
     {
     "source": "clipContentsDesigner/readme.pot",
     "translation": "clipContentsDesigner/doc/%locale_with_underscore%/readme.po"
+  },
+  # emoticons
+  {
+    "source": "emoticons/emoticons.pot",
+    "translation": "emoticons/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
+  },
+  {
+    "source": "emoticons/emoticons.pot",
+    "translation": "emoticons/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+  },
+  {
+    "source": "emoticons/readme.pot",
+    "translation": "emoticons/doc/%two_letters_code%/readme.po"
+  },
+    {
+    "source": "emoticons/readme.pot",
+    "translation": "emoticons/doc/%locale_with_underscore%/readme.po"
   }
+  ##
 ]

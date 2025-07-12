@@ -44,7 +44,7 @@ jobs:
           cd addon
           scons pot
       - name: Move pot file
-        run: git mv addon/${{ github.event.inputs.repo }}.pot ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
+        run: mv addon/${{ github.event.inputs.repo }}.pot ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
       - name: Convert markdown to pot
         run: md2po -P addon/readme.md ${{ github.event.inputs.repo }}
       - name: Move locale to add-on repo folder
