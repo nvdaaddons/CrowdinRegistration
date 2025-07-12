@@ -32,6 +32,7 @@ jobs:
         with:
           repository: nvdaaddons/${{ github.event.inputs.repo }}
           path: ${{ github.event.inputs.repo }}
+          ref: stable
       - name: Create add-on
         run: |
           cd ${{ github.event.inputs.repo }}
