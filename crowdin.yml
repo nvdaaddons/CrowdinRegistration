@@ -11,7 +11,13 @@
   },
   {
     "source": "repo/repo.pot",
-    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po",
+    "languages_mapping": {
+      "locale_with_underscore": {
+        "es_ES": "es",
+        "pt_PT": "pt",
+      }
+    }
   },
   {
     "source": "repo/readme.pot",
@@ -19,6 +25,12 @@
   },
   {
     "source": "repo/readme.pot",
-    "translation": "repo/doc/%locale_with_underscore%/readme.po"
+    "translation": "repo/doc/%locale_with_underscore%/readme.po",
+    "languages_mapping": {
+      "locale_with_underscore": {
+        "es_ES": "es",
+        "pt_PT": "pt",
+      }
+    }
   }
 ]
