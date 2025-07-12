@@ -20,6 +20,9 @@ jobs:
       - name: Crowdin download
         uses: crowdin/github-action@v2
         with:
+          upload_sources: false
+          download_bundle: 1
+
           download_bundle: 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
