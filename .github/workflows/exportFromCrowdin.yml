@@ -89,6 +89,11 @@ jobs:
           #git branch -u origin/main
           #git pull
           #git push
+
+      - name: Delete embedded repo
+        run: |
+          git rm --cached ${{ github.event.inputs.repo }}
+
       - name: Crowdin upload
         uses: crowdin/github-action@v2
         with:
