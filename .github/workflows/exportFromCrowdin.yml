@@ -20,7 +20,7 @@ jobs:
       - name: Crowdin download
         uses: crowdin/github-action@v2
         with:
-          command: download translations
+          command: download --all
           upload_sources: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
