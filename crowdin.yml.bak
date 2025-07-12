@@ -5,11 +5,11 @@
 
 "files": [
   {
-    "source": "pcKbBrl/pcKbBrl.pot",
+    "source": "pcKbBrl/repo.pot",
     "translation": "pcKbBrl/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
   },
   {
-    "source": "pcKbBrl/pcKbBrl.pot",
+    "source": "pcKbBrl/repo.pot",
     "translation": "pcKbBrl/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
   },
   {
