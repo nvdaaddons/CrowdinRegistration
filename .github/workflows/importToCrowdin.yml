@@ -53,7 +53,7 @@ jobs:
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
           fi
-      - name: Move doc to addon repo folder
+      - name: Move doc 
         run: |
           if [ -d "addon/addon/doc" ]; then
           mv "addon/addon/doc" "${{ github.event.inputs.repo }}/doc"
