@@ -6,10 +6,10 @@
 "files": [
   {
     "source": "repo/repo.pot",
-    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+    "translation": "repo/locale/**/LC_MESSAGES/nvda.po"
   },
   {
     "source": "repo/readme.pot",
-    "translation": "repo/doc/%locale_with_underscore%/readme.po"
+    "translation": "repo/doc/**/readme.po"
   }
 ]
