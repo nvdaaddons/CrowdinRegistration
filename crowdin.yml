@@ -6,12 +6,7 @@
 "files": [
   {
     "source": "repo/repo.pot",
-    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po",
-    languages_mapping: {
-      "locale_with_underscore": {
-        "es_ES": "es"
-      }
-    }
+    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
   },
   {
     "source": "repo/readme.pot",
