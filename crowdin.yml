@@ -7,30 +7,18 @@
   {
     # Replace with repo name, for example, objPad
     "source": "repo/repo.pot",
-    "translation": "repo/locale/%two_letters_code%/LC_MESSAGES/nvda.po",
-    "languages_mapping" : {
-      "two_letters_code" : {
-        "es-ES" : "es",
-        "pt-PT": "pt"
-      }
-    }
+    "translation": "repo/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
   },
   {
     "source": "repo/repo.pot",
-    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po",
+    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
   },
   {
     "source": "repo/readme.pot",
-    "translation": "repo/doc/%two_letters_code%/readme.po",
-    "languages_mapping" : {
-      "two_letters_code" : {
-        "es-ES" : "es",
-        "pt-PT": "pt"
-      }
-    }
+    "translation": "repo/doc/%two_letters_code%/readme.po"
   },
   {
     "source": "repo/readme.pot",
-    "translation": "repo/doc/%locale_with_underscore%/readme.po",
+    "translation": "repo/doc/%locale_with_underscore%/readme.po"
   }
 ]
