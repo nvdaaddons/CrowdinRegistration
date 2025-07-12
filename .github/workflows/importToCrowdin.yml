@@ -34,7 +34,12 @@ jobs:
           path: addon
           ref: stable
       - name: Create dir for repo
-        run: mkdir ${{ github.event.inputs.repo }}
+        run: |
+          if [ -d "${{ github.event.inputs.repo }}" ]; then
+          echo "Warning: Folder ${{ github.event.inputs.repo }} already exists."
+          else
+          mkdir ${{ github.event.inputs.repo }}
+          fi
       - name: Create add-on
         run: |
           cd addon
@@ -89,7 +94,9 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add crowdin.yml
-          git add ${{ github.event.inputs.repo }}
+          git add ${{ github.event.inputs.repo }}/*.pot
+          git add ${{ github.event.inputs.repo }}/locale/**/*.po
+          git add ${{ github.event.inputs.repo }}/doc/**/*.md
           git commit -m "Register ${{ github.event.inputs.repo }}"
           git branch -u origin/main
           git pull

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-12 20:24+0000\n"
+"POT-Creation-Date: 2025-07-12 20:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,285 +13,162 @@ msgstr ""
 "X-Generator: Translate Toolkit 3.12.2\n"
 
 #: addon/readme.md%2Bheading
-msgid "Emoticons"
+msgid "Clip Contents Designer"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid ""
-"Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier "
-"Estrada Martínez"
+msgid "Authors: Noelia, Abdel."
 msgstr ""
 
 #: addon/readme.md%2Bp
 msgid ""
-"Using this add-on, spoken text containing emoticon characters will be "
-"replaced by its more human friendly description."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"For example: the sequence \":)\" will be spoken as \"smiling smiley\", or "
-"for example NVDA will recognize the meaning of each emoji."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid "You can take advantage of the following features:"
+"This add-on is used to add text to the clipboard, which can be useful when "
+"you want to join sections of text together ready for pasting. The clipboard "
+"content can also be cleared an shown in browse mode."
 msgstr ""
 
 #: addon/readme.md%2Bheading
-msgid "Insert Emoticon"
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"Sometimes an image is worth a 1000 words: use the new emoji to liven up your "
-"instant message and to let your friends know how you’re feeling."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"When you are unsure of the characters for a particular smiley, this addon "
-"enables you to select and insert it into your text such as in a chat."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a "
-"dialog with the provided emoticons or emoji."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"This dialog allows you to choose an emoticon and to view the emoticons that "
-"interest you:"
+msgid "Keyboard commands"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"An editable field allows you to filter the search for the desired emoticon "
-"among the emoticons available."
+"NVDA+windows+c: Add selected text, Unicode braille characters which "
+"represent MathML objects, or the string which has been marked with the "
+"review cursor, to the clipboard."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid "NVDA+windows+x: Clear clipboard contents."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"Through a set of radio buttons, you can choose to view only emoji category "
-"(alt+E) or view only standard emoticon category (alt+s) or view all "
-"emoticons available (alt+A)."
+"Not assigned: Copies to (or cuts from) the clipboard, with the possibility "
+"of being asked for a previous confirmation."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"In the list of emoticons (alt+L) are displayed on three columns respectively:"
-" the name of emoticon, the type of emoticon (standard emoticon or emoji), "
-"the corresponding character."
+"Not assigned: Shows the clipboard text as HTML in browse mode, or announces "
+"if clipboard is empty or has contents which can't be presented in a "
+"browseable message, for instance if files or folders are been copied from "
+"Windows Explorer."
 msgstr ""
 
-#: addon/readme.md%2Bp
+#: addon/readme.md%2Blist-item.p
 msgid ""
-"When you press OK, the characters for the chosen emoticon will be copied to "
-"your clipboard, ready for pasting."
+"Not assigned: Shows the textual clipboard contents as plain text in browse "
+"mode, or announces if clipboard is empty or has contents which can't be "
+"presented in a browseable message, for instance if files or folders are been "
+"copied from Windows Explorer."
 msgstr ""
 
 #: addon/readme.md%2Bheading
-msgid "Insert symbol"
+msgid "Clip Contents Designer settings"
 msgstr ""
 
 #: addon/readme.md%2Bp
 msgid ""
-"This dialog allows you to choose one of the symbols available in the "
-"Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit "
-"box or the arrow keys to select an item from the symbols list."
+"This panel is available from NVDA's menu, Preferences submenu, Settings "
+"dialog."
 msgstr ""
 
 #: addon/readme.md%2Bp
+msgid "It contains the following controls:"
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
 msgid ""
-"If you want to copy various symbols, use the Add button to append them to "
-"the Symbols to copy edit box."
+"Type the string to be used as a separator between contents added to the "
+"clipboard: Allows to set a separator which can be used to find the text "
+"segments once the entire added text is pasted."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Add text before clip data: It's also possible to choose if the added text "
+"will be appended or prepended."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Select the actions which require previous confirmation: You can choose, for "
+"each action available, if it should be performed inmediately or after "
+"confirmation. Available actions are: add text, clear clipboard, emulate copy "
+"and emulate cut."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Request confirmation before performing the selected actions when: You can "
+"select if confirmations will be requested always, just if text is contained "
+"in the clipboard, or if clipboard is not empty (for example if you've copied "
+"a file, not text)."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Format to show the clipboard text as HTML in browse mode: If you're learning "
+"HTML markup language, you may choose Preformatted text in HTML or HTML as "
+"shown in a web browser, to have an idea of how your HTML code will be "
+"rendered by NVDA in a browser. The difference between preformatted and "
+"conventional HTML is that the first option will preserve consecutive spaces "
+"and line breaks, and the second one will compact them. For example, write "
+"some HTML tags like h1, h2, li, pre, etc., select and copy the text to "
+"clipboard, and use clipContentsDesigner add-on to show the text in a "
+"browseable message."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Maximum number of characters when showing clipboard text in browse mode: "
+"Please, be aware that increasing this limit may produce issues if the "
+"clipboard contains large strings of text. The default limit is 100000 "
+"characters."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid "Restore defaults."
 msgstr ""
 
 #: addon/readme.md%2Bp
+msgid "Notes:"
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
 msgid ""
-"Then, press OK and the selected emoji or symbol, or the symbols contained in "
-"the mentioned edit box, will be copied to your clipboard, ready for pasting."
+"Confirmations won't be requested when a message box of NVDA is still opened. "
+"In those cases, actions will be inmediately performed."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Emulate copy and emulate cut commands mean that, when these features are "
+"enabled, the add-on will take control of control+c and control+x. This will "
+"allow to select if a confirmation should be requested before performing the "
+"actions corresponding to these keystrokes."
 msgstr ""
 
 #: addon/readme.md%2Bheading
-msgid "Associate gestures to symbols"
+msgid "Changes for 46.0.0"
 msgstr ""
 
-#: addon/readme.md%2Bp
-msgid ""
-"From NVDA's menu, Preferences submenu, Input gestures dialog, category "
-"Insert symbols or Copy symbols, you can configure NVDA to type symbols "
-"through associated gestures."
+#: addon/readme.md%2Blist-item.p
+msgid "NVDA will sanitize HTML in browseable messages."
 msgstr ""
 
-#: addon/readme.md%2Bp
+#: addon/readme.md%2Blist-item.p
 msgid ""
-"You can use the Edit field edit box to reduce the number of symbols "
-"presented, so that this category can be expanded faster."
+"Added a button to close browseable messages, in addition to the Escape key."
 msgstr ""
 
 #: addon/readme.md%2Bheading
-msgid "Emoticons dictionary"
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"Emoticons add-on allows to have differents speech-dictionaries using "
-"configuration profiles."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"This means that you can create or edit a specific speech-dictionary for each "
-"your custom profile."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, "
-"you can open a dialog to add or to edit available emoticons."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"Saving your customizations, the new reading settings of emoticons will only "
-"apply to the profile you are currently editing."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"For example, you may wish that NVDA spoken custom emoticons only in XxChat "
-"program, but not in other chat programs: you can do this by creating a "
-"profile for the XxChat application and assign to it a speech dictionary from "
-"Speech dictionaries menu, Emoticons dictionary option. See below for "
-"Emoticons settings in relation to the configuration profiles."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"You can also export each custom speech-dictionary pressing \"Save and export "
-"dictionary\" button: in this way your speech-dictionaries will be saved in "
-"your user config folder, speechDicts/emoticons subfolder."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"The exact name and location of the dictionary file will be based on the "
-"editing configuration profile, which will be shown in the title of the "
-"Emoticons dictionary dialog."
-msgstr ""
-
-#: addon/readme.md%2Bheading
-msgid "Emoticons settings"
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"From menu Preferences -> Settings -> Emoticons opens a panel to configure "
-"the activation of your speech-dictionaries for each profile."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"In Emoticons settings panel you can choose whether or not speech-dictionary "
-"should automatically activate when NVDA switches to the profile you are "
-"currently editing. By default it is disabled in normal configuration of NVDA "
-"and in all your new profiles."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"Moreover, it's possible to determine if the add-on emojis should be spoken. "
-"This could be useful to preserve symbols speaking if emojis are included in "
-"NVDA's configuration."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"If symbols inserted using associated gestures aren't spoken in your system, "
-"even when NVDA is configured to speak typed characters, you can try to "
-"enable a checkbox to ensure the speaking of inserted symbols."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"If you may wish to keep clean your configuration folders, in this dialog it "
-"is also possible to choose if dictionaries not used (associated with non "
-"existing profiles) will be removed from the add-on when it is unloaded."
-msgstr ""
-
-#: addon/readme.md%2Bheading
-msgid "Key Commands:"
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"These are the key commands available by default, you can edit those or add "
-"new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
+msgid "Changes for 40.0.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid ""
-"NVDA+E: speaking emoticons on/off, toggles between speaking text as it is "
-"written, or with the emoticons replaced by the human description."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid ""
-"Not assigned: show a dialog to select an NVDA's symbol you want to copy."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid ""
-"Not assigned: open a browseable message showing the symbol where the review "
-"cursor is positioned, so that the whole description can be reviewed in "
-"browse mode."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid ""
-"Not assigned: open a browseable message showing the symbol where the caret "
-"is positioned, so that the whole description can be reviewed in browse mode."
-msgstr ""
-
-#: addon/readme.md%2Bp
-msgid ""
-"Note: On Windows 10 and higher, it's also possible to use the built-in emoji "
-"panel."
-msgstr ""
-
-#: addon/readme.md%2Bheading
-msgid "Changes for 34.0.0"
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid ""
-"Added ability to copy to clipboard, and paste individual symbols, useful "
-"when gestures associated with Insert symbols scripts don't work."
-msgstr ""
-
-#: addon/readme.md%2Bheading
-msgid "Changes for 33.0.0"
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "Fixed bug in Save and export dictionaries."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "Added copy and close buttons to messages presented in browse mode."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid ""
-"When using commands to insert symbols, they may be spoken according to the "
-"speak typed characters option."
+msgid "Added support for Hebrew keyboard."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -299,7 +176,11 @@ msgid "Changes for 22.0.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Requires NVDA 2023.2 or later."
+msgid "Added a button to restore defaults in the add-on settings panel."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid "The add-on cannot be run in secure mode."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -307,11 +188,7 @@ msgid "Changes for 17.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Added ability to associate gestures to type symbols."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "Added ability to copy various symbols at the same time."
+msgid "Compatible with NVDA 2023.1."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -319,7 +196,7 @@ msgid "Changes for 16.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Compatible with NVDA 2023.1."
+msgid "Reqires NVDA 2022.1 or later."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -327,11 +204,15 @@ msgid "Changes for 15.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Requires NVDA 2022.1 or later."
+msgid ""
+"The command to add text to clipboard is again presented in the input "
+"gestures dialog."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Cannot be used in secure mode."
+msgid ""
+"Fixed gestures to copy and cut with Persian keyboard, thanks to "
+"Mohammadhosein Ghezelsofla."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -347,13 +228,31 @@ msgid "Changes for 13.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Fixed errors in Insert Emoticon dialog."
+msgid ""
+"Fixed an issue in visual layout of the settings panel, thanks to Cyrille "
+"Bougot."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid "Improved documentation."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"Added a dialog to insert a symbol available in the Punctuation/symbol "
-"pronunciation of NVDA."
+"Added a Clip Contents Designer category to assign input gestures to all "
+"commands available for this add-on."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid "Fixed bugs when using emulate copy in browsers if focus mode is active."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"You can assign different gestures to show the clipboard textual contents as "
+"raw text or formatted in HTML. The Format to show the clipboard text in the "
+"settings panel has being modified accordingly, to select the two options "
+"available for HTML format."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -361,7 +260,8 @@ msgid "Changes for 12.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Requires NVDA 2019.3 or later."
+msgid ""
+"Fixed bugs when using emulate copy in applications like LibreOffice Writer."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -370,16 +270,13 @@ msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"When the add-on is updated, dictionaries saved in the previous version of "
-"the add-on will be automatically copied to the new version, unless you "
-"prefer to import dictionaries saved in the main dictionaries folder of NVDA."
+"Now it's possible to add text marked with the review cursor using standard "
+"commands of NVDA (NVDA+f9 and NVDA+f10). NVDA+windows+f9 is no longer used, "
+"for a better integration with the new NVDA+shift+f9 command."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid ""
-"When showing the symbol where the caret or the review cursor are positioned, "
-"the words Character and Replacement are used to distinguish between the "
-"symbol itself and its description in browse mode, useful for speech users."
+msgid "Requires NVDA 2019.3 or later."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -388,9 +285,14 @@ msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"Added commands to show the symbol where the review cursor or caret are "
-"positioned. Gestures for these commands can be assigned from the Input "
-"gestures dialog, Text review category."
+"Fixed a bug in the dialog used to show the clipboard text, when its title "
+"contains non latin characters."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Fixed a bug when using the emulate cut and copy features with an Arabic "
+"keyboard layout. This has been fixed by Abdel, added as an add-on author."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -398,23 +300,17 @@ msgid "Changes for 9.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Added the possibility of choosing if add-on emojis should be spoken."
+msgid "Added the possibility of showing the clipboard text in browse mode."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"Used appropiate encoding for dictionary names, fixing errors when they "
-"contain certain characters."
+"Added an option to choose if confirmations will be required if clipboard is "
+"not empty, for instance, if files or folders are been copied."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid ""
-"The translated summary of the add-on is properly used for the title "
-"presented in add-on help, accessible from the add-on manager."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "Added a note mentioning the emoji panel available on Windows 10."
+msgid "Requires NVDA 2018.4 or later."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -422,7 +318,13 @@ msgid "Changes for 8.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Compatible with NVDA 2018.3 or later (required)."
+msgid ""
+"The add-on settings are shown in the corresponding category of the NVDA "
+"Settings dialog."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid "Requires NVDA 2018.2 or later."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -431,20 +333,10 @@ msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"The Activation settings dialog has been moved to a panel in NVDA settings, "
-"so that the current profile will be shown in the title of the NVDA settings "
-"dialog."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid ""
-"The Manage Emoticons menu has been removed: now Insert emoticon will be "
-"found under the Tools menu, and Customize Emoticons will be shown under "
-"Speech dictionaries like Emoticons dictionary."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "Requires NVDA 2018.2 or later."
+"In the dialog to configure the Emulate copy and Emulate cut functionalities "
+"at installation, if you choose no, the commands for these features will be "
+"removed, so that you can restore the normal behavior for control+c and "
+"control+x."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -452,21 +344,27 @@ msgid "Changes for 6.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Added support for configuration profiles."
+msgid ""
+"Added options to choose if available actions should be performed after "
+"confirmation."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"In NVDA 2017.4 or later, the configuration settings and custom dictionaries "
-"will change automatically according with the selected profiles. In 2017.3 or "
-"earlier, you can apply changes by reloading plugins (pressing "
-"control+NVDA+f3)."
+"Added Emulate copy and Emulate cut commands, which could be assigned from "
+"the Input gestures dialog."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"If you choose to import settings when updating the add-on, deprecated files ("
-"emoticons.ini and emoticons.dic) will be removed or adapted to this version."
+"Added a dialog to configure the Emulate copy and Emulate cut functionalities "
+"at installation. This allows to add the control+c and control+x commands to "
+"copy and cut, and be asked if you want to replace the clipboard contents "
+"when pressing these keystrokes."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid "Fixed documentation for script_add (Windows+NVDA+c)."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -474,19 +372,13 @@ msgid "Changes for 5.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Added support for emojis."
+msgid ""
+"The visual presentation of the dialog has been enhanced, adhering to the "
+"appearance of the dialogs shown in NVDA."
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid ""
-"Improvements for Insert Emoticon dialog with a filter field and radio "
-"buttons to choose displayed emoticons."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid ""
-"Using guiHelper for Activation settings dialog and Insert Emoticon dialog: "
-"requires NVDA 2016.4 or higher versions"
+msgid "Requires NVDA 2016.4 or later."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -495,8 +387,16 @@ msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"If the Insert smiley dialog is opened when another settings dialog is "
-"active, NVDA will show the corresponding error message."
+"Add-on settings are managed from NVDA configuration, so that standard "
+"profiles can be used to save different separators, and it's not needed to "
+"copy the settings for importing at reinstallation."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Now it's possible to choose if the added text will be appended or prepended, "
+"using the Add text before clip data check box from the Clip Contents "
+"Designer settings dialog."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -505,9 +405,26 @@ msgstr ""
 
 #: addon/readme.md%2Blist-item.p
 msgid ""
-"In the Customize emoticons dialog, it is now possible to specify that a "
-"pattern should only match if it is a whole word, according to speech "
-"dictionaries of NVDA 2014.4."
+"Braille representation of MathML objects can be added to the clipboard if "
+"MathPlayer is installed."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"If no separator is set, just a single line will be placed between the added "
+"text segments."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"A shortcut can be assigned to open the Clip Contents Designer settings "
+"dialog."
+msgstr ""
+
+#: addon/readme.md%2Blist-item.p
+msgid ""
+"Added a check box in the settings dialog, for choosing if the separator "
+"should be copied to be imported when reinstalling the add-on."
 msgstr ""
 
 #: addon/readme.md%2Bheading
@@ -515,19 +432,7 @@ msgid "Changes for 2.0"
 msgstr ""
 
 #: addon/readme.md%2Blist-item.p
-msgid "Add-on help is available from the Add-ons Manager."
-msgstr ""
-
-#: addon/readme.md%2Bheading
-msgid "Changes for 1.1"
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "Removed duplicated emoticon."
-msgstr ""
-
-#: addon/readme.md%2Blist-item.p
-msgid "Added some smileys."
+msgid "Hindi characters can be used as the separator between added contents."
 msgstr ""
 
 #: addon/readme.md%2Bheading
