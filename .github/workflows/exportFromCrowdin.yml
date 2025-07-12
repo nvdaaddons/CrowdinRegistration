@@ -14,14 +14,15 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Crowdin download
         uses: crowdin/github-action@v2
         with:
-          command: download --all
           upload_sources: false
+          download_sources: true
+          download_translations: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
