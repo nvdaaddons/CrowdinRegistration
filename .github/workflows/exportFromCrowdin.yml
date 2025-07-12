@@ -17,47 +17,10 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v4
 
-      - name: Remove config file
-        run: git rm crowdin.yml
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.11
-
-      - name: Install dependencies
-        run: |
-          pip install scons markdown
-          sudo apt update
-          sudo apt install gettext
-          sudo apt install translate-toolkit
-      - name: Checkout add-on
-        uses: actions/checkout@v4
-        with:
-          repository: nvdaaddons/${{ github.event.inputs.repo }}
-          path: addon
-          ref: stable
-      - name: Create add-on
-        run: |
-          cd addon
-          scons
-      - name: Create pot file
-        run: |
-          cd addon
-          scons pot
-      - name: Convert markdown to pot
-        run: md2po -P readme.md addon
-
-
-
       - name: Crowdin download
         uses: crowdin/github-action@v2
         with:
-          upload_sources: false
-          upload_translations: false
-          download_sources: true
-          download_translations: true
-          create_pull_request: false
-          auto_approve_imported: true
+          download_bundle: 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
