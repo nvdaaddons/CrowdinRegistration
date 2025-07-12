@@ -1,0 +1,35 @@
+name: Export from Crowdin
+
+on:
+  workflow_dispatch:
+
+jobs:
+  exportFromCrowdin:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      #- name: Commit and push
+        #run: |
+          #git config user.name github-actions
+          #git config user.email github-actions@github.com
+          #git add crowdin.yml
+          #git commit -m "Update configuration to register ${{github.event.inputs.repo}}"
+          #git branch -u origin/main
+          #git pull
+          #git push
+      - name: Crowdin download
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: false
+          upload_translations: false
+          download_translations: true
+          auto_approve_imported: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
