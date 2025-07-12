@@ -5,19 +5,19 @@
 
 "files": [
   {
-    "source": "repo/repo.pot",
-    "translation": "repo/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
+    "source": "pcKbBrl/pcKbBrl.pot",
+    "translation": "pcKbBrl/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
   },
   {
-    "source": "repo/repo.pot",
-    "translation": "repo/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+    "source": "pcKbBrl/pcKbBrl.pot",
+    "translation": "pcKbBrl/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
   },
   {
-    "source": "repo/readme.pot",
-    "translation": "repo/doc/%two_letters_code%/readme.po"
+    "source": "pcKbBrl/readme.pot",
+    "translation": "pcKbBrl/doc/%two_letters_code%/readme.po"
   },
     {
-    "source": "repo/readme.pot",
-    "translation": "repo/doc/%locale_with_underscore%/readme.po"
+    "source": "pcKbBrl/readme.pot",
+    "translation": "pcKbBrl/doc/%locale_with_underscore%/readme.po"
   }
 ]
