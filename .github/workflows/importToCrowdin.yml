@@ -31,31 +31,34 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: nvdaaddons/${{ github.event.inputs.repo }}
-          path: ${{ github.event.inputs.repo }}
+          path: addon
           ref: stable
+      - name: Create dir for repo
+        run: mkdir ${{ github.event.inputs.repo }}
       - name: Create add-on
         run: |
-          cd ${{ github.event.inputs.repo }}
+          cd addon
           scons
       - name: Create pot file
         run: |
-          cd ${{ github.event.inputs.repo }}
+          cd addon
           scons pot
+          mv *.pot ${{ github.event.inputs.repo }}
       - name: Convert markdown to pot
-        run: md2po -P ${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
+        run: md2po -P addon/readme.md ${{ github.event.inputs.repo }}
       - name: Move locale to add-on repo folder
         run: |
-          if [ -d "${{ github.event.inputs.repo }}/addon/locale" ]; then
-          mv "${{  github.event.inputs.repo }}/addon/locale" "${{ github.event.inputs.repo }}/locale"
+          if [ -d "addon/addon/locale" ]; then
+          mv "addon/addon/locale" "${{ github.event.inputs.repo }}/locale"
                     else
-          echo "Warning: Folder ${{  github.event.inputs.repo }}/addon/locale does not exist."
+          echo "Warning: Folder addon/addon/locale does not exist."
           fi
       - name: Move doc to add-on repo folder
         run: |
-          if [ -d "${{ github.event.inputs.repo }}/addon/doc" ]; then
-          mv "${{  github.event.inputs.repo }}/addon/doc" "${{ github.event.inputs.repo }}/doc"
+          if [ -d "addon/addon/doc" ]; then
+          mv "addon/addon/doc" "${{ github.event.inputs.repo }}/doc"
                     else
-          echo "Warning: Folder ${{  github.event.inputs.repo }}/addon/doc does not exist."
+          echo "Warning: Folder ${{  addon }}/addon/doc does not exist."
           fi
       - name: Move translated doc to add-on repo folder
         run: |
@@ -74,29 +77,28 @@ jobs:
           fi
           done
 
-      - name: Set configuration for add-on repo
-        run: |
-          sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
-          sed -i'.bak' 's/\(^.*\/\)\(repo.po\)\(.*$\)/\1${{ github.event.inputs.repo }}.po\3/' crowdin.yml
-
-
-      #- name: Commit and push
+      #- name: Set configuration for add-on repo
         #run: |
-          #git config user.name github-actions
-          #git config user.email github-actions@github.com
-          #git add crowdin.yml
-          #git commit -m "Update configuration to register ${{github.event.inputs.repo}}"
-          #git branch -u origin/main
-          #git pull
-          #git push
+          #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
+          #sed -i'.bak' 's/\(^.*\/\)\(repo.po\)\(.*$\)/\1${{ github.event.inputs.repo }}.po\3/' crowdin.yml
+
+
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add crowdin.yml
+          git add ${ github.event.inputs.repo }
+          git commit -m "Register ${{github.event.inputs.repo}}"
+          git branch -u origin/main
+          git pull
+          git push
       - name: Crowdin upload
         uses: crowdin/github-action@v2
         with:
-          #upload_sources: true
-          #upload_translations: true
+          upload_sources: true
+          upload_translations: true
           auto_approve_imported: true
-          download_sources: true
-          download_translations: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
