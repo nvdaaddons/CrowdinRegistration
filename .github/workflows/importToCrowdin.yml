@@ -104,7 +104,7 @@ jobs:
       - name: Crowdin upload
         uses: crowdin/github-action@v2
         with:
-          command: upload file${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
+          command: upload file ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
           upload_translations: true
           auto_approve_imported: true
         env:
