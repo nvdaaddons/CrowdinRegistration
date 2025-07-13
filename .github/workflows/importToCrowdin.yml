@@ -37,7 +37,7 @@ jobs:
         run: |
           if [ -d "${{ github.event.inputs.repo }}" ]; then
           echo "Warning: Folder ${{ github.event.inputs.repo }} already exists. It will be removed."
-          rm -f -r "${{ github.event.inputs.repo }}"
+          rm -rf "${{ github.event.inputs.repo }}"
           fi
           mkdir ${{ github.event.inputs.repo }}
           fi
