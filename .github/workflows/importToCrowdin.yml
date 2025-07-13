@@ -60,7 +60,7 @@ jobs:
           if [ -d "addon/addon/locale" ]; then
           cd addon/addon/locale
           for dir in */; do
-          mv "$dir/LC_MESSAGES/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
+          mv "$dirLC_MESSAGES/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
           done
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
@@ -70,7 +70,7 @@ jobs:
           if [ -d "addon/addon/doc" ]; then
           cd addon/addon/doc
           for dir in */; do
-          mv "$dir/readme.po" "${{ github.event.inputs.repo }}/$dir/readme.po" -f
+          mv "$dir" "${{ github.event.inputs.repo }}/$dir/readme.po" -f
           done
                     else
           echo "Warning: Folder addon/addon/doc does not exist."
