@@ -108,7 +108,7 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: file upload ${{ github.event.inputs.repo }}/nvda.pot
-          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot
+          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot'
           upload_translations: true
           auto_approve_imported: true
           upload_sources: false
