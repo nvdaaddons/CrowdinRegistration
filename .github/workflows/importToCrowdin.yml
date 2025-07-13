@@ -40,7 +40,6 @@ jobs:
           rm -rf "${{ github.event.inputs.repo }}"
           fi
           mkdir ${{ github.event.inputs.repo }}
-          fi
       - name: Create add-on
         run: |
           cd addon
