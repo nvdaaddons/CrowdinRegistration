@@ -59,8 +59,8 @@ jobs:
         run: |
           if [ -d "addon/addon/locale" ]; then
           cd addon/addon/locale
-          for dir in */; do
-          mv "$dir/**/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
+          for dir in *; do
+          mv "$dir/LC_MESSAGES/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
           done
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
