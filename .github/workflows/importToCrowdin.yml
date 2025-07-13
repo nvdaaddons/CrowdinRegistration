@@ -101,7 +101,8 @@ jobs:
           if [ ${#dirs[@]} -gt 0 ]; then
           for dir in $dirs; do
           if [ "$dir" = "nvda.po" ] || [ "$dir" = "readme.po" ]; then
-
+          continue
+          fi
           mv "$dir" "${dir//_/-}"
           done
           else
