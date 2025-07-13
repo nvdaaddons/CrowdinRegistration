@@ -100,10 +100,12 @@ jobs:
           dirs=(*)
           if [ ${#dirs[@]} -gt 0 ]; then
           for dir in $dirs; do
-          if [ "$dir" = "nvda.po" ] || [ "$dir" = "readme.po" ]; then
+          substring="_"
+          if [[ $dir =~ $substring ]]; then
+          mv "$dir" "${dir//_/-}"
+          else
           continue
           fi
-          mv "$dir" "${dir//_/-}"
           done
           else
           echo "No directories to move."
