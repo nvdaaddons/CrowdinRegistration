@@ -105,6 +105,7 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: file upload ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot
+          command_args: '-d ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot'
           upload_translations: true
           auto_approve_imported: true
         env:
