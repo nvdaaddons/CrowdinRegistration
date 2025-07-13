@@ -87,11 +87,17 @@ jobs:
           if [ -d "addon/addon/doc" ]; then
           cd addon/addon/doc
           for dir in */; do
-          mv "$dir" "${{ github.event.inputs.repo }}""
+          mv "$dir" "${{ github.event.inputs.repo }}"
           done
                     else
           echo "Warning: Folder addon/addon/doc does not exist."
           fi
+      - name: Replace underscores with dashes
+        run: |
+          cd ${{ github.event.inputs.repo }}
+          for dir in *; do
+          mv "$dir" "${dir//_/-}"
+
       #- name: Set configuration for add-on repo
         #run: |
           #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
