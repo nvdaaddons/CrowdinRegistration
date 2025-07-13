@@ -97,6 +97,7 @@ jobs:
           cd ${{ github.event.inputs.repo }}
           for dir in *; do
           mv "$dir" "${dir//_/-}"
+          done
 
       #- name: Set configuration for add-on repo
         #run: |
