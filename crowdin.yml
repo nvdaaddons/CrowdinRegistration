@@ -5,19 +5,19 @@
 
 "files": [
   {
-    "source": "**/nvda.pot",
-    "translation": "**/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
+    "source": "clipContentsDesigner/nvda.pot",
+    "translation": "clipContentsDesigner/locale/%two_letters_code%/LC_MESSAGES/nvda.po"
   },
   {
-    "source": "**/nvda.pot",
-    "translation": "**/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
+    "source": "clipContentsDesigner/nvda.pot",
+    "translation": "clipContentsDesigner/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po"
   },
   {
-    "source": "**/readme.pot",
-    "translation": "**/doc/%two_letters_code%/readme.po"
+    "source": "clipContentsDesigner/readme.pot",
+    "translation": "clipContentsDesigner/doc/%two_letters_code%/readme.po"
   },
     {
-    "source": "**/readme.pot",
-    "translation": "**/doc/%locale_with_underscore%/readme.po"
+    "source": "clipContentsDesigner/readme.pot",
+    "translation": "clipContentsDesigner/doc/%locale_with_underscore%/readme.po"
   }
 ]
