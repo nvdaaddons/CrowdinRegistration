@@ -95,23 +95,7 @@ jobs:
       - name: Replace underscores with dashes
         run: |
           cd ${{ github.event.inputs.repo }}
-
-          shopt -s nullglob
-          dirs=(*)
-          if [ ${#dirs[@]} -gt 0 ]; then
-          for dir in $dirs; do
-          substring="_"
-          if [[ $dir =~ $substring ]]; then
-          mv "$dir" "${dir//_/-}"
-          else
-          continue
-          fi
-          done
-          else
-          echo "No directories to move."
-          fi
-          shopt -u nullglob
-
+          for file in *; do mv -v "$file" "$(echo $file | sed 's/_/-/g')" ; done
       #- name: Set configuration for add-on repo
         #run: |
           #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
