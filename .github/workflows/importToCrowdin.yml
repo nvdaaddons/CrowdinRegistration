@@ -129,10 +129,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Crowdin upload translations
+      - name: Crowdin upload two letters codes
         uses: crowdin/github-action@v2
         with:
+          upload_sources: false
           upload_translations: true
-          auto_approve_imported: true
+          download_translations: false
+          source: ${{ github.event.inputs.repo }}/*.pot
+          translation: ${{ github.event.inputs.repo }}/%two_letters_code%.po
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
