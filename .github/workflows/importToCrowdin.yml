@@ -95,9 +95,17 @@ jobs:
       - name: Replace underscores with dashes
         run: |
           cd ${{ github.event.inputs.repo }}
-          for dir in */; do
+
+          shopt -s nullglob
+          dirs=(*)
+          if [ ${#dirs[@]} -gt 0 ]; then
+          for dir in $dirs; do
           mv "$dir" "${dir//_/-}"
           done
+          else
+          echo "No directories to move."
+          fi
+          shopt -u nullglob
 
       #- name: Set configuration for add-on repo
         #run: |
