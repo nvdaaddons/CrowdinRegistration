@@ -58,14 +58,18 @@ jobs:
       - name: Move locale to add-on repo folder
         run: |
           if [ -d "addon/addon/locale" ]; then
-          mv "addon/addon/locale" "${{ github.event.inputs.repo }}" -f
+          cd addon/addon/locale
+          for dir in */; do
+          mv "$dir/LC_MESSAGES/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
           fi
       - name: Move doc to add-on repo folder
         run: |
           if [ -d "addon/addon/doc" ]; then
-          mv "addon/addon/doc" "${{ github.event.inputs.repo }}" -f
+          cd addon/addon/doc
+          for dir in */; do
+          mv "$dir/readme.po" "${{ github.event.inputs.repo }}/$dir/readme.po" -f
                     else
           echo "Warning: Folder addon/addon/doc does not exist."
           fi
@@ -108,7 +112,7 @@ jobs:
         with:
           command: file upload ${{ github.event.inputs.repo }}/nvda.pot
           command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot'
-          upload_translations: false
+          upload_translations: true
           auto_approve_imported: true
           upload_sources: false
         env:
@@ -121,22 +125,9 @@ jobs:
         with:
           command: file upload ${{ github.event.inputs.repo }}/readme.pot
           command_args: '-d ${{ github.event.inputs.repo }}/readme.pot'
-          upload_translations: false
-          auto_approve_imported: true
-          upload_sources: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Crowdin upload two letters codes
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
           upload_translations: true
           auto_approve_imported: true
-          download_translations: false
-          source: ${{ github.event.inputs.repo }}/*.pot'
-          translation: ${{ github.event.inputs.repo }}/*/%two_letters_code%/*/*.po
+          upload_sources: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
