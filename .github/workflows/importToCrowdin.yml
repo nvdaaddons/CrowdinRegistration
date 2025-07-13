@@ -104,11 +104,24 @@ jobs:
           git branch -u origin/main
           git pull
           git push
-      - name: Crowdin upload
+      - name: Crowdin upload interface messages
         uses: crowdin/github-action@v2
         with:
-          command: file upload ${{ github.event.inputs.repo }}/*.pot
-          command_args: '-d ${{ github.event.inputs.repo }}'
+          command: file upload ${{ github.event.inputs.repo }}/nvda.pot
+          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot'
+          upload_translations: true
+          auto_approve_imported: true
+          upload_sources: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+          
+      - name: Crowdin upload documentation
+        uses: crowdin/github-action@v2
+        with:
+          command: file upload ${{ github.event.inputs.repo }}/readme.pot
+          command_args: '-d ${{ github.event.inputs.repo }}/readme.pot'
           upload_translations: true
           auto_approve_imported: true
           upload_sources: false
