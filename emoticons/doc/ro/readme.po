@@ -1,0 +1,777 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-04-01 03:37+0000\n"
+"PO-Revision-Date: 2019-08-14 12:11+0300\n"
+"Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Emoticons\"]]\n"
+msgstr "[[!meta title=\"Emoticons\"]]\n"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier "
+#| "Estrada Martínez"
+msgid ""
+"Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier "
+"Estrada Martínez"
+msgstr ""
+"Autori: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier "
+"Estrada Martínez"
+
+#. type: Plain text
+msgid ""
+"Using this add-on, spoken text containing emoticon characters will be "
+"replaced by its more human friendly description."
+msgstr ""
+"Folosind acest supliment, textul care conține emoticoane va fi înlocuit cu o "
+"descriere mult mai prietenoasă."
+
+#. type: Plain text
+msgid ""
+"For example: the sequence \":)\" will be spoken as \"smiling smiley\", or "
+"for example NVDA will recognize the meaning of each emoji."
+msgstr ""
+"De exemplu: secvența \":)\" va fi pronunțată ca „zâmbet” sau, de exemplu, "
+"NVDA va recunoaște semnificația fiecărui moji."
+
+#. type: Plain text
+msgid "You can take advantage of the following features:"
+msgstr "Există următoarele caracteristici:"
+
+#. type: Title ##
+#, no-wrap
+msgid "Insert Emoticon"
+msgstr "Inserează Emoticon"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Sometimes an image is worth a 1000 words: use the new emoji to liven up "
+#| "your instant message and to let your friends know how you’re feeling."
+msgid ""
+"Sometimes an image is worth a 1000 words: use the new emoji to liven up your "
+"instant message and to let your friends know how you’re feeling."
+msgstr ""
+"Uneori, o imagine face cât 1000 de cuvinte: utilizați noul moji pentru a da "
+"viață mesajului dumneavoastră instant și pentru a permite prietenilor să "
+"știe ceea ce simțiți."
+
+#. type: Plain text
+msgid ""
+"When you are unsure of the characters for a particular smiley, this addon "
+"enables you to select and insert it into your text such as in a chat."
+msgstr ""
+"Când sunteți nesigur de caracterele pentru un zâmbet particular, add-on-ul "
+"vă permite să-l selectați și inserați în textul dumneavoastră."
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.\n"
+msgid "Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.\n"
+msgstr "Apăsați NVDA+I, sau din meniul instrumente -> Inserare Emoticon, pentru a deschide un dialog cu emoticoanele oferite sau mojiuri.\n"
+
+#. type: Plain text
+msgid ""
+"This dialog allows you to choose an emoticon and to view the emoticons that "
+"interest you:"
+msgstr ""
+"Acest dialog vă permite să alegeți un emoticon și să vizualizați "
+"emoticoanele care vă interesează:"
+
+#. type: Bullet: '*	'
+msgid ""
+"An editable field allows you to filter the search for the desired emoticon "
+"among the emoticons available."
+msgstr ""
+"Un câmp editabil vă permite să filtrați căutarea pentru emoticonul dorit "
+"dintre emoticoanele disponibile."
+
+#. type: Bullet: '*	'
+msgid ""
+"Through a set of radio buttons, you can choose to view only emoji category "
+"(alt+E) or view only standard emoticon category (alt+s) or view all "
+"emoticons available (alt+A)."
+msgstr ""
+"Printr-un set de butoane rotative, puteți să alegeți să vizualizați doar "
+"categoria mojiuri (alt+E) sau să vizualizați doar categoria emoticoanelor "
+"standard (alt+s) sau să vizualizați toate emoticoanele disponibile (alt+A).\n"
+"*\tÎn lista emoticoanelor (alt+L) sunt afișate pe trei coloane: numele "
+"emoticonului, tipul acestuia (emoticon standard sau moji), caracterul "
+"corespunzător."
+
+#. type: Bullet: '*	'
+msgid ""
+"In the list of emoticons (alt+L) are displayed on three columns "
+"respectively: the name of emoticon, the type of emoticon (standard emoticon "
+"or emoji), the corresponding character."
+msgstr ""
+"În lista emoticoanelor (alt+L) sunt afișate pe trei coloane numele "
+"emoticonului, tipul acestuia (standard sau moji) și caracterul corespunzător."
+
+#. type: Plain text
+msgid ""
+"When you press OK, the characters for the chosen emoticon will be copied to "
+"your clipboard, ready for pasting."
+msgstr ""
+"Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe "
+"planșetă, pregătite pentru lipire."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Insert Emoticon"
+msgid "Insert symbol"
+msgstr "Inserează Emoticon"
+
+#. type: Plain text
+msgid ""
+"This dialog allows you to choose one of the symbols available in the "
+"Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit "
+"box or the arrow keys to select an item from the symbols list."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you want to copy various symbols, use the Add button to append them to "
+"the Symbols to copy edit box."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "When you press OK, the characters for the chosen emoticon will be copied "
+#| "to your clipboard, ready for pasting."
+msgid ""
+"Then, press OK and the selected emoji or symbol, or the symbols contained in "
+"the mentioned edit box, will be copied to your clipboard, ready for pasting."
+msgstr ""
+"Când apăsați OK, caracterele pentru emoticoanele alese vor fi copiate pe "
+"planșetă, pregătite pentru lipire."
+
+#. type: Title ##
+#, no-wrap
+msgid "Associate gestures to symbols"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"From NVDA's menu, Preferences submenu, Input gestures dialog, category "
+"Insert symbols, you can configure NVDA to type symbols through associated "
+"gestures."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can use the Edit field edit box to reduce the number of symbols "
+"presented, so that this category can be expanded faster."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Emoticons dictionary"
+msgstr "Dicționar de emoticoane"
+
+#. type: Plain text
+msgid ""
+"Emoticons add-on allows to have differents speech-dictionaries using "
+"configuration profiles."
+msgstr ""
+"Suplimentul Emoticons vă permite să aveți diferite dicționare de vorbire "
+"folosind profiluri de configurare."
+
+#. type: Plain text
+msgid ""
+"This means that you can create or edit a specific speech-dictionary for each "
+"your custom profile."
+msgstr ""
+"Aceasta înseamnă că puteți crea sau edita un dicționar de vorbire specific "
+"pentru fiecare profil personalizat."
+
+#. type: Plain text
+#, no-wrap
+msgid "From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.\n"
+msgstr "Din meniul NVDA, Preferințe -> Dicționare de vorbire -> Dicționar de emoticoane, puteți să deschideți un dialog cu setările unde puteți adăuga sau edita emoticoanle disponibile.\n"
+
+#. type: Plain text
+msgid ""
+"Saving your customizations, the new reading settings of emoticons will only "
+"apply to the profile you are currently editing."
+msgstr ""
+"Salvându-vă particularizările, noile setări de citire ale emoticoanelor se "
+"vor aplica numai profilului pe care îl editați în prezent."
+
+#. type: Plain text
+msgid ""
+"For example, you may wish that NVDA spoken custom emoticons only in XxChat "
+"program, but not in other chat programs: you can do this by creating a "
+"profile for the XxChat application and assign to it a speech dictionary from "
+"Speech dictionaries menu, Emoticons dictionary option. See below for "
+"Emoticons settings in relation to the configuration profiles."
+msgstr ""
+"De exemplu, ați putea dori ca NVDA să pronunțe emoticoane personalizate "
+"numai în programul XxChat, dar nu în alte programe de chat: puteți face "
+"acest lucru creând un profil pentru aplicația XxChat și atribuiți un "
+"dicționar de vorbire din meniul din meniul dicționare de vorbire, opțiunea "
+"„Dicționar de emoticoane. Vedeți mai jos setările de activare în raport cu "
+"profilurile de configurare."
+
+#. type: Plain text
+msgid ""
+"You can also export each custom speech-dictionary pressing \"Save and export "
+"dictionary\" button: in this way your speech-dictionaries will be saved in "
+"your user config folder, speechDicts/emoticons subfolder."
+msgstr ""
+"De asemenea, puteți să exportați fiecare dicționar de vorbire apăsând "
+"butonul \"Salvează și exportă dicționar\": în felul acesta, dicționarele "
+"dumneavoastră de vorbire vor fi salvate în folderul de configurare al "
+"utilizatorului, subfolder-ul speechDicts/emoticons."
+
+#. type: Plain text
+msgid ""
+"The exact name and location of the dictionary file will be based on the "
+"editing configuration profile, which will be shown in the title of the "
+"Emoticons dictionary dialog."
+msgstr ""
+"Numele exact și locația fișierului de dicționar vor fi bazate pe editarea "
+"profilului de configurare, care va fi afișat în titlul dialogului dicționar "
+"Emoticons."
+
+#. type: Title ##
+#, no-wrap
+msgid "Emoticons settings"
+msgstr "Setări Emoticons"
+
+#. type: Plain text
+#, no-wrap
+msgid "From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.\n"
+msgstr "Din meniul Preferințe -> Setări Emoticoane deschide un dialog pentru a configura activarea dicționarelor de vorbire pentru fiecare profil.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.\n"
+msgstr "Din panoul de setări al Emoticons, puteți dacă ar trebui sau nu ca dicționarul de vorbire să se activeze automat atunci când NVDA se comută la profilul pe care actualmente îl editați. În mod implicit, este dezactivată în configurația normală a NVDA și în toate profilurile dumneavoastră.\n"
+
+#. type: Plain text
+msgid ""
+"Moreover, it's possible to determine if the add-on emojis should be spoken. "
+"This could be useful to preserve symbols speaking if emojis are included in "
+"NVDA's configuration."
+msgstr ""
+"În plus, e posibil să se determine dacă emoji-urile suplimentului trebuie să "
+"fie pronunțate. Această funcție poate fi utilă în menținerea pronunțării "
+"simbolurilor dacă emoji-urile sunt incluse în configurația NVDA."
+
+#. type: Plain text
+msgid ""
+"If you may wish to keep clean your configuration folders, in this dialog it "
+"is also possible to choose if dictionaries not used (associated with non "
+"existing profiles) will be removed from the add-on when it is unloaded."
+msgstr ""
+"Dacă doriți să păstrați curate folderele de configurare, în această "
+"fereastră de dialog este posibil de asemenea să alegeți dacă dicționarele "
+"care nu sunt utilizate (asociate profilurilor inexistente) vor fi eliminate "
+"din supliment atunci când nu sunt încărcate."
+
+#. type: Title ##
+#, no-wrap
+msgid "Key Commands:"
+msgstr "Comenzi de tastatură:"
+
+#. type: Plain text
+msgid ""
+"These are the key commands available by default, you can edit those or add "
+"new key to open Emoticons settings panel or Emoticon Dictionary dialog:"
+msgstr ""
+"Acestea sunt scurtăturile disponibile în mod implicit, puteți să le editați "
+"sau puteți adăuga o nouă tastă pentru a deschide panoul de setări al "
+"Emoticons sau dialogul dicționarului de emoticoane:"
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA+E: speaking emoticons on/off, toggles between speaking text as it is "
+"written, or with the emoticons replaced by the human description."
+msgstr ""
+"NVDA + E: activarea/dezactivarea pronunțării emoticoanelor, comută între "
+"pronunțarea textului așa cum este scris, sau cu emoticoanele înlocuite cu "
+"descrierea umană."
+
+#. type: Bullet: '* '
+msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
+msgstr ""
+"NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl "
+"copiați."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "NVDA+I: show a dialog to select an emoticon you want to copy."
+msgid ""
+"Not assigned: show a dialog to select an NVDA's symbol you want to copy."
+msgstr ""
+"NVDA+I: Arată un dialog pentru a selecta emoticonul pe care vreți să îl "
+"copiați."
+
+#. type: Bullet: '* '
+msgid ""
+"Not assigned: open a browseable message showing the symbol where the review "
+"cursor is positioned, so that the whole description can be reviewed in "
+"browse mode."
+msgstr ""
+"Neatribuită: deschide un mesaj de navigare care arată simbolul la care este "
+"poziționat cursorul de scriere, astfel încât descrierea să fie parcursă în "
+"modul de navigare."
+
+#. type: Bullet: '* '
+msgid ""
+"Not assigned: open a browseable message showing the symbol where the caret "
+"is positioned, so that the whole description can be reviewed in browse mode."
+msgstr ""
+"Neatribuită: deschide un mesaj de navigare care arată simbolul la care este "
+"poziționat cursorul de scriere, astfel încât descrierea să fie parcursă în "
+"modul de navigare."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Note: On Windows 10, it's also possible to use the built-in emoji panel."
+msgid ""
+"Note: On Windows 10 and higher, it's also possible to use the built-in emoji "
+"panel."
+msgstr "Notă: În Windows 10, este posibil să folosiți și panoul de emoji."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 3.0"
+msgid "Changes for 33.0.0"
+msgstr "Modificări aduse în versiunea 3.0"
+
+#. type: Bullet: '* '
+msgid "Fixed bug in Save and export dictionaries."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added copy and close buttons to messages presented in browse mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 22.0.0"
+msgstr "Modificări aduse în versiunea 2.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2018.2 or later."
+msgid "Requires NVDA 2023.2 or later."
+msgstr "Necesită NVDA 2018.2 sau mai nou."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 17.0"
+msgstr "Modificări aduse în versiuna 1.0"
+
+#. type: Bullet: '* '
+msgid "Added ability to associate gestures to type symbols."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added ability to copy various symbols at the same time."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 16.0"
+msgstr "Modificări aduse în versiuna 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatible with NVDA 2018.3 or later (required)."
+msgid "Compatible with NVDA 2023.1."
+msgstr "Compatibil cu NVDA 2018.3 (necesar)."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 15.0"
+msgstr "Modificări aduse în versiuna 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2018.2 or later."
+msgid "Requires NVDA 2022.1 or later."
+msgstr "Necesită NVDA 2018.2 sau mai nou."
+
+#. type: Bullet: '* '
+msgid "Cannot be used in secure mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 14.0"
+msgstr "Modificări aduse în versiuna 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Compatible with NVDA 2018.3 or later (required)."
+msgid "Compatible with NVDA 2021.1."
+msgstr "Compatibil cu NVDA 2018.3 (necesar)."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 13.0"
+msgstr "Modificări aduse în versiuna 1.0"
+
+#. type: Bullet: '* '
+msgid "Fixed errors in Insert Emoticon dialog."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a dialog to insert a symbol available in the Punctuation/symbol "
+"pronunciation of NVDA."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 12.0"
+msgstr "Modificări aduse în versiuna 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2018.2 or later."
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Necesită NVDA 2018.2 sau mai nou."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 11.0"
+msgstr "Modificări aduse în versiuna 11.0"
+
+#. type: Bullet: '* '
+msgid ""
+"When the add-on is updated, dictionaries saved in the previous version of "
+"the add-on will be automatically copied to the new version, unless you "
+"prefer to import dictionaries saved in the main dictionaries folder of NVDA."
+msgstr ""
+"Când suplimentul este actualizat, dicționarele folosite în versiunile "
+"anterioare vor fi copiate automat pentru a putea fi folosite în noua "
+"versiune, asta dacă nu preferați să importați dicționarele salvate în "
+"dosarul principal al dicționarelor NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"When showing the symbol where the caret or the review cursor are positioned, "
+"the words Character and Replacement are used to distinguish between the "
+"symbol itself and its description in browse mode, useful for speech users."
+msgstr ""
+"La afișarea simbolului la care este poziționat cursorul de scriere sau cel "
+"de examinare, cuvintele, caracterele și înlocuirile sunt folosite cu scopul "
+"de a face o diferență între simbolul în sine și descrierea sa din modul de "
+"navigare, util pentru cei care folosesc sinteza vocală."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 10.0"
+msgstr "Modificări aduse în versiuna 10.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added commands to show the symbol where the review cursor or caret are "
+"positioned. Gestures for these commands can be assigned from the Input "
+"gestures dialog, Text review category."
+msgstr ""
+"S-au adăugat comenzi care arată simbolul la care este poziționat cursorul de "
+"scriere."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 9.0"
+msgstr "Modificări aduse în 9.0"
+
+#. type: Bullet: '* '
+msgid "Added the possibility of choosing if add-on emojis should be spoken."
+msgstr ""
+"Acum, puteți să alegeți dacă emoji-urile suplimentelor vor fi sau nu "
+"pronunțate."
+
+#. type: Bullet: '* '
+msgid ""
+"Used appropiate encoding for dictionary names, fixing errors when they "
+"contain certain characters."
+msgstr ""
+"S-a utilizat encoding apropiat pentru nnumele de dicționar și s-au reparat "
+"erori pe care le aveau anumite caractere."
+
+#. type: Bullet: '* '
+msgid ""
+"The translated summary of the add-on is properly used for the title "
+"presented in add-on help, accessible from the add-on manager."
+msgstr ""
+"Cuprinsul tradus al suplimentului este folosit pentru titlul prezentat în "
+"documentația acestuia, disponibilă în administratorul suplimentelor."
+
+#. type: Bullet: '* '
+msgid "Added a note mentioning the emoji panel available on Windows 10."
+msgstr "S-a adăugat o notă care menționează panoul de emoji din Windows 10."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 8.0"
+msgstr "Modificări aduse în 8.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2018.3 or later (required)."
+msgstr "Compatibil cu NVDA 2018.3 (necesar)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 7.0"
+msgstr "Modificări aduse în 7.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The Activation settings dialog has been moved to a panel in NVDA settings, "
+"so that the current profile will be shown in the title of the NVDA settings "
+"dialog."
+msgstr ""
+"Dialogul de activare al setărilor a fost mutat într-un panou din setările "
+"NVDA, astfel încât profilul curent va fi afișat în titlul dialogului "
+"setărilor NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"The Manage Emoticons menu has been removed: now Insert emoticon will be "
+"found under the Tools menu, and Customize Emoticons will be shown under "
+"Speech dictionaries like Emoticons dictionary."
+msgstr ""
+"Meniul Administrare Emoticoane a fost șters: nicio opțiune de genul Inserare "
+"Emoticon nu va fi găsită în submeniul Instrumente, iar opțiunea de "
+"personalizare a emoticoanelor va fi afișată sub dicționarele de vorbire, la "
+"fel ca dicționarul de emoticoane."
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2018.2 or later."
+msgstr "Necesită NVDA 2018.2 sau mai nou."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Modificări aduse în 6.0"
+
+#. type: Bullet: '* '
+msgid "Added support for configuration profiles."
+msgstr "S-a adăugat suportul pentru configurarea profilurilor."
+
+#. type: Bullet: '* '
+msgid ""
+"In NVDA 2017.4 or later, the configuration settings and custom dictionaries "
+"will change automatically according with the selected profiles. In 2017.3 or "
+"earlier, you can apply changes by reloading plugins (pressing "
+"control+NVDA+f3)."
+msgstr ""
+"În NVDA 2017.4 sau o versiune ulterioară, setările de configurare și "
+"dicționarele personalizate se vor schimba automat acordându-se cu "
+"profilurile selectate. În 2017.3 sau mai recent, puteți aplica modificări "
+"prin reîncărcarea pluginurilor (apăsând control+ NVDA+f3)."
+
+#. type: Bullet: '* '
+msgid ""
+"If you choose to import settings when updating the add-on, deprecated files "
+"(emoticons.ini and emoticons.dic) will be removed or adapted to this version."
+msgstr ""
+"Dacă alegeți să importați setări atunci când actualizați suplimentul, "
+"fișierele depreciate (emoticons.ini și emoticons.dic) vor fi eliminate sau "
+"adaptate la această versiune."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Modificări aduse în 5.0"
+
+#. type: Bullet: '* '
+msgid "Added support for emojis."
+msgstr "A fost adăugat suportul pentru mojiuri."
+
+#. type: Bullet: '* '
+msgid ""
+"Improvements for Insert Emoticon dialog with a filter field and radio "
+"buttons to choose displayed emoticons."
+msgstr ""
+"Îmbunătățiri pentru dialogul de inserare al emoticoanelor cu un câmp de "
+"filtrare și butoane rotative pentru a alege emoticoanele afișate."
+
+#. type: Bullet: '* '
+msgid ""
+"Using guiHelper for Activation settings dialog and Insert Emoticon dialog: "
+"requires NVDA 2016.4 or higher versions"
+msgstr ""
+"Utilizând ghidul de ajutor pentru dialogul de activare al setărilor și "
+"dialogul de inserare a emoticoanelor: Necesită NVDA 2016.4 sau mai vechi"
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Modificări aduse în 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"If the Insert smiley dialog is opened when another settings dialog is "
+"active, NVDA will show the corresponding error message."
+msgstr ""
+"Dacă dialogul de inserare al emoticonului este deschis când alt dialog de "
+"setări este activ, NVDA va afișa un mesaj de eroare."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Modificări aduse în versiunea 3.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In the Customize emoticons dialog, it is now possible to specify that a "
+"pattern should only match if it is a whole word, according to speech "
+"dictionaries of NVDA 2014.4."
+msgstr ""
+"În dialogul de personalizare emoticon, este acum posibil să specifici dacă "
+"un model trebuie să fie asemănător dacă este un cuvânt întreg, în acordanță "
+"cu dicționarele de vorbire versiunii NVDA 2014.4."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Modificări aduse în versiunea 2.0"
+
+#. type: Bullet: '* '
+msgid "Add-on help is available from the Add-ons Manager."
+msgstr "Ajutorul add-on-ului este disponibil din manager-ul de add-on-uri."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.1"
+msgstr "Modificări aduse în versiunea 1.1"
+
+#. type: Bullet: '* '
+msgid "Removed duplicated emoticon."
+msgstr "Au fost șterse emoticoanele duplicate."
+
+#. type: Bullet: '* '
+msgid "Added some smileys."
+msgstr "Au mai fost adăugate ceva emoticoane."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Modificări aduse în versiuna 1.0"
+
+#. type: Bullet: '* '
+msgid "Initial version."
+msgstr "Versiunea Inițială."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#~ msgid ""
+#~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
+#~ "[3]."
+#~ msgstr ""
+#~ "Dacă e musai, puteți să descărcați [ultima versiune compatibilă cu NVDA "
+#~ "2017.3][3]."
+
+#, fuzzy
+#~| msgid "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
+#~ msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=emo-o"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=emo-o"
+
+#, fuzzy
+#~| msgid "Download [development version][2]"
+#~ msgid "Download [beta version][2] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "Descarcă [versiunea în dezvoltare][2]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=emoticons"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=emo"
+
+#, fuzzy
+#~| msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
+#~ msgid "[2]: https://www.nvaccess.org/addonStore/legacy?file=emoticons-beta"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=emo-dev"
+
+#, fuzzy
+#~| msgid "Download [development version][2]"
+#~ msgid ""
+#~ "Download [development version][2] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "Descarcă [versiunea în dezvoltare][2]"
+
+#, fuzzy
+#~| msgid "NVDA compatibility: 2018.3 to 2019.2"
+#~ msgid "NVDA compatibility: 2019.3 or later"
+#~ msgstr "Compatibilitate NVDA: 2018.3 - 2019.2"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Descarcă [versiunea stabilă][1]"
+
+#~ msgid ""
+#~ "Also, it's possible to enable Settings only in normal configuration (not "
+#~ "recommended). This is intended to disable settings changes in case of "
+#~ "speed issues when switching profiles."
+#~ msgstr ""
+#~ "De asemenea, puteți activa setări numai în configurația normală "
+#~ "(nerecomandat). Aceasta e făcută cu scopul de a dezactiva modificările de "
+#~ "setări în cazul problemelor de viteză la comutarea profilurilor."
+
+#~ msgid ""
+#~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"
+#~ "emoticons-6.5.nvda-addon"
+#~ msgstr ""
+#~ "[3]: https://github.com/nvdaes/emoticons/releases/download/6.5/"
+#~ "emoticons-6.5.nvda-addon"
+
+#~ msgid "Customize emoticons"
+#~ msgstr "Personalizați emoticoanele"
+
+#~ msgid "It is also possible to save your choice for this setting."
+#~ msgstr ""
+#~ "De asemenea este posibilă salvarea alegerii dumneavoastră pentru această "
+#~ "setare."
+
+#~ msgid ""
+#~ "When you are unsure of the characters for a particular smiley, this addon "
+#~ "enables you to select and insert it into your text such as in a chat.\n"
+#~ "Press NVDA+I, or from menu Preferences -> Manage emoticons -> Insert "
+#~ "smiley, to open a dialog \n"
+#~ "with the provided smilies.\n"
+#~ "When you press OK, the characters for the chosen smiley will be copied to "
+#~ "your clipboard, ready for pasting.\n"
+#~ msgstr ""
+#~ "Când nu ești sigur care sunt caracterele pentru un emoticon particular, "
+#~ "acest add-on te lasă să selectezi și înserezi emoticonul în textul tău, "
+#~ "cum ar fi un chat.\n"
+#~ "Apasă NVDA+I, sau din meniul Preferințe, Administrare emoticonuri, "
+#~ "Înserează emoticon, pentru a deschide un dialog\n"
+#~ "cu emoticoanele disponibile.\n"
+#~ "Când apeși OK, caracterele pentru emoticonul selectat va fi copiat pe "
+#~ "planșetă, gata pentru a fi lipit.\n"
