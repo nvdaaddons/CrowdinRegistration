@@ -49,20 +49,23 @@ jobs:
           cd addon
           scons pot
       - name: Move pot file
-        run: mv addon/${{ github.event.inputs.repo }}.pot ${{ github.event.inputs.repo }} -f
+        run: |
+          mv addon/${{ github.event.inputs.repo }}.pot ${{ github.event.inputs.repo }} -f
+          cd ${{ github.event.inputs.repo }}
+          mv ${{ github.event.inputs.repo }}.pot nvda.pot
       - name: Convert markdown to pot
         run: md2po -P addon/readme.md ${{ github.event.inputs.repo }}
       - name: Move locale to add-on repo folder
         run: |
           if [ -d "addon/addon/locale" ]; then
-          mv "addon/addon/locale" "${{ github.event.inputs.repo }}"
+          mv "addon/addon/locale" "${{ github.event.inputs.repo }}" -f
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
           fi
       - name: Move doc to add-on repo folder
         run: |
           if [ -d "addon/addon/doc" ]; then
-          mv "addon/addon/doc" "${{ github.event.inputs.repo }}"
+          mv "addon/addon/doc" "${{ github.event.inputs.repo }}" -f
                     else
           echo "Warning: Folder addon/addon/doc does not exist."
           fi
@@ -76,7 +79,7 @@ jobs:
           continue
           fi
           if [ -f "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" ]; then
-            mv "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" "$dir"
+            mv "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" "$dir" -f
             mv "$dir/${{ github.event.inputs.repo }}.$dirBasename.po" "$dir/readme.po"
           else
             echo "Warning: File addons/${{ github.event.inputs.repo }}.$dirBasename.po does not exist."
@@ -108,6 +111,7 @@ jobs:
           command_args: '-d ${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot'
           upload_translations: true
           auto_approve_imported: true
+          upload_sources: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
