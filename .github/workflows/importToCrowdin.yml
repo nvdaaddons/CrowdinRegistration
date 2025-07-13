@@ -36,8 +36,9 @@ jobs:
       - name: Create dir for repo
         run: |
           if [ -d "${{ github.event.inputs.repo }}" ]; then
-          echo "Warning: Folder ${{ github.event.inputs.repo }} already exists."
-          else
+          echo "Warning: Folder ${{ github.event.inputs.repo }} already exists. It will be removed."
+          rm -f -r "${{ github.event.inputs.repo }}"
+          fi
           mkdir ${{ github.event.inputs.repo }}
           fi
       - name: Create add-on
@@ -135,8 +136,8 @@ jobs:
           upload_translations: true
           auto_approve_imported: true
           download_translations: false
-          source: ${{ github.event.inputs.repo }}/**/*.pot'
-          translation: ${{ github.event.inputs.repo }}/%two_letters_code%/**/*.po
+          source: ${{ github.event.inputs.repo }}/*.pot'
+          translation: ${{ github.event.inputs.repo }}/*/%two_letters_code%/*/*.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
