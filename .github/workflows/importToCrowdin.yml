@@ -55,14 +55,14 @@ jobs:
       - name: Move locale to add-on repo folder
         run: |
           if [ -d "addon/addon/locale" ]; then
-          mv "addon/addon/locale" "${{ github.event.inputs.repo }}/locale"
+          mv "addon/addon/locale" "${{ github.event.inputs.repo }}"
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
           fi
       - name: Move doc to add-on repo folder
         run: |
           if [ -d "addon/addon/doc" ]; then
-          mv "addon/addon/doc" "${{ github.event.inputs.repo }}/doc"
+          mv "addon/addon/doc" "${{ github.event.inputs.repo }}"
                     else
           echo "Warning: Folder addon/addon/doc does not exist."
           fi
@@ -96,7 +96,7 @@ jobs:
           git add crowdin.yml
           git add ${{ github.event.inputs.repo }}/*.pot
           git add ${{ github.event.inputs.repo }}/locale/**/*.po
-          git add ${{ github.event.inputs.repo }}/doc/**/*.md
+          git add ${{ github.event.inputs.repo }}/doc/**/*.po
           git commit -m "Register ${{ github.event.inputs.repo }}"
           git branch -u origin/main
           git pull
