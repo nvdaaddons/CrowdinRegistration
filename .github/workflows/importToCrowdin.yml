@@ -60,25 +60,15 @@ jobs:
           if [ -d "addon/addon/locale" ]; then
           cd addon/addon/locale
           for dir in */; do
-          mv "$dirLC_MESSAGES/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
+          mv "$dir/**/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
           done
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
           fi
-      - name: Move doc to add-on repo folder
-        run: |
-          if [ -d "addon/addon/doc" ]; then
-          cd addon/addon/doc
-          for dir in */; do
-          mv "$dir" "${{ github.event.inputs.repo }}/$dir/readme.po" -f
-          done
-                    else
-          echo "Warning: Folder addon/addon/doc does not exist."
-          fi
+
       - name: Move translated doc to add-on repo folder
         run: |
-          cd ${{ github.event.inputs.repo }}
-          cd doc
+          cd addon/addon/doc
           for dir in */; do
           dirBasename=$(basename "$dir")
           if [ "$dirBasename" = "en" ] || [ "$dirBasename" = "style.css" ]; then
@@ -91,7 +81,16 @@ jobs:
             echo "Warning: File addons/${{ github.event.inputs.repo }}.$dirBasename.po does not exist."
           fi
           done
-
+      - name: Move doc to add-on repo folder
+        run: |
+          if [ -d "addon/addon/doc" ]; then
+          cd addon/addon/doc
+          for dir in */; do
+          mv "$dir" "${{ github.event.inputs.repo }}
+          done
+                    else
+          echo "Warning: Folder addon/addon/doc does not exist."
+          fi
       #- name: Set configuration for add-on repo
         #run: |
           #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
