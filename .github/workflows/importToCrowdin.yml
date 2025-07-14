@@ -58,8 +58,7 @@ jobs:
       - name: Move locale to add-on repo folder
         run: |
           if [ -d "addon/addon/locale" ]; then
-          cd addon/addon
-          mv locale ${{ github.event.inputs.repo }}
+          mv addon/addon/locale ${{ github.event.inputs.repo }}
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
           fi
