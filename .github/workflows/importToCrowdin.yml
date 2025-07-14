@@ -111,8 +111,8 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: file upload ${{ github.event.inputs.repo }}/nvda.pot
-          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot -t {{ github.event.inputs.repo }}/%two_letters_code%/nvda.po'
-          upload_translations: true
+          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot'
+          upload_translations: false
           auto_approve_imported: true
           upload_sources: false
         env:
@@ -124,11 +124,35 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: file upload ${{ github.event.inputs.repo }}/readme.pot
-          command_args: '-d ${{ github.event.inputs.repo }}/readme.pot -t {{ github.event.inputs.repo }}/%two_letters_code%/readme.po'
-          upload_translations: true
+          command_args: '-d ${{ github.event.inputs.repo }}/readme.pot '
+          upload_translations: false
           auto_approve_imported: true
           upload_sources: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+name: Crowdin Action
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  crowdin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Crowdin sync
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: false
+          upload_translations: true
+          source: ${{ github.event.inputs.repo }}/*.pot
+          translation: ${{ github.event.inputs.repo }}/%two_letters_code%/*.po
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
