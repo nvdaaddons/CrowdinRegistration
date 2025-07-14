@@ -58,18 +58,23 @@ jobs:
       - name: Move locale to add-on repo folder
         run: |
           if [ -d "addon/addon/locale" ]; then
-          cd addon/addon/locale
-          for dir in *; do
-          mkdir -p ${{ github.event.inputs.repo }}/$dir
-          mv "$dir/LC_MESSAGES/nvda.po" "${{ github.event.inputs.repo }}/$dir/nvda.po" -f
-          done
+          cd addon/addon
+          mv locale ${{ github.event.inputs.repo }}
                     else
           echo "Warning: Folder addon/addon/locale does not exist."
           fi
-
-      - name: Move translated doc to add-on repo folder
+      - name: Move doc to add-on repo folder
         run: |
-          cd addon/addon/doc
+          if [ -d "addon/addon/doc" ]; then
+          mv "$dir" "${{ github.event.inputs.repo }}"
+          done
+                    else
+          echo "Warning: Folder addon/addon/doc does not exist. Creating folder."
+          mkdir -p ${{ github.event.inputs.repo }}/doc
+          fi
+      - name: Move translated doc
+        run: |
+          cd ${{ github.event.inputs.repo }}/doc
           for dir in */; do
           dirBasename=$(basename "$dir")
           if [ "$dirBasename" = "en" ] || [ "$dirBasename" = "style.css" ]; then
@@ -82,16 +87,7 @@ jobs:
             echo "Warning: File addons/${{ github.event.inputs.repo }}.$dirBasename.po does not exist."
           fi
           done
-      - name: Move doc to add-on repo folder
-        run: |
-          if [ -d "addon/addon/doc" ]; then
-          cd addon/addon/doc
-          for dir in */; do
-          mv "$dir" "${{ github.event.inputs.repo }}"
-          done
-                    else
-          echo "Warning: Folder addon/addon/doc does not exist."
-          fi
+
       #- name: Set configuration for add-on repo
         #run: |
           #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
@@ -102,41 +98,17 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add ${{ github.event.inputs.repo }}
+          git add ${{ github.event.inputs.repo }}/*.pot
+          git add ${{ github.event.inputs.repo }}/**/*.po
           git commit -m "Register ${{ github.event.inputs.repo }}"
           git branch -u origin/main
           git pull
           git push
-      - name: Crowdin upload interface messages
-        uses: crowdin/github-action@v2
-        with:
-          command: file upload ${{ github.event.inputs.repo }}/nvda.pot
-          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot'
-          upload_translations: false
-          auto_approve_imported: true
-          upload_sources: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-          
-      - name: Crowdin upload documentation
-        uses: crowdin/github-action@v2
-        with:
-          command: file upload ${{ github.event.inputs.repo }}/readme.pot
-          command_args: '-d ${{ github.event.inputs.repo }}/readme.pot '
-          upload_translations: false
-          auto_approve_imported: true
-          upload_sources: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
 
       - name: Crowdin sync
         uses: crowdin/github-action@v2
         with:
-          upload_sources: false
+          upload_sources: true
           upload_translations: true
           source: ${{ github.event.inputs.repo }}/nvda.pot
           translation: ${{ github.event.inputs.repo }}/%two_letters_code%/nvda.po
