@@ -67,7 +67,6 @@ jobs:
         run: |
           if [ -d "addon/addon/doc" ]; then
           mv "$dir" "${{ github.event.inputs.repo }}"
-          done
                     else
           echo "Warning: Folder addon/addon/doc does not exist. Creating folder."
           mkdir -p ${{ github.event.inputs.repo }}/doc
