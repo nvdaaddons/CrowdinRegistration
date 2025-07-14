@@ -92,10 +92,6 @@ jobs:
                     else
           echo "Warning: Folder addon/addon/doc does not exist."
           fi
-      - name: Replace underscores with dashes
-        run: |
-          cd ${{ github.event.inputs.repo }}
-          for file in *; do mv -v "$file" "$(echo $file | sed 's/_/-/g')" ; done
       #- name: Set configuration for add-on repo
         #run: |
           #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
@@ -115,7 +111,7 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: file upload ${{ github.event.inputs.repo }}/nvda.pot
-          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot'
+          command_args: '-d ${{ github.event.inputs.repo }}/nvda.pot -t {{ github.event.inputs.repo }}/%two_letters_code%/nvda.po'
           upload_translations: true
           auto_approve_imported: true
           upload_sources: false
@@ -128,7 +124,7 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: file upload ${{ github.event.inputs.repo }}/readme.pot
-          command_args: '-d ${{ github.event.inputs.repo }}/readme.pot'
+          command_args: '-d ${{ github.event.inputs.repo }}/readme.pot -t {{ github.event.inputs.repo }}/%two_letters_code%/readme.po'
           upload_translations: true
           auto_approve_imported: true
           upload_sources: false
