@@ -138,8 +138,8 @@ jobs:
         with:
           upload_sources: false
           upload_translations: true
-          source: ${{ github.event.inputs.repo }}/*.pot
-          translation: ${{ github.event.inputs.repo }}/%two_letters_code%/*.po
+          source: ${{ github.event.inputs.repo }}/nvda.pot
+          translation: ${{ github.event.inputs.repo }}/%two_letters_code%/nvda.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
