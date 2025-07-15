@@ -5,7 +5,7 @@ on:
 
 jobs:
   importAddons:
-    uses: ./.github/workflows/importToCrowdin.yml@main
+    uses: ./.github/workflows/importToCrowdin.yml
     strategy:
       fail-fast: false
       max-parallel: 1
