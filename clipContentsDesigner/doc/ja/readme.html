@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>Clip Contents Designer 47.0.0</title>
+</head>
+<body>
+<h1>Clip Contents Designer</h1>
+<ul>
+<li>作者: Noelia, Abdel。</li>
+</ul>
+<p>このアドオンは、クリップボードにテキストを追加するのに使用されます。テキストの切片を結合して一緒に貼り付けしたい時に便利です。クリップボードの内容は、ブラウズモードでの表示で消去も出来ます。</p>
+<h2>キー操作</h2>
+<ul>
+<li>NVDA+windows+c:
+  選択したテキスト、MathMLオブジェクトを表すユニコード点字文字、またはレビューカーソルでマークされた文字列を、クリップボードに追加します。</li>
+<li>NVDA+Windows+x: クリップボードの内容を消去します。</li>
+<li>割り当てなし: クリップボードにコピー(または切り取り)、前回の確認を問い合わせるかどうかを切り替えます。</li>
+<li>割り当てなし:
+  クリップボードのテキストをブラウズモードでHTMLとして表示します。または、もしクリップボードが空、または、閲覧可能なメッセージの表示ではない、例えばファイルやフォルダがWindows
+  Explorerからコピーされているなどの内容の場合に通知します。</li>
+<li>割り当てなし:
+  テキストのクリップボードの内容をブラウズモードで表示します。または、もしクリップボードが空、または、閲覧可能なメッセージの表示ではない、例えばファイルやフォルダがWindows
+  Explorerからコピーされているなどの内容の場合に通知します。</li>
+</ul>
+<h2>Clip Contents Designer設定</h2>
+<p>このパネルはNVDAメニュー、設定(P)サブメニュー、設定(S)ダイアログから利用可能です。</p>
+<p>次のコントロールを含みます:</p>
+<ul>
+<li>クリップボードに追加された内容の間のセパレータとして使用する文字列を入力します:
+  追加されたテキスト全体がペーストされた時に、テキストの区切りを見つけるのに使用可能なセパレータを設定出来ます。</li>
+<li>クリップデータの前にテキストを追加: 追加されたテキストが後ろに追加されるか前に追加されるかを選択することも可能です。</li>
+<li>前の確認を依頼する動作を選択します:
+  それぞれの利用可能な動作について、それがすぐにまたは確認後に実行されるかどうか、選択することが出来ます。利用可能な動作:
+  テキスト追加、クリップボード消去、コピーのエミュレートと切り取りのエミュレート。</li>
+<li>選択された動作を実行する前に確認をいつ依頼するか:
+  単にテキストがクリップボードに含まれている時、または、クリップボードが空でない時(例えばテキストでなくファイルをコピーした時)、確認を常に依頼するかどうか、選択出来ます。</li>
+<li>クリップボードのテキストを表示する書式をブラウズモードでHTMLに:
+  もし、HTMLマークアップ言語を学んでいる場合、HTMLの整形済みテキストまたはHTMLをウェブブラウザに表示されるように、選択出来、HTMLコードがブラウザでどのようにNVDAにより表現されるかわかります。整形済みと従来のHTML違いは、最初の選択肢の場合は連続するスペースや改行を保持し、二番目の選択肢の場合は圧縮します。例えば、h1,
+  h2, li,
+  preなどのようなHTMLタグで書いて、テキストを選択してクリップボードにコピーし、clipContentsDesignerアドオンを使うと、閲覧可能なメッセージにテキストを表示します。</li>
+<li>クリップボードのテキストをブラウズモードで表示する時の最大文字数:
+  この限界を増加することは、クリップボードが大きな文字列を含む場合に、問題となることに注意して下さい。初期の限界値は100000文字です。</li>
+<li>Restore defaults.</li>
+</ul>
+<p>備考:</p>
+<ul>
+<li>NVDAのメッセージボックスがまだ開いている時に、確認が依頼されません。これらの場合、動作がすぐに実行されます。</li>
+<li>Emulate copy and emulate cut commands mean that, when these features are
+  enabled, the add-on will take control of control+c and control+x. This
+  will allow to select if a confirmation should be requested before
+  performing the actions corresponding to these keystrokes.</li>
+</ul>
+<h2>Changes for 46.0.0</h2>
+<ul>
+<li>NVDA will sanitize HTML in browseable messages.</li>
+<li>Added a button to close browseable messages, in addition to the Escape
+  key.</li>
+</ul>
+<h2>Changes for 40.0.0</h2>
+<ul>
+<li>Added support for Hebrew keyboard.</li>
+</ul>
+<h2>Changes for 22.0.0</h2>
+<ul>
+<li>Added a button to restore defaults in the add-on settings panel.</li>
+<li>The add-on cannot be run in secure mode.</li>
+</ul>
+<h2>Changes for 17.0</h2>
+<ul>
+<li>Compatible with NVDA 2023.1.</li>
+</ul>
+<h2>16.0の変更点</h2>
+<ul>
+<li>Reqires NVDA 2022.1 or later.</li>
+</ul>
+<h2>15.0の変更点</h2>
+<ul>
+<li>テキストをクリップボードに追加するコマンドが、再び入力ジェスチャーダイアログに現れるようになりました。</li>
+<li>ペルシア語キーボードでの、コピーと切り取りのジェスチャーを修正しました。Mohammadhosein Ghezelsoflaのおかげです。</li>
+</ul>
+<h2>14.0の変更点</h2>
+<ul>
+<li>NVDA 2021.1に互換。</li>
+</ul>
+<h2>Changes for 13.0</h2>
+<ul>
+<li>設定パネルの外観的なレイアウトの問題を修正しました。Cyrille Bougotのおかげです。</li>
+<li>ドキュメントの改善。</li>
+<li>このアドオンの利用可能な全てのコマンドに入力ジェスチャーを割り当てする、Clip Contents Designerカテゴリーを追加しました。</li>
+<li>もしフォーカスモードがアクティブな時に、ブラウザでコピーのエミュレートを使用している時の、バグを修正しました。</li>
+<li>クリップボードのテキストの内容を、テキストのまま、またはHTMLフォーマットで表示するのに、異なるジェスチャーを割り当てすることが出来ます。それに従って、設定パネルでの、クリップボードのテキストを表示するフォーマットは、HTMLフォーマットについて利用可能な2つの選択肢を選択するように、修正されています。</li>
+</ul>
+<h2>12.0の変更点</h2>
+<ul>
+<li>LibreOffice Writerのようなアプリケーションで、コピーのエミュレートを使用する時の、バグを修正しました。</li>
+</ul>
+<h2>11.0の変更点</h2>
+<ul>
+<li>NVDAの標準コマンド(NVDA+f9とNVDA+f10)を使用して、レビューカーソルでマークされたテキストを追加することが可能になりました。新しいNVDA+shift+f9コマンドとの統一性を良くするため、NVDA+windows+f9は使ええなくなりました。</li>
+<li>NVDA 2019.3以降が必要。</li>
+</ul>
+<h2>10.0の変更点</h2>
+<ul>
+<li>クリップボードのテキストを表示するのに使用されるダイアログでの、タイトルが非ラテン文字を含む時のバグを修正しました。</li>
+<li>アラビア語キーボードレイアウトで、切り取りとコピー機能のエミュレートを使用する時のバグを修正しました。これはアドオンの作者として追加された、Abdelにより修正されました。</li>
+</ul>
+<h2>9.0の変更点</h2>
+<ul>
+<li>ブラウズモードでクリップボードのテキストを表示出来る機能を追加しました。</li>
+<li>クリップボードが空でない時、例えば、ファイルまたはフォルダがコピーされている時に、確認が必要かどうかを選択するオプションを追加しました。</li>
+<li>NVDA 2018.4以降が必要。</li>
+</ul>
+<h2>8.0の変更点</h2>
+<ul>
+<li>アドオン設定は、NVDA設定ダイアログの、対応するカテゴリーに表示されます。</li>
+<li>NVDA 2018.2以降が必要。</li>
+</ul>
+<h2>7.0の変更点</h2>
+<ul>
+<li>インストール時にコピーのエミュレートとカットのエミュレートの機能を設定するダイアログで、いいえを選ぶと、これらの機能のコマンドが除去され、control+cとcontrol+xの標準動作に戻すことが出来ます。</li>
+</ul>
+<h2>6.0の変更点</h2>
+<ul>
+<li>Added options to choose if available actions should be performed after
+  confirmation.</li>
+<li>Added Emulate copy and Emulate cut commands, which could be assigned from
+  the Input gestures dialog.</li>
+<li>Added a dialog to configure the Emulate copy and Emulate cut
+  functionalities at installation. This allows to add the control+c and
+  control+x commands to copy and cut, and be asked if you want to replace
+  the clipboard contents when pressing these keystrokes.</li>
+<li>Fixed documentation for script_add (Windows+NVDA+c).</li>
+</ul>
+<h2>5.0の変更点</h2>
+<ul>
+<li>ダイアログの外観的表示が、NVDAで表示されるダイアログの外観と似るように、拡張されました。</li>
+<li>NVDA 2016.4以降が必要。</li>
+</ul>
+<h2>4.0の変更点</h2>
+<ul>
+<li>異なるセパレータを保存するのに、標準プロファイルが使用され、再インストール時にインポートする設定をコピーする必要がないように、アドオン設定をNVDA設定から管理。</li>
+<li>Clip Contents
+  Designer設定ダイアログから、テキストをクリップデータの前に追加チェックボックスを使用して、追加されたテキストが後ろに追加されるか前に追加されるかを選択可能。</li>
+</ul>
+<h2>3.0の変更点</h2>
+<ul>
+<li>MathPlayerがインストールされている場合に、MathMLのオブジェクトの点字表記をクリップボードに追加可能。</li>
+<li>セパレータの設定がされていない場合、テキストの切片の間には単線を配置。</li>
+<li>Clip Contents Designer 設定ダイアログを開くショートカットを割り当て可能。</li>
+<li>設定ダイアログに、このアドオンの再インストールの際にインポートされるように、このセパレータをコピーするかどうかを選択するチェックボックスを追加。</li>
+</ul>
+<h2>2.0の変更点</h2>
+<ul>
+<li>追加されたテキストの間のセパレータとして、ヒンディー文字が使用可能。</li>
+</ul>
+<h2>1.0の変更点</h2>
+<ul>
+<li>最初のバージョン。</li>
+</ul>
+<p>[[!tag dev stable]]</p>
+</body>
+</html>

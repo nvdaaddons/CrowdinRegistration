@@ -1,0 +1,699 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Clip Contents Designer web page\n"
+"POT-Creation-Date: 2024-11-30 11:13+0000\n"
+"PO-Revision-Date: 2021-07-18 16:30+0100\n"
+"Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
+"rui.fontes@tiflotecnia.com\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Clip Contents Designer\"]]\n"
+msgstr "[[!meta title=\"Clip Contents Designer\"]]\n"
+
+#. type: Bullet: '*	'
+msgid "Authors: Noelia, Abdel."
+msgstr "Autores: Noelia, Abdel."
+
+#. type: Plain text
+msgid ""
+"This add-on is used to add text to the clipboard, which can be useful when "
+"you want to join sections of text together ready for pasting.  The clipboard "
+"content can also be cleared an shown in browse mode."
+msgstr ""
+"Este extra é usado para adicionar texto à área de transferência, o que lhe "
+"pode ser útil quando quiser juntar várias partes de textos num só, pronto "
+"para colar.  O conteúdo da área de transferência também pode ser visto no "
+"modo de navegação."
+
+#. type: Title ##
+#, no-wrap
+msgid "Keyboard commands"
+msgstr "Comandos de teclado"
+
+#. type: Bullet: '*	'
+msgid ""
+"NVDA+windows+c: Add selected text, Unicode braille characters which "
+"represent MathML objects, or the string which has been marked with the "
+"review cursor, to the clipboard."
+msgstr ""
+"NVDA+windows+c: adiciona o texto seleccionado, os caracteres unicode em "
+"Braille que representem objetos MathML, ou a cadeia que foi marcada com o "
+"cursor de exploração, à área de transferência."
+
+#. type: Bullet: '*	'
+msgid "NVDA+windows+x: Clear clipboard contents."
+msgstr "NVDA+windows+x: limpa o conteúdo da área de transferência."
+
+#. type: Bullet: '*	'
+msgid ""
+"Not assigned: Copies to (or cuts from) the clipboard, with the possibility "
+"of being asked for a previous confirmation."
+msgstr ""
+"Não atribuído: Cópias para (ou cortes de) a área de transferência, com a "
+"possibilidade de ser solicitada uma confirmação prévia."
+
+#. type: Bullet: '*	'
+msgid ""
+"Not assigned: Shows the clipboard text as HTML in browse mode, or announces "
+"if clipboard is empty or has contents which can't be presented in a "
+"browseable message, for instance if files or folders are been copied from "
+"Windows Explorer."
+msgstr ""
+"Não atribuído: Mostra o texto da área de transferência como HTML no modo de "
+"navegação, ou anuncia se a área de transferência está vazia ou tem conteúdos "
+"que não podem ser apresentados numa mensagem navegável, por exemplo, se "
+"ficheiros ou pastas foram copiados do Explorador do Windows."
+
+#. type: Bullet: '*	'
+msgid ""
+"Not assigned: Shows the textual clipboard contents as plain text in browse "
+"mode, or announces if clipboard is empty or has contents which can't be "
+"presented in a browseable message, for instance if files or folders are been "
+"copied from Windows Explorer."
+msgstr ""
+"Não atribuído: Mostra o conteúdo da área de transferência textual como texto "
+"simples no modo de navegação, ou anuncia se a área de transferência está "
+"vazia ou tem conteúdo que não pode ser apresentado numa mensagem navegável, "
+"por exemplo, se os ficheiros ou pastas foram copiados do Explorador do "
+"Windows."
+
+#. type: Title ##
+#, no-wrap
+msgid "Clip Contents Designer settings"
+msgstr "Configurações do gestor da área de transferência."
+
+#. type: Plain text
+msgid ""
+"This panel is available from NVDA's menu, Preferences submenu, Settings "
+"dialog."
+msgstr ""
+"Este painel está disponível a partir do menu do NVDA, submenu Preferências, "
+"diálogo configurações."
+
+#. type: Plain text
+msgid "It contains the following controls:"
+msgstr "Contém os seguintes controlos:"
+
+#. type: Bullet: '* '
+msgid ""
+"Type the string to be used as a separator between contents added to the "
+"clipboard: Allows to set a separator which can be used to find the text "
+"segments once the entire added text is pasted."
+msgstr ""
+"Digite a cadeia a ser utilizada como separador entre os conteúdos "
+"adicionados à área de transferência: Permite definir um separador que pode "
+"ser utilizado para encontrar os segmentos de texto uma vez colado todo o "
+"texto adicionado."
+
+#. type: Bullet: '* '
+msgid ""
+"Add text before clip data: It's also possible to choose if the added text "
+"will be appended or prepended."
+msgstr ""
+"Acrescentar texto antes dos dados do clip: Também é possível escolher se o "
+"texto adicionado será anexado ou pré-preenchido."
+
+#. type: Bullet: '* '
+msgid ""
+"Select the actions which require previous confirmation: You can choose, for "
+"each action available, if it should be performed inmediately or after "
+"confirmation. Available actions are: add text, clear clipboard, emulate copy "
+"and emulate cut."
+msgstr ""
+"Seleccionar as acções que requerem confirmação prévia: Pode escolher, para "
+"cada acção disponível, se esta deve ser realizada imediatamente ou após "
+"confirmação. As acções disponíveis são: adicionar texto, limpar a área de "
+"transferência, emular cópia e emular corte."
+
+#. type: Bullet: '* '
+msgid ""
+"Request confirmation before performing the selected actions when: You can "
+"select if confirmations will be requested always, just if text is contained "
+"in the clipboard, or if clipboard is not empty (for example if you've copied "
+"a file, not text)."
+msgstr ""
+"Solicitar confirmação antes de executar as acções seleccionadas quando: Pode "
+"seleccionar se as confirmações serão sempre solicitadas, apenas se o texto "
+"estiver contido na área de transferência, ou se a área de transferência não "
+"estiver vazia (por exemplo, se copiou um ficheiro, não um texto)."
+
+#. type: Bullet: '* '
+msgid ""
+"Format to show the clipboard text as HTML in browse mode: If you're learning "
+"HTML markup language, you may choose Preformatted text in HTML or HTML as "
+"shown in a web browser, to have an idea of how your HTML code will be "
+"rendered by NVDA in a browser. The difference between preformatted and "
+"conventional HTML is that the first option will preserve consecutive spaces "
+"and line breaks, and the second one will compact them.  For example, write "
+"some HTML tags like h1, h2, li, pre, etc., select and copy the text to "
+"clipboard, and use clipContentsDesigner add-on to show the text in a "
+"browseable message."
+msgstr ""
+"Formatação para mostrar o texto da área de transferência como HTML no modo "
+"de navegação: Se estiver a aprender a linguagem de marcação HTML, pode "
+"escolher texto pré-formatado em HTML ou HTML como mostrado num navegador "
+"web, para ter uma ideia de como o seu código HTML será apresentado pelo NVDA "
+"num navegador. A diferença entre HTML pré-formatado e convencional é que a "
+"primeira opção irá preservar espaços consecutivos e quebras de linha, e a "
+"segunda irá compactá-los.  Por exemplo, escreva algumas etiquetas HTML como "
+"h1, h2, li, pre, etc., seleccione e copie o texto para a área de "
+"transferência, e use o add-on clipContentsDesigner para mostrar o texto numa "
+"mensagem navegável."
+
+#. type: Bullet: '* '
+msgid ""
+"Maximum number of characters when showing clipboard text in browse mode: "
+"Please, be aware that increasing this limit may produce issues if the "
+"clipboard contains large strings of text. The default limit is 100000 "
+"characters."
+msgstr ""
+"Número máximo de caracteres ao mostrar o texto da área de transferência no "
+"modo de navegação: Tenha em atenção que o aumento deste limite pode produzir "
+"problemas se a área de transferência contiver grandes cadeias de texto. O "
+"limite por defeito é de 100000 caracteres."
+
+#. type: Bullet: '* '
+msgid "Restore defaults."
+msgstr ""
+
+#. type: Plain text
+msgid "Notes:"
+msgstr "Notas:"
+
+#. type: Bullet: '* '
+msgid ""
+"Confirmations won't be requested when a message box of NVDA is still opened. "
+"In those cases, actions will be inmediately performed."
+msgstr ""
+"As confirmações não serão solicitadas quando uma caixa de mensagens do NVDA "
+"ainda estiver aberta. Nesses casos, as acções serão executadas de imediato."
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "Emulate copy and emulate cut commands mean that, when these features are "
+#| "enabled, the add-on will take control of control+c and control+x. This "
+#| "will allow to select if a confirmation should be requested before "
+#| "performing the actions corresponding to these keystrokes."
+msgid ""
+"Emulate copy and emulate cut commands mean that, when these features are "
+"enabled, the add-on will take control of control+c and control+x. This will "
+"allow to select if a confirmation should be requested before performing the "
+"actions corresponding to these keystrokes."
+msgstr ""
+"Emular os comandos copiar e emular o corte significa que, quando estas "
+"funcionalidades estão activadas, o extra assumirá o controlo de control+c e "
+"control+x. Isto permitirá seleccionar se deve ser solicitada uma confirmação "
+"antes de executar as acções correspondentes a estes atalhos."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 40.0.0"
+msgstr "Alterações para a versão 4.0"
+
+#. type: Bullet: '* '
+msgid "Added support for Hebrew keyboard."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2.0"
+msgid "Changes for 22.0.0"
+msgstr "Alterações para a versão 2.0"
+
+#. type: Bullet: '* '
+msgid "Added a button to restore defaults in the add-on settings panel."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "The add-on cannot be run in secure mode."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 17.0"
+msgstr "Alterações para a versão 1.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 16.0"
+msgstr "Alterações para a versão 1.0"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "Requires NVDA 2019.3 or later."
+msgid "Reqires NVDA 2022.1 or later."
+msgstr "Requer NVDA 2019.3 ou posterior."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 15.0"
+msgstr "Alterações para a versão 1.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The command to add text to clipboard is again presented in the input "
+"gestures dialog."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed gestures to copy and cut with Persian keyboard, thanks to "
+"Mohammadhosein Ghezelsofla."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 1.0"
+msgid "Changes for 14.0"
+msgstr "Alterações para a versão 1.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2021.1."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 13.0 "
+msgstr "Alterações para 13.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed an issue in visual layout of the settings panel, thanks to Cyrille "
+"Bougot."
+msgstr ""
+"Corrigido um problema na disposição visual do painel de configurações, "
+"graças a Cyrille Bougot."
+
+#. type: Bullet: '* '
+msgid "Improved documentation."
+msgstr "Documentação melhorada."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a Clip Contents Designer category to assign input gestures to all "
+"commands available for this add-on."
+msgstr ""
+"Adicionada uma categoria Clip Content Designer para atribuir comandos de "
+"entrada a todos os comandos disponíveis para este add-on."
+
+#. type: Bullet: '* '
+msgid "Fixed bugs when using emulate copy in browsers if focus mode is active."
+msgstr ""
+"Corrigidos bugs ao utilizar cópia emulada em navegadores se o modo de foco "
+"estiver activo."
+
+#. type: Bullet: '* '
+msgid ""
+"You can assign different gestures to show the clipboard textual contents as "
+"raw text or formatted in HTML. The Format to show the clipboard text in the "
+"settings panel has being modified accordingly, to select the two options "
+"available for HTML format."
+msgstr ""
+"Pode atribuir diferentes comandos para mostrar o conteúdo textual da área de "
+"transferência como texto em bruto ou formatado em HTML. O Formato para "
+"mostrar o texto da área de transferência no painel de definições foi "
+"modificado em conformidade, para seleccionar as duas opções disponíveis para "
+"o formato HTML."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 12.0"
+msgstr "Alterações para 12.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed bugs when using emulate copy in applications like LibreOffice Writer."
+msgstr ""
+"Corrigidos bugs ao utilizar cópia emulada em aplicações como o LibreOffice "
+"Writer."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 11.0"
+msgstr "Alterações para 11.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Now it's possible to add text marked with the review cursor using standard "
+"commands of NVDA (NVDA+f9 and NVDA+f10). NVDA+windows+f9 is no longer used, "
+"for a better integration with the new NVDA+shift+f9 command."
+msgstr ""
+"Agora é possível adicionar texto marcado com o cursor de revisão usando "
+"comandos padrão do NVDA (NVDA+f9 e NVDA+f10). NVDA+windows+f9 já não é "
+"utilizado, para uma melhor integração com o novo comando NVDA+shift+f9."
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2019.3 or later."
+msgstr "Requer NVDA 2019.3 ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 10.0"
+msgstr "Alterações para 10.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug in the dialog used to show the clipboard text, when its title "
+"contains non latin characters."
+msgstr ""
+"Corrigido um erro no diálogo utilizado para mostrar o texto da área de "
+"transferência, quando o seu título contém caracteres não latinos."
+
+#. type: Bullet: '* '
+msgid ""
+"Fixed a bug when using the emulate cut and copy features with an Arabic "
+"keyboard layout. This has been fixed by Abdel, added as an add-on author."
+msgstr ""
+"Corrigido um erro ao utilizar as funções de corte e cópia emulada com um "
+"teclado árabe. Isto foi corrigido por Abdel, adicionado como um dos autores "
+"do extra."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 9.0"
+msgstr "Alterações para a versão 9.0"
+
+#. type: Bullet: '* '
+msgid "Added the possibility of showing the clipboard text in browse mode."
+msgstr ""
+"Adicionada a possibilidade de mostrar o texto da área de transferência no "
+"modo de navegação."
+
+#. type: Bullet: '* '
+msgid ""
+"Added an option to choose if confirmations will be required if clipboard is "
+"not empty, for instance, if files or folders are been copied."
+msgstr ""
+"Adicionada uma opção para escolher se as confirmações serão necessárias se a "
+"área de transferência não estiver vazia, por exemplo, se os arquivos ou "
+"pastas forem copiados."
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2018.4 or later."
+msgstr "Requer o NVDA 2018.4 ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 8.0"
+msgstr "Alterações para a versão 8.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The add-on settings are shown in the corresponding category of the NVDA "
+"Settings dialog."
+msgstr ""
+"As configurações adicionais são mostradas na categoria correspondente da "
+"caixa de diálogo Configurações do NVDA."
+
+#. type: Bullet: '* '
+msgid "Requires NVDA 2018.2 or later."
+msgstr "Requer o NVDA 2018.2 ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 7.0"
+msgstr "Alterações para a versão 7.0"
+
+#. type: Bullet: '* '
+msgid ""
+"In the dialog to configure the Emulate copy and Emulate cut functionalities "
+"at installation, if you choose no, the commands for these features will be "
+"removed, so that you can restore the normal behavior for control+c and "
+"control+x."
+msgstr ""
+"Na caixa de diálogo da instalação para configurar as funcionalidades Emular "
+"cópia e Emular corte, se escolher não, os comandos para esses recursos serão "
+"removidos, para que possa restaurar o comportamento normal para controle + c "
+"e controle + x."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 6.0"
+msgstr "Alterações para a versão 6.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Added options to choose if available actions should be performed after "
+"confirmation."
+msgstr ""
+
+#. type: Bullet: '*	'
+msgid ""
+"Added Emulate copy and Emulate cut commands, which could be assigned from "
+"the Input gestures dialog."
+msgstr ""
+
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "*\t Added options to choose if available actions should be performed "
+#| "after confirmation.\n"
+#| "*\tAdded Emulate copy and Emulate cut commands, which could be assigned "
+#| "from the Input gestures dialog.\n"
+#| "*\t Added a dialog to configure the Emulate copy and Emulate cut "
+#| "functionalities at installation. This allows to add the control+c and "
+#| "control+x commands to copy and cut, and be asked if you want to replace "
+#| "the clipboard contents when pressing these keystrokes.\n"
+#| "*\tFixed documentation for script_add (Windows+NVDA+c).\n"
+msgid ""
+"Added a dialog to configure the Emulate copy and Emulate cut functionalities "
+"at installation. This allows to add the control+c and control+x commands to "
+"copy and cut, and be asked if you want to replace the clipboard contents "
+"when pressing these keystrokes."
+msgstr ""
+"*\t Adicionadas opções para escolher se as acções disponíveis devem ser "
+"executadas após confirmação.\n"
+"*\tAdicionados os comandos emulação de copiar e emulação de cortar, que "
+"podem ser atribuídos no diálogo definir comandos.\n"
+"*\t Adicionado um diálogo para configurar as funções emulação de copiar e de "
+"cortar na instalação. Isso permite acrescentar os comandos control+c e "
+"control+x para copiar e cortar e ser questionado sobre se deseja substituir "
+"o conteúdo da área de transferência ao pressionar essas teclas.\n"
+"*\tCorrigida a documentação para script_add (Windows+NVDA+c).\n"
+
+#. type: Bullet: '*	'
+msgid "Fixed documentation for script_add (Windows+NVDA+c)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 5.0"
+msgstr "Alterações para a versão 5.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"The visual presentation of the dialog has been enhanced, adhering to the "
+"appearance of the dialogs shown in NVDA."
+msgstr ""
+"A apresentação visual do diálogo foi melhorada, coincidindo com a aparência "
+"dos diálogos mostrados no NVDA."
+
+#. type: Bullet: '*	'
+msgid "Requires NVDA 2016.4 or later."
+msgstr "Requer o NVDA 2016.4 ou posterior."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 4.0"
+msgstr "Alterações para a versão 4.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Add-on settings are managed from NVDA configuration, so that standard "
+"profiles can be used to save different separators, and it's not needed to "
+"copy the settings for importing at reinstallation."
+msgstr ""
+"As opções do extra são agora geridas directamente pela configuração do NVDA, "
+"de modo que se pode usar perfis para salvar diferentes separadores e não é "
+"necessário copiar as opções para importá-las quando numa reinstalação."
+
+#. type: Bullet: '*	'
+msgid ""
+"Now it's possible to choose if the added text will be appended or prepended, "
+"using the Add text before clip data check box from the Clip Contents "
+"Designer settings dialog."
+msgstr ""
+"Agora é possível escolher se o texto será colocado depois ou antes do que já "
+"lá está, usando a caixa de selecção  existente no diálogo de opções do "
+"gestor de conteúdos da área de transferência."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 3.0"
+msgstr "Alterações para a versão 3.0"
+
+#. type: Bullet: '*	'
+msgid ""
+"Braille representation of MathML objects can be added to the clipboard if "
+"MathPlayer is installed."
+msgstr ""
+"As representações braile de objectos MathML podem ser acrescentadas à área "
+"de transferência, se o MathPlayer estiver instalado."
+
+#. type: Bullet: '*	'
+msgid ""
+"If no separator is set, just a single line will be placed between the added "
+"text segments."
+msgstr ""
+"Se não for definido qualquer separador, apenas será colocada uma linha entre "
+"os vários fragmentos de texto adicionados."
+
+#. type: Bullet: '*	'
+msgid ""
+"A shortcut can be assigned to open the Clip Contents Designer settings "
+"dialog."
+msgstr ""
+"Pode criar-se uma tecla de atalho para abrir o diálogo de opções do gestor "
+"do conteúdo de transferência."
+
+#. type: Bullet: '*	'
+msgid ""
+"Added a check box in the settings dialog, for choosing if the separator "
+"should be copied to be imported when reinstalling the add-on."
+msgstr ""
+"Acrescentada uma caixa de selecção ao diálogo de opções, a qual permite "
+"escolher se o separador de fragmentos deve ser copiado para ser importado ao "
+"reinstalar o extra."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 2.0"
+msgstr "Alterações para a versão 2.0"
+
+#. type: Bullet: '*	'
+msgid "Hindi characters can be used as the separator between added contents."
+msgstr ""
+"Os caracteres hindi podem ser usados como separador entre conteúdos "
+"acrescentados."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 1.0"
+msgstr "Alterações para a versão 1.0"
+
+#. type: Bullet: '*	'
+msgid "Initial version."
+msgstr "Versão inicial."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag dev stable]]\n"
+msgstr "[[!tag dev stable]]\n"
+
+#~ msgid ""
+#~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
+#~ "[3]."
+#~ msgstr ""
+#~ "Se for necessário, pode fazer o download da [última versão compatível com "
+#~ "o NVDA 2017.3] [3]."
+
+#, fuzzy
+#~| msgid "[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o"
+#~ msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=ccd-o"
+#~ msgstr "[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o"
+
+#, fuzzy
+#~| msgid "Download [development version][2]"
+#~ msgid "Download [beta version][2] (compatible with NVDA 2022.1 and beyond)"
+#~ msgstr "Baixar a [versão de desenvolvimento][2]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ccd"
+#~ msgid ""
+#~ "[1]: https://www.nvaccess.org/addonStore/legacy?file=clipContentsDesigner"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ccd"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ccd"
+#~ msgid ""
+#~ "[2]: https://www.nvaccess.org/addonStore/legacy?file=clipContentsDesigner-"
+#~ "beta"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ccd"
+
+#~ msgid "[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev"
+#~ msgstr "[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev"
+
+#~ msgid "NVDA compatibility: 2019.3 or later"
+#~ msgstr "Compatibilidade com o NVDA: 2019.3 ou posterior"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Baixar a [versão estável][1]"
+
+#~ msgid ""
+#~ "Note: The above commands can be changed from NVDA menu, Preferences "
+#~ "submenu, Input gestures dialog, Text review category."
+#~ msgstr ""
+#~ "Nota: Os comandos anteriores podem ser alterados a partir do menu do "
+#~ "NVDA, submenu Preferências, comandos, categoria Revisão de texto."
+
+#~ msgid "Preferences Menu"
+#~ msgstr "Menu Preferências"
+
+#~ msgid ""
+#~ "*\tClip Contents Designer settings: Allows to set a separator which can "
+#~ "be used to find the text segments once the entire added text is pasted.\n"
+#~ "It's also possible to choose if the added text will be appended or "
+#~ "prepended, if available actions (add, clear clipboard, emulate copy and "
+#~ "emulate cut) should be performed inmediately or after confirmation, and "
+#~ "if confirmations will be requested always, just if text is contained in "
+#~ "the clipboard, or if clipboard is not empty.\n"
+#~ "Furthermore, it's possible to change the format and maximum number of "
+#~ "characters of the clipboard text which will be shown in browse mode. "
+#~ "Please, be aware that increasing this limit may produce issues if the "
+#~ "clipboard contains large strings of text. The default limit is 100000 "
+#~ "characters.\n"
+#~ msgstr ""
+#~ "*\t Configurações do conteúdo do extra: Permite definir um separador que "
+#~ "pode ser usado para procurar os segmentos de texto logo que todo o texto "
+#~ "adicionado seja colado.\n"
+#~ "Também é possível escolher se o texto adicionado será acrescentado ou "
+#~ "prefixado, se as ações disponíveis (adicionar, limpar área de "
+#~ "transferência, emular cópia e emular recortar) devem ser executadas "
+#~ "imediatamente ou após a confirmação e se as confirmações serão "
+#~ "solicitadas sempre, apenas se o texto estiver já contido na área de "
+#~ "transferência ou se a área de transferência não estiver vazia.\n"
+#~ "Além disso, é possível alterar o formato e o número máximo de caracteres "
+#~ "do texto da área de transferência, que será mostrado no modo de "
+#~ "navegação. Por favor, esteja ciente de que aumentar este limite pode "
+#~ "produzir problemas se a área de transferência contiver grandes cadeias de "
+#~ "texto. O limite padrão é de 100.000 caracteres.\n"
+
+#~ msgid ""
+#~ "*\tAuthors: Noelia Ruiz Martínez.\n"
+#~ "*\t NVDA compatibility: 2018.2 to 2019.1.\n"
+#~ "*\tDownload [stable version][1]\n"
+#~ "*\tDownload [development version][2]\n"
+#~ msgstr ""
+#~ "*\tAutores: Noelia Ruiz Martínez.\n"
+#~ "*\t Compatibilidade com o NVDA: 2018.2 até 2019.1.\n"
+#~ "*\tBaixar [versão estável][1]\n"
+#~ "*\tBaixar [versão de desenvolvimento][2]\n"
+
+#~ msgid ""
+#~ "[3]: https://github.com/nvdaes/clipContentsDesigner/releases/download/7.2/"
+#~ "clipContentsDesigner-7.2.nvda-addon"
+#~ msgstr ""
+#~ "[3]: https://github.com/nvdaes/clipContentsDesigner/releases/download/7.2/"
+#~ "clipContentsDesigner-7.2.nvda-addon"
