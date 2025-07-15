@@ -10,6 +10,6 @@ jobs:
       fail-fast: false
       max-parallel: 1
       matrix:
-        addon: ['clipContentsDesigner', 'pcKbBrl']
+        repo: ['clipContentsDesigner', 'pcKbBrl']
     with:
-      target: ${{ matrix.addon }}
+      target: ${{ matrix.repo }}
