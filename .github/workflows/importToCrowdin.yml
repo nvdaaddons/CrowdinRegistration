@@ -96,15 +96,15 @@ jobs:
           #sed -i'.bak' 's/\(^.*\/\)\(repo.po\)\(.*$\)/\1${{ github.event.inputs.repo }}.po\3/' crowdin.yml
 
 
-      - name: Commit and push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add ${{ matrix.addons }}
-          git commit -m "Register ${{ matrix.addons }}"
-          git branch -u origin/main
-          git pull
-          git push
+      #- name: Commit and push
+        #run: |
+          #git config user.name github-actions
+          #git config user.email github-actions@github.com
+          #git add ${{ matrix.addons }}
+          #git commit -m "Register ${{ matrix.addons }}"
+          #git branch -u origin/main
+          #git pull
+          #git push
 
       - name: Crowdin sync interface for main languages
         uses: crowdin/github-action@v2
