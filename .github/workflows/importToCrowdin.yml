@@ -10,6 +10,7 @@ on:
     inputs:
       repo:
         description: 'Repository name'
+        type: 'string'
         required: true
 
 jobs:
