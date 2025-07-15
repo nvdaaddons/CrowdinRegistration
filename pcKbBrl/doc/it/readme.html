@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>PC Keyboard Braille Input 47.0.0</title>
+</head>
+<body>
+<h1>PC Keyboard Braille Input for NVDA</h1>
+<ul>
+<li>Author: NV Access Limited, Noelia Ruiz Martínez</li>
+<li>Copyright: 2012-2023 NV Access Limited, Noelia Ruiz Martínez</li>
+<li>Licenza: GNU General Public License versione 2.0</li>
+</ul>
+<p>Questo componente aggiuntivo per NVDA permette di inserire caratteri braille
+utilizzando la tastiera del pc. Al momento, sono supportati i seguenti
+layout tastiera:</p>
+<ul>
+<li>Tastiera inglese QWERTY.</li>
+<li>Francese (Francia).</li>
+<li>Tedesca (Germania).</li>
+<li>Italiana (Italia).</li>
+<li>Persiana.</li>
+<li>Portoghese (Portogallo).</li>
+<li>Spagnola (Spagna e  Messico).</li>
+<li>Turca.</li>
+</ul>
+<h2>Come configurarlo</h2>
+<p>L'add-on può essere configurato dalla sua categoria nella finestra
+Impostazioni di NVDA, nel menù di NVDA, sottomenù Preferenze. Dalla finestra
+Gesti e Tasti di Immissione di NVDA, categoria Configurazione, è possibile
+assegnare un tasto per aprire la finestra delle impostazioni dell'add-on.</p>
+<p>Attivate la casella di controllo corrispondente se volete digitare
+utilizzando una sola mano, o assicuratevi che non sia attivata se preferite
+digitare utilizzando la modalità standard (due mani).</p>
+<p>Potete anche scegliere se NVDA deve vocalizzare ogni singolo punto digitato
+quando utilizzate la modalità a una mano.</p>
+<p>If you want dots to be sent automatically when typing with one hand, use the
+spin control to set a timeout greater than 0.</p>
+<p>In addition, you can set the characters to send, clear and compose dots when
+typing with one hand, as well as characters to be ignored in one hand or
+standard mode.</p>
+<p>It's also possible to restore defaults in the add-on settings panel.</p>
+<h2>Come si usa</h2>
+<ol>
+<li>Premete NVDA+0 per attivare l'input Braille. Questo tasto può essere
+   modificato dalla finestra Gesti e Tasti di Immissione, categoria Braille.</li>
+<li>
+<p>Scrivete in Braille premendo i tasti insieme sulla tastiera del pc, come
+   se fosse una dattilobraille.</p>
+<ul>
+<li>
+<p>Se volete inserire il testo utilizzando due mani, usate i seguenti tasti
+  se lavorate con una tastiera inglese QWERTY, oppure i tasti che si
+  trovano nella posizione corrispondente in altri layout:</p>
+<ul>
+<li>f, d ed s per i punti 1, 2 e 3 rispettivamente.</li>
+<li>j, k ed l per i punti 4, 5 e 6 rispettivamente.</li>
+<li>Usate i tasti a e punto e virgola (o accentata in Italia) per i punti 7
+  ed 8 rispettivamente.</li>
+<li>Potete anche usare i tasti posti nella riga superiore; ad esempio q, w,
+  e, r, u, i, o e p.</li>
+</ul>
+</li>
+<li>
+<p>Se volete digitare del testo utilizzando una mano, potete comporre i
+  caratteri premendo i tasti contemporaneamente o in diversi sottogruppi,
+  aggiungendo i punti corrispondenti ai caratteri desiderati. Premete g o h
+  per inserire il carattere quando avete aggiunto tutti i suoi punti. Se
+  fate un errore mentre costruite un carattere, potete cancellarne i punti
+  prima di digitarlo premendo t o y. I tasti utilizzati nella tastiera
+  inglese QWERTY sono i seguenti:</p>
+<ul>
+<li>Mano sinistra: f, d, s, r, e, w, a, q per i punti 1, 2, 3, 4, 5, 6, 7 e
+  8.</li>
+<li>Mano destra: j, k, l, u, i, o, punto e virgola (o accentata in Italia),
+  p per i punti 1, 2, 3, 4, 5, 6, 7 e 8.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Potete premere la maggior parte degli altri tasti come al solito, inclusi
+   spazio, backspace, invio e i tasti funzione. Fate attenzione a non
+   premere alt+shift, perché la modifica del layout tastiera può influire
+   sui punti inseriti.</p>
+</li>
+<li>Premete la barra spaziatrice insieme ai punti Braille per spostare il
+   cursore (o leggere la riga corrente), come se utilizzaste un display
+   Braille. Per esempio, spazio+punto1 per simulare la freccia su,
+   spazio+punti456 per simulare control+end, spazio+punti14 per leggere la
+   riga corrente, ecc.</li>
+<li>Premete NVDA+0 per disattivare l'input Braille.</li>
+</ol>
+<h2>Note importanti</h2>
+<p>Questo componente aggiuntivo utilizza il supporto interno di NVDA per
+l'input Braille. Pertanto, la tabella di input utilizzata è quella
+specificata nella finestra di dialogo di NVDA Impostazioni Braille. NVDA
+supporta solo il computer braille in ingresso al momento, quindi questa
+limitazione si applica anche a questo add-on.</p>
+<p>Alcune tastiere, in particolare le tastiere dei portatili, non possono
+gestire determinate combinazioni di tasti. Quando questo accade, alcuni
+tasti sono semplicemente ignorati. Purtroppo, non c'è nulla che si possa
+fare per risolvere questo problema, in quanto i tasti semplicemente non
+vengono mai ricevuti da Windows o NVDA. In alcuni casi, utilizzare i tasti
+della riga superiore con una o entrambe le mani potrebbe aiutare, perché la
+vostra tastiera potrebbe gestirli.</p>
+<h2>Changes for 44.0.0</h2>
+<ul>
+<li>Added kannada.cti table.</li>
+</ul>
+<h2>Changes for 28.0.0</h2>
+<ul>
+<li>Changed default values for One hand mode.</li>
+</ul>
+<h2>Changes for 2023.02.23</h2>
+<ul>
+<li>Added ability to configure keys used to type dots in one hand mode.</li>
+<li>Now you can configure keys that should be ignored when typing in braille.</li>
+<li>A restore to defaults button has been added to the add-on settings panel.</li>
+<li>Compatible with NVDA 2023.1.</li>
+</ul>
+<h2>Changes for 2022.1</h2>
+<ul>
+<li>Added ability to configure keys to send and clear dots when writing with
+  one hand. Also, it's possible to set a timeout to send dots automatically,
+  without pressing confirmation keys.</li>
+</ul>
+<h2>Changes for 2021.1</h2>
+<ul>
+<li>NVDA won't try to speak dots when One hand mode is not active or if space
+  has been pressed.</li>
+<li>Compatible with NVDA 2021.1.</li>
+</ul>
+<h2>Novità nella versione 2020.1</h2>
+<ul>
+<li>Potete premere la barra spaziatrice insieme ai punti Braille per simulare
+  alcune combinazione di tasti, in analogia con i comandi disponibili sui
+  display Braille.</li>
+<li>Aggiunta un'opzione per vocalizzare i singoli punti digitati in modalità a
+  una mano.</li>
+</ul>
+<h2>Collaboratori</h2>
+<ul>
+<li>James Teh</li>
+<li>Noelia.</li>
+<li>Mohammadreza Rashad</li>
+<li>Cagri Dogan</li>
+<li>Bernd Dorer</li>
+<li>Ângelo Abrantes</li>
+<li>Cyrille Bougot</li>
+<li>Abdel.</li>
+</ul>
+<p>[[!tag dev stable]]</p>
+</body>
+</html>

@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pcKbBrl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pcKbBrl 2021.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2021-07-21 09:36+0000\n"
+"PO-Revision-Date: 2023-06-09 11:00+0200\n"
+"Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
+"Language-Team: \n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#. Translators: Describes a command.
+msgid "Toggles braille input from the PC keyboard."
+msgstr "Conmuta a entrada braille dende o teclado do ordenador."
+
+#. Translators: Reported when braille input from the PC keyboard is disabled.
+msgid "Braille input from PC keyboard disabled"
+msgstr "Entrada braille dende o teclado do ordenador desactivada"
+
+#. Translators: Reported when braille input from the PC keyboard is enabled.
+msgid "Braille input from PC keyboard enabled"
+msgstr "Entrada braille dende o teclado do ordenador activada"
+
+#. Translators: Describes a command.
+#, python-format
+msgid "Shows the %s settings."
+msgstr "Amosa as opcións de %s."
+
+#. Translators: label of a dialog.
+msgid "&Type using one hand"
+msgstr "&Escribir usando unha man"
+
+#. Translators: label of a dialog.
+msgid "&Speak dot when typing with one hand"
+msgstr "&Dicir punto ao escribir cunha man"
+
+#. Translators: label of a dialog.
+msgid "&Timeout to send dots when writing with one hand (in ms)"
+msgstr ""
+"&Tempo de espera para enviar os puntos cando se escribe cunha soa man (en ms)"
+
+#. Translators: label of a dialog.
+msgid "Characters to con&firm when writing with one hand:"
+msgstr "Caracteres para con&firmar ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters to cance&l when writing with one hand:"
+msgstr "Caracteres para cance&lar ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for &dot1 when writing with one hand:"
+msgstr "Caracteres para &punto1 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for dot2 when writing with one hand:"
+msgstr "Caracteres para punto2 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for dot3 when writing with one hand:"
+msgstr "Caracteres para punto3 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for dot4 when writing with one hand:"
+msgstr "Caracteres para punto4 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for dot5 when writing with one hand:"
+msgstr "Caracteres para punto5 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for dot6 when writing with one hand:"
+msgstr "Caracteres para punto6 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for dot7 when writing with one hand:"
+msgstr "Caracteres para punto7 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters for dot8 when writing with one hand:"
+msgstr "Caracteres para punto8 ó escribir cunha soa man:"
+
+#. Translators: label of a dialog.
+msgid "Characters to be &ignored when typing in braille:"
+msgstr "Caracteres a &ignorar ó escribir en braille:"
+
+#. Translators: label of a dialog.
+msgid "&Restore defaults"
+msgstr "&Restaurar opcións predeterminadas"
+
+#. Translators: Message to report wrong configuration.
+msgid "None or all dots should be configured."
+msgstr "Débense configurar ningún ou todos os puntos."
+
+#. Translators: Title of message dialog.
+#. Translators: Title of message box
+msgid "Error"
+msgstr "Erro"
+
+#. Translators: Message to report wrong configuration.
+msgid "Configured keys for pcKbBrl shouldn't be repeated."
+msgstr "As teclas configuradas para pcKbBrl non deben repetirse."
+
+#. Translators: Message to report wrong configuration.
+msgid "Set at least a confirm key if timeout for one hand mode is 0."
+msgstr ""
+"Pon polo menos una tecla de confirmación se o tempo de espera do modo dunha "
+"soa man é 0."
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+msgid "PC Keyboard Braille Input"
+msgstr "PC Keyboard Braille Input"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid "Allows braille to be entered via the PC keyboard."
+msgstr "Permite que se introduza braille a través do teclado do ordenador."
+
+#. Translators: The display name of a braille table.
+msgid "Kannada cti"
+msgstr ""
