@@ -90,7 +90,12 @@ jobs:
             echo "Warning: File does not exist."
           fi
           done
-
+      - name: Convert po to md
+        run: |
+          cd ${{ inputs.repo/doc }}
+          for dir in */ ; do
+          po2md -i $dir/readme.po -t addon-${{ inputs.repo }}/readme.md $dir/readme.md
+          done
       #- name: Set configuration for add-on repo
         #run: |
           #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ inputs.repo }}\/\3/' crowdin.yml
