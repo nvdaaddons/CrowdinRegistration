@@ -92,8 +92,8 @@ jobs:
           done
       - name: Convert po to md
         run: |
-          cd ${{ inputs.repo/doc }}
-          for dir in */ ; do
+          cd ${{ inputs.repo }}/doc
+          for dir in */; do
           po2md -i $dir/readme.po -t addon-${{ inputs.repo }}/readme.md $dir/readme.md
           done
       #- name: Set configuration for add-on repo
