@@ -5,7 +5,7 @@ on:
 
 jobs:
   importAddons:
-    uses: nvdaaddons/crowdinRegistration/./.github/workflows/importToCrowdin.yml@main
+    uses: ./.github/workflows/importToCrowdin.yml@main
     strategy:
       fail-fast: false
       max-parallel: 1
