@@ -112,7 +112,7 @@ jobs:
           git add ${{ inputs.repo }}
           git commit -m "Register ${{ inputs.repo }}"
           git branch -u origin/main
-          git pull --rebase
+          git pull
           git push
 
       - name: Crowdin sync interface for main languages
