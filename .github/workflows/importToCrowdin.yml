@@ -94,6 +94,9 @@ jobs:
         run: |
           cd ${{ inputs.repo }}/doc
           for dir in *; do
+          if [ "$dir" = "en" ] || [ "$dir" = "style.css" ]; then
+          continue
+          fi
           po2md -i $dir/readme.po -t en/readme.md $dir/readme.md
           done
       #- name: Set configuration for add-on repo
@@ -102,15 +105,15 @@ jobs:
           #sed -i'.bak' 's/\(^.*\/\)\(repo.po\)\(.*$\)/\1${{ inputs.repo }}.po\3/' crowdin.yml
 
 
-      #- name: Commit and push
-        #run: |
-          #git config user.name github-actions
-          #git config user.email github-actions@github.com
-          #git add ${{ inputs.repo }}
-          #git commit -m "Register ${{ inputs.repo }}"
-          #git branch -u origin/main
-          #git pull
-          #git push
+      - name: Commit and push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add ${{ inputs.repo }}
+          git commit -m "Register ${{ inputs.repo }}"
+          git branch -u origin/main
+          git pull --rebase
+          git push
 
       - name: Crowdin sync interface for main languages
         uses: crowdin/github-action@v2
