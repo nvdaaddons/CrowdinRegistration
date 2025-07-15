@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>PC Keyboard Braille Input 47.0.0</title>
+</head>
+<body>
+<h1>Inserção de Braille com o Teclado do PC para NVDA — PC Keyboard Braille Input for NVDA</h1>
+<ul>
+<li>Autor: NV Access Limited, Noelia Ruiz Martínez</li>
+<li>Copyright: 2012-2023 NV Access Limited, Noelia Ruiz Martínez</li>
+<li>Licença: Licença Pública Geral GNU — General Public License — versão 2.0</li>
+</ul>
+<p>Este complemento para NVDA possibilita que braille seja digitado através do
+teclado do PC. No momento, os seguintes leiautes (esquemas) de teclado são
+suportados:</p>
+<ul>
+<li>Teclado QWERTY Inglês.</li>
+<li>Francês (França).</li>
+<li>Alemão (Alemanha).</li>
+<li>Italiano (Itália).</li>
+<li>Persa.</li>
+<li>Português (Portugal).</li>
+<li>Espanhol (Espanha e México).</li>
+<li>Turco.</li>
+</ul>
+<h2>Como configurar</h2>
+<p>O complemento pode ser configurado a partir de sua categoria na caixa de
+diálogo de configurações do NVDA, no menu do NVDA, submenu Preferências. Um
+comando — gesto — para abrir o painel de configurações do complemento pode
+ser atribuído no diálogo Definir comandos, categoria de configuração.</p>
+<p>Marque a caixa de seleção correspondente se desejar digitar usando apenas
+uma mão, ou certifique-se que não está marcada se preferir digitar no modo
+padrão (duas mãos).</p>
+<p>Também pode selecionar se o NVDA deve falar um único ponto digitado (usando
+o recurso de "modo de uma mão").</p>
+<p>Se você quiser que os pontos sejam enviados automaticamente ao digitar com
+uma mão, use o controle de seletor numérico para definir um tempo limite
+maior que 0.</p>
+<p>Além disso, você pode definir os caracteres para enviar, limpar e compor
+pontos ao digitar com uma mão, bem como caracteres a serem ignorados em uma
+mão ou no modo padrão.</p>
+<p>Também é possível restaurar os padrões no painel de configurações do
+complemento.</p>
+<h2>Como Usar</h2>
+<ol>
+<li>Pressione NVDA+0 para habilitar a inserção de braille. Esse comando —
+   gesto — pode ser alterado no diálogo Definir comandos, categoria Braille.</li>
+<li>
+<p>Digite braille pressionando as teclas juntas no teclado do PC como se
+   fosse um teclado braille.</p>
+<ul>
+<li>
+<p>Se deseja digitar texto usando as duas mãos, use as seguintes teclas se
+  trabalha com um teclado Inglês QWERTY ou as teclas localizadas nas
+  posições correspondentes em outros leiautes:</p>
+<ul>
+<li>f, d e s para os pontos 1, 2 e 3 respectivamente.</li>
+<li>j, k e l para os pontos 4, 5 e 6 respectivamente.</li>
+<li>Use as teclas a e ; (ponto e vírgula no leiaute inglês internacional — ç
+  num teclado ABNT2) para os pontos 7 e 8, respectivamente.</li>
+<li>Também pode usar as teclas na linha acima; ou seja, q, w, e, r, u, i, o
+  e p.</li>
+</ul>
+</li>
+<li>
+<p>Se quiser digitar texto usando uma mão, você pode compor caracteres
+  pressionando as teclas simultaneamente ou em vários pressionamentos de
+  tecla, adicionando os pontos correspondentes ao caractere
+  desejado. Pressione g ou h para digitar o caractere quando você adicionar
+  todos os seus pontos. Se você cometer um erro ao criar um caractere,
+  poderá limpar os pontos antes de digitá-lo pressionando t ou y. As teclas
+  usadas no teclado Inglês QWERTY são as seguintes:</p>
+<ul>
+<li>Mão esquerda: f, d, s, r, e, w, a, q para os pontos 1, 2, 3, 4, 5, 6, 7
+  e 8.</li>
+<li>Mão direita: j, k, l, u, i, o, ; (ponto e vírgula — ç em teclado ABNT2),
+  p para os pontos 1, 2, 3, 4, 5, 6, 7 e 8.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Você pode pressionar a maioria das outras teclas normalmente, incluindo
+   espaço, backspace, enter e teclas de função. Tome cuidado para não
+   pressionar alt+shift, pois a alteração do leiaute do teclado pode afetar
+   os pontos digitados.</p>
+</li>
+<li>Pressione a barra de espaço em combinação com os pontos braille para
+   mover o cursor do sistema (ou relatar a linha atual), apenas se você
+   estiver usando uma linha braille. Por exemplo, espaço+ponto1 para emular
+   Seta pra cima, espaço+ponto4+ponto5+ponto6 para emular control+end,
+   espaço+ponto1+ponto4 para relatar a linha atual, etc.</li>
+<li>Pressione NVDA+0 para desabilitar a inserção de braille.</li>
+</ol>
+<h2>Notas Importantes</h2>
+<p>Esse complemento usa o suporte embutido de inserção braille do NVDA. Assim,
+a tabela de entrada usada é a especificada no diálogo Configurações de
+braille do NVDA.</p>
+<p>Alguns teclados, em particular os teclados de laptop, não conseguem
+processar certas combinações de teclas quando pressionadas. Quando isso
+ocorre, certas teclas são simplesmente ignoradas. Infelizmente, não há nada
+que se possa fazer para corrigir isso, visto que as teclas simplesmente não
+chegam a ser recebidas pelo Windows ou o NVDA. Nalguns casos, usar a
+carreira de teclas de cima com uma ou as duas mãos pode ajudar, pois seu
+teclado pode liberar essas teclas.</p>
+<h2>Changes for 44.0.0</h2>
+<ul>
+<li>Added kannada.cti table.</li>
+</ul>
+<h2>Mudanças na 28.0.0</h2>
+<ul>
+<li>Valores padrão mudados para o Modo de uma mão.</li>
+</ul>
+<h2>Mudanças na 2023.02.23</h2>
+<ul>
+<li>Adicionada a capacidade de configurar as teclas usadas para digitar pontos
+  no modo de uma mão.</li>
+<li>Agora você pode configurar teclas que devem ser ignoradas ao digitar em
+  braille.</li>
+<li>Um botão de restauração para padrões foi adicionado ao painel de
+  configurações do complemento.</li>
+<li>Compatível com NVDA 2023.1.</li>
+</ul>
+<h2>Mudanças na 2022.1</h2>
+<ul>
+<li>Adicionada a capacidade de configurar teclas para enviar e limpar pontos
+  ao escrever com uma mão. Além disso, é possível definir um tempo limite
+  para enviar pontos automaticamente, sem pressionar as teclas de
+  confirmação.</li>
+</ul>
+<h2>Mudanças na 2021.1</h2>
+<ul>
+<li>O NVDA não tentará falar pontos quando o modo de uma mão não estiver ativo
+  ou se o espaço tiver sido pressionado.</li>
+<li>Compatível com NVDA 2021.1.</li>
+</ul>
+<h2>Mudanças na 2020.1</h2>
+<ul>
+<li>Você pode pressionar a barra de espaço em combinação com pontos braille
+  para emular comandos — gestos —, semelhante aos comandos disponíveis em
+  linhas braille.</li>
+<li>Adicionada uma opção para falar pontos avulsos digitados no modo de uma
+  mão.</li>
+</ul>
+<h2>Colaboradores</h2>
+<ul>
+<li>James Teh</li>
+<li>Noelia.</li>
+<li>Mohammadreza Rashad</li>
+<li>Cagri Dogan</li>
+<li>Bernd Dorer</li>
+<li>Ângelo Abrantes</li>
+<li>Cyrille Bougot</li>
+<li>Abdel.</li>
+</ul>
+<p>[[!tag dev stable]]</p>
+</body>
+</html>
