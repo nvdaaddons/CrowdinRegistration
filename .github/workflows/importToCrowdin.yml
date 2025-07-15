@@ -12,7 +12,11 @@ on:
         description: 'Repository name'
         type: 'string'
         required: false
-
+    secrets:
+      GITHUB_TOKEN:
+        required: true
+      CROWDIN_TOKEN:
+        required: true
 jobs:
   importToCrowdin:
     runs-on: ubuntu-latest
