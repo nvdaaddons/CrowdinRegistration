@@ -97,6 +97,7 @@ jobs:
           if [ "$dir" = "en" ] || [ "$dir" = "style.css" ]; then
           continue
           fi
+          rm $dir/readme.md
           po2md -i $dir/readme.po -t en/readme.md $dir/readme.md
           done
       #- name: Set configuration for add-on repo
