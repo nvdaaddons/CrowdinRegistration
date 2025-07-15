@@ -11,10 +11,15 @@ on:
       repo:
         description: 'Repository name'
         type: 'string'
-        required: true
+        required: false
 
 jobs:
   importToCrowdin:
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix: ${{ repo }}
+
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,57 +41,57 @@ jobs:
       - name: Checkout add-on
         uses: actions/checkout@v4
         with:
-          repository: nvdaaddons/${{ github.event.inputs.repo }}
-          path: addon-${{ github.event.inputs.repo }}
+          repository: nvdaaddons/${{ matrix.repo }}
+          path: addon-${{ matrix.repo }}
           ref: stable
       - name: Create dir for repo
         run: |
-          if [ -d "${{ github.event.inputs.repo }}" ]; then
+          if [ -d "${{ matrix.repo }}" ]; then
           echo "Warning: Folder already exists. It will be removed."
-          rm -rf "${{ github.event.inputs.repo }}"
+          rm -rf "${{ matrix.repo }}"
           fi
-          mkdir ${{ github.event.inputs.repo }}
+          mkdir ${{ matrix.repo }}
       - name: Create add-on
         run: |
-          cd addon-${{ github.event.inputs.repo }}
+          cd addon-${{ matrix.repo }}
           scons
       - name: Create pot file
         run: |
-          cd addon-${{ github.event.inputs.repo }}
+          cd addon-${{ matrix.repo }}
           scons pot
       - name: Move pot file
         run: |
-          mv addon-${{ github.event.inputs.repo }}/${{ github.event.inputs.repo }}.pot ${{ github.event.inputs.repo }} -f
-          cd ${{ github.event.inputs.repo }}
-          mv ${{ github.event.inputs.repo }}.pot nvda.pot
+          mv addon-${{ matrix.repo }}/${{ matrix.repo }}.pot ${{ matrix.repo }} -f
+          cd ${{ matrix.repo }}
+          mv ${{ matrix.repo }}.pot nvda.pot
       - name: Convert markdown to pot
-        run: md2po -P addon-${{ github.event.inputs.repo }}/readme.md ${{ github.event.inputs.repo }}
+        run: md2po -P addon-${{ matrix.repo }}/readme.md ${{ matrix.repo }}
       - name: Move locale to add-on repo folder
         run: |
-          if [ -d "addon-${{ github.event.inputs.repo }}/addon/locale" ]; then
-          mv addon-${{ github.event.inputs.repo }}/addon/locale ${{ github.event.inputs.repo }}
+          if [ -d "addon-${{ matrix.repo }}/addon/locale" ]; then
+          mv addon-${{ matrix.repo }}/addon/locale ${{ matrix.repo }}
                     else
           echo "Warning: Folder does not exist."
           fi
       - name: Move doc to add-on repo folder
         run: |
-          if [ -d "addon-${{ github.event.inputs.repo }}/addon/doc" ]; then
-          mv "addon-${{ github.event.inputs.repo }}/addon/doc" "${{ github.event.inputs.repo }}"
+          if [ -d "addon-${{ matrix.repo }}/addon/doc" ]; then
+          mv "addon-${{ matrix.repo }}/addon/doc" "${{ matrix.repo }}"
                     else
           echo "Warning: Folder does not exist. Creating folder."
-          mkdir -p ${{ github.event.inputs.repo }}/doc
+          mkdir -p ${{ matrix.repo }}/doc
           fi
       - name: Move translated doc
         run: |
-          cd ${{ github.event.inputs.repo }}/doc
+          cd ${{ matrix.repo }}/doc
           for dir in */; do
           dirBasename=$(basename "$dir")
           if [ "$dirBasename" = "en" ] || [ "$dirBasename" = "style.css" ]; then
           continue
           fi
-          if [ -f "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" ]; then
-            mv "${{ github.workspace }}/addons/${{ github.event.inputs.repo }}.$dirBasename.po" "$dir" -f
-            mv "$dir/${{ github.event.inputs.repo }}.$dirBasename.po" "$dir/readme.po"
+          if [ -f "${{ github.workspace }}/addons/${{ matrix.repo }}.$dirBasename.po" ]; then
+            mv "${{ github.workspace }}/addons/${{ matrix.repo }}.$dirBasename.po" "$dir" -f
+            mv "$dir/${{ matrix.repo }}.$dirBasename.po" "$dir/readme.po"
           else
             echo "Warning: File does not exist."
           fi
@@ -94,16 +99,16 @@ jobs:
 
       #- name: Set configuration for add-on repo
         #run: |
-          #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ github.event.inputs.repo }}\/\3/' crowdin.yml
-          #sed -i'.bak' 's/\(^.*\/\)\(repo.po\)\(.*$\)/\1${{ github.event.inputs.repo }}.po\3/' crowdin.yml
+          #sed -i'.bak' 's/\(^.*: \"\)\(repo\/\)\(.*$\)/\1${{ matrix.repo }}\/\3/' crowdin.yml
+          #sed -i'.bak' 's/\(^.*\/\)\(repo.po\)\(.*$\)/\1${{ matrix.repo }}.po\3/' crowdin.yml
 
 
       #- name: Commit and push
         #run: |
           #git config user.name github-actions
           #git config user.email github-actions@github.com
-          #git add ${{ github.event.inputs.repo }}
-          #git commit -m "Register ${{ github.event.inputs.repo }}"
+          #git add ${{ matrix.repo }}
+          #git commit -m "Register ${{ matrix.repo }}"
           #git branch -u origin/main
           #git pull
           #git push
@@ -116,8 +121,8 @@ jobs:
           upload_translations: true
           upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
-          source: ${{ github.event.inputs.repo }}/nvda.pot
-          translation: ${{ github.event.inputs.repo }}/locale/%two_letters_code%/LC_MESSAGES/nvda.po
+          source: ${{ matrix.repo }}/nvda.pot
+          translation: ${{ matrix.repo }}/locale/%two_letters_code%/LC_MESSAGES/nvda.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
@@ -131,8 +136,8 @@ jobs:
           upload_translations: true
           upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
-          source: ${{ github.event.inputs.repo }}/nvda.pot
-          translation: ${{ github.event.inputs.repo }}/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po
+          source: ${{ matrix.repo }}/nvda.pot
+          translation: ${{ matrix.repo }}/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
@@ -146,8 +151,8 @@ jobs:
           upload_translations: true
           upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
-          source: ${{ github.event.inputs.repo }}/readme.pot
-          translation: ${{ github.event.inputs.repo }}/doc/%two_letters_code%/readme.po
+          source: ${{ matrix.repo }}/readme.pot
+          translation: ${{ matrix.repo }}/doc/%two_letters_code%/readme.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
@@ -161,8 +166,8 @@ jobs:
           upload_translations: true
           upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
-          source: ${{ github.event.inputs.repo }}/readme.pot
-          translation: ${{ github.event.inputs.repo }}/doc/%locale_with_underscore%/readme.po
+          source: ${{ matrix.repo }}/readme.pot
+          translation: ${{ matrix.repo }}/doc/%locale_with_underscore%/readme.po
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}

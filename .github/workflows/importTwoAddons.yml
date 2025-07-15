@@ -12,4 +12,4 @@ jobs:
       matrix:
         repo: ['clipContentsDesigner', 'pcKbBrl']
     with:
-      repo: ${{ matrix.repo }}
+      target: ${{ matrix.repo }}
