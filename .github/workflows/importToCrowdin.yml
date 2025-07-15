@@ -54,7 +54,7 @@ jobs:
           scons pot
       - name: Move pot file
         run: |
-          mv addon-${{ matrix.addons }}.pot ${{ matrix.addons }} -f
+          mv addon-${{ matrix.addons }}/${{ matrix.addons }}.pot ${{ matrix.addons }} -f
           cd ${{ matrix.addons }}
           mv ${{ matrix.addons }}.pot nvda.pot
       - name: Convert markdown to pot
