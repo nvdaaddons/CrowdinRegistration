@@ -69,7 +69,7 @@ jobs:
       - name: Move doc to add-on repo folder
         run: |
           if [ -d "addon-${{ matrix.addons }}/addon/doc" ]; then
-          mv "addon-${{ matrix.addons }}/addon/doc" "${{ matrix.addons }}""
+          mv "addon-${{ matrix.addons }}/addon/doc" "${{ matrix.addons }}"
                     else
           echo "Warning: Folder does not exist. Creating folder."
           mkdir -p ${{ matrix.addons }}/doc
