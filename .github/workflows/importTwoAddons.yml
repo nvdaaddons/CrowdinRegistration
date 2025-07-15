@@ -12,4 +12,4 @@ jobs:
       matrix:
         addon: ['clipContentsDesigner', 'pcKbBrl']
     with:
-      ${{ matrix.addon }}
+      target: ${{ matrix.addon }}
