@@ -110,7 +110,9 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
+          upload_sources_args: '--preserve-hierarchy'
           upload_translations: true
+          upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
           source: ${{ matrix.addons }}/nvda.pot
           translation: ${{ matrix.addons }}/locale/%two_letters_code%/LC_MESSAGES/nvda.po
@@ -123,7 +125,9 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
+          upload_sources_args: '--preserve-hierarchy'
           upload_translations: true
+          upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
           source: ${{ matrix.addons }}/nvda.pot
           translation: ${{ matrix.addons }}/locale/%locale_with_underscore%/LC_MESSAGES/nvda.po
@@ -136,7 +140,9 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
+          upload_sources_args: '--preserve-hierarchy'
           upload_translations: true
+          upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
           source: ${{ matrix.addons }}/readme.pot
           translation: ${{ matrix.addons }}/doc/%two_letters_code%/readme.po
@@ -149,7 +155,9 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
+          upload_sources_args: '--preserve-hierarchy'
           upload_translations: true
+          upload_translations_args: '--preserve-hierarchy'
           auto_approve_imported: true
           source: ${{ matrix.addons }}/readme.pot
           translation: ${{ matrix.addons }}/doc/%locale_with_underscore%/readme.po
