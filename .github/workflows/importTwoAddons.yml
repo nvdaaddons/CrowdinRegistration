@@ -13,4 +13,4 @@ jobs:
         repo: ['clipContentsDesigner', 'pcKbBrl']
     with:
       repo: ${{ matrix.repo }}
-      secrets: inherit
+    secrets: inherit

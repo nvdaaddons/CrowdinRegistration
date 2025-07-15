@@ -11,9 +11,6 @@ on:
       repo:
         description: 'Repository name'
         type: 'string'
-        required: false
-    secrets:
-      CROWDIN_TOKEN:
         required: true
 jobs:
   importToCrowdin:
