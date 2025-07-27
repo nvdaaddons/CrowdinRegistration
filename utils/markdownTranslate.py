@@ -85,7 +85,7 @@ def getRawGithubURLForPath(filePath: str) -> str:
 	commitID = getLastCommitID(filePath)
 	relativePath = os.path.relpath(os.path.abspath(filePath), gitDirPath)
 	relativePath = relativePath.replace("\\", "/")
-	return f"{RAW_GITHUB_REPO_URL}/{os.path.basename(getGitDir())[7:]}/{commitID}/{relativePath}"
+	return f"{RAW_GITHUB_REPO_URL}/{os.path.basename(getGitDir())[6:]}/{commitID}/{relativePath}"
 
 
 def skeletonizeLine(mdLine: str) -> str | None:
