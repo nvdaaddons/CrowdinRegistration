@@ -54,10 +54,8 @@ jobs:
         run: |
           cd addon-${{ inputs.repo }}
           scons pot
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
       - name: Generate xliff
         run: |
           cd addon-${{ inputs.repo }}
-          uv run ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
+          python ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
         
