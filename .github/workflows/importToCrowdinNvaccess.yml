@@ -1,0 +1,60 @@
+name: Import to crowdin
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'Repository name'
+        required: false
+  workflow_call:
+    inputs:
+      repo:
+        description: 'Repository name'
+        type: 'string'
+        required: true
+jobs:
+  importToCrowdin:
+    runs-on: ubuntuº-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scons markdown
+          pip install lxml requests
+          sudo apt update
+          sudo apt install gettext
+      - name: Checkout add-on
+        uses: actions/checkout@v4
+        with:
+          repository: nvdaaddons/${{ inputs.repo }}
+          path: addon-${{ inputs.repo }}
+          ref: stable
+      - name: Create dir for repo
+        run: |
+          if [ -d "${{ inputs.repo }}" ]; then
+          echo "Warning: Folder already exists. It will be removed."
+          rm -rf "${{ inputs.repo }}"
+          fi
+          mkdir ${{ inputs.repo }}
+      - name: Create add-on
+        run: |
+          cd addon-${{ inputs.repo }}
+          scons
+      - name: Create pot file
+        run: |
+          cd addon-${{ inputs.repo }}
+          scons pot
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+      - name: Generate xliff
+        run: uv run utils/markdownTranslate.py generateXliff -m addon-${{ inputs.repo }}/readme.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff
+        
