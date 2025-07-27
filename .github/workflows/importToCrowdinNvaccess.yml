@@ -57,6 +57,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v6
       - name: Generate xliff
+        run: |
           cd addon-${{ inputs.repo }}
-        run: uv run ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ ../inputs.repo }}/${{ inputs.repo }}.xliff
+          uv run ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ ../inputs.repo }}/${{ inputs.repo }}.xliff
         
