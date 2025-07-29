@@ -43,9 +43,10 @@ jobs:
         run: |
           if [ -d "${{ inputs.repo }}" ]; then
           echo "Warning: Folder already exists. It will be removed."
-          rm -rf "${{ inputs.repo }}"
-          fi
+          #rm -rf "${{ inputs.repo }}"
+          else
           mkdir ${{ inputs.repo }}
+          fi
       - name: Create add-on
         run: |
           cd addon-${{ inputs.repo }}
@@ -60,8 +61,11 @@ jobs:
           python ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
       - name: Move files to repo
         run: |
-          mv addon-${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }}
-          mv addon-${{ inputs.repo }}/${{ inputs.repo }}.xliff ${{ inputs.repo }}
+          mv addon-${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }} -f
+          mv addon-${{ inputs.repo }}/${{ inputs.repo }}.xliff ${{ inputs.repo }} -f
+          mv addon-${{ inputs.repo }}/readme.md ${{ inputs.repo }} -f
+          mv ${{ inputs.repo }}/readme.md${{ inputs.repo }}/${{ inputs.repo }}.md -f
+
       - name: Commit and push
         run: |
           git config user.name github-actions
