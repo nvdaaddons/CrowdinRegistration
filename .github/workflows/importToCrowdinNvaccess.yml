@@ -66,6 +66,8 @@ jobs:
           mv addon-${{ inputs.repo }}/readme.md ${{ inputs.repo }} -f
           cd ${{ inputs.repo }}
           mv readme.md ${{ inputs.repo }}.md -f
+          mv  ${{ inputs.repo }}.pot ${{ inputs.repo }}.po -f
+
 
       - name: Commit and push
         run: |
