@@ -19,7 +19,7 @@ import sys
 import zipfile
 import time
 
-CROWDIN_PROJECT_ID = 598017
+CROWDIN_PROJECT_ID = 780748
 POLLING_INTERVAL_SECONDS = 5
 EXPORT_TIMEOUT_SECONDS = 60 * 10  # 10 minutes
 
