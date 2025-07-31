@@ -31,7 +31,7 @@ jobs:
 
 
     - name: Download translations from Crowdin
-      run: source/l10nUtil.py exportTranslations -o .
+      run: python ../utils/l10nUtil.py exportTranslations -o .
       env:
         crowdinProjectID: ${{ vars.CROWDIN_ID }}
         crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
