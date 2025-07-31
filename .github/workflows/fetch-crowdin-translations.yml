@@ -29,17 +29,15 @@ jobs:
         fetch-depth: 1
         submodules: true
 
-    - name: Download translations from Crowdin
-      run: python utils/l10nUtil.py exportTranslations -o .
-      env:
-        crowdinProjectID: ${{ vars.CROWDIN_ID }}
-        crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
 
     - name: Set up python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-
+    - name: Install Crowdin API
+      run: |
+        python -m pip install --upgrade pip
+        pip install crowdin-client
     - name: Install pre-commit
       run: |
         python -m pip install --upgrade pip
@@ -47,6 +45,12 @@ jobs:
         pre-commit install
 
     # Job will fail if pre-commit checks fail
+    - name: Download translations from Crowdin
+      run: python utils/l10nUtil.py exportTranslations -o .
+      env:
+        crowdinProjectID: ${{ vars.CROWDIN_ID }}
+        crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
+
     - name: Commit tracked files only
       id: commit
       shell: bash
