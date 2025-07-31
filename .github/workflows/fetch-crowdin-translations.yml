@@ -52,8 +52,17 @@ jobs:
         #pre-commit install
 
     # Job will fail if pre-commit checks fail
+    - name: Create dir for repo
+      run: |
+        cd ${{ inputs.repo }}
+        if [ -d "l10n" ]; then
+        echo "Warning: Folder already exists.
+          #rm -rf "${{ inputs.repo }}"
+        else
+        mkdir l10n
+        fi
     - name: Download translations from Crowdin
-      run: python utils/l10nUtil.py exportTranslations -o .
+      run: python utils/l10nUtil.py exportTranslations -o l10n
       env:
         crowdinProjectID: ${{ vars.CROWDIN_ID }}
         crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
