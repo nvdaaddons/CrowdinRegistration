@@ -54,7 +54,6 @@ jobs:
     # Job will fail if pre-commit checks fail
     - name: Create dir for repo
       run: |
-        cd ${{ inputs.repo }}
         if [ -d "l10n" ]; then
         echo "Warning: Folder already exists.
           #rm -rf "${{ inputs.repo }}"
