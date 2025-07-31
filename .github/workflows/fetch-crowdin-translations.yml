@@ -82,7 +82,7 @@ jobs:
       run: |
         git push --set-upstream origin ${{ env.branchName }}
         # Create a pull request for the changes
-        gh pr create --base beta --head ${{ env.branchName }} \
+        gh pr create --base main --head ${{ env.branchName }} \
         --title "Update tracked translations from Crowdin" \
         --body "This pull request updates translations to languages being tracked from Crowdin."
       env:
