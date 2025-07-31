@@ -39,7 +39,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install crowdin-api-client
         pip install lxml requests
-        pip install markdown
+        pip install markdown mdx_truly_sane_lists markdown-link-attr-modifier mdx-gh-links
 
     - name: Install pre-commit
       run: |
