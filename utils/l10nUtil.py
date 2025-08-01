@@ -303,7 +303,7 @@ def exportTranslations(outputDir: str, language: str | None = None):
 
 	requestData = {
 		"skipUntranslatedStrings": False,
-		"skipUntranslatedFiles": False,
+		"skipUntranslatedFiles": True,
 		"exportApprovedOnly": False,
 	}
 
