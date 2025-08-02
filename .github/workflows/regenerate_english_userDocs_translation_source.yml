@@ -38,6 +38,6 @@ jobs:
     - name: update xliff files
       if: hashfiles('${{ inputs.repo}}/readme.md') == hashfiles('addon-${{ inputs.repo }}/${{ inputs.repo}}.md')
       run: |
-                python utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}/${{ inputs.repo }}.xliff -m addon-${{ inputs.repo }}/readme.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
-                cd ${{ inputs.repo }}
+        cd ${{ inputs.repo }}
+        python utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}/${{ inputs.repo }}.xliff -m addon-${{ inputs.repo }}/readme.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
                 mv ${{ inputs.repo }}.xliff.temp ${{ inputs.repo }}.xliff -f
