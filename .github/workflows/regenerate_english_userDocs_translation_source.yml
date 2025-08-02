@@ -34,9 +34,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-    - name: Install Crowdin API
-      run: |
-        python -m pip install --upgrade pip
         pip install crowdin-api-client==1.21.0
         pip install lxml requests 
         pip install Markdown==3.7
@@ -44,8 +41,14 @@ jobs:
         pip install markdown-link-attr-modifier==0.2.1
         pip install mdx-gh-links==0.4
         pip install nh3==0.2.19
-
-    - name: update xliff files
+    - name: Update pot
+      run: |
+        cd addon-${{ inputs.repo }}
+        scons pot
+    - name: Move pot
+      run: |
+        mv ${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }}
+    - name: update xliff
       run: |
         cd addon-${{ inputs.repo }}
         python ../utils/markdownTranslate.py updateXliff -x ../${{ inputs.repo }}/${{ inputs.repo }}.xliff -m readme.md -o ../${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
