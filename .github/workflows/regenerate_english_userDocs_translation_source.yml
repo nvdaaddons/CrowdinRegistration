@@ -37,19 +37,21 @@ jobs:
         pip install lxml requests
 
     - name: update xliff files
-      if: ${{ hashFiles('${{ inputs.repo}}/${{ inputs.repo }}.md') != hashFiles('addon-${{ inputs.repo }}/readme.md') }}
       run: |
         cd addon-${{ inputs.repo }}
         python ../utils/markdownTranslate.py updateXliff -x ../${{ inputs.repo }}/${{ inputs.repo }}.xliff -m readme.md -o ../${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
         cd ../${{ inputs.repo }}
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}.xliff
     - name: Commit and push
-      if: ${{ hashFiles('${{ inputs.repo}}/${{ inputs.repo }}.md') != hashFiles('addon-${{ inputs.repo }}/readme.md') }}
       run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add ${{ inputs.repo }}
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git add -u ${{ inputs.repo }}
+        if git diff --staged --quiet; then
+        echo "Nothing added to commit."
+        else
         git commit -m "Regenerate documentation"
         git branch -u origin/main
         git pull
         git push
+        fi
