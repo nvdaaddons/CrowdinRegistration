@@ -68,8 +68,8 @@ jobs:
     - name: Upload source
       if: always()
       run: |
-        python utils/crowdinSynk.py ${{ inputs.repo }}.xliff
-        python utils/crowdinSynk.py ${{ inputs.repo }}.xliff
+        python ../utils/crowdinSynk.py ${{ inputs.repo }}.pot
+        python ../utils/crowdinSynk.py ${{ inputs.repo }}.xliff
       env:
         crowdinProjectID: ${{ vars.CROWDIN_ID }}
         crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
