@@ -228,10 +228,10 @@ def stripXliff(xliffPath: str, outputPath: str, oldXliffPath: str | None = None)
 
 
 crowdinFileIDs = {
-	"clipContentsDesigner.po": 168,
-	# alias for clipContentsDesigner.po
-	"clipContentsDesigner.pot": 168,
-	"clipContentsDesigner.xliff": 166,
+	# emoticons
+	"emoticons.pot": 176,
+	"emoticons.po": 176,
+	"emoticons.xliff": 178,
 }
 
 
