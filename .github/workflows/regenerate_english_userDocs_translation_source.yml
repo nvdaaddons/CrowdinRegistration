@@ -43,3 +43,12 @@ jobs:
         python ../utils/markdownTranslate.py updateXliff -x ../${{ inputs.repo }}/${{ inputs.repo }}.xliff -m readme.md -o ../${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
         cd ../${{ inputs.repo }}
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}.xliff
+    - name: Commit and push
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add ${{ inputs.repo }}
+        git commit -m "Regenerate documentation"
+        git branch -u origin/main
+        git pull
+        git push
