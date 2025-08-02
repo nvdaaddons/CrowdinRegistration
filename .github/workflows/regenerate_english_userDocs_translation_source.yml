@@ -50,7 +50,7 @@ jobs:
         scons pot
     - name: Move pot
       run: |
-        mv ${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }}
+        mv addon-${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }} -f
     - name: update xliff
       run: |
         cd addon-${{ inputs.repo }}
@@ -72,7 +72,6 @@ jobs:
         fi
 
     - name: Upload source
-      if: always()
       run: |
         cd ${{ inputs.repo }}
         python ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
