@@ -24,6 +24,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: nvdaaddons/${{ inputs.repo }}
+        ref: stable
         path: addon-${{ inputs.repo }}
     - name: Set up python
       uses: actions/setup-python@v5
