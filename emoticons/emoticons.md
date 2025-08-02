@@ -1,4 +1,4 @@
-# Emoticons #
+# Emoticons
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
 
