@@ -34,6 +34,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        pip install scons
         pip install crowdin-api-client==1.21.0
         pip install lxml requests 
         pip install Markdown==3.7
@@ -41,6 +42,8 @@ jobs:
         pip install markdown-link-attr-modifier==0.2.1
         pip install mdx-gh-links==0.4
         pip install nh3==0.2.19
+        sudo apt update
+        sudo apt install gettext
     - name: Update pot
       run: |
         cd addon-${{ inputs.repo }}
