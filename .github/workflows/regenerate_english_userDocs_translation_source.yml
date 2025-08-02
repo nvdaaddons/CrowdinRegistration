@@ -44,6 +44,7 @@ jobs:
         cd ../${{ inputs.repo }}
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}.xliff
     - name: Commit and push
+      if: ${{ hashFiles('${{ inputs.repo}}/${{ inputs.repo }}.md') != hashFiles('addon-${{ inputs.repo }}/readme.md') }}
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
