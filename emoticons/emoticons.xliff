@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/emoticons/5d44937eabd5e69fffa673f54850a969923bcb4e/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/emoticons/deb8f6c61463e42bfc6e997f315847e34d9faa13/readme.md">
 <skeleton>
-# $(ID:ecfec622-f97b-49f8-b669-3884cdced462)
+# $(ID:98e24c65-62c0-4e54-9751-577c1eb8a46d)
 
 * $(ID:8cb646c3-8f6f-447b-9405-02bb9f5288f5)
 
-## $(ID:ba996ef3-adec-457a-9c1f-e15b8bec2141)
 $(ID:598b50d4-0b78-4b05-b9ba-9ac42238039f)
 
 $(ID:40d7747b-fd12-44f8-b7bd-d786fac57382)
@@ -188,13 +187,13 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 
 * $(ID:dcd12ce9-6faf-4ddf-bb32-8623f138d730)
 </skeleton>
-<unit id="ecfec622-f97b-49f8-b669-3884cdced462">
+<unit id="98e24c65-62c0-4e54-9751-577c1eb8a46d">
 <notes>
 <note appliesTo="source">line: 2</note>
 <note appliesTo="source">prefix: # </note>
 </notes>
 <segment>
-<source>Emoticons</source>
+<source>Emoticons #</source>
 </segment>
 </unit>
 <unit id="8cb646c3-8f6f-447b-9405-02bb9f5288f5">
@@ -206,18 +205,9 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 <source>Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez</source>
 </segment>
 </unit>
-<unit id="ba996ef3-adec-457a-9c1f-e15b8bec2141">
-<notes>
-<note appliesTo="source">line: 6</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Test</source>
-</segment>
-</unit>
 <unit id="598b50d4-0b78-4b05-b9ba-9ac42238039f">
 <notes>
-<note appliesTo="source">line: 7</note>
+<note appliesTo="source">line: 6</note>
 </notes>
 <segment>
 <source>Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.</source>
@@ -225,7 +215,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="40d7747b-fd12-44f8-b7bd-d786fac57382">
 <notes>
-<note appliesTo="source">line: 9</note>
+<note appliesTo="source">line: 8</note>
 </notes>
 <segment>
 <source>For example: the sequence ":)" will be spoken as "smiling smiley", or for example NVDA will recognize the meaning of each emoji.</source>
@@ -233,7 +223,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="b0982041-6148-4c58-9498-aa85efbdfdce">
 <notes>
-<note appliesTo="source">line: 11</note>
+<note appliesTo="source">line: 10</note>
 </notes>
 <segment>
 <source>You can take advantage of the following features:</source>
@@ -241,7 +231,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="1ba37c8b-708b-447d-a6c8-4068c9a5211c">
 <notes>
-<note appliesTo="source">line: 13</note>
+<note appliesTo="source">line: 12</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -250,7 +240,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="29a431d2-268a-4d2b-894f-bc6f44f61f6a">
 <notes>
-<note appliesTo="source">line: 15</note>
+<note appliesTo="source">line: 14</note>
 </notes>
 <segment>
 <source>Sometimes an image is worth a 1000 words: use the new emoji to liven up your instant message and to let your friends know how you’re feeling.</source>
@@ -258,7 +248,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="d00949b2-6209-4ecb-88c4-b6a89a7d86a1">
 <notes>
-<note appliesTo="source">line: 17</note>
+<note appliesTo="source">line: 16</note>
 </notes>
 <segment>
 <source>When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.</source>
@@ -266,7 +256,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="68586375-be10-4443-b797-b6e4ee3e6cd8">
 <notes>
-<note appliesTo="source">line: 19</note>
+<note appliesTo="source">line: 18</note>
 </notes>
 <segment>
 <source>Press NVDA+I, or from menu Tools -&gt; Emoticons &gt; Insert emoticon, to open a dialog with the provided emoticons or emoji.</source>
@@ -274,7 +264,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="554dbd4b-f872-4287-8954-0e70e1018975">
 <notes>
-<note appliesTo="source">line: 21</note>
+<note appliesTo="source">line: 20</note>
 </notes>
 <segment>
 <source>This dialog allows you to choose an emoticon and to view the emoticons that interest you:</source>
@@ -282,7 +272,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="5fd7733a-1acf-4019-b5d8-48117ee2737a">
 <notes>
-<note appliesTo="source">line: 23</note>
+<note appliesTo="source">line: 22</note>
 <note appliesTo="source">prefix: *	</note>
 </notes>
 <segment>
@@ -291,7 +281,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="5466b4ad-ee6c-43f6-895f-2180fc55dcd9">
 <notes>
-<note appliesTo="source">line: 24</note>
+<note appliesTo="source">line: 23</note>
 <note appliesTo="source">prefix: *	</note>
 </notes>
 <segment>
@@ -300,7 +290,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="eb6b259c-9848-4a97-8178-649c486340cd">
 <notes>
-<note appliesTo="source">line: 25</note>
+<note appliesTo="source">line: 24</note>
 <note appliesTo="source">prefix: *	</note>
 </notes>
 <segment>
@@ -309,7 +299,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="94417232-21bb-4225-9a51-6d6ef044f821">
 <notes>
-<note appliesTo="source">line: 27</note>
+<note appliesTo="source">line: 26</note>
 </notes>
 <segment>
 <source>When you press OK, the characters for the chosen emoticon will be copied to your clipboard, ready for pasting.</source>
@@ -317,7 +307,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="7ffff6d8-22d7-49e6-83d1-9a1e2c193ca6">
 <notes>
-<note appliesTo="source">line: 29</note>
+<note appliesTo="source">line: 28</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -326,7 +316,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="a055fc22-2514-47e6-b1bb-103bb8dc5ffa">
 <notes>
-<note appliesTo="source">line: 31</note>
+<note appliesTo="source">line: 30</note>
 </notes>
 <segment>
 <source>This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list.</source>
@@ -334,7 +324,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="af091f08-d1b7-4c17-8251-8e32211618e9">
 <notes>
-<note appliesTo="source">line: 33</note>
+<note appliesTo="source">line: 32</note>
 </notes>
 <segment>
 <source>If you want to copy various symbols, use the Add button to append them to the Symbols to copy edit box.</source>
@@ -342,7 +332,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="66870c72-a835-402d-967a-e25b140113ec">
 <notes>
-<note appliesTo="source">line: 35</note>
+<note appliesTo="source">line: 34</note>
 </notes>
 <segment>
 <source>Then, press OK and the selected emoji or symbol, or the symbols contained in the mentioned edit box, will be copied to your clipboard, ready for pasting.</source>
@@ -350,7 +340,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="2aaf79be-f423-444d-939b-da58ac0da681">
 <notes>
-<note appliesTo="source">line: 37</note>
+<note appliesTo="source">line: 36</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -359,7 +349,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="93c56e13-ca9a-4884-ae72-9c738224ad17">
 <notes>
-<note appliesTo="source">line: 39</note>
+<note appliesTo="source">line: 38</note>
 </notes>
 <segment>
 <source>From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols or Copy symbols, you can configure NVDA to type symbols through associated gestures.</source>
@@ -367,7 +357,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="dc864cd6-8ebb-4613-ab94-aa6d1d070aef">
 <notes>
-<note appliesTo="source">line: 41</note>
+<note appliesTo="source">line: 40</note>
 </notes>
 <segment>
 <source>You can use the Edit field edit box to reduce the number of symbols presented, so that this category can be expanded faster.</source>
@@ -375,7 +365,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="41324f7a-e8a1-4e21-95ec-a39f7be6d80d">
 <notes>
-<note appliesTo="source">line: 43</note>
+<note appliesTo="source">line: 42</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -384,7 +374,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="6eb26917-bb03-4433-96bd-dcfabf59bb4c">
 <notes>
-<note appliesTo="source">line: 45</note>
+<note appliesTo="source">line: 44</note>
 </notes>
 <segment>
 <source>Emoticons add-on allows to have differents speech-dictionaries using configuration profiles.</source>
@@ -392,7 +382,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="88fe1446-56e8-49eb-9daf-bbea1bcce497">
 <notes>
-<note appliesTo="source">line: 47</note>
+<note appliesTo="source">line: 46</note>
 </notes>
 <segment>
 <source>This means that you can create or edit a specific speech-dictionary for each your custom profile.</source>
@@ -400,7 +390,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="cafdd44d-72e3-4ada-a935-ef4941e1fe7a">
 <notes>
-<note appliesTo="source">line: 49</note>
+<note appliesTo="source">line: 48</note>
 </notes>
 <segment>
 <source>From NVDA MENU, Preferences -&gt; Speech dictionaries -&gt; Emoticons dictionary, you can open a dialog to add or to edit available emoticons.</source>
@@ -408,7 +398,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="9df8756e-98c7-4f2a-8e17-caf6a71fe57b">
 <notes>
-<note appliesTo="source">line: 51</note>
+<note appliesTo="source">line: 50</note>
 </notes>
 <segment>
 <source>Saving your customizations, the new reading settings of emoticons  will only apply to the profile you are currently editing.</source>
@@ -416,7 +406,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="3d57f3a4-01ee-4c0c-a2d3-eefee19e6949">
 <notes>
-<note appliesTo="source">line: 53</note>
+<note appliesTo="source">line: 52</note>
 </notes>
 <segment>
 <source>For example, you may wish that NVDA spoken custom emoticons only in XxChat program, but not in other chat programs: you can do this by creating a profile for the XxChat application and assign to it a speech  dictionary from Speech dictionaries menu, Emoticons dictionary option. See below for Emoticons settings in relation to the configuration profiles.</source>
@@ -424,7 +414,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="cc885e8b-4ad9-4d54-ac8e-57a8788a2691">
 <notes>
-<note appliesTo="source">line: 55</note>
+<note appliesTo="source">line: 54</note>
 </notes>
 <segment>
 <source>You can also export each custom speech-dictionary pressing "Save and export dictionary" button: in this way your  speech-dictionaries will be saved in your user config folder, speechDicts/emoticons subfolder.</source>
@@ -432,7 +422,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="871d295a-c3b0-4c87-84dc-77953d2eda24">
 <notes>
-<note appliesTo="source">line: 57</note>
+<note appliesTo="source">line: 56</note>
 </notes>
 <segment>
 <source>The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog.</source>
@@ -440,7 +430,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="e51a475b-de07-4240-90b6-a38bc7e19ef3">
 <notes>
-<note appliesTo="source">line: 59</note>
+<note appliesTo="source">line: 58</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -449,7 +439,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="7bfe8905-4ca7-495e-b42b-d4597ac9d18f">
 <notes>
-<note appliesTo="source">line: 61</note>
+<note appliesTo="source">line: 60</note>
 </notes>
 <segment>
 <source>From menu Preferences -&gt; Settings -&gt; Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.</source>
@@ -457,7 +447,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="9277abef-d8c2-4399-8337-f53a1573fc3b">
 <notes>
-<note appliesTo="source">line: 63</note>
+<note appliesTo="source">line: 62</note>
 </notes>
 <segment>
 <source>In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.</source>
@@ -465,7 +455,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="7d53557f-309c-4d8b-b69c-de0ba5e6efb0">
 <notes>
-<note appliesTo="source">line: 65</note>
+<note appliesTo="source">line: 64</note>
 </notes>
 <segment>
 <source>Moreover, it's possible to determine if the add-on emojis should be spoken. This could be useful to preserve symbols speaking if emojis are included in NVDA's configuration.</source>
@@ -473,7 +463,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="68eee5df-9218-484d-b2fd-54cf921e8db1">
 <notes>
-<note appliesTo="source">line: 67</note>
+<note appliesTo="source">line: 66</note>
 </notes>
 <segment>
 <source>If symbols inserted using associated gestures aren't spoken in your system, even when NVDA is configured to speak typed characters, you can try to enable a checkbox to ensure the speaking of inserted symbols.</source>
@@ -481,7 +471,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="eb585374-d236-443c-a2c4-a3b4a55dd0c8">
 <notes>
-<note appliesTo="source">line: 70</note>
+<note appliesTo="source">line: 69</note>
 </notes>
 <segment>
 <source>If you may wish to keep clean your configuration folders, in this dialog it is also possible to choose if dictionaries not used (associated with non existing profiles) will be removed from the add-on when it is unloaded.</source>
@@ -489,7 +479,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="ddb4f40f-7f95-4622-a2d4-c4888de40af3">
 <notes>
-<note appliesTo="source">line: 72</note>
+<note appliesTo="source">line: 71</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -498,7 +488,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="50ae9288-61e0-47cc-9527-cbeaec4f9ab9">
 <notes>
-<note appliesTo="source">line: 74</note>
+<note appliesTo="source">line: 73</note>
 </notes>
 <segment>
 <source>These are the key commands available by default, you can edit those or add new key to open Emoticons settings panel or Emoticon Dictionary dialog:</source>
@@ -506,7 +496,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="76dffaac-6660-4744-bcb3-4ee89577c7f7">
 <notes>
-<note appliesTo="source">line: 76</note>
+<note appliesTo="source">line: 75</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -515,7 +505,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="b1491c82-2bbc-42b8-ae2f-a4139d63dbf1">
 <notes>
-<note appliesTo="source">line: 77</note>
+<note appliesTo="source">line: 76</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -524,7 +514,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="3ff6f895-1c7c-4f52-bb3e-76abab144d9e">
 <notes>
-<note appliesTo="source">line: 78</note>
+<note appliesTo="source">line: 77</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -533,7 +523,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="42afe256-1d2c-4ea1-b4f5-d1d90c409792">
 <notes>
-<note appliesTo="source">line: 79</note>
+<note appliesTo="source">line: 78</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -542,7 +532,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="50374d3a-2195-4b31-ba45-4456fdfdc9cd">
 <notes>
-<note appliesTo="source">line: 80</note>
+<note appliesTo="source">line: 79</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -551,7 +541,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="fa329be9-ea36-4b62-8b51-0f2057021ea3">
 <notes>
-<note appliesTo="source">line: 82</note>
+<note appliesTo="source">line: 81</note>
 </notes>
 <segment>
 <source>Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.</source>
@@ -559,7 +549,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="de1cad56-82e8-4849-a357-bad7e3a1f315">
 <notes>
-<note appliesTo="source">line: 84</note>
+<note appliesTo="source">line: 83</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -568,7 +558,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="ab1ba2ab-8dd0-4a33-ae54-19137219bb0e">
 <notes>
-<note appliesTo="source">line: 86</note>
+<note appliesTo="source">line: 85</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -577,7 +567,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="731b630d-9632-4fa7-9827-8a9c03ffed11">
 <notes>
-<note appliesTo="source">line: 89</note>
+<note appliesTo="source">line: 88</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -586,7 +576,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="11f5242f-2ee4-4fcc-9acd-ad97070d691b">
 <notes>
-<note appliesTo="source">line: 91</note>
+<note appliesTo="source">line: 90</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -595,7 +585,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="261efb0b-186e-44fb-a113-f99d9c9db30f">
 <notes>
-<note appliesTo="source">line: 92</note>
+<note appliesTo="source">line: 91</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -604,7 +594,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="1487523d-3f03-4f86-b7df-dfe8227e7336">
 <notes>
-<note appliesTo="source">line: 93</note>
+<note appliesTo="source">line: 92</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -613,7 +603,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="e39ac089-3984-4302-b2b2-f35973b00e9c">
 <notes>
-<note appliesTo="source">line: 95</note>
+<note appliesTo="source">line: 94</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -622,7 +612,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="a95c0772-851f-4c5f-b26d-cad16f71d4f1">
 <notes>
-<note appliesTo="source">line: 97</note>
+<note appliesTo="source">line: 96</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -631,7 +621,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="75c66304-0684-4e6f-bca0-cf35e1df054b">
 <notes>
-<note appliesTo="source">line: 99</note>
+<note appliesTo="source">line: 98</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -640,7 +630,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="c5bfb73a-8988-4f9a-89ab-8f997326b8ea">
 <notes>
-<note appliesTo="source">line: 101</note>
+<note appliesTo="source">line: 100</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -649,7 +639,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="6c3026ce-3728-46e8-8938-5e911d32a732">
 <notes>
-<note appliesTo="source">line: 102</note>
+<note appliesTo="source">line: 101</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -658,7 +648,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="8bcd1828-3be6-4ac8-9447-c2af78848468">
 <notes>
-<note appliesTo="source">line: 104</note>
+<note appliesTo="source">line: 103</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -667,7 +657,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="91ce0522-f05b-4600-ad9c-105a8f98e747">
 <notes>
-<note appliesTo="source">line: 106</note>
+<note appliesTo="source">line: 105</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -676,7 +666,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="874b6d9a-c08d-4cf0-91b5-66ca449b68ef">
 <notes>
-<note appliesTo="source">line: 108</note>
+<note appliesTo="source">line: 107</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -685,7 +675,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="63a43f30-bf93-4037-aa68-bb13ab290d9b">
 <notes>
-<note appliesTo="source">line: 110</note>
+<note appliesTo="source">line: 109</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -694,7 +684,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="34a02ed0-fd04-40b4-b582-16e0ba9886ae">
 <notes>
-<note appliesTo="source">line: 111</note>
+<note appliesTo="source">line: 110</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -703,7 +693,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="ca6e93c2-b058-4e69-84a7-837cac92142b">
 <notes>
-<note appliesTo="source">line: 113</note>
+<note appliesTo="source">line: 112</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -712,7 +702,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="158cc0ac-83a8-421b-a29c-db59eae3fe29">
 <notes>
-<note appliesTo="source">line: 115</note>
+<note appliesTo="source">line: 114</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -721,7 +711,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="1c002f2a-1319-4608-8162-df35926112d0">
 <notes>
-<note appliesTo="source">line: 117</note>
+<note appliesTo="source">line: 116</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -730,7 +720,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="10fc6b46-d1a7-4cb3-9473-00c1b056b123">
 <notes>
-<note appliesTo="source">line: 119</note>
+<note appliesTo="source">line: 118</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -739,7 +729,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="4c26c6e8-7ac5-41c4-abaf-ef75f6f3fda7">
 <notes>
-<note appliesTo="source">line: 120</note>
+<note appliesTo="source">line: 119</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -748,7 +738,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="44214a09-32ab-43cf-9648-eb3a47a0e565">
 <notes>
-<note appliesTo="source">line: 122</note>
+<note appliesTo="source">line: 121</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -757,7 +747,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="6a40d2b6-2762-41dd-bbdd-3673cbc672c0">
 <notes>
-<note appliesTo="source">line: 124</note>
+<note appliesTo="source">line: 123</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -766,7 +756,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="bd566c4f-224d-483c-a58b-005f9aa144d2">
 <notes>
-<note appliesTo="source">line: 126</note>
+<note appliesTo="source">line: 125</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -775,7 +765,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="10d8caf0-e086-4f46-8878-2c4333931a5e">
 <notes>
-<note appliesTo="source">line: 128</note>
+<note appliesTo="source">line: 127</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -784,7 +774,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="4b191ca5-e365-48b7-8d52-22a4219dfe40">
 <notes>
-<note appliesTo="source">line: 129</note>
+<note appliesTo="source">line: 128</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -793,7 +783,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="8036e716-89e2-4510-bf83-61acd4c5550b">
 <notes>
-<note appliesTo="source">line: 131</note>
+<note appliesTo="source">line: 130</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -802,7 +792,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="f2976b48-81bb-4fb6-977d-450878ffe8aa">
 <notes>
-<note appliesTo="source">line: 133</note>
+<note appliesTo="source">line: 132</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -811,7 +801,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="3823af14-dc0e-4241-9102-a446e23a264f">
 <notes>
-<note appliesTo="source">line: 135</note>
+<note appliesTo="source">line: 134</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -820,7 +810,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="88ea0b65-7352-4823-92ed-7b8d1a1645ad">
 <notes>
-<note appliesTo="source">line: 137</note>
+<note appliesTo="source">line: 136</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -829,7 +819,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="fda84831-865f-4399-a199-379e48e7a749">
 <notes>
-<note appliesTo="source">line: 138</note>
+<note appliesTo="source">line: 137</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -838,7 +828,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="4fc5e2f4-8b70-4ae6-8491-4850565004ad">
 <notes>
-<note appliesTo="source">line: 139</note>
+<note appliesTo="source">line: 138</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -847,7 +837,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="459f0e3d-e270-4445-93e5-c7b4293af299">
 <notes>
-<note appliesTo="source">line: 140</note>
+<note appliesTo="source">line: 139</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -856,7 +846,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="1db17e7c-9547-4dbf-8b5b-8b0f2343229e">
 <notes>
-<note appliesTo="source">line: 142</note>
+<note appliesTo="source">line: 141</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -865,7 +855,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="d6113120-6a23-405f-978f-cbd5d440d819">
 <notes>
-<note appliesTo="source">line: 144</note>
+<note appliesTo="source">line: 143</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -874,7 +864,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="83cd2a60-b309-4e9c-871c-33531cddd934">
 <notes>
-<note appliesTo="source">line: 146</note>
+<note appliesTo="source">line: 145</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -883,7 +873,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="e24e42ed-37df-4a49-ab07-74a40c0082ea">
 <notes>
-<note appliesTo="source">line: 148</note>
+<note appliesTo="source">line: 147</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -892,7 +882,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="0fad9625-638f-4800-ac7d-f373289b2959">
 <notes>
-<note appliesTo="source">line: 149</note>
+<note appliesTo="source">line: 148</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -901,7 +891,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="c200ac8a-a66f-458b-a3f8-706a7db9d3b9">
 <notes>
-<note appliesTo="source">line: 150</note>
+<note appliesTo="source">line: 149</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -910,7 +900,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="130e091e-5b03-40ec-a515-637fbb6d5d6b">
 <notes>
-<note appliesTo="source">line: 152</note>
+<note appliesTo="source">line: 151</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -919,7 +909,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="bdfcbeb7-6e94-479a-999f-b11e5d13e4c7">
 <notes>
-<note appliesTo="source">line: 154</note>
+<note appliesTo="source">line: 153</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -928,7 +918,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="8d977c83-cc97-44fc-83b6-9450f0cce70c">
 <notes>
-<note appliesTo="source">line: 155</note>
+<note appliesTo="source">line: 154</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -937,7 +927,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="b2b21e1b-4bb0-4760-b989-d3ec169440fb">
 <notes>
-<note appliesTo="source">line: 156</note>
+<note appliesTo="source">line: 155</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -946,7 +936,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="2f46e3f1-2506-4746-aa6a-20e087431597">
 <notes>
-<note appliesTo="source">line: 158</note>
+<note appliesTo="source">line: 157</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -955,7 +945,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="1430199d-28e1-4e09-a237-b565de003b7e">
 <notes>
-<note appliesTo="source">line: 160</note>
+<note appliesTo="source">line: 159</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -964,7 +954,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="976a61f9-3e3e-4f66-aa86-2ed82b862428">
 <notes>
-<note appliesTo="source">line: 161</note>
+<note appliesTo="source">line: 160</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -973,7 +963,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="552cff47-2b0d-41e1-a08b-c41b0d5328ac">
 <notes>
-<note appliesTo="source">line: 162</note>
+<note appliesTo="source">line: 161</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -982,7 +972,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="aa78cd24-5af0-4a07-8122-34f3d267a4a8">
 <notes>
-<note appliesTo="source">line: 164</note>
+<note appliesTo="source">line: 163</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -991,7 +981,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="a26ab9c0-67cf-4256-ab60-d06ee1841592">
 <notes>
-<note appliesTo="source">line: 166</note>
+<note appliesTo="source">line: 165</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1000,7 +990,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="285729d1-ae04-446b-acfb-382011bbf0d2">
 <notes>
-<note appliesTo="source">line: 169</note>
+<note appliesTo="source">line: 168</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -1009,7 +999,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="d9075acb-1d0d-4b82-8785-5e3f53a5afa3">
 <notes>
-<note appliesTo="source">line: 171</note>
+<note appliesTo="source">line: 170</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1018,7 +1008,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="c671ff40-0709-4f2e-9187-b81ebd288e3c">
 <notes>
-<note appliesTo="source">line: 174</note>
+<note appliesTo="source">line: 173</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -1027,7 +1017,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="89f9e49e-6166-49b6-a268-8479732ec942">
 <notes>
-<note appliesTo="source">line: 176</note>
+<note appliesTo="source">line: 175</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1036,7 +1026,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="83484070-63f7-4d45-bda7-3beee48fe446">
 <notes>
-<note appliesTo="source">line: 179</note>
+<note appliesTo="source">line: 178</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -1045,7 +1035,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="82b63803-657a-4c08-91d0-7e25be8eb904">
 <notes>
-<note appliesTo="source">line: 181</note>
+<note appliesTo="source">line: 180</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1054,7 +1044,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="34479115-d41a-4f30-9ffe-9dadd44b066e">
 <notes>
-<note appliesTo="source">line: 182</note>
+<note appliesTo="source">line: 181</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1063,7 +1053,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="7614c964-eee7-4b38-a27a-b579962632d2">
 <notes>
-<note appliesTo="source">line: 184</note>
+<note appliesTo="source">line: 183</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -1072,7 +1062,7 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 </unit>
 <unit id="dcd12ce9-6faf-4ddf-bb32-8623f138d730">
 <notes>
-<note appliesTo="source">line: 186</note>
+<note appliesTo="source">line: 185</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
