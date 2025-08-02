@@ -37,7 +37,7 @@ jobs:
         pip install lxml requests
 
     - name: update xliff files
-      if: hashfiles('${{ inputs.repo}}/readme.md') == hashfiles('addon-${{ inputs.repo }}/${{ inputs.repo}}.md')
+      if: hashfiles('${{ inputs.repo}}/${{ inputs.repo }}.md') == hashfiles('addon-${{ inputs.repo }}/$readme.md')
       run: |
         cd addon-${{ inputs.repo }}
         python ../utils/markdownTranslate.py updateXliff -x ../${{ inputs.repo }}/${{ inputs.repo }}.xliff -m readme.md -o ../${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp

@@ -67,7 +67,6 @@ jobs:
           cd ${{ inputs.repo }}
           mv readme.md ${{ inputs.repo }}.md -f
 
-
       - name: Commit and push
         run: |
           git config user.name github-actions
@@ -77,31 +76,3 @@ jobs:
           git branch -u origin/main
           git pull
           git push
-      - name: Crowdin sync interface
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
-          upload_sources_args: '--preserve-hierarchy'
-          upload_translations: false
-          upload_translations_args: '--preserve-hierarchy'
-          auto_approve_imported: true
-          source: ${{ inputs.repo }}/${{ inputs.repo }}.pot
-          translation: ${{ inputs.repo }}/locale/%two_letters_code%/LC_MESSAGES/nvda.po
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Crowdin sync documentation
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
-          upload_sources_args: '--preserve-hierarchy'
-          upload_translations: false
-          upload_translations_args: '--preserve-hierarchy'
-          auto_approve_imported: true
-          source: ${{ inputs.repo }}/${{ inputs.repo }}.xliff
-          translation: ${{ inputs.repo }}/doc/%two_letters_code%/readme.xliff
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
