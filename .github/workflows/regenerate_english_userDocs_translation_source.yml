@@ -23,7 +23,7 @@ jobs:
     - name: Checkout add-on
       uses: actions/checkout@v4
       with:
-        repository: addons/${{ inputs.repo }}
+        repository: nvdaaddons/${{ inputs.repo }}
         path: addon-${{ inputs.repo }}
     - name: Set up python
       uses: actions/setup-python@v5
