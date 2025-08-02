@@ -55,3 +55,9 @@ jobs:
         git pull
         git push
         fi
+
+    - name: Upload source
+      run: python utils/crowdinSynk.py
+      env:
+        crowdinProjectID: ${{ vars.CROWDIN_ID }}
+        crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}

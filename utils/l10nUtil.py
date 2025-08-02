@@ -232,9 +232,6 @@ crowdinFileIDs = {
 	# alias for clipContentsDesigner.po
 	"clipContentsDesigner.pot": 168,
 	"clipContentsDesigner.xliff": 166,
-	# lowercase alias for userGuide.xliff
-	"userguide.xliff": 18,
-	"changes.xliff": 20,
 }
 
 
