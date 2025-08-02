@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/emoticons/a007b502d5425cc5bbafb2e83d346dff6a5b98db/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/emoticons/6e56a1984fd89361072e7579910e25c6b5ea06f2/readme.md">
 <skeleton>
-# $(ID:45c409d2-3fde-479f-bf8b-554afa3d98f8)
+# $(ID:ecfec622-f97b-49f8-b669-3884cdced462)
 
 * $(ID:8cb646c3-8f6f-447b-9405-02bb9f5288f5)
 
@@ -187,13 +187,13 @@ $(ID:fa329be9-ea36-4b62-8b51-0f2057021ea3)
 
 * $(ID:dcd12ce9-6faf-4ddf-bb32-8623f138d730)
 </skeleton>
-<unit id="45c409d2-3fde-479f-bf8b-554afa3d98f8">
+<unit id="ecfec622-f97b-49f8-b669-3884cdced462">
 <notes>
 <note appliesTo="source">line: 2</note>
 <note appliesTo="source">prefix: # </note>
 </notes>
 <segment>
-<source>Emoticons #</source>
+<source>Emoticons</source>
 </segment>
 </unit>
 <unit id="8cb646c3-8f6f-447b-9405-02bb9f5288f5">
