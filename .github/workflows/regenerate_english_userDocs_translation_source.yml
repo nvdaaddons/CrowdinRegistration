@@ -1,0 +1,44 @@
+name: Rebuild English User Documentation for Translation
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'Repository name'
+        required: false
+  workflow_call:
+    inputs:
+      repo:
+        description: 'Repository name'
+        type: 'string'
+        required: true
+jobs:
+  rebuild-translation-source:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Checkout add-on
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ inputs.repo }}
+        path: addon-${{ inputs.repo }}
+    - name: Set up python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11.9'
+        architecture: 'x86'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install lxml requests
+
+    - name: update xliff files
+      if: hashfiles('${{ inputs.repo}}/readme.md') == hashfiles('addon-${{ inputs.repo }}/${{ inputs.repo}}.md')
+      run: |
+                python utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}/${{ inputs.repo }}.xliff -m addon-${{ inputs.repo }}/readme.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
+                cd ${{ inputs.repo }}
+                mv ${{ inputs.repo }}.xliff.temp ${{ inputs.repo }}.xliff -f
