@@ -1,0 +1,18 @@
+name: Update translations for add-ons
+
+on:
+  workflow_dispatch:
+
+jobs:
+  updateTranslationsForAddons:
+    uses: ./.github/workflows/updateAddon.yml
+    strategy:
+      fail-fast: false
+      matrix:
+        repo: [
+          'emoticons',
+          'goldwave',
+        ]
+    with:
+      repo: ${{ matrix.repo }}
+    secrets: inherit
