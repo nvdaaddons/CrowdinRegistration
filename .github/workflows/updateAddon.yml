@@ -50,6 +50,7 @@ jobs:
         scons
     - name: Move translations
       run: |
+        ls l10n -L
         for dir in l10n/${{ inputs.repo }}/*; do
         dirBasename=$(basename "$dir")
         file="$dir/${{ inputs.repo }}.po"
