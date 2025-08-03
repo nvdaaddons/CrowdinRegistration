@@ -1,4 +1,4 @@
-name: Rebuild English User Documentation for Translation
+name: Update sources in Crowdin
 
 on:
   workflow_dispatch:

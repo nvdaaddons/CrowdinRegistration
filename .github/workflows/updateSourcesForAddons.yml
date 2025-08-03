@@ -1,0 +1,16 @@
+name: Update sources for add-ons
+
+on:
+  workflow_dispatch:
+
+jobs:
+  updateSourcesForAddons:
+    uses: ./.github/workflows/updateSources.yml
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        repo: ['emoticons', 'goldWave']
+    with:
+      repo: ${{ matrix.repo }}
+    secrets: inherit
