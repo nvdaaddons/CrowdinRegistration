@@ -50,12 +50,11 @@ jobs:
         scons
     - name: Move translations
       run: |
-        cd addon-${{ inputs.repo }}/addon/locale
-        for dir in *; do
+        for dir in l10n/${{ inputs.repo }}/*; do
         dirBasename=$(basename "$dir")
-        file="${{ github.workspace }}/l10n/${{ inputs.repo }}/$dirBasename/${{ inputs.repo }}.po"
+        file="$dir/${{ inputs.repo }}.po"
         if -f $file; then
-        mv $file "${{ github.workspace }}/addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES/nvda.po"
+        mv $file addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES/nvda.po -f
         echo "Moved $file"
         else
         echo "$file doesn't exist."
