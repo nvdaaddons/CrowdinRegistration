@@ -53,7 +53,7 @@ jobs:
         cd addon-${{ inputs.repo }}/addon/locale
         for dir in *; do
         dirBasename=$(basename "$dir")
-        file="${{ github.workspace }}/l10n/${{ inputs.repo }}/l10n/$dirBasename/${{ inputs.repo }}.po"
+        file="${{ github.workspace }}/l10n/${{ inputs.repo }}/$dirBasename/${{ inputs.repo }}.po"
         if -f $file; then
         mv $file $dir/LC_MESSAGES/nvda.po -f
         echo "Moved $file"
