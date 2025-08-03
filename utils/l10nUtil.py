@@ -232,6 +232,9 @@ crowdinFileIDs = {
 	"emoticons.pot": 176,
 	"emoticons.po": 176,
 	"emoticons.xliff": 178,
+	"goldwave.pot": 180,
+	"goldwave.po": 180,
+	"goldwave.xlif": 182,
 }
 
 
@@ -300,7 +303,7 @@ def exportTranslations(outputDir: str, language: str | None = None):
 
 	requestData = {
 		"skipUntranslatedStrings": False,
-		"skipUntranslatedFiles": True,
+		"skipUntranslatedFiles": False,
 		"exportApprovedOnly": False,
 	}
 
