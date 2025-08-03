@@ -54,7 +54,9 @@ jobs:
         cd ${{ inputs.repo }}
         for dir in *; do
         dirBasename=$(basename "$dir")
-        mv $dir/${{ inputs.repo }}.po "${{ github.workspace }}/addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES" -f
+        cd $dir
+        mv ${{ inputs.repo }}.po "${{ github.workspace }}/addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES" -f
+        cd ..
         done
     - name: Commit and push
       id: commit
