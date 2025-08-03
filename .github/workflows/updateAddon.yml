@@ -52,7 +52,7 @@ jobs:
       run: |
         cd addon-${{ inputs.repo }}/addon/locale
         file="${{ github.workspace }}/l10n/${{ inputs.repo }}/pt/${{ inputs.repo }}.po"
-        mv $file ./pt/LC_MESSAGES/nvda.po
+        mv $file pt/LC_MESSAGES
         for dir in *; do
         dirBasename=$(basename "$dir")
         file="${{ github.workspace }}/l10n/${{ inputs.repo }}/$dirBasename/${{ inputs.repo }}.po"
