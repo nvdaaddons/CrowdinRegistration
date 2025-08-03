@@ -55,7 +55,7 @@ jobs:
         dirBasename=$(basename "$dir")
         file="${{ github.workspace }}/l10n/${{ inputs.repo }}/$dirBasename/${{ inputs.repo }}.po"
         if -f $file; then
-        mv $file "${{ github.workspace }}/addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES/nvda.po
+        mv $file "${{ github.workspace }}/addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES/nvda.po"
         echo "Moved $file"
         else
         echo "$file doesn't exist."
