@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../style.css" media="screen">
+<title>Clip Contents Designer 47.0.0</title>
+</head>
+<body>
+<h1>Leikepöydän sisällön käsittelijä</h1>
+<ul>
+<li>Tekijät: Noelia, Abdel.</li>
+</ul>
+<p>Tätä lisäosaa käytetään tekstin lisäämiseen leikepöydälle, mistä voi olla
+hyötyä, jos haluat yhdistää tekstin eri osia yhdeksi kokonaisuudeksi
+liittääksesi sen jonnekin.  Leikepöydän sisällön voi myös tyhjentää ja
+näyttää selaustilassa.</p>
+<h2>Näppäinkomennot</h2>
+<ul>
+<li>NVDA+Windows+C: Lisää valittu/tarkastelukohdistimella merkitty teksti tai
+  MathML-objekteja kuvaavat Unicode-pistekirjoitusmerkit leikepöydälle.</li>
+<li>NVDA+Windows+X: Tyhjennä leikepöydän sisältö.</li>
+<li>Ei määritetty: Kopioi leikepöydälle tai leikkaa siltä ja pyytää
+  vaihtoehtoisesti vahvistuksen.</li>
+<li>Ei määritetty: Näyttää leikepöydällä olevan tekstin HTML-muodossa
+  selaustilassa tai ilmoittaa, mikäli leikepöytä on tyhjä tai jos sillä on
+  sisältöä, jota ei voida näyttää, esim. Resurssienhallinnasta kopioituja
+  tiedostoja tai kansioita.</li>
+<li>Ei määritetty: Näyttää leikepöydällä olevan tekstin pelkkänä tekstinä
+  selaustilassa tai ilmoittaa, mikäli leikepöytä on tyhjä tai jos sillä on
+  sisältöä, jota ei voida näyttää, esim. Resurssienhallinnasta kopioituja
+  tiedostoja tai kansioita.</li>
+</ul>
+<h2>Leikepöydän sisällön käsittelijän asetukset</h2>
+<p>Tämä paneeli löytyy kohdasta NVDA-valikko &gt; Mukautukset &gt; Asetukset.</p>
+<p>Se sisältää seuraavat säätimet:</p>
+<ul>
+<li>Kirjoita merkkijono, jota käytetään erottimena leikepöydälle lisättyjen
+  tekstiosuuksien välissä: Mahdollistaa erottimen asettamisen, jota voidaan
+  käyttää tekstiosioiden etsimiseen.</li>
+<li>Lisää teksti leikepöydällä olevan tekstin eteen: Voit myös valita,
+  liitetäänkö lisätty teksti leikepöydällä jo olevan sisällön jälkeen vai
+  eteen.</li>
+<li>Valitse vahvistusta edellyttävät toiminnot: Voit valita kullekin
+  käytettävissä olevalle toiminnolle, suoritetaanko se heti vai vahvistuksen
+  jälkeen. Käytettävissä ovat seuraavat toiminnot: lisää tekstiä, tyhjennä
+  leikepöytä, kopioinnin emulointi sekä leikkaamisen emulointi.</li>
+<li>Pyydä vahvistus ennen valittujen toimintojen suorittamista: Voit valita,
+  pyydetäänkö vahvistus aina, vain, jos leikepöydällä on tekstiä tai mikäli
+  leikepöytä ei ole tyhjä (esim. jos olet kopioinut tiedoston tekstin
+  asemesta).</li>
+<li>Näytä leikepöydän teksti selaustilassa HTML-muodossa: Jos opettelet
+  HTML-kieltä, voit valita esimuotoillun tekstin HTML-muodossa tai HTML:n
+  sellaisena, kuin se näytetään verkkoselaimessa saadaksesi käsityksen
+  siitä, miten NVDA näyttää HTML-koodisi verkkoselaimessa. Ero esimuotoillun
+  ja tavallisen HTML:n välillä on, että ensimmäinen vaihtoehto säilyttää
+  peräkkäiset välilyönnit ja rivinvaihdot, kun jälkimmäinen tiivistää
+  ne. Esimerkki: Kirjoita joitakin HTML-tägejä, kuten h1, h2, li, pre jne.,
+  valitse ja kopioi teksti leikepöydälle ja käytä Leikepöydän sisällön
+  käsittelijä -lisäosaa tekstin näyttämiseen selaustilassa.</li>
+<li>Merkkien enimmäismäärä selaustilassa leikepöydän tekstiä näytettäessä:
+  Huomaa, että tämän rajan nostaminen saattaa aiheuttaa ongelmia, mikäli
+  leikepöydällä on paljon tekstiä. Oletusraja on 100 000 merkkiä.</li>
+<li>Palauta oletukset.</li>
+</ul>
+<p>Huomautuksia:</p>
+<ul>
+<li>Vahvistusta ei pyydetä NVDA:n ilmoitusruudun ollessa avoimena, vaan
+  toiminnot suoritetaan heti.</li>
+<li>Kun kopioinnin ja leikkaamisen emulointi on otettu käyttöön, tämä lisäosa
+  ottaa hallintaansa Ctrl+C- ja Ctrl+X-komennot. Se mahdollistaa valinnaisen
+  vahvistuksen pyytämisen ennen näiden komentojen suorittamista.</li>
+</ul>
+<h2>Muutokset versiossa 46.0.0</h2>
+<ul>
+<li>NVDA siivoaa selattavien viestien HTML-koodin.</li>
+<li>Lisätty Esc-näppäimen ohelle painike selattavien viestien sulkemista
+  varten.</li>
+</ul>
+<h2>Muutokset versiossa 40.0.0</h2>
+<ul>
+<li>Lisätty tuki hepreankieliselle näppäimistölle.</li>
+</ul>
+<h2>Muutokset versiossa 22.0.0</h2>
+<ul>
+<li>Lisäosan asetuspaneeliin lisätty painike oletusarvojen palauttamista
+  varten.</li>
+<li>Lisäosaa ei voi käyttää suojatussa tilassa.</li>
+</ul>
+<h2>Muutokset versiossa 17.0</h2>
+<ul>
+<li>Yhteensopiva NVDA 2023.1:n kanssa.</li>
+</ul>
+<h2>Muutokset versiossa 16.0</h2>
+<ul>
+<li>Edellyttää NVDA 2022.4:ää tai uudempaa.</li>
+</ul>
+<h2>Muutokset versiossa 15.0</h2>
+<ul>
+<li>Tekstiä leikepöydälle lisäävä komento näytetään taas
+  Näppäinkomennot-valintaikkunassa.</li>
+<li>Korjattu kopioinnin ja leikkaamisen näppäinkomennot persiankielisellä
+  näppäimistöllä. Kiitokset Mohammadhosein Ghezelsofla'lle.</li>
+</ul>
+<h2>Muutokset versiossa 14.0</h2>
+<ul>
+<li>Yhteensopiva NVDA 2021.1:n kanssa.</li>
+</ul>
+<h2>Muutokset versiossa 13.0</h2>
+<ul>
+<li>Korjattu ongelma asetuspaneelin visuaalisessa ulkoasussa; kiitos Cyrille
+  Bougotille.</li>
+<li>Dokumentaatiota paranneltu.</li>
+<li>Lisätty Leikepöydän sisällön käsittelijä -kategoria, josta voidaan
+  määrittää näppäinkomennot kaikille tämän lisäosan komennoille.</li>
+<li>Korjattu bugeja käytettäessä kopioinnin emulointia selaimissa selaustilan
+  ollessa käytössä.</li>
+<li>Voit määrittää eri näppäinkomennot näyttämään leikepöydän tekstisisällön
+  joko raakatekstinä tai muotoiltuna HTML:nä.</li>
+</ul>
+<h2>Muutokset versiossa 12.0</h2>
+<ul>
+<li>Korjattu bugeja käytettäessä kopioinnin emulointia sellaisissa
+  sovelluksissa kuin LibreOffice Writer.</li>
+</ul>
+<h2>Muutokset versiossa 11.0</h2>
+<ul>
+<li>Nyt on mahdollista lisätä tarkastelukohdistimella merkittyä tekstiä
+  tavallisia NVDA-komentoja(NVDA+F9 ja NVDA+F10) käyttäen. Komentoa
+  NVDA+Win+F9 ei enää käytetä paremman uuteen NVDA+Vaihto+F9-komentoon
+  integroinnin takia.</li>
+<li>Edellyttää NVDA 2019.3:a tai uudempaa.</li>
+</ul>
+<h2>Muutokset versiossa 10.0</h2>
+<ul>
+<li>Korjattu ohjelmavirhe leikepöydän sisältämän tekstin näyttämiseen
+  käytettävässä valintaikkunassa, kun sen nimi sisälsi ei-latinalaisia
+  merkkejä.</li>
+<li>Korjattu ohjelmavirhe leikkaamisen ja kopioinnin emulointitoiminnoissa
+  arabialaista näppäimistöasettelua käytettäessä. Tämän korjasi Abdel, joka
+  on lisätty lisäosan tekijäksi.</li>
+</ul>
+<h2>Muutokset versiossa 9.0</h2>
+<ul>
+<li>Lisätty mahdollisuus leikepöydän tekstin näyttämiseen selaustilassa.</li>
+<li>Lisätty asetus, jolla voidaan valita, kysytäänkö vahvistus, jos leikepöytä
+  ei ole tyhjä esim. tiedostoja tai kansioita kopioitaessa.</li>
+<li>Edellyttää NVDA 2018.4:ää tai uudempaa.</li>
+</ul>
+<h2>Muutokset versiossa 8.0</h2>
+<ul>
+<li>Lisäosan asetukset näkyvät omassa kategoriassaan NVDA:n
+  Asetukset-valintaikkunassa.</li>
+<li>Edellyttää NVDA 2018.2:ta tai uudempaa.</li>
+</ul>
+<h2>Muutokset versiossa 7.0</h2>
+<ul>
+<li>Jos valitset Ei Määritä kopioinnin ja leikkaamisen emuloinnin
+  märitysvalintaikkunassa, joka tulee näkyviin lisäosaa asennettaessa,
+  näiden ominaisuuksien komennot poistetaan käytöstä, mikä palauttaa
+  normaalin Ctrl+C- ja Ctrl+X-toiminnallisuuden.</li>
+</ul>
+<h2>Muutokset versiossa 6.0</h2>
+<ul>
+<li>Lisätty vaihtoehdot, joilla voidaan valita, pyydetäänkö käytettävissä
+  olevien toimintojen suorittamiseen vahvistus.</li>
+<li>Lisätty Vahvista kopioinnin emulointi- ja Vahvista leikkaamisen emulointi
+  -asetukset, joille voidaan määrittää näppäinkomennot
+  Näppäinkomennot-valintaikkunasta.</li>
+<li>Lisätty valintaikkuna "Vahvista kopioinnin emulointi"- ja "Vahvista
+  leikkaamisen emulointi" -toiminnallisuuksien  määrittämistä varten
+  lisäosan asennuksen aikana. Kun nämä asetukset ovat käytössä, kopioinnin
+  (Ctrl+C) ja leikkaamisen (Ctrl+X) suorittamiselle ja leikepöydän sisällön
+  korvaamiselle pyydetään vahvistus.</li>
+<li>Korjattu tekstinlisäämiskomennon (Windows+NVDA+C) ohje.</li>
+</ul>
+<h2>Muutokset versiossa 5.0</h2>
+<ul>
+<li>Valintaikkunan visuaalista esitystä on parannettu noudattamaan NVDA:n
+  ikkunoiden ulkoasua.</li>
+<li>Edellyttää NVDA:n 2016.4-versiota tai uudempaa.</li>
+</ul>
+<h2>Muutokset versiossa 4.0</h2>
+<ul>
+<li>NVDA hallitsee nyt lisäosan asetuksia, jotta profiilien käyttäminen eri
+  erottimien tallentamiseen olisi mahdollista, eikä asetusten kopiointia
+  tarvita niiden tuomiseksi asennettaessa lisäosaa uudelleen.</li>
+<li>Lisäosan asetusvalintaikkunan Lisää teksti leikepöydän nykyisen sisällön
+  alkuun -valintaruutua käyttäen on nyt mahdollista valita, liitetäänkö
+  lisätty teksti leikepöydällä jo olevan tekstin loppuun vai alkuun.</li>
+</ul>
+<h2>Muutokset versiossa 3.0</h2>
+<ul>
+<li>MathML-objekteja kuvaavat pistekirjoitusmerkit voidaan lisätä
+  leikepöydälle, mikäli MathPlayer on asennettu.</li>
+<li>Mikäli erotinta ei ole määritetty, tekstiosuuksien väliin lisätään yksi
+  tyhjä rivi.</li>
+<li>Leikepöydän sisällön käsittelijän asetusvalintaikkunan avaamista varten
+  voidaan määrittää pikanäppäin.</li>
+<li>Asetusvalintaikkunaan lisätty valintaruutu, jolla voidaan määrittää,
+  kopioidaanko erotin käyttäjän NVDA-asetusten kansioon, josta se voidaan
+  tuoda asennettaessa lisäosaa uudelleen.</li>
+</ul>
+<h2>Muutokset versiossa 2.0</h2>
+<ul>
+<li>Hindinkielisiä merkkejä voidaan käyttää tekstiosuuksien välisenä
+  erottimena.</li>
+</ul>
+<h2>Muutokset versiossa 1.0</h2>
+<ul>
+<li>Ensimmäinen versio.</li>
+</ul>
+<p>[[!tag dev stable]]</p>
+</body>
+</html>
