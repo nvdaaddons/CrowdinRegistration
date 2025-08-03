@@ -50,11 +50,11 @@ jobs:
         scons
     - name: Move translations
       run: |
-        cd ${{ inputs.repo }}
         cd l10n
         cd ${{ inputs.repo }}
         for dir in *; do
-        mv $dir/${{ inputs.repo }}.po ../../../addon-${{ inputs.repo }}/addon/locale/$basename($dir)/LC_MESSAGES -f
+        dirBasename=$(basename "$dir")
+        mv $dir/${{ inputs.repo }}.po ../../addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES -f
         done
     - name: Commit and push
       id: commit
