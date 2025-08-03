@@ -53,7 +53,7 @@ jobs:
         for dir in l10n/${{ inputs.repo }}/*; do
         dirBasename=$(basename "$dir")
         file="$dir/${{ inputs.repo }}.po"
-        if -f $file; then
+        if [ -f $file ]; then
         mv $file addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES/nvda.po -f
         echo "Moved $file"
         else
@@ -67,7 +67,7 @@ jobs:
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
         git status
-        git add -u addon
+        git add addon
         if git diff --staged --quiet; then
         echo "Nothing added to commit."
         echo "has_changes=false" >> $GITHUB_OUTPUT
