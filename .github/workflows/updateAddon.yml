@@ -54,7 +54,7 @@ jobs:
         cd l10n
         cd ${{ inputs.repo }}
         for dir in *; do
-        mv $dir/${{ inputs.repo }}.po ../../../addon-${{ inputs.repo }}/addon/locale/$basename(dir) -f
+        mv $dir/${{ inputs.repo }}.po ../../../addon-${{ inputs.repo }}/addon/locale/$basename($dir)/LC_MESSAGES -f
         done
     - name: Commit and push
       id: commit
