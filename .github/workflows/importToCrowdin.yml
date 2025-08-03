@@ -1,4 +1,4 @@
-name: Import to crowdin NV Access
+name: Import to crowdin
 
 on:
   workflow_dispatch:
