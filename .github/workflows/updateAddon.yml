@@ -58,6 +58,7 @@ jobs:
         mv $file $dir/LC_MESSAGES/nvda.po -f
         else
         echo "$file doesn't exist."
+        fi
         done
     - name: Commit and push
       id: commit
