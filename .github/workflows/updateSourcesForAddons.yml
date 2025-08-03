@@ -10,7 +10,9 @@ jobs:
       fail-fast: false
       max-parallel: 1
       matrix:
-        repo: ['emoticons', 'goldWave']
+        repo: [\
+          'emoticons', 'goldwave', \
+        ]
     with:
       repo: ${{ matrix.repo }}
     secrets: inherit
