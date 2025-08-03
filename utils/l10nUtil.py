@@ -234,7 +234,7 @@ crowdinFileIDs = {
 	"emoticons.xliff": 178,
 	"goldwave.pot": 180,
 	"goldwave.po": 180,
-	"goldwave.xlif": 182,
+	"goldwave.xliff": 182,
 }
 
 
