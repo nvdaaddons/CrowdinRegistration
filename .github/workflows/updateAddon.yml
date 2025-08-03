@@ -65,7 +65,7 @@ jobs:
         fi
         file="$dir/${{ inputs.repo }}.xliff"
         if [ -f $file ]; then
-        python utils/markdownTranslate.py xliff_md --xliffPath="$file" --mdPath="addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
+        python utils/markdownTranslate.py generateMarkdown --xliffPath="$file" --mdPath="addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
         else
         echo "$file doesn't exist"
         fi
