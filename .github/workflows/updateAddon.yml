@@ -52,11 +52,11 @@ jobs:
         scons
     - name: Move translations
       run: |
-        ls l10n -L
         for dir in l10n/${{ inputs.repo }}/*; do
         dirBasename=$(basename "$dir")
         file="$dir/${{ inputs.repo }}.po"
         if [ -f $file ]; then
+        mkdir -p addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES
         mv $file addon-${{ inputs.repo }}/addon/locale/$dirBasename/LC_MESSAGES/nvda.po -f
         echo "Moved $file"
         else
