@@ -46,7 +46,7 @@ jobs:
         sudo apt install gettext
     - name: Update pot
       run: |
-        cd addon-${{ inputs.repo }}
+        mv ${{ inputs.repo }}/${{ inputs.repo }}.pot addon-${{ inputs.repo }} -f
         scons pot
     - name: Move pot
       run: |
@@ -58,13 +58,16 @@ jobs:
         cd ../${{ inputs.repo }}
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}.xliff
     - name: Commit and push
+      id: commit
       run: |
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
         git add -u ${{ inputs.repo }}
         if git diff --staged --quiet; then
         echo "Nothing added to commit."
+        echo "has_changes=false" >> $GITHUB_OUTPUT
         else
+        echo "has_changes=true" >> $GITHUB_OUTPUT
         git commit -m "Update sources"
         git branch -u origin/main
         git pull --rebase
@@ -72,6 +75,7 @@ jobs:
         fi
 
     - name: Upload source
+      if: steps.commit.outputs.has_changes == 'true'
       run: |
         cd ${{ inputs.repo }}
         python ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
