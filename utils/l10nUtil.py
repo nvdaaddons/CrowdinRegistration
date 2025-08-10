@@ -801,7 +801,7 @@ def main():
 	)
 	uploadSourceFileCommand.add_argument(
 		"-f",
-		"--localFilePaht",
+		"--localFilePath",
 		help="The local path to the file.",
 	)
 	downloadTranslationFileCommand = commands.add_parser(
