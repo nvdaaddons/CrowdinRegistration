@@ -267,7 +267,7 @@ def uploadSourceFile(localFilePath: str):
 	:param localFilePath: The path to the local file to be uploaded
 	"""
 	filename = os.path.basename(localFilePath)
-	if os.splitext(filename)[1] == "pot":
+	if os.path.splitext(filename)[1] == "pot":
 		title=f"{os.path.splitext[0]} interface"
 		exportPattern = f"/{os.path.splitext[0]}/%two_letters_code%/{os.path.splitext[0]}.po"
 	else:
