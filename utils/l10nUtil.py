@@ -261,6 +261,34 @@ def downloadTranslationFile(crowdinFilePath: str, localFilePath: str, language: 
 	print(f"Saved to {localFilePath}")
 
 
+def uploadSourceFile(localFilePath: str):
+	"""
+	Upload a source file to Crowdin.
+	:param localFilePath: The path to the local file to be uploaded
+	"""
+	filename = os.path.basename(localFilePath)
+	if os.splitext(filename)[1] == "pot":
+		title=f"{os.path.splitext[0]} interface"
+		exportPattern = f"/{os.path.splitext[0]}/%two_letters_code%/{os.path.splitext[0]}.po"
+	else:
+		title=f"{os.path.splitext[0]} documentation"
+		exportPattern =f"/{os.path.splitext[0]}/%two_letters_code%/filename"
+	exportOptions = {
+		"exportPattern": exportPattern
+		},
+	print(f"Uploading {localFilePath} to Crowdin")
+	res = getCrowdinClient().storages.add_storage(
+		open(localFilePath, "rb"),
+	)
+	if res is None:
+		raise ValueError("Crowdin storage upload failed")
+	storageId = res["data"]["id"]
+	print(f"Stored with ID {storageId}")
+	print(f"Importing source file {localFilePath} from storage with ID {storageId}")
+	res = getCrowdinClient().source_files.add_file(fileId=storageId, localFilePath=localFilePath, name=filename, title=title, exportOptions=exportPattern)
+	print("Done")
+
+
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
 	"""
 	Upload a translation file to Crowdin.
@@ -767,6 +795,14 @@ def main():
 	)
 	command_xliff2html.add_argument("xliffPath", help="Path to the xliff file")
 	command_xliff2html.add_argument("htmlPath", help="Path to the resulting html file")
+	uploadSourceFileCommand = commands.add_parser(
+		"uploadSourceFile",
+		help="Upload a source file to Crowdin.",
+	)
+	uploadSourceFileCommand.add_argument(
+		"localFilePath",
+		help="The local path to the file.",
+	)
 	downloadTranslationFileCommand = commands.add_parser(
 		"downloadTranslationFile",
 		help="Download a translation file from Crowdin.",
@@ -853,6 +889,8 @@ def main():
 				md2html.main(source=temp_mdFile.name, dest=args.htmlPath, lang=lang, docType=args.docType)
 			finally:
 				os.remove(temp_mdFile.name)
+		case "uploadSourceFile":
+			uploadSourceFile(args.localFilePath)
 		case "downloadTranslationFile":
 			localFilePath = args.localFilePath or args.crowdinFilePath
 			downloadTranslationFile(args.crowdinFilePath, localFilePath, args.language)
