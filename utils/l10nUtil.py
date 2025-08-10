@@ -800,7 +800,8 @@ def main():
 		help="Upload a source file to Crowdin.",
 	)
 	uploadSourceFileCommand.add_argument(
-		"localFilePath",
+		"-f",
+		"--localFilePaht",
 		help="The local path to the file.",
 	)
 	downloadTranslationFileCommand = commands.add_parser(
@@ -822,7 +823,6 @@ def main():
 		default=None,
 		help="The path to save the local file. If not provided, the Crowdin file path will be used.",
 	)
-
 	uploadTranslationFileCommand = commands.add_parser(
 		"uploadTranslationFile",
 		help="Upload a translation file to Crowdin.",
@@ -863,7 +863,7 @@ def main():
 		"-l",
 		"--language",
 		help="Language code to export (e.g., 'es', 'fr', 'de'). If not specified, exports all languages.",
-		default=None,
+	default=None,
 	)
 
 	args = args.parse_args()
