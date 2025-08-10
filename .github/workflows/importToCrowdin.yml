@@ -88,7 +88,7 @@ jobs:
           pip install nh3==0.2.19
 
       - name: Upload translations to Crowdin
-        run: python utils/l10nUtil.py uploadSourceFile --localeFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
+        run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
