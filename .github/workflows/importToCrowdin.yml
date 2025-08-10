@@ -84,7 +84,8 @@ jobs:
           upload_translations: false
           source: ${{ inputs.repo }}/${{ inputs.repo }}.pot
           translation: /${{ inputs.repo }}/%two_letters_code%/${{ inputs.repo }}.po
+          auto_approve_imported: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ vars.CROWDIN_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
