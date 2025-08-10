@@ -268,11 +268,11 @@ def uploadSourceFile(localFilePath: str):
 	"""
 	filename = os.path.basename(localFilePath)
 	if os.path.splitext(filename)[1] == "pot":
-		title=f"{os.path.splitext[0]} interface"
-		exportPattern = f"/{os.path.splitext()[0]}/%two_letters_code%/{os.path.splitext()[0]}.po"
+		title=f"{os.path.splitext(filename)[0]} interface"
+		exportPattern = f"/{os.path.splitext(filename)[0]}/%two_letters_code%/{os.path.splitext()[0]}.po"
 	else:
-		title=f"{os.path.splitext()[0]} documentation"
-		exportPattern =f"/{os.path.splitext()[0]}/%two_letters_code%/filename"
+		title=f"{os.path.splitext(filename)[0]} documentation"
+		exportPattern =f"/{os.path.splitext(filename)[0]}/%two_letters_code%/filename"
 	exportOptions = {
 		"exportPattern": exportPattern
 		},
