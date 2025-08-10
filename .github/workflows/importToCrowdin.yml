@@ -77,3 +77,8 @@ jobs:
           git pull
           git push
 
+      - name: Download translations from Crowdin
+        run: python utils/l10nUtil.py uploadSourceFile --localeFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
+        env:
+          crowdinProjectID: ${{ vars.CROWDIN_ID }}
+          crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
