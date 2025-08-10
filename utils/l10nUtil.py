@@ -269,10 +269,10 @@ def uploadSourceFile(localFilePath: str):
 	filename = os.path.basename(localFilePath)
 	if os.path.splitext(filename)[1] == "pot":
 		title=f"{os.path.splitext[0]} interface"
-		exportPattern = f"/{os.path.splitext[0]}/%two_letters_code%/{os.path.splitext[0]}.po"
+		exportPattern = f"/{os.path.splitext()[0]}/%two_letters_code%/{os.path.splitext()[0]}.po"
 	else:
-		title=f"{os.path.splitext[0]} documentation"
-		exportPattern =f"/{os.path.splitext[0]}/%two_letters_code%/filename"
+		title=f"{os.path.splitext()[0]} documentation"
+		exportPattern =f"/{os.path.splitext()[0]}/%two_letters_code%/filename"
 	exportOptions = {
 		"exportPattern": exportPattern
 		},
@@ -285,7 +285,7 @@ def uploadSourceFile(localFilePath: str):
 	storageId = res["data"]["id"]
 	print(f"Stored with ID {storageId}")
 	print(f"Importing source file {localFilePath} from storage with ID {storageId}")
-	res = getCrowdinClient().source_files.add_file(fileId=storageId, localFilePath=localFilePath, name=filename, title=title, exportOptions=exportPattern)
+	res = getCrowdinClient().source_files.add_file(fileId=storageId, localFilePath=localFilePath, name=filename, title=title, exportOptions=exportOptions)
 	print("Done")
 
 
