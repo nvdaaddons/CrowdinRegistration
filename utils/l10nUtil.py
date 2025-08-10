@@ -274,8 +274,10 @@ def uploadSourceFile(localFilePath: str):
 		title=f"{os.path.splitext(filename)[0]} documentation"
 		exportPattern =f"/{os.path.splitext(filename)[0]}/%two_letters_code%/filename"
 	exportOptions = {
-		"exportPattern": exportPattern
+		{
+			"exportPattern": exportPattern
 		},
+	}
 	print(f"Uploading {localFilePath} to Crowdin")
 	res = getCrowdinClient().storages.add_storage(
 		open(localFilePath, "rb"),
