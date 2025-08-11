@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-08-01 16:50+0000\n"
-"PO-Revision-Date: 2025-08-03 13:39\n"
+"PO-Revision-Date: 2025-08-11 00:52\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -20,12 +20,12 @@ msgstr ""
 #. Translators: the label of a message dialog.
 #: addon/installTasks.py:37
 msgid "You seem to have previous settings saved for this add-on. Do you want to import them, removing deprecated files?"
-msgstr "Parece que tem definições anteriores guardadas para este complemento. Pretende importá-las, removendo os ficheiros obsoletos?"
+msgstr "Parece que tem definições anteriores guardadas para este extra. Pretende importá-las, removendo os ficheiros obsoletos?"
 
 #. Translators: the title of a message dialog.
 #: addon/installTasks.py:41
 msgid "Import Emoticons add-on settings"
-msgstr "Importar definições do complemento Emoticons"
+msgstr "Importar definições do extra Emoticons"
 
 #. Translators: A prefix to each emoticon name, added to the temporary speech dictionary,
 #. visible in temporary speech dictionary dialog when the addon is active, to explain an entry.
