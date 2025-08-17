@@ -298,8 +298,8 @@ def getFiles():
 	res = getCrowdinClient().source_files.list_files(CROWDIN_PROJECT_ID)
 	if res is None:
 		raise ValueError("Getting files from Crowdin failed")
-	with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
-		json.dump(res["data"][0], jsonFile, ensure_ascii=False)
+	#with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
+		#json.dump(res["data"][0], jsonFile, ensure_ascii=False)
 
 
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
