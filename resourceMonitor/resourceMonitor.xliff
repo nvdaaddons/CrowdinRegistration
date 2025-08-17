@@ -1,0 +1,1837 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/resourceMonitor/4eef510260c8529bb7497c07953cb63c5a472861/readme.md">
+<skeleton>
+# $(ID:0dbd8001-6939-479a-b8de-2a428fad9ef4)
+
+* $(ID:09ad421f-bd25-4a4e-98cf-1b2846c0bed4)
+
+$(ID:6a124376-dee8-4ae3-a2fd-c10945c9a01b)
+
+# $(ID:c440719f-4007-493b-bd28-10ac27790a0a)
+
+$(ID:25e92575-4c54-42af-8d8f-ed676567783f)
+
+* $(ID:287cabed-c79b-4144-b8a6-133270ea520f)
+* $(ID:69288226-ed1c-4a25-99fd-9d80a0f5f977)
+* $(ID:c1eed7b3-15fc-46f9-afac-2e2aa5062c89)
+* $(ID:be513084-d6ba-4a2e-8f17-ae494aa40144)
+* $(ID:0f988254-8558-4ffb-9e9d-8ba975bcfdc2)
+* $(ID:21ee28c3-8bd6-4281-9fc3-101f21d6602e)
+* $(ID:4928fdcf-a9ca-45f4-8762-e669e44987c6)
+* $(ID:f801ed1f-5fc2-4e49-b1cb-e7da7d547b4b)
+
+$(ID:d9472bd2-2e88-4fc5-b95c-8d8be1eade76)
+
+## $(ID:335d9e56-7859-465a-917f-bc48a68d7c99)
+
+$(ID:8cd32970-6de0-4e4e-9506-40ef50d5c697)
+
+* $(ID:7f79b688-181e-47e7-b278-b4d5863b96d4)
+* $(ID:01febae0-18c9-4054-90ee-6ac811cc1173)
+* $(ID:f893dd7b-fff4-43e9-8e34-c4e945a369dc)
+* $(ID:b9fa3d65-d992-4aa2-8220-7f35ac8ed605)
+* $(ID:b9f99e39-11de-434c-99cc-406e82400196)
+* $(ID:2f1d3a4a-11ec-4445-b599-bb9087226290)
+
+## $(ID:c39c35f6-0ae3-4c2e-981e-8145a46d5132)
+
+* $(ID:4197209c-98cd-4a75-bb07-eb3978dc304f)
+
+## $(ID:8ee57ede-17dc-4c62-9a01-fabe4f8d2d74)
+
+* $(ID:1c8b49b7-61f2-4545-b4fc-d0879e03816a)
+
+## $(ID:9a8e59dc-f255-4bb3-903b-e7e5e343205f)
+
+* $(ID:26262a35-909d-490c-9a65-458f00e7f8e4)
+
+## $(ID:e75fb525-8050-4a38-929a-2ea119803f1e)
+
+* $(ID:a72e0dc0-26bc-4a54-b680-47df4b6e4a5d)
+* $(ID:8aef1832-5ed6-4f44-a663-1e34d78135c0)
+* $(ID:a7c0cadd-5f2b-48c4-a0f2-76f1d9d1d691)
+* $(ID:c2f5ac8e-5eaa-4d99-9cac-62c57fed5de2)
+
+## $(ID:1a2ee876-8569-4765-8d0c-9af057cfce1f)
+
+* $(ID:a8507847-083d-49bb-933d-617b6044e7c5)
+* $(ID:4944c224-20ee-459a-abba-44b683e0374f)
+* $(ID:0ab9564f-2045-4cef-ae18-beba41ac6feb)
+
+## $(ID:56fe0391-202c-4a5c-9b7b-d5cf2af6e10e)
+
+* $(ID:b34eafe5-f5b6-4807-9805-f5cdbed64ecf)
+* $(ID:d485a822-2614-473e-9e85-2b295c4c882c)
+
+## $(ID:7cc0aa19-2394-47bd-897f-544ed976560c)
+
+* $(ID:ca02465c-91b5-4541-903c-477f5d432641)
+* $(ID:8b4a5e81-5b4c-4c17-9317-924648b2930a)
+
+## $(ID:9d9926f7-36d6-488b-bb09-6e9f53170c07)
+
+* $(ID:1d6988cf-bfcb-4b3e-a5e1-4755f558abfa)
+
+## $(ID:2f02d680-22d0-451b-bc14-36c25db451c7)
+
+* $(ID:008029fc-8494-4243-a9ed-e9c6ffeb35a4)
+
+## $(ID:672117bc-e38f-4203-9e7f-947f9013e47c)
+
+* $(ID:fd682bae-4cd0-4922-ad2e-8eed4062db7c)
+
+## $(ID:e9e974d1-e82b-404e-a752-1144e892970f)
+
+* $(ID:076cc5ce-dccf-4a6f-b384-6d166870fda3)
+
+## $(ID:c2d832af-ab1c-4b75-bb14-78beda47e24e)
+
+$(ID:2519bb27-c1ad-4ddc-adb5-5668e6e7d199)
+
+* $(ID:b55b400f-07fb-4fea-88ac-7fb39401792d)
+  * $(ID:10938536-ed2e-4b0c-bdba-a8cfbcbbc0fe)
+  * $(ID:603fd8b4-f9c0-4809-ae79-ca00ed9aac58)
+  * $(ID:ec5ce33e-0ff8-4899-bff7-e35afe76324f)
+
+## $(ID:0866b829-8379-4817-b102-b1c6a160f3d2)
+
+* $(ID:47eea40a-f3be-4d22-a8d9-c7e0c182dacb)
+  * $(ID:21f6b226-e86b-44ca-9d54-d0b1128b0ad9)
+  * $(ID:bcae1d43-eead-4984-93a6-80a7475eca2e)
+  * $(ID:67c6c77b-fef2-4434-bb23-df1a1b1feed6)
+
+## $(ID:322bc16e-77fc-473b-98c9-d6d5feb9b17d)
+
+* $(ID:c18731af-8a3b-4ff0-8bd4-b75fd7105967)
+* $(ID:b713a05e-2d68-454e-9920-ac212570654d)
+
+## $(ID:98161916-9b73-464c-94a8-f53f70b58840)
+
+* $(ID:2d886bf2-1f65-4083-9fe3-c29f679377e3)
+* $(ID:ba794605-2c1d-4d69-8f21-2ce1b55b7917)
+* $(ID:c07c3a72-2c05-4258-b02e-b17ff5059f94)
+* $(ID:762ee2f3-3d88-45e6-a843-702352f4f8e8)
+* $(ID:e25aed09-b2b1-4ef5-bdba-5ce7eca40e3a)
+
+## $(ID:a6088ce8-94dc-46ed-a140-acc813f1ec72)
+
+$(ID:c19ce02d-d820-41ee-818a-5fa780af637b)
+
+* $(ID:47b97376-331f-4341-be01-3809c13125fe)
+* $(ID:a131b820-b766-4fe6-ac00-0311ec33b883)
+* $(ID:2deb3d3d-71e9-4ee6-8059-6ae1abbd51b6)
+
+## $(ID:0c6e0fa8-eabd-4998-aea2-654a4c695832)
+
+* $(ID:519daa8b-8ec0-44ef-913e-2fbcd9c97c5f)
+
+## $(ID:c64cfa94-d97f-4434-a71f-1addba2dbaf5)
+
+* $(ID:ba61daf3-9561-4f08-ab8a-8b9e13fbbc16)
+
+## $(ID:6dc957eb-4161-4ddf-9e93-deccc2ac4395)
+
+* $(ID:0e3123fa-d85e-4ab2-bc5b-0c2602443297)
+* $(ID:3e635f55-0031-4700-a4f7-93f094e7566c)
+* $(ID:a0750bcd-0663-401d-98ca-4209af239f80)
+* $(ID:6f2fe431-030a-4ddd-8aee-364105dc05ff)
+
+## $(ID:a46f1a3b-16e8-4094-82ec-8d4e877f0bd3)
+
+* $(ID:9fd94aa5-fed9-4577-b170-f5ef246d9d55)
+* $(ID:4d7c5cc6-44f1-4e75-8443-78fa3298bfb4)
+* $(ID:559eee82-95a7-4de9-91c3-323951cff0b3)
+
+## $(ID:7b70fc6b-b791-4d75-9a07-2b3c04948fb5)
+
+* $(ID:6c9e1850-c246-4392-91fb-25f1a217f043)
+* $(ID:c44d802d-2df5-4691-aff4-d92da26801f2)
+* $(ID:ea4acf2e-ab62-432a-b95a-61fc83ea5489)
+
+## $(ID:090905b3-ac6f-4e26-a6c4-2a02719ecc03)
+
+* $(ID:09aa4aeb-4ab3-4768-b7c3-db73c0abde61)
+* $(ID:2a98ede1-e031-475b-910a-46a27d135a5c)
+
+## $(ID:a1ff3401-5ecf-470b-ab3e-6f0f8586bcfb)
+
+* $(ID:2a10da6a-2b69-4aa8-a197-a66f2a007477)
+* $(ID:a2c53334-ef98-4f69-bf0f-9f1f97fbd42b)
+
+## $(ID:864360ca-a927-4aef-81a5-ab69af94ce5d)
+
+* $(ID:93acf6e0-791d-406a-af8e-3b03fe42ed7f)
+
+## $(ID:c67c6921-adbc-4df6-ac25-905c8bd0bf15)
+
+* $(ID:31e117be-1c45-4c94-8dcc-40dadc021404)
+
+## $(ID:065cd888-4100-461a-8736-ea7183f496d0)
+
+* $(ID:afb33889-692c-4772-84c6-5fb7afcbf98b)
+
+## $(ID:2cd3d479-6e8a-4ed6-9395-b83485ef4cd9)
+
+* $(ID:c71d470f-1efc-4251-b482-14cdcc105cc0)
+
+## $(ID:2f6eff2c-9797-40da-ba66-d66b6b511fcb)
+
+* $(ID:4840f642-41d7-4fce-8b1e-4f480a0f9229)
+* $(ID:6d059616-20f8-4511-bf34-b06698356ef9)
+
+## $(ID:fd82472b-3774-4a5d-a020-7d6d4149762d)
+
+* $(ID:fbde52ee-8dab-425b-a9c1-06cf76a7fdf4)
+
+## $(ID:9a2cbf36-5e72-4606-a90d-dc5cc323d39e)
+
+* $(ID:aaaf8819-2f4a-4fdd-868f-12a41b926145)
+* $(ID:610e2a2d-eb8f-44b8-9941-a7cb4b80447c)
+* $(ID:bb4a1220-83bd-4f38-9945-f933bc3b6a14)
+* $(ID:b46bc8ae-ea07-47db-a9cb-8403b3b00120)
+* $(ID:177a5f34-ea23-4549-a68a-d0a4220069bd)
+
+## $(ID:73c9f5f8-5b37-4a1a-ae00-741f1070ea4b)
+
+$(ID:584890e8-270f-49f0-b777-08477b27daa7)
+
+* $(ID:f5fb0d15-33a2-4ad3-ba29-47360a243c1f)
+* $(ID:355a8f52-6c50-43de-bf78-8ab4c0ff14cf)
+
+## $(ID:dd53069c-cdf5-448a-99f0-c88b10bc6db7)
+
+* $(ID:1d4aecac-7570-4291-85ad-0e02671817e4)
+
+## $(ID:4615c35c-275d-4d60-9e2c-9d71d68adf82)
+
+$(ID:385793b8-f085-4f71-8d53-04fe90b74646)
+
+* $(ID:ed4406aa-daa5-4685-be90-e91ba9a85c6f)
+* $(ID:ed560f25-6c5b-4383-81c1-49e98c8fafc9)
+
+## $(ID:ed9c011f-853a-490d-baf8-48a9df6818eb)
+
+* $(ID:88e29460-ab75-4fa0-85b8-3681a782e49f)
+
+## $(ID:64941f35-a0ad-4a77-ac52-416f876f7ae6)
+
+* $(ID:734ac5fb-ecd1-4684-9140-499519dafc6c)
+
+## $(ID:28e2bf63-a475-44c0-9b3c-0c627edfeb9a)
+
+* $(ID:6d324543-a5c0-4df2-97f2-8cd9dde2566e)
+* $(ID:8bf6c617-89cf-4d64-928f-9b0661e547af)
+
+## $(ID:496cb27c-4241-46a4-8806-cc77e693b4b1)
+
+$(ID:cbfdf501-a9a2-493d-9490-ff9ca99b2dc9)
+
+* $(ID:2aeb7d15-3006-42be-801c-f3ef76500b66)
+* $(ID:089ab36d-8b75-4682-87e7-147ef7ba20ce)
+* $(ID:ed644075-5cbc-4418-b926-cac9e1d0847b)
+
+## $(ID:0374ce21-edef-467c-b927-5f2de67b6942)
+
+* $(ID:01660815-554e-4493-ae5c-40e9bf33e420)
+* $(ID:965e8177-be79-4785-bd95-cf8d8c530d09)
+
+## $(ID:0884781b-74ad-4171-8219-ed0e01cbbe6a)
+
+* $(ID:94035c92-81c7-4015-aa59-1dda709e8964)
+* $(ID:e561e7fe-a4eb-4b8b-9d74-f8025f34b9f3)
+* $(ID:f3aa18ef-0233-4555-b21e-2ae8b51dffd4)
+* $(ID:490f7d52-04bb-4924-b056-5cd0e0655167)
+* $(ID:932eb880-9006-45f8-9ef5-b19c3ccf2028)
+
+## $(ID:eb61061f-cb98-4e03-88bc-62529b98d174)
+
+* $(ID:3b7088d6-4135-447e-8191-1a8e5a24e497)
+* $(ID:7586e77a-73f7-4f9b-be64-9bcc2a0e9c24)
+
+## $(ID:3a22c6c8-689c-41d0-8c54-67bcfe2cce4b)
+
+* $(ID:b1cc1a82-400d-4d3c-aef4-9e08b6b3e41c)
+* $(ID:56146eb8-220b-42cf-8774-12cc4c3549da)
+* $(ID:69164516-af7e-45c5-8ce1-0ac99eedcde9)
+* $(ID:eff60340-202b-4ba4-8ecc-cf39124b1fbd)
+
+## $(ID:dbc9a736-3d0e-4eae-beae-1a14a3fbf045)
+
+* $(ID:43052aca-c132-447d-a1eb-db55da9268a4)
+* $(ID:afa2b410-7124-4eca-8ba4-9846cb06f545)
+
+## $(ID:9740ee48-4b8a-42e2-9b45-560d25897fdb)
+
+* $(ID:d9655e98-fcc8-4597-a683-12586a343771)
+
+## $(ID:e6ac99df-8556-4f19-b366-33dec41d940e)
+
+* $(ID:bfc2bc99-778a-4e2f-90f1-c85cb772f9cd)
+
+## $(ID:d88c9400-817b-48c7-aab2-0f395bf1f1c1)
+
+* $(ID:c3f99acd-2079-4b2b-b91f-06398837cfaf)
+* $(ID:ffa1ae1c-116e-4831-8589-77057b563f1e)
+* $(ID:d9857bc1-0f71-4226-b8f2-d5f3816fda97)
+
+## $(ID:0c588787-ed5c-4407-91c0-53057cff1afc)
+
+* $(ID:d290ec4f-3fa5-48d9-b07f-383efccd3ccb)
+
+## $(ID:c19aeb3d-8f64-4e69-a8a6-b8d56ea6e84d)
+
+* $(ID:1135fca7-a7b0-4926-87aa-58a015fd9904)
+
+$(ID:d6823959-a508-41bf-ae0e-f328ee40bde6)
+
+</skeleton>
+<unit id="0dbd8001-6939-479a-b8de-2a428fad9ef4">
+<notes>
+<note appliesTo="source">line: 2</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>Resource Monitor</source>
+</segment>
+</unit>
+<unit id="09ad421f-bd25-4a4e-98cf-1b2846c0bed4">
+<notes>
+<note appliesTo="source">line: 4</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Authors: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka Ojala, Ethin Probst and other NVDA contributors</source>
+</segment>
+</unit>
+<unit id="6a124376-dee8-4ae3-a2fd-c10945c9a01b">
+<notes>
+<note appliesTo="source">line: 6</note>
+</notes>
+<segment>
+<source>This add-on gives information about CPU load, memory usage and other resource usage information.</source>
+</segment>
+</unit>
+<unit id="c440719f-4007-493b-bd28-10ac27790a0a">
+<notes>
+<note appliesTo="source">line: 8</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>Shortcuts</source>
+</segment>
+</unit>
+<unit id="25e92575-4c54-42af-8d8f-ed676567783f">
+<notes>
+<note appliesTo="source">line: 10</note>
+</notes>
+<segment>
+<source>All commands support speech on demand mode.</source>
+</segment>
+</unit>
+<unit id="287cabed-c79b-4144-b8a6-133270ea520f">
+<notes>
+<note appliesTo="source">line: 12</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+E: presents used ram, average processor load, and battery info if available.</source>
+</segment>
+</unit>
+<unit id="69288226-ed1c-4a25-99fd-9d80a0f5f977">
+<notes>
+<note appliesTo="source">line: 13</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+1: presents the average processor load and if multicore CPU's are present the load of each core.</source>
+</segment>
+</unit>
+<unit id="c1eed7b3-15fc-46f9-afac-2e2aa5062c89">
+<notes>
+<note appliesTo="source">line: 14</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+2/5: presents the used and total space for both physical and virtual ram.</source>
+</segment>
+</unit>
+<unit id="be513084-d6ba-4a2e-8f17-ae494aa40144">
+<notes>
+<note appliesTo="source">line: 15</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+3: presents the used and total space of the static and removable drives.</source>
+</segment>
+</unit>
+<unit id="0f988254-8558-4ffb-9e9d-8ba975bcfdc2">
+<notes>
+<note appliesTo="source">line: 16</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+4: presents battery percentage, charging status, remaining time (if not charging), and a warning if the battery is low or critical.</source>
+</segment>
+</unit>
+<unit id="21ee28c3-8bd6-4281-9fc3-101f21d6602e">
+<notes>
+<note appliesTo="source">line: 17</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+6: presents  CPU Architecture and Windows version and service pack numbers.</source>
+</segment>
+</unit>
+<unit id="4928fdcf-a9ca-45f4-8762-e669e44987c6">
+<notes>
+<note appliesTo="source">line: 18</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+7: presents the system's uptime.</source>
+</segment>
+</unit>
+<unit id="f801ed1f-5fc2-4e49-b1cb-e7da7d547b4b">
+<notes>
+<note appliesTo="source">line: 19</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA+Shift+8: presents information on the wireless connection, ssid name and strength, or no ssid if there is none available.</source>
+</segment>
+</unit>
+<unit id="d9472bd2-2e88-4fc5-b95c-8d8be1eade76">
+<notes>
+<note appliesTo="source">line: 21</note>
+</notes>
+<segment>
+<source>You can change these shortcut keys via input gestures dialog.</source>
+</segment>
+</unit>
+<unit id="335d9e56-7859-465a-917f-bc48a68d7c99">
+<notes>
+<note appliesTo="source">line: 23</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Usage notes</source>
+</segment>
+</unit>
+<unit id="8cd32970-6de0-4e4e-9506-40ef50d5c697">
+<notes>
+<note appliesTo="source">line: 25</note>
+</notes>
+<segment>
+<source>This add-on does not replace task manager and other system information programs for Windows. Also note the following:</source>
+</segment>
+</unit>
+<unit id="7f79b688-181e-47e7-b278-b4d5863b96d4">
+<notes>
+<note appliesTo="source">line: 27</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Resource information cannot be copied to clipboard if running the add-on in secure screens.</source>
+</segment>
+</unit>
+<unit id="01febae0-18c9-4054-90ee-6ac811cc1173">
+<notes>
+<note appliesTo="source">line: 28</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>CPU usage is given for logical processors, not physical cores. This is noticeable for processors which uses Hyper-Threading where number of CPU's is twice the number of CPU cores. On some newer computers, not all CPU cores will have hyper-threading enabled.</source>
+</segment>
+</unit>
+<unit id="f893dd7b-fff4-43e9-8e34-c4e945a369dc">
+<notes>
+<note appliesTo="source">line: 29</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>If there is heavy disk activity such as copying large files, there might be delays when obtaining disk usage information.</source>
+</segment>
+</unit>
+<unit id="b9fa3d65-d992-4aa2-8220-7f35ac8ed605">
+<notes>
+<note appliesTo="source">line: 30</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>When announcing processor architecture information, "x86" and "AMD64" refer to 32-bit and 64-bit (x64) Intel and AMD processors, respectively.</source>
+</segment>
+</unit>
+<unit id="b9f99e39-11de-434c-99cc-406e82400196">
+<notes>
+<note appliesTo="source">line: 31</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>While this add-on supports windows 8.1 (limited support), Windows 10 22H2 (2022 Update/build 19045) or later is recommended.</source>
+</segment>
+</unit>
+<unit id="2f1d3a4a-11ec-4445-b599-bb9087226290">
+<notes>
+<note appliesTo="source">line: 32</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Installing the add-on on Windows 10/11 LTSC is not supported.</source>
+</segment>
+</unit>
+<unit id="c39c35f6-0ae3-4c2e-981e-8145a46d5132">
+<notes>
+<note appliesTo="source">line: 34</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.09</source>
+</segment>
+</unit>
+<unit id="4197209c-98cd-4a75-bb07-eb3978dc304f">
+<notes>
+<note appliesTo="source">line: 36</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2025.2 or later is required.</source>
+</segment>
+</unit>
+<unit id="8ee57ede-17dc-4c62-9a01-fabe4f8d2d74">
+<notes>
+<note appliesTo="source">line: 38</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.07</source>
+</segment>
+</unit>
+<unit id="1c8b49b7-61f2-4545-b4fc-d0879e03816a">
+<notes>
+<note appliesTo="source">line: 40</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Made the add-on code more robust with help from Pyright (a Python static type checker).</source>
+</segment>
+</unit>
+<unit id="9a8e59dc-f255-4bb3-903b-e7e5e343205f">
+<notes>
+<note appliesTo="source">line: 42</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.06</source>
+</segment>
+</unit>
+<unit id="26262a35-909d-490c-9a65-458f00e7f8e4">
+<notes>
+<note appliesTo="source">line: 44</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Improved connection status announcement when connecting to wireless networks (@danstiv).</source>
+</segment>
+</unit>
+<unit id="e75fb525-8050-4a38-929a-2ea119803f1e">
+<notes>
+<note appliesTo="source">line: 46</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.02</source>
+</segment>
+</unit>
+<unit id="a72e0dc0-26bc-4a54-b680-47df4b6e4a5d">
+<notes>
+<note appliesTo="source">line: 48</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Restored limited support for Windows 8.1.</source>
+</segment>
+</unit>
+<unit id="8aef1832-5ed6-4f44-a663-1e34d78135c0">
+<notes>
+<note appliesTo="source">line: 49</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Improved accuracy of used and total memory information announcement (@danstiv).</source>
+</segment>
+</unit>
+<unit id="a7c0cadd-5f2b-48c4-a0f2-76f1d9d1d691">
+<notes>
+<note appliesTo="source">line: 50</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will no longer appear to freeze briefly when performing memory usage command (NVDA+Shift+2/5) the first time after starting NVDA.</source>
+</segment>
+</unit>
+<unit id="c2f5ac8e-5eaa-4d99-9cac-62c57fed5de2">
+<notes>
+<note appliesTo="source">line: 51</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows Insider Preview releases are no longer reported as "Windows Insider".</source>
+</segment>
+</unit>
+<unit id="1a2ee876-8569-4765-8d0c-9af057cfce1f">
+<notes>
+<note appliesTo="source">line: 53</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 24.08</source>
+</segment>
+</unit>
+<unit id="a8507847-083d-49bb-933d-617b6044e7c5">
+<notes>
+<note appliesTo="source">line: 55</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2024.2 or later is required. This allows psutil dependency to be removed from the add-on as NVDA includes it.</source>
+</segment>
+</unit>
+<unit id="4944c224-20ee-459a-abba-44b683e0374f">
+<notes>
+<note appliesTo="source">line: 56</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to the version included with NVDA 2024.2 (6.0.0).</source>
+</segment>
+</unit>
+<unit id="0ab9564f-2045-4cef-ae18-beba41ac6feb">
+<notes>
+<note appliesTo="source">line: 57</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Ruff replaces Flake8 as code linter.</source>
+</segment>
+</unit>
+<unit id="56fe0391-202c-4a5c-9b7b-d5cf2af6e10e">
+<notes>
+<note appliesTo="source">line: 59</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 24.05</source>
+</segment>
+</unit>
+<unit id="b34eafe5-f5b6-4807-9805-f5cdbed64ecf">
+<notes>
+<note appliesTo="source">line: 61</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2024.1 or later is required.</source>
+</segment>
+</unit>
+<unit id="d485a822-2614-473e-9e85-2b295c4c882c">
+<notes>
+<note appliesTo="source">line: 62</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will recognize wireless networks with WPA3 authentication methods such as shared authentication of equals (SAE).</source>
+</segment>
+</unit>
+<unit id="7cc0aa19-2394-47bd-897f-544ed976560c">
+<notes>
+<note appliesTo="source">line: 64</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 24.04</source>
+</segment>
+</unit>
+<unit id="ca02465c-91b5-4541-903c-477f5d432641">
+<notes>
+<note appliesTo="source">line: 66</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.9.8.</source>
+</segment>
+</unit>
+<unit id="8b4a5e81-5b4c-4c17-9317-924648b2930a">
+<notes>
+<note appliesTo="source">line: 67</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added support for speech on demand mode so resource information can be announced in this mode.</source>
+</segment>
+</unit>
+<unit id="9d9926f7-36d6-488b-bb09-6e9f53170c07">
+<notes>
+<note appliesTo="source">line: 69</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.11</source>
+</segment>
+</unit>
+<unit id="1d6988cf-bfcb-4b3e-a5e1-4755f558abfa">
+<notes>
+<note appliesTo="source">line: 71</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Downgraded psutil dependency to 5.9.4 due to problems with memory usage announcements.</source>
+</segment>
+</unit>
+<unit id="2f02d680-22d0-451b-bc14-36c25db451c7">
+<notes>
+<note appliesTo="source">line: 73</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.10</source>
+</segment>
+</unit>
+<unit id="008029fc-8494-4243-a9ed-e9c6ffeb35a4">
+<notes>
+<note appliesTo="source">line: 75</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.9.5.</source>
+</segment>
+</unit>
+<unit id="672117bc-e38f-4203-9e7f-947f9013e47c">
+<notes>
+<note appliesTo="source">line: 77</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.09</source>
+</segment>
+</unit>
+<unit id="fd682bae-4cd0-4922-ad2e-8eed4062db7c">
+<notes>
+<note appliesTo="source">line: 79</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will no longer log startup error messages on Windows Server systems when wireless capability modules are unavailable.</source>
+</segment>
+</unit>
+<unit id="e9e974d1-e82b-404e-a752-1144e892970f">
+<notes>
+<note appliesTo="source">line: 81</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.06</source>
+</segment>
+</unit>
+<unit id="076cc5ce-dccf-4a6f-b384-6d166870fda3">
+<notes>
+<note appliesTo="source">line: 83</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Situation where resourceMonitor doesn't work properly due to unavailability of wireless adapters has been fixed.</source>
+</segment>
+</unit>
+<unit id="c2d832af-ab1c-4b75-bb14-78beda47e24e">
+<notes>
+<note appliesTo="source">line: 85</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.05.1</source>
+</segment>
+</unit>
+<unit id="2519bb27-c1ad-4ddc-adb5-5668e6e7d199">
+<notes>
+<note appliesTo="source">line: 87</note>
+</notes>
+<segment>
+<source>wlanReporter NVDA-addon is now part of resourceMonitor!</source>
+</segment>
+</unit>
+<unit id="b55b400f-07fb-4fea-88ac-7fb39401792d">
+<notes>
+<note appliesTo="source">line: 89</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>The old way of checking for wireless connections has been replaced by the windows API from wlanReporter: https://github.com/kvark128/WlanReporter/ .</source>
+</segment>
+</unit>
+<unit id="10938536-ed2e-4b0c-bdba-a8cfbcbbc0fe">
+<notes>
+<note appliesTo="source">line: 90</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>After speaking SSID name and strength, NVDA will also now tell you the security type of your network.</source>
+</segment>
+</unit>
+<unit id="603fd8b4-f9c0-4809-ae79-ca00ed9aac58">
+<notes>
+<note appliesTo="source">line: 91</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>NVDA will now alert you when you connect and disconnect from a wireless network.</source>
+</segment>
+</unit>
+<unit id="ec5ce33e-0ff8-4899-bff7-e35afe76324f">
+<notes>
+<note appliesTo="source">line: 92</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>NVDA will now alert you when wireless connections is turned on or off.</source>
+</segment>
+</unit>
+<unit id="0866b829-8379-4817-b102-b1c6a160f3d2">
+<notes>
+<note appliesTo="source">line: 94</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.05</source>
+</segment>
+</unit>
+<unit id="47eea40a-f3be-4d22-a8d9-c7e0c182dacb">
+<notes>
+<note appliesTo="source">line: 96</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>added the ability to detect and present the state of the connected wireless network.</source>
+</segment>
+</unit>
+<unit id="21f6b226-e86b-44ca-9d54-d0b1128b0ad9">
+<notes>
+<note appliesTo="source">line: 97</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>Announces the name of the connected wireless SSID.</source>
+</segment>
+</unit>
+<unit id="bcae1d43-eead-4984-93a6-80a7475eca2e">
+<notes>
+<note appliesTo="source">line: 98</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>Announces the strength of the ssid</source>
+</segment>
+</unit>
+<unit id="67c6c77b-fef2-4434-bb23-df1a1b1feed6">
+<notes>
+<note appliesTo="source">line: 99</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>Announce SSID not found if None is detected.</source>
+</segment>
+</unit>
+<unit id="322bc16e-77fc-473b-98c9-d6d5feb9b17d">
+<notes>
+<note appliesTo="source">line: 101</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.02</source>
+</segment>
+</unit>
+<unit id="c18731af-8a3b-4ff0-8bd4-b75fd7105967">
+<notes>
+<note appliesTo="source">line: 103</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2022.4 or later is required.</source>
+</segment>
+</unit>
+<unit id="b713a05e-2d68-454e-9920-ac212570654d">
+<notes>
+<note appliesTo="source">line: 104</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows 10 21H2 (November 2021 Update/build 19044) or later is required.</source>
+</segment>
+</unit>
+<unit id="98161916-9b73-464c-94a8-f53f70b58840">
+<notes>
+<note appliesTo="source">line: 106</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.01</source>
+</segment>
+</unit>
+<unit id="2d886bf2-1f65-4083-9fe3-c29f679377e3">
+<notes>
+<note appliesTo="source">line: 108</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2022.3 or later is required.</source>
+</segment>
+</unit>
+<unit id="ba794605-2c1d-4d69-8f21-2ce1b55b7917">
+<notes>
+<note appliesTo="source">line: 109</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.</source>
+</segment>
+</unit>
+<unit id="c07c3a72-2c05-4258-b02e-b17ff5059f94">
+<notes>
+<note appliesTo="source">line: 110</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.9.4.</source>
+</segment>
+</unit>
+<unit id="762ee2f3-3d88-45e6-a843-702352f4f8e8">
+<notes>
+<note appliesTo="source">line: 111</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will announce actual processor architecture (x86/AMD64/ARM64) as part of Windows version information.</source>
+</segment>
+</unit>
+<unit id="e25aed09-b2b1-4ef5-bdba-5ce7eca40e3a">
+<notes>
+<note appliesTo="source">line: 112</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>On single-core systems, NVDA will no longer announce CPU core load as average CPU load is the same as core load.</source>
+</segment>
+</unit>
+<unit id="a6088ce8-94dc-46ed-a140-acc813f1ec72">
+<notes>
+<note appliesTo="source">line: 114</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 22.03</source>
+</segment>
+</unit>
+<unit id="c19ce02d-d820-41ee-818a-5fa780af637b">
+<notes>
+<note appliesTo="source">line: 116</note>
+</notes>
+<segment>
+<source>Version 22.03 is the last stable version to support Windows 7 Service Pack 1, 8, and 8.1.</source>
+</segment>
+</unit>
+<unit id="47b97376-331f-4341-be01-3809c13125fe">
+<notes>
+<note appliesTo="source">line: 118</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2021.3 or later is required.</source>
+</segment>
+</unit>
+<unit id="a131b820-b766-4fe6-ac00-0311ec33b883">
+<notes>
+<note appliesTo="source">line: 119</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.</source>
+</segment>
+</unit>
+<unit id="2deb3d3d-71e9-4ee6-8059-6ae1abbd51b6">
+<notes>
+<note appliesTo="source">line: 120</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.9.0.</source>
+</segment>
+</unit>
+<unit id="0c6e0fa8-eabd-4998-aea2-654a4c695832">
+<notes>
+<note appliesTo="source">line: 122</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 22.01</source>
+</segment>
+</unit>
+<unit id="519daa8b-8ec0-44ef-913e-2fbcd9c97c5f">
+<notes>
+<note appliesTo="source">line: 124</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2021.2 or later is required.</source>
+</segment>
+</unit>
+<unit id="c64cfa94-d97f-4434-a71f-1addba2dbaf5">
+<notes>
+<note appliesTo="source">line: 126</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 21.10</source>
+</segment>
+</unit>
+<unit id="ba61daf3-9561-4f08-ab8a-8b9e13fbbc16">
+<notes>
+<note appliesTo="source">line: 128</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2021.1 or later is required due to changes to NVDA that affects this add-on.</source>
+</segment>
+</unit>
+<unit id="6dc957eb-4161-4ddf-9e93-deccc2ac4395">
+<notes>
+<note appliesTo="source">line: 130</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 21.08</source>
+</segment>
+</unit>
+<unit id="0e3123fa-d85e-4ab2-bc5b-0c2602443297">
+<notes>
+<note appliesTo="source">line: 132</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Minimum Windows release requirement is now tied to NVDA releases.</source>
+</segment>
+</unit>
+<unit id="3e635f55-0031-4700-a4f7-93f094e7566c">
+<notes>
+<note appliesTo="source">line: 133</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows builds 20348 and 22000 are recognized as Windows Server 2022 and Windows 11, respectively.</source>
+</segment>
+</unit>
+<unit id="a0750bcd-0663-401d-98ca-4209af239f80">
+<notes>
+<note appliesTo="source">line: 134</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>On Insider Preview builds, Windows release such as "Windows 10" will not be used. Instead NvDA will announce "Windows Insider".</source>
+</segment>
+</unit>
+<unit id="6f2fe431-030a-4ddd-8aee-364105dc05ff">
+<notes>
+<note appliesTo="source">line: 135</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>On 64-bit systems, processor architecture (x64 or ARM64) will be announced as part of Windows version information.</source>
+</segment>
+</unit>
+<unit id="a46f1a3b-16e8-4094-82ec-8d4e877f0bd3">
+<notes>
+<note appliesTo="source">line: 137</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 21.04</source>
+</segment>
+</unit>
+<unit id="9fd94aa5-fed9-4577-b170-f5ef246d9d55">
+<notes>
+<note appliesTo="source">line: 139</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2020.4 or later is required.</source>
+</segment>
+</unit>
+<unit id="4d7c5cc6-44f1-4e75-8443-78fa3298bfb4">
+<notes>
+<note appliesTo="source">line: 140</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.8.0.</source>
+</segment>
+</unit>
+<unit id="559eee82-95a7-4de9-91c3-323951cff0b3">
+<notes>
+<note appliesTo="source">line: 141</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>When pressing add-on commands twice to copy resource information to clipboard, NVDA will announce resource summary that is being copied.</source>
+</segment>
+</unit>
+<unit id="7b70fc6b-b791-4d75-9a07-2b3c04948fb5">
+<notes>
+<note appliesTo="source">line: 143</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 21.01</source>
+</segment>
+</unit>
+<unit id="6c9e1850-c246-4392-91fb-25f1a217f043">
+<notes>
+<note appliesTo="source">line: 145</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.7.3.</source>
+</segment>
+</unit>
+<unit id="c44d802d-2df5-4691-aff4-d92da26801f2">
+<notes>
+<note appliesTo="source">line: 146</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Shortened Windows version message.</source>
+</segment>
+</unit>
+<unit id="ea4acf2e-ab62-432a-b95a-61fc83ea5489">
+<notes>
+<note appliesTo="source">line: 147</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>On Windows 8.1, build.revision will be announced as part of Windows version message, similar to Windows 10.</source>
+</segment>
+</unit>
+<unit id="090905b3-ac6f-4e26-a6c4-2a02719ecc03">
+<notes>
+<note appliesTo="source">line: 149</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.09</source>
+</segment>
+</unit>
+<unit id="09aa4aeb-4ab3-4768-b7c3-db73c0abde61">
+<notes>
+<note appliesTo="source">line: 151</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>System uptime is now given as days, hours, minutes, seconds.</source>
+</segment>
+</unit>
+<unit id="2a98ede1-e031-475b-910a-46a27d135a5c">
+<notes>
+<note appliesTo="source">line: 152</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows Server Insider Preview build 20201 or later is properly recognized as a Server Insider build.</source>
+</segment>
+</unit>
+<unit id="a1ff3401-5ecf-470b-ab3e-6f0f8586bcfb">
+<notes>
+<note appliesTo="source">line: 154</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.07</source>
+</segment>
+</unit>
+<unit id="2a10da6a-2b69-4aa8-a197-a66f2a007477">
+<notes>
+<note appliesTo="source">line: 156</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows 10 Version 20H2 is properly recognized when obtaining Windows version information (NVDA+Shift+6).</source>
+</segment>
+</unit>
+<unit id="a2c53334-ef98-4f69-bf0f-9f1f97fbd42b">
+<notes>
+<note appliesTo="source">line: 157</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Simplified Windows 10 version message i.e. Windows 10 YYMM instead of Windows 10verYYMM when pressing NVDA+Shift+6.</source>
+</segment>
+</unit>
+<unit id="864360ca-a927-4aef-81a5-ab69af94ce5d">
+<notes>
+<note appliesTo="source">line: 159</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.06</source>
+</segment>
+</unit>
+<unit id="93acf6e0-791d-406a-af8e-3b03fe42ed7f">
+<notes>
+<note appliesTo="source">line: 161</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Resolved many coding style issues and potential bugs with Flake8.</source>
+</segment>
+</unit>
+<unit id="c67c6921-adbc-4df6-ac25-905c8bd0bf15">
+<notes>
+<note appliesTo="source">line: 163</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.04</source>
+</segment>
+</unit>
+<unit id="31e117be-1c45-4c94-8dcc-40dadc021404">
+<notes>
+<note appliesTo="source">line: 165</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.7.0.</source>
+</segment>
+</unit>
+<unit id="065cd888-4100-461a-8736-ea7183f496d0">
+<notes>
+<note appliesTo="source">line: 167</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.01</source>
+</segment>
+</unit>
+<unit id="afb33889-692c-4772-84c6-5fb7afcbf98b">
+<notes>
+<note appliesTo="source">line: 169</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2019.3 or later is required due to extensive use of Python 3.</source>
+</segment>
+</unit>
+<unit id="2cd3d479-6e8a-4ed6-9395-b83485ef4cd9">
+<notes>
+<note appliesTo="source">line: 171</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 19.11</source>
+</segment>
+</unit>
+<unit id="c71d470f-1efc-4251-b482-14cdcc105cc0">
+<notes>
+<note appliesTo="source">line: 173</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Improved detection of Windows Insider Preview builds, especially for 20H1 and beyond.</source>
+</segment>
+</unit>
+<unit id="2f6eff2c-9797-40da-ba66-d66b6b511fcb">
+<notes>
+<note appliesTo="source">line: 175</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 19.07</source>
+</segment>
+</unit>
+<unit id="4840f642-41d7-4fce-8b1e-4f480a0f9229">
+<notes>
+<note appliesTo="source">line: 177</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.6.3.</source>
+</segment>
+</unit>
+<unit id="6d059616-20f8-4511-bf34-b06698356ef9">
+<notes>
+<note appliesTo="source">line: 178</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Internal changes to battery status announcement command.</source>
+</segment>
+</unit>
+<unit id="fd82472b-3774-4a5d-a020-7d6d4149762d">
+<notes>
+<note appliesTo="source">line: 180</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.12</source>
+</segment>
+</unit>
+<unit id="fbde52ee-8dab-425b-a9c1-06cf76a7fdf4">
+<notes>
+<note appliesTo="source">line: 182</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Internal changes to support future NVDA releases.</source>
+</segment>
+</unit>
+<unit id="9a2cbf36-5e72-4606-a90d-dc5cc323d39e">
+<notes>
+<note appliesTo="source">line: 184</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.10</source>
+</segment>
+</unit>
+<unit id="aaaf8819-2f4a-4fdd-868f-12a41b926145">
+<notes>
+<note appliesTo="source">line: 186</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Code has been made more compatible with Python 3.</source>
+</segment>
+</unit>
+<unit id="610e2a2d-eb8f-44b8-9941-a7cb4b80447c">
+<notes>
+<note appliesTo="source">line: 187</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.4.7.</source>
+</segment>
+</unit>
+<unit id="bb4a1220-83bd-4f38-9945-f933bc3b6a14">
+<notes>
+<note appliesTo="source">line: 188</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>When obtaining disk capacity and memory usage, NVDA will no longer give errors if using a computer or a service with more than a petabyte of RAM or disk size.</source>
+</segment>
+</unit>
+<unit id="b46bc8ae-ea07-47db-a9cb-8403b3b00120">
+<notes>
+<note appliesTo="source">line: 189</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Values for memory and disk usage are shown with up to two decimal places (e.g. 4.00 GB instead of 4.0 GB).</source>
+</segment>
+</unit>
+<unit id="177a5f34-ea23-4549-a68a-d0a4220069bd">
+<notes>
+<note appliesTo="source">line: 190</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Improved detection of Windows Insider Preview builds.</source>
+</segment>
+</unit>
+<unit id="73c9f5f8-5b37-4a1a-ae00-741f1070ea4b">
+<notes>
+<note appliesTo="source">line: 192</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.04</source>
+</segment>
+</unit>
+<unit id="584890e8-270f-49f0-b777-08477b27daa7">
+<notes>
+<note appliesTo="source">line: 194</note>
+</notes>
+<segment>
+<source>Version 18.04.x is the last release to support Windows releases earlier than 7 SP1.</source>
+</segment>
+</unit>
+<unit id="f5fb0d15-33a2-4ad3-ba29-47360a243c1f">
+<notes>
+<note appliesTo="source">line: 196</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Last release to support Windows Server 2003, Vista and Server 2008.</source>
+</segment>
+</unit>
+<unit id="355a8f52-6c50-43de-bf78-8ab4c0ff14cf">
+<notes>
+<note appliesTo="source">line: 197</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Better detection of Windows 10 releases and distinguishing between public and Insider Preview builds.</source>
+</segment>
+</unit>
+<unit id="dd53069c-cdf5-448a-99f0-c88b10bc6db7">
+<notes>
+<note appliesTo="source">line: 199</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.12</source>
+</segment>
+</unit>
+<unit id="1d4aecac-7570-4291-85ad-0e02671817e4">
+<notes>
+<note appliesTo="source">line: 201</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added support for 64-bit ARM processors on Windows 10.</source>
+</segment>
+</unit>
+<unit id="4615c35c-275d-4d60-9e2c-9d71d68adf82">
+<notes>
+<note appliesTo="source">line: 203</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.09</source>
+</segment>
+</unit>
+<unit id="385793b8-f085-4f71-8d53-04fe90b74646">
+<notes>
+<note appliesTo="source">line: 205</note>
+</notes>
+<segment>
+<source>Important: Version 17.09.x is the last version to support Windows XP.</source>
+</segment>
+</unit>
+<unit id="ed4406aa-daa5-4685-be90-e91ba9a85c6f">
+<notes>
+<note appliesTo="source">line: 207</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Last version to run on Windows XP.</source>
+</segment>
+</unit>
+<unit id="ed560f25-6c5b-4383-81c1-49e98c8fafc9">
+<notes>
+<note appliesTo="source">line: 208</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows 10 build 16278 and later is recognized as Version 1709. A minor revision for this add-on will be released once Version 1709 stable build is released.</source>
+</segment>
+</unit>
+<unit id="ed9c011f-853a-490d-baf8-48a9df6818eb">
+<notes>
+<note appliesTo="source">line: 210</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.07.1</source>
+</segment>
+</unit>
+<unit id="88e29460-ab75-4fa0-85b8-3681a782e49f">
+<notes>
+<note appliesTo="source">line: 212</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Reintroduce support for Windows XP (broken since version 17.02).</source>
+</segment>
+</unit>
+<unit id="64941f35-a0ad-4a77-ac52-416f876f7ae6">
+<notes>
+<note appliesTo="source">line: 214</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.05</source>
+</segment>
+</unit>
+<unit id="734ac5fb-ecd1-4684-9140-499519dafc6c">
+<notes>
+<note appliesTo="source">line: 216</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Announcement of system uptime (time passed since last boot; NVDA+Shift+7).</source>
+</segment>
+</unit>
+<unit id="28e2bf63-a475-44c0-9b3c-0c627edfeb9a">
+<notes>
+<note appliesTo="source">line: 218</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.02</source>
+</segment>
+</unit>
+<unit id="6d324543-a5c0-4df2-97f2-8cd9dde2566e">
+<notes>
+<note appliesTo="source">line: 220</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 5.0.1.</source>
+</segment>
+</unit>
+<unit id="8bf6c617-89cf-4d64-928f-9b0661e547af">
+<notes>
+<note appliesTo="source">line: 221</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>When checking disk usage, NVDA will no longer present an error dialog on some systems where a removable media is not properly recognized (such as when a card isn't inserted into a card reader).)</source>
+</segment>
+</unit>
+<unit id="496cb27c-4241-46a4-8806-cc77e693b4b1">
+<notes>
+<note appliesTo="source">line: 223</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 16.08</source>
+</segment>
+</unit>
+<unit id="cbfdf501-a9a2-493d-9490-ff9ca99b2dc9">
+<notes>
+<note appliesTo="source">line: 225</note>
+</notes>
+<segment>
+<source>Starting with version 16.08, add-on releases will be shown as year.month.revision.</source>
+</segment>
+</unit>
+<unit id="2aeb7d15-3006-42be-801c-f3ef76500b66">
+<notes>
+<note appliesTo="source">line: 227</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Various revisions of Windows 10 are now properly recognized (such as 1607 for build 14393).</source>
+</segment>
+</unit>
+<unit id="089ab36d-8b75-4682-87e7-147ef7ba20ce">
+<notes>
+<note appliesTo="source">line: 228</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows 10 build revisions (after installing cumulative updates) are properly recognized (such as 14393.51).</source>
+</segment>
+</unit>
+<unit id="ed644075-5cbc-4418-b926-cac9e1d0847b">
+<notes>
+<note appliesTo="source">line: 229</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>If using Insider Preview builds, this fact is recognized.</source>
+</segment>
+</unit>
+<unit id="0374ce21-edef-467c-b927-5f2de67b6942">
+<notes>
+<note appliesTo="source">line: 231</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 4.5</source>
+</segment>
+</unit>
+<unit id="01660815-554e-4493-ae5c-40e9bf33e420">
+<notes>
+<note appliesTo="source">line: 233</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Add-on repository has moved to GitHub (can be found at https://github.com/josephsl/resourcemonitor).</source>
+</segment>
+</unit>
+<unit id="965e8177-be79-4785-bd95-cf8d8c530d09">
+<notes>
+<note appliesTo="source">line: 234</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows Server 2016 is properly recognized.</source>
+</segment>
+</unit>
+<unit id="0884781b-74ad-4171-8219-ed0e01cbbe6a">
+<notes>
+<note appliesTo="source">line: 236</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 4.0</source>
+</segment>
+</unit>
+<unit id="94035c92-81c7-4015-aa59-1dda709e8964">
+<notes>
+<note appliesTo="source">line: 238</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 2.2.1.</source>
+</segment>
+</unit>
+<unit id="e561e7fe-a4eb-4b8b-9d74-f8025f34b9f3">
+<notes>
+<note appliesTo="source">line: 239</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Vastly improved performance when obtaining information on CPU load.</source>
+</segment>
+</unit>
+<unit id="f3aa18ef-0233-4555-b21e-2ae8b51dffd4">
+<notes>
+<note appliesTo="source">line: 240</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added support for recognition of Windows 10.</source>
+</segment>
+</unit>
+<unit id="490f7d52-04bb-4924-b056-5cd0e0655167">
+<notes>
+<note appliesTo="source">line: 241</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In Windows 10, the build number of Windows will also be announced.</source>
+</segment>
+</unit>
+<unit id="932eb880-9006-45f8-9ef5-b19c3ccf2028">
+<notes>
+<note appliesTo="source">line: 242</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>You can use Add-ons Manager to access add-on help.</source>
+</segment>
+</unit>
+<unit id="eb61061f-cb98-4e03-88bc-62529b98d174">
+<notes>
+<note appliesTo="source">line: 244</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 3.1</source>
+</segment>
+</unit>
+<unit id="3b7088d6-4135-447e-8191-1a8e5a24e497">
+<notes>
+<note appliesTo="source">line: 246</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Resource Monitor officially supports Windows 8.1.</source>
+</segment>
+</unit>
+<unit id="7586e77a-73f7-4f9b-be64-9bcc2a0e9c24">
+<notes>
+<note appliesTo="source">line: 247</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated translations.</source>
+</segment>
+</unit>
+<unit id="3a22c6c8-689c-41d0-8c54-67bcfe2cce4b">
+<notes>
+<note appliesTo="source">line: 249</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 3.0</source>
+</segment>
+</unit>
+<unit id="b1cc1a82-400d-4d3c-aef4-9e08b6b3e41c">
+<notes>
+<note appliesTo="source">line: 251</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to 1.2.1.</source>
+</segment>
+</unit>
+<unit id="56146eb8-220b-42cf-8774-12cc4c3549da">
+<notes>
+<note appliesTo="source">line: 252</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Announcement of current Windows version, CPU architecture and service pack if any (NVDA+Shift+6).</source>
+</segment>
+</unit>
+<unit id="69164516-af7e-45c5-8ce1-0ac99eedcde9">
+<notes>
+<note appliesTo="source">line: 253</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Ability to change add-on shortcut keys (NVDA 2013.3 or later).</source>
+</segment>
+</unit>
+<unit id="eff60340-202b-4ba4-8ecc-cf39124b1fbd">
+<notes>
+<note appliesTo="source">line: 254</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Ability to copy individual resource information to clipboard by pressing resource commands two times.</source>
+</segment>
+</unit>
+<unit id="dbc9a736-3d0e-4eae-beae-1a14a3fbf045">
+<notes>
+<note appliesTo="source">line: 256</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 2.4</source>
+</segment>
+</unit>
+<unit id="43052aca-c132-447d-a1eb-db55da9268a4">
+<notes>
+<note appliesTo="source">line: 258</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>New languages: Chinese (simplified), Ukrainian.</source>
+</segment>
+</unit>
+<unit id="afa2b410-7124-4eca-8ba4-9846cb06f545">
+<notes>
+<note appliesTo="source">line: 259</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated translations.</source>
+</segment>
+</unit>
+<unit id="9740ee48-4b8a-42e2-9b45-560d25897fdb">
+<notes>
+<note appliesTo="source">line: 261</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 2.3</source>
+</segment>
+</unit>
+<unit id="d9655e98-fcc8-4597-a683-12586a343771">
+<notes>
+<note appliesTo="source">line: 263</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added Bulgarian translation.</source>
+</segment>
+</unit>
+<unit id="e6ac99df-8556-4f19-b366-33dec41d940e">
+<notes>
+<note appliesTo="source">line: 265</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 2.2</source>
+</segment>
+</unit>
+<unit id="bfc2bc99-778a-4e2f-90f1-c85cb772f9cd">
+<notes>
+<note appliesTo="source">line: 267</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added following translations: Arabic, Aragonese, Croatian, Dutch, Finnish, French, Galician, German, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and Turkish.</source>
+</segment>
+</unit>
+<unit id="d88c9400-817b-48c7-aab2-0f395bf1f1c1">
+<notes>
+<note appliesTo="source">line: 269</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 2.1</source>
+</segment>
+</unit>
+<unit id="c3f99acd-2079-4b2b-b91f-06398837cfaf">
+<notes>
+<note appliesTo="source">line: 271</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Updated psutil dependency to version 0.6.1.</source>
+</segment>
+</unit>
+<unit id="ffa1ae1c-116e-4831-8589-77057b563f1e">
+<notes>
+<note appliesTo="source">line: 272</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Fixed long delay when getting information of drives.</source>
+</segment>
+</unit>
+<unit id="d9857bc1-0f71-4226-b8f2-d5f3816fda97">
+<notes>
+<note appliesTo="source">line: 273</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Code cleanup.</source>
+</segment>
+</unit>
+<unit id="0c588787-ed5c-4407-91c0-53057cff1afc">
+<notes>
+<note appliesTo="source">line: 275</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 2.0</source>
+</segment>
+</unit>
+<unit id="d290ec4f-3fa5-48d9-b07f-383efccd3ccb">
+<notes>
+<note appliesTo="source">line: 277</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>added translation support and translation comments.</source>
+</segment>
+</unit>
+<unit id="c19aeb3d-8f64-4e69-a8a6-b8d56ea6e84d">
+<notes>
+<note appliesTo="source">line: 279</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Changes for 1.0</source>
+</segment>
+</unit>
+<unit id="1135fca7-a7b0-4926-87aa-58a015fd9904">
+<notes>
+<note appliesTo="source">line: 281</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Initial Release</source>
+</segment>
+</unit>
+<unit id="d6823959-a508-41bf-ae0e-f328ee40bde6">
+<notes>
+<note appliesTo="source">line: 283</note>
+</notes>
+<segment>
+<source>[1]: http://addons.nvda-project.org/files/get.php?file=resourceMonitor</source>
+</segment>
+</unit>
+</file>
+</xliff>
