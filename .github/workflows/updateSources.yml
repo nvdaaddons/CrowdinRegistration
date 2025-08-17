@@ -53,7 +53,7 @@ jobs:
         mv addon-${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }} -f
     - name: update xliff
       run: |
-        cd addon-${{ inputs.repo }}
+        cd addon-${{inputs.repo}}
         python ../utils/markdownTranslate.py updateXliff -x ../${{ inputs.repo }}/${{ inputs.repo }}.xliff -m readme.md -o ../${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
         cd ../${{ inputs.repo }}
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}.xliff
