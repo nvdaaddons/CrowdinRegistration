@@ -291,8 +291,8 @@ def uploadSourceFile(localFilePath: str):
 	res = getCrowdinClient().source_files.add_file(storageId=storageId, projectId=CROWDIN_PROJECT_ID, name=filename, title=title, exportOptions=exportOptions)
 	print("Done")
 	res = getCrowdinClient().projects.get_project(CROWDIN_PROJECT_ID)
-	with open(JSON_FILE, "w", encoding="utf-8") as fsonFile:
-		json.dump(res, JSON_FILE, ensure_ascii=False)
+	with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
+		json.dump(res, jsonFile, ensure_ascii=False)
 
 
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
