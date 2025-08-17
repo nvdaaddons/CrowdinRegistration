@@ -94,7 +94,7 @@ jobs:
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
       - name: Upload xliff to Crowdin
         if: always()
-        run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}/}/${{ inputs.repo}}.xliff
+        run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
