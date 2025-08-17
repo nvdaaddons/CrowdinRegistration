@@ -46,7 +46,6 @@ jobs:
         sudo apt install gettext
     - name: Update pot
       run: |
-        mv ${{ inputs.repo }}/${{ inputs.repo }}.pot addon-${{ inputs.repo }} -f
         cd addon-${{ inputs.repo }}
         scons pot
     - name: Move pot
