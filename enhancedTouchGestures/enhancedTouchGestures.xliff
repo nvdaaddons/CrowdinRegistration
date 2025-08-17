@@ -1,0 +1,1364 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/enhancedTouchGestures/55b897e7cb0b38b0fbfe6a1864a351519b8d1d53/readme.md">
+<skeleton>
+# $(ID:8519a786-c33f-4eb0-9376-a1a757609d21)
+
+* $(ID:deda6da0-00f6-407e-9f7f-1654de1f1e92)
+
+$(ID:0e4ad506-501a-4324-8477-dddd7294c8be)
+
+$(ID:e64767fe-4f65-430f-8d91-c6be9b83a8f2)
+
+## $(ID:afa760aa-5ebf-4af4-b046-f17193fc9081)
+
+### $(ID:73b83960-0f28-41c4-adb7-8eb469564a17)
+
+* $(ID:8eebde0f-6d35-4da0-aeea-27f634550687)
+* $(ID:bfddda4a-0b03-469a-b4df-6abb578ff8a6)
+* $(ID:c8394332-2eca-497e-a4fb-579c0a2809aa)
+* $(ID:74e29cbd-91fe-4dd3-8f19-cbdcabae5e1d)
+* $(ID:7b45a7a6-1e8d-445f-9e29-5b7cb58abb6f)
+* $(ID:45aeebfc-c981-4ad1-b530-1c87c7ea3ee5)
+* $(ID:2912bfbd-2a24-46f3-8471-d16f338c11ac)
+* $(ID:8852c7d6-b927-4c6e-bb5d-743e4cac74f0)
+* $(ID:ea4134dd-6163-428e-bb9b-6c1d195ac62f)
+* $(ID:4b36cfd4-b932-4a2d-b155-9136db75c958)
+* $(ID:ac7f96c4-43d0-4da2-9ffe-83f0beb27140)
+* $(ID:d5a7d082-341b-408b-b363-7fab31654d8c)
+
+## $(ID:6e1adeb5-067f-4546-a693-ab167e731164)
+
+$(ID:03c964e6-6010-45e1-8ff5-463191fcf740)
+$(ID:67bd4fc0-a555-4fe4-ab9e-a6c8c14da61b)
+## $(ID:941e2fb9-a9e2-4043-8d5b-832f67f14069)
+
+$(ID:c54e76df-fd61-4a7d-86fc-03936ccaeffb)
+
+## $(ID:a4a53901-029a-45e4-a589-c6305e9216da)
+
+* $(ID:26f9766d-8938-45a9-9fc0-78c4cd0e2957)
+
+## $(ID:53f796ad-4168-46be-8717-eeb25d32016f)
+
+* $(ID:64dbdbd1-b050-4253-9730-341a3da19e22)
+
+## $(ID:91eea3bc-bf15-40c7-8bb3-40e1d2cdd5f2)
+
+* $(ID:f3628652-6666-47c7-a58b-5c118399adbb)
+* $(ID:59d9e2db-2418-498e-9719-e848b19d6c65)
+* $(ID:bd2a85ec-ef45-4c4d-b524-9ca8e30d4137)
+
+## $(ID:a530132e-07ea-4a11-a239-0b7acf55888f)
+
+* $(ID:5d8ee2c3-134c-4b76-b991-60c3f9f7d79d)
+
+## $(ID:97a88194-e072-4227-a7ba-9476821f0531)
+
+* $(ID:53fb592e-f010-43bc-8230-b40cf8cc767c)
+
+## $(ID:d6ee0581-aa53-4a5f-90cb-e00a96d9db95)
+
+* $(ID:521ccb7b-59c0-46f7-8c4e-4a09c04dd028)
+* $(ID:b2e2f4e4-96b8-4406-ae60-a37def07326f)
+* $(ID:bfa7f47d-afe7-4cee-a68f-779e99382bdb)
+  * $(ID:bbcc6d5f-3a3a-429c-891b-7266a3eaa755)
+  * $(ID:ed097614-6fd9-4997-9f7c-091cc8f42f6f)
+  * $(ID:db3cb5cb-0e97-4ab8-be25-b690c37eae03)
+  * $(ID:7e6803a3-cf28-44c1-b327-54a3e230491e)
+* $(ID:6ee1c9b6-541a-49ff-a464-6d1a8dcc90cb)
+* $(ID:009a88cb-ac34-4fb6-90a0-8540806be49f)
+
+## $(ID:b577ed4c-46a1-47d8-8020-ba1e7adaf0a2)
+
+* $(ID:da18fa11-2dba-4299-93e0-c268cda36cd2)
+* $(ID:360ed01e-13b6-424b-86d7-7a708d622ceb)
+
+## $(ID:560ffb3a-1706-47fc-b311-a456740b4e85)
+
+* $(ID:1a362e73-3f1a-4d9b-8b48-988482c5a8de)
+* $(ID:e1abd430-65d1-4c03-8920-b376b703e324)
+* $(ID:342d6936-1b27-42ee-8941-07bc3e2fc014)
+* $(ID:d6667f80-47e2-498e-9605-db2db75e1beb)
+
+## $(ID:80e03ea6-b89f-4875-8166-c3465fdc7a99)
+
+* $(ID:be42c4b4-1fd0-4775-a027-3f08c2447730)
+* $(ID:c476836e-13a6-4d01-b45e-0cc43307255e)
+
+## $(ID:026938fd-2361-455c-b66b-84a1b1fd5e0d)
+
+* $(ID:7eac0984-6173-4edb-8056-fa83166b7cd2)
+
+## $(ID:b57916a6-2c71-406c-a188-8bfa78b0bd84)
+
+* $(ID:c917c468-b60b-4fc6-855d-57c10adcd033)
+
+## $(ID:3b69cacc-d3f9-41f1-bfe5-49189a5e6bee)
+
+* $(ID:93a759c6-8b27-4ac3-9fb3-82e34c7c4f8e)
+* $(ID:6635e433-ef5f-4d30-a9fc-ad3135c00cd1)
+* $(ID:73064d30-a729-4f8b-a931-ef62824caa3f)
+* $(ID:08401688-4977-4ea6-8640-0784bdfc1a6a)
+
+## $(ID:8b9c4af7-0005-4bfa-b686-52fff5e1cfe4)
+
+* $(ID:3616360a-4357-4abe-86ef-6e1eef93592a)
+* $(ID:f1879ec9-81f9-47fa-a317-901840a9c3df)
+
+## $(ID:25a31925-4b11-43f7-b22c-10db6101be60)
+
+* $(ID:b1ce3c9b-5103-40cc-9f84-b5b495a5575f)
+* $(ID:b57c40ea-cbf6-4d86-97c2-3b74309a9961)
+* $(ID:ca3dc694-0943-4dca-8ef3-25b017fbe40e)
+* $(ID:08ff2681-6b00-4113-b554-16214931538e)
+* $(ID:1f13b303-bb40-4c9d-bb79-41c277b16f9d)
+* $(ID:4635ddb9-3364-4cb6-ba23-82a31879231a)
+* $(ID:546d7513-9d5c-47ae-afe5-83d107d0988e)
+* $(ID:6450d50f-a816-4a23-817f-758230631829)
+
+## $(ID:4a5ff9fa-e134-4062-9b7e-45f0ae6bf18c)
+
+* $(ID:b258da96-4f3b-4b09-b6f0-cb8c6705459f)
+
+## $(ID:c900aaa9-9137-4113-a6a0-64f30576ef2d)
+
+* $(ID:1262ce8c-5a8f-4649-ba3d-503a7968009b)
+
+## $(ID:89dad848-f21f-43e1-b0a3-727ea4107f37)
+
+* $(ID:336c8cb0-9d21-4e3e-9e20-a044366e6eb0)
+* $(ID:f03280a5-a091-464d-9d45-eb41a41a78f0)
+
+## $(ID:d46b6907-e5ef-4790-9c6c-210b924900e3)
+
+* $(ID:565e62dd-6061-467b-a501-ecdcd5bbd3d2)
+
+## $(ID:c9f556ff-bca6-48a1-8fac-a668d6e419b4)
+
+* $(ID:455d2183-cba3-4b2b-8b1f-533dffcc09d2)
+
+## $(ID:43ccefce-cb77-4efb-87e6-87d9c4d42f4e)
+
+* $(ID:f4a95b34-7236-48e1-aa9d-4bb5dc4c7e81)
+
+## $(ID:7e71939a-bbfd-4205-8a6c-687100451a89)
+
+* $(ID:ebe1c3be-4bea-4266-a2bf-67518e686de9)
+
+## $(ID:16d34b2b-07cc-42fd-94fd-ca9edbfdfb69)
+
+* $(ID:f226d402-3fad-4587-9070-080f7460c257)
+
+## $(ID:def26465-a3d9-46c2-ae48-8618014142a1)
+
+* $(ID:cbc01c57-c10f-4bab-b508-4fa48e64726e)
+* $(ID:dedbc0f3-fb6e-49e6-8edd-8dbbbc9b63af)
+
+## $(ID:d48b3ea3-d819-470d-a262-cefbae360fbf)
+
+* $(ID:80e7a9c0-12da-418c-9c9e-b8fa18d9fc82)
+
+## $(ID:3684cf0b-1d46-425f-8560-1ab7cc0251e8)
+
+* $(ID:9f0cb0e4-646a-437b-b5c9-20b76c0acc92)
+* $(ID:36e86ae5-4a0e-4687-a332-24e2b72b432f)
+
+## $(ID:10a6a7a2-2fc6-4407-9ae5-1940a3d04b3f)
+
+* $(ID:0479fef1-1be1-415d-bd9f-246c0644e9a3)
+* $(ID:785253fb-7334-4d3f-ae4a-bd924e46f480)
+* $(ID:902feb48-2446-41e3-8ff3-567127446a5e)
+* $(ID:a226bd07-587b-4f93-816d-136e6aad309e)
+* $(ID:e62b697c-ed44-4cad-8d8b-7427d3e4c68a)
+
+## $(ID:12aa8b20-500a-4841-b92e-1c7e32d5ecb5)
+
+* $(ID:2101562f-5ec8-4d47-8df2-54144db2c2f4)
+* $(ID:8f206fb7-727b-4325-bfcb-27a285112f4c)
+
+## $(ID:0854f1dd-6007-4e05-a272-d1c7f279525f)
+
+* $(ID:c58b0875-45c4-45ea-b423-f13c3357f8dd)
+* $(ID:f2da80d5-64cd-4833-8db3-33a8622d6e85)
+
+## $(ID:8008622c-cb84-4011-a07c-0d8e5206ccdb)
+
+* $(ID:1f5006bd-6ef6-4dd8-a00c-a7a53dcb1bfd)
+* $(ID:7df8f9da-8f38-4634-917f-3446c3c67e02)
+* $(ID:faa9af07-b735-4260-8105-b18c2af86432)
+* $(ID:4d7f2490-006f-4174-a23d-ec7ab87991ab)
+* $(ID:2b7d1bd8-9626-47e0-91a0-7087a7f59085)
+* $(ID:c3976df0-e169-4af8-a8e7-fcdd3006e1de)
+
+$(ID:b8a76b7d-31d0-4f96-a540-dfb81ab8ef62)
+
+* $(ID:7b36e6ee-5b7a-4e6b-9ed0-07d428e727d9)
+
+$(ID:8c682db3-39c8-4c95-9422-5ba5a0f85f5e)
+
+* $(ID:802465c1-b8bb-4ac2-899b-15d291cf9aec)
+* $(ID:8b9c59b8-feec-4fa8-937c-5ca62c74175e)
+
+## $(ID:7228d6c6-1eb8-4afd-b29e-9d7684913b0d)
+
+* $(ID:60d7eebf-f695-4bef-9e9f-9bdfc78e6685)
+
+$(ID:1235c8b0-404e-4d3c-a694-8e1af44c97ad)
+
+</skeleton>
+<unit id="8519a786-c33f-4eb0-9376-a1a757609d21">
+<notes>
+<note appliesTo="source">line: 2</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>Enhanced Touchscreen Gestures #</source>
+</segment>
+</unit>
+<unit id="deda6da0-00f6-407e-9f7f-1654de1f1e92">
+<notes>
+<note appliesTo="source">line: 4</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Authors: Joseph Lee, Kefas Lungu</source>
+</segment>
+</unit>
+<unit id="0e4ad506-501a-4324-8477-dddd7294c8be">
+<notes>
+<note appliesTo="source">line: 6</note>
+</notes>
+<segment>
+<source>This add-on provides additional touchscreen gestures for NVDA. It also provides a set of gestures for easier browse mode navigation.</source>
+</segment>
+</unit>
+<unit id="e64767fe-4f65-430f-8d91-c6be9b83a8f2">
+<notes>
+<note appliesTo="source">line: 8</note>
+</notes>
+<segment>
+<source>Note: this add-on requires NVDA 2024.1 or later running on a touchscreen computer with Windows 10 or 11.</source>
+</segment>
+</unit>
+<unit id="afa760aa-5ebf-4af4-b046-f17193fc9081">
+<notes>
+<note appliesTo="source">line: 10</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Commands</source>
+</segment>
+</unit>
+<unit id="73b83960-0f28-41c4-adb7-8eb469564a17">
+<notes>
+<note appliesTo="source">line: 12</note>
+<note appliesTo="source">prefix: ### </note>
+</notes>
+<segment>
+<source>Available everywhere</source>
+</segment>
+</unit>
+<unit id="8eebde0f-6d35-4da0-aeea-27f634550687">
+<notes>
+<note appliesTo="source">line: 14</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>4 finger double tap: toggle input help mode.</source>
+</segment>
+</unit>
+<unit id="bfddda4a-0b03-469a-b4df-6abb578ff8a6">
+<notes>
+<note appliesTo="source">line: 15</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Four finger flick right: toggle touch keyboard (usually enables it).</source>
+</segment>
+</unit>
+<unit id="c8394332-2eca-497e-a4fb-579c0a2809aa">
+<notes>
+<note appliesTo="source">line: 16</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Four finger flick left: toggle dictation (Windows+H; Windows 10 Version 1709 or later).</source>
+</segment>
+</unit>
+<unit id="74e29cbd-91fe-4dd3-8f19-cbdcabae5e1d">
+<notes>
+<note appliesTo="source">line: 17</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>4 finger flick up: report title of the current window.</source>
+</segment>
+</unit>
+<unit id="7b45a7a6-1e8d-445f-9e29-5b7cb58abb6f">
+<notes>
+<note appliesTo="source">line: 18</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>4 finger flick down: report status bar text.</source>
+</segment>
+</unit>
+<unit id="45aeebfc-c981-4ad1-b530-1c87c7ea3ee5">
+<notes>
+<note appliesTo="source">line: 19</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>3 finger flick down: read current window.</source>
+</segment>
+</unit>
+<unit id="2912bfbd-2a24-46f3-8471-d16f338c11ac">
+<notes>
+<note appliesTo="source">line: 20</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>3 finger flick left: report object with focus.</source>
+</segment>
+</unit>
+<unit id="8852c7d6-b927-4c6e-bb5d-743e4cac74f0">
+<notes>
+<note appliesTo="source">line: 21</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>3 finger flick right: report current navigator object.</source>
+</segment>
+</unit>
+<unit id="ea4134dd-6163-428e-bb9b-6c1d195ac62f">
+<notes>
+<note appliesTo="source">line: 22</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>3 finger double tap: Cycles through speech symbol levels which determine what symbols are spoken</source>
+</segment>
+</unit>
+<unit id="4b36cfd4-b932-4a2d-b155-9136db75c958">
+<notes>
+<note appliesTo="source">line: 23</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>2 finger tripple tap: Quit NVDA!.</source>
+</segment>
+</unit>
+<unit id="ac7f96c4-43d0-4da2-9ffe-83f0beb27140">
+<notes>
+<note appliesTo="source">line: 24</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>4 finger tap: Cycles through audio ducking modes.</source>
+</segment>
+</unit>
+<unit id="d5a7d082-341b-408b-b363-7fab31654d8c">
+<notes>
+<note appliesTo="source">line: 25</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Triple tap: Toggles between beeps, speech, beeps and speech, and off.</source>
+</segment>
+</unit>
+<unit id="6e1adeb5-067f-4546-a693-ab167e731164">
+<notes>
+<note appliesTo="source">line: 27</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Web touch mode</source>
+</segment>
+</unit>
+<unit id="03c964e6-6010-45e1-8ff5-463191fcf740">
+<notes>
+<note appliesTo="source">line: 29</note>
+</notes>
+<segment>
+<source>This touch mode, available in browse mode, allows you to navigate the document by selected element. To switch to web mode, from browse mode documents, perform 3 finger tap. From this mode, flicking up or down with one finger cycles through available element navigation modes, while flicking right or left with one finger moves to next or previous chosen element, respectively. Once you move away from browse mode documents, object touch mode is used.</source>
+</segment>
+</unit>
+<unit id="67bd4fc0-a555-4fe4-ab9e-a6c8c14da61b">
+<notes>
+<note appliesTo="source">line: 30</note>
+</notes>
+<segment>
+<source>Available web modes are: Default, Links, Buttons, Form fields, Headings, Frames, Tables, Lists, Graphics, and Landmarks.</source>
+</segment>
+</unit>
+<unit id="941e2fb9-a9e2-4043-8d5b-832f67f14069">
+<notes>
+<note appliesTo="source">line: 31</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Synth settings touch mode</source>
+</segment>
+</unit>
+<unit id="c54e76df-fd61-4a7d-86fc-03936ccaeffb">
+<notes>
+<note appliesTo="source">line: 33</note>
+</notes>
+<segment>
+<source>You can use this mode to quickly change synthesizer settings such as choosing a voice and changing volume. In this mode, use two finger flick left or right to move between synth settings and use two finger flick up and down gestures to change values. This gestures mirrors that of synth settings ring commands on the keyboard.</source>
+</segment>
+</unit>
+<unit id="a4a53901-029a-45e4-a589-c6305e9216da">
+<notes>
+<note appliesTo="source">line: 35</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.07</source>
+</segment>
+</unit>
+<unit id="26f9766d-8938-45a9-9fc0-78c4cd0e2957">
+<notes>
+<note appliesTo="source">line: 37</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Made the add-on code more robust with help from Pyright (a Python static type checker).</source>
+</segment>
+</unit>
+<unit id="53f796ad-4168-46be-8717-eeb25d32016f">
+<notes>
+<note appliesTo="source">line: 39</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.02</source>
+</segment>
+</unit>
+<unit id="64dbdbd1-b050-4253-9730-341a3da19e22">
+<notes>
+<note appliesTo="source">line: 41</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Restored limited support for Windows 8.1.</source>
+</segment>
+</unit>
+<unit id="91eea3bc-bf15-40c7-8bb3-40e1d2cdd5f2">
+<notes>
+<note appliesTo="source">line: 43</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.01</source>
+</segment>
+</unit>
+<unit id="f3628652-6666-47c7-a58b-5c118399adbb">
+<notes>
+<note appliesTo="source">line: 45</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Download links for add-on releases are no longer included in add-on documentation. You can download the add-on from NV Access add-on store.</source>
+</segment>
+</unit>
+<unit id="59d9e2db-2418-498e-9719-e848b19d6c65">
+<notes>
+<note appliesTo="source">line: 46</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.</source>
+</segment>
+</unit>
+<unit id="bd2a85ec-ef45-4c4d-b524-9ca8e30d4137">
+<notes>
+<note appliesTo="source">line: 47</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Removed support for automatic add-on updates feature from Add-on Updater add-on.</source>
+</segment>
+</unit>
+<unit id="a530132e-07ea-4a11-a239-0b7acf55888f">
+<notes>
+<note appliesTo="source">line: 49</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 24.05</source>
+</segment>
+</unit>
+<unit id="5d8ee2c3-134c-4b76-b991-60c3f9f7d79d">
+<notes>
+<note appliesTo="source">line: 51</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2024.1 or later is required.</source>
+</segment>
+</unit>
+<unit id="97a88194-e072-4227-a7ba-9476821f0531">
+<notes>
+<note appliesTo="source">line: 53</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.06.1</source>
+</segment>
+</unit>
+<unit id="53fb592e-f010-43bc-8230-b40cf8cc767c">
+<notes>
+<note appliesTo="source">line: 55</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>audio ducking moved to 4 finger tap due to conflict with speech stops NVDA command.</source>
+</segment>
+</unit>
+<unit id="d6ee0581-aa53-4a5f-90cb-e00a96d9db95">
+<notes>
+<note appliesTo="source">line: 57</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.06</source>
+</segment>
+</unit>
+<unit id="521ccb7b-59c0-46f7-8c4e-4a09c04dd028">
+<notes>
+<note appliesTo="source">line: 59</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Enhanced Touch gestures nvda-addon is now maintained by Kefas Lungu.</source>
+</segment>
+</unit>
+<unit id="b2e2f4e4-96b8-4406-ae60-a37def07326f">
+<notes>
+<note appliesTo="source">line: 60</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>All gestures in object mode are now available everywhere.</source>
+</segment>
+</unit>
+<unit id="bfa7f47d-afe7-4cee-a68f-779e99382bdb">
+<notes>
+<note appliesTo="source">line: 61</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>New gestures are now available.</source>
+</segment>
+</unit>
+<unit id="bbcc6d5f-3a3a-429c-891b-7266a3eaa755">
+<notes>
+<note appliesTo="source">line: 62</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>3 finger double tap: Cycles through speech symbol levels which determine what symbols are spoken</source>
+</segment>
+</unit>
+<unit id="ed097614-6fd9-4997-9f7c-091cc8f42f6f">
+<notes>
+<note appliesTo="source">line: 63</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>2 finger tripple tap: Quit NVDA!.</source>
+</segment>
+</unit>
+<unit id="db3cb5cb-0e97-4ab8-be25-b690c37eae03">
+<notes>
+<note appliesTo="source">line: 64</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>4 finger tap: Cycles through audio ducking modes.</source>
+</segment>
+</unit>
+<unit id="7e6803a3-cf28-44c1-b327-54a3e230491e">
+<notes>
+<note appliesTo="source">line: 65</note>
+<note appliesTo="source">prefix:   * </note>
+</notes>
+<segment>
+<source>Triple tap: Toggles between beeps, speech, beeps and speech, and off.</source>
+</segment>
+</unit>
+<unit id="6ee1c9b6-541a-49ff-a464-6d1a8dcc90cb">
+<notes>
+<note appliesTo="source">line: 66</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In web mode, it is now possible to Use buttons, graphics, and landmarks in addition to the already available browse element list.</source>
+</segment>
+</unit>
+<unit id="009a88cb-ac34-4fb6-90a0-8540806be49f">
+<notes>
+<note appliesTo="source">line: 67</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In web mode, NVDA is no longer going to say normal, but default when you switch to default navigation from other browse element list. For example, when switching from buttons, NVDA will now say default.</source>
+</segment>
+</unit>
+<unit id="b577ed4c-46a1-47d8-8020-ba1e7adaf0a2">
+<notes>
+<note appliesTo="source">line: 69</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.02</source>
+</segment>
+</unit>
+<unit id="da18fa11-2dba-4299-93e0-c268cda36cd2">
+<notes>
+<note appliesTo="source">line: 71</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2022.4 or later is required.</source>
+</segment>
+</unit>
+<unit id="360ed01e-13b6-424b-86d7-7a708d622ceb">
+<notes>
+<note appliesTo="source">line: 72</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows 10 21H2 (November 2021 Update/build 19044) or later is required.</source>
+</segment>
+</unit>
+<unit id="560ffb3a-1706-47fc-b311-a456740b4e85">
+<notes>
+<note appliesTo="source">line: 74</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 23.01</source>
+</segment>
+</unit>
+<unit id="1a362e73-3f1a-4d9b-8b48-988482c5a8de">
+<notes>
+<note appliesTo="source">line: 76</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2022.3 or later is required.</source>
+</segment>
+</unit>
+<unit id="e1abd430-65d1-4c03-8920-b376b703e324">
+<notes>
+<note appliesTo="source">line: 77</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Windows 10 or later is required as Windows 8.1 is no longer supported by Microsoft as of January 2023.</source>
+</segment>
+</unit>
+<unit id="342d6936-1b27-42ee-8941-07bc3e2fc014">
+<notes>
+<note appliesTo="source">line: 78</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>It is possible to reassign touch keyboard and dictation toggle commands from input gestures dialog under Enhanced Touch Gestures category.</source>
+</segment>
+</unit>
+<unit id="d6667f80-47e2-498e-9605-db2db75e1beb">
+<notes>
+<note appliesTo="source">line: 79</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Removed read-only state workaround for touch keyboard keys as it is resolved in Windows 10.</source>
+</segment>
+</unit>
+<unit id="80e03ea6-b89f-4875-8166-c3465fdc7a99">
+<notes>
+<note appliesTo="source">line: 81</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 22.03</source>
+</segment>
+</unit>
+<unit id="be42c4b4-1fd0-4775-a027-3f08c2447730">
+<notes>
+<note appliesTo="source">line: 83</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2021.3 or later is required.</source>
+</segment>
+</unit>
+<unit id="c476836e-13a6-4d01-b45e-0cc43307255e">
+<notes>
+<note appliesTo="source">line: 84</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.</source>
+</segment>
+</unit>
+<unit id="026938fd-2361-455c-b66b-84a1b1fd5e0d">
+<notes>
+<note appliesTo="source">line: 86</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 21.10</source>
+</segment>
+</unit>
+<unit id="7eac0984-6173-4edb-8056-fa83166b7cd2">
+<notes>
+<note appliesTo="source">line: 88</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.</source>
+</segment>
+</unit>
+<unit id="b57916a6-2c71-406c-a188-8bfa78b0bd84">
+<notes>
+<note appliesTo="source">line: 90</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 21.08</source>
+</segment>
+</unit>
+<unit id="c917c468-b60b-4fc6-855d-57c10adcd033">
+<notes>
+<note appliesTo="source">line: 92</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Initial support for Windows 11.</source>
+</segment>
+</unit>
+<unit id="3b69cacc-d3f9-41f1-bfe5-49189a5e6bee">
+<notes>
+<note appliesTo="source">line: 94</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 21.01</source>
+</segment>
+</unit>
+<unit id="93a759c6-8b27-4ac3-9fb3-82e34c7c4f8e">
+<notes>
+<note appliesTo="source">line: 96</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2020.3 or later is required.</source>
+</segment>
+</unit>
+<unit id="6635e433-ef5f-4d30-a9fc-ad3135c00cd1">
+<notes>
+<note appliesTo="source">line: 97</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>On Windows 10 Version 1709 and later, doing a four finger flick left will toggle dictation (Windows+H).</source>
+</segment>
+</unit>
+<unit id="73064d30-a729-4f8b-a931-ef62824caa3f">
+<notes>
+<note appliesTo="source">line: 98</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Remove dedicated touch interaction support toggle command from the add-on.</source>
+</segment>
+</unit>
+<unit id="08401688-4977-4ea6-8640-0784bdfc1a6a">
+<notes>
+<note appliesTo="source">line: 99</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>As touch interaction support can be toggled from NVDA's touch interaction settings panel, a dedicated Enhanced Touch Gestures settings panel has been removed.</source>
+</segment>
+</unit>
+<unit id="8b9c4af7-0005-4bfa-b686-52fff5e1cfe4">
+<notes>
+<note appliesTo="source">line: 101</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.09</source>
+</segment>
+</unit>
+<unit id="3616360a-4357-4abe-86ef-6e1eef93592a">
+<notes>
+<note appliesTo="source">line: 103</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Removed ability to let NVDA turn off touch interaction for up to ten seconds (touch command passthrough).</source>
+</segment>
+</unit>
+<unit id="f1879ec9-81f9-47fa-a317-901840a9c3df">
+<notes>
+<note appliesTo="source">line: 104</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Removed coordinate announcement beep feature.</source>
+</segment>
+</unit>
+<unit id="25a31925-4b11-43f7-b22c-10db6101be60">
+<notes>
+<note appliesTo="source">line: 106</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.07</source>
+</segment>
+</unit>
+<unit id="b1ce3c9b-5103-40cc-9f84-b5b495a5575f">
+<notes>
+<note appliesTo="source">line: 108</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added a keyboard command to toggle touch interaction or enable/disable touch passthrough (Control+Alt+NVDA+T).</source>
+</segment>
+</unit>
+<unit id="b57c40ea-cbf6-4d86-97c2-3b74309a9961">
+<notes>
+<note appliesTo="source">line: 109</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>As NVDA 2020.1 and later includes a touch command to perform right mouse click (one finger tap and hold), the command has been removed from this add-on. AS a result, NVDA 2020.1 or later is required.</source>
+</segment>
+</unit>
+<unit id="ca3dc694-0943-4dca-8ef3-25b017fbe40e">
+<notes>
+<note appliesTo="source">line: 110</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>The ability to let NVDA turn off touch interaction for up to ten seconds (touch command passthrough) is deprecated. In the future this feature will toggle touch interaction instead.</source>
+</segment>
+</unit>
+<unit id="08ff2681-6b00-4113-b554-16214931538e">
+<notes>
+<note appliesTo="source">line: 111</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In NVDA development snapshots, due to touch interaction feature changes, touch command passthrough feature and Enhanced Touch Gestures settings panel will be disabled. The command used to enable touch command passthrough will toggle touch interaction instead.</source>
+</segment>
+</unit>
+<unit id="1f13b303-bb40-4c9d-bb79-41c277b16f9d">
+<notes>
+<note appliesTo="source">line: 112</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Coordinate announcement beep feature is deprecated and will be removed in a future add-on release.</source>
+</segment>
+</unit>
+<unit id="4635ddb9-3364-4cb6-ba23-82a31879231a">
+<notes>
+<note appliesTo="source">line: 113</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Coordinate announcement beep will not be heard while using touch keyboard.</source>
+</segment>
+</unit>
+<unit id="546d7513-9d5c-47ae-afe5-83d107d0988e">
+<notes>
+<note appliesTo="source">line: 114</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will no longer appear to do nothing or play error tones while exploring modern input facility such as emoji panel via touch.</source>
+</segment>
+</unit>
+<unit id="6450d50f-a816-4a23-817f-758230631829">
+<notes>
+<note appliesTo="source">line: 115</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will present an error message if touch keyboard cannot be activated (four finger flick right).</source>
+</segment>
+</unit>
+<unit id="4a5ff9fa-e134-4062-9b7e-45f0ae6bf18c">
+<notes>
+<note appliesTo="source">line: 117</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.06</source>
+</segment>
+</unit>
+<unit id="b258da96-4f3b-4b09-b6f0-cb8c6705459f">
+<notes>
+<note appliesTo="source">line: 119</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Resolved many coding style issues and potential bugs with Flake8.</source>
+</segment>
+</unit>
+<unit id="c900aaa9-9137-4113-a6a0-64f30576ef2d">
+<notes>
+<note appliesTo="source">line: 121</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.04</source>
+</segment>
+</unit>
+<unit id="1262ce8c-5a8f-4649-ba3d-503a7968009b">
+<notes>
+<note appliesTo="source">line: 123</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Right mouse click gesture (one finger tap and hold) is now part of NVDA 2020.1.</source>
+</segment>
+</unit>
+<unit id="89dad848-f21f-43e1-b0a3-727ea4107f37">
+<notes>
+<note appliesTo="source">line: 125</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 20.01</source>
+</segment>
+</unit>
+<unit id="336c8cb0-9d21-4e3e-9e20-a044366e6eb0">
+<notes>
+<note appliesTo="source">line: 127</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2019.3 or later is required.</source>
+</segment>
+</unit>
+<unit id="f03280a5-a091-464d-9d45-eb41a41a78f0">
+<notes>
+<note appliesTo="source">line: 128</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Touch support toggle command (including touch passthrough) will no longer function if touch support is turned off completely.</source>
+</segment>
+</unit>
+<unit id="d46b6907-e5ef-4790-9c6c-210b924900e3">
+<notes>
+<note appliesTo="source">line: 130</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 19.11</source>
+</segment>
+</unit>
+<unit id="565e62dd-6061-467b-a501-ecdcd5bbd3d2">
+<notes>
+<note appliesTo="source">line: 132</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added input help messages for additional touch commands.</source>
+</segment>
+</unit>
+<unit id="c9f556ff-bca6-48a1-8fac-a668d6e419b4">
+<notes>
+<note appliesTo="source">line: 134</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 19.09</source>
+</segment>
+</unit>
+<unit id="455d2183-cba3-4b2b-8b1f-533dffcc09d2">
+<notes>
+<note appliesTo="source">line: 136</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Touch support can now be disabled from everywhere, not just from profiles other than normal profile.</source>
+</segment>
+</unit>
+<unit id="43ccefce-cb77-4efb-87e6-87d9c4d42f4e">
+<notes>
+<note appliesTo="source">line: 138</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 19.07</source>
+</segment>
+</unit>
+<unit id="f4a95b34-7236-48e1-aa9d-4bb5dc4c7e81">
+<notes>
+<note appliesTo="source">line: 140</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Internal changes to support future NVDA releases.</source>
+</segment>
+</unit>
+<unit id="7e71939a-bbfd-4205-8a6c-687100451a89">
+<notes>
+<note appliesTo="source">line: 142</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.12</source>
+</segment>
+</unit>
+<unit id="ebe1c3be-4bea-4266-a2bf-67518e686de9">
+<notes>
+<note appliesTo="source">line: 144</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Internal changes to support future NVDA releases.</source>
+</segment>
+</unit>
+<unit id="16d34b2b-07cc-42fd-94fd-ca9edbfdfb69">
+<notes>
+<note appliesTo="source">line: 146</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.08</source>
+</segment>
+</unit>
+<unit id="f226d402-3fad-4587-9070-080f7460c257">
+<notes>
+<note appliesTo="source">line: 148</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Compatible with NVDA 2018.3 and future versions.</source>
+</segment>
+</unit>
+<unit id="def26465-a3d9-46c2-ae48-8618014142a1">
+<notes>
+<note appliesTo="source">line: 150</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.06</source>
+</segment>
+</unit>
+<unit id="cbc01c57-c10f-4bab-b508-4fa48e64726e">
+<notes>
+<note appliesTo="source">line: 152</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Add-on settings is now found in new multi-category NVDA Settings screen under "Enhanced Touch Gestures" category. As a result, NVDA 2018.2 is required.</source>
+</segment>
+</unit>
+<unit id="dedbc0f3-fb6e-49e6-8edd-8dbbbc9b63af">
+<notes>
+<note appliesTo="source">line: 153</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Fixed compatibility issues with wxPython 4.</source>
+</segment>
+</unit>
+<unit id="d48b3ea3-d819-470d-a262-cefbae360fbf">
+<notes>
+<note appliesTo="source">line: 155</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.04</source>
+</segment>
+</unit>
+<unit id="80e7a9c0-12da-418c-9c9e-b8fa18d9fc82">
+<notes>
+<note appliesTo="source">line: 157</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Resolves an issue where touch interaction category in NVDA Settings panel may cause error sounds to be heard due to changes made from this add-on.</source>
+</segment>
+</unit>
+<unit id="3684cf0b-1d46-425f-8560-1ab7cc0251e8">
+<notes>
+<note appliesTo="source">line: 159</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 18.03</source>
+</segment>
+</unit>
+<unit id="9f0cb0e4-646a-437b-b5c9-20b76c0acc92">
+<notes>
+<note appliesTo="source">line: 161</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA 2018.1 is required.</source>
+</segment>
+</unit>
+<unit id="36e86ae5-4a0e-4687-a332-24e2b72b432f">
+<notes>
+<note appliesTo="source">line: 162</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Because NVDA 2018.1 comes with touch typing checkbox, the checkbox is no longer included in this add-on.</source>
+</segment>
+</unit>
+<unit id="10a6a7a2-2fc6-4407-9ae5-1940a3d04b3f">
+<notes>
+<note appliesTo="source">line: 164</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.12</source>
+</segment>
+</unit>
+<unit id="0479fef1-1be1-415d-bd9f-246c0644e9a3">
+<notes>
+<note appliesTo="source">line: 166</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Requires NVDA 2017.4. Specifically, this add-on can now handle configuration profile switches.</source>
+</segment>
+</unit>
+<unit id="785253fb-7334-4d3f-ae4a-bd924e46f480">
+<notes>
+<note appliesTo="source">line: 167</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>As NVDA 2017.4 includes screen orientation announcement, this feature is no longer part of this add-on.</source>
+</segment>
+</unit>
+<unit id="902feb48-2446-41e3-8ff3-567127446a5e">
+<notes>
+<note appliesTo="source">line: 168</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added a hidden checkbox in Touch Interaction dialog to completely disable touch support (available if profiles other than normal configuration is active).</source>
+</segment>
+</unit>
+<unit id="a226bd07-587b-4f93-816d-136e6aad309e">
+<notes>
+<note appliesTo="source">line: 169</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>If using NVDA 2018.1 or later, Touch Interaction dialog will be listed twice under NVDA's preferences menu. The second item is the dialog that comes with the add-on.</source>
+</segment>
+</unit>
+<unit id="e62b697c-ed44-4cad-8d8b-7427d3e4c68a">
+<notes>
+<note appliesTo="source">line: 170</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In Touch Interaction dialog for the add-on, touch typing mode is no longer shown if using NVDA 2018.1 or later.</source>
+</segment>
+</unit>
+<unit id="12aa8b20-500a-4841-b92e-1c7e32d5ecb5">
+<notes>
+<note appliesTo="source">line: 172</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.10</source>
+</segment>
+</unit>
+<unit id="2101562f-5ec8-4d47-8df2-54144db2c2f4">
+<notes>
+<note appliesTo="source">line: 174</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Due to support policy from Microsoft, Windows 8 (original release) is no longer supported.</source>
+</segment>
+</unit>
+<unit id="8f206fb7-727b-4325-bfcb-27a285112f4c">
+<notes>
+<note appliesTo="source">line: 175</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will no longer announce screen orientation twice when running NVDA 2017.4 development snapshots.</source>
+</segment>
+</unit>
+<unit id="0854f1dd-6007-4e05-a272-d1c7f279525f">
+<notes>
+<note appliesTo="source">line: 177</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.07.1</source>
+</segment>
+</unit>
+<unit id="c58b0875-45c4-45ea-b423-f13c3357f8dd">
+<notes>
+<note appliesTo="source">line: 179</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added an option in touch interaction dialog to manually toggle touch passthrough without use of a timer.</source>
+</segment>
+</unit>
+<unit id="f2da80d5-64cd-4833-8db3-33a8622d6e85">
+<notes>
+<note appliesTo="source">line: 180</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>With manual passthrough mode off, if touch passthrough is turned on before the passthrough duration expires, touch interaction would be enabled.</source>
+</segment>
+</unit>
+<unit id="8008622c-cb84-4011-a07c-0d8e5206ccdb">
+<notes>
+<note appliesTo="source">line: 182</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 17.07</source>
+</segment>
+</unit>
+<unit id="1f5006bd-6ef6-4dd8-a00c-a7a53dcb1bfd">
+<notes>
+<note appliesTo="source">line: 184</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added a new dialog named Touch Interaction under NVDA's preferences menu to configure how NVDA works with touchscreens.</source>
+</segment>
+</unit>
+<unit id="7df8f9da-8f38-4634-917f-3446c3c67e02">
+<notes>
+<note appliesTo="source">line: 185</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>After installing this version, when pressing keys on the touch keyboard, one must double tap the desired key. You can switch back to the old way by enabling touch typing from Touch Interaction dialog.</source>
+</segment>
+</unit>
+<unit id="faa9af07-b735-4260-8105-b18c2af86432">
+<notes>
+<note appliesTo="source">line: 186</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added a command (unassigned) to allow NVDA to ignore touch gestures for up to 10 seconds.</source>
+</segment>
+</unit>
+<unit id="4d7f2490-006f-4174-a23d-ec7ab87991ab">
+<notes>
+<note appliesTo="source">line: 187</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added an option in Touch Interaction dialog to allow NVDA to pause touch interaction between 3 to 10 seconds in order to perform touchscreen gestures directly (as though NVDA is not running; default is 5 seconds).</source>
+</segment>
+</unit>
+<unit id="2b7d1bd8-9626-47e0-91a0-7087a7f59085">
+<notes>
+<note appliesTo="source">line: 188</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added debug logging messages when performing right clicks (tap and hold) to be recorded in the NVDA log (requires NVDA 2017.1 or later).</source>
+</segment>
+</unit>
+<unit id="c3976df0-e169-4af8-a8e7-fcdd3006e1de">
+<notes>
+<note appliesTo="source">line: 189</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Due to changes made when playing screen coordinates, NVDA 2017.1 or later is required.</source>
+</segment>
+</unit>
+<unit id="b8a76b7d-31d0-4f96-a540-dfb81ab8ef62">
+<notes>
+<note appliesTo="source">line: 191</note>
+</notes>
+<segment>
+<source>##Version 17.03</source>
+</segment>
+</unit>
+<unit id="7b36e6ee-5b7a-4e6b-9ed0-07d428e727d9">
+<notes>
+<note appliesTo="source">line: 193</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Fixed an issue where coordinate announcement beep did not play or an error tone played instead when using NVDA 2017.1 or later.</source>
+</segment>
+</unit>
+<unit id="8c682db3-39c8-4c95-9422-5ba5a0f85f5e">
+<notes>
+<note appliesTo="source">line: 195</note>
+</notes>
+<segment>
+<source>##Version 16.12</source>
+</segment>
+</unit>
+<unit id="802465c1-b8bb-4ac2-899b-15d291cf9aec">
+<notes>
+<note appliesTo="source">line: 197</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Web touch mode works in Microsoft Edge, Microsoft Word and others where browse mode is used.</source>
+</segment>
+</unit>
+<unit id="8b9c59b8-feec-4fa8-937c-5ca62c74175e">
+<notes>
+<note appliesTo="source">line: 198</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added lists and landmarks to web touch mode elements.</source>
+</segment>
+</unit>
+<unit id="7228d6c6-1eb8-4afd-b29e-9d7684913b0d">
+<notes>
+<note appliesTo="source">line: 200</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 16.06</source>
+</segment>
+</unit>
+<unit id="60d7eebf-f695-4bef-9e9f-9bdfc78e6685">
+<notes>
+<note appliesTo="source">line: 202</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Initial stable version.</source>
+</segment>
+</unit>
+<unit id="1235c8b0-404e-4d3c-a694-8e1af44c97ad">
+<notes>
+<note appliesTo="source">line: 204</note>
+</notes>
+<segment>
+<source>[1]: https://addons.nvda-project.org/files/get.php?file=ets</source>
+</segment>
+</unit>
+</file>
+</xliff>
