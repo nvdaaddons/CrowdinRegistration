@@ -87,8 +87,13 @@ jobs:
           pip install mdx-gh-links==0.4
           pip install nh3==0.2.19
 
-      - name: Upload translations to Crowdin
+      - name: Upload pot to Crowdin
         run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
+        env:
+          crowdinProjectID: ${{ vars.CROWDIN_ID }}
+          crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Upload xliff to Crowdin
+        run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
