@@ -305,8 +305,8 @@ def getFiles():
 		name = fileInfo["name"]
 		id = fileInfo["id"]
 		dictionary[name] = id
-	#with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
-		#json.dump(res["data"][0], jsonFile, ensure_ascii=False)
+	with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
+		json.dump(dictionary, jsonFile, ensure_ascii=False)
 
 
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
