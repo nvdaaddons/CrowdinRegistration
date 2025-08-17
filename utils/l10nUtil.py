@@ -290,9 +290,16 @@ def uploadSourceFile(localFilePath: str):
 	print(f"Importing source file {localFilePath} from storage with ID {storageId}")
 	res = getCrowdinClient().source_files.add_file(storageId=storageId, projectId=CROWDIN_PROJECT_ID, name=filename, title=title, exportOptions=exportOptions)
 	print("Done")
-	res = getCrowdinClient().projects.get_project(CROWDIN_PROJECT_ID)
+
+
+def getFiles():
+	"""Gets files from Crowdin."""
+
+	res = getCrowdinClient().source_files.list_files(CROWDIN_PROJECT_ID)
+	if res is None:
+		raise ValueError("Getting files from Crowdin failed")
 	with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
-		json.dump(res, jsonFile, ensure_ascii=False)
+		json.dump(res["data"][0], jsonFile, ensure_ascii=False)
 
 
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
@@ -810,6 +817,10 @@ def main():
 		"--localFilePath",
 		help="The local path to the file.",
 	)
+	getFilesCommand = commands.add_parser(
+		"getFiles",
+		help="Get files from Crowdin.",
+	)
 	downloadTranslationFileCommand = commands.add_parser(
 		"downloadTranslationFile",
 		help="Download a translation file from Crowdin.",
@@ -897,6 +908,8 @@ def main():
 				os.remove(temp_mdFile.name)
 		case "uploadSourceFile":
 			uploadSourceFile(args.localFilePath)
+		case "getFiles":
+			getFiles()
 		case "downloadTranslationFile":
 			localFilePath = args.localFilePath or args.crowdinFilePath
 			downloadTranslationFile(args.crowdinFilePath, localFilePath, args.language)
