@@ -18,10 +18,12 @@ import subprocess
 import sys
 import zipfile
 import time
+import json
 
 CROWDIN_PROJECT_ID = 780748
 POLLING_INTERVAL_SECONDS = 5
 EXPORT_TIMEOUT_SECONDS = 60 * 10  # 10 minutes
+JSON_FILE = os.path.join(os.path.dirname(__file__), "files.json")
 
 
 def fetchCrowdinAuthToken() -> str:
@@ -289,6 +291,7 @@ def uploadSourceFile(localFilePath: str):
 	res = getCrowdinClient().source_files.add_file(storageId=storageId, projectId=CROWDIN_PROJECT_ID, name=filename, title=title, exportOptions=exportOptions)
 	print("Done")
 	res = getCrowdinClient().projects.get_project(CROWDIN_PROJECT_ID)
+	json.dump(res, JSON_FILE)
 
 
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
