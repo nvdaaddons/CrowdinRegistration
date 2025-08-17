@@ -298,6 +298,13 @@ def getFiles():
 	res = getCrowdinClient().source_files.list_files(CROWDIN_PROJECT_ID)
 	if res is None:
 		raise ValueError("Getting files from Crowdin failed")
+	dictionary = dict()
+	data = res["data"]
+	for file in data:
+		fileInfo = file["data"]
+		name = fileInfo["name"]
+		id = fileInfo["id"]
+		dict[name] = id
 	#with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
 		#json.dump(res["data"][0], jsonFile, ensure_ascii=False)
 
