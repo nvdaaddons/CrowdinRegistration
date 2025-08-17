@@ -288,7 +288,7 @@ def uploadSourceFile(localFilePath: str):
 	print(f"Importing source file {localFilePath} from storage with ID {storageId}")
 	res = getCrowdinClient().source_files.add_file(storageId=storageId, projectId=CROWDIN_PROJECT_ID, name=filename, title=title, exportOptions=exportOptions)
 	print("Done")
-	getCrowdinClient.projects.getProject(CROWDIN_PROJECT_ID)
+	res = getCrowdinClient().projects.getProject(CROWDIN_PROJECT_ID)
 
 
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
