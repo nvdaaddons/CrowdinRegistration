@@ -304,7 +304,7 @@ def getFiles():
 		fileInfo = file["data"]
 		name = fileInfo["name"]
 		id = fileInfo["id"]
-		dict[name] = id
+		dictionary[name] = id
 	#with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
 		#json.dump(res["data"][0], jsonFile, ensure_ascii=False)
 
