@@ -275,7 +275,7 @@ def uploadSourceFile(localFilePath: str):
 		exportPattern = f"/{os.path.splitext(filename)[0]}/%two_letters_code%/{os.path.splitext(filename)[0]}.po"
 	else:
 		title=f"{os.path.splitext(filename)[0]} documentation"
-		exportPattern =f"/{os.path.splitext(filename)[0]}/%two_letters_code%/filename"
+		exportPattern =f"/{os.path.splitext(filename)[0]}/%two_letters_code%/{filename}"
 	exportOptions = {
 			"exportPattern": exportPattern
 	}
