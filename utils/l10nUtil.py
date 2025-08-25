@@ -51,6 +51,15 @@ def fetchCrowdinAuthToken() -> str:
 	return token
 
 
+def getCrowdinFileIds() ->dict:
+	"""Gets the file IDS for a Crowdin project."""
+	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
+		crowdinFileIds = json.load(jsonFile)
+	return crowdinFileIds
+
+crowdinFileIDs = getCrowdinFileIds
+
+
 _crowdinClient = None
 
 
@@ -227,18 +236,6 @@ def stripXliff(xliffPath: str, outputPath: str, oldXliffPath: str | None = None)
 		print(f"Ignored {existingTranslationCount} existing translations.")
 	keptTranslations = segmentCount - untranslatedCount - emptyCount - corruptCount - existingTranslationCount
 	print(f"Added or changed {keptTranslations} translations.")
-
-
-crowdinFileIDs = {
-	# emoticons
-	"emoticons.pot": 176,
-	"emoticons.po": 176,
-	"emoticons.xliff": 178,
-	# goldwave
-	"goldwave.pot": 180,
-	"goldwave.po": 180,
-	"goldwave.xliff": 182,
-}
 
 
 def downloadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
