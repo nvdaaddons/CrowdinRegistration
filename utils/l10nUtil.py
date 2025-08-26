@@ -266,7 +266,7 @@ def uploadSourceFile(localFilePath: str):
 	Upload a source file to Crowdin.
 	:param localFilePath: The path to the local file to be uploaded
 	"""
-	getFiles()
+	files = getFiles()
 	res = getCrowdinClient().storages.add_storage(
 		open(localFilePath, "rb"),
 	)
@@ -275,7 +275,7 @@ def uploadSourceFile(localFilePath: str):
 	storageId = res["data"]["id"]
 	print(f"Stored with ID {storageId}")
 	filename = os.path.basename(localFilePath)
-	fileId = getattr(getCrowdinFileIds(), filename, None)
+	fileId = getattr(files, filename, None)
 	match fileId:
 		case None:
 			if os.path.splitext(filename)[1] == ".pot":
@@ -294,7 +294,7 @@ def uploadSourceFile(localFilePath: str):
 			res = getCrowdinClient().source_files.update_file(fileId=fileId , storageId=storageId, projectId=CROWDIN_PROJECT_ID)
 
 
-def getFiles():
+def getFiles() -> dict:
 	"""Gets files from Crowdin."""
 
 	res = getCrowdinClient().source_files.list_files(CROWDIN_PROJECT_ID, limit=500)
@@ -307,8 +307,7 @@ def getFiles():
 		name = fileInfo["name"]
 		id = fileInfo["id"]
 		dictionary[name] = id
-	with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
-		json.dump(dictionary, jsonFile, ensure_ascii=False)
+	return dictionary
 
 
 def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: str):
