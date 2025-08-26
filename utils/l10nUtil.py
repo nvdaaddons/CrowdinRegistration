@@ -57,7 +57,7 @@ def getCrowdinFileIds() ->dict:
 		crowdinFileIds = json.load(jsonFile)
 	return crowdinFileIds
 
-crowdinFileIDs = getCrowdinFileIds
+crowdinFileIDs = getCrowdinFileIds()
 
 
 _crowdinClient = None
