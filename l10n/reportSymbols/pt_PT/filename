@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="pt">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/reportSymbols/d2479237b18b1d317d51e0a7ff62699f06b2533a/readme.md">
+    <skeleton>
+# $(ID:9d06915c-1e7a-40b8-bf15-f1b33e26000d)
+*	$(ID:c53c6f81-dc97-4ff9-803a-4a6fdf6bda4a)
+
+$(ID:348dc395-f6d2-4676-9034-5fa2b930c174)
+
+$(ID:7ae18350-2f80-4eb7-85c2-dd387a4dd39e)
+
+## $(ID:7d8ce96e-4a4e-48a7-a799-f0754b44b624)
+*	$(ID:ea8eb64c-fdda-4176-bafb-e03c145ec31b)
+
+$(ID:16d044fd-03b4-40ca-b566-cd464c98bd2f)
+
+## $(ID:d03d4c73-dfc2-49d2-8cd5-a36f89a8ebe3)
+
+$(ID:38d8e83b-bbce-4272-9d32-b71fd8e13036)
+
+## $(ID:6a3d3167-7db9-4825-883a-3192e052c8ab)
+
+* $(ID:ba4817ed-66bf-4ce9-a40f-11a7d44dc0ef)
+
+## $(ID:71912be7-e402-4321-92ba-177b1163b142)
+* $(ID:88a6258c-7625-4bfb-897d-3a14f8a8d846)
+
+## $(ID:ed4415dc-75d1-43b6-8451-77b95b783756)
+* $(ID:2fce1298-1cb1-4dae-b3df-9bad943b865c)
+
+## $(ID:b43060f8-8571-4c7a-82cb-deac5dc00a91)
+* $(ID:64be02c4-e148-494a-b2a4-85e4d782cc8c)
+
+## $(ID:def8cfe9-6be1-4553-bcaa-444378e58a73)
+*	$(ID:d7795e0a-55ba-4e48-aaf4-66eb0369dd1d)
+
+## $(ID:6fec747d-a68c-4375-8c4f-c6428fb27294)
+* $(ID:ca0c262f-7aaa-49b3-b00e-41d8b1f3e01a)
+* $(ID:24c240c4-147b-4e6c-b149-42948483b96a)
+
+## $(ID:6bcc2c20-45d4-4321-8261-166496b3c62a)
+* $(ID:ef46b445-99d6-4562-b05d-e1668dd8111e)
+
+## $(ID:c6b4127b-051f-406d-9d7d-c3c09caac0b2)
+*	$(ID:8922bb59-c2cb-4ece-a08f-e82182f1e44d)
+*	$(ID:5d5cbddf-c0cc-4b53-a89e-16428bbfa3b8)
+
+## $(ID:33fce2db-ee7f-4db1-9d3f-89c692244c27)
+*	$(ID:93f8caec-25b0-4760-a201-146df32e8076)
+
+</skeleton>
+    <unit id="9d06915c-1e7a-40b8-bf15-f1b33e26000d">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="translated">
+        <source>Report Symbols #</source>
+        <target>Indicar Símbolos</target>
+      </segment>
+    </unit>
+    <unit id="c53c6f81-dc97-4ff9-803a-4a6fdf6bda4a">
+      <notes>
+        <note appliesTo="source">line: 3</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="translated">
+        <source>Author: Noelia Ruiz Martínez.</source>
+        <target>Autor: Noelia Ruiz Martínez.</target>
+      </segment>
+    </unit>
+    <unit id="348dc395-f6d2-4676-9034-5fa2b930c174">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+      </notes>
+      <segment state="translated">
+        <source>This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.</source>
+        <target>Esse complemento permite ouvir os símbolos digitados (caracteres não alfanuméricos ou em branco), mesmo quando a fala de caracteres digitados estiver desativada no NVDA.</target>
+      </segment>
+    </unit>
+    <unit id="7ae18350-2f80-4eb7-85c2-dd387a4dd39e">
+      <notes>
+        <note appliesTo="source">line: 7</note>
+      </notes>
+      <segment state="translated">
+        <source>It's based on the old ReportSymbols add-on, developed by the same author. You should uninstall it to use this version.</source>
+        <target>Ele se baseia no antigo complemento ReportSymbols, desenvolvido pelo mesmo autor. Você deve desinstalá-lo para usar esta versão.</target>
+      </segment>
+    </unit>
+    <unit id="7d8ce96e-4a4e-48a7-a799-f0754b44b624">
+      <notes>
+        <note appliesTo="source">line: 9</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Preferences menu ##</source>
+        <target>Menu Preferências ##</target>
+      </segment>
+    </unit>
+    <unit id="ea8eb64c-fdda-4176-bafb-e03c145ec31b">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="translated">
+        <source>Report Symbols settings: Allows to set preferences for the speaking of typed symbols.</source>
+        <target>Configurações de símbolos de relatório: Permite definir preferências para a fala de símbolos digitados.</target>
+      </segment>
+    </unit>
+    <unit id="16d044fd-03b4-40ca-b566-cd464c98bd2f">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+      </notes>
+      <segment state="translated">
+        <source>Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.</source>
+        <target>Observação: um gesto para abrir essa caixa de diálogo pode ser atribuído no menu NVDA, submenu Preferências, caixa de diálogo Gestos de entrada, categoria Configuração.</target>
+      </segment>
+    </unit>
+    <unit id="d03d4c73-dfc2-49d2-8cd5-a36f89a8ebe3">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Exclude symbols</source>
+        <target>Excluir símbolos</target>
+      </segment>
+    </unit>
+    <unit id="38d8e83b-bbce-4272-9d32-b71fd8e13036">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+      </notes>
+      <segment state="translated">
+        <source>From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.</source>
+        <target>No menu do NVDA, submenu Preferences (Preferências), caixa de diálogo Input gestures (Gestos de entrada), categoria reportSymbols (Relatar símbolos), você pode definir um gesto para excluir (ou incluir novamente) símbolos a serem relatados durante a digitação.</target>
+      </segment>
+    </unit>
+    <unit id="6a3d3167-7db9-4825-883a-3192e052c8ab">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 29.0.0</source>
+        <target>Alterações para a versão 29.0.0</target>
+      </segment>
+    </unit>
+    <unit id="ba4817ed-66bf-4ce9-a40f-11a7d44dc0ef">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>Added ability to assing gestures to exclude or include symbols to be reported when typing.</source>
+        <target>Foi adicionada a capacidade de avaliar os gestos para excluir ou incluir símbolos a serem relatados durante a digitação.</target>
+      </segment>
+    </unit>
+    <unit id="71912be7-e402-4321-92ba-177b1163b142">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 8.0</source>
+        <target>Alterações para a versão 8.0</target>
+      </segment>
+    </unit>
+    <unit id="88a6258c-7625-4bfb-897d-3a14f8a8d846">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>Compatible with NVDA 2023.1.</source>
+        <target>Compatível com o NVDA 2023.1.</target>
+      </segment>
+    </unit>
+    <unit id="ed4415dc-75d1-43b6-8451-77b95b783756">
+      <notes>
+        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 7.0</source>
+        <target>Alterações para a versão 7.0</target>
+      </segment>
+    </unit>
+    <unit id="2fce1298-1cb1-4dae-b3df-9bad943b865c">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>Compatible with NVDA 2022.1.</source>
+        <target>Compatível com o NVDA 2022.1.</target>
+      </segment>
+    </unit>
+    <unit id="b43060f8-8571-4c7a-82cb-deac5dc00a91">
+      <notes>
+        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 6.0</source>
+        <target>Alterações para a versão 6.0</target>
+      </segment>
+    </unit>
+    <unit id="64be02c4-e148-494a-b2a4-85e4d782cc8c">
+      <notes>
+        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>Compatible with NVDA 2021.1.</source>
+        <target>Compatível com o NVDA 2021.1.</target>
+      </segment>
+    </unit>
+    <unit id="def8cfe9-6be1-4553-bcaa-444378e58a73">
+      <notes>
+        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 5.0 ##</source>
+        <target>Alterações para a versão 5.0 ##</target>
+      </segment>
+    </unit>
+    <unit id="d7795e0a-55ba-4e48-aaf4-66eb0369dd1d">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="translated">
+        <source>Requires NVDA 2019.3 or later.</source>
+        <target>Requer NVDA 2019.3 ou superiores.</target>
+      </segment>
+    </unit>
+    <unit id="6fec747d-a68c-4375-8c4f-c6428fb27294">
+      <notes>
+        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 4.0 ##</source>
+        <target>Alterações para a versão 4.0 ##</target>
+      </segment>
+    </unit>
+    <unit id="ca0c262f-7aaa-49b3-b00e-41d8b1f3e01a">
+      <notes>
+        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>The add-on settings are shown in the corresponding category of the NVDA Settings dialog.</source>
+        <target>As configurações do complemento são mostradas na categoria correspondente da caixa de diálogo Configurações do NVDA.</target>
+      </segment>
+    </unit>
+    <unit id="24c240c4-147b-4e6c-b149-42948483b96a">
+      <notes>
+        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>Requires NVDA 2018.2 or later.</source>
+        <target>Requer o NVDA 2018.2 ou posterior.</target>
+      </segment>
+    </unit>
+    <unit id="6bcc2c20-45d4-4321-8261-166496b3c62a">
+      <notes>
+        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 3.0 ##</source>
+        <target>Alterações para a versão 3.0 ##</target>
+      </segment>
+    </unit>
+    <unit id="ef46b445-99d6-4562-b05d-e1668dd8111e">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>Added checkboxes for the speaking of spaces, carriage returns and other blank characters.</source>
+        <target>Foram adicionadas caixas de seleção para falar de espaços, retornos de carro e outros caracteres em branco.</target>
+      </segment>
+    </unit>
+    <unit id="c6b4127b-051f-406d-9d7d-c3c09caac0b2">
+      <notes>
+        <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 2.0 ##</source>
+        <target>Alterações para a versão 2.0 ##</target>
+      </segment>
+    </unit>
+    <unit id="8922bb59-c2cb-4ece-a08f-e82182f1e44d">
+      <notes>
+        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="translated">
+        <source>The visual presentation of the dialog has been enhanced, adhering to the appearance of the dialogs shown in NVDA.</source>
+        <target>A apresentação visual da caixa de diálogo foi aprimorada, seguindo a aparência das caixas de diálogo exibidas no NVDA.</target>
+      </segment>
+    </unit>
+    <unit id="5d5cbddf-c0cc-4b53-a89e-16428bbfa3b8">
+      <notes>
+        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="translated">
+        <source>Requires NVDA 2016.4 or later.</source>
+        <target>Requer o NVDA 2016.4 ou posterior.</target>
+      </segment>
+    </unit>
+    <unit id="33fce2db-ee7f-4db1-9d3f-89c692244c27">
+      <notes>
+        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="translated">
+        <source>Changes for 1.0 ##</source>
+        <target>Alterações para 1.0 ##</target>
+      </segment>
+    </unit>
+    <unit id="93f8caec-25b0-4760-a201-146df32e8076">
+      <notes>
+        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="translated">
+        <source>Initial version.</source>
+        <target>Versão inicial.</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
