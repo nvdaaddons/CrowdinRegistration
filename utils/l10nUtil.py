@@ -51,15 +51,6 @@ def fetchCrowdinAuthToken() -> str:
 	return token
 
 
-def getCrowdinFileIds() ->dict:
-	"""Gets the file IDS for a Crowdin project."""
-	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
-		crowdinFileIds = json.load(jsonFile)
-	return crowdinFileIds
-
-crowdinFileIDs = getCrowdinFileIds()
-
-
 _crowdinClient = None
 
 
@@ -245,7 +236,8 @@ def downloadTranslationFile(crowdinFilePath: str, localFilePath: str, language: 
 	:param localFilePath: The path to save the local file
 	:param language: The language code to download the translation for
 	"""
-	fileId = crowdinFileIDs[crowdinFilePath]
+	files = getFiles()
+	fileId = files.get(crowdinFilePath)
 	print(f"Requesting export of {crowdinFilePath} for {language} from Crowdin")
 	res = getCrowdinClient().translations.export_project_translation(
 		fileIds=[fileId],
@@ -276,7 +268,7 @@ def uploadSourceFile(localFilePath: str):
 	print(f"Stored with ID {storageId}")
 	filename = os.path.basename(localFilePath)
 	fileId = files.get(filename)
-	print(fileId)
+	print(f"File ID: {fileId}")
 	match fileId:
 		case None:
 			if os.path.splitext(filename)[1] == ".pot":
@@ -318,7 +310,8 @@ def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: st
 	:param localFilePath: The path to the local file to be uploaded
 	:param language: The language code to upload the translation for
 	"""
-	fileId = crowdinFileIDs[crowdinFilePath]
+	files = getFiles()
+	fileId = files.get(crowdinFilePath)
 	print(f"Uploading {localFilePath} to Crowdin")
 	res = getCrowdinClient().storages.add_storage(
 		open(localFilePath, "rb"),
@@ -840,7 +833,6 @@ def main():
 	)
 	downloadTranslationFileCommand.add_argument(
 		"crowdinFilePath",
-		choices=crowdinFileIDs.keys(),
 		help="The Crowdin file path",
 	)
 	downloadTranslationFileCommand.add_argument(
@@ -865,7 +857,6 @@ def main():
 	)
 	uploadTranslationFileCommand.add_argument(
 		"crowdinFilePath",
-		choices=crowdinFileIDs.keys(),
 		help="The Crowdin file path",
 	)
 	uploadTranslationFileCommand.add_argument(
