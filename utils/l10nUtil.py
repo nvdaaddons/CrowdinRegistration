@@ -266,17 +266,7 @@ def uploadSourceFile(localFilePath: str):
 	Upload a source file to Crowdin.
 	:param localFilePath: The path to the local file to be uploaded
 	"""
-	filename = os.path.basename(localFilePath)
-	if os.path.splitext(filename)[1] == ".pot":
-		title=f"{os.path.splitext(filename)[0]} interface"
-		exportPattern = f"/{os.path.splitext(filename)[0]}/%two_letters_code%/{os.path.splitext(filename)[0]}.po"
-	else:
-		title=f"{os.path.splitext(filename)[0]} documentation"
-		exportPattern =f"/{os.path.splitext(filename)[0]}/%two_letters_code%/{filename}"
-	exportOptions = {
-			"exportPattern": exportPattern
-	}
-	print(f"Uploading {localFilePath} to Crowdin")
+	getFiles()
 	res = getCrowdinClient().storages.add_storage(
 		open(localFilePath, "rb"),
 	)
@@ -284,15 +274,30 @@ def uploadSourceFile(localFilePath: str):
 		raise ValueError("Crowdin storage upload failed")
 	storageId = res["data"]["id"]
 	print(f"Stored with ID {storageId}")
-	print(f"Importing source file {localFilePath} from storage with ID {storageId}")
-	res = getCrowdinClient().source_files.add_file(storageId=storageId, projectId=CROWDIN_PROJECT_ID, name=filename, title=title, exportOptions=exportOptions)
-	print("Done")
+	filename = os.path.basename(localFilePath)
+	fileId = getattr(getCrowdinFileIds(), filename, None)
+	match fileId:
+		case None:
+			if os.path.splitext(filename)[1] == ".pot":
+				title=f"{os.path.splitext(filename)[0]} interface"
+				exportPattern = f"/{os.path.splitext(filename)[0]}/%two_letters_code%/{os.path.splitext(filename)[0]}.po"
+			else:
+				title=f"{os.path.splitext(filename)[0]} documentation"
+				exportPattern =f"/{os.path.splitext(filename)[0]}/%two_letters_code%/{filename}"
+			exportOptions = {
+				"exportPattern": exportPattern
+			}
+			print(f"Importing source file {localFilePath} from storage with ID {storageId}")
+			res = getCrowdinClient().source_files.add_file(storageId=storageId, projectId=CROWDIN_PROJECT_ID, name=filename, title=title, exportOptions=exportOptions)
+			print("Done")
+		case _:
+			res = getCrowdinClient().source_files.update_file(fileId=fileId , storageId=storageId, projectId=CROWDIN_PROJECT_ID)
 
 
 def getFiles():
 	"""Gets files from Crowdin."""
 
-	res = getCrowdinClient().source_files.list_files(CROWDIN_PROJECT_ID)
+	res = getCrowdinClient().source_files.list_files(CROWDIN_PROJECT_ID, limit=500)
 	if res is None:
 		raise ValueError("Getting files from Crowdin failed")
 	dictionary = dict()
