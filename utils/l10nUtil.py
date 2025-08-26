@@ -275,7 +275,7 @@ def uploadSourceFile(localFilePath: str):
 	storageId = res["data"]["id"]
 	print(f"Stored with ID {storageId}")
 	filename = os.path.basename(localFilePath)
-	fileId = getattr(files, filename, None)
+	fileId = files.get(filename)
 	print(fileId)
 	match fileId:
 		case None:
