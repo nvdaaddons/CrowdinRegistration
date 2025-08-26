@@ -276,6 +276,7 @@ def uploadSourceFile(localFilePath: str):
 	print(f"Stored with ID {storageId}")
 	filename = os.path.basename(localFilePath)
 	fileId = getattr(files, filename, None)
+	print(fileId)
 	match fileId:
 		case None:
 			if os.path.splitext(filename)[1] == ".pot":
