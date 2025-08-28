@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: goldwave 25.07\n"
+"Project-Id-Version: goldwave 25.08.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-03 06:32+0000\n"
+"POT-Creation-Date: 2025-08-28 11:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -256,12 +256,12 @@ msgstr ""
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:23
+#: buildVars.py:21
 msgid "GoldWave"
 msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:26
+#: buildVars.py:24
 msgid "An add-on for enhancing access and usage of the GoldWave audio editor."
 msgstr ""
