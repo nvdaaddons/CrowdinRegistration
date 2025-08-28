@@ -5,7 +5,7 @@ on:
 
 jobs:
   updateSourcesForAddons:
-    uses: ./.github/workflows/importToCrowdin.yml
+    uses: ./.github/workflows/updateSources.yml
     strategy:
       fail-fast: false
       max-parallel: 1
