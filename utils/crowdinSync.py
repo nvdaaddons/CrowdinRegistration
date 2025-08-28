@@ -48,8 +48,9 @@ def projectRequest(path: str, **kwargs) -> requests.Response:
 
 
 def uploadSourceFile(localFilePath: str) -> None:
+	files = l10nUtil.getFiles()
 	fn = os.path.basename(localFilePath)
-	crowdinFileID = l10nUtil.crowdinFileIDs[fn]
+	crowdinFileID = files.get(fn)
 	print(f"Uploading {localFilePath} to Crowdin temporary storage as {fn}")
 	with open(localFilePath, "rb") as f:
 		r = request(
