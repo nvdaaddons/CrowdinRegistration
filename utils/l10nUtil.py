@@ -236,8 +236,12 @@ def downloadTranslationFile(crowdinFilePath: str, localFilePath: str, language: 
 	:param localFilePath: The path to save the local file
 	:param language: The language code to download the translation for
 	"""
-	files = getFiles()
-	fileId = files.get(crowdinFilePath)
+	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
+		files = json.load(JSON_FILE)
+		fileId = files.get(crowdinFilePath)
+	if fileId is None:
+		files = getFiles()
+		fileId = files.get(crowdinFilePath)
 	print(f"Requesting export of {crowdinFilePath} for {language} from Crowdin")
 	res = getCrowdinClient().translations.export_project_translation(
 		fileIds=[fileId],
@@ -258,7 +262,12 @@ def uploadSourceFile(localFilePath: str):
 	Upload a source file to Crowdin.
 	:param localFilePath: The path to the local file to be uploaded
 	"""
-	files = getFiles()
+	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
+		files = json.load(JSON_FILE)
+	fileId = files.get(localFilePath)
+	if fileId is None:
+		files = getFiles()
+		fileId = files.get(localFilePath)
 	res = getCrowdinClient().storages.add_storage(
 		open(localFilePath, "rb"),
 	)
@@ -288,7 +297,7 @@ def uploadSourceFile(localFilePath: str):
 
 
 def getFiles() -> dict:
-	"""Gets files from Crowdin."""
+	"""Gets files from Crowdin, and write them to a json file."""
 
 	res = getCrowdinClient().source_files.list_files(CROWDIN_PROJECT_ID, limit=500)
 	if res is None:
@@ -300,6 +309,8 @@ def getFiles() -> dict:
 		name = fileInfo["name"]
 		id = fileInfo["id"]
 		dictionary[name] = id
+	with open(JSON_FILE, "w", encoding="utf-8") as jsonFile:
+			json.dump(dictionary, jsonFile, ensure_ascii=False)
 	return dictionary
 
 
@@ -310,8 +321,12 @@ def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: st
 	:param localFilePath: The path to the local file to be uploaded
 	:param language: The language code to upload the translation for
 	"""
-	files = getFiles()
+	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
+		files = json.load(JSON_FILE)
 	fileId = files.get(crowdinFilePath)
+	if fileId is None:
+		files = getFiles()
+		fileId = files.get(crowdinFilePath)
 	print(f"Uploading {localFilePath} to Crowdin")
 	res = getCrowdinClient().storages.add_storage(
 		open(localFilePath, "rb"),
