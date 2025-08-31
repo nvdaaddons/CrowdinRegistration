@@ -237,7 +237,7 @@ def downloadTranslationFile(crowdinFilePath: str, localFilePath: str, language: 
 	:param language: The language code to download the translation for
 	"""
 	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
-		files = json.load(JSON_FILE)
+		files = json.load(jsonFile)
 		fileId = files.get(crowdinFilePath)
 	if fileId is None:
 		files = getFiles()
@@ -263,7 +263,7 @@ def uploadSourceFile(localFilePath: str):
 	:param localFilePath: The path to the local file to be uploaded
 	"""
 	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
-		files = json.load(JSON_FILE)
+		files = json.load(jsonFile)
 	fileId = files.get(localFilePath)
 	if fileId is None:
 		files = getFiles()
@@ -322,7 +322,7 @@ def uploadTranslationFile(crowdinFilePath: str, localFilePath: str, language: st
 	:param language: The language code to upload the translation for
 	"""
 	with open(JSON_FILE, "r", encoding="utf-8") as jsonFile:
-		files = json.load(JSON_FILE)
+		files = json.load(jsonFile)
 	fileId = files.get(crowdinFilePath)
 	if fileId is None:
 		files = getFiles()
