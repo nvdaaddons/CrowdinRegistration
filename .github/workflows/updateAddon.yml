@@ -64,7 +64,7 @@ jobs:
         echo "$file doesn't exist."
         fi
         mkdir -p addon-${{ inputs.repo }}/addon/doc/$dirBasename
-        python utils/markdownTranslate.py generateMarkdown -x ${{ l10n/inputs.repo}}/${{inputs.repo }}.xliff -o "addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
+        python utils/markdownTranslate.py generateMarkdown -x l10n/${{ inputs.repo }}/${{ inputs.repo }}.xliff -o "addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
         done
     - name: Commit and push
       id: commit
