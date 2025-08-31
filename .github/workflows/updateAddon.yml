@@ -64,8 +64,7 @@ jobs:
         echo "$file doesn't exist."
         fi
         file="$dir/${{ inputs.repo }}.xliff"
-        if [ -f $file ]; then
-        echo "Markdown" > "addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
+        mkdir -p addon-${{ inputs.repo }}/addon/doc/$dirBasename
         python utils/markdownTranslate.py generateMarkdown -x "$file" -o "addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
         else
         echo "$file doesn't exist"
