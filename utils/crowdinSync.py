@@ -10,7 +10,7 @@ import os
 
 import requests
 
-from ..l10nUtil import getFiles
+from l10nUtil import getFiles
 
 AUTH_TOKEN = os.getenv("crowdinAuthToken", "").strip()
 if not AUTH_TOKEN:
