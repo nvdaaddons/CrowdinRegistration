@@ -10,7 +10,7 @@ import os
 
 import requests
 
-import l10nUtil
+from ..l10nUtil import getFiles
 
 AUTH_TOKEN = os.getenv("crowdinAuthToken", "").strip()
 if not AUTH_TOKEN:
@@ -48,7 +48,7 @@ def projectRequest(path: str, **kwargs) -> requests.Response:
 
 
 def uploadSourceFile(localFilePath: str) -> None:
-	files = l10nUtil.getFiles()
+	files = getFiles()
 	fn = os.path.basename(localFilePath)
 	crowdinFileID = files.get(fn)
 	print(f"Uploading {localFilePath} to Crowdin temporary storage as {fn}")
