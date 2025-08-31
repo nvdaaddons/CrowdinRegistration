@@ -58,7 +58,7 @@ jobs:
         cd ../${{ inputs.repo }}
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}.xliff
     - name: Commit and push
-      id: commit
+      id: commitAddon
       run: |
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
