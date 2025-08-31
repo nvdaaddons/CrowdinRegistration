@@ -75,7 +75,7 @@ jobs:
         fi
 
     - name: Upload source
-      if: steps.commit.outputs.has_changes == 'true'
+      if: steps.commitAddon.outputs.has_changes == 'true'
       run: |
         cd ${{ inputs.repo }}
         python ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
