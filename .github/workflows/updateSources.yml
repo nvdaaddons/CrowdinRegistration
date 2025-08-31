@@ -83,3 +83,18 @@ jobs:
       env:
         crowdinProjectID: ${{ vars.CROWDIN_ID }}
         crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
+    - name: Commit and push json file
+      id: commit
+      run: |
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git status
+        git add utils
+        if git diff --staged --quiet; then
+        echo "Nothing added to commit."
+        echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+        echo "has_changes=true" >> $GITHUB_OUTPUT
+        git commit -m "Update Crowdin files"
+        git push
+        fi
