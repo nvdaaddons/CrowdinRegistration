@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-03 03:54+0000\n"
-"PO-Revision-Date: 2025-08-28 07:26\n"
+"POT-Creation-Date: 2025-08-28 11:52+0000\n"
+"PO-Revision-Date: 2025-09-01 00:53\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -252,13 +252,13 @@ msgstr "縮放: {zoomLevel}"
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:23
+#: buildVars.py:21
 msgid "GoldWave"
 msgstr "GoldWave"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:26
+#: buildVars.py:24
 msgid "An add-on for enhancing access and usage of the GoldWave audio editor."
 msgstr "一個用於強化 GoldWave 音訊編輯器存取及使用體驗的附加元件。"
 
