@@ -1,292 +1,297 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/stationPlaylist/9bbabf42c9503c5caa29d7841a26513fd822092c/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/stationPlaylist/d86fad6a9e510a210fdcdf579e6f1592c62eec05/readme.md">
 <skeleton>
-# $(ID:974f7e76-9a29-46e1-8825-611029d9da9c)
-
-* $(ID:1f783e00-e18d-4024-8acd-1119be13b778)
-
-$(ID:f9d14512-26b1-4b40-8547-863f46b37a16)
-
-$(ID:c7ce243d-f43b-4373-943e-d823e50abc5d)
-
-$(ID:c7a9216e-12bc-42dc-92df-d5a20092ae40)
-
-* $(ID:a154c9e7-bb2b-448e-a646-1fed60648cc4)
-* $(ID:320f8036-d66e-4c0f-88bc-666953ffa721)
-* $(ID:b2e7eabb-08e3-48c3-a6bd-88560510a900)
-* $(ID:8c15c9d1-28aa-4db9-9007-adf47777ea2e)
-* $(ID:7dd94553-3709-4f40-b2cb-be485a34953b)
-* $(ID:c38e3076-7342-4d38-a182-aa0f8ef12dae)
-
-## $(ID:6112e90a-dea9-4619-bb2a-94efc12366af)
-
-$(ID:d14d68f5-5d1d-424c-a176-7d43f2070ba3)
-
-* $(ID:e9c29447-df7b-423e-84f1-80f6fee8bf11)
-* $(ID:75566dac-2996-4391-b609-da37b0767562)
-* $(ID:230cbbd3-3111-4ee6-ac20-5499915054d2)
-* $(ID:4f2d7a45-fc54-465a-90cb-5c4357903f03)
-* $(ID:93117fcd-63de-4c44-9bb0-ad34d503a9eb)
-* $(ID:06399596-2a6a-45d0-b8ef-d396a6d8b691)
-* $(ID:a23a241a-5d70-404a-8084-1b0b07999ea0)
-* $(ID:546cd3b7-281e-4b02-bb5e-d778c0082b4b)
-* $(ID:6019533f-4ecc-4acd-9d63-b269b2cb7738)
-* $(ID:86a4c58a-e830-4c98-a50e-7e116beaa13c)
-* $(ID:fee2779a-9525-4c02-905f-a4100c8a6a5d)
-* $(ID:bcd4a14c-0a33-4c60-89ef-064d48efd3d2)
-* $(ID:752d7f21-c3dd-49ff-859d-d92686f7c82e)
-* $(ID:2f8d9a10-bbe2-4310-9a08-8a212d463ffb)
-* $(ID:6897696f-e95a-4459-a9a2-ccb444826c85)
-* $(ID:c7a0c52c-4e34-4a2c-a5f8-4539b6ff9b8e)
-* $(ID:4da898fc-3c16-4501-9161-3fa3ed391505)
-* $(ID:e4fe1137-a8b7-4b54-a13f-ac8eedec00f9)
-* $(ID:d1a4f109-8821-422d-a90e-ec7ce49b5cbd)
-* $(ID:0b475a4f-6fe3-4d37-9d28-84c10957b6aa)
-* $(ID:c97b05e1-78fd-42fd-99d9-52c156cd7fab)
-
-## $(ID:8526811c-7b30-456c-9a53-3b6e62bd9777)
-
-$(ID:d22b2de8-5f40-44ac-992b-6f99d8432f02)
-
-$(ID:77885bb9-5e4e-43f5-995f-d142e2fd065e)
-
-* $(ID:1894ffcf-584b-4d8e-bab2-c22b7f686e65)
-* $(ID:65564ae7-9473-4d47-a6ea-1b4ebdd28b78)
-* $(ID:c5d90e76-9572-4966-a87f-bc60276c6222)
-* $(ID:3bc28e53-e9dd-418a-8f2f-71b549ce3774)
-* $(ID:aff4d045-b689-4f20-a0f6-564b0cf9cd48)
-* $(ID:535bcd23-e82d-4f98-9122-c2d1f98a6bd3)
-* $(ID:d0418467-f436-44ae-9a69-7e702ce9df73)
-* $(ID:e7272c7a-cc33-4497-b8c7-7c293dcb77dd)
-* $(ID:3d01be0b-7759-4b1b-85cb-9de06f3f206c)
-* $(ID:93cdfb6d-0c66-417f-b1b6-d33474915e6f)
-* $(ID:5cae27ab-6307-46d0-8b7a-3ee89b241cd6)
-* $(ID:eb3b75a9-e71b-43ab-a79a-237e58db4643)
-* $(ID:71d6c2f5-6cc5-462e-a473-0ba1a9aa3349)
-* $(ID:f360a4e7-a98c-45a2-8066-cfa65ddf7190)
-* $(ID:62c5c974-82e5-4be0-be76-4ba28a2407f0)
-
-## $(ID:725c6644-4d27-4b58-a328-e175d96cc545)
-
-$(ID:2e00b09f-ef9d-4d61-8658-420099494bbc)
-
-* $(ID:6c207b66-8bc1-4462-82ca-8a4cb426743c)
-* $(ID:8f67590c-7fc5-4a60-82f5-b710f166f6e7)
-* $(ID:b0937207-aa36-4aa5-89f9-8f22a1577116)
-* $(ID:15e37747-7f86-4098-92b5-5e737b7307cf)
-* $(ID:51828fa3-3bbb-4f09-848d-20ce9fa12b1d)
-* $(ID:94115786-f844-4c8d-ac44-36289752f556)
-* $(ID:7feb5587-ad9c-47d9-a8ba-b7f1b9e893c8)
-* $(ID:0ffa653b-9d70-4ec2-9ff6-050f905a7e76)
-* $(ID:90cb132c-c08e-4091-bbff-6090d55e467e)
-
-$(ID:137c8b4c-9c79-4063-9e17-0e09d2f6a799)
-
-* $(ID:66f21996-bddc-44e6-baa0-157e00678948)
-* $(ID:c5605f9a-fec9-42ae-a1c4-3d9a7590b998)
-* $(ID:69e73891-fdd8-4506-81f0-72b712557fd5)
-* $(ID:5b4cb471-be17-4cb5-a3f2-cc3a63a65fca)
-* $(ID:0853d713-7058-4ef4-8d3f-91d7876fbc89)
-* $(ID:2527d688-5c42-473c-bbd5-72ffe4c4a4df)
-* $(ID:b06289b6-0b7d-4c05-a377-4587b3b7ce48)
-
-## $(ID:c882d722-9d85-4164-9de1-2ace32242efe)
-
-$(ID:5bc3cf9d-a527-42d2-b7e0-16d0d6501775)
-
-$(ID:3fcbc068-3bd8-4069-b7a9-63d6e412c665)
-
-* $(ID:605e9c64-6d27-40e0-89d7-3759a82d5dfb)
-* $(ID:541410e1-5b75-4322-a342-3fc32e725369)
-* $(ID:d8b64723-7bc2-42a5-9230-d9dde620720d)
-* $(ID:fe6ecdcd-a65c-4a14-8aa8-d8b631c3ec80)
-* $(ID:e63670af-3c65-4dc5-9f18-cb62db166832)
-* $(ID:befabed3-e8a5-45c7-8864-be7850cf9c3b)
-* $(ID:d0c078ca-8a11-4dbd-ab72-ee44ac56bf9f)
-* $(ID:5e709946-cf7f-4d05-9ce0-6286fc728cf0)
-* $(ID:edeb1789-4a87-4c9c-9dc0-2f67a2d4e963)
-* $(ID:83cd08f8-a7ce-46a5-849a-e45174c47be7)
-* $(ID:e9ba6e0a-4ab9-46c3-b329-6b9aba6ff9b6)
-* $(ID:20642214-df4b-45e7-9da6-af35bedf3fdc)
-* $(ID:9853b719-2c9e-4b7b-a939-6535e2148fae)
-* $(ID:e8999026-0d99-432f-8ad1-17c3b098e4a4)
-* $(ID:6cc99f65-2d7b-485c-95a4-071b708542a4)
-* $(ID:663e4481-c9fa-4d12-bf3c-ac4fe24a4a58)
-* $(ID:cc1a4a9c-b244-4681-90b6-8ef8626bc5d3)
-* $(ID:fc5a2e72-11b9-469e-951c-948c3f338039)
-* $(ID:d9a94134-2352-4463-b5e8-2936733aae34)
-* $(ID:c8fc8e2a-e659-4f5e-ad22-d56316e2c579)
-* $(ID:2f121ddf-8470-43b5-b403-d9ed94fe84c9)
-* $(ID:1bbd5c25-930b-40a7-a30c-ef5939847c7a)
-* $(ID:38a46397-36bd-480a-8aca-751d4b69501c)
-* $(ID:08e65717-458c-4011-b62a-d1c9d194737e)
-* $(ID:bad961ab-db80-481b-a3d8-a38f9e349d6d)
-* $(ID:1fca58bc-2341-4680-8679-22db8dfe4eb4)
-* $(ID:206a94f2-ba25-4eed-9c29-ff32814978c1)
-* $(ID:6c79c37d-0cdd-4fd4-a146-0ee08ff2b05d)
-* $(ID:c9117100-0c66-4fe4-b8b2-5816f9bea6d8)
-* $(ID:2c24326a-de45-45bd-b6d2-444363d136c0)
-* $(ID:33d11718-9f71-4d05-945c-6cb83d529ce6)
-* $(ID:78dee10c-3a11-4448-9494-b2461ccf2be8)
-* $(ID:ed864a88-9918-47a9-bff5-c13907bd6cc6)
+# $(ID:72b56760-d227-4247-81ad-2a598cfd6834)
+
+* $(ID:70305a9a-04a4-4087-9603-532b6c7a5305)
+
+$(ID:37741280-d69a-489e-a933-f4542169eb27)
+
+$(ID:b6bf6182-0c3f-4047-a8a6-50068357a41e)
+
+$(ID:9d6da162-60a3-455f-b58e-ba55b4d3e460)
+
+* $(ID:5429a5a9-f72f-43bb-9b76-9d4ad41826c0)
+* $(ID:37ee70af-0e27-4a4b-8ecd-8e6d21d53235)
+* $(ID:e56ae547-cd86-440f-a794-ec627e3c216f)
+* $(ID:2550fafb-9240-4cf1-b881-61c430774873)
+* $(ID:2cbbe333-4e5d-409c-a307-83c09c4a5421)
+* $(ID:33b8e4e5-48a3-4974-853d-07e6a6b9fd8d)
+
+## $(ID:8ca6410d-357c-42e7-b8e5-f50176f3fe1d)
+
+$(ID:6d85bd07-2e1d-41a9-a080-9507ae648c15)
+
+* $(ID:5bf9e33b-c9fd-43ab-b8e6-98fcd89f1050)
+* $(ID:afedfdec-6b43-400a-8022-fd0583623e2e)
+* $(ID:0197837b-b577-4ae1-8a8e-1436a84a1773)
+* $(ID:6a547929-2593-467b-922f-549958bd5c0c)
+* $(ID:c12409e2-076b-43f2-bf81-4afa14ab327d)
+* $(ID:2227985a-66d8-4d11-9131-8f98be927b29)
+* $(ID:8989f84d-bccb-4084-991d-b5c75b997fcb)
+* $(ID:1f66075d-e771-4545-a31d-cb264fabb75d)
+* $(ID:4c3e4a09-dca0-402b-b8f9-fdf4266575b7)
+* $(ID:c12e385d-6cde-42ca-89cf-ddacd2246e61)
+* $(ID:3fff14a3-7060-4608-b1e3-a8cde9f78e82)
+* $(ID:08e0cc0e-0cb5-4e43-b01a-48d7cc539be9)
+* $(ID:181a3f99-b636-418a-9e4d-937dbc65220a)
+* $(ID:e2a34272-1d8c-4c79-8307-5e1a7550a844)
+* $(ID:927dc8d8-6af5-4bae-99d3-f363af0f85c8)
+* $(ID:0cab56a4-80f8-4208-822f-bbb67dcaa1db)
+* $(ID:0c761cb3-96ae-4a80-ba7c-778c113a80db)
+* $(ID:21368ef8-32be-4b86-84ab-36fb792af437)
+* $(ID:b893b80a-4b79-452d-a296-6db78fe535db)
+* $(ID:d38fd881-a53e-4170-94b6-a867d5d128c9)
+* $(ID:a3fbd176-0a19-459a-ba3f-20184e959d66)
+
+## $(ID:64a936f7-d6be-4567-8d82-e17ec1da61a4)
+
+$(ID:7f5dabb2-80c9-4ff9-814f-de2831ad225b)
+
+$(ID:c7505fee-aa01-4390-8de9-85128ed855c7)
+
+* $(ID:5311fb20-f582-40f6-af11-b672d07e706f)
+* $(ID:3698b48f-5105-4b16-8cb6-e00e75e1e3a9)
+* $(ID:b5351457-9e8a-4233-a4c4-e9bb7633228f)
+* $(ID:b817f2b1-03aa-4572-a088-d7661ceaa11b)
+* $(ID:a60d2892-d188-4c89-9636-62af419e1d01)
+* $(ID:206b2264-1232-452d-9fde-c87fca98ed96)
+* $(ID:a88995a4-f93c-4543-865b-12dd8c11ca24)
+* $(ID:ddd115cf-a1cc-48c7-9f60-92e79ca75366)
+* $(ID:88e3428b-47fc-4dd7-b320-1b248d6b7d91)
+* $(ID:ad34274a-c8d5-4c08-9d13-120b084bfe29)
+* $(ID:3b399358-c37b-455d-b268-000334ee0605)
+* $(ID:22cc61fb-666e-44f0-99b4-a2ffb9cda984)
+* $(ID:d9c33be0-9160-46cf-a401-5aa245eded13)
+* $(ID:3a6020c3-b4ee-4668-b540-bcf978691b39)
+* $(ID:c98cff34-b677-47d4-8b97-7cfa53a16841)
+
+## $(ID:8a6485c0-bce3-4b14-88bc-d778c19cd5fa)
+
+$(ID:c8ca957b-15a3-4234-8cda-28dddb2d0f06)
+
+* $(ID:ef64d770-a622-4b2d-b212-86bd2b8234b0)
+* $(ID:e13fbdff-c731-422f-9d67-c8310def84fb)
+* $(ID:6e3a290a-8aae-4360-90d2-88e79b29b19b)
+* $(ID:8911a400-9e1f-4ea7-aed1-fd46f1309bae)
+* $(ID:858286c6-d072-4cd1-b833-19d659bb3445)
+* $(ID:8ff64bb0-010a-4f4b-9acf-dc728d1f8304)
+* $(ID:1f748659-f3a8-463e-8a9b-f94564be7ea5)
+* $(ID:01a39baf-f9c0-4204-87e0-08ddba0f04d2)
+* $(ID:4955a259-fab5-45f6-9932-1c1a0406c595)
+
+$(ID:6d1f1886-dfd7-448a-aa0c-dc8917081316)
+
+* $(ID:669493ad-f0bf-4a93-8a62-73e10046565c)
+* $(ID:afaa4cfb-eb06-4df7-99ba-87a1615db6f9)
+* $(ID:28df10b5-fe68-476d-a884-bc3d21ade336)
+* $(ID:3940a103-5589-46c9-b28e-21bea8ccbdc2)
+* $(ID:af85d686-0962-4962-ade8-bd2aa20bb8b3)
+* $(ID:6b0808fa-4240-4d2b-8dca-0af60a5e82fc)
+* $(ID:8b2b99a2-1cf3-494e-96e6-00cae61535ec)
+
+## $(ID:680465a8-fca9-4c23-bc67-8fbe0c92ec8a)
+
+$(ID:549fff33-40c8-40b9-b944-3fe23a9784d8)
+
+$(ID:a4843632-2388-45d1-8e88-68c834d8e500)
+
+* $(ID:963e7b60-bc02-473c-8d0c-1de7adb27d4f)
+* $(ID:82c2bb2e-14be-42bc-8dec-7be9199b9625)
+* $(ID:b982d6aa-0b7a-4fba-b08d-5b1875b6ccf8)
+* $(ID:7bf314cf-4fe7-4af9-a413-bcebc0e2ffef)
+* $(ID:91fa58df-af9e-4acf-8f52-4976ac6ad50e)
+* $(ID:8f41d2c5-06fc-4fbe-833e-e2cfb8c37918)
+* $(ID:5309a265-360a-401b-a913-bd4745ce1938)
+* $(ID:a55cadfc-a4a2-483a-bcc0-a3779fa7c069)
+* $(ID:c8e24fd1-74ef-4ca6-a8fa-8fcee3e0611f)
+* $(ID:ab2071a0-248e-48b1-81d0-38b43f811c31)
+* $(ID:f909110f-fc38-4970-a133-ed0ddc03d8ef)
+* $(ID:e0985e8b-660c-4f32-a791-32bce4313e2d)
+* $(ID:a88e71bc-5914-4048-be2d-c4d7f0d062d5)
+* $(ID:6d4ebeea-7d5a-4a88-b889-1104f68fe391)
+* $(ID:f87764c4-6b36-40ec-ba2a-d7c5e058c24b)
+* $(ID:580987e8-e4b4-44f8-85ee-1fbc6198f276)
+* $(ID:1da361f0-f840-4b69-8170-e1538369e03e)
+* $(ID:29ee8f72-cd89-4641-8f37-ae4343c6248d)
+* $(ID:e1ce13e7-ab04-4c55-a110-ddfa1e5a2f35)
+* $(ID:57ff480c-190a-435d-bbd5-328928952b93)
+* $(ID:0ff416bc-a505-4d40-bffa-8d4574912134)
+* $(ID:6151e1a5-c6e5-491f-9ab9-bb77ad045afa)
+* $(ID:97970319-3c76-4e25-a3c9-281c2f924954)
+* $(ID:74b3a495-2b49-4eaa-a919-ef64f6ff213d)
+* $(ID:99f68b16-a795-43dc-8bff-68da4e3d33e2)
+* $(ID:958aec28-f027-4977-9371-979f8ccf2757)
+* $(ID:c4e70077-3cdd-438f-9f9c-6a776a9627a7)
+* $(ID:3befcde5-7c81-4880-8ceb-d27ce52dc11a)
+* $(ID:a8b21f4b-874f-433a-87c4-8d7ce4dbab4c)
+* $(ID:6deb6606-9a3a-498e-b72f-60e4041775a7)
+* $(ID:83b2c947-e5f5-4696-8145-89bd1963939a)
+* $(ID:571d270e-13f7-430e-aa80-9fab07ce70b7)
+* $(ID:a8dba112-1ec5-4c3a-9896-02e67c114a27)
 
-## $(ID:57561bcb-9a62-49e0-8bd2-7dbab9be79ce)
+## $(ID:bc992ea5-29b6-4a39-be12-191a8655bd85)
 
-$(ID:69f8cbb7-0ea2-4c36-93da-1781882d6834)
+$(ID:ea10cc0a-4229-4206-9f44-da1e2b3bb206)
 
-$(ID:c79f4374-72e7-4f93-9f1f-8695e8720a63)
+$(ID:86b93b5f-4742-40af-a25a-70d2e15a856f)
 
-$(ID:8adf38ba-28b0-47a2-904a-77fca8f144dc)
+$(ID:55d7986a-d8de-4696-a2e7-3e92705d021b)
 
-* $(ID:ca4b9cb8-7058-431e-84bf-93304c68993a)
-* $(ID:8edac86a-1b4d-4c66-8ec3-527ef267e1ec)
-* $(ID:8b6e876a-dc61-426f-8775-a3382aef6536)
-* $(ID:87c086fd-a8dc-43da-8d60-3ce4bc00b790)
-* $(ID:35028bd5-ba9e-4880-bece-60f7283f6788)
-* $(ID:ff27884d-9553-4cb1-b12c-82b88d63d37a)
-* $(ID:19647ac9-20af-4e28-9db2-aa2e5782d8fe)
-* $(ID:69cbf1f0-ad67-4f93-8415-dd258abab0f7)
-* $(ID:eff03626-d713-4361-9fe8-14e2baa30e66)
-* $(ID:a081b3b2-dfbb-43f1-bf6a-ee2c07ac61ea)
-* $(ID:4363f85d-b528-4763-b226-8a24f313c67e)
-* $(ID:3375895f-5591-4546-bb35-5f2413c91315)
-* $(ID:c17b438a-a4ad-439d-9b35-893344ce7ae9)
-* $(ID:8a5ddd30-aafe-4a33-aaf5-c05f26be0cd8)
-* $(ID:892dbd55-0e58-4c13-9485-3f0574c540f4)
-* $(ID:61dd1753-ffd9-4f6b-918d-d4661793974f)
-* $(ID:d9fd9deb-1de3-4c1e-b792-22721ff66bb6)
-* $(ID:2d167904-67ce-49fe-ad44-b2008af0b957)
-* $(ID:093227db-ba43-4a73-8860-91c05f37ad12)
-* $(ID:39c09a59-b6ad-4d04-af06-892196f84e70)
+* $(ID:6db298f5-59dc-4871-9f34-3d21bc92f85b)
+* $(ID:960067fc-0cbd-4493-8c91-a684440dadec)
+* $(ID:8fb2d95b-d9af-468e-b900-b6342bce80fa)
+* $(ID:bac9ae2d-05b2-4a82-8c1f-6092f9bee534)
+* $(ID:772f1ed3-a561-4f6d-9b22-183d047b6084)
+* $(ID:c572c143-2e50-4970-9056-b1f85d22b3ad)
+* $(ID:873a21b9-8cd2-49db-aa9b-5ff3f2fbaab5)
+* $(ID:67be1375-6a81-44a7-a3e1-08253f7bd1bf)
+* $(ID:8507eb69-3a5f-4055-87b1-40c5664a882c)
+* $(ID:bb40ef0c-9005-4ee5-a475-e2e2918c2b60)
+* $(ID:dca8cb43-8f5c-4226-8c86-57e0c7a4c53b)
+* $(ID:d6b73c6f-f5fa-4602-a58d-d816a9be20d9)
+* $(ID:4457c4ec-f866-43da-a999-ed566359d0b1)
+* $(ID:fb6c4ff9-96ee-413b-adde-8d4d31a0f4de)
+* $(ID:28263618-d9f8-4654-8cc6-e215e4ced9eb)
+* $(ID:9707aead-f7f5-460e-a464-d55e8f0dcd10)
+* $(ID:6cb2bb26-380e-49fd-87e3-dc651a5e4f0e)
+* $(ID:62a58aab-3780-4476-abb1-ee9a94536752)
+* $(ID:c4a9ee45-a0ed-46aa-bc5c-9692cc2545aa)
+* $(ID:78f1d29d-8bc3-488e-b955-680bbb941109)
 
-$(ID:b6c2b8ab-211d-4b12-aa7b-9bb17dc342f8)
+$(ID:32d61dd0-ae47-4b5a-bf98-d03d384963d2)
 
-## $(ID:bb591ff9-8f32-4fcb-9cad-2a79e85658ce)
+## $(ID:82ef35f1-f123-43a3-9764-35a837e3195e)
 
-$(ID:a48f9694-cb47-4968-adad-11d67210527a)
+$(ID:f4d0b172-c357-40e8-964b-8e846203e9af)
 
-## $(ID:469828fa-f82a-4517-9ded-b4881ebfe09b)
+## $(ID:6a202ffb-3d07-4df3-889d-5e360c56f7c3)
 
-$(ID:c9634cd7-f854-4157-9e8d-173f690bcbad)
+$(ID:8d3f72b2-07a3-414e-92c4-28945a648fa3)
 
-$(ID:b22f8e7d-13dd-4fb5-80db-6b2eea0d8d38)
+$(ID:413a8df5-b7df-4b7a-ac46-38df005859be)
 
-## $(ID:8a6617d1-fdb8-4136-9505-2fc6d228c8d7)
+## $(ID:d69504b8-6e3b-4afd-9a7b-19f42cf07c0a)
 
-$(ID:5900a5ed-8662-4d25-80b3-f467fa33ca4d)
+$(ID:c456bb94-10c9-4ae7-946c-8aabccd72a65)
 
-$(ID:5ce58cb3-dbf5-4f00-bd9c-d931dfd4393b)
+$(ID:59df5f12-f1fb-4576-8d12-2a097e6c3699)
 
-## $(ID:9243d637-760e-479f-9f1b-abd31fa55298)
+## $(ID:a5941d2b-64d3-42ad-a036-2a16a90bb6c2)
 
-$(ID:0a86568b-ba9e-4164-b64c-866a6eaae903)
+$(ID:2dd6fbbe-00ab-475d-addf-6eb33749edc4)
 
-## $(ID:5560e357-63c3-49ae-a304-30ed1eac66fc)
+## $(ID:47a58bef-07df-47d1-9dda-5ceb5833e554)
 
-$(ID:8eda1be8-4436-44e7-9028-124cd542f4d3)
+$(ID:91bfe46a-574b-4cfc-81a6-f9d4019b4775)
 
-## $(ID:2551d0d1-e3e3-4e14-a9e0-3a5f2bfb1f4f)
+## $(ID:1ad83e73-52f8-4674-8ea7-ce1a660b0b60)
 
-$(ID:97ab784d-9d57-4074-b215-059c49d3802c)
+$(ID:e7459585-e6b7-46f2-9df0-23e0ca04ea4e)
 
-## $(ID:69587a5c-c0d4-4a41-a659-0d04e40a4c92)
+## $(ID:98a8db02-27ea-4a01-b19c-1ce71681f77c)
 
-$(ID:4481d947-538d-4b3b-ae75-7d395bfa74ca)
+$(ID:3eda18bd-7ea7-49e5-b872-96040cca5c8d)
 
-## $(ID:e16e118f-b0fd-42c0-b329-e8eafbfc3a55)
+## $(ID:534a1caa-c350-4729-9682-828bdb32f9ac)
 
-$(ID:a7b26f3a-b905-460a-a295-fd1f26fec559)
+$(ID:a54ac05b-efc0-4460-8f05-daf949f001f4)
 
-## $(ID:2b91bbab-2707-4712-bea5-a8b857514dfe)
+## $(ID:3ea2ca71-be59-4a22-bbe4-931d44360585)
 
-$(ID:3a942f66-ceae-4145-95cd-a1c50651fc14)
+$(ID:d95a9d47-f1a3-484f-9f95-82fce2aa38c8)
 
-## $(ID:38302394-97e8-46b7-b7f4-49105f24582c)
+## $(ID:6dd53e37-e747-4170-9c55-82fd4ad7f95a)
 
-$(ID:c9d827c4-8c4b-4cb3-b8d6-5d1f2013c381)
+$(ID:511a640c-076c-48b6-8be9-ced995d7b446)
 
-## $(ID:79858b33-3dd7-4d42-a752-998314e7e3d2)
+## $(ID:0ddf9adc-c679-4fb4-ace8-b33967d36ed8)
 
-$(ID:d34cd9b3-390a-4655-9ab9-7a163a556a58)
+$(ID:4b76fa09-0d87-423f-889f-078b5e4467cf)
 
-## $(ID:a1274a84-988f-441c-9eb6-26a4bd891d7a)
+## $(ID:d4f937ce-ace9-43fd-a421-407a874bd10b)
 
-* $(ID:d57cfd95-bc69-4600-9d80-5ca29faffb63)
-* $(ID:e5a7b250-7d27-444c-9688-f2cf13fcf85c)
-* $(ID:8aedaeef-5df5-42cc-8366-717c3eac5ed0)
+* $(ID:f485148f-c7ff-425f-95fe-f6795e47a926)
+* $(ID:45ff3eb7-4cd0-4e4f-bfb5-9b9c4597fc32)
 
-## $(ID:acf3c0af-9437-40b6-8f18-978e83d808f1)
+## $(ID:2d1c5646-2346-45ea-ae98-cc176eaaa73e)
 
-* $(ID:d318310c-80d4-4d99-9654-d12f2010876b)
-* $(ID:a80fb281-c10e-4c1c-89ee-93f0a993217e)
-* $(ID:3dffbe1e-0284-4ed9-bfe4-82e9108536a3)
-* $(ID:13a9f399-5605-4e74-af85-10921dfb3635)
-* $(ID:aa063fef-2ba4-4ba6-b3ad-deda0eaada04)
+* $(ID:82f63c85-db94-4765-ba2b-fda3009b6387)
+* $(ID:c9cdade6-c7d6-4fe7-9ae8-d98b9a3f268c)
+* $(ID:2c3ef0d4-ee1d-4123-b012-6b8ef16c274e)
 
-## $(ID:3b10cf45-3c3c-4511-b8fd-5c6d089868a1)
+## $(ID:ca709681-2565-438d-b771-67cc0a8e784c)
 
-* $(ID:e521f02a-eff3-43cd-b31f-09fc474b59b0)
-* $(ID:a847fa2b-f1be-4281-8752-798092c3c314)
-* $(ID:13db1298-10dc-4b56-8428-b01cbb8911ea)
-* $(ID:3b3b6a6d-9663-41a5-a07d-e8211b4c55c3)
+* $(ID:a8b2e083-5cb2-4607-b71e-1c9857373377)
+* $(ID:a64a8eb3-58d2-43c0-90b4-ff95af971ca9)
+* $(ID:06a9c3b6-bd11-4788-bae6-53b2284af831)
+* $(ID:d2b950ca-5b4c-4566-aed2-29d071cc6ab1)
+* $(ID:4cdff5dd-f70c-49b0-96a9-68f17ac4250d)
 
-## $(ID:371e50fe-8145-4368-9f23-5d2ba4e7c14f)
+## $(ID:2c121b82-e091-4448-98d7-73783806f4a5)
 
-* $(ID:8beb7700-0dad-4521-91a2-b9bba66c65d6)
-* $(ID:18bc4efe-8d81-4d7b-9a1a-d1049ec26ecb)
+* $(ID:379e7c09-41ee-47b7-8796-bccdd74c41ee)
+* $(ID:15c0f571-c9d9-4cf7-94e5-524ec5e81a61)
+* $(ID:a6f7281c-4525-4459-86ff-5cba2c4d5b17)
+* $(ID:0ab3e914-6122-4a4b-a561-b56834ce3c5c)
 
-## $(ID:a6df418d-e1b3-4c97-a928-04eba554f113)
+## $(ID:9abaf6b9-2f22-46ed-b462-df928ccdd98e)
 
-$(ID:b2003bef-c551-4b38-b9b4-99729ea1c999)
+* $(ID:158e828a-5258-46fa-9d69-7dd12b0287c4)
+* $(ID:42fed07b-c0a0-4039-b8a9-c41ed3055364)
 
-* $(ID:9f4bfd23-b3cc-41fa-a47a-2a354993e296)
-* $(ID:e362465d-ecc0-490a-b21b-efc1ffe91154)
-* $(ID:dc390e55-251f-4e4a-ba01-af959110bdf4)
-* $(ID:af221965-29fc-478b-9961-d595234bcac7)
-* $(ID:85a39ddf-e977-453b-bf64-3679f2fad7db)
+## $(ID:a1b00ddd-9d61-44a4-bb48-db037f6981dc)
 
-## $(ID:b9f5440f-238c-4bcf-b717-2bdad519851c)
+$(ID:24b21da1-c147-4eb4-ae4c-9d1aea769676)
 
-$(ID:a16d7e9e-3593-4cb5-b23e-8fb8ee39ca97)
+* $(ID:358b582e-51da-433d-a336-03496d16102a)
+* $(ID:ec7c9284-64cc-4119-ab62-a44266dcff43)
+* $(ID:83d3edb7-444a-4082-946d-9f251e634006)
+* $(ID:6517a6c5-3186-4d3c-98d8-8fc1e51fdcad)
+* $(ID:935b297f-6134-45f8-a623-909070d92f5c)
 
-* $(ID:2f70c458-868f-49bb-866c-c793829b74c4)
-* $(ID:dac44f2b-395b-4819-997a-a6c06a30541b)
-* $(ID:427ce6c0-e1ef-41d7-a9ad-2184a44d6350)
-* $(ID:49b0b551-6423-4780-9b80-d70cc6f79642)
-* $(ID:0f19e7b2-8516-44a4-be27-f98c73e222ea)
-* $(ID:9699f0df-0458-4c90-8438-fb44d6d1da73)
-* $(ID:0a6a6d26-fd78-4ba3-85f3-d4343609bf84)
-* $(ID:7164dac3-0a2b-48d2-9535-80a79ef7f769)
-* $(ID:6427c47f-dfdc-4850-924a-faa51b8581f9)
-* $(ID:94760a67-aa4e-4910-b78a-348be845c35e)
+## $(ID:6a6c2e7f-2fb8-4b2c-87cc-715a4582a903)
 
-## $(ID:f44f734c-c3b2-4ff8-bff7-80d75ad7407a)
+$(ID:c61c203c-a7fb-48e8-813f-03275754585a)
 
-* $(ID:4b3676be-5b71-4578-993d-f828ec862f89)
-* $(ID:e7701bbf-779d-4dde-91a8-bc7ce557c831)
-* $(ID:44b858a3-cb3a-401e-91b6-643012dc4e7a)
-* $(ID:8ee3bc34-c7b0-434f-966b-97650fdaa706)
-* $(ID:001147d0-1d43-428a-97d6-856e3124ec55)
+* $(ID:ddc47deb-14a0-46b0-afa3-80516db90400)
+* $(ID:2e9a22a5-9bc3-43a9-8b47-a3c9a6248b35)
+* $(ID:79609d4c-88a3-4c14-9103-3c2af80e461a)
+* $(ID:3e033671-65bf-4286-91fb-c24850229b8b)
+* $(ID:01fdeb37-df4a-4eaf-84df-6142515946ea)
+* $(ID:7f9b2e16-3ab6-478c-bffc-b14620cee5bd)
+* $(ID:f608ccd5-f16c-49b3-bbc5-55f799ad380a)
+* $(ID:137bebe3-cbd5-4217-a068-fd0746d52a23)
+* $(ID:b424c153-620a-4244-a9ca-e51e701eae0c)
+* $(ID:afab636d-ba92-4d9e-9702-4cb12e0570a4)
 
-## $(ID:e5a3c19f-b078-4f49-b1ec-71be2014696a)
+## $(ID:1e7b92ef-fe9f-493e-a6d7-bd4f54b5c5f7)
 
-* $(ID:e86d38de-ddf0-4a8e-834f-10503d4bd60a)
-* $(ID:29fbb332-01b7-4ce6-b4fd-cffb7bdf4c4e)
-* $(ID:0fd21c5c-9ee0-4e87-9641-542f814a667d)
-* $(ID:e4e1e80a-94c9-4209-b0b6-0119130d7a9c)
-* $(ID:f505d167-422a-433a-a01a-78ca7e2b217b)
+* $(ID:6a03e401-181a-4639-997a-1ff28f594e70)
+* $(ID:001bbdad-c5f0-4448-a079-e39568960fa8)
+* $(ID:1e564e65-336b-4ce3-adb6-2b9ee8ca3d45)
+* $(ID:883cf7a2-95a7-4db4-ac3b-562eee97912d)
+* $(ID:660b9891-d001-4730-a107-0fc0ff418096)
 
-## $(ID:8c0c8b00-fdb7-4c19-a7f4-4225b095f83c)
+## $(ID:d30febb8-4527-4d5e-a448-6a2a1f345ea8)
 
-$(ID:65f4e311-2480-4fa7-893b-e933e6799c81)
+* $(ID:89efc142-1b5f-4aef-b22e-677e6f3dabea)
+* $(ID:809fc233-3e88-4daa-a6e1-23515cf40f59)
+* $(ID:1b640491-b58d-4737-a8e9-59235b04245a)
+* $(ID:b38908ed-d691-40e7-9027-92e8d696c350)
+* $(ID:f8449cf2-9e2c-41ad-a5c9-c093875aaf4f)
 
-$(ID:407002f4-d5c5-49b2-bb8c-d62e2b915692)
+## $(ID:af48981e-971c-4501-9187-285c8e52cc0d)
 
-$(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
+$(ID:ef84e111-1161-42e1-8c82-d9b3f26abaa0)
+
+$(ID:ae425190-be6e-4f51-9978-54e93c342430)
+
+$(ID:359bd587-eef6-4251-8240-017752aa23a8)
 
 </skeleton>
-<unit id="974f7e76-9a29-46e1-8825-611029d9da9c">
+<unit id="72b56760-d227-4247-81ad-2a598cfd6834">
 <notes>
 <note appliesTo="source">line: 2</note>
 <note appliesTo="source">prefix: # </note>
@@ -295,7 +300,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>StationPlaylist #</source>
 </segment>
 </unit>
-<unit id="1f783e00-e18d-4024-8acd-1119be13b778">
+<unit id="70305a9a-04a4-4087-9603-532b6c7a5305">
 <notes>
 <note appliesTo="source">line: 4</note>
 <note appliesTo="source">prefix: * </note>
@@ -304,7 +309,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Authors: Christopher Duffley &lt;nvda@chrisduffley.com&gt; (formerly Joseph Lee &lt;joseph.lee22590@gmail.com&gt;, originally by Geoff Shang and other contributors)</source>
 </segment>
 </unit>
-<unit id="f9d14512-26b1-4b40-8547-863f46b37a16">
+<unit id="37741280-d69a-489e-a933-f4542169eb27">
 <notes>
 <note appliesTo="source">line: 6</note>
 </notes>
@@ -312,7 +317,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>This add-on package provides improved usage of StationPlaylist Studio and other StationPlaylist apps, as well as providing utilities to control Studio from anywhere. Supported apps include Studio, Creator, Track Tool, VT Recorder, and Streamer, as well as SAM, SPL, and AltaCast encoders.</source>
 </segment>
 </unit>
-<unit id="c7ce243d-f43b-4373-943e-d823e50abc5d">
+<unit id="b6bf6182-0c3f-4047-a8a6-50068357a41e">
 <notes>
 <note appliesTo="source">line: 8</note>
 </notes>
@@ -320,7 +325,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>For more information about the add-on, read the [add-on guide][1].</source>
 </segment>
 </unit>
-<unit id="c7a9216e-12bc-42dc-92df-d5a20092ae40">
+<unit id="9d6da162-60a3-455f-b58e-ba55b4d3e460">
 <notes>
 <note appliesTo="source">line: 10</note>
 </notes>
@@ -328,7 +333,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>IMPORTANT NOTES:</source>
 </segment>
 </unit>
-<unit id="a154c9e7-bb2b-448e-a646-1fed60648cc4">
+<unit id="5429a5a9-f72f-43bb-9b76-9d4ad41826c0">
 <notes>
 <note appliesTo="source">line: 12</note>
 <note appliesTo="source">prefix: * </note>
@@ -337,7 +342,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>This add-on requires StationPlaylist suite 6.0 or later.</source>
 </segment>
 </unit>
-<unit id="320f8036-d66e-4c0f-88bc-666953ffa721">
+<unit id="37ee70af-0e27-4a4b-8ecd-8e6d21d53235">
 <notes>
 <note appliesTo="source">line: 13</note>
 <note appliesTo="source">prefix: * </note>
@@ -346,7 +351,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Some add-on features will be disabled or limited if NVDA is running in secure mode such as in logon screen.</source>
 </segment>
 </unit>
-<unit id="b2e7eabb-08e3-48c3-a6bd-88560510a900">
+<unit id="e56ae547-cd86-440f-a794-ec627e3c216f">
 <notes>
 <note appliesTo="source">line: 14</note>
 <note appliesTo="source">prefix: * </note>
@@ -355,7 +360,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>For best experience, disable audio ducking mode.</source>
 </segment>
 </unit>
-<unit id="8c15c9d1-28aa-4db9-9007-adf47777ea2e">
+<unit id="2550fafb-9240-4cf1-b881-61c430774873">
 <notes>
 <note appliesTo="source">line: 15</note>
 <note appliesTo="source">prefix: * </note>
@@ -364,7 +369,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 25.01 (2025) onwards.</source>
 </segment>
 </unit>
-<unit id="7dd94553-3709-4f40-b2cb-be485a34953b">
+<unit id="2cbbe333-4e5d-409c-a307-83c09c4a5421">
 <notes>
 <note appliesTo="source">line: 16</note>
 <note appliesTo="source">prefix: * </note>
@@ -373,7 +378,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>While Studio is running, you can save, reload saved settings, or reset add-on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or Control+NVDA+R three times, respectively. This is also applicable to encoder settings - you can save and reset (not reload) encoder settings if using encoders.</source>
 </segment>
 </unit>
-<unit id="c38e3076-7342-4d38-a182-aa0f8ef12dae">
+<unit id="33b8e4e5-48a3-4974-853d-07e6a6b9fd8d">
 <notes>
 <note appliesTo="source">line: 17</note>
 <note appliesTo="source">prefix: * </note>
@@ -382,7 +387,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Many commands will provide speech output while NVDA is in speak on demand mode (NVDA 2024.1 and later).</source>
 </segment>
 </unit>
-<unit id="6112e90a-dea9-4619-bb2a-94efc12366af">
+<unit id="8ca6410d-357c-42e7-b8e5-f50176f3fe1d">
 <notes>
 <note appliesTo="source">line: 19</note>
 <note appliesTo="source">prefix: ## </note>
@@ -391,7 +396,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shortcut keys</source>
 </segment>
 </unit>
-<unit id="d14d68f5-5d1d-424c-a176-7d43f2070ba3">
+<unit id="6d85bd07-2e1d-41a9-a080-9507ae648c15">
 <notes>
 <note appliesTo="source">line: 21</note>
 </notes>
@@ -399,7 +404,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Most of these will work in Studio only unless otherwise specified. Unless noted otherwise, these commands support speak on demand mode.</source>
 </segment>
 </unit>
-<unit id="e9c29447-df7b-423e-84f1-80f6fee8bf11">
+<unit id="5bf9e33b-c9fd-43ab-b8e6-98fcd89f1050">
 <notes>
 <note appliesTo="source">line: 23</note>
 <note appliesTo="source">prefix: * </note>
@@ -408,7 +413,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+Shift+T from Studio window: announce elapsed time for the currently playing track.</source>
 </segment>
 </unit>
-<unit id="75566dac-2996-4391-b609-da37b0767562">
+<unit id="afedfdec-6b43-400a-8022-fd0583623e2e">
 <notes>
 <note appliesTo="source">line: 24</note>
 <note appliesTo="source">prefix: * </note>
@@ -417,7 +422,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: announce remaining time for the currently playing track.</source>
 </segment>
 </unit>
-<unit id="230cbbd3-3111-4ee6-ac20-5499915054d2">
+<unit id="0197837b-b577-4ae1-8a8e-1436a84a1773">
 <notes>
 <note appliesTo="source">line: 25</note>
 <note appliesTo="source">prefix: * </note>
@@ -426,7 +431,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: announces broadcaster time such as 5 minutes to top of the hour. Pressing this command twice will announce minutes and seconds till top of the hour.</source>
 </segment>
 </unit>
-<unit id="4f2d7a45-fc54-465a-90cb-5c4357903f03">
+<unit id="6a547929-2593-467b-922f-549958bd5c0c">
 <notes>
 <note appliesTo="source">line: 26</note>
 <note appliesTo="source">prefix: * </note>
@@ -435,7 +440,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens alarms category in Studio add-on configuration dialog (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="93117fcd-63de-4c44-9bb0-ad34d503a9eb">
+<unit id="c12409e2-076b-43f2-bf81-4afa14ab327d">
 <notes>
 <note appliesTo="source">line: 27</note>
 <note appliesTo="source">prefix: * </note>
@@ -444,7 +449,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: Announces scheduled time for the loaded playlist.</source>
 </segment>
 </unit>
-<unit id="06399596-2a6a-45d0-b8ef-d396a6d8b691">
+<unit id="2227985a-66d8-4d11-9131-8f98be927b29">
 <notes>
 <note appliesTo="source">line: 28</note>
 <note appliesTo="source">prefix: * </note>
@@ -453,7 +458,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: Announces total playlist duration.</source>
 </segment>
 </unit>
-<unit id="a23a241a-5d70-404a-8084-1b0b07999ea0">
+<unit id="8989f84d-bccb-4084-991d-b5c75b997fcb">
 <notes>
 <note appliesTo="source">line: 29</note>
 <note appliesTo="source">prefix: * </note>
@@ -462,7 +467,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart assignments (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="546cd3b7-281e-4b02-bb5e-d778c0082b4b">
+<unit id="1f66075d-e771-4545-a31d-cb264fabb75d">
 <notes>
 <note appliesTo="source">line: 30</note>
 <note appliesTo="source">prefix: * </note>
@@ -471,7 +476,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: Announces when the selected track is scheduled to play.</source>
 </segment>
 </unit>
-<unit id="6019533f-4ecc-4acd-9d63-b269b2cb7738">
+<unit id="4c3e4a09-dca0-402b-b8f9-fdf4266575b7">
 <notes>
 <note appliesTo="source">line: 31</note>
 <note appliesTo="source">prefix: * </note>
@@ -480,7 +485,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: Announces rotation and category associated with the loaded playlist.</source>
 </segment>
 </unit>
-<unit id="86a4c58a-e830-4c98-a50e-7e116beaa13c">
+<unit id="c12e385d-6cde-42ca-89cf-ddacd2246e61">
 <notes>
 <note appliesTo="source">line: 32</note>
 <note appliesTo="source">prefix: * </note>
@@ -489,7 +494,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+F from Studio window: Opens a dialog to find a track based on artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find backward (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="fee2779a-9525-4c02-905f-a4100c8a6a5d">
+<unit id="3fff14a3-7060-4608-b1e3-a8cde9f78e82">
 <notes>
 <note appliesTo="source">line: 33</note>
 <note appliesTo="source">prefix: * </note>
@@ -498,7 +503,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+NVDA+R from Studio window: Steps through library scan announcement settings (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="bcd4a14c-0a33-4c60-89ef-064d48efd3d2">
+<unit id="08e0cc0e-0cb5-4e43-b01a-48d7cc539be9">
 <notes>
 <note appliesTo="source">line: 34</note>
 <note appliesTo="source">prefix: * </note>
@@ -507,7 +512,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+Shift+X from Studio window: Steps through braille timer settings (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="752d7f21-c3dd-49ff-859d-d92686f7c82e">
+<unit id="181a3f99-b636-418a-9e4d-937dbc65220a">
 <notes>
 <note appliesTo="source">line: 35</note>
 <note appliesTo="source">prefix: * </note>
@@ -516,7 +521,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+Alt+left/right arrow (while focused on a track in Studio, Creator, Remote VT, and Track Tool): Move to previous/next track column (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="2f8d9a10-bbe2-4310-9a08-8a212d463ffb">
+<unit id="e2a34272-1d8c-4c79-8307-5e1a7550a844">
 <notes>
 <note appliesTo="source">line: 36</note>
 <note appliesTo="source">prefix: * </note>
@@ -525,7 +530,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+Alt+up/down arrow (while focused on a track in Studio, Creator, Remote VT, and Track Tool): Move to previous/next track and announce specific columns (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="6897696f-e95a-4459-a9a2-ccb444826c85">
+<unit id="927dc8d8-6af5-4bae-99d3-f363af0f85c8">
 <notes>
 <note appliesTo="source">line: 37</note>
 <note appliesTo="source">prefix: * </note>
@@ -534,7 +539,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+1 through 0 (while focused on a track in Studio, Creator (including Playlist Editor), Remote VT, and Track Tool): Announce column content for a specified column (first ten columns by default). Pressing this command twice will display column information on a browse mode window.</source>
 </segment>
 </unit>
-<unit id="c7a0c52c-4e34-4a2c-a5f8-4539b6ff9b8e">
+<unit id="0cab56a4-80f8-4208-822f-bbb67dcaa1db">
 <notes>
 <note appliesTo="source">line: 38</note>
 <note appliesTo="source">prefix: * </note>
@@ -543,7 +548,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+- (hyphen while focused on a track in Studio, Creator, Remote VT, and Track Tool): display data for all columns in a track on a browse mode window (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="4da898fc-3c16-4501-9161-3fa3ed391505">
+<unit id="0c761cb3-96ae-4a80-ba7c-778c113a80db">
 <notes>
 <note appliesTo="source">line: 39</note>
 <note appliesTo="source">prefix: * </note>
@@ -552,7 +557,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>NVDA+V while focused on a track (Studio's playlist viewer only): toggles track column announcement between screen order and custom order (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="e4fe1137-a8b7-4b54-a13f-ac8eedec00f9">
+<unit id="21368ef8-32be-4b86-84ab-36fb792af437">
 <notes>
 <note appliesTo="source">line: 40</note>
 <note appliesTo="source">prefix: * </note>
@@ -561,7 +566,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+C while focused on a track (Studio's playlist viewer only): announces track comments if any.</source>
 </segment>
 </unit>
-<unit id="d1a4f109-8821-422d-a90e-ec7ce49b5cbd">
+<unit id="b893b80a-4b79-452d-a296-6db78fe535db">
 <notes>
 <note appliesTo="source">line: 41</note>
 <note appliesTo="source">prefix: * </note>
@@ -570,7 +575,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+0 (two finger flick left in SPL mode) from Studio window: Opens the Studio add-on configuration dialog (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="0b475a4f-6fe3-4d37-9d28-84c10957b6aa">
+<unit id="d38fd881-a53e-4170-94b6-a867d5d128c9">
 <notes>
 <note appliesTo="source">line: 42</note>
 <note appliesTo="source">prefix: * </note>
@@ -579,7 +584,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="c97b05e1-78fd-42fd-99d9-52c156cd7fab">
+<unit id="a3fbd176-0a19-459a-ba3f-20184e959d66">
 <notes>
 <note appliesTo="source">line: 43</note>
 <note appliesTo="source">prefix: * </note>
@@ -588,7 +593,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+F1: Open welcome dialog (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="8526811c-7b30-456c-9a53-3b6e62bd9777">
+<unit id="64a936f7-d6be-4567-8d82-e17ec1da61a4">
 <notes>
 <note appliesTo="source">line: 45</note>
 <note appliesTo="source">prefix: ## </note>
@@ -597,7 +602,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Unassigned commands</source>
 </segment>
 </unit>
-<unit id="d22b2de8-5f40-44ac-992b-6f99d8432f02">
+<unit id="7f5dabb2-80c9-4ff9-814f-de2831ad225b">
 <notes>
 <note appliesTo="source">line: 47</note>
 </notes>
@@ -605,7 +610,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>The following commands are not assigned by default; if you wish to assign them, use Input Gestures dialog to add custom commands. To do so, from Studio window, open NVDA menu, Preferences, then Input Gestures. Expand StationPlaylist category, then locate unassigned commands from the list below and select "Add", then type the gesture you wish to use.</source>
 </segment>
 </unit>
-<unit id="77885bb9-5e4e-43f5-995f-d142e2fd065e">
+<unit id="c7505fee-aa01-4390-8de9-85128ed855c7">
 <notes>
 <note appliesTo="source">line: 49</note>
 </notes>
@@ -613,7 +618,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Important: some of these commands will not work if NVDA is running in secure mode such as from login screen. Not all commands support speak on demand.</source>
 </segment>
 </unit>
-<unit id="1894ffcf-584b-4d8e-bab2-c22b7f686e65">
+<unit id="5311fb20-f582-40f6-af11-b672d07e706f">
 <notes>
 <note appliesTo="source">line: 51</note>
 <note appliesTo="source">prefix: * </note>
@@ -622,7 +627,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Switching to SPL Studio window from any program (unavailable in secure mode, does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="65564ae7-9473-4d47-a6ea-1b4ebdd28b78">
+<unit id="3698b48f-5105-4b16-8cb6-e00e75e1e3a9">
 <notes>
 <note appliesTo="source">line: 52</note>
 <note appliesTo="source">prefix: * </note>
@@ -631,7 +636,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>SPL Controller layer (unavailable in secure mode).</source>
 </segment>
 </unit>
-<unit id="c5d90e76-9572-4966-a87f-bc60276c6222">
+<unit id="b5351457-9e8a-4233-a4c4-e9bb7633228f">
 <notes>
 <note appliesTo="source">line: 53</note>
 <note appliesTo="source">prefix: * </note>
@@ -640,7 +645,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Announcing Studio status such as track playback from other programs (unavailable in secure mode).</source>
 </segment>
 </unit>
-<unit id="3bc28e53-e9dd-418a-8f2f-71b549ce3774">
+<unit id="b817f2b1-03aa-4572-a088-d7661ceaa11b">
 <notes>
 <note appliesTo="source">line: 54</note>
 <note appliesTo="source">prefix: * </note>
@@ -649,7 +654,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Announcing encoder connection status from any program (unavailable in secure mode).</source>
 </segment>
 </unit>
-<unit id="aff4d045-b689-4f20-a0f6-564b0cf9cd48">
+<unit id="a60d2892-d188-4c89-9636-62af419e1d01">
 <notes>
 <note appliesTo="source">line: 55</note>
 <note appliesTo="source">prefix: * </note>
@@ -658,7 +663,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>SPL Assistant layer from SPL Studio.</source>
 </segment>
 </unit>
-<unit id="535bcd23-e82d-4f98-9122-c2d1f98a6bd3">
+<unit id="206b2264-1232-452d-9fde-c87fca98ed96">
 <notes>
 <note appliesTo="source">line: 56</note>
 <note appliesTo="source">prefix: * </note>
@@ -667,7 +672,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Announce time including seconds from SPL Studio.</source>
 </segment>
 </unit>
-<unit id="d0418467-f436-44ae-9a69-7e702ce9df73">
+<unit id="a88995a4-f93c-4543-865b-12dd8c11ca24">
 <notes>
 <note appliesTo="source">line: 57</note>
 <note appliesTo="source">prefix: * </note>
@@ -676,7 +681,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Announcing temperature.</source>
 </segment>
 </unit>
-<unit id="e7272c7a-cc33-4497-b8c7-7c293dcb77dd">
+<unit id="ddd115cf-a1cc-48c7-9f60-92e79ca75366">
 <notes>
 <note appliesTo="source">line: 58</note>
 <note appliesTo="source">prefix: * </note>
@@ -685,7 +690,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Announcing title of next track if scheduled.</source>
 </segment>
 </unit>
-<unit id="3d01be0b-7759-4b1b-85cb-9de06f3f206c">
+<unit id="88e3428b-47fc-4dd7-b320-1b248d6b7d91">
 <notes>
 <note appliesTo="source">line: 59</note>
 <note appliesTo="source">prefix: * </note>
@@ -694,7 +699,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Announcing title of the currently playing track.</source>
 </segment>
 </unit>
-<unit id="93cdfb6d-0c66-417f-b1b6-d33474915e6f">
+<unit id="ad34274a-c8d5-4c08-9d13-120b084bfe29">
 <notes>
 <note appliesTo="source">line: 60</note>
 <note appliesTo="source">prefix: * </note>
@@ -703,7 +708,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Marking current track for start of track time analysis.</source>
 </segment>
 </unit>
-<unit id="5cae27ab-6307-46d0-8b7a-3ee89b241cd6">
+<unit id="3b399358-c37b-455d-b268-000334ee0605">
 <notes>
 <note appliesTo="source">line: 61</note>
 <note appliesTo="source">prefix: * </note>
@@ -712,7 +717,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Performing track time analysis.</source>
 </segment>
 </unit>
-<unit id="eb3b75a9-e71b-43ab-a79a-237e58db4643">
+<unit id="22cc61fb-666e-44f0-99b4-a2ffb9cda984">
 <notes>
 <note appliesTo="source">line: 62</note>
 <note appliesTo="source">prefix: * </note>
@@ -721,7 +726,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Take playlist snapshots.</source>
 </segment>
 </unit>
-<unit id="71d6c2f5-6cc5-462e-a473-0ba1a9aa3349">
+<unit id="d9c33be0-9160-46cf-a401-5aa245eded13">
 <notes>
 <note appliesTo="source">line: 63</note>
 <note appliesTo="source">prefix: * </note>
@@ -730,7 +735,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Find text in specific columns (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="f360a4e7-a98c-45a2-8066-cfa65ddf7190">
+<unit id="3a6020c3-b4ee-4668-b540-bcf978691b39">
 <notes>
 <note appliesTo="source">line: 64</note>
 <note appliesTo="source">prefix: * </note>
@@ -739,7 +744,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Find tracks with duration that falls within a given range via time range finder (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="62c5c974-82e5-4be0-be76-4ba28a2407f0">
+<unit id="c98cff34-b677-47d4-8b97-7cfa53a16841">
 <notes>
 <note appliesTo="source">line: 65</note>
 <note appliesTo="source">prefix: * </note>
@@ -748,7 +753,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Quickly enable or disable metadata streaming (does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="725c6644-4d27-4b58-a328-e175d96cc545">
+<unit id="8a6485c0-bce3-4b14-88bc-d778c19cd5fa">
 <notes>
 <note appliesTo="source">line: 67</note>
 <note appliesTo="source">prefix: ## </note>
@@ -757,7 +762,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Additional commands when using encoders</source>
 </segment>
 </unit>
-<unit id="2e00b09f-ef9d-4d61-8658-420099494bbc">
+<unit id="c8ca957b-15a3-4234-8cda-28dddb2d0f06">
 <notes>
 <note appliesTo="source">line: 69</note>
 </notes>
@@ -765,7 +770,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>The following commands are available when using encoders, and the ones used for toggling options for on-connection behavior such as focusing to Studio, playing the first track, and toggling of background monitoring can be assigned through the Input Gestures dialog in NVDA menu, Preferences, Input Gestures, under the StationPlaylist category. These commands do not support speak on demand.</source>
 </segment>
 </unit>
-<unit id="6c207b66-8bc1-4462-82ca-8a4cb426743c">
+<unit id="ef64d770-a622-4b2d-b212-86bd2b8234b0">
 <notes>
 <note appliesTo="source">line: 71</note>
 <note appliesTo="source">prefix: * </note>
@@ -774,7 +779,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F9: connect the selected encoder.</source>
 </segment>
 </unit>
-<unit id="8f67590c-7fc5-4a60-82f5-b710f166f6e7">
+<unit id="e13fbdff-c731-422f-9d67-c8310def84fb">
 <notes>
 <note appliesTo="source">line: 72</note>
 <note appliesTo="source">prefix: * </note>
@@ -783,7 +788,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F10 (SAM encoder only): Disconnect the selected encoder.</source>
 </segment>
 </unit>
-<unit id="b0937207-aa36-4aa5-89f9-8f22a1577116">
+<unit id="6e3a290a-8aae-4360-90d2-88e79b29b19b">
 <notes>
 <note appliesTo="source">line: 73</note>
 <note appliesTo="source">prefix: * </note>
@@ -792,7 +797,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+F9: Connect all encoders.</source>
 </segment>
 </unit>
-<unit id="15e37747-7f86-4098-92b5-5e737b7307cf">
+<unit id="8911a400-9e1f-4ea7-aed1-fd46f1309bae">
 <notes>
 <note appliesTo="source">line: 74</note>
 <note appliesTo="source">prefix: * </note>
@@ -801,7 +806,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+F10 (SAM encoder only): Disconnect all encoders.</source>
 </segment>
 </unit>
-<unit id="51828fa3-3bbb-4f09-848d-20ce9fa12b1d">
+<unit id="858286c6-d072-4cd1-b833-19d659bb3445">
 <notes>
 <note appliesTo="source">line: 75</note>
 <note appliesTo="source">prefix: * </note>
@@ -810,7 +815,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the selected encoder if connected.</source>
 </segment>
 </unit>
-<unit id="94115786-f844-4c8d-ac44-36289752f556">
+<unit id="8ff64bb0-010a-4f4b-9acf-dc728d1f8304">
 <notes>
 <note appliesTo="source">line: 76</note>
 <note appliesTo="source">prefix: * </note>
@@ -819,7 +824,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+F11: Toggles whether Studio will play the first selected track when encoder is connected to a streaming server.</source>
 </segment>
 </unit>
-<unit id="7feb5587-ad9c-47d9-a8ba-b7f1b9e893c8">
+<unit id="1f748659-f3a8-463e-8a9b-f94564be7ea5">
 <notes>
 <note appliesTo="source">line: 77</note>
 <note appliesTo="source">prefix: * </note>
@@ -828,7 +833,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+F11: Toggles background monitoring of the selected encoder.</source>
 </segment>
 </unit>
-<unit id="0ffa653b-9d70-4ec2-9ff6-050f905a7e76">
+<unit id="01a39baf-f9c0-4204-87e0-08ddba0f04d2">
 <notes>
 <note appliesTo="source">line: 78</note>
 <note appliesTo="source">prefix: * </note>
@@ -837,7 +842,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+F12: opens a dialog to select the encoder you have deleted (to realign encoder labels and settings).</source>
 </segment>
 </unit>
-<unit id="90cb132c-c08e-4091-bbff-6090d55e467e">
+<unit id="4955a259-fab5-45f6-9932-1c1a0406c595">
 <notes>
 <note appliesTo="source">line: 79</note>
 <note appliesTo="source">prefix: * </note>
@@ -846,7 +851,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such as encoder label.</source>
 </segment>
 </unit>
-<unit id="137c8b4c-9c79-4063-9e17-0e09d2f6a799">
+<unit id="6d1f1886-dfd7-448a-aa0c-dc8917081316">
 <notes>
 <note appliesTo="source">line: 81</note>
 </notes>
@@ -854,7 +859,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>In addition, column review commands are available, including (supports speak on demand):</source>
 </segment>
 </unit>
-<unit id="66f21996-bddc-44e6-baa0-157e00678948">
+<unit id="669493ad-f0bf-4a93-8a62-73e10046565c">
 <notes>
 <note appliesTo="source">line: 83</note>
 <note appliesTo="source">prefix: * </note>
@@ -863,7 +868,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+1: Encoder position.</source>
 </segment>
 </unit>
-<unit id="c5605f9a-fec9-42ae-a1c4-3d9a7590b998">
+<unit id="afaa4cfb-eb06-4df7-99ba-87a1615db6f9">
 <notes>
 <note appliesTo="source">line: 84</note>
 <note appliesTo="source">prefix: * </note>
@@ -872,7 +877,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+2: encoder label.</source>
 </segment>
 </unit>
-<unit id="69e73891-fdd8-4506-81f0-72b712557fd5">
+<unit id="28df10b5-fe68-476d-a884-bc3d21ade336">
 <notes>
 <note appliesTo="source">line: 85</note>
 <note appliesTo="source">prefix: * </note>
@@ -881,7 +886,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+3 from SAM Encoder: Encoder format.</source>
 </segment>
 </unit>
-<unit id="5b4cb471-be17-4cb5-a3f2-cc3a63a65fca">
+<unit id="3940a103-5589-46c9-b28e-21bea8ccbdc2">
 <notes>
 <note appliesTo="source">line: 86</note>
 <note appliesTo="source">prefix: * </note>
@@ -890,7 +895,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings.</source>
 </segment>
 </unit>
-<unit id="0853d713-7058-4ef4-8d3f-91d7876fbc89">
+<unit id="af85d686-0962-4962-ade8-bd2aa20bb8b3">
 <notes>
 <note appliesTo="source">line: 87</note>
 <note appliesTo="source">prefix: * </note>
@@ -899,7 +904,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+4 from SAM Encoder: Encoder connection status.</source>
 </segment>
 </unit>
-<unit id="2527d688-5c42-473c-bbd5-72ffe4c4a4df">
+<unit id="6b0808fa-4240-4d2b-8dca-0af60a5e82fc">
 <notes>
 <note appliesTo="source">line: 88</note>
 <note appliesTo="source">prefix: * </note>
@@ -908,7 +913,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection status.</source>
 </segment>
 </unit>
-<unit id="b06289b6-0b7d-4c05-a377-4587b3b7ce48">
+<unit id="8b2b99a2-1cf3-494e-96e6-00cae61535ec">
 <notes>
 <note appliesTo="source">line: 89</note>
 <note appliesTo="source">prefix: * </note>
@@ -917,7 +922,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+NVDA+5 from SAM Encoder: Connection status description.</source>
 </segment>
 </unit>
-<unit id="c882d722-9d85-4164-9de1-2ace32242efe">
+<unit id="680465a8-fca9-4c23-bc67-8fbe0c92ec8a">
 <notes>
 <note appliesTo="source">line: 91</note>
 <note appliesTo="source">prefix: ## </note>
@@ -926,7 +931,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>SPL Assistant layer</source>
 </segment>
 </unit>
-<unit id="5bc3cf9d-a527-42d2-b7e0-16d0d6501775">
+<unit id="549fff33-40c8-40b9-b944-3fe23a9784d8">
 <notes>
 <note appliesTo="source">line: 93</note>
 </notes>
@@ -934,7 +939,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>This layer command set allows you to obtain various status on SPL Studio, such as whether a track is playing, total duration of all tracks for the hour and so on. From any SPL Studio window, press the SPL Assistant layer command, then press one of the keys from the list below (one or more commands are exclusive to playlist viewer). You can also configure NVDA to emulate commands from other screen readers.</source>
 </segment>
 </unit>
-<unit id="3fcbc068-3bd8-4069-b7a9-63d6e412c665">
+<unit id="a4843632-2388-45d1-8e88-68c834d8e500">
 <notes>
 <note appliesTo="source">line: 95</note>
 </notes>
@@ -942,7 +947,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>The available commands are (most commands support speak on demand):</source>
 </segment>
 </unit>
-<unit id="605e9c64-6d27-40e0-89d7-3759a82d5dfb">
+<unit id="963e7b60-bc02-473c-8d0c-1de7adb27d4f">
 <notes>
 <note appliesTo="source">line: 97</note>
 <note appliesTo="source">prefix: * </note>
@@ -951,7 +956,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>A: Automation.</source>
 </segment>
 </unit>
-<unit id="541410e1-5b75-4322-a342-3fc32e725369">
+<unit id="82c2bb2e-14be-42bc-8dec-7be9199b9625">
 <notes>
 <note appliesTo="source">line: 98</note>
 <note appliesTo="source">prefix: * </note>
@@ -960,7 +965,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>C (Shift+C  in JAWS layout): Title for the currently playing track.</source>
 </segment>
 </unit>
-<unit id="d8b64723-7bc2-42a5-9230-d9dde620720d">
+<unit id="b982d6aa-0b7a-4fba-b08d-5b1875b6ccf8">
 <notes>
 <note appliesTo="source">line: 99</note>
 <note appliesTo="source">prefix: * </note>
@@ -969,7 +974,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>C (JAWS layout): Toggle cart explorer (playlist viewer only, does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="fe6ecdcd-a65c-4a14-8aa8-d8b631c3ec80">
+<unit id="7bf314cf-4fe7-4af9-a413-bcebc0e2ffef">
 <notes>
 <note appliesTo="source">line: 100</note>
 <note appliesTo="source">prefix: * </note>
@@ -978,7 +983,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>D (R in JAWS layout): Remaining duration for the playlist (if an error message is given, move to playlist viewer and then issue this command).</source>
 </segment>
 </unit>
-<unit id="e63670af-3c65-4dc5-9f18-cb62db166832">
+<unit id="91fa58df-af9e-4acf-8f52-4976ac6ad50e">
 <notes>
 <note appliesTo="source">line: 101</note>
 <note appliesTo="source">prefix: * </note>
@@ -987,7 +992,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+D (Studio 6.10 and later): Control keys enabled/disabled.</source>
 </segment>
 </unit>
-<unit id="befabed3-e8a5-45c7-8864-be7850cf9c3b">
+<unit id="8f41d2c5-06fc-4fbe-833e-e2cfb8c37918">
 <notes>
 <note appliesTo="source">line: 102</note>
 <note appliesTo="source">prefix: * </note>
@@ -996,7 +1001,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>E: Metadata streaming status.</source>
 </segment>
 </unit>
-<unit id="d0c078ca-8a11-4dbd-ab72-ee44ac56bf9f">
+<unit id="5309a265-360a-401b-a913-bd4745ce1938">
 <notes>
 <note appliesTo="source">line: 103</note>
 <note appliesTo="source">prefix: * </note>
@@ -1005,7 +1010,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+1 through Shift+4, Shift+0: Status for individual metadata streaming URL's (0 is for DSP encoder).</source>
 </segment>
 </unit>
-<unit id="5e709946-cf7f-4d05-9ce0-6286fc728cf0">
+<unit id="a55cadfc-a4a2-483a-bcc0-a3779fa7c069">
 <notes>
 <note appliesTo="source">line: 104</note>
 <note appliesTo="source">prefix: * </note>
@@ -1014,7 +1019,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F: Find track (playlist viewer only, does not support speak on demand).</source>
 </segment>
 </unit>
-<unit id="edeb1789-4a87-4c9c-9dc0-2f67a2d4e963">
+<unit id="c8e24fd1-74ef-4ca6-a8fa-8fcee3e0611f">
 <notes>
 <note appliesTo="source">line: 105</note>
 <note appliesTo="source">prefix: * </note>
@@ -1023,7 +1028,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>H: Duration of music for the current hour slot.</source>
 </segment>
 </unit>
-<unit id="83cd08f8-a7ce-46a5-849a-e45174c47be7">
+<unit id="ab2071a0-248e-48b1-81d0-38b43f811c31">
 <notes>
 <note appliesTo="source">line: 106</note>
 <note appliesTo="source">prefix: * </note>
@@ -1032,7 +1037,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+H: Remaining track duration for the hour slot.</source>
 </segment>
 </unit>
-<unit id="e9ba6e0a-4ab9-46c3-b329-6b9aba6ff9b6">
+<unit id="f909110f-fc38-4970-a133-ed0ddc03d8ef">
 <notes>
 <note appliesTo="source">line: 107</note>
 <note appliesTo="source">prefix: * </note>
@@ -1041,7 +1046,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>I (L in JAWS layout): Listener count.</source>
 </segment>
 </unit>
-<unit id="20642214-df4b-45e7-9da6-af35bedf3fdc">
+<unit id="e0985e8b-660c-4f32-a791-32bce4313e2d">
 <notes>
 <note appliesTo="source">line: 108</note>
 <note appliesTo="source">prefix: * </note>
@@ -1050,7 +1055,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>K: Move to the marked track (playlist viewer only).</source>
 </segment>
 </unit>
-<unit id="9853b719-2c9e-4b7b-a939-6535e2148fae">
+<unit id="a88e71bc-5914-4048-be2d-c4d7f0d062d5">
 <notes>
 <note appliesTo="source">line: 109</note>
 <note appliesTo="source">prefix: * </note>
@@ -1059,7 +1064,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Control+K: Set the current track as the place marker track (playlist viewer only).</source>
 </segment>
 </unit>
-<unit id="e8999026-0d99-432f-8ad1-17c3b098e4a4">
+<unit id="6d4ebeea-7d5a-4a88-b889-1104f68fe391">
 <notes>
 <note appliesTo="source">line: 110</note>
 <note appliesTo="source">prefix: * </note>
@@ -1068,7 +1073,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>L (Shift+L in JAWS layout): Line in.</source>
 </segment>
 </unit>
-<unit id="6cc99f65-2d7b-485c-95a4-071b708542a4">
+<unit id="f87764c4-6b36-40ec-ba2a-d7c5e058c24b">
 <notes>
 <note appliesTo="source">line: 111</note>
 <note appliesTo="source">prefix: * </note>
@@ -1077,7 +1082,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>M: Microphone.</source>
 </segment>
 </unit>
-<unit id="663e4481-c9fa-4d12-bf3c-ac4fe24a4a58">
+<unit id="580987e8-e4b4-44f8-85ee-1fbc6198f276">
 <notes>
 <note appliesTo="source">line: 112</note>
 <note appliesTo="source">prefix: * </note>
@@ -1086,7 +1091,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>N: Title for the next scheduled track.</source>
 </segment>
 </unit>
-<unit id="cc1a4a9c-b244-4681-90b6-8ef8626bc5d3">
+<unit id="1da361f0-f840-4b69-8170-e1538369e03e">
 <notes>
 <note appliesTo="source">line: 113</note>
 <note appliesTo="source">prefix: * </note>
@@ -1095,7 +1100,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>O: Playlist hour over/under by.</source>
 </segment>
 </unit>
-<unit id="fc5a2e72-11b9-469e-951c-948c3f338039">
+<unit id="29ee8f72-cd89-4641-8f37-ae4343c6248d">
 <notes>
 <note appliesTo="source">line: 114</note>
 <note appliesTo="source">prefix: * </note>
@@ -1104,7 +1109,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>P: Playback status (playing or stopped).</source>
 </segment>
 </unit>
-<unit id="d9a94134-2352-4463-b5e8-2936733aae34">
+<unit id="e1ce13e7-ab04-4c55-a110-ddfa1e5a2f35">
 <notes>
 <note appliesTo="source">line: 115</note>
 <note appliesTo="source">prefix: * </note>
@@ -1113,7 +1118,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+P: Pitch of the current track.</source>
 </segment>
 </unit>
-<unit id="c8fc8e2a-e659-4f5e-ad22-d56316e2c579">
+<unit id="57ff480c-190a-435d-bbd5-328928952b93">
 <notes>
 <note appliesTo="source">line: 116</note>
 <note appliesTo="source">prefix: * </note>
@@ -1122,7 +1127,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>R (Shift+E in JAWS layout): Record to file enabled/disabled.</source>
 </segment>
 </unit>
-<unit id="2f121ddf-8470-43b5-b403-d9ed94fe84c9">
+<unit id="0ff416bc-a505-4d40-bffa-8d4574912134">
 <notes>
 <note appliesTo="source">line: 117</note>
 <note appliesTo="source">prefix: * </note>
@@ -1131,7 +1136,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+R: Monitor library scan in progress.</source>
 </segment>
 </unit>
-<unit id="1bbd5c25-930b-40a7-a30c-ef5939847c7a">
+<unit id="6151e1a5-c6e5-491f-9ab9-bb77ad045afa">
 <notes>
 <note appliesTo="source">line: 118</note>
 <note appliesTo="source">prefix: * </note>
@@ -1140,7 +1145,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>S: Track starts (scheduled).</source>
 </segment>
 </unit>
-<unit id="38a46397-36bd-480a-8aca-751d4b69501c">
+<unit id="97970319-3c76-4e25-a3c9-281c2f924954">
 <notes>
 <note appliesTo="source">line: 119</note>
 <note appliesTo="source">prefix: * </note>
@@ -1149,7 +1154,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+S: Time until selected track will play (track starts in).</source>
 </segment>
 </unit>
-<unit id="08e65717-458c-4011-b62a-d1c9d194737e">
+<unit id="74b3a495-2b49-4eaa-a919-ef64f6ff213d">
 <notes>
 <note appliesTo="source">line: 120</note>
 <note appliesTo="source">prefix: * </note>
@@ -1158,7 +1163,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>T: Cart edit/insert mode on/off.</source>
 </segment>
 </unit>
-<unit id="bad961ab-db80-481b-a3d8-a38f9e349d6d">
+<unit id="99f68b16-a795-43dc-8bff-68da4e3d33e2">
 <notes>
 <note appliesTo="source">line: 121</note>
 <note appliesTo="source">prefix: * </note>
@@ -1167,7 +1172,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>U: Studio up time.</source>
 </segment>
 </unit>
-<unit id="1fca58bc-2341-4680-8679-22db8dfe4eb4">
+<unit id="958aec28-f027-4977-9371-979f8ccf2757">
 <notes>
 <note appliesTo="source">line: 122</note>
 <note appliesTo="source">prefix: * </note>
@@ -1176,7 +1181,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>W: Weather and temperature if configured.</source>
 </segment>
 </unit>
-<unit id="206a94f2-ba25-4eed-9c29-ff32814978c1">
+<unit id="c4e70077-3cdd-438f-9f9c-6a776a9627a7">
 <notes>
 <note appliesTo="source">line: 123</note>
 <note appliesTo="source">prefix: * </note>
@@ -1185,7 +1190,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Y: Playlist modified status.</source>
 </segment>
 </unit>
-<unit id="6c79c37d-0cdd-4fd4-a146-0ee08ff2b05d">
+<unit id="3befcde5-7c81-4880-8ceb-d27ce52dc11a">
 <notes>
 <note appliesTo="source">line: 124</note>
 <note appliesTo="source">prefix: * </note>
@@ -1194,7 +1199,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F8: Take playlist snapshots (number of tracks, longest track, etc.).</source>
 </segment>
 </unit>
-<unit id="c9117100-0c66-4fe4-b8b2-5816f9bea6d8">
+<unit id="a8b21f4b-874f-433a-87c4-8d7ce4dbab4c">
 <notes>
 <note appliesTo="source">line: 125</note>
 <note appliesTo="source">prefix: * </note>
@@ -1203,7 +1208,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+F8: Request playlist transcripts in numerous formats.</source>
 </segment>
 </unit>
-<unit id="2c24326a-de45-45bd-b6d2-444363d136c0">
+<unit id="6deb6606-9a3a-498e-b72f-60e4041775a7">
 <notes>
 <note appliesTo="source">line: 126</note>
 <note appliesTo="source">prefix: * </note>
@@ -1212,7 +1217,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F9: Mark current track for start of playlist analysis (playlist viewer only).</source>
 </segment>
 </unit>
-<unit id="33d11718-9f71-4d05-945c-6cb83d529ce6">
+<unit id="83b2c947-e5f5-4696-8145-89bd1963939a">
 <notes>
 <note appliesTo="source">line: 127</note>
 <note appliesTo="source">prefix: * </note>
@@ -1221,7 +1226,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F10: Perform track time analysis (playlist viewer only).</source>
 </segment>
 </unit>
-<unit id="78dee10c-3a11-4448-9494-b2461ccf2be8">
+<unit id="571d270e-13f7-430e-aa80-9fab07ce70b7">
 <notes>
 <note appliesTo="source">line: 128</note>
 <note appliesTo="source">prefix: * </note>
@@ -1230,7 +1235,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F12: Switch between current and a predefined profile.</source>
 </segment>
 </unit>
-<unit id="ed864a88-9918-47a9-bff5-c13907bd6cc6">
+<unit id="a8dba112-1ec5-4c3a-9896-02e67c114a27">
 <notes>
 <note appliesTo="source">line: 129</note>
 <note appliesTo="source">prefix: * </note>
@@ -1239,7 +1244,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>F1: Layer help.</source>
 </segment>
 </unit>
-<unit id="57561bcb-9a62-49e0-8bd2-7dbab9be79ce">
+<unit id="bc992ea5-29b6-4a39-be12-191a8655bd85">
 <notes>
 <note appliesTo="source">line: 131</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1248,7 +1253,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>SPL Controller</source>
 </segment>
 </unit>
-<unit id="69f8cbb7-0ea2-4c36-93da-1781882d6834">
+<unit id="ea10cc0a-4229-4206-9f44-da1e2b3bb206">
 <notes>
 <note appliesTo="source">line: 133</note>
 </notes>
@@ -1256,7 +1261,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>The SPL Controller is a set of layered commands you can use to control SPL Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "SPL Controller." Press another command to control various Studio settings such as microphone on/off or play the next track. You can also configure NVDA to enter SPL Assistant layer (see above) by pressing SPL Controller layer command (passthrough mode, enabled by default).</source>
 </segment>
 </unit>
-<unit id="c79f4374-72e7-4f93-9f1f-8695e8720a63">
+<unit id="86b93b5f-4742-40af-a25a-70d2e15a856f">
 <notes>
 <note appliesTo="source">line: 135</note>
 </notes>
@@ -1264,7 +1269,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Important: SPL Controller layer commands are disabled if NVDA is running in secure mode.</source>
 </segment>
 </unit>
-<unit id="8adf38ba-28b0-47a2-904a-77fca8f144dc">
+<unit id="55d7986a-d8de-4696-a2e7-3e92705d021b">
 <notes>
 <note appliesTo="source">line: 137</note>
 </notes>
@@ -1272,7 +1277,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Outside of Studio, the available SPL Controller commands are (some commands support speak on demand):</source>
 </segment>
 </unit>
-<unit id="ca4b9cb8-7058-431e-84bf-93304c68993a">
+<unit id="6db298f5-59dc-4871-9f34-3d21bc92f85b">
 <notes>
 <note appliesTo="source">line: 139</note>
 <note appliesTo="source">prefix: * </note>
@@ -1281,7 +1286,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>P: Play the next selected track.</source>
 </segment>
 </unit>
-<unit id="8edac86a-1b4d-4c66-8ec3-527ef267e1ec">
+<unit id="960067fc-0cbd-4493-8c91-a684440dadec">
 <notes>
 <note appliesTo="source">line: 140</note>
 <note appliesTo="source">prefix: * </note>
@@ -1290,7 +1295,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>U: Pause or unpause playback.</source>
 </segment>
 </unit>
-<unit id="8b6e876a-dc61-426f-8775-a3382aef6536">
+<unit id="8fb2d95b-d9af-468e-b900-b6342bce80fa">
 <notes>
 <note appliesTo="source">line: 141</note>
 <note appliesTo="source">prefix: * </note>
@@ -1299,7 +1304,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>S: Stop the track with fade out.</source>
 </segment>
 </unit>
-<unit id="87c086fd-a8dc-43da-8d60-3ce4bc00b790">
+<unit id="bac9ae2d-05b2-4a82-8c1f-6092f9bee534">
 <notes>
 <note appliesTo="source">line: 142</note>
 <note appliesTo="source">prefix: * </note>
@@ -1308,7 +1313,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>T: Instant stop.</source>
 </segment>
 </unit>
-<unit id="35028bd5-ba9e-4880-bece-60f7283f6788">
+<unit id="772f1ed3-a561-4f6d-9b22-183d047b6084">
 <notes>
 <note appliesTo="source">line: 143</note>
 <note appliesTo="source">prefix: * </note>
@@ -1317,7 +1322,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>M: Turn on microphone.</source>
 </segment>
 </unit>
-<unit id="ff27884d-9553-4cb1-b12c-82b88d63d37a">
+<unit id="c572c143-2e50-4970-9056-b1f85d22b3ad">
 <notes>
 <note appliesTo="source">line: 144</note>
 <note appliesTo="source">prefix: * </note>
@@ -1326,7 +1331,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+M: Turn off microphone.</source>
 </segment>
 </unit>
-<unit id="19647ac9-20af-4e28-9db2-aa2e5782d8fe">
+<unit id="873a21b9-8cd2-49db-aa9b-5ff3f2fbaab5">
 <notes>
 <note appliesTo="source">line: 145</note>
 <note appliesTo="source">prefix: * </note>
@@ -1335,7 +1340,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>N: Turn microphone on without fade.</source>
 </segment>
 </unit>
-<unit id="69cbf1f0-ad67-4f93-8415-dd258abab0f7">
+<unit id="67be1375-6a81-44a7-a3e1-08253f7bd1bf">
 <notes>
 <note appliesTo="source">line: 146</note>
 <note appliesTo="source">prefix: * </note>
@@ -1344,7 +1349,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>A: Turn on automation.</source>
 </segment>
 </unit>
-<unit id="eff03626-d713-4361-9fe8-14e2baa30e66">
+<unit id="8507eb69-3a5f-4055-87b1-40c5664a882c">
 <notes>
 <note appliesTo="source">line: 147</note>
 <note appliesTo="source">prefix: * </note>
@@ -1353,7 +1358,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+A: Turn off automation.</source>
 </segment>
 </unit>
-<unit id="a081b3b2-dfbb-43f1-bf6a-ee2c07ac61ea">
+<unit id="bb40ef0c-9005-4ee5-a475-e2e2918c2b60">
 <notes>
 <note appliesTo="source">line: 148</note>
 <note appliesTo="source">prefix: * </note>
@@ -1362,7 +1367,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>L: Turn on line-in input.</source>
 </segment>
 </unit>
-<unit id="4363f85d-b528-4763-b226-8a24f313c67e">
+<unit id="dca8cb43-8f5c-4226-8c86-57e0c7a4c53b">
 <notes>
 <note appliesTo="source">line: 149</note>
 <note appliesTo="source">prefix: * </note>
@@ -1371,7 +1376,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+L: Turn off line-in input.</source>
 </segment>
 </unit>
-<unit id="3375895f-5591-4546-bb35-5f2413c91315">
+<unit id="d6b73c6f-f5fa-4602-a58d-d816a9be20d9">
 <notes>
 <note appliesTo="source">line: 150</note>
 <note appliesTo="source">prefix: * </note>
@@ -1380,7 +1385,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>R: Remaining time for the currently playing track.</source>
 </segment>
 </unit>
-<unit id="c17b438a-a4ad-439d-9b35-893344ce7ae9">
+<unit id="4457c4ec-f866-43da-a999-ed566359d0b1">
 <notes>
 <note appliesTo="source">line: 151</note>
 <note appliesTo="source">prefix: * </note>
@@ -1389,7 +1394,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+R: Library scan progress.</source>
 </segment>
 </unit>
-<unit id="8a5ddd30-aafe-4a33-aaf5-c05f26be0cd8">
+<unit id="fb6c4ff9-96ee-413b-adde-8d4d31a0f4de">
 <notes>
 <note appliesTo="source">line: 152</note>
 <note appliesTo="source">prefix: * </note>
@@ -1398,7 +1403,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>C: Title and duration of the currently playing track (supports speak on demand).</source>
 </segment>
 </unit>
-<unit id="892dbd55-0e58-4c13-9485-3f0574c540f4">
+<unit id="28263618-d9f8-4654-8cc6-e215e4ced9eb">
 <notes>
 <note appliesTo="source">line: 153</note>
 <note appliesTo="source">prefix: * </note>
@@ -1407,7 +1412,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Shift+C: Title and duration of the upcoming track if any (supports speak on demand).</source>
 </segment>
 </unit>
-<unit id="61dd1753-ffd9-4f6b-918d-d4661793974f">
+<unit id="9707aead-f7f5-460e-a464-d55e8f0dcd10">
 <notes>
 <note appliesTo="source">line: 154</note>
 <note appliesTo="source">prefix: * </note>
@@ -1416,7 +1421,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>E: Encoder connection status (supports speak on demand).</source>
 </segment>
 </unit>
-<unit id="d9fd9deb-1de3-4c1e-b792-22721ff66bb6">
+<unit id="6cb2bb26-380e-49fd-87e3-dc651a5e4f0e">
 <notes>
 <note appliesTo="source">line: 155</note>
 <note appliesTo="source">prefix: * </note>
@@ -1425,7 +1430,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>I: Listener count (supports speak on demand).</source>
 </segment>
 </unit>
-<unit id="2d167904-67ce-49fe-ad44-b2008af0b957">
+<unit id="62a58aab-3780-4476-abb1-ee9a94536752">
 <notes>
 <note appliesTo="source">line: 156</note>
 <note appliesTo="source">prefix: * </note>
@@ -1434,7 +1439,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Q: Studio status information such as whether a track is playing, microphone is on and others (supports speak on demand).</source>
 </segment>
 </unit>
-<unit id="093227db-ba43-4a73-8860-91c05f37ad12">
+<unit id="c4a9ee45-a0ed-46aa-bc5c-9692cc2545aa">
 <notes>
 <note appliesTo="source">line: 157</note>
 <note appliesTo="source">prefix: * </note>
@@ -1443,7 +1448,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Cart keys (F1, Control+1, for example): Play assigned carts from anywhere.</source>
 </segment>
 </unit>
-<unit id="39c09a59-b6ad-4d04-af06-892196f84e70">
+<unit id="78f1d29d-8bc3-488e-b955-680bbb941109">
 <notes>
 <note appliesTo="source">line: 158</note>
 <note appliesTo="source">prefix: * </note>
@@ -1452,7 +1457,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>H: Layer help.</source>
 </segment>
 </unit>
-<unit id="b6c2b8ab-211d-4b12-aa7b-9bb17dc342f8">
+<unit id="32d61dd0-ae47-4b5a-bf98-d03d384963d2">
 <notes>
 <note appliesTo="source">line: 160</note>
 </notes>
@@ -1460,7 +1465,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>From inside Studio, SPL Controller layer command will invoke SPL Assistant layer by default.</source>
 </segment>
 </unit>
-<unit id="bb591ff9-8f32-4fcb-9cad-2a79e85658ce">
+<unit id="82ef35f1-f123-43a3-9764-35a837e3195e">
 <notes>
 <note appliesTo="source">line: 162</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1469,7 +1474,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Track and microphone alarms</source>
 </segment>
 </unit>
-<unit id="a48f9694-cb47-4968-adad-11d67210527a">
+<unit id="f4d0b172-c357-40e8-964b-8e846203e9af">
 <notes>
 <note appliesTo="source">line: 164</note>
 </notes>
@@ -1477,7 +1482,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>By default, NVDA will play a beep if five seconds are left in the track (outro) and/or intro, as well as to hear a beep if microphone has been active for a while. To configure track and microphone alarms, press Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can also use this screen to configure if you'll hear a beep, a message or both when alarms are turned on.</source>
 </segment>
 </unit>
-<unit id="469828fa-f82a-4517-9ded-b4881ebfe09b">
+<unit id="6a202ffb-3d07-4df3-889d-5e360c56f7c3">
 <notes>
 <note appliesTo="source">line: 166</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1486,7 +1491,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Track Finder</source>
 </segment>
 </unit>
-<unit id="c9634cd7-f854-4157-9e8d-173f690bcbad">
+<unit id="8d3f72b2-07a3-414e-92c4-28945a648fa3">
 <notes>
 <note appliesTo="source">line: 168</note>
 </notes>
@@ -1494,7 +1499,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>If you wish to quickly find a song by an artist or by song name, from track list, press Control+NVDA+F. Type or choose the name of the artist or the song name. NVDA will either place you at the song if found or will display an error if it cannot find the song you're looking for. To find a previously entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or backward.</source>
 </segment>
 </unit>
-<unit id="b22f8e7d-13dd-4fb5-80db-6b2eea0d8d38">
+<unit id="413a8df5-b7df-4b7a-ac46-38df005859be">
 <notes>
 <note appliesTo="source">line: 170</note>
 </notes>
@@ -1502,7 +1507,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Note: Track Finder is case-sensitive.</source>
 </segment>
 </unit>
-<unit id="8a6617d1-fdb8-4136-9505-2fc6d228c8d7">
+<unit id="d69504b8-6e3b-4afd-9a7b-19f42cf07c0a">
 <notes>
 <note appliesTo="source">line: 172</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1511,7 +1516,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Cart Explorer</source>
 </segment>
 </unit>
-<unit id="5900a5ed-8662-4d25-80b3-f467fa33ca4d">
+<unit id="c456bb94-10c9-4ae7-946c-8aabccd72a65">
 <notes>
 <note appliesTo="source">line: 174</note>
 </notes>
@@ -1519,7 +1524,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Depending on edition, SPL Studio allows up to 96 carts to be assigned for playback. NVDA allows you to hear which cart, or jingle is assigned to these commands.</source>
 </segment>
 </unit>
-<unit id="5ce58cb3-dbf5-4f00-bd9c-d931dfd4393b">
+<unit id="59df5f12-f1fb-4576-8d12-2a097e6c3699">
 <notes>
 <note appliesTo="source">line: 176</note>
 </notes>
@@ -1527,7 +1532,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>To learn cart assignments, from SPL Studio, press Alt+NVDA+3. Pressing the cart command once will tell you which jingle is assigned to the command. Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to exit cart explorer. See the add-on guide for more information on cart explorer.</source>
 </segment>
 </unit>
-<unit id="9243d637-760e-479f-9f1b-abd31fa55298">
+<unit id="a5941d2b-64d3-42ad-a036-2a16a90bb6c2">
 <notes>
 <note appliesTo="source">line: 178</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1536,7 +1541,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Track time analysis</source>
 </segment>
 </unit>
-<unit id="0a86568b-ba9e-4164-b64c-866a6eaae903">
+<unit id="2dd6fbbe-00ab-475d-addf-6eb33749edc4">
 <notes>
 <note appliesTo="source">line: 180</note>
 </notes>
@@ -1544,7 +1549,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>To obtain length to play selected tracks, mark current track for start of track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when reaching end of selection.</source>
 </segment>
 </unit>
-<unit id="5560e357-63c3-49ae-a304-30ed1eac66fc">
+<unit id="47a58bef-07df-47d1-9dda-5ceb5833e554">
 <notes>
 <note appliesTo="source">line: 182</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1553,7 +1558,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Columns Explorer</source>
 </segment>
 </unit>
-<unit id="8eda1be8-4436-44e7-9028-124cd542f4d3">
+<unit id="91bfe46a-574b-4cfc-81a6-f9d4019b4775">
 <notes>
 <note appliesTo="source">line: 184</note>
 </notes>
@@ -1561,7 +1566,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>By pressing Control+NVDA+1 through 0, you can obtain contents of specific columns. By default, these are first ten columns for a track item (in Studio: artist, title, duration, intro, outro, category, year, album, genre, mood). In Studio, Creator's main track list and playlist editor, Track Tool, and Remote VT, column slots are preset regardless of column order on screen and can be configured from add-on settings dialog under columns explorer category.</source>
 </segment>
 </unit>
-<unit id="2551d0d1-e3e3-4e14-a9e0-3a5f2bfb1f4f">
+<unit id="1ad83e73-52f8-4674-8ea7-ce1a660b0b60">
 <notes>
 <note appliesTo="source">line: 186</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1570,7 +1575,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Track column announcement</source>
 </segment>
 </unit>
-<unit id="97ab784d-9d57-4074-b215-059c49d3802c">
+<unit id="e7459585-e6b7-46f2-9df0-23e0ca04ea4e">
 <notes>
 <note appliesTo="source">line: 188</note>
 </notes>
@@ -1578,7 +1583,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>You can ask NVDA to announce track columns found in Studio's playlist viewer in the order it appears on screen or using a custom order and/or exclude certain columns. Press NVDA+V to toggle this behavior while focused on a track in Studio's playlist viewer. To customize column inclusion and order, from column announcement settings panel in add-on settings, uncheck "Announce columns in the order shown on screen" and then customize included columns and/or column order.</source>
 </segment>
 </unit>
-<unit id="69587a5c-c0d4-4a41-a659-0d04e40a4c92">
+<unit id="98a8db02-27ea-4a01-b19c-1ce71681f77c">
 <notes>
 <note appliesTo="source">line: 190</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1587,7 +1592,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Playlist snapshots</source>
 </segment>
 </unit>
-<unit id="4481d947-538d-4b3b-ae75-7d395bfa74ca">
+<unit id="3eda18bd-7ea7-49e5-b872-96040cca5c8d">
 <notes>
 <note appliesTo="source">line: 192</note>
 </notes>
@@ -1595,7 +1600,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>You can press SPL Assistant, F8 while focused on a playlist in Studio to obtain various statistics about a playlist, including number of tracks in the playlist, longest track, top artists and so on. After assigning a custom command for this feature, pressing the custom command twice will cause NVDA to present playlist snapshot information as a webpage so you can use browse mode to navigate (press escape to close).</source>
 </segment>
 </unit>
-<unit id="e16e118f-b0fd-42c0-b329-e8eafbfc3a55">
+<unit id="534a1caa-c350-4729-9682-828bdb32f9ac">
 <notes>
 <note appliesTo="source">line: 194</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1604,7 +1609,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Playlist Transcripts</source>
 </segment>
 </unit>
-<unit id="a7b26f3a-b905-460a-a295-fd1f26fec559">
+<unit id="a54ac05b-efc0-4460-8f05-daf949f001f4">
 <notes>
 <note appliesTo="source">line: 196</note>
 </notes>
@@ -1612,7 +1617,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Pressing SPL Assistant, Shift+F8 will present a dialog to let you request playlist transcripts in numerous formats, including in a plain text format, an HTML table or a list.</source>
 </segment>
 </unit>
-<unit id="2b91bbab-2707-4712-bea5-a8b857514dfe">
+<unit id="3ea2ca71-be59-4a22-bbe4-931d44360585">
 <notes>
 <note appliesTo="source">line: 198</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1621,7 +1626,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Configuration dialog</source>
 </segment>
 </unit>
-<unit id="3a942f66-ceae-4145-95cd-a1c50651fc14">
+<unit id="d95a9d47-f1a3-484f-9f95-82fce2aa38c8">
 <notes>
 <note appliesTo="source">line: 200</note>
 </notes>
@@ -1629,7 +1634,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>From studio window, you can press Alt+NVDA+0 to open the add-on configuration dialog. Alternatively, go to NVDA's preferences menu and select SPL Studio Settings item. Not all settings are available if NVDA is running in secure mode.</source>
 </segment>
 </unit>
-<unit id="38302394-97e8-46b7-b7f4-49105f24582c">
+<unit id="6dd53e37-e747-4170-9c55-82fd4ad7f95a">
 <notes>
 <note appliesTo="source">line: 202</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1638,7 +1643,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>Broadcast profiles dialog</source>
 </segment>
 </unit>
-<unit id="c9d827c4-8c4b-4cb3-b8d6-5d1f2013c381">
+<unit id="511a640c-076c-48b6-8be9-ced995d7b446">
 <notes>
 <note appliesTo="source">line: 204</note>
 </notes>
@@ -1646,7 +1651,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>You can save settings for specific shows into broadcast profiles. These profiles can be managed via SPL broadcast profiles dialog which can be accessed by pressing Alt+NVDA+P from Studio window.</source>
 </segment>
 </unit>
-<unit id="79858b33-3dd7-4d42-a752-998314e7e3d2">
+<unit id="0ddf9adc-c679-4fb4-ace8-b33967d36ed8">
 <notes>
 <note appliesTo="source">line: 206</note>
 <note appliesTo="source">prefix: ## </note>
@@ -1655,7 +1660,7 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>SPL touch mode</source>
 </segment>
 </unit>
-<unit id="d34cd9b3-390a-4655-9ab9-7a163a556a58">
+<unit id="4b76fa09-0d87-423f-889f-078b5e4467cf">
 <notes>
 <note appliesTo="source">line: 208</note>
 </notes>
@@ -1663,473 +1668,500 @@ $(ID:c449dc7e-ac51-48d3-872a-177bf2d2c6a4)
 <source>If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.</source>
 </segment>
 </unit>
-<unit id="a1274a84-988f-441c-9eb6-26a4bd891d7a">
+<unit id="d4f937ce-ace9-43fd-a421-407a874bd10b">
 <notes>
 <note appliesTo="source">line: 210</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 25.11/25.06.7-LTS</source>
+</segment>
+</unit>
+<unit id="f485148f-c7ff-425f-95fe-f6795e47a926">
+<notes>
+<note appliesTo="source">line: 212</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>25.11: with debug logging enabled, NVDA will no longer record Studio API specific debug messages. A new command-line option (--spl-apidebug) was added to include Studio API debug messages and should be used as directed by add-on developers.</source>
+</segment>
+</unit>
+<unit id="45ff3eb7-4cd0-4e4f-bfb5-9b9c4597fc32">
+<notes>
+<note appliesTo="source">line: 213</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In Studio, search history in track finder (Control+NVDA+F) is replaced with a search edit field to align with NVDA's own find dialog experience.</source>
+</segment>
+</unit>
+<unit id="2d1c5646-2346-45ea-ae98-cc176eaaa73e">
+<notes>
+<note appliesTo="source">line: 215</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.09/25.06.6-LTS</source>
 </segment>
 </unit>
-<unit id="d57cfd95-bc69-4600-9d80-5ca29faffb63">
+<unit id="82f63c85-db94-4765-ba2b-fda3009b6387">
 <notes>
-<note appliesTo="source">line: 212</note>
+<note appliesTo="source">line: 217</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
-<source>25.09: NVDA 2025.1 or later is required.</source>
+<source>25.09: NVDA 2025.1.2 or later is required.</source>
 </segment>
 </unit>
-<unit id="e5a7b250-7d27-444c-9688-f2cf13fcf85c">
+<unit id="c9cdade6-c7d6-4fe7-9ae8-d98b9a3f268c">
 <notes>
-<note appliesTo="source">line: 213</note>
+<note appliesTo="source">line: 218</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio, search history in track finder (Control+NVDA+F) is deprecated and will be removed in a future release to align with NVDA's own find dialog experience.</source>
 </segment>
 </unit>
-<unit id="8aedaeef-5df5-42cc-8366-717c3eac5ed0">
+<unit id="2c3ef0d4-ee1d-4123-b012-6b8ef16c274e">
 <notes>
-<note appliesTo="source">line: 214</note>
+<note appliesTo="source">line: 219</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio, performing SPL Controller layer entry command will enter SPL Assistant layer, and the add-on setting to configure this option is checked by default for new installations.</source>
 </segment>
 </unit>
-<unit id="acf3c0af-9437-40b6-8f18-978e83d808f1">
+<unit id="ca709681-2565-438d-b771-67cc0a8e784c">
 <notes>
-<note appliesTo="source">line: 216</note>
+<note appliesTo="source">line: 221</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.08/25.06.5-LTS</source>
 </segment>
 </unit>
-<unit id="d318310c-80d4-4d99-9654-d12f2010876b">
+<unit id="a8b2e083-5cb2-4607-b71e-1c9857373377">
 <notes>
-<note appliesTo="source">line: 218</note>
+<note appliesTo="source">line: 223</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>25.08: removed unmaintained localizations (add-on messages and documentation).</source>
 </segment>
 </unit>
-<unit id="a80fb281-c10e-4c1c-89ee-93f0a993217e">
+<unit id="a64a8eb3-58d2-43c0-90b4-ff95af971ca9">
 <notes>
-<note appliesTo="source">line: 219</note>
+<note appliesTo="source">line: 224</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio, added two-finger flick left gesture in SPL touch mode to open SPL add-on settings.</source>
 </segment>
 </unit>
-<unit id="3dffbe1e-0284-4ed9-bfe4-82e9108536a3">
+<unit id="06a9c3b6-bd11-4788-bae6-53b2284af831">
 <notes>
-<note appliesTo="source">line: 220</note>
+<note appliesTo="source">line: 225</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Removed "Status" from vertical column navigation options.</source>
 </segment>
 </unit>
-<unit id="13a9f399-5605-4e74-af85-10921dfb3635">
+<unit id="d2b950ca-5b4c-4566-aed2-29d071cc6ab1">
 <notes>
-<note appliesTo="source">line: 221</note>
+<note appliesTo="source">line: 226</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In columns explorer (Studio, Track Tool, Creator, Remote VT), NVDA will no longer announce "blank" for empty column content (only column header will be announced).</source>
 </segment>
 </unit>
-<unit id="aa063fef-2ba4-4ba6-b3ad-deda0eaada04">
+<unit id="4cdff5dd-f70c-49b0-96a9-68f17ac4250d">
 <notes>
-<note appliesTo="source">line: 222</note>
+<note appliesTo="source">line: 227</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio, Track Tool, Creator, and Remote VT, NVDA will announce track position and count when location command is performed (NVDA+Numpad Delete (desktop)/NVDA+Delete (laptop) and adding Shift for review cursor version).</source>
 </segment>
 </unit>
-<unit id="3b10cf45-3c3c-4511-b8fd-5c6d089868a1">
+<unit id="2c121b82-e091-4448-98d7-73783806f4a5">
 <notes>
-<note appliesTo="source">line: 224</note>
+<note appliesTo="source">line: 229</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.07.2/25.06.4-LTS</source>
 </segment>
 </unit>
-<unit id="e521f02a-eff3-43cd-b31f-09fc474b59b0">
+<unit id="379e7c09-41ee-47b7-8796-bccdd74c41ee">
 <notes>
-<note appliesTo="source">line: 226</note>
+<note appliesTo="source">line: 231</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Restored missing localized messages including track comment announcement in Studio's playlist viewer.</source>
 </segment>
 </unit>
-<unit id="a847fa2b-f1be-4281-8752-798092c3c314">
+<unit id="15c0f571-c9d9-4cf7-94e5-524ec5e81a61">
 <notes>
-<note appliesTo="source">line: 227</note>
+<note appliesTo="source">line: 232</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>NVDA will present an error dialog when running Studio releases earlier than the version required for the add-on.</source>
 </segment>
 </unit>
-<unit id="13db1298-10dc-4b56-8428-b01cbb8911ea">
+<unit id="a6f7281c-4525-4459-86ff-5cba2c4d5b17">
 <notes>
-<note appliesTo="source">line: 228</note>
+<note appliesTo="source">line: 233</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio, pressing NVDA+Shift+F3 the first time without opening find dialog will cause NVDA to search backwards.</source>
 </segment>
 </unit>
-<unit id="3b3b6a6d-9663-41a5-a07d-e8211b4c55c3">
+<unit id="0ab3e914-6122-4a4b-a561-b56834ce3c5c">
 <notes>
-<note appliesTo="source">line: 229</note>
+<note appliesTo="source">line: 234</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Track Tool, NVDA will no longer play a beep when moving through tracks, especially for tracks without an intro set.</source>
 </segment>
 </unit>
-<unit id="371e50fe-8145-4368-9f23-5d2ba4e7c14f">
+<unit id="9abaf6b9-2f22-46ed-b462-df928ccdd98e">
 <notes>
-<note appliesTo="source">line: 231</note>
+<note appliesTo="source">line: 236</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.07.1/25.06.3-LTS</source>
 </segment>
 </unit>
-<unit id="8beb7700-0dad-4521-91a2-b9bba66c65d6">
+<unit id="158e828a-5258-46fa-9d69-7dd12b0287c4">
 <notes>
-<note appliesTo="source">line: 233</note>
+<note appliesTo="source">line: 238</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio's playlist viewer, NVDA will no longer appear to do nothing or play error tones when reporting column contents if vertical column navigation is set to values other than "whichever column I am reviewing".</source>
 </segment>
 </unit>
-<unit id="18bc4efe-8d81-4d7b-9a1a-d1049ec26ecb">
+<unit id="42fed07b-c0a0-4039-b8a9-c41ed3055364">
 <notes>
-<note appliesTo="source">line: 234</note>
+<note appliesTo="source">line: 239</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Setting vertical column navigation to "Status" column is deprecated and will be removed in a future add-on release.</source>
 </segment>
 </unit>
-<unit id="a6df418d-e1b3-4c97-a928-04eba554f113">
+<unit id="a1b00ddd-9d61-44a4-bb48-db037f6981dc">
 <notes>
-<note appliesTo="source">line: 236</note>
+<note appliesTo="source">line: 241</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.07/25.06.2-LTS</source>
 </segment>
 </unit>
-<unit id="b2003bef-c551-4b38-b9b4-99729ea1c999">
+<unit id="24b21da1-c147-4eb4-ae4c-9d1aea769676">
 <notes>
-<note appliesTo="source">line: 238</note>
+<note appliesTo="source">line: 243</note>
 </notes>
 <segment>
 <source>Version 25.07 supports SPL Studio 6.0 and later.</source>
 </segment>
 </unit>
-<unit id="9f4bfd23-b3cc-41fa-a47a-2a354993e296">
+<unit id="358b582e-51da-433d-a336-03496d16102a">
 <notes>
-<note appliesTo="source">line: 240</note>
+<note appliesTo="source">line: 245</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>25.07: code was refactored, including through use of Pyright (a Python static type checker). Some prominent code changes were also backported to 25.06.2-LTS.</source>
 </segment>
 </unit>
-<unit id="e362465d-ecc0-490a-b21b-efc1ffe91154">
+<unit id="ec7c9284-64cc-4119-ab62-a44266dcff43">
 <notes>
-<note appliesTo="source">line: 241</note>
+<note appliesTo="source">line: 246</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Columns explorer (Control+NVDA+number row) is now configurable for Creator and Remote VT's playlist editor. A new button, "columns explorer for playlist editor" is available from columns explorer add-on settings screen.</source>
 </segment>
 </unit>
-<unit id="dc390e55-251f-4e4a-ba01-af959110bdf4">
+<unit id="83d3edb7-444a-4082-946d-9f251e634006">
 <notes>
-<note appliesTo="source">line: 242</note>
+<note appliesTo="source">line: 247</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In columns explorer add-on settings, renamed "columns explorer" to "columns explorer for SPL Studio".</source>
 </segment>
 </unit>
-<unit id="af221965-29fc-478b-9961-d595234bcac7">
+<unit id="6517a6c5-3186-4d3c-98d8-8fc1e51fdcad">
 <notes>
-<note appliesTo="source">line: 243</note>
+<note appliesTo="source">line: 248</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Added JSON (JavaScript Object Notation) format as a playlist transcripts format.</source>
 </segment>
 </unit>
-<unit id="85a39ddf-e977-453b-bf64-3679f2fad7db">
+<unit id="935b297f-6134-45f8-a623-909070d92f5c">
 <notes>
-<note appliesTo="source">line: 244</note>
+<note appliesTo="source">line: 249</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In encoders, NVDA will remove encoder settings if pressing Control+F12 to remove settings for encoder 10 and above if more than ten encoders are present.</source>
 </segment>
 </unit>
-<unit id="b9f5440f-238c-4bcf-b717-2bdad519851c">
+<unit id="6a6c2e7f-2fb8-4b2c-87cc-715a4582a903">
 <notes>
-<note appliesTo="source">line: 246</note>
+<note appliesTo="source">line: 251</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.06-LTS</source>
 </segment>
 </unit>
-<unit id="a16d7e9e-3593-4cb5-b23e-8fb8ee39ca97">
+<unit id="c61c203c-a7fb-48e8-813f-03275754585a">
 <notes>
-<note appliesTo="source">line: 248</note>
+<note appliesTo="source">line: 253</note>
 </notes>
 <segment>
 <source>Version 25.06.x is the last release series to support Studio 5.x with future releases requiring Studio 6.x. Some new features will be backported to 25.06.x if needed.</source>
 </segment>
 </unit>
-<unit id="2f70c458-868f-49bb-866c-c793829b74c4">
+<unit id="ddc47deb-14a0-46b0-afa3-80516db90400">
 <notes>
-<note appliesTo="source">line: 250</note>
+<note appliesTo="source">line: 255</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Internal changes to make the add-on more compatible with upcoming 64-bit NVDA.</source>
 </segment>
 </unit>
-<unit id="dac44f2b-395b-4819-997a-a6c06a30541b">
+<unit id="2e9a22a5-9bc3-43a9-8b47-a3c9a6248b35">
 <notes>
-<note appliesTo="source">line: 251</note>
+<note appliesTo="source">line: 256</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>NVDA will no longer forget to transfer broadcast profiles while updating the add-on (fixing a regression introduced in 25.05).</source>
 </segment>
 </unit>
-<unit id="427ce6c0-e1ef-41d7-a9ad-2184a44d6350">
+<unit id="79609d4c-88a3-4c14-9103-3c2af80e461a">
 <notes>
-<note appliesTo="source">line: 252</note>
+<note appliesTo="source">line: 257</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Added a new command in SPL Assistant to announce playlist hour over/under by in minutes and seconds (O).</source>
 </segment>
 </unit>
-<unit id="49b0b551-6423-4780-9b80-d70cc6f79642">
+<unit id="3e033671-65bf-4286-91fb-c24850229b8b">
 <notes>
-<note appliesTo="source">line: 253</note>
+<note appliesTo="source">line: 258</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio, the command to step through library scan announcement settings has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles remote access feature in NVDA 2025.1.</source>
 </segment>
 </unit>
-<unit id="0f19e7b2-8516-44a4-be27-f98c73e222ea">
+<unit id="01fdeb37-df4a-4eaf-84df-6142515946ea">
 <notes>
-<note appliesTo="source">line: 254</note>
+<note appliesTo="source">line: 259</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>NVDA will no longer play error tones or appear to do nothing when performing some SPL Assistant commands after resizing Studio window.</source>
 </segment>
 </unit>
-<unit id="9699f0df-0458-4c90-8438-fb44d6d1da73">
+<unit id="7f9b2e16-3ab6-478c-bffc-b14620cee5bd">
 <notes>
-<note appliesTo="source">line: 255</note>
+<note appliesTo="source">line: 260</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>The user interface for confirmation dialog shown when deleting broadcast profiles now resembles NVDA's configuration profile deletion interface.</source>
 </segment>
 </unit>
-<unit id="0a6a6d26-fd78-4ba3-85f3-d4343609bf84">
+<unit id="f608ccd5-f16c-49b3-bbc5-55f799ad380a">
 <notes>
-<note appliesTo="source">line: 256</note>
+<note appliesTo="source">line: 261</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In add-on settings, NVDA will no longer move keyboard focus to OK button after closing columns explorer and reset dialogs.</source>
 </segment>
 </unit>
-<unit id="7164dac3-0a2b-48d2-9535-80a79ef7f769">
+<unit id="137bebe3-cbd5-4217-a068-fd0746d52a23">
 <notes>
-<note appliesTo="source">line: 257</note>
+<note appliesTo="source">line: 262</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>NVDA will recognize track column changes introduced in Creator and Track Tool 6.11.</source>
 </segment>
 </unit>
-<unit id="6427c47f-dfdc-4850-924a-faa51b8581f9">
+<unit id="b424c153-620a-4244-a9ca-e51e701eae0c">
 <notes>
-<note appliesTo="source">line: 258</note>
+<note appliesTo="source">line: 263</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In columns explorer for Creator, "Date Restriction" column is now "Restrictions".</source>
 </segment>
 </unit>
-<unit id="94760a67-aa4e-4910-b78a-348be845c35e">
+<unit id="afab636d-ba92-4d9e-9702-4cb12e0570a4">
 <notes>
-<note appliesTo="source">line: 259</note>
+<note appliesTo="source">line: 264</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>NVDA will no longer play wrong carts when playing them via SPL Controller layer.</source>
 </segment>
 </unit>
-<unit id="f44f734c-c3b2-4ff8-bff7-80d75ad7407a">
+<unit id="1e7b92ef-fe9f-493e-a6d7-bd4f54b5c5f7">
 <notes>
-<note appliesTo="source">line: 261</note>
+<note appliesTo="source">line: 266</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.05</source>
 </segment>
 </unit>
-<unit id="4b3676be-5b71-4578-993d-f828ec862f89">
+<unit id="6a03e401-181a-4639-997a-1ff28f594e70">
 <notes>
-<note appliesTo="source">line: 263</note>
+<note appliesTo="source">line: 268</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>NVDA 2024.1 or later is required due to Python 3.11 upgrade.</source>
 </segment>
 </unit>
-<unit id="e7701bbf-779d-4dde-91a8-bc7ce557c831">
+<unit id="001bbdad-c5f0-4448-a079-e39568960fa8">
 <notes>
-<note appliesTo="source">line: 264</note>
+<note appliesTo="source">line: 269</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Restored limited support for Windows 8.1.</source>
 </segment>
 </unit>
-<unit id="44b858a3-cb3a-401e-91b6-643012dc4e7a">
+<unit id="1e564e65-336b-4ce3-adb6-2b9ee8ca3d45">
 <notes>
-<note appliesTo="source">line: 265</note>
+<note appliesTo="source">line: 270</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Moved ad-on wiki documents such as add-on changelog to the main code repository.</source>
 </segment>
 </unit>
-<unit id="8ee3bc34-c7b0-434f-966b-97650fdaa706">
+<unit id="883cf7a2-95a7-4db4-ac3b-562eee97912d">
 <notes>
-<note appliesTo="source">line: 266</note>
+<note appliesTo="source">line: 271</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Added close button to playlist snapshots, playlist transcripts, and SPL Assistant and Controller layer help screens (NVDA 2025.1 and later).</source>
 </segment>
 </unit>
-<unit id="001147d0-1d43-428a-97d6-856e3124ec55">
+<unit id="660b9891-d001-4730-a107-0fc0ff418096">
 <notes>
-<note appliesTo="source">line: 267</note>
+<note appliesTo="source">line: 272</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>NVDA will no longer do nothing or play error tones when announcing weather and temperature information in Studio 6.1x (SPL Assistant, W).</source>
 </segment>
 </unit>
-<unit id="e5a3c19f-b078-4f49-b1ec-71be2014696a">
+<unit id="d30febb8-4527-4d5e-a448-6a2a1f345ea8">
 <notes>
-<note appliesTo="source">line: 269</note>
+<note appliesTo="source">line: 274</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Version 25.01</source>
 </segment>
 </unit>
-<unit id="e86d38de-ddf0-4a8e-834f-10503d4bd60a">
+<unit id="89efc142-1b5f-4aef-b22e-677e6f3dabea">
 <notes>
-<note appliesTo="source">line: 271</note>
+<note appliesTo="source">line: 276</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>64-bit Windows 10 21H2 (build 19044) or later is required.</source>
 </segment>
 </unit>
-<unit id="29fbb332-01b7-4ce6-b4fd-cffb7bdf4c4e">
+<unit id="809fc233-3e88-4daa-a6e1-23515cf40f59">
 <notes>
-<note appliesTo="source">line: 272</note>
+<note appliesTo="source">line: 277</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Download links for add-on releases are no longer included in add-on documentation. You can download the add-on from NV Access add-on store.</source>
 </segment>
 </unit>
-<unit id="0fd21c5c-9ee0-4e87-9641-542f814a667d">
+<unit id="1b640491-b58d-4737-a8e9-59235b04245a">
 <notes>
-<note appliesTo="source">line: 273</note>
+<note appliesTo="source">line: 278</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.</source>
 </segment>
 </unit>
-<unit id="e4e1e80a-94c9-4209-b0b6-0119130d7a9c">
+<unit id="b38908ed-d691-40e7-9027-92e8d696c350">
 <notes>
-<note appliesTo="source">line: 274</note>
+<note appliesTo="source">line: 279</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Removed support for automatic add-on updates feature from Add-on Updater add-on.</source>
 </segment>
 </unit>
-<unit id="f505d167-422a-433a-a01a-78ca7e2b217b">
+<unit id="f8449cf2-9e2c-41ad-a5c9-c093875aaf4f">
 <notes>
-<note appliesTo="source">line: 275</note>
+<note appliesTo="source">line: 280</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>In Studio 6.10 and later, added a new command in SPL Assistant to announce control keys enabled/disabled status (Control+D).</source>
 </segment>
 </unit>
-<unit id="8c0c8b00-fdb7-4c19-a7f4-4225b095f83c">
+<unit id="af48981e-971c-4501-9187-285c8e52cc0d">
 <notes>
-<note appliesTo="source">line: 277</note>
+<note appliesTo="source">line: 282</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
 <source>Older releases</source>
 </segment>
 </unit>
-<unit id="65f4e311-2480-4fa7-893b-e933e6799c81">
+<unit id="ef84e111-1161-42e1-8c82-d9b3f26abaa0">
 <notes>
-<note appliesTo="source">line: 279</note>
+<note appliesTo="source">line: 284</note>
 </notes>
 <segment>
 <source>Please see the [changelog][2] for release notes for old add-on releases.</source>
 </segment>
 </unit>
-<unit id="407002f4-d5c5-49b2-bb8c-d62e2b915692">
+<unit id="ae425190-be6e-4f51-9978-54e93c342430">
 <notes>
-<note appliesTo="source">line: 281</note>
+<note appliesTo="source">line: 286</note>
 </notes>
 <segment>
 <source>[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md</source>
 </segment>
 </unit>
-<unit id="c449dc7e-ac51-48d3-872a-177bf2d2c6a4">
+<unit id="359bd587-eef6-4251-8240-017752aa23a8">
 <notes>
-<note appliesTo="source">line: 283</note>
+<note appliesTo="source">line: 288</note>
 </notes>
 <segment>
 <source>[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md</source>

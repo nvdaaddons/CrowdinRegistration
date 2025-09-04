@@ -206,9 +206,14 @@ You can save settings for specific shows into broadcast profiles. These profiles
 
 If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.
 
+## Version 25.11/25.06.7-LTS
+
+* 25.11: with debug logging enabled, NVDA will no longer record Studio API specific debug messages. A new command-line option (--spl-apidebug) was added to include Studio API debug messages and should be used as directed by add-on developers.
+* In Studio, search history in track finder (Control+NVDA+F) is replaced with a search edit field to align with NVDA's own find dialog experience.
+
 ## Version 25.09/25.06.6-LTS
 
-* 25.09: NVDA 2025.1 or later is required.
+* 25.09: NVDA 2025.1.2 or later is required.
 * In Studio, search history in track finder (Control+NVDA+F) is deprecated and will be removed in a future release to align with NVDA's own find dialog experience.
 * In Studio, performing SPL Controller layer entry command will enter SPL Assistant layer, and the add-on setting to configure this option is checked by default for new installations.
 
