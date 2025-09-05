@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2025-01-26 19:19+0000\n"
+"POT-Creation-Date: 2025-07-04 12:49+0000\n"
 "PO-Revision-Date: 2016-08-14 09:20+0100\n"
 "Last-Translator: OAron <info@o-soft.hu>\n"
 "Language-Team: HU\n"
@@ -138,6 +138,18 @@ msgstr ""
 "opciót, az értékeket kétujjas felfelé, ill. lefelé pöccintéssel "
 "módosíthatja. Ezek az érintési parancsok tükrözik a beszédszintetizátor "
 "opcióinak módosítására szolgáló billentyűparancsokat."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version: [0.6][1]"
+msgid "Version 25.07"
+msgstr "Verzió: [0.6][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -718,16 +730,15 @@ msgid "Initial stable version."
 msgstr "Letöltés[stabil verzió][1]"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 msgid ""
 "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "Download [stable version][1]"
 #~ msgstr "Letöltés[stabil verzió][1]"

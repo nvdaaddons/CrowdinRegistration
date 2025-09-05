@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-30 11:44+0000\n"
-"PO-Revision-Date: 2025-01-10 23:45+0100\n"
-"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
+"POT-Creation-Date: 2025-05-13 17:10+0000\n"
+"PO-Revision-Date: 2025-05-13 12:56+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,10 +28,6 @@ msgstr "Autor: Adriano Barbieri"
 #. type: Bullet: '* '
 msgid "NVDA compatibility: 2017.3 to beyond"
 msgstr "Compatibilidad con NVDA: de 2017.3 hasta más allá"
-
-#. type: Bullet: '* '
-msgid "Download: [Stable Version][1]"
-msgstr "Descargar: [versión estable][1]"
 
 #. type: Title #
 #, no-wrap
@@ -71,12 +67,16 @@ msgid "[http://www.geonames.org/](http://www.geonames.org/)"
 msgstr "[http://www.geonames.org/](http://www.geonames.org/)"
 
 #. type: Bullet: '* '
-msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
-msgstr "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+msgid ""
+"[https://api.open-meteo.com/v1/elevation/](https://api.open-meteo.com/v1/"
+"elevation/)"
+msgstr ""
+"[https://api.open-meteo.com/v1/elevation/](https://api.open-meteo.com/v1/"
+"elevation/)"
 
 #. type: Bullet: '* '
-msgid "[http://www.nvda.it/](http://www.nvda.it/)"
-msgstr "[http://www.nvda.it/](http://www.nvda.it/)"
+msgid "[https://www.nvda.it/](https://www.nvda.it/)"
+msgstr "[https://www.nvda.it/](https://www.nvda.it/)"
 
 #. type: Title #
 #, no-wrap
@@ -271,10 +271,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"hourly forecast setting... - This button allows you to choose the contents "
+"Hourly forecast setting... - This button allows you to choose the contents "
 "of the hourly forecast report."
 msgstr ""
-"configuración del pronóstico horario... - Este botón te permite elegir los "
+"Configuración del pronóstico horario... - Este botón te permite elegir los "
 "contenidos del boletín del pronóstico horario."
 
 #. type: Bullet: '* '
@@ -467,12 +467,6 @@ msgstr ""
 "mercurio. Casilla de verificación marcado (por defecto)"
 
 #. type: Bullet: '* '
-msgid "Add status of barometric pressure; check box checked (by default)"
-msgstr ""
-"Añadir estado de la presión barométrica; casilla de verificación marcado "
-"(por defecto)"
-
-#. type: Bullet: '* '
 msgid "Add cloudiness value; check box checked (by default)"
 msgstr ""
 "Añadir valor de nubosidad; casilla de verificación marcado (por defecto)"
@@ -564,6 +558,13 @@ msgstr "\"Weather_searchkey\": clave de búsqueda guardada."
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
-#. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+#~ msgid "Download: [Stable Version][1]"
+#~ msgstr "Descargar: [versión estable][1]"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+
+#~ msgid "Add status of barometric pressure; check box checked (by default)"
+#~ msgstr ""
+#~ "Añadir estado de la presión barométrica; casilla de verificación marcado "
+#~ "(por defecto)"

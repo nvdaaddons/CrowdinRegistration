@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2024-12-01 07:43+0000\n"
-"PO-Revision-Date: 2024-10-21 12:11+0300\n"
+"POT-Creation-Date: 2025-06-14 00:47+0000\n"
+"PO-Revision-Date: 2025-07-01 13:00+0300\n"
 "Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
 "Language-Team: Translators <nvda-translations@groups.io>\n"
 "Language: ru_RU\n"
@@ -258,6 +258,15 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
+msgid "Changes for 39.0.0"
+msgstr "Изменения для 39.0.0"
+
+#. type: Bullet: '* '
+msgid "Improved notifications when title or URL are copied."
+msgstr "Улучшены уведомления, когда название или URL были скопированы."
+
+#. type: Title ##
+#, no-wrap
 msgid "Changes for 34.0.0"
 msgstr "Изменения для 34.0.0"
 
@@ -288,6 +297,15 @@ msgid "universalFeedParser is updated to 5.0.1, adding support for more feeds."
 msgstr ""
 "universalFeedParser обновлен до версии 5.0.1, добавлена поддержка большего "
 "количества каналов."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 15.0"
+msgstr "Изменения для 15.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr "Совместимость с NVDA 2023.1."
 
 #. type: Title ##
 #, no-wrap
@@ -598,13 +616,3 @@ msgstr "Первоначальная версия."
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
-
-#~ msgid ""
-#~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
-#~ "[3]."
-#~ msgstr ""
-#~ "При необходимости вы можете загрузить [последнюю версию, совместимую с "
-#~ "NVDA 2017.3][3]."
-
-#~ msgid "[3]: https://www.nvaccess.org/addonStore/legacy?file=rf-o"
-#~ msgstr "[3]: https://www.nvaccess.org/addonStore/legacy?file=rf-o"

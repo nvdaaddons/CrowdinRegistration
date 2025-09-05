@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: website files\n"
-"POT-Creation-Date: 2025-04-01 03:37+0000\n"
-"PO-Revision-Date: 2025-04-13 17:20+0200\n"
+"POT-Creation-Date: 2025-06-29 10:02+0000\n"
+"PO-Revision-Date: 2025-07-06 13:22+0200\n"
 "Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: es\n"
@@ -160,12 +160,12 @@ msgstr "Asociación de gestos a símbolos"
 #. type: Plain text
 msgid ""
 "From NVDA's menu, Preferences submenu, Input gestures dialog, category "
-"Insert symbols, you can configure NVDA to type symbols through associated "
-"gestures."
+"Insert symbols or Copy symbols, you can configure NVDA to type symbols "
+"through associated gestures."
 msgstr ""
 "Desde el menú NVDA, submenú Preferencias, diálogo Gestos de entrada, "
-"categoría Insertar símbolos, se puede configurar NVDA para escribir símbolos "
-"mediante gestos asociados."
+"categoría Insertar o copiar símbolos, se puede configurar NVDA para escribir "
+"símbolos mediante gestos asociados."
 
 #. type: Plain text
 msgid ""
@@ -273,6 +273,17 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
+"If symbols inserted using associated gestures aren't spoken in your system, "
+"even when NVDA is configured to speak typed characters, you can try to "
+"enable a checkbox to ensure the speaking of inserted symbols."
+msgstr ""
+"Si los símbolos insertados mediante gestos asociados no se verbalizan en tu "
+"sistema, incluso cuando NVDA está configurado para verbalizar los caracteres "
+"escritos, puedes probar a marcar una casilla de verificación para garantizar "
+"la verbalización de de símbolos insertados."
+
+#. type: Plain text
+msgid ""
 "If you may wish to keep clean your configuration folders, in this dialog it "
 "is also possible to choose if dictionaries not used (associated with non "
 "existing profiles) will be removed from the add-on when it is unloaded."
@@ -345,6 +356,20 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
+msgid "Changes for 34.0.0"
+msgstr "Cambios para 34.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Added ability to copy to clipboard, and paste individual symbols, useful "
+"when gestures associated with Insert symbols scripts don't work."
+msgstr ""
+"Se ha añadido la posibilidad de copiar al portapapeles, y pegar símbolos "
+"individuales, útil cuando los gestos asociados con los scripts de insertar "
+"símbolos no funcionan."
+
+#. type: Title ##
+#, no-wrap
 msgid "Changes for 33.0.0"
 msgstr "Cambios para 33.0.0"
 
@@ -357,6 +382,14 @@ msgid "Added copy and close buttons to messages presented in browse mode."
 msgstr ""
 "Se añaden botones para copiar y cerrar en los mensajes presentados en modo "
 "exploración."
+
+#. type: Bullet: '* '
+msgid ""
+"When using commands to insert symbols, they may be spoken according to the "
+"speak typed characters option."
+msgstr ""
+"Al usar órdenes para insertar símbolos, pueden verbalizarse según la opción "
+"de verbalizar caracteres al escribir."
 
 #. type: Title ##
 #, no-wrap

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDa Website\n"
-"POT-Creation-Date: 2025-01-26 19:19+0000\n"
+"POT-Creation-Date: 2025-07-04 12:49+0000\n"
 "PO-Revision-Date: 2021-04-29 07:11+0200\n"
 "Last-Translator: Fabrizio Marini <marini.carlo@fastwebnet.it>\n"
 "Language-Team: NVDA italian community <simone.dalmaso@gmail.com>\n"
@@ -145,6 +145,18 @@ msgstr ""
 "il flick con due dita in alto o in basso per cambiare i valori. Questi gesti "
 "rispecchiano quelli per modificare al volo le impostazioni sintetizzatore da "
 "tastiera."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 20.01"
+msgid "Version 25.07"
+msgstr "Novità nella versione 20.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -796,16 +808,15 @@ msgid "Initial stable version."
 msgstr "Versione iniziale stabile."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 msgid ""
 "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "Download [stable version][1]"
 #~ msgstr "Scarica [versione stabile][1]"

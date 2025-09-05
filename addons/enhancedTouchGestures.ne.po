@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-01-26 19:19+0000\n"
+"POT-Creation-Date: 2025-07-04 12:49+0000\n"
 "PO-Revision-Date: 2015-06-13 21:41+0545\n"
 "Last-Translator: drishtibachak@gmail.com\n"
 "Language-Team: \n"
@@ -114,6 +114,17 @@ msgid ""
 "left or right to move between synth settings and use two finger flick up and "
 "down gestures to change values. This gestures mirrors that of synth settings "
 "ring commands on the keyboard."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+msgid "Version 25.07"
+msgstr "स्थिर संस्करण: [१.2][1]"
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
 msgstr ""
 
 #. type: Title ##
@@ -661,17 +672,16 @@ msgid "Initial stable version."
 msgstr ""
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!tag dev]]\n"
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev]]\n"
-
-#. type: Plain text
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 msgid ""
 "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#, fuzzy, no-wrap
+#~| msgid "[[!tag dev]]\n"
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev]]\n"
 
 #, fuzzy
 #~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"

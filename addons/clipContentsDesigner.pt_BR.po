@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clip Contents Designer webpage\n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
 "PO-Revision-Date: 2024-12-20 15:53-0300\n"
 "Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
 "Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
@@ -195,7 +195,7 @@ msgstr "Restaurar os padrões."
 msgid "Notes:"
 msgstr "Notas:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -203,7 +203,13 @@ msgstr ""
 "Confirmações não serão solicitadas quando uma caixa de mensagem do NVDA "
 "ainda estiver aberta. Nesses casos, as ações serão executadas imediatamente."
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Emulate copy and emulate cut commands mean that, when these features are "
+#| "enabled, the add-on will take control of control+c and control+x. This "
+#| "will allow to select if a confirmation should be requested before "
+#| "performing the actions corresponding to these keystrokes."
 msgid ""
 "Emulate copy and emulate cut commands mean that, when these features are "
 "enabled, the add-on will take control of control+c and control+x. This will "
@@ -214,6 +220,21 @@ msgstr ""
 "recursos estão ativados, o complemento assumirá o controle de control+c e "
 "control+x. Isso permitirá selecionar se uma confirmação deve ser solicitada "
 "antes de realizar as ações correspondentes a essas teclas."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 40.0.0"
+msgid "Changes for 46.0.0"
+msgstr "Mudanças na 40.0.0"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -288,8 +309,9 @@ msgid "Compatible with NVDA 2021.1."
 msgstr "Compatível com o NVDA 2021.1."
 
 #. type: Title ##
-#, no-wrap
-msgid "Changes for 13.0 "
+#, fuzzy, no-wrap
+#| msgid "Changes for 13.0 "
+msgid "Changes for 13.0"
 msgstr "Mudanças na 13.0 "
 
 #. type: Bullet: '* '
@@ -465,6 +487,12 @@ msgstr ""
 "caixa de diálogo Gestos de entrada."
 
 #. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Added a dialog to configure the Emulate copy and Emulate cut "
+#| "functionalities at installation. This allows to add the control+c and "
+#| "control+x commands to copy and cut, and be asked if you want to replace "
+#| "the clipboard contents when pressing these keystrokes."
 msgid ""
 "Added a dialog to configure the Emulate copy and Emulate cut functionalities "
 "at installation. This allows to add the control+c and control+x commands to "

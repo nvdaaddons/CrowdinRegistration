@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: StationPlaylist\n"
-"POT-Creation-Date: 2025-05-10 17:19+0000\n"
+"POT-Creation-Date: 2025-07-25 13:54+0000\n"
 "PO-Revision-Date: 2024-05-12 17:43+0200\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: \n"
@@ -55,7 +55,7 @@ msgstr "VAŽNE NAPOMENE:"
 #. type: Bullet: '* '
 #, fuzzy
 #| msgid "This add-on requires StationPlaylist suite 5.40 or later."
-msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgid "This add-on requires StationPlaylist suite 6.0 or later."
 msgstr ""
 "Ovaj dodatak zahtijeva StationPlaylist izdanje 5.40 ili noviju verziju."
 
@@ -79,7 +79,7 @@ msgstr "Za najbolje iskustvo, deaktiviraj modus stišavanja zvuka."
 #| "onwards."
 msgid ""
 "Starting from 2018, [changelogs for old add-on releases][2] will be found on "
-"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"GitHub. This add-on readme will list changes from version 25.01 (2025) "
 "onwards."
 msgstr ""
 "Od 2018. godine pa nadalje, [zapisi o promjenama za stara izdanja dodatka]"
@@ -333,14 +333,15 @@ msgstr ""
 #. type: Bullet: '* '
 #, fuzzy
 #| msgid ""
-#| "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
-#| "dialog."
+#| "Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens "
+#| "alarms category in Studio add-on configuration dialog."
 msgid ""
-"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
-"(does not support speak on demand)."
+"Alt+NVDA+0 (two finger flick left in SPL mode) from Studio window: Opens the "
+"Studio add-on configuration dialog (does not support speak on demand)."
 msgstr ""
-"Alt+NVDA+0 u prozoru Studija: otvara dijaloški okvir za konfiguriranje "
-"dodataka."
+"Alt+NVDA+1 (klizanje s dva prsta prema lijevo u dodirnom modusu SPL-a) u "
+"prozoru Studija: otvara dijaloški okvir s postavkama alarma za uvodni dio "
+"pjesme."
 
 #. type: Bullet: '* '
 #, fuzzy
@@ -838,6 +839,12 @@ msgid "Shift+M: Turn off microphone."
 msgstr "Shift+M: Isključi mikrofon."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid "M: Turn on microphone."
+msgid "N: Turn microphone on without fade."
+msgstr "M: Uključi mikrofon."
+
+#. type: Bullet: '* '
 msgid "A: Turn on automation."
 msgstr "A: Uključi automatizaciju."
 
@@ -1006,15 +1013,24 @@ msgid "Columns Explorer"
 msgstr "Istraživač stupaca"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
+#| "columns. By default, these are first ten columns for a track item (in "
+#| "Studio: artist, title, duration, intro, outro, category, year, album, "
+#| "genre, mood). For playlist editor in Creator and Remote VT client, column "
+#| "data depends on column order as shown on screen. In Studio, Creator's "
+#| "main track list, and Track Tool, column slots are preset regardless of "
+#| "column order on screen and can be configured from add-on settings dialog "
+#| "under columns explorer category."
 msgid ""
 "By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
 "columns. By default, these are first ten columns for a track item (in "
 "Studio: artist, title, duration, intro, outro, category, year, album, genre, "
-"mood). For playlist editor in Creator and Remote VT client, column data "
-"depends on column order as shown on screen. In Studio, Creator's main track "
-"list, and Track Tool, column slots are preset regardless of column order on "
-"screen and can be configured from add-on settings dialog under columns "
-"explorer category."
+"mood). In Studio, Creator's main track list and playlist editor, Track Tool, "
+"and Remote VT, column slots are preset regardless of column order on screen "
+"and can be configured from add-on settings dialog under columns explorer "
+"category."
 msgstr ""
 "Pritiskom na Kontrol+NVDA+1 do 0, dobiva se sadržaj određenih stupaca. "
 "Standardno je to prvih deset stupaca za snimku (u Studio programu: izvođač, "
@@ -1140,6 +1156,134 @@ msgstr ""
 #. type: Title ##
 #, fuzzy, no-wrap
 #| msgid "Version 24.01"
+msgid "Version 25.08/25.06.5-LTS"
+msgstr "Verzija 24.01"
+
+#. type: Bullet: '* '
+msgid ""
+"25.08: removed unmaintained localizations (add-on messages and "
+"documentation)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, added two-finger flick left gesture in SPL touch mode to open SPL "
+"add-on settings."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Removed \"Status\" from vertical column navigation options."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer (Studio, Track Tool, Creator, Remote VT), NVDA will no "
+"longer announce \"blank\" for empty column content (only column header will "
+"be announced)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, Track Tool, Creator, and Remote VT, NVDA will announce track "
+"position and count when location command is performed (NVDA+Numpad Delete "
+"(desktop)/NVDA+Delete (laptop) and adding Shift for review cursor version)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 24.01"
+msgid "Version 25.07.2/25.06.4-LTS"
+msgstr "Verzija 24.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Restored missing localized messages including track comment announcement in "
+"Studio's playlist viewer."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will present an error dialog when running Studio releases earlier than "
+"the version required for the add-on."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, pressing NVDA+Shift+F3 the first time without opening find dialog "
+"will cause NVDA to search backwards."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In Track Tool, NVDA will no longer play a beep when moving through tracks, "
+"especially for tracks without an intro set."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 24.01"
+msgid "Version 25.07.1/25.06.3-LTS"
+msgstr "Verzija 24.01"
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio's playlist viewer, NVDA will no longer appear to do nothing or "
+"play error tones when reporting column contents if vertical column "
+"navigation is set to values other than \"whichever column I am reviewing\"."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Setting vertical column navigation to \"Status\" column is deprecated and "
+"will be removed in a future add-on release."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 24.01"
+msgid "Version 25.07/25.06.2-LTS"
+msgstr "Verzija 24.01"
+
+#. type: Plain text
+msgid "Version 25.07 supports SPL Studio 6.0 and later."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"25.07: code was refactored, including through use of Pyright (a Python "
+"static type checker). Some prominent code changes were also backported to "
+"25.06.2-LTS."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Columns explorer (Control+NVDA+number row) is now configurable for Creator "
+"and Remote VT's playlist editor. A new button, \"columns explorer for "
+"playlist editor\" is available from columns explorer add-on settings screen."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer add-on settings, renamed \"columns explorer\" to "
+"\"columns explorer for SPL Studio\"."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added JSON (JavaScript Object Notation) format as a playlist transcripts "
+"format."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In encoders, NVDA will remove encoder settings if pressing Control+F12 to "
+"remove settings for encoder 10 and above if more than ten encoders are "
+"present."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 24.01"
 msgid "Version 25.06-LTS"
 msgstr "Verzija 24.01"
 
@@ -1148,6 +1292,18 @@ msgid ""
 "Version 25.06.x is the last release series to support Studio 5.x with future "
 "releases requiring Studio 6.x. Some new features will be backported to 25.06."
 "x if needed."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Internal changes to make the add-on more compatible with upcoming 64-bit "
+"NVDA."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer forget to transfer broadcast profiles while updating the "
+"add-on (fixing a regression introduced in 25.05)."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1171,8 +1327,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
+"The user interface for confirmation dialog shown when deleting broadcast "
+"profiles now resembles NVDA's configuration profile deletion interface."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In add-on settings, NVDA will no longer move keyboard focus to OK button "
+"after closing columns explorer and reset dialogs."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
 "NVDA will recognize track column changes introduced in Creator and Track "
 "Tool 6.11."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer for Creator, \"Date Restriction\" column is now "
+"\"Restrictions\"."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1212,7 +1386,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer do nothing or play error tones when announcing weather "
-"and temperature information in Studio 6.x (SPL Assistant, W)."
+"and temperature information in Studio 6.1x (SPL Assistant, W)."
 msgstr ""
 
 #. type: Title ##
@@ -1256,85 +1430,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Version 24.03"
-msgstr "Verzija 24.03"
-
-#. type: Bullet: '* '
-msgid "Compatible with NVDA 2024.1."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "NVDA 2023.3.3 or later is required."
-msgstr "Zahtijeva NVDA 2023.3.3 ili noviju verziju."
-
-#. type: Bullet: '* '
-msgid "Support for StationPlaylist suite 6.10."
-msgstr "Podrška za StationPlaylist izdanje 6.10."
-
-#. type: Bullet: '* '
-msgid ""
-"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
-"spoken in this mode."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 24.01"
-msgstr "Verzija 24.01"
-
-#. type: Bullet: '* '
-msgid ""
-"The commands for the Encoder Settings dialog for use with the SPL and SAM "
-"Encoders are now assignable, meaning that you can change them from their "
-"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
-"Input Gestures. The ones that are not assignable are the connect and "
-"disconnect commands. Also, to prevent command conflicts and make much easier "
-"use of this command on remote servers, the default gesture for switching to "
-"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
-"of these can of course still be toggled from the Encoder Settings dialog "
-"(NVDA+Alt+0 or F12)."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 23.05"
-msgstr "Verzija 23.05"
-
-#. type: Bullet: '* '
-msgid ""
-"To reflect the maintainer change, the manifest has been updated to indicate "
-"as such."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 23.02"
-msgstr "Verzija 23.02"
-
-#. type: Bullet: '* '
-msgid "NVDA 2022.4 or later is required."
-msgstr "Potrebna je NVDA verzija 2022.4 ili novija."
-
-#. type: Bullet: '* '
-msgid ""
-"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
-msgstr ""
-"Potreban je sustav Windows 10 21H2 (aktualizirana verzija iz studenog 2021./"
-"izgradnja 19044) ili novija verzija."
-
-#. type: Bullet: '* '
-msgid ""
-"In Studio's playlist viewer, NVDA will not announce column headers such as "
-"artist and title if table headers setting is set to either \"rows and "
-"columns\" or \"columns\" in NVDA's document formatting settings panel."
-msgstr ""
-"U pregledniku popisa snimaka programa Studio, NVDA neće najavljivati "
-"zaglavlja stupaca kao što su izvođač i naslov ako je postavka zaglavlja "
-"tablice postavljena na „Redci i stupci” ili „Stupci” u NVDA ploči postavki "
-"formatiranja dokumenta."
-
-#. type: Title ##
-#, no-wrap
 msgid "Older releases"
 msgstr "Starija izdanja"
 
@@ -1347,11 +1442,6 @@ msgid ""
 msgstr ""
 "Pogledaj poveznicu [zapisnika promjena][3] za bilješke o starim izdanjima "
 "dodatka."
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 #, fuzzy
@@ -1370,6 +1460,62 @@ msgstr ""
 msgid ""
 "[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
 msgstr "[3]: https://github.com/ChrisDuffley/stationplaylist/wiki/splchangelog"
+
+#, fuzzy
+#~| msgid ""
+#~| "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
+#~| "dialog."
+#~ msgid ""
+#~ "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
+#~ "dialog (does not support speak on demand)."
+#~ msgstr ""
+#~ "Alt+NVDA+0 u prozoru Studija: otvara dijaloški okvir za konfiguriranje "
+#~ "dodataka."
+
+#, no-wrap
+#~ msgid "Version 24.03"
+#~ msgstr "Verzija 24.03"
+
+#~ msgid "NVDA 2023.3.3 or later is required."
+#~ msgstr "Zahtijeva NVDA 2023.3.3 ili noviju verziju."
+
+#~ msgid "Support for StationPlaylist suite 6.10."
+#~ msgstr "Podrška za StationPlaylist izdanje 6.10."
+
+#, no-wrap
+#~ msgid "Version 24.01"
+#~ msgstr "Verzija 24.01"
+
+#, no-wrap
+#~ msgid "Version 23.05"
+#~ msgstr "Verzija 23.05"
+
+#, no-wrap
+#~ msgid "Version 23.02"
+#~ msgstr "Verzija 23.02"
+
+#~ msgid "NVDA 2022.4 or later is required."
+#~ msgstr "Potrebna je NVDA verzija 2022.4 ili novija."
+
+#~ msgid ""
+#~ "Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+#~ msgstr ""
+#~ "Potreban je sustav Windows 10 21H2 (aktualizirana verzija iz studenog "
+#~ "2021./izgradnja 19044) ili novija verzija."
+
+#~ msgid ""
+#~ "In Studio's playlist viewer, NVDA will not announce column headers such "
+#~ "as artist and title if table headers setting is set to either \"rows and "
+#~ "columns\" or \"columns\" in NVDA's document formatting settings panel."
+#~ msgstr ""
+#~ "U pregledniku popisa snimaka programa Studio, NVDA neće najavljivati "
+#~ "zaglavlja stupaca kao što su izvođač i naslov ako je postavka zaglavlja "
+#~ "tablice postavljena na „Redci i stupci” ili „Stupci” u NVDA ploči "
+#~ "postavki formatiranja dokumenta."
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
 #~ msgstr ""

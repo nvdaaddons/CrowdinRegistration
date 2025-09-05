@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clip Contents Designer\n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
 "PO-Revision-Date: 2020-03-12 00:20+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Vietnamese <dangmanhcuong@gmail.com>\n"
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Notes:"
 msgstr "Lưu ý:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -184,12 +184,27 @@ msgstr ""
 "Sẽ không có yêu cầu xác nhận khi có một hộp thông điệp của NVDA đang mở. Các "
 "trường hợp này, các hành động sd4 được thực hiện ngay lập tức."
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Emulate copy and emulate cut commands mean that, when these features are "
 "enabled, the add-on will take control of control+c and control+x. This will "
 "allow to select if a confirmation should be requested before performing the "
 "actions corresponding to these keystrokes."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 46.0.0"
+msgstr "Các thay đổi cho bản 4.0"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
 msgstr ""
 
 #. type: Title ##
@@ -269,7 +284,7 @@ msgstr ""
 #. type: Title ##
 #, fuzzy, no-wrap
 #| msgid "Changes for 1.0"
-msgid "Changes for 13.0 "
+msgid "Changes for 13.0"
 msgstr "Các thay đổi cho bản 1.0"
 
 #. type: Bullet: '* '

@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation of website/addons/placeMarkers.pt_BR.po
-# Copyright (C) 2013-2021 NVDA Contributors.
+# Copyright (C) 2013-2025 NVDA Contributors.
 # This file is distributed under the same license as the NVDA package.
 # Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2015, 2017, 2020.
 # Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018, 2021.
@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Marcadores de Lugar add-on webpage\n"
-"POT-Creation-Date: 2024-12-01 07:42+0000\n"
-"PO-Revision-Date: 2025-01-11 20:12-0300\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
+"PO-Revision-Date: 2025-08-30 19:17-0300\n"
 "Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
 "Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
 "tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
@@ -192,6 +192,16 @@ msgstr ""
 "Restaurar placeMarkers: Você pode restaurar seus placeMarkers de uma pasta "
 "placeMarkers salva anteriormente."
 
+#. type: Bullet: '*	'
+msgid ""
+"Set default place markers folder: the default folder for place markers can "
+"be set from this dialog. It will be saved in the normal configuration "
+"profile."
+msgstr ""
+"Definir pasta padrão para marcadores de posição: a pasta padrão para "
+"marcadores de posição pode ser definida nesta caixa de diálogo. Ela será "
+"salva no perfil de configuração normal."
+
 #. type: Plain text
 msgid ""
 "Note: The placemarker position is based on the number of characters; and "
@@ -201,6 +211,33 @@ msgstr ""
 "Nota: A posição do marcador de posição se baseia no número de caracteres; "
 "portanto, em páginas dinâmicas, é melhor usar a pesquisa específica, não "
 "marcadores de posição."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 45.0.0"
+msgstr "Mudanças na 45.0.0"
+
+#. type: Bullet: '* '
+msgid "Added ability to set the default placeMarkers folder."
+msgstr ""
+"Adicionada a capacidade de definir a pasta padrão para marcadores de "
+"localização."
+
+#. type: Bullet: '* '
+msgid ""
+"If plugins are reloaded while this add-on is enabled, the last saved "
+"configuration will be applied."
+msgstr ""
+"Se os plug-ins forem recarregados enquanto este complemento estiver ativado, "
+"a última configuração salva será aplicada."
+
+#. type: Bullet: '* '
+msgid ""
+"Added copy and close buttons to browseable message when showing the current "
+"file where bookmarks and specific search strings are saved."
+msgstr ""
+"Adicionados botões Copiar e Fechar à mensagem navegável ao mostrar o arquivo "
+"atual onde os marcadores e as sequências de pesquisa específicas são salvos."
 
 #. type: Title ##
 #, no-wrap
@@ -334,8 +371,8 @@ msgid ""
 "If needed, you can download [other versions](https://github.com/nvdaes/"
 "placeMarkers/releases)."
 msgstr ""
-"Se necessário, você pode fazer download de [outras versões] (https://github."
-"com/nvdaes/placeMarkers/releases)."
+"Se necessário, você pode baixar [outras versões](https://github.com/nvdaes/"
+"placeMarkers/releases)."
 
 #. type: Title ##
 #, no-wrap

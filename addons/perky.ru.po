@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2024-11-24 08:12+0000\n"
-"PO-Revision-Date: 2024-11-24 12:31+0300\n"
+"POT-Creation-Date: 2025-06-14 02:01+0000\n"
+"PO-Revision-Date: 2025-07-01 12:46+0300\n"
 "Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
 "Language-Team: Translators <nvda-translations@groups.io>\n"
 "Language: ru_RU\n"
@@ -34,7 +34,7 @@ msgstr ""
 "Это дополнение предназначено для улучшения качества чтения с помощью "
 "приложения Perky Duck, доступного по ссылке <https://www.duxburysystems.com>."
 
-#. type: Title ###
+#. type: Title ##
 #, no-wrap
 msgid "Features"
 msgstr "Возможности"
@@ -87,6 +87,15 @@ msgstr "Показывает выделенный текст в режиме о�
 
 #. type: Title ##
 #, no-wrap
+msgid "Changes for 9.0.0"
+msgstr "Изменения для 9.0.0"
+
+#. type: Bullet: '* '
+msgid "Added copy and close buttons to browseable messages."
+msgstr "Добавлены кнопки копирования и закрытия для обзорных сообщений."
+
+#. type: Title ##
+#, no-wrap
 msgid "Changes for 7.0.0"
 msgstr "Изменения для 7.0.0"
 
@@ -118,10 +127,3 @@ msgstr ""
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
-
-#~ msgid ""
-#~ "Opens the symbols dialog for reading characters typed in Perky. From this "
-#~ "dialog, you can save and choose symbols dictionaries."
-#~ msgstr ""
-#~ "Открывает диалог для чтения символов, набранных в Perky. В этом диалоге "
-#~ "вы можете сохранять и выбирать словари символов."

@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Read Feeds\n"
-"POT-Creation-Date: 2024-12-01 07:43+0000\n"
-"PO-Revision-Date: 2024-10-27 12:15+0100\n"
+"POT-Creation-Date: 2025-06-14 00:47+0000\n"
+"PO-Revision-Date: 2025-06-21 18:16+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -266,6 +266,16 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
+msgid "Changes for 39.0.0"
+msgstr "Changements pour la version 39.0.0"
+
+#. type: Bullet: '* '
+msgid "Improved notifications when title or URL are copied."
+msgstr ""
+"Amélioration des notifications lorsque le titre ou l'URL ont été copiés."
+
+#. type: Title ##
+#, no-wrap
 msgid "Changes for 34.0.0"
 msgstr "Changements pour la version 34.0.0"
 
@@ -296,6 +306,15 @@ msgid "universalFeedParser is updated to 5.0.1, adding support for more feeds."
 msgstr ""
 "universalFeedParser est mis à jour vers la 5.0.1, ajoutant la prise en "
 "charge de plus de flux."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 15.0"
+msgstr "Changements pour la version 15.0"
+
+#. type: Bullet: '* '
+msgid "Compatible with NVDA 2023.1."
+msgstr "Compatible avec NVDA 2023.1."
 
 #. type: Title ##
 #, no-wrap
@@ -725,12 +744,12 @@ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid ""
 #~ "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev [3]: "
-#~ "https://github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5."
-#~ "nvda-addon"
+#~ "https://github.com/nvdaes/readFeeds/releases/download/4.5/"
+#~ "readFeeds-4.5.nvda-addon"
 #~ msgstr ""
 #~ "[2]: https://addons.nvda-project.org/files/get.php?file=rf-dev [3]: "
-#~ "https://github.com/nvdaes/readFeeds/releases/download/4.5/readFeeds-4.5."
-#~ "nvda-addon"
+#~ "https://github.com/nvdaes/readFeeds/releases/download/4.5/"
+#~ "readFeeds-4.5.nvda-addon"
 
 #~ msgid ""
 #~ "- Filter by: An edit box to search previously saved feeds.  - A list of "

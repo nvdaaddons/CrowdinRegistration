@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2024-12-01 07:42+0000\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
 "PO-Revision-Date: 2016-12-29 15:14-0800\n"
 "Last-Translator: Ócsvári Áron <oaron1@gmail.com>\n"
 "Language-Team: HU <LL@li.org>\n"
@@ -179,6 +179,13 @@ msgstr ""
 "Könyvjelzők visszaállítása; visszaállíthatja előzőleg elmentett helyjelzőit "
 "egy mappából."
 
+#. type: Bullet: '*	'
+msgid ""
+"Set default place markers folder: the default folder for place markers can "
+"be set from this dialog. It will be saved in the normal configuration "
+"profile."
+msgstr ""
+
 #. type: Plain text
 #, fuzzy
 #| msgid ""
@@ -192,6 +199,28 @@ msgid ""
 msgstr ""
 "Megjegyzés: A könyvjelzők karakterszámot használnak. Dinamikus oldalak "
 "esetén eredményesebb a Speciális Keresés funkció használata."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 45.0.0"
+msgstr "A 4.0 verzió változásai"
+
+#. type: Bullet: '* '
+msgid "Added ability to set the default placeMarkers folder."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If plugins are reloaded while this add-on is enabled, the last saved "
+"configuration will be applied."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added copy and close buttons to browseable message when showing the current "
+"file where bookmarks and specific search strings are saved."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

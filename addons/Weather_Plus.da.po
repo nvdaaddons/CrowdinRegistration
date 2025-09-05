@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-01-09 20:31+0000\n"
+"POT-Creation-Date: 2025-05-13 17:10+0000\n"
 "PO-Revision-Date: 2020-03-24 15:12+0100\n"
 "Last-Translator: Daniel Gartmann <lists@danielgartmann.dk>\n"
 "Language-Team: \n"
@@ -30,12 +30,6 @@ msgstr "Forfatter: Adriano Barbieri"
 #| msgid "NVDA compatibility: 2017.3 to 2019.3"
 msgid "NVDA compatibility: 2017.3 to beyond"
 msgstr "NVDA-kompatibilitet: 2017.3 til 2019.3"
-
-#. type: Bullet: '* '
-#, fuzzy
-#| msgid "Download: [Stable version][1]"
-msgid "Download: [Stable Version][1]"
-msgstr "Download: [Stabil version][1]"
 
 #. type: Title #
 #, no-wrap
@@ -90,11 +84,15 @@ msgstr "[http://www.geonames.org/](http://www.geonames.org/)"
 #. type: Bullet: '* '
 #, fuzzy
 #| msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
-msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+msgid ""
+"[https://api.open-meteo.com/v1/elevation/](https://api.open-meteo.com/v1/"
+"elevation/)"
 msgstr "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
 
 #. type: Bullet: '* '
-msgid "[http://www.nvda.it/](http://www.nvda.it/)"
+#, fuzzy
+#| msgid "[http://www.nvda.it/](http://www.nvda.it/)"
+msgid "[https://www.nvda.it/](https://www.nvda.it/)"
 msgstr "[http://www.nvda.it/](http://www.nvda.it/)"
 
 #. type: Title #
@@ -345,7 +343,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"hourly forecast setting... - This button allows you to choose the contents "
+"Hourly forecast setting... - This button allows you to choose the contents "
 "of the hourly forecast report."
 msgstr ""
 
@@ -559,12 +557,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid "Removed old checkbox \"State of barometric pressure\"."
-msgid "Add status of barometric pressure; check box checked (by default)"
-msgstr "Fjernet den gamle afkrydsningsfelt \"Status for barometrisk tryk\"."
-
-#. type: Bullet: '* '
-#, fuzzy
 #| msgid "check box checked (by default)"
 msgid "Add cloudiness value; check box checked (by default)"
 msgstr "afkrydsningsfeltet kontrolleres (som standard)"
@@ -666,11 +658,20 @@ msgstr ""
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
-#. type: Plain text
 #, fuzzy
-#| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=wetp"
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
-msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=wetp"
+#~| msgid "Download: [Stable version][1]"
+#~ msgid "Download: [Stable Version][1]"
+#~ msgstr "Download: [Stabil version][1]"
+
+#, fuzzy
+#~| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=wetp"
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+#~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=wetp"
+
+#, fuzzy
+#~| msgid "Removed old checkbox \"State of barometric pressure\"."
+#~ msgid "Add status of barometric pressure; check box checked (by default)"
+#~ msgstr "Fjernet den gamle afkrydsningsfelt \"Status for barometrisk tryk\"."
 
 #, fuzzy
 #~| msgid "Displays or allows to set the current city from a list  \n"

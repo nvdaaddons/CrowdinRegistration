@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community Addons website\n"
-"POT-Creation-Date: 2025-04-30 11:45+0000\n"
-"PO-Revision-Date: 2024-03-10 20:45+0100\n"
+"POT-Creation-Date: 2025-06-13 18:32+0000\n"
+"PO-Revision-Date: 2025-06-13 20:38+0200\n"
 "Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
 "Language-Team: Add-ons translation team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -46,8 +46,8 @@ msgstr ""
 "atajos de teclado y características en común."
 
 #. type: Plain text
-msgid "Tested on [eMule][1] 0.50a."
-msgstr "Probado en [eMule] [1] 0.50A."
+msgid "Tested on [eMule][1] 0.50a and 70b."
+msgstr "Probado en [eMule] [1] 0.50A y 70b."
 
 #. type: Title ##
 #, no-wrap
@@ -143,6 +143,12 @@ msgstr ""
 "control+shift+r: Lee el cuarto objeto de la barra de estado; informa sobre "
 "la conexión de las redes Kad y eD2K."
 
+#. type: Bullet: '*	'
+msgid ""
+"Not assigned: Toggles the usage of an alternative approach to read sliders."
+msgstr ""
+"Sin asignar: conmuta el uso de un enfoque alternativo para leer deslizadores."
+
 #. type: Title ##
 #, no-wrap
 msgid "Managing columns."
@@ -171,6 +177,30 @@ msgid ""
 "nvda+shift+C: Copies the contents of the last read column to the clipboard."
 msgstr ""
 "nvda+shift+C: Copia el contenido de la última columna leída al portapapeles."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20.0.0"
+msgstr "Cambios para 20.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Some edit boxes and sliders are labelled, thanks to the [labelAutofinderCore "
+"project](https://github.com/ABuffEr/labelAutofinderCore) developed by "
+"Alberto Buffolino, one of the authors of this add-on."
+msgstr ""
+"Algunos cuadros de edición y deslizadores se han etiquetado, gracias al "
+"[proyecto labelAutofinderCore](https://github.com/ABuffEr/"
+"labelAutofinderCore) desarrollado por Alberto Buffolino, uno de los autores "
+"de este complemento."
+
+#. type: Bullet: '* '
+msgid ""
+"A command (not assigned) has been added to toggle the usage of an "
+"alternative approach to read sliders (off by default)."
+msgstr ""
+"Se ha añadido un gesto (sin asignar) para conmutar el uso de un enfoque "
+"alternativo para leer deslizadores (desactivado por defecto)."
 
 #. type: Title ##
 #, no-wrap

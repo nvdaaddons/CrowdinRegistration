@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
 "PO-Revision-Date: 2019-11-23 18:43+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Notes:"
 msgstr "Note:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 #, fuzzy
 #| msgid ""
 #| "Confirmations won't be requested when a message box of NVDA is still "
@@ -209,12 +209,27 @@ msgstr ""
 "Confirmările nu vor fi solicitate dacă o casetă de mesaj a NVDA-ului e încă "
 "deschisă. În aceste cazuri, acțiunile vor fi efectuate imediat"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Emulate copy and emulate cut commands mean that, when these features are "
 "enabled, the add-on will take control of control+c and control+x. This will "
 "allow to select if a confirmation should be requested before performing the "
 "actions corresponding to these keystrokes."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 46.0.0"
+msgstr "Modificări din 4.0"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
 msgstr ""
 
 #. type: Title ##
@@ -294,7 +309,7 @@ msgstr ""
 #. type: Title ##
 #, fuzzy, no-wrap
 #| msgid "Changes for 1.0"
-msgid "Changes for 13.0 "
+msgid "Changes for 13.0"
 msgstr "Modificări din 1.0"
 
 #. type: Bullet: '* '

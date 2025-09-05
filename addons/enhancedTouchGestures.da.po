@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2025-01-26 19:19+0000\n"
+"POT-Creation-Date: 2025-07-04 12:49+0000\n"
 "PO-Revision-Date: 2022-11-06 10:10+0100\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Danish <LL@li.org>\n"
@@ -140,6 +140,18 @@ msgstr ""
 "forskellige indstillinger for talesyntesen. Svirp op og ned for at ændre den "
 "valgte indstilling. Disse bevægelser svarer til tastaturkommandoerne til "
 "ringen for talesynteseindstillinger."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 21.01"
+msgid "Version 25.07"
+msgstr "Version 21.01"
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -792,16 +804,15 @@ msgid "Initial stable version."
 msgstr "Første stabile version."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
 msgid ""
 "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=ets"
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "Download [stable version][1]"
 #~ msgstr "Download [stabil version][1]"

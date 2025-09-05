@@ -8,10 +8,10 @@ For more information about the add-on, read the [add-on guide][1].
 
 IMPORTANT NOTES:
 
-* This add-on requires StationPlaylist suite 5.50 or later.
+* This add-on requires StationPlaylist suite 6.0 or later.
 * Some add-on features will be disabled or limited if NVDA is running in secure mode such as in logon screen.
 * For best experience, disable audio ducking mode.
-* Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 23.02 (2023) onwards.
+* Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 25.01 (2025) onwards.
 * While Studio is running, you can save, reload saved settings, or reset add-on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or Control+NVDA+R three times, respectively. This is also applicable to encoder settings - you can save and reset (not reload) encoder settings if using encoders.
 * Many commands will provide speech output while NVDA is in speak on demand mode (NVDA 2024.1 and later).
 
@@ -37,7 +37,7 @@ Most of these will work in Studio only unless otherwise specified. Unless noted 
 * Control+NVDA+- (hyphen while focused on a track in Studio, Creator, Remote VT, and Track Tool): display data for all columns in a track on a browse mode window (does not support speak on demand).
 * NVDA+V while focused on a track (Studio's playlist viewer only): toggles track column announcement between screen order and custom order (does not support speak on demand).
 * Alt+NVDA+C while focused on a track (Studio's playlist viewer only): announces track comments if any.
-* Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog (does not support speak on demand).
+* Alt+NVDA+0 (two finger flick left in SPL mode) from Studio window: Opens the Studio add-on configuration dialog (does not support speak on demand).
 * Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog (does not support speak on demand).
 * Alt+NVDA+F1: Open welcome dialog (does not support speak on demand).
 
@@ -129,11 +129,11 @@ The available commands are (most commands support speak on demand):
 
 ## SPL Controller
 
-The SPL Controller is a set of layered commands you can use to control SPL Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "SPL Controller." Press another command to control various Studio settings such as microphone on/off or play the next track.
+The SPL Controller is a set of layered commands you can use to control SPL Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "SPL Controller." Press another command to control various Studio settings such as microphone on/off or play the next track. You can also configure NVDA to enter SPL Assistant layer (see above) by pressing SPL Controller layer command (passthrough mode, enabled by default).
 
 Important: SPL Controller layer commands are disabled if NVDA is running in secure mode.
 
-The available SPL Controller commands are (some commands support speak on demand):
+Outside of Studio, the available SPL Controller commands are (some commands support speak on demand):
 
 * P: Play the next selected track.
 * U: Pause or unpause playback.
@@ -141,6 +141,7 @@ The available SPL Controller commands are (some commands support speak on demand
 * T: Instant stop.
 * M: Turn on microphone.
 * Shift+M: Turn off microphone.
+* N: Turn microphone on without fade.
 * A: Turn on automation.
 * Shift+A: Turn off automation.
 * L: Turn on line-in input.
@@ -154,6 +155,8 @@ The available SPL Controller commands are (some commands support speak on demand
 * Q: Studio status information such as whether a track is playing, microphone is on and others (supports speak on demand).
 * Cart keys (F1, Control+1, for example): Play assigned carts from anywhere.
 * H: Layer help.
+
+From inside Studio, SPL Controller layer command will invoke SPL Assistant layer by default.
 
 ## Track and microphone alarms
 
@@ -177,7 +180,7 @@ To obtain length to play selected tracks, mark current track for start of track 
 
 ## Columns Explorer
 
-By pressing Control+NVDA+1 through 0, you can obtain contents of specific columns. By default, these are first ten columns for a track item (in Studio: artist, title, duration, intro, outro, category, year, album, genre, mood). For playlist editor in Creator and Remote VT client, column data depends on column order as shown on screen. In Studio, Creator's main track list, and Track Tool, column slots are preset regardless of column order on screen and can be configured from add-on settings dialog under columns explorer category.
+By pressing Control+NVDA+1 through 0, you can obtain contents of specific columns. By default, these are first ten columns for a track item (in Studio: artist, title, duration, intro, outro, category, year, album, genre, mood). In Studio, Creator's main track list and playlist editor, Track Tool, and Remote VT, column slots are preset regardless of column order on screen and can be configured from add-on settings dialog under columns explorer category.
 
 ## Track column announcement
 
@@ -203,14 +206,55 @@ You can save settings for specific shows into broadcast profiles. These profiles
 
 If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.
 
+## Version 25.09/25.06.6-LTS
+
+* 25.09: NVDA 2025.1 or later is required.
+* In Studio, search history in track finder (Control+NVDA+F) is deprecated and will be removed in a future release to align with NVDA's own find dialog experience.
+* In Studio, performing SPL Controller layer entry command will enter SPL Assistant layer, and the add-on setting to configure this option is checked by default for new installations.
+
+## Version 25.08/25.06.5-LTS
+
+* 25.08: removed unmaintained localizations (add-on messages and documentation).
+* In Studio, added two-finger flick left gesture in SPL touch mode to open SPL add-on settings.
+* Removed "Status" from vertical column navigation options.
+* In columns explorer (Studio, Track Tool, Creator, Remote VT), NVDA will no longer announce "blank" for empty column content (only column header will be announced).
+* In Studio, Track Tool, Creator, and Remote VT, NVDA will announce track position and count when location command is performed (NVDA+Numpad Delete (desktop)/NVDA+Delete (laptop) and adding Shift for review cursor version).
+
+## Version 25.07.2/25.06.4-LTS
+
+* Restored missing localized messages including track comment announcement in Studio's playlist viewer.
+* NVDA will present an error dialog when running Studio releases earlier than the version required for the add-on.
+* In Studio, pressing NVDA+Shift+F3 the first time without opening find dialog will cause NVDA to search backwards.
+* In Track Tool, NVDA will no longer play a beep when moving through tracks, especially for tracks without an intro set.
+
+## Version 25.07.1/25.06.3-LTS
+
+* In Studio's playlist viewer, NVDA will no longer appear to do nothing or play error tones when reporting column contents if vertical column navigation is set to values other than "whichever column I am reviewing".
+* Setting vertical column navigation to "Status" column is deprecated and will be removed in a future add-on release.
+
+## Version 25.07/25.06.2-LTS
+
+Version 25.07 supports SPL Studio 6.0 and later.
+
+* 25.07: code was refactored, including through use of Pyright (a Python static type checker). Some prominent code changes were also backported to 25.06.2-LTS.
+* Columns explorer (Control+NVDA+number row) is now configurable for Creator and Remote VT's playlist editor. A new button, "columns explorer for playlist editor" is available from columns explorer add-on settings screen.
+* In columns explorer add-on settings, renamed "columns explorer" to "columns explorer for SPL Studio".
+* Added JSON (JavaScript Object Notation) format as a playlist transcripts format.
+* In encoders, NVDA will remove encoder settings if pressing Control+F12 to remove settings for encoder 10 and above if more than ten encoders are present.
+
 ## Version 25.06-LTS
 
 Version 25.06.x is the last release series to support Studio 5.x with future releases requiring Studio 6.x. Some new features will be backported to 25.06.x if needed.
 
+* Internal changes to make the add-on more compatible with upcoming 64-bit NVDA.
+* NVDA will no longer forget to transfer broadcast profiles while updating the add-on (fixing a regression introduced in 25.05).
 * Added a new command in SPL Assistant to announce playlist hour over/under by in minutes and seconds (O).
 * In Studio, the command to step through library scan announcement settings has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles remote access feature in NVDA 2025.1.
 * NVDA will no longer play error tones or appear to do nothing when performing some SPL Assistant commands after resizing Studio window.
+* The user interface for confirmation dialog shown when deleting broadcast profiles now resembles NVDA's configuration profile deletion interface.
+* In add-on settings, NVDA will no longer move keyboard focus to OK button after closing columns explorer and reset dialogs.
 * NVDA will recognize track column changes introduced in Creator and Track Tool 6.11.
+* In columns explorer for Creator, "Date Restriction" column is now "Restrictions".
 * NVDA will no longer play wrong carts when playing them via SPL Controller layer.
 
 ## Version 25.05
@@ -219,7 +263,7 @@ Version 25.06.x is the last release series to support Studio 5.x with future rel
 * Restored limited support for Windows 8.1.
 * Moved ad-on wiki documents such as add-on changelog to the main code repository.
 * Added close button to playlist snapshots, playlist transcripts, and SPL Assistant and Controller layer help screens (NVDA 2025.1 and later).
-* NVDA will no longer do nothing or play error tones when announcing weather and temperature information in Studio 6.x (SPL Assistant, W).
+* NVDA will no longer do nothing or play error tones when announcing weather and temperature information in Studio 6.1x (SPL Assistant, W).
 
 ## Version 25.01
 
@@ -228,27 +272,6 @@ Version 25.06.x is the last release series to support Studio 5.x with future rel
 * Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.
 * Removed support for automatic add-on updates feature from Add-on Updater add-on.
 * In Studio 6.10 and later, added a new command in SPL Assistant to announce control keys enabled/disabled status (Control+D).
-
-## Version 24.03
-
-* Compatible with NVDA 2024.1.
-* NVDA 2023.3.3 or later is required.
-* Support for StationPlaylist suite 6.10.
-* Most commands support speak on demand (NVDA 2024.1) so announcements can be spoken in this mode.
-
-## Version 24.01
-
-* The commands for the Encoder Settings dialog for use with the SPL and SAM Encoders are now assignable, meaning that you can change them from their defaults under the StationPlaylist category in NVDA Menu > Preferences > Input Gestures. The ones that are not assignable are the connect and disconnect commands. Also, to prevent command conflicts and make much easier use of this command on remote servers, the default gesture for switching to Studio after connecting is now Control+Shift+F11 (previously just F11). All of these can of course still be toggled from the Encoder Settings dialog (NVDA+Alt+0 or F12).
-
-## Version 23.05
-
-* To reflect the maintainer change, the manifest has been updated to indicate as such.
-
-## Version 23.02
-
-* NVDA 2022.4 or later is required.
-* Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
-* In Studio's playlist viewer, NVDA will not announce column headers such as artist and title if table headers setting is set to either "rows and columns" or "columns" in NVDA's document formatting settings panel.
 
 ## Older releases
 

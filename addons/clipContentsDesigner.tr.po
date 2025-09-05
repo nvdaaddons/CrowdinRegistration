@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pano içerik düzenleyicisi\n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
-"PO-Revision-Date: 2024-10-20 11:50+0300\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
+"PO-Revision-Date: 2025-06-29 20:44+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -187,7 +187,7 @@ msgstr "Varsayılanları geri yükln."
 msgid "Notes:"
 msgstr "Notlar:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -195,18 +195,33 @@ msgstr ""
 "Eğer NVDA'nın bir mesaj kutusu hala açıksa bir işlem için onay "
 "istenmeyecektir. Bu gibi durumlarda, işlemler derhal gerçekleştirilecektir."
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Emulate copy and emulate cut commands mean that, when these features are "
 "enabled, the add-on will take control of control+c and control+x. This will "
 "allow to select if a confirmation should be requested before performing the "
 "actions corresponding to these keystrokes."
 msgstr ""
-"Kopyalamayı taklit et ve kesmeyi taklit et komutları, bu özellikler "
-"etkinleştirildiğinde, eklentinin kontrol+c ve kontrol+x'in kontrolünü "
+"Kopyalayı taklit et ve kesme komutlarını taklit et, bu özellikler "
+"etkinleştirildiğinde, eklentinin kontrol+c ve control+x kontrolünü ele "
 "alacağı anlamına gelir. Bu, bu tuş vuruşlarına karşılık gelen eylemleri "
-"gerçekleştirmeden önce bir onay istenip istenmeyeceğini seçmeye izin "
-"verecektir."
+"gerçekleştirmeden önce bir onay istenip verilmeyeceğini seçecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 46.0.0"
+msgstr "46.0.0 için Değişiklikler"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr "NVDA, göz atılabilir iletilerdeki HTML'yi sterilize edecektir."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
+msgstr ""
+"Göz atılabilir mesajları kapatmak için Escape tuşuna ek olarak bir düğme "
+"eklendi."
 
 #. type: Title ##
 #, no-wrap
@@ -282,8 +297,8 @@ msgstr "NVDA 2021.1 ile uyumlu."
 
 #. type: Title ##
 #, no-wrap
-msgid "Changes for 13.0 "
-msgstr "13.0 için Değişiklikler "
+msgid "Changes for 13.0"
+msgstr "13.0 için Değişiklikler"
 
 #. type: Bullet: '* '
 msgid ""
@@ -454,15 +469,25 @@ msgstr ""
 "Kesmeyi taklit et komutları eklendi."
 
 #. type: Bullet: '*	'
+#| msgid ""
+#| "*\t Added options to choose if available actions should be performed "
+#| "after confirmation.\n"
+#| "*\tAdded Emulate copy and Emulate cut commands, which could be assigned "
+#| "from the Input gestures dialog.\n"
+#| "*\t Added a dialog to configure the Emulate copy and Emulate cut "
+#| "functionalities at installation. This allows to add the control+c and "
+#| "control+x commands to copy and cut, and be asked if you want to replace "
+#| "the clipboard contents when pressing these keystrokes.\n"
+#| "*\tFixed documentation for script_add (Windows+NVDA+c).\n"
 msgid ""
 "Added a dialog to configure the Emulate copy and Emulate cut functionalities "
 "at installation. This allows to add the control+c and control+x commands to "
 "copy and cut, and be asked if you want to replace the clipboard contents "
 "when pressing these keystrokes."
 msgstr ""
-"Kurulum sırasında Kopyalamayı taklit et ve Kesmeyi taklit et işlevlerini "
+"Yükleme sırasında Kopyalamayı taklit et ve Kesmeyi taklit et işlevlerini "
 "yapılandırmak için bir iletişim kutusu eklendi. Bu, kopyalamak ve kesmek "
-"için control+c ve control+x komutlarının eklenmesine ve bu tuşlara "
+"için control+c ve control+x komutlarının eklenmesine ve bu tuş vuruşlarına "
 "basıldığında pano içeriğini değiştirmek isteyip istemediğinizin sorulmasına "
 "olanak tanır."
 
@@ -573,6 +598,18 @@ msgstr "İlk versiyon."
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev kararlı]]\n"
+
+#, no-wrap
+#~ msgid ""
+#~ "*\tNVDA+windows+x: Clear clipboard contents.\n"
+#~ "*\t Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.\n"
+#~ "*\t Not assigned: Shows the clipboard text as HTML in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ "*\t Not assigned: Shows the textual clipboard contents as plain text in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ msgstr ""
+#~ "*\t NVDA+Windows+X: Pano içeriğini temizler.\n"
+#~ "*\t Atanmamış: Panoya kopyalar (veya panodan keser), önceden bir onay istenmesi olasılığı vardır.\n"
+#~ "*\t Atanmamış: Pano metnini Tarama kipinde HTML olarak gösterir veya pano boşsa veya göz atılabilir bir mesajda gösterilemeyen içeriğe sahipse, örneğin dosyalar veya klasörler Windows Explorer'dan kopyalanmışsa bunu duyurur.\n"
+#~ "*\t Atanmamış: Pano içeriğini Tarama kipinde düz metin olarak gösterir veya pano boşsa ya da göz atılabilir bir mesajda gösterilemeyecek içeriğe sahipse, örneğin dosyalar veya klasörler Windows Gezgini'nden kopyalanmışsa bunu bildirir.\n"
 
 #~ msgid ""
 #~ "If needed, you can download the [last version compatible with NVDA 2017.3]"

@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) 2024-2025 NVDA Contributors.
 # This file is distributed under the same license as the PACKAGE package.
 # Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>, 2024-2025.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: MathCAT Math add-on webpage\n"
 "POT-Creation-Date: 2024-06-21 19:14+0000\n"
-"PO-Revision-Date: 2025-01-03 12:09-0300\n"
-"Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-08-14 16:37-0300\n"
+"Last-Translator: Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>\n"
+"Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
+"tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -160,32 +161,37 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "MathCAT Update Log"
-msgstr ""
+msgstr "Registro de atualizações do MathCAT"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 0.6.3"
-msgstr ""
+msgstr "Versão 0.6.3"
 
 #. type: Bullet: '* '
 msgid ""
 "All the language and braille Rule files are zipped up per directory and "
 "unzipped on demand."
 msgstr ""
+"Todos os arquivos de regras em idiomas e braille são compactados por "
+"diretório e descompactados sob demanda."
 
 #. type: Bullet: '	* '
 msgid ""
 "This currently saves ~5mb when Rules.zip is unzipped, and will save even "
 "more as more languages and braille codes are added."
 msgstr ""
+"Atualmente, isso economiza cerca de 5 MB quando o arquivo Rules.zip é "
+"descompactado e economizará ainda mais à medida que mais idiomas e códigos "
+"braille forem adicionados."
 
 #. type: Bullet: '	* '
 msgid "This is in preparation for MathCAT being built into NVDA 2024.3"
-msgstr ""
+msgstr "Isso é uma preparação para a integração do MathCAT no NVDA 2024.3."
 
 #. type: Bullet: '* '
 msgid "Added new preference `DecimalSeparator`."
-msgstr ""
+msgstr "Adicionada nova preferência `SeparadorDecimal`."
 
 #. type: Bullet: '	* '
 msgid ""
@@ -204,7 +210,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Added Swedish to supported languages."
-msgstr ""
+msgstr "Adicionado sueco aos idiomas suportados."
 
 #. type: Bullet: '* '
 msgid ""
@@ -218,13 +224,16 @@ msgid ""
 "After changing how prefs work in a previous version, I forgot to change "
 "`MathRate` and `PauseFactor` to be numbers, not strings."
 msgstr ""
+"Depois de alterar o funcionamento das preferências em uma versão anterior, "
+"esqueci de alterar `MathRate` e `PauseFactor` para números, em vez de "
+"strings."
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed bug in the braille Rules (missed change from earlier) where a third "
-"argument should have been given to say to look in the _Braille_ `definitions."
-"yaml` files and not the speech ones when looking up the value of a "
-"definition."
+"argument should have been given to say to look in the _Braille_ "
+"`definitions.yaml` files and not the speech ones when looking up the value "
+"of a definition."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -240,35 +249,42 @@ msgid ""
 "Found a bug in braille highlighting when nothing is highlighted (maybe never "
 "happens which is why I didn't see it in practice?)"
 msgstr ""
+"Encontrei um bug no realce em braille quando nada está realçado (talvez isso "
+"nunca aconteça, e é por isso que não vi isso na prática?)."
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed \"Describe\" mode so that it works -- it is still very minimal and "
 "probably not useful yet"
 msgstr ""
+"Corrigimos o modo “Descrever” para que funcione — ainda é muito básico e "
+"provavelmente ainda não é útil."
 
 #. type: Bullet: '* '
 msgid "Fixed minimum supported version"
-msgstr ""
+msgstr "Versão mínima suportada fixa"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 0.5.6"
-msgstr ""
+msgstr "Versão 0.5.6"
 
 #. type: Bullet: '* '
 msgid "Added Copy As... to the MathCAT dialog (in the \"Navagation\" pane)."
 msgstr ""
+"Adicionado Copiar como... à caixa de diálogo MathCAT (no painel “Navegação”)."
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed a bug where the language reverted to English when changing speech "
 "styles."
 msgstr ""
+"Corrigido um bug em que o idioma voltava para o inglês ao alterar os estilos "
+"de fala."
 
 #. type: Bullet: '* '
 msgid "Fixed a bug with navigation and braille"
-msgstr ""
+msgstr "Corrigido um bug na navegação e no braille"
 
 #. type: Bullet: '* '
 msgid "Fixed some Asciimath spacing problems."
@@ -276,7 +292,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Improved chemistry recognition"
-msgstr ""
+msgstr "Reconhecimento químico aprimorado"
 
 #. type: Bullet: '* '
 msgid ""
@@ -294,15 +310,19 @@ msgid ""
 "Don't use italic indicators in braille codes when the math alphanumeric "
 "italic chars are used"
 msgstr ""
+"Não use indicadores em itálico nos códigos braille quando forem usados "
+"caracteres alfanuméricos matemáticos em itálico."
 
 #. type: Bullet: '* '
 msgid "Some other smaller bug fixes that weren't reported by users"
 msgstr ""
+"Algumas outras correções de bugs menores que não foram relatadas pelos "
+"usuários"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 0.5.0"
-msgstr ""
+msgstr "Versão 0.5.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -310,6 +330,9 @@ msgid ""
 "ASCII chars and uses the current braille output table to translate the "
 "characters to braille."
 msgstr ""
+"Adicionado código braille LaTeX alemão. Ao contrário de outros códigos "
+"braille, este gera caracteres ASCII e usa a tabela de saída braille atual "
+"para traduzir os caracteres para braille."
 
 #. type: Bullet: '* '
 msgid ""
@@ -329,12 +352,14 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Version 0.4.2"
-msgstr ""
+msgstr "Versão 0.4.2"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed language switching when voice changes and MathCAT language is \"Auto\""
 msgstr ""
+"Corrigida a mudança de idioma quando a voz muda e o idioma do MathCAT está "
+"definido como “Auto”."
 
 #. type: Bullet: '* '
 msgid ""
@@ -353,6 +378,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "MathML cleanup for accented vowels (mainly for Vietnamese)"
 msgstr ""
+"Limpeza MathML para vogais acentuadas (principalmente para o vietnamita)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -365,20 +391,26 @@ msgid ""
 "Added two new interface calls -- enables setting the navigaton location from "
 "the braille cursor (not part of MathCAT addon yet)"
 msgstr ""
+"Adicionadas duas novas chamadas de interface — permite definir a localização "
+"da navegação a partir do cursor braille (ainda não faz parte do complemento "
+"MathCAT)."
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 0.3.11"
-msgstr ""
+msgstr "Versão 0.3.11"
 
 #. type: Bullet: '* '
 msgid "Upgraded to python 3.11 and verified working with NVDA 2024.1"
 msgstr ""
+"Atualizado para o Python 3.11 e verificado para funcionar com o NVDA 2024.1"
 
 #. type: Bullet: '* '
 msgid ""
 "Fix bugs in Vietnamese braille and also in Speech, mostly for chemistry."
 msgstr ""
+"Corrigir erros no braille vietnamita e também na fala, principalmente para "
+"química."
 
 #. type: Bullet: '* '
 msgid ""
@@ -392,22 +424,24 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Improve roman numeral detection"
-msgstr ""
+msgstr "Melhorar a detecção de algarismos romanos"
 
 #. type: Title ###
 #, no-wrap
 msgid "Version 0.3.9"
-msgstr ""
+msgstr "Versão 0.3.9"
 
 #. type: Bullet: '* '
 msgid "Added Traditional Chinese translation (thanks to Hon-Jang Yang)"
-msgstr ""
+msgstr "Adicionada tradução para chinês tradicional (graças a Hon-Jang Yang)"
 
 #. type: Bullet: '* '
 msgid ""
 "Fixed bug with navigating into the base of a scripted expression that has "
 "parenthesis"
 msgstr ""
+"Corrigido bug ao navegar para a base de uma expressão com script que contém "
+"parênteses"
 
 #. type: Bullet: '* '
 msgid ""

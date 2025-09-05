@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-02-15 10:17+0000\n"
-"PO-Revision-Date: 2024-02-15 11:27+0100\n"
+"POT-Creation-Date: 2025-07-07 09:30+0000\n"
+"PO-Revision-Date: 2025-07-19 21:33+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,10 +28,6 @@ msgstr "Auteur : Cyrille Bougot"
 #. type: Bullet: '* '
 msgid "NVDA compatibility: 2022.3.3 and beyond"
 msgstr "Compatibilité NVDA : 2022.3.3 et ultérieure"
-
-#. type: Bullet: '* '
-msgid "Download [stable version][1]"
-msgstr "Télécharger [version stable][1]"
 
 #. type: Plain text
 msgid ""
@@ -167,6 +163,16 @@ msgstr ""
 "traduction locale existe pour cette extension les informations sont également fournies parallèlement "
 "à l'anglais."
 
+#. type: Plain text
+msgid ""
+"Regarding NVDA symbol description section: This add-on does not yet support custom symbol "
+"dictionaries (introduced in NVDA 2024.4).  They already appear in the list \"Options used to compute "
+"the symbol\" but not in the table itself."
+msgstr ""
+"En ce qui concerne la section Description de symbole NVDA: Cette extension ne prend pas encore en "
+"charge les dictionnaires de symboles personnalisés (introduits dans NVDA 2024.4).  Ils apparaissent "
+"déjà dans la liste \"Options utilisées pour calculer le symbole\" mais pas dans le tableau lui-même."
+
 #. type: Title ##
 #, no-wrap
 msgid "Settings"
@@ -224,6 +230,71 @@ msgstr ""
 #, no-wrap
 msgid "Change log"
 msgstr "Journal des changements"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.5"
+msgstr "Version 3.5"
+
+#. type: Bullet: '* '
+msgid "Partial implementation of the support for custom dictionaries (introduced in NVDA 2024.4)."
+msgstr ""
+"Implémentation partielle de la prise en charge des dictionnaires personnalisés (introduits dans NVDA "
+"2024.4)."
+
+#. type: Bullet: '* '
+msgid "Fixed Unicode 16.0 support: block names for English and French updated."
+msgstr ""
+"Correction de la prise en charge Unicode 16.0: noms de blocs pour l'anglais et le français mis à jour."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2025.1."
+msgstr "Compatibilité avec NVDA 2025.1."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.4"
+msgstr "Version 3.4"
+
+#. type: Bullet: '* '
+msgid "Fixed an issue preventing NVDA to run safe scripts on lock screen."
+msgstr ""
+"Correction d'un problème empêchant NVDA d'exécuter des scripts sûrs sur l'écran de verrouillage."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.3"
+msgstr "Version 3.3"
+
+#. type: Bullet: '* '
+msgid "Update to Unicode 16.0."
+msgstr "Mise à jour vers Unicode 16.0."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.2"
+msgstr "Version 3.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Bugfix: characters for which only the speech level has been changed do not prevent anymore the "
+"information report to be displayed."
+msgstr ""
+"Corrections de bugs: les caractères pour lesquels seul le niveau de parole a été modifié n'empêchera "
+"plus l'affichage du rapport d'informations."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.1"
+msgstr "Version 3.1"
+
+#. type: Bullet: '* '
+msgid "Fixed an error when there was no value to report for a character."
+msgstr "Correction d'une erreur lorsqu'il n'y avait aucune valeur à annoncer pour un caractère."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1."
+msgstr "Compatibilité avec NVDA 2024.1."
 
 #. type: Title ###
 #, no-wrap
@@ -346,7 +417,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Update to Unicode 15.0"
-msgstr "Mise à jour vers Unicode 15.0."
+msgstr "Mise à jour vers Unicode 15.0"
 
 #. type: Bullet: '* '
 msgid "Updated French block data."
@@ -501,10 +572,6 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
-
-#. type: Plain text
 msgid "[2]: https://github.com/CyrilleB79/charInfo/releases/download/V1.7/charInfo-1.7.nvda-addon"
 msgstr "[2]: https://github.com/CyrilleB79/charInfo/releases/download/V1.7/charInfo-1.7.nvda-addon"
 
@@ -515,6 +582,12 @@ msgstr "[3]: https://github.com/CyrilleB79/charInfo/releases/download/V1.8/charI
 #. type: Plain text
 msgid "[4]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994"
 msgstr "[4]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Télécharger [version stable][1]"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
 
 #~ msgid "This add-on allows to present in a message various information about a character."
 #~ msgstr "Cette extension permet d'afficher dans un message des informations sur un caractère."

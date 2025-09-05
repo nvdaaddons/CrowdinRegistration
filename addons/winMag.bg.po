@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-30 11:46+0000\n"
-"PO-Revision-Date: 2024-05-24 16:19+0300\n"
+"POT-Creation-Date: 2025-07-02 15:19+0000\n"
+"PO-Revision-Date: 2025-07-05 10:44+0300\n"
 "Last-Translator: Kostadin Kolev <k.kolev1985@gmail.com>\n"
 "Language-Team: \n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.5\n"
 
 #. type: Plain text
 #, no-wrap
@@ -29,10 +29,6 @@ msgstr "Автор: Cyrille Bougot"
 msgid "NVDA compatibility: 2019.2.1 and beyond"
 msgstr "Съвместимост с NVDA: от 2019.2.1 и по-нови"
 
-#. type: Bullet: '* '
-msgid "Download [stable version][1]"
-msgstr "Изтегляне на [стабилна версия][1]"
-
 #. type: Plain text
 msgid "This add-on improves the use of Windows Magnifier with NVDA."
 msgstr "Тази добавка подобрява използването на лупата на Windows с NVDA."
@@ -43,10 +39,12 @@ msgid "Features"
 msgstr "Възможности"
 
 #. type: Bullet: '* '
-msgid "Allows to report the result of some native Magnifier keyboard commands."
+msgid ""
+"Allows to report the result of some native Magnifier and color filtering "
+"keyboard commands."
 msgstr ""
 "Позволява докладването на резултата от задействането на някои вградени "
-"клавиатурни команди на лупата."
+"клавиатурни команди на лупата и на филтрите за цветове."
 
 #. type: Bullet: '* '
 msgid ""
@@ -289,6 +287,15 @@ msgstr ""
 "Дръж командния прозорец на лупата на Windows винаги отгоре: Ако не е "
 "отметнато, контролният прозорец на лупата няма да стои над другите прозорци."
 
+#. type: Bullet: '* '
+msgid ""
+"Report color filter If checked, the used color filter is reported when you "
+"use the `Windows+Control+C` toggle command."
+msgstr ""
+"Докладвай филтрите за цветове: Ако е отметнато, Използваният филтър за "
+"цветове се докладва, когато използвате командата за превключване "
+"`Windows+Control+C`."
+
 #. type: Title ##
 #, no-wrap
 msgid "Commands added by this add-on"
@@ -452,11 +459,13 @@ msgstr "Вградени команди на лупата"
 
 #. type: Plain text
 msgid ""
-"The result of the following Magnifier native commands may be reported by "
-"this add-on, according to its configuration:"
+"The result of the following Magnifier native commands, or other "
+"Accessibility commands, may be reported by this add-on, according to its "
+"configuration:"
 msgstr ""
-"Резултатът от следните вградени команди на лупата може да се озвучава от "
-"добавката:"
+"Резултатът от следните вградени команди на лупата, или други команди за "
+"достъпност, може да се докладват от добавката, в зависимост от нейните "
+"настройки:"
 
 #. type: Bullet: '* '
 msgid "Start Magnifier: Windows++ (on alpha-numeric keyboard or on numpad)"
@@ -512,6 +521,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Move the magnified view: Control+Alt+Arrows"
 msgstr "Преместване на увеличения изглед: Control+Alt+Стрелките"
+
+#. type: Bullet: '* '
+msgid ""
+"Toggle color filters: `Windows+Control+C` (provided you have enabled this "
+"shortcut in [Windows Accessibility settings, Color Filters][9])"
+msgstr ""
+"Превключване на филтрите за цветове: `Windows+Control+C` (при условие че сте "
+"включили този пряк път в [Настройки на Windows -> Достъпност -> Филтри за "
+"цвят][9])"
 
 #. type: Plain text
 msgid ""
@@ -646,6 +664,58 @@ msgstr ""
 #, no-wrap
 msgid "Change log"
 msgstr "Списък с промените"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 4.2"
+msgstr "Версия 4.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Magnifier or Color filtering commands will no longer fail if used for the "
+"first time with this add-on running."
+msgstr ""
+"Командите за лупата или филтрите за цветове вече няма да се провалят, ако се "
+"използват за първи път, докато тази добавка е включена."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 4.0"
+msgstr "Версия 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The filter enabled by the toggle color filter command (`Windows+Control+C`) "
+"can now be reported; this toggle command should have been previously enabled "
+"in Windows Accessibility settings."
+msgstr ""
+"Филтърът, задействан от командата за превключване на филтрите за цветове "
+"(`Windows+Control+C`), вече може да бъде докладван. Тази команда за "
+"превключване трябва да бъде предварително включена в настройките за "
+"достъпност на Windows."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2025.1."
+msgstr "Съвместимост с NVDA 2025.1."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.7"
+msgstr "Версия 3.7"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1."
+msgstr "Съвместимост с NVDA 2024.1."
+
+#. type: Title ###
+#, no-wrap
+#| msgid "Version 3.5"
+msgid "Version 3.6"
+msgstr "Версия 3.6"
+
+#. type: Bullet: '* '
+msgid "Fixed erroneous compatibility range."
+msgstr "Поправен е грешен диапазон на съвместимост."
 
 #. type: Title ###
 #, no-wrap
@@ -870,10 +940,6 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-
-#. type: Plain text
 msgid "[3]: https://github.com/CyrilleB79/winMag"
 msgstr "[3]: https://github.com/CyrilleB79/winMag"
 
@@ -908,6 +974,20 @@ msgid ""
 msgstr ""
 "[8]: https://github.com/nvaccess/nvda/security/advisories/GHSA-"
 "xg6w-23rw-39r8#event-132994"
+
+#. type: Plain text
+msgid ""
+"[9]: https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-"
+"c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+msgstr ""
+"[9]: https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-"
+"c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Изтегляне на [стабилна версия][1]"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
 
 #~ msgid "Download [development version][2]"
 #~ msgstr "Изтегляне на [тестова версия][2]"

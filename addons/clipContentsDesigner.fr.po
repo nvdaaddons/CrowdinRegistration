@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: clipContentsDesigner website addons fr\n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
-"PO-Revision-Date: 2024-10-27 12:12+0100\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
+"PO-Revision-Date: 2025-06-29 19:59+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -191,7 +191,7 @@ msgstr "Restaurer les valeurs par défaut."
 msgid "Notes:"
 msgstr "Notes :"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -200,7 +200,7 @@ msgstr ""
 "NVDA est toujours ouverte. Dans ce cas, les actions seront effectuées "
 "immédiatement."
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Emulate copy and emulate cut commands mean that, when these features are "
 "enabled, the add-on will take control of control+c and control+x. This will "
@@ -211,6 +211,22 @@ msgstr ""
 "fonctionnalités sont activées, l'extension prendra le contrôle de contrôle+c "
 "et contrôle+x. Cela permettra de sélectionner si une confirmation doit être "
 "demandée avant d'effectuer les actions correspondant à ces frappes."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 46.0.0"
+msgstr "Changements pour la version 46.0.0"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr "NVDA expurgera le HTML dans les messages navigables."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
+msgstr ""
+"Ajout d'un bouton pour fermer les messages navigables, en plus de la touche "
+"Échap."
 
 #. type: Title ##
 #, no-wrap
@@ -286,8 +302,8 @@ msgstr "Compatible avec NVDA 2021.1."
 
 #. type: Title ##
 #, no-wrap
-msgid "Changes for 13.0 "
-msgstr "Changements pour la version 13.0 "
+msgid "Changes for 13.0"
+msgstr "Changements pour la version 13.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -584,6 +600,18 @@ msgstr "Première version."
 #, no-wrap
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
+
+#, no-wrap
+#~ msgid ""
+#~ "*\tNVDA+windows+x: Clear clipboard contents.\n"
+#~ "*\t Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.\n"
+#~ "*\t Not assigned: Shows the clipboard text as HTML in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ "*\t Not assigned: Shows the textual clipboard contents as plain text in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ msgstr ""
+#~ "*\tNVDA+windows+x : Effacer le contenu du presse-papiers.\n"
+#~ "*\t Non assigné : Copiés vers (ou coupés à partir du presse-papiers, avec la possibilité d'être demandé une confirmation préalable.\n"
+#~ "*\t Non assigné : Afficher le texte du presse-papiers sous forme HTML en mode navigation, ou annoncer si le presse-papiers est vide ou a un contenu qui ne peut pas être présenté dans  un message navigable, par exemple, si des fichiers ou des dossiers sont copiés à partir de Windows Explorer.\n"
+#~ "*\t Non assigné : Afficher le contenu textuel du presse-papiers sous forme de texte brut en mode navigation, ou annoncer si le presse-papiers est vide ou a un contenu qui ne peut pas être présenté dans  un message navigable, par exemple, si des fichiers ou des dossiers sont copiés à partir de Windows Explorer.\n"
 
 #~ msgid ""
 #~ "If needed, you can download the [last version compatible with NVDA 2017.3]"

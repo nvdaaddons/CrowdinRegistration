@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA add-ons translation\n"
-"POT-Creation-Date: 2025-01-26 19:19+0000\n"
-"PO-Revision-Date: 2025-02-01 20:52+0100\n"
+"POT-Creation-Date: 2025-07-04 12:49+0000\n"
+"PO-Revision-Date: 2025-07-06 13:11+0200\n"
 "Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
 "Language-Team: NVDA add-ons translation team <oprisniki@gmail.com>\n"
 "Language: es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -141,6 +141,19 @@ msgstr ""
 "deslizamiento de dos dedos arriba y abajo para cambiar los valores. Estos "
 "gestos se reflejan en las órdenes del grupo de opciones del sintetizador del "
 "teclado."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07"
+msgstr "Versión 25.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
+"Se ha hecho el código del complemento más robusto con la ayuda de Pyright "
+"(un comprobador de tipado estático de Python)."
 
 #. type: Title ##
 #, no-wrap
@@ -810,11 +823,6 @@ msgstr "Versión 16.06"
 #. type: Bullet: '* '
 msgid "Initial stable version."
 msgstr "Versión estable inicial."
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
 msgid ""

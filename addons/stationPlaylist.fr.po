@@ -6,16 +6,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Station Playlist Studio\n"
-"POT-Creation-Date: 2025-05-10 17:19+0000\n"
-"PO-Revision-Date: 2025-01-11 13:26+0100\n"
+"POT-Creation-Date: 2025-07-25 13:54+0000\n"
+"PO-Revision-Date: 2025-07-25 19:41+0200\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
-"Language-Team: Rémy Ruiz <remyruiz@gmail.com> ; Michel Such <michel."
-"such@free.fr>\n"
+"Language-Team: Rémy Ruiz <remyruiz@gmail.com> ; Michel Such "
+"<michel.such@free.fr>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -44,23 +44,19 @@ msgstr ""
 "fournit aussi des utilitaires pour contrôler le Studio où que vous soyez."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "For more information about the add-on, read the [add-on guide][2]."
 msgid "For more information about the add-on, read the [add-on guide][1]."
 msgstr ""
 "Pour plus d'informations sur l'extension, veuillez lire le [guide de "
-"l'extension][2]."
+"l'extension][1]."
 
 #. type: Plain text
 msgid "IMPORTANT NOTES:"
 msgstr "NOTES IMPORTANTES :"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "This add-on requires StationPlaylist suite 5.40 or later."
-msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgid "This add-on requires StationPlaylist suite 6.0 or later."
 msgstr ""
-"Cette extension nécessite StationPlaylist suite 5.40 ou version ultérieure."
+"Cette extension nécessite StationPlaylist suite 6.0 ou version ultérieure."
 
 #. type: Bullet: '* '
 msgid ""
@@ -75,19 +71,14 @@ msgid "For best experience, disable audio ducking mode."
 msgstr "Pour une meilleure expérience, désactiver le Mode d'atténuation audio."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Starting from 2018, [changelogs for old add-on releases][3] will be found "
-#| "on GitHub. This add-on readme will list changes from version 23.02 (2023) "
-#| "onwards."
 msgid ""
 "Starting from 2018, [changelogs for old add-on releases][2] will be found on "
-"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"GitHub. This add-on readme will list changes from version 25.01 (2025) "
 "onwards."
 msgstr ""
-"À partir de 2018, les [changelogs des anciennes versions de l'extension][3] "
+"À partir de 2018, les [changelogs des anciennes versions de l'extension][2] "
 "seront disponibles sur GitHub. Ce fichier readme de l'extension listera les "
-"modifications apportées à partir de la version 23.02 (2023)."
+"modifications apportées à partir de la version 25.01 (2025 en avant)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -170,9 +161,9 @@ msgid ""
 "Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: "
 "Announces scheduled time for the loaded playlist."
 msgstr ""
-"Alt+NVDA+1 à partir de l'éditeur de liste de lecture du créateur et de "
-"l'éditeur de liste de lecture à distance VT : annonce l'heure programmée "
-"pour la liste de lecture chargée."
+"Alt+NVDA+1 à partir de l'éditeur de liste de lecture de Creator et de "
+"l'éditeur de liste de lecture Remote VT : annonce l'heure programmée pour la "
+"liste de lecture chargée."
 
 #. type: Bullet: '* '
 msgid ""
@@ -210,32 +201,23 @@ msgstr ""
 "annonce la rotation et la catégorie associées à la playlist chargée."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Control+NVDA+f from Studio window: Opens a dialog to find a track based "
-#| "on artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to "
-#| "find backward (does not support speak on demand)."
 msgid ""
 "Control+NVDA+F from Studio window: Opens a dialog to find a track based on "
 "artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find "
 "backward (does not support speak on demand)."
 msgstr ""
-"Contrôle+NVDA+f depuis la fenêtre de Studio : Ouvre un dialogue pour "
+"Contrôle+NVDA+F depuis la fenêtre de Studio : Ouvre un dialogue pour "
 "chercher une piste en se basant sur l'artiste ou le nom de la chanson. "
 "Appuyez  sur NVDA+F3 pour chercher vers l'avant ou appuyez sur NVDA+Maj+F3 "
 "pour rechercher vers l'arrière (ne prend pas en charge la parole à la "
 "demande)."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Alt+NVDA+R from Studio window: Steps through library scan announcement "
-#| "settings (does not support speak on demand)."
 msgid ""
 "Shift+NVDA+R from Studio window: Steps through library scan announcement "
 "settings (does not support speak on demand)."
 msgstr ""
-"Alt+NVDA+R depuis la fenêtre de Studio : parcourt les paramètres d'annonce "
+"Maj+NVDA+R depuis la fenêtre de Studio : parcourt les paramètres d'annonce "
 "du balayage dans la bibliothèque (ne prend pas en charge la parole à la "
 "demande)."
 
@@ -313,11 +295,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
-"(does not support speak on demand)."
+"Alt+NVDA+0 (two finger flick left in SPL mode) from Studio window: Opens the "
+"Studio add-on configuration dialog (does not support speak on demand)."
 msgstr ""
-"Alt+NVDA+0 depuis la fenêtre de Studio : Ouvre le dialogue de configuration "
-"de l'extension Studio (ne prend pas en charge la parole à la demande)."
+"Alt+NVDA+0 (faire glisser deux doigts vers la gauche en mode SPL) à partir "
+"de la fenêtre Studio : ouvre le dialogue de configuration de l'extension "
+"Studio (ne prend pas en charge la parole à la demande)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -688,7 +671,7 @@ msgstr "N : Titre pour la piste suivante planifié."
 
 #. type: Bullet: '* '
 msgid "O: Playlist hour over/under by."
-msgstr ""
+msgstr "O : Playlist en heure / heure passée."
 
 #. type: Bullet: '* '
 msgid "P: Playback status (playing or stopped)."
@@ -823,6 +806,10 @@ msgstr "M : Activer le microphone."
 #. type: Bullet: '* '
 msgid "Shift+M: Turn off microphone."
 msgstr "Maj+M : Désactiver le microphone."
+
+#. type: Bullet: '* '
+msgid "N: Turn microphone on without fade."
+msgstr "N : Activer le microphone sans fondu."
 
 #. type: Bullet: '* '
 msgid "A: Turn on automation."
@@ -999,22 +986,19 @@ msgid ""
 "By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
 "columns. By default, these are first ten columns for a track item (in "
 "Studio: artist, title, duration, intro, outro, category, year, album, genre, "
-"mood). For playlist editor in Creator and Remote VT client, column data "
-"depends on column order as shown on screen. In Studio, Creator's main track "
-"list, and Track Tool, column slots are preset regardless of column order on "
-"screen and can be configured from add-on settings dialog under columns "
-"explorer category."
+"mood). In Studio, Creator's main track list and playlist editor, Track Tool, "
+"and Remote VT, column slots are preset regardless of column order on screen "
+"and can be configured from add-on settings dialog under columns explorer "
+"category."
 msgstr ""
 "En appuyant sur Ctrl+NVDA+1 à 0, vous pouvez obtenir le contenu de colonnes "
 "spécifiques. Par défaut, ce sont les dix premières colonnes d'un élément de "
 "piste (dans Studio : artiste, titre, durée, intro, outro, catégorie, année, "
-"album, genre, ambiance). Pour l'éditeur de liste de lecture dans le client "
-"Creator et Remote VT, les données de colonne dépendent de l'ordre des "
-"colonnes, comme indiqué à l'écran. Dans Studio, la liste des pistes "
-"principale de Creator et l'outil de piste, les emplacements de colonne sont "
-"prédéfinis quel que soit l'ordre des colonnes à l'écran et peuvent être "
-"configurés à partir du dialogue des paramètres de l'extension sous la "
-"catégorie explorateur de colonnes."
+"album, genre, ambiance). Dans Studio, la liste des pistes principales de "
+"Creator et l'éditeur de liste de lecture, l'Outil de piste, et Remote VT, "
+"les emplacements de colonne sont prédéfinis quel que soit l'ordre des "
+"colonnes à l'écran et peuvent être configurés à partir du dialogue des "
+"paramètres de l'extension sous la catégorie explorateur de colonnes."
 
 #. type: Title ##
 #, no-wrap
@@ -1128,23 +1112,210 @@ msgstr ""
 "exécuter des commandes."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 25.01"
+#, no-wrap
+msgid "Version 25.08/25.06.5-LTS"
+msgstr "Version 25.08/25.06.5-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"25.08: removed unmaintained localizations (add-on messages and "
+"documentation)."
+msgstr ""
+"25.08: Suppression des localisations non maintenues (messages et "
+"documentation de l'extension)."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, added two-finger flick left gesture in SPL touch mode to open SPL "
+"add-on settings."
+msgstr ""
+"Dans Studio, il a été ajouté un geste pour faire glisser deux doigts vers la "
+"gauche en mode tactile SPL pour ouvrir les paramètres de l'extension SPL."
+
+#. type: Bullet: '* '
+msgid "Removed \"Status\" from vertical column navigation options."
+msgstr "Supprimé \"Statut\" des options de navigation de la colonne verticale."
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer (Studio, Track Tool, Creator, Remote VT), NVDA will no "
+"longer announce \"blank\" for empty column content (only column header will "
+"be announced)."
+msgstr ""
+"Dans l'Explorateur de Colonnes (Studio, l'Outil de piste, Creator, Remote "
+"VT), NVDA n'annoncera plus \"vide\" pour le contenu de la colonne vide (seul "
+"l'en-tête de colonne sera annoncé)."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, Track Tool, Creator, and Remote VT, NVDA will announce track "
+"position and count when location command is performed (NVDA+Numpad Delete "
+"(desktop)/NVDA+Delete (laptop) and adding Shift for review cursor version)."
+msgstr ""
+"Dans Studio, l'Outil de piste, Creator, et Remote VT, NVDA annoncera la "
+"position de la piste et le total lorsque la commande de position sera "
+"effectuée (NVDA+pavnumEffacement (Ordinateur de bureau)/NVDA+effacement "
+"(Ordinateur portable) puis en ajoutant Maj pour la version du curseur de "
+"revue)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07.2/25.06.4-LTS"
+msgstr "Version 25.07.2/25.06.4-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"Restored missing localized messages including track comment announcement in "
+"Studio's playlist viewer."
+msgstr ""
+"Les messages traduits manquants sont restaurés, y compris l'annonce de "
+"commentaire de piste dans la visionneuse de playlist de Studio."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will present an error dialog when running Studio releases earlier than "
+"the version required for the add-on."
+msgstr ""
+"NVDA présentera un dialogue d'erreur lors de l'exécution des versions de "
+"Studio plus tôt que la version requise pour l'extension."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, pressing NVDA+Shift+F3 the first time without opening find dialog "
+"will cause NVDA to search backwards."
+msgstr ""
+"Dans Studio, en appuyant sur NVDA+Maj+F3 la première fois sans ouvrir le "
+"dialogue pour chercher provoquera la recherche de NVDA vers l'arrière."
+
+#. type: Bullet: '* '
+msgid ""
+"In Track Tool, NVDA will no longer play a beep when moving through tracks, "
+"especially for tracks without an intro set."
+msgstr ""
+"Dans l'Outil de piste, NVDA ne jouera plus un bip lors du déplacement des "
+"pistes, en particulier pour les pistes sans définir l'intro."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07.1/25.06.3-LTS"
+msgstr "Version 25.07.1/25.06.3-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio's playlist viewer, NVDA will no longer appear to do nothing or "
+"play error tones when reporting column contents if vertical column "
+"navigation is set to values other than \"whichever column I am reviewing\"."
+msgstr ""
+"Dans le visualiseur de playlist de Studio, NVDA ne semblera plus rien faire "
+"ni jouera des tonalités d'erreur lors du signalement du contenu de la "
+"colonne si la navigation de colonne verticale est définie sur des valeurs "
+"autres \"quel que soit la colonne que je passe en revue\"."
+
+#. type: Bullet: '* '
+msgid ""
+"Setting vertical column navigation to \"Status\" column is deprecated and "
+"will be removed in a future add-on release."
+msgstr ""
+"Le paramètre de navigation de la colonne verticale vers la colonne "
+"\"Statut\" est obsolète et sera supprimé dans une future version de "
+"l'extension."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07/25.06.2-LTS"
+msgstr "Version 25.07/25.06.2-LTS"
+
+#. type: Plain text
+msgid "Version 25.07 supports SPL Studio 6.0 and later."
+msgstr ""
+"La version 25.07 prend en charge SPL Studio 6.0 et versions ultérieures."
+
+#. type: Bullet: '* '
+msgid ""
+"25.07: code was refactored, including through use of Pyright (a Python "
+"static type checker). Some prominent code changes were also backported to "
+"25.06.2-LTS."
+msgstr ""
+"25.07: Le code a été refactorisé, y compris en utilisant Pyright (un "
+"vérificateur de type statique Python). Certains modifications de code "
+"proéminentes ont également été recouvertes de 25.06.2-lts."
+
+#. type: Bullet: '* '
+msgid ""
+"Columns explorer (Control+NVDA+number row) is now configurable for Creator "
+"and Remote VT's playlist editor. A new button, \"columns explorer for "
+"playlist editor\" is available from columns explorer add-on settings screen."
+msgstr ""
+"Explorateur de Colonnes (Contrôle+NVDA+rangée numérique) est désormais "
+"configurable pour Creator et Remote VT l'éditeur de playlist. Un nouveau "
+"bouton, \"Explorateur de Colonnes pour l'éditeur de playlist\" est "
+"disponible à partir de l'Explorateur de colonnes de l'écran des paramètres "
+"de l'extension."
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer add-on settings, renamed \"columns explorer\" to "
+"\"columns explorer for SPL Studio\"."
+msgstr ""
+"Dans les paramètres de l'explorateur de colonnes de l'extension, renommé "
+"\"Explorateur de Colonnes\" à \"Explorateur de Colonnes pour SPL Studio\"."
+
+#. type: Bullet: '* '
+msgid ""
+"Added JSON (JavaScript Object Notation) format as a playlist transcripts "
+"format."
+msgstr ""
+"Ajout du format JSON (JavaScript Object Notation) comme un format de "
+"transcriptions de playlist."
+
+#. type: Bullet: '* '
+msgid ""
+"In encoders, NVDA will remove encoder settings if pressing Control+F12 to "
+"remove settings for encoder 10 and above if more than ten encoders are "
+"present."
+msgstr ""
+"Dans les encodeurs, NVDA supprimera les paramètres de l'encodeur si vous "
+"appuyez sur Control+F12 pour supprimer les paramètres de l'encodeur 10 et "
+"plus si plus de dix encodeurs sont présents."
+
+#. type: Title ##
+#, no-wrap
 msgid "Version 25.06-LTS"
-msgstr "Version 25.01"
+msgstr "Version 25.06-LTS"
 
 #. type: Plain text
 msgid ""
 "Version 25.06.x is the last release series to support Studio 5.x with future "
-"releases requiring Studio 6.x. Some new features will be backported to 25.06."
-"x if needed."
+"releases requiring Studio 6.x. Some new features will be backported to "
+"25.06.x if needed."
 msgstr ""
+"Version 25.06.x est la dernière version des séries à prendre en charge "
+"Studio 5.x avec les versions futures nécessitant Studio 6.x. Certaines "
+"nouvelles fonctionnalités seront recouvertes à la 25.06.x si nécessaire."
+
+#. type: Bullet: '* '
+msgid ""
+"Internal changes to make the add-on more compatible with upcoming 64-bit "
+"NVDA."
+msgstr ""
+"Modifications internes pour rendre l'extension plus compatible avec le "
+"prochain NVDA 64 bits."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer forget to transfer broadcast profiles while updating the "
+"add-on (fixing a regression introduced in 25.05)."
+msgstr ""
+"NVDA n'oubliera plus de transférer des profils de diffusion lors de la mise "
+"à jour de l'extension (fixant une régression introduite dans la 25.05)."
 
 #. type: Bullet: '* '
 msgid ""
 "Added a new command in SPL Assistant to announce playlist hour over/under by "
 "in minutes and seconds (O)."
 msgstr ""
+"Ajout d'une nouvelle commande dans l'Assistant SPL pour annoncer la playlist "
+"en heure / heure passée en minutes et secondes (O)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1152,58 +1323,100 @@ msgid ""
 "has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles "
 "remote access feature in NVDA 2025.1."
 msgstr ""
+"Dans Studio, la commande de parcourt des paramètres d'annonce du balayage "
+"dans la bibliothèque est passé d'Alt+NVDA+R à Maj+NVDA+R car l'ancienne "
+"commande bascule la fonction d'accès à distance dans NVDA 2025.1."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer play error tones or appear to do nothing when performing "
 "some SPL Assistant commands after resizing Studio window."
 msgstr ""
+"NVDA ne jouera plus de tonalités d'erreur ou n'apparaîtra pour ne rien faire "
+"lors de l'exécution des commandes de l'Assistant SPL après le "
+"redimensionnement de la fenêtre de Studio."
+
+#. type: Bullet: '* '
+msgid ""
+"The user interface for confirmation dialog shown when deleting broadcast "
+"profiles now resembles NVDA's configuration profile deletion interface."
+msgstr ""
+"La boîte de  dialogue de l'interface utilisateur pour la confirmation "
+"affichée lors de la suppression des profils de diffusion ressemble désormais "
+"à l'interface de suppression du profil de configuration de NVDA."
+
+#. type: Bullet: '* '
+msgid ""
+"In add-on settings, NVDA will no longer move keyboard focus to OK button "
+"after closing columns explorer and reset dialogs."
+msgstr ""
+"Dans les paramètres de l'extension, NVDA ne déplacera plus le focus au "
+"clavier vers le bouton OK après la fermeture de l'Explorateur de Colonnes et "
+"de réinitialiser les dialogues."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will recognize track column changes introduced in Creator and Track "
 "Tool 6.11."
 msgstr ""
+"NVDA reconnaîtra les changements de colonne de piste introduits dans Creator "
+"et l'Outil de piste 6.11."
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer for Creator, \"Date Restriction\" column is now "
+"\"Restrictions\"."
+msgstr ""
+"Dans l'Explorateur de Colonnes pour Creator, la colonne \"Date Restriction\" "
+"est désormais \"Restrictions\"."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer play wrong carts when playing them via SPL Controller "
 "layer."
 msgstr ""
+"NVDA ne jouera plus de paniers erronés lorsque vous les jouez via la Couche "
+"du Contrôleur SPL."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Version 25.01"
+#, no-wrap
 msgid "Version 25.05"
-msgstr "Version 25.01"
+msgstr "Version 25.05"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "NVDA 2022.4 or later is required."
 msgid "NVDA 2024.1 or later is required due to Python 3.11 upgrade."
-msgstr "NVDA 2022.4 ou ultérieur est requis."
+msgstr ""
+"NVDA 2024.1 ou ultérieur est requis en raison de la mise à niveau de Python "
+"3.11."
 
 #. type: Bullet: '* '
 msgid "Restored limited support for Windows 8.1."
-msgstr ""
+msgstr "Restauré la prise en charge limitée pour Windows 8.1."
 
 #. type: Bullet: '* '
 msgid ""
 "Moved ad-on wiki documents such as add-on changelog to the main code "
 "repository."
 msgstr ""
+"Déplacé les documents du wiki de l'extension tels que le changelog de "
+"l'extension vers le dépôt de code principal."
 
 #. type: Bullet: '* '
 msgid ""
 "Added close button to playlist snapshots, playlist transcripts, and SPL "
 "Assistant and Controller layer help screens (NVDA 2025.1 and later)."
 msgstr ""
+"Ajout du bouton Fermer aux Instantanés de playlist, Transcriptions de "
+"Playlist et Assistant SPL et écrans d'Aide du Contrôleur  en Couche (NVDA "
+"2025.1 et ultérieur)."
 
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer do nothing or play error tones when announcing weather "
-"and temperature information in Studio 6.x (SPL Assistant, W)."
+"and temperature information in Studio 6.1x (SPL Assistant, W)."
 msgstr ""
+"NVDA ne fera plus rien ni ne jouera des tonalités d'erreur lors de l'annonce "
+"des informations Météo et température dans Studio 6.1x (Assistant SPL, W)."
 
 #. type: Title ##
 #, no-wrap
@@ -1251,135 +1464,123 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Version 24.03"
-msgstr "Version 24.03"
-
-#. type: Bullet: '* '
-msgid "Compatible with NVDA 2024.1."
-msgstr "Compatible avec NVDA 2024.1."
-
-#. type: Bullet: '* '
-msgid "NVDA 2023.3.3 or later is required."
-msgstr "NVDA 2023.3 ou ultérieur est requis."
-
-#. type: Bullet: '* '
-msgid "Support for StationPlaylist suite 6.10."
-msgstr "Prise en charge de StationPlaylist suite 6.10."
-
-#. type: Bullet: '* '
-msgid ""
-"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
-"spoken in this mode."
-msgstr ""
-"La plupart des commandes prennent en charge la parole à la demande (NVDA "
-"2024.1), les annonces peuvent donc être verbalisées dans ce mode."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 24.01"
-msgstr "Version 24.01"
-
-#. type: Bullet: '* '
-msgid ""
-"The commands for the Encoder Settings dialog for use with the SPL and SAM "
-"Encoders are now assignable, meaning that you can change them from their "
-"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
-"Input Gestures. The ones that are not assignable are the connect and "
-"disconnect commands. Also, to prevent command conflicts and make much easier "
-"use of this command on remote servers, the default gesture for switching to "
-"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
-"of these can of course still be toggled from the Encoder Settings dialog "
-"(NVDA+Alt+0 or F12)."
-msgstr ""
-"Les commandes du dialogue Paramètres de l'encodeur à utiliser avec les "
-"encodeurs SPL et SAM sont désormais assignables, ce qui signifie que vous "
-"pouvez les modifier par rapport à leurs valeurs par défaut dans la catégorie "
-"StationPlaylist dans Menu NVDA > Préférences > Gestes de commandes. Celles "
-"qui ne sont pas attribuables sont les commandes de connexion et de "
-"déconnexion. De plus, pour éviter les conflits de commandes et faciliter "
-"l'utilisation de cette commande sur les serveurs distants, le geste par "
-"défaut pour passer à Studio après la connexion est désormais Ctrl+Maj+F11 "
-"(auparavant uniquement F11). Tous ces éléments peuvent bien sûr toujours "
-"être activés à partir du dialogue Paramètres de l'encodeur (NVDA+Alt+0 ou "
-"F12)."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 23.05"
-msgstr "Version 23.05"
-
-#. type: Bullet: '* '
-msgid ""
-"To reflect the maintainer change, the manifest has been updated to indicate "
-"as such."
-msgstr ""
-"Pour refléter le changement du mainteneur, le manifeste a été mis à jour "
-"pour indiquer en tant que tel."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 23.02"
-msgstr "Version 23.02"
-
-#. type: Bullet: '* '
-msgid "NVDA 2022.4 or later is required."
-msgstr "NVDA 2022.4 ou ultérieur est requis."
-
-#. type: Bullet: '* '
-msgid ""
-"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
-msgstr ""
-"Windows 10 21H2 (Mise à jour Novembre 2021 / build 19044) ou ultérieure est "
-"requise."
-
-#. type: Bullet: '* '
-msgid ""
-"In Studio's playlist viewer, NVDA will not announce column headers such as "
-"artist and title if table headers setting is set to either \"rows and "
-"columns\" or \"columns\" in NVDA's document formatting settings panel."
-msgstr ""
-"Dans la visionneuse de playlist de Studio, NVDA n'annoncera pas les en-têtes "
-"de colonne tels que l'artiste et le titre si le paramètre d'en-têtes des "
-"tableaux est défini sur En-têtes \"Lignes et colonnes\" ou \"Colonnes\" dans "
-"le panneau Mise en Forme des Documents dans les Paramètres de NVDA."
-
-#. type: Title ##
-#, no-wrap
 msgid "Older releases"
 msgstr "Anciennes versions"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Please see the [changelog][3] for release notes for old add-on releases."
 msgid ""
 "Please see the [changelog][2] for release notes for old add-on releases."
 msgstr ""
-"S'il vous plaît voir le [changelog][3] pour les notes de version  pour les "
+"S'il vous plaît voir le [changelog][2] pour les notes de version  pour les "
 "anciennes versions de l'extension."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[2]: https://github.com/chrisDuffley/stationplaylist/wiki/SPLAddonGuide"
 msgid ""
 "[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
 "addonuserguide.md"
 msgstr ""
-"[2]: https://github.com/chrisDuffley/stationplaylist/wiki/SPLAddonGuide"
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "[3]: https://github.com/ChrisDuffley/stationplaylist/wiki/splchangelog"
 msgid ""
 "[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
-msgstr "[3]: https://github.com/ChrisDuffley/stationplaylist/wiki/splchangelog"
+msgstr ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+
+#~ msgid ""
+#~ "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
+#~ "dialog (does not support speak on demand)."
+#~ msgstr ""
+#~ "Alt+NVDA+0 depuis la fenêtre de Studio : Ouvre le dialogue de "
+#~ "configuration de l'extension Studio (ne prend pas en charge la parole à "
+#~ "la demande)."
+
+#, no-wrap
+#~ msgid "Version 24.03"
+#~ msgstr "Version 24.03"
+
+#~ msgid "Compatible with NVDA 2024.1."
+#~ msgstr "Compatible avec NVDA 2024.1."
+
+#~ msgid "NVDA 2023.3.3 or later is required."
+#~ msgstr "NVDA 2023.3 ou ultérieur est requis."
+
+#~ msgid "Support for StationPlaylist suite 6.10."
+#~ msgstr "Prise en charge de StationPlaylist suite 6.10."
+
+#~ msgid ""
+#~ "Most commands support speak on demand (NVDA 2024.1) so announcements can "
+#~ "be spoken in this mode."
+#~ msgstr ""
+#~ "La plupart des commandes prennent en charge la parole à la demande (NVDA "
+#~ "2024.1), les annonces peuvent donc être verbalisées dans ce mode."
+
+#, no-wrap
+#~ msgid "Version 24.01"
+#~ msgstr "Version 24.01"
+
+#~ msgid ""
+#~ "The commands for the Encoder Settings dialog for use with the SPL and SAM "
+#~ "Encoders are now assignable, meaning that you can change them from their "
+#~ "defaults under the StationPlaylist category in NVDA Menu > Preferences > "
+#~ "Input Gestures. The ones that are not assignable are the connect and "
+#~ "disconnect commands. Also, to prevent command conflicts and make much "
+#~ "easier use of this command on remote servers, the default gesture for "
+#~ "switching to Studio after connecting is now Control+Shift+F11 (previously "
+#~ "just F11). All of these can of course still be toggled from the Encoder "
+#~ "Settings dialog (NVDA+Alt+0 or F12)."
+#~ msgstr ""
+#~ "Les commandes du dialogue Paramètres de l'encodeur à utiliser avec les "
+#~ "encodeurs SPL et SAM sont désormais assignables, ce qui signifie que vous "
+#~ "pouvez les modifier par rapport à leurs valeurs par défaut dans la "
+#~ "catégorie StationPlaylist dans Menu NVDA > Préférences > Gestes de "
+#~ "commandes. Celles qui ne sont pas attribuables sont les commandes de "
+#~ "connexion et de déconnexion. De plus, pour éviter les conflits de "
+#~ "commandes et faciliter l'utilisation de cette commande sur les serveurs "
+#~ "distants, le geste par défaut pour passer à Studio après la connexion est "
+#~ "désormais Ctrl+Maj+F11 (auparavant uniquement F11). Tous ces éléments "
+#~ "peuvent bien sûr toujours être activés à partir du dialogue Paramètres de "
+#~ "l'encodeur (NVDA+Alt+0 ou F12)."
+
+#, no-wrap
+#~ msgid "Version 23.05"
+#~ msgstr "Version 23.05"
+
+#~ msgid ""
+#~ "To reflect the maintainer change, the manifest has been updated to "
+#~ "indicate as such."
+#~ msgstr ""
+#~ "Pour refléter le changement du mainteneur, le manifeste a été mis à jour "
+#~ "pour indiquer en tant que tel."
+
+#, no-wrap
+#~ msgid "Version 23.02"
+#~ msgstr "Version 23.02"
+
+#~ msgid "NVDA 2022.4 or later is required."
+#~ msgstr "NVDA 2022.4 ou ultérieur est requis."
+
+#~ msgid ""
+#~ "Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+#~ msgstr ""
+#~ "Windows 10 21H2 (Mise à jour Novembre 2021 / build 19044) ou ultérieure "
+#~ "est requise."
+
+#~ msgid ""
+#~ "In Studio's playlist viewer, NVDA will not announce column headers such "
+#~ "as artist and title if table headers setting is set to either \"rows and "
+#~ "columns\" or \"columns\" in NVDA's document formatting settings panel."
+#~ msgstr ""
+#~ "Dans la visionneuse de playlist de Studio, NVDA n'annoncera pas les en-"
+#~ "têtes de colonne tels que l'artiste et le titre si le paramètre d'en-"
+#~ "têtes des tableaux est défini sur En-têtes \"Lignes et colonnes\" ou "
+#~ "\"Colonnes\" dans le panneau Mise en Forme des Documents dans les "
+#~ "Paramètres de NVDA."
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
 #~ msgstr ""

@@ -9,16 +9,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Weather Plus add-on webpage\n"
-"POT-Creation-Date: 2025-01-09 20:31+0000\n"
-"PO-Revision-Date: 2025-02-07 13:21-0300\n"
-"Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
+"POT-Creation-Date: 2025-05-13 17:10+0000\n"
+"PO-Revision-Date: 2025-08-14 16:57-0300\n"
+"Last-Translator: Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>\n"
 "Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
 "tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -33,10 +33,6 @@ msgstr "Autor: Adriano Barbieri"
 #. type: Bullet: '* '
 msgid "NVDA compatibility: 2017.3 to beyond"
 msgstr "Compatibilidade com o NVDA: 2017.3 em diante"
-
-#. type: Bullet: '* '
-msgid "Download: [Stable Version][1]"
-msgstr "Baixar: [Versão Estável][1]"
 
 #. type: Title #
 #, no-wrap
@@ -77,12 +73,16 @@ msgid "[http://www.geonames.org/](http://www.geonames.org/)"
 msgstr "[http://www.geonames.org/](http://www.geonames.org/)"
 
 #. type: Bullet: '* '
-msgid "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
-msgstr "[http://veloroutes.org/elevation/](http://veloroutes.org/elevation/)"
+msgid ""
+"[https://api.open-meteo.com/v1/elevation/](https://api.open-meteo.com/v1/"
+"elevation/)"
+msgstr ""
+"[https://api.open-meteo.com/v1/elevation/](https://api.open-meteo.com/v1/"
+"elevation/)"
 
 #. type: Bullet: '* '
-msgid "[http://www.nvda.it/](http://www.nvda.it/)"
-msgstr "[http://www.nvda.it/](http://www.nvda.it/)"
+msgid "[https://www.nvda.it/](https://www.nvda.it/)"
+msgstr "[https://www.nvda.it/](https://www.nvda.it/)"
 
 #. type: Title #
 #, no-wrap
@@ -277,10 +277,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"hourly forecast setting... - This button allows you to choose the contents "
+"Hourly forecast setting... - This button allows you to choose the contents "
 "of the hourly forecast report."
 msgstr ""
-"configuração de previsão horária... - Este botão permite que você escolha o "
+"Configuração da previsão horária... - Este botão permite selecionar o "
 "conteúdo do relatório de previsão horária."
 
 #. type: Bullet: '* '
@@ -466,12 +466,6 @@ msgstr ""
 "mercúrio. Caixa de seleção marcada (por padrão)"
 
 #. type: Bullet: '* '
-msgid "Add status of barometric pressure; check box checked (by default)"
-msgstr ""
-"Adicionar estado da pressão barométrica; caixa de seleção marcada (por "
-"padrão)"
-
-#. type: Bullet: '* '
 msgid "Add cloudiness value; check box checked (by default)"
 msgstr "Adicionar valor de nebulosidade; caixa de seleção marcada (por padrão)"
 
@@ -560,9 +554,16 @@ msgstr "\"Weather_searchkey\": chave de pesquisa salva."
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
-#. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+#~ msgid "Download: [Stable Version][1]"
+#~ msgstr "Baixar: [Versão Estável][1]"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
+
+#~ msgid "Add status of barometric pressure; check box checked (by default)"
+#~ msgstr ""
+#~ "Adicionar estado da pressão barométrica; caixa de seleção marcada (por "
+#~ "padrão)"
 
 #~ msgid "[1]: https://addons.nvda-project.org/files/get.php?file=wetp"
 #~ msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=wetp"
@@ -2819,8 +2820,8 @@ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
 #~ "\t* 2 valores não eram devolvidos, na falta de ligação.\n"
 
 #~ msgid ""
-#~ "MenuItem.GetLabel() is deprecated and has been replaced by MenuItem."
-#~ "GetItemLabelText()."
+#~ "MenuItem.GetLabel() is deprecated and has been replaced by "
+#~ "MenuItem.GetItemLabelText()."
 #~ msgstr ""
 #~ "O comando MenuItem.GetLabel () está obsoleto e foi substituído por "
 #~ "MenuItem.GetItemLabelText()."
@@ -2981,8 +2982,8 @@ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
 #~ "* Changed again API service;\n"
 #~ "\t* Weather Plus now uses the new Yahoo Weather API with language Yahoo!"
 #~ "Query and JQuery:\n"
-#~ "\t* [yahoo-weather-api-with-yahooquery](http://codesimplified.blogspot."
-#~ "it/2013/10/yahoo-weather-api-with-yahooquery.html)\n"
+#~ "\t* [yahoo-weather-api-with-yahooquery](http://codesimplified.blogspot.it/"
+#~ "2013/10/yahoo-weather-api-with-yahooquery.html)\n"
 #~ "* The key-API is no longer required.\n"
 #~ "* Restored The search of the homonymous cities;\n"
 #~ "\t* It will be possible to choose exactly the desired city from a list.\n"
@@ -2996,8 +2997,8 @@ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=Weather_Plus"
 #~ "* Mudou novamente o serviço API;\n"
 #~ "\t* O Weather Plus agora usa a nova API do tempo do Yahoo  com a "
 #~ "linguagem Yahoo query e JQuery:\n"
-#~ "\t* [yahoo-weather-api-with-yahooquery](http://codesimplified.blogspot."
-#~ "it/2013/10/yahoo-weather-api-with-yahooquery.html)\n"
+#~ "\t* [yahoo-weather-api-with-yahooquery](http://codesimplified.blogspot.it/"
+#~ "2013/10/yahoo-weather-api-with-yahooquery.html)\n"
 #~ "* A chave-API deixou de ser necessária.\n"
 #~ "* Foi Restaurada A busca das cidades homônimas;\n"
 #~ "\t* Será possível escolher exatamente a cidade desejada a partir de uma "

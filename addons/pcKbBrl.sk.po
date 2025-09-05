@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-01 07:34+0000\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
 "PO-Revision-Date: 2020-02-13 14:44+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -255,6 +255,15 @@ msgstr ""
 "ignorované, keďže sa nedostanú k operačnému systému ani NVDA. Môžete skúsiť "
 "použiť iný rád kláves alebo rady kombinovať. (Poznámka prekladateľa: "
 "Odporúčam použiť externú klávesnicu)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 44.0.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added kannada.cti table."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

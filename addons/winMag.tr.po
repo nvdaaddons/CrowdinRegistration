@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Windows Büyüteç\n"
-"POT-Creation-Date: 2025-04-30 11:46+0000\n"
-"PO-Revision-Date: 2025-04-30 18:44+0300\n"
+"POT-Creation-Date: 2025-07-02 15:19+0000\n"
+"PO-Revision-Date: 2025-07-02 22:54+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
@@ -29,10 +29,6 @@ msgstr "Yazar: Cyrille Bougot"
 msgid "NVDA compatibility: 2019.2.1 and beyond"
 msgstr "NVDA uyumluluğu: 2019.2.1 ve sonrası"
 
-#. type: Bullet: '* '
-msgid "Download [stable version][1]"
-msgstr "[kararlı sürümü][1] indir"
-
 #. type: Plain text
 msgid "This add-on improves the use of Windows Magnifier with NVDA."
 msgstr "Bu eklenti, Windows Büyüteç'in NVDA ile kullanımını geliştirir."
@@ -43,9 +39,14 @@ msgid "Features"
 msgstr "Özellikler"
 
 #. type: Bullet: '* '
-msgid "Allows to report the result of some native Magnifier keyboard commands."
+#| msgid ""
+#| "Allows to report the result of some native Magnifier keyboard commands."
+msgid ""
+"Allows to report the result of some native Magnifier and color filtering "
+"keyboard commands."
 msgstr ""
-"Bazı Varsayılan Büyüteç klavye komutlarının sonucunu bildirmeye izin verir."
+"Bazı dahili Büyüteç ve renk filtreleme klavye komutlarının sonucunu "
+"duyurmaya izin verir."
 
 #. type: Bullet: '* '
 msgid ""
@@ -282,6 +283,17 @@ msgstr ""
 "Windows Büyüteç komut penceresini her zaman üstte tut: İşaretlenmezse, "
 "Büyüteç'in kontrol penceresi her zaman diğer pencerelerin üstünde tutulmaz."
 
+#. type: Bullet: '* '
+#| msgid ""
+#| "Report color inversion: If checked, the color inversion state is reported "
+#| "when you use the control+Alt+I toggle command."
+msgid ""
+"Report color filter If checked, the used color filter is reported when you "
+"use the `Windows+Control+C` toggle command."
+msgstr ""
+"Renk filtresini raporla İşaretlenirse, `Windows+Control+C` geçiş komutunu "
+"kullandığınızda kullanılan renk filtresi bildirilir."
+
 #. type: Title ##
 #, no-wrap
 msgid "Commands added by this add-on"
@@ -430,12 +442,16 @@ msgid "Magnifier's native commands"
 msgstr "Büyüteç'in Varsayılan komutları"
 
 #. type: Plain text
+#| msgid ""
+#| "The result of the following Magnifier native commands may be reported by "
+#| "this add-on, according to its configuration:"
 msgid ""
-"The result of the following Magnifier native commands may be reported by "
-"this add-on, according to its configuration:"
+"The result of the following Magnifier native commands, or other "
+"Accessibility commands, may be reported by this add-on, according to its "
+"configuration:"
 msgstr ""
-"Aşağıdaki Büyüteç Varsayılan komutlarının sonucu, yapılandırmasına göre bu "
-"eklenti tarafından bildirilebilir:"
+"Aşağıdaki Büyüteç yerel komutlarının veya diğer Erişilebilirlik komutlarının "
+"sonucu, yapılandırmasına göre bu eklenti tarafından bildirilebilir:"
 
 #. type: Bullet: '* '
 msgid "Start Magnifier: Windows++ (on alpha-numeric keyboard or on numpad)"
@@ -490,6 +506,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Move the magnified view: Control+Alt+Arrows"
 msgstr "Büyütülmüş görünümü taşıma: Control+Alt+Oklar"
+
+#. type: Bullet: '* '
+msgid ""
+"Toggle color filters: `Windows+Control+C` (provided you have enabled this "
+"shortcut in [Windows Accessibility settings, Color Filters][9])"
+msgstr ""
+"Renk filtrelerini değiştir: `Windows+Control+C` (bu kısayolu [Windows "
+"Erişilebilirlik ayarları, Renk Filtreleri][9] etkinleştirmiş olmanız "
+"şartıyla)"
 
 #. type: Plain text
 msgid ""
@@ -622,6 +647,56 @@ msgstr ""
 #, no-wrap
 msgid "Change log"
 msgstr "Sürüm Geçmişi"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 4.2"
+msgstr "Sürüm 4.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Magnifier or Color filtering commands will no longer fail if used for the "
+"first time with this add-on running."
+msgstr ""
+"Büyüteç veya Renk filtreleme komutları, bu eklenti çalışırken ilk kez "
+"kullanılırsa artık başarısız olmayacaktır."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 4.0"
+msgstr "Sürüm 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The filter enabled by the toggle color filter command (`Windows+Control+C`) "
+"can now be reported; this toggle command should have been previously enabled "
+"in Windows Accessibility settings."
+msgstr ""
+"Renk filtresini değiştir komutu (`Windows+Control+C`) tarafından "
+"etkinleştirilen filtre artık duyurulabilir; bu değiştirme komutunun daha "
+"önce Windows Erişilebilirlik ayarlarında etkinleştirilmiş olması gerekir."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2025.1."
+msgstr "NVDA 2025.1 ile uyumluluk."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.7"
+msgstr "Sürüm 3.7"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1."
+msgstr "NVDA 2024.1 ile uyumluluk."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.6"
+msgstr "Sürüm 3.6"
+
+#. type: Bullet: '* '
+msgid "Fixed erroneous compatibility range."
+msgstr "Hatalı uyumluluk aralığı düzeltildi."
 
 #. type: Title ###
 #, no-wrap
@@ -839,10 +914,6 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-
-#. type: Plain text
 msgid "[3]: https://github.com/CyrilleB79/winMag"
 msgstr "[3]: https://github.com/CyrilleB79/winMag"
 
@@ -877,6 +948,20 @@ msgid ""
 msgstr ""
 "[8]: https://github.com/nvaccess/nvda/security/advisories/GHSA-"
 "xg6w-23rw-39r8#event-132994"
+
+#. type: Plain text
+msgid ""
+"[9]: https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-"
+"c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+msgstr ""
+"[9]: https://support.microsoft.com/tr-tr/windows/make-windows-easier-to-see-"
+"c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "[kararlı sürümü][1] indir"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
 
 #~ msgid "Download [development version][2]"
 #~ msgstr "[Geliştirme sürümünü][2] indir"

@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community websiteNVDA Community Addons website\n"
-"POT-Creation-Date: 2024-03-10 18:42+0000\n"
-"PO-Revision-Date: 2024-02-16 16:29+0200\n"
+"POT-Creation-Date: 2025-06-13 18:32+0000\n"
+"PO-Revision-Date: 2025-06-14 22:07+0300\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -47,10 +47,8 @@ msgstr ""
 "näppäinkomentoja ja ominaisuuksia."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "Tested on [eMule][2] 0.50a."
-msgid "Tested on [eMule][1] 0.50a."
-msgstr "Testattu [eMule][2]n 0.50a-versiossa."
+msgid "Tested on [eMule][1] 0.50a and 70b."
+msgstr "Testattu [eMulen][1] versioissa 0.50a ja 70b."
 
 #. type: Title ##
 #, no-wrap
@@ -91,8 +89,8 @@ msgid ""
 "control+shift+o: Move the focus to read-only edit boxes in the current "
 "window. For example the IRC received messages, available Servers, etc."
 msgstr ""
-"Ctrl+Vaihto+O: Siirtää kohdistuksen nykyisen ikkunan vain luku -"
-"muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin, "
+"Ctrl+Vaihto+O: Siirtää kohdistuksen nykyisen ikkunan vain luku "
+"-muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin, "
 "käytettävissä olevien palvelimien listaan jne."
 
 #. type: Bullet: '*	'
@@ -100,8 +98,8 @@ msgid ""
 "control+NVDA+f: If the caret is located in a read only edit box, opens a "
 "find dialog to use the commands for searching text available in NVDA."
 msgstr ""
-"Ctrl+NVDA+F: Avaa etsintävalintaikkunan, jos kohdistin on vain luku -"
-"tyyppisessä muokkausruudussa."
+"Ctrl+NVDA+F: Avaa etsintävalintaikkunan, jos kohdistin on vain luku "
+"-tyyppisessä muokkausruudussa."
 
 #. type: Bullet: '*	'
 msgid ""
@@ -143,6 +141,13 @@ msgstr ""
 "Ctrl+Vaihto+R: Lukee tilarivillä neljäntenä olevan objektin, jossa on tietoa "
 "eD2K- ja Kad-verkkojen yhteyden tilasta."
 
+#. type: Bullet: '*	'
+msgid ""
+"Not assigned: Toggles the usage of an alternative approach to read sliders."
+msgstr ""
+"Ei määritetty: Ottaa käyttöön vaihtoehtoisen liukusäädinten lukutavan tai "
+"poistaa sen käytöstä."
+
 #. type: Title ##
 #, no-wrap
 msgid "Managing columns."
@@ -171,6 +176,30 @@ msgid ""
 "nvda+shift+C: Copies the contents of the last read column to the clipboard."
 msgstr ""
 "NVDA+Vaihto+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 20.0.0"
+msgstr "Muutokset versiossa 20.0.0"
+
+#. type: Bullet: '* '
+msgid ""
+"Some edit boxes and sliders are labelled, thanks to the [labelAutofinderCore "
+"project](https://github.com/ABuffEr/labelAutofinderCore) developed by "
+"Alberto Buffolino, one of the authors of this add-on."
+msgstr ""
+"Osa muokkauskentistä ja liukusäätimistä on nimetty Alberto Buffolinon "
+"kehittämää [labelAutofinderCore-projektia](https://github.com/ABuffEr/"
+"labelAutofinderCore) hyödyntäen."
+
+#. type: Bullet: '* '
+msgid ""
+"A command (not assigned) has been added to toggle the usage of an "
+"alternative approach to read sliders (off by default)."
+msgstr ""
+"Lisätty määrittämätön komento vaihtoehtoisen liukusäädinten lukutavan "
+"käyttöön ottamista tai käytöstä poistamista varten (oletuksena pois "
+"käytöstä)."
 
 #. type: Title ##
 #, no-wrap
@@ -301,10 +330,8 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-#, fuzzy
-#| msgid "[2]: https://www.emule-project.net"
 msgid "[1]: https://www.emule-project.net"
-msgstr "[2]: https://www.emule-project.net"
+msgstr "[1]: https://www.emule-project.net"
 
 #~ msgid "NVDA compatibility: 2022.1 or later."
 #~ msgstr "Yhteensopivuus: NVDA 2022.1 tai uudempi"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-01 07:34+0000\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
 "PO-Revision-Date: 2022-07-12 19:08+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -260,6 +260,16 @@ msgstr ""
 "法はありません。上の行のキーを片手または両手で使用すると、使用しているキー"
 "ボードがこれらのキーの組み合わせを許可している場合は、入力出来るかもしれませ"
 "ん。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 2022.1"
+msgid "Changes for 44.0.0"
+msgstr "2022.1の変更点"
+
+#. type: Bullet: '* '
+msgid "Added kannada.cti table."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

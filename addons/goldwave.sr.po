@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-20 15:31+0000\n"
+"POT-Creation-Date: 2025-06-23 16:37+0000\n"
 "PO-Revision-Date: 2017-06-02 22:35+0100\n"
 "Last-Translator: Nikola Jovic <wwenikola123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,6 +91,24 @@ msgid "Note: GoldWave 6 or later and Windows 10 or later is required."
 msgstr ""
 "Podrška za GoldWave 6, uključujući 64-bitnu verziju programa "
 "GoldWave(pogledajte napomenu iznad)."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 16.12"
+msgid "Version 25.07"
+msgstr "Verzija 16.12"
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Improved audio selection, zoom level, and track position announcements in "
+"GoldWave 7."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -486,15 +504,14 @@ msgid "Initial version."
 msgstr "Prva verzija"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"
 msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=goldwave"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=gwv"
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #, fuzzy
 #~| msgid "NvDA+Shift+C: Toggles speaking of commands during audio editing."

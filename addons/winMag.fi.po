@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Windows Magnifier\n"
-"POT-Creation-Date: 2024-02-15 21:52+0000\n"
+"POT-Creation-Date: 2025-07-02 15:19+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -29,10 +29,6 @@ msgstr "Tekijä: Cyrille Bougot"
 msgid "NVDA compatibility: 2019.2.1 and beyond"
 msgstr "yhteensopivuus: NVDA 2019.2.1 ja uudemmat"
 
-#. type: Bullet: '* '
-msgid "Download [stable version][1]"
-msgstr "Lataa [vakaa versio][1]"
-
 #. type: Plain text
 msgid "This add-on improves the use of Windows Magnifier with NVDA."
 msgstr ""
@@ -44,9 +40,12 @@ msgid "Features"
 msgstr "Ominaisuudet"
 
 #. type: Bullet: '* '
-msgid "Allows to report the result of some native Magnifier keyboard commands."
+msgid ""
+"Allows to report the result of some native Magnifier and color filtering "
+"keyboard commands."
 msgstr ""
-"Ilmoittaa joidenkin alkuperäisten suurennuslasinäppäinkomentojen tulokset."
+"Mahdollistaa joidenkin alkuperäisten suurennuslasi- ja "
+"värisuodatusnäppäinkomentojen tulosten ilmoittamisen."
 
 #. type: Bullet: '* '
 msgid ""
@@ -283,6 +282,14 @@ msgstr ""
 "ole valittuna, suurennuslasin säädinikkunaa ei pidetä aina muiden ikkunoiden "
 "päällä."
 
+#. type: Bullet: '* '
+msgid ""
+"Report color filter If checked, the used color filter is reported when you "
+"use the `Windows+Control+C` toggle command."
+msgstr ""
+"Ilmoita värisuodatin: Jos tämä on valittuna, käytössä oleva värisuodatin "
+"ilmoitetaan käyttäessäsi tilanvaihtokomentoa `Win+Ctrl+C`."
+
 #. type: Title ##
 #, no-wrap
 msgid "Commands added by this add-on"
@@ -385,8 +392,8 @@ msgid ""
 "been previously saved to NVDA's configuration, the default configuration "
 "parameters of Windows Magnifier are restored instead."
 msgstr ""
-"NVDA+Windows+O ja sitten P: Palauttaa suurennuslasin nykyiset asetukset NVDA:"
-"n asetuksista. Mikäli asetuksia ei ole aiemmin tallennettu, Windowsin "
+"NVDA+Windows+O ja sitten P: Palauttaa suurennuslasin nykyiset asetukset "
+"NVDA:n asetuksista. Mikäli asetuksia ei ole aiemmin tallennettu, Windowsin "
 "suurennuslasin oletusasetukset palautetaan."
 
 #. type: Bullet: '* '
@@ -442,11 +449,13 @@ msgstr "Alkuperäiset suurennuslasikomennot"
 
 #. type: Plain text
 msgid ""
-"The result of the following Magnifier native commands may be reported by "
-"this add-on, according to its configuration:"
+"The result of the following Magnifier native commands, or other "
+"Accessibility commands, may be reported by this add-on, according to its "
+"configuration:"
 msgstr ""
-"Asetuksista riippuen seuraavien alkuperäisten suurennuslasikomentojen "
-"tulokset puhutaan tätä lisäosaa käytettäessä:"
+"Asetuksista riippuen seuraavien alkuperäisten suurennuslasi- tai muiden "
+"helppokäyttötoimintojen komentojen tulokset puhutaan tätä lisäosaa "
+"käytettäessä:"
 
 #. type: Bullet: '* '
 msgid "Start Magnifier: Windows++ (on alpha-numeric keyboard or on numpad)"
@@ -499,6 +508,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Move the magnified view: Control+Alt+Arrows"
 msgstr "Siirrä suurennettua näkymää: Ctrl+Alt+Nuolinäppäimet"
+
+#. type: Bullet: '* '
+msgid ""
+"Toggle color filters: `Windows+Control+C` (provided you have enabled this "
+"shortcut in [Windows Accessibility settings, Color Filters][9])"
+msgstr ""
+"Ota värisuodattimet käyttöön tai poista ne käytöstä: `Win+Ctrl+C` (jos olet "
+"ottanut tämän pikanäppäimen käyttöön Windowsin asetuksista kohdasta "
+"[Helppokäyttötoiminnot -> Värisuodattimet][9])"
 
 #. type: Plain text
 msgid ""
@@ -595,12 +613,12 @@ msgstr ""
 
 #. type: Bullet: '    * '
 msgid ""
-"[Use Magnifier to make things on the screen easier to see](https://support."
-"microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-easier-"
-"to-see)"
+"[Use Magnifier to make things on the screen easier to see](https://"
+"support.microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-"
+"easier-to-see)"
 msgstr ""
-"[Käytä suurennuslasia nähdäksesi näytön kohteet paremmin](https://support."
-"microsoft.com/fi-fi/windows/k%C3%A4yt%C3%A4-suurennuslasia-"
+"[Käytä suurennuslasia nähdäksesi näytön kohteet paremmin](https://"
+"support.microsoft.com/fi-fi/windows/k%C3%A4yt%C3%A4-suurennuslasia-"
 "n%C3%A4hd%C3%A4ksesi-n%C3%A4yt%C3%B6n-kohteet-paremmin-414948ba-8b1c-"
 "d3bd-8615-0e5e32204198)"
 
@@ -631,6 +649,60 @@ msgstr ""
 #, no-wrap
 msgid "Change log"
 msgstr "Muutosloki"
+
+#. type: Title ###
+#, no-wrap
+#| msgid "Version 3.2"
+msgid "Version 4.2"
+msgstr "Versio 4.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Magnifier or Color filtering commands will no longer fail if used for the "
+"first time with this add-on running."
+msgstr ""
+"Suurennuslasin tai värisuodatuksen komennot toimivat nyt ensimmäisellä "
+"käyttökerralla, kun tämä lisäosa on käynnissä."
+
+#. type: Title ###
+#, no-wrap
+#| msgid "Version 3.0"
+msgid "Version 4.0"
+msgstr "Versio 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The filter enabled by the toggle color filter command (`Windows+Control+C`) "
+"can now be reported; this toggle command should have been previously enabled "
+"in Windows Accessibility settings."
+msgstr ""
+"Pikanäppäimellä `Win+Ctrl+C` käyttöön otettavan värisuodattimen tila voidaan "
+"nyt ilmoittaa. Tämä pikanäppäin on ensin otettava käyttöön Windowsin "
+"helppokäyttötoimintojen asetuksista."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2025.1."
+msgstr "Yhteensopivuus NVDA 2025.1:n kanssa."
+
+#. type: Title ###
+#, no-wrap
+#| msgid "Version 3.5"
+msgid "Version 3.7"
+msgstr "Versio 3.7"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1."
+msgstr "Yhteensopivuus NVDA 2024.1:n kanssa."
+
+#. type: Title ###
+#, no-wrap
+#| msgid "Version 3.5"
+msgid "Version 3.6"
+msgstr "Versio 3.6"
+
+#. type: Bullet: '* '
+msgid "Fixed erroneous compatibility range."
+msgstr "Korjattu virheellinen versioyhteensopivuus."
 
 #. type: Title ###
 #, no-wrap
@@ -848,10 +920,6 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-
-#. type: Plain text
 msgid "[3]: https://github.com/CyrilleB79/winMag"
 msgstr "[3]: https://github.com/CyrilleB79/winMag"
 
@@ -868,19 +936,19 @@ msgstr "[5]: https://addons.nvda-project.org/addons/easyTableNavigator.en.html"
 
 #. type: Plain text
 msgid ""
-"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/winMag-1.1."
-"nvda-addon"
+"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/"
+"winMag-1.1.nvda-addon"
 msgstr ""
-"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/winMag-1.1."
-"nvda-addon"
+"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/"
+"winMag-1.1.nvda-addon"
 
 #. type: Plain text
 msgid ""
-"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/winMag-3.2."
-"nvda-addon"
+"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/"
+"winMag-3.2.nvda-addon"
 msgstr ""
-"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/winMag-3.2."
-"nvda-addon"
+"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/"
+"winMag-3.2.nvda-addon"
 
 #. type: Plain text
 msgid ""
@@ -889,6 +957,20 @@ msgid ""
 msgstr ""
 "[8]: https://github.com/nvaccess/nvda/security/advisories/GHSA-"
 "xg6w-23rw-39r8#event-132994"
+
+#. type: Plain text
+msgid ""
+"[9]: https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-"
+"c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+msgstr ""
+"[9]: https://support.microsoft.com/fi-fi/windows/helpota-windowsin-"
+"n%C3%A4kemist%C3%A4-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Lataa [vakaa versio][1]"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
 
 #~ msgid "Download [development version][2]"
 #~ msgstr "Lataa [kehitysversio][2]"

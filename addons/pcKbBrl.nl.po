@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA Community add-ons website\n"
-"POT-Creation-Date: 2024-12-01 07:34+0000\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
 "PO-Revision-Date: 2015-01-09 11:05+0100\n"
 "Last-Translator: Leonard de Ruijter <mail@leonardder.nl>\n"
 "Language-Team: NL <nvda-nl@googlegroups.com>\n"
@@ -242,6 +242,15 @@ msgstr ""
 "simpelweg niet ontvangen worden door Windows of NVDA. In sommige gevallen "
 "kan het gebruik van de bovenste rij toetsen door één of beide handen helpen "
 "en wordt dit mogelijk wel door uw toetsenbord toegestaan."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 44.0.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added kannada.cti table."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

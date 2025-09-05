@@ -8,16 +8,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Enhanced Touch Gestures webpage\n"
-"POT-Creation-Date: 2025-01-26 19:19+0000\n"
-"PO-Revision-Date: 2025-01-31 20:03-0300\n"
-"Last-Translator: Josevan Fernandes <josevanfernandes@yahoo.com.br>\n"
+"POT-Creation-Date: 2025-07-04 12:49+0000\n"
+"PO-Revision-Date: 2025-08-07 13:34-0300\n"
+"Last-Translator: Josevan Barbosa Fernandes <josevanfernandes@yahoo.com.br>\n"
 "Language-Team: NVDA Brazilian Portuguese translation team (Equipe de "
 "tradução do NVDA para Português Brasileiro) <clever97@gmail.com>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -139,6 +139,19 @@ msgstr ""
 "dedos à esquerda ou à direita para mover entre as opções do sintetizador e "
 "deslize com dois dedos acima e abaixo para mudar valores. Esses gestos "
 "espelham os comandos do anel de opções do sintetizador pelo teclado."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07"
+msgstr "Versão 25.07"
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
+"Tornou o código do complemento mais robusto com a ajuda do Pyright (um "
+"verificador de tipos estáticos Python)."
 
 #. type: Title ##
 #, no-wrap
@@ -806,15 +819,14 @@ msgid "Initial stable version."
 msgstr "Versão estável inicial."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
 msgid ""
 "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
 msgstr ""
 "[1]: https://www.nvaccess.org/addonStore/legacy?file=enhancedTouchGestures"
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "Download [stable version][1]"
 #~ msgstr "Baixe a [versão estável][1]"

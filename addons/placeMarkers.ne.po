@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION1.0\n"
-"POT-Creation-Date: 2024-12-01 07:42+0000\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
 "PO-Revision-Date: 2016-12-29 15:15-0800\n"
 "Last-Translator: drishtibachak@gmail.com\n"
 "Language-Team: Nepali <drishtibachak@gmail.com>\n"
@@ -180,6 +180,13 @@ msgstr ""
 "स्थानचिनोको पुनर्स्थापन; तपाइले पहिले बचत गरिएको पुस्तकचिनोबाट स्थानचिनलाई पुनर्स्थापन "
 "गर्न सक्नु हुन्छ ।"
 
+#. type: Bullet: '*	'
+msgid ""
+"Set default place markers folder: the default folder for place markers can "
+"be set from this dialog. It will be saved in the normal configuration "
+"profile."
+msgstr ""
+
 #. type: Plain text
 #, fuzzy
 #| msgid ""
@@ -193,6 +200,28 @@ msgid ""
 msgstr ""
 "टिप्पणी: पुस्तकचिनोको स्थान वर्णहरुको सङ्ख्या; गतिसील सामाग्री युक्त पृष्ठमा हुने भएकोले "
 "विसेष खोजी गर्नु राम्रो हुन्छ  तर निदिर्ट पुस्तकचिनो मा होइन ।"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 45.0.0"
+msgstr "४.० मा गरिएका परिवर्तनहरू"
+
+#. type: Bullet: '* '
+msgid "Added ability to set the default placeMarkers folder."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If plugins are reloaded while this add-on is enabled, the last saved "
+"configuration will be applied."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added copy and close buttons to browseable message when showing the current "
+"file where bookmarks and specific search strings are saved."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

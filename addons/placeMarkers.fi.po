@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community website\n"
-"POT-Creation-Date: 2024-12-01 07:42+0000\n"
-"PO-Revision-Date: 2024-03-22 21:11+0200\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
+"PO-Revision-Date: 2025-06-14 22:01+0300\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -117,8 +117,8 @@ msgid ""
 msgstr ""
 "Alt+NVDA+Y: Avaa valintaikkunan, jossa näkyvät nykyiselle asiakirjalle "
 "tallennetut paikkamerkit. Voit kirjoittaa kullekin paikkamerkille "
-"muistiinpanon. Tallenna muutokset painamalla Tallenna muistiinpano -"
-"painiketta. Voit poistaa valitun paikkamerkin painamalla Delete-näppäintä. "
+"muistiinpanon. Tallenna muutokset painamalla Tallenna muistiinpano "
+"-painiketta. Voit poistaa valitun paikkamerkin painamalla Delete-näppäintä. "
 "Siirry valittuun sijaintiin painamalla OK."
 
 #. type: Bullet: '*	'
@@ -157,7 +157,7 @@ msgstr "Paikkamerkit-alivalikko (NVDA+N)"
 msgid ""
 "Using the PlaceMarkers submenu under NVDA's Preferences menu, you can access:"
 msgstr ""
-"Asetukset-valikosta löytyvästä Paikkamerkit-alivalikosta pääset käyttämään "
+"Mukautukset-valikosta löytyvästä Paikkamerkit-alivalikosta pääset käyttämään "
 "seuraavia toimintoja:"
 
 #. type: Bullet: '*	'
@@ -185,6 +185,16 @@ msgstr ""
 "Palauta paikkamerkit: Palauttaa paikkamerkit aiemmin tallennetusta "
 "paikkamerkkien kansiosta."
 
+#. type: Bullet: '*	'
+msgid ""
+"Set default place markers folder: the default folder for place markers can "
+"be set from this dialog. It will be saved in the normal configuration "
+"profile."
+msgstr ""
+"Määritä paikkamerkkien oletuskansio: Tästä valintaikkunasta voidaan "
+"määrittää paikkamerkkien oletuskansio. Se tallennetaan normaaleihin "
+"asetuksiin."
+
 #. type: Plain text
 msgid ""
 "Note: The placemarker position is based on the number of characters; and "
@@ -194,6 +204,32 @@ msgstr ""
 "Huom: Paikkamerkin sijainti perustuu merkkien lukumäärään, joten muuttuvan "
 "sisällön sivuilla kannattaa käyttää tarkan sijainnin tallentavien "
 "paikkamerkkien asemesta sivukohtaista hakua."
+
+#. type: Title ##
+#, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 45.0.0"
+msgstr "Muutokset versiossa 45.0.0"
+
+#. type: Bullet: '* '
+msgid "Added ability to set the default placeMarkers folder."
+msgstr "Lisätty mahdollisuus paikkamerkkien oletuskansion määrittämiseen."
+
+#. type: Bullet: '* '
+msgid ""
+"If plugins are reloaded while this add-on is enabled, the last saved "
+"configuration will be applied."
+msgstr ""
+"Viimeksi tallennetut asetukset otetaan käyttöön, jos liitännäiset ladataan "
+"uudelleen tämän lisäosan ollessa käytössä."
+
+#. type: Bullet: '* '
+msgid ""
+"Added copy and close buttons to browseable message when showing the current "
+"file where bookmarks and specific search strings are saved."
+msgstr ""
+"Viestiin, joka näyttää paikkamerkkien ja hakusanojen tallennustiedoston, on "
+"lisätty Kopioi- ja Sulje-painikkeet."
 
 #. type: Title ##
 #, no-wrap

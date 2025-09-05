@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: yerİmleri\n"
-"POT-Creation-Date: 2024-12-01 07:42+0000\n"
-"PO-Revision-Date: 2024-12-01 22:22+0300\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
+"PO-Revision-Date: 2025-06-14 12:04+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
-"Language-Team: tr <cagrid@hotmail.com>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. type: Plain text
@@ -177,6 +177,22 @@ msgstr ""
 "Yerimlerini Geri Yükle: yerimlerinizi önceden kaydedilmiş bir Yerimleri "
 "klasöründen geri yükleyebilirsiniz."
 
+#. type: Bullet: '*	'
+#| msgid ""
+#| "*\tRestore placeMarkers: You can restore your placeMarkers from a "
+#| "previously saved placeMarkers folder.\n"
+#| "*   Set default place markers folder: the default folder for place "
+#| "markers can be set from this dialog. It will be saved in the normal "
+#| "configuration profile.\n"
+msgid ""
+"Set default place markers folder: the default folder for place markers can "
+"be set from this dialog. It will be saved in the normal configuration "
+"profile."
+msgstr ""
+"Varsayılan Yer İmleri Klasörünü ayarlayın: Yer İmleri için varsayılan klasör "
+"bu iletişim kutusundan ayarlanabilir. Normal yapılandırma profiline "
+"kaydedilecektir."
+
 #. type: Plain text
 msgid ""
 "Note: The placemarker position is based on the number of characters; and "
@@ -185,6 +201,31 @@ msgid ""
 msgstr ""
 "Not: Yerimi konumu, karakter sayısına bağlıdır; ve bu nedenle dinamik "
 "sayfalarda, yer imlerini değil, belirli aramayı kullanmak daha iyidir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 45.0.0"
+msgstr "45.0.0 için değişiklikler"
+
+#. type: Bullet: '* '
+msgid "Added ability to set the default placeMarkers folder."
+msgstr "Varsayılan yer İmleri klasörünü ayarlama yeteneği eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"If plugins are reloaded while this add-on is enabled, the last saved "
+"configuration will be applied."
+msgstr ""
+"Bu eklenti etkinken eklentiler yeniden yüklenirse, son kaydedilen "
+"yapılandırma uygulanır."
+
+#. type: Bullet: '* '
+msgid ""
+"Added copy and close buttons to browseable message when showing the current "
+"file where bookmarks and specific search strings are saved."
+msgstr ""
+"Yer imlerinin ve belirli arama dizelerinin kaydedildiği geçerli dosyayı "
+"gösterirken taranabilir mesaja kopyala ve kapat düğmeleri eklendi."
 
 #. type: Title ##
 #, no-wrap
@@ -309,12 +350,17 @@ msgid "Skim reading is supported when moving to temporary bookmarks."
 msgstr "Geçici yerimlerine taşınırken hızlı okuma desteklenir."
 
 #. type: Bullet: '* '
+#| msgid ""
+#| "*\tCompatible with NVDA 2021.1 or later (required).\n"
+#| "* Skim reading is supported when moving to temporary bookmarks.\n"
+#| "*\tIf needed, you can download [other versions](https://github.com/nvdaes/"
+#| "placeMarkers/releases).\n"
 msgid ""
 "If needed, you can download [other versions](https://github.com/nvdaes/"
 "placeMarkers/releases)."
 msgstr ""
-"Gerekirse [diğer sürümleri](https://github.com/nvdaes/placeMarkers/releases) "
-"indirebilirsiniz."
+"Gerekirse [diğer sürümleri buradan](https://github.com/nvdaes/placemarkers/"
+"releases) indirebilirsiniz."
 
 #. type: Title ##
 #, no-wrap

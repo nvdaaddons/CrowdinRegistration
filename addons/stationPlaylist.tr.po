@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Station Playlist\n"
-"POT-Creation-Date: 2025-05-10 17:19+0000\n"
-"PO-Revision-Date: 2025-05-10 21:05+0300\n"
+"POT-Creation-Date: 2025-07-25 13:54+0000\n"
+"PO-Revision-Date: 2025-07-25 18:36+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
@@ -45,7 +45,6 @@ msgstr ""
 "yanı sıra SAM, SPL ve AltaCast kodlayıcılar bulunur."
 
 #. type: Plain text
-#| msgid "For more information about the add-on, read the [add-on guide][2]."
 msgid "For more information about the add-on, read the [add-on guide][1]."
 msgstr "Eklenti hakkında daha fazla bilgi için [eklenti kılavuzunu][1] okuyun."
 
@@ -54,9 +53,9 @@ msgid "IMPORTANT NOTES:"
 msgstr "ÖNEMLİ NOTLAR:"
 
 #. type: Bullet: '* '
-msgid "This add-on requires StationPlaylist suite 5.50 or later."
+msgid "This add-on requires StationPlaylist suite 6.0 or later."
 msgstr ""
-"Bu eklenti, StationPlaylist Suite 5.50 veya sonraki sürümünü gerektirir."
+"Bu eklenti, StationPlaylist Suite 6.0 veya sonraki sürümünü gerektirir."
 
 #. type: Bullet: '* '
 msgid ""
@@ -73,11 +72,11 @@ msgstr "En iyi deneyim için ses zayıflaması modunu devre dışı bırakın."
 #. type: Bullet: '* '
 msgid ""
 "Starting from 2018, [changelogs for old add-on releases][2] will be found on "
-"GitHub. This add-on readme will list changes from version 23.02 (2023) "
+"GitHub. This add-on readme will list changes from version 25.01 (2025) "
 "onwards."
 msgstr ""
 "2018'den itibaren [eski eklenti sürümleri için değişiklik günlükleri][2] "
-"GitHub'da bulunacaktır. Bu eklenti benioku, 23.02 (2023) sürümünden sonraki "
+"GitHub'da bulunacaktır. Bu eklenti benioku, 25.01 (2025) sürümünden sonraki "
 "değişiklikleri listeleyecektir."
 
 #. type: Bullet: '* '
@@ -157,7 +156,7 @@ msgid ""
 "Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: "
 "Announces scheduled time for the loaded playlist."
 msgstr ""
-"Oluşturucu Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi "
+"Oluşturucu Çalma Listesi Düzenleyicisinde ve Uzaktan VT çalma listesi "
 "düzenleyicisinde Alt+NVDA+1: Yüklenen çalma listesi için planlanan zamanı "
 "duyurur."
 
@@ -285,11 +284,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration dialog "
-"(does not support speak on demand)."
+"Alt+NVDA+0 (two finger flick left in SPL mode) from Studio window: Opens the "
+"Studio add-on configuration dialog (does not support speak on demand)."
 msgstr ""
-"Studio penceresinde Alt+NVDA+0: Studio eklenti yapılandırma iletişim "
-"kutusunu açar (talep üzerine konuşmayı desteklemez)."
+"Studio penceresinde Alt+NVDA+0 (SPL modunda sola iki parmak hareketi): "
+"Studio eklenti yapılandırma iletişim kutusunu açar (talep üzerine konuşmayı "
+"desteklemez)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -774,6 +774,10 @@ msgid "Shift+M: Turn off microphone."
 msgstr "Shift+M: Mikrofonu kapatır."
 
 #. type: Bullet: '* '
+msgid "N: Turn microphone on without fade."
+msgstr "N: Mikrofonu sesi kısık olmadan açar."
+
+#. type: Bullet: '* '
 msgid "A: Turn on automation."
 msgstr "A: Otomasyonu açar."
 
@@ -940,20 +944,18 @@ msgid ""
 "By pressing Control+NVDA+1 through 0, you can obtain contents of specific "
 "columns. By default, these are first ten columns for a track item (in "
 "Studio: artist, title, duration, intro, outro, category, year, album, genre, "
-"mood). For playlist editor in Creator and Remote VT client, column data "
-"depends on column order as shown on screen. In Studio, Creator's main track "
-"list, and Track Tool, column slots are preset regardless of column order on "
-"screen and can be configured from add-on settings dialog under columns "
-"explorer category."
+"mood). In Studio, Creator's main track list and playlist editor, Track Tool, "
+"and Remote VT, column slots are preset regardless of column order on screen "
+"and can be configured from add-on settings dialog under columns explorer "
+"category."
 msgstr ""
-"Control+NVDA+1'den 0'a kadar tuşlara basarak belirli sütunların içeriklerini "
-"elde edebilirsiniz. Varsayılan olarak bunlar bir parça öğesinin ilk on "
-"sütunudur (Studio'da: sanatçı, başlık, süre, giriş, çıkış, kategori, yıl, "
-"albüm, tür, ruh hali). Oluşturucu ve Remote VT istemcisindeki çalma listesi "
-"düzenleyicisi için sütun verileri, ekranda gösterilen sütun sırasına "
-"bağlıdır. Studio'da, Oluşturucu'nun ana parça listesi ve İzleme Aracı'nda "
-"sütun yuvaları, ekrandaki sütun sırasına bakılmaksızın önceden ayarlanır ve "
-"sütun gezgini kategorisi altındaki eklenti ayarları iletişim kutusundan "
+"Control+NVDA+1'den 0'a kadar basarak belirli sütunların içeriğini elde "
+"edebilirsiniz. Varsayılan olarak, bunlar bir parça öğesi için ilk on "
+"sütundur (Studio'da: sanatçı, başlık, süre, giriş, çıkış, kategori, yıl, "
+"albüm, tür, ruh hali). Studio'da, Oluşturucu'nun ana parça listesi ve çalma "
+"listesi düzenleyicisinde, Parça Araçları'nda ve Remote VT'de, sütun yuvaları "
+"ekrandaki sütun sırasından bağımsız olarak önceden ayarlanmıştır ve sütun "
+"gezgini kategorisi altındaki eklenti ayarları iletişim kutusundan "
 "yapılandırılabilir."
 
 #. type: Title ##
@@ -1069,7 +1071,173 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-#| msgid "Version 25.05"
+msgid "Version 25.08/25.06.5-LTS"
+msgstr "Sürüm 25.08/25.06.5-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"25.08: removed unmaintained localizations (add-on messages and "
+"documentation)."
+msgstr ""
+"25.08: bakımı yapılmamış yerelleştirmeler kaldırıldı (eklenti mesajları ve "
+"belgeler)."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, added two-finger flick left gesture in SPL touch mode to open SPL "
+"add-on settings."
+msgstr ""
+"Studio'da, SPL eklenti ayarlarını açmak için SPL dokunma modunda iki "
+"parmakla sola kaydırma hareketi eklendi."
+
+#. type: Bullet: '* '
+msgid "Removed \"Status\" from vertical column navigation options."
+msgstr "Dikey sütun gezinme seçeneklerinden “Durum” kaldırıldı."
+
+#. type: Bullet: '* '
+#| msgid ""
+#| "In columns explorer (Studio, Track Tool, Creator, Remote VT), NVDA will "
+#| "no longer anounce \"blank\" for empty colunn content (only column header "
+#| "will be announced)."
+msgid ""
+"In columns explorer (Studio, Track Tool, Creator, Remote VT), NVDA will no "
+"longer announce \"blank\" for empty column content (only column header will "
+"be announced)."
+msgstr ""
+"Sütun gezgininde (Studio, Parça aracı, Oluşturucu, Uzak VT), NVDA artık boş "
+"sütun içeriği için \"boş\" mesajını vermeyecektir (yalnızca sütun başlığı "
+"duyurulacaktır)."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, Track Tool, Creator, and Remote VT, NVDA will announce track "
+"position and count when location command is performed (NVDA+Numpad Delete "
+"(desktop)/NVDA+Delete (laptop) and adding Shift for review cursor version)."
+msgstr ""
+"Studio, Parça Aracı, Oluşturucu ve Uzak VT'de, konum komutu "
+"gerçekleştirildiğinde (NVDA+Numpad Delete (masaüstü)/NVDA+Delete (dizüstü) "
+"ve inceleme imleci sürümü için Shift eklendiğinde) NVDA parça konumunu ve "
+"sayısını bildirecektir."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07.2/25.06.4-LTS"
+msgstr "Sürüm 25.07.2/25.06.4-LTS"
+
+#. type: Bullet: '* '
+msgid ""
+"Restored missing localized messages including track comment announcement in "
+"Studio's playlist viewer."
+msgstr ""
+"Studio'nun çalma listesi görüntüleyicisinde parça yorumu duyurusu da dahil "
+"olmak üzere eksik yerelleştirilmiş mesajlar geri yüklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will present an error dialog when running Studio releases earlier than "
+"the version required for the add-on."
+msgstr ""
+"NVDA, eklenti için gereken sürümden önceki Studio sürümlerini çalıştırırken "
+"bir hata iletişim kutusu gösterecek."
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio, pressing NVDA+Shift+F3 the first time without opening find dialog "
+"will cause NVDA to search backwards."
+msgstr ""
+"Studio'da, bul iletişim kutusunu açmadan NVDA+Shift+F3 tuşlarına ilk kez "
+"basmak, NVDA'nın geriye doğru arama yapmasına neden olur."
+
+#. type: Bullet: '* '
+msgid ""
+"In Track Tool, NVDA will no longer play a beep when moving through tracks, "
+"especially for tracks without an intro set."
+msgstr ""
+"Parça aracı'nda, NVDA artık parçalar arasında ilerlerken, özellikle de giriş "
+"seti olmayan parçalar için bip sesi çıkarmayacak."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07.1/25.06.3-LTS"
+msgstr "Sürüm 25.07.1/25.06.3-lts"
+
+#. type: Bullet: '* '
+msgid ""
+"In Studio's playlist viewer, NVDA will no longer appear to do nothing or "
+"play error tones when reporting column contents if vertical column "
+"navigation is set to values other than \"whichever column I am reviewing\"."
+msgstr ""
+"Studio'nun çalma listesi görüntüleyicisinde, dikey sütun gezintisi "
+"“incelediğim sütun” dışındaki değerlere ayarlanmışsa, NVDA artık sütun "
+"içeriklerini bildirirken hiçbir şey yapmıyor veya hata sesleri çalmıyor gibi "
+"görünmeyecek."
+
+#. type: Bullet: '* '
+msgid ""
+"Setting vertical column navigation to \"Status\" column is deprecated and "
+"will be removed in a future add-on release."
+msgstr ""
+"Dikey sütun dolaşımını \"Durum\" sütunu olarak ayarlamak kullanımdan "
+"kaldırılmıştır ve gelecekteki bir eklenti sürümünde kaldırılacaktır."
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07/25.06.2-LTS"
+msgstr "Sürüm 25.07/25.06.2-lts"
+
+#. type: Plain text
+msgid "Version 25.07 supports SPL Studio 6.0 and later."
+msgstr "Sürüm 25.07, SPL Studio 6.0 ve sonraki sürümlerini destekler."
+
+#. type: Bullet: '* '
+msgid ""
+"25.07: code was refactored, including through use of Pyright (a Python "
+"static type checker). Some prominent code changes were also backported to "
+"25.06.2-LTS."
+msgstr ""
+"25.07: Kod, Pyright (Python statik tip denetleyici) kullanımı dahil olmak "
+"üzere yeniden düzenlendi. Bazı önemli kod değişiklikleri de 25.06.2-lts'e "
+"geri döndü."
+
+#. type: Bullet: '* '
+msgid ""
+"Columns explorer (Control+NVDA+number row) is now configurable for Creator "
+"and Remote VT's playlist editor. A new button, \"columns explorer for "
+"playlist editor\" is available from columns explorer add-on settings screen."
+msgstr ""
+"Sütun gezgini (Control+NVDA+numara satırı) artık Yaratıcı ve Kumanda VT'nin "
+"oynatma listesi düzenleyicisi için yapılandırılabilir. Sütun gezgini eklenti "
+"ayarları ekranından yeni bir düğme olan “oynatma listesi düzenleyicisi için "
+"sütun gezgini” kullanılabilir."
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer add-on settings, renamed \"columns explorer\" to "
+"\"columns explorer for SPL Studio\"."
+msgstr ""
+"Sütun gezgini eklenti ayarlarında, \"sütun gezgini\", \"SPL Studio için "
+"sütun gezgini\" olarak yeniden adlandırıldı."
+
+#. type: Bullet: '* '
+msgid ""
+"Added JSON (JavaScript Object Notation) format as a playlist transcripts "
+"format."
+msgstr ""
+"Çalma listesi transkript formatı olarak JSON (JavaScript Object Notation) "
+"formatı eklendi."
+
+#. type: Bullet: '* '
+msgid ""
+"In encoders, NVDA will remove encoder settings if pressing Control+F12 to "
+"remove settings for encoder 10 and above if more than ten encoders are "
+"present."
+msgstr ""
+"Kodlayıcılarda, ondan fazla kodlayıcı varsa 10 ve üzeri kodlayıcı ayarlarını "
+"kaldırmak için Control+F12 tuşlarına basıldığında NVDA kodlayıcı ayarlarını "
+"kaldıracaktır."
+
+#. type: Title ##
+#, no-wrap
 msgid "Version 25.06-LTS"
 msgstr "Sürüm 25.06-lts"
 
@@ -1082,6 +1250,22 @@ msgstr ""
 "Sürüm 25.06.x, Studio 6.x gerektiren gelecekteki sürümlerle Studio 5.x'i "
 "destekleyen son sürüm serisidir. Bazı yeni özellikler gerekirse 25.06.x'e "
 "geri dönecektir."
+
+#. type: Bullet: '* '
+msgid ""
+"Internal changes to make the add-on more compatible with upcoming 64-bit "
+"NVDA."
+msgstr ""
+"Yaklaşan 64 bit NVDA ile eklentiyi daha uyumlu hale getirmek için dahili "
+"değişiklikler."
+
+#. type: Bullet: '* '
+msgid ""
+"NVDA will no longer forget to transfer broadcast profiles while updating the "
+"add-on (fixing a regression introduced in 25.05)."
+msgstr ""
+"NVDA artık eklentiyi güncellerken yayın profillerini aktarmayı unutmayacak "
+"(25.05'te tanıtılan bir gerileme düzeltildi)."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1112,11 +1296,35 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
+"The user interface for confirmation dialog shown when deleting broadcast "
+"profiles now resembles NVDA's configuration profile deletion interface."
+msgstr ""
+"Yayın profillerini silerken gösterilen onay iletişim kutusu için kullanıcı "
+"arayüzü artık NVDA'nın yapılandırma profili silme arabirimine benziyor."
+
+#. type: Bullet: '* '
+msgid ""
+"In add-on settings, NVDA will no longer move keyboard focus to OK button "
+"after closing columns explorer and reset dialogs."
+msgstr ""
+"Eklenti ayarlarında, NVDA artık sütun gezgini ve sıfırlama iletişim "
+"kutularını kapattıktan sonra klavye odağını Tamam düğmesine taşımayacak."
+
+#. type: Bullet: '* '
+msgid ""
 "NVDA will recognize track column changes introduced in Creator and Track "
 "Tool 6.11."
 msgstr ""
 "NVDA, Yaratıcı ve Track Aracı 6.11'de tanıtılan parça sütun değişikliklerini "
 "tanıyacaktır."
+
+#. type: Bullet: '* '
+msgid ""
+"In columns explorer for Creator, \"Date Restriction\" column is now "
+"\"Restrictions\"."
+msgstr ""
+"Oluşturucu için sütun gezgininde “Tarih Kısıtlaması” sütunu artık "
+"“Kısıtlamalar” oldu."
 
 #. type: Bullet: '* '
 msgid ""
@@ -1159,7 +1367,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "NVDA will no longer do nothing or play error tones when announcing weather "
-"and temperature information in Studio 6.x (SPL Assistant, W)."
+"and temperature information in Studio 6.1x (SPL Assistant, W)."
 msgstr ""
 "NVDA, Studio 6.x'te (SPL Assistant, W) hava durumu ve sıcaklık bilgilerini "
 "duyururken artık hiçbir şey yapmayacak veya hata tonları çalmayacak."
@@ -1207,99 +1415,6 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Version 24.03"
-msgstr "Sürüm 24.03"
-
-#. type: Bullet: '* '
-msgid "Compatible with NVDA 2024.1."
-msgstr "NVDA 2024.1 ile uyumludur."
-
-#. type: Bullet: '* '
-msgid "NVDA 2023.3.3 or later is required."
-msgstr "NVDA 2023.3.3 veya sonrası gereklidir."
-
-#. type: Bullet: '* '
-msgid "Support for StationPlaylist suite 6.10."
-msgstr "StationPlaylist suite 6.10 desteği."
-
-#. type: Bullet: '* '
-msgid ""
-"Most commands support speak on demand (NVDA 2024.1) so announcements can be "
-"spoken in this mode."
-msgstr ""
-"Çoğu komut, talep üzerine konuşmayı (NVDA 2024.1) destekler, bu nedenle "
-"duyurular bu modda seslendirilebilir."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 24.01"
-msgstr "Sürüm 24.01"
-
-#. type: Bullet: '* '
-msgid ""
-"The commands for the Encoder Settings dialog for use with the SPL and SAM "
-"Encoders are now assignable, meaning that you can change them from their "
-"defaults under the StationPlaylist category in NVDA Menu > Preferences > "
-"Input Gestures. The ones that are not assignable are the connect and "
-"disconnect commands. Also, to prevent command conflicts and make much easier "
-"use of this command on remote servers, the default gesture for switching to "
-"Studio after connecting is now Control+Shift+F11 (previously just F11). All "
-"of these can of course still be toggled from the Encoder Settings dialog "
-"(NVDA+Alt+0 or F12)."
-msgstr ""
-"SPL ve SAM Kodlayıcılarla kullanılacak Kodlayıcı Ayarları iletişim "
-"kutusundaki komutlar artık atanabilir; bu, NVDA Menüsü > Tercihler > Girdi "
-"Hareketleri iletişim kutusunda StationPlaylist kategorisi altında bunları "
-"varsayılan değerlerinden değiştirebileceğiniz anlamına gelir. Atanamayanlar "
-"bağlanma ve bağlantıyı kesme komutlarıdır. Ayrıca, komut çakışmalarını "
-"önlemek ve uzak sunucularda bu komutun kullanımını çok daha kolay hale "
-"getirmek için, bağlandıktan sonra Studio'ya geçiş için varsayılan hareket "
-"artık Control+Shift+F11 (daha önce yalnızca F11) şeklindedir. Bunların tümü "
-"elbette Kodlayıcı Ayarları iletişim kutusundan (NVDA+Alt+0 veya F12) "
-"değiştirilebilir."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 23.05"
-msgstr "Sürüm 23.05"
-
-#. type: Bullet: '* '
-msgid ""
-"To reflect the maintainer change, the manifest has been updated to indicate "
-"as such."
-msgstr ""
-"Bakımcı değişikliğini yansıtmak için Manifest.ini bu şekilde belirtilecek "
-"şekilde güncellenmiştir."
-
-#. type: Title ##
-#, no-wrap
-msgid "Version 23.02"
-msgstr "Sürüm 23.02"
-
-#. type: Bullet: '* '
-msgid "NVDA 2022.4 or later is required."
-msgstr "NVDA 2022.4 veya üstü gereklidir."
-
-#. type: Bullet: '* '
-msgid ""
-"Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
-msgstr ""
-"Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü "
-"gereklidir."
-
-#. type: Bullet: '* '
-msgid ""
-"In Studio's playlist viewer, NVDA will not announce column headers such as "
-"artist and title if table headers setting is set to either \"rows and "
-"columns\" or \"columns\" in NVDA's document formatting settings panel."
-msgstr ""
-"Studio'nun çalma listesi görüntüleyicisinde, NVDA'nın belge biçimlendirme "
-"ayarları panelinde tablo başlıkları ayarı \"satırlar ve sütunlar\" veya "
-"\"sütunlar\" olarak ayarlanmışsa, NVDA sanatçı ve başlık gibi sütun "
-"başlıklarını duyurmaz."
-
-#. type: Title ##
-#, no-wrap
 msgid "Older releases"
 msgstr "Eski sürümler"
 
@@ -1311,27 +1426,109 @@ msgstr ""
 "günlüğüne][2] bakın."
 
 #. type: Plain text
+msgid ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+msgstr ""
+"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
+"addonuserguide.md"
+
+#. type: Plain text
+msgid ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+msgstr ""
+"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+
+#~ msgid ""
+#~ "Alt+NVDA+0 from Studio window: Opens the Studio add-on configuration "
+#~ "dialog (does not support speak on demand)."
+#~ msgstr ""
+#~ "Studio penceresinde Alt+NVDA+0: Studio eklenti yapılandırma iletişim "
+#~ "kutusunu açar (talep üzerine konuşmayı desteklemez)."
+
 #, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
+#~ msgid "Version 24.03"
+#~ msgstr "Sürüm 24.03"
 
-#. type: Plain text
-#| msgid ""
-#| "[2]: https://github.com/chrisDuffley/stationplaylist/wiki/SPLAddonGuide"
-msgid ""
-"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
-"addonuserguide.md"
-msgstr ""
-"[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/"
-"addonuserguide.md"
+#~ msgid "Compatible with NVDA 2024.1."
+#~ msgstr "NVDA 2024.1 ile uyumludur."
 
-#. type: Plain text
-#| msgid ""
-#| "[3]: https://github.com/ChrisDuffley/stationplaylist/wiki/splchangelog"
-msgid ""
-"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
-msgstr ""
-"[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md"
+#~ msgid "NVDA 2023.3.3 or later is required."
+#~ msgstr "NVDA 2023.3.3 veya sonrası gereklidir."
+
+#~ msgid "Support for StationPlaylist suite 6.10."
+#~ msgstr "StationPlaylist suite 6.10 desteği."
+
+#~ msgid ""
+#~ "Most commands support speak on demand (NVDA 2024.1) so announcements can "
+#~ "be spoken in this mode."
+#~ msgstr ""
+#~ "Çoğu komut, talep üzerine konuşmayı (NVDA 2024.1) destekler, bu nedenle "
+#~ "duyurular bu modda seslendirilebilir."
+
+#, no-wrap
+#~ msgid "Version 24.01"
+#~ msgstr "Sürüm 24.01"
+
+#~ msgid ""
+#~ "The commands for the Encoder Settings dialog for use with the SPL and SAM "
+#~ "Encoders are now assignable, meaning that you can change them from their "
+#~ "defaults under the StationPlaylist category in NVDA Menu > Preferences > "
+#~ "Input Gestures. The ones that are not assignable are the connect and "
+#~ "disconnect commands. Also, to prevent command conflicts and make much "
+#~ "easier use of this command on remote servers, the default gesture for "
+#~ "switching to Studio after connecting is now Control+Shift+F11 (previously "
+#~ "just F11). All of these can of course still be toggled from the Encoder "
+#~ "Settings dialog (NVDA+Alt+0 or F12)."
+#~ msgstr ""
+#~ "SPL ve SAM Kodlayıcılarla kullanılacak Kodlayıcı Ayarları iletişim "
+#~ "kutusundaki komutlar artık atanabilir; bu, NVDA Menüsü > Tercihler > "
+#~ "Girdi Hareketleri iletişim kutusunda StationPlaylist kategorisi altında "
+#~ "bunları varsayılan değerlerinden değiştirebileceğiniz anlamına gelir. "
+#~ "Atanamayanlar bağlanma ve bağlantıyı kesme komutlarıdır. Ayrıca, komut "
+#~ "çakışmalarını önlemek ve uzak sunucularda bu komutun kullanımını çok daha "
+#~ "kolay hale getirmek için, bağlandıktan sonra Studio'ya geçiş için "
+#~ "varsayılan hareket artık Control+Shift+F11 (daha önce yalnızca F11) "
+#~ "şeklindedir. Bunların tümü elbette Kodlayıcı Ayarları iletişim kutusundan "
+#~ "(NVDA+Alt+0 veya F12) değiştirilebilir."
+
+#, no-wrap
+#~ msgid "Version 23.05"
+#~ msgstr "Sürüm 23.05"
+
+#~ msgid ""
+#~ "To reflect the maintainer change, the manifest has been updated to "
+#~ "indicate as such."
+#~ msgstr ""
+#~ "Bakımcı değişikliğini yansıtmak için Manifest.ini bu şekilde belirtilecek "
+#~ "şekilde güncellenmiştir."
+
+#, no-wrap
+#~ msgid "Version 23.02"
+#~ msgstr "Sürüm 23.02"
+
+#~ msgid "NVDA 2022.4 or later is required."
+#~ msgstr "NVDA 2022.4 veya üstü gereklidir."
+
+#~ msgid ""
+#~ "Windows 10 21H2 (November 2021 Update/build 19044) or later is required."
+#~ msgstr ""
+#~ "Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü "
+#~ "gereklidir."
+
+#~ msgid ""
+#~ "In Studio's playlist viewer, NVDA will not announce column headers such "
+#~ "as artist and title if table headers setting is set to either \"rows and "
+#~ "columns\" or \"columns\" in NVDA's document formatting settings panel."
+#~ msgstr ""
+#~ "Studio'nun çalma listesi görüntüleyicisinde, NVDA'nın belge biçimlendirme "
+#~ "ayarları panelinde tablo başlıkları ayarı \"satırlar ve sütunlar\" veya "
+#~ "\"sütunlar\" olarak ayarlanmışsa, NVDA sanatçı ve başlık gibi sütun "
+#~ "başlıklarını duyurmaz."
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=stationPlaylist"
 #~ msgstr ""

@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Windows Magnifier NVDA add-on\n"
-"POT-Creation-Date: 2024-02-15 21:52+0000\n"
-"PO-Revision-Date: 2024-02-15 22:55+0100\n"
+"POT-Creation-Date: 2025-07-02 15:19+0000\n"
+"PO-Revision-Date: 2025-07-04 10:25+0200\n"
 "Last-Translator: Cyrille Bougot <cyrille.bougot2@laposte.net>\n"
 "Language-Team: NVDA translators French team <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -29,10 +29,6 @@ msgstr "Auteur: Cyrille Bougot"
 msgid "NVDA compatibility: 2019.2.1 and beyond"
 msgstr "Compatibilité NVDA : 2019.2.1 et supérieure"
 
-#. type: Bullet: '* '
-msgid "Download [stable version][1]"
-msgstr "Télécharger [version stable][1]"
-
 #. type: Plain text
 msgid "This add-on improves the use of Windows Magnifier with NVDA."
 msgstr "Cette extension améliore l'utilisation de la loupe Windows avec NVDA."
@@ -43,10 +39,12 @@ msgid "Features"
 msgstr "Fonctionnalités"
 
 #. type: Bullet: '* '
-msgid "Allows to report the result of some native Magnifier keyboard commands."
+msgid ""
+"Allows to report the result of some native Magnifier and color filtering "
+"keyboard commands."
 msgstr ""
 "Permet d'annoncer le résultat de certaines commandes clavier natives de la "
-"Loupe."
+"Loupe et des filtres de couleur."
 
 #. type: Bullet: '* '
 msgid ""
@@ -293,6 +291,15 @@ msgstr ""
 "cette case n'est pas cochée, la fenêtre de commande de la loupe ne sera pas "
 "toujours gardée au-dessus des autres fenêtres."
 
+#. type: Bullet: '* '
+msgid ""
+"Report color filter If checked, the used color filter is reported when you "
+"use the `Windows+Control+C` toggle command."
+msgstr ""
+"Annoncer le filtre de couleur : si cette option est cochée, le filtre de "
+"couleur est annoncé lorsque vous utilisez la commande d'activation / "
+"désactivation `Windows+Contrôle+C`."
+
 #. type: Title ##
 #, no-wrap
 msgid "Commands added by this add-on"
@@ -447,11 +454,13 @@ msgstr "Commandes natives de la Loupe"
 
 #. type: Plain text
 msgid ""
-"The result of the following Magnifier native commands may be reported by "
-"this add-on, according to its configuration:"
+"The result of the following Magnifier native commands, or other "
+"Accessibility commands, may be reported by this add-on, according to its "
+"configuration:"
 msgstr ""
-"Le résultat des commandes suivantes de la Loupe peut être annoncé par cette "
-"extension, selon sa configuration :"
+"Le résultat des commandes suivantes de la Loupe, ou d'autres commandes "
+"d'accessibilité, peut être annoncé par cette extension, selon sa "
+"configuration :"
 
 #. type: Bullet: '* '
 msgid "Start Magnifier: Windows++ (on alpha-numeric keyboard or on numpad)"
@@ -509,6 +518,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "Move the magnified view: Control+Alt+Arrows"
 msgstr "Déplacer la vue agrandie : Ctrl+Alt+Flèches"
+
+#. type: Bullet: '* '
+msgid ""
+"Toggle color filters: `Windows+Control+C` (provided you have enabled this "
+"shortcut in [Windows Accessibility settings, Color Filters][9])"
+msgstr ""
+"Activer / désactiver les filtres de couleur : `Windows+Contrôle+C` (à "
+"condition d’avoir activé ce raccourci dans les [paramètres d’accessibilité "
+"de Windows, Filtre de couleurs][9])"
 
 #. type: Plain text
 msgid ""
@@ -609,13 +627,13 @@ msgstr ""
 
 #. type: Bullet: '    * '
 msgid ""
-"[Use Magnifier to make things on the screen easier to see](https://support."
-"microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-easier-"
-"to-see)"
+"[Use Magnifier to make things on the screen easier to see](https://"
+"support.microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-"
+"easier-to-see)"
 msgstr ""
-"[Utiliser la Loupe pour mieux voir les éléments à l'écran](https://support."
-"microsoft.com/fr-fr/help/11542/windows-use-magnifier-to-make-things-easier-"
-"to-see)"
+"[Utiliser la Loupe pour mieux voir les éléments à l'écran](https://"
+"support.microsoft.com/fr-fr/help/11542/windows-use-magnifier-to-make-things-"
+"easier-to-see)"
 
 #. type: Bullet: '    * '
 msgid "[Windows keyboard shortcuts for accessibility][4]"
@@ -646,6 +664,58 @@ msgstr ""
 #, no-wrap
 msgid "Change log"
 msgstr "Journal des modifications"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 4.2"
+msgstr "Version 4.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Magnifier or Color filtering commands will no longer fail if used for the "
+"first time with this add-on running."
+msgstr ""
+"Les commandes de la Loupe ou des filtres de couleur n'échoueront plus "
+"lorsqu'elles sont utilisées pour la première fois avec cet extension en "
+"cours d’exécution."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 4.0"
+msgstr "Version 4.0"
+
+#. type: Bullet: '* '
+msgid ""
+"The filter enabled by the toggle color filter command (`Windows+Control+C`) "
+"can now be reported; this toggle command should have been previously enabled "
+"in Windows Accessibility settings."
+msgstr ""
+"Le filtre activé par la commande d'activation / désactivation des filtres de "
+"couleur (`Windows+Contrôle+C`) peut désormais être annoncé ; cette commande "
+"doit avoir été préalablement activée dans les paramètres d’accessibilité de "
+"Windows."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2025.1."
+msgstr "Compatibilité avec NVDA 2025.1."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.7"
+msgstr "Version 3.7"
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1."
+msgstr "Compatibilité avec NVDA 2024.1."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.6"
+msgstr "Version 3.6"
+
+#. type: Bullet: '* '
+msgid "Fixed erroneous compatibility range."
+msgstr "Correction de la plage de compatibilité erronée."
 
 #. type: Title ###
 #, no-wrap
@@ -873,10 +943,6 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
-
-#. type: Plain text
 msgid "[3]: https://github.com/CyrilleB79/winMag"
 msgstr "[3]: https://github.com/CyrilleB79/winMag"
 
@@ -890,19 +956,19 @@ msgstr "[5]: https://addons.nvda-project.org/addons/easyTableNavigator.fr.html"
 
 #. type: Plain text
 msgid ""
-"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/winMag-1.1."
-"nvda-addon"
+"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/"
+"winMag-1.1.nvda-addon"
 msgstr ""
-"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/winMag-1.1."
-"nvda-addon"
+"[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/"
+"winMag-1.1.nvda-addon"
 
 #. type: Plain text
 msgid ""
-"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/winMag-3.2."
-"nvda-addon"
+"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/"
+"winMag-3.2.nvda-addon"
 msgstr ""
-"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/winMag-3.2."
-"nvda-addon"
+"[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/"
+"winMag-3.2.nvda-addon"
 
 #. type: Plain text
 msgid ""
@@ -911,6 +977,20 @@ msgid ""
 msgstr ""
 "[8]: https://github.com/nvaccess/nvda/security/advisories/GHSA-"
 "xg6w-23rw-39r8#event-132994"
+
+#. type: Plain text
+msgid ""
+"[9]: https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-"
+"c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+msgstr ""
+"[9]: https://support.microsoft.com/fr-fr/windows/voir-plus-facilement-"
+"windows-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "Télécharger [version stable][1]"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=winmag"
 
 #~ msgid "Download [development version][2]"
 #~ msgstr "Télécharger [version de développement][2]"

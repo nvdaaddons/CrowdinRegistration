@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
 "PO-Revision-Date: 2022-11-22 23:15+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -184,7 +184,7 @@ msgstr ""
 msgid "Notes:"
 msgstr "備考:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -192,7 +192,7 @@ msgstr ""
 "NVDAのメッセージボックスがまだ開いている時に、確認が依頼されません。これらの"
 "場合、動作がすぐに実行されます。"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 #, fuzzy
 #| msgid ""
 #| "Emulate copy and emulate cut commands mean that, when these features are "
@@ -209,6 +209,21 @@ msgstr ""
 "時、アドオンがcontrol+cとcontrol+xを操作することを意味します。これらのキー操"
 "作に対応する動作を実行する前に、確認を依頼するかどうかを選択することも出来ま"
 "す。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 46.0.0"
+msgstr "4.0の変更点"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -288,8 +303,9 @@ msgid "Compatible with NVDA 2021.1."
 msgstr "NVDA 2021.1に互換。"
 
 #. type: Title ##
-#, no-wrap
-msgid "Changes for 13.0 "
+#, fuzzy, no-wrap
+#| msgid "Changes for 13.0 "
+msgid "Changes for 13.0"
 msgstr "13.0の変更点 "
 
 #. type: Bullet: '* '

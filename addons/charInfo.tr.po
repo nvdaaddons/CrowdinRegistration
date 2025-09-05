@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Karakter bilgisi\n"
-"POT-Creation-Date: 2025-04-30 11:45+0000\n"
-"PO-Revision-Date: 2025-04-30 17:26+0300\n"
+"POT-Creation-Date: 2025-07-07 09:30+0000\n"
+"PO-Revision-Date: 2025-07-07 13:03+0300\n"
 "Last-Translator: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
 "Language: tr_TR\n"
@@ -28,10 +28,6 @@ msgstr "Yazar: Cyrille Bougot"
 #. type: Bullet: '* '
 msgid "NVDA compatibility: 2022.3.3 and beyond"
 msgstr "NVDA uyumluluğu: 2022.3.3 ve sonrası"
-
-#. type: Bullet: '* '
-msgid "Download [stable version][1]"
-msgstr "[Kararlı sürümü][1] indir"
 
 #. type: Plain text
 msgid ""
@@ -167,6 +163,16 @@ msgstr ""
 "Karakter hakkında bilgi, unicode düzeninde olduğu için İngilizce verilir. Eklenti başka bir "
 "dile çevrildiyse bilgi İngilizceyle birlikte verilir."
 
+#. type: Plain text
+msgid ""
+"Regarding NVDA symbol description section: This add-on does not yet support custom symbol "
+"dictionaries (introduced in NVDA 2024.4).  They already appear in the list \"Options used to "
+"compute the symbol\" but not in the table itself."
+msgstr ""
+"NVDA sembol açıklaması bölümü ile ilgili olarak: Bu eklenti henüz özel sembol sözlüklerini "
+"desteklemiyor (NVDA 2024.4'te tanıtıldı).  Bunlar zaten “Sembolü hesaplamak için kullanılan "
+"seçenekler” listesinde görünüyor ancak tablonun kendisinde görünmüyor."
+
 #. type: Title ##
 #, no-wrap
 msgid "Settings"
@@ -226,6 +232,70 @@ msgstr ""
 #, no-wrap
 msgid "Change log"
 msgstr "Değişiklikler"
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.5"
+msgstr "Sürüm 3.5"
+
+#. type: Bullet: '* '
+msgid ""
+"Partial implementation of the support for custom dictionaries (introduced in NVDA 2024.4)."
+msgstr "Özel sözlükler için desteğin kısmi uygulaması (NVDA 2024.4'te tanıtıldı)."
+
+#. type: Bullet: '* '
+msgid "Fixed Unicode 16.0 support: block names for English and French updated."
+msgstr "Unicode 16.0 desteği düzeltildi: İngilizce ve Fransızca için blok adları güncellendi."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2025.1."
+msgstr "Eklenti NVDA 2025.1 sürümüyle uyumlu hâle getirildi."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.4"
+msgstr "Sürüm 3.4"
+
+#. type: Bullet: '* '
+msgid "Fixed an issue preventing NVDA to run safe scripts on lock screen."
+msgstr ""
+"NVDA'nın kilit ekranında güvenli komut dosyalarını çalıştırmasını engelleyen bir sorun "
+"düzeltildi."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.3"
+msgstr "Sürüm 3.3"
+
+#. type: Bullet: '* '
+msgid "Update to Unicode 16.0."
+msgstr "Unicode 16.0'a güncellendi."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.2"
+msgstr "Sürüm 3.2"
+
+#. type: Bullet: '* '
+msgid ""
+"Bugfix: characters for which only the speech level has been changed do not prevent anymore "
+"the information report to be displayed."
+msgstr ""
+"Hata düzeltmesi: sadece konuşma seviyesi değiştirilen karakterler artık bilgi raporunun "
+"görüntülenmesini engellemiyor."
+
+#. type: Title ###
+#, no-wrap
+msgid "Version 3.1"
+msgstr "Sürüm 3.1"
+
+#. type: Bullet: '* '
+msgid "Fixed an error when there was no value to report for a character."
+msgstr "Bir karakter için bildirilecek değer olmadığında ortaya çıkan hata düzeltildi."
+
+#. type: Bullet: '* '
+msgid "Compatibility with NVDA 2024.1."
+msgstr "Eklenti NVDA 2024.1 sürümüyle uyumlu hâle getirildi."
 
 #. type: Title ###
 #, no-wrap
@@ -498,10 +568,6 @@ msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
 #. type: Plain text
-msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
-msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
-
-#. type: Plain text
 msgid ""
 "[2]: https://github.com/CyrilleB79/charInfo/releases/download/V1.7/charInfo-1.7.nvda-addon"
 msgstr ""
@@ -518,6 +584,12 @@ msgid ""
 "[4]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994"
 msgstr ""
 "[4]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994"
+
+#~ msgid "Download [stable version][1]"
+#~ msgstr "[Kararlı sürümü][1] indir"
+
+#~ msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
+#~ msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=charInfo"
 
 #~ msgid "This add-on allows to present in a message various information about a character."
 #~ msgstr "Bu eklenti, bir mesajda bir karakter hakkında çeşitli bilgiler sunmaya izin verir."

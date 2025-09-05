@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NVDA community add-ons website\n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
-"PO-Revision-Date: 2024-11-23 22:23+0200\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
+"PO-Revision-Date: 2025-07-07 13:42+0300\n"
 "Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #. type: Plain text
 #, no-wrap
@@ -96,7 +96,7 @@ msgstr "Leikepöydän sisällön käsittelijän asetukset"
 msgid ""
 "This panel is available from NVDA's menu, Preferences submenu, Settings "
 "dialog."
-msgstr "Tämä paneeli löytyy kohdasta NVDA-valikko -> Asetukset -> Asetukset."
+msgstr "Tämä paneeli löytyy kohdasta NVDA-valikko > Mukautukset > Asetukset."
 
 #. type: Plain text
 msgid "It contains the following controls:"
@@ -186,7 +186,7 @@ msgstr "Palauta oletukset."
 msgid "Notes:"
 msgstr "Huomautuksia:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -194,7 +194,14 @@ msgstr ""
 "Vahvistusta ei pyydetä NVDA:n ilmoitusruudun ollessa avoimena, vaan "
 "toiminnot suoritetaan heti."
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
+#| msgid ""
+#| "*\tConfirmations won't be requested when a message box of NVDA is still "
+#| "opened. In those cases, actions will be inmediately performed.\n"
+#| "* Emulate copy and emulate cut commands mean that, when these features "
+#| "are enabled, the add-on will take control of control+c and control+x. "
+#| "This will allow to select if a confirmation should be requested before "
+#| "performing the actions corresponding to these keystrokes.\n"
 msgid ""
 "Emulate copy and emulate cut commands mean that, when these features are "
 "enabled, the add-on will take control of control+c and control+x. This will "
@@ -202,8 +209,23 @@ msgid ""
 "actions corresponding to these keystrokes."
 msgstr ""
 "Kun kopioinnin ja leikkaamisen emulointi on otettu käyttöön, tämä lisäosa "
-"ottaa hallintaansa Ctrl+C- ja Ctrl+X-komennot. Tämä mahdollistaa valinnaisen "
+"ottaa hallintaansa Ctrl+C- ja Ctrl+X-komennot. Se mahdollistaa valinnaisen "
 "vahvistuksen pyytämisen ennen näiden komentojen suorittamista."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 46.0.0"
+msgstr "Muutokset versiossa 46.0.0"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr "NVDA siivoaa selattavien viestien HTML-koodin."
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
+msgstr ""
+"Lisätty Esc-näppäimen ohelle painike selattavien viestien sulkemista varten."
 
 #. type: Title ##
 #, no-wrap
@@ -278,8 +300,8 @@ msgstr "Yhteensopiva NVDA 2021.1:n kanssa."
 
 #. type: Title ##
 #, no-wrap
-msgid "Changes for 13.0 "
-msgstr "Muutokset versiossa 13.0 "
+msgid "Changes for 13.0"
+msgstr "Muutokset versiossa 13.0"
 
 #. type: Bullet: '* '
 msgid ""
@@ -445,8 +467,8 @@ msgid ""
 "Added Emulate copy and Emulate cut commands, which could be assigned from "
 "the Input gestures dialog."
 msgstr ""
-"Lisätty Vahvista kopioinnin emulointi- ja Vahvista leikkaamisen emulointi -"
-"asetukset, joille voidaan määrittää näppäinkomennot Näppäinkomennot-"
+"Lisätty Vahvista kopioinnin emulointi- ja Vahvista leikkaamisen emulointi "
+"-asetukset, joille voidaan määrittää näppäinkomennot Näppäinkomennot-"
 "valintaikkunasta."
 
 #. type: Bullet: '*	'
@@ -456,8 +478,8 @@ msgid ""
 "copy and cut, and be asked if you want to replace the clipboard contents "
 "when pressing these keystrokes."
 msgstr ""
-"Lisätty valintaikkuna Vahvista kopioinnin emulointi- ja Vahvista "
-"leikkaamisen emulointi -toiminnallisuuksien  määrittämiseen lisäosan "
+"Lisätty valintaikkuna \"Vahvista kopioinnin emulointi\"- ja \"Vahvista "
+"leikkaamisen emulointi\" -toiminnallisuuksien  määrittämistä varten lisäosan "
 "asennuksen aikana. Kun nämä asetukset ovat käytössä, kopioinnin (Ctrl+C) ja "
 "leikkaamisen (Ctrl+X) suorittamiselle ja leikepöydän sisällön korvaamiselle "
 "pyydetään vahvistus."
@@ -570,6 +592,18 @@ msgstr "Ensimmäinen versio."
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
+#, no-wrap
+#~ msgid ""
+#~ "*\tNVDA+windows+x: Clear clipboard contents.\n"
+#~ "*\t Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.\n"
+#~ "*\t Not assigned: Shows the clipboard text as HTML in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ "*\t Not assigned: Shows the textual clipboard contents as plain text in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ msgstr ""
+#~ "*\tNVDA+Win+X: Tyhjennä leikepöytä.\n"
+#~ "*\t Ei määritetty: Kopioi leikepöydälle tai leikkaa leikepöydältä ja kysyy valinnaisesti vahvistuksen suoritettavalle toiminnolle.\n"
+#~ "*\t Ei määritetty: Näyttää leikepöydällä olevan tekstin selaustilassa HTML-muodossa, tai ilmoittaa, jos leikepöytä on tyhjä tai mikäli sisältö on sellaista, jota ei voida näyttää (esimm. Resurssienhallinnasta kopioidut tiedostot tai kansiot).\n"
+#~ "*\t Ei määritetty: Näyttää leikepöydän tekstimuotoisen sisällön selaustilassa, tai ilmoittaa, jos leikepöytä on tyhjä tai mikäli sisältö on sellaista, jota ei voida näyttää (esim. Resurssienhallinnasta kopioidut tiedostot tai kansiot).\n"
+
 #~ msgid ""
 #~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
 #~ "[3]."
@@ -608,31 +642,6 @@ msgstr "[[!tag dev stable]]\n"
 #~ msgstr ""
 #~ "[2]: https://www.nvaccess.org/addonStore/legacy?file=clipContentsDesigner-"
 #~ "beta"
-
-#~ msgid ""
-#~ "*\tNVDA+windows+x: Clear clipboard contents.\n"
-#~ "*\t Not assigned: Copies to (or cuts from) the clipboard, with the "
-#~ "possibility of being asked for a previous confirmation.\n"
-#~ "*\t Not assigned: Shows the clipboard text as HTML in browse mode, or "
-#~ "announces if clipboard is empty or has contents which can't be presented "
-#~ "in a browseable message, for instance if files or folders are been copied "
-#~ "from Windows Explorer.\n"
-#~ "*\t Not assigned: Shows the textual clipboard contents as plain text in "
-#~ "browse mode, or announces if clipboard is empty or has contents which "
-#~ "can't be presented in a browseable message, for instance if files or "
-#~ "folders are been copied from Windows Explorer.\n"
-#~ msgstr ""
-#~ "*\tNVDA+Win+X: Tyhjennä leikepöytä.\n"
-#~ "*\t Ei määritetty: Kopioi leikepöydälle tai leikkaa leikepöydältä ja "
-#~ "kysyy valinnaisesti vahvistuksen suoritettavalle toiminnolle.\n"
-#~ "*\t Ei määritetty: Näyttää leikepöydällä olevan tekstin selaustilassa "
-#~ "HTML-muodossa, tai ilmoittaa, jos leikepöytä on tyhjä tai mikäli sisältö "
-#~ "on sellaista, jota ei voida näyttää (esimm. Resurssienhallinnasta "
-#~ "kopioidut tiedostot tai kansiot).\n"
-#~ "*\t Ei määritetty: Näyttää leikepöydän tekstimuotoisen sisällön "
-#~ "selaustilassa, tai ilmoittaa, jos leikepöytä on tyhjä tai mikäli sisältö "
-#~ "on sellaista, jota ei voida näyttää (esim. Resurssienhallinnasta "
-#~ "kopioidut tiedostot tai kansiot).\n"
 
 #~ msgid ""
 #~ "Download [development version][2] (compatible with NVDA 2022.1 and beyond)"

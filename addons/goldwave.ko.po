@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
-"POT-Creation-Date: 2025-04-20 15:31+0000\n"
+"POT-Creation-Date: 2025-06-23 16:37+0000\n"
 "PO-Revision-Date: 2023-04-15 12:11-0700\n"
 "Last-Translator: Joseph Lee <joseph.lee22590@gmail.com>\n"
 "Language-Team: \n"
@@ -81,6 +81,23 @@ msgstr ""
 
 #. type: Plain text
 msgid "Note: GoldWave 6 or later and Windows 10 or later is required."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version 25.07"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Improved audio selection, zoom level, and track position announcements in "
+"GoldWave 7."
 msgstr ""
 
 #. type: Title ##
@@ -433,13 +450,12 @@ msgid "Initial version."
 msgstr "첫 버전."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
 msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=goldwave"
 msgstr "[1]: https://www.nvaccess.org/addonStore/legacy?file=goldwave"
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #, fuzzy
 #~| msgid "NvDA+Shift+C: Toggles speaking of commands during audio editing."

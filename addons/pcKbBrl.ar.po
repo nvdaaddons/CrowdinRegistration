@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-01 07:34+0000\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
 "PO-Revision-Date: 2014-06-16 11:27+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -239,6 +239,15 @@ msgstr ""
 "يستقبلها نظام التشغيل ويندوز أو NVDA. في بعض الحالات يساهم استخدام الصف "
 "الأعلى باستخدام يد واحد أو اليدين معا في حل المشكلة, لأن لوحة المفاتيح لديك "
 "ربما تسمح بذلك."
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes for 44.0.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Added kannada.cti table."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap

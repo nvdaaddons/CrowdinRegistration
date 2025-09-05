@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
 "PO-Revision-Date: 2024-03-10 20:35+0200\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
@@ -189,7 +189,7 @@ msgstr "Възстановяване на настройките по подра
 msgid "Notes:"
 msgstr "Забележки:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -198,7 +198,13 @@ msgstr ""
 "диалогов прозорец на NVDA. В тези случаи действията ще бъдат извършвани "
 "незабавно."
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Emulate copy and emulate cut commands mean that, when these features are "
+#| "enabled, the add-on will take control of control+c and control+x. This "
+#| "will allow to select if a confirmation should be requested before "
+#| "performing the actions corresponding to these keystrokes."
 msgid ""
 "Emulate copy and emulate cut commands mean that, when these features are "
 "enabled, the add-on will take control of control+c and control+x. This will "
@@ -210,6 +216,21 @@ msgstr ""
 "Control+C и Control+X. Това ще позволи да се избере дали да се иска "
 "потвърждение преди извършване на действията, съответстващи на тези клавишни "
 "команди."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 46.0.0"
+msgstr "Промени във версия 4.0"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -285,8 +306,9 @@ msgid "Compatible with NVDA 2021.1."
 msgstr "Съвместима с NVDA 2021.1."
 
 #. type: Title ##
-#, no-wrap
-msgid "Changes for 13.0 "
+#, fuzzy, no-wrap
+#| msgid "Changes for 13.0 "
+msgid "Changes for 13.0"
 msgstr "Промени във версия 13.0 "
 
 #. type: Bullet: '* '
@@ -460,6 +482,12 @@ msgstr ""
 "да бъдат назначени жестове в екрана за управление на жестовете на NVDA."
 
 #. type: Bullet: '*	'
+#, fuzzy
+#| msgid ""
+#| "Added a dialog to configure the Emulate copy and Emulate cut "
+#| "functionalities at installation. This allows to add the control+c and "
+#| "control+x commands to copy and cut, and be asked if you want to replace "
+#| "the clipboard contents when pressing these keystrokes."
 msgid ""
 "Added a dialog to configure the Emulate copy and Emulate cut functionalities "
 "at installation. This allows to add the control+c and control+x commands to "
@@ -581,6 +609,18 @@ msgstr "Първоначално издание."
 msgid "[[!tag dev stable]]\n"
 msgstr "[[!tag dev stable]]\n"
 
+#, no-wrap
+#~ msgid ""
+#~ "*\tNVDA+windows+x: Clear clipboard contents.\n"
+#~ "*\t Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.\n"
+#~ "*\t Not assigned: Shows the clipboard text as HTML in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ "*\t Not assigned: Shows the textual clipboard contents as plain text in browse mode, or announces if clipboard is empty or has contents which can't be presented in a browseable message, for instance if files or folders are been copied from Windows Explorer.\n"
+#~ msgstr ""
+#~ "*\tNVDA+Windows+X: Изчистване на съдържанието на клипборда.\n"
+#~ "*\t Не е назначено: Копиране в (или изрязване от) клипборда, с възможност за за запитване за предшестващо потвърждение.\n"
+#~ "*\t Не е назначено: Извеждане на текста на клипборда като HTML в режим на разглеждане или докладване ако клипбордът е празен или има съдържание, което не може да бъде представено в съобщение за разглеждане (например при копиране на файлове или папки от Windows Explorer).\n"
+#~ "*\t Не е назначено: Извеждане на текста на клипборда като обикновен текст в режим на разглеждане или докладване ако клипбордът е празен или има съдържание, което не може да бъде представено в съобщение за разглеждане (например при копиране на файлове или папки от Windows Explorer).\n"
+
 #~ msgid ""
 #~ "If needed, you can download the [last version compatible with NVDA 2017.3]"
 #~ "[3]."
@@ -619,31 +659,6 @@ msgstr "[[!tag dev stable]]\n"
 #~ msgstr ""
 #~ "[2]: https://www.nvaccess.org/addonStore/legacy?file=clipContentsDesigner-"
 #~ "beta"
-
-#~ msgid ""
-#~ "*\tNVDA+windows+x: Clear clipboard contents.\n"
-#~ "*\t Not assigned: Copies to (or cuts from) the clipboard, with the "
-#~ "possibility of being asked for a previous confirmation.\n"
-#~ "*\t Not assigned: Shows the clipboard text as HTML in browse mode, or "
-#~ "announces if clipboard is empty or has contents which can't be presented "
-#~ "in a browseable message, for instance if files or folders are been copied "
-#~ "from Windows Explorer.\n"
-#~ "*\t Not assigned: Shows the textual clipboard contents as plain text in "
-#~ "browse mode, or announces if clipboard is empty or has contents which "
-#~ "can't be presented in a browseable message, for instance if files or "
-#~ "folders are been copied from Windows Explorer.\n"
-#~ msgstr ""
-#~ "*\tNVDA+Windows+X: Изчистване на съдържанието на клипборда.\n"
-#~ "*\t Не е назначено: Копиране в (или изрязване от) клипборда, с възможност "
-#~ "за за запитване за предшестващо потвърждение.\n"
-#~ "*\t Не е назначено: Извеждане на текста на клипборда като HTML в режим на "
-#~ "разглеждане или докладване ако клипбордът е празен или има съдържание, "
-#~ "което не може да бъде представено в съобщение за разглеждане (например "
-#~ "при копиране на файлове или папки от Windows Explorer).\n"
-#~ "*\t Не е назначено: Извеждане на текста на клипборда като обикновен текст "
-#~ "в режим на разглеждане или докладване ако клипбордът е празен или има "
-#~ "съдържание, което не може да бъде представено в съобщение за разглеждане "
-#~ "(например при копиране на файлове или папки от Windows Explorer).\n"
 
 #~ msgid ""
 #~ "Download [development version][2] (compatible with NVDA 2022.1 and beyond)"

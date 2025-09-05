@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2024-12-01 07:42+0000\n"
+"POT-Creation-Date: 2025-06-14 08:20+0000\n"
 "PO-Revision-Date: 2022-11-23 11:03+0900\n"
 "Last-Translator: Takuya Nishimoto <nishimotz@gmail.com>\n"
 "Language-Team: Japanese <nvdajp@nvda.jp>\n"
@@ -235,6 +235,13 @@ msgstr ""
 "マーカー情報の復元: マーカー情報のバックアップからブックマークを復元できま"
 "す。"
 
+#. type: Bullet: '*	'
+msgid ""
+"Set default place markers folder: the default folder for place markers can "
+"be set from this dialog. It will be saved in the normal configuration "
+"profile."
+msgstr ""
+
 #. type: Plain text
 #, fuzzy
 #| msgid ""
@@ -249,6 +256,28 @@ msgstr ""
 "補足: ブックマークの位置は文字数に基づいています。ページの内容が動的に変化す"
 "る場合は、ブックマークでは正確な位置を保存できないので、検索保存をお使いくだ"
 "さい。"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 45.0.0"
+msgstr "4.0の変更点"
+
+#. type: Bullet: '* '
+msgid "Added ability to set the default placeMarkers folder."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"If plugins are reloaded while this add-on is enabled, the last saved "
+"configuration will be applied."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added copy and close buttons to browseable message when showing the current "
+"file where bookmarks and specific search strings are saved."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap

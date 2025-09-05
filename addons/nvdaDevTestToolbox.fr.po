@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-04-30 11:45+0000\n"
-"PO-Revision-Date: 2025-05-04 21:29+0200\n"
+"POT-Creation-Date: 2025-06-11 10:16+0000\n"
+"PO-Revision-Date: 2025-06-11 12:34+0200\n"
 "Last-Translator: Cyrille Bougot <cyrille.bougot2@laposte.net>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -299,6 +299,11 @@ msgstr ""
 #, no-wrap
 msgid "Script tools"
 msgstr "Outils pour les scripts"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"scriptOpener\"></a>\n"
+msgstr "<a id=\"scriptOpener\"></a>\n"
 
 #. type: Title ###
 #, no-wrap
@@ -728,20 +733,6 @@ msgstr ""
 "ouvrir le fichier."
 
 #. type: Plain text
-msgid ""
-"For this feature to work, you need to have configured your [favorite "
-"editor's command](#settingsOpenCommand) in the add-on's settings.  If you "
-"are not running NVDA from source and want to open NVDA's code, the [location "
-"of NVDA source code](#settingsNvdaSourcePath) should also have been "
-"configured."
-msgstr ""
-"Pour utiliser cette fonctionnalité, vous devez avoir configuré [la ligne de "
-"commande de votre éditeur préféré](#settingsOpenCommand) dans les paramètres "
-"de l'extension. Si vous n'exécutez pas NVDA à partir des sources et que vous "
-"voulez ouvrir le code de NVDA, [l'emplacement du code source NVDA]"
-"(#settingsNvdaSourcePath) doit également avoir été configuré."
-
-#. type: Plain text
 #, no-wrap
 msgid "<a id=\"oldLogsBackup\"></a>\n"
 msgstr "<a id=\"oldLogsBackup\"></a>\n"
@@ -1125,15 +1116,16 @@ msgstr "Commande pour ouvrir un fichier dans votre éditeur préféré"
 #. type: Plain text
 msgid ""
 "Some features allow to see content in your favorite editor.  This includes "
-"the commands to view the source file [from a log](#logReaderOpenSourceFile) "
-"or [from an object in the console](#pythonConsoleOpenCodeFile) as well as "
-"the [log manager](#oldLogsBackup)'s Open button."
+"the commands to view the source file [from a log](#logReaderOpenSourceFile), "
+"[from an object in the console](#pythonConsoleOpenCodeFile) or [from a typed "
+"gesture](#scriptOpener), as well as the [log manager](#oldLogsBackup)'s Open "
+"button."
 msgstr ""
 "Certaines fonctionnalités permettent de voir le contenu dans votre éditeur "
 "préféré. Cela inclut les commandes pour afficher le fichier source [à partir "
-"d'un journal](#logReaderOpenSourceFile) ou [à partir d'un objet dans la "
-"console](#pythonConsoleOpenCodeFile) ainsi que le bouton Ouvrir du "
-"[gestionnaire de journaux](#oldLogsBackup)."
+"d'un journal](#logReaderOpenSourceFile), [d'un objet dans la console]"
+"(#pythonConsoleOpenCodeFile) ou [d'un geste exécuté](#scriptOpener), ainsi "
+"que le bouton Ouvrir du [gestionnaire de journaux](#oldLogsBackup)."
 
 #. type: Plain text
 #, no-wrap
@@ -1179,12 +1171,12 @@ msgstr "Chemin du code source de NVDA"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"When using a command to [view the source file from a log](#logReaderOpenSourceFile) or [from an object in the console](#pythonConsoleOpenCodeFile), the file may belong to NVDA itself.\n"
+"When using a command to view the source file [from a log](#logReaderOpenSourceFile), [from an object in the console](#pythonConsoleOpenCodeFile) or [from a typed gesture](#scriptOpener), the file may belong to NVDA itself.\n"
 "If you are not running NVDA from source, your NVDA only contains compiled files.\n"
 "Thus you may specify here an alternate location where the corresponding source file will be found, e.g. the place where you have cloned NVDA source files, so that a source file can be opened anyway.\n"
 "The path should be such as:  \n"
 msgstr ""
-"Lors de l'utilisation d'une commande pour [afficher le fichier source à partir d'un journal](#logReaderOpenSourceFile) ou [à partir d'un objet dans la console](#pythonConsoleOpenCodeFile), le fichier peut appartenir à NVDA lui-même.\n"
+"Lors de l'utilisation d'une commande pour [afficher le fichier source à partir d'un journal](#logReaderOpenSourceFile), [d'un objet dans la console](#pythonConsoleOpenCodeFile) ou [d'un geste exécuté](#scriptOpener), le fichier peut appartenir à NVDA lui-même.\n"
 "Si vous n'exécutez pas NVDA à partir des sources, votre NVDA ne contient que des fichiers compilés.\n"
 "Ainsi, vous pouvez spécifier ici un emplacement alternatif où le fichier source correspondant sera trouvé, par ex. l'endroit où vous avez cloné les fichiers source NVDA, afin qu'un fichier source puisse être ouvert malgré tout.\n"
 "Le chemin doit être de la forme :  \n"
@@ -1257,12 +1249,15 @@ msgid "Version 7.0"
 msgstr "Version 7.0"
 
 #. type: Bullet: '* '
-msgid ""
-"Layered commands have been introduced; the entry point is `NVDA+X`.  The "
-"existing commands have been modified accordingly."
+msgid "Layered commands have been introduced; the entry point is `NVDA+X`."
 msgstr ""
 "Les commandes séquentielles ont été introduites; Le point d'entrée est "
-"`NVDA+X`. Les commandes existantes ont été modifiées en conséquence."
+"`NVDA+X`."
+
+#. type: Plain text
+#, no-wrap
+msgid "  The existing commands have been modified accordingly.  \n"
+msgstr "  Les commandes existantes ont été modifiées en conséquence.  \n"
 
 #. type: Bullet: '* '
 msgid ""
@@ -1452,16 +1447,26 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "  Credit: the initial idea for this feature comes from Debug Helper add-on by Luke Davis.  \n"
+msgstr "  Crédit: L'idée initiale de cette fonctionnalité provient de l'extension Debug Helper par Luke Davis.  \n"
+
+#. type: Bullet: '* '
 msgid ""
-"  Credit: the initial idea for this feature comes from Debug Helper add-on by Luke Davis.\n"
-"* Bubfix: The memorization of the last error do not fail anymore in some cases.\n"
-"* Bugfix: The add-on can initialize again with NVDA 2019.2.1.\n"
-"* Bugfix: Log saving feature will not fail anymore with non-ASCII logs.\n"
+"Bubfix: The memorization of the last error do not fail anymore in some cases."
 msgstr ""
-"Crédit : l'idée initiale de cette fonctionnalité provient de l'extension  Debug Helper par Luke Davis.\n"
-"* Correctif : La mémorisation de la dernière erreur n'échoue plus dans certains cas.\n"
-"* Correctif : l'extension peut s'initialiser à nouveau avec NVDA 2019.2.1.\n"
-"* Correctif : la fonctionnalité de sauvegarde des journaux n'échouera plus avec les journaux non-ASCII.\n"
+"Correctif : La mémorisation de la dernière erreur n'échoue plus dans "
+"certains cas."
+
+#. type: Bullet: '* '
+msgid "Bugfix: The add-on can initialize again with NVDA 2019.2.1."
+msgstr ""
+"Correctif : l'extension peut s'initialiser à nouveau avec NVDA 2019.2.1."
+
+#. type: Bullet: '* '
+msgid "Bugfix: Log saving feature will not fail anymore with non-ASCII logs."
+msgstr ""
+"Correctif : la fonctionnalité de sauvegarde des journaux n'échouera plus "
+"avec les journaux non-ASCII."
 
 #. type: Title ###
 #, no-wrap
@@ -1750,6 +1755,31 @@ msgstr ""
 "[5]: https://github.com/nvaccess/nvda/security/advisories/GHSA-"
 "xg6w-23rw-39r8#event-132994"
 
+#, no-wrap
+#~ msgid ""
+#~ "  Credit: the initial idea for this feature comes from Debug Helper add-on by Luke Davis.\n"
+#~ "* Bubfix: The memorization of the last error do not fail anymore in some cases.\n"
+#~ "* Bugfix: The add-on can initialize again with NVDA 2019.2.1.\n"
+#~ "* Bugfix: Log saving feature will not fail anymore with non-ASCII logs.\n"
+#~ msgstr ""
+#~ "Crédit : l'idée initiale de cette fonctionnalité provient de l'extension  Debug Helper par Luke Davis.\n"
+#~ "* Correctif : La mémorisation de la dernière erreur n'échoue plus dans certains cas.\n"
+#~ "* Correctif : l'extension peut s'initialiser à nouveau avec NVDA 2019.2.1.\n"
+#~ "* Correctif : la fonctionnalité de sauvegarde des journaux n'échouera plus avec les journaux non-ASCII.\n"
+
+#~ msgid ""
+#~ "For this feature to work, you need to have configured your [favorite "
+#~ "editor's command](#settingsOpenCommand) in the add-on's settings.  If you "
+#~ "are not running NVDA from source and want to open NVDA's code, the "
+#~ "[location of NVDA source code](#settingsNvdaSourcePath) should also have "
+#~ "been configured."
+#~ msgstr ""
+#~ "Pour utiliser cette fonctionnalité, vous devez avoir configuré [la ligne "
+#~ "de commande de votre éditeur préféré](#settingsOpenCommand) dans les "
+#~ "paramètres de l'extension. Si vous n'exécutez pas NVDA à partir des "
+#~ "sources et que vous voulez ouvrir le code de NVDA, [l'emplacement du code "
+#~ "source NVDA](#settingsNvdaSourcePath) doit également avoir été configuré."
+
 #~ msgid ""
 #~ "All the commands of the Object property explorer are unassigned by "
 #~ "default; you will have to assign them a shortcut in the Input gesture "
@@ -1758,23 +1788,6 @@ msgstr ""
 #~ "Les commandes de l'explorateur de propriétés d'objets n'ont pas de "
 #~ "raccourci assigné par défaut ; vous devrez leur en assigner un à partir "
 #~ "du dialogue Gestes de commandes pour les utiliser."
-
-#~ msgid ""
-#~ "Bubfix: The memorization of the last error do not fail anymore in some "
-#~ "cases."
-#~ msgstr ""
-#~ "Correctif : La mémorisation de la dernière erreur n'échoue plus dans "
-#~ "certains cas."
-
-#~ msgid "Bugfix: The add-on can initialize again with NVDA 2019.2.1."
-#~ msgstr ""
-#~ "Correctif : l'extension peut s'initialiser à nouveau avec NVDA 2019.2.1."
-
-#~ msgid ""
-#~ "Bugfix: Log saving feature will not fail anymore with non-ASCII logs."
-#~ msgstr ""
-#~ "Correctif : la fonctionnalité de sauvegarde des journaux n'échouera plus "
-#~ "avec les journaux non-ASCII."
 
 #~ msgid ""
 #~ "This feature is an improvement of an example in [NVDA developer guide][5]."

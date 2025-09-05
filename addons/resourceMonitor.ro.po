@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2025-01-25 17:43+0000\n"
+"POT-Creation-Date: 2025-06-23 16:37+0000\n"
 "PO-Revision-Date: 2018-12-19 16:47+0200\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
 "Language-Team: \n"
@@ -205,10 +205,28 @@ msgstr ""
 msgid "Installing the add-on on Windows 10/11 LTSC is not supported."
 msgstr ""
 
-#. type: Plain text
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.07.1"
+msgid "Version 25.07"
+msgstr "Versiunea 17.07.1"
+
+#. type: Bullet: '* '
 msgid ""
-"Note on license: this add-on uses Psutil, licensed under 3-Clause BSD "
-"License which is compatible with GNU General Public License."
+"Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Version 17.07.1"
+msgid "Version 25.06"
+msgstr "Versiunea 17.07.1"
+
+#. type: Bullet: '* '
+msgid ""
+"Improved connection status announcement when connecting to wireless networks "
+"(@danstiv)."
 msgstr ""
 
 #. type: Title ##
@@ -1010,15 +1028,14 @@ msgid "Initial Release"
 msgstr "Lansarea inițială"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!tag dev stable]]\n"
-msgstr "[[!tag dev stable]]\n"
-
-#. type: Plain text
 #, fuzzy
 #| msgid "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
 msgid "[1]: https://www.nvaccess.org/addonStore/legacy?file=resourceMonitor"
 msgstr "[1]: https://addons.nvda-project.org/files/get.php?file=rm"
+
+#, no-wrap
+#~ msgid "[[!tag dev stable]]\n"
+#~ msgstr "[[!tag dev stable]]\n"
 
 #~ msgid "Download [stable version][1]"
 #~ msgstr "Descărcați [versiunea stabilă][1]"

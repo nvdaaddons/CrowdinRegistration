@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clip Contents Designer web page\n"
-"POT-Creation-Date: 2024-11-30 11:13+0000\n"
+"POT-Creation-Date: 2025-06-28 19:57+0000\n"
 "PO-Revision-Date: 2021-07-18 16:30+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
@@ -193,7 +193,7 @@ msgstr ""
 msgid "Notes:"
 msgstr "Notas:"
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 msgid ""
 "Confirmations won't be requested when a message box of NVDA is still opened. "
 "In those cases, actions will be inmediately performed."
@@ -201,7 +201,7 @@ msgstr ""
 "As confirmações não serão solicitadas quando uma caixa de mensagens do NVDA "
 "ainda estiver aberta. Nesses casos, as acções serão executadas de imediato."
 
-#. type: Bullet: '* '
+#. type: Bullet: '*	'
 #, fuzzy
 #| msgid ""
 #| "Emulate copy and emulate cut commands mean that, when these features are "
@@ -218,6 +218,21 @@ msgstr ""
 "funcionalidades estão activadas, o extra assumirá o controlo de control+c e "
 "control+x. Isto permitirá seleccionar se deve ser solicitada uma confirmação "
 "antes de executar as acções correspondentes a estes atalhos."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Changes for 4.0"
+msgid "Changes for 46.0.0"
+msgstr "Alterações para a versão 4.0"
+
+#. type: Bullet: '* '
+msgid "NVDA will sanitize HTML in browseable messages."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Added a button to close browseable messages, in addition to the Escape key."
+msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
@@ -294,8 +309,9 @@ msgid "Compatible with NVDA 2021.1."
 msgstr ""
 
 #. type: Title ##
-#, no-wrap
-msgid "Changes for 13.0 "
+#, fuzzy, no-wrap
+#| msgid "Changes for 13.0 "
+msgid "Changes for 13.0"
 msgstr "Alterações para 13.0"
 
 #. type: Bullet: '* '
