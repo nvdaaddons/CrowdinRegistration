@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-07-06 12:32+0000\n"
+"PO-Revision-Date: 2025-07-07 22:33+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Readonly Profiles"
+msgstr "Профили только для чтения"
+
+#. type: Bullet: '* '
+msgid "Author: Noelia Ruiz Martínez"
+msgstr "Автор: Noelia Ruiz Martínez"
+
+#. type: Plain text
+msgid ""
+"When this add-on is enabled, configuration profiles won't be saved "
+"automatically."
+msgstr ""
+"Когда включено это дополнение, профили конфигурации не будут сохраняться "
+"автоматически."
+
+#. type: Plain text
+msgid ""
+"Press NVDA+shift+p to save the current configuration to the most recent "
+"profile."
+msgstr ""
+"Нажмите NVDA+shift+p для сохранения текущей конфигурации в самый "
+"последний профиль."
+
+#. type: Plain text
+msgid ""
+"This command can be changed from NVDA's menu, Preferences submenu, Input "
+"Gestures dialog, Configuration category."
+msgstr ""
+"Эта команда может быть изменена из меню NVDA, подменю параметров, "
+"диалога жестов ввода, в категории конфигурации."
