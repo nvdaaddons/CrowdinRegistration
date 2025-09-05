@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enhancedTouchGestures 25.07\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-17 03:00+0000\n"
+"POT-Creation-Date: 2025-09-05 14:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,4 +53,12 @@ msgid ""
 "commands.\n"
 "\tRequires a touch-enabled computer with Windows 8.1 or later with NVDA "
 "2017.4 or later installed."
+msgstr ""
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:30
+msgid ""
+"* Made the add-on code more robust with help from Pyright (a Python static "
+"type checker)."
 msgstr ""
