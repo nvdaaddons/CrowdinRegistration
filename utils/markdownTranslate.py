@@ -265,8 +265,8 @@ def generateXliff(
 			start=1,
 		):
 			mdLine = mdLine.rstrip()
-			if skelLine is not None:
-				skelLine = skelLine.rstrip()
+			if skelLine is None:
+				skelLine = ''
 			if m := re_translationID.match(skelLine):
 				res.numTranslatableStrings += 1
 				prefix, ID, suffix = m.groups()
