@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/instantTranslate/0f6d29b06ba8b9dce9b464ae9a076ca8673abeff/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/instantTranslate/fddc77097bd894ad7334f585ff70118a047930f9/readme.md">
 <skeleton>
 # $(ID:f27b090d-2cd4-4aa9-90be-abb657f6cad6)
 
@@ -93,7 +93,7 @@ $(ID:74f6af5e-2e7d-4bc2-b5ac-3e294b948f37)
 * $(ID:b1687061-f488-40a1-b613-54defd6ea76b)
 
 ## $(ID:5c833ef1-84e5-4f7a-915e-febe8dc6baf9)
-* $(ID:12863ce4-884b-4a57-8671-fb9a569170cf)
+* $(ID:8875f8f3-2562-4bd8-ab56-32affcca2fbe)
 
 ## $(ID:a1d5f072-4df4-49e3-95d2-1b65f3967342)
 * $(ID:2d35081b-2c18-41fe-82a3-775f0dbfd935)
@@ -107,7 +107,6 @@ $(ID:74f6af5e-2e7d-4bc2-b5ac-3e294b948f37)
 $(ID:218d9ac0-9933-4581-862c-77bccdd8deca)
 
 $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
-
 </skeleton>
 <unit id="f27b090d-2cd4-4aa9-90be-abb657f6cad6">
 <notes>
@@ -680,7 +679,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
 <source>Changes for 2.1 ##</source>
 </segment>
 </unit>
-<unit id="12863ce4-884b-4a57-8671-fb9a569170cf">
+<unit id="8875f8f3-2562-4bd8-ab56-32affcca2fbe">
 <notes>
 <note appliesTo="source">line: 93</note>
 <note appliesTo="source">prefix: * </note>
