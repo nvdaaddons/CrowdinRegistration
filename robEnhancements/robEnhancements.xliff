@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/robEnhancements/0c9c95e899108eb24770dab014078c425f6e5406/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/robEnhancements/e3c1fc2291df5177178dc196a3f841a935b7f5ae/readme.md">
 <skeleton>
 # $(ID:2c986f19-ca29-4717-934f-9c30f0d188df)
 
@@ -12,7 +12,7 @@
 ## $(ID:67d16a84-7c59-4978-b6ad-4672cc361d2b)
 
 * $(ID:2deb110d-150a-446a-9083-d42f241fcdd8)
-* $(ID:1c6c53ff-fb82-4f88-939f-cc003d217e51)
+* $(ID:2ccf9a91-0b95-4671-8ae7-6252012010dd)
 
 </skeleton>
 <unit id="2c986f19-ca29-4717-934f-9c30f0d188df">
@@ -69,7 +69,7 @@
 <source>Empty folders are usually recognized.</source>
 </segment>
 </unit>
-<unit id="1c6c53ff-fb82-4f88-939f-cc003d217e51">
+<unit id="2ccf9a91-0b95-4671-8ae7-6252012010dd">
 <notes>
 <note appliesTo="source">line: 12</note>
 <note appliesTo="source">prefix: * </note>
