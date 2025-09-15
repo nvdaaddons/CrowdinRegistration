@@ -17,7 +17,7 @@ import difflib
 from dataclasses import dataclass
 import subprocess
 
-RAW_GITHUB_REPO_URL = "https://raw.githubusercontent.com/nvdaaddons"
+RAW_GITHUB_REPO_URL = "https://raw.githubusercontent.com/nvaccess/nvda"
 re_kcTitle = re.compile(r"^(<!--\s+KC:title:\s*)(.+?)(\s*-->)$")
 re_kcSettingsSection = re.compile(r"^(<!--\s+KC:settingsSection:\s*)(.+?)(\s*-->)$")
 # Comments that span a single line in their entirety
@@ -85,7 +85,7 @@ def getRawGithubURLForPath(filePath: str) -> str:
 	commitID = getLastCommitID(filePath)
 	relativePath = os.path.relpath(os.path.abspath(filePath), gitDirPath)
 	relativePath = relativePath.replace("\\", "/")
-	return f"{RAW_GITHUB_REPO_URL}/{os.path.basename(getGitDir())[6:]}/{commitID}/{relativePath}"
+	return f"{RAW_GITHUB_REPO_URL}/{commitID}/{relativePath}"
 
 
 def skeletonizeLine(mdLine: str) -> str | None:
@@ -265,8 +265,7 @@ def generateXliff(
 			start=1,
 		):
 			mdLine = mdLine.rstrip()
-			if skelLine is None:
-				skelLine = ''
+			skelLine = skelLine.rstrip()
 			if m := re_translationID.match(skelLine):
 				res.numTranslatableStrings += 1
 				prefix, ID, suffix = m.groups()
