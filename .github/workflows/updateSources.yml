@@ -30,8 +30,8 @@ jobs:
       id: cacheDependencies
       uses: actions/cache@v4
       with:
-        path: .
-        key: ${{ runner.os }}
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip
 
     - name: Set up python
       if: steps.cacheDependencies.outputs.cache-hit != 'true'
