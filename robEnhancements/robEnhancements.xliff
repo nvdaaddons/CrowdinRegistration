@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/robEnhancements/0c9c95e899108eb24770dab014078c425f6e5406/readme.md">
+<skeleton>
+# $(ID:2c986f19-ca29-4717-934f-9c30f0d188df)
+
+## $(ID:3e9ca5f6-7b7f-44c9-b5f5-2f95b0baece1)
+
+* $(ID:7da4830a-dc24-4cee-8977-023a530c68f8)
+* $(ID:7c59daff-d4f2-4c14-bf72-ec916a2d6650)
+
+## $(ID:67d16a84-7c59-4978-b6ad-4672cc361d2b)
+
+* $(ID:2deb110d-150a-446a-9083-d42f241fcdd8)
+* $(ID:1c6c53ff-fb82-4f88-939f-cc003d217e51)
+
+</skeleton>
+<unit id="2c986f19-ca29-4717-934f-9c30f0d188df">
+<notes>
+<note appliesTo="source">line: 2</note>
+<note appliesTo="source">prefix: # </note>
+</notes>
+<segment>
+<source>Adds global and program dependent features</source>
+</segment>
+</unit>
+<unit id="3e9ca5f6-7b7f-44c9-b5f5-2f95b0baece1">
+<notes>
+<note appliesTo="source">line: 4</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Windows Explorer and Browsers</source>
+</segment>
+</unit>
+<unit id="7da4830a-dc24-4cee-8977-023a530c68f8">
+<notes>
+<note appliesTo="source">line: 6</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Empty folders are usually recognized and displayed in Windows 10 Explorer.</source>
+</segment>
+</unit>
+<unit id="7c59daff-d4f2-4c14-bf72-ec916a2d6650">
+<notes>
+<note appliesTo="source">line: 7</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Use Ctrl+NVDA+f4 to show document URL, press twice, copy to clipboard.</source>
+</segment>
+</unit>
+<unit id="67d16a84-7c59-4978-b6ad-4672cc361d2b">
+<notes>
+<note appliesTo="source">line: 9</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Microsoft Outlook</source>
+</segment>
+</unit>
+<unit id="2deb110d-150a-446a-9083-d42f241fcdd8">
+<notes>
+<note appliesTo="source">line: 11</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Empty folders are usually recognized.</source>
+</segment>
+</unit>
+<unit id="1c6c53ff-fb82-4f88-939f-cc003d217e51">
+<notes>
+<note appliesTo="source">line: 12</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>With Ctrl+Alt+j you jump to the first folder below the inbox, which contains unread emails.</source>
+</segment>
+</unit>
+</file>
+</xliff>
