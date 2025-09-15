@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/winMag/38b9e6959c82e3a1ff8d7d9fbce85d1035a94b07/readme.md">
+<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/winMag/ce3c05067d6f9d5aae0ed28aecd0a68e46d0f23e/readme.md">
 <skeleton>
 # $(ID:f4fc561d-9f20-4dc8-b41e-b1934bde3a62)
 
@@ -55,7 +55,7 @@ $(ID:ca3e4b72-38bb-4e89-9b66-e26116c768f2)
 $(ID:28e7cabb-82d6-4aa5-a524-e4b88da85923)
 $(ID:8fcfe2f5-1753-4b5c-8e3f-e268bc76bdd2)
 * $(ID:9f233014-6626-4046-bfc7-25caa6e4d779)
-$(ID:36e8c612-568e-4cfb-9f57-8a3d72f165e6)
+$(ID:d6d31dcb-e996-4352-b23b-984fdf6c59a8)
   
     * $(ID:d3709a73-269c-4ceb-9656-a9ab2c640f52)
 $(ID:13c8a0d1-3c6d-4d9e-8c19-8258e8fdd6da)
@@ -250,7 +250,6 @@ $(ID:36d495c9-3487-4a07-884d-7272c7804d07)
 $(ID:ebb8fe0f-c15a-4457-a428-5df67e99767d)
 
 $(ID:ef68a0c3-64a2-452f-9dbc-2d367ef1095d)
-
 </skeleton>
 <unit id="f4fc561d-9f20-4dc8-b41e-b1934bde3a62">
 <notes>
@@ -594,7 +593,7 @@ $(ID:ef68a0c3-64a2-452f-9dbc-2d367ef1095d)
 <source>In documents and list views, pass control+alt+arrows shortcuts to Windows Magnifier:</source>
 </segment>
 </unit>
-<unit id="36e8c612-568e-4cfb-9f57-8a3d72f165e6">
+<unit id="d6d31dcb-e996-4352-b23b-984fdf6c59a8">
 <notes>
 <note appliesTo="source">line: 55</note>
 </notes>
