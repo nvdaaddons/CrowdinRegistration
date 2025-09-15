@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: goldwave 25.08.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-28 11:52+0000\n"
+"POT-Creation-Date: 2025-09-15 10:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -264,4 +264,10 @@ msgstr ""
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
 #: buildVars.py:24
 msgid "An add-on for enhancing access and usage of the GoldWave audio editor."
+msgstr ""
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "* Fixed bugs regarding position and selection time announcements."
 msgstr ""
