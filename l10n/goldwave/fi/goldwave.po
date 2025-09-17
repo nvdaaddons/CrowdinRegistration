@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-28 11:52+0000\n"
-"PO-Revision-Date: 2025-09-15 00:45\n"
+"POT-Creation-Date: 2025-09-15 10:05+0000\n"
+"PO-Revision-Date: 2025-09-17 06:58\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: addon/appModules/goldwave.py:36
 msgid "This is GoldWave's sound window. You can use GoldWave commands to listen to and edit sound files. See GoldWave help for details."
-msgstr "Tämä on GoldWaven ääni-ikkuna. Voit käyttää sovelluksen komentoja äänitiedostojen kuunteluun ja muokkaamiseen. Katso tietoja GoldWaven dokumentaatiosta."
+msgstr "Tämä on GoldWaven ääni-ikkuna. Voit käyttää GoldWave-komentoja äänitiedostojen kuunteluun ja muokkaamiseen. Katso tietoja sovelluksen ohjeesta."
 
 #. Translators: Presented when audio track position information can not be located.
 #: addon/appModules/goldwave.py:89
@@ -261,4 +261,10 @@ msgstr "GoldWave"
 #: buildVars.py:24
 msgid "An add-on for enhancing access and usage of the GoldWave audio editor."
 msgstr "Lisäosa Goldwave-äänimuokkaimen saavutettavuuden ja käytettävyyden parantamiseen."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:29
+msgid "* Fixed bugs regarding position and selection time announcements."
+msgstr "* Korjattu virheitä, jotka liittyivät sijainnin ja valitun ajan ilmoituksiin."
 
