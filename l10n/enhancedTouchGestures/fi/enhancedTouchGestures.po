@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-17 02:44+0000\n"
-"PO-Revision-Date: 2025-09-04 11:18\n"
+"POT-Creation-Date: 2025-09-05 14:28+0000\n"
+"PO-Revision-Date: 2025-09-17 06:58\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -51,5 +51,11 @@ msgstr "Sanelua tuetaan Windows 10:n versiossa 1709 tai sitä uudemmassa"
 msgid "A suite of additional touch commands, including navigation and help commands.\n"
 "\tRequires a touch-enabled computer with Windows 8.1 or later with NVDA 2017.4 or later installed."
 msgstr "Kokoelma lisäkomentoja kosketusnäytön käyttämiseen, siirtyminen ja ohjekomennot mukaan lukien.\n"
-"\tVaatii kosketusnäytöllisen tietokoneen, jossa on asennettuna Windows 8.1 tai uudempi sekä NVDA 2017.4 tai uudempi."
+"\tEdellyttää kosketusnäytöllistä tietokonetta, jossa on asennettuna Windows 10 tai 11 sekä NVDA 2024.1 tai uudempi."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:30
+msgid "* Made the add-on code more robust with help from Pyright (a Python static type checker)."
+msgstr "Lisäosan koodin vakautta parannettu Pyrightin (Pythonin staattisen tyypintarkistustyökalun) avulla."
 

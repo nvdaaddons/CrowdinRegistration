@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-08-17 02:44+0000\n"
-"PO-Revision-Date: 2025-09-04 11:18\n"
+"POT-Creation-Date: 2025-09-05 14:28+0000\n"
+"PO-Revision-Date: 2025-09-17 06:58\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -52,4 +52,10 @@ msgid "A suite of additional touch commands, including navigation and help comma
 "\tRequires a touch-enabled computer with Windows 8.1 or later with NVDA 2017.4 or later installed."
 msgstr "Набор дополнительных сенсорных команд, включая команды навигации и справки.\n"
 "\tТребуется компьютер с поддержкой сенсорного  взаимодействия под управлением Windows 8.1 или выше с установленной NVDA 2017.4 или выше."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:30
+msgid "* Made the add-on code more robust with help from Pyright (a Python static type checker)."
+msgstr "* Код дополнения сделан более надёжно с помощью Pyright (проверка статического типа Python)."
 
