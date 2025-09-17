@@ -16,25 +16,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 jobs:
-  importToCrowdin:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v4
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.11
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install scons markdown
-          pip install lxml requests
-          sudo apt update
-          sudo apt install gettext
       - name: Checkout add-on
         uses: actions/checkout@v4
         with:
@@ -42,33 +26,56 @@ jobs:
           path: addon-${{ inputs.repo }}
           fetch-depth: 0
           ref: stable
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install scons markdown
+          sudo apt update
+          sudo apt install gettext
+      - name: Build add-on and pot file
+        run: |
+          scons
+          scons pot
+      - name: Create dir for repo
+        run: |
+          if [ -d "addon-${{ inputs.repo }}" ]; then
+          echo "Warning: Folder already exists."
+          exit 1
+          else
+          mkdir addon-${{ inputs.repo }}
+          fi
+          mv ${{ inputs.repo }}.pot addon-${{ inputs.repo }} -f
+          mv readme.md addon-${{ inputs.repo }} -f
+          cd addon-${{ inputs.repo }}
+          mv readme.md addon-${{ inputs.repo }}.md -f
+      - name: Upload add-on
+        uses: actions/upload-artifact@v4
+        with:
+          name: addon
+          path: addon-${{ inputs.repo }}
+  importToCrowdin:
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v5
       - name: Create dir for repo
         run: |
           if [ -d "${{ inputs.repo }}" ]; then
           echo "Warning: Folder already exists."
-          #rm -rf "${{ inputs.repo }}"
           else
           mkdir ${{ inputs.repo }}
           fi
-      - name: Create add-on
-        run: |
-          cd addon-${{ inputs.repo }}
-          scons
-      - name: Create pot file
-        run: |
-          cd addon-${{ inputs.repo }}
-          scons pot
+      - name: Download artifact
+        uses: actions/download-artifact@v5
+        with:
+          path: ${{ inputs.repo }}
       - name: Generate xliff
         run: |
-          cd addon-${{ inputs.repo }}
-          python ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
-      - name: Move files to repo
-        run: |
-          mv addon-${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }} -f
-          mv addon-${{ inputs.repo }}/${{ inputs.repo }}.xliff ${{ inputs.repo }} -f
-          mv addon-${{ inputs.repo }}/readme.md ${{ inputs.repo }} -f
-          cd ${{ inputs.repo }}
-          mv readme.md ${{ inputs.repo }}.md -f
+          python ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff
 
       - name: Commit and push
         run: |
@@ -80,16 +87,6 @@ jobs:
           git branch -u origin/main
           git pull
           git push
-      - name: Install Crowdin API
-        run: |
-          python -m pip install --upgrade pip
-          pip install crowdin-api-client==1.21.0
-          pip install lxml requests 
-          pip install Markdown==3.7
-          pip install mdx_truly_sane_lists==1.3
-          pip install markdown-link-attr-modifier==0.2.1
-          pip install mdx-gh-links==0.4
-          pip install nh3==0.2.19
 
       - name: Upload pot to Crowdin
         run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
