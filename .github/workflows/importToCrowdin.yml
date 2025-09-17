@@ -23,13 +23,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: nvdaaddons/${{ inputs.repo }}
-          path: addon-${{ inputs.repo }}
           fetch-depth: 0
           ref: stable
-      - name: Setup Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.13' 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
