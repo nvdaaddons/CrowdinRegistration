@@ -53,7 +53,7 @@ jobs:
       - name: Create add-on
         run: |
           cd addon-${{ inputs.repo }}
-          scons
+          uv run scons
       - name: Create pot file
         run: |
           cd addon-${{ inputs.repo }}
@@ -61,7 +61,7 @@ jobs:
       - name: Generate xliff
         run: |
           cd addon-${{ inputs.repo }}
-          python ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
+          uv run ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
       - name: Move files to repo
         run: |
           mv addon-${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }} -f
