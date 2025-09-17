@@ -76,7 +76,7 @@ jobs:
         uses: astral-sh/setup-uv@v6
       - name: Generate xliff
         run: |
-          uv run ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff
+          uv run python ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff
 
       - name: Commit and push
         run: |
@@ -90,7 +90,7 @@ jobs:
           git push
 
       - name: Upload pot to Crowdin
-        run: uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
+        run: uv run python ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
