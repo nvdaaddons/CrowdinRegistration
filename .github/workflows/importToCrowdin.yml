@@ -20,30 +20,23 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    strategy:
-      matrix:
-        python-version:
-          - "3.11"
-          - "3.13"
-      fail-fast: false
+
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v5
-      - name: "Set up Python"
-        uses: actions/setup-python@v6
+        uses: actions/checkout@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
-      - name: Install the project
-        run: uv sync --locked --all-extras --dev
-      - name: Install gettext
+          python-version: 3.11
+      - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
+          pip install scons markdown
+          pip install lxml requests
           sudo apt update
           sudo apt install gettext
       - name: Checkout add-on
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
         with:
           repository: nvdaaddons/${{ inputs.repo }}
           path: addon-${{ inputs.repo }}
@@ -60,17 +53,15 @@ jobs:
       - name: Create add-on
         run: |
           cd addon-${{ inputs.repo }}
-          uv sync
-          source .venv/bin/activate
           scons
       - name: Create pot file
         run: |
           cd addon-${{ inputs.repo }}
-          uv run scons pot
+          scons pot
       - name: Generate xliff
         run: |
           cd addon-${{ inputs.repo }}
-          uv run ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
+          python ../utils/markdownTranslate.py generateXliff -m readme.md -o ${{ inputs.repo }}.xliff
       - name: Move files to repo
         run: |
           mv addon-${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }} -f
@@ -89,15 +80,25 @@ jobs:
           git branch -u origin/main
           git pull
           git push
+      - name: Install Crowdin API
+        run: |
+          python -m pip install --upgrade pip
+          pip install crowdin-api-client==1.21.0
+          pip install lxml requests 
+          pip install Markdown==3.7
+          pip install mdx_truly_sane_lists==1.3
+          pip install markdown-link-attr-modifier==0.2.1
+          pip install mdx-gh-links==0.4
+          pip install nh3==0.2.19
 
       - name: Upload pot to Crowdin
-        run: uv run python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
+        run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
       - name: Upload xliff to Crowdin
         if: always()
-        run: uv run python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
+        run: python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
