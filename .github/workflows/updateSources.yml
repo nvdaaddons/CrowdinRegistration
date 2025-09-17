@@ -57,9 +57,8 @@ jobs:
         mv readme.md ${{ inputs.repo }}.md -f
     - name: update xliff
       run: |
-        cd addon-${{inputs.repo}}
-        python ../utils/markdownTranslate.py updateXliff -x ../${{ inputs.repo }}/${{ inputs.repo }}.xliff -m readme.md -o ../${{ inputs.repo }}/${{ inputs.repo }}.xliff.temp
-        cd ../${{ inputs.repo }}
+        cd ${{inputs.repo}}
+        python ./utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}.xliff -m ${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}.xliff
     - name: Commit and push
       id: commitAddon
