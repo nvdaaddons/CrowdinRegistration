@@ -53,7 +53,9 @@ jobs:
       - name: Create add-on
         run: |
           cd addon-${{ inputs.repo }}
-          uv run scons
+          uv sync
+          source .venv/bin/activate
+          scons
       - name: Create pot file
         run: |
           cd addon-${{ inputs.repo }}
