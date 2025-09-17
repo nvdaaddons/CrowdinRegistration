@@ -36,7 +36,7 @@ jobs:
           sudo apt update
           sudo apt install gettext
       - name: Checkout add-on
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: nvdaaddons/${{ inputs.repo }}
           path: addon-${{ inputs.repo }}
@@ -57,7 +57,7 @@ jobs:
       - name: Create pot file
         run: |
           cd addon-${{ inputs.repo }}
-          scons pot
+          uv run scons pot
       - name: Generate xliff
         run: |
           cd addon-${{ inputs.repo }}
@@ -88,7 +88,7 @@ jobs:
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
       - name: Upload xliff to Crowdin
         if: always()
-        run: uv python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
+        run: uv run python utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
