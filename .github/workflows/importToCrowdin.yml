@@ -80,7 +80,7 @@ jobs:
         uses: astral-sh/setup-uv@v6
       - name: Generate xliff
         run: |
-          uv run ./utils/markdownTranslate.py --with crowdin_api generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff
+          uv run ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff
 
       - name: Commit and push
         run: |
