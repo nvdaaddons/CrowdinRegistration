@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/stationPlaylist/4b64412f810f80a2a653d603ebe7421f1b8e0393/readme.md">
+<file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a3788d13c2a1741d8e84316f71619e31806efa6e/stationPlaylist/stationPlaylist.md">
 <skeleton>
 # $(ID:72b56760-d227-4247-81ad-2a598cfd6834)
 
@@ -210,7 +210,7 @@ $(ID:511a640c-076c-48b6-8be9-ced995d7b446)
 
 $(ID:4b76fa09-0d87-423f-889f-078b5e4467cf)
 
-## $(ID:d4f937ce-ace9-43fd-a421-407a874bd10b)
+## $(ID:18756ba2-dad8-4fe2-bb65-00b1ed177fb2)
 
 * $(ID:f485148f-c7ff-425f-95fe-f6795e47a926)
 * $(ID:45ff3eb7-4cd0-4e4f-bfb5-9b9c4597fc32)
@@ -1667,13 +1667,13 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 <source>If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.</source>
 </segment>
 </unit>
-<unit id="d4f937ce-ace9-43fd-a421-407a874bd10b">
+<unit id="18756ba2-dad8-4fe2-bb65-00b1ed177fb2">
 <notes>
 <note appliesTo="source">line: 210</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
-<source>Version 25.11/25.06.7-LTS</source>
+<source>Version 25.11/25.06.8-LTS</source>
 </segment>
 </unit>
 <unit id="f485148f-c7ff-425f-95fe-f6795e47a926">
