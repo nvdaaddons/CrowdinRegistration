@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/wordNav/2387aee50b8035c0605ec263680673c28b5fb89e/readme.md">
+<file id="wordNav.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a3788d13c2a1741d8e84316f71619e31806efa6e/wordNav/wordNav.md">
 <skeleton>
 # $(ID:88b08d3c-2347-4ecb-9654-090f159b299b)
 $(ID:2c8102bd-7b09-479d-b1d5-f58613e496c3)
@@ -38,7 +38,7 @@ $(ID:279f572a-0c5e-4b79-8394-63642f475430)
 
 ##  $(ID:29b34072-9044-462c-b882-96ce6711aa41)
 
-$(ID:92f5ba80-dbdd-4874-92e4-53b88ef24f75)
+$(ID:4fac90af-7f7c-4d28-852e-730f4e003f18)
 
 </skeleton>
 <unit id="88b08d3c-2347-4ecb-9654-090f159b299b">
@@ -244,7 +244,7 @@ $(ID:92f5ba80-dbdd-4874-92e4-53b88ef24f75)
 <source>Downloads</source>
 </segment>
 </unit>
-<unit id="92f5ba80-dbdd-4874-92e4-53b88ef24f75">
+<unit id="4fac90af-7f7c-4d28-852e-730f4e003f18">
 <notes>
 <note appliesTo="source">line: 38</note>
 </notes>
