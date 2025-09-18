@@ -41,7 +41,7 @@ jobs:
         id: cachePot
         uses: actions/cache@v4
         with:
-          path: ${{ inputs.repo }}.pot
+          path: ./${{ inputs.repo }}.pot
           key: ${{ inputs.repo }}-${{ hashFiles('**/*.py') }}
       - name: Create dir for repo
         run: |
