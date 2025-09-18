@@ -36,13 +36,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install scons
-        pip install crowdin-api-client==1.21.0
-        pip install lxml requests 
-        pip install Markdown==3.7
-        pip install mdx_truly_sane_lists==1.3
-        pip install markdown-link-attr-modifier==0.2.1
-        pip install mdx-gh-links==0.4
-        pip install nh3==0.2.19
         sudo apt update
         sudo apt install gettext
     - name: Update pot
@@ -55,9 +48,11 @@ jobs:
         mv addon-${{ inputs.repo }}/readme.md ${{ inputs.repo }} -f
         cd ${{ inputs.repo }}
         mv readme.md ${{ inputs.repo }}.md -f
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v6
     - name: update xliff
       run: |
-        python ./utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}/${{ inputs.repo }}.xliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
+        uv --directory ${{ github.workspace }} run ./utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}/${{ inputs.repo }}.xliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
         mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}/${{ inputs.repo }}.xliff
     - name: Commit and push
       id: commitAddon
@@ -70,7 +65,7 @@ jobs:
         echo "has_changes=false" >> $GITHUB_OUTPUT
         else
         echo "has_changes=true" >> $GITHUB_OUTPUT
-        git commit -m "Update sources"
+        git commit -m "Update ${{ inputs.repo}} sources"
         git branch -u origin/main
         git pull --rebase
         git push
@@ -80,8 +75,8 @@ jobs:
       if: steps.commitAddon.outputs.has_changes == 'true'
       run: |
         cd ${{ inputs.repo }}
-        python ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
-        python ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.xliff
+        uv --directory ${{ github.workspace }} run ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
+        uv --directory ${{ github.workspace }} run ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.xliff
       env:
         crowdinProjectID: ${{ vars.CROWDIN_ID }}
         crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
