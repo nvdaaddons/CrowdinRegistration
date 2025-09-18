@@ -6,12 +6,21 @@ on:
       repo:
         description: 'Repository name'
         required: false
+      update:
+        description: 'true to update preexisting sources, false to add them from scratch'
+        type: boolean
+        required: false
+
   workflow_call:
     inputs:
       repo:
         description: 'Repository name'
         type: 'string'
         required: true
+      update:
+        description: 'true to update preexisting sources, false to add them from scratch'
+        type: boolean
+        required: false
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -37,7 +46,6 @@ jobs:
         run: |
           scons
           scons pot
-
       - name: Create dir for repo
         run: |
           if [ -d "addon-${{ inputs.repo }}" ]; then
@@ -81,31 +89,49 @@ jobs:
       - name: Install the latest version of uv
         uses: astral-sh/setup-uv@v6
       - name: Generate xliff
+        if: ! ${{ inputs.update }}
         run: |
           uv run ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff
-
-      - name: Commit and push
+      - name: update xliff
+        if: ${{ inputs.update }}
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add ${{ inputs.repo }}
-          git commit -m "Register ${{ inputs.repo }}"
+          uv run ./utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}/${{ inputs.repo }}.xliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
+          mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}/${{ inputs.repo }}.xliff          
+      - name: Commit add-on
+        id: commitAddon
+        run: |
+          git config --local user.name github-actions
+          git config --local user.email github-actions@github.com
+          git add -u ${{ inputs.repo }}
+          if git diff --staged --quiet; then
+          echo "Nothing added to commit."
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          git commit -m "Update sources"
           git branch -u origin/main
-          git pull
+          git pull --rebase
           git push
+          fi
 
-      - name: Upload pot to Crowdin
-        run: uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
+      - name: Upload to Crowdin
+        if: ! ${{ inputs.update }}
+        run: |
+          uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
+          uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Upload xliff to Crowdin
-        if: always()
-        run: uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
+      - name: Update source
+        if: steps.commitAddon.outputs.has_changes == 'true' && ${{ inputs.update }}
+        run: |
+          cd ${{ inputs.repo }}
+          uv run ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
+          uv run ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Commit and push
+      - name: Commit and push json file
         id: commit
         run: |
           git config --local user.name github-actions
@@ -117,6 +143,6 @@ jobs:
           echo "has_changes=false" >> $GITHUB_OUTPUT
           else
           echo "has_changes=true" >> $GITHUB_OUTPUT
-          git commit -m "Update Crowdin files"
+          git commit -m "Update Crowdin file ids"
           git push
           fi
