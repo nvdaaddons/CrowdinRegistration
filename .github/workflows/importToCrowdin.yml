@@ -61,6 +61,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: addon
+          overwrite: true
           path: addon-${{ inputs.repo }}
   importToCrowdin:
     runs-on: ubuntu-latest
