@@ -5,7 +5,7 @@ on:
 
 jobs:
   updateSourcesForAddons:
-    uses: ./.github/workflows/updateSources.yml
+    uses: ./.github/workflows/importToCrowdin.yml
     strategy:
       fail-fast: false
       max-parallel: 1
@@ -68,4 +68,5 @@ jobs:
         ]
     with:
       repo: ${{ matrix.repo }}
+      update: true
     secrets: inherit
