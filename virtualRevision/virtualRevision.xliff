@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/virtualRevision/0767a5b9b5394c5ead0d06fae15e6dd5e19d5ad9/readme.md">
+<file id="virtualRevision.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a3788d13c2a1741d8e84316f71619e31806efa6e/virtualRevision/virtualRevision.md">
 <skeleton>
 # $(ID:bfd18354-de3f-48cb-9a93-4b77ff3da2b0)
 
@@ -60,7 +60,7 @@ $(ID:730521df-a6f8-4f74-93d7-09671e518ede)
 
 $(ID:42fa879d-144a-416e-a19a-706631b8e3b0)
 
-$(ID:23a9ff7b-3443-45de-93d7-9f29ea2980dd)
+$(ID:ac94d99e-fe4e-4814-8d77-6ea81b9ce199)
 
 </skeleton>
 <unit id="bfd18354-de3f-48cb-9a93-4b77ff3da2b0">
@@ -381,7 +381,7 @@ $(ID:23a9ff7b-3443-45de-93d7-9f29ea2980dd)
 <source>[1]: http://addons.nvda-project.org/files/get.php?file=VR</source>
 </segment>
 </unit>
-<unit id="23a9ff7b-3443-45de-93d7-9f29ea2980dd">
+<unit id="ac94d99e-fe4e-4814-8d77-6ea81b9ce199">
 <notes>
 <note appliesTo="source">line: 60</note>
 </notes>
