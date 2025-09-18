@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/tonysEnhancements/93f1a4a25df8864efb80864605e1fbb1672a91d5/readme.md">
+<file id="tonysEnhancements.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a3788d13c2a1741d8e84316f71619e31806efa6e/tonysEnhancements/tonysEnhancements.md">
 <skeleton>
 # $(ID:6ebfb343-151a-446d-a8c9-a2b082c99915)
 $(ID:dd366ecb-96a8-4ed0-8f8c-3906fa6c2f07)
@@ -93,13 +93,13 @@ $(ID:6d7e61d1-4a2b-464e-914b-30f487df2c90)
 
 ## $(ID:88487208-4585-44a4-83fa-d87b4c9fc41a)
 
-$(ID:a7661558-6a8c-4231-9c4a-2d5d2f903a8a)
+$(ID:2b83d84c-7072-4b22-81e0-f957de8028bd)
 
 $(ID:8620c947-89c4-4bbe-9fdb-117cc405b500)
 
 ## $(ID:1fabfcd8-c9f1-4f34-9fdd-35b297328281)
 
-$(ID:1c76bfb2-0fbc-4d3f-882b-c3c13c65a996)
+$(ID:0af5314a-9213-413c-9866-d1edbf7904fe)
 
 $(ID:171c5deb-8cfc-484f-a74d-08a89039b170)
 
@@ -582,7 +582,7 @@ $(ID:1da3dcdf-3002-445d-9f81-815c3d127ae2)
 <source>Blocking double insert keystroke</source>
 </segment>
 </unit>
-<unit id="a7661558-6a8c-4231-9c4a-2d5d2f903a8a">
+<unit id="2b83d84c-7072-4b22-81e0-f957de8028bd">
 <notes>
 <note appliesTo="source">line: 93</note>
 </notes>
@@ -607,7 +607,7 @@ $(ID:1da3dcdf-3002-445d-9f81-815c3d127ae2)
 <source>Blocking double Caps Lock keystroke</source>
 </segment>
 </unit>
-<unit id="1c76bfb2-0fbc-4d3f-882b-c3c13c65a996">
+<unit id="0af5314a-9213-413c-9866-d1edbf7904fe">
 <notes>
 <note appliesTo="source">line: 99</note>
 </notes>
