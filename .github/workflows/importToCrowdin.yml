@@ -56,7 +56,7 @@ jobs:
           mv ${{ inputs.repo }}.pot addon-${{ inputs.repo }} -f
           mv readme.md addon-${{ inputs.repo }} -f
           cd addon-${{ inputs.repo }}
-          mv readme.md addon-${{ inputs.repo }}.md -f
+          mv readme.md addon-${{ inputs.repo }}/${{ inputs.repo}}.md -f
       - name: Upload add-on
         uses: actions/upload-artifact@v4
         with:
@@ -126,8 +126,8 @@ jobs:
       - name: Update sources
         if: ${{ inputs.update }}
         run: |
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.xliff
+          uv run ./utils/crowdinSync.py uploadSourceFile ${{inputs.repo }}/${{ inputs.repo }}.pot
+          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}/${{ inputs.repo }}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
