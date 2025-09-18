@@ -56,7 +56,7 @@ jobs:
           mv ${{ inputs.repo }}.pot addon-${{ inputs.repo }} -f
           mv readme.md addon-${{ inputs.repo }} -f
           cd addon-${{ inputs.repo }}
-          mv readme.md addon-${{ inputs.repo }}/${{ inputs.repo}}.md -f
+          mv readme.md ${{ inputs.repo }}.md -f
       - name: Upload add-on
         uses: actions/upload-artifact@v4
         with:
