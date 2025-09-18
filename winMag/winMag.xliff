@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/winMag/ce3c05067d6f9d5aae0ed28aecd0a68e46d0f23e/readme.md">
+<file id="winMag.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a3788d13c2a1741d8e84316f71619e31806efa6e/winMag/winMag.md">
 <skeleton>
 # $(ID:f4fc561d-9f20-4dc8-b41e-b1934bde3a62)
 
@@ -55,7 +55,7 @@ $(ID:ca3e4b72-38bb-4e89-9b66-e26116c768f2)
 $(ID:28e7cabb-82d6-4aa5-a524-e4b88da85923)
 $(ID:8fcfe2f5-1753-4b5c-8e3f-e268bc76bdd2)
 * $(ID:9f233014-6626-4046-bfc7-25caa6e4d779)
-$(ID:d6d31dcb-e996-4352-b23b-984fdf6c59a8)
+$(ID:0b660129-1f56-4249-8ce1-df1c47051e4c)
   
     * $(ID:d3709a73-269c-4ceb-9656-a9ab2c640f52)
 $(ID:13c8a0d1-3c6d-4d9e-8c19-8258e8fdd6da)
@@ -593,7 +593,7 @@ $(ID:ef68a0c3-64a2-452f-9dbc-2d367ef1095d)
 <source>In documents and list views, pass control+alt+arrows shortcuts to Windows Magnifier:</source>
 </segment>
 </unit>
-<unit id="d6d31dcb-e996-4352-b23b-984fdf6c59a8">
+<unit id="0b660129-1f56-4249-8ce1-df1c47051e4c">
 <notes>
 <note appliesTo="source">line: 55</note>
 </notes>
