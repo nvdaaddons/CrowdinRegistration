@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/systrayList/49abb785b9eeaa65c29ba1ae5498170d3be578ef/readme.md">
+<file id="systrayList.md" original="https://raw.githubusercontent.com/nvaccess/nvda/dc0083fabe4b665d4cfa36e7b05e0ac99d66b096/systrayList/systrayList.md">
 <skeleton>
 # $(ID:da7e3c63-0866-4c2c-8df1-ed3160603cce)
 
@@ -70,8 +70,6 @@ $(ID:24f7ed74-af8f-4010-a5c8-d5ce8b1ebb20)
 * $(ID:34a02078-d82c-434f-b3ee-79e2b67e3022)
 
 $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
-
-
 </skeleton>
 <unit id="da7e3c63-0866-4c2c-8df1-ed3160603cce">
 <notes>
