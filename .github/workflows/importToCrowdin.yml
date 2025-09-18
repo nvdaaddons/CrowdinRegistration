@@ -70,13 +70,15 @@ jobs:
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v5
-      - name: Create dir for repo
+      - name: Create dir for repo and rename pot file
         run: |
           if [ -d "${{ inputs.repo }}" ]; then
           echo "Warning: Folder already exists."
           else
           mkdir ${{ inputs.repo }}
           fi
+          mv ${{ inputs.repo }}/${{ inputs.repo }}.pot ${{ inputs.repo }}/old.pot -f
+          mv ${{ inputs.repo }}/${{ inputs.repo }}.xliff ${{ inputs.repo }}/old.xliff -f
       - name: Download artifact
         uses: actions/download-artifact@v5
         with:
@@ -124,8 +126,8 @@ jobs:
       - name: Update sources
         if: ${{ inputs.update }}
         run: |
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{inputs.repo }}/${{ inputs.repo }}.pot
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}/${{ inputs.repo }}.xliff
+          uv run ./utils/crowdinSync.py uploadSourceFile ${{inputs.repo }}/${{ inputs.repo }}.pot --old ${{ inputs.repo }}/old.pot
+          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}/${{ inputs.repo }}.xliff --old ${{ inputs.repo }}/${{ inputs.repo }}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
