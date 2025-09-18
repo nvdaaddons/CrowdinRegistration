@@ -25,6 +25,7 @@ jobs:
           repository: nvdaaddons/${{ inputs.repo }}
           fetch-depth: 0
           ref: stable
+          submodules: true
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
