@@ -102,7 +102,7 @@ jobs:
         run: |
           git config --local user.name github-actions
           git config --local user.email github-actions@github.com
-          git add -u ${{ inputs.repo }}
+          git add ${{ inputs.repo }}
           if git diff --staged --quiet; then
           echo "Nothing added to commit."
           echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -125,9 +125,8 @@ jobs:
       - name: Update sources
         if: ${{ inputs.update }}
         run: |
-          cd ${{ inputs.repo }}
-          uv run ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
-          uv run ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.xliff
+          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
+          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
