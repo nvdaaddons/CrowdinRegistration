@@ -126,8 +126,8 @@ jobs:
       - name: Update sources
         if: ${{ inputs.update }}
         run: |
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{inputs.repo }}/${{ inputs.repo }}.pot --old ${{ inputs.repo }}/old.pot
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}/${{ inputs.repo }}.xliff --old ${{ inputs.repo }}/old.xliff
+          uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{inputs.repo }}/${{ inputs.repo }}.pot --old=${{ inputs.repo }}/old.pot
+          uv run ./utils/crowdinSync.py uploadSourceFile --localFilePath=${{ inputs.repo }}/${{ inputs.repo }}.xliff --old=${{ inputs.repo }}/old.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
