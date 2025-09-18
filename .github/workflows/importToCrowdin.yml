@@ -89,7 +89,7 @@ jobs:
       - name: Install the latest version of uv
         uses: astral-sh/setup-uv@v6
       - name: Generate xliff
-        if: ! ${{ inputs.update }}
+        if: ${{ !inputs.update }}
         run: |
           uv run ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff
       - name: update xliff
@@ -115,15 +115,15 @@ jobs:
           fi
 
       - name: Upload to Crowdin
-        if: ! ${{ inputs.update }}
+        if: ${{ !inputs.update }}
         run: |
           uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
           uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
-      - name: Update source
-        if: steps.commitAddon.outputs.has_changes == 'true' && ${{ inputs.update }}
+      - name: Update sources
+        if: ${{ inputs.update }}
         run: |
           cd ${{ inputs.repo }}
           uv run ../utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}.pot
