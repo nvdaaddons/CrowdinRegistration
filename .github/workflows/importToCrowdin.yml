@@ -30,13 +30,13 @@ jobs:
         id: cachePot
         uses: actions/cache@v4
         with:
-          path: ${{ inputs.repo }}.pot
+          path: ./${{ inputs.repo }}.pot
           key: ${{ inputs.repo }}-${{ hashFiles('**/*.py') }}
       - name: Cache md
         id: cacheMd
         uses: actions/cache@v4
         with:
-          path: readme.md
+          path: ./readme.md
           key: ${{ inputs.repo }}-${{ hashFiles('readme.md') }}
 
       - name: Install dependencies
