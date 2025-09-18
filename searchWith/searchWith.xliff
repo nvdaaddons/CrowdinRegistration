@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="readme.md" original="https://raw.githubusercontent.com/nvdaaddons/searchWith/15820d127fb8216ce17ac1f54123003ae4126306/readme.md">
+<file id="searchWith.md" original="https://raw.githubusercontent.com/nvaccess/nvda/a3788d13c2a1741d8e84316f71619e31806efa6e/searchWith/searchWith.md">
 <skeleton>
 # $(ID:159f7b40-dd96-4302-ac6e-8d596921a8bc)
 
@@ -8,61 +8,61 @@
 *	$(ID:20f61e23-1408-4924-96dc-541be953a480)
 *	$(ID:0b5a8415-d919-4bd0-9dbb-ca823ad1c8f4)
 
-$(ID:459407ea-c360-40a3-ad46-2462f274a1fd)
-$(ID:18ec2489-c10e-49b1-bb6b-515386374d85)
-$(ID:31e98804-e2d8-4199-9729-3b5c6e4ee0a4)
-$(ID:9bd79fc9-94ce-4de5-becf-1549b29daa1c)
-$(ID:9e964da4-0fda-4716-9571-185976a2237a)
-$(ID:1ab043cc-4800-403a-9ea8-a59f186a818c)
-$(ID:ffb9cbe5-d173-47a4-8cdb-3557f4cb8bec)
-$(ID:3d2908e7-297c-415a-a76a-def09bdff175)
-$(ID:5e96c5ed-c102-417b-a883-f84c33afeadd)
-$(ID:b25f9e53-bd39-4c5a-8a27-fc06d6b646bf)
-$(ID:a8a1da28-692c-4255-9313-57a622666116)
+$(ID:b96c0349-cba1-4e7f-88dd-d8735d918577)
+$(ID:0636187b-a6ac-43bf-80f2-f207f8100c60)
+$(ID:7a5de810-3b69-482d-ac4d-4650ea35f098)
+$(ID:8c38ab8a-7489-474a-bb39-2eafd7fe1dbe)
+$(ID:f5e346b6-4068-4874-87be-e3cca5b066e3)
+$(ID:0b6835d3-028c-4b9f-8f11-bb397ea49e7b)
+$(ID:cdc6d308-9efb-4005-bd3d-892b1063ff25)
+$(ID:a8a862d4-1eb0-4cf5-b32c-d212f3ad792b)
+$(ID:7c4df381-9f03-41bc-885b-6d04a6dce25d)
+$(ID:669de5a7-7809-4db6-a341-6ee098b1d096)
+$(ID:c12a0283-ec7d-42c0-9f6a-566f157bac33)
 
 ## $(ID:5df1769a-e02a-477f-aec2-49f6f7024ab0)
 
-*	$(ID:df21d636-feff-41da-91d4-88e7b7df9290)
-*	$(ID:3ed57237-4a7b-44d4-90c4-bc97b96d889d)
-$(ID:01ba904f-5d6f-4c30-92c2-bbd332c5928d)
-*	$(ID:b800edf8-b0e4-47dc-baf9-ea27f2fde0eb)
-*	$(ID:7ed75b64-23ba-4a75-a497-31da86638bde)
-$(ID:42baf068-6230-4c2d-90cb-023bafc811ae)
-$(ID:2e8d3930-9b9d-47d6-b8b5-46b8b3a24e08)
-*	$(ID:c7ed03b4-7407-4d92-b5a2-972e41cc5d32)
-$(ID:e45c40c1-88f9-4e7d-890c-e1519fefafdd)
-$(ID:39ea0fd3-a975-451c-ba81-5e84ff03aed8)
-$(ID:315780dc-18a2-4592-82b8-893616401c4c)
-*	$(ID:97077981-c2fb-41d6-89ab-aae4f456bf23)
-$(ID:b5463ee8-d8de-465b-ada4-ccebccab3b9e)
-$(ID:b2ff17eb-6e7c-4bfd-8213-d45d02ac43b0)
-*	$(ID:46fc632b-f216-493b-9ba3-6f6055576617)
-$(ID:bdaa215a-3b7a-45b4-a83b-7ceb1c963d46)
-	*	$(ID:b8047dae-e62e-4538-b67c-8105fab6c0a4)
-	*	$(ID:052bbe2a-739d-4178-95b9-f81a2f5cbbf2)
-*	$(ID:edaccfe4-0711-48b9-a52a-11455427a6f6)
-*	$(ID:8cfaad32-4083-45ec-a089-c24decb3a631)
-*	$(ID:132267c1-9f42-48ea-aae6-2b934ad58ef9)
-*	$(ID:42fb0f09-d9d3-46a8-8d00-5b52b64f9e31)
-*	$(ID:c29db5c5-38d2-4b97-aa0a-bd42c9ad2834)
-*	$(ID:531c57d4-9a19-4b03-9db6-7f0ad61e5da5)
-$(ID:c7d51002-90ea-4391-9de5-12d4b33bc86a)
-$(ID:82e69f90-8eb4-4bfd-9737-208d2ef4d1d0)
-	1.	$(ID:2a14a414-c174-4ac9-a086-d7752a000253)
-	2.	$(ID:5360c26d-8cfc-48d3-9af9-dfae35f067bf)
-	3.	$(ID:74cc11a8-1c84-4193-90e8-5da3735ee543)
-*	$(ID:aa261930-9cbb-4559-ae69-bd1238e417fd)
-$(ID:de14535e-1ed8-48c7-bf5e-3509765976bb)
+*	$(ID:f1e218db-d6a1-4c1e-8a78-deb816bcfadc)
+*	$(ID:0d0eb2ab-543e-45ad-89dc-1b7a00b51368)
+$(ID:364ec6ca-00af-405b-b521-158e7522f7ae)
+*	$(ID:d85c91d7-02cc-42de-a193-17b973a4adff)
+*	$(ID:3b350c2c-887d-4011-8bb7-1e9505d8143c)
+$(ID:7460721e-2f3e-4e32-98a5-feee82ef2184)
+$(ID:37d3e60c-53ab-47fc-a32d-86b187e8b6f9)
+*	$(ID:843266c2-2e9d-4a25-9f26-d8f2bc6fcd60)
+$(ID:10e6ad11-28c3-4944-b6b2-e84bacddd3a6)
+$(ID:608c3692-9baf-4d1c-9f73-63b94bea7f42)
+$(ID:541213b3-215d-441b-ac51-652673b4051f)
+*	$(ID:aea596bb-ab73-431c-89c9-286ae70cf8d3)
+$(ID:f53150b4-d6e8-4f4e-8727-4b9d6ba6feaf)
+$(ID:32c978f1-9999-4dba-990e-06672766cab4)
+*	$(ID:5e7a98ce-5535-41f4-a067-6a8dc3d2d723)
+$(ID:921c0762-cdc1-4aa2-a73d-782e2a6da5ac)
+	*	$(ID:1ed7fd37-b29b-474c-a5ee-e7f41222abe2)
+	*	$(ID:03c8241e-3986-4fdb-b1a4-4d9c6782a08d)
+*	$(ID:f2f4e296-8203-45f3-a009-33ccc698e01d)
+*	$(ID:c3e9acdb-eb4d-423d-807b-4316fbf701dd)
+*	$(ID:4f949570-644e-4db3-aae2-d78f9303be9a)
+*	$(ID:e0a2ed9f-d353-4846-b928-877fb14203d0)
+*	$(ID:c8532241-4972-4a22-b733-04d79c9c57e2)
+*	$(ID:4477f75d-bbac-4391-94f3-95ee506e6e36)
+$(ID:416632e7-5fc4-422a-bb76-aabecba26970)
+$(ID:28f37b03-6207-470d-9d8f-879ed3407eb7)
+	1.	$(ID:4b1929fa-0bb6-488f-91be-db81471843bb)
+	2.	$(ID:00c60946-70a2-4f69-8c2b-95a8da9e3bc5)
+	3.	$(ID:7571affc-ab4d-4d91-81c0-7f9d1c911a96)
+*	$(ID:68075d03-7235-4ef1-aa33-84f021479a99)
+$(ID:145d5d63-dc3c-4e25-ae6b-1c7ac86935a6)
 	*	$(ID:e18ef183-57bc-4ae0-b902-4f928cadb99d)
 	*	$(ID:d90cd077-da07-454c-9f56-e4d9451edc50)
-	*	$(ID:55296896-9e8b-4eb8-95b0-0484c233cb52)
-$(ID:44624b3e-4133-44bd-9dac-def515369c4a)
+	*	$(ID:b8f1a31c-99b8-4da6-9ce6-12c0ba2f81ac)
+$(ID:3f8aae66-d2ce-4b36-881a-4aae8dc61c2e)
 *	$(ID:5d4a1b5c-299c-47f8-8592-ba8c6c0fc376)
 *	$(ID:b51c7e6c-be20-44a0-b07b-609f132c09de)
-*	$(ID:45add2dc-b12a-487a-b643-5b9f66b322fa)
-$(ID:e6f4abb7-26f6-4ba4-866f-f61ecae4469d)
-$(ID:48779624-9acd-4ac4-aa80-366de25882af)
-$(ID:261f93dc-a399-4ba8-af60-678ebf601961)
+*	$(ID:66e6729e-2403-4e2e-bb4e-f40be47eacc6)
+$(ID:17e6d8ef-4f26-439d-8adc-6431d1618c89)
+$(ID:cb0d059c-9b63-450d-91a5-cd9813864d00)
+$(ID:4079c0b2-55a8-458b-9d4c-703ea2da7da5)
 
 ### $(ID:0721f932-c3b2-4e6d-ba45-6dc2c89adc03)
 
@@ -80,8 +80,8 @@ $(ID:261f93dc-a399-4ba8-af60-678ebf601961)
 
 ### $(ID:9fdac023-8ae3-4201-8f5a-6e9a97bea90d)
 
-*	$(ID:2f207a37-bd30-4899-87a7-1ebb7ac56e59)
-$(ID:d03b8e9e-86b9-42bb-8c87-4e242b9c1e31)
+*	$(ID:ec7c0add-e110-460c-a7f2-1b178756bfa1)
+$(ID:99a31c72-7e9c-4d6e-abe7-20db42c3ddc4)
 *	$(ID:da0e96dd-d667-4563-8ede-64cc551c0078)
 
 ### $(ID:63813905-af69-48ac-83df-977ba5d818dc)
@@ -99,15 +99,15 @@ $(ID:d03b8e9e-86b9-42bb-8c87-4e242b9c1e31)
 
 ### $(ID:ce9edf04-0f9d-4508-9aa2-f0f9dbfed230)
 
-*	$(ID:9bf7c696-808e-4274-8542-f040b317f9df)
-*	$(ID:74786099-c4de-4892-8fec-ad0648dc64f7)
-	*	$(ID:afd10656-11e2-4478-81d0-badba0efe2ff)
-	*	$(ID:acc1001c-b358-45aa-b635-f6a75457aa68)
+*	$(ID:dd4558ce-1cc0-4a55-91cb-d81994a2d12c)
+*	$(ID:a9fc408d-59e7-4344-8414-02d2d354b35f)
+	*	$(ID:8921f799-dc2f-4608-96b4-1f0942c42483)
+	*	$(ID:6a83d76e-9f79-4587-8188-248c034db5f3)
 
 ### $(ID:34874889-f9c6-4a2d-8bbe-3597b3df980b)
 
-*	$(ID:3e3e872a-76a5-4c4f-9e80-def5cc159ec5)
-*	$(ID:1ea8844c-cfa7-440c-b4bf-5f2968319ff2)
+*	$(ID:2bec596c-c6e7-41bc-bb01-9dbfa13cb806)
+*	$(ID:faab4f77-d136-42cd-bab7-84144e907737)
 
 ### $(ID:7b9b2c50-a003-41b5-a208-33f1fa5eb231)
 
@@ -132,21 +132,21 @@ $(ID:d03b8e9e-86b9-42bb-8c87-4e242b9c1e31)
 
 ### $(ID:9d16af83-771f-4d32-92e2-c5c37b3d4018)
 
-*	$(ID:ea712c9e-56c4-4408-b0f8-d7686b0faea5)
-*	$(ID:ce0629a0-eb8c-403d-a049-0e0e0f1363ff)
+*	$(ID:19f8e8af-be23-4dcb-bf42-25f39ee64808)
+*	$(ID:ad74c458-666c-44f8-8361-07bfdb6169d4)
 
 ### $(ID:4dab6dc3-8fa9-4606-a511-7adffdc4b3f7)
 
-*	$(ID:68022a78-e108-461e-ae4d-25f61bedea23)
-*	$(ID:1e77be49-0322-4586-9d56-f8641a5610bf)
+*	$(ID:491024b0-f78c-4d29-b930-ec1b54f370c5)
+*	$(ID:24351a99-f2a8-4fd0-b73d-4dc415acb7bc)
 
 ### $(ID:ca043b25-4487-468e-b883-6bf7216ee9f4)
 
-*	$(ID:5dffef48-9fb2-4e5f-a3a2-3001b3032ea5)
+*	$(ID:c67f23a4-e50f-494d-8b6a-3b928e525dc8)
 
 ### $(ID:6a8c305e-f585-4b71-98ce-2d50eec01123)
 
-*	$(ID:7663f9e5-ec8a-4857-bd2a-828aad47c6fa)
+*	$(ID:56723def-9528-49b3-a225-a565b2a22b6a)
 
 $(ID:101f223a-21a2-4156-9818-efce90a24413)
 </skeleton>
@@ -186,7 +186,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>NVDA compatibility: 2019.3 and beyond</source>
 </segment>
 </unit>
-<unit id="459407ea-c360-40a3-ad46-2462f274a1fd">
+<unit id="b96c0349-cba1-4e7f-88dd-d8735d918577">
 <notes>
 <note appliesTo="source">line: 8</note>
 </notes>
@@ -194,7 +194,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>This addon helps you to search text, via various search engines.</source>
 </segment>
 </unit>
-<unit id="18ec2489-c10e-49b1-bb6b-515386374d85">
+<unit id="0636187b-a6ac-43bf-80f2-f207f8100c60">
 <notes>
 <note appliesTo="source">line: 9</note>
 </notes>
@@ -202,7 +202,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Let no text selected, and press the gesture of the addon</source>
 </segment>
 </unit>
-<unit id="31e98804-e2d8-4199-9729-3b5c6e4ee0a4">
+<unit id="7a5de810-3b69-482d-ac4d-4650ea35f098">
 <notes>
 <note appliesTo="source">line: 10</note>
 </notes>
@@ -210,7 +210,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>A dialog will be displayed, with an edit box to enter a search query</source>
 </segment>
 </unit>
-<unit id="9bd79fc9-94ce-4de5-becf-1549b29daa1c">
+<unit id="8c38ab8a-7489-474a-bb39-2eafd7fe1dbe">
 <notes>
 <note appliesTo="source">line: 11</note>
 </notes>
@@ -218,7 +218,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>To search with Google press enter, or tab to search with other engines.</source>
 </segment>
 </unit>
-<unit id="9e964da4-0fda-4716-9571-185976a2237a">
+<unit id="f5e346b6-4068-4874-87be-e3cca5b066e3">
 <notes>
 <note appliesTo="source">line: 12</note>
 </notes>
@@ -226,7 +226,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Or</source>
 </segment>
 </unit>
-<unit id="1ab043cc-4800-403a-9ea8-a59f186a818c">
+<unit id="0b6835d3-028c-4b9f-8f11-bb397ea49e7b">
 <notes>
 <note appliesTo="source">line: 13</note>
 </notes>
@@ -234,7 +234,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>select some text and press once, a menu will be displayed with various search engines to choose.</source>
 </segment>
 </unit>
-<unit id="ffb9cbe5-d173-47a4-8cdb-3557f4cb8bec">
+<unit id="cdc6d308-9efb-4005-bd3d-892b1063ff25">
 <notes>
 <note appliesTo="source">line: 14</note>
 </notes>
@@ -242,7 +242,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>And while text is selected, you can press the gesture twice to search with Google directly.</source>
 </segment>
 </unit>
-<unit id="3d2908e7-297c-415a-a76a-def09bdff175">
+<unit id="a8a862d4-1eb0-4cf5-b32c-d212f3ad792b">
 <notes>
 <note appliesTo="source">line: 15</note>
 </notes>
@@ -250,7 +250,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>The Default gesture for the addon is: NVDA+ Windows+ S.</source>
 </segment>
 </unit>
-<unit id="5e96c5ed-c102-417b-a883-f84c33afeadd">
+<unit id="7c4df381-9f03-41bc-885b-6d04a6dce25d">
 <notes>
 <note appliesTo="source">line: 16</note>
 </notes>
@@ -258,7 +258,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>If the keystroke do not work for you, or conflict with other keystroke,</source>
 </segment>
 </unit>
-<unit id="b25f9e53-bd39-4c5a-8a27-fc06d6b646bf">
+<unit id="669de5a7-7809-4db6-a341-6ee098b1d096">
 <notes>
 <note appliesTo="source">line: 17</note>
 </notes>
@@ -266,7 +266,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>you can as always add a gesture or change the existent one going to :</source>
 </segment>
 </unit>
-<unit id="a8a1da28-692c-4255-9313-57a622666116">
+<unit id="c12a0283-ec7d-42c0-9f6a-566f157bac33">
 <notes>
 <note appliesTo="source">line: 18</note>
 </notes>
@@ -283,7 +283,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Usage ##</source>
 </segment>
 </unit>
-<unit id="df21d636-feff-41da-91d4-88e7b7df9290">
+<unit id="f1e218db-d6a1-4c1e-8a78-deb816bcfadc">
 <notes>
 <note appliesTo="source">line: 22</note>
 <note appliesTo="source">prefix: *	</note>
@@ -292,7 +292,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>If you want to enter a search query, just press the addon gesture</source>
 </segment>
 </unit>
-<unit id="3ed57237-4a7b-44d4-90c4-bc97b96d889d">
+<unit id="0d0eb2ab-543e-45ad-89dc-1b7a00b51368">
 <notes>
 <note appliesTo="source">line: 23</note>
 <note appliesTo="source">prefix: *	</note>
@@ -301,7 +301,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>A dialog will be displayed, with an edit field to enter the search term.</source>
 </segment>
 </unit>
-<unit id="01ba904f-5d6f-4c30-92c2-bbd332c5928d">
+<unit id="364ec6ca-00af-405b-b521-158e7522f7ae">
 <notes>
 <note appliesTo="source">line: 24</note>
 </notes>
@@ -309,7 +309,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Want to search with Google? just press enter</source>
 </segment>
 </unit>
-<unit id="b800edf8-b0e4-47dc-baf9-ea27f2fde0eb">
+<unit id="d85c91d7-02cc-42de-a193-17b973a4adff">
 <notes>
 <note appliesTo="source">line: 25</note>
 <note appliesTo="source">prefix: *	</note>
@@ -318,7 +318,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Otherwise tab to Other Engines button, and give it a space</source>
 </segment>
 </unit>
-<unit id="7ed75b64-23ba-4a75-a497-31da86638bde">
+<unit id="3b350c2c-887d-4011-8bb7-1e9505d8143c">
 <notes>
 <note appliesTo="source">line: 26</note>
 <note appliesTo="source">prefix: *	</note>
@@ -327,7 +327,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>A popup menu will show up, with various search engines to choose.</source>
 </segment>
 </unit>
-<unit id="42baf068-6230-4c2d-90cb-023bafc811ae">
+<unit id="7460721e-2f3e-4e32-98a5-feee82ef2184">
 <notes>
 <note appliesTo="source">line: 27</note>
 </notes>
@@ -335,7 +335,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Yahoo, Bing, DuckDuckGo, and Youtube.</source>
 </segment>
 </unit>
-<unit id="2e8d3930-9b9d-47d6-b8b5-46b8b3a24e08">
+<unit id="37d3e60c-53ab-47fc-a32d-86b187e8b6f9">
 <notes>
 <note appliesTo="source">line: 28</note>
 </notes>
@@ -343,7 +343,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>This is the default menu, and you may modify it from addon's setting panel.</source>
 </segment>
 </unit>
-<unit id="c7ed03b4-7407-4d92-b5a2-972e41cc5d32">
+<unit id="843266c2-2e9d-4a25-9f26-d8f2bc6fcd60">
 <notes>
 <note appliesTo="source">line: 29</note>
 <note appliesTo="source">prefix: *	</note>
@@ -352,7 +352,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Another way to use the addon, is by selecting some text</source>
 </segment>
 </unit>
-<unit id="e45c40c1-88f9-4e7d-890c-e1519fefafdd">
+<unit id="10e6ad11-28c3-4944-b6b2-e84bacddd3a6">
 <notes>
 <note appliesTo="source">line: 30</note>
 </notes>
@@ -360,7 +360,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>And on Pressing the addon's gesture, or any other you have assigned to it</source>
 </segment>
 </unit>
-<unit id="39ea0fd3-a975-451c-ba81-5e84ff03aed8">
+<unit id="608c3692-9baf-4d1c-9f73-63b94bea7f42">
 <notes>
 <note appliesTo="source">line: 31</note>
 </notes>
@@ -368,7 +368,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>a virtual menu will be displayed with various search engines</source>
 </segment>
 </unit>
-<unit id="315780dc-18a2-4592-82b8-893616401c4c">
+<unit id="541213b3-215d-441b-ac51-652673b4051f">
 <notes>
 <note appliesTo="source">line: 32</note>
 </notes>
@@ -376,7 +376,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Either the default menu, or any other you have tailed to your needs.</source>
 </segment>
 </unit>
-<unit id="97077981-c2fb-41d6-89ab-aae4f456bf23">
+<unit id="aea596bb-ab73-431c-89c9-286ae70cf8d3">
 <notes>
 <note appliesTo="source">line: 33</note>
 <note appliesTo="source">prefix: *	</note>
@@ -385,7 +385,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Choose one and press enter, the default browser will open displaying search results.</source>
 </segment>
 </unit>
-<unit id="b5463ee8-d8de-465b-ada4-ccebccab3b9e">
+<unit id="f53150b4-d6e8-4f4e-8727-4b9d6ba6feaf">
 <notes>
 <note appliesTo="source">line: 34</note>
 </notes>
@@ -393,7 +393,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Or, if you want to search with Google directly</source>
 </segment>
 </unit>
-<unit id="b2ff17eb-6e7c-4bfd-8213-d45d02ac43b0">
+<unit id="32c978f1-9999-4dba-990e-06672766cab4">
 <notes>
 <note appliesTo="source">line: 35</note>
 </notes>
@@ -401,7 +401,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>press the gesture twice, and you are done.</source>
 </segment>
 </unit>
-<unit id="46fc632b-f216-493b-9ba3-6f6055576617">
+<unit id="5e7a98ce-5535-41f4-a067-6a8dc3d2d723">
 <notes>
 <note appliesTo="source">line: 36</note>
 <note appliesTo="source">prefix: *	</note>
@@ -410,7 +410,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Want to trigger search menu specifically for clipboard or last spoken text?</source>
 </segment>
 </unit>
-<unit id="bdaa215a-3b7a-45b4-a83b-7ceb1c963d46">
+<unit id="921c0762-cdc1-4aa2-a73d-782e2a6da5ac">
 <notes>
 <note appliesTo="source">line: 37</note>
 </notes>
@@ -418,7 +418,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>You can from input gestures dialog, assigned a gesture for:</source>
 </segment>
 </unit>
-<unit id="b8047dae-e62e-4538-b67c-8105fab6c0a4">
+<unit id="1ed7fd37-b29b-474c-a5ee-e7f41222abe2">
 <notes>
 <note appliesTo="source">line: 38</note>
 <note appliesTo="source">prefix: 	*	</note>
@@ -427,7 +427,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Trigger search menu for clipboard text, and pressed twice searches that text by Google directly.</source>
 </segment>
 </unit>
-<unit id="052bbe2a-739d-4178-95b9-f81a2f5cbbf2">
+<unit id="03c8241e-3986-4fdb-b1a4-4d9c6782a08d">
 <notes>
 <note appliesTo="source">line: 39</note>
 <note appliesTo="source">prefix: 	*	</note>
@@ -436,7 +436,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Trigger search menu for last spoken text, and pressed twice searches that text by Google directly.</source>
 </segment>
 </unit>
-<unit id="edaccfe4-0711-48b9-a52a-11455427a6f6">
+<unit id="f2f4e296-8203-45f3-a009-33ccc698e01d">
 <notes>
 <note appliesTo="source">line: 40</note>
 <note appliesTo="source">prefix: *	</note>
@@ -445,7 +445,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Now if you ask, can I modify Search with menu?</source>
 </segment>
 </unit>
-<unit id="8cfaad32-4083-45ec-a089-c24decb3a631">
+<unit id="c3e9acdb-eb4d-423d-807b-4316fbf701dd">
 <notes>
 <note appliesTo="source">line: 41</note>
 <note appliesTo="source">prefix: *	</note>
@@ -454,7 +454,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Yes you  can do that from the setting panel,  and adjust the menu to fit to your mood and needs.</source>
 </segment>
 </unit>
-<unit id="132267c1-9f42-48ea-aae6-2b934ad58ef9">
+<unit id="4f949570-644e-4db3-aae2-d78f9303be9a">
 <notes>
 <note appliesTo="source">line: 42</note>
 <note appliesTo="source">prefix: *	</note>
@@ -463,7 +463,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>You can from there, add to Search with menu, other available search engines</source>
 </segment>
 </unit>
-<unit id="42fb0f09-d9d3-46a8-8d00-5b52b64f9e31">
+<unit id="e0a2ed9f-d353-4846-b928-877fb14203d0">
 <notes>
 <note appliesTo="source">line: 43</note>
 <note appliesTo="source">prefix: *	</note>
@@ -472,7 +472,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>And you can if you like, remove an item from it, move item up, move item down, or return and set it to default state.</source>
 </segment>
 </unit>
-<unit id="c29db5c5-38d2-4b97-aa0a-bd42c9ad2834">
+<unit id="c8532241-4972-4a22-b733-04d79c9c57e2">
 <notes>
 <note appliesTo="source">line: 44</note>
 <note appliesTo="source">prefix: *	</note>
@@ -481,7 +481,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>If you want these modifications to be permanent, you have to save configuration after wards.</source>
 </segment>
 </unit>
-<unit id="531c57d4-9a19-4b03-9db6-7f0ad61e5da5">
+<unit id="4477f75d-bbac-4391-94f3-95ee506e6e36">
 <notes>
 <note appliesTo="source">line: 45</note>
 <note appliesTo="source">prefix: *	</note>
@@ -490,7 +490,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Want to search Google using other language options?</source>
 </segment>
 </unit>
-<unit id="c7d51002-90ea-4391-9de5-12d4b33bc86a">
+<unit id="416632e7-5fc4-422a-bb76-aabecba26970">
 <notes>
 <note appliesTo="source">line: 46</note>
 </notes>
@@ -498,7 +498,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Go to, Search With category in setting panels</source>
 </segment>
 </unit>
-<unit id="82e69f90-8eb4-4bfd-9737-208d2ef4d1d0">
+<unit id="28f37b03-6207-470d-9d8f-879ed3407eb7">
 <notes>
 <note appliesTo="source">line: 47</note>
 </notes>
@@ -506,7 +506,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>From the cumbo box there, you can choose search Google either:</source>
 </segment>
 </unit>
-<unit id="2a14a414-c174-4ac9-a086-d7752a000253">
+<unit id="4b1929fa-0bb6-488f-91be-db81471843bb">
 <notes>
 <note appliesTo="source">line: 48</note>
 <note appliesTo="source">prefix: 	1.	</note>
@@ -515,7 +515,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Using browser settings and language.</source>
 </segment>
 </unit>
-<unit id="5360c26d-8cfc-48d3-9af9-dfae35f067bf">
+<unit id="00c60946-70a2-4f69-8c2b-95a8da9e3bc5">
 <notes>
 <note appliesTo="source">line: 49</note>
 <note appliesTo="source">prefix: 	2.	</note>
@@ -524,7 +524,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Using NVDA language.</source>
 </segment>
 </unit>
-<unit id="74cc11a8-1c84-4193-90e8-5da3735ee543">
+<unit id="7571affc-ab4d-4d91-81c0-7f9d1c911a96">
 <notes>
 <note appliesTo="source">line: 50</note>
 <note appliesTo="source">prefix: 	3.	</note>
@@ -533,7 +533,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Using windows language.</source>
 </segment>
 </unit>
-<unit id="aa261930-9cbb-4559-ae69-bd1238e417fd">
+<unit id="68075d03-7235-4ef1-aa33-84f021479a99">
 <notes>
 <note appliesTo="source">line: 51</note>
 <note appliesTo="source">prefix: *	</note>
@@ -542,7 +542,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Now, you have the option to choose the default query in Search with dialog</source>
 </segment>
 </unit>
-<unit id="de14535e-1ed8-48c7-bf5e-3509765976bb">
+<unit id="145d5d63-dc3c-4e25-ae6b-1c7ac86935a6">
 <notes>
 <note appliesTo="source">line: 52</note>
 </notes>
@@ -568,7 +568,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Use clipboard text</source>
 </segment>
 </unit>
-<unit id="55296896-9e8b-4eb8-95b0-0484c233cb52">
+<unit id="b8f1a31c-99b8-4da6-9ce6-12c0ba2f81ac">
 <notes>
 <note appliesTo="source">line: 55</note>
 <note appliesTo="source">prefix: 	*	</note>
@@ -577,7 +577,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Use last spoken text</source>
 </segment>
 </unit>
-<unit id="44624b3e-4133-44bd-9dac-def515369c4a">
+<unit id="3f8aae66-d2ce-4b36-881a-4aae8dc61c2e">
 <notes>
 <note appliesTo="source">line: 56</note>
 </notes>
@@ -603,7 +603,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Still in setting panel, under Translation engines group, there are two combo boxes, one for Google Translate and the other for DeepL Translator. Choose the target language you want for each of them and you are done.</source>
 </segment>
 </unit>
-<unit id="45add2dc-b12a-487a-b643-5b9f66b322fa">
+<unit id="66e6729e-2403-4e2e-bb4e-f40be47eacc6">
 <notes>
 <note appliesTo="source">line: 59</note>
 <note appliesTo="source">prefix: *	</note>
@@ -612,7 +612,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Lastly, especially for advanced users</source>
 </segment>
 </unit>
-<unit id="e6f4abb7-26f6-4ba4-866f-f61ecae4469d">
+<unit id="17e6d8ef-4f26-439d-8adc-6431d1618c89">
 <notes>
 <note appliesTo="source">line: 60</note>
 </notes>
@@ -620,7 +620,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>You can through a check box in setting panel, choose if you want to preserve your data folder upon installing a new version.</source>
 </segment>
 </unit>
-<unit id="48779624-9acd-4ac4-aa80-366de25882af">
+<unit id="cb0d059c-9b63-450d-91a5-cd9813864d00">
 <notes>
 <note appliesTo="source">line: 61</note>
 </notes>
@@ -628,7 +628,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>This means that your data will be sustained, but added to it the newly entries in the new version.</source>
 </segment>
 </unit>
-<unit id="261f93dc-a399-4ba8-af60-678ebf601961">
+<unit id="4079c0b2-55a8-458b-9d4c-703ea2da7da5">
 <notes>
 <note appliesTo="source">line: 62</note>
 </notes>
@@ -717,7 +717,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Changes for 2.3 ###</source>
 </segment>
 </unit>
-<unit id="2f207a37-bd30-4899-87a7-1ebb7ac56e59">
+<unit id="ec7c0add-e110-460c-a7f2-1b178756bfa1">
 <notes>
 <note appliesTo="source">line: 80</note>
 <note appliesTo="source">prefix: *	</note>
@@ -726,7 +726,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Now choosing to preserve data from setting panel, does not means that you will not get the new data entries</source>
 </segment>
 </unit>
-<unit id="d03b8e9e-86b9-42bb-8c87-4e242b9c1e31">
+<unit id="99a31c72-7e9c-4d6e-abe7-20db42c3ddc4">
 <notes>
 <note appliesTo="source">line: 81</note>
 </notes>
@@ -815,7 +815,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Changes for 1.8 ###</source>
 </segment>
 </unit>
-<unit id="9bf7c696-808e-4274-8542-f040b317f9df">
+<unit id="dd4558ce-1cc0-4a55-91cb-d81994a2d12c">
 <notes>
 <note appliesTo="source">line: 99</note>
 <note appliesTo="source">prefix: *	</note>
@@ -824,7 +824,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Add a check box in setting panel, to let advanced users preserve their data folder.</source>
 </segment>
 </unit>
-<unit id="74786099-c4de-4892-8fec-ad0648dc64f7">
+<unit id="a9fc408d-59e7-4344-8414-02d2d354b35f">
 <notes>
 <note appliesTo="source">line: 100</note>
 <note appliesTo="source">prefix: *	</note>
@@ -833,7 +833,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Add two new entries in input gestures:</source>
 </segment>
 </unit>
-<unit id="afd10656-11e2-4478-81d0-badba0efe2ff">
+<unit id="8921f799-dc2f-4608-96b4-1f0942c42483">
 <notes>
 <note appliesTo="source">line: 101</note>
 <note appliesTo="source">prefix: 	*	</note>
@@ -842,7 +842,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>trigger search menu for clipboard text, press twice searches Google directly.</source>
 </segment>
 </unit>
-<unit id="acc1001c-b358-45aa-b635-f6a75457aa68">
+<unit id="6a83d76e-9f79-4587-8188-248c034db5f3">
 <notes>
 <note appliesTo="source">line: 102</note>
 <note appliesTo="source">prefix: 	*	</note>
@@ -860,7 +860,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Changes for 1.7 ###</source>
 </segment>
 </unit>
-<unit id="3e3e872a-76a5-4c4f-9e80-def5cc159ec5">
+<unit id="2bec596c-c6e7-41bc-bb01-9dbfa13cb806">
 <notes>
 <note appliesTo="source">line: 106</note>
 <note appliesTo="source">prefix: *	</note>
@@ -869,7 +869,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Make a combo box in addon's setting, to choose an option for default query in search with dialog.</source>
 </segment>
 </unit>
-<unit id="1ea8844c-cfa7-440c-b4bf-5f2968319ff2">
+<unit id="faab4f77-d136-42cd-bab7-84144e907737">
 <notes>
 <note appliesTo="source">line: 107</note>
 <note appliesTo="source">prefix: *	</note>
@@ -1004,7 +1004,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Changes for 0.7 ###</source>
 </segment>
 </unit>
-<unit id="ea712c9e-56c4-4408-b0f8-d7686b0faea5">
+<unit id="19f8e8af-be23-4dcb-bf42-25f39ee64808">
 <notes>
 <note appliesTo="source">line: 132</note>
 <note appliesTo="source">prefix: *	</note>
@@ -1013,7 +1013,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Add more sites that could be added to menu, such as Stackoverflow, Stackexchange, GoogleBooks and others.</source>
 </segment>
 </unit>
-<unit id="ce0629a0-eb8c-403d-a049-0e0e0f1363ff">
+<unit id="ad74c458-666c-44f8-8361-07bfdb6169d4">
 <notes>
 <note appliesTo="source">line: 133</note>
 <note appliesTo="source">prefix: *	</note>
@@ -1031,7 +1031,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Changes for 0.4 ###</source>
 </segment>
 </unit>
-<unit id="68022a78-e108-461e-ae4d-25f61bedea23">
+<unit id="491024b0-f78c-4d29-b930-ec1b54f370c5">
 <notes>
 <note appliesTo="source">line: 137</note>
 <note appliesTo="source">prefix: *	</note>
@@ -1040,7 +1040,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Add a dialog if no text selected, to enter a search query.</source>
 </segment>
 </unit>
-<unit id="1e77be49-0322-4586-9d56-f8641a5610bf">
+<unit id="24351a99-f2a8-4fd0-b73d-4dc415acb7bc">
 <notes>
 <note appliesTo="source">line: 138</note>
 <note appliesTo="source">prefix: *	</note>
@@ -1058,7 +1058,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Changes for 0.3 ###</source>
 </segment>
 </unit>
-<unit id="5dffef48-9fb2-4e5f-a3a2-3001b3032ea5">
+<unit id="c67f23a4-e50f-494d-8b6a-3b928e525dc8">
 <notes>
 <note appliesTo="source">line: 142</note>
 <note appliesTo="source">prefix: *	</note>
@@ -1076,7 +1076,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
 <source>Changes for 0.1 ###</source>
 </segment>
 </unit>
-<unit id="7663f9e5-ec8a-4857-bd2a-828aad47c6fa">
+<unit id="56723def-9528-49b3-a225-a565b2a22b6a">
 <notes>
 <note appliesTo="source">line: 146</note>
 <note appliesTo="source">prefix: *	</note>
