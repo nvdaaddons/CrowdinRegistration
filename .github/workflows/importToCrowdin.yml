@@ -80,13 +80,12 @@ jobs:
         uses: astral-sh/setup-uv@v6
       - name: Generate xliff
         run: |
-          uv run ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff
+          uv run ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff
 
       - name: Commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add utils
           git add ${{ inputs.repo }}
           git commit -m "Register ${{ inputs.repo }}"
           git branch -u origin/main
