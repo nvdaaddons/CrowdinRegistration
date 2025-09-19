@@ -1,5 +1,7 @@
 name: Update
 
+# https://thomasthornton.cloud/2024/09/18/dynamic-matrices-in-github-actions/
+
 on:
   workflow_dispatch:
 
