@@ -1,75 +1,25 @@
-name: Update sources for add-ons
+name: Update
 
 on:
   workflow_dispatch:
-    inputs:
-      repos:
-        description: 'repositories'
-        default: [
-          'Access8Math',
-          'beepKeyboard',
-          'BMI',
-          'charInfo',
-          'clipContentsDesigner',
-          'clock',
-          #'columnsReview',
-          'controlUsageAssistant',
-          #'cursorLocator',
-          'customNotifications',
-          'dayOfTheWeek',
-          'debugHelper',
-          #'dropbox',
-          'easyTableNavigator',
-          'emoticons',
-          'eMule',
-          'enhancedAnnotations',
-          'enhancedTouchGestures',
-          'evtTracker',
-          'goldenCursor',
-          'goldwave',
-          'inputLock',
-          'instantTranslate',
-          'mp3DirectCut',
-          'MSEdgeDiscardAnnouncements',
-          'numpadNavMode',
-          'nvdaDevTestToolbox',
-          'objPad',
-          'objWatcher',
-          'outlookExtended',
-          'pcKbBrl',
-          'proxy',
-          'rdAccess',
-          'readFeeds',
-          'readonlyProfiles',
-          'reportSymbols',
-          'resourceMonitor',
-          'reviewCursorCopier',
-          'robEnhancements',
-          'sayCurrentKeyboardLanguage',
-          'sayProductNameAndVersion',
-          'searchWith',
-          #'SentenceNav''',
-          'speechLogger',
-          'stationPlaylist',
-          'systrayList',
-          'tonysEnhancements',
-          'unicodeBrailleInput',
-          'updateChannel',
-          'urlShortener',
-          'virtualRevision',
-          'winMag',
-          'winWizard',
-          'wordNav',
-        ]
 
 jobs:
+  setMatrix:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set matrix
+      run: |
+        $matrix=cat .github/workflows/repos.txt
+        echo "matrix=$matrix" >> $GITHUB_OUTPUT
+
   updateSourcesForAddons:
+    needs: setMatrix
     uses: ./.github/workflows/importToCrowdin.yml
     strategy:
       fail-fast: false
       max-parallel: 1
       matrix:
-        repo: ${{ fromJSON(inputs.repos) }}
+        repo: ${{ fromJSON(needs.setMatrix.outputs) }}
     with:
       repo: ${{ matrix.repo }}
       update: true
