@@ -5,7 +5,17 @@ on:
 
 jobs:
   setMatrix:
-    uses: ./.github/workflows/setMatrix.yml
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v5
+    - name: Set matrix
+      run: |
+        cd addons
+        repos=$(ls -d */ | sed 's#/##' | jq -R -s -c 'split("\n")[:-1]')
+        echo "repos=$repos" >> $GITHUB_ENV
+    outputs:
+      repos: ${{ env.repos }}
       
   submitTranslationsToAddons:
     needs: setMatrix
