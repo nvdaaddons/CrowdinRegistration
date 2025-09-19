@@ -2,15 +2,10 @@ name: Update sources for add-ons
 
 on:
   workflow_dispatch:
-
-jobs:
-  updateSourcesForAddons:
-    uses: ./.github/workflows/importToCrowdin.yml
-    strategy:
-      fail-fast: false
-      max-parallel: 1
-      matrix:
-        repo: [
+    inputs:
+      repos:
+        description: 'repositories'
+        default: [
           'Access8Math',
           'beepKeyboard',
           'BMI',
@@ -66,6 +61,15 @@ jobs:
           'winWizard',
           'wordNav',
         ]
+
+jobs:
+  updateSourcesForAddons:
+    uses: ./.github/workflows/importToCrowdin.yml
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        repo: ${{ inputs.repos }}
     with:
       repo: ${{ matrix.repo }}
       update: true
