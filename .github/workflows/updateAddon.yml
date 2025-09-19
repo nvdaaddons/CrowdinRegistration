@@ -29,6 +29,12 @@ jobs:
         ref: stable
         path: addon-${{ inputs.repo }}
         TOKEN: ${{ secrets.PUSH_TO_REPOS }}
+    - name: "Set up Python"
+      uses: actions/setup-python@v6
+      with:
+        python-version-file: ".python-version"
+    - name: Install the latest version of uv
+      uses: astral-sh/setup-uv@v6
     - name: Install gettext
       run: |
         sudo apt update
@@ -50,7 +56,7 @@ jobs:
         echo "$file doesn't exist."
         fi
         mkdir -p addon-${{ inputs.repo }}/addon/doc/$dirBasename
-        python utils/markdownTranslate.py generateMarkdown -x l10n/${{ inputs.repo }}/$dirBasename/${{ inputs.repo }}.xliff -o "addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
+        uv run utils/markdownTranslate.py generateMarkdown -x l10n/${{ inputs.repo }}/$dirBasename/${{ inputs.repo }}.xliff -o "addon-${{ inputs.repo }}/addon/doc/$dirBasename/readme.md"
         done
     - name: Commit and push
       id: commit
