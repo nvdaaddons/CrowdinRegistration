@@ -14,7 +14,7 @@ jobs:
     - name: Set matrix
       run: |
         cd addons
-        repos=$(ls -d */ | jq -R -s -c  'split("\n")[:-1]')
+        repos=$(ls -d -p */ | jq -R -s -c 'split("\n")[:-1]')
         echo "repos=$repos" >> $GITHUB_ENV
     outputs:
       repos: ${{ env.repos }}
