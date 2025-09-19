@@ -25,7 +25,7 @@ jobs:
       
   updateSourcesForAddons:
     needs: setMatrix
-    if: ${{ !updateAddon }}
+    if: ${{ !inputs.updateAddon }}
     uses: ./.github/workflows/importToCrowdin.yml
     strategy:
       fail-fast: false
@@ -36,11 +36,10 @@ jobs:
       repo: ${{ matrix.repo }}
       update: true
     secrets: inherit
-
       
   submitTranslationsToAddons:
     needs: setMatrix
-    if: ${{ updateAddon }}
+    if: ${{ inputs.updateAddon }}
     uses: ./.github/workflows/updateAddon.yml
     strategy:
       fail-fast: false
