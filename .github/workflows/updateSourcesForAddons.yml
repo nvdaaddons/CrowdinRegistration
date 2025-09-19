@@ -12,6 +12,7 @@ jobs:
     - name: Set matrix
       id: setMatrix
       run: |
+        matrix=$(cat "./.github/workflows/repos.json")
         echo "matrix=$(echo "$matrix" | jq -c .)" >> $GITHUB_OUTPUT
 
   updateSourcesForAddons:
