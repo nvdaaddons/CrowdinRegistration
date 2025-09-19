@@ -10,6 +10,7 @@ jobs:
     - name: Checkout main branch
       uses: actions/checkout@v5
     - name: Set matrix
+      id: setMatrix
       run: |
         matrix=$(jq -R . < ./.github/workflows/repos.txt | jq -s .)
         echo "matrix=$matrix" >> $GITHUB_OUTPUT
