@@ -26,6 +26,12 @@ jobs:
       max-parallel: 1
       matrix:
         repo: ${{ fromJSON(needs.setMatrix.outputs.repos) }}
+        exclude:
+        - addons
+        - columnsReview
+        - dropbox
+        - SentenceNav
+        - utils
     with:
       repo: ${{ matrix.repo }}
       update: true
