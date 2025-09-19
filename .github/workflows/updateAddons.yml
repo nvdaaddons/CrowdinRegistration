@@ -24,6 +24,8 @@ jobs:
       fail-fast: false
       matrix:
         repo: ${{ fromJSON(needs.setMatrix.outputs.repos) }}
+      max-parallel: 1
+    
     with:
       repo: ${{ matrix.repo }}
     secrets: inherit
