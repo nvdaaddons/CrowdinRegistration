@@ -72,6 +72,7 @@ jobs:
         uses: actions/checkout@v5
       - name: Create dir for repo
         run: |
+          cd addons
           if [ -d "${{ inputs.repo }}" ]; then
           echo "Warning: Folder already exists."
           else
@@ -80,7 +81,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v5
         with:
-          path: ${{ inputs.repo }}
+          path: addons/${{ inputs.repo }}
       - name: "Set up Python"
         uses: actions/setup-python@v6
         with:
@@ -90,18 +91,18 @@ jobs:
       - name: Generate xliff
         if: ${{ !inputs.update }}
         run: |
-          uv run ./utils/markdownTranslate.py generateXliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}/${{ inputs.repo }}.xliff
+          uv run ./utils/markdownTranslate.py generateXliff -m addons/${{ inputs.repo }}/${{ inputs.repo }}.md -o addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff
       - name: update xliff
         if: ${{ inputs.update }}
         run: |
-          uv run ./utils/markdownTranslate.py updateXliff -x ${{ inputs.repo }}/${{ inputs.repo }}.xliff -m ${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
-          mv ${{ inputs.repo}}.xliff.temp ${{ inputs.repo }}/${{ inputs.repo }}.xliff          
+          uv run ./utils/markdownTranslate.py updateXliff -x addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff -m addons/${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
+          mv ${{ inputs.repo}}.xliff.temp addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff          
       - name: Commit add-on
         id: commitAddon
         run: |
           git config --local user.name github-actions
           git config --local user.email github-actions@github.com
-          git add ${{ inputs.repo }}
+          git add addons/${{ inputs.repo }}
           if git diff --staged --quiet; then
           echo "Nothing added to commit."
           echo "has_changes=false" >> $GITHUB_OUTPUT
@@ -116,16 +117,16 @@ jobs:
       - name: Upload to Crowdin
         if: ${{ !inputs.update }}
         run: |
-          uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.xliff
-          uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=${{ inputs.repo}}/${{ inputs.repo}}.pot
+          uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=addons/${{ inputs.repo}}/${{ inputs.repo}}.xliff
+          uv run ./utils/l10nUtil.py uploadSourceFile --localFilePath=addons/${{ inputs.repo}}/${{ inputs.repo}}.pot
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
       - name: Update sources
         if: ${{ inputs.update }}
         run: |
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{inputs.repo }}/${{ inputs.repo }}.pot
-          uv run ./utils/crowdinSync.py uploadSourceFile ${{ inputs.repo }}/${{ inputs.repo }}.xliff
+          uv run ./utils/crowdinSync.py uploadSourceFile addons/${{inputs.repo }}/${{ inputs.repo }}.pot
+          uv run ./utils/crowdinSync.py uploadSourceFile addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff
         env:
           crowdinProjectID: ${{ vars.CROWDIN_ID }}
           crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
