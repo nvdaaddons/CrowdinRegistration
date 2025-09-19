@@ -11,7 +11,7 @@ jobs:
       uses: actions/checkout@v5
     - name: Set matrix
       run: |
-        matrix=$(cat ./.github/workflows/repos.txt)
+        matrix=$(jq -R . < ./.github/workflows/repos.txt | jq -s .)
         echo "matrix=$matrix" >> $GITHUB_OUTPUT
 
   updateSourcesForAddons:
