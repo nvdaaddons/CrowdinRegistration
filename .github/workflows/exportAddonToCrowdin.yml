@@ -1,4 +1,4 @@
-name: Import to crowdin
+name: Export add-on to Crowdin
 
 on:
   workflow_dispatch:
@@ -61,7 +61,7 @@ jobs:
           name: addon
           overwrite: true
           path: addon-${{ inputs.repo }}
-  importToCrowdin:
+  exportToCrowdin:
     runs-on: ubuntu-latest
     needs: build
     permissions:

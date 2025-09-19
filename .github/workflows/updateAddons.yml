@@ -1,0 +1,20 @@
+name: submit translations to add-ons
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setMatrix:
+    uses: ./.github/workflows/setMatrix.yml
+      
+  submitTranslationsToAddons:
+    needs: setMatrix
+    uses: ./.github/workflows/updateAddon.yml
+    strategy:
+      fail-fast: false
+      matrix:
+        repo: ${{ fromJSON(needs.setMatrix.outputs.repos) }}
+    with:
+      repo: ${{ matrix.repo }}
+    secrets: inherit
+      

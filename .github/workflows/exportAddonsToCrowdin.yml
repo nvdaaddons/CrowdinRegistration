@@ -1,0 +1,22 @@
+name: Export add-ons to Crowdin
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setMatrix:
+    uses: ./.github/workflows/setMatrix.yml
+      
+  exportAddons:
+    needs: setMatrix
+    uses: ./.github/workflows/exportAddonToCrowdin.yml
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        repo: ${{ fromJSON(needs.setMatrix.outputs.repos) }}
+    with:
+      repo: ${{ matrix.repo }}
+      update: true
+    secrets: inherit
+      

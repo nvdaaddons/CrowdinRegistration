@@ -1,0 +1,21 @@
+# https://thomasthornton.cloud/2024/09/18/dynamic-matrices-in-github-actions/
+
+name: Set matrix
+
+on:
+  workflow_call:
+
+jobs:
+  setMatrix:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v5
+    - name: Set matrix
+      run: |
+        cd addons
+        repos=$(ls -d */ | sed 's#/##' | jq -R -s -c 'split("\n")[:-1]')
+        echo "repos=$repos" >> $GITHUB_ENV
+    outputs:
+      repos: ${{ env.repos }}
+      
