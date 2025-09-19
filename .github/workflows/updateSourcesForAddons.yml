@@ -5,16 +5,13 @@ on:
 
 jobs:
   setMatrix:
-    runs-on: ubuntu-latest
     steps:
     - name: Checkout main branch
       uses: actions/checkout@v5
     - name: Set matrix
-      id: setMatrix
       run: |
-        matrix=$(cat "./.github/workflows/repos.json")
-        echo "matrix=$matrix" >> $GITHUB_OUTPUT
-
+        repos=$(ls -d */ | jq -R -s -c  'split("\n")[:-1]')
+        echo "matrix=$repos" >> $GITHUB_OUTPUT
   updateSourcesForAddons:
     needs: setMatrix
     uses: ./.github/workflows/importToCrowdin.yml
