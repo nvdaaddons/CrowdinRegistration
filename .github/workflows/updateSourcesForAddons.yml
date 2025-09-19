@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Set matrix
       run: |
-        $matrix=cat .github/workflows/repos.txt
+        matrix=$(cat .github/workflows/repos.txt)
         echo "matrix=$matrix" >> $GITHUB_OUTPUT
 
   updateSourcesForAddons:
