@@ -28,7 +28,7 @@ jobs:
         repository: nvdaaddons/${{ inputs.repo }}
         ref: stable
         path: addon-${{ inputs.repo }}
-        TOKEN: ${{ secrets.PUSH_TO_REPOS }}
+        token: ${{ secrets.PUSH_TO_REPOS }}
     - name: "Set up Python"
       uses: actions/setup-python@v6
       with:
