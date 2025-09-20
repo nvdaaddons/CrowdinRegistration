@@ -12,9 +12,12 @@ jobs:
       uses: actions/checkout@v5
     - name: Transform
       run: |
-        ls
         cd addons
-        for dir in /*; do
-        addon=basename "$dir"
-        cd $addon
+        for dir in *; do
+        [ -d "$dir" ] || continue
+        addon=$(basename "$dir")
+        cd "$addon"
+        for lang in *; do
+        [ -f mv "$lang/$addon.po" nvda.po ] || continue
+
         done
