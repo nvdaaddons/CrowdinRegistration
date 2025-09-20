@@ -5,6 +5,8 @@ description: 'Create a shared folder with po and md files for add-on authors'
 runs:
   using: "composite"
   steps:
+    - name: Checkout repo
+      uses: actions/checkout@v5
     - name: "Set up Python"
       uses: actions/setup-python@v6
       with:
