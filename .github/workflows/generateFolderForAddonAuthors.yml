@@ -18,6 +18,8 @@ jobs:
         addon=$(basename "$dir")
         cd "$addon"
         for lang in *; do
-        [ -f mv "$lang/$addon.po" nvda.po ] || continue
-
+        [ -f "$lang/$addon.po" ] || continue
+        mv "$lang/$addon.po" ../shared/$addon/$lang/locale/LC_MESSAGES/nvda.po" -p -f
+        done
+        cd ..
         done
