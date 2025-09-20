@@ -1,0 +1,27 @@
+name: Generate folder for add-on authors
+
+on:
+  workflow_dispatch:
+jobs:
+  generateSharedFolder:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout repo
+      uses: action/checkout@v5
+    - name: Transform
+      run: |
+        if [ shared -d ]; then
+        echo "Warning: folder already exist"
+        else
+        mkdir shared
+        fi
+        cd addons
+        for dir in /* -d; do
+        addon=$(basename "$dir")
+        cd addon
+        for lang in /* -d; do
+        mv /*$addon.po ../shared/$addon//locale/lang/LC_MESSAGES/nvda.po -f
+        done
+        done
