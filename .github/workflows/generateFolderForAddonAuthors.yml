@@ -18,6 +18,11 @@ jobs:
       uses: astral-sh/setup-uv@v6
     - name: Transform
       run: |
+        [ if -d shared ]; then
+        echo "Warning: folder already exists"
+        else
+        mkdir shared
+        fi
         cd l10n
         for dir in *; do
         [ -d "$dir" ] || continue
