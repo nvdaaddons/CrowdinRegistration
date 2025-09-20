@@ -26,8 +26,9 @@ jobs:
         for dir in l10n/*; do
         [ -d "$dir" ] || continue
         addon=$(basename "$dir")
-        for lang in $dir/*; do
-        [ -f "$lang/$addon.po" ] || continue
+        for addonDir in $dir/*; do
+        lang=$(basename "$addonDir")
+        [ -f "l10n/$addon/$lang/$addon.po" ] || continue
         mkdir -p "shared/$addon/locale/$lang/LC_MESSAGES"
         mv -f "l10n/$addon/$lang/$addon.po" "shared/$addon/locale/$lang/LC_MESSAGES/nvda.po"
         [ -f "l10n/$addon/$lang/$addon.xliff" ] || continue
