@@ -9,7 +9,7 @@ jobs:
       contents: write
     steps:
     - name: Checkout repo
-      uses: action/checkout@v5
+      uses: actions/checkout@v5
     - name: Transform
       run: |
         if [ shared -d ]; then
