@@ -32,6 +32,7 @@ jobs:
           cd ..
         done
         done
+        ls -R
     - name: Commit and push shared folder
       id: commit
       run: |
