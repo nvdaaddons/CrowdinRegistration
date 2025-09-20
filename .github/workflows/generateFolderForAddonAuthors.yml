@@ -32,3 +32,17 @@ jobs:
         done
         cd ..
         done
+    - name: Commit and push shared folder
+      id: commit
+      run: |
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git add shared
+        if git diff --staged --quiet; then
+        echo "Nothing added to commit."
+        echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+        echo "has_changes=true" >> $GITHUB_OUTPUT
+        git commit -m "Update shared folder"
+        git push
+        fi
