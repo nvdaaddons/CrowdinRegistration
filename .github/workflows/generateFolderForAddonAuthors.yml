@@ -12,12 +12,12 @@ jobs:
       uses: actions/checkout@v5
     - name: Transform
       run: |
-        if [ -d shared ]; then
-        echo "Warning: folder already exist"
-        else
-        mkdir shared
-        fi
         cd addons
-        for dir in /* -d; do
+        for dir in /*; do
         addon=$(basename "$dir")
+        cd $addon
+        for lang in /*; do
+        if [ -f $lang/$addon.po ]; then
+        mv $lang/$addon.po shared/$addon$locale/$lang/LC_MESSAGES/nvda.po -p -f
+        done
         done
