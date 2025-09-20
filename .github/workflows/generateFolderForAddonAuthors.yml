@@ -14,4 +14,5 @@ jobs:
       run: |
         for dir in addons/*; do
         addon=$(basename "$dir")
+        cd $dir
         done
