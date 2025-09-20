@@ -5,11 +5,10 @@ on:
     inputs:
       repo:
         description: 'Repository name'
-        required: false
+        required: true
       update:
         description: 'true to update preexisting sources, false to add them from scratch'
         type: boolean
-        required: false
 
   workflow_call:
     inputs:
