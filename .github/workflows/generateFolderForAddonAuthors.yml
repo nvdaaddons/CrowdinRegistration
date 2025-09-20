@@ -2,6 +2,9 @@ name: Generate folder for add-on authors
 
 on:
   workflow_dispatch:
+
+  workflow_call:
+  
 jobs:
   generateSharedFolder:
     runs-on: ubuntu-latest

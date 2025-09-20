@@ -1,15 +1,9 @@
 name: Fetch Crowdin Translations
 
-# Note: This workflow only updates tracked languages from Crowdin.
-# If you want to add new languages, use the "Add new languages to track from Crowdin" workflow.
-
 on:
   workflow_dispatch:
   schedule:
     # Every Monday at 00:00 UTC
-    # This is because the translation freeze should end at 11:59 UTC on a Sunday.
-    # And we want to perform beta/rc releases soon after 00:00 UTC on a Monday.
-    # Cron jobs are run from the master branch.
     - cron: '0 0 * * 1'
 
 jobs:
@@ -29,7 +23,7 @@ jobs:
         fetch-depth: 1
         submodules: true
     - name: "Set up Python"
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version-file: ".python-version"
 
@@ -89,3 +83,6 @@ jobs:
         --body "Merged translations from Crowdin"
       env:
         GITHUB_TOKEN: ${{ github.token }}
+  generateFolderForAuthors:
+    needs: download-from-crowdin
+    uses: ./.github/workflows/generateFolderForAddonAuthors.yml
