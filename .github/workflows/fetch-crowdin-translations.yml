@@ -84,13 +84,6 @@ jobs:
         --body "Merged translations from Crowdin"
       env:
         GITHUB_TOKEN: ${{ github.token }}
-    - name: Manually trigger generateFolderForAddonAuthors workflow
-      uses: actions/github-script@v8
-      with:
-        script: |
-          await github.rest.actions.createWorkflowDispatch({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            workflow_id: 'generateFolderForAddonAuthors.yml',
-            ref: '${{ github.ref_name }}'
-          })  ;
+    - name: Generate folder for add-on authors
+      uses: ./.github/actions/generateFolderForAddonAuthors
+      
