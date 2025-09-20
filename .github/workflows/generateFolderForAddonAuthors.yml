@@ -15,6 +15,6 @@ jobs:
         ls
         cd addons
         for dir in /*; do
-        addon=$(basename "$dir")
+        addon=basename "$dir"
         cd $addon
         done
