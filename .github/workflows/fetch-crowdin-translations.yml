@@ -44,7 +44,7 @@ jobs:
         crowdinProjectID: ${{ vars.CROWDIN_ID }}
         crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
 
-    - name: Commit tracked files only
+    - name: Commit files
       id: commit
       shell: bash
       run: |
