@@ -19,4 +19,6 @@ jobs:
         for lang in /*; do
         if [ -f $lang/$addon.po ]; then
         mv $lang/$addon.po shared/$addon$locale/$lang/LC_MESSAGES/nvda.po -p -f
+        fi
+        done
         done
