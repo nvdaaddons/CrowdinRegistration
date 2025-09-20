@@ -18,7 +18,7 @@ jobs:
       uses: astral-sh/setup-uv@v6
     - name: Transform
       run: |
-        cd addons
+        cd l10n
         for dir in *; do
         [ -d "$dir" ] || continue
         addon=$(basename "$dir")
