@@ -20,8 +20,4 @@ jobs:
         cd addons
         for dir in /* -d; do
         addon=$(basename "$dir")
-        cd $addon
-        for lang in /* -d; do
-        mv /*$addon.po ../shared/$addon//locale/lang/LC_MESSAGES/nvda.po -f
-        done
         done
