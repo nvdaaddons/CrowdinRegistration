@@ -12,13 +12,6 @@ jobs:
       uses: actions/checkout@v5
     - name: Transform
       run: |
-        cd addons
-        for dir in /*; do
+        for dir in addons/*; do
         addon=$(basename "$dir")
-        cd $addon
-        for lang in /*; do
-        if [ -f $lang/$addon.po ]; then
-        mv $lang/$addon.po shared/$addon$locale/$lang/LC_MESSAGES/nvda.po -p -f
-        fi
-        done
         done
