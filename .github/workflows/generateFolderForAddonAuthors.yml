@@ -2,9 +2,9 @@ name: Generate folder for add-on authors
 
 on:
   workflow_dispatch:
-  workflow_call:
+  
   schedule:
-  # Every Monday at 00:05 UTC
+    # Every Monday at 00:05 UTC
     - cron: '5 0 * * 1'
 jobs:
   generateSharedFolder:
