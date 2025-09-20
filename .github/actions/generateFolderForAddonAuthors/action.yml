@@ -1,0 +1,52 @@
+name: 'Generate folder for add-on authors'
+
+description: 'Create a shared folder with po and md files for add-on authors'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repo
+      uses: actions/checkout@v5
+    - name: "Set up Python"
+      uses: actions/setup-python@v6
+      with:
+        python-version-file: ".python-version"
+    - name: Install the latest version of uv
+      uses: astral-sh/setup-uv@v6
+    - name: Transform
+      shell: bash
+      run: |
+        if [ -d shared ]; then
+        echo "Warning: folder already exists"
+        else
+        mkdir shared
+        fi
+        for dir in l10n/*; do
+        [ -d "$dir" ] || continue
+        addon=$(basename "$dir")
+        for addonDir in $dir/*; do
+        lang=$(basename "$addonDir")
+        [ -f "l10n/$addon/$lang/$addon.po" ] || continue
+        mkdir -p "shared/$addon/locale/$lang/LC_MESSAGES"
+        mv -f "l10n/$addon/$lang/$addon.po" "shared/$addon/locale/$lang/LC_MESSAGES/nvda.po"
+        [ -f "l10n/$addon/$lang/$addon.xliff" ] || continue
+        mkdir -p "shared/$addon/doc/$lang"
+        uv run utils/l10nUtil.py xliff2md "l10n/$addon/$lang/$addon.xliff" "shared/$addon/doc/$lang/readme.md"
+        done
+        done
+        ls -R
+    - name: Commit and push shared folder
+      id: commit
+      shell: bash
+      run: |
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git add shared
+        if git diff --staged --quiet; then
+        echo "Nothing added to commit."
+        echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+        echo "has_changes=true" >> $GITHUB_OUTPUT
+        git commit -m "Update shared folder"
+        git push
+        fi
