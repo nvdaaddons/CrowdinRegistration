@@ -29,8 +29,8 @@ jobs:
         mv -f "$lang/$addon.po" "../shared/$addon/locale/$lang/LC_MESSAGES/nvda.po"
         [ -f "$lang/$addon.xliff" ] || continue
           uv run ./utils/l10nUtil.py xliff2md "$lang/$addon.xliff" "../shared/$addon/doc/$lang/readme.md"
+          cd ..
         done
-        cd ..
         done
     - name: Commit and push shared folder
       id: commit
