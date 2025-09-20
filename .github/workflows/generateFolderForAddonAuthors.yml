@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v5
     - name: Transform
       run: |
-        if [ shared -d ]; then
+        if [ -d shared ]; then
         echo "Warning: folder already exist"
         else
         mkdir shared
@@ -20,7 +20,7 @@ jobs:
         cd addons
         for dir in /* -d; do
         addon=$(basename "$dir")
-        cd addon
+        cd $addon
         for lang in /* -d; do
         mv /*$addon.po ../shared/$addon//locale/lang/LC_MESSAGES/nvda.po -f
         done
