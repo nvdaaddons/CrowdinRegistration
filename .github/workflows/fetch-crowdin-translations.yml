@@ -83,6 +83,3 @@ jobs:
         --body "Merged translations from Crowdin"
       env:
         GITHUB_TOKEN: ${{ github.token }}
-  generateFolderForAuthors:
-    needs: download-from-crowdin
-    uses: ./.github/workflows/generateFolderForAddonAuthors.yml
