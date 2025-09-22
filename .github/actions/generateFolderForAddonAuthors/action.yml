@@ -13,6 +13,9 @@ runs:
         python-version-file: ".python-version"
     - name: Install the latest version of uv
       uses: astral-sh/setup-uv@v6
+    - name: Pull last changes
+      shell: bash
+      run: git pull
     - name: Transform
       shell: bash
       run: |
