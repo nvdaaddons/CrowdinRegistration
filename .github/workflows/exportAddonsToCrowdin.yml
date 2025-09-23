@@ -8,17 +8,29 @@ on:
     - cron: '0 1 * * 1'
 jobs:
 
-  buildMatrix:      
-    uses: ./.github/workflows/setMatrix.yml
-
+  setMatrix:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v5
+    - name: Set matrix
+      id: repos
+      run: |
+        cd addons
+        repos=$(ls -d */ | sed 's#/##' | jq -R -s -c 'split("\n")[:-1]')
+        echo 'repos=$repos' >> "$GITHUB_ENV"
+        #echo $repos
+    outputs:
+      repos: ${{ env.repos }}
+      
   exportAddons:
-    needs: buildMatrix
+    needs: setMatrix
     uses: ./.github/workflows/exportAddonToCrowdin.yml
     strategy:
       fail-fast: false
       max-parallel: 1
       matrix:
-        repo: ${{ fromJson(needs.buildMatrix.outputs.repos) }}
+        repo: ${{ fromJson(needs.setMatrix.outputs.repos) }}
     with:
       repo: ${{ matrix.repo }}
       update: true
