@@ -19,7 +19,7 @@ jobs:
       matrix:
         repo: ${{ fromJSON(needs.setMatrix.outputs.repos) }}
     with:
-      repo: ${{ matrix.repo }}
+      repo: ${{ matrix.repo.repos }}
       update: true
     secrets: inherit
       

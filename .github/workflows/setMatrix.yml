@@ -16,8 +16,7 @@ jobs:
       run: |
         cd addons
         repos=$(ls -d */ | sed 's#/##' | jq -R -s -c 'split("\n")[:-1]')
-        #echo "repos=$repos" >> $GITHUB_OUTPUT
-        echo "repos=["a"]" >> GITHUB_OUTPUT
+        echo "repos={"repos": $repos}" >> $GITHUB_OUTPUT
         echo $repos
     outputs:
       repos: ${{ steps.setMatrix.outputs.repos }}
