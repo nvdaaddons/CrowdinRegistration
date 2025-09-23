@@ -18,7 +18,8 @@ jobs:
         repos=$(ls -d */ | sed 's#/##' | jq -R -s -c 'split("\n")[:-1]')
         echo 'repos=$repos' >> "$GITHUB_OUTPUT"
         #echo $repos
-        echo ${{ outputs.repos }}
+    - name: test
+      run: echo "${{setMatrix.outputs.repos}}""
     outputs:
       repos: ${{ steps.setMatrix.outputs.repos }}
       
