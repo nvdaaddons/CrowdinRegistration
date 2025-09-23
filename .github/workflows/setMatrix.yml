@@ -12,11 +12,12 @@ jobs:
     - name: Checkout main branch
       uses: actions/checkout@v5
     - name: Set matrix
+      id: setMatrix
       run: |
         cd addons
         repos=$(ls -d */ | sed 's#/##' | jq -R -s -c 'split("\n")[:-1]')
-        echo "repos=$repos" >> $GITHUB_ENV
+        echo "repos=$repos" >> $GITHUB_OUTPUT
         echo $repos
     outputs:
-      repos: ${{ env.repos }}
+      repos: ${{ steps.setMatrix.outputs.repos }}
       
