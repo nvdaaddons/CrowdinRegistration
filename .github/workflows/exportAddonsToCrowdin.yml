@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       max-parallel: 1
       matrix:
-        repo: ${{ fromJSON(needs.setMatrix.outputs.repos) }}
+        repo: ${{ needs.setMatrix.outputs.repos }}
     with:
       repo: ${{ matrix.repo }}
       update: true
