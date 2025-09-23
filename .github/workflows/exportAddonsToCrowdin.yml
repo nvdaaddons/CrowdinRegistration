@@ -7,8 +7,6 @@ on:
     # Every Monday at 01:00 UTC
     - cron: '0 1 * * 1'
 jobs:
-  setMatrix:
-    uses: ./.github/workflows/setMatrix.yml
       
   exportAddons:
     needs: setMatrix
@@ -17,7 +15,7 @@ jobs:
       fail-fast: false
       max-parallel: 1
       matrix:
-        repo: ${{ fromJSON(needs.setMatrix.outputs.repos) }}
+        repo: ${{ fromJson(needs.setMatrix.outputs.repos) }}
     with:
       repo: ${{ matrix.repo }}
       update: true
