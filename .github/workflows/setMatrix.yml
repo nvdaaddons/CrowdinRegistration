@@ -19,7 +19,7 @@ jobs:
         echo 'repos=$repos' >> "$GITHUB_OUTPUT"
         #echo $repos
     - name: test
-      run: echo "${{setMatrix.outputs.repos}}""
+      run: echo "${{setMatrix.outputs.repos}}"
     outputs:
       repos: ${{ steps.setMatrix.outputs.repos }}
       
