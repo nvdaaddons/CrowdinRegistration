@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-09-14 16:25+0000\n"
-"PO-Revision-Date: 2025-09-23 07:59\n"
+"PO-Revision-Date: 2025-09-28 16:53\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -464,7 +464,7 @@ msgstr "&Ekran kenarlarını bildir:"
 #. Translators: This is the label for a slider in the Windows Magnifier settings panel.
 #: addon/globalPlugins/winMag/wmGui.py:84
 msgid "Volume of the tones indicating the &position of the view:"
-msgstr "G&örünümün konumunu gösteren tonların ses düzeyi:"
+msgstr "G&örünümün konumunu gösteren tonların ses seviyesi:"
 
 #. Translators: This is the label for a checkbox in the Windows Magnifier settings panel.
 #: addon/globalPlugins/winMag/wmGui.py:98
