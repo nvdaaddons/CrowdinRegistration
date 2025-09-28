@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ru">
-  <file id="Access8Math.md" original="https://raw.githubusercontent.com/nvaccess/nvda/ec847d03a076f00dae35770e6f083432415e1e03/addons/Access8Math/Access8Math.md">
+  <file id="Access8Math.md" original="https://raw.githubusercontent.com/nvaccess/nvda/77b77de9e7f5cf5e63fdc24697cda66a2f382dcf/addons/Access8Math/Access8Math.md">
     <skeleton>
 # $(ID:1333314d-c11d-466d-ac23-587d40dc0005)
 
@@ -67,7 +67,7 @@ $(ID:28e05da5-1c10-43ca-8121-031002ecc2d3)
 
 #### $(ID:eaf57e5a-0b2b-470e-9c41-573b2f3b184e)
 
-$(ID:945acabd-9609-4a64-b936-1eca2b2f190b)
+$(ID:38b03100-9f37-4a06-aa7b-b8a66fd00fc9)
 
 $(ID:01882746-eecd-4935-b080-9b63653fe099)
 
@@ -75,13 +75,13 @@ $(ID:22a087a6-fdfc-45fa-aacf-77697b9d7a62)
 
 #### $(ID:db097360-399f-4660-a0fa-35dcc772f600)
 
-$(ID:e77bbdd2-0c1e-4782-b1d7-60613e23fa5d)
+$(ID:449a18c7-7294-421f-a630-1594543d8760)
 
 $(ID:85d77739-d7ed-45a9-a343-950f42dd0125)
 
 #### $(ID:d1637f69-2458-49cd-9f65-c5bb9d495daa)
 
-$(ID:6e8cd5a9-a199-4313-b245-534e55eabcf7)
+$(ID:2cb34d3d-4f4e-4b94-877b-73be7fef156b)
 
 $(ID:8d0e0888-6f7e-4e84-b180-130efa0c976c)
 
@@ -188,7 +188,7 @@ $(ID:6b08d3ed-a4fc-48e1-9dc5-22e151813a0e)
 
 $(ID:da881966-398e-4b99-aa35-92e597350cc3)
 
-### $(ID:00b9495e-c84f-4281-ab8d-8235808a2eea)
+### $(ID:ac7618f4-9a1b-4df7-994c-f20e147d6671)
 
 $(ID:9ffa8c20-d92d-4850-bb83-bd1045fb5b5d)
 
@@ -1044,13 +1044,13 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
         <target>Математический структурный анализ</target>
       </segment>
     </unit>
-    <unit id="945acabd-9609-4a64-b936-1eca2b2f190b">
+    <unit id="38b03100-9f37-4a06-aa7b-b8a66fd00fc9">
       <notes>
         <note appliesTo="source">line: 67</note>
       </notes>
       <segment state="final">
         <source>These rules are designed to enhance the reading experience of commonly used mathematical structures. The system analyzes the content according to the MathML structure and mathematical rules, so that the speech outputs and Braille outputs are more consistent with the mathematical meaning. For example, "x^2" will be read as "square of x" instead of "x super 2".</source>
-        <target>These rules are designed to enhance the reading experience of commonly used mathematical structures. The system analyzes the content according to the MathML structure and mathematical rules, so that the speech outputs and Braille outputs are more consistent with the mathematical meaning. For example, "x^2" will be read as "square of x" instead of "x super 2".</target>
+        <target>Эти правила предназначены для улучшения опыта чтения часто используемых математических структур. Система анализирует содержание в соответствии с структурой MathML и математическими правилами, так что выходы речи и выходы Брайля более соответствуют математическому значению. Например, "x^2" будет прочитано как "square of x" вместо "x super 2".</target>
       </segment>
     </unit>
     <unit id="01882746-eecd-4935-b080-9b63653fe099">
@@ -1081,13 +1081,13 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
         <target>Упрощённый речевой вывод</target>
       </segment>
     </unit>
-    <unit id="e77bbdd2-0c1e-4782-b1d7-60613e23fa5d">
+    <unit id="449a18c7-7294-421f-a630-1594543d8760">
       <notes>
         <note appliesTo="source">line: 75</note>
       </notes>
       <segment state="final">
         <source>When the system analyzes mathematical rules, it will read them out in a simplified way. If there is only one single item in the math content, it can omit the markups before and after while reading, so that it can be understood more efficiently. For example, "\(\frac{1}{2}\)" will be read as "1 over 2" instead of "fraction with numerator 1 and denominator 2 end fraction".</source>
-        <target>When the system analyzes mathematical rules, it will read them out in a simplified way. If there is only one single item in the math content, it can omit the markups before and after while reading, so that it can be understood more efficiently. For example, "\(\frac{1}{2}\)" will be read as "1 over 2" instead of "fraction with numerator 1 and denominator 2 end fraction".</target>
+        <target>Когда система анализирует математические правила, она прочитает их упрощённым образом. Если в математическом содержании есть только один элемент, он может опустить пометки до и после чтения, чтобы его можно было понять более эффективно. Например, "\(\frac{1}{2}\)" будет прочитано как "1 over 2" вместо "fraction with numerator 1 and denominator 2 end fraction".</target>
       </segment>
     </unit>
     <unit id="85d77739-d7ed-45a9-a343-950f42dd0125">
@@ -1109,13 +1109,13 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
         <target>Паузы между Сегментами</target>
       </segment>
     </unit>
-    <unit id="6e8cd5a9-a199-4313-b245-534e55eabcf7">
+    <unit id="2cb34d3d-4f4e-4b94-877b-73be7fef156b">
       <notes>
         <note appliesTo="source">line: 81</note>
       </notes>
       <segment state="final">
         <source>Access8Math reads math content with a pause between items to make the math content easier to understand.</source>
-        <target>Access8Math читает математическое содержимое с паузами между элементами для облегчения его понимания.</target>
+        <target>Access8math читает математическое содержимое с паузами между элементами для упрощения понимания математического содержимого.</target>
       </segment>
     </unit>
     <unit id="8d0e0888-6f7e-4e84-b180-130efa0c976c">
@@ -1787,7 +1787,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
         <target>Когда курсор редактирования находится в блоке LaTeX, нажмите буквенную клавишу, чтобы быстро вставить разметку LaTeX соответствующей греческой буквы. Таблицу преобразования алфавита в греческий смотрите в "Приложении" к этому документу.</target>
       </segment>
     </unit>
-    <unit id="00b9495e-c84f-4281-ab8d-8235808a2eea">
+    <unit id="ac7618f4-9a1b-4df7-994c-f20e147d6671">
       <notes>
         <note appliesTo="source">line: 188</note>
         <note appliesTo="source">prefix: ### </note>
