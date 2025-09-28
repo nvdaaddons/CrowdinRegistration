@@ -6,20 +6,20 @@
 
 Bu eklenti, NVDA hata ayıklama ve test için çeşitli özellikleri bir araya getirir.
 
-## Features
+## Özellikler
 
 * An enhanced restart dialog to specify some extra options when restarting NVDA.
 * Günlüğe kaydedilen hatalarla ilgili çeşitli özellikler.
 * An object property explorer.
 * Script tools: an extended script description mode and a script opener.
 * Commands to help log reading and analyzing.
-* Backups of old logs
+* Eski günlük yedekleri
 * In the Python console workspace, a function to open the source code of an object.
-* A custom startup script for the Python console
+* Python konsolu için özel bir başlangıç ​​komut dosyası
 * A command to log the stack trace of the speech.speak function.
 * A command to reverse translate the items of the interface.
 
-## Commands
+## Komutlar
 
 This add-on uses layered commands for all of the new commands it adds.
 The entry point for these commands is `NVDA+X`; thus all the commands should be executed by `NVDA+X` followed by another single letter or gesture.
@@ -27,12 +27,12 @@ You can list all the available layered commands pressing `NVDA+X, H`.
 
 For the commands that you use more frequently, you can also define a direct gesture in the input gesture dialog.
 
-## Enhanced restart dialog
+## Gelişmiş Yeniden Başlat iletişim kutusu
 
 The `NVDA+X, Q` command opens a dialog to specify some extra options before restarting NVDA.
 The options that can be specified correspond to the [command line options][2] that can be used with `nvda.exe`, e.g. `-c` for config path, `--disable-addons` to disable add-ons, etc.
 
-## Features related to logged errors
+## Günlüğe kaydedilen hatalarla ilgili özellikler
 
 ### Son kaydedilen hatayı bildir
 
@@ -59,8 +59,8 @@ Bir nesnenin özelliklerini listelemek için gezgin nesnesini ona taşıyın ve 
 
 * `NVDA+X, upArrow`: Selects the previous property and reports it for the navigator object.
 * `NVDA+X, downArrow`: Selects the next property and reports it for the navigator object.
-* `NVDA+X, N`: Reports the currently selected property for the navigator object
-* `NVDA+X, shift+N`: Displays the currently selected property for the navigator object in a browseable message
+* NVDA+X, N : Gezgin nesnesi için seçili olan özelliği bildirir
+* NVDA+X, shift+N : Gezgin nesnesi için seçili olan özelliği göz atılabilir bir mesajda görüntüler
 
 The list of the supported properties is the following:
 name, role, state, value, windowClassName, windowControlID, windowHandle, location, Python class, Python class mro.
@@ -84,7 +84,7 @@ For example to see the code of the script that reports the title of the foregrou
 For this feature to work, you need to have configured your [favorite editor's command](#settingsOpenCommand) in the add-on's settings.
 If you are not running NVDA from source, the [location of NVDA source code](#settingsNvdaSourcePath) should also have been configured.
 
-### Extended script description mode
+### Genişletilmiş komut dosyası açıklama modu
 
 The extended script description mode allows to have reported information on scripts without description in input help mode.
 
@@ -117,7 +117,7 @@ To have the control+shift+I result reported by NVDA as control+I, you should per
 
 Known bug: A script added for a specific class is visible even if gesture manager is opened in another context.
 
-## Log reading and analyzing features
+## Günlük okuma ve analiz özellikleri
 
 <a id="logPlaceMarkers"></a>
 ### Günlüğe işaretler yerleştir
@@ -129,7 +129,7 @@ A message as follows will be logged at INFO level:
 You can add as many markers as you want in the log.
 The marker's number will be incremented each time you place a marker in the log; it will only be reset when NVDA is restarted.
 
-### Log reader mode
+### Günlük Okuyucu Modu
 
 A log reader mode provides commands to ease log reading and analyzing.
 In the log viewer window the log reader is enabled by default, thus log reading commands are available immediately.
@@ -144,15 +144,15 @@ The commands available in log reader mode are described hereafter.
 Single letter command similar to browse mode quick navigation keys allow to move to various type of log messages:
 
 * m: Herhangi bir mesaj
-* e: error messages (`ERROR` and `CRITICAL`)
+* e: Hata mesajları (`ERROR` ve `CRITICAL`)
 * w: Uyarı Mesajları (`` uyarı '))
-* f: info messages (`INFO`)
-* k: markers previously [placed in the log](#logPlaceMarkers)
-* g: debug warning messages (`DEBUGWARNING`)
-* i: input/output messages (`IO`)
+* f: Bilgi mesajları (`INFO`)
+* k: daha önce [günlüğe yerleştirilmiş işaretçiler](#logPlaceMarkers)
+* g: Hata ayıklama uyarı mesajları (`DEBUGWARNING`)
+* i: Giriş/çıkış mesajları (`IO`)
 * n: giriş mesajları
 * s: konuşma mesajları
-* d: debug messages (`DEBUG`)
+* d: Hata Ayıklama Mesajları (`DEBUG`)
 
 Pressing the single letter moves to the next occurrence of this message. Combining the letter with the shift key moves to the previous occurrence of this message.
 
@@ -189,19 +189,19 @@ For this feature to work, you need to have configured your [favorite editor's co
 If you are not running NVDA from source, the [location of NVDA source code](#settingsNvdaSourcePath) should also have been configured.
 
 <a id="oldLogsBackup"></a>
-## Backup of old logs
+## Eski günlük yedekleri
 
 NVDA already provides a backup of the log of the previous session of NVDA; the file is called `nvda-old.log`.
 Sometimes however you may want to access older logs, e.g. because you have had to restart NVDA again before looking at `nvda-old.log`.
 This add-on allows you to configure if you want to backup old logs and how many of them; this is done in the [add-on's settings](#settingsLogsBackup).
 
 A log manager dialog allows to view the backed up logs.
-It can be opened going to NVDA menu -> Tools -> Logs manager
+NVDA menüsü -> Araçlar -> Günlük yöneticisine gidilerek açılabilir
 In this dialog, you can see the list of all the backup logs and perform various actions on the selected log:
 
 * Aç (`` enter 'tuşuna basın)
 * sil (`Delete 'tuşuna basın)
-* copy the log file (press `control+C`)
+* günlük dosyasını kopyala (`kontrol+C`)
 
 You can also select multiple logs to perform an actions on all of them.
 
@@ -252,9 +252,9 @@ For example, the script allows you to execute new imports and define aliases tha
     kda = Kod Dosyasını Aç
 
 Python konsol komut dosyası şu konuma yerleştirilmelidir: `pathToNVDAConfig\ndtt\consoleStartup.py`
-For example: `C:\Users\myUserName\AppData\Roaming\nvda\ndtt\consoleStartup.py`
+Örneğin: `C:\Users\kullanıcıadı\AppData\Roaming\nvda\ndtt\consoleStartup.py`
 
-## Log the stack trace of the speech function
+## Konuşma işlevinin yığın izlemesini günlüğe kaydet
 
 Sometimes, you may want to see which part of the code is responsible for speaking something.
 For this, you can enable the stack trace logging of the speech function pressing `NVDA+X, S`.
@@ -299,7 +299,7 @@ This settings dialog can also be accessed directly from the Logs Manager dialog.
 These settings are global and can only be configured when the default profile is active.
 
 <a id="settingsOpenCommand"></a>
-### Command to open a file in your favorite editor
+### Favori düzenleyicinizde bir dosya açma komutu
 
 Some features allow to see content in your favorite editor.
 This includes the commands to view the source file [from a log](#logReaderOpenSourceFile), [from an object in the console](#pythonConsoleOpenCodeFile) or [from a typed gesture](#scriptOpener), as well as the [log manager](#oldLogsBackup)'s Open button.
@@ -325,14 +325,14 @@ Of course, replace the path of NVDA source with the correct one.
 Be sure however that the version of your source file (e.g. GIT commit) is the same as the one of the running instance of NVDA.
 
 <a id="settingsLogsBackup"></a>
-### Backup of old logs
+### Eski günlük yedekleri
 
 The combobox Backup of old logs allows to enable or disable the [feature](#oldLogsBackup).
 If it is enabled, you can also specify below in "Limit the number of backups" the maximum number of backups you want to keep.
 These settings only take effect at next NVDA startup when the backup takes place.
 
 <a id="settingsCopyReverseTranslation"></a>
-### Copy reverse translation to clipboard
+### Ters çeviriyi panoya kopyala
 
 This option allows to choose if the [reverse translation command](#reverseTranslationCommand) also copies its result to the clipboard.
 
@@ -365,7 +365,7 @@ This option allows to choose if the [reverse translation command](#reverseTransl
 ### Sürüm 6.1
 
 * Opening the source file of an object located in the submodule of a package is now working.
-* Bugfix: The enhanced exit dialog can now be reopened and used as expected after having been closed. (contribution from Łukasz Golonka)
+* Hata düzeltmesi: Geliştirilmiş çıkış diyalog penceresi artık kapatıldıktan sonra yeniden açılabilir ve beklendiği gibi kullanılabilir. (Łukasz Golonka'nın katkısı)
 
 ### Sürüm 6.0
 
