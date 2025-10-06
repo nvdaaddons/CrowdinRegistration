@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="beepKeyboard.md" original="https://raw.githubusercontent.com/nvaccess/nvda/24669174c2da5be03fc2d9d45c93cd23ea6b4903/addons/beepKeyboard/beepKeyboard.md">
+<file id="beepKeyboard.md" original="https://raw.githubusercontent.com/nvaccess/nvda/b4b6067f5805f51fa6876a340c3fde9a38b47a31/addons/beepKeyboard/beepKeyboard.md">
 <skeleton>
 # $(ID:3de31c59-6cd5-4f97-8c38-1e8de8d51d7c)
 $(ID:d5ee4d19-4634-4461-87d4-f79727c596f4)
@@ -25,8 +25,8 @@ $(ID:d551a495-a5d1-4535-bfca-77d7b489b95a)
 $(ID:76cf5185-83dd-43cd-a910-c50b1f32b717)
 
 ## $(ID:ca1a6d1c-0b2b-4fca-8c78-14adcce918c8)
-$(ID:b1c9ebbc-4cb4-466c-897a-7a04de38d72d)
-$(ID:1734db56-2bce-4ae9-b167-b90e6fc2c2a2)
+$(ID:10917b71-4700-48c1-9eea-f927fbc18a4d)
+$(ID:8ba59dda-c1d6-4afb-97d5-20f618bdbb64)
 $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 
 * $(ID:1e202b4e-613a-40b3-b5c7-76da7cc535cc)
@@ -36,7 +36,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 * $(ID:fff716b1-e8a8-4426-9e38-c22d21cb1146)
 * $(ID:27246a2a-bf82-46d8-95c1-6f8a73e0cea4)
 * $(ID:3a40b608-f435-48d4-8a95-1af6fe35a20e)
-* $(ID:24c7a471-6e2d-4247-af8f-120c076a8396)
+* $(ID:d0e010e1-dfd5-4a37-931c-1e89e26acec7)
 
 </skeleton>
 <unit id="3de31c59-6cd5-4f97-8c38-1e8de8d51d7c">
@@ -186,7 +186,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 <source>Usage</source>
 </segment>
 </unit>
-<unit id="b1c9ebbc-4cb4-466c-897a-7a04de38d72d">
+<unit id="10917b71-4700-48c1-9eea-f927fbc18a4d">
 <notes>
 <note appliesTo="source">line: 25</note>
 </notes>
@@ -194,7 +194,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 <source>  To enable or disable features, go to NVDA settings and select beep keyboard category. In that category you can configure all  supported features by this add-on.</source>
 </segment>
 </unit>
-<unit id="1734db56-2bce-4ae9-b167-b90e6fc2c2a2">
+<unit id="8ba59dda-c1d6-4afb-97d5-20f618bdbb64">
 <notes>
 <note appliesTo="source">line: 26</note>
 </notes>
@@ -273,7 +273,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 <source>Test tone: this button lets you to play a test with the current set parameters.</source>
 </segment>
 </unit>
-<unit id="24c7a471-6e2d-4247-af8f-120c076a8396">
+<unit id="d0e010e1-dfd5-4a37-931c-1e89e26acec7">
 <notes>
 <note appliesTo="source">line: 36</note>
 <note appliesTo="source">prefix: * </note>
