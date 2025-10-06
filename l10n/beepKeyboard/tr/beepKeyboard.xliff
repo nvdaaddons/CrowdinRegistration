@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="tr">
-  <file id="beepKeyboard.md" original="https://raw.githubusercontent.com/nvaccess/nvda/ec847d03a076f00dae35770e6f083432415e1e03/addons/beepKeyboard/beepKeyboard.md">
+  <file id="beepKeyboard.md" original="https://raw.githubusercontent.com/nvaccess/nvda/24669174c2da5be03fc2d9d45c93cd23ea6b4903/addons/beepKeyboard/beepKeyboard.md">
     <skeleton>
 # $(ID:3de31c59-6cd5-4f97-8c38-1e8de8d51d7c)
 $(ID:d5ee4d19-4634-4461-87d4-f79727c596f4)
@@ -25,8 +25,8 @@ $(ID:d551a495-a5d1-4535-bfca-77d7b489b95a)
 $(ID:76cf5185-83dd-43cd-a910-c50b1f32b717)
 
 ## $(ID:ca1a6d1c-0b2b-4fca-8c78-14adcce918c8)
-$(ID:2fd61d0d-5623-4854-bad1-7abb15ae8e43)
-$(ID:b5b81108-f591-4f7a-a4a0-c5c460104ade)
+$(ID:b1c9ebbc-4cb4-466c-897a-7a04de38d72d)
+$(ID:1734db56-2bce-4ae9-b167-b90e6fc2c2a2)
 $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 
 * $(ID:1e202b4e-613a-40b3-b5c7-76da7cc535cc)
@@ -36,7 +36,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 * $(ID:fff716b1-e8a8-4426-9e38-c22d21cb1146)
 * $(ID:27246a2a-bf82-46d8-95c1-6f8a73e0cea4)
 * $(ID:3a40b608-f435-48d4-8a95-1af6fe35a20e)
-* $(ID:3af0f16a-3290-4a91-ac9e-4a1b17df90cf)
+* $(ID:24c7a471-6e2d-4247-af8f-120c076a8396)
 
 </skeleton>
     <unit id="3de31c59-6cd5-4f97-8c38-1e8de8d51d7c">
@@ -204,16 +204,16 @@ Windows'un erişim kolaylığı merkezinde bu tuşlar açılıp kapandığında 
         <target>Kullanım</target>
       </segment>
     </unit>
-    <unit id="2fd61d0d-5623-4854-bad1-7abb15ae8e43">
+    <unit id="b1c9ebbc-4cb4-466c-897a-7a04de38d72d">
       <notes>
         <note appliesTo="source">line: 25</note>
       </notes>
       <segment state="translated">
         <source>  To enable or disable features, go to NVDA settings and select beep keyboard category. In that category you can configure all  supported features by this add-on.</source>
-        <target>  Özellikleri etkinleştirmek veya devre dışı bırakmak için NVDA ayarlarına gidin ve Sesli Klavye kategorisini seçin. Bu kategoride, bu eklenti tarafından desteklenen tüm özellikleri yapılandırabilirsiniz.</target>
+        <target>  Özellikleri etkinleştirmek veya devre dışı bırakmak için NVDA ayarlarına gidin ve Sesl Klavye kategorisini seçin. Bu kategoride, desteklenen tüm özellikleri bu eklenti ile yapılandırabilirsiniz.</target>
       </segment>
     </unit>
-    <unit id="b5b81108-f591-4f7a-a4a0-c5c460104ade">
+    <unit id="1734db56-2bce-4ae9-b167-b90e6fc2c2a2">
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
@@ -301,14 +301,14 @@ Windows'un erişim kolaylığı merkezinde bu tuşlar açılıp kapandığında 
         <target>Sesi test et: Yaptığınız ayarlarla seçtiğiniz sesi dinlemenize yarar.</target>
       </segment>
     </unit>
-    <unit id="3af0f16a-3290-4a91-ac9e-4a1b17df90cf">
+    <unit id="24c7a471-6e2d-4247-af8f-120c076a8396">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
         <source>Press OK button to save settings or cancel to discard.</source>
-        <target>Ayarları kaydetmek için Tamam ve kaydetmeden çıkmak için İptal düğmelerini kullanın.</target>
+        <target>Ayarları kaydetmek için Tamam düğmesine veya kaydetmeden çıkmak için İptal düğmesine basın.</target>
       </segment>
     </unit>
   </file>

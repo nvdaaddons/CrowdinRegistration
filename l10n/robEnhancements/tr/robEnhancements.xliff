@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="tr">
-  <file id="robEnhancements.md" original="https://raw.githubusercontent.com/nvaccess/nvda/8f608df65a39799aa979f911d6167019280780e0/addons/robEnhancements/robEnhancements.md">
+  <file id="robEnhancements.md" original="https://raw.githubusercontent.com/nvaccess/nvda/24669174c2da5be03fc2d9d45c93cd23ea6b4903/addons/robEnhancements/robEnhancements.md">
     <skeleton>
 # $(ID:2c986f19-ca29-4717-934f-9c30f0d188df)
 
@@ -12,7 +12,7 @@
 ## $(ID:67d16a84-7c59-4978-b6ad-4672cc361d2b)
 
 * $(ID:2deb110d-150a-446a-9083-d42f241fcdd8)
-* $(ID:36647f2c-145d-4215-a2d9-a8174ad3fa62)
+* $(ID:86e9f8f9-6f63-42d9-8396-9d888df7b44e)
 
 </skeleton>
     <unit id="2c986f19-ca29-4717-934f-9c30f0d188df">
@@ -75,7 +75,7 @@
         <target>Boş klasörler genellikle tanınır.</target>
       </segment>
     </unit>
-    <unit id="36647f2c-145d-4215-a2d9-a8174ad3fa62">
+    <unit id="86e9f8f9-6f63-42d9-8396-9d888df7b44e">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
