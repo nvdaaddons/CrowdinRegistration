@@ -25,19 +25,21 @@ runs:
       id: commit
       shell: bash
       run: |
+        rm -rf addon
+        mkdir addon
         if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc ]; then
-        mv -u -f ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc addon
+        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc addon
         else
         echo "No translated documentation for this add-on"
         fi
         if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale ]; then
-        mv -u -f ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale addon
+        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale addon
         else
         echo "No translated interface messages for this add-on"
         fi
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
-        git add addon
+        git add --ignore-removal addon
         if git diff --staged --quiet; then
         echo "Nothing added to commit."
         else
