@@ -55,7 +55,7 @@ Aşağıdaki seçenekleri yapılandırmak için NVDA’nın Tercihler menüsünd
   - hwf1324: Kod katkısı sağlayan
   - Ibrahim Hamadeh: Kod katkısı sağlayan
 
-- **Yerelleştirme Katkıda bulunanlar:**
+- **Yerelleştirmeye Katkıda Bulunanlar:**
   - Ibrahim Hamadeh: Arapça çeviriler
   - VovaMobile: Ukrayna çeviriler
 

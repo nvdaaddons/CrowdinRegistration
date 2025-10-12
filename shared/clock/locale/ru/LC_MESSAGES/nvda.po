@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-09-14 17:01+0000\n"
-"PO-Revision-Date: 2025-09-28 16:53\n"
+"PO-Revision-Date: 2025-10-12 09:29\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -74,7 +74,7 @@ msgstr "Произносит текущее время. При быстром н
 #: addon/globalPlugins/clock/__init__.py:273
 #, python-brace-format
 msgid "Day {day}, week {week} of {year}, remaining days {remain}."
-msgstr "День {day}, неделю {week} от {year} года, оставшихся дней {remain}."
+msgstr "День {day}, неделя {week} от {year} года, оставшихся дней {remain}."
 
 #. Translators: Message presented in input help mode.
 #: addon/globalPlugins/clock/__init__.py:315
@@ -107,7 +107,7 @@ msgstr "Сообщает текущее время таймера или сек�
 #. Translators: Message presented in input help mode.
 #: addon/globalPlugins/clock/__init__.py:353
 msgid "Gives the remaining and elapsed time before the next alarm."
-msgstr "Предоставляет прошедшее и оставшееся время до срабатывания следующего будильника."
+msgstr "Сообщает прошедшее и оставшееся время до срабатывания следующего будильника."
 
 #: addon/globalPlugins/clock/__init__.py:360
 #: addon/globalPlugins/clock/__init__.py:411
