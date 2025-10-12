@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="Access8Math.md" original="https://raw.githubusercontent.com/nvaccess/nvda/77b77de9e7f5cf5e63fdc24697cda66a2f382dcf/addons/Access8Math/Access8Math.md">
+<file id="Access8Math.md" original="https://raw.githubusercontent.com/nvaccess/nvda/b4b6067f5805f51fa6876a340c3fde9a38b47a31/addons/Access8Math/Access8Math.md">
 <skeleton>
 # $(ID:1333314d-c11d-466d-ac23-587d40dc0005)
 
@@ -67,7 +67,7 @@ $(ID:28e05da5-1c10-43ca-8121-031002ecc2d3)
 
 #### $(ID:eaf57e5a-0b2b-470e-9c41-573b2f3b184e)
 
-$(ID:38b03100-9f37-4a06-aa7b-b8a66fd00fc9)
+$(ID:875d2409-5da6-4776-a405-9e9622f19e57)
 
 $(ID:01882746-eecd-4935-b080-9b63653fe099)
 
@@ -75,13 +75,13 @@ $(ID:22a087a6-fdfc-45fa-aacf-77697b9d7a62)
 
 #### $(ID:db097360-399f-4660-a0fa-35dcc772f600)
 
-$(ID:449a18c7-7294-421f-a630-1594543d8760)
+$(ID:056be58a-de32-45f6-aa66-f674952453fd)
 
 $(ID:85d77739-d7ed-45a9-a343-950f42dd0125)
 
 #### $(ID:d1637f69-2458-49cd-9f65-c5bb9d495daa)
 
-$(ID:2cb34d3d-4f4e-4b94-877b-73be7fef156b)
+$(ID:b164aa24-0e41-4719-92cc-9fb3c3790ef2)
 
 $(ID:8d0e0888-6f7e-4e84-b180-130efa0c976c)
 
@@ -188,7 +188,7 @@ $(ID:6b08d3ed-a4fc-48e1-9dc5-22e151813a0e)
 
 $(ID:da881966-398e-4b99-aa35-92e597350cc3)
 
-### $(ID:ac7618f4-9a1b-4df7-994c-f20e147d6671)
+### $(ID:f2a02cd4-4d95-4c29-baa5-9d962c7b4a25)
 
 $(ID:9ffa8c20-d92d-4850-bb83-bd1045fb5b5d)
 
@@ -1005,7 +1005,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>Mathematical Structure Analysis</source>
 </segment>
 </unit>
-<unit id="38b03100-9f37-4a06-aa7b-b8a66fd00fc9">
+<unit id="875d2409-5da6-4776-a405-9e9622f19e57">
 <notes>
 <note appliesTo="source">line: 67</note>
 </notes>
@@ -1038,7 +1038,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>Simplified Speech Outputs</source>
 </segment>
 </unit>
-<unit id="449a18c7-7294-421f-a630-1594543d8760">
+<unit id="056be58a-de32-45f6-aa66-f674952453fd">
 <notes>
 <note appliesTo="source">line: 75</note>
 </notes>
@@ -1063,7 +1063,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>Pauses Between Segments</source>
 </segment>
 </unit>
-<unit id="2cb34d3d-4f4e-4b94-877b-73be7fef156b">
+<unit id="b164aa24-0e41-4719-92cc-9fb3c3790ef2">
 <notes>
 <note appliesTo="source">line: 81</note>
 </notes>
@@ -1672,7 +1672,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>When the editing cursor is in the LaTeX block, press a letter key to quickly insert the LaTeX markup of the corresponding Greek letter. See the "Appendix" of this document for Alphabet to Greek Alphabet Table.</source>
 </segment>
 </unit>
-<unit id="ac7618f4-9a1b-4df7-994c-f20e147d6671">
+<unit id="f2a02cd4-4d95-4c29-baa5-9d962c7b4a25">
 <notes>
 <note appliesTo="source">line: 188</note>
 <note appliesTo="source">prefix: ### </note>
