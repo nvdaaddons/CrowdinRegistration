@@ -22,7 +22,7 @@ Windows'un erişim kolaylığı merkezinde bu tuşlar açılıp kapandığında 
   Özelliği NVDA eklentisi olarak yükleyebilirsiniz.
 
 ## Kullanım
-  Özellikleri etkinleştirmek veya devre dışı bırakmak için NVDA ayarlarına gidin ve Sesli Klavye kategorisini seçin. Bu kategoride, bu eklenti tarafından desteklenen tüm özellikleri yapılandırabilirsiniz.
+  Özellikleri etkinleştirmek veya devre dışı bırakmak için NVDA ayarlarına gidin ve Sesli klavye kategorisini seçin. Bu kategoride, bu eklenti tarafından desteklenen tüm özellikleri yapılandırabilirsiniz.
   "Büyük harf kilidi açıkken büyük harfler için bip sesi" varsayılan olarak etkindir.
   Daha fazla ayarlama yapmak istiyorsanız aşağıdaki seçenekleri içeren gelişmiş ayarlar iletişim kutusunu kullanın:
 
@@ -33,4 +33,4 @@ Windows'un erişim kolaylığı merkezinde bu tuşlar açılıp kapandığında 
 * Ses uzunluğu: Seçtiğiniz sesin uzunluğunu ayarlamanıza yarar.
 * Ses yüksekliği: Seçtiğiniz sesin yüksekliğini ayarlamanıza yarar.
 * Sesi test et: Yaptığınız ayarlarla seçtiğiniz sesi dinlemenize yarar.
-* Ayarları kaydetmek için Tamam ve kaydetmeden çıkmak için İptal düğmelerini kullanın.
+* Ayarları kaydetmek için Tamam düğmesine veya kaydetmeden çıkmak için İptal düğmesine basın.

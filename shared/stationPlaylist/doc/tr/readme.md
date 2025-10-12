@@ -206,10 +206,11 @@ Belirli programların ayarlarını yayın profillerine kaydedebilirsiniz. Bu pro
 
 Studio'yu NVDA kurulu dokunmatik ekranlı bir bilgisayarda kullanıyorsanız, bazı Studio komutlarını dokunmatik ekrandan gerçekleştirebilirsiniz. Önce SPL moduna geçmek için üç parmakla dokunmayı kullanın, ardından komutları gerçekleştirmek için yukarıda listelenen dokunma komutlarını kullanın.
 
-## Sürüm 25.11/25.06.8-LTS
+## Sürüm 25.10/25.06.8-LTS
 
-* 25.11: hata ayıklama günlüğü etkinleştirildiğinde, NVDA artık Studio API'ye özel hata ayıklama mesajlarını kaydetmeyecektir. Studio API hata ayıklama mesajlarını dahil etmek için yeni bir komut satırı seçeneği (--spl-apidebug) eklendi ve eklenti geliştiricileri tarafından yönlendirildiği şekilde kullanılmalıdır.
+* 25.10: Hata ayıklama günlüğü etkinken, NVDA artık Studio API'ye özgü hata ayıklama mesajlarını kaydetmeyecek. Studio API hata ayıklama mesajlarını içerecek şekilde yeni bir komut satırı seçeneği (--spl-apideBug) eklendi ve eklenti geliştiricileri tarafından yönlendirildiği gibi kullanılmalıdır.
 * Studio'da, parça bulucudaki arama geçmişi (Kontrol+NVDA+F), NVDA'nın kendi bul iletişim kutusu deneyimiyle uyumlu hale getirmek için bir arama düzenleme alanıyla değiştirilir.
+* Studio'da, braille zamanlayıcı etkinleştirildiğinde, NVDA, parçanın kalan süresini görüntülemek yerine, görüntülenen değer parçanın/şarkının sonundaki rampa alarm değerinin altına düştüğünde yalnızca kalan parça/giriş süresini duyurur.
 
 ## Sürüm 25.09/25.06.6-LTS
 
