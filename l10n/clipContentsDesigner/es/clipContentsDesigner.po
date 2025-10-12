@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-08-26 05:17+0000\n"
-"PO-Revision-Date: 2025-09-28 16:53\n"
+"PO-Revision-Date: 2025-10-12 09:29\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -29,7 +29,7 @@ msgstr "Este complemento te permite confirmar si quieres copiar y cortar, reempl
 #. Translators: title of a dialog.
 #: addon/installTasks.py:46
 msgid "Configure Emulate copy and cut"
-msgstr "Configurar emular copiar y cortar"
+msgstr "Configurar Emular copiar y cortar"
 
 #. Translators: label of a dialog.
 #: addon/globalPlugins/clipContentsDesigner/__init__.py:35
