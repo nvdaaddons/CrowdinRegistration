@@ -93,7 +93,7 @@ jobs:
         if: ${{ inputs.update }}
         run: |
           uv run ./utils/markdownTranslate.py updateXliff -x addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff -m addons/${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
-          mv ${{ inputs.repo}}.xliff.temp addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff          
+          mv -u ${{ inputs.repo}}.xliff.temp addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff          
       - name: Commit add-on
         id: commitAddon
         run: |
