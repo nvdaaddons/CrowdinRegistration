@@ -26,12 +26,12 @@ runs:
       shell: bash
       run: |
         if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc ]; then
-        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc addon
+        mv -u -f${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc addon
         else
         echo "No translated documentation for this add-on"
         fi
         if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale ]; then
-        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale addon
+        mv -u -f ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale addon
         else
         echo "No translated interface messages for this add-on"
         fi
