@@ -19,6 +19,7 @@ runs:
     - name: Checkout repo
       uses: actions/checkout@v5
       with:
+        repository: nvdaaddons/crowdinRegistration
         path: ${{ inputs.path }}
     - name: Commit and push add-on with translations
       id: commit
