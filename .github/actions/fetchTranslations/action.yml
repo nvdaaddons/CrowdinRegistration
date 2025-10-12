@@ -1,0 +1,46 @@
+name: 'Fetch translations'
+
+description: 'Import translations from the crowdinRegistration repo to an add-on'
+
+inputs:
+  path:
+    description: 'Path to store the crowdinRegistration repo'
+    required: true
+    default: 'crowdinRegistration'
+  addonRepoName:
+    description: 'The name of the add-on repository'
+    required: true
+    default: ${{ github.event.repository.name }}
+
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout repo
+      uses: actions/checkout@v5
+      with:
+        path: ${{ inputs.path }}
+    - name: Commit and push add-on with translations
+      id: commit
+      shell: bash
+      run: |
+        if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc ]; then
+        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc addon
+        else
+        echo "No translated documentation for this add-on"
+        fi
+        if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale ]; then
+        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale addon
+        else
+        echo "No translated interface messages for this add-on"
+        fi
+        git config --local user.name github-actions
+        git config --local user.email github-actions@github.com
+        git add addon
+        if git diff --staged --quiet; then
+        echo "Nothing added to commit."
+        else
+        git status
+        git commit -m "Update translations from Crowdin"
+        git push
+        fi
