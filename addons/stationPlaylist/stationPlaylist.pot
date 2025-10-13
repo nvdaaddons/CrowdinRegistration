@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stationPlaylist 25.10\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-10-06 04:09+0000\n"
+"POT-Creation-Date: 2025-10-13 04:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -226,7 +226,7 @@ msgstr ""
 #. to be shown on installation and add-on information found in add-on store
 #: addon/appModules/splcommon/splbase.py:155
 #: addon/appModules/splstudio/__init__.py:364
-#: addon/appModules/splstudio/__init__.py:569
+#: addon/appModules/splstudio/__init__.py:461
 #: addon/appModules/splengine/encoders.py:470
 #: addon/appModules/splengine/encoders.py:489
 #: addon/appModules/splengine/encoders.py:506
@@ -504,7 +504,7 @@ msgstr ""
 
 #. Translators: title of a panel to configure playlist snapshot information.
 #: addon/appModules/splstudio/splconfui.py:706
-#: addon/appModules/splstudio/__init__.py:2055
+#: addon/appModules/splstudio/__init__.py:1944
 msgid "Playlist snapshots"
 msgstr ""
 
@@ -1126,7 +1126,7 @@ msgid ""
 msgstr ""
 
 #. Translators: error dialog shown when a broadcaster is running an unsupported STduio release.
-#: addon/appModules/splstudio/__init__.py:585
+#: addon/appModules/splstudio/__init__.py:477
 #, python-brace-format
 msgid ""
 "You are using an unsupported version of {appName}. This add-on requires "
@@ -1134,557 +1134,557 @@ msgid ""
 msgstr ""
 
 #. Translators: the title of the app version error dialog.
-#: addon/appModules/splstudio/__init__.py:590
+#: addon/appModules/splstudio/__init__.py:482
 #, python-brace-format
 msgid "Unsupported {appName} release"
 msgstr ""
 
 #. Translators: the label for a menu item in NVDA Preferences menu
 #. to open SPL Studio add-on settings.
-#: addon/appModules/splstudio/__init__.py:626
+#: addon/appModules/splstudio/__init__.py:518
 msgid "SPL Studio Settings..."
 msgstr ""
 
 #. Translators: tooltip for SPL Studio settings dialog.
-#: addon/appModules/splstudio/__init__.py:628
+#: addon/appModules/splstudio/__init__.py:520
 msgid "SPL settings"
 msgstr ""
 
-#: addon/appModules/splstudio/__init__.py:905
+#: addon/appModules/splstudio/__init__.py:794
 #, python-brace-format
 msgid "Scan complete with {scanCount} items"
 msgstr ""
 
 #. Translators: Presented when cart modes are toggled while cart explorer is on.
-#: addon/appModules/splstudio/__init__.py:999
+#: addon/appModules/splstudio/__init__.py:888
 msgid "Cart explorer is active"
 msgstr ""
 
 #. Translators: Presented when microphone was on for more than a specified time in microphone alarm dialog.
-#: addon/appModules/splstudio/__init__.py:1016
+#: addon/appModules/splstudio/__init__.py:905
 msgid "Warning: Microphone active"
 msgstr ""
 
-#: addon/appModules/splstudio/__init__.py:1064
+#: addon/appModules/splstudio/__init__.py:953
 #, python-brace-format
 msgid "Warning: {seconds} sec left in track introduction"
 msgstr ""
 
 #. Translators: Presented when end of track is approaching.
-#: addon/appModules/splstudio/__init__.py:1068
+#: addon/appModules/splstudio/__init__.py:957
 #, python-brace-format
 msgid "Warning: {seconds} sec remaining"
 msgstr ""
 
 #. Add the human-readable representation also.
 #. Translators: the label for a dedicated touch mode for SPL Studio.
-#: addon/appModules/splstudio/__init__.py:1080
+#: addon/appModules/splstudio/__init__.py:969
 msgid "SPL mode"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1164
+#: addon/appModules/splstudio/__init__.py:1053
 msgid ""
 "Announces broadcaster time. If pressed twice, reports minutes and seconds "
 "left to top of the hour."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1202
+#: addon/appModules/splstudio/__init__.py:1091
 msgid "Announces time including seconds."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1215
+#: addon/appModules/splstudio/__init__.py:1104
 msgid "Opens SPL Studio alarms settings."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1225
+#: addon/appModules/splstudio/__init__.py:1114
 msgid "Opens SPL Studio add-on configuration dialog."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1235
+#: addon/appModules/splstudio/__init__.py:1124
 msgid "Opens SPL add-on broadcast profiles dialog."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1243
+#: addon/appModules/splstudio/__init__.py:1132
 msgid "Opens SPL Studio add-on welcome dialog."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1260
+#: addon/appModules/splstudio/__init__.py:1149
 msgid "Toggles between various braille timer settings."
 msgstr ""
 
 #. Translators: Standard dialog message when an item one wishes to search is not found
 #. (copy this from main nvda.po).
-#: addon/appModules/splstudio/__init__.py:1306
+#: addon/appModules/splstudio/__init__.py:1195
 #, python-format
 msgid "text \"%s\" not found"
 msgstr ""
 
 #. Translators: Presented when a user attempts to find tracks but is not at the track list.
-#: addon/appModules/splstudio/__init__.py:1346
+#: addon/appModules/splstudio/__init__.py:1235
 msgid "Track finder is available only in track list."
 msgstr ""
 
 #. Translators: Presented when a user attempts to find tracks but is not at the track list.
-#: addon/appModules/splstudio/__init__.py:1349
+#: addon/appModules/splstudio/__init__.py:1238
 msgid "Column search is available only in track list."
 msgstr ""
 
 #. Translators: Presented when a user attempts to find tracks but is not at the track list.
-#: addon/appModules/splstudio/__init__.py:1352
+#: addon/appModules/splstudio/__init__.py:1241
 msgid "Time range finder is available only in track list."
 msgstr ""
 
 #. Translators: Presented when a user wishes to find a track but didn't add any tracks.
-#: addon/appModules/splstudio/__init__.py:1359
+#: addon/appModules/splstudio/__init__.py:1248
 msgid "You need to add at least one track to find tracks."
 msgstr ""
 
 #. Translators: Title for track finder dialog.
-#: addon/appModules/splstudio/__init__.py:1367
+#: addon/appModules/splstudio/__init__.py:1256
 msgid "Find track"
 msgstr ""
 
 #. Translators: Title for column search dialog.
-#: addon/appModules/splstudio/__init__.py:1370
+#: addon/appModules/splstudio/__init__.py:1259
 msgid "Column search"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1412
+#: addon/appModules/splstudio/__init__.py:1301
 msgid "Finds a track in the track list."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1420
+#: addon/appModules/splstudio/__init__.py:1309
 msgid "Finds text in columns."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1427
+#: addon/appModules/splstudio/__init__.py:1316
 msgid "Finds the next occurrence of the track with the name in the track list."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1435
+#: addon/appModules/splstudio/__init__.py:1324
 msgid "Finds previous occurrence of the track with the name in the track list."
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1446
+#: addon/appModules/splstudio/__init__.py:1335
 msgid "Locates track with duration within a time range"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1481
+#: addon/appModules/splstudio/__init__.py:1370
 msgid "Toggles cart explorer to learn cart assignments."
 msgstr ""
 
 #. Translators: Presented when cart explorer cannot be entered.
-#: addon/appModules/splstudio/__init__.py:1492
+#: addon/appModules/splstudio/__init__.py:1381
 msgid "You are not in playlist viewer, cannot enter cart explorer"
 msgstr ""
 
 #. Translators: presented when cart explorer could not be switched on.
-#: addon/appModules/splstudio/__init__.py:1501
+#: addon/appModules/splstudio/__init__.py:1390
 msgid "Some or all carts could not be assigned, cannot enter cart explorer"
 msgstr ""
 
 #. Translators: Presented when cart explorer is on.
-#: addon/appModules/splstudio/__init__.py:1507
+#: addon/appModules/splstudio/__init__.py:1396
 msgid "Entering cart explorer"
 msgstr ""
 
 #. Translators: Presented when cart explorer is off.
-#: addon/appModules/splstudio/__init__.py:1514
+#: addon/appModules/splstudio/__init__.py:1403
 msgid "Exiting cart explorer"
 msgstr ""
 
 #. Translators: Presented when cart command is unavailable.
-#: addon/appModules/splstudio/__init__.py:1529
+#: addon/appModules/splstudio/__init__.py:1418
 msgid "Cart command unavailable"
 msgstr ""
 
 #. Translators: Presented when there is no cart assigned to a cart command.
-#: addon/appModules/splstudio/__init__.py:1532
+#: addon/appModules/splstudio/__init__.py:1421
 msgid "Cart unassigned"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1541
+#: addon/appModules/splstudio/__init__.py:1430
 msgid "Toggles library scan progress settings."
 msgstr ""
 
 #. Translators: Presented when library scan has started.
-#: addon/appModules/splstudio/__init__.py:1563
+#: addon/appModules/splstudio/__init__.py:1452
 msgid "Scan start"
 msgstr ""
 
 #. Translators: Presented when library scanning is finished.
-#: addon/appModules/splstudio/__init__.py:1592
-#: addon/appModules/splstudio/__init__.py:2402
+#: addon/appModules/splstudio/__init__.py:1481
+#: addon/appModules/splstudio/__init__.py:2291
 #, python-brace-format
 msgid "{itemCount} items in the library"
 msgstr ""
 
-#: addon/appModules/splstudio/__init__.py:1638
+#: addon/appModules/splstudio/__init__.py:1527
 #, python-brace-format
 msgid "Scan complete with {itemCount} items"
 msgstr ""
 
-#: addon/appModules/splstudio/__init__.py:1648
+#: addon/appModules/splstudio/__init__.py:1537
 msgid "Scanning"
 msgstr ""
 
 #. Translators: Presented when library scan is in progress.
-#: addon/appModules/splstudio/__init__.py:1657
+#: addon/appModules/splstudio/__init__.py:1546
 #, python-brace-format
 msgid "{itemCount} items scanned"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:1690
+#: addon/appModules/splstudio/__init__.py:1579
 msgid "Opens a dialog to quickly enable or disable metadata streaming."
 msgstr ""
 
 #. Translators: Presented when streaming dialog cannot be shown.
-#: addon/appModules/splstudio/__init__.py:1696
+#: addon/appModules/splstudio/__init__.py:1585
 msgid "Cannot open metadata streaming dialog"
 msgstr ""
 
 #. Translators: an error message presented when performing some playlist commands
 #. while focused on places other than Playlist Viewer.
-#: addon/appModules/splstudio/__init__.py:1736
+#: addon/appModules/splstudio/__init__.py:1625
 msgid "Please return to playlist viewer before invoking this command."
 msgstr ""
 
 #. Translators: an error message presented when performing some playlist commands
 #. while no playlist has been loaded.
-#: addon/appModules/splstudio/__init__.py:1742
+#: addon/appModules/splstudio/__init__.py:1631
 msgid "No playlist has been loaded."
 msgstr ""
 
 #. Translators: an error message presented when performing some playlist commands
 #. while no tracks are selected/focused.
-#: addon/appModules/splstudio/__init__.py:1748
+#: addon/appModules/splstudio/__init__.py:1637
 msgid ""
 "Please select a track from playlist viewer before invoking this command."
 msgstr ""
 
 #. Translators: Presented when playlist analyzer cannot be performed
 #. because user is not focused on playlist viewer.
-#: addon/appModules/splstudio/__init__.py:1769
+#: addon/appModules/splstudio/__init__.py:1658
 msgid "Not in playlist viewer, cannot perform playlist analysis."
 msgstr ""
 
 #. Translators: reported when no playlist has been loaded when trying to perform playlist analysis.
-#: addon/appModules/splstudio/__init__.py:1773
+#: addon/appModules/splstudio/__init__.py:1662
 msgid "No playlist to analyze."
 msgstr ""
 
 #. Translators: Presented when playlist analysis cannot be activated.
-#: addon/appModules/splstudio/__init__.py:1777
+#: addon/appModules/splstudio/__init__.py:1666
 msgid "No tracks are selected, cannot perform playlist analysis."
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing total number of items in a playlist.
-#: addon/appModules/splstudio/__init__.py:1902
+#: addon/appModules/splstudio/__init__.py:1791
 #, python-brace-format
 msgid "Items: {playlistItemCount}"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing total number of tracks in a playlist.
-#: addon/appModules/splstudio/__init__.py:1907
+#: addon/appModules/splstudio/__init__.py:1796
 #, python-brace-format
 msgid "Tracks: {playlistTrackCount}"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing total duration of a playlist.
-#: addon/appModules/splstudio/__init__.py:1912
+#: addon/appModules/splstudio/__init__.py:1801
 #, python-brace-format
 msgid "Duration: {playlistTotalDuration}"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing shortest track name and duration of a playlist.
-#: addon/appModules/splstudio/__init__.py:1920
+#: addon/appModules/splstudio/__init__.py:1809
 #, python-brace-format
 msgid "Shortest: {playlistShortestTrack}"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing longest track name and duration of a playlist.
-#: addon/appModules/splstudio/__init__.py:1927
+#: addon/appModules/splstudio/__init__.py:1816
 #, python-brace-format
 msgid "Longest: {playlistLongestTrack}"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing average duration for tracks in a playlist.
-#: addon/appModules/splstudio/__init__.py:1935
+#: addon/appModules/splstudio/__init__.py:1824
 #, python-brace-format
 msgid "Average: {playlistAverageDuration}"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing top artist in a playlist.
-#: addon/appModules/splstudio/__init__.py:1948
+#: addon/appModules/splstudio/__init__.py:1837
 msgid "Top artist: {} ({})"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. when there is no top artist.
-#: addon/appModules/splstudio/__init__.py:1954
+#: addon/appModules/splstudio/__init__.py:1843
 msgid "Top artist: none"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. when there is no top artist (formatted for browse mode).
-#: addon/appModules/splstudio/__init__.py:1961
+#: addon/appModules/splstudio/__init__.py:1850
 msgid "Top artists: none"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature,
 #. a heading for a group of items.
-#: addon/appModules/splstudio/__init__.py:1967
+#: addon/appModules/splstudio/__init__.py:1856
 msgid "Top artists:"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. when there is no artist information.
-#: addon/appModules/splstudio/__init__.py:1973
+#: addon/appModules/splstudio/__init__.py:1862
 #, python-brace-format
 msgid "No artist information ({artistCount})"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for artist count information.
-#: addon/appModules/splstudio/__init__.py:1977
+#: addon/appModules/splstudio/__init__.py:1866
 #, python-brace-format
 msgid "{artistName} ({artistCount})"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing top track category in a playlist.
-#: addon/appModules/splstudio/__init__.py:1991
+#: addon/appModules/splstudio/__init__.py:1880
 msgid "Top category: {} ({})"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature,
 #. a heading for a group of items.
-#: addon/appModules/splstudio/__init__.py:1997
+#: addon/appModules/splstudio/__init__.py:1886
 msgid "Categories:"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for category count information.
-#: addon/appModules/splstudio/__init__.py:2004
+#: addon/appModules/splstudio/__init__.py:1893
 #, python-brace-format
 msgid "{categoryName} ({categoryCount})"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for announcing top genre in a playlist.
-#: addon/appModules/splstudio/__init__.py:2017
+#: addon/appModules/splstudio/__init__.py:1906
 msgid "Top genre: {} ({})"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. when there is no top genre.
-#: addon/appModules/splstudio/__init__.py:2023
+#: addon/appModules/splstudio/__init__.py:1912
 msgid "Top genre: none"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. when there is no top genre (formatted for browse mode).
-#: addon/appModules/splstudio/__init__.py:2030
+#: addon/appModules/splstudio/__init__.py:1919
 msgid "Top genres: none"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature,
 #. a heading for a group of items.
-#: addon/appModules/splstudio/__init__.py:2036
+#: addon/appModules/splstudio/__init__.py:1925
 msgid "Top genres:"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. when there is no genre information for an item.
-#: addon/appModules/splstudio/__init__.py:2042
+#: addon/appModules/splstudio/__init__.py:1931
 #, python-brace-format
 msgid "No genre information ({genreCount})"
 msgstr ""
 
 #. Translators: one of the results for playlist snapshots feature
 #. for genre count information.
-#: addon/appModules/splstudio/__init__.py:2046
+#: addon/appModules/splstudio/__init__.py:1935
 #, python-brace-format
 msgid "{genreName} ({genreCount})"
 msgstr ""
 
 #. Translators: Input help mode message for a layer command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:2108
+#: addon/appModules/splstudio/__init__.py:1997
 msgid ""
 "The SPL Assistant layer command. See the add-on guide for more information "
 "on available commands."
 msgstr ""
 
 #. Translators: Presented when SPL Assistant cannot be invoked.
-#: addon/appModules/splstudio/__init__.py:2121
+#: addon/appModules/splstudio/__init__.py:2010
 msgid "Failed to locate Studio main window, cannot enter SPL Assistant"
 msgstr ""
 
 #. Translators: presented when playlist modification message isn't shown.
-#: addon/appModules/splstudio/__init__.py:2273
+#: addon/appModules/splstudio/__init__.py:2162
 msgid "Playlist modification not available"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:2277
+#: addon/appModules/splstudio/__init__.py:2166
 msgid "Announces title of the next track if any"
 msgstr ""
 
 #. Translators: Presented when there is no information for the next track.
-#: addon/appModules/splstudio/__init__.py:2291
+#: addon/appModules/splstudio/__init__.py:2180
 msgid "No next track scheduled"
 msgstr ""
 
 #. Translators: Presented when next track information is unavailable.
-#: addon/appModules/splstudio/__init__.py:2301
+#: addon/appModules/splstudio/__init__.py:2190
 msgid "Cannot find next track information"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:2307
+#: addon/appModules/splstudio/__init__.py:2196
 msgid "Announces title of the currently playing track"
 msgstr ""
 
 #. Translators: Presented when current track information is unavailable.
-#: addon/appModules/splstudio/__init__.py:2331
+#: addon/appModules/splstudio/__init__.py:2220
 msgid "Cannot find current track information"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:2337
+#: addon/appModules/splstudio/__init__.py:2226
 msgid "Announces temperature and weather information"
 msgstr ""
 
 #. Translators: Presented when there is no weather or temperature information.
-#: addon/appModules/splstudio/__init__.py:2351
+#: addon/appModules/splstudio/__init__.py:2240
 msgid "Weather and temperature not configured"
 msgstr ""
 
 #. Translators: Presented when temperature information cannot be found.
-#: addon/appModules/splstudio/__init__.py:2354
+#: addon/appModules/splstudio/__init__.py:2243
 msgid "Weather information not found"
 msgstr ""
 
 #. Translators: Presented when there is no listener count information.
-#: addon/appModules/splstudio/__init__.py:2386
+#: addon/appModules/splstudio/__init__.py:2275
 msgid "Listener count not found"
 msgstr ""
 
 #. Translators: Presented when attempting to start library scan.
-#: addon/appModules/splstudio/__init__.py:2409
+#: addon/appModules/splstudio/__init__.py:2298
 msgid "Monitoring library scan"
 msgstr ""
 
 #. Translators: Presented when library scan is already in progress.
-#: addon/appModules/splstudio/__init__.py:2415
+#: addon/appModules/splstudio/__init__.py:2304
 msgid "Scanning is in progress"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:2419
+#: addon/appModules/splstudio/__init__.py:2308
 msgid ""
 "Marks focused track as start marker for various playlist analysis commands"
 msgstr ""
 
 #. Translators: Presented when track time analysis is turned on.
-#: addon/appModules/splstudio/__init__.py:2428
+#: addon/appModules/splstudio/__init__.py:2317
 msgid "Playlist analysis activated"
 msgstr ""
 
 #. Translators: Presented when track time analysis is turned off.
-#: addon/appModules/splstudio/__init__.py:2432
+#: addon/appModules/splstudio/__init__.py:2321
 msgid "Playlist analysis deactivated"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:2436
+#: addon/appModules/splstudio/__init__.py:2325
 msgid ""
 "Announces total length of tracks between analysis start marker and the "
 "current track"
 msgstr ""
 
 #. Translators: Presented when track time analysis cannot be used because start marker is not set.
-#: addon/appModules/splstudio/__init__.py:2444
+#: addon/appModules/splstudio/__init__.py:2333
 msgid ""
 "No track selected as start of analysis marker, cannot perform time analysis"
 msgstr ""
 
 #. Translators: Presented when time analysis is done for a number of tracks
 #. (example output: Tracks: 3, totaling 5:00).
-#: addon/appModules/splstudio/__init__.py:2462
+#: addon/appModules/splstudio/__init__.py:2351
 #, python-brace-format
 msgid "Tracks: {numberOfSelectedTracks}, totaling {totalTime}"
 msgstr ""
 
 #. Translators: Input help mode message for a command in StationPlaylist add-on.
-#: addon/appModules/splstudio/__init__.py:2469
+#: addon/appModules/splstudio/__init__.py:2358
 msgid ""
 "Presents playlist snapshot information such as number of tracks and top "
 "artists"
 msgstr ""
 
 #. Translators: Presented when place marker cannot be set.
-#: addon/appModules/splstudio/__init__.py:2535
+#: addon/appModules/splstudio/__init__.py:2424
 msgid "No tracks found, cannot set place marker"
 msgstr ""
 
 #. Translators: Presented when place marker track is set.
-#: addon/appModules/splstudio/__init__.py:2541
+#: addon/appModules/splstudio/__init__.py:2430
 msgid "place marker set"
 msgstr ""
 
 #. Translators: Presented when attempting to place a place marker on an unsupported track.
-#: addon/appModules/splstudio/__init__.py:2544
+#: addon/appModules/splstudio/__init__.py:2433
 msgid "This track cannot be used as a place marker track"
 msgstr ""
 
 #. Translators: Presented when no place marker is found.
-#: addon/appModules/splstudio/__init__.py:2560
-#: addon/appModules/splstudio/__init__.py:2565
+#: addon/appModules/splstudio/__init__.py:2449
+#: addon/appModules/splstudio/__init__.py:2454
 msgid "No place marker found"
 msgstr ""
 
 #. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/__init__.py:2578
+#: addon/appModules/splstudio/__init__.py:2467
 #, python-brace-format
 msgid "Metadata streaming on {URLPosition} enabled"
 msgstr ""
 
 #. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/__init__.py:2583
+#: addon/appModules/splstudio/__init__.py:2472
 #, python-brace-format
 msgid "Metadata streaming on {URLPosition} disabled"
 msgstr ""
 
 #. Translators: The title for SPL Assistant help screen.
-#: addon/appModules/splstudio/__init__.py:2589
+#: addon/appModules/splstudio/__init__.py:2478
 msgid "SPL Assistant help"
 msgstr ""
 
 #. Translators: The title for SPL Assistant help screen.
-#: addon/appModules/splstudio/__init__.py:2591
+#: addon/appModules/splstudio/__init__.py:2480
 msgid "SPL Assistant help for JAWS layout"
 msgstr ""
 
