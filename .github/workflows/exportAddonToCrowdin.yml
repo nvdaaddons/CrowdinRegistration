@@ -92,8 +92,13 @@ jobs:
       - name: update xliff
         if: ${{ inputs.update }}
         run: |
+          git add addons/${{ inputs.repo }}/${{ inputs.repo }}.md
+          if git diff --staged --quiet; then
+          echo "Nothing added to update."
+          else
           uv run ./utils/markdownTranslate.py updateXliff -x addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff -m addons/${{ inputs.repo }}/${{ inputs.repo }}.md -o ${{ inputs.repo }}.xliff.temp
           mv -u ${{ inputs.repo}}.xliff.temp addons/${{ inputs.repo }}/${{ inputs.repo }}.xliff          
+          fi
       - name: Commit add-on
         id: commitAddon
         run: |
