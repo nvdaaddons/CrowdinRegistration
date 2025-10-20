@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="tr">
-  <file id="tonysEnhancements.md" original="https://raw.githubusercontent.com/nvaccess/nvda/b4b6067f5805f51fa6876a340c3fde9a38b47a31/addons/tonysEnhancements/tonysEnhancements.md">
+  <file id="tonysEnhancements.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/tonysEnhancements/tonysEnhancements.md">
     <skeleton>
 # $(ID:6ebfb343-151a-446d-a8c9-a2b082c99915)
 $(ID:dd366ecb-96a8-4ed0-8f8c-3906fa6c2f07)
@@ -93,13 +93,13 @@ $(ID:6d7e61d1-4a2b-464e-914b-30f487df2c90)
 
 ## $(ID:88487208-4585-44a4-83fa-d87b4c9fc41a)
 
-$(ID:19858771-46e4-4faf-8660-65a1f2115a59)
+$(ID:4624f42f-74c2-4195-b177-71697864659d)
 
 $(ID:8620c947-89c4-4bbe-9fdb-117cc405b500)
 
 ## $(ID:1fabfcd8-c9f1-4f34-9fdd-35b297328281)
 
-$(ID:72197729-b35c-4c5e-82d5-b0739bb8076a)
+$(ID:ed7f5ca9-f558-493b-a0f5-858da628353c)
 
 $(ID:171c5deb-8cfc-484f-a74d-08a89039b170)
 
@@ -637,13 +637,13 @@ $(ID:1da3dcdf-3002-445d-9f81-815c3d127ae2)
         <target>Çift insert kısayolunu engelleme</target>
       </segment>
     </unit>
-    <unit id="19858771-46e4-4faf-8660-65a1f2115a59">
+    <unit id="4624f42f-74c2-4195-b177-71697864659d">
       <notes>
         <note appliesTo="source">line: 93</note>
       </notes>
       <segment state="translated">
         <source>In NVDA pressing Insert key twice in a row toggles insert mode in applications. However, sometimes it happens accidentally and it triggers insert mode. Since this is a special keystroke, it cannot be disabled in the settings. This add-on provides a way to block this keyboard shortcut. When double insert is blocked, insert mode can stil be toggled by pressing NVDA+F2 and then Insert.</source>
-        <target>NVDA'da Insert tuşuna arka arkaya iki kez basıldığında uygulamalarda ekleme modu etkinleştirilir. Ancak bazen bu işlem yanlışlıkla gerçekleşir ve ekleme modunu tetikler. Bu özel bir tuş vuruşu olduğu için ayarlardan devre dışı bırakılamaz. Bu eklenti, bu klavye kısayolunu engellemenin bir yolunu sunar. Çift ekleme engellendiğinde, NVDA+F2 ve ardından Insert tuşlarına basarak ekleme modu yine etkinleştirilebilir.</target>
+        <target>NVDA'da İnsört tuşuna art arda iki kez basıldığında uygulamalarda ekleme modu arasında geçiş yapılır. Ancak bazen yanlışlıkla olur ve ekleme modunu tetikler. Bu özel bir tuş vuruşu olduğundan ayarlardan devre dışı bırakılamaz. Bu eklenti, bu klavye kısayolunu engellemenin bir yolunu sağlar. Çift İnsört engellendiğinde, ekleme modu NVDA+F2 ve ardından Ekle tuşlarına basılarak değiştirilebilir.</target>
       </segment>
     </unit>
     <unit id="8620c947-89c4-4bbe-9fdb-117cc405b500">
@@ -665,13 +665,13 @@ $(ID:1da3dcdf-3002-445d-9f81-815c3d127ae2)
         <target>Büyük Harf Kilidi için çift tuş vuruşunu engelleme</target>
       </segment>
     </unit>
-    <unit id="72197729-b35c-4c5e-82d5-b0739bb8076a">
+    <unit id="ed7f5ca9-f558-493b-a0f5-858da628353c">
       <notes>
         <note appliesTo="source">line: 99</note>
       </notes>
       <segment state="translated">
         <source>In NVDA, when Caps Lock is set as an NVDA key, pressing it twice in a row toggles between uppercase and lowercase input modes. However, this can sometimes cause unintentional switching between these modes. Since this key’s behavior is unique and cannot be disabled through settings, this add-on offers a method to block this specific keyboard shortcut. When the double Caps Lock key press is blocked, you can still switch between uppercase and lowercase input modes by pressing NVDA+F2 followed by the Caps Lock key.</source>
-        <target>NVDA'da, Caps Lock NVDA tuşu olarak ayarlandığında, bu tuşa arka arkaya iki kez basıldığında büyük harf ve küçük harf giriş modları arasında geçiş yapılır. Ancak, bu bazen bu modlar arasında istenmeyen geçişlere neden olabilir. Bu tuşun davranışı benzersizdir ve ayarlar aracılığıyla devre dışı bırakılamaz, bu nedenle bu eklenti bu özel klavye kısayolunu engellemek için bir yöntem sunar. Caps Lock tuşuna iki kez basma engellendiğinde, NVDA+F2 tuşlarına basıp ardından Caps Lock tuşuna basarak büyük harf ve küçük harf giriş modları arasında geçiş yapmaya devam edebilirsiniz.</target>
+        <target>NVDA'da, Büyük Harf Kilidi bir NVDA tuşu olarak ayarlandığında, bu tuşa art arda iki kez basıldığında büyük harf ve küçük harf giriş modları arasında geçiş yapılır. Ancak bu durum bazen bu modlar arasında istenmeden geçiş yapılmasına neden olabilir. Bu tuşun davranışı benzersiz olduğundan ve ayarlar aracılığıyla devre dışı bırakılamadığından, bu eklenti, bu özel klavye kısayolunu engellemeye yönelik bir yöntem sunar. Büyük Harf Kilidi tuşuna çift basılması engellendiğinde, NVDA+F2 tuşlarına ve ardından Büyük Harf Kilidi tuşuna basarak büyük ve küçük harf giriş modları arasında geçiş yapabilirsiniz.</target>
       </segment>
     </unit>
     <unit id="171c5deb-8cfc-484f-a74d-08a89039b170">
