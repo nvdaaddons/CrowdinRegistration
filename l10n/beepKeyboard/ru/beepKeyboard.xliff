@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ru">
-  <file id="beepKeyboard.md" original="https://raw.githubusercontent.com/nvaccess/nvda/b4b6067f5805f51fa6876a340c3fde9a38b47a31/addons/beepKeyboard/beepKeyboard.md">
+  <file id="beepKeyboard.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/beepKeyboard/beepKeyboard.md">
     <skeleton>
 # $(ID:3de31c59-6cd5-4f97-8c38-1e8de8d51d7c)
 $(ID:d5ee4d19-4634-4461-87d4-f79727c596f4)
@@ -25,8 +25,8 @@ $(ID:d551a495-a5d1-4535-bfca-77d7b489b95a)
 $(ID:76cf5185-83dd-43cd-a910-c50b1f32b717)
 
 ## $(ID:ca1a6d1c-0b2b-4fca-8c78-14adcce918c8)
-$(ID:10917b71-4700-48c1-9eea-f927fbc18a4d)
-$(ID:8ba59dda-c1d6-4afb-97d5-20f618bdbb64)
+$(ID:a200fedc-8059-4a32-aff1-47fd5fb1a63a)
+$(ID:b8cd602b-a2e3-4682-8ba5-e93190957340)
 $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 
 * $(ID:1e202b4e-613a-40b3-b5c7-76da7cc535cc)
@@ -36,7 +36,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
 * $(ID:fff716b1-e8a8-4426-9e38-c22d21cb1146)
 * $(ID:27246a2a-bf82-46d8-95c1-6f8a73e0cea4)
 * $(ID:3a40b608-f435-48d4-8a95-1af6fe35a20e)
-* $(ID:d0e010e1-dfd5-4a37-931c-1e89e26acec7)
+* $(ID:e3267597-99fe-4071-a5df-4a53303af6a7)
 
 </skeleton>
     <unit id="3de31c59-6cd5-4f97-8c38-1e8de8d51d7c">
@@ -203,7 +203,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
         <target>Использование</target>
       </segment>
     </unit>
-    <unit id="10917b71-4700-48c1-9eea-f927fbc18a4d">
+    <unit id="a200fedc-8059-4a32-aff1-47fd5fb1a63a">
       <notes>
         <note appliesTo="source">line: 25</note>
       </notes>
@@ -212,7 +212,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
         <target>  Чтобы включать или отключать возможности, перейдите в настройки NVDA и выберите категорию сигнала клавиатуры. В этой категории вы можете настроить все поддерживаемые функции этого дополнения.</target>
       </segment>
     </unit>
-    <unit id="8ba59dda-c1d6-4afb-97d5-20f618bdbb64">
+    <unit id="b8cd602b-a2e3-4682-8ba5-e93190957340">
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
@@ -300,7 +300,7 @@ $(ID:05321e2a-cda7-443e-a53c-c82b04ca6049)
         <target>Протестировать тон: эта кнопка позволяет воспроизвести тест с текущими заданными параметрами.</target>
       </segment>
     </unit>
-    <unit id="d0e010e1-dfd5-4a37-931c-1e89e26acec7">
+    <unit id="e3267597-99fe-4071-a5df-4a53303af6a7">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>

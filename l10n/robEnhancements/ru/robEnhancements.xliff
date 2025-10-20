@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ru">
-  <file id="robEnhancements.md" original="https://raw.githubusercontent.com/nvaccess/nvda/b4b6067f5805f51fa6876a340c3fde9a38b47a31/addons/robEnhancements/robEnhancements.md">
+  <file id="robEnhancements.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/robEnhancements/robEnhancements.md">
     <skeleton>
 # $(ID:2c986f19-ca29-4717-934f-9c30f0d188df)
 
@@ -12,7 +12,7 @@
 ## $(ID:67d16a84-7c59-4978-b6ad-4672cc361d2b)
 
 * $(ID:2deb110d-150a-446a-9083-d42f241fcdd8)
-* $(ID:c90ebdd7-eb62-436c-88b7-a5760ca80e69)
+* $(ID:154d11a0-6fd5-45de-95c7-a28d5b595bd6)
 
 </skeleton>
     <unit id="2c986f19-ca29-4717-934f-9c30f0d188df">
@@ -75,14 +75,14 @@
         <target>Распознаются обычные пустые папки.</target>
       </segment>
     </unit>
-    <unit id="c90ebdd7-eb62-436c-88b7-a5760ca80e69">
+    <unit id="154d11a0-6fd5-45de-95c7-a28d5b595bd6">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
         <source>With Ctrl+Alt+j you jump to the first folder below the inbox, which contains unread emails.</source>
-        <target>С помощью Ctrl+Alt+j, вы переходите к первой папке в папке входящих, которая содержит непрочитанные письма.</target>
+        <target>С помощью Ctrl+Alt+j вы переходите к первой папке во входящих, содержащей непрочитанные электронные письма.</target>
       </segment>
     </unit>
   </file>
