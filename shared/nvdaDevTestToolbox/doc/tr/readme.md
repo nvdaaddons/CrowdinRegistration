@@ -46,7 +46,7 @@ Bu eklenti, bu ayarı değiştirmek için ek bir komut (`NVDA+X, shift+E`) sağl
 Seçenekleriniz:
 
 * “Yalnızca test sürümlerinde” (varsayılan) seçeneği, NVDA'nın yalnızca mevcut NVDA sürümü bir test sürümü (alfa, beta veya kaynaktan çalıştırılan) ise hata sesleri çalmasını sağlar.
-* Mevcut NVDA sürümünüz ne olursa olsun hata seslerini etkinleştirmek için "Evet".
+* Geçerli NVDA sürümünüz ne olursa olsun hata seslerini etkinleştirmek için "Evet".
 
 2021.3 öncesindeki NVDA sürümleri için, bu eklenti bu özelliğin geriye dönük uyumluluğunu ve klavye komutuyla kontrol etme imkanını sağlar.
 Ancak, Gelişmiş ayarlar panelindeki onay kutusu geriye uyarlanmamıştır.
@@ -124,7 +124,7 @@ Bilinen hata: Hareket Yöneticisi başka bir bağlamda açılmış olsa bile bel
 
 Test veya çalışma sırasında, günlüğü okurken daha sonra kolayca geri dönebilmek için günlüğün belirli bir anını işaretlemek isteyebilirsiniz.
 Günlüğe bir işaret mesajı eklemek için `NVDA+X, K` tuşlarına basın.
-Aşağıdaki bir mesaj bilgi düzeyinde kaydedilecektir:
+BİLGİ düzeyinde aşağıdaki gibi bir mesaj kaydedilecektir:
 `-- NDTT işaret 0 --`
 Günlüğe istediğiniz kadar işaret ekleyebilirsiniz.
 İşaretçinin numarası, günlüğe her işaretçi yerleştirdiğinizde artacaktır; yalnızca NVDA yeniden başlatıldığında sıfırlanacaktır.
@@ -175,12 +175,12 @@ Konuşma çevirisini devre dışı bırakmak istiyorsanız, T tuşuna tekrar bas
 
 Günlükte bazı satırlar kaynak koduna atıfta bulunabilir:
 
-* Bir geri izlemeye ait bir satır, bir dosyadaki yolu ve satırı içerir, örneğin:
-  `  Dosya "virtualBuffers\__init__.pyc", satır 226, in _getStoryLength`
+* Geri izlemeye ait bir satır, bir dosyadaki yolu ve satırı içerir, örneğin:
+  `  File "virtualBuffers\__init__.pyc", line 226, in _getStoryLength`
 * Günlüğe kaydedilen bir mesajın başlık satırı, bu mesajı günlüğe kaydeden işlevi içerir, örneğin:
-  `Bilgi - config.ConfigManager._loadConfig (22:45:26.145) - Ana İş Parçacığı (16580):`
-* Girdi yardımı modunda kaydedilen bir mesajın içeriği (bilgi düzeyinde kaydedilir):
-  `Girdi Yardımı: Hareket kb(desktop):NVDA+t, globalCommands.GlobalCommands üzerindeki komut dosyası başlığına bağlı`
+  `INFO - config.ConfigManager._loadConfig (22:45:26.145) - MainThread (16580):`
+* Girdi yardım modunda günlüğe kaydedilen bir mesajın içeriği (bilgi düzeyinde günlüğe kaydedilir):
+  `Girdi Yardımı: gesture kb(desktop):NVDA+t, globalCommands.GlobalCommands'da komut dosyası başlığına bağlı`
 
 İzleme bilgisinin veya kaydedilen mesajın bağlamını anlamak için bu kodu içeren dosyayı açmak isteyebilirsiniz.
 Bu dosyayı açmak için C tuşuna basın.
@@ -212,7 +212,7 @@ Bir günlüğü açabilmek için, önce [Tercih ettiğiniz düzenleyicide bir do
 <a id="pythonConsoleOpenCodeFile"></a>
 ### `openCodeFile` fonksiyonu
 
-Konsolda, değişkeni tanımlayan kaynak kodunu görüntülemek için aşağıdaki işlevi çağırabilirsiniz: myVar:
+Konsolda, 'myVar' değişkenini tanımlayan kaynak kodunu görüntülemek için aşağıdaki işlevi çağırabilirsiniz:
 `openCodeFile(myVar)`
 
 Bu özelliğin çalışması için, eklentinin ayarlarında [favori editörünüzün komutunu](#settingsOpenCommand) yapılandırmış olmanız gerekir.
@@ -225,24 +225,24 @@ Nesneyi konsola henüz içe aktarmadıysanız, adını `openCodeFile` işlevine 
 
 Aşağıda NVDA kodunda çağrı örnekleri verilmiştir:
 
-* `speech.speech.speak` işlevinin tanımını görüntüleyin:
+* `speech.speech.speak` fonksiyonunun tanımını görüntüleyin:
   `openCodeFile(speech.speech.speak)`
-  veya parametre olarak aktarılan adla:
+  veya parametre olarak iletilen adla:
   `openCodeFile("speech.speech.speak")`
 * `TextInfo` sınıfının tanımını görüntüleyin:
   `openCodeFile(textInfos.TextInfo)`
-* `TextInfo` sınıfının `copyToClipboard` yönteminin tanımını görüntüleyin:
+* `TextInfo` sınıfının `copyToClipboard` metodunun tanımını görüntüleyin:
   `openCodeFile(textInfos.TextInfo.copyToClipboard)`
-* Odaklanmış nesnenin sınıfının tanımını görüntüleyin:
-  `openCodeFile(odak)`
-* `` Api '' modülünü tanımlayan `` api.py` dosyasını açın:
+* Odaklanılan nesnenin sınıfının tanımını görüntüleyin:
+  `openCodeFile(Odak)`
+* `Api` modülünü tanımlayan 'api.py' dosyasını açın:
   `openCodeFile(api)`
 
 ### Python konsolu başlangıç ​​komut dosyası
 
 Python konsolunun ilk açıldığında veya konsol açıldıktan sonra eklenti yeniden yüklendiğinde (NVDA+F3) konsolun ad alanında yürütülecek özel bir komut dosyası tanımlayabilirsiniz.
 
-Örneğin, komut dosyası, aşağıda gösterildiği gibi doğrudan konsolda kullanabileceğiniz yeni içe aktarma yürütmenize ve takma adları tanımlamanıza olanak tanır:
+Örneğin, komut dosyası, aşağıda gösterildiği gibi, yeni içe aktarmaları yürütmenize ve doğrudan konsolda kullanabileceğiniz takma adları tanımlamanıza olanak tanır:
 
     # Konsolda istediğim çeşitli içe aktarmalar.
     globalVars'ı gv olarak içe aktar
@@ -251,7 +251,7 @@ Python konsolunun ilk açıldığında veya konsol açıldıktan sonra eklenti y
     # Takma adlar
     kda = Kod Dosyasını Aç
 
-Python konsol komut dosyası şu konuma yerleştirilmelidir: `pathToNVDAConfig\ndtt\consoleStartup.py`
+Python konsolu komut dosyası aşağıdaki konuma yerleştirilmelidir: `pathToNVDAConfig\ndtt\consoleStartup.py`
 Örneğin: `C:\Users\kullanıcıadı\AppData\Roaming\nvda\ndtt\consoleStartup.py`
 
 ## Konuşma işlevinin yığın izlemesini günlüğe kaydet
@@ -305,7 +305,7 @@ Bazı özellikler, içeriği favori düzenleyicinizde görüntülemenizi sağlar
 Buna, kaynak dosyayı [günlükten](#logReaderOpenSourceFile), [konsoldaki bir nesneden](#pythonConsoleOpenCodeFile) veya [yazılan bir hareketle](#scriptOpener) görüntüleme komutları ile [günlük yöneticisinin](#oldLogsBackup) Aç düğmesi dahildir.
 
 Bunları kullanmak için, önce dosyayı favori düzenleyicinizde açmak için çağrılacak komutu yapılandırmanız gerekir.
-Komut şu şekilde olmalıdır:
+Komut şu biçimde olmalıdır:
 `"C:\path\to\my\editor\editor.exe" "{path}":{line}`
 Elbette bu satırı, editörünüzün gerçek adı ve konumu ile dosyaları açmak için kullandığı sözdizimine göre değiştirmelisiniz.
 `{path}`, açılacak dosyanın tam yolu ile ve `{line}`, imlecin yerleştirilmesini istediğiniz satır numarası ile değiştirilecektir.
@@ -344,8 +344,8 @@ Bu seçenek, [ters çeviri komutu](#reverseTranslationCommand) sonucunu da panoy
 
 ### Sürüm 7.0
 
-* Katmanlı komutlar tanıtıldı; Giriş noktası . NVDA+X.
-  Mevcut komutlar buna göre değiştirildi.
+* Katmanlı komutlar eklendi; giriş noktası 'NVDA+X'tir.
+  Mevcut komutlar şuna göre değiştirildi.
 * Son konuşulan mesajı tersine çevirmek için yeni bir komut (`NVDA+X, R`).
 * Bir sonraki basılan harekete bağlı komut dosyasının kaynak kodunu açmak için yeni bir komut (`NVDA+X, C`).
 * İsteğe bağlı konuşma desteği eklendi.
@@ -380,8 +380,8 @@ Bu seçenek, [ters çeviri komutu](#reverseTranslationCommand) sonucunu da panoy
 * Anında çeviri eklentisi yüklenirse, artık günlük okuma komutlarını kullanırken konuşma mesajlarının anında tercüme edilmesi mümkündür.
 * Günlük okuma modundayken, E veya shift+E tuşlarına basıldığında artık normal HATA mesajlarının yanı sıra KRİTİK hata mesajlarına da geçilir.
 * Giriş ve konuşma mesajlarına atlamak için yeni günlük hızlı gezinme komutları eklendi.
-* Yeni bir komut, günlüğe bir işaretleyicinin yerleştirilmesine izin verir; ve günlük okuma modundaki belirli hızlı gezinme komutları bunlara atlamaya izin verir.
-  Kredi: Bu özelliğin ilk fikri Luke Davis'in Hata Ayıklama Yardımcısı eklentisinden geliyor.
+* Yeni bir komut, günlüğe bir işaretleyici yerleştirmeye izin verir; ve günlük okuma modundaki belirli hızlı gezinme komutları bunlara atlamayı sağlar.
+  Kredi: Bu özelliğe ilişkin ilk fikir, Luke Davis'in Debug Helper eklentisinden geliyor.
 * Hata düzeltmesi: Bazı durumlarda son hatanın ezberlenmesi artık başarısız olmuyor.
 * Hata düzeltmesi: Eklenti, NVDA 2019.2.1 ile yeniden başlatılabilir.
 * Hata düzeltmesi: ASCII olmayan günlüklerde günlük kaydetme özelliği artık hata vermeyecek.

@@ -89,7 +89,7 @@ Aşağıdaki tüm komutlar "NVDA+Shift+t" tuşları ile komut katmanını açtı
 * Kaynak ve hedef diller, Google Çeviri'nin şu anda sundukları ile senkronize edildi (22 Nisan 2015).
 
 ## 2.1 için değişiklikler ##
-* Artık eklenti, nvda + shift + y tuşlarına basıldığında panodan metin çevirebilir.
+* Artık eklenti, Shift+T tuşlarına basıldığında panodaki metni çevirebilir.
 
 ## 2.0 için değişiklikler ##
 * Kaynak ve hedef dilleri seçebileceğiniz gui yapılandırıcı eklendi.

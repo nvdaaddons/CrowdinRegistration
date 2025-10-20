@@ -43,7 +43,7 @@ Girdi hareketleri iletişim kutusundan, şunlar için bir hareket atayabilirsini
 *	Bu değişikliklerin kalıcı olmasını istiyorsanız, işlemden sonra yapılandırmayı kaydetmeniz gerekir.
 *	Diğer dil seçeneklerini kullanarak Google'da arama yapmak ister misiniz?
 Ayarlar panelinde İle Ara kategorisine gidin
-Oradaki açılan kutudan Google'da ara'yı seçebilirsiniz:
+Oradaki açılır kutudan Google'da ara'yı seçebilirsiniz:
 	1.	Tarayıcı ayarlarını ve dilini kullan.
 	2.	NVDA dilini kullan.
 	3.	Windows dilini kullan.
@@ -142,6 +142,6 @@ ancak yeni sürümdeki yeni girişler birleştirilecek ve eski veri dosyanıza e
 
 ### 0.1 için değişiklikler ###
 
-*	İlk Sürüm
+*	İlk sürüm
 
 [1]: https://github.com/ibrahim-s/searchWith/releases/download/2.5.3/searchWith-2.5.3.nvda-addon

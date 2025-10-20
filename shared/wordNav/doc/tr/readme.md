@@ -35,4 +35,4 @@ VSCode ile uyumluluk, NVDA eklentisi Girinti Dolaşımı v2.0 veya sonraki sür�
 
 ##  İndirin
 
-Lütfen en son sürümü NVDA eklenti mağazasından yükleyin.
+Lütfen NVDA eklenti mağazasından en son sürümü yükleyin.

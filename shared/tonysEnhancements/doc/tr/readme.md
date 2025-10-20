@@ -89,13 +89,13 @@ Bu seçenek etkinleştirilirse, NVDA metin editörlerinde ekleme modunu algılad
 
 ## Çift insert kısayolunu engelleme
 
-NVDA'da Insert tuşuna arka arkaya iki kez basıldığında uygulamalarda ekleme modu etkinleştirilir. Ancak bazen bu işlem yanlışlıkla gerçekleşir ve ekleme modunu tetikler. Bu özel bir tuş vuruşu olduğu için ayarlardan devre dışı bırakılamaz. Bu eklenti, bu klavye kısayolunu engellemenin bir yolunu sunar. Çift ekleme engellendiğinde, NVDA+F2 ve ardından Insert tuşlarına basarak ekleme modu yine etkinleştirilebilir.
+NVDA'da İnsört tuşuna art arda iki kez basıldığında uygulamalarda ekleme modu arasında geçiş yapılır. Ancak bazen yanlışlıkla olur ve ekleme modunu tetikler. Bu özel bir tuş vuruşu olduğundan ayarlardan devre dışı bırakılamaz. Bu eklenti, bu klavye kısayolunu engellemenin bir yolunu sağlar. Çift İnsört engellendiğinde, ekleme modu NVDA+F2 ve ardından Ekle tuşlarına basılarak değiştirilebilir.
 
 Bu seçenek varsayılan olarak devre dışıdır ve ayarlarda etkinleştirilmelidir.
 
 ## Büyük Harf Kilidi için çift tuş vuruşunu engelleme
 
-NVDA'da, Caps Lock NVDA tuşu olarak ayarlandığında, bu tuşa arka arkaya iki kez basıldığında büyük harf ve küçük harf giriş modları arasında geçiş yapılır. Ancak, bu bazen bu modlar arasında istenmeyen geçişlere neden olabilir. Bu tuşun davranışı benzersizdir ve ayarlar aracılığıyla devre dışı bırakılamaz, bu nedenle bu eklenti bu özel klavye kısayolunu engellemek için bir yöntem sunar. Caps Lock tuşuna iki kez basma engellendiğinde, NVDA+F2 tuşlarına basıp ardından Caps Lock tuşuna basarak büyük harf ve küçük harf giriş modları arasında geçiş yapmaya devam edebilirsiniz.
+NVDA'da, Büyük Harf Kilidi bir NVDA tuşu olarak ayarlandığında, bu tuşa art arda iki kez basıldığında büyük harf ve küçük harf giriş modları arasında geçiş yapılır. Ancak bu durum bazen bu modlar arasında istenmeden geçiş yapılmasına neden olabilir. Bu tuşun davranışı benzersiz olduğundan ve ayarlar aracılığıyla devre dışı bırakılamadığından, bu eklenti, bu özel klavye kısayolunu engellemeye yönelik bir yöntem sunar. Büyük Harf Kilidi tuşuna çift basılması engellendiğinde, NVDA+F2 tuşlarına ve ardından Büyük Harf Kilidi tuşuna basarak büyük ve küçük harf giriş modları arasında geçiş yapabilirsiniz.
 
 Bu seçenek varsayılan olarak devre dışıdır ve ayarlarda etkinleştirilmelidir.
 

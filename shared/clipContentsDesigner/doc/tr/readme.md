@@ -36,7 +36,7 @@ Notlar:
 * Göz atılabilir mesajları kapatmak için Escape tuşuna ek olarak bir düğme eklendi.
 
 
-## 4.0.0 için Değişiklikler
+## 40.0.0 için Değişiklikler
 * İbranice klavye için destek eklendi.
 
 ## 22.0.0 için Değişiklikler
