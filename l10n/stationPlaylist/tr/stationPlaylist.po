@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-10-13 04:01+0000\n"
-"PO-Revision-Date: 2025-10-20 01:00\n"
+"POT-Creation-Date: 2025-10-20 03:43+0000\n"
+"PO-Revision-Date: 2025-10-27 01:01\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -22,6 +22,69 @@ msgstr ""
 #: addon/appModules/splcreator.py:196
 msgid "You are not in playlist editor"
 msgstr "Çalma listesi düzenleyicisinde değilsiniz"
+
+#. Translators: A message informing users that Studio is not running so certain commands will not work.
+#: addon/appModules/splcommon/splbase.py:49
+msgid "Studio main window not found"
+msgstr "Stüdyo ana penceresi bulunamadı"
+
+#. Translators: presented when SPL Studio window is minimized.
+#: addon/appModules/splcommon/splbase.py:105
+msgid "SPL Studio is minimized to system tray."
+msgstr "SPL Studio sistem tepsisine küçültülmüş."
+
+#. Translators: input help mode message for column explorer commands.
+#: addon/appModules/splcommon/splbase.py:150
+msgid "Pressing once announces data for a track column, pressing twice will present column data in a browse mode window"
+msgstr "Bir kez basıldığında parça sütununun verileri duyurulur, iki kez basıldığında sütun verileri göz atma modu penceresinde görüntülenir"
+
+#. Translators: Script category for StationPlaylist add-on commands in input gestures dialog.
+#. Translators: Script category for StationPlaylist commands in input gestures dialog.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon/appModules/splcommon/splbase.py:155
+#: addon/appModules/splstudio/__init__.py:364
+#: addon/appModules/splstudio/__init__.py:461
+#: addon/appModules/splengine/encoders.py:470
+#: addon/appModules/splengine/encoders.py:489
+#: addon/appModules/splengine/encoders.py:506
+#: addon/appModules/splengine/encoders.py:541
+#: addon/appModules/splengine/encoders.py:568
+#: addon/appModules/splengine/encoders.py:594
+#: addon/globalPlugins/splUtils.py:144 buildVars.py:21
+msgid "StationPlaylist"
+msgstr "Station Playlist"
+
+#. Translators: Presented when column is out of range.
+#: addon/appModules/splcommon/splbase.py:167
+#, python-brace-format
+msgid "Column {columnPosition} not found"
+msgstr "{columnPosition} sütunu bulunamadı"
+
+#. Translators: Presented when a specific column header is not found.
+#: addon/appModules/splcommon/splbase.py:178
+#, python-brace-format
+msgid "{headerText} not found"
+msgstr "{headerText} bulunamadı"
+
+#. Translators: Title of the column data window.
+#: addon/appModules/splcommon/splbase.py:196
+#: addon/appModules/splcommon/splbase.py:212
+msgid "Track data"
+msgstr "Parça verisi"
+
+#. Translators: input help mode message for columns viewer command.
+#: addon/appModules/splcommon/splbase.py:200
+msgid "Presents data for all columns in the currently selected track"
+msgstr "Seçili olan parçadaki tüm sütunlar için veri sunar"
+
+#. Translators: location text for a playlist item (example: item 1 of 10).
+#: addon/appModules/splcommon/splbase.py:217
+#: addon/appModules/splstudio/__init__.py:208
+#, python-brace-format
+msgid "Item {current} of {total}"
+msgstr "{total} öğesinden {current} öğesi"
 
 #. Translators: The name of the default (normal) profile.
 #: addon/appModules/splcommon/splconfig.py:37
@@ -204,69 +267,6 @@ msgstr "Bir kitaplık taramasının ilerlemesini ve öğe sayısını duyurur"
 #: addon/appModules/splstudio/splconfui.py:505
 msgid "Scan count"
 msgstr "Tarama sayısı"
-
-#. Translators: A message informing users that Studio is not running so certain commands will not work.
-#: addon/appModules/splcommon/splbase.py:49
-msgid "Studio main window not found"
-msgstr "Stüdyo ana penceresi bulunamadı"
-
-#. Translators: presented when SPL Studio window is minimized.
-#: addon/appModules/splcommon/splbase.py:105
-msgid "SPL Studio is minimized to system tray."
-msgstr "SPL Studio sistem tepsisine küçültülmüş."
-
-#. Translators: input help mode message for column explorer commands.
-#: addon/appModules/splcommon/splbase.py:150
-msgid "Pressing once announces data for a track column, pressing twice will present column data in a browse mode window"
-msgstr "Bir kez basıldığında parça sütununun verileri duyurulur, iki kez basıldığında sütun verileri göz atma modu penceresinde görüntülenir"
-
-#. Translators: Script category for StationPlaylist add-on commands in input gestures dialog.
-#. Translators: Script category for StationPlaylist commands in input gestures dialog.
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: addon/appModules/splcommon/splbase.py:155
-#: addon/appModules/splstudio/__init__.py:364
-#: addon/appModules/splstudio/__init__.py:461
-#: addon/appModules/splengine/encoders.py:470
-#: addon/appModules/splengine/encoders.py:489
-#: addon/appModules/splengine/encoders.py:506
-#: addon/appModules/splengine/encoders.py:541
-#: addon/appModules/splengine/encoders.py:568
-#: addon/appModules/splengine/encoders.py:594
-#: addon/globalPlugins/splUtils.py:144 buildVars.py:21
-msgid "StationPlaylist"
-msgstr "Station Playlist"
-
-#. Translators: Presented when column is out of range.
-#: addon/appModules/splcommon/splbase.py:167
-#, python-brace-format
-msgid "Column {columnPosition} not found"
-msgstr "{columnPosition} sütunu bulunamadı"
-
-#. Translators: Presented when a specific column header is not found.
-#: addon/appModules/splcommon/splbase.py:178
-#, python-brace-format
-msgid "{headerText} not found"
-msgstr "{headerText} bulunamadı"
-
-#. Translators: Title of the column data window.
-#: addon/appModules/splcommon/splbase.py:196
-#: addon/appModules/splcommon/splbase.py:212
-msgid "Track data"
-msgstr "Parça verisi"
-
-#. Translators: input help mode message for columns viewer command.
-#: addon/appModules/splcommon/splbase.py:200
-msgid "Presents data for all columns in the currently selected track"
-msgstr "Seçili olan parçadaki tüm sütunlar için veri sunar"
-
-#. Translators: location text for a playlist item (example: item 1 of 10).
-#: addon/appModules/splcommon/splbase.py:217
-#: addon/appModules/splstudio/__init__.py:208
-#, python-brace-format
-msgid "Item {current} of {total}"
-msgstr "{total} öğesinden {current} öğesi"
 
 #. Translators: title of a dialog to configure broadcast profiles.
 #: addon/appModules/splstudio/splconfui.py:43
@@ -820,175 +820,6 @@ msgstr "Normal profil kullanımda, yayın profilleri iletişim kutusu açılamı
 #: addon/appModules/splstudio/splconfui.py:1651
 msgid "Add-on settings dialog is open, cannot switch profiles"
 msgstr "Eklenti ayarları iletişim kutusu açık, profiller değiştirilemiyor"
-
-#. Translators: Text of the dialog when another find dialog is open.
-#: addon/appModules/splstudio/splmisc.py:46
-msgid "Another find dialog is open."
-msgstr "Başka bir bul iletişim kutusu açık."
-
-#. Translators: Text of the dialog when a generic error has occured.
-#: addon/appModules/splstudio/splmisc.py:53
-msgid "An unexpected error has occured when trying to open find dialog."
-msgstr "Bul iletişim kutusunu açmaya çalışırken beklenmeyen bir hata oluştu."
-
-#. Translators: the label for find prompt in track finder dialog.
-#: addon/appModules/splstudio/splmisc.py:90
-msgid "Enter or select the name or the artist of the track you wish to &search"
-msgstr "&Aramak istediğiniz parçanın adını veya sanatçısını girin veya seçin"
-
-#. Translators: the label for find prompt in column search dialog.
-#: addon/appModules/splstudio/splmisc.py:93
-msgid "Enter or select text to be &searched in a column"
-msgstr "Bir sütunda aranacak metni girin veya &seçin"
-
-#. Translators: The label in track finder to search columns.
-#: addon/appModules/splstudio/splmisc.py:99
-msgid "C&olumn to search:"
-msgstr "Aranacak &sütun:"
-
-#. Translators: The title of a dialog to find tracks with duration within a specified range.
-#: addon/appModules/splstudio/splmisc.py:169
-msgid "Time range finder"
-msgstr "Zaman aralığı bulucu"
-
-#: addon/appModules/splstudio/splmisc.py:179
-msgid "Minimum duration"
-msgstr "Minimum süre"
-
-#. Translators: the minute label in time range finder dialog.
-#: addon/appModules/splstudio/splmisc.py:184
-#: addon/appModules/splstudio/splmisc.py:206
-msgid "Minute"
-msgstr "Dakika"
-
-#. Translators: the second label in time range finder dialog.
-#: addon/appModules/splstudio/splmisc.py:192
-#: addon/appModules/splstudio/splmisc.py:209
-msgid "Second"
-msgstr "Saniye"
-
-#: addon/appModules/splstudio/splmisc.py:202
-msgid "Maximum duration"
-msgstr "Maksimum süre"
-
-#. Translators: Message to report wrong value for duration fields.
-#: addon/appModules/splstudio/splmisc.py:230
-msgid "Minimum duration is greater than the maximum duration."
-msgstr "Minimum süre maksimum süreden daha uzun."
-
-#: addon/appModules/splstudio/splmisc.py:257
-msgid "No track with duration between minimum and maximum duration."
-msgstr "Minimum ve maksimum süre arasında süreye sahip parça yok."
-
-#. Translators: Standard error title for find error (copy this from main nvda.po).
-#: addon/appModules/splstudio/splmisc.py:259
-msgid "Time range find error"
-msgstr "Zaman aralığı bulma hatası"
-
-#. Translators: presented when metadata streaming status cannot be obtained.
-#: addon/appModules/splstudio/splmisc.py:424
-msgid "Cannot obtain metadata streaming status information"
-msgstr "Meta veri akış durumu bilgileri alınamıyor"
-
-#. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/splmisc.py:433
-msgid "No metadata streaming URL's defined"
-msgstr "Hiçbir meta veri akışı URL'si tanımlanmadı"
-
-#. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/splmisc.py:436
-msgid "Metadata streaming configured for DSP encoder"
-msgstr "DSP kodlayıcı için yapılandırılmış meta veri akışı"
-
-#. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/splmisc.py:442
-#, python-brace-format
-msgid "Metadata streaming configured for DSP encoder and URL {URL}"
-msgstr "DSP kodlayıcı ve URL {URL} için yapılandırılmış meta veri akışı"
-
-#. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/splmisc.py:445
-#, python-brace-format
-msgid "Metadata streaming configured for URL {URL}"
-msgstr "{URL} URL'si için yapılandırılmış meta veri akışı"
-
-#. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/splmisc.py:451
-#, python-brace-format
-msgid "Metadata streaming configured for DSP encoder and URL's {URL}"
-msgstr "DSP kodlayıcı ve URL'nin {URL}'si için yapılandırılmış meta veri akışı"
-
-#. Translators: Status message for metadata streaming.
-#: addon/appModules/splstudio/splmisc.py:454
-#, python-brace-format
-msgid "Metadata streaming configured for URL's {URL}"
-msgstr "URL'nin {URL} adresi için yapılandırılmış meta veri akışı"
-
-#. Translators: the Playlist transcripts dialog title.
-#: addon/appModules/splstudio/splmisc.py:571
-#: addon/appModules/splstudio/splmisc.py:810
-msgid "Playlist Transcripts"
-msgstr "Çalma Listesi Transkriptleri"
-
-#. Translators: presented when playlist transcript data was copied to the clipboard.
-#: addon/appModules/splstudio/splmisc.py:584
-msgid "Playlist data copied to clipboard"
-msgstr "Çalma listesi verileri panoya kopyalandı"
-
-#. Translators: Text of the dialog when another playlist transcripts dialog is open.
-#: addon/appModules/splstudio/splmisc.py:782
-msgid "Another playlist transcripts dialog is open."
-msgstr "Başka bir çalma listesi transkriptleri iletişim kutusu açık."
-
-#. Translators: one of the playlist transcripts range options.
-#: addon/appModules/splstudio/splmisc.py:819
-msgid "entire playlist"
-msgstr "tüm çalma listesi"
-
-#. Translators: one of the playlist transcripts range options.
-#: addon/appModules/splstudio/splmisc.py:821
-msgid "start to current item"
-msgstr "geçerli öğeye başla"
-
-#. Translators: one of the playlist transcripts range options.
-#: addon/appModules/splstudio/splmisc.py:823
-msgid "current item to the end"
-msgstr "geçerli öğeyi sonuna kadar"
-
-#. Translators: one of the playlist transcripts range options.
-#: addon/appModules/splstudio/splmisc.py:825
-msgid "current hour"
-msgstr "şu anki saat"
-
-#. Translators: The label in playlist transcripts dialog to select playlist transcript range.
-#: addon/appModules/splstudio/splmisc.py:829
-msgid "Transcript range:"
-msgstr "Transkript aralığı:"
-
-#. Translators: The label in playlist transcripts dialog to select transcript output format.
-#: addon/appModules/splstudio/splmisc.py:836
-msgid "Transcript format:"
-msgstr "Transkript biçimi:"
-
-#. Translators: one of the playlist transcript actions.
-#: addon/appModules/splstudio/splmisc.py:844
-msgid "view transcript"
-msgstr "transkripti görüntüle"
-
-#. Translators: one of the playlist transcript actions.
-#: addon/appModules/splstudio/splmisc.py:848
-msgid "copy to clipboard"
-msgstr "panoya kopyala"
-
-#. Translators: one of the playlist transcript actions.
-#: addon/appModules/splstudio/splmisc.py:850
-msgid "save to file"
-msgstr "dosyaya kaydet"
-
-#. Translators: The label in playlist transcripts dialog to select transcript action.
-#: addon/appModules/splstudio/splmisc.py:856
-msgid "Transcript action:"
-msgstr "Transkript eylemi:"
 
 #. Translators: Presented when microphone has been active for a while.
 #: addon/appModules/splstudio/__init__.py:85
@@ -1712,6 +1543,175 @@ msgstr "SPL Yardımcısı yardımı"
 #: addon/appModules/splstudio/__init__.py:2480
 msgid "SPL Assistant help for JAWS layout"
 msgstr "JAWS düzeni için SPL Yardımcısı yardımı"
+
+#. Translators: Text of the dialog when another find dialog is open.
+#: addon/appModules/splstudio/splmisc.py:46
+msgid "Another find dialog is open."
+msgstr "Başka bir bul iletişim kutusu açık."
+
+#. Translators: Text of the dialog when a generic error has occured.
+#: addon/appModules/splstudio/splmisc.py:53
+msgid "An unexpected error has occured when trying to open find dialog."
+msgstr "Bul iletişim kutusunu açmaya çalışırken beklenmeyen bir hata oluştu."
+
+#. Translators: the label for find prompt in track finder dialog.
+#: addon/appModules/splstudio/splmisc.py:90
+msgid "Enter or select the name or the artist of the track you wish to &search"
+msgstr "&Aramak istediğiniz parçanın adını veya sanatçısını girin veya seçin"
+
+#. Translators: the label for find prompt in column search dialog.
+#: addon/appModules/splstudio/splmisc.py:93
+msgid "Enter or select text to be &searched in a column"
+msgstr "Bir sütunda aranacak metni girin veya &seçin"
+
+#. Translators: The label in track finder to search columns.
+#: addon/appModules/splstudio/splmisc.py:99
+msgid "C&olumn to search:"
+msgstr "Aranacak &sütun:"
+
+#. Translators: The title of a dialog to find tracks with duration within a specified range.
+#: addon/appModules/splstudio/splmisc.py:169
+msgid "Time range finder"
+msgstr "Zaman aralığı bulucu"
+
+#: addon/appModules/splstudio/splmisc.py:179
+msgid "Minimum duration"
+msgstr "Minimum süre"
+
+#. Translators: the minute label in time range finder dialog.
+#: addon/appModules/splstudio/splmisc.py:184
+#: addon/appModules/splstudio/splmisc.py:206
+msgid "Minute"
+msgstr "Dakika"
+
+#. Translators: the second label in time range finder dialog.
+#: addon/appModules/splstudio/splmisc.py:192
+#: addon/appModules/splstudio/splmisc.py:209
+msgid "Second"
+msgstr "Saniye"
+
+#: addon/appModules/splstudio/splmisc.py:202
+msgid "Maximum duration"
+msgstr "Maksimum süre"
+
+#. Translators: Message to report wrong value for duration fields.
+#: addon/appModules/splstudio/splmisc.py:230
+msgid "Minimum duration is greater than the maximum duration."
+msgstr "Minimum süre maksimum süreden daha uzun."
+
+#: addon/appModules/splstudio/splmisc.py:257
+msgid "No track with duration between minimum and maximum duration."
+msgstr "Minimum ve maksimum süre arasında süreye sahip parça yok."
+
+#. Translators: Standard error title for find error (copy this from main nvda.po).
+#: addon/appModules/splstudio/splmisc.py:259
+msgid "Time range find error"
+msgstr "Zaman aralığı bulma hatası"
+
+#. Translators: presented when metadata streaming status cannot be obtained.
+#: addon/appModules/splstudio/splmisc.py:424
+msgid "Cannot obtain metadata streaming status information"
+msgstr "Meta veri akış durumu bilgileri alınamıyor"
+
+#. Translators: Status message for metadata streaming.
+#: addon/appModules/splstudio/splmisc.py:433
+msgid "No metadata streaming URL's defined"
+msgstr "Hiçbir meta veri akışı URL'si tanımlanmadı"
+
+#. Translators: Status message for metadata streaming.
+#: addon/appModules/splstudio/splmisc.py:436
+msgid "Metadata streaming configured for DSP encoder"
+msgstr "DSP kodlayıcı için yapılandırılmış meta veri akışı"
+
+#. Translators: Status message for metadata streaming.
+#: addon/appModules/splstudio/splmisc.py:442
+#, python-brace-format
+msgid "Metadata streaming configured for DSP encoder and URL {URL}"
+msgstr "DSP kodlayıcı ve URL {URL} için yapılandırılmış meta veri akışı"
+
+#. Translators: Status message for metadata streaming.
+#: addon/appModules/splstudio/splmisc.py:445
+#, python-brace-format
+msgid "Metadata streaming configured for URL {URL}"
+msgstr "{URL} URL'si için yapılandırılmış meta veri akışı"
+
+#. Translators: Status message for metadata streaming.
+#: addon/appModules/splstudio/splmisc.py:451
+#, python-brace-format
+msgid "Metadata streaming configured for DSP encoder and URL's {URL}"
+msgstr "DSP kodlayıcı ve URL'nin {URL}'si için yapılandırılmış meta veri akışı"
+
+#. Translators: Status message for metadata streaming.
+#: addon/appModules/splstudio/splmisc.py:454
+#, python-brace-format
+msgid "Metadata streaming configured for URL's {URL}"
+msgstr "URL'nin {URL} adresi için yapılandırılmış meta veri akışı"
+
+#. Translators: the Playlist transcripts dialog title.
+#: addon/appModules/splstudio/splmisc.py:571
+#: addon/appModules/splstudio/splmisc.py:810
+msgid "Playlist Transcripts"
+msgstr "Çalma Listesi Transkriptleri"
+
+#. Translators: presented when playlist transcript data was copied to the clipboard.
+#: addon/appModules/splstudio/splmisc.py:584
+msgid "Playlist data copied to clipboard"
+msgstr "Çalma listesi verileri panoya kopyalandı"
+
+#. Translators: Text of the dialog when another playlist transcripts dialog is open.
+#: addon/appModules/splstudio/splmisc.py:782
+msgid "Another playlist transcripts dialog is open."
+msgstr "Başka bir çalma listesi transkriptleri iletişim kutusu açık."
+
+#. Translators: one of the playlist transcripts range options.
+#: addon/appModules/splstudio/splmisc.py:819
+msgid "entire playlist"
+msgstr "tüm çalma listesi"
+
+#. Translators: one of the playlist transcripts range options.
+#: addon/appModules/splstudio/splmisc.py:821
+msgid "start to current item"
+msgstr "geçerli öğeye başla"
+
+#. Translators: one of the playlist transcripts range options.
+#: addon/appModules/splstudio/splmisc.py:823
+msgid "current item to the end"
+msgstr "geçerli öğeyi sonuna kadar"
+
+#. Translators: one of the playlist transcripts range options.
+#: addon/appModules/splstudio/splmisc.py:825
+msgid "current hour"
+msgstr "şu anki saat"
+
+#. Translators: The label in playlist transcripts dialog to select playlist transcript range.
+#: addon/appModules/splstudio/splmisc.py:829
+msgid "Transcript range:"
+msgstr "Transkript aralığı:"
+
+#. Translators: The label in playlist transcripts dialog to select transcript output format.
+#: addon/appModules/splstudio/splmisc.py:836
+msgid "Transcript format:"
+msgstr "Transkript biçimi:"
+
+#. Translators: one of the playlist transcript actions.
+#: addon/appModules/splstudio/splmisc.py:844
+msgid "view transcript"
+msgstr "transkripti görüntüle"
+
+#. Translators: one of the playlist transcript actions.
+#: addon/appModules/splstudio/splmisc.py:848
+msgid "copy to clipboard"
+msgstr "panoya kopyala"
+
+#. Translators: one of the playlist transcript actions.
+#: addon/appModules/splstudio/splmisc.py:850
+msgid "save to file"
+msgstr "dosyaya kaydet"
+
+#. Translators: The label in playlist transcripts dialog to select transcript action.
+#: addon/appModules/splstudio/splmisc.py:856
+msgid "Transcript action:"
+msgstr "Transkript eylemi:"
 
 #: addon/appModules/splengine/encoders.py:69
 msgid "Your encoder settings had errors and were reset to defaults."
