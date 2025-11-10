@@ -14,7 +14,8 @@ IMPORTANT NOTES:
 * Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 25.01 (2025) onwards.
 * While Studio is running, you can save, reload saved settings, or reset add-on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or Control+NVDA+R three times, respectively. This is also applicable to encoder settings - you can save and reset (not reload) encoder settings if using encoders.
 * Many commands will provide speech output while NVDA is in speak on demand mode (NVDA 2024.1 and later).
-* When refering to Studio, both local (original) Studio and Remote Studio will be assumed. When something is specific to StationPlaylist Studio (original), local Studio will be used.
+* When refering to Studio, both local (original) Studio and Remote Studio will be assumed. When something is specific to StationPlaylist Studio (original), the term "local Studio" will be used.
+* Installing both Studio (local/original) and Remote Studio on the same computer is not recommended.
 
 ## Shortcut keys
 
@@ -37,7 +38,7 @@ Most of these will work in Studio only unless otherwise specified. Unless noted 
 * Control+NVDA+1 through 0 (while focused on a track in local and Remote Studio, Creator (including Playlist Editor), Remote VT, and Track Tool): Announce column content for a specified column (first ten columns by default). Pressing this command twice will display column information on a browse mode window.
 * Control+NVDA+- (hyphen while focused on a track in local and Remote Studio, Creator, Remote VT, and Track Tool): display data for all columns in a track on a browse mode window (does not support speak on demand).
 * NVDA+V while focused on a track (Studio's playlist viewer only): toggles track column announcement between screen order and custom order (does not support speak on demand).
-* Alt+NVDA+C while focused on a track (local Studio's playlist viewer only): announces track comments if any.
+* Alt+NVDA+C while focused on a track (Studio's playlist viewer only): announces track comments if any.
 * Alt+NVDA+0 (two finger flick left in SPL mode) from Studio window: Opens the Studio add-on configuration dialog (does not support speak on demand).
 * Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog (does not support speak on demand).
 * Alt+NVDA+F1: Open welcome dialog (does not support speak on demand).
@@ -62,7 +63,7 @@ Important: some of these commands will not work if NVDA is running in secure mod
 * Take playlist snapshots.
 * Find text in specific columns (does not support speak on demand).
 * Find tracks with duration that falls within a given range via time range finder (does not support speak on demand).
-* Quickly enable or disable metadata streaming (does not support speak on demand).
+* Quickly enable or disable metadata streaming (does not support speak on demand, unavailable in Remote Studio).
 
 ## Additional commands when using encoders
 
@@ -90,7 +91,7 @@ In addition, column review commands are available, including (supports speak on 
 
 ## SPL Assistant layer
 
-This layer command set allows you to obtain various status on Studio, such as whether a track is playing, total duration of all tracks for the hour and so on. From any Studio window, press the SPL Assistant layer command, then press one of the keys from the list below (one or more commands are exclusive to playlist viewer). You can also configure NVDA to emulate commands from other screen readers.
+This layer command set allows you to obtain various status on Studio, such as whether a track is playing, total duration of all tracks for the hour and so on. From any local or Remote Studio window, press the SPL Assistant layer command, then press one of the keys from the list below (one or more commands are exclusive to playlist viewer). You can also configure NVDA to emulate commands from other screen readers.
 
 The available commands are (most commands support speak on demand and some commands are unavailable in Remote Studio):
 
@@ -207,9 +208,16 @@ You can save settings for specific shows into broadcast profiles. These profiles
 
 If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.
 
+## Version 25.12/25.06.11-LTS
+
+* In local Studio 6.20, NVDA will no longer announce wrong column content when vertical column navigation is set to "Time Scheduled" (Time column).
+* When performing playlist transcripts in local Studio 6.20, NVDA will include the correct column title for time column instead of time scheduled.
+* NVDA will no longer include empty column content when generating playlist transcripts in plain text and HTML list formats.
+
 ## Version 25.11/25.06.9-LTS
 
-* Initial support for Remote Studio. Although the interface resembles Studio, not all commands and features are available.
+* Initial support for StationPlaylist suite 6.20.
+* Initial support for StationPlaylist Remote Studio. Although the interface resembles local Studio, not all commands and features are available.
 * While in cart explorer from Remote Studio, NVDA will announce cart name and its type such as local or Studio cart.
 * Additional internal changes to make the add-on more compatible with upcoming 64-bit NVDA. In particular, resolved erroneous announcements when performing some SPL Assistant layer commands in local (original) Studio.
 * In local Studio, NVDA will be more successful when entering Cart Explorer (Alt+NVDA+3) in more cases.
