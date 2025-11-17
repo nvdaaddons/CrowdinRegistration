@@ -14,8 +14,9 @@ This add-on gathers various features for NVDA debugging and testing.
 * Script tools: an extended script description mode and a script opener.
 * Commands to help log reading and analyzing.
 * Backups of old logs
+* A command to anonymize a log
+* Python console enhancements such as a custom startup script and the possibility to preserve input history in memory after NVDA restarts.
 * In the Python console workspace, a function to open the source code of an object.
-* A custom startup script for the Python console
 * A command to log the stack trace of the speech.speak function.
 * A command to reverse translate the items of the interface.
 
@@ -100,7 +101,7 @@ Be aware however that it is often intended that such script do not have any desc
 Indeed, the gesture may be defined to match an application shortcut key.
 For example the script script_toggleItalic on NVDAObjects.window.winword.WordDocument is bound to control+I and this should not be modified since the gesture is passed to the application to actually execute the shortcut key.
 
-### Usage example
+#### Usage example
 
 Control+shift+I also toggle italic in Word, even if it is not natively reported by NVDA.
 To have the control+shift+I result reported by NVDA as control+I, you should perform the following steps:
@@ -132,11 +133,12 @@ The marker's number will be incremented each time you place a marker in the log;
 ### Log reader mode
 
 A log reader mode provides commands to ease log reading and analyzing.
-In the log viewer window the log reader is enabled by default, thus log reading commands are available immediately.
+In the log viewer window and in the Pyton console output area, the log reader is enabled by default, thus log reading commands are available immediately.
 In another text reading area such as an editor (e.g. Notepad++) or a webpage (e.g. GitHub issue), you need to press `NVDA+X, L` to enable log reader mode and use its commands.
 When you are done with log reading and analyzing tasks, you can disable again `NVDA+X, L` to disable the log reader mode.
 
 The commands available in log reader mode are described hereafter.
+In this mode, you can also press `control+H` to display all the commands available.
 
 <a id="logReaderQuickNavigationCommands"></a>
 #### Quick navigation commands
@@ -152,9 +154,23 @@ Single letter command similar to browse mode quick navigation keys allow to move
 * i: input/output messages (`IO`)
 * n: input messages
 * s: speech messages
+* b: braille messages
 * d: debug messages (`DEBUG`)
 
 Pressing the single letter moves to the next occurrence of this message. Combining the letter with the shift key moves to the previous occurrence of this message.
+
+In addition, inside certain types of messages, you can jump block by block pressing `O`  or `shift+O`.
+The following message types and associated blocks are supported:
+
+* In messages containing tracebacks, e.g. error messages, block navigation allows you to jump between tracebacks
+  This is specifically useful when more than one traceback is present, e.g. when an error is raised in the "except" part of a try/except clause.
+* In the message listing the stacks for Python threads logged when a freeze occurs, block navigation allows you to jump between thread stacks.
+* In the message providing developer info for the navigator object logged when you press `NVDA+F1`, block navigation allows you to jump between groups of properties.
+  There are four groups of properties: general properties, appModule properties, window properties and interface-specific (IAccessible, UIA) properties.
+
+At last, inside a block, you may want to jump quickly to first or last line of interest of the block.
+Use `shift+L` to jump to the first line of interest of the current block's content, e.g. the first frame of a traceback.
+And `L` to jump to the last line of interest of the block's content, e.g. last frame of a thread stack or error below a traceback.
 
 #### Translation of speech message
 
@@ -163,12 +179,10 @@ If you have [Instant Translate][3] add-on installed, you may use it in conjoncti
 
 * First configure Instant Translate's languages. The source language should be the language of the system where the log has been taken (e.g. Chinese). The target language should be your language (e.g. French).
 * Open the log
-* Press T to enable automatic speech translation in the log
+* Press `control+T` to enable automatic speech translation in the log
 * Use Quick navigation commands in the log, e.g. S, I, etc. Whenever a speech message is encountered, it will be spoken in your language (French in our previous example)
 
-If you want to disable speech translation, press T again.
-
-
+If you want to disable speech translation, press `control+T` again.
 
 <a id="logReaderOpenSourceFile"></a>
 #### Open the file of the source code in your editor
@@ -187,6 +201,51 @@ Just press C to open this file.
 
 For this feature to work, you need to have configured your [favorite editor's command](#settingsOpenCommand) in the add-on's settings.
 If you are not running NVDA from source, the [location of NVDA source code](#settingsNvdaSourcePath) should also have been configured.
+
+#### Analysing a traceback
+
+Sometimes you may have error tracebacks in the log, as in the following example:
+```
+ERROR - scriptHandler.executeScript (14:47:43.426) - MainThread (15492):
+error executing script: <bound method LogContainer.script_openSourceFile of <NVDAObjects.Dynamic_LogViewerLogContainerIAccessibleRichEdit50WindowNVDAObject object at 0x34C1E510>> with gesture 'c'
+Traceback (most recent call last):
+  File "scriptHandler.pyc", line 300, in executeScript
+  File "C:\Users\myUserName\AppData\Roaming\nvda\addons\nvdaDevTestToolbox\globalPlugins\ndtt\logReader.py", line 603, in script_openSourceFile
+    if self.openStackTraceLine(line):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\myUserName\AppData\Roaming\nvda\addons\nvdaDevTestToolbox\globalPlugins\ndtt\logReader.py", line 667, in openStackTraceLine
+    0 / 0  # An erroneaous code line
+    ~~^~~
+ZeroDivisionError: division by zero
+```
+
+For frames where the source code is available, you may have noticed markers with `^` (caret) and `~` (tilde) characters.
+That's the way Python visually indicates the error's location as well as its context in a traceback frame.
+Pressing `control+E` moves the cursor at the beginning of the error in the source code line, i.e. the text marked by `^` (caret) character.
+A double press, select this text.
+A triple press selects the error with its context, i.e. the text of the source code line marked by `^` (caret) and `~` (tilde) characters.
+
+Please note that for logs taken with an NVDA version before 2024.1, thus with Python 3.7 or older, Python only indicates the error with one `^` (caret) character.
+Thus the double or triple press action of this command becomes rather useless.
+
+#### Getting a summary of the available commands
+
+To display a list of all the available commands in log reading mode, press `NVDA+X, H`.
+
+## Anonymize a log
+
+When reporting issues, you may have to provide a log.
+However, logs may contain sensitive information (user names, e-mails, etc.).
+This add-on provides a command to anonymize a log's content.
+
+Select a part of the log or its whole content and press `NVDA+X, A`.
+The anonymized log content will be put in the clipboard.
+You can paste it on the current selection to replace it or anywhere else you wish.
+
+For this feature to work, you need to customize the anonymization rules used by this command.
+The file to configure these rules is located at: `pathToNVDAConfig\ndtt\anonymizationRules.dic` (e.g. `C:\Users\myUserName\AppData\Roaming\nvda\ndtt\consoleStartup.py`).
+You will find all the instructions to write this file in its header.
+In case you have corrupted your anonymization rules file or if you have deleted the header's instructions, just delete or rename this file and a new version of this file will be generated at next startup.
 
 <a id="oldLogsBackup"></a>
 ## Backup of old logs
@@ -240,7 +299,7 @@ Below are examples of call in NVDA's code:
 
 ### Python console startup script
 
-You can define a custom script which will be executed in the Python console's namespace when it is first opened, or if the add-on is reloaded (NVDA+F3) after the console has already been opened.
+You can define a custom script which will be executed in the Python console's namespace when it is first opened.
 
 For example, the script allows you to execute new imports and define aliases that you will be able to use directly in the console, as shown below:  
 
@@ -253,6 +312,14 @@ For example, the script allows you to execute new imports and define aliases tha
 
 The Python console script should be placed in the following location: `pathToNVDAConfig\ndtt\consoleStartup.py`  
 For example: `C:\Users\myUserName\AppData\Roaming\nvda\ndtt\consoleStartup.py`
+
+Note: In Python 2, i.e. with NVDA 2019.2.1 or earlier, only pure ASCII scripts are supported; any other encoding such as Unicode is not supported.
+
+### Preserving Python console input history
+
+In Python console history, you can use up and down arrows to review and modify previous inputs.
+Though, the list of previous inputs is cleared when exiting NVDA.
+This add-on provide [an option](#settingsPreserveHistory), enabled by default, allowing to preserve Python console input history even when NVDA is restarted.
 
 ## Log the stack trace of the speech function
 
@@ -268,10 +335,13 @@ See all instructions in the file for details on usage.
 
 Many testers use NVDA in another language than English.
 But when reporting test results on GitHub, the description of the modified options or the messages reported by NVDA should be written in English.
-Its quite frustrating and time consuming to have to restart NVDA in English to check the exact wording of the options or messages.
+It's quite frustrating and time consuming to have to restart NVDA in English to check the exact wording of the options or messages.
 
-To avoid this, the add-on provides a reverse translation command (`NVDA+X, R`) allowing to reverse translate NVDA's interface such as messages, control labels in the GUI, etc.
-This command uses NVDA's gettext translation to try to reverse translate the last speech.
+To avoid this, the add-on provides two reverse translation commands allowing to reverse translate NVDA's interface such as messages, control labels in the GUI, etc.
+
+* `NVDA+X, R` uses NVDA's gettext translation to try to reverse translate the last speech.
+* `NVDA+shift+X, R` uses gettext translations from NVDA and its add-ons to try to reverse translate the last speech.
+
 More specifically, the first string of the last speech sequence is reverse translated.
 
 For example, in French NVDA, if I arrow down to the Tools menu named "Outils", NVDA will say "Outils  sous-Menu  o" which stands for "Tools  subMenu  o".
@@ -287,6 +357,19 @@ This confirms that "Outils was the first string in the speech sequence.
 In case the reverse translation leads to two or more possible results, a context menu is opened listing all the possibilities.
 
 The result of the reverse translation is also copied to the clipboard if the corresponding [option](#settingsCopyReverseTranslation) is enabled, which is the default value.
+
+Reverse translation of NVDA strings is only available for NVDA version 2022.1 or above.
+For earlier versions of NVDA, only the add-ons strings are available for reverse translation.
+
+Besides, in NVDA version 2019.2.1 or earlier, in case no reverse translation is found, a second attempt is made in the first part of the string.
+ Indeed, in these NVDA version, the speech sequence looks like this:
+```
+IO - speech.speak (12:39:12.684):
+Speaking [u'Outils  sous-Menu  o']
+```
+We can see that an object label may be concatenated with role, state, shortcut, etc.
+So if the reverse translation gives no  result with the whole string, a second attempt is made on the part of the string before the double space ("  ").
+Though, this is not bullet-proof since we cannot exclude that a string actually natively contains a double space.
 
 <a id="settings"></a>
 ## Settings
@@ -336,7 +419,37 @@ These settings only take effect at next NVDA startup when the backup takes place
 
 This option allows to choose if the [reverse translation command](#reverseTranslationCommand) also copies its result to the clipboard.
 
+<a id="settingsPreserveHistory"></a>
+### Preserve console input history after restart
+
+If this checkbox is checked, Python console input history will be preserved when NVDA is restarted.
+If it is checked, you can also specify below the maximum number of inputs that will be saved.
+If it is unchecked, NVDA will behave as usual, i.e. the console history will be empty after restart.
+
 ## Change log
+
+### Version 8.0
+
+* Python console history can now be preserved accross restarts.
+* Reverse translation: Added a second command to reverse translate a string using both NVDA and its add-ons translations.
+* New log reader commans to jump to previous or next braille output message
+* New log reader commans to jump to previous or next block in a message, e.g. previous or next thread stack in a watchdog freeze report, previous or next block of properties in the developer info for navigator object, etc.
+* New log reader commands to jump to the first or last interesting line of a block, e.g. first or last frame of a traceback
+* A new log reader "Go to error" command to jump to the error in a traceback frame.
+* A new log reader command to display an help message listing all the available commands while reading a log.
+* The log reading mode is now enabled by default in the Python console output pane.
+* A new command to anonymize a log
+* The console startup script now supports unicode strings (for Python 3 only); full unicode file may not be supported though.
+* The Python console startup script will now only be executed once and only once when the console opens.
+A bug where this script could be executed many times when reloading the add-ons has been fixed.
+* Improved error handling in the console startup script.
+* Bugfix: An empty log files created when log is disabled do not fail anymore to be saved as old log.
+* Speech on demand is now supported in layered commands
+* Improved error handling of the script opener command (in case of wrong or missing configuration, or when a braille display is in use).
+
+### Version 7.3
+
+* Bugfix: The command to activate layered commands of the add-on can now be assigned another gesture.
 
 ### Version 7.1
 
