@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ru">
-  <file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/c96d9ab9ea689f22fce38ad3bc9cc94de3e28695/addons/stationPlaylist/stationPlaylist.md">
+  <file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/66b4cb7680f8020f6ade65050e43243ffaeb34d9/addons/stationPlaylist/stationPlaylist.md">
     <skeleton>
 # $(ID:72b56760-d227-4247-81ad-2a598cfd6834)
 
@@ -25,8 +25,8 @@ $(ID:9d6da162-60a3-455f-b58e-ba55b4d3e460)
 
 $(ID:6d85bd07-2e1d-41a9-a080-9507ae648c15)
 
-* $(ID:5bf9e33b-c9fd-43ab-b8e6-98fcd89f1050)
-* $(ID:afedfdec-6b43-400a-8022-fd0583623e2e)
+* $(ID:f95b4cea-dd09-4e9f-835a-92cb9fad898a)
+* $(ID:802dda81-fce4-45bf-9da9-835dfe217946)
 * $(ID:0197837b-b577-4ae1-8a8e-1436a84a1773)
 * $(ID:6a547929-2593-467b-922f-549958bd5c0c)
 * $(ID:c12409e2-076b-43f2-bf81-4afa14ab327d)
@@ -35,7 +35,7 @@ $(ID:6d85bd07-2e1d-41a9-a080-9507ae648c15)
 * $(ID:1f66075d-e771-4545-a31d-cb264fabb75d)
 * $(ID:4c3e4a09-dca0-402b-b8f9-fdf4266575b7)
 * $(ID:c12e385d-6cde-42ca-89cf-ddacd2246e61)
-* $(ID:3fff14a3-7060-4608-b1e3-a8cde9f78e82)
+* $(ID:93c29a37-7abd-404e-81c7-0e6621089023)
 * $(ID:08e0cc0e-0cb5-4e43-b01a-48d7cc539be9)
 * $(ID:511a75ff-4e35-459d-9663-000e952c878e)
 * $(ID:8754f4d2-743b-4f71-8f1c-7cc630019256)
@@ -100,15 +100,15 @@ $(ID:a60e2084-1848-4836-a4a4-920c2591b085)
 $(ID:168b9dde-c66b-4d3e-9c13-4583910be2df)
 
 * $(ID:963e7b60-bc02-473c-8d0c-1de7adb27d4f)
-* $(ID:82c2bb2e-14be-42bc-8dec-7be9199b9625)
+* $(ID:a5b146fd-2703-47ab-8c2d-6e656ea52b28)
 * $(ID:b982d6aa-0b7a-4fba-b08d-5b1875b6ccf8)
 * $(ID:7bf314cf-4fe7-4af9-a413-bcebc0e2ffef)
 * $(ID:c20fb24b-ff56-4452-a321-f4fd76c2536c)
 * $(ID:637d0346-9d6f-40af-ac14-9471722a25e2)
 * $(ID:a99f8fe5-ba2c-4ba0-be28-7a5eb82c1761)
 * $(ID:a55cadfc-a4a2-483a-bcc0-a3779fa7c069)
-* $(ID:c8e24fd1-74ef-4ca6-a8fa-8fcee3e0611f)
-* $(ID:ab2071a0-248e-48b1-81d0-38b43f811c31)
+* $(ID:16f7f31b-e6c3-46a9-a4ea-34fd1eff593b)
+* $(ID:e7b188e4-84ed-460e-aa51-5acf7f1172f1)
 * $(ID:0dc7a0f7-4fbb-4b07-b73c-2926058e74fc)
 * $(ID:1f648175-c330-466c-9cfe-8f49a558dfe6)
 * $(ID:605e5a9e-bafe-4088-90f8-62ffaff9b85d)
@@ -119,10 +119,10 @@ $(ID:168b9dde-c66b-4d3e-9c13-4583910be2df)
 * $(ID:29ee8f72-cd89-4641-8f37-ae4343c6248d)
 * $(ID:caf8dfd7-1e7b-456f-8bd5-2f3249114341)
 * $(ID:380a8e51-2343-4ac1-8b49-8b94ff15b397)
-* $(ID:2c4707af-4e68-45dc-b3b1-75aa3cd624ec)
+* $(ID:30ba4a1a-e107-4cae-a24a-e17d5e853de9)
 * $(ID:6151e1a5-c6e5-491f-9ab9-bb77ad045afa)
 * $(ID:97970319-3c76-4e25-a3c9-281c2f924954)
-* $(ID:eb4b50da-7794-489e-b190-93e89bee2ef6)
+* $(ID:72889709-40f7-4d18-a682-2a195053cdcc)
 * $(ID:064555f6-bf88-4f2d-ba6d-c9b151343845)
 * $(ID:958aec28-f027-4977-9371-979f8ccf2757)
 * $(ID:720d5caa-467e-46ba-a3ea-0cef02a0f566)
@@ -135,11 +135,11 @@ $(ID:168b9dde-c66b-4d3e-9c13-4583910be2df)
 
 ## $(ID:bc992ea5-29b6-4a39-be12-191a8655bd85)
 
-$(ID:aeb44670-c92b-4a4b-a6ab-a581ba6f65a6)
+$(ID:1d83c3d7-91a7-4ced-babf-162ebdcf52e9)
 
 $(ID:86b93b5f-4742-40af-a25a-70d2e15a856f)
 
-$(ID:55d7986a-d8de-4696-a2e7-3e92705d021b)
+$(ID:b993fb7b-fcf9-40d6-9f9a-2b43d77eaa07)
 
 * $(ID:6db298f5-59dc-4871-9f34-3d21bc92f85b)
 * $(ID:960067fc-0cbd-4493-8c91-a684440dadec)
@@ -153,13 +153,13 @@ $(ID:55d7986a-d8de-4696-a2e7-3e92705d021b)
 * $(ID:bb40ef0c-9005-4ee5-a475-e2e2918c2b60)
 * $(ID:dca8cb43-8f5c-4226-8c86-57e0c7a4c53b)
 * $(ID:d6b73c6f-f5fa-4602-a58d-d816a9be20d9)
-* $(ID:4457c4ec-f866-43da-a999-ed566359d0b1)
+* $(ID:a7aec830-b370-421b-afef-835d81067a3d)
 * $(ID:fb6c4ff9-96ee-413b-adde-8d4d31a0f4de)
 * $(ID:28263618-d9f8-4654-8cc6-e215e4ced9eb)
-* $(ID:9707aead-f7f5-460e-a464-d55e8f0dcd10)
-* $(ID:6cb2bb26-380e-49fd-87e3-dc651a5e4f0e)
+* $(ID:2472bc47-f337-4f3f-bd4e-ec0642963620)
+* $(ID:d391732a-18e2-4b78-bfba-ebc9a53f7ec5)
 * $(ID:62a58aab-3780-4476-abb1-ee9a94536752)
-* $(ID:c4a9ee45-a0ed-46aa-bc5c-9692cc2545aa)
+* $(ID:bfd6e1f8-0440-4636-ade7-31777a7b59f0)
 * $(ID:78f1d29d-8bc3-488e-b955-680bbb941109)
 
 $(ID:4471622f-885a-4ffd-866e-bd2ac21bfdfb)
@@ -202,7 +202,7 @@ $(ID:a54ac05b-efc0-4460-8f05-daf949f001f4)
 
 ## $(ID:3ea2ca71-be59-4a22-bbe4-931d44360585)
 
-$(ID:d95a9d47-f1a3-484f-9f95-82fce2aa38c8)
+$(ID:2d5debef-b6e5-48a6-a5db-484a0f73287b)
 
 ## $(ID:6dd53e37-e747-4170-9c55-82fd4ad7f95a)
 
@@ -214,9 +214,23 @@ $(ID:4b76fa09-0d87-423f-889f-078b5e4467cf)
 
 ## $(ID:89458b2b-c532-4a26-a210-3923b6d8168c)
 
-* $(ID:ef15e2c1-1c79-462a-b917-9e04c5d9e281)
-* $(ID:1b5e4749-468b-4bd4-8798-25cc29bd3f20)
+* $(ID:c253e0a1-8b69-4f40-88d5-ae6857b959b7)
+* $(ID:75dcaf3d-71bb-47ab-a219-1c7e93915c8b)
+* $(ID:595f9a5c-3b5e-4bf4-8edb-35ebed70ff11)
+* $(ID:bda893ed-31c4-4dc6-b28b-989a4361d350)
+* $(ID:b5973b9e-b106-4516-9546-84340cea1250)
+* $(ID:9df55266-e5d7-4599-bf1e-de36e8c4a92c)
+* $(ID:51a86432-f5aa-4c8e-9d6d-3f847336f984)
+* $(ID:871a9812-42e3-491e-9a38-4e9506e849d8)
+* $(ID:19529c2a-3ff2-4a87-ba75-1d93e4e2bcda)
+* $(ID:29806c2b-14bd-4a0b-82ff-33a5ab882c09)
+* $(ID:228aef30-7154-4c6e-a2fc-9a0bcc7c91fa)
+* $(ID:2e3faf3a-fcce-4eb0-a246-7fd6c1b98230)
 * $(ID:f0149511-c1fc-4af9-8fe9-b6fac293d644)
+* $(ID:0e3ba2f5-9314-455a-9942-642dc35cfb90)
+* $(ID:f49d1b2f-794e-4b65-8367-76e324f702e3)
+* $(ID:29448daa-7c7d-49a1-883f-06bed10994b5)
+* $(ID:d9d20be5-e761-4d7a-8fb9-fc594c65753c)
 
 ## $(ID:3b4a83d2-1eb0-4424-be45-d270ae5f8396)
 
@@ -454,24 +468,24 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Большинство из них будут работать только в Studio, если не указано иное. Если не указано иное, эти команды поддерживают режим речи по требованию.</target>
       </segment>
     </unit>
-    <unit id="5bf9e33b-c9fd-43ab-b8e6-98fcd89f1050">
+    <unit id="f95b4cea-dd09-4e9f-835a-92cb9fad898a">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Alt+Shift+T from Studio window: announce elapsed time for the currently playing track.</source>
-        <target>Alt+Shift+T из окна Studio: объявляет прошедшее время текущей воспроизводимой дорожки.</target>
+        <source>Alt+Shift+T from Studio window: announce elapsed time for the currently playing track, voice track, or cart.</source>
+        <target>Alt+Shift+T в окне Studio: объявить прошедшее время воспроизводимой в данный момент дорожки, голосовой дорожки или корзины.</target>
       </segment>
     </unit>
-    <unit id="afedfdec-6b43-400a-8022-fd0583623e2e">
+    <unit id="802dda81-fce4-45bf-9da9-835dfe217946">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: announce remaining time for the currently playing track.</source>
-        <target>Control+Alt+T (пролистать двумя пальцами вниз в сенсорном режиме SPL) из окна Studio: объявить оставшееся время воспроизводимой в данный момент дорожки.</target>
+        <source>Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: announce remaining time for the currently playing track, voice track, or cart.</source>
+        <target>Control+Alt+T (Пролистывание двумя пальцами вниз в сенсорном режиме SPL) в окне Studio: объявить оставшееся время для воспроизводимой в данный момент дорожки, голосовой дорожки или корзины.</target>
       </segment>
     </unit>
     <unit id="0197837b-b577-4ae1-8a8e-1436a84a1773">
@@ -554,14 +568,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Control+NVDA+f из окна Studio: Открывает диалог поиска дорожки по исполнителю или названию песни. Нажмите NVDA+F3 для поиска вперёд, или NVDA+Shift+F3 для поиска назад (не поддерживается речь по требованию).</target>
       </segment>
     </unit>
-    <unit id="3fff14a3-7060-4608-b1e3-a8cde9f78e82">
+    <unit id="93c29a37-7abd-404e-81c7-0e6621089023">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Shift+NVDA+R from Studio window: Steps through library scan announcement settings (does not support speak on demand).</source>
-        <target>Shift+NVDA+R из окна Studio: настройки пошаговых объявлений сканирования библиотеки (не поддерживает речь по требованию).</target>
+        <source>Shift+NVDA+R from Studio window (local Studio only): Steps through library scan announcement settings (does not support speak on demand).</source>
+        <target>Shift+NVDA+R в окне Studio (только локальная Studio): Пошаговые действия по настройке оповещений о сканировании библиотеки (гне поддерживает речь по требованию).</target>
       </segment>
     </unit>
     <unit id="08e0cc0e-0cb5-4e43-b01a-48d7cc539be9">
@@ -1068,14 +1082,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>A: Автоматизация.</target>
       </segment>
     </unit>
-    <unit id="82c2bb2e-14be-42bc-8dec-7be9199b9625">
+    <unit id="a5b146fd-2703-47ab-8c2d-6e656ea52b28">
       <notes>
         <note appliesTo="source">line: 100</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>C (Shift+C  in JAWS layout): Title for the currently playing track.</source>
-        <target>C (Shift+C в раскладке JAWS): Название проигрываемой в данный момент дорожки.</target>
+        <source>C (Shift+C in JAWS layout): Title for the currently playing track.</source>
+        <target>C (Shift+C в раскладке JAWS): Название воспроизводимой в данный момент дорожки.</target>
       </segment>
     </unit>
     <unit id="b982d6aa-0b7a-4fba-b08d-5b1875b6ccf8">
@@ -1138,24 +1152,24 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>F: Найти дорожку (только для просмотрщика списков воспроизведения, не поддерживает речь по требованию).</target>
       </segment>
     </unit>
-    <unit id="c8e24fd1-74ef-4ca6-a8fa-8fcee3e0611f">
+    <unit id="16f7f31b-e6c3-46a9-a4ea-34fd1eff593b">
       <notes>
         <note appliesTo="source">line: 107</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>H: Duration of music for the current hour slot.</source>
-        <target>H: Продолжительность музыки для текущего часового интервала.</target>
+        <source>H (T in JAWS layout): Duration of music for the current hour slot.</source>
+        <target>H (T в раскладке JAWS): Продолжительность музыки для текущего часового интервала.</target>
       </segment>
     </unit>
-    <unit id="ab2071a0-248e-48b1-81d0-38b43f811c31">
+    <unit id="e7b188e4-84ed-460e-aa51-5acf7f1172f1">
       <notes>
         <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Shift+H: Remaining track duration for the hour slot.</source>
-        <target>Shift+H: Оставшаяся продолжительность дорожки для часового интервала.</target>
+        <source>Shift+H (H in JAWS layout): Remaining track duration for the hour slot.</source>
+        <target>Shift+H (H в раскладке JAWS): Оставшаяся продолжительность дорожки для часового интервала.</target>
       </segment>
     </unit>
     <unit id="0dc7a0f7-4fbb-4b07-b73c-2926058e74fc">
@@ -1258,14 +1272,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>R (Shift+E в раскладке JAWS, недоступно в Remote Studio): Запись в файл включена/отключена.</target>
       </segment>
     </unit>
-    <unit id="2c4707af-4e68-45dc-b3b1-75aa3cd624ec">
+    <unit id="30ba4a1a-e107-4cae-a24a-e17d5e853de9">
       <notes>
         <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Shift+R (unavailable in Remote Studio): Monitor library scan in progress.</source>
-        <target>Shift+R (недоступно в Remote Studio): наблюдение за ходом сканирования библиотеки.</target>
+        <source>Shift+R (Alt+T in JAWS layout; unavailable in Remote Studio): Monitor library scan in progress.</source>
+        <target>Shift+R (Alt+T в раскладке JAWS; недоступно в Удалённой Studio): Наблюдение сканирования библиотеки.</target>
       </segment>
     </unit>
     <unit id="6151e1a5-c6e5-491f-9ab9-bb77ad045afa">
@@ -1288,14 +1302,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Shift+S: Время до начала воспроизведения выбранной дорожки (дорожка начинается).</target>
       </segment>
     </unit>
-    <unit id="eb4b50da-7794-489e-b190-93e89bee2ef6">
+    <unit id="72889709-40f7-4d18-a682-2a195053cdcc">
       <notes>
         <note appliesTo="source">line: 122</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>T (unavailable in Remote Studio): Cart edit/insert mode on/off.</source>
-        <target>T (недоступно в Remote Studio): Режим редактирования/вставки корзины вкл/выкл.</target>
+        <source>T (number row 0 (zero) in JAWS layout; unavailable in Remote Studio): Cart edit/insert mode on/off.</source>
+        <target>T (числовая строка 0 (ноль) в раскладке JAWS; недоступно в Удалённой Studio): включение/выключение режима редактирования/вставки корзины.</target>
       </segment>
     </unit>
     <unit id="064555f6-bf88-4f2d-ba6d-c9b151343845">
@@ -1398,13 +1412,13 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Панель управления SPL</target>
       </segment>
     </unit>
-    <unit id="aeb44670-c92b-4a4b-a6ab-a581ba6f65a6">
+    <unit id="1d83c3d7-91a7-4ced-babf-162ebdcf52e9">
       <notes>
         <note appliesTo="source">line: 135</note>
       </notes>
       <segment state="final">
-        <source>The SPL Controller is a set of layered commands you can use to control SPL local Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "SPL Controller." Press another command to control various local Studio settings such as microphone on/off or play the next track. You can also configure NVDA to enter SPL Assistant layer (see above) by pressing SPL Controller layer command (passthrough mode, enabled by default).</source>
-        <target>Панель управления SPL — это набор многоуровневых команд, которые можно использовать для управления локальной SPL Studio где угодно. Нажмите команду уровня панели управления SPL, и NVDA произнесет: "Панель управления SPL". Нажмите другую команду, чтобы управлять различными локальными настройками Studio, такими как включение/выключение микрофона или воспроизведение следующей дорожки. Вы также можете настроить NVDA для входа в уровень помощника SPL (см. выше), нажав команду уровня панели управления SPL (режим сквозной передачи, включен по умолчанию).</target>
+        <source>The SPL Controller is a set of layered commands you can use to control SPL (local) Studio and/or Remote Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "SPL Controller" or "SPL Remote Controller" if Remote Studio is in use. Press another command to control various Studio settings such as microphone on/off or play the next track. You can also configure NVDA to enter SPL Assistant layer (see above) by pressing SPL Controller layer command (passthrough mode, enabled by default).</source>
+        <target>Панель управления SPL — это набор многоуровневых команд, которые можно использовать для управления SPL (локальной) Studio и/или Удалённой Studio в любом месте. Нажмите команду уровня панели управления SPL, и NVDA скажет: "Панель управления SPL" или "Удалённая панель управления SPL", если используется Удалённая Studio. Нажмите другую команду, чтобы управлять различными настройками Studio, такими как включение/выключение микрофона или воспроизведение следующей дорожки. Вы также можете настроить NVDA для входа в уровень помощника SPL (см. выше), нажав команду уровня панели управления SPL (режим сквозной передачи, включен по умолчанию).</target>
       </segment>
     </unit>
     <unit id="86b93b5f-4742-40af-a25a-70d2e15a856f">
@@ -1416,13 +1430,13 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Важно: команды уровня панели управления SPL отключены, если NVDA запущен в защищенном режиме.</target>
       </segment>
     </unit>
-    <unit id="55d7986a-d8de-4696-a2e7-3e92705d021b">
+    <unit id="b993fb7b-fcf9-40d6-9f9a-2b43d77eaa07">
       <notes>
         <note appliesTo="source">line: 139</note>
       </notes>
       <segment state="final">
-        <source>Outside of Studio, the available SPL Controller commands are (some commands support speak on demand):</source>
-        <target>За пределами Studio, доступны следующие команды панели управления SPL (Некоторые команды поддерживают речь по требованию):</target>
+        <source>Outside of Studio, the available SPL Controller commands are (some commands support speak on demand and some are only available with local Studio):</source>
+        <target>Вне Studio доступны следующие команды панели управления SPL (некоторые команды поддерживают речь по требованию, а некоторые доступны только в локальной Studio):</target>
       </segment>
     </unit>
     <unit id="6db298f5-59dc-4871-9f34-3d21bc92f85b">
@@ -1545,14 +1559,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>R: Оставшееся время для воспроизводимой в данный момент дорожки.</target>
       </segment>
     </unit>
-    <unit id="4457c4ec-f866-43da-a999-ed566359d0b1">
+    <unit id="a7aec830-b370-421b-afef-835d81067a3d">
       <notes>
         <note appliesTo="source">line: 153</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Shift+R: Library scan progress.</source>
-        <target>Shift+R: Ход сканирования библиотеки.</target>
+        <source>Shift+R (unavailable in Remote Studio): Library scan progress.</source>
+        <target>Shift+R (недоступно в Удалённой Studio): Ход сканирования библиотеки.</target>
       </segment>
     </unit>
     <unit id="fb6c4ff9-96ee-413b-adde-8d4d31a0f4de">
@@ -1575,24 +1589,24 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Shift+C: Название и длительность предстоящей дорожки, если есть (поддерживается речь по требованию).</target>
       </segment>
     </unit>
-    <unit id="9707aead-f7f5-460e-a464-d55e8f0dcd10">
+    <unit id="2472bc47-f337-4f3f-bd4e-ec0642963620">
       <notes>
         <note appliesTo="source">line: 156</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>E: Encoder connection status (supports speak on demand).</source>
-        <target>E: Состояние подключения кодера (поддерживается речь по требованию).</target>
+        <source>E (unavailable in Remote Studio): Encoder connection status (supports speak on demand).</source>
+        <target>E (недоступно в Удалённой Studio): Состояние подключения энкодера (поддерживается речь по требованию).</target>
       </segment>
     </unit>
-    <unit id="6cb2bb26-380e-49fd-87e3-dc651a5e4f0e">
+    <unit id="d391732a-18e2-4b78-bfba-ebc9a53f7ec5">
       <notes>
         <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>I: Listener count (supports speak on demand).</source>
-        <target>I: Число слушателей (поддерживает речь по требованию).</target>
+        <source>I (unavailable in Remote Studio): Listener count (supports speak on demand).</source>
+        <target>I (недоступно в Удалённой Studio): Число слушателей (поддерживает речь по требованию).</target>
       </segment>
     </unit>
     <unit id="62a58aab-3780-4476-abb1-ee9a94536752">
@@ -1605,14 +1619,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Q: Информация о состоянии студии, например, воспроизводится ли дорожка, включен ли микрофон и другие данные (поддерживается речь по требованию).</target>
       </segment>
     </unit>
-    <unit id="c4a9ee45-a0ed-46aa-bc5c-9692cc2545aa">
+    <unit id="bfd6e1f8-0440-4636-ade7-31777a7b59f0">
       <notes>
         <note appliesTo="source">line: 159</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Cart keys (F1, Control+1, for example): Play assigned carts from anywhere.</source>
-        <target>Клавиши корзины (F1, Control+1, например): Воспроизвести назначенные корзины из любого места.</target>
+        <source>Cart keys (F1, Control+1, for example; unavailable in Remote Studio): Play assigned carts from anywhere.</source>
+        <target>Клавиши корзины (F1, Control+1, например; недоступно в Удалённой Studio): Воспроизвести назначенные корзины из любого места.</target>
       </segment>
     </unit>
     <unit id="78f1d29d-8bc3-488e-b955-680bbb941109">
@@ -1814,13 +1828,13 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Диалог настройки</target>
       </segment>
     </unit>
-    <unit id="d95a9d47-f1a3-484f-9f95-82fce2aa38c8">
+    <unit id="2d5debef-b6e5-48a6-a5db-484a0f73287b">
       <notes>
         <note appliesTo="source">line: 202</note>
       </notes>
       <segment state="final">
-        <source>From studio window, you can press Alt+NVDA+0 to open the add-on configuration dialog. Alternatively, go to NVDA's preferences menu and select SPL Studio Settings item. Not all settings are available if NVDA is running in secure mode.</source>
-        <target>В окне studio вы можете нажать Alt+NVDA+0, чтобы открыть диалог настройки дополнения. В качестве альтернативы, перейдите в меню параметров NVDA и выберите пункт Настройки SPL Studio. Не все настройки доступны, если NVDA запущен в безопасном режиме.</target>
+        <source>From studio window, you can press Alt+NVDA+0 to open the add-on configuration dialog. Alternatively, go to NVDA's preferences menu and select SPL Studio Settings item. Not all settings are available if NVDA is running in secure mode and while using Remote Studio.</source>
+        <target>В окне Studio вы можете нажать Alt+NVDA+0, чтобы открыть диалог настроек дополнения. Альтернативно, перейдите в меню настроек NVDA и выберите пункт настроек SPL Studio. Не все настройки доступны, если NVDA работает в безопасном режиме и при использовании Удалённой Studio.</target>
       </segment>
     </unit>
     <unit id="6dd53e37-e747-4170-9c55-82fd4ad7f95a">
@@ -1871,29 +1885,129 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Версия 25.12/25.06.11-LTS</target>
       </segment>
     </unit>
-    <unit id="ef15e2c1-1c79-462a-b917-9e04c5d9e281">
+    <unit id="c253e0a1-8b69-4f40-88d5-ae6857b959b7">
       <notes>
         <note appliesTo="source">line: 214</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>In local Studio 6.20, NVDA will no longer announce wrong column content when vertical column navigation is set to "Time Scheduled" (Time column).</source>
-        <target>В локальной версии Studio 6.20 NVDA больше не будет объявлять неправильное содержимое столбца, если для вертикальной навигации по столбцам установлено значение "По расписанию" (столбец времени).</target>
+        <source>Added a setting in add-on settings under status announcements to announce when a cart finishes playing (NVDA will say 'cart stopped').</source>
+        <target>В настройках дополнения в разделе объявлений о состоянии добавлена настройка, позволяющая объявлять, когда корзина завершает воспроизведение (NVDA сообщит: `Корзина остановлена`).</target>
       </segment>
     </unit>
-    <unit id="1b5e4749-468b-4bd4-8798-25cc29bd3f20">
+    <unit id="75dcaf3d-71bb-47ab-a219-1c7e93915c8b">
       <notes>
         <note appliesTo="source">line: 215</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>When performing playlist transcripts in local Studio 6.20, NVDA will include the correct column title for time column instead of time scheduled.</source>
-        <target>При выполнении расшифровки списка воспроизведения в локальной Studio 6.20 NVDA будет включать правильный заголовок столбца для столбца времени вместо запланированного времени.</target>
+        <source>In add-on settings/status announcements, cart name checkbox is now cart announcement check list box with the former setting becoming a checkable option.</source>
+        <target>В настройках/объявлениях о состоянии дополнения флажок имени корзины теперь является флажком списка объявлений о корзине, а прежний параметр становится доступным для отметки.</target>
+      </segment>
+    </unit>
+    <unit id="595f9a5c-3b5e-4bf4-8edb-35ebed70ff11">
+      <notes>
+        <note appliesTo="source">line: 216</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>25.12: In Studio 6.20 and later, SPL Controller can be used to control local Studio and/or Remote Studio. A new setting in add-on settings dialog under Advanced settings panel allows configuring SPL Controller coverage/scope between both local Studio and Remote Studio or one or the other. In earlier Studio releases, SPL Controller layer will control local Studio.</source>
+        <target>25.12: В Studio 6.20 и выше, панель управления SPL может использоваться для управления локальной и/или удаленной Studio. Новый параметр в диалоге настроек дополнения на панели дополнительных настроек позволяет настраивать покрытие/область действия панели управления SPL как между локальной Studio, так и с удаленной Studio, или между той или иной. В более ранних выпусках Studio уровень панели управления SPL будет управлять локальной Studio.</target>
+      </segment>
+    </unit>
+    <unit id="bda893ed-31c4-4dc6-b28b-989a4361d350">
+      <notes>
+        <note appliesTo="source">line: 217</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In local Studio, performing track elapsed (Alt+Shift+T) and remaining time (Control+Alt+T) commands will also announce elapsed and remaining time for the currently playing voice track and/or cart. In addition, pressing SPL Controller, R will announce remaining duration of the playing track, voice track, or cart for local Studio.</source>
+        <target>В локальной Studio при выполнении команд прошедшего времени дорожки (Alt+Shift+T) и Оставшегося времени (Control+Alt+T) также будет объявлено прошедшее и оставшееся время для воспроизводимой в данный момент голосовой дорожки и/или корзины. Кроме того, нажатие панели управления SPL, R объявит оставшуюся продолжительность воспроизводимой дорожки, голосовой дорожки или корзины для локальной студии.</target>
+      </segment>
+    </unit>
+    <unit id="b5973b9e-b106-4516-9546-84340cea1250">
+      <notes>
+        <note appliesTo="source">line: 218</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Metadata streaming and status announcements settings panels will not be shown when opening add-on settings screen from Remote Studio.</source>
+        <target>Панели настроек потоковой передачи метаданных и объявлений о состоянии не будут отображаться при открытии экрана настроек дополнения из Удалённой Studio.</target>
+      </segment>
+    </unit>
+    <unit id="9df55266-e5d7-4599-bf1e-de36e8c4a92c">
+      <notes>
+        <note appliesTo="source">line: 219</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Settings to report library scans and listener requests will not be shown in add-on settings when opened from Remote Studio.</source>
+        <target>Настройки объявлений о сканированиях библиотеки и запросах слушателей не будут отображаться в настройках дополнения при открытии из Удалённой Studio.</target>
+      </segment>
+    </unit>
+    <unit id="51a86432-f5aa-4c8e-9d6d-3f847336f984">
+      <notes>
+        <note appliesTo="source">line: 220</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>25.12: In local Studio, NVDA will announce track starts value correctly (SPL Assistant, S).</source>
+        <target>25.12: В локальной Studio NVDA правильно объявит значение начала дорожки (помощник SPL, S).</target>
+      </segment>
+    </unit>
+    <unit id="871a9812-42e3-491e-9a38-4e9506e849d8">
+      <notes>
+        <note appliesTo="source">line: 221</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>25.12: In local Studio, NVDA will no longer announce wrong information when locating various screen information such as weather data if error log button is shown on screen.</source>
+        <target>25.12: В локальной Studio NVDA больше не будет объявлять неверную информацию при поиске различной информации на экране, например данные о погоде, если на экране отображается кнопка журнала ошибок.</target>
+      </segment>
+    </unit>
+    <unit id="19529c2a-3ff2-4a87-ba75-1d93e4e2bcda">
+      <notes>
+        <note appliesTo="source">line: 222</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Library scan announcement toggle command (NVDA+Shift+R) is now limited to local Studio.</source>
+        <target>Команда переключения объявления о сканировании библиотеки (NVDA+Shift+R) теперь доступна только в локальной Studio.</target>
+      </segment>
+    </unit>
+    <unit id="29806c2b-14bd-4a0b-82ff-33a5ab882c09">
+      <notes>
+        <note appliesTo="source">line: 223</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Changed the following SPL Assistant JAWS layout commands: hour duration (H to T), hour remaining duration (Shift+H to H), library scan (Shift+R to Alt+T), cart edit/insert (T to number row 0).</source>
+        <target>Изменены следующие команды раскладки JAWS помощника SPL: продолжительность часа (с H на T), оставшаяся продолжительность в часе (с Shift+H на H), сканирование библиотеки (с Shift+R на Alt+T), редактирование/вставка корзины (с T на числовая строка 0).</target>
+      </segment>
+    </unit>
+    <unit id="228aef30-7154-4c6e-a2fc-9a0bcc7c91fa">
+      <notes>
+        <note appliesTo="source">line: 224</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Resolved "Time Scheduled/Time" column announcement and usage in local Studio 6.20, including reporting of wrong column content when vertical column navigation is set to "Time Scheduled", NVDA reporting "Time Scheduled not found" when this column is configured as a columns explorer slot, and wrong column title shown in playlist transcripts.</source>
+        <target>Устранено объявление и использование столбца запланированного времени/Времени в локальной Studio 6.20, включая объявления о неправильном содержимом столбца, когда для навигации по вертикальному столбцу установлено значение запланированного времени, сообщение NVDA "Запланированное время не найдено", когда этот столбец настроен как слот проводника столбцов, и неправильный заголовок столбца, отображаемый в расшифровках списка воспроизведения.</target>
+      </segment>
+    </unit>
+    <unit id="2e3faf3a-fcce-4eb0-a246-7fd6c1b98230">
+      <notes>
+        <note appliesTo="source">line: 225</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>Resolved issues working with results from insert tracks dialog in local Studio 6.20, including NVDA saying "Artist not found" when performing columns explorer commands (Control+NVDA+number row) to obtain artist information, wrong column information announced in columns explorer, and top and bottom beeps being heard.</source>
+        <target>Решены проблемы с работой с результатами из диалога вставки дорожек в локальной Studio 6.20, включая сообщение NVDA "Исполнитель не найден" при выполнении команд проводника столбцов (Control+NVDA+цифра числового ряда) для получения информации об исполнителе, неправильная информация о столбце, объявляемая в проводнике столбцов, а также слышимость высоких и низких сигналов.</target>
       </segment>
     </unit>
     <unit id="f0149511-c1fc-4af9-8fe9-b6fac293d644">
       <notes>
-        <note appliesTo="source">line: 216</note>
+        <note appliesTo="source">line: 226</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1901,9 +2015,49 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>NVDA больше не будет включать пустое содержимое столбца при создании расшифровок списков воспроизведения в форматах обычного текста и списка HTML.</target>
       </segment>
     </unit>
+    <unit id="0e3ba2f5-9314-455a-9942-642dc35cfb90">
+      <notes>
+        <note appliesTo="source">line: 227</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In local Studio, NVDA will no longer announce "no track playing" when announcing next track title when no tracks are playing but next track title is showing on screen.</source>
+        <target>В локальной Studio NVDA больше не будет объявлять "Дорожка не воспроизводится" при объявлении названия следующей дорожки, когда дорожки не воспроизводятся, но название следующей дорожки отображается на экране.</target>
+      </segment>
+    </unit>
+    <unit id="f49d1b2f-794e-4b65-8367-76e324f702e3">
+      <notes>
+        <note appliesTo="source">line: 228</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In local Studio, NVDA will no longer appear to do nothing or play error tones when cart edit/insert mode is toggled while cart explorer is active.</source>
+        <target>В локальной Studio NVDA больше не будет ничего делать или воспроизводить сигналы ошибок при переключении режима редактирования/вставки корзины, когда активен проводник корзин.</target>
+      </segment>
+    </unit>
+    <unit id="29448daa-7c7d-49a1-883f-06bed10994b5">
+      <notes>
+        <note appliesTo="source">line: 229</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In Remote Studio, taking playlist snapshots (SPL Assistant, F8) shows more accurate results.</source>
+        <target>В Удалённой Studio создание снимков списка воспроизведения (помощник SPL, F8) даёт более точные результаты.</target>
+      </segment>
+    </unit>
+    <unit id="d9d20be5-e761-4d7a-8fb9-fc594c65753c">
+      <notes>
+        <note appliesTo="source">line: 230</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="final">
+        <source>In Remote Studio, NVDA will no longer do nothing or play error tones when announcing current and next track titles and is configured to announce track player information.</source>
+        <target>В Удалённой Studio NVDA больше не будет ничего делать или воспроизводить сигналы ошибок при объявлении названий текущей и следующей дорожки при настройке на объявление информации о проигрывателе дорожек.</target>
+      </segment>
+    </unit>
     <unit id="3b4a83d2-1eb0-4424-be45-d270ae5f8396">
       <notes>
-        <note appliesTo="source">line: 218</note>
+        <note appliesTo="source">line: 232</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1913,7 +2067,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="4ff7b508-6bfe-4c55-b813-a8c9fec2e181">
       <notes>
-        <note appliesTo="source">line: 220</note>
+        <note appliesTo="source">line: 234</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1923,7 +2077,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="e301ca34-a849-443a-abd9-54a07a285c10">
       <notes>
-        <note appliesTo="source">line: 221</note>
+        <note appliesTo="source">line: 235</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1933,7 +2087,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="b8c327ae-054d-490a-9ed7-6ea708da5e1a">
       <notes>
-        <note appliesTo="source">line: 222</note>
+        <note appliesTo="source">line: 236</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1943,7 +2097,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="c223b917-0b3d-499a-92b6-08884c433f21">
       <notes>
-        <note appliesTo="source">line: 223</note>
+        <note appliesTo="source">line: 237</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1953,7 +2107,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="19ed64c9-7a0e-419e-8a24-4c4704d8698e">
       <notes>
-        <note appliesTo="source">line: 224</note>
+        <note appliesTo="source">line: 238</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1963,7 +2117,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="4c8ad0da-740f-40d1-a89e-39de33be5411">
       <notes>
-        <note appliesTo="source">line: 225</note>
+        <note appliesTo="source">line: 239</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1973,7 +2127,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="6aeae5ae-2d82-4198-98c1-11076b52bf0f">
       <notes>
-        <note appliesTo="source">line: 227</note>
+        <note appliesTo="source">line: 241</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -1983,7 +2137,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="4b5695b4-9d3e-4f93-8e7d-b979066cf914">
       <notes>
-        <note appliesTo="source">line: 229</note>
+        <note appliesTo="source">line: 243</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -1993,7 +2147,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="45ff3eb7-4cd0-4e4f-bfb5-9b9c4597fc32">
       <notes>
-        <note appliesTo="source">line: 230</note>
+        <note appliesTo="source">line: 244</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2003,7 +2157,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="4409c00b-8596-4f6b-8dea-a94d64e256b6">
       <notes>
-        <note appliesTo="source">line: 231</note>
+        <note appliesTo="source">line: 245</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2013,7 +2167,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="2d1c5646-2346-45ea-ae98-cc176eaaa73e">
       <notes>
-        <note appliesTo="source">line: 233</note>
+        <note appliesTo="source">line: 247</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2023,7 +2177,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="82f63c85-db94-4765-ba2b-fda3009b6387">
       <notes>
-        <note appliesTo="source">line: 235</note>
+        <note appliesTo="source">line: 249</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2033,7 +2187,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="c9cdade6-c7d6-4fe7-9ae8-d98b9a3f268c">
       <notes>
-        <note appliesTo="source">line: 236</note>
+        <note appliesTo="source">line: 250</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2043,7 +2197,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="2c3ef0d4-ee1d-4123-b012-6b8ef16c274e">
       <notes>
-        <note appliesTo="source">line: 237</note>
+        <note appliesTo="source">line: 251</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2053,7 +2207,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ca709681-2565-438d-b771-67cc0a8e784c">
       <notes>
-        <note appliesTo="source">line: 239</note>
+        <note appliesTo="source">line: 253</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2063,7 +2217,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="a8b2e083-5cb2-4607-b71e-1c9857373377">
       <notes>
-        <note appliesTo="source">line: 241</note>
+        <note appliesTo="source">line: 255</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2073,7 +2227,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="a64a8eb3-58d2-43c0-90b4-ff95af971ca9">
       <notes>
-        <note appliesTo="source">line: 242</note>
+        <note appliesTo="source">line: 256</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2083,7 +2237,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="06a9c3b6-bd11-4788-bae6-53b2284af831">
       <notes>
-        <note appliesTo="source">line: 243</note>
+        <note appliesTo="source">line: 257</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2093,7 +2247,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="d2b950ca-5b4c-4566-aed2-29d071cc6ab1">
       <notes>
-        <note appliesTo="source">line: 244</note>
+        <note appliesTo="source">line: 258</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2103,7 +2257,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="4cdff5dd-f70c-49b0-96a9-68f17ac4250d">
       <notes>
-        <note appliesTo="source">line: 245</note>
+        <note appliesTo="source">line: 259</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2113,7 +2267,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="2c121b82-e091-4448-98d7-73783806f4a5">
       <notes>
-        <note appliesTo="source">line: 247</note>
+        <note appliesTo="source">line: 261</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2123,7 +2277,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="379e7c09-41ee-47b7-8796-bccdd74c41ee">
       <notes>
-        <note appliesTo="source">line: 249</note>
+        <note appliesTo="source">line: 263</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2133,7 +2287,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="15c0f571-c9d9-4cf7-94e5-524ec5e81a61">
       <notes>
-        <note appliesTo="source">line: 250</note>
+        <note appliesTo="source">line: 264</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2143,7 +2297,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="a6f7281c-4525-4459-86ff-5cba2c4d5b17">
       <notes>
-        <note appliesTo="source">line: 251</note>
+        <note appliesTo="source">line: 265</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2153,7 +2307,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="0ab3e914-6122-4a4b-a561-b56834ce3c5c">
       <notes>
-        <note appliesTo="source">line: 252</note>
+        <note appliesTo="source">line: 266</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2163,7 +2317,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="9abaf6b9-2f22-46ed-b462-df928ccdd98e">
       <notes>
-        <note appliesTo="source">line: 254</note>
+        <note appliesTo="source">line: 268</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2173,7 +2327,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="158e828a-5258-46fa-9d69-7dd12b0287c4">
       <notes>
-        <note appliesTo="source">line: 256</note>
+        <note appliesTo="source">line: 270</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2183,7 +2337,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="42fed07b-c0a0-4039-b8a9-c41ed3055364">
       <notes>
-        <note appliesTo="source">line: 257</note>
+        <note appliesTo="source">line: 271</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2193,7 +2347,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="a1b00ddd-9d61-44a4-bb48-db037f6981dc">
       <notes>
-        <note appliesTo="source">line: 259</note>
+        <note appliesTo="source">line: 273</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2203,7 +2357,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="24b21da1-c147-4eb4-ae4c-9d1aea769676">
       <notes>
-        <note appliesTo="source">line: 261</note>
+        <note appliesTo="source">line: 275</note>
       </notes>
       <segment state="final">
         <source>Version 25.07 supports SPL Studio 6.0 and later.</source>
@@ -2212,7 +2366,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="358b582e-51da-433d-a336-03496d16102a">
       <notes>
-        <note appliesTo="source">line: 263</note>
+        <note appliesTo="source">line: 277</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2222,7 +2376,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ec7c9284-64cc-4119-ab62-a44266dcff43">
       <notes>
-        <note appliesTo="source">line: 264</note>
+        <note appliesTo="source">line: 278</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2232,7 +2386,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="83d3edb7-444a-4082-946d-9f251e634006">
       <notes>
-        <note appliesTo="source">line: 265</note>
+        <note appliesTo="source">line: 279</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2242,7 +2396,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="6517a6c5-3186-4d3c-98d8-8fc1e51fdcad">
       <notes>
-        <note appliesTo="source">line: 266</note>
+        <note appliesTo="source">line: 280</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2252,7 +2406,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="935b297f-6134-45f8-a623-909070d92f5c">
       <notes>
-        <note appliesTo="source">line: 267</note>
+        <note appliesTo="source">line: 281</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2262,7 +2416,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="6a6c2e7f-2fb8-4b2c-87cc-715a4582a903">
       <notes>
-        <note appliesTo="source">line: 269</note>
+        <note appliesTo="source">line: 283</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2272,7 +2426,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="c61c203c-a7fb-48e8-813f-03275754585a">
       <notes>
-        <note appliesTo="source">line: 271</note>
+        <note appliesTo="source">line: 285</note>
       </notes>
       <segment state="final">
         <source>Version 25.06.x is the last release series to support Studio 5.x with future releases requiring Studio 6.x. Some new features will be backported to 25.06.x if needed.</source>
@@ -2281,7 +2435,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ddc47deb-14a0-46b0-afa3-80516db90400">
       <notes>
-        <note appliesTo="source">line: 273</note>
+        <note appliesTo="source">line: 287</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2291,7 +2445,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="2e9a22a5-9bc3-43a9-8b47-a3c9a6248b35">
       <notes>
-        <note appliesTo="source">line: 274</note>
+        <note appliesTo="source">line: 288</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2301,7 +2455,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="79609d4c-88a3-4c14-9103-3c2af80e461a">
       <notes>
-        <note appliesTo="source">line: 275</note>
+        <note appliesTo="source">line: 289</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2311,7 +2465,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="3e033671-65bf-4286-91fb-c24850229b8b">
       <notes>
-        <note appliesTo="source">line: 276</note>
+        <note appliesTo="source">line: 290</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2321,7 +2475,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="01fdeb37-df4a-4eaf-84df-6142515946ea">
       <notes>
-        <note appliesTo="source">line: 277</note>
+        <note appliesTo="source">line: 291</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2331,7 +2485,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="7f9b2e16-3ab6-478c-bffc-b14620cee5bd">
       <notes>
-        <note appliesTo="source">line: 278</note>
+        <note appliesTo="source">line: 292</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2341,7 +2495,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="f608ccd5-f16c-49b3-bbc5-55f799ad380a">
       <notes>
-        <note appliesTo="source">line: 279</note>
+        <note appliesTo="source">line: 293</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2351,7 +2505,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="137bebe3-cbd5-4217-a068-fd0746d52a23">
       <notes>
-        <note appliesTo="source">line: 280</note>
+        <note appliesTo="source">line: 294</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2361,7 +2515,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="b424c153-620a-4244-a9ca-e51e701eae0c">
       <notes>
-        <note appliesTo="source">line: 281</note>
+        <note appliesTo="source">line: 295</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2371,7 +2525,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="afab636d-ba92-4d9e-9702-4cb12e0570a4">
       <notes>
-        <note appliesTo="source">line: 282</note>
+        <note appliesTo="source">line: 296</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2381,7 +2535,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="1e7b92ef-fe9f-493e-a6d7-bd4f54b5c5f7">
       <notes>
-        <note appliesTo="source">line: 284</note>
+        <note appliesTo="source">line: 298</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2391,7 +2545,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="6a03e401-181a-4639-997a-1ff28f594e70">
       <notes>
-        <note appliesTo="source">line: 286</note>
+        <note appliesTo="source">line: 300</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2401,7 +2555,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="001bbdad-c5f0-4448-a079-e39568960fa8">
       <notes>
-        <note appliesTo="source">line: 287</note>
+        <note appliesTo="source">line: 301</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2411,7 +2565,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="1e564e65-336b-4ce3-adb6-2b9ee8ca3d45">
       <notes>
-        <note appliesTo="source">line: 288</note>
+        <note appliesTo="source">line: 302</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2421,7 +2575,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="883cf7a2-95a7-4db4-ac3b-562eee97912d">
       <notes>
-        <note appliesTo="source">line: 289</note>
+        <note appliesTo="source">line: 303</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2431,7 +2585,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="660b9891-d001-4730-a107-0fc0ff418096">
       <notes>
-        <note appliesTo="source">line: 290</note>
+        <note appliesTo="source">line: 304</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2441,7 +2595,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="d30febb8-4527-4d5e-a448-6a2a1f345ea8">
       <notes>
-        <note appliesTo="source">line: 292</note>
+        <note appliesTo="source">line: 306</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2451,7 +2605,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="89efc142-1b5f-4aef-b22e-677e6f3dabea">
       <notes>
-        <note appliesTo="source">line: 294</note>
+        <note appliesTo="source">line: 308</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2461,7 +2615,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="809fc233-3e88-4daa-a6e1-23515cf40f59">
       <notes>
-        <note appliesTo="source">line: 295</note>
+        <note appliesTo="source">line: 309</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2471,7 +2625,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="1b640491-b58d-4737-a8e9-59235b04245a">
       <notes>
-        <note appliesTo="source">line: 296</note>
+        <note appliesTo="source">line: 310</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2481,7 +2635,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="b38908ed-d691-40e7-9027-92e8d696c350">
       <notes>
-        <note appliesTo="source">line: 297</note>
+        <note appliesTo="source">line: 311</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2491,7 +2645,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="f8449cf2-9e2c-41ad-a5c9-c093875aaf4f">
       <notes>
-        <note appliesTo="source">line: 298</note>
+        <note appliesTo="source">line: 312</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
@@ -2501,7 +2655,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="af48981e-971c-4501-9187-285c8e52cc0d">
       <notes>
-        <note appliesTo="source">line: 300</note>
+        <note appliesTo="source">line: 314</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2511,7 +2665,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ef84e111-1161-42e1-8c82-d9b3f26abaa0">
       <notes>
-        <note appliesTo="source">line: 302</note>
+        <note appliesTo="source">line: 316</note>
       </notes>
       <segment state="final">
         <source>Please see the [changelog][2] for release notes for old add-on releases.</source>
@@ -2520,7 +2674,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ae425190-be6e-4f51-9978-54e93c342430">
       <notes>
-        <note appliesTo="source">line: 304</note>
+        <note appliesTo="source">line: 318</note>
       </notes>
       <segment state="final">
         <source>[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md</source>
@@ -2529,7 +2683,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="359bd587-eef6-4251-8240-017752aa23a8">
       <notes>
-        <note appliesTo="source">line: 306</note>
+        <note appliesTo="source">line: 320</note>
       </notes>
       <segment state="final">
         <source>[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md</source>
