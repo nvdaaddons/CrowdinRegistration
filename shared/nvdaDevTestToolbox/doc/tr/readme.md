@@ -14,8 +14,9 @@ Bu eklenti, NVDA hata ayıklama ve test için çeşitli özellikleri bir araya g
 * Komut dosyası araçları: genişletilmiş komut dosyası açıklama modu ve komut dosyası açıcı.
 * Günlük okuma ve analizine yardımcı olacak komutlar.
 * Eski günlük yedekleri
+* Günlüğü anonimleştirme komutu
+* Özel bir başlangıç ​​komut dosyası ve NVDA yeniden başlatıldıktan sonra giriş geçmişini bellekte koruma olanağı gibi Python konsolu geliştirmeleri.
 * Python konsol çalışma alanında, bir nesnenin kaynak kodunu açmak için kullanılan bir işlev.
-* Python konsolu için özel bir başlangıç ​​komut dosyası
 * speech.speak işlevinin yığın izini günlüğe kaydetmek için bir komut.
 * Arayüz öğelerini tersine çevirmek için bir komut.
 
@@ -100,7 +101,7 @@ Bununla birlikte, bu tür komut dosyasının kullanıcının ilişkili hareketi 
 Aslında, bu hareket bir uygulama kısayol tuşuna eşleştirilmek üzere tanımlanabilir.
 Örneğin, NVDAObjects.window.winword.WordDocument üzerindeki script_toggleItalic komut dosyası control+I tuşuna bağlıdır ve bu tuş kombinasyonu uygulamaya aktarılarak kısayol tuşunu gerçekten çalıştırdığı için değiştirilmemelidir.
 
-### Kullanım Örneği
+#### Kullanım örneği
 
 Kontrol+shift+I tuşları, NVDA tarafından yerel olarak bildirilmese bile Word'de italik yazıyı da değiştirir.
 NVDA tarafından kontrol+shift+I sonucunun kontrol+I olarak bildirilmesi için aşağıdaki adımları uygulamanız gerekir:
@@ -125,18 +126,19 @@ Bilinen hata: Hareket Yöneticisi başka bir bağlamda açılmış olsa bile bel
 Test veya çalışma sırasında, günlüğü okurken daha sonra kolayca geri dönebilmek için günlüğün belirli bir anını işaretlemek isteyebilirsiniz.
 Günlüğe bir işaret mesajı eklemek için `NVDA+X, K` tuşlarına basın.
 BİLGİ düzeyinde aşağıdaki gibi bir mesaj kaydedilecektir:
-`-- NDTT işaret 0 --`
+`-- NGAK işaretçi 0 --`
 Günlüğe istediğiniz kadar işaret ekleyebilirsiniz.
 İşaretçinin numarası, günlüğe her işaretçi yerleştirdiğinizde artacaktır; yalnızca NVDA yeniden başlatıldığında sıfırlanacaktır.
 
 ### Günlük Okuyucu Modu
 
 Günlük okuyucu modu, günlük okuma ve analizini kolaylaştırmak için komutlar sağlar.
-Günlük görüntüleyici penceresinde günlük okuyucusu varsayılan olarak etkinleştirilir, böylece günlük okuma komutları anında kullanılabilir.
+Günlük görüntüleyici penceresinde ve Pyton konsolu çıkış alanında, günlük okuyucu varsayılan olarak etkindir, böylece günlük okuma komutları hemen kullanılabilir.
 Editör (ör. Notepad++) veya web sayfası (ör. GitHub sorunu) gibi başka bir metin okuma alanında, günlük okuyucu modunu etkinleştirmek ve komutlarını kullanmak için `NVDA+X, L` tuşlarına basmanız gerekir.
 Günlük okuma ve analiz görevlerini tamamladığınızda, günlük okuyucu modunu devre dışı bırakmak için `NVDA+X, L` tuşlarını tekrar kullanabilirsiniz.
 
 Günlük okuyucu modunda kullanılabilen komutlar aşağıda açıklanmıştır.
+Bu modda, mevcut tüm komutları görüntülemek için 'control+H' tuşlarına da basabilirsiniz.
 
 <a id="logReaderQuickNavigationCommands"></a>
 #### Hızlı gezinme komutları
@@ -152,9 +154,23 @@ Gözatma modundaki hızlı gezinme tuşlarına benzer tek harfli komutlar, çeş
 * i: Giriş/çıkış mesajları (`IO`)
 * n: giriş mesajları
 * s: konuşma mesajları
+* b: Braille mesajları
 * d: Hata Ayıklama Mesajları (`DEBUG`)
 
 Tek harfe basıldığında, bu mesajın bir sonraki geçtiği yere geçilir. Harfi shift tuşuyla birlikte kullanıldığında, bu mesajın bir önceki geçtiği yere geçilir.
+
+Ayrıca belirli mesaj türlerinde 'O' veya 'shift+O' tuşlarına basarak blok blok atlayabilirsiniz.
+Aşağıdaki mesaj türleri ve ilgili bloklar desteklenir:
+
+* Geri izleme içeren mesajlarda, ör. hata mesajları, blok navigasyonu geri izlemeler arasında geçiş yapmanızı sağlar
+  Bu, özellikle birden fazla geri izleme mevcut olduğunda kullanışlıdır; try/hariç yan tümcesinin "hariç" bölümünde bir hata oluştuğunda.
+* Bir donma meydana geldiğinde günlüğe kaydedilen Python iş parçacıklarının yığınlarını listeleyen mesajda, blok gezintisi iş parçacığı yığınları arasında geçiş yapmanıza olanak tanır.
+* 'NVDA+F1' tuşuna bastığınızda günlüğe kaydedilen gezgin nesnesi için geliştirici bilgisi sağlayan mesajda, blok gezinme, özellik grupları arasında geçiş yapmanıza olanak tanır.
+  Dört özellik grubu vardır: genel özellikler, appModule özellikleri, pencere özellikleri ve arayüze özgü (IAccessible, UIA) özellikler.
+
+Sonunda, bir bloğun içinde, bloğun ilgilendiğiniz ilk veya son satırına hızlı bir şekilde atlamak isteyebilirsiniz.
+Geçerli bloğun içeriğinin ilk ilgi satırına atlamak için "shift+L"yi kullanın; geri izlemenin ilk karesi.
+Ve blok içeriğinin son ilgi alanına atlamak için 'L'; bir iş parçacığı yığınının son karesi veya geri izlemenin altında hata.
 
 #### Konuşma mesajının çevirisi
 
@@ -163,12 +179,10 @@ Bazen, anlamadığınız bir yabancı dilde bir sistemde alınan bir günlüğü
 
 * Öncelikle Anında Çeviri'nin dillerini yapılandırın. Kaynak dil, günlüğün alındığı sistemin dili olmalıdır (örneğin Çince). Hedef dil ise sizin diliniz olmalıdır (örneğin Fransızca).
 * Günlüğü aç
-* Günlükte otomatik konuşma çevirisini etkinleştirmek için t tuşuna basın
+* Günlükte otomatik konuşma çevirisini etkinleştirmek için "control+T" tuşlarına basın
 * Günlükteki Hızlı gezinme komutlarını kullanın, örneğin S, I, vb. Bir konuşma mesajıyla karşılaşıldığında, bu mesaj sizin dilinizde konuşulacaktır (önceki örneğimizde Fransızca)
 
-Konuşma çevirisini devre dışı bırakmak istiyorsanız, T tuşuna tekrar basın.
-
-
+Konuşma çevirisini devre dışı bırakmak istiyorsanız tekrar 'kontrol+T' tuşlarına basın.
 
 <a id="logReaderOpenSourceFile"></a>
 #### Kaynak kod dosyasını düzenleyicide aç
@@ -179,14 +193,59 @@ Günlükte bazı satırlar kaynak koduna atıfta bulunabilir:
   `  File "virtualBuffers\__init__.pyc", line 226, in _getStoryLength`
 * Günlüğe kaydedilen bir mesajın başlık satırı, bu mesajı günlüğe kaydeden işlevi içerir, örneğin:
   `INFO - config.ConfigManager._loadConfig (22:45:26.145) - MainThread (16580):`
-* Girdi yardım modunda günlüğe kaydedilen bir mesajın içeriği (bilgi düzeyinde günlüğe kaydedilir):
-  `Girdi Yardımı: gesture kb(desktop):NVDA+t, globalCommands.GlobalCommands'da komut dosyası başlığına bağlı`
+* Giriş yardım modunda oturum açılan bir mesajın içeriği (bilgi düzeyinde günlüğe kaydedilen):
+  `Input help: gesture kb(desktop):NVDA+t, bound to script title on globalCommands.GlobalCommands`
 
 İzleme bilgisinin veya kaydedilen mesajın bağlamını anlamak için bu kodu içeren dosyayı açmak isteyebilirsiniz.
 Bu dosyayı açmak için C tuşuna basın.
 
 Bu özelliğin çalışması için, eklentinin ayarlarında [favori editörünüzün komutunu](#settingsOpenCommand) yapılandırmış olmanız gerekir.
 NVDA'yı kaynak kodundan çalıştırmıyorsanız, [NVDA kaynak kodunun konumu](#settingsNvdaSourcePath) da yapılandırılmış olmalıdır.
+
+#### Geri izlemeyi analiz etme
+
+Bazen aşağıdaki örnekte olduğu gibi günlükte hata geri izlemeleri olabilir:
+```
+HATA - scriptHandler.executeScript (14:47:43.426) - MainThread (15492):
+komut dosyası yürütülürken hata oluştu: <bound method LogContainer.script_openSourceFile of <NVDAObjects.Dynamic_LogViewerLogContainerIAccessibleRichEdit50WindowNVDAObject object at 0x34C1E510>> with gesture 'c'
+Geri izleme (en son çağrı en son):
+  Dosya "scriptHandler.pyc", line 300, in executeScript
+  Dosya "C:\Users\myUserName\AppData\Roaming\nvda\addons\nvdaDevTestToolbox\globalPlugins\ndtt\logReader.py", line 603, in script_openSourceFile
+    if self.openStackTraceLine(line):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  Dosya "C:\Users\myUserName\AppData\Roaming\nvda\addons\nvdaDevTestToolbox\globalPlugins\ndtt\logReader.py", line 667, in openStackTraceLine
+    0 / 0  # Hatalı bir kod satırı
+    ~~^~~
+ZeroDivisionError: sıfıra bölme
+```
+
+Kaynak kodunun mevcut olduğu çerçeveler için, '^' (şapka) ve '~' (tilde) karakterlerini içeren işaretleyicileri fark etmiş olabilirsiniz.
+Bu, Python'un bir geri izleme çerçevesinde hatanın konumunu ve içeriğini görsel olarak göstermesinin yoludur.
+'Control+E'ye basmak, imleci kaynak kod satırındaki hatanın başlangıcına, yani '^' (şapka işareti) karakteriyle işaretlenen metne hareket ettirir.
+İki kez bastığınızda bu metni seçer.
+Üç kez basmak, hatayı bağlamıyla birlikte seçer; yani kaynak kod satırının "^" (şapka işareti) ve "~" (tilde) karakterleriyle işaretlenmiş metni.
+
+Lütfen, 2024.1'den önceki bir NVDA sürümüyle, yani Python 3.7 veya daha eski bir sürümle alınan günlükler için, Python'un hatayı yalnızca bir '^' (şapka işareti) karakteriyle gösterdiğini unutmayın.
+Böylece bu komutun çift veya üçlü basma eylemi oldukça işe yaramaz hale gelir.
+
+#### Mevcut komutların özetini alma
+
+Günlük okuma modunda mevcut tüm komutların listesini görüntülemek için 'NVDA+X, H' tuşlarına basın.
+
+## Günlüğü anonimleştirme
+
+Sorunları bildirirken bir günlük sağlamanız gerekebilir.
+Ancak günlükler hassas bilgiler (kullanıcı adları, e-postalar vb.) içerebilir.
+Bu eklenti, bir günlüğün içeriğini anonimleştirmeye yönelik bir komut sağlar.
+
+Günlüğün bir bölümünü veya tüm içeriğini seçin ve 'NVDA+X, A' tuşlarına basın.
+Anonimleştirilmiş günlük içeriği panoya konulacaktır.
+Değiştirmek için mevcut seçimin üzerine veya istediğiniz başka bir yere yapıştırabilirsiniz.
+
+Bu özelliğin çalışması için bu komutun kullandığı anonimleştirme kurallarını özelleştirmeniz gerekir.
+Bu kuralları yapılandırmak için kullanılan dosya şu konumda bulunur: `pathToNVDAConfig\\ndtt\\anonymizationRules.dic` (örneğin, `C:\Users\myUserName\AppData\Roaming\\nvda\\ndtt\consoleStartup.py`).
+Bu dosyayı yazmak için gereken tüm talimatları başlığında bulacaksınız.
+Anonimleştirme kuralları dosyanızı bozduysanız veya başlığın talimatlarını sildiyseniz, bu dosyayı silin veya yeniden adlandırın; bir sonraki açılışta bu dosyanın yeni bir sürümü oluşturulacaktır.
 
 <a id="oldLogsBackup"></a>
 ## Eski günlük yedekleri
@@ -225,22 +284,22 @@ Nesneyi konsola henüz içe aktarmadıysanız, adını `openCodeFile` işlevine 
 
 Aşağıda NVDA kodunda çağrı örnekleri verilmiştir:
 
-* `speech.speech.speak` fonksiyonunun tanımını görüntüleyin:
+* 'Speech.speech.speak' işlevinin tanımını görüntüleyin:
   `openCodeFile(speech.speech.speak)`
   veya parametre olarak iletilen adla:
   `openCodeFile("speech.speech.speak")`
-* `TextInfo` sınıfının tanımını görüntüleyin:
+* 'TextInfo' sınıfının tanımını görüntüleyin:
   `openCodeFile(textInfos.TextInfo)`
-* `TextInfo` sınıfının `copyToClipboard` metodunun tanımını görüntüleyin:
+* 'TextInfo' sınıfının 'copyToClipboard' yönteminin tanımını görüntüleyin:
   `openCodeFile(textInfos.TextInfo.copyToClipboard)`
 * Odaklanılan nesnenin sınıfının tanımını görüntüleyin:
-  `openCodeFile(Odak)`
-* `Api` modülünü tanımlayan 'api.py' dosyasını açın:
+  `openCodeFile(focus)`
+* 'Api' modülünü tanımlayan 'api.py' dosyasını açın:
   `openCodeFile(api)`
 
 ### Python konsolu başlangıç ​​komut dosyası
 
-Python konsolunun ilk açıldığında veya konsol açıldıktan sonra eklenti yeniden yüklendiğinde (NVDA+F3) konsolun ad alanında yürütülecek özel bir komut dosyası tanımlayabilirsiniz.
+Python konsolu ilk açıldığında ad alanında yürütülecek özel bir komut dosyası tanımlayabilirsiniz.
 
 Örneğin, komut dosyası, aşağıda gösterildiği gibi, yeni içe aktarmaları yürütmenize ve doğrudan konsolda kullanabileceğiniz takma adları tanımlamanıza olanak tanır:
 
@@ -251,8 +310,16 @@ Python konsolunun ilk açıldığında veya konsol açıldıktan sonra eklenti y
     # Takma adlar
     kda = Kod Dosyasını Aç
 
-Python konsolu komut dosyası aşağıdaki konuma yerleştirilmelidir: `pathToNVDAConfig\ndtt\consoleStartup.py`
+Python konsolu komut dosyası şu konuma yerleştirilmelidir: `pathToNVDAConfig\\ndtt\consoleStartup.py`
 Örneğin: `C:\Users\kullanıcıadı\AppData\Roaming\nvda\ndtt\consoleStartup.py`
+
+Not: Python 2'de, yani NVDA 2019.2.1 veya önceki sürümlerde yalnızca saf ASCII komut dosyaları desteklenir; Unicode gibi diğer kodlamalar desteklenmez.
+
+### Python konsolu giriş geçmişini koruma
+
+Python konsolu geçmişinde önceki girişleri gözden geçirmek ve değiştirmek için yukarı ve aşağı okları kullanabilirsiniz.
+Ancak NVDA'dan çıkıldığında önceki girişlerin listesi silinir.
+Bu eklenti, varsayılan olarak etkin olan [bir seçenek](#settingsPreserveHistory) sağlar ve NVDA yeniden başlatıldığında bile Python konsolu giriş geçmişinin korunmasına olanak tanır.
 
 ## Konuşma işlevinin yığın izlemesini günlüğe kaydet
 
@@ -268,10 +335,13 @@ Kullanımla ilgili ayrıntılar için dosyadaki tüm talimatlara bakın.
 
 Birçok testçi NVDA'yı İngilizce'den başka bir dilde kullanır.
 Ancak GitHub'da test sonuçlarını bildirirken, değiştirilen seçeneklerin açıklaması veya NVDA tarafından bildirilen mesajlar İngilizce yazılmalıdır.
-Seçeneklerin veya mesajların tam olarak ne anlama geldiğini kontrol etmek için NVDA'yı İngilizce olarak yeniden başlatmak zorunda kalmak oldukça sinir bozucu ve zaman alıcı bir iş.
+Seçeneklerin veya mesajların tam metnini kontrol etmek için NVDA'yı İngilizce olarak yeniden başlatmak zorunda kalmak oldukça sinir bozucu ve zaman alıcıdır.
 
-Bunu önlemek için, eklenti ters çeviri komutu (`NVDA+X, R`) sağlar ve NVDA'nın arayüzünü, örneğin mesajları, GUI'deki kontrol etiketlerini vb. tersine çevirmeye olanak tanır.
-Bu komut, NVDA'nın gettext çevirisini kullanarak son konuşmayı tersine çevirmeye çalışır.
+Bunu önlemek için eklenti, mesajlar, GUI'deki kontrol etiketleri vb. gibi NVDA'nın arayüzünü ters çevirmeye olanak tanıyan iki ters çeviri komutu sağlar.
+
+* `NVDA+X, R` Son konuşmayı tersine çevirmek için NVDA'nın gettext çevirisini kullanır.
+* `NVDA+shift+X, R` Son konuşmayı tersine çevirmek için NVDA'dan ve eklentilerinden gettext çevirilerini kullanır.
+
 Daha spesifik olarak, son konuşma dizisinin ilk dizesi ters çevrilir.
 
 Örneğin, Fransızca NVDA'da, “Outils” adlı Araçlar menüsüne aşağı ok tuşuyla gittiğimde, NVDA “Outils  sous-Menu  o” diye seslendirir, bu da “Araçlar  alt Menüsü  o” anlamına gelir.
@@ -287,6 +357,19 @@ Bu, “Outils'ın konuşma dizisinde ilk kelime olduğunu” doğrulamaktadır.
 Ters çevirinin iki veya daha fazla olası sonuç vermesi durumunda, tüm olasılıkları listeleyen bir bağlam menüsü açılır.
 
 Ters çevirinin sonucu, ilgili [seçenek](#settingsCopyReverseTranslation) etkinleştirilmişse, varsayılan değer olan panoya da kopyalanır.
+
+NVDA dizelerinin ters çevirisi yalnızca NVDA 2022.1 veya üzeri sürümlerde mevcuttur.
+NVDA'nın önceki sürümlerinde, ters çeviri için yalnızca eklenti dizeleri mevcuttur.
+
+Ayrıca NVDA 2019.2.1 ve önceki sürümlerde ters çeviri bulunamaması durumunda dizenin ilk kısmında ikinci bir deneme yapılır.
+ Aslında NVDA'nın bu sürümünde konuşma sırası şu şekilde görünüyor:
+```
+IO - speech.speak (12:39:12.684):
+Konuşma [u'Outils  sous-Menu  o']
+```
+Bir nesne etiketinin rol, durum, kısayol vb. ile birleştirilebileceğini görebiliriz.
+Dolayısıyla, eğer ters çeviri tüm dizeyle sonuç vermezse, dizenin çift boşluktan (" ") önceki kısmında ikinci bir deneme yapılır.
+Ancak bu kurşun geçirmez değildir çünkü bir dizenin aslında doğal olarak çift boşluk içerdiğini göz ardı edemeyiz.
 
 <a id="settings"></a>
 ## Ayarlar
@@ -336,7 +419,37 @@ Bu ayarlar, yedekleme işlemi gerçekleştirildiğinde yalnızca bir sonraki NVD
 
 Bu seçenek, [ters çeviri komutu](#reverseTranslationCommand) sonucunu da panoya kopyalamayı seçmenizi sağlar.
 
+<a id="settingsPreserveHistory"></a>
+### Yeniden başlatmanın ardından konsol giriş geçmişini koruyun
+
+Bu onay kutusu işaretlenirse, NVDA yeniden başlatıldığında Python konsolu giriş geçmişi korunacaktır.
+İşaretliyse aşağıda kaydedilecek maksimum giriş sayısını da belirleyebilirsiniz.
+İşaretlenmezse NVDA her zamanki gibi davranacaktır; yani yeniden başlatmanın ardından konsol geçmişi boş olacaktır.
+
 ## Değişiklik günlüğü
+
+### Sürüm 8.0
+
+* Python konsolu geçmişi artık yeniden başlatmalarda korunabiliyor.
+* Ters çeviri: Hem NVDA'yı hem de eklenti çevirilerini kullanarak bir dizeyi ters çevirmek için ikinci bir komut eklendi.
+* Önceki veya sonraki braille çıkış mesajına atlamak için yeni günlük okuyucu komutları
+* Yeni günlük okuyucu, bir mesajda önceki veya sonraki bloğa atlamak için komut verir, ör. bir gözlemci dondurma raporundaki önceki veya sonraki iş parçacığı yığını, gezgin nesnesi için geliştirici bilgisindeki önceki veya sonraki özellik bloğu vb.
+* Yeni günlük okuyucu komutları bir bloğun ilk veya son ilginç satırına atlamak için kullanılır; geri izlemenin ilk veya son karesi
+* Geri izleme çerçevesindeki hataya atlamak için yeni bir günlük okuyucu "Hataya git" komutu.
+* Bir günlüğü okurken mevcut tüm komutları listeleyen bir yardım mesajı görüntüleyen yeni bir günlük okuyucu komutu.
+* Günlük okuma modu artık Python konsolu çıktı bölmesinde varsayılan olarak etkindir.
+* Günlüğü anonimleştirmek için yeni bir komut
+* Konsol başlangıç ​​komutu artık unicode dizeleri destekliyor (yalnızca Python 3 için); tam unicode dosyası desteklenmeyebilir.
+* Python konsolu başlangıç ​​komut dosyası artık konsol açıldığında yalnızca bir kez ve yalnızca bir kez yürütülecek.
+Eklentileri yeniden yüklerken bu komut dosyasının birçok kez çalıştırılabilmesine neden olan bir hata düzeltildi.
+* Konsol başlangıç ​​komut dosyasındaki hata işleme iyileştirildi.
+* Hata düzeltme: Günlük devre dışı bırakıldığında oluşturulan boş günlük dosyaları artık eski günlük olarak kaydedilemiyor.
+* İsteğe bağlı konuşma artık katmanlı komutlarda destekleniyor
+* Komut dosyası açıcı komutunun hata işlemesi iyileştirildi (yanlış veya eksik yapılandırma durumunda veya bir braille ekranı kullanıldığında).
+
+### Sürüm 7.3
+
+* Hata düzeltmesi: Eklentinin katmanlı komutlarını etkinleştirme komutuna artık başka bir hareket atanabilir.
 
 ### Sürüm 7.1
 
@@ -344,8 +457,8 @@ Bu seçenek, [ters çeviri komutu](#reverseTranslationCommand) sonucunu da panoy
 
 ### Sürüm 7.0
 
-* Katmanlı komutlar eklendi; giriş noktası 'NVDA+X'tir.
-  Mevcut komutlar şuna göre değiştirildi.
+* Katmanlı komutlar tanımlandı; giriş noktası 'NVDA+X'tir.
+  Mevcut komutlar buna göre değiştirildi.
 * Son konuşulan mesajı tersine çevirmek için yeni bir komut (`NVDA+X, R`).
 * Bir sonraki basılan harekete bağlı komut dosyasının kaynak kodunu açmak için yeni bir komut (`NVDA+X, C`).
 * İsteğe bağlı konuşma desteği eklendi.
