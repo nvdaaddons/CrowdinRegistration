@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2025-12-03 17:22+0000\n"
+"PO-Revision-Date: 2025-12-15 01:04\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: pt-PT\n"
+"X-Crowdin-File: translateNvdaAddonsWithCrowdin.pot\n"
+"X-Crowdin-File-ID: 446\n"
+
+#. Translators: the name of a menu item.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/__init__.py:36
+msgid "&Translate add-ons with Crowdin..."
+msgstr "&Traduzir addons com Crowdin..."
+
+#. Translators: message presented in input mode.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/__init__.py:58
+msgid "Shows the Translate NVDA Add-ons with Crowdin settings."
+msgstr "Mostra os addons para o NVDA com as configurações do Crowdin."
+
+#. Translators: message presented in input mode.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/__init__.py:66
+msgid "Shows the Translate NVDA Add-ons with Crowdin dialog."
+msgstr "Mostra a caixa de diálogo Traduzir complementos NVDA com Crowdin."
+
+#. Translators: Message presented when translations cannot be downloaded.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:55
+msgid "Cannot download translations. See NVDA log for more details"
+msgstr "Não é possível descarregar traduções. Consulte o registo do NVDA para obter mais detalhes."
+
+#. Translators: Message presented when translations have been exported.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:61
+msgid "Translations exported"
+msgstr "Traduções exportadas"
+
+#. Translators: Message presented when a translation file cannot be downloaded.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:76
+msgid "Cannot download translated file. See NVDA log for more details"
+msgstr "Não é possível descarregar o ficheiro traduzido. Consulte o registo NVDA para obter mais detalhes."
+
+#. Translators: Message presented when a translation file has been downloaded.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:82
+#, python-format
+msgid "Translation file downloaded to %s"
+msgstr "Ficheiro de tradução descarregado para %s"
+
+#. Translators: Message presented when a translation file cannot be uploaded.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:102
+msgid "Cannot upload translated file. See NVDA log for more details"
+msgstr "Não é possível carregar o ficheiro traduzido. Consulte o registo NVDA para obter mais detalhes."
+
+#. Translators: Message presented when a translated file has been uploaded.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:108
+msgid "Translated file uploaded"
+msgstr "Ficheiro traduzido carregado"
+
+#. Translators: label of a dialog.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:131
+msgid "Crowdin API token:"
+msgstr "Token da API Crowdin:"
+
+#. Translators: The label of a grouping containing controls to select the destination directory for Crowdin translations.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:136
+msgid "Translations directory:"
+msgstr "Diretório de traduções:"
+
+#. Translators: The label of a button to browse for a directory.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:141
+msgid "Browse..."
+msgstr "Navegar..."
+
+#. Translators: The title of the dialog presented when browsing for the translations directory.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:143
+msgid "Select translations directory"
+msgstr "Selecione o diretório de traduções"
+
+#. Translators: Title of a dialog.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:179
+msgid "NVDA add-ons with Crowdin"
+msgstr "Addons para o NVDA com Crowdin"
+
+#. Translators: The label to select a language to translate add-ons.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:191
+msgid "&Language:"
+msgstr "&Idioma:"
+
+#. Translators: Label of a dialog to filter a list of choices.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:204
+msgid "&Filter by file list:"
+msgstr "&Filtrar por lista de ficheiros:"
+
+#. Translators: The label of a button to open a file to be translated.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:227
+msgid "&Open file to translate"
+msgstr "&Abrir ficheiro para traduzir"
+
+#. Translators: The label of a button to upload a translated file.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:238
+msgid "&Upload translated file"
+msgstr "&Carregar ficheiro traduzido"
+
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:244
+msgid "&Download translations for the selected language"
+msgstr "&Descarregar traduções para o idioma selecionado"
+
+#. Translators: The label of a button to download all translations.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:249
+msgid "Do&wnload all translations"
+msgstr "Descarregar todas as traduções"
+
+#. Message translated in NVDA core, label of a button to close a dialog.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:253
+msgid "&Close"
+msgstr "&Fechar"
+
+#. Translators: Message presented when trying to open a file which doesn't exist.
+#. Translators: Message presented when trying to upload a file which doesn't exist.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:313
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:344
+msgid "File not found))"
+msgstr "Ficheiro não encontrado"
+
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:329
+#, python-brace-format
+msgid "Uploading file for {language}..."
+msgstr "A carregar ficheiro para {language}..."
+
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:351
+#, python-brace-format
+msgid "Downloading translations for {language}..."
+msgstr "A descarregar traduções para {language}..."
+
+#. Translators: Message presented when trying to download all translations.
+#: addon/globalPlugins/translateNvdaAddonsWithCrowdin/addonGui.py:364
+msgid "Downloading all translations..."
+msgstr "A descarregar todas as traduções..."
+
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:22
+msgid "Translate NVDA add-ons with Crowdin"
+msgstr "Traduza os complementos do NVDA com o Crowdin"
+
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:26
+msgid "Translate NVDA add-ons with Crowdin.\n"
+"Crowdin project: https://crowdin.com/project/nvdaaddons"
+msgstr "Traduza os complementos do NVDA com o Crowdin. Projeto Crowdin: https://crowdin.com/project/nvdaaddons"
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:33
+msgid "* Initial beta version."
+msgstr "* Versão beta inicial."
+
