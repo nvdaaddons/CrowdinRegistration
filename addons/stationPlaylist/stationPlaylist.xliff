@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/c813d782e75667488e4084b383fc42b996fed0c0/addons/stationPlaylist/stationPlaylist.md">
+<file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/c7284c93e9238d56537ea9cd6390581049b4c2fd/addons/stationPlaylist/stationPlaylist.md">
 <skeleton>
 # $(ID:72b56760-d227-4247-81ad-2a598cfd6834)
 
@@ -216,14 +216,17 @@ $(ID:4b76fa09-0d87-423f-889f-078b5e4467cf)
 
 * $(ID:8dfd0911-6fc1-4dfe-907e-6503177c2139)
 * $(ID:bcb6aa5b-0322-4b04-9d48-b566f936f1bd)
-* $(ID:e944df58-2966-4cf7-a1bc-c3b98bb48f9b)
+* $(ID:9a0c821f-11d6-4f85-a760-1639d5c42d70)
+* $(ID:33e1f3f3-ec4c-4f4a-ab35-40adfdbd7cef)
 * $(ID:e4e8dc17-56e3-470f-8a0c-34e597c9017d)
 * $(ID:cbfba3bc-b055-4715-838e-62ceba96ca4a)
 * $(ID:2301c283-eef1-485d-8144-47853cfc9add)
 * $(ID:fbc6c061-565b-456e-80e5-9785b1cec02b)
 * $(ID:67f418ae-a807-4486-83c1-e999a56d9795)
-* $(ID:c8371485-cc97-4de8-a515-eed469e96b68)
-* $(ID:f3533ae2-1147-4f24-9ea7-936f62d0c40d)
+* $(ID:d343501a-f998-44c4-8d0a-6f55beb118fa)
+* $(ID:6e4a01a2-2d91-478d-9f7c-46dbbf8cf894)
+* $(ID:731cd45f-e263-4c90-9987-dc08bca58ebf)
+* $(ID:27d6ca11-f067-465a-a1f4-0b84d6e3f333)
 
 ## $(ID:af48981e-971c-4501-9187-285c8e52cc0d)
 
@@ -1655,18 +1658,27 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 <source>Add-on settings screen is now available while using Creator, Remote VT, and Track Tool with different settings for each app.</source>
 </segment>
 </unit>
-<unit id="e944df58-2966-4cf7-a1bc-c3b98bb48f9b">
+<unit id="9a0c821f-11d6-4f85-a760-1639d5c42d70">
 <notes>
 <note appliesTo="source">line: 216</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
-<source>In Studio (local and remote) and Track Tool, NVDA will announce labels for track properties, insert tracks dialog's search criteria controls (Studio), and Studio options dialog.</source>
+<source>NVDA will announce labels for SPL app screens, including track properties, insert tracks dialog's search criteria controls (Studio, Creator, Remote VT), and Studio options dialog.</source>
+</segment>
+</unit>
+<unit id="33e1f3f3-ec4c-4f4a-ab35-40adfdbd7cef">
+<notes>
+<note appliesTo="source">line: 217</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In Studio (local and remote), Creator, and Remote VT, NVDA will play a beep when search is completed in insert tracks dialog when NVDA is configured to play beeps for status announcements from SPL add-on settings/general category.</source>
 </segment>
 </unit>
 <unit id="e4e8dc17-56e3-470f-8a0c-34e597c9017d">
 <notes>
-<note appliesTo="source">line: 217</note>
+<note appliesTo="source">line: 218</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1675,7 +1687,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="cbfba3bc-b055-4715-838e-62ceba96ca4a">
 <notes>
-<note appliesTo="source">line: 218</note>
+<note appliesTo="source">line: 219</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1684,7 +1696,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="2301c283-eef1-485d-8144-47853cfc9add">
 <notes>
-<note appliesTo="source">line: 219</note>
+<note appliesTo="source">line: 220</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1693,7 +1705,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="fbc6c061-565b-456e-80e5-9785b1cec02b">
 <notes>
-<note appliesTo="source">line: 220</note>
+<note appliesTo="source">line: 221</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1702,34 +1714,52 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="67f418ae-a807-4486-83c1-e999a56d9795">
 <notes>
-<note appliesTo="source">line: 221</note>
+<note appliesTo="source">line: 222</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Resolved several issues while using insert tracks dialog in Remote Studio, including NVDA saying "scan start" when pressing Control+Shift+R and verbose output for search results status.</source>
 </segment>
 </unit>
-<unit id="c8371485-cc97-4de8-a515-eed469e96b68">
-<notes>
-<note appliesTo="source">line: 222</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In track list in Creator and Track Tool, pressing Alt+number row keys to change column sort order will cause NVDA to announce the new sort order based on the column selected.</source>
-</segment>
-</unit>
-<unit id="f3533ae2-1147-4f24-9ea7-936f62d0c40d">
+<unit id="d343501a-f998-44c4-8d0a-6f55beb118fa">
 <notes>
 <note appliesTo="source">line: 223</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
-<source>In Creator, Remote VT, and Track Tool, status bar content will be reported when performing read status bar command (NVDA+End/desktop layout, NVDA+Shift+End/laptop layout).</source>
+<source>In track list in Creator and Track Tool, pressing Alt+number row keys to change column sort order will cause NVDA to announce the new sort order based on the column selected. There will be a delay when performing these commands in Creator.</source>
+</segment>
+</unit>
+<unit id="6e4a01a2-2d91-478d-9f7c-46dbbf8cf894">
+<notes>
+<note appliesTo="source">line: 224</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In Creator, Remote VT, and Track Tool, status bar content will be reported when performing read status bar command (NVDA+End/desktop layout, NVDA+Shift+End/laptop layout). In particular, improved status bar content announcement performance in Creator.</source>
+</segment>
+</unit>
+<unit id="731cd45f-e263-4c90-9987-dc08bca58ebf">
+<notes>
+<note appliesTo="source">line: 225</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In Creator and Remote VT, NVDA will announce search results count when searching for tracks in insert tracks dialog.</source>
+</segment>
+</unit>
+<unit id="27d6ca11-f067-465a-a1f4-0b84d6e3f333">
+<notes>
+<note appliesTo="source">line: 226</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>In Creator and Remote VT, NVDA will no longer appear to do nothing or play error tones when reporting playlist information from playlist editor such as playlist hour and day, scheduled, and rotation.</source>
 </segment>
 </unit>
 <unit id="af48981e-971c-4501-9187-285c8e52cc0d">
 <notes>
-<note appliesTo="source">line: 225</note>
+<note appliesTo="source">line: 228</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -1738,7 +1768,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="ef84e111-1161-42e1-8c82-d9b3f26abaa0">
 <notes>
-<note appliesTo="source">line: 227</note>
+<note appliesTo="source">line: 230</note>
 </notes>
 <segment>
 <source>Please see the [changelog][2] for release notes for old add-on releases.</source>
@@ -1746,7 +1776,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="ae425190-be6e-4f51-9978-54e93c342430">
 <notes>
-<note appliesTo="source">line: 229</note>
+<note appliesTo="source">line: 232</note>
 </notes>
 <segment>
 <source>[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md</source>
@@ -1754,7 +1784,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="359bd587-eef6-4251-8240-017752aa23a8">
 <notes>
-<note appliesTo="source">line: 231</note>
+<note appliesTo="source">line: 234</note>
 </notes>
 <segment>
 <source>[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md</source>
