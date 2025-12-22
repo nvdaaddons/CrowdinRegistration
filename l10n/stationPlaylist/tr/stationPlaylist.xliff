@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="tr">
-  <file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/ceebab629aec761a243c4dfcca8ba1bb5cd2427e/addons/stationPlaylist/stationPlaylist.md">
+  <file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/c813d782e75667488e4084b383fc42b996fed0c0/addons/stationPlaylist/stationPlaylist.md">
     <skeleton>
 # $(ID:72b56760-d227-4247-81ad-2a598cfd6834)
 
@@ -216,13 +216,14 @@ $(ID:4b76fa09-0d87-423f-889f-078b5e4467cf)
 
 * $(ID:8dfd0911-6fc1-4dfe-907e-6503177c2139)
 * $(ID:bcb6aa5b-0322-4b04-9d48-b566f936f1bd)
-* $(ID:bbd4bbbe-6781-4396-a99c-310f1a3d7c16)
+* $(ID:e944df58-2966-4cf7-a1bc-c3b98bb48f9b)
+* $(ID:e4e8dc17-56e3-470f-8a0c-34e597c9017d)
 * $(ID:cbfba3bc-b055-4715-838e-62ceba96ca4a)
 * $(ID:2301c283-eef1-485d-8144-47853cfc9add)
 * $(ID:fbc6c061-565b-456e-80e5-9785b1cec02b)
 * $(ID:67f418ae-a807-4486-83c1-e999a56d9795)
 * $(ID:c8371485-cc97-4de8-a515-eed469e96b68)
-* $(ID:9dbd21b0-2bd7-49fb-ad0e-6247db3447d7)
+* $(ID:f3533ae2-1147-4f24-9ea7-936f62d0c40d)
 
 ## $(ID:af48981e-971c-4501-9187-285c8e52cc0d)
 
@@ -1815,19 +1816,29 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Eklenti ayarları ekranı artık Creator, Remote VT ve Track Tool kullanılırken her uygulama için farklı ayarlarla kullanılabilir.</target>
       </segment>
     </unit>
-    <unit id="bbd4bbbe-6781-4396-a99c-310f1a3d7c16">
+    <unit id="e944df58-2966-4cf7-a1bc-c3b98bb48f9b">
       <notes>
         <note appliesTo="source">line: 216</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
-        <source>In local and Remote Studio, NVDA will announce labels for insert tracks dialog's search criteria controls, track properties, and Studio options dialog.</source>
-        <target>Yerel ve Remote Studio'da NVDA, parça ekle iletişim kutusunun arama kriterleri kontrolleri, parça özellikleri ve Stüdyo seçenekleri iletişim kutusu için etiketleri duyuracaktır.</target>
+        <source>In Studio (local and remote) and Track Tool, NVDA will announce labels for track properties, insert tracks dialog's search criteria controls (Studio), and Studio options dialog.</source>
+        <target>NVDA, Studio (yerel ve uzak) ve İzleme Aracı'nda parça özellikleri için etiketleri duyuracak, parça ekleme iletişim kutusunun arama kriterleri kontrollerini (Studio) ve Studio seçenekleri iletişim kutusunu duyuracaktır.</target>
+      </segment>
+    </unit>
+    <unit id="e4e8dc17-56e3-470f-8a0c-34e597c9017d">
+      <notes>
+        <note appliesTo="source">line: 217</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="translated">
+        <source>In Studio (local and remote) and Track Tool, NVDA will no longer announce dialog property content (description) in places such as track properties and Studio options screen.</source>
+        <target>NVDA, Studio (yerel ve uzak) ve İzleme Aracı'nda artık izleme özellikleri ve Stüdyo seçenekleri ekranı gibi yerlerde diyalog özelliği içeriğini (açıklama) duyurmayacak.</target>
       </segment>
     </unit>
     <unit id="cbfba3bc-b055-4715-838e-62ceba96ca4a">
       <notes>
-        <note appliesTo="source">line: 217</note>
+        <note appliesTo="source">line: 218</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
@@ -1837,7 +1848,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="2301c283-eef1-485d-8144-47853cfc9add">
       <notes>
-        <note appliesTo="source">line: 218</note>
+        <note appliesTo="source">line: 219</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
@@ -1847,7 +1858,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="fbc6c061-565b-456e-80e5-9785b1cec02b">
       <notes>
-        <note appliesTo="source">line: 219</note>
+        <note appliesTo="source">line: 220</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
@@ -1857,7 +1868,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="67f418ae-a807-4486-83c1-e999a56d9795">
       <notes>
-        <note appliesTo="source">line: 220</note>
+        <note appliesTo="source">line: 221</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
@@ -1867,7 +1878,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="c8371485-cc97-4de8-a515-eed469e96b68">
       <notes>
-        <note appliesTo="source">line: 221</note>
+        <note appliesTo="source">line: 222</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
@@ -1875,19 +1886,19 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Yaratıcı ve Parça Aracı'ndaki parça listesinde, sütun sıralama düzenini değiştirmek için Alt+sayı satırı tuşlarına basıldığında, NVDA seçilen sütuna göre yeni sıralama düzenini duyurur.</target>
       </segment>
     </unit>
-    <unit id="9dbd21b0-2bd7-49fb-ad0e-6247db3447d7">
+    <unit id="f3533ae2-1147-4f24-9ea7-936f62d0c40d">
       <notes>
-        <note appliesTo="source">line: 222</note>
+        <note appliesTo="source">line: 223</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="translated">
-        <source>In Track Tool, status bar content will be reported when performing read status bar command (NVDA+End/desktop layout, NVDA+Shift+End/laptop layout).</source>
-        <target>Parça Aracı'nda, durum çubuğu komutunu okurken (NVDA+End/masaüstü düzeni, NVDA+Shift+End/dizüstü bilgisayar düzeni) durum çubuğunun içeriği duyurulacaktır.</target>
+        <source>In Creator, Remote VT, and Track Tool, status bar content will be reported when performing read status bar command (NVDA+End/desktop layout, NVDA+Shift+End/laptop layout).</source>
+        <target>Yaratıcı, Uzak VT ve Parça Aracı'nda, durum çubuğu okuma komutu gerçekleştirilirken durum çubuğu içeriği raporlanacaktır (NVDA+End/masaüstü düzeni, NVDA+Shift+End/dizüstü bilgisayar düzeni).</target>
       </segment>
     </unit>
     <unit id="af48981e-971c-4501-9187-285c8e52cc0d">
       <notes>
-        <note appliesTo="source">line: 224</note>
+        <note appliesTo="source">line: 225</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="translated">
@@ -1897,7 +1908,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ef84e111-1161-42e1-8c82-d9b3f26abaa0">
       <notes>
-        <note appliesTo="source">line: 226</note>
+        <note appliesTo="source">line: 227</note>
       </notes>
       <segment state="translated">
         <source>Please see the [changelog][2] for release notes for old add-on releases.</source>
@@ -1906,7 +1917,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ae425190-be6e-4f51-9978-54e93c342430">
       <notes>
-        <note appliesTo="source">line: 228</note>
+        <note appliesTo="source">line: 229</note>
       </notes>
       <segment state="translated">
         <source>[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md</source>
@@ -1915,7 +1926,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="359bd587-eef6-4251-8240-017752aa23a8">
       <notes>
-        <note appliesTo="source">line: 230</note>
+        <note appliesTo="source">line: 231</note>
       </notes>
       <segment state="translated">
         <source>[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md</source>
