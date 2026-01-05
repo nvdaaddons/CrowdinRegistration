@@ -15,7 +15,7 @@ Akışları Oku iletişim kutusuna nvda menüsü, Araçlar alt menüsü, akış 
 Aşağıdaki kontrolleri içerir:
 
 * Filtreleme kriteri: Önceden kaydedilmiş beslemeleri aramak için bir düzenleme kutusu.
-* İletişim kutusu açıldığında odaklanılan kayıtlı akışların listesi.
+* İletişim kutusu açıldığında odaklanılan kayıtlı akış listesi.
 * Makale listesi: Mevcut akışınızdaki makalelerin listesini sunan bir iletişim kutusu açar. Okumak istediğiniz makaleyi seçin ve ilgili sayfayı tarayıcınızda açmak için Enter veya Seçilen makalenin web sayfasını aç düğmesine basın. Seçilen makalenin başlığını ve bağlantısını gösteren bir iletişim kutusu açmak için Makale hakkında düğmesine basın; bu iletişim kutusundan, bu bilgiyi panoya kopyalayabilirsiniz.
 * Akışı aç: Seçili akışı varsayılan uygulamada açar.
 * Akışı HTML olarak aç: Seçili akışı varsayılan web tarayıcısında açar. Makaleler hakkındaki bilgileri panoya kopyalamak için yayın tarihlerini ve düğmeleri gösterip gizleyebileceksiniz.
@@ -140,7 +140,7 @@ Aşağıdaki kontrolleri içerir:
 
 ## 2.0 İçin değişiklikler ##
 
-* Eklenti yardımına, Eklenti Yöneticisi'nden ulaşılabilir.
+* Eklenti yardımına, Eklenti Mağazasından ulaşılabilir.
 
 ## 1.0 İçin değişiklikler ##
 
