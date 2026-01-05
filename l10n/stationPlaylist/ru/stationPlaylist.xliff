@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ru">
-  <file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/66b4cb7680f8020f6ade65050e43243ffaeb34d9/addons/stationPlaylist/stationPlaylist.md">
+  <file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/c7284c93e9238d56537ea9cd6390581049b4c2fd/addons/stationPlaylist/stationPlaylist.md">
     <skeleton>
 # $(ID:72b56760-d227-4247-81ad-2a598cfd6834)
 
@@ -15,7 +15,7 @@ $(ID:9d6da162-60a3-455f-b58e-ba55b4d3e460)
 * $(ID:5429a5a9-f72f-43bb-9b76-9d4ad41826c0)
 * $(ID:37ee70af-0e27-4a4b-8ecd-8e6d21d53235)
 * $(ID:e56ae547-cd86-440f-a794-ec627e3c216f)
-* $(ID:2550fafb-9240-4cf1-b881-61c430774873)
+* $(ID:b522d6d9-8809-40ab-ba4b-8bad92a81102)
 * $(ID:2cbbe333-4e5d-409c-a307-83c09c4a5421)
 * $(ID:33b8e4e5-48a3-4974-853d-07e6a6b9fd8d)
 * $(ID:081a3421-1f66-46e5-8154-8420de6acfcd)
@@ -43,7 +43,7 @@ $(ID:6d85bd07-2e1d-41a9-a080-9507ae648c15)
 * $(ID:b10a457d-60aa-442e-9004-cceb3e780c53)
 * $(ID:0c761cb3-96ae-4a80-ba7c-778c113a80db)
 * $(ID:175bee9f-5020-43c4-b2df-2d4b00638e71)
-* $(ID:b893b80a-4b79-452d-a296-6db78fe535db)
+* $(ID:6fe1d3f0-7d06-4205-aafd-d208548e81ca)
 * $(ID:d38fd881-a53e-4170-94b6-a867d5d128c9)
 * $(ID:a3fbd176-0a19-459a-ba3f-20184e959d66)
 
@@ -212,107 +212,21 @@ $(ID:511a640c-076c-48b6-8be9-ced995d7b446)
 
 $(ID:4b76fa09-0d87-423f-889f-078b5e4467cf)
 
-## $(ID:89458b2b-c532-4a26-a210-3923b6d8168c)
+## $(ID:ef559978-4d20-435c-9448-5556b542bff2)
 
-* $(ID:c253e0a1-8b69-4f40-88d5-ae6857b959b7)
-* $(ID:75dcaf3d-71bb-47ab-a219-1c7e93915c8b)
-* $(ID:595f9a5c-3b5e-4bf4-8edb-35ebed70ff11)
-* $(ID:bda893ed-31c4-4dc6-b28b-989a4361d350)
-* $(ID:b5973b9e-b106-4516-9546-84340cea1250)
-* $(ID:9df55266-e5d7-4599-bf1e-de36e8c4a92c)
-* $(ID:51a86432-f5aa-4c8e-9d6d-3f847336f984)
-* $(ID:871a9812-42e3-491e-9a38-4e9506e849d8)
-* $(ID:19529c2a-3ff2-4a87-ba75-1d93e4e2bcda)
-* $(ID:29806c2b-14bd-4a0b-82ff-33a5ab882c09)
-* $(ID:228aef30-7154-4c6e-a2fc-9a0bcc7c91fa)
-* $(ID:2e3faf3a-fcce-4eb0-a246-7fd6c1b98230)
-* $(ID:f0149511-c1fc-4af9-8fe9-b6fac293d644)
-* $(ID:0e3ba2f5-9314-455a-9942-642dc35cfb90)
-* $(ID:f49d1b2f-794e-4b65-8367-76e324f702e3)
-* $(ID:29448daa-7c7d-49a1-883f-06bed10994b5)
-* $(ID:d9d20be5-e761-4d7a-8fb9-fc594c65753c)
-
-## $(ID:3b4a83d2-1eb0-4424-be45-d270ae5f8396)
-
-* $(ID:4ff7b508-6bfe-4c55-b813-a8c9fec2e181)
-* $(ID:e301ca34-a849-443a-abd9-54a07a285c10)
-* $(ID:b8c327ae-054d-490a-9ed7-6ea708da5e1a)
-* $(ID:c223b917-0b3d-499a-92b6-08884c433f21)
-* $(ID:19ed64c9-7a0e-419e-8a24-4c4704d8698e)
-* $(ID:4c8ad0da-740f-40d1-a89e-39de33be5411)
-
-## $(ID:6aeae5ae-2d82-4198-98c1-11076b52bf0f)
-
-* $(ID:4b5695b4-9d3e-4f93-8e7d-b979066cf914)
-* $(ID:45ff3eb7-4cd0-4e4f-bfb5-9b9c4597fc32)
-* $(ID:4409c00b-8596-4f6b-8dea-a94d64e256b6)
-
-## $(ID:2d1c5646-2346-45ea-ae98-cc176eaaa73e)
-
-* $(ID:82f63c85-db94-4765-ba2b-fda3009b6387)
-* $(ID:c9cdade6-c7d6-4fe7-9ae8-d98b9a3f268c)
-* $(ID:2c3ef0d4-ee1d-4123-b012-6b8ef16c274e)
-
-## $(ID:ca709681-2565-438d-b771-67cc0a8e784c)
-
-* $(ID:a8b2e083-5cb2-4607-b71e-1c9857373377)
-* $(ID:a64a8eb3-58d2-43c0-90b4-ff95af971ca9)
-* $(ID:06a9c3b6-bd11-4788-bae6-53b2284af831)
-* $(ID:d2b950ca-5b4c-4566-aed2-29d071cc6ab1)
-* $(ID:4cdff5dd-f70c-49b0-96a9-68f17ac4250d)
-
-## $(ID:2c121b82-e091-4448-98d7-73783806f4a5)
-
-* $(ID:379e7c09-41ee-47b7-8796-bccdd74c41ee)
-* $(ID:15c0f571-c9d9-4cf7-94e5-524ec5e81a61)
-* $(ID:a6f7281c-4525-4459-86ff-5cba2c4d5b17)
-* $(ID:0ab3e914-6122-4a4b-a561-b56834ce3c5c)
-
-## $(ID:9abaf6b9-2f22-46ed-b462-df928ccdd98e)
-
-* $(ID:158e828a-5258-46fa-9d69-7dd12b0287c4)
-* $(ID:42fed07b-c0a0-4039-b8a9-c41ed3055364)
-
-## $(ID:a1b00ddd-9d61-44a4-bb48-db037f6981dc)
-
-$(ID:24b21da1-c147-4eb4-ae4c-9d1aea769676)
-
-* $(ID:358b582e-51da-433d-a336-03496d16102a)
-* $(ID:ec7c9284-64cc-4119-ab62-a44266dcff43)
-* $(ID:83d3edb7-444a-4082-946d-9f251e634006)
-* $(ID:6517a6c5-3186-4d3c-98d8-8fc1e51fdcad)
-* $(ID:935b297f-6134-45f8-a623-909070d92f5c)
-
-## $(ID:6a6c2e7f-2fb8-4b2c-87cc-715a4582a903)
-
-$(ID:c61c203c-a7fb-48e8-813f-03275754585a)
-
-* $(ID:ddc47deb-14a0-46b0-afa3-80516db90400)
-* $(ID:2e9a22a5-9bc3-43a9-8b47-a3c9a6248b35)
-* $(ID:79609d4c-88a3-4c14-9103-3c2af80e461a)
-* $(ID:3e033671-65bf-4286-91fb-c24850229b8b)
-* $(ID:01fdeb37-df4a-4eaf-84df-6142515946ea)
-* $(ID:7f9b2e16-3ab6-478c-bffc-b14620cee5bd)
-* $(ID:f608ccd5-f16c-49b3-bbc5-55f799ad380a)
-* $(ID:137bebe3-cbd5-4217-a068-fd0746d52a23)
-* $(ID:b424c153-620a-4244-a9ca-e51e701eae0c)
-* $(ID:afab636d-ba92-4d9e-9702-4cb12e0570a4)
-
-## $(ID:1e7b92ef-fe9f-493e-a6d7-bd4f54b5c5f7)
-
-* $(ID:6a03e401-181a-4639-997a-1ff28f594e70)
-* $(ID:001bbdad-c5f0-4448-a079-e39568960fa8)
-* $(ID:1e564e65-336b-4ce3-adb6-2b9ee8ca3d45)
-* $(ID:883cf7a2-95a7-4db4-ac3b-562eee97912d)
-* $(ID:660b9891-d001-4730-a107-0fc0ff418096)
-
-## $(ID:d30febb8-4527-4d5e-a448-6a2a1f345ea8)
-
-* $(ID:89efc142-1b5f-4aef-b22e-677e6f3dabea)
-* $(ID:809fc233-3e88-4daa-a6e1-23515cf40f59)
-* $(ID:1b640491-b58d-4737-a8e9-59235b04245a)
-* $(ID:b38908ed-d691-40e7-9027-92e8d696c350)
-* $(ID:f8449cf2-9e2c-41ad-a5c9-c093875aaf4f)
+* $(ID:8dfd0911-6fc1-4dfe-907e-6503177c2139)
+* $(ID:bcb6aa5b-0322-4b04-9d48-b566f936f1bd)
+* $(ID:9a0c821f-11d6-4f85-a760-1639d5c42d70)
+* $(ID:33e1f3f3-ec4c-4f4a-ab35-40adfdbd7cef)
+* $(ID:e4e8dc17-56e3-470f-8a0c-34e597c9017d)
+* $(ID:cbfba3bc-b055-4715-838e-62ceba96ca4a)
+* $(ID:2301c283-eef1-485d-8144-47853cfc9add)
+* $(ID:fbc6c061-565b-456e-80e5-9785b1cec02b)
+* $(ID:67f418ae-a807-4486-83c1-e999a56d9795)
+* $(ID:d343501a-f998-44c4-8d0a-6f55beb118fa)
+* $(ID:6e4a01a2-2d91-478d-9f7c-46dbbf8cf894)
+* $(ID:731cd45f-e263-4c90-9987-dc08bca58ebf)
+* $(ID:27d6ca11-f067-465a-a1f4-0b84d6e3f333)
 
 ## $(ID:af48981e-971c-4501-9187-285c8e52cc0d)
 
@@ -399,14 +313,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Для лучшего восприятия отключите режим приглушения звука.</target>
       </segment>
     </unit>
-    <unit id="2550fafb-9240-4cf1-b881-61c430774873">
+    <unit id="b522d6d9-8809-40ab-ba4b-8bad92a81102">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 25.01 (2025) onwards.</source>
-        <target>Начиная с 2018 года, [списки изменений для старых версий дополнений][2] будут доступны на GitHub. В readme этого дополнения будут перечислены изменения, начиная с версии 25.01 (2025) и далее.</target>
+        <source>Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 26.01 (2026) onwards.</source>
+        <target>Начиная с 2018 , [журналы изменений для старых выпусков дополнения][2] можно будет найти на GitHub. В этом файле сведений о дополнении будут перечислены изменения, начиная с версии 26.01 (2026).</target>
       </segment>
     </unit>
     <unit id="2cbbe333-4e5d-409c-a307-83c09c4a5421">
@@ -648,14 +562,14 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Alt+NVDA+C при фокусе на дорожке (Только для просмотрщика списков воспроизведения Studio): объявляет комментарии дорожки, если таковые имеются.</target>
       </segment>
     </unit>
-    <unit id="b893b80a-4b79-452d-a296-6db78fe535db">
+    <unit id="6fe1d3f0-7d06-4205-aafd-d208548e81ca">
       <notes>
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Alt+NVDA+0 (two finger flick left in SPL mode) from Studio window: Opens the Studio add-on configuration dialog (does not support speak on demand).</source>
-        <target>Alt+NVDA+0 (пролистывание двумя пальцами влево в режиме SPL) из окна Studio: открывает диалог конфигурации дополнения Studio (не поддерживает речь по требованию).</target>
+        <source>Alt+NVDA+0 (two finger flick left in SPL mode) from local and Remote Studio, Creator, Remote VT, and Track Tool: Opens the Studio add-on configuration dialog (does not support speak on demand).</source>
+        <target>Alt+NVDA+0 (Пролистать двумя пальцами влево в режиме SPL) из локальной и удалённой Studio, Creator, Remote VT, и Track Tool: Открывает диалог настроек дополнения Studio (не поддерживает речь по требованию).</target>
       </segment>
     </unit>
     <unit id="d38fd881-a53e-4170-94b6-a867d5d128c9">
@@ -1875,787 +1789,149 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
         <target>Если вы используете Studio на компьютере с сенсорным экраном и установленной NVDA, вы можете выполнять некоторые команды Studio с сенсорного экрана. Сначала коснитесь тремя пальцами, чтобы переключиться в режим SPL, затем используйте сенсорные команды, перечисленные выше, для выполнения команд.</target>
       </segment>
     </unit>
-    <unit id="89458b2b-c532-4a26-a210-3923b6d8168c">
+    <unit id="ef559978-4d20-435c-9448-5556b542bff2">
       <notes>
         <note appliesTo="source">line: 212</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
-        <source>Version 25.12/25.06.11-LTS</source>
-        <target>Версия 25.12/25.06.11-LTS</target>
+        <source>Version 26.01</source>
+        <target>Версия 26.01</target>
       </segment>
     </unit>
-    <unit id="c253e0a1-8b69-4f40-88d5-ae6857b959b7">
+    <unit id="8dfd0911-6fc1-4dfe-907e-6503177c2139">
       <notes>
         <note appliesTo="source">line: 214</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Added a setting in add-on settings under status announcements to announce when a cart finishes playing (NVDA will say 'cart stopped').</source>
-        <target>В настройках дополнения в разделе объявлений о состоянии добавлена настройка, позволяющая объявлять, когда корзина завершает воспроизведение (NVDA сообщит: `Корзина остановлена`).</target>
+        <source>NVDA 2025.3.2 or later is required.</source>
+        <target>Требуется NVDA 2025.3.2 или выше.</target>
       </segment>
     </unit>
-    <unit id="75dcaf3d-71bb-47ab-a219-1c7e93915c8b">
+    <unit id="bcb6aa5b-0322-4b04-9d48-b566f936f1bd">
       <notes>
         <note appliesTo="source">line: 215</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>In add-on settings/status announcements, cart name checkbox is now cart announcement check list box with the former setting becoming a checkable option.</source>
-        <target>В настройках/объявлениях о состоянии дополнения флажок имени корзины теперь является флажком списка объявлений о корзине, а прежний параметр становится доступным для отметки.</target>
+        <source>Add-on settings screen is now available while using Creator, Remote VT, and Track Tool with different settings for each app.</source>
+        <target>Экран настроек дополнения теперь доступен при использовании Creator, Remote VT и Track Tool с разными настройками для каждого приложения.</target>
       </segment>
     </unit>
-    <unit id="595f9a5c-3b5e-4bf4-8edb-35ebed70ff11">
+    <unit id="9a0c821f-11d6-4f85-a760-1639d5c42d70">
       <notes>
         <note appliesTo="source">line: 216</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>25.12: In Studio 6.20 and later, SPL Controller can be used to control local Studio and/or Remote Studio. A new setting in add-on settings dialog under Advanced settings panel allows configuring SPL Controller coverage/scope between both local Studio and Remote Studio or one or the other. In earlier Studio releases, SPL Controller layer will control local Studio.</source>
-        <target>25.12: В Studio 6.20 и выше, панель управления SPL может использоваться для управления локальной и/или удаленной Studio. Новый параметр в диалоге настроек дополнения на панели дополнительных настроек позволяет настраивать покрытие/область действия панели управления SPL как между локальной Studio, так и с удаленной Studio, или между той или иной. В более ранних выпусках Studio уровень панели управления SPL будет управлять локальной Studio.</target>
+        <source>NVDA will announce labels for SPL app screens, including track properties, insert tracks dialog's search criteria controls (Studio, Creator, Remote VT), and Studio options dialog.</source>
+        <target>NVDA объявит метки для экранов приложения SPL, включая свойства дорожки, элементы управления критериями поиска в диалоге вставки дорожек (Studio, Creator, Remote VT) и в диалоге параметров Studio.</target>
       </segment>
     </unit>
-    <unit id="bda893ed-31c4-4dc6-b28b-989a4361d350">
+    <unit id="33e1f3f3-ec4c-4f4a-ab35-40adfdbd7cef">
       <notes>
         <note appliesTo="source">line: 217</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>In local Studio, performing track elapsed (Alt+Shift+T) and remaining time (Control+Alt+T) commands will also announce elapsed and remaining time for the currently playing voice track and/or cart. In addition, pressing SPL Controller, R will announce remaining duration of the playing track, voice track, or cart for local Studio.</source>
-        <target>В локальной Studio при выполнении команд прошедшего времени дорожки (Alt+Shift+T) и Оставшегося времени (Control+Alt+T) также будет объявлено прошедшее и оставшееся время для воспроизводимой в данный момент голосовой дорожки и/или корзины. Кроме того, нажатие панели управления SPL, R объявит оставшуюся продолжительность воспроизводимой дорожки, голосовой дорожки или корзины для локальной студии.</target>
+        <source>In Studio (local and remote), Creator, and Remote VT, NVDA will play a beep when search is completed in insert tracks dialog when NVDA is configured to play beeps for status announcements from SPL add-on settings/general category.</source>
+        <target>В Studio (локальной и удалённой), Creator и Remote VT NVDA подаст звуковой сигнал после завершения поиска в диалоге вставки дорожек, когда NVDA настроена на воспроизведение звуковых сигналов для объявлений о состоянии в настройках дополнения SPL/категории общих.</target>
       </segment>
     </unit>
-    <unit id="b5973b9e-b106-4516-9546-84340cea1250">
+    <unit id="e4e8dc17-56e3-470f-8a0c-34e597c9017d">
       <notes>
         <note appliesTo="source">line: 218</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Metadata streaming and status announcements settings panels will not be shown when opening add-on settings screen from Remote Studio.</source>
-        <target>Панели настроек потоковой передачи метаданных и объявлений о состоянии не будут отображаться при открытии экрана настроек дополнения из Удалённой Studio.</target>
+        <source>In Studio (local and remote) and Track Tool, NVDA will no longer announce dialog property content (description) in places such as track properties and Studio options screen.</source>
+        <target>В Studio (локальной и удалённой) и Track Tool NVDA больше не будет объявлять содержимое свойств диалога (описание) в таких местах, как свойства дорожки и экран параметров Studio.</target>
       </segment>
     </unit>
-    <unit id="9df55266-e5d7-4599-bf1e-de36e8c4a92c">
+    <unit id="cbfba3bc-b055-4715-838e-62ceba96ca4a">
       <notes>
         <note appliesTo="source">line: 219</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Settings to report library scans and listener requests will not be shown in add-on settings when opened from Remote Studio.</source>
-        <target>Настройки объявлений о сканированиях библиотеки и запросах слушателей не будут отображаться в настройках дополнения при открытии из Удалённой Studio.</target>
+        <source>In local Studio, NVDA will be less verbose when performing library rescan from insert tracks dialog (Control+Shift+R).</source>
+        <target>В локальной Studio NVDA будет менее многословной при выполнении повторного сканирования библиотеки из диалога вставки дорожек (Control+Shift+R).</target>
       </segment>
     </unit>
-    <unit id="51a86432-f5aa-4c8e-9d6d-3f847336f984">
+    <unit id="2301c283-eef1-485d-8144-47853cfc9add">
       <notes>
         <note appliesTo="source">line: 220</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>25.12: In local Studio, NVDA will announce track starts value correctly (SPL Assistant, S).</source>
-        <target>25.12: В локальной Studio NVDA правильно объявит значение начала дорожки (помощник SPL, S).</target>
+        <source>In local Studio, NVDA will report library scan count regardless of "beep for status announcements" setting from add-on settings.</source>
+        <target>В локальной Studio NVDA будет сообщать о количестве сканирований библиотеки независимо от настройки "звукового сигнала для объявлений о состоянии" в настройках дополнения.</target>
       </segment>
     </unit>
-    <unit id="871a9812-42e3-491e-9a38-4e9506e849d8">
+    <unit id="fbc6c061-565b-456e-80e5-9785b1cec02b">
       <notes>
         <note appliesTo="source">line: 221</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>25.12: In local Studio, NVDA will no longer announce wrong information when locating various screen information such as weather data if error log button is shown on screen.</source>
-        <target>25.12: В локальной Studio NVDA больше не будет объявлять неверную информацию при поиске различной информации на экране, например данные о погоде, если на экране отображается кнопка журнала ошибок.</target>
+        <source>In Remote Studio, when closing options screen (Control+O) while cart explorer is active, it is no longer necessary to reenter Cart Explorer to view updated cart assignments.</source>
+        <target>В Remote Studio при закрытии экрана параметров (Control+O) при активном обозревателе корзин больше не требуется повторно входить в обозреватель корзин для просмотра обновлённых назначений корзины.</target>
       </segment>
     </unit>
-    <unit id="19529c2a-3ff2-4a87-ba75-1d93e4e2bcda">
+    <unit id="67f418ae-a807-4486-83c1-e999a56d9795">
       <notes>
         <note appliesTo="source">line: 222</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Library scan announcement toggle command (NVDA+Shift+R) is now limited to local Studio.</source>
-        <target>Команда переключения объявления о сканировании библиотеки (NVDA+Shift+R) теперь доступна только в локальной Studio.</target>
+        <source>Resolved several issues while using insert tracks dialog in Remote Studio, including NVDA saying "scan start" when pressing Control+Shift+R and verbose output for search results status.</source>
+        <target>Решено несколько проблем при использовании диалога вставки дорожек в Remote Studio, включая сообщение NVDA "начать сканирование" при нажатии Control+Shift+R и подробный вывод состояния результатов поиска.</target>
       </segment>
     </unit>
-    <unit id="29806c2b-14bd-4a0b-82ff-33a5ab882c09">
+    <unit id="d343501a-f998-44c4-8d0a-6f55beb118fa">
       <notes>
         <note appliesTo="source">line: 223</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Changed the following SPL Assistant JAWS layout commands: hour duration (H to T), hour remaining duration (Shift+H to H), library scan (Shift+R to Alt+T), cart edit/insert (T to number row 0).</source>
-        <target>Изменены следующие команды раскладки JAWS помощника SPL: продолжительность часа (с H на T), оставшаяся продолжительность в часе (с Shift+H на H), сканирование библиотеки (с Shift+R на Alt+T), редактирование/вставка корзины (с T на числовая строка 0).</target>
+        <source>In track list in Creator and Track Tool, pressing Alt+number row keys to change column sort order will cause NVDA to announce the new sort order based on the column selected. There will be a delay when performing these commands in Creator.</source>
+        <target>В списке дорожек в Creator и Track Tool нажатие Alt+клавиши цифрового ряда для изменения порядка сортировки столбцов приведёт к тому, что NVDA объявит новый порядок сортировки на основе выбранного столбца. При выполнении этих команд в Creator будет задержка.</target>
       </segment>
     </unit>
-    <unit id="228aef30-7154-4c6e-a2fc-9a0bcc7c91fa">
+    <unit id="6e4a01a2-2d91-478d-9f7c-46dbbf8cf894">
       <notes>
         <note appliesTo="source">line: 224</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Resolved "Time Scheduled/Time" column announcement and usage in local Studio 6.20, including reporting of wrong column content when vertical column navigation is set to "Time Scheduled", NVDA reporting "Time Scheduled not found" when this column is configured as a columns explorer slot, and wrong column title shown in playlist transcripts.</source>
-        <target>Устранено объявление и использование столбца запланированного времени/Времени в локальной Studio 6.20, включая объявления о неправильном содержимом столбца, когда для навигации по вертикальному столбцу установлено значение запланированного времени, сообщение NVDA "Запланированное время не найдено", когда этот столбец настроен как слот проводника столбцов, и неправильный заголовок столбца, отображаемый в расшифровках списка воспроизведения.</target>
+        <source>In Creator, Remote VT, and Track Tool, status bar content will be reported when performing read status bar command (NVDA+End/desktop layout, NVDA+Shift+End/laptop layout). In particular, improved status bar content announcement performance in Creator.</source>
+        <target>В Creator, Remote VT и Track Tool содержимое строки состояния будет сообщаться при выполнении команды чтения строки состояния (NVDA+End/рабочий стол, NVDA+Shift+End/раскладка ноутбука). В частности, улучшена производительность объявления содержимого строки состояния в Creator.</target>
       </segment>
     </unit>
-    <unit id="2e3faf3a-fcce-4eb0-a246-7fd6c1b98230">
+    <unit id="731cd45f-e263-4c90-9987-dc08bca58ebf">
       <notes>
         <note appliesTo="source">line: 225</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>Resolved issues working with results from insert tracks dialog in local Studio 6.20, including NVDA saying "Artist not found" when performing columns explorer commands (Control+NVDA+number row) to obtain artist information, wrong column information announced in columns explorer, and top and bottom beeps being heard.</source>
-        <target>Решены проблемы с работой с результатами из диалога вставки дорожек в локальной Studio 6.20, включая сообщение NVDA "Исполнитель не найден" при выполнении команд проводника столбцов (Control+NVDA+цифра числового ряда) для получения информации об исполнителе, неправильная информация о столбце, объявляемая в проводнике столбцов, а также слышимость высоких и низких сигналов.</target>
+        <source>In Creator and Remote VT, NVDA will announce search results count when searching for tracks in insert tracks dialog.</source>
+        <target>В Creator и Remote VT NVDA будет объявлять количество результатов поиска при поиске дорожек в диалоге вставки дорожек.</target>
       </segment>
     </unit>
-    <unit id="f0149511-c1fc-4af9-8fe9-b6fac293d644">
+    <unit id="27d6ca11-f067-465a-a1f4-0b84d6e3f333">
       <notes>
         <note appliesTo="source">line: 226</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="final">
-        <source>NVDA will no longer include empty column content when generating playlist transcripts in plain text and HTML list formats.</source>
-        <target>NVDA больше не будет включать пустое содержимое столбца при создании расшифровок списков воспроизведения в форматах обычного текста и списка HTML.</target>
-      </segment>
-    </unit>
-    <unit id="0e3ba2f5-9314-455a-9942-642dc35cfb90">
-      <notes>
-        <note appliesTo="source">line: 227</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In local Studio, NVDA will no longer announce "no track playing" when announcing next track title when no tracks are playing but next track title is showing on screen.</source>
-        <target>В локальной Studio NVDA больше не будет объявлять "Дорожка не воспроизводится" при объявлении названия следующей дорожки, когда дорожки не воспроизводятся, но название следующей дорожки отображается на экране.</target>
-      </segment>
-    </unit>
-    <unit id="f49d1b2f-794e-4b65-8367-76e324f702e3">
-      <notes>
-        <note appliesTo="source">line: 228</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In local Studio, NVDA will no longer appear to do nothing or play error tones when cart edit/insert mode is toggled while cart explorer is active.</source>
-        <target>В локальной Studio NVDA больше не будет ничего делать или воспроизводить сигналы ошибок при переключении режима редактирования/вставки корзины, когда активен проводник корзин.</target>
-      </segment>
-    </unit>
-    <unit id="29448daa-7c7d-49a1-883f-06bed10994b5">
-      <notes>
-        <note appliesTo="source">line: 229</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Remote Studio, taking playlist snapshots (SPL Assistant, F8) shows more accurate results.</source>
-        <target>В Удалённой Studio создание снимков списка воспроизведения (помощник SPL, F8) даёт более точные результаты.</target>
-      </segment>
-    </unit>
-    <unit id="d9d20be5-e761-4d7a-8fb9-fc594c65753c">
-      <notes>
-        <note appliesTo="source">line: 230</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Remote Studio, NVDA will no longer do nothing or play error tones when announcing current and next track titles and is configured to announce track player information.</source>
-        <target>В Удалённой Studio NVDA больше не будет ничего делать или воспроизводить сигналы ошибок при объявлении названий текущей и следующей дорожки при настройке на объявление информации о проигрывателе дорожек.</target>
-      </segment>
-    </unit>
-    <unit id="3b4a83d2-1eb0-4424-be45-d270ae5f8396">
-      <notes>
-        <note appliesTo="source">line: 232</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.11/25.06.9-LTS</source>
-        <target>Версия 25.11/25.06.9-LTS</target>
-      </segment>
-    </unit>
-    <unit id="4ff7b508-6bfe-4c55-b813-a8c9fec2e181">
-      <notes>
-        <note appliesTo="source">line: 234</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Initial support for StationPlaylist suite 6.20.</source>
-        <target>Начальная поддержка пакета StationPlaylist 6.20.</target>
-      </segment>
-    </unit>
-    <unit id="e301ca34-a849-443a-abd9-54a07a285c10">
-      <notes>
-        <note appliesTo="source">line: 235</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Initial support for StationPlaylist Remote Studio. Although the interface resembles local Studio, not all commands and features are available.</source>
-        <target>Начальная поддержка StationPlaylist Remote Studio. Хотя интерфейс напоминает локальную студию, доступны не все команды и функции.</target>
-      </segment>
-    </unit>
-    <unit id="b8c327ae-054d-490a-9ed7-6ea708da5e1a">
-      <notes>
-        <note appliesTo="source">line: 236</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>While in cart explorer from Remote Studio, NVDA will announce cart name and its type such as local or Studio cart.</source>
-        <target>В обозревателе корзин из Remote Studio NVDA объявит имя корзины и её тип, например локальную корзину или корзину Studio.</target>
-      </segment>
-    </unit>
-    <unit id="c223b917-0b3d-499a-92b6-08884c433f21">
-      <notes>
-        <note appliesTo="source">line: 237</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Additional internal changes to make the add-on more compatible with upcoming 64-bit NVDA. In particular, resolved erroneous announcements when performing some SPL Assistant layer commands in local (original) Studio.</source>
-        <target>Дополнительные внутренние изменения, делающие дополнение более совместимым с будущей 64-битной версией NVDA. В частности, устранены ошибочные объявления при выполнении некоторых команд уровня помощника SPL в локальной (исходной) Studio.</target>
-      </segment>
-    </unit>
-    <unit id="19ed64c9-7a0e-419e-8a24-4c4704d8698e">
-      <notes>
-        <note appliesTo="source">line: 238</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In local Studio, NVDA will be more successful when entering Cart Explorer (Alt+NVDA+3) in more cases.</source>
-        <target>В локальной Studio NVDA в большинстве случаев будет более успешно входить в обозреватель корзин (Alt+NVDA+3).</target>
-      </segment>
-    </unit>
-    <unit id="4c8ad0da-740f-40d1-a89e-39de33be5411">
-      <notes>
-        <note appliesTo="source">line: 239</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In local Studio, resolved a potential security and privacy issue after switching users while Cart Explorer is active where the cart assignments from the previous user can be announced.</source>
-        <target>В локальной Studio решена потенциальная проблема безопасности и конфиденциальности после переключения пользователей, когда активен обозреватель корзин, где можно объявить назначения корзины предыдущего пользователя.</target>
-      </segment>
-    </unit>
-    <unit id="6aeae5ae-2d82-4198-98c1-11076b52bf0f">
-      <notes>
-        <note appliesTo="source">line: 241</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.10/25.06.8-LTS</source>
-        <target>Версия 25.10/25.06.8-LTS</target>
-      </segment>
-    </unit>
-    <unit id="4b5695b4-9d3e-4f93-8e7d-b979066cf914">
-      <notes>
-        <note appliesTo="source">line: 243</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>25.10: with debug logging enabled, NVDA will no longer record Studio API specific debug messages. A new command-line option (--spl-apidebug) was added to include Studio API debug messages and should be used as directed by add-on developers.</source>
-        <target>25.10: При включении журнала отладки NVDA больше не будет записывать сообщения отладки Studio API. Был добавлен новый параметр командной строки (--spl-apidebug), чтобы включить сообщения отладки API Studio, и его следует использовать в соответствии с указаниями разработчиков.</target>
-      </segment>
-    </unit>
-    <unit id="45ff3eb7-4cd0-4e4f-bfb5-9b9c4597fc32">
-      <notes>
-        <note appliesTo="source">line: 244</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, search history in track finder (Control+NVDA+F) is replaced with a search edit field to align with NVDA's own find dialog experience.</source>
-        <target>В Studio История поиска в поисковике дорожек (Control+NVDA+F) заменена полем поиска, чтобы соответствовать собственному опыту поисков NVDA.</target>
-      </segment>
-    </unit>
-    <unit id="4409c00b-8596-4f6b-8dea-a94d64e256b6">
-      <notes>
-        <note appliesTo="source">line: 245</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, when braille timer is enabled, NVDA will only announce remaining track/intro duration if the value displayed falls below end of track/song ramp alarm value instead of displaying track remaining time.</source>
-        <target>В Studio, когда включен брайлевский таймер, NVDA объявит об оставшейся продолжительности вступления дорожки в силу, если отображаемое значение падает ниже конца аварийного сигнала дорожки/песни, а не отображает время оставшейся дорожки.</target>
-      </segment>
-    </unit>
-    <unit id="2d1c5646-2346-45ea-ae98-cc176eaaa73e">
-      <notes>
-        <note appliesTo="source">line: 247</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.09/25.06.6-LTS</source>
-        <target>Версия 25.09/25.06.6-LTS</target>
-      </segment>
-    </unit>
-    <unit id="82f63c85-db94-4765-ba2b-fda3009b6387">
-      <notes>
-        <note appliesTo="source">line: 249</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>25.09: NVDA 2025.1.2 or later is required.</source>
-        <target>25.09: требуется NVDA 2025.1.2 или позже.</target>
-      </segment>
-    </unit>
-    <unit id="c9cdade6-c7d6-4fe7-9ae8-d98b9a3f268c">
-      <notes>
-        <note appliesTo="source">line: 250</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, search history in track finder (Control+NVDA+F) is deprecated and will be removed in a future release to align with NVDA's own find dialog experience.</source>
-        <target>В Studio история поиска в поисковике дорожек (Control+NVDA+F) устарела и будет удалена в будущем выпуске, чтобы соответствовать собственному опыту поиска NVDA.</target>
-      </segment>
-    </unit>
-    <unit id="2c3ef0d4-ee1d-4123-b012-6b8ef16c274e">
-      <notes>
-        <note appliesTo="source">line: 251</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, performing SPL Controller layer entry command will enter SPL Assistant layer, and the add-on setting to configure this option is checked by default for new installations.</source>
-        <target>В Studio выполнение команды входа в уровень панели управления SPL будет входить в уровень помощника SPL, а настройка дополнения для этой опции по умолчанию проверяется при новых установках.</target>
-      </segment>
-    </unit>
-    <unit id="ca709681-2565-438d-b771-67cc0a8e784c">
-      <notes>
-        <note appliesTo="source">line: 253</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.08/25.06.5-LTS</source>
-        <target>Версия 25.08/25.06.5-LTS</target>
-      </segment>
-    </unit>
-    <unit id="a8b2e083-5cb2-4607-b71e-1c9857373377">
-      <notes>
-        <note appliesTo="source">line: 255</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>25.08: removed unmaintained localizations (add-on messages and documentation).</source>
-        <target>25.08: Удалены незаметные локализации (сообщения дополнения и документация).</target>
-      </segment>
-    </unit>
-    <unit id="a64a8eb3-58d2-43c0-90b4-ff95af971ca9">
-      <notes>
-        <note appliesTo="source">line: 256</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, added two-finger flick left gesture in SPL touch mode to open SPL add-on settings.</source>
-        <target>В Studio, добавлен жест пролистывания двумя пальцами влево в сенсорном режиме SPL для открытия настроек дополнения SPL.</target>
-      </segment>
-    </unit>
-    <unit id="06a9c3b6-bd11-4788-bae6-53b2284af831">
-      <notes>
-        <note appliesTo="source">line: 257</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Removed "Status" from vertical column navigation options.</source>
-        <target>Удалено "состояние" из параметров навигации по вертикальным столбцам.</target>
-      </segment>
-    </unit>
-    <unit id="d2b950ca-5b4c-4566-aed2-29d071cc6ab1">
-      <notes>
-        <note appliesTo="source">line: 258</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In columns explorer (Studio, Track Tool, Creator, Remote VT), NVDA will no longer announce "blank" for empty column content (only column header will be announced).</source>
-        <target>В обозревателе столбцов (Studio, Track Tool, Creator, Remote VT), NVDA больше не будет объявлять "пусто" для пустого содержимого столбца (будет объявлен только заголовок столбца).</target>
-      </segment>
-    </unit>
-    <unit id="4cdff5dd-f70c-49b0-96a9-68f17ac4250d">
-      <notes>
-        <note appliesTo="source">line: 259</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, Track Tool, Creator, and Remote VT, NVDA will announce track position and count when location command is performed (NVDA+Numpad Delete (desktop)/NVDA+Delete (laptop) and adding Shift for review cursor version).</source>
-        <target>В Studio, Track Tool, Creator, и Remote VT, NVDA объявит о позиции дорожки и подсчитает, когда будет выполнена команда местоположения (NVDA+Delete на цифровом блоке (настольная)/NVDA+Delete (ноутбук) и добавление Shift для проверки версии курсора).</target>
-      </segment>
-    </unit>
-    <unit id="2c121b82-e091-4448-98d7-73783806f4a5">
-      <notes>
-        <note appliesTo="source">line: 261</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.07.2/25.06.4-LTS</source>
-        <target>Версия 25.07.2/25.06.4-LTS</target>
-      </segment>
-    </unit>
-    <unit id="379e7c09-41ee-47b7-8796-bccdd74c41ee">
-      <notes>
-        <note appliesTo="source">line: 263</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Restored missing localized messages including track comment announcement in Studio's playlist viewer.</source>
-        <target>Восстановлены пропущенные локализованные сообщения, включая объявление о комментариях  дорожки в обозревателе Playlist Studio.</target>
-      </segment>
-    </unit>
-    <unit id="15c0f571-c9d9-4cf7-94e5-524ec5e81a61">
-      <notes>
-        <note appliesTo="source">line: 264</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA will present an error dialog when running Studio releases earlier than the version required for the add-on.</source>
-        <target>NVDA предоставит диалог ошибки при запуске Studio выпуска старше, чем версия, необходимая для дополнения.</target>
-      </segment>
-    </unit>
-    <unit id="a6f7281c-4525-4459-86ff-5cba2c4d5b17">
-      <notes>
-        <note appliesTo="source">line: 265</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, pressing NVDA+Shift+F3 the first time without opening find dialog will cause NVDA to search backwards.</source>
-        <target>В Studio нажатие NVDA+Shift+F3 в первый раз без открытия диалога поиска приведет к поиску NVDA в обратном направлении.</target>
-      </segment>
-    </unit>
-    <unit id="0ab3e914-6122-4a4b-a561-b56834ce3c5c">
-      <notes>
-        <note appliesTo="source">line: 266</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Track Tool, NVDA will no longer play a beep when moving through tracks, especially for tracks without an intro set.</source>
-        <target>В инструменте дорожки NVDA больше не будет воспроизводить звуковой сигнал при перемещении через дорожки, особенно для дорожек без вступительного набора.</target>
-      </segment>
-    </unit>
-    <unit id="9abaf6b9-2f22-46ed-b462-df928ccdd98e">
-      <notes>
-        <note appliesTo="source">line: 268</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.07.1/25.06.3-LTS</source>
-        <target>Версия 25.07.1/25.06.3-LTS</target>
-      </segment>
-    </unit>
-    <unit id="158e828a-5258-46fa-9d69-7dd12b0287c4">
-      <notes>
-        <note appliesTo="source">line: 270</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio's playlist viewer, NVDA will no longer appear to do nothing or play error tones when reporting column contents if vertical column navigation is set to values other than "whichever column I am reviewing".</source>
-        <target>В просмотрщике  Playlist Studio NVDA больше не будет ничего не делать, или воспроизводить тон ошибки при объявлении содержимого столбца, если вертикальная навигация столбца установлена на значения, отличные от "какой бы столбец я ни просматривал".</target>
-      </segment>
-    </unit>
-    <unit id="42fed07b-c0a0-4039-b8a9-c41ed3055364">
-      <notes>
-        <note appliesTo="source">line: 271</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Setting vertical column navigation to "Status" column is deprecated and will be removed in a future add-on release.</source>
-        <target>Настройка вертикальной навигации столбца "состояние" устарела и будет удалена в будущем выпуске дополнения.</target>
-      </segment>
-    </unit>
-    <unit id="a1b00ddd-9d61-44a4-bb48-db037f6981dc">
-      <notes>
-        <note appliesTo="source">line: 273</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.07/25.06.2-LTS</source>
-        <target>Версия 25.07/25.06.2-LTS</target>
-      </segment>
-    </unit>
-    <unit id="24b21da1-c147-4eb4-ae4c-9d1aea769676">
-      <notes>
-        <note appliesTo="source">line: 275</note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.07 supports SPL Studio 6.0 and later.</source>
-        <target>Версия 25.07 поддерживает SPL Studio 6.0 и позже.</target>
-      </segment>
-    </unit>
-    <unit id="358b582e-51da-433d-a336-03496d16102a">
-      <notes>
-        <note appliesTo="source">line: 277</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>25.07: code was refactored, including through use of Pyright (a Python static type checker). Some prominent code changes were also backported to 25.06.2-LTS.</source>
-        <target>25.07: Код был переделан, в том числе с помощью Pyright (Проверка статического типа Python). Некоторые значительные изменения кода также были возвращены в 25.06.2-LTS.</target>
-      </segment>
-    </unit>
-    <unit id="ec7c9284-64cc-4119-ab62-a44266dcff43">
-      <notes>
-        <note appliesTo="source">line: 278</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Columns explorer (Control+NVDA+number row) is now configurable for Creator and Remote VT's playlist editor. A new button, "columns explorer for playlist editor" is available from columns explorer add-on settings screen.</source>
-        <target>Обозреватель столбцов (Control+NVDA+цифра верхнего ряда) теперь настраивается для редактора списка воспроизведения Creator и удаленного VT. На экране настроек обозревателя столбцов дополнения доступна новая кнопка "Обозреватель столбцов для редактора списка воспроизведения".</target>
-      </segment>
-    </unit>
-    <unit id="83d3edb7-444a-4082-946d-9f251e634006">
-      <notes>
-        <note appliesTo="source">line: 279</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In columns explorer add-on settings, renamed "columns explorer" to "columns explorer for SPL Studio".</source>
-        <target>В настройках дополнения обозревателя столбцов, переименовано с "обозреватель столбцов" в "обозреватель столбцов для SPL Studio".</target>
-      </segment>
-    </unit>
-    <unit id="6517a6c5-3186-4d3c-98d8-8fc1e51fdcad">
-      <notes>
-        <note appliesTo="source">line: 280</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Added JSON (JavaScript Object Notation) format as a playlist transcripts format.</source>
-        <target>Добавлен формат JSON (обозначение объекта javascript) в качестве формата расшифровки списка воспроизведения.</target>
-      </segment>
-    </unit>
-    <unit id="935b297f-6134-45f8-a623-909070d92f5c">
-      <notes>
-        <note appliesTo="source">line: 281</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In encoders, NVDA will remove encoder settings if pressing Control+F12 to remove settings for encoder 10 and above if more than ten encoders are present.</source>
-        <target>В кодерах NVDA удалит настройки кодера, если нажимать Control+F12, чтобы удалить настройки для кодера 10 и более, если присутствует более десяти кодеров.</target>
-      </segment>
-    </unit>
-    <unit id="6a6c2e7f-2fb8-4b2c-87cc-715a4582a903">
-      <notes>
-        <note appliesTo="source">line: 283</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.06-LTS</source>
-        <target>Версия 25.06-LTS</target>
-      </segment>
-    </unit>
-    <unit id="c61c203c-a7fb-48e8-813f-03275754585a">
-      <notes>
-        <note appliesTo="source">line: 285</note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.06.x is the last release series to support Studio 5.x with future releases requiring Studio 6.x. Some new features will be backported to 25.06.x if needed.</source>
-        <target>Версия 25.06.x - это последняя серия выпусков для поддержки Studio 5.x, будущие выпуски потребуют Studio 6.x. При необходимости некоторые новые функции будут внесены в 25.06.x.</target>
-      </segment>
-    </unit>
-    <unit id="ddc47deb-14a0-46b0-afa3-80516db90400">
-      <notes>
-        <note appliesTo="source">line: 287</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Internal changes to make the add-on more compatible with upcoming 64-bit NVDA.</source>
-        <target>Внутренние изменения, чтобы сделать дополнение более совместимым с предстоящей 64-битной NVDA.</target>
-      </segment>
-    </unit>
-    <unit id="2e9a22a5-9bc3-43a9-8b47-a3c9a6248b35">
-      <notes>
-        <note appliesTo="source">line: 288</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA will no longer forget to transfer broadcast profiles while updating the add-on (fixing a regression introduced in 25.05).</source>
-        <target>NVDA больше не забудет передавать профили вещания при обновлении дополнения (исправление регрессии, представленной в 25.05).</target>
-      </segment>
-    </unit>
-    <unit id="79609d4c-88a3-4c14-9103-3c2af80e461a">
-      <notes>
-        <note appliesTo="source">line: 289</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Added a new command in SPL Assistant to announce playlist hour over/under by in minutes and seconds (O).</source>
-        <target>Добавлена новая команда в помощник SPL, чтобы объявить о часе списка воспроизведения в течение/младше в минутах и секундах (O).</target>
-      </segment>
-    </unit>
-    <unit id="3e033671-65bf-4286-91fb-c24850229b8b">
-      <notes>
-        <note appliesTo="source">line: 290</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio, the command to step through library scan announcement settings has changed from Alt+NVDA+R to Shift+NVDA+R as the former command toggles remote access feature in NVDA 2025.1.</source>
-        <target>В Studio команда для прохождения настройки объявления библиотеки изменилась с ALT+NVDA+R на Shift+NVDA+R, поскольку бывшая команда переключает удалённый доступ в NVDA 2025.1.</target>
-      </segment>
-    </unit>
-    <unit id="01fdeb37-df4a-4eaf-84df-6142515946ea">
-      <notes>
-        <note appliesTo="source">line: 291</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA will no longer play error tones or appear to do nothing when performing some SPL Assistant commands after resizing Studio window.</source>
-        <target>NVDA больше не будет воспроизводить сигналы ошибок или ничего не делать при выполнении некоторых команд помощника SPL после изменения размера окна Studio.</target>
-      </segment>
-    </unit>
-    <unit id="7f9b2e16-3ab6-478c-bffc-b14620cee5bd">
-      <notes>
-        <note appliesTo="source">line: 292</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>The user interface for confirmation dialog shown when deleting broadcast profiles now resembles NVDA's configuration profile deletion interface.</source>
-        <target>Пользовательский интерфейс подтверждения удаления профилей вещания теперь напоминает интерфейс удаления профиля конфигурации NVDA.</target>
-      </segment>
-    </unit>
-    <unit id="f608ccd5-f16c-49b3-bbc5-55f799ad380a">
-      <notes>
-        <note appliesTo="source">line: 293</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In add-on settings, NVDA will no longer move keyboard focus to OK button after closing columns explorer and reset dialogs.</source>
-        <target>В настройках дополнения NVDA больше не будет перемещать фокус клавиатуры на кнопку OK после закрытия диалогов просмотрщика столбцов и сброса.</target>
-      </segment>
-    </unit>
-    <unit id="137bebe3-cbd5-4217-a068-fd0746d52a23">
-      <notes>
-        <note appliesTo="source">line: 294</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA will recognize track column changes introduced in Creator and Track Tool 6.11.</source>
-        <target>NVDA будет распознавать изменения столбца дорожки, представленные в Creator и Track Tool 6.11.</target>
-      </segment>
-    </unit>
-    <unit id="b424c153-620a-4244-a9ca-e51e701eae0c">
-      <notes>
-        <note appliesTo="source">line: 295</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In columns explorer for Creator, "Date Restriction" column is now "Restrictions".</source>
-        <target>В обозревателе столбцов для Creator столбец "Date Restriction" теперь "Restrictions".</target>
-      </segment>
-    </unit>
-    <unit id="afab636d-ba92-4d9e-9702-4cb12e0570a4">
-      <notes>
-        <note appliesTo="source">line: 296</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA will no longer play wrong carts when playing them via SPL Controller layer.</source>
-        <target>NVDA больше не будет играть неправильные корзины при их игре через уровень панели управления SPL.</target>
-      </segment>
-    </unit>
-    <unit id="1e7b92ef-fe9f-493e-a6d7-bd4f54b5c5f7">
-      <notes>
-        <note appliesTo="source">line: 298</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.05</source>
-        <target>Версия 25.05</target>
-      </segment>
-    </unit>
-    <unit id="6a03e401-181a-4639-997a-1ff28f594e70">
-      <notes>
-        <note appliesTo="source">line: 300</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA 2024.1 or later is required due to Python 3.11 upgrade.</source>
-        <target>NVDA 2024.1 или позже требуется из -за обновления Python 3.11.</target>
-      </segment>
-    </unit>
-    <unit id="001bbdad-c5f0-4448-a079-e39568960fa8">
-      <notes>
-        <note appliesTo="source">line: 301</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Restored limited support for Windows 8.1.</source>
-        <target>Восстановлена ​​ограниченная поддержка для Windows 8.1.</target>
-      </segment>
-    </unit>
-    <unit id="1e564e65-336b-4ce3-adb6-2b9ee8ca3d45">
-      <notes>
-        <note appliesTo="source">line: 302</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Moved ad-on wiki documents such as add-on changelog to the main code repository.</source>
-        <target>Перенесены обучающие документы дополнения, такие как дополнение к истории изменений в репозиторий основного кода.</target>
-      </segment>
-    </unit>
-    <unit id="883cf7a2-95a7-4db4-ac3b-562eee97912d">
-      <notes>
-        <note appliesTo="source">line: 303</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Added close button to playlist snapshots, playlist transcripts, and SPL Assistant and Controller layer help screens (NVDA 2025.1 and later).</source>
-        <target>Добавлена кнопка закрытия к моментальным снимкам списка воспроизведения, расшифровкам  списка воспроизведения и справочным экранам помощника и панели управления SPL (NVDA 2025.1 и позже).</target>
-      </segment>
-    </unit>
-    <unit id="660b9891-d001-4730-a107-0fc0ff418096">
-      <notes>
-        <note appliesTo="source">line: 304</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>NVDA will no longer do nothing or play error tones when announcing weather and temperature information in Studio 6.1x (SPL Assistant, W).</source>
-        <target>NVDA больше не будет ничего не делать или играть звук ошибки при объявлении информации о погоде и температуре в Studio 6.1x (помощник SPL, W).</target>
-      </segment>
-    </unit>
-    <unit id="d30febb8-4527-4d5e-a448-6a2a1f345ea8">
-      <notes>
-        <note appliesTo="source">line: 306</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="final">
-        <source>Version 25.01</source>
-        <target>Версия 25.01</target>
-      </segment>
-    </unit>
-    <unit id="89efc142-1b5f-4aef-b22e-677e6f3dabea">
-      <notes>
-        <note appliesTo="source">line: 308</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>64-bit Windows 10 21H2 (build 19044) or later is required.</source>
-        <target>Требуется 64-битная Windows 10 21H2 (сборка 19044) или выше.</target>
-      </segment>
-    </unit>
-    <unit id="809fc233-3e88-4daa-a6e1-23515cf40f59">
-      <notes>
-        <note appliesTo="source">line: 309</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Download links for add-on releases are no longer included in add-on documentation. You can download the add-on from NV Access add-on store.</source>
-        <target>Ссылки для скачивания выпусков дополнений больше не включены в документацию дополнений. Вы можете загрузить дополнение из магазина дополнений NV Access.</target>
-      </segment>
-    </unit>
-    <unit id="1b640491-b58d-4737-a8e9-59235b04245a">
-      <notes>
-        <note appliesTo="source">line: 310</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.</source>
-        <target>Инструмент линтинга переключен с Flake8 на Ruff и переформатирован модуль дополнения для лучшего соответствия стандартам кодирования NVDA.</target>
-      </segment>
-    </unit>
-    <unit id="b38908ed-d691-40e7-9027-92e8d696c350">
-      <notes>
-        <note appliesTo="source">line: 311</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>Removed support for automatic add-on updates feature from Add-on Updater add-on.</source>
-        <target>Удалена поддержка функции автоматического обновления дополнений из дополнения Add-on Updater.</target>
-      </segment>
-    </unit>
-    <unit id="f8449cf2-9e2c-41ad-a5c9-c093875aaf4f">
-      <notes>
-        <note appliesTo="source">line: 312</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="final">
-        <source>In Studio 6.10 and later, added a new command in SPL Assistant to announce control keys enabled/disabled status (Control+D).</source>
-        <target>В Studio 6.10 и выше, добавлена новая команда в помощник SPL для включения/отключения объявления клавиш управления (Control+D).</target>
+        <source>In Creator and Remote VT, NVDA will no longer appear to do nothing or play error tones when reporting playlist information from playlist editor such as playlist hour and day, scheduled, and rotation.</source>
+        <target>В Creator и Remote VT NVDA больше не будет ничего делать или воспроизводить сигналы ошибок при сообщении информации списка воспроизведения из редактора списков воспроизведения, такой как час и день списка воспроизведения, расписание и ротация.</target>
       </segment>
     </unit>
     <unit id="af48981e-971c-4501-9187-285c8e52cc0d">
       <notes>
-        <note appliesTo="source">line: 314</note>
+        <note appliesTo="source">line: 228</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="final">
@@ -2665,7 +1941,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ef84e111-1161-42e1-8c82-d9b3f26abaa0">
       <notes>
-        <note appliesTo="source">line: 316</note>
+        <note appliesTo="source">line: 230</note>
       </notes>
       <segment state="final">
         <source>Please see the [changelog][2] for release notes for old add-on releases.</source>
@@ -2674,7 +1950,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="ae425190-be6e-4f51-9978-54e93c342430">
       <notes>
-        <note appliesTo="source">line: 318</note>
+        <note appliesTo="source">line: 232</note>
       </notes>
       <segment state="final">
         <source>[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md</source>
@@ -2683,7 +1959,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
     </unit>
     <unit id="359bd587-eef6-4251-8240-017752aa23a8">
       <notes>
-        <note appliesTo="source">line: 320</note>
+        <note appliesTo="source">line: 234</note>
       </notes>
       <segment state="final">
         <source>[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md</source>
