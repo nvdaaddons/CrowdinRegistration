@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: enhancedTouchGestures 25.07\n"
+"Project-Id-Version: enhancedTouchGestures 26.02\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-01-26 03:20+0000\n"
+"POT-Creation-Date: 2026-02-02 03:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +17,43 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. Translators: dialog title shown when trying to install the add-on on unsupported systems.
+#: addon/installTasks.py:24
+msgid "Enhanced Touch Gestures install warning"
+msgstr ""
+
+#. No touch hardware whatsoever
+#. Translators: dialog text shown when trying to install the add-on on unsupported systems.
+#: addon/installTasks.py:29
+msgid ""
+"This device does not support touch interaction. A touch capable device is "
+"required to use add-on features."
+msgstr ""
+
+#. Portable NVDA running on a touch capable hardware
+#. Translators: dialog text shown when trying to install the add-on on unsupported systems.
+#: addon/installTasks.py:33
+msgid ""
+"You are using a portable copy of NVDA and the device supports touch "
+"interaction. NVDA must be installed to use add-on features."
+msgstr ""
+
 #. Translators: The gestures category for this add-on in input gestures dialog (2013.3 or later).
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon/globalPlugins/enhancedTouchGestures.py:33 buildVars.py:21
+#: addon/globalPlugins/enhancedTouchGestures.py:40 buildVars.py:21
 msgid "Enhanced Touch Gestures"
 msgstr ""
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:250
-msgid "Toggles touch keyboard"
-msgstr ""
-
-#. Translators: message shown when touch keyboard button is not found.
-#: addon/globalPlugins/enhancedTouchGestures.py:264
-msgid "Cannot activate touch keyboard"
+#: addon/globalPlugins/enhancedTouchGestures.py:265
+msgid "Emulates pressing tab on the system keyboard"
 msgstr ""
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:269
-msgid "Toggles voice dictation"
-msgstr ""
-
-#. Translators: message shown when dictation command is unavailable.
-#: addon/globalPlugins/enhancedTouchGestures.py:280
-msgid "Dictation is supported on Windows 10 Version 1709 or later"
+#: addon/globalPlugins/enhancedTouchGestures.py:273
+msgid "Emulates pressing shift+tab on the system keyboard"
 msgstr ""
 
 #. Add-on description
@@ -59,6 +70,22 @@ msgstr ""
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
 msgid ""
-"* Made the add-on code more robust with help from Pyright (a Python static "
-"type checker)."
+"* NVDA 2025.3.2 or later is required.\n"
+"* A warning will be presented when installing the add-on on computers "
+"without touchscreens or portable NVDA version is in use.\n"
+"* Gestures from the add-on will not be shown in input gestures dialog when "
+"the add-on is installed on a portable NVDA version.\n"
+"* Touch gesture changes, including pressing Tab (three finger flick right), "
+"pressing Shift+Tab (three finger flick left), reporting focused object (four "
+"finger flick left), and reporting navigator object (four finger flick "
+"right).\n"
+"* Removed touch keyboard and dictation toggle gestures due to reliability "
+"issues with the former and dictation being replaced by Voice Access in "
+"Windows 11.\n"
+"* Removed progress bar output settings toggle gesture (one finger triple "
+"tap).\n"
+"* Added screen curtain toggle gesture (three finger triple tap).\n"
+"* Read current window gesture (three finger flick down) will be limited to "
+"object touch mode.\n"
+"* Added embedded object and text paragraph navigation to web touch mode."
 msgstr ""
