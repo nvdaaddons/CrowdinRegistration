@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: objPad 25.06\n"
+"Project-Id-Version: objPad 26.02\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-02 03:54+0000\n"
+"POT-Creation-Date: 2026-02-09 03:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,69 +18,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:35
+#: addon/globalPlugins/objPad.py:38
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr ""
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:43
+#: addon/globalPlugins/objPad.py:46
 msgid "Object nav mode"
 msgstr ""
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:47
+#: addon/globalPlugins/objPad.py:50
 msgid "Web mode"
 msgstr ""
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:51
+#: addon/globalPlugins/objPad.py:54
 msgid "Scan mode"
 msgstr ""
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:55
+#: addon/globalPlugins/objPad.py:58
 msgid "Normal mode"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "normal"
+#: addon/globalPlugins/objPad.py:78
+msgid "Default (all elements)"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Link"
+#: addon/globalPlugins/objPad.py:79
+msgid "Links"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Form field"
+#: addon/globalPlugins/objPad.py:80
+msgid "Form fields"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Heading"
+#: addon/globalPlugins/objPad.py:81
+msgid "Headings"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Frame"
+#: addon/globalPlugins/objPad.py:82
+msgid "Frames"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Table"
+#: addon/globalPlugins/objPad.py:83
+msgid "Tables"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "List"
+#: addon/globalPlugins/objPad.py:84
+msgid "Lists"
 msgstr ""
 
-#: addon/globalPlugins/objPad.py:75
-msgid "Landmark"
+#: addon/globalPlugins/objPad.py:85
+msgid "Landmarks"
+msgstr ""
+
+#: addon/globalPlugins/objPad.py:86
+msgid "Embedded objects"
+msgstr ""
+
+#: addon/globalPlugins/objPad.py:87
+msgid "Text paragraphs"
 msgstr ""
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:186
+#: addon/globalPlugins/objPad.py:206
 msgid "No next"
 msgstr ""
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:220
+#: addon/globalPlugins/objPad.py:240
 msgid "No previous"
 msgstr ""
 
@@ -102,5 +110,7 @@ msgstr ""
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "Initial changelog."
+msgid ""
+"* NVDA 2025.3.2 or later is required.\n"
+"* Added embedded object and text paragraph navigation to web mode."
 msgstr ""
