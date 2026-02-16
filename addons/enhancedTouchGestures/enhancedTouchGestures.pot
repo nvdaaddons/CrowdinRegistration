@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enhancedTouchGestures 26.02\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-09 03:49+0000\n"
+"POT-Creation-Date: 2026-02-16 03:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,17 +42,17 @@ msgstr ""
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon/globalPlugins/enhancedTouchGestures.py:40 buildVars.py:21
+#: addon/globalPlugins/enhancedTouchGestures.py:38 buildVars.py:21
 msgid "Enhanced Touch Gestures"
 msgstr ""
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:265
+#: addon/globalPlugins/enhancedTouchGestures.py:226
 msgid "Emulates pressing tab on the system keyboard"
 msgstr ""
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:273
+#: addon/globalPlugins/enhancedTouchGestures.py:234
 msgid "Emulates pressing shift+tab on the system keyboard"
 msgstr ""
 
@@ -70,22 +70,6 @@ msgstr ""
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
 msgid ""
-"* NVDA 2025.3.2 or later is required.\n"
-"* A warning will be presented when installing the add-on on computers "
-"without touchscreens or portable NVDA version is in use.\n"
-"* Gestures from the add-on will not be shown in input gestures dialog when "
-"the add-on is installed on a portable NVDA version.\n"
-"* Touch gesture changes, including pressing Tab (three finger flick right), "
-"pressing Shift+Tab (three finger flick left), reporting focused object (four "
-"finger flick left), and reporting navigator object (four finger flick "
-"right).\n"
-"* Removed touch keyboard and dictation toggle gestures due to reliability "
-"issues with the former and dictation being replaced by Voice Access in "
-"Windows 11.\n"
-"* Removed progress bar output settings toggle gesture (one finger triple "
-"tap).\n"
-"* Added screen curtain toggle gesture (three finger triple tap).\n"
-"* Read current window gesture (three finger flick down) will be limited to "
-"object touch mode.\n"
-"* Added embedded object and text paragraph navigation to web touch mode."
+"* Renamed 'web mode' to 'browse mode' as this mode will cover additional "
+"situations including browse mode in Word 365."
 msgstr ""
