@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/c7284c93e9238d56537ea9cd6390581049b4c2fd/addons/stationPlaylist/stationPlaylist.md">
+<file id="stationPlaylist.md" original="https://raw.githubusercontent.com/nvaccess/nvda/669c900c83ae531853bfe92c555e6c5bb86de6d3/addons/stationPlaylist/stationPlaylist.md">
 <skeleton>
 # $(ID:72b56760-d227-4247-81ad-2a598cfd6834)
 
 * $(ID:70305a9a-04a4-4087-9603-532b6c7a5305)
 
-$(ID:dfc81c8f-eb29-489f-980f-fdd5f5bc03ad)
+$(ID:cc53b9dc-ed39-459a-bd87-fff334ccbdef)
 
 $(ID:b6bf6182-0c3f-4047-a8a6-50068357a41e)
 
@@ -212,6 +212,12 @@ $(ID:511a640c-076c-48b6-8be9-ced995d7b446)
 
 $(ID:4b76fa09-0d87-423f-889f-078b5e4467cf)
 
+## $(ID:5894734b-6cea-483c-9d68-91edeb9a70b2)
+
+* $(ID:faf51a36-baa1-4d17-89b4-00401b9aa9df)
+* $(ID:75dae28c-f5b8-429c-850a-575f9960886f)
+* $(ID:d475f6ec-e02c-420a-af31-33fce5e41d2b)
+
 ## $(ID:ef559978-4d20-435c-9448-5556b542bff2)
 
 * $(ID:8dfd0911-6fc1-4dfe-907e-6503177c2139)
@@ -254,12 +260,12 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 <source>Authors: Christopher Duffley &lt;nvda@chrisduffley.com&gt; (formerly Joseph Lee &lt;joseph.lee22590@gmail.com&gt;, originally by Geoff Shang and other contributors)</source>
 </segment>
 </unit>
-<unit id="dfc81c8f-eb29-489f-980f-fdd5f5bc03ad">
+<unit id="cc53b9dc-ed39-459a-bd87-fff334ccbdef">
 <notes>
 <note appliesTo="source">line: 6</note>
 </notes>
 <segment>
-<source>This add-on package provides improved usage of StationPlaylist Studio and other StationPlaylist apps, as well as providing utilities to control Studio from anywhere. Supported apps include Studio, Remote Studio, Creator, Track Tool, VT Recorder, and Streamer, as well as SAM, SPL, and AltaCast encoders.</source>
+<source>This add-on package provides improved usage of StationPlaylist Studio and other StationPlaylist apps, as well as providing utilities to control Studio from anywhere. Supported apps include Studio, Remote Studio, Creator, Track Tool, Recorder (SPL and VT), and Streamer, as well as SAM, SPL, and AltaCast encoders.</source>
 </segment>
 </unit>
 <unit id="b6bf6182-0c3f-4047-a8a6-50068357a41e">
@@ -1631,9 +1637,45 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 <source>If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.</source>
 </segment>
 </unit>
-<unit id="ef559978-4d20-435c-9448-5556b542bff2">
+<unit id="5894734b-6cea-483c-9d68-91edeb9a70b2">
 <notes>
 <note appliesTo="source">line: 212</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 26.03</source>
+</segment>
+</unit>
+<unit id="faf51a36-baa1-4d17-89b4-00401b9aa9df">
+<notes>
+<note appliesTo="source">line: 214</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Initial support for StationPlaylist Recorder (not to be confused with VT Recorder).</source>
+</segment>
+</unit>
+<unit id="75dae28c-f5b8-429c-850a-575f9960886f">
+<notes>
+<note appliesTo="source">line: 215</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>NVDA will announce labels for SPL Recorder configurationnnnnnn screen controls.</source>
+</segment>
+</unit>
+<unit id="d475f6ec-e02c-420a-af31-33fce5e41d2b">
+<notes>
+<note appliesTo="source">line: 216</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Most if not all multicolumn lists now have column explorer and column navigation support. Mainly tested in local Studio's Listener Stats window and the same list in Options &gt; Listener Stats.</source>
+</segment>
+</unit>
+<unit id="ef559978-4d20-435c-9448-5556b542bff2">
+<notes>
+<note appliesTo="source">line: 218</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -1642,7 +1684,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="8dfd0911-6fc1-4dfe-907e-6503177c2139">
 <notes>
-<note appliesTo="source">line: 214</note>
+<note appliesTo="source">line: 220</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1651,7 +1693,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="bcb6aa5b-0322-4b04-9d48-b566f936f1bd">
 <notes>
-<note appliesTo="source">line: 215</note>
+<note appliesTo="source">line: 221</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1660,7 +1702,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="9a0c821f-11d6-4f85-a760-1639d5c42d70">
 <notes>
-<note appliesTo="source">line: 216</note>
+<note appliesTo="source">line: 222</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1669,7 +1711,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="33e1f3f3-ec4c-4f4a-ab35-40adfdbd7cef">
 <notes>
-<note appliesTo="source">line: 217</note>
+<note appliesTo="source">line: 223</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1678,7 +1720,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="e4e8dc17-56e3-470f-8a0c-34e597c9017d">
 <notes>
-<note appliesTo="source">line: 218</note>
+<note appliesTo="source">line: 224</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1687,7 +1729,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="cbfba3bc-b055-4715-838e-62ceba96ca4a">
 <notes>
-<note appliesTo="source">line: 219</note>
+<note appliesTo="source">line: 225</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1696,7 +1738,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="2301c283-eef1-485d-8144-47853cfc9add">
 <notes>
-<note appliesTo="source">line: 220</note>
+<note appliesTo="source">line: 226</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1705,7 +1747,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="fbc6c061-565b-456e-80e5-9785b1cec02b">
 <notes>
-<note appliesTo="source">line: 221</note>
+<note appliesTo="source">line: 227</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1714,7 +1756,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="67f418ae-a807-4486-83c1-e999a56d9795">
 <notes>
-<note appliesTo="source">line: 222</note>
+<note appliesTo="source">line: 228</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1723,7 +1765,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="d343501a-f998-44c4-8d0a-6f55beb118fa">
 <notes>
-<note appliesTo="source">line: 223</note>
+<note appliesTo="source">line: 229</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1732,7 +1774,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="6e4a01a2-2d91-478d-9f7c-46dbbf8cf894">
 <notes>
-<note appliesTo="source">line: 224</note>
+<note appliesTo="source">line: 230</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1741,7 +1783,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="731cd45f-e263-4c90-9987-dc08bca58ebf">
 <notes>
-<note appliesTo="source">line: 225</note>
+<note appliesTo="source">line: 231</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1750,7 +1792,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="27d6ca11-f067-465a-a1f4-0b84d6e3f333">
 <notes>
-<note appliesTo="source">line: 226</note>
+<note appliesTo="source">line: 232</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -1759,7 +1801,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="af48981e-971c-4501-9187-285c8e52cc0d">
 <notes>
-<note appliesTo="source">line: 228</note>
+<note appliesTo="source">line: 234</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -1768,7 +1810,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="ef84e111-1161-42e1-8c82-d9b3f26abaa0">
 <notes>
-<note appliesTo="source">line: 230</note>
+<note appliesTo="source">line: 236</note>
 </notes>
 <segment>
 <source>Please see the [changelog][2] for release notes for old add-on releases.</source>
@@ -1776,7 +1818,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="ae425190-be6e-4f51-9978-54e93c342430">
 <notes>
-<note appliesTo="source">line: 232</note>
+<note appliesTo="source">line: 238</note>
 </notes>
 <segment>
 <source>[1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md</source>
@@ -1784,7 +1826,7 @@ $(ID:359bd587-eef6-4251-8240-017752aa23a8)
 </unit>
 <unit id="359bd587-eef6-4251-8240-017752aa23a8">
 <notes>
-<note appliesTo="source">line: 234</note>
+<note appliesTo="source">line: 240</note>
 </notes>
 <segment>
 <source>[2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md</source>
