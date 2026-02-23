@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2025-09-15 07:55+0000\n"
-"PO-Revision-Date: 2026-01-26 00:34\n"
+"POT-Creation-Date: 2026-02-09 03:54+0000\n"
+"PO-Revision-Date: 2026-02-23 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -18,10 +18,10 @@ msgstr ""
 "X-Crowdin-File-ID: 412\n"
 
 #. Translators: This is the label for the Numpad Nav Mode settings category in NVDA Settings panel.
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on
-#. to be shown on installation and add-on information found in Add-ons Manager.
-#: addon/globalPlugins/numpadNavMode.py:49 buildVars.py:22
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: addon/globalPlugins/numpadNavMode.py:49 buildVars.py:21
 msgid "Numpad Nav Mode"
 msgstr "Режим Навигации Цифровой Клавиатурой"
 
@@ -56,33 +56,41 @@ msgid "Initial numlock state is configuration profile dependent"
 msgstr "Начальное состояние numlock зависит от профиля конфигурации"
 
 #. Translators: returned as part of some user messages
-#: addon/globalPlugins/numpadNavMode.py:246
+#: addon/globalPlugins/numpadNavMode.py:250
 msgid "NVDA"
 msgstr "NVDA"
 
 #. Translators: returned as part of some user messages
-#: addon/globalPlugins/numpadNavMode.py:249
+#: addon/globalPlugins/numpadNavMode.py:253
 msgid "Windows"
 msgstr "Windows"
 
 #. Translators: description of the Numpad Nav Mode toggle gesture for keyboard help
-#: addon/globalPlugins/numpadNavMode.py:281
+#: addon/globalPlugins/numpadNavMode.py:285
 msgid "Toggles the numpad between NVDA navigation and Windows navigation modes."
 msgstr "Переключает цифровой блок между режимами навигации NVDA и навигации Windows."
 
 #. Translators: message given to the user when the numpad's mode changes between NVDA and Windows nav
 #. Note: the variable given to format() is already translated.
-#: addon/globalPlugins/numpadNavMode.py:292
+#: addon/globalPlugins/numpadNavMode.py:296
 msgid "Numpad mode {}."
 msgstr "Режим цифрового блока {}."
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#: buildVars.py:25
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:24
 msgid "Allows switching the numpad between NVDA navigation mode, and Windows navigation mode.\n"
 "Especially useful if migrating from Jaws; or for laptop users preferring laptop mode, but who have a numpad and want to use it for arrow keys, etc.\n"
 "The add-on also gives control of numlock state when starting NVDA or changing profiles."
 msgstr "Позволяет переключать цифровую клавиатуру между режимом навигации NVDA и режимом навигации Windows.\n"
 "Особенно полезно при переходе с Jaws; или для пользователей ноутбуков, предпочитающих работу в режиме ноутбука, но имеющих цифровую клавиатуру и желающих использовать её для клавиш стрелок и т.д.\n"
 "Дополнение также позволяет управлять состоянием numlock при запуске NVDA или при изменениях профилей."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:31
+msgid "* NVDA 2025.1 compatibility.\n"
+"* Made the add-on code more robust with help from Pyright (a Python static type checker)."
+msgstr "* Совместимость с NVDA 2025.1.\n"
+"* Код дополнения стал более надёжным с помощью Pyright (средства проверки статических типов Python)."
 
