@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-02 03:47+0000\n"
-"PO-Revision-Date: 2026-02-16 00:40\n"
+"POT-Creation-Date: 2026-02-16 03:46+0000\n"
+"PO-Revision-Date: 2026-02-23 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -38,17 +38,17 @@ msgstr "NVDA'nın taşınabilir bir kopyasını kullanıyorsunuz ve cihaz dokunm
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon/globalPlugins/enhancedTouchGestures.py:40 buildVars.py:21
+#: addon/globalPlugins/enhancedTouchGestures.py:38 buildVars.py:21
 msgid "Enhanced Touch Gestures"
 msgstr "Gelişmiş Dokunma Hareketleri"
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:265
+#: addon/globalPlugins/enhancedTouchGestures.py:226
 msgid "Emulates pressing tab on the system keyboard"
 msgstr "Sistem klavyesinde Sekme tuşuna basmayı taklit eder"
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:273
+#: addon/globalPlugins/enhancedTouchGestures.py:234
 msgid "Emulates pressing shift+tab on the system keyboard"
 msgstr "Sistem klavyesinde Shift+Sekme tuşlarına basmayı taklit eder"
 
@@ -63,22 +63,6 @@ msgstr "navigasyon ve yardım komutları da dahil olmak üzere, ek dokunmatik ko
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
-msgid "* NVDA 2025.3.2 or later is required.\n"
-"* A warning will be presented when installing the add-on on computers without touchscreens or portable NVDA version is in use.\n"
-"* Gestures from the add-on will not be shown in input gestures dialog when the add-on is installed on a portable NVDA version.\n"
-"* Touch gesture changes, including pressing Tab (three finger flick right), pressing Shift+Tab (three finger flick left), reporting focused object (four finger flick left), and reporting navigator object (four finger flick right).\n"
-"* Removed touch keyboard and dictation toggle gestures due to reliability issues with the former and dictation being replaced by Voice Access in Windows 11.\n"
-"* Removed progress bar output settings toggle gesture (one finger triple tap).\n"
-"* Added screen curtain toggle gesture (three finger triple tap).\n"
-"* Read current window gesture (three finger flick down) will be limited to object touch mode.\n"
-"* Added embedded object and text paragraph navigation to web touch mode."
-msgstr "* NVDA 2025.3.2 veya sonrası gereklidir.\n"
-"* Eklentiyi dokunmatik ekranı olmayan veya taşınabilir NVDA sürümünün kullanıldığı bilgisayarlara yüklerken bir uyarı görüntülenecek.\n"
-"* Eklenti taşınabilir bir NVDA sürümüne yüklendiğinde, eklentiden gelen hareketler girdi hareketleri iletişim kutusunda gösterilmeyecek.\n"
-"* Sekme tuşuna basma (üç parmakla sağa kaydırma), Shift+Sekme tuşlarına basma (üç parmakla sola kaydırma), odaklanılan nesneyi seslendirme (dört parmakla sola kaydırma) ve dolaşım nesnesini bildirme (dört parmakla sağa kaydırma) dahil olmak üzere dokunma hareketi değişiklikleri.\n"
-"* Dokunmatik klavye ve dikte geçiş hareketleri, öncekiyle ilgili güvenilirlik sorunları nedeniyle kaldırıldı ve Windows 11'de diktenin yerini Sesli Erişim aldı.\n"
-"* İlerleme çubuğu çıktı ayarları geçiş hareketi (tek parmakla üç kez dokunma) kaldırıldı.\n"
-"* Ekran perdesine geçiş hareketi eklendi (üç parmakla üçlü dokunma).\n"
-"* Geçerli pencereyi okuma hareketi (üç parmakla aşağı kaydırma) nesneye dokunma moduyla sınırlı olacaktır.\n"
-"* Web dokunmatik moduna gömülü nesne ve metin paragrafında dolaşma eklendi."
+msgid "* Renamed 'web mode' to 'browse mode' as this mode will cover additional situations including browse mode in Word 365."
+msgstr "* Bu mod, Word 365'teki göz atma modu da dahil olmak üzere ek durumları kapsayacağından 'web modu', 'gözatma modu' olarak yeniden adlandırıldı."
 

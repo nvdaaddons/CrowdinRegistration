@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-09 03:56+0000\n"
-"PO-Revision-Date: 2026-02-16 00:40\n"
+"POT-Creation-Date: 2026-02-16 03:53+0000\n"
+"PO-Revision-Date: 2026-02-23 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -18,77 +18,77 @@ msgstr ""
 "X-Crowdin-File-ID: 356\n"
 
 #. Translators: input help mode message for ObjPad toggle command.
-#: addon/globalPlugins/objPad.py:38
+#: addon/globalPlugins/objPad.py:39
 msgid "Toggles ObjPad mode between normal, object nav and scan modes"
 msgstr "Nesne dolaşımı, web, tarama ve normal modlar arasında geçiş yapar"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:46
+#: addon/globalPlugins/objPad.py:47
 msgid "Object nav mode"
 msgstr "Nesne dolaşım modu"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:50
-msgid "Web mode"
-msgstr "Web modu"
+#: addon/globalPlugins/objPad.py:51
+msgid "Browse mode"
+msgstr "Göz atma modu"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:54
+#: addon/globalPlugins/objPad.py:55
 msgid "Scan mode"
 msgstr "Tarama modu"
 
 #. Translators: one of the object arrow modes.
-#: addon/globalPlugins/objPad.py:58
+#: addon/globalPlugins/objPad.py:59
 msgid "Normal mode"
 msgstr "Normal mod"
 
-#: addon/globalPlugins/objPad.py:78
+#: addon/globalPlugins/objPad.py:85
 msgid "Default (all elements)"
 msgstr "Varsayılan (tüm öğeler)"
 
-#: addon/globalPlugins/objPad.py:79
+#: addon/globalPlugins/objPad.py:86
 msgid "Links"
 msgstr "Bağlantılar"
 
-#: addon/globalPlugins/objPad.py:80
+#: addon/globalPlugins/objPad.py:87
 msgid "Form fields"
 msgstr "Form alanları"
 
-#: addon/globalPlugins/objPad.py:81
+#: addon/globalPlugins/objPad.py:88
 msgid "Headings"
 msgstr "Başlıklar"
 
-#: addon/globalPlugins/objPad.py:82
+#: addon/globalPlugins/objPad.py:89
 msgid "Frames"
 msgstr "Çerçeveler"
 
-#: addon/globalPlugins/objPad.py:83
+#: addon/globalPlugins/objPad.py:90
 msgid "Tables"
 msgstr "Tablolar"
 
-#: addon/globalPlugins/objPad.py:84
+#: addon/globalPlugins/objPad.py:91
 msgid "Lists"
 msgstr "Listeler"
 
-#: addon/globalPlugins/objPad.py:85
+#: addon/globalPlugins/objPad.py:92
 msgid "Landmarks"
 msgstr "Yer işaretleri"
 
-#: addon/globalPlugins/objPad.py:86
+#: addon/globalPlugins/objPad.py:93
 msgid "Embedded objects"
 msgstr "Gömülü nesneler"
 
-#: addon/globalPlugins/objPad.py:87
+#: addon/globalPlugins/objPad.py:94
 msgid "Text paragraphs"
 msgstr "Metin paragrafları"
 
 #. Translators: a message when there is no next object when navigating
-#: addon/globalPlugins/objPad.py:206
+#: addon/globalPlugins/objPad.py:180
 msgid "No next"
 msgstr "Başka yok"
 
 #. Translators: a message when there is no previous object when navigating
-#: addon/globalPlugins/objPad.py:240
+#: addon/globalPlugins/objPad.py:214
 msgid "No previous"
 msgstr "Başka yok"
 
@@ -108,8 +108,6 @@ msgstr "Bir tuşla çeşitli nesne komutlarını gerçekleştirin"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
-msgid "* NVDA 2025.3.2 or later is required.\n"
-"* Added embedded object and text paragraph navigation to web mode."
-msgstr "* NVDA 2025.3.2 veya üzeri gereklidir.\n"
-"* Web moduna gömülü nesne ve metin paragrafında dolaşım seçeneği eklendi."
+msgid "* Renamed \"web mode\" to \"browse mode\" as this mode will cover additional situations including browse mode in Word 365."
+msgstr "* Bu mod, Word 365'teki göz atma modu da dahil olmak üzere ek durumları kapsayacağı için \"web modu\", \"gözatma modu\" olarak yeniden adlandırıldı."
 
