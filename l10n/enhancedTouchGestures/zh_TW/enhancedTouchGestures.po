@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-02 03:47+0000\n"
-"PO-Revision-Date: 2026-02-09 00:40\n"
+"POT-Creation-Date: 2026-02-16 03:46+0000\n"
+"PO-Revision-Date: 2026-02-23 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -38,17 +38,17 @@ msgstr "您正在使用 NVDA 可攜式版，且此裝置支援觸控互動。必
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
-#: addon/globalPlugins/enhancedTouchGestures.py:40 buildVars.py:21
+#: addon/globalPlugins/enhancedTouchGestures.py:38 buildVars.py:21
 msgid "Enhanced Touch Gestures"
 msgstr "增強觸控手勢"
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:265
+#: addon/globalPlugins/enhancedTouchGestures.py:226
 msgid "Emulates pressing tab on the system keyboard"
 msgstr "模擬在系統鍵盤上按 tab"
 
 #. Translators: input help message for Enhanced touch Gestures command.
-#: addon/globalPlugins/enhancedTouchGestures.py:273
+#: addon/globalPlugins/enhancedTouchGestures.py:234
 msgid "Emulates pressing shift+tab on the system keyboard"
 msgstr "模擬在系統鍵盤上按 shift+tab"
 
@@ -63,22 +63,6 @@ msgstr "一套額外的觸控指令，包含導覽與說明指令。\n"
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:30
-msgid "* NVDA 2025.3.2 or later is required.\n"
-"* A warning will be presented when installing the add-on on computers without touchscreens or portable NVDA version is in use.\n"
-"* Gestures from the add-on will not be shown in input gestures dialog when the add-on is installed on a portable NVDA version.\n"
-"* Touch gesture changes, including pressing Tab (three finger flick right), pressing Shift+Tab (three finger flick left), reporting focused object (four finger flick left), and reporting navigator object (four finger flick right).\n"
-"* Removed touch keyboard and dictation toggle gestures due to reliability issues with the former and dictation being replaced by Voice Access in Windows 11.\n"
-"* Removed progress bar output settings toggle gesture (one finger triple tap).\n"
-"* Added screen curtain toggle gesture (three finger triple tap).\n"
-"* Read current window gesture (three finger flick down) will be limited to object touch mode.\n"
-"* Added embedded object and text paragraph navigation to web touch mode."
-msgstr "* 需要 NVDA 2025.3.2 或更新版本。\n"
-"* 在不具備觸控螢幕的電腦上或使用 NVDA 可攜式版本時，安裝附加元件將會顯示警告。\n"
-"* 當附加元件安裝於 NVDA 可攜式版本時，該附加元件的手勢將不會顯示在「輸入手勢」對話框中。\n"
-"* 觸控手勢變更，包括按 Tab(三指快速向右滑動)、按 Shift+Tab(三指快速向左滑動)、讀出焦點物件(四指快速向左滑動)以及讀出導覽器物件(四指快速向右滑動)。\n"
-"* 由於前者存在可靠性問題，且 Windows 11 中「語音存取」已取代了「聽寫」功能，因此已移除觸控鍵盤與聽寫的切換手勢。\n"
-"* 已移除進度列輸出設定切換手勢(單指點三下)。\n"
-"* 新增螢幕簾幕切換手勢(三指點三下)。\n"
-"* 「讀取目前視窗」手勢(三指快速向下滑動)將僅限於物件觸控模式。\n"
-"* 在網頁觸控模式中新增了嵌入式物件及文字段落的導覽功能。"
+msgid "* Renamed 'web mode' to 'browse mode' as this mode will cover additional situations including browse mode in Word 365."
+msgstr "由於此模式將涵蓋更多情況（包含 Word 365 中的瀏覽模式），「網頁模式」已重新命名為「瀏覽模式」。"
 
