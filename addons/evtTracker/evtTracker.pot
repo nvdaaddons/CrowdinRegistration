@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: evtTracker 25.1\n"
+"Project-Id-Version: evtTracker 26.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-02-23 03:48+0000\n"
+"POT-Creation-Date: 2026-03-02 03:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,17 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Translators: input help message for a command in Event Tracker add-on.
-#: addon/globalPlugins/evtTracker.py:211
+#: addon/globalPlugins/evtTracker.py:226
 msgid "Shows the list of processed events"
 msgstr ""
 
 #. Translators: title of a dialog displaying recent events.
-#: addon/globalPlugins/evtTracker.py:233
+#: addon/globalPlugins/evtTracker.py:249
 msgid "Events List"
 msgstr ""
 
 #. Translators: label for a read-only edit field displaying event properties.
-#: addon/globalPlugins/evtTracker.py:249
+#: addon/globalPlugins/evtTracker.py:265
 msgid "Event &description"
 msgstr ""
 
@@ -49,11 +49,8 @@ msgstr ""
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:29
 msgid ""
-"* NVDA 2025.1 compatibility.\n"
-"* NVDA 2024.1 or later is required due to Python 3.11 upgrade.\n"
-"* Restored limited support for Windows 8.1.\n"
-"* Made the add-on code more robust with help from Pyright (a Python static "
-"type checker).\n"
-"* NVDA will record actual control role name instead of integers when "
-"reporting events."
+"* The events list dialog will no longer show confusing information for the "
+"last event description when left open for an extended time.\n"
+"* UIA drop target effect text is fetched from the focus ancestor object if "
+"the UIA object raising this event does not record this information."
 msgstr ""

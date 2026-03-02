@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="evtTracker.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/evtTracker/evtTracker.md">
+<file id="evtTracker.md" original="https://raw.githubusercontent.com/nvaccess/nvda/872a831143be0b64397cc02af474d98c25551e4b/addons/evtTracker/evtTracker.md">
 <skeleton>
 # $(ID:899ce654-f3a7-4a96-940a-5688238351d6)
 
@@ -35,9 +35,14 @@ $(ID:8c8769a5-c463-49c7-b655-8d7f840370ae)
 * $(ID:798e3ea0-f218-4a74-b5c0-a07333389005)
 * $(ID:5c552f0c-6fed-410f-b6bd-5c098e01e221)
 
-$(ID:2abc2976-59d7-4e5d-922c-d0fad50d28a9)
+$(ID:d52b6202-be94-42a6-8f34-b62322d22905)
 
 $(ID:715eb914-e976-42ee-be9f-c36bf0b769c7)
+
+## $(ID:66cb336d-76f3-4cd9-836a-c3ab3994f35b)
+
+* $(ID:a2cc9b4c-39c2-4b42-a91a-2e06c364738a)
+* $(ID:f95c8370-d842-491a-adcd-6d74f02c4a52)
 
 ## $(ID:e6037741-282c-4f3a-abc5-6e9265891b16)
 
@@ -294,12 +299,12 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 <source>For UIA objects: Automation Id, class name, notification properties if recording notification event information, child count for layout invalidated event, properties for item status, drag drop, and drop target effect if defined</source>
 </segment>
 </unit>
-<unit id="2abc2976-59d7-4e5d-922c-d0fad50d28a9">
+<unit id="d52b6202-be94-42a6-8f34-b62322d22905">
 <notes>
 <note appliesTo="source">line: 35</note>
 </notes>
 <segment>
-<source>You can also assign a gesture to view the events on a list (NVDA menu/Preferences/Input gestures, Event Tracker category). The list saves up to 100 latest events processed.</source>
+<source>You can also assign a gesture to view the events on a list (NVDA menu/Preferences/Input gestures, Event Tracker category). The list saves up to 100 latest events processed prior to opening the dialog.</source>
 </segment>
 </unit>
 <unit id="715eb914-e976-42ee-be9f-c36bf0b769c7">
@@ -310,9 +315,36 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 <source>If you find this add-on useful, please [review it][1] in the NVDA Add-on Store.</source>
 </segment>
 </unit>
-<unit id="e6037741-282c-4f3a-abc5-6e9265891b16">
+<unit id="66cb336d-76f3-4cd9-836a-c3ab3994f35b">
 <notes>
 <note appliesTo="source">line: 39</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Version 26.1.0</source>
+</segment>
+</unit>
+<unit id="a2cc9b4c-39c2-4b42-a91a-2e06c364738a">
+<notes>
+<note appliesTo="source">line: 41</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>The events list dialog will no longer show confusing information for the last event description when left open for an extended time.</source>
+</segment>
+</unit>
+<unit id="f95c8370-d842-491a-adcd-6d74f02c4a52">
+<notes>
+<note appliesTo="source">line: 42</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>UIA drop target effect text is fetched from the focus ancestor object if the UIA object raising this event does not record this information.</source>
+</segment>
+</unit>
+<unit id="e6037741-282c-4f3a-abc5-6e9265891b16">
+<notes>
+<note appliesTo="source">line: 44</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -321,7 +353,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="6a064fd5-9fe6-42bd-8f53-1529061ab785">
 <notes>
-<note appliesTo="source">line: 41</note>
+<note appliesTo="source">line: 46</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -330,7 +362,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="c2b5c1e0-576d-48ce-b590-f80873ee3c70">
 <notes>
-<note appliesTo="source">line: 42</note>
+<note appliesTo="source">line: 47</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -339,7 +371,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="f29da567-7318-4a80-b082-d75cd7640173">
 <notes>
-<note appliesTo="source">line: 43</note>
+<note appliesTo="source">line: 48</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -348,7 +380,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="9e4728f8-d0d5-43c5-83b9-8699c4f20296">
 <notes>
-<note appliesTo="source">line: 44</note>
+<note appliesTo="source">line: 49</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -357,7 +389,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="08e3487a-930b-4766-a05b-0e4e5d4445c5">
 <notes>
-<note appliesTo="source">line: 45</note>
+<note appliesTo="source">line: 50</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -366,7 +398,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="1fd4cd45-90e4-413f-8aef-0e83b9afa261">
 <notes>
-<note appliesTo="source">line: 47</note>
+<note appliesTo="source">line: 52</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -375,7 +407,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="4bdfd886-9dfc-4fba-8196-0553e32ece4c">
 <notes>
-<note appliesTo="source">line: 49</note>
+<note appliesTo="source">line: 54</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -384,7 +416,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="675d646b-36f9-428a-8ac4-929ae8ccd0ea">
 <notes>
-<note appliesTo="source">line: 50</note>
+<note appliesTo="source">line: 55</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -393,7 +425,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="cbc32889-8d0a-49c2-9ee1-91c793552037">
 <notes>
-<note appliesTo="source">line: 52</note>
+<note appliesTo="source">line: 57</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -402,7 +434,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="b2116869-bac0-4992-870c-f5bbf98d2a6f">
 <notes>
-<note appliesTo="source">line: 54</note>
+<note appliesTo="source">line: 59</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -411,7 +443,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="b77a9f8a-d229-4c11-8547-b6f78984aed7">
 <notes>
-<note appliesTo="source">line: 55</note>
+<note appliesTo="source">line: 60</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -420,7 +452,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="d23cf5e6-460e-44f9-9294-a40bf0089508">
 <notes>
-<note appliesTo="source">line: 56</note>
+<note appliesTo="source">line: 61</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -429,7 +461,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="e1c2ecc4-e337-4a8a-b15e-9e8a109ec0a7">
 <notes>
-<note appliesTo="source">line: 58</note>
+<note appliesTo="source">line: 63</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -438,7 +470,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="ae4cc516-beb6-49e1-846c-7102b69910d1">
 <notes>
-<note appliesTo="source">line: 60</note>
+<note appliesTo="source">line: 65</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -447,7 +479,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="06ac72f5-6a0b-4c58-b86d-fecbdd62140f">
 <notes>
-<note appliesTo="source">line: 61</note>
+<note appliesTo="source">line: 66</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -456,7 +488,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="f50e990a-3256-4e1e-b462-4a874b8ed896">
 <notes>
-<note appliesTo="source">line: 63</note>
+<note appliesTo="source">line: 68</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -465,7 +497,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="0763946b-9d96-4ec2-8622-506198b5d09c">
 <notes>
-<note appliesTo="source">line: 65</note>
+<note appliesTo="source">line: 70</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -474,7 +506,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="4a9da79e-e5e3-4cf3-a084-bc182413b0ea">
 <notes>
-<note appliesTo="source">line: 66</note>
+<note appliesTo="source">line: 71</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -483,7 +515,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="e928199f-b480-456a-b290-d1e0abf448b5">
 <notes>
-<note appliesTo="source">line: 68</note>
+<note appliesTo="source">line: 73</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -492,7 +524,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="60f72e1b-c55b-4f53-a477-2f035ff46ccd">
 <notes>
-<note appliesTo="source">line: 70</note>
+<note appliesTo="source">line: 75</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -501,7 +533,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="6ea2b65b-8892-4181-b154-43bea949e3ba">
 <notes>
-<note appliesTo="source">line: 71</note>
+<note appliesTo="source">line: 76</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -510,7 +542,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="04a7128c-2ebe-4fe7-8193-56f720606b3d">
 <notes>
-<note appliesTo="source">line: 72</note>
+<note appliesTo="source">line: 77</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -519,7 +551,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="7f7c8370-34c7-497b-aa94-5f8dd4d954fc">
 <notes>
-<note appliesTo="source">line: 73</note>
+<note appliesTo="source">line: 78</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -528,7 +560,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="ec810f7c-1d88-4c34-a3bf-f857dad4b8fa">
 <notes>
-<note appliesTo="source">line: 75</note>
+<note appliesTo="source">line: 80</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -537,7 +569,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="21f7f78d-779f-4f46-a372-0660f438748f">
 <notes>
-<note appliesTo="source">line: 77</note>
+<note appliesTo="source">line: 82</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -546,7 +578,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="135b526c-4cde-44b2-9092-4fdeccc3dbf7">
 <notes>
-<note appliesTo="source">line: 79</note>
+<note appliesTo="source">line: 84</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -555,7 +587,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="55d75291-2450-4ab2-b920-209cc009e1e6">
 <notes>
-<note appliesTo="source">line: 81</note>
+<note appliesTo="source">line: 86</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -564,7 +596,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="20cc4a42-f18b-44c4-afc8-6e8230474b1c">
 <notes>
-<note appliesTo="source">line: 82</note>
+<note appliesTo="source">line: 87</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -573,7 +605,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="13780687-89b3-4625-96f7-8d4b5968402e">
 <notes>
-<note appliesTo="source">line: 83</note>
+<note appliesTo="source">line: 88</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -582,7 +614,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="3cb32444-bad3-464c-8583-fe09d751a1e5">
 <notes>
-<note appliesTo="source">line: 85</note>
+<note appliesTo="source">line: 90</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -591,7 +623,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="8561d1f0-25a8-46f5-86ae-6ae8b37132c3">
 <notes>
-<note appliesTo="source">line: 87</note>
+<note appliesTo="source">line: 92</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -600,7 +632,7 @@ $(ID:bbb29563-0ffd-41b4-abff-92b2f19dad22)
 </unit>
 <unit id="bbb29563-0ffd-41b4-abff-92b2f19dad22">
 <notes>
-<note appliesTo="source">line: 89</note>
+<note appliesTo="source">line: 94</note>
 </notes>
 <segment>
 <source>[1]: https://github.com/nvaccess/addon-datastore/discussions/2717</source>
