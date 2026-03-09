@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2025-09-14 16:16+0000\n"
-"PO-Revision-Date: 2026-03-02 00:38\n"
+"PO-Revision-Date: 2026-03-09 00:38\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
@@ -55,7 +55,7 @@ msgstr "Palvelin"
 #. automatic recovery of remote speech when the connection was lost.
 #: addon/globalPlugins/rdAccess/settingsPanel.py:61
 msgid "&Automatically recover remote speech after connection loss"
-msgstr "&Palauta etäpuhe automaattisesti yhteydenmenetyksen jälkeen"
+msgstr "&Palauta etäpuhe automaattisesti yhteyden katkettua"
 
 #. Translators: This is the label for a group of options in the
 #. Remote Desktop settings panel.
@@ -67,7 +67,7 @@ msgstr "Asiakas"
 #. support for exchanging driver settings between the local and the remote system.
 #: addon/globalPlugins/rdAccess/settingsPanel.py:77
 msgid "&Allow remote system to control driver settings"
-msgstr "&Anna etäjärjestelmän säätää ajurin asetuksia"
+msgstr "&Anna etäjärjestelmän muuttaa ajurin asetuksia"
 
 #. Translators: The label for a setting in RDAccess settings to enable
 #. persistent registration of RD Pipe to the Windows registry.
@@ -79,7 +79,7 @@ msgstr "S&äilytä asiakastuki NVDA:ta suljettaessa"
 #. registration of RD Pipe to the Windows registry for remote desktop support.
 #: addon/globalPlugins/rdAccess/settingsPanel.py:93
 msgid "Enable default &Remote Desktop support"
-msgstr "Ota käyttöön Microsoft-&etätyöpöydän tuki"
+msgstr "Ota käyttöön &oletusetätyöpöydän tuki"
 
 #. Translators: The label for a setting in RDAccess settings to enable
 #. registration of RD Pipe to the Windows registry for Citrix support.
@@ -90,7 +90,7 @@ msgstr "Ota käyttöön &Citrix Workspacen tuki"
 #. Translators: The label for a combobox in RDAccess settings to control connection notifications.
 #: addon/globalPlugins/rdAccess/settingsPanel.py:106
 msgid "&Notify of connection changes with"
-msgstr "&Ilmaise yhteyden muutokset"
+msgstr "&Ilmoita yhteyden muutokset"
 
 #. Translators: The label for a combobox in RDAccess settings to control RdPIpe log level.
 #: addon/globalPlugins/rdAccess/settingsPanel.py:118
