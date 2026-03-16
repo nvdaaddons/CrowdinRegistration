@@ -16,7 +16,7 @@ Aşağıdaki kontrolleri içerir:
 
 - Filtreleme kriteri: Önceden kaydedilmiş beslemeleri aramak için bir düzenleme kutusu.
 - İletişim kutusu açıldığında odaklanılan kayıtlı akışların listesi.
-- Makale listesi: Mevcut akışınızdaki makalelerin listesini sunan bir iletişim kutusu açar. Okumak istediğiniz makaleyi seçin ve ilgili sayfayı tarayıcınızda açmak için Enter veya Seçilen makalenin web sayfasını aç düğmesine basın. Seçilen makalenin başlığını ve bağlantısını. Okumak istediğiniz makaleyi seçin ve ilgili sayfayı tarayıcınızda açmak için Enter veya Seçilen makalenin web sayfasını aç düğmesine basın. Seçilen makalenin başlığını ve bağlantısını gösteren bir iletişim kutusu açmak için Makale hakkında düğmesine basın; bu iletişim kutusundan bu bilgiyi panoya kopyalayabileceksiniz.
+- Makale listesi: Mevcut akışınızdaki makalelerin listesini sunan bir iletişim kutusu açar. Okumak istediğiniz makaleyi seçin ve ilgili sayfayı tarayıcınızda açmak için Enter veya Seçilen makalenin web sayfasını aç düğmesine basın. Seçilen makalenin başlığını ve bağlantısını gösteren bir iletişim kutusu açmak için Makale hakkında düğmesine basın; bu iletişim kutusundan bu bilgiyi panoya kopyalayabileceksiniz.
 - Akışı aç: Seçili akışı varsayılan uygulamada açar.
 - Akışı HTML olarak aç: Seçili akışı varsayılan web tarayıcısında açar. Makaleler hakkındaki bilgileri panoya kopyalamak için yayın tarihlerini ve düğmeleri gösterip gizleyebileceksiniz. Makaleler hakkındaki bilgileri panoya kopyalamak için yayın tarihlerini ve düğmelerini gösterebilir veya gizleyebilirsiniz.
 - Akış adresini kopyala: Akış adresini panoya kopyalamak isteyip istemediğinizi onaylamak için bir iletişim kutusu açar.
@@ -48,6 +48,10 @@ Aşağıdaki kontrolleri içerir:
 - Bir akışa bağlanılamadığında/yenileme yapılamadığında veya URL, geçerli bir akışa karşılık gelmediğinde.
 - Yeni bir akış oluşturulamıyorsa NVDA bir hata mesajı görüntüler.
 - Makale listesi iletişim kutusunun başlığı, seçilen akış adını ve mevcut öğelerin sayısını gösterir.
+
+## 44.0.0 için değişiklikler
+
+- NVDA'ya dahil edilen xml paketi kaldırıldı.
 
 ## 39.0.0 İçin değişiklikler
 
