@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sayProductNameAndVersion 2025.1.0\n"
+"Project-Id-Version: sayProductNameAndVersion 2026.3.6\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-03-16 04:19+0000\n"
+"POT-Creation-Date: 2026-03-23 04:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,55 +17,63 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. Translators: Input help mode message for Say Product Name and Version command.
+#: addon/globalPlugins/sayProductNameAndVersion.py:29
+msgid ""
+"Speaks the name, version, and architecture of the application on which you "
+"are focused. Press twice to copy the information to the clipboard. Press "
+"three times to copy only the version number.Use on Desktop to get Windows "
+"version."
+msgstr ""
+
+#. Translators: The word version.
+#: addon/globalPlugins/sayProductNameAndVersion.py:45
+msgid "version"
+msgstr ""
+
 #. Translators: This is used when the name of the focused application cannot be found.
-#: addon/globalPlugins/sayProductNameAndVersion.py:39
-msgid "Application"
+#: addon/globalPlugins/sayProductNameAndVersion.py:57
+msgid "Application unknown"
 msgstr ""
 
-#. Translators: this will be spoken if version information was not available.
-#: addon/globalPlugins/sayProductNameAndVersion.py:50
-msgid "Unable to get version info"
+#. Used when describing Windows build numbers, which are used instead of a version.
+#. Translators: The word "build", as in the Windows build number.
+#: addon/globalPlugins/sayProductNameAndVersion.py:64
+msgid "build"
 msgstr ""
 
-#. Translators: This is the message which will be spoken containing both the product name and version.
-#. {name} is the app name, {version} is the version.
-#: addon/globalPlugins/sayProductNameAndVersion.py:56
+#. Translators: This is used when the version of the focused application cannot be found.
+#: addon/globalPlugins/sayProductNameAndVersion.py:76
+msgid "not detected"
+msgstr ""
+
+#. Translators: This is the message announced when all information has been copied.
+#: addon/globalPlugins/sayProductNameAndVersion.py:103
 #, python-brace-format
-msgid "{name} version {version}"
-msgstr ""
-
-#. Translators: This is the message announced when all information has been copied..
-#. {name} is the app name, {version} is the version.
-#: addon/globalPlugins/sayProductNameAndVersion.py:63
-#, python-brace-format
-msgid "Copied {name} {version} to the clipboard"
+msgid "Copied {appName} {versionWord} {appVersionAndArch} to the clipboard."
 msgstr ""
 
 #. Translators: This is the message announced when all information hasn't been copied.
-#: addon/globalPlugins/sayProductNameAndVersion.py:69
-#: addon/globalPlugins/sayProductNameAndVersion.py:81
-msgid "Cannot copy version information to the clipboard."
+#: addon/globalPlugins/sayProductNameAndVersion.py:108
+msgid "Failed to copy application information to the clipboard."
 msgstr ""
 
-#. Translators: This is the message announced when only the version has been copied..
-#. {version} is the version.
-#: addon/globalPlugins/sayProductNameAndVersion.py:76
+#. Translators: The message reporting that only the application's version and architecture were copied.
+#: addon/globalPlugins/sayProductNameAndVersion.py:115
 #, python-brace-format
-msgid "Copied {version} to the clipboard."
+msgid "Copied {appVersionAndArch} to the clipboard."
 msgstr ""
 
-#. Translators: Input help mode message for say product name and version command.
-#: addon/globalPlugins/sayProductNameAndVersion.py:86
-msgid ""
-"Speaks the name and version of the application on which you are focused. "
-"Press twice to copy the information to the clipboard. Press three times to "
-"copy only the version number."
+#. Copy failure
+#. Translators: This is the message announced when all information hasn't been copied.
+#: addon/globalPlugins/sayProductNameAndVersion.py:118
+msgid "Cannot copy version information to the clipboard."
 msgstr ""
 
 #. Add-on summary
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 #: buildVars.py:21
-msgid "Say Product Name and Version"
+msgid "Say Application Name and Version"
 msgstr ""
 
 #. Add-on description
@@ -78,5 +86,6 @@ msgid ""
 "reports, etc.\n"
 "Pressing three times copies only the version.\n"
 "The key can be remapped.\n"
-"Read help to find tips for hearing NVDA and Windows versions."
+"Read help to find tips for hearing NVDA and Windows versions.\n"
+"Please consider a small donation: https://www.paypal.me/LukeDavis734"
 msgstr ""
