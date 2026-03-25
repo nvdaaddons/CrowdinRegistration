@@ -5,56 +5,56 @@ msgstr ""
 "POT-Creation-Date: 2025-09-14 17:30+0000\n"
 "PO-Revision-Date: 2026-03-23 00:42\n"
 "Last-Translator: \n"
-"Language-Team: Chinese Traditional\n"
-"Language: zh_TW\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Crowdin-Project: nvdaaddons\n"
 "X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: zh-TW\n"
+"X-Crowdin-Language: ar\n"
 "X-Crowdin-File: winWizard.pot\n"
 "X-Crowdin-File-ID: 344\n"
 
 #: addon/globalPlugins/winWizard.py:62
 msgid "winWizard"
-msgstr "視窗管理"
+msgstr "مدير النوافذ"
 
 #. Translators: Label of a checkbox which can be used to enable or disable sounds.
 #: addon/globalPlugins/winWizard.py:67
 msgid "&Confirm actions with sounds"
-msgstr "以音效確認動作(&C)"
+msgstr "&تأكيد الإجراءات عن طريق إصدار أصوات"
 
 #. Translators: Name of the process priority
 #: addon/globalPlugins/winWizard.py:100
 msgid "Idle"
-msgstr "空閒(&I)"
+msgstr "خامل"
 
 #. Translators: Name of the process priority
 #: addon/globalPlugins/winWizard.py:102
 msgid "Below Normal"
-msgstr "低於正常(&B)"
+msgstr "أقل من عادي"
 
 #. Translators: Name of the process priority
 #: addon/globalPlugins/winWizard.py:104
 msgid "Normal"
-msgstr "正常(&N)"
+msgstr "عادي"
 
 #. Translators: Name of the process priority
 #: addon/globalPlugins/winWizard.py:106
 msgid "Above normal"
-msgstr "高於正常(&A)"
+msgstr "أعلى من عادي"
 
 #. Translators: Name of the process priority
 #: addon/globalPlugins/winWizard.py:108
 msgid "High"
-msgstr "高(&H)"
+msgstr "مرتفع"
 
 #. Translators: Name of the process priority
 #: addon/globalPlugins/winWizard.py:110
 msgid "Real time"
-msgstr "即時(&R)"
+msgstr "الوقت الحالي"
 
 #. Translators: Name of the stack shown in the dialog - for example Stack 1.
 #. Translators: Message announced when user switches to another stack.
@@ -62,183 +62,183 @@ msgstr "即時(&R)"
 #: addon/globalPlugins/winWizard.py:124 addon/globalPlugins/winWizard.py:720
 #: addon/globalPlugins/winWizard.py:729
 msgid "Stack {}"
-msgstr "堆疊 {}"
+msgstr "المجموعة {}"
 
 #. Translators: Text of the  entry for the hidden window in the hidden windows tree.
 #: addon/globalPlugins/winWizard.py:150
 msgid "{}: {}"
-msgstr "{}: {}"
+msgstr ""
 
 #. Translators: title of the dialog.
 #: addon/globalPlugins/winWizard.py:188
 msgid "Change process priority"
-msgstr "變更處理程序優先順序"
+msgstr "تغيير أولوية العملية"
 
 #. Translators: Label for the group of radio buttons for choosing a process priority.
 #: addon/globalPlugins/winWizard.py:199
 msgid "Choose priority"
-msgstr "選擇優先順序"
+msgstr "إختر أولوية"
 
 #. Translators: Label of the button which sets priority in the dialog.
 #: addon/globalPlugins/winWizard.py:211
 msgid "Change"
-msgstr "變更(&E)"
+msgstr "تغيير"
 
 #. Translators: Label for the button which  dismiss the dialog.
 #: addon/globalPlugins/winWizard.py:220
 msgid "Cancel"
-msgstr "取消(&C)"
+msgstr "إلغاء"
 
 #. Translators: Title of the dialog.
 #: addon/globalPlugins/winWizard.py:240
 msgid "Hidden windows"
-msgstr "隱藏視窗"
+msgstr "النوافذ المخفية"
 
 #. Translators: Label for the button which shows currently selected hidden window.
 #: addon/globalPlugins/winWizard.py:265
 msgid "Unhide"
-msgstr "顯示(&D)"
+msgstr "إظهار"
 
 #. Translators: Label for the button which closes the dialog.
 #: addon/globalPlugins/winWizard.py:274
 msgid "Close"
-msgstr "關閉(&C)"
+msgstr "إغلاق"
 
 #. Translators: Text describing hidden window. For example: "Untitled -  notepad from process notepad.exe"
 #: addon/globalPlugins/winWizard.py:470
 msgid "{} from process {}"
-msgstr "{} 來自處理程序 {}"
+msgstr "{} من عملية {}"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: addon/globalPlugins/winWizard.py:568 buildVars.py:23
 msgid "Win Wizard"
-msgstr "視窗管理"
+msgstr "مدير النوافذ"
 
 #. Translators: Description of the keyboard command
 #. allowing to jump between top-level windows of the current application.
 #: addon/globalPlugins/winWizard.py:587
 msgid "Jumps between top-level windows of the current application."
-msgstr "在目前應用程式的頂層視窗之間跳轉。"
+msgstr "القفز ما بين النوافذ العلوية للتطبيق الحالي."
 
 #. Translators: Information given when user tries to move to top-level window in Windows  Explorer
 #: addon/globalPlugins/winWizard.py:601
 msgid "Not supported here."
-msgstr "在此處不支援。"
+msgstr "غير مدعوم هنا."
 
 #. Translators: Announced when the current application has no top-level windows.
 #: addon/globalPlugins/winWizard.py:610
 msgid "This window has no top level windows to cycle to."
-msgstr "此視窗沒有可循環切換的頂層視窗。"
+msgstr "لا توجد نوافذ علوية لهذه النافذة للتنقل في ما بينها."
 
 #. Translators: Announced when current program has multiple top-level windows.
 #: addon/globalPlugins/winWizard.py:618
 msgid "Multiple top level windows detected."
-msgstr "偵測到多個頂層視窗。"
+msgstr "تم العثور على نوافذ علوية متعددة."
 
 #. Translators: Reported when informations for the current window cannot be retrieved.
 #: addon/globalPlugins/winWizard.py:621
 msgid "Can't retrieve window information for this object."
-msgstr "無法擷取此物件的視窗資訊。"
+msgstr "لا يمكن العثور على معلومات النافذة لهذا العنصر."
 
 #. Translators: Description of the keyboard command that kills currently focused process.
 #: addon/globalPlugins/winWizard.py:625
 msgid "Kills currently focused process."
-msgstr "結束目前焦點所在的處理程序。"
+msgstr "ينهي العملية المركز عليها حاليا."
 
 #. Translators: Announced when current process cannot be killed.
 #: addon/globalPlugins/winWizard.py:633
 msgid "Cannot kill the current process"
-msgstr "無法結束目前的處理程序"
+msgstr "لا يمكن إنهاء العملية الحالية"
 
 #. Translators: Description of the keyboard command used to change title of the curently focused window.
 #: addon/globalPlugins/winWizard.py:639
 msgid "Opens a dialog allowing to change title of the current window"
-msgstr "開啟一個可讓您變更目前視窗標題的對話框"
+msgstr "يفتح محاورة لتغيير عنوان النافذة الحالية"
 
 #. Translators: Message in the dialog used to change title of the curently focused window.
 #: addon/globalPlugins/winWizard.py:647
 msgid "Enter the new title for this window:"
-msgstr "輸入此視窗的新標題："
+msgstr "أدخل العنوان الجديد لهذه النافذة:"
 
 #. Translators: Title of the dialog.
 #: addon/globalPlugins/winWizard.py:649
 msgid "Change window title"
-msgstr "變更視窗標題"
+msgstr "تغيير عنوان النافذة"
 
 #. Translators: Shown when changing of the current window title failed.
 #: addon/globalPlugins/winWizard.py:662
 msgid "Failed to change window title!"
-msgstr "變更視窗標題失敗！"
+msgstr "فشل في تغيير عنوان النافذة!"
 
 #. Translators: Title of the error dialog
 #: addon/globalPlugins/winWizard.py:664
 msgid "Error"
-msgstr "錯誤"
+msgstr "خطأ"
 
 #. Translators: Description of the keyboard command
 #. that opens dialog allowing to change priority of the currently focused program.
 #: addon/globalPlugins/winWizard.py:673
 msgid "Opens dialog used to change priority of the process of currently focused program."
-msgstr "開啟對話框，用以變更目前焦點程式之處理程序的優先順序。"
+msgstr "يفتح محاورة لتغيير أولوية العملية للتطبيق الحالي."
 
 #. Translators: Message informing user that the current window cannot be hidden.
 #: addon/globalPlugins/winWizard.py:690
 msgid "Cannot hide this window!"
-msgstr "無法隱藏此視窗！"
+msgstr "لا يمكن إخفاء النافذة الحالية!"
 
 #. Translators: Description of the keyboard command that shows or hides window at the current slot.
 #: addon/globalPlugins/winWizard.py:703
 msgid "Shows or hides window in the current slot."
-msgstr "顯示或隱藏目前視窗至此位置。"
+msgstr "يُظهِر او يُخفي النافذة في الخانة المختارة."
 
 #. Translators: Description of the keyboard command.
 #: addon/globalPlugins/winWizard.py:715
 msgid "Goes to the previous stack"
-msgstr "跳至上一個堆疊"
+msgstr "ينطقل للمجموعة السابقة"
 
 #. Translators: Description of the keyboard command.
 #: addon/globalPlugins/winWizard.py:724
 msgid "Goes to the next stack"
-msgstr "跳至下一個堆疊"
+msgstr "ينطقل للمجموعة التالية"
 
 #. Translators: Description of the keyboard command.
 #: addon/globalPlugins/winWizard.py:733
 msgid "Hides  current window in the first available slot"
-msgstr "隱藏目前視窗至第一個可用位置"
+msgstr "يُخفي النافذة الحالية في أول خانة متاحة"
 
 #. Translators: Description of the keyboard command.
 #: addon/globalPlugins/winWizard.py:741
 msgid "Shows last hidden window"
-msgstr "顯示最後一個被隱藏的視窗"
+msgstr "يُظهِر آخر نافذة مخفية"
 
 #. Translators: Announced when user attempts to show last hidden window but history is empty.
 #: addon/globalPlugins/winWizard.py:749
 msgid "There is no window recorded as last hidden!"
-msgstr "沒有記錄到最後隱藏的視窗！"
+msgstr "لا توجد نافذة تم تحديدها كآخر نافذة مخفية!"
 
 #. Translators: Announced when user attempts to show last hidden window but it no longer exists.
 #: addon/globalPlugins/winWizard.py:752
 msgid "Window recorded as last hidden no longer exists!"
-msgstr "記錄為最後隱藏的視窗已不存在！"
+msgstr "النافذة التي تم تحديدها كآخر نافذة مخفية لم تعد موجودة!"
 
 #. Translators: Description of the keyboard command
 #. that opens dialog allowing to unhide currently hidden windows.
 #: addon/globalPlugins/winWizard.py:758
 msgid "Opens dialog for unhiding currently hidden windows."
-msgstr "顯示被隱藏視窗的對話框。"
+msgstr "يُظهر محاورة لإلغاء إخفاء النوافذ المخفية."
 
 #. Translators: Announced when user tries to display list of hidden windows but there are none hidden.
 #: addon/globalPlugins/winWizard.py:769
 msgid "There are no windows currently hidden."
-msgstr "目前沒有被隱藏的視窗。"
+msgstr "لا توجد نوافذ مخفية حاليا."
 
 #: buildVars.py:27
 msgid "This addon allows you to hide windows (NVDA shift and numbers).\n"
 "Also, allows exploration of top level windows (windows+NVDA+tab),\n"
 "and kill a non responding process with windows f4."
-msgstr "此附加元件可讓您隱藏視窗 (NVDA+shift+數字鍵)。\n"
-"此外，也允許探索頂層視窗 (windows+NVDA+tab)，\n"
-"並以 windows+f4 終止無回應的處理程序。"
+msgstr "تسمح لك هذه الإضافة بإخفاء النوافذ المفتوحة عن طريق إستعمال إختصار nvda و shift والأرقام من 1 إلى 9\n"
+"أيضا تسمح لك بالتنقل ما بين النوافذ العلوية عن طريق الإختصار nvda+windows+tab\n"
+"أيضا يمكنك إنهاء العملية الحالية عن طريق الإختصار windows+f4"
 
