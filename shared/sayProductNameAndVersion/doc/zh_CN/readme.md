@@ -1,26 +1,35 @@
-* 作者：Luke Davis <XLTechie@newanswertech.com>、Patrick ZAJDA <patrick@zajda.fr>
-* NVDA 兼容性：2017.3 至 2025.X
+* 作者：Luke Davis <XLTechie@newanswertech.com>、Patrick ZAJDA
+* NVDA兼容性：2025.3 至 2026.1
 * 下载 [稳定版][1]
+* 如需使用更早版本的 NVDA（如降级至 2017.3），请尝试[此旧版](https://github.com/opensourcesys/sayProductNameAndVersion/releases/download/v2026.2.0/sayProductNameAndVersion-2026.2.0.nvda-addon)。请注意，部分功能将不可用。
 
-此 [NVDA](https://nvaccess.org/) 插件新增了一个快捷键，用于朗读前台应用程序的产品名称与版本号，或将此信息复制到剪贴板。
+此 [NVDA](https://nvaccess.org/) 插件添加了一个快捷键，用于朗读前台应用程序的名称、版本及其架构，或将此信息复制到剪贴板。
 
-* 快捷键：`NVDA+Shift+V`
-* 连按两次：将产品名称与版本号复制到剪贴板。
-* 连按三次：仅复制版本号到剪贴板。
+* 英文键盘快捷键：`NVDA+Shift+V`
+* 按一次：通过语音朗读或以盲文呈现这些信息。
+* 连按两次可将名称、版本和架构复制到剪贴板，用换行符分隔。
+* 连按三次则仅将版本和架构复制到剪贴板。
 
 可在 NVDA 按键与手势对话框的“工具”类别中重新设置此快捷键。
 
+要获取 Windows 版本，请在桌面或任务栏上使用此快捷键。
+在 Windows 的其他多个位置同样有效。
+
+要获取 NVDA 版本，请在 NVDA 菜单、插件商店或其他 NVDA 界面打开时使用此快捷键。
+
+### 请支持该插件
+
 若您喜欢此插件并愿帮助他人评估其实用性，请为其撰写[使用评价][3]。
 
-更新历史请查阅[更新日志][2]。
+另外，若您愿意为我过去几年维护此插件请我喝杯咖啡，我将不胜感激！
+您可以通过[此 PayPal 链接](https://www.paypal.me/LukeDavis734)进行捐赠。
 
-### 使用技巧
+### 其他信息
 
-* 要获取 Windows 版本信息，可将焦点置于任意 Windows 组件（如桌面、开始菜单、运行对话框等）后按此快捷键。请注意：此方式获取的是接近构建版本号的信息（类似"winver"命令第二行显示的内容），而非"23H3"这类发行版本名称。
-* 要获取 NVDA 版本信息，可打开任意 NVDA 对话框或菜单后按此快捷键。例如：按 `NVDA+N` 打开 NVDA 菜单，按 `NVDA+Shift+V` 获取版本，再按 `Esc` 退出菜单。
+有关更新历史，请查阅[更新日志][2]。
 
 [1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion
 
-[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/changelog.md#readme
+[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/changes.md#readme
 
 [3]: https://github.com/nvaccess/addon-datastore/discussions/2683
