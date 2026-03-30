@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en">
-<file id="Access8Math.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/Access8Math/Access8Math.md">
+<file id="Access8Math.md" original="https://raw.githubusercontent.com/nvdaaddons/crowdinRegistration/5196cc9098d5bef85a7da549f851760c98cb165a/addons/Access8Math/Access8Math.md">
 <skeleton>
 # $(ID:1333314d-c11d-466d-ac23-587d40dc0005)
 
@@ -67,7 +67,7 @@ $(ID:28e05da5-1c10-43ca-8121-031002ecc2d3)
 
 #### $(ID:eaf57e5a-0b2b-470e-9c41-573b2f3b184e)
 
-$(ID:f3d9e5fa-4be6-4a32-b92a-172277b2264c)
+$(ID:9bae1209-471b-4885-a2d7-74f030ca03d8)
 
 $(ID:01882746-eecd-4935-b080-9b63653fe099)
 
@@ -75,13 +75,13 @@ $(ID:22a087a6-fdfc-45fa-aacf-77697b9d7a62)
 
 #### $(ID:db097360-399f-4660-a0fa-35dcc772f600)
 
-$(ID:37239cdb-e014-49ee-9502-4c15474bd245)
+$(ID:6e454f65-3de9-4b3c-b768-a5e8ffd3dd9d)
 
 $(ID:85d77739-d7ed-45a9-a343-950f42dd0125)
 
 #### $(ID:d1637f69-2458-49cd-9f65-c5bb9d495daa)
 
-$(ID:a2920202-a074-4d4b-b866-ea7836095717)
+$(ID:5b5c4807-052b-44a7-bf34-ed152e0291d8)
 
 $(ID:8d0e0888-6f7e-4e84-b180-130efa0c976c)
 
@@ -188,7 +188,7 @@ $(ID:6b08d3ed-a4fc-48e1-9dc5-22e151813a0e)
 
 $(ID:da881966-398e-4b99-aa35-92e597350cc3)
 
-### $(ID:916cebc9-3407-49e1-b989-bf5d8669e190)
+### $(ID:087feec6-69c9-43b8-9ba1-ec168effabd5)
 
 $(ID:9ffa8c20-d92d-4850-bb83-bd1045fb5b5d)
 
@@ -449,6 +449,12 @@ $(ID:6ffdc281-b528-482a-be1f-13116de98d46)
 
 # $(ID:13c3d918-4484-4f1a-a17a-9e486167242d)
 
+## $(ID:344ab6c1-4956-440c-bbd2-29e17f481604)
+
+* $(ID:47c7a7b4-8bbd-47ea-bdc3-327b04bbffa7)
+* $(ID:e490e15c-40ed-4f11-9186-be0b22f2f562)
+* $(ID:82bebda1-a5c7-426e-a650-a29e410b4d89)
+
 ## $(ID:c84955f9-d6bf-467f-8fd5-5e9b0dcc4d39)
 
 * $(ID:93097962-c1c7-4e78-9fc4-158b2e1a5051)
@@ -462,208 +468,9 @@ $(ID:6ffdc281-b528-482a-be1f-13116de98d46)
 * $(ID:4b427021-5ef1-4720-a8bc-5d1416bbab52)
 * $(ID:3f68f775-5203-4d7c-b295-07683ef30375)
 
-## $(ID:1a5cb26c-4daa-410c-8ae8-0485ee77dc15)
 
-* $(ID:2565f8c7-565e-4666-a6d7-9218979c4de3)
-* $(ID:e02577c5-9300-4ba9-a01c-a020da090506)
+$(ID:a6cc3293-930b-42bc-a931-bad12b618a17)
 
-## $(ID:7bcd1e5f-2746-4cdd-9bd2-3b954ade12d0)
-
-* $(ID:6ab37130-8daa-4c85-b8c4-c3a4b00c27d4)
-* $(ID:067c4ca5-7550-42fd-859e-30ab0c4fb23a)
-* $(ID:c0327d87-ad94-41e0-b323-99a9f681fdc5)
-* $(ID:a905cce4-7ba5-4137-b085-9dc1912a967d)
-* $(ID:01c2c700-a1bb-435d-b7a6-9332a3a556c1)
-* $(ID:dc448b97-8410-407e-bc7e-5016f5b3ff6d)
-
-## $(ID:4ac4afbb-3639-4faa-a53b-be38db15fe2f)
-
-* $(ID:e8a6b2fe-253d-443e-858a-36d7ead135bb)
-* $(ID:59943f4c-9632-4606-b3fa-0f7f43651d32)
-* $(ID:c011c5af-59db-47a7-8c42-6376045a5fbc)
-* $(ID:99c0eebc-8955-4658-a968-19076108623b)
-* $(ID:8aadae68-f962-446b-94d3-96de98e61544)
-* $(ID:18b19feb-cb4e-4c2c-9f17-8c4c2d13bbb8)
-
-## $(ID:29b09e52-d27d-4f2b-a5d1-41fb99c3c285)
-
-* $(ID:a851e8a8-d688-4f88-8e2e-e5acf8c3de4f)
-* $(ID:9e9c9a66-8c29-4c63-9014-55448a4663e9)
-* $(ID:c05160de-3398-448b-bbfb-14ee4d2349b6)
-* $(ID:138d167b-bd13-46a2-8a59-2a0c56bd16a9)
-* $(ID:d945c1a2-5f27-4229-a037-3044998926d6)
-
-## $(ID:c0fd7a8d-a3fc-4d81-92a4-2f941f86bae0)
-
-* $(ID:30dabc4b-1cbe-41f3-896d-2e427fc32fba)
-* $(ID:6707ea7e-1619-455e-9cd8-9d3eb79141a6)
-* $(ID:f40652af-6567-40cd-8851-ac107afb9862)
-* $(ID:af7fade7-720d-44c7-a58d-0ecd50f15a67)
-* $(ID:0be2e25c-0a67-40eb-abfe-ee5f4db7e300)
-* $(ID:9ea0baf6-c237-425a-886d-030a299ee1ca)
-
-## $(ID:af921c8c-8084-4899-9d36-5478d165e152)
-
-* $(ID:93015124-c3c3-4342-87cf-c6f33e2e6779)
-* $(ID:3656f938-0fb3-4db3-93d4-0f7a0a1eae24)
-* $(ID:4a618eb8-373c-42e5-9456-5d5b94361718)
-* $(ID:f12457b6-a78c-44ea-a893-9f9c6717c47a)
-* $(ID:361d278e-e156-4751-9bbe-4c5a260836ba)
-* $(ID:6191d660-518b-4093-b31b-ec5832ac7752)
-* $(ID:58446ab9-799c-4bc8-99d4-10b480e1b905)
-
-## $(ID:b3ef5070-8002-430d-8761-d004fa8b0d23)
-
-* $(ID:210e3f15-5b4c-4f11-b991-4e462ed3814c)
-* $(ID:b0ae6d59-05e6-4d00-b725-c3a70ff8f597)
-* $(ID:5d488bb0-60ec-45d7-b964-f5046799ca3b)
-* $(ID:350a466a-ddb2-446b-af38-83c4827d953a)
-* $(ID:18012693-718a-4975-b47c-a0bfe2f3df6c)
-* $(ID:f36f1203-93a0-4ad2-8ddd-3eacfdbc8566)
-* $(ID:ee91582b-b985-4f46-8558-e48fb60fb9a4)
-* $(ID:bb980f68-ed69-4983-876e-8fb0d1d50d57)
-
-## $(ID:8602b21e-e99e-4a7d-bf83-bb7cfd2ae863)
-
-* $(ID:2b11ec01-ea43-428e-aa77-53bd6c22187e)
-* $(ID:5e01788e-5d63-47fd-a553-193635fda797)
-* $(ID:19c11ddd-70c4-4bf6-9e78-9b4a9f88bfdd)
-* $(ID:b859310f-ee54-4875-b2e5-abf6e95bf344)
-* $(ID:b1858d67-1da3-49eb-a7bb-0b067791a0f7)
-* $(ID:324cd49a-affa-4b9a-bfa8-ad463d0274b8)
-* $(ID:db5cb718-fde5-4c1c-9697-4db3aa345aae)
-* $(ID:78868359-0677-41f7-bd7a-94647c3df6ba)
-* $(ID:19a04d18-095d-4cc0-8d38-a34c07c1bd73)
-* $(ID:69bf5e0c-e712-4483-9611-3855da2f7429)
-* $(ID:15689183-6b09-4266-9d04-cb1b4bdbd1ae)
-* $(ID:3f072f96-fc14-4208-9a8c-9bc787fdb629)
-* $(ID:dc39ce67-33bf-4dcd-9943-8ec43f5a4962)
-* $(ID:fe658334-011b-4816-b158-112cd2b14153)
-* $(ID:cf96689f-0d73-457a-8308-364cef04544a)
-* $(ID:031f62e0-5015-4345-85ee-7b85002b4b1c)
-* $(ID:22db5b06-f9e1-4128-b249-06742e314182)
-
-## $(ID:32786b3b-8b23-4c74-a5c1-099bdc89aca8)
-
-* $(ID:d457ca87-02cb-456c-8fd4-ea0e892a81f1)
-* $(ID:64eba391-2aaa-4408-89a2-7f906ea0929c)
-* $(ID:363d1c57-de99-4162-8097-bdb1a7e840bc)
-* $(ID:8c0caef6-0148-48fc-b4e6-ce966252e1bc)
-* $(ID:24e79a67-41ed-4858-8454-0a7a3bd24bbb)
-* $(ID:b081ff58-a9cc-42c9-9ab2-1532c4cabbc8)
-* $(ID:9a9f0f04-ab96-46ba-8175-e3bd841a65b8)
-* $(ID:73aa6010-f7bf-4554-9a7e-0b1a2d44151d)
-* $(ID:8c7048a1-e962-4012-8aaa-e75b72e9c6b3)
-* $(ID:c669a1cb-47ad-473c-8ee3-823a93f05cc0)
-* $(ID:019ec24b-dd5d-4e07-b218-15bd07efd9e1)
-
-## $(ID:56dfc735-37cd-4697-bc4c-91324f831e74)
-
-* $(ID:674a548a-e44d-4570-b603-3c3f07bad636)
-* $(ID:0ac7fcd7-ed4c-4bce-b736-2e8357d1ce51)
-* $(ID:2d5305df-123f-4c82-b068-4838c44ca426)
-* $(ID:aadf6b43-fcab-43ff-a51b-acec418a0b82)
-* $(ID:5563bdc6-9177-47cb-a0fb-ebe7cf993bf2)
-* $(ID:9bb84767-13bb-4bcb-9328-e06bb5c58948)
-* $(ID:134725a3-f6d8-45f7-a5b0-b6ce369d76c8)
-
-## $(ID:a332fd8b-0252-4332-92fe-09c17e2fe7c8)
-
-* $(ID:e824d1ff-63cb-4df0-bf10-a4d8bc5d0dea)
-* $(ID:44c961a5-2ac2-40bf-8af2-9cf21e1d5752)
-* $(ID:62feff87-0196-42ce-80bc-eefa26143cc1)
-
-## $(ID:6e921817-99ef-4916-93a8-dc5d1ab17933)
-
-* $(ID:14a3a8a3-caea-4800-afa3-0b118dd96c31)
-* $(ID:97a4d8fa-f293-4a73-b97b-9daf9eff8059)
-* $(ID:ab79a8f3-e93a-4380-bc0f-a02d29dec254)
-
-## $(ID:c7742868-63a2-458a-bc42-e1e5b67ecdba)
-
-* $(ID:b8e61e82-4c96-4e36-82a0-cf5384533ff5)
-
-## $(ID:eeeb96f3-7ea1-4d45-bf7a-6fc28e69b138)
-
-* $(ID:0c21e8db-b662-466b-9aeb-943006b10ef8)
-* $(ID:b97ab71b-5a9c-4b11-b259-c84934c7b6c3)
-* $(ID:e6449664-4fd5-49c8-962a-794eb3db4ad5)
-
-## $(ID:eb75ff0a-1b8c-40a4-9823-b51ba816c2c4)
-
-$(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
-* $(ID:9d27a1cc-d2a9-435e-9fd8-ab792d41dc66)
-* $(ID:c3b8675b-c9ae-44af-8e31-e7de52aa4a53)
-* $(ID:8a64158b-dd59-4d65-8dee-51f4ae639232)
-* $(ID:8136bcd9-3ca1-4d04-850f-15d0163204a4)
-
-## $(ID:34f9d273-9e77-4ee3-b6cb-7c11faf72897)
-
-* $(ID:b839c944-2be3-4ade-991e-5e65b7cac95f)
-* $(ID:775ae1e9-73a1-4865-a120-1102c0a493fc)
-* $(ID:792946b5-9716-44d9-813c-4aa7829a7273)
-* $(ID:37ec61bf-581d-4f11-95bf-28560936453b)
-* $(ID:63122ed0-85fa-4765-9df0-23b639de6051)
-* $(ID:dbcb96e0-b9d0-4ff5-8a49-1cb001b6b9cf)
-
-## $(ID:81dbdc05-d9f8-40d4-9c52-5d985bddabeb)
-
-* $(ID:4d0d8b38-087f-41a9-b27a-edaabbf7ff55)
-* $(ID:1b3a02e5-4161-494b-8181-1a546cde08da)
-* $(ID:5df533ac-3f8d-4090-91f5-ff04102cbbe4)
-* $(ID:0608a4c0-448d-4bd3-b27a-fe9b1588eb9a)
-* $(ID:d413cfb7-3788-4b1e-8a8a-f9b665fa42f0)
-
-## $(ID:05854bf2-88b7-4624-bfeb-b385e94ddc4a)
-
-* $(ID:7c044206-ddcb-4d97-926c-3a6c644bcc37)
-* $(ID:d6775cf4-a461-46f8-88e0-7babea182f2c)
-
-## $(ID:45912167-5c30-4d51-a5c6-6b754e9cdee1)
-
-* $(ID:1356b762-1028-4d41-87a8-b1297bcf45b1)
-* $(ID:05ef02a9-fcd7-422f-82d7-df558042d087)
- * $(ID:03b66876-c0b5-4778-9d59-939a63ef2287)
- * $(ID:b00e73f8-7a36-4420-9c0b-2560dcc3b696)
-* $(ID:b89532c4-2eef-4476-a485-dc7c9cdd5349)
-
-## $(ID:79b800f9-7fcc-4cb3-94b1-f29f0e774e81)
-
-* $(ID:f9ca7b8a-617e-4967-adfb-7fb0fbcba4c7)
- * $(ID:bc1682fa-57c7-491c-8b80-bd44bf41723e)
- * $(ID:b49ddb1a-49a7-47e2-980f-e8391714c6d2)
- * $(ID:fbb793c4-446c-4ddd-892b-c68cb8685e60)
- * $(ID:d6de6f7b-b724-4255-8a59-c5e4f8d95b1a)
- * $(ID:3cc1cd21-3e9f-49a9-8872-b951ff91ccf6)
- * $(ID:8665259e-9758-4640-bf39-91c82ecf7064)
-* $(ID:1149a238-9081-4d3f-824b-d2c71175cc68)
- * $(ID:152e31ab-c2a3-4a00-b7ed-3a4757cc5f09)
- * $(ID:4f08c52a-e97e-40b6-889b-e4200c09ae5f)
-* $(ID:882f6535-9bc4-4e94-b7b2-1e33d3982014)
-* $(ID:096778a8-9a78-40c1-9111-c7d27ae2bd49)
-* $(ID:38a6b9e5-d9b1-4bde-af63-a1de75738034)
-
-## $(ID:3119eb21-1e7a-4afd-9f83-fabc1a3e1760)
-
-* $(ID:9540c34c-3301-40da-9075-72a7d084d61e)
- * $(ID:fae631da-9aaa-469c-8205-c5c47fb6b25e)
- * $(ID:65344181-4f2f-43a5-b52f-94734c50e030)
-* $(ID:3a9ed4d1-1226-4165-9f94-c6918c878cf0)
- * $(ID:8922136a-2047-45c8-8e6e-189899be0980)
- * $(ID:f9c05f86-2312-4217-a1ff-0c88b6bdf2d6)
-* $(ID:9f4c1e1e-9681-4c18-a628-9a561bdec3db)
-
-## $(ID:10481b56-4ba9-42b4-9d1d-87b4fcbf49ca)
-
-* $(ID:4bb3bc83-4c00-46dd-bddb-110af66b3fd7)
-* $(ID:8c52e169-b3a1-4c03-9e14-861f5cc4dc90)
- * $(ID:c917a564-7007-462e-b58e-9a9570a1f5f9)
- * $(ID:991fdafe-c653-419b-b805-1b85514c3b23)
- * $(ID:abff5cd5-c363-4ee0-bb97-daefa8c14b58)
- * $(ID:8ca2bd3f-4f3f-43db-af0a-42fc8557f82f)
-* $(ID:9c5bb921-8163-47c0-8d14-6869118fc158)
-* $(ID:bf464d12-847f-4ce5-bc5a-4d999d455c2f)
-* $(ID:a90e8c97-92c7-4d76-8d09-b0bff5957db9)
 </skeleton>
 <unit id="1333314d-c11d-466d-ac23-587d40dc0005">
 <notes>
@@ -1005,7 +812,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>Mathematical Structure Analysis</source>
 </segment>
 </unit>
-<unit id="f3d9e5fa-4be6-4a32-b92a-172277b2264c">
+<unit id="9bae1209-471b-4885-a2d7-74f030ca03d8">
 <notes>
 <note appliesTo="source">line: 67</note>
 </notes>
@@ -1038,7 +845,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>Simplified Speech Outputs</source>
 </segment>
 </unit>
-<unit id="37239cdb-e014-49ee-9502-4c15474bd245">
+<unit id="6e454f65-3de9-4b3c-b768-a5e8ffd3dd9d">
 <notes>
 <note appliesTo="source">line: 75</note>
 </notes>
@@ -1063,7 +870,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>Pauses Between Segments</source>
 </segment>
 </unit>
-<unit id="a2920202-a074-4d4b-b866-ea7836095717">
+<unit id="5b5c4807-052b-44a7-bf34-ed152e0291d8">
 <notes>
 <note appliesTo="source">line: 81</note>
 </notes>
@@ -1672,7 +1479,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>When the editing cursor is in the LaTeX block, press a letter key to quickly insert the LaTeX markup of the corresponding Greek letter. See the "Appendix" of this document for Alphabet to Greek Alphabet Table.</source>
 </segment>
 </unit>
-<unit id="916cebc9-3407-49e1-b989-bf5d8669e190">
+<unit id="087feec6-69c9-43b8-9ba1-ec168effabd5">
 <notes>
 <note appliesTo="source">line: 188</note>
 <note appliesTo="source">prefix: ### </note>
@@ -3645,9 +3452,45 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 <source>Access8Math update log</source>
 </segment>
 </unit>
-<unit id="c84955f9-d6bf-467f-8fd5-5e9b0dcc4d39">
+<unit id="344ab6c1-4956-440c-bbd2-29e17f481604">
 <notes>
 <note appliesTo="source">line: 449</note>
+<note appliesTo="source">prefix: ## </note>
+</notes>
+<segment>
+<source>Access8Math v4.5 Update</source>
+</segment>
+</unit>
+<unit id="47c7a7b4-8bbd-47ea-bdc3-327b04bbffa7">
+<notes>
+<note appliesTo="source">line: 451</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Added an HTML color scheme setting for preview and export output.</source>
+</segment>
+</unit>
+<unit id="e490e15c-40ed-4f11-9186-be0b22f2f562">
+<notes>
+<note appliesTo="source">line: 452</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Refactored the math provider and writer layers to improve package structure and maintainability.</source>
+</segment>
+</unit>
+<unit id="82bebda1-a5c7-426e-a650-a29e410b4d89">
+<notes>
+<note appliesTo="source">line: 453</note>
+<note appliesTo="source">prefix: * </note>
+</notes>
+<segment>
+<source>Simplified bundled dependencies by removing unused web/template shims and cleaning up import paths.</source>
+</segment>
+</unit>
+<unit id="c84955f9-d6bf-467f-8fd5-5e9b0dcc4d39">
+<notes>
+<note appliesTo="source">line: 455</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -3656,7 +3499,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="93097962-c1c7-4e78-9fc4-158b2e1a5051">
 <notes>
-<note appliesTo="source">line: 451</note>
+<note appliesTo="source">line: 457</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -3665,7 +3508,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="b48288ca-94b5-4852-b4f0-51b735354c36">
 <notes>
-<note appliesTo="source">line: 452</note>
+<note appliesTo="source">line: 458</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -3674,7 +3517,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="c9a90b64-baaa-45c0-93f8-ca30773a43eb">
 <notes>
-<note appliesTo="source">line: 454</note>
+<note appliesTo="source">line: 460</note>
 <note appliesTo="source">prefix: ## </note>
 </notes>
 <segment>
@@ -3683,7 +3526,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="d1d22cc8-8809-4518-a383-a403c43d3279">
 <notes>
-<note appliesTo="source">line: 456</note>
+<note appliesTo="source">line: 462</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -3692,7 +3535,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="80c58b40-45a9-4410-ab23-1f0169e7aa5c">
 <notes>
-<note appliesTo="source">line: 457</note>
+<note appliesTo="source">line: 463</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -3701,7 +3544,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="efb395d9-865d-473a-b57d-cb3316402542">
 <notes>
-<note appliesTo="source">line: 458</note>
+<note appliesTo="source">line: 464</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -3710,7 +3553,7 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="4b427021-5ef1-4720-a8bc-5d1416bbab52">
 <notes>
-<note appliesTo="source">line: 459</note>
+<note appliesTo="source">line: 465</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
@@ -3719,1441 +3562,19 @@ $(ID:c3d612bb-b0ec-4892-9239-4bab5cc12cd2)
 </unit>
 <unit id="3f68f775-5203-4d7c-b295-07683ef30375">
 <notes>
-<note appliesTo="source">line: 460</note>
+<note appliesTo="source">line: 466</note>
 <note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
 <source>Rewrite readme.</source>
 </segment>
 </unit>
-<unit id="1a5cb26c-4daa-410c-8ae8-0485ee77dc15">
-<notes>
-<note appliesTo="source">line: 462</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v4.0 Update</source>
-</segment>
-</unit>
-<unit id="2565f8c7-565e-4666-a6d7-9218979c4de3">
-<notes>
-<note appliesTo="source">line: 464</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Compatibility with NVDA 2024.1</source>
-</segment>
-</unit>
-<unit id="e02577c5-9300-4ba9-a01c-a020da090506">
-<notes>
-<note appliesTo="source">line: 465</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Removed legacy code</source>
-</segment>
-</unit>
-<unit id="7bcd1e5f-2746-4cdd-9bd2-3b954ade12d0">
-<notes>
-<note appliesTo="source">line: 467</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.8 Update</source>
-</segment>
-</unit>
-<unit id="6ab37130-8daa-4c85-b8c4-c3a4b00c27d4">
+<unit id="a6cc3293-930b-42bc-a931-bad12b618a17">
 <notes>
 <note appliesTo="source">line: 469</note>
-<note appliesTo="source">prefix: * </note>
 </notes>
 <segment>
-<source>Added table navigation support (ctrl+alt+arrow keys) for Mtable in interactive mode.</source>
-</segment>
-</unit>
-<unit id="067c4ca5-7550-42fd-859e-30ab0c4fb23a">
-<notes>
-<note appliesTo="source">line: 470</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Added new categories to the LaTeX menu, including Geometry, Combinatorics, Trigonometric Functions, and Calculus.</source>
-</segment>
-</unit>
-<unit id="c0327d87-ad94-41e0-b323-99a9f681fdc5">
-<notes>
-<note appliesTo="source">line: 471</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Added new items to the LaTeX menu.</source>
-</segment>
-</unit>
-<unit id="a905cce4-7ba5-4137-b085-9dc1912a967d">
-<notes>
-<note appliesTo="source">line: 472</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Included the rounding symbol.</source>
-</segment>
-</unit>
-<unit id="01c2c700-a1bb-435d-b7a6-9332a3a556c1">
-<notes>
-<note appliesTo="source">line: 473</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed conversion errors of .1 and &gt; symbols when converting Nemeth to LaTeX.</source>
-</segment>
-</unit>
-<unit id="dc448b97-8410-407e-bc7e-5016f5b3ff6d">
-<notes>
-<note appliesTo="source">line: 474</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed the path error for restoring default files in the math rules dialog.</source>
-</segment>
-</unit>
-<unit id="4ac4afbb-3639-4faa-a53b-be38db15fe2f">
-<notes>
-<note appliesTo="source">line: 476</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.7 Update</source>
-</segment>
-</unit>
-<unit id="e8a6b2fe-253d-443e-858a-36d7ead135bb">
-<notes>
-<note appliesTo="source">line: 478</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>new feature: Auto-Complete feature in write feature.</source>
-</segment>
-</unit>
-<unit id="59943f4c-9632-4606-b3fa-0f7f43651d32">
-<notes>
-<note appliesTo="source">line: 479</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Added "mixed number" rule to the Nemeth to LaTeX translator.</source>
-</segment>
-</unit>
-<unit id="c011c5af-59db-47a7-8c42-6376045a5fbc">
-<notes>
-<note appliesTo="source">line: 480</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In Access8Math editor, Added close button on the upper right corner to close the Access8Math editor.</source>
-</segment>
-</unit>
-<unit id="99c0eebc-8955-4658-a968-19076108623b">
-<notes>
-<note appliesTo="source">line: 481</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed SimultaneousEquationsType rule(read feature).</source>
-</segment>
-</unit>
-<unit id="8aadae68-f962-446b-94d3-96de98e61544">
-<notes>
-<note appliesTo="source">line: 482</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed "|" symbol don`t convert to text according in Unicode dictionary(read feature).</source>
-</segment>
-</unit>
-<unit id="18b19feb-cb4e-4c2c-9f17-8c4c2d13bbb8">
-<notes>
-<note appliesTo="source">line: 483</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix issues with Converting ∫ Nemeth Braille to LaTeX.</source>
-</segment>
-</unit>
-<unit id="29b09e52-d27d-4f2b-a5d1-41fb99c3c285">
-<notes>
-<note appliesTo="source">line: 485</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.6 Update</source>
-</segment>
-</unit>
-<unit id="a851e8a8-d688-4f88-8e2e-e5acf8c3de4f">
-<notes>
-<note appliesTo="source">line: 487</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>new feature: Nemeth Braille Input, with the same functionality as LaTeX input. Allows for real-time interactive navigation (Alt+I) during editing and supports outputting HTML+MathML documents.</source>
-</segment>
-</unit>
-<unit id="9e9c9a66-8c29-4c63-9014-55448a4663e9">
-<notes>
-<note appliesTo="source">line: 488</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>new feature: Added Nemeth delimiter UEB/at(@@) for distinguish Nemeth content.</source>
-</segment>
-</unit>
-<unit id="c05160de-3398-448b-bbfb-14ee4d2349b6">
-<notes>
-<note appliesTo="source">line: 489</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>new feature: You can convert and copy LaTeX from Math object in interactive navigation mode.</source>
-</segment>
-</unit>
-<unit id="138d167b-bd13-46a2-8a59-2a0c56bd16a9">
-<notes>
-<note appliesTo="source">line: 490</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Added the NVDA+Shift+F10 shortcut to open  virtual context menu in the file explorer.</source>
-</segment>
-</unit>
-<unit id="d945c1a2-5f27-4229-a037-3044998926d6">
-<notes>
-<note appliesTo="source">line: 491</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed and optimized localized UI issues and cleaned localized file format.</source>
-</segment>
-</unit>
-<unit id="c0fd7a8d-a3fc-4d81-92a4-2f941f86bae0">
-<notes>
-<note appliesTo="source">line: 493</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.5 Update</source>
-</segment>
-</unit>
-<unit id="30dabc4b-1cbe-41f3-896d-2e427fc32fba">
-<notes>
-<note appliesTo="source">line: 495</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Vectors and rays can be distinguished correctly</source>
-</segment>
-</unit>
-<unit id="6707ea7e-1619-455e-9cd8-9d3eb79141a6">
-<notes>
-<note appliesTo="source">line: 496</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Utilizing dialogue to display image, video, or audio resources in an Access8Math HTML document</source>
-</segment>
-</unit>
-<unit id="f40652af-6567-40cd-8851-ac107afb9862">
-<notes>
-<note appliesTo="source">line: 497</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Using a new window to open link resources in an Access8Math HTML document</source>
-</segment>
-</unit>
-<unit id="af7fade7-720d-44c7-a58d-0ecd50f15a67">
-<notes>
-<note appliesTo="source">line: 498</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>The MathML namespace is exported when copying MathML from the Math object in interactive navigation mode</source>
-</segment>
-</unit>
-<unit id="0be2e25c-0a67-40eb-abfe-ee5f4db7e300">
-<notes>
-<note appliesTo="source">line: 499</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Display font adjustment, find and replace feature in Access8Math editor</source>
-</segment>
-</unit>
-<unit id="9ea0baf6-c237-425a-886d-030a299ee1ca">
-<notes>
-<note appliesTo="source">line: 500</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Compatibility with NVDA 2023.1</source>
-</segment>
-</unit>
-<unit id="af921c8c-8084-4899-9d36-5478d165e152">
-<notes>
-<note appliesTo="source">line: 502</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.4 Update</source>
-</segment>
-</unit>
-<unit id="93015124-c3c3-4342-87cf-c6f33e2e6779">
-<notes>
-<note appliesTo="source">line: 504</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Speech, Braille, and interactive source move to Preferences -&gt; Settings -&gt; Math Reader category.</source>
-</segment>
-</unit>
-<unit id="3656f938-0fb3-4db3-93d4-0f7a0a1eae24">
-<notes>
-<note appliesTo="source">line: 505</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Integrated MathCAT, you can choose what speech, braille, and interactive source(Access8Math/Math Player/MathCAT) you need in Math Reader settings panel when having already installed Math Player/MathCat.</source>
-</segment>
-</unit>
-<unit id="4a618eb8-373c-42e5-9456-5d5b94361718">
-<notes>
-<note appliesTo="source">line: 506</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Used MultiCategorySettingsDialog to collect settings dialog.</source>
-</segment>
-</unit>
-<unit id="f12457b6-a78c-44ea-a893-9f9c6717c47a">
-<notes>
-<note appliesTo="source">line: 507</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Press NVDA+alt+e open text file with the built-in editor in File Explore.</source>
-</segment>
-</unit>
-<unit id="361d278e-e156-4751-9bbe-4c5a260836ba">
-<notes>
-<note appliesTo="source">line: 508</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In virtual menus, submenu can open by enter</source>
-</segment>
-</unit>
-<unit id="6191d660-518b-4093-b31b-ec5832ac7752">
-<notes>
-<note appliesTo="source">line: 509</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Implenment MathML menclose tag rule</source>
-</segment>
-</unit>
-<unit id="58446ab9-799c-4bc8-99d4-10b480e1b905">
-<notes>
-<note appliesTo="source">line: 510</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>new feature: virtual context menu in File Explorer. It can quickly open Access8Math Document to view or edit it(Please read "Access8Math editor and Access8Math Document" section to know detail information)</source>
-</segment>
-</unit>
-<unit id="b3ef5070-8002-430d-8761-d004fa8b0d23">
-<notes>
-<note appliesTo="source">line: 512</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.3 Update</source>
-</segment>
-</unit>
-<unit id="210e3f15-5b4c-4f11-b991-4e462ed3814c">
-<notes>
-<note appliesTo="source">line: 514</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Add built-in editor using traditional editing area because of windows 11 changed to UIA editing area</source>
-</segment>
-</unit>
-<unit id="b0ae6d59-05e6-4d00-b725-c3a70ff8f597">
-<notes>
-<note appliesTo="source">line: 515</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>built-in editor new/open/save feature</source>
-</segment>
-</unit>
-<unit id="5d488bb0-60ec-45d7-b964-f5046799ca3b">
-<notes>
-<note appliesTo="source">line: 516</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Access8Math language initial setting is based on NVDA language setting</source>
-</segment>
-</unit>
-<unit id="350a466a-ddb2-446b-af38-83c4827d953a">
-<notes>
-<note appliesTo="source">line: 517</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Improved speech and braille display in virtual menus</source>
-</segment>
-</unit>
-<unit id="18012693-718a-4975-b47c-a0bfe2f3df6c">
-<notes>
-<note appliesTo="source">line: 518</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Compatibility with NVDA 2022.1</source>
-</segment>
-</unit>
-<unit id="f36f1203-93a0-4ad2-8ddd-3eacfdbc8566">
-<notes>
-<note appliesTo="source">line: 519</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed marked menu cannot open when document is empty</source>
-</segment>
-</unit>
-<unit id="ee91582b-b985-4f46-8558-e48fb60fb9a4">
-<notes>
-<note appliesTo="source">line: 520</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed translate LaTeX/AsciiMath feature</source>
-</segment>
-</unit>
-<unit id="bb980f68-ed69-4983-876e-8fb0d1d50d57">
-<notes>
-<note appliesTo="source">line: 521</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed HTML document rendering problem when HTML document display setting choice text option</source>
-</segment>
-</unit>
-<unit id="8602b21e-e99e-4a7d-bf83-bb7cfd2ae863">
-<notes>
-<note appliesTo="source">line: 523</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.2 Update</source>
-</segment>
-</unit>
-<unit id="2b11ec01-ea43-428e-aa77-53bd6c22187e">
-<notes>
-<note appliesTo="source">line: 525</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature "`" to separate data blocks, the blocks enclosed by "`" are AsciiMath data</source>
-</segment>
-</unit>
-<unit id="5e01788e-5d63-47fd-a553-193635fda797">
-<notes>
-<note appliesTo="source">line: 526</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature editing-shortcut for browse navigation mode cut (ctrl+x), copy (ctrl+c), paste (ctrl+v), delete (delete/back space)</source>
-</segment>
-</unit>
-<unit id="19c11ddd-70c4-4bf6-9e78-9b4a9f88bfdd">
-<notes>
-<note appliesTo="source">line: 527</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature moving-shortcut for browse navigation mode move between interactive data blocks (tab), move between AsciiMath data blocks (a)</source>
-</segment>
-</unit>
-<unit id="b859310f-ee54-4875-b2e5-abf6e95bf344">
-<notes>
-<note appliesTo="source">line: 528</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Change move cursor way in browse navigation mode - move cursor way with up, down, left and right arrow keys and read out the contents of the data block after the movement.</source>
-</segment>
-</unit>
-<unit id="b1858d67-1da3-49eb-a7bb-0b067791a0f7">
-<notes>
-<note appliesTo="source">line: 529</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>When the cursor moves in the browse navigation mode, the math data block will read the serialized textual content of math instead of the source code</source>
-</segment>
-</unit>
-<unit id="324cd49a-affa-4b9a-bfa8-ad463d0274b8">
-<notes>
-<note appliesTo="source">line: 530</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>When the cursor is in the math data block in the browse navigation mode, press the space or enter key to interact with the math data block.</source>
-</segment>
-</unit>
-<unit id="db5cb718-fde5-4c1c-9697-4db3aa345aae">
-<notes>
-<note appliesTo="source">line: 531</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature English letters as shortcut keys that can be setted</source>
-</segment>
-</unit>
-<unit id="78868359-0677-41f7-bd7a-94647c3df6ba">
-<notes>
-<note appliesTo="source">line: 532</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature greek alphabet shortcut gesture</source>
-</segment>
-</unit>
-<unit id="19a04d18-095d-4cc0-8d38-a34c07c1bd73">
-<notes>
-<note appliesTo="source">line: 533</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Shortcut key input is only apply in the LaTeX area</source>
-</segment>
-</unit>
-<unit id="69bf5e0c-e712-4483-9611-3855da2f7429">
-<notes>
-<note appliesTo="source">line: 534</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>set using audio or speech indicate to switching of browse navigation mode</source>
-</segment>
-</unit>
-<unit id="15689183-6b09-4266-9d04-cb1b4bdbd1ae">
-<notes>
-<note appliesTo="source">line: 535</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>The LaTeX command menu can be opened in the text area and insert LaTeX separators when LaTeX command inserting</source>
-</segment>
-</unit>
-<unit id="3f072f96-fc14-4208-9a8c-9bc787fdb629">
-<notes>
-<note appliesTo="source">line: 536</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature translation menu, which can convert the LaTeX/AsciiMath data format of the block where the cursor is located. It belongs to the command gesture group. When the cursor is in the LaTeX/AsciiMath block, press alt+t to open the translation menu (in the browse navigation mode, ctrl+t)</source>
-</segment>
-</unit>
-<unit id="dc39ce67-33bf-4dcd-9943-8ec43f5a4962">
-<notes>
-<note appliesTo="source">line: 537</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature batch menu, which can convert the entire document LaTeX/AsciiMath data format to each other, and can convert the LaTeX separator between brackets and dollar. It belongs to the command gesture group. Press alt+b to open the batch menu</source>
-</segment>
-</unit>
-<unit id="fe658334-011b-4816-b158-112cd2b14153">
-<notes>
-<note appliesTo="source">line: 538</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Added MathML block type, support alt+i, single letter navigation "m", tab movement in browse navigation mode</source>
-</segment>
-</unit>
-<unit id="cf96689f-0d73-457a-8308-364cef04544a">
-<notes>
-<note appliesTo="source">line: 539</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New feature braille custom-defined math rules and unicode dictionary, which are the same as speech</source>
-</segment>
-</unit>
-<unit id="031f62e0-5015-4345-85ee-7b85002b4b1c">
-<notes>
-<note appliesTo="source">line: 540</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>The exported HTML can show with markdown</source>
-</segment>
-</unit>
-<unit id="22db5b06-f9e1-4128-b249-06742e314182">
-<notes>
-<note appliesTo="source">line: 541</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>The exported HTML is added page title and file name by notepad window title.</source>
-</segment>
-</unit>
-<unit id="32786b3b-8b23-4c74-a5c1-099bdc89aca8">
-<notes>
-<note appliesTo="source">line: 543</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.1 Update</source>
-</segment>
-</unit>
-<unit id="d457ca87-02cb-456c-8fd4-ea0e892a81f1">
-<notes>
-<note appliesTo="source">line: 545</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>HTML windows are now presented as virtual menu</source>
-</segment>
-</unit>
-<unit id="64eba391-2aaa-4408-89a2-7f906ea0929c">
-<notes>
-<note appliesTo="source">line: 546</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixed an issue where the HTML view cannot be converted when text include "`" character</source>
-</segment>
-</unit>
-<unit id="363d1c57-de99-4162-8097-bdb1a7e840bc">
-<notes>
-<note appliesTo="source">line: 547</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>When the number of words in the document is greater than 4096, the content will not be converted to HTML view</source>
-</segment>
-</unit>
-<unit id="8c0caef6-0148-48fc-b4e6-ce966252e1bc">
-<notes>
-<note appliesTo="source">line: 548</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Added mathematical set LaTeX commands</source>
-</segment>
-</unit>
-<unit id="24e79a67-41ed-4858-8454-0a7a3bd24bbb">
-<notes>
-<note appliesTo="source">line: 549</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Update alt+m to insert "\(", "\)" LaTeX marks before and after the currently selected text (when there is no selected text, it is the current cursor position)</source>
-</segment>
-</unit>
-<unit id="b081ff58-a9cc-42c9-9ab2-1532c4cabbc8">
-<notes>
-<note appliesTo="source">line: 550</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In the General settings, you can choose whether the math content in the exported HTML is presented on a separate line(block/inline)</source>
-</segment>
-</unit>
-<unit id="9a9f0f04-ab96-46ba-8175-e3bd841a65b8">
-<notes>
-<note appliesTo="source">line: 551</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>When exporting HTML, save the original text file in the compressed file</source>
-</segment>
-</unit>
-<unit id="73aa6010-f7bf-4554-9a7e-0b1a2d44151d">
-<notes>
-<note appliesTo="source">line: 552</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In the general settings, you can choose to use bracket or money symbol as the LaTeX delimiter</source>
-</segment>
-</unit>
-<unit id="8c7048a1-e962-4012-8aaa-e75b72e9c6b3">
-<notes>
-<note appliesTo="source">line: 553</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In the general settings, you can choose the source of speech, braille, and interaction(Access8Math or Math Player)</source>
-</segment>
-</unit>
-<unit id="c669a1cb-47ad-473c-8ee3-823a93f05cc0">
-<notes>
-<note appliesTo="source">line: 554</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Activate/deactivate write/block navigate/shortcut gesture by gesture</source>
-</segment>
-</unit>
-<unit id="019ec24b-dd5d-4e07-b218-15bd07efd9e1">
-<notes>
-<note appliesTo="source">line: 555</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>switch the source of speech/braille/interact source by gesture(Access8Math or Math Player)</source>
-</segment>
-</unit>
-<unit id="56dfc735-37cd-4697-bc4c-91324f831e74">
-<notes>
-<note appliesTo="source">line: 557</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v3.0 Update</source>
-</segment>
-</unit>
-<unit id="674a548a-e44d-4570-b603-3c3f07bad636">
-<notes>
-<note appliesTo="source">line: 559</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Write mathematical content in AsciiMath</source>
-</segment>
-</unit>
-<unit id="0ac7fcd7-ed4c-4bce-b736-2e8357d1ce51">
-<notes>
-<note appliesTo="source">line: 560</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Write mathematical content in LaTeX</source>
-</segment>
-</unit>
-<unit id="2d5305df-123f-4c82-b068-4838c44ca426">
-<notes>
-<note appliesTo="source">line: 561</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Writing mixed content (text content and mathematical content)</source>
-</segment>
-</unit>
-<unit id="aadf6b43-fcab-43ff-a51b-acec418a0b82">
-<notes>
-<note appliesTo="source">line: 562</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Use shortcut keys to move the cursor to different types of blocks in edit field</source>
-</segment>
-</unit>
-<unit id="5563bdc6-9177-47cb-a0fb-ebe7cf993bf2">
-<notes>
-<note appliesTo="source">line: 563</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Use command menu to select commands in edit field</source>
-</segment>
-</unit>
-<unit id="9bb84767-13bb-4bcb-9328-e06bb5c58948">
-<notes>
-<note appliesTo="source">line: 564</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Set shortcuts in the LaTeX command menu</source>
-</segment>
-</unit>
-<unit id="134725a3-f6d8-45f7-a5b0-b6ce369d76c8">
-<notes>
-<note appliesTo="source">line: 565</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Review and export content in edit field to HTML</source>
-</segment>
-</unit>
-<unit id="a332fd8b-0252-4332-92fe-09c17e2fe7c8">
-<notes>
-<note appliesTo="source">line: 567</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v2.6 Update</source>
-</segment>
-</unit>
-<unit id="e824d1ff-63cb-4df0-bf10-a4d8bc5d0dea">
-<notes>
-<note appliesTo="source">line: 569</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Auto entering interactive mode when showing Access8Math interaction window.</source>
-</segment>
-</unit>
-<unit id="44c961a5-2ac2-40bf-8af2-9cf21e1d5752">
-<notes>
-<note appliesTo="source">line: 570</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>You can choose how to hint no movement in interactive mode: beep or speech 'no move' two way.</source>
-</segment>
-</unit>
-<unit id="62feff87-0196-42ce-80bc-eefa26143cc1">
-<notes>
-<note appliesTo="source">line: 571</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>The content of the current item will be repeated again When there is no movement.</source>
-</segment>
-</unit>
-<unit id="6e921817-99ef-4916-93a8-dc5d1ab17933">
-<notes>
-<note appliesTo="source">line: 573</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v2.5 Update</source>
-</segment>
-</unit>
-<unit id="14a3a8a3-caea-4800-afa3-0b118dd96c31">
-<notes>
-<note appliesTo="source">line: 575</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Adding Russian translation of rules and UI. Thanks to the translation work of Futyn-Maker.</source>
-</segment>
-</unit>
-<unit id="97a4d8fa-f293-4a73-b97b-9daf9eff8059">
-<notes>
-<note appliesTo="source">line: 576</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fixing compound symbol translation failed bug.</source>
-</segment>
-</unit>
-<unit id="ab79a8f3-e93a-4380-bc0f-a02d29dec254">
-<notes>
-<note appliesTo="source">line: 577</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Removing duplicates of lowercase letters and added general uppercases in en unicode.dic(0370~03FF).</source>
-</segment>
-</unit>
-<unit id="c7742868-63a2-458a-bc42-e1e5b67ecdba">
-<notes>
-<note appliesTo="source">line: 579</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v2.3 Update</source>
-</segment>
-</unit>
-<unit id="b8e61e82-4c96-4e36-82a0-cf5384533ff5">
-<notes>
-<note appliesTo="source">line: 581</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix bug.</source>
-</segment>
-</unit>
-<unit id="eeeb96f3-7ea1-4d45-bf7a-6fc28e69b138">
-<notes>
-<note appliesTo="source">line: 583</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v2.3 Update</source>
-</segment>
-</unit>
-<unit id="0c21e8db-b662-466b-9aeb-943006b10ef8">
-<notes>
-<note appliesTo="source">line: 585</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Compatibility with Python3</source>
-</segment>
-</unit>
-<unit id="b97ab71b-5a9c-4b11-b259-c84934c7b6c3">
-<notes>
-<note appliesTo="source">line: 586</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>refactoring module and fix code style</source>
-</segment>
-</unit>
-<unit id="e6449664-4fd5-49c8-962a-794eb3db4ad5">
-<notes>
-<note appliesTo="source">line: 587</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Adding one symbol vector rule</source>
-</segment>
-</unit>
-<unit id="eb75ff0a-1b8c-40a4-9823-b51ba816c2c4">
-<notes>
-<note appliesTo="source">line: 589</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v2.2 Update</source>
-</segment>
-</unit>
-<unit id="c3d612bb-b0ec-4892-9239-4bab5cc12cd2">
-<notes>
-<note appliesTo="source">line: 591</note>
-</notes>
-<segment>
-<source>*fix bug incorrect speech when a single node has more characters.</source>
-</segment>
-</unit>
-<unit id="9d27a1cc-d2a9-435e-9fd8-ab792d41dc66">
-<notes>
-<note appliesTo="source">line: 592</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix compatibility issue in NVDA 2019.2, thanks to pull requests of CyrilleB79.</source>
-</segment>
-</unit>
-<unit id="c3b8675b-c9ae-44af-8e31-e7de52aa4a53">
-<notes>
-<note appliesTo="source">line: 593</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix bug in unicode dict has duplicate symbols.</source>
-</segment>
-</unit>
-<unit id="8a64158b-dd59-4d65-8dee-51f4ae639232">
-<notes>
-<note appliesTo="source">line: 594</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Add translations in French, thanks to the translation work of CyrilleB79.</source>
-</segment>
-</unit>
-<unit id="8136bcd9-3ca1-4d04-850f-15d0163204a4">
-<notes>
-<note appliesTo="source">line: 595</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Adjust keyboard shortcut.</source>
-</segment>
-</unit>
-<unit id="34f9d273-9e77-4ee3-b6cb-7c11faf72897">
-<notes>
-<note appliesTo="source">line: 597</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v2.1 Update</source>
-</segment>
-</unit>
-<unit id="b839c944-2be3-4ade-991e-5e65b7cac95f">
-<notes>
-<note appliesTo="source">line: 599</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In "General Settings", you can set whether "Access8Math interaction window" is automatically displayed when entering interactive mode.</source>
-</segment>
-</unit>
-<unit id="775ae1e9-73a1-4865-a120-1102c0a493fc">
-<notes>
-<note appliesTo="source">line: 600</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In interactive mode, "interaction window" can be displayed manually via ctrl+m when "interaction window" are not showed.</source>
-</segment>
-</unit>
-<unit id="792946b5-9716-44d9-813c-4aa7829a7273">
-<notes>
-<note appliesTo="source">line: 601</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix multi-language switching bug.</source>
-</segment>
-</unit>
-<unit id="37ec61bf-581d-4f11-95bf-28560936453b">
-<notes>
-<note appliesTo="source">line: 602</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Add translations in Turkish, thanks to the translation work of cagri (çağrı doğan).</source>
-</segment>
-</unit>
-<unit id="63122ed0-85fa-4765-9df0-23b639de6051">
-<notes>
-<note appliesTo="source">line: 603</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Compatibility update for nvda 2019.1 check for add-on`s manifest.ini flag.</source>
-</segment>
-</unit>
-<unit id="dbcb96e0-b9d0-4ff5-8a49-1cb001b6b9cf">
-<notes>
-<note appliesTo="source">line: 604</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Refactoring dialog window source code.</source>
-</segment>
-</unit>
-<unit id="81dbdc05-d9f8-40d4-9c52-5d985bddabeb">
-<notes>
-<note appliesTo="source">line: 606</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v2.0 Update</source>
-</segment>
-</unit>
-<unit id="4d0d8b38-087f-41a9-b27a-edaabbf7ff55">
-<notes>
-<note appliesTo="source">line: 608</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Add multi-language new-adding and customizing settings,and add three windows of "unicode dictionary", "math rule", "New language adding"</source>
-</segment>
-</unit>
-<unit id="1b3a02e5-4161-494b-8181-1a546cde08da">
-<notes>
-<note appliesTo="source">line: 609</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>The "unicode dictionary" can customize the reading way of each math symbolic text.</source>
-</segment>
-</unit>
-<unit id="5df533ac-3f8d-4090-91f5-ff04102cbbe4">
-<notes>
-<note appliesTo="source">line: 610</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>"math rule" can customize the reading method and preview the modification through the sample button before completed.</source>
-</segment>
-</unit>
-<unit id="0608a4c0-448d-4bd3-b27a-fe9b1588eb9a">
-<notes>
-<note appliesTo="source">line: 611</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>"New language adding" allows adding language not provided in the built-in system. The newly language will be added to the general settings, and multi-language customization can be achieved through reading definition of "unicode dictionary" and "mathematical rules".</source>
-</segment>
-</unit>
-<unit id="d413cfb7-3788-4b1e-8a8a-f9b665fa42f0">
-<notes>
-<note appliesTo="source">line: 612</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>improved in interactive mode, you can use the number keys 7~9 to read sequence text in the unit of line.</source>
-</segment>
-</unit>
-<unit id="05854bf2-88b7-4624-bfeb-b385e94ddc4a">
-<notes>
-<note appliesTo="source">line: 614</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v1.5 update log</source>
-</segment>
-</unit>
-<unit id="7c044206-ddcb-4d97-926c-3a6c644bcc37">
-<notes>
-<note appliesTo="source">line: 616</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In "general setting" dialog box add setting pause time between items. Values from 1 to 100, the smaller the value, the shorter the pause time, and the greater the value, the longer the pause time.</source>
-</segment>
-</unit>
-<unit id="d6775cf4-a461-46f8-88e0-7babea182f2c">
-<notes>
-<note appliesTo="source">line: 617</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix setting dialog box can't save configure in NVDA 2018.2.</source>
-</segment>
-</unit>
-<unit id="45912167-5c30-4d51-a5c6-6b754e9cdee1">
-<notes>
-<note appliesTo="source">line: 619</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v1.4 update log</source>
-</segment>
-</unit>
-<unit id="1356b762-1028-4d41-87a8-b1297bcf45b1">
-<notes>
-<note appliesTo="source">line: 621</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Adjust settings dialog box which divided into "general setting" and "rules setting" dialog box. "General Settings" is the original "Access8Math Settings" dialog box, and "Rule Settings" dialog box is for selecting whether specific rules are enabled.</source>
-</segment>
-</unit>
-<unit id="05ef02a9-fcd7-422f-82d7-df558042d087">
-<notes>
-<note appliesTo="source">line: 622</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New rules</source>
-</segment>
-</unit>
-<unit id="03b66876-c0b5-4778-9d59-939a63ef2287">
-<notes>
-<note appliesTo="source">line: 623</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>vector rule: When there is a "⇀" right above two Identifier, the item is read as "Vector...".</source>
-</segment>
-</unit>
-<unit id="b00e73f8-7a36-4420-9c0b-2560dcc3b696">
-<notes>
-<note appliesTo="source">line: 624</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>frown rule：When there is a " ⌢ " right above two Identifier, the item is read as "frown...".</source>
-</segment>
-</unit>
-<unit id="b89532c4-2eef-4476-a485-dc7c9cdd5349">
-<notes>
-<note appliesTo="source">line: 625</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix bug.</source>
-</segment>
-</unit>
-<unit id="79b800f9-7fcc-4cb3-94b1-f29f0e774e81">
-<notes>
-<note appliesTo="source">line: 627</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v1.3 update log</source>
-</segment>
-</unit>
-<unit id="f9ca7b8a-617e-4967-adfb-7fb0fbcba4c7">
-<notes>
-<note appliesTo="source">line: 629</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New rule</source>
-</segment>
-</unit>
-<unit id="bc1682fa-57c7-491c-8b80-bd44bf41723e">
-<notes>
-<note appliesTo="source">line: 630</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>positive rule: Read "positive" rather than "plus" when plus sign in first item or its previous item is certain operator.</source>
-</segment>
-</unit>
-<unit id="b49ddb1a-49a7-47e2-980f-e8391714c6d2">
-<notes>
-<note appliesTo="source">line: 631</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>square rule: When the power is 2, the item is read as "squared".</source>
-</segment>
-</unit>
-<unit id="fbb793c4-446c-4ddd-892b-c68cb8685e60">
-<notes>
-<note appliesTo="source">line: 632</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>cubic rule: When the power is 3, the item is read as "cubed".</source>
-</segment>
-</unit>
-<unit id="d6de6f7b-b724-4255-8a59-c5e4f8d95b1a">
-<notes>
-<note appliesTo="source">line: 633</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>line rule: When there is "↔" right above two Identifier, the item is read as "Line ...".</source>
-</segment>
-</unit>
-<unit id="3cc1cd21-3e9f-49a9-8872-b951ff91ccf6">
-<notes>
-<note appliesTo="source">line: 634</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>line segment rule: When there is "¯" right above two Identifier, the item is read as "Line segement ...".</source>
-</segment>
-</unit>
-<unit id="8665259e-9758-4640-bf39-91c82ecf7064">
-<notes>
-<note appliesTo="source">line: 635</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>ray rule: When there is a "→" right above two Identifier, the item is read as "Ray ..."</source>
-</segment>
-</unit>
-<unit id="1149a238-9081-4d3f-824b-d2c71175cc68">
-<notes>
-<note appliesTo="source">line: 636</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Add interaction window：　Pressing "Space" in math content to open "Access8Math interaction window" which contains "interaction" and "copy" button.</source>
-</segment>
-</unit>
-<unit id="152e31ab-c2a3-4a00-b7ed-3a4757cc5f09">
-<notes>
-<note appliesTo="source">line: 637</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>interaction: Into math content to navigate and browse.</source>
-</segment>
-</unit>
-<unit id="4f08c52a-e97e-40b6-889b-e4200c09ae5f">
-<notes>
-<note appliesTo="source">line: 638</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>copy: Copy MathML object source code.</source>
-</segment>
-</unit>
-<unit id="882f6535-9bc4-4e94-b7b2-1e33d3982014">
-<notes>
-<note appliesTo="source">line: 639</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Add zh_CN UI language(.po).</source>
-</segment>
-</unit>
-<unit id="096778a8-9a78-40c1-9111-c7d27ae2bd49">
-<notes>
-<note appliesTo="source">line: 640</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Adjust inheritance relationship between rules to ensure proper use of the appropriate rules in conflict.</source>
-</segment>
-</unit>
-<unit id="38a6b9e5-d9b1-4bde-af63-a1de75738034">
-<notes>
-<note appliesTo="source">line: 641</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix bug.</source>
-</segment>
-</unit>
-<unit id="3119eb21-1e7a-4afd-9f83-fabc1a3e1760">
-<notes>
-<note appliesTo="source">line: 643</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v1.2 update log</source>
-</segment>
-</unit>
-<unit id="9540c34c-3301-40da-9075-72a7d084d61e">
-<notes>
-<note appliesTo="source">line: 645</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>New rule</source>
-</segment>
-</unit>
-<unit id="fae631da-9aaa-469c-8205-c5c47fb6b25e">
-<notes>
-<note appliesTo="source">line: 646</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>negative number rule: Read 'negative' rather than 'minus sign' when minus sign in first item or its previous item is certain operator.</source>
-</segment>
-</unit>
-<unit id="65344181-4f2f-43a5-b52f-94734c50e030">
-<notes>
-<note appliesTo="source">line: 647</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>integer add fraction rule: Read 'add' between integer and fraction when fraction previous item is integer.</source>
-</segment>
-</unit>
-<unit id="3a9ed4d1-1226-4165-9f94-c6918c878cf0">
-<notes>
-<note appliesTo="source">line: 648</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Program architecture improve</source>
-</segment>
-</unit>
-<unit id="8922136a-2047-45c8-8e6e-189899be0980">
-<notes>
-<note appliesTo="source">line: 649</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>add sibling class</source>
-</segment>
-</unit>
-<unit id="f9c05f86-2312-4217-a1ff-0c88b6bdf2d6">
-<notes>
-<note appliesTo="source">line: 650</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>add dynamic generate Complement class</source>
-</segment>
-</unit>
-<unit id="9f4c1e1e-9681-4c18-a628-9a561bdec3db">
-<notes>
-<note appliesTo="source">line: 651</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix bug</source>
-</segment>
-</unit>
-<unit id="10481b56-4ba9-42b4-9d1d-87b4fcbf49ca">
-<notes>
-<note appliesTo="source">line: 653</note>
-<note appliesTo="source">prefix: ## </note>
-</notes>
-<segment>
-<source>Access8Math v1.1 update log</source>
-</segment>
-</unit>
-<unit id="4bb3bc83-4c00-46dd-bddb-110af66b3fd7">
-<notes>
-<note appliesTo="source">line: 655</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>In navigation mode command, "Ctrl+c" copy object MathML source code.</source>
-</segment>
-</unit>
-<unit id="8c52e169-b3a1-4c03-9e14-861f5cc4dc90">
-<notes>
-<note appliesTo="source">line: 656</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Settings dialog box in Preferences:</source>
-</segment>
-</unit>
-<unit id="c917a564-7007-462e-b58e-9a9570a1f5f9">
-<notes>
-<note appliesTo="source">line: 657</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>Language: Access8Math reading language on math content.</source>
-</segment>
-</unit>
-<unit id="991fdafe-c653-419b-b805-1b85514c3b23">
-<notes>
-<note appliesTo="source">line: 658</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>Analyze the mathematical meaning of content: Semantically analyze the math content, in line with specific rules, read in mathematical meaning of that rules.</source>
-</segment>
-</unit>
-<unit id="abff5cd5-c363-4ee0-bb97-daefa8c14b58">
-<notes>
-<note appliesTo="source">line: 659</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>Read defined meaning in dictionary: When the pattern is definied in the dictionary, use dictionary to read the meaning of subpart in the upper layer part.</source>
-</segment>
-</unit>
-<unit id="8ca2bd3f-4f3f-43db-af0a-42fc8557f82f">
-<notes>
-<note appliesTo="source">line: 660</note>
-<note appliesTo="source">prefix:  * </note>
-</notes>
-<segment>
-<source>Read of auto-generated meaning: When the pattern is not difined or incomplete in dictionary, use automatic generation function to read the meaning of subpart in the upper layer part.</source>
-</segment>
-</unit>
-<unit id="9c5bb921-8163-47c0-8d14-6869118fc158">
-<notes>
-<note appliesTo="source">line: 661</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Add some simple rule. Single rules are simplified versions of various rules. When the content only has one single item, for better understanding and reading without confusion, you can omit to choose not to read the script before and after the content.</source>
-</segment>
-</unit>
-<unit id="bf464d12-847f-4ce5-bc5a-4d999d455c2f">
-<notes>
-<note appliesTo="source">line: 662</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Update unicode.dic.</source>
-</segment>
-</unit>
-<unit id="a90e8c97-92c7-4d76-8d09-b0bff5957db9">
-<notes>
-<note appliesTo="source">line: 663</note>
-<note appliesTo="source">prefix: * </note>
-</notes>
-<segment>
-<source>Fix bug.</source>
+<source>For older release notes, see [changelog.md](changelog.md).</source>
 </segment>
 </unit>
 </file>
