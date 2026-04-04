@@ -42,7 +42,6 @@ jobs:
       - name: Install gettext
         run: |
           choco install -y gettext
-          Get-Command msgmerge
       - name: Get add-ons
         run: |
           try {
