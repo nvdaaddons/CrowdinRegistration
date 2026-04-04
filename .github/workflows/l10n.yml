@@ -50,7 +50,7 @@ jobs:
             if ($response -isnot [array]) {
               throw "Invalid response format from addon store"
             }
-            $response | jq 'map({(.addonId): (.sourceURL | split("/") | .[:5] | join("/"))}) | add' > addons.json
+            $response | ConvertTo-Json -Depth 100 -Compress | jq 'map({(.addonId): (.sourceURL | split("/") | .[:5] | join("/"))}) | add' > addons.json
             Get-Content addons.json
           } catch {
             Write-Error "Failed to fetch add-ons from store: $_"
