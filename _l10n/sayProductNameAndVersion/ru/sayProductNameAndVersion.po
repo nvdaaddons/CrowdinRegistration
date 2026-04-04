@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2026-03-23 04:09+0000\n"
+"PO-Revision-Date: 2026-04-02 20:24\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: sayProductNameAndVersion.pot\n"
+"X-Crowdin-File-ID: 352\n"
+
+#. Translators: Input help mode message for Say Product Name and Version command.
+#: addon/globalPlugins/sayProductNameAndVersion.py:29
+msgid "Speaks the name, version, and architecture of the application on which you are focused. Press twice to copy the information to the clipboard. Press three times to copy only the version number.Use on Desktop to get Windows version."
+msgstr ""
+
+#. Translators: The word version.
+#: addon/globalPlugins/sayProductNameAndVersion.py:45
+msgid "version"
+msgstr ""
+
+#. Translators: This is used when the name of the focused application cannot be found.
+#: addon/globalPlugins/sayProductNameAndVersion.py:57
+msgid "Application unknown"
+msgstr ""
+
+#. Used when describing Windows build numbers, which are used instead of a version.
+#. Translators: The word "build", as in the Windows build number.
+#: addon/globalPlugins/sayProductNameAndVersion.py:64
+msgid "build"
+msgstr ""
+
+#. Translators: This is used when the version of the focused application cannot be found.
+#: addon/globalPlugins/sayProductNameAndVersion.py:76
+msgid "not detected"
+msgstr ""
+
+#. Translators: This is the message announced when all information has been copied.
+#: addon/globalPlugins/sayProductNameAndVersion.py:103
+#, python-brace-format
+msgid "Copied {appName} {versionWord} {appVersionAndArch} to the clipboard."
+msgstr ""
+
+#. Translators: This is the message announced when all information hasn't been copied.
+#: addon/globalPlugins/sayProductNameAndVersion.py:108
+msgid "Failed to copy application information to the clipboard."
+msgstr ""
+
+#. Translators: The message reporting that only the application's version and architecture were copied.
+#: addon/globalPlugins/sayProductNameAndVersion.py:115
+#, python-brace-format
+msgid "Copied {appVersionAndArch} to the clipboard."
+msgstr ""
+
+#. Copy failure
+#. Translators: This is the message announced when all information hasn't been copied.
+#: addon/globalPlugins/sayProductNameAndVersion.py:118
+msgid "Cannot copy version information to the clipboard."
+msgstr "Не удаётся скопировать информацию о версии в буфер обмена."
+
+#. Add-on summary
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:21
+msgid "Say Application Name and Version"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:24
+msgid "Speak the name and version of the application you are currently focused on, by pressing NVDA+Shift+v.\n"
+"Pressing twice will copy this information to the clipboard, to paste in bug reports, etc.\n"
+"Pressing three times copies only the version.\n"
+"The key can be remapped.\n"
+"Read help to find tips for hearing NVDA and Windows versions.\n"
+"Please consider a small donation: https://www.paypal.me/LukeDavis734"
+msgstr ""
+
