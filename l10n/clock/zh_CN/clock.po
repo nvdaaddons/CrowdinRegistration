@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-03-06 19:52+0000\n"
-"PO-Revision-Date: 2026-03-30 00:45\n"
+"POT-Creation-Date: 2026-03-30 04:02+0000\n"
+"PO-Revision-Date: 2026-04-04 19:33\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -26,77 +26,6 @@ msgstr "您使用的日期和时间格式与此版本的时钟插件不兼容，
 #: addon/installTasks.py:36
 msgid "Time and date format corrections"
 msgstr "时间和日期格式修复"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:75
-#, python-brace-format
-msgid "It's {hours} o'clock and {minutes} minutes"
-msgstr "现在是 {hours}点 {minutes}分"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:77
-#, python-brace-format
-msgid "It's {hours} o'clock, {minutes} minutes and {seconds} seconds"
-msgstr "现在是 {hours}点, {minutes}分, {seconds}秒"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:81
-#, python-brace-format
-msgid "{hours} o'clock, {minutes} minutes"
-msgstr "{hours} 点, {minutes} 分"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:83
-#, python-brace-format
-msgid "{hours} o'clock, {minutes} minutes, {seconds} seconds"
-msgstr "{hours} 点, {minutes} 分, {seconds} 秒"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:87
-#, python-brace-format
-msgid "It's {minutes} past {hours}"
-msgstr "现在是 {hours}点 {minutes}分"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:89
-#, python-brace-format
-msgid "{hours} h {minutes} min"
-msgstr "{hours}点 {minutes}分"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:91
-#, python-brace-format
-msgid "{hours} h, {minutes} min, {seconds} sec"
-msgstr "{hours}点 {minutes}分 {seconds}秒"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:93
-#, python-brace-format
-msgid "It's {hours}:{minutes}"
-msgstr "现在是 {hours}:{minutes}"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:95
-#, python-brace-format
-msgid "It's {hours}:{minutes}:{seconds}"
-msgstr "现在是 {hours}:{minutes}:{seconds}"
-
-#. Translators: A way to display 24-hour formats in the time display formats list in the settings panel.
-#: addon/globalPlugins/clock/formats.py:112
-#, python-brace-format
-msgid "{fmt} (24-hour format)"
-msgstr "{fmt}（24 小时制）"
-
-#. Translators: A way to display 12-hour formats in the time display formats list in the settings panel.
-#: addon/globalPlugins/clock/formats.py:114
-#, python-brace-format
-msgid "{fmt} (12-hour format)"
-msgstr "{fmt}（12 小时制）"
-
-#. Translators: This is a choice in a list of sounds.
-#: addon/globalPlugins/clock/paths.py:33
-msgid "Custom"
-msgstr "自定义"
 
 #: addon/globalPlugins/clock/__init__.py:74
 #, python-brace-format
@@ -449,6 +378,77 @@ msgstr "将在 {tm} {unit} 后提醒您。"
 #: addon/globalPlugins/clock/clockSettingsGUI.py:458
 msgid "Confirmation"
 msgstr "确认"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:75
+#, python-brace-format
+msgid "It's {hours} o'clock and {minutes} minutes"
+msgstr "现在是 {hours}点 {minutes}分"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:77
+#, python-brace-format
+msgid "It's {hours} o'clock, {minutes} minutes and {seconds} seconds"
+msgstr "现在是 {hours}点, {minutes}分, {seconds}秒"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:81
+#, python-brace-format
+msgid "{hours} o'clock, {minutes} minutes"
+msgstr "{hours} 点, {minutes} 分"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:83
+#, python-brace-format
+msgid "{hours} o'clock, {minutes} minutes, {seconds} seconds"
+msgstr "{hours} 点, {minutes} 分, {seconds} 秒"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:87
+#, python-brace-format
+msgid "It's {minutes} past {hours}"
+msgstr "现在是 {hours}点 {minutes}分"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:89
+#, python-brace-format
+msgid "{hours} h {minutes} min"
+msgstr "{hours}点 {minutes}分"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:91
+#, python-brace-format
+msgid "{hours} h, {minutes} min, {seconds} sec"
+msgstr "{hours}点 {minutes}分 {seconds}秒"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:93
+#, python-brace-format
+msgid "It's {hours}:{minutes}"
+msgstr "现在是 {hours}:{minutes}"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:95
+#, python-brace-format
+msgid "It's {hours}:{minutes}:{seconds}"
+msgstr "现在是 {hours}:{minutes}:{seconds}"
+
+#. Translators: A way to display 24-hour formats in the time display formats list in the settings panel.
+#: addon/globalPlugins/clock/formats.py:112
+#, python-brace-format
+msgid "{fmt} (24-hour format)"
+msgstr "{fmt}（24 小时制）"
+
+#. Translators: A way to display 12-hour formats in the time display formats list in the settings panel.
+#: addon/globalPlugins/clock/formats.py:114
+#, python-brace-format
+msgid "{fmt} (12-hour format)"
+msgstr "{fmt}（12 小时制）"
+
+#. Translators: This is a choice in a list of sounds.
+#: addon/globalPlugins/clock/paths.py:33
+msgid "Custom"
+msgstr "自定义"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
