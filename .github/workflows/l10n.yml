@@ -42,8 +42,9 @@ jobs:
       - name: Install gettext
         run: |
           choco install -y gettext
-      - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v7
+      - name: Install scons
+        run: |
+          choco install -y scons
       - name: Get add-ons
         run: |
           try {
@@ -60,6 +61,7 @@ jobs:
           }
       
       - name: Clone and process each add-on
+        continue-on-error: true
         run: |
           $addons = jq -r 'to_entries | .[] | "\(.key)|\(.value)"' addons.json
           
@@ -110,38 +112,29 @@ jobs:
             # ============================================
             Push-Location $tempPath
             try {
-              # Install dependencies
-              Write-Host "`n  Installing dependencies with uv sync..."
-              uv sync
+              # Generate .pot file
+              Write-Host "`n  Generating translation template (.pot file)..."
+              scons pot
               if ($LASTEXITCODE -ne 0) {
-                Write-Warning "  uv sync failed for $addonId"
+                Write-Warning "  scons pot failed for $addonId"
               } else {
-                Write-Host "  ✓ Dependencies installed"
+                Write-Host "  ✓ .pot file generated"
                 
-                # Generate .pot file
-                Write-Host "`n  Generating translation template (.pot file)..."
-                uv run scons pot
-                if ($LASTEXITCODE -ne 0) {
-                  Write-Warning "  scons pot failed for $addonId"
-                } else {
-                  Write-Host "  ✓ .pot file generated"
-                  
-                  # Upload .pot file to Crowdin
-                  $potFile = "$addonId.pot"
-                  if (Test-Path $potFile) {
-                    Write-Host "  Uploading $potFile to Crowdin..."
-                    & ..\..\l10nUtil.exe uploadSourceFile $potFile -c addon
-                    if ($LASTEXITCODE -eq 0) {
-                      Write-Host "  ✓ $potFile uploaded successfully"
-                      $potFilesUploaded++
-                      # Delay to avoid Crowdin API rate limits
-                      Start-Sleep -Seconds 3
-                    } else {
-                      Write-Warning "  Failed to upload $potFile"
-                    }
+                # Upload .pot file to Crowdin
+                $potFile = "$addonId.pot"
+                if (Test-Path $potFile) {
+                  Write-Host "  Uploading $potFile to Crowdin..."
+                  & ..\..\l10nUtil.exe uploadSourceFile $potFile -c addon
+                  if ($LASTEXITCODE -eq 0) {
+                    Write-Host "  ✓ $potFile uploaded successfully"
+                    $potFilesUploaded++
+                    # Delay to avoid Crowdin API rate limits
+                    Start-Sleep -Seconds 3
                   } else {
-                    Write-Warning "  $potFile not found after scons pot"
+                    Write-Warning "  Failed to upload $potFile"
                   }
+                } else {
+                  Write-Warning "  $potFile not found after scons pot"
                 }
               }
               
