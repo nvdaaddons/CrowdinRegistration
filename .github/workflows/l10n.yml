@@ -42,6 +42,8 @@ jobs:
       - name: Install gettext
         run: |
           choco install -y gettext
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v7
       - name: Get add-ons
         run: |
           try {
