@@ -1,4 +1,4 @@
-name: Export translations from Crowdin
+name: Export translations from Crowdin, and upload source files
 on:
   schedule:
     - cron: '0 1 * * 1'  # Every Monday at 1:00 AM UTC (minute hour day month weekday)
@@ -11,6 +11,9 @@ jobs:
     runs-on: windows-latest
     permissions:
       contents: write
+    defaults:
+      run:
+        shell: pwsh
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -28,5 +31,137 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add _l10n
-          git commit -m "Update translations from Crowdin" || echo "No changes to commit"
-          git push
+          git commit -m "Update translations from Crowdin" 2>&1 | Out-Null
+          if ($LASTEXITCODE -ne 0) {
+            Write-Host "No changes to commit"
+          } else {
+            Write-Host "Pushing changes to repository..."
+            git push
+          }
+      - name: Install gettext
+        run: |
+          choco install -y gettext
+          Get-Command msgmerge
+      - name: Get add-ons
+        run: |
+          try {
+            $response = Invoke-RestMethod -Uri 'https://addonStore.nvaccess.org/en/all/latest.json' -ErrorAction Stop
+            # Security: Validate response is an array before processing
+            if ($response -isnot [array]) {
+              throw "Invalid response format from addon store"
+            }
+            $response | jq 'map({(.addonId): (.sourceURL | split("/") | .[:5] | join("/"))}) | add' > addons.json
+            Get-Content addons.json
+          } catch {
+            Write-Error "Failed to fetch add-ons from store: $_"
+            exit 1
+          }
+      
+      - name: Clone and process each add-on
+        run: |
+          $addons = jq -r 'to_entries | .[] | "\(.key)|\(.value)"' addons.json
+          
+          foreach ($line in $addons) {
+            $addonId, $repoUrl = $line -split '\|', 2
+            
+            # ============================================
+            # Validate add-on ID and repository URL
+            # ============================================
+            if ($addonId -notmatch '^[a-zA-Z0-9_-]+$') {
+              Write-Warning "Skipping invalid addon ID: $addonId"
+              continue
+            }
+            
+            if ($repoUrl -notmatch '^https://github\.com/[a-zA-Z0-9_-]+/[a-zA-Z0-9._-]+$') {
+              Write-Warning "Skipping invalid repository URL: $repoUrl"
+              continue
+            }
+            
+            Write-Host "`n=========================================="
+            Write-Host "Processing: $addonId"
+            Write-Host "Repository: $repoUrl"
+            Write-Host "==========================================`n"
+            
+            # ============================================
+            # Clone repository
+            # ============================================
+            $tempPath = "tempAddon\$addonId"
+            if (Test-Path $tempPath) {
+              Write-Host "  Removing existing clone..."
+              Remove-Item -Recurse -Force $tempPath
+            }
+            
+            Write-Host "  Cloning stable branch with submodules..."
+            git clone --depth 1 --recurse-submodules --branch stable $repoUrl $tempPath
+            if ($LASTEXITCODE -ne 0) {
+              Write-Warning "  Failed to clone $addonId (stable branch may not exist)"
+              continue
+            }
+            Write-Host "  ✓ Clone successful"
+            
+            # ============================================
+            # Process add-on files
+            # ============================================
+            Push-Location $tempPath
+            try {
+              # Install dependencies
+              Write-Host "`n  Installing dependencies with uv sync..."
+              uv sync
+              if ($LASTEXITCODE -ne 0) {
+                Write-Warning "  uv sync failed for $addonId"
+              } else {
+                Write-Host "  ✓ Dependencies installed"
+                
+                # Generate .pot file
+                Write-Host "`n  Generating translation template (.pot file)..."
+                uv run scons pot
+                if ($LASTEXITCODE -ne 0) {
+                  Write-Warning "  scons pot failed for $addonId"
+                } else {
+                  Write-Host "  ✓ .pot file generated"
+                  
+                  # Upload .pot file to Crowdin
+                  $potFile = "$addonId.pot"
+                  if (Test-Path $potFile) {
+                    Write-Host "  Uploading $potFile to Crowdin..."
+                    & ..\..\l10nUtil.exe uploadSourceFile $potFile -c addon
+                    if ($LASTEXITCODE -eq 0) {
+                      Write-Host "  ✓ $potFile uploaded successfully"
+                      # Delay to avoid Crowdin API rate limits
+                      Start-Sleep -Seconds 3
+                    } else {
+                      Write-Warning "  Failed to upload $potFile"
+                    }
+                  } else {
+                    Write-Warning "  $potFile not found after scons pot"
+                  }
+                }
+              }
+              
+              # Process documentation file
+              Write-Host "`n  Processing documentation file..."
+              if (Test-Path "readme.md") {
+                Write-Host "  Renaming readme.md to $addonId.md..."
+                Rename-Item -Path "readme.md" -NewName "$addonId.md"
+                Write-Host "  ✓ Renamed to $addonId.md"
+                
+                # Upload .md file to Crowdin
+                Write-Host "  Uploading $addonId.md to Crowdin..."
+                & ..\..\l10nUtil.exe uploadSourceFile "$addonId.md" -c addon
+                if ($LASTEXITCODE -eq 0) {
+                  Write-Host "  ✓ $addonId.md uploaded successfully"
+                  # Delay to avoid Crowdin API rate limits
+                  Start-Sleep -Seconds 3
+                } else {
+                  Write-Warning "  Failed to upload $addonId.md"
+                }
+              } else {
+                Write-Warning "  readme.md not found in $addonId"
+              }
+              
+              Write-Host "`n  ✓ Finished processing $addonId"
+              
+            } finally {
+              Pop-Location
+            }
+          }
