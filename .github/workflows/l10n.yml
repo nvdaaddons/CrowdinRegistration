@@ -63,6 +63,10 @@ jobs:
         run: |
           $addons = jq -r 'to_entries | .[] | "\(.key)|\(.value)"' addons.json
           
+          # Initialize counters for uploaded files
+          $potFilesUploaded = 0
+          $mdFilesUploaded = 0
+          
           foreach ($line in $addons) {
             $addonId, $repoUrl = $line -split '\|', 2
             
@@ -129,6 +133,7 @@ jobs:
                     & ..\..\l10nUtil.exe uploadSourceFile $potFile -c addon
                     if ($LASTEXITCODE -eq 0) {
                       Write-Host "  ✓ $potFile uploaded successfully"
+                      $potFilesUploaded++
                       # Delay to avoid Crowdin API rate limits
                       Start-Sleep -Seconds 3
                     } else {
@@ -152,6 +157,7 @@ jobs:
                 & ..\..\l10nUtil.exe uploadSourceFile "$addonId.md" -c addon
                 if ($LASTEXITCODE -eq 0) {
                   Write-Host "  ✓ $addonId.md uploaded successfully"
+                  $mdFilesUploaded++
                   # Delay to avoid Crowdin API rate limits
                   Start-Sleep -Seconds 3
                 } else {
@@ -165,5 +171,15 @@ jobs:
               
             } finally {
               Pop-Location
+
             }
           }
+          
+          Write-Host "`n=========================================="
+          Write-Host "WORKFLOW SUMMARY"
+          Write-Host "=========================================="
+          Write-Host "✓ Uploaded $potFilesUploaded POT files (translation templates) to Crowdin"
+          Write-Host "✓ Uploaded $mdFilesUploaded MD files (documentation) to Crowdin"
+          Write-Host "✓ This workflow uses 'continue-on-error' behavior - it won't fail if some add-ons cannot be processed"
+          Write-Host "✓ Check the logs above for any warnings about skipped or failed add-ons"
+          Write-Host "==========================================`n"
