@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvdaaddons\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2026-03-06 19:52+0000\n"
-"PO-Revision-Date: 2026-03-30 00:45\n"
+"POT-Creation-Date: 2026-03-30 04:02+0000\n"
+"PO-Revision-Date: 2026-04-04 19:34\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
@@ -26,77 +26,6 @@ msgstr "Kullandığınız tarih ve saat biçimi saat eklentisinin bu sürümüyl
 #: addon/installTasks.py:36
 msgid "Time and date format corrections"
 msgstr "Saat ve Tarih düzeltmelerİ"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:75
-#, python-brace-format
-msgid "It's {hours} o'clock and {minutes} minutes"
-msgstr "{hours} saat ve {minutes} dakika"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:77
-#, python-brace-format
-msgid "It's {hours} o'clock, {minutes} minutes and {seconds} seconds"
-msgstr "{hours} saat, {minutes} dakika ve {seconds} saniye"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:81
-#, python-brace-format
-msgid "{hours} o'clock, {minutes} minutes"
-msgstr "{hours} saat, {minutes} dakika"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:83
-#, python-brace-format
-msgid "{hours} o'clock, {minutes} minutes, {seconds} seconds"
-msgstr "{hours} saat, {minutes} dakika, {seconds} saniye"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:87
-#, python-brace-format
-msgid "It's {minutes} past {hours}"
-msgstr "Saat {hours} {minutes} geçiyor"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:89
-#, python-brace-format
-msgid "{hours} h {minutes} min"
-msgstr "{hours} s {minutes} dak"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:91
-#, python-brace-format
-msgid "{hours} h, {minutes} min, {seconds} sec"
-msgstr "{hours} sa, {minutes} dak, {seconds} san"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:93
-#, python-brace-format
-msgid "It's {hours}:{minutes}"
-msgstr "Saat {hours}:{minutes}"
-
-#. Translators: A time formating (should be different from other time formattings)
-#: addon/globalPlugins/clock/formats.py:95
-#, python-brace-format
-msgid "It's {hours}:{minutes}:{seconds}"
-msgstr "Saat {hours}:{minutes}:{seconds}"
-
-#. Translators: A way to display 24-hour formats in the time display formats list in the settings panel.
-#: addon/globalPlugins/clock/formats.py:112
-#, python-brace-format
-msgid "{fmt} (24-hour format)"
-msgstr "{fmt} (24-saat formatı)"
-
-#. Translators: A way to display 12-hour formats in the time display formats list in the settings panel.
-#: addon/globalPlugins/clock/formats.py:114
-#, python-brace-format
-msgid "{fmt} (12-hour format)"
-msgstr "{fmt} (12-saat formatı)"
-
-#. Translators: This is a choice in a list of sounds.
-#: addon/globalPlugins/clock/paths.py:33
-msgid "Custom"
-msgstr "Özel"
 
 #: addon/globalPlugins/clock/__init__.py:74
 #, python-brace-format
@@ -449,6 +378,77 @@ msgstr "{tm} {unit} içinde tetiklenecek bir alarm kurdunuz"
 #: addon/globalPlugins/clock/clockSettingsGUI.py:458
 msgid "Confirmation"
 msgstr "Onay"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:75
+#, python-brace-format
+msgid "It's {hours} o'clock and {minutes} minutes"
+msgstr "{hours} saat ve {minutes} dakika"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:77
+#, python-brace-format
+msgid "It's {hours} o'clock, {minutes} minutes and {seconds} seconds"
+msgstr "{hours} saat, {minutes} dakika ve {seconds} saniye"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:81
+#, python-brace-format
+msgid "{hours} o'clock, {minutes} minutes"
+msgstr "{hours} saat, {minutes} dakika"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:83
+#, python-brace-format
+msgid "{hours} o'clock, {minutes} minutes, {seconds} seconds"
+msgstr "{hours} saat, {minutes} dakika, {seconds} saniye"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:87
+#, python-brace-format
+msgid "It's {minutes} past {hours}"
+msgstr "Saat {hours} {minutes} geçiyor"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:89
+#, python-brace-format
+msgid "{hours} h {minutes} min"
+msgstr "{hours} s {minutes} dak"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:91
+#, python-brace-format
+msgid "{hours} h, {minutes} min, {seconds} sec"
+msgstr "{hours} sa, {minutes} dak, {seconds} san"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:93
+#, python-brace-format
+msgid "It's {hours}:{minutes}"
+msgstr "Saat {hours}:{minutes}"
+
+#. Translators: A time formating (should be different from other time formattings)
+#: addon/globalPlugins/clock/formats.py:95
+#, python-brace-format
+msgid "It's {hours}:{minutes}:{seconds}"
+msgstr "Saat {hours}:{minutes}:{seconds}"
+
+#. Translators: A way to display 24-hour formats in the time display formats list in the settings panel.
+#: addon/globalPlugins/clock/formats.py:112
+#, python-brace-format
+msgid "{fmt} (24-hour format)"
+msgstr "{fmt} (24-saat formatı)"
+
+#. Translators: A way to display 12-hour formats in the time display formats list in the settings panel.
+#: addon/globalPlugins/clock/formats.py:114
+#, python-brace-format
+msgid "{fmt} (12-hour format)"
+msgstr "{fmt} (12-saat formatı)"
+
+#. Translators: This is a choice in a list of sounds.
+#: addon/globalPlugins/clock/paths.py:33
+msgid "Custom"
+msgstr "Özel"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
