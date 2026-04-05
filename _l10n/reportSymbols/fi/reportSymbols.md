@@ -12,7 +12,7 @@ It's based on the old ReportSymbols add-on, developed by the same author. You sh
 
 Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
 
-## Exclude symbols
+## Ohitettavat symbolit
 
 From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.
 
