@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-04-05 02:58+0000\n"
+"PO-Revision-Date: 2026-04-05 09:16\n"
+"Last-Translator: \n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: instantTranslate.pot\n"
+"X-Crowdin-File-ID: 324\n"
+
+#: addon\globalPlugins\instantTranslate\__init__.py:138
+msgid "Instant Translate layer commands. t translates selected text, shift+t translates clipboard text, a announces current swap configuration, s swaps source and target languages, c copies last result to clipboard, i identify the language of selected text, l translates last spoken text, o opens translation setting dialog."
+msgstr "다음은 간편 번역기(Instant Translate) 레이어 명령. T 키는 선택된 텍스트를 번역합니다. Shift + T키는 클립보드에 복사된 텍스트를 번역합니다. A키는 현재 언어 구성을 알립니다. S 키는 입력 원어와 번역 언어를 뒤바꿉니다. C 키는 마지막 번역 결과를 클립보드에 복사합니다. I키는 선택된 텍스트의 언어를 식별합니다. L 키는 마지막으로 읽은 내용을 번역합니다. O키는 번역 설정 대화상자를 엽니다."
+
+#. Translators: message presented in input help mode, when user presses the shortcut keys for this addon.
+#: addon\globalPlugins\instantTranslate\__init__.py:155
+msgid "Translates clipboard text from one language to another using Google Translate."
+msgstr "클립보드에 있는 텍스트를 구글 번역기를 사용하여 다름 언어로 번역합니다."
+
+#. Translators: message presented when user presses the shortcut key for translating clipboard text but the clipboard is empty.
+#: addon\globalPlugins\instantTranslate\__init__.py:165
+msgid "There is no text on the clipboard"
+msgstr "클립보드에 텍스트 없음"
+
+#. Translators: message presented in input help mode, when user presses the shortcut keys for this addon.
+#: addon\globalPlugins\instantTranslate\__init__.py:180
+msgid "Translates selected text from one language to another using Google Translate."
+msgstr "선택한 텍스트를 구글 번역기를 사용하여 다른 언어로 번역합니다."
+
+#. Translators: user has pressed the shortcut key for translating selected text, but no text was actually selected.
+#: addon\globalPlugins\instantTranslate\__init__.py:187
+#: addon\globalPlugins\instantTranslate\__init__.py:304
+msgid "no selection"
+msgstr "선택한 텍스트 없음"
+
+#: addon\globalPlugins\instantTranslate\__init__.py:234
+msgid "Translation failed"
+msgstr "번역 실패"
+
+#. Translators: Presented in input help mode.
+#: addon\globalPlugins\instantTranslate\__init__.py:249
+msgid "It swaps source and target languages."
+msgstr "입력  원어와 번역 언어를 전환합니다."
+
+#. Translators: message presented to announce that the source and target languages have been swapped.
+#: addon\globalPlugins\instantTranslate\__init__.py:261
+msgid "Languages swapped"
+msgstr "언어 변경됨"
+
+#. Translators: message presented to announce the current source and target languages.
+#: addon\globalPlugins\instantTranslate\__init__.py:263
+#: addon\globalPlugins\instantTranslate\__init__.py:280
+#, python-brace-format
+msgid "Translate: from {lang1} to {lang2}"
+msgstr "{lang1}에서 {lang2}로 번역"
+
+#. Translators: Presented in input help mode.
+#: addon\globalPlugins\instantTranslate\__init__.py:275
+msgid "It announces the current source and target languages."
+msgstr "현재 입력 원어와 번역 언어를 알립니다."
+
+#. Translators: message presented to announce a successful copy
+#: addon\globalPlugins\instantTranslate\__init__.py:288
+msgid "Last translation copied in clipboard"
+msgstr "마지막 번역 내용이 클립보드로 복사됨"
+
+#. Translators: message presented to announce no previous translation disponibility
+#: addon\globalPlugins\instantTranslate\__init__.py:291
+msgid "No stored translation"
+msgstr "저장된 번역 내용 없음"
+
+#. Translators: Presented in input help mode.
+#: addon\globalPlugins\instantTranslate\__init__.py:293
+msgid "It copies the last translation to clipboard"
+msgstr "마지막 번역 내용을 클립보드로 복사합니다"
+
+#. Translators: Presented in input help mode.
+#: addon\globalPlugins\instantTranslate\__init__.py:297
+msgid "It identifies the language of selected text"
+msgstr "선택된 텍스트의 언어를 식별합니다"
+
+#: addon\globalPlugins\instantTranslate\__init__.py:307
+msgid "Language is..."
+msgstr "언어는..."
+
+#. Translators: Presented in input help mode.
+#: addon\globalPlugins\instantTranslate\__init__.py:326
+msgid "It translates the last spoken text"
+msgstr "마지막으로 읽은 내용을 번역합니다"
+
+#. Translators: Presented in input help mode.
+#: addon\globalPlugins\instantTranslate\__init__.py:334
+msgid "Announces all available layered commands"
+msgstr "사용가능한 레이어 명령을 알립니다"
+
+#: addon\globalPlugins\instantTranslate\__init__.py:338
+msgid "t translates selected text, shift+t translates clipboard text, a announces current swap configuration, s swaps source and target languages, c copies last result to clipboard, i identify the language of selected text, l translates last spoken text, o open translation settings dialog, h displays this message."
+msgstr "T 키는 선택된 텍스트를 번역합니다. Shift+T 키는 클립보드 텍스트 내용을 번역합니다. A 키는 현재 언어 구성을 알립니다. S키는 입력 원어와 번역 언어를 뒤바꿉니다. C 키는 마지막 번역 결과를 클립보드로 복사합니다. I키는 선택된 텍스트의 언어를 식별합니다. L키는 마지막으로 말한 텍스트를 번역합니다. O키는 번역 설정 대화상자를 엽니다. H키는 이 도움말을 출력합니다."
+
+#. Translators: Presented in input help mode.
+#: addon\globalPlugins\instantTranslate\__init__.py:342
+msgid "Opens Instant Translate settings dialog."
+msgstr "간편 번역기 설정을 엽니다."
+
+#: addon\globalPlugins\instantTranslate\donate_dialog.py:22
+msgid "Donate via Paypal"
+msgstr "Donate via Paypal"
+
+#: addon\globalPlugins\instantTranslate\donate_dialog.py:23
+msgid "Donate via Yoomoney"
+msgstr "Donate via Yoomoney"
+
+#: addon\globalPlugins\instantTranslate\donate_dialog.py:38
+#, python-brace-format
+msgid "Request for contributions to {name}"
+msgstr "Request for contributions to {name}"
+
+#: addon\globalPlugins\instantTranslate\donate_dialog.py:39
+#, python-brace-format
+msgid "{name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further development of this and other free projects.\n"
+"Do you want to donate now? Choose one of the available payment methods. You will be redirected to the corresponding website to complete a donation"
+msgstr "{name} is a free add-on for NVDA.\n"
+"You can make a donation to its author to support further development of this and other free projects.\n"
+"Do you want to donate now? Choose one of the available payment methods. You will be redirected to the corresponding website to complete a donation"
+
+#. Translators: name of the dialog.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: addon\globalPlugins\instantTranslate\interface.py:23 buildVars.py:15
+msgid "Instant Translate"
+msgstr "간편 번역기 설정"
+
+#. Translators: Help message for a dialog.
+#: addon\globalPlugins\instantTranslate\interface.py:29
+msgid "Select translation source and target language:"
+msgstr "입력 원어와 번역 언어를 선택하십시오:"
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\instantTranslate\interface.py:33
+msgid "Source language:"
+msgstr "입력 원어:"
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\instantTranslate\interface.py:42
+msgid "Target language:"
+msgstr "번역 언어:"
+
+#. Translators: A setting in addon settings dialog, shown if source language is on auto.
+#: addon\globalPlugins\instantTranslate\interface.py:48
+msgid "Language for swapping:"
+msgstr "번역 언어 설정"
+
+#. Translators: A setting in addon settings dialog, shown if source language is on auto.
+#: addon\globalPlugins\instantTranslate\interface.py:53
+msgid "Activate the auto-swap if recognized source is equal to the target (experimental)"
+msgstr "입력 원어와 번역 언어가 같을 시 자동으로 언어 변경 (개발중)"
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\instantTranslate\interface.py:57
+msgid "Copy translation result to clipboard"
+msgstr "번역된 내용을 클립보드에 복사"
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\instantTranslate\interface.py:61
+msgid "Replace underscores with spaces (May provide better translation results depending on context)"
+msgstr "Replace underscores with spaces (May provide better translation results depending on context)"
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\instantTranslate\interface.py:64
+msgid "Use mirror (Mainly for chinese users)"
+msgstr "Use mirror (Mainly for chinese users)"
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\instantTranslate\interface.py:67
+msgid "Support an author..."
+msgstr "Support an author..."
+
+#. Translators: A short description for "Automatically detect language" language choice, reported when
+#. the user requests or swaps the current configuration.
+#: addon\globalPlugins\instantTranslate\langslist.py:26
+msgid "Automatic"
+msgstr "Automatic"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:37
+msgid "Kurdish (Sorani)"
+msgstr "쿠르드어"
+
+#. Translators: An option to automatically detect source language for translation.
+#: addon\globalPlugins\instantTranslate\langslist.py:42
+msgid "Automatically detect language"
+msgstr "언어 감지"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:44
+msgid "Twi (Akan)"
+msgstr "Twi (Akan)"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:46
+msgid "Aymara"
+msgstr "Aymara"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:48
+msgid "Bhojpuri"
+msgstr "Bhojpuri"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:50
+msgid "Bambara"
+msgstr "Bambara"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:52
+msgid "Cebuano"
+msgstr "세부아노어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:54
+msgid "Dogri"
+msgstr "Dogri"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:56
+msgid "Ewe"
+msgstr "Ewe"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:58
+msgid "Esperanto"
+msgstr "에스페란토"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:60
+msgid "Konkani"
+msgstr "Konkani"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:62
+msgid "Hawaiian"
+msgstr "하와이어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:64
+msgid "Hmong"
+msgstr "몽어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:66
+msgid "Creole Haiti"
+msgstr "아이티 크리올"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:68
+msgid "Ilocano"
+msgstr "Ilocano"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:70
+msgid "Javanese"
+msgstr "자와어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:72
+msgid "Krio"
+msgstr "Krio"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:74
+msgid "Kurdish"
+msgstr "쿠르드어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:76
+msgid "Latin"
+msgstr "라틴어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:78
+msgid "Luganda"
+msgstr "Luganda"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:80
+msgid "Lingala"
+msgstr "Lingala"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:82
+msgid "Mizo"
+msgstr "Mizo"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:84
+msgid "Maithili"
+msgstr "Maithili"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:86
+msgid "Malagasy"
+msgstr "말라가시어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:88
+msgid "Meiteilon (Manipuri)"
+msgstr "Meiteilon (Manipuri)"
+
+#. Missing, tested on Windows 10 22H2
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:90
+msgid "Myanmar (Burmese)"
+msgstr "미얀마어(버마어)"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:92
+msgid "Chichewa"
+msgstr "체와어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:94
+msgid "Sindhi"
+msgstr "신드어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:96
+msgid "Samoan"
+msgstr "사모아어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:98
+msgid "Shona"
+msgstr "쇼마어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:100
+msgid "Somali"
+msgstr "소말리어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:102
+msgid "Sesotho"
+msgstr "소토어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:104
+msgid "Sundanese"
+msgstr "수단어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:106
+msgid "Tagalog"
+msgstr "타갈로그어"
+
+#. Translators: The name of a language supported by this add-on.
+#: addon\globalPlugins\instantTranslate\langslist.py:108
+msgid "Yiddish"
+msgstr "이디시어"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:18
+msgid "This addon translates selected or clipboard text using the Google Translate service and presents it."
+msgstr "구글 번역을 사용하여 선택된 텍스트나 클립보드 내용을 번역합니다."
+

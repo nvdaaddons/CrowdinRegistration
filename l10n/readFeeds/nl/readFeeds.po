@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2026-04-05 03:07+0000\n"
+"PO-Revision-Date: 2026-04-05 09:15\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: readFeeds.pot\n"
+"X-Crowdin-File-ID: 232\n"
+
+#. Translators: the label of a message box dialog.
+#: addon\installTasks.py:26
+msgid "You have installed the ReadFeeds add-on, probably an old and incompatible version with this one. Do you want to uninstall the old version?"
+msgstr ""
+
+#. Translators: the title of a message box dialog.
+#: addon\installTasks.py:28
+msgid "Uninstall incompatible add-on"
+msgstr ""
+
+#. Translators: the label of a message box dialog.
+#: addon\installTasks.py:42
+msgid "Your configuration folder for NVDA contains files that seem to be derived from a previous version of this add-on. Do you want to update it?"
+msgstr ""
+
+#. Translators: the title of a message box dialog.
+#: addon\installTasks.py:44
+msgid "Install or update add-on"
+msgstr ""
+
+#. Translators: message presented when feeds cannot be reported.
+#: addon\globalPlugins\readFeeds\__init__.py:40
+msgid "Unable to refresh feed. Check your Internet conectivity or that the specified feed address is correct."
+msgstr ""
+
+#. Translators: Message presented when feeds have been copied.
+#: addon\globalPlugins\readFeeds\__init__.py:69
+msgid "Feeds copied"
+msgstr ""
+
+#. Translators: label of error dialog shown when cannot copy feeds folder.
+#: addon\globalPlugins\readFeeds\__init__.py:73
+#: addon\globalPlugins\readFeeds\__init__.py:89
+msgid "Folder not copied"
+msgstr ""
+
+#. Translators: title of error dialog shown when cannot copy feeds folder.
+#: addon\globalPlugins\readFeeds\__init__.py:75
+#: addon\globalPlugins\readFeeds\__init__.py:91
+msgid "Copy Error"
+msgstr ""
+
+#. Translators: Message presented when feeds have been restored.
+#: addon\globalPlugins\readFeeds\__init__.py:85
+msgid "Feeds restored"
+msgstr ""
+
+#. Translators: The title of a dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:109
+#, python-brace-format
+msgid "Feeds: {defaultFeed} ({configProfile})"
+msgstr ""
+
+#. Label of a dialog (message translated in NVDA core in different contexts).
+#: addon\globalPlugins\readFeeds\__init__.py:115
+msgid "&Filter by:"
+msgstr ""
+
+#. Translators: The label of a button to open the list of articles of a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:132
+msgid "List of &articles..."
+msgstr ""
+
+#. Translators: The label of a button to open a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:143
+msgid "&Open feed"
+msgstr ""
+
+#. Translators: The label of a button to add a new feed.
+#: addon\globalPlugins\readFeeds\__init__.py:147
+msgid "&New..."
+msgstr ""
+
+#. Translators: The label of a button to rename a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:151
+msgid "&Rename..."
+msgstr ""
+
+#. Translators: The label of a button to delete a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:155
+msgid "&Delete..."
+msgstr ""
+
+#. Translators: The label of a button to set a feed as default.
+#: addon\globalPlugins\readFeeds\__init__.py:159
+msgid "S&et default"
+msgstr ""
+
+#. Translators: The label of a button to open a folder containing a backup of feeds.
+#: addon\globalPlugins\readFeeds\__init__.py:163
+msgid "Open &folder containing a backup of feeds"
+msgstr ""
+
+#. Translators: The label of a field to enter an address for a new feed.
+#: addon\globalPlugins\readFeeds\__init__.py:248
+msgid "Address of a new feed:"
+msgstr ""
+
+#. Translators: The title of a dialog to create a new feed.
+#: addon\globalPlugins\readFeeds\__init__.py:250
+msgid "New feed"
+msgstr ""
+
+#. Translators: The confirmation prompt displayed when the user requests to delete a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:259
+msgid "Are you sure you want to delete this feed? This cannot be undone."
+msgstr ""
+
+#. Translators: The label of a field to enter a new name for a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:277
+msgid "New name:"
+msgstr ""
+
+#. Translators: The title of a dialog to rename a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:279
+msgid "Rename feed"
+msgstr ""
+
+#. Translators: The label of the articles list in the articles dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:308
+msgid "List of articles"
+msgstr ""
+
+#. Translators: The label of a button to open the selected article of a feed.
+#: addon\globalPlugins\readFeeds\__init__.py:316
+msgid "Open &web page of selected article."
+msgstr ""
+
+#. Translators: The label of a button to show information of a feed article.
+#: addon\globalPlugins\readFeeds\__init__.py:323
+msgid "&About article..."
+msgstr ""
+
+#. Translators: the label of a message box dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:344
+#, python-format
+msgid "%s\r\n"
+"\r\n"
+"Do you want to copy article title and link to the clipboard?"
+msgstr ""
+
+#. Translators: the title of a message box dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:346
+msgid "Article information"
+msgstr ""
+
+#. Translators: The title of the Copy dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:358
+msgid "Copy feeds"
+msgstr ""
+
+#. Translators: An informational message displayed in the Copy dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:364
+msgid "Select a folder to save a backup of your current feeds"
+msgstr ""
+
+#. Translators: The label of a grouping containing controls to select the destination directory in the Copy dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:368
+msgid "directory for backup:"
+msgstr ""
+
+#. Translators: The title of the dialog presented when browsing for the destination directory when copying feeds.
+#: addon\globalPlugins\readFeeds\__init__.py:373
+msgid "Select directory to copy"
+msgstr ""
+
+#. Translators: The title of the Restore dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:426
+msgid "Restore feeds"
+msgstr ""
+
+#. Translators: An informational message displayed in the Restore dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:432
+msgid "Select a folder to restore a backup of your previous copied feeds"
+msgstr ""
+
+#. Translators: The label of a grouping containing controls to select the destination directory in the Restore dialog.
+#: addon\globalPlugins\readFeeds\__init__.py:436
+msgid "directory containing backup:"
+msgstr ""
+
+#. Translators: The title of the dialog presented when browsing for the destination directory when restoring feeds.
+#: addon\globalPlugins\readFeeds\__init__.py:441
+msgid "Select directory to restore"
+msgstr ""
+
+#. Translators: Presented when the current article does not have an associated title.
+#: addon\globalPlugins\readFeeds\__init__.py:530
+msgid "Unable to locate article title."
+msgstr ""
+
+#. Translators: Presented when the current article does not have an associated link.
+#: addon\globalPlugins\readFeeds\__init__.py:541
+msgid "Unable to locate article link."
+msgstr ""
+
+#. Translators: the name of a submenu.
+#: addon\globalPlugins\readFeeds\__init__.py:567
+msgid "&Read Feeds"
+msgstr ""
+
+#. Translators: the name of a menu item.
+#: addon\globalPlugins\readFeeds\__init__.py:569
+msgid "&Feeds..."
+msgstr ""
+
+#. Translators: the name of a menu item.
+#: addon\globalPlugins\readFeeds\__init__.py:572
+msgid "&Copy feeds folder..."
+msgstr ""
+
+#. Translators: the name of a menu item.
+#: addon\globalPlugins\readFeeds\__init__.py:575
+msgid "R&estore feeds..."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:594
+#, python-format
+msgid "Activates the Feeds dialog of %s."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:607
+#, python-format
+msgid "Activates the Copy dialog of %s."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:621
+#, python-format
+msgid "Activates the Restore dialog of %s."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:644
+msgid "Refreshes the current feed and announces the most recent article title."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:654
+msgid "Announces the title of the current article. Pressed two times, copies title and related link to the clipboard."
+msgstr ""
+
+#. Translators: message presented when the information about an article of a feed is copied to the clipboard.
+#: addon\globalPlugins\readFeeds\__init__.py:663
+#: addon\globalPlugins\readFeeds\__init__.py:713
+#, python-format
+msgid "Copied to clipboard %s"
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:669
+msgid "Announces the title of the next article."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:680
+msgid "Announces the title of the previous article."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:691
+msgid "Announces article link, when pressed two times, opens related web page."
+msgstr ""
+
+#. Translators: message presented in input mode.
+#: addon\globalPlugins\readFeeds\__init__.py:705
+msgid "Copies title and related link of the current article to the clipboard."
+msgstr ""
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
+msgid "Read Feeds"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
+msgid "Add-on for using NVDA as a feed reader."
+msgstr ""
+
