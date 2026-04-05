@@ -1,0 +1,36 @@
+# Show selection when braille is tethered to review
+
+## Good to know before using this addon
+
+There are likely very few users which means that more or less use cases are not tested. This means greater probability of issues.
+
+## General
+
+To use this addon, tether braille to review in NVDA settings Braille category.
+You likely want also that review cursor follows system caret most of time
+(see NVDA settings Review Cursor category). Selection is shown in edit controls
+and documents with dots 7 and 8 when "Show selection" is enabled in NVDA
+settings Braille category. When braille is tethered to review and review
+follows caret, review cursor is positioned to end of selected text when
+selection changes so you can see immediately how it changed.
+
+You can easily see what you have selected for example for copying or formatting
+in text editor. You can move around edit control or document with braille
+gestures and text review commands which move braille display. Movement does not
+affect on caret, and it is not restricted to selected text. It means that
+you can investigate both selected and unselected part of text with braille.
+You can use routing buttons to move review position and/or caret according to
+NVDA Braille category "Move system caret when routing review cursor" setting.
+
+## Notes
+
+If "Show selection" is disabled, review cursor is positioned to end of
+selected text when braille is tethered to review, review follows caret and
+selection changes.
+
+To see selection outside of edit controls, browse mode should be used
+where supported.
+
+## Known issues
+
+- In MS Word when UIA is not used, review cursor may be positioned to the start of selection when edit control gets focus.

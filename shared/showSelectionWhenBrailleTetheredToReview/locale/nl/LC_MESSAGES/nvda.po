@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-04-05 02:57+0000\n"
+"PO-Revision-Date: 2026-04-05 09:15\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: showSelectionWhenBrailleTetheredToReview.pot\n"
+"X-Crowdin-File-ID: 568\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:23
+msgid "Show selection when braille is tethered to review"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:26
+msgid "This add-on shows selection with dots 7 and 8 in edit controls and documents\n"
+"when braille is tethered to review."
+msgstr ""
+

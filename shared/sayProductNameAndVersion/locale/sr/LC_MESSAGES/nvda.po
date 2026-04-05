@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-04-05 03:08+0000\n"
+"PO-Revision-Date: 2026-04-05 09:16\n"
+"Last-Translator: \n"
+"Language-Team: Serbian (Latin)\n"
+"Language: sr_CS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: sr-CS\n"
+"X-Crowdin-File: sayProductNameAndVersion.pot\n"
+"X-Crowdin-File-ID: 352\n"
+
+#. Translators: Input help mode message for say product name and version command.
+#: addon\globalPlugins\sayProductNameAndVersion.py:32
+msgid "Speaks the product name and version of the application which ownes the focused window. If pressed twice, copies this information to the clipboard"
+msgstr ""
+
+#. Translators: This is used when the name of the focused application cannot be found.
+#: addon\globalPlugins\sayProductNameAndVersion.py:49
+msgid "Application"
+msgstr ""
+
+#. Translators: This is the message which will be spoken or copied to the clipboard.
+#. {name} is the app name, {version} is the version.
+#: addon\globalPlugins\sayProductNameAndVersion.py:55
+#: addon\globalPlugins\sayProductNameAndVersion.py:57
+#, python-brace-format
+msgid "{name} version {version}"
+msgstr ""
+
+#. Translators: This is the message announced when all information has been copied.
+#: addon\globalPlugins\sayProductNameAndVersion.py:59
+#, python-brace-format
+msgid "{name} version {version} copied to the clipboard"
+msgstr ""
+
+#. Translators: This is the message announced when all information hasn't been copied.
+#: addon\globalPlugins\sayProductNameAndVersion.py:64
+msgid "Cannot copy version information to the clipboard."
+msgstr ""
+
+#. Translators: this will be spoken if version information was not available.
+#: addon\globalPlugins\sayProductNameAndVersion.py:67
+msgid "Unable to get version info"
+msgstr ""
+
+#. Add-on summary
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:21
+msgid "Say Product Name and Version"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:24
+msgid "Say product name and version of the application which ownes the focused window.\n"
+"Default shortcut: Shift+NVDA+V"
+msgstr ""
+
