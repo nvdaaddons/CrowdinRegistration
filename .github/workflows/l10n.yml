@@ -17,6 +17,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+      - name: "Set up Python"
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: ".python-version"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
       - name: Download l10nUtil.exe from nvaccess/nvdaL10n
         run: |
           # Download the latest release asset matching the pattern from the specified repository
@@ -42,9 +48,6 @@ jobs:
       - name: Install gettext
         run: |
           choco install -y gettext
-      - name: Install scons
-        run: |
-          choco install -y scons
       - name: Get add-ons
         run: |
           try {
@@ -114,7 +117,7 @@ jobs:
             try {
               # Generate .pot file
               Write-Host "`n  Generating translation template (.pot file)..."
-              scons pot
+              uv run scons pot
               if ($LASTEXITCODE -ne 0) {
                 Write-Warning "  scons pot failed for $addonId"
               } else {

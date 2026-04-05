@@ -5,9 +5,10 @@ description = "Register NVDA add-ons to be translated with Crowdin"
 readme = "readme.md"
 requires-python = ">=3.13"
 dependencies = [
+    "scons==4.10.1",
+	    "Markdown==3.10",
     "crowdin-api-client==1.21.0",
     "lxml>=6.0.1",
-    "markdown>=3.9",
     "markdown-link-attr-modifier==0.2.1",
     "mdx-gh-links==0.4",
     "mdx-truly-sane-lists==1.3",
