@@ -17,33 +17,41 @@ runs:
   using: "composite"
   steps:
     - name: Checkout repo
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       with:
         repository: nvdaaddons/crowdinRegistration
         path: ${{ inputs.path }}
     - name: Commit and push add-on with translations
       id: commit
-      shell: bash
+      shell: pwsh
       run: |
-        rm -rf addon
-        mkdir addon
-        if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc ]; then
-        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc addon
-        else
-        echo "No translated documentation for this add-on"
-        fi
-        if [ -d ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale ]; then
-        mv -u ${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale addon
-        else
-        echo "No translated interface messages for this add-on"
-        fi
+        if (Test-Path addon) {
+          Remove-Item -Recurse -Force addon
+        }
+        New-Item -ItemType Directory -Path addon | Out-Null
+        
+        $docPath = "${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/doc"
+        if (Test-Path $docPath) {
+          Move-Item -Path $docPath -Destination addon -Force
+        } else {
+          Write-Host "No translated documentation for this add-on"
+        }
+        
+        $localePath = "${{ inputs.path }}/shared/${{ inputs.addonRepoName }}/locale"
+        if (Test-Path $localePath) {
+          Move-Item -Path $localePath -Destination addon -Force
+        } else {
+          Write-Host "No translated interface messages for this add-on"
+        }
+        
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
         git add --ignore-removal addon
-        if git diff --staged --quiet; then
-        echo "Nothing added to commit."
-        else
-        git status
-        git commit -m "Update translations from Crowdin"
-        git push
-        fi
+        git diff --staged --quiet
+        if ($LASTEXITCODE -eq 0) {
+          Write-Host "Nothing added to commit."
+        } else {
+          git status
+          git commit -m "Update translations from Crowdin"
+          git push
+        }

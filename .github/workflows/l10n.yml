@@ -31,12 +31,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
       - name: Export translations
         run: |
-          ./l10nUtil.exe exportTranslations -o ./_l10n -c addon
+          ./l10nUtil.exe exportTranslations -o ./l10n -c addon
       - name: Push exported translations
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add _l10n
+          git config --local user.name github-actions
+          git config --local user.email github-actions@github.com
+          git add l10n
           git diff --cached --quiet
           if ($LASTEXITCODE -eq 0) {
             Write-Host "No changes to commit"
@@ -184,3 +184,47 @@ jobs:
           Write-Host "✓ This workflow uses 'continue-on-error' behavior - it won't fail if some add-ons cannot be processed"
           Write-Host "✓ Check the logs above for any warnings about skipped or failed add-ons"
           Write-Host "==========================================`n"
+      - name: Pull latest changes
+        run: git pull
+      - name: Transform l10n to shared folder
+        run: |
+          if (Test-Path shared) {
+            Write-Host "Warning: folder already exists"
+          } else {
+            New-Item -ItemType Directory -Path shared | Out-Null
+          }
+          
+          Get-ChildItem -Path l10n -Directory | ForEach-Object {
+            $addon = $_.Name
+            Get-ChildItem -Path $_.FullName -Directory | ForEach-Object {
+              $lang = $_.Name
+              
+              # Process .po file
+              $poFile = "l10n/$addon/$lang/$addon.po"
+              if (Test-Path $poFile) {
+                $targetDir = "shared/$addon/locale/$lang/LC_MESSAGES"
+                New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+                Move-Item -Path $poFile -Destination "$targetDir/nvda.po" -Force
+              }
+              
+              # Process .md file
+              $mdFile = "l10n/$addon/$lang/$addon.md"
+              if (Test-Path $mdFile) {
+                $targetDir = "shared/$addon/doc/$lang"
+                New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+                Move-Item -Path $mdFile -Destination "$targetDir/readme.md" -Force
+              }
+            }
+          }
+          
+          Get-ChildItem -Recurse shared
+      - name: Commit and push shared folder
+        run: |
+          git add shared
+          git diff --staged --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "Nothing added to commit."
+          } else {
+            git commit -m "Update shared folder"
+            git push
+          }

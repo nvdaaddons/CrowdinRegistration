@@ -6,50 +6,60 @@ runs:
   using: "composite"
   steps:
     - name: Checkout repo
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
     - name: "Set up Python"
       uses: actions/setup-python@v6
       with:
         python-version-file: ".python-version"
     - name: Install the latest version of uv
-      uses: astral-sh/setup-uv@v6
+      uses: astral-sh/setup-uv@v7
     - name: Pull last changes
-      shell: bash
+      shell: pwsh
       run: git pull
     - name: Transform
-      shell: bash
+      shell: pwsh
       run: |
-        if [ -d shared ]; then
-        echo "Warning: folder already exists"
-        else
-        mkdir shared
-        fi
-        for dir in l10n/*; do
-        [ -d "$dir" ] || continue
-        addon=$(basename "$dir")
-        for addonDir in $dir/*; do
-        lang=$(basename "$addonDir")
-        [ -f "l10n/$addon/$lang/$addon.po" ] || continue
-        mkdir -p "shared/$addon/locale/$lang/LC_MESSAGES"
-        mv -f "l10n/$addon/$lang/$addon.po" "shared/$addon/locale/$lang/LC_MESSAGES/nvda.po"
-        [ -f "l10n/$addon/$lang/$addon.xliff" ] || continue
-        mkdir -p "shared/$addon/doc/$lang"
-        uv run utils/l10nUtil.py xliff2md "l10n/$addon/$lang/$addon.xliff" "shared/$addon/doc/$lang/readme.md"
-        done
-        done
-        ls -R
+        if (Test-Path shared) {
+          Write-Host "Warning: folder already exists"
+        } else {
+          New-Item -ItemType Directory -Path shared | Out-Null
+        }
+        
+        Get-ChildItem -Path l10n -Directory | ForEach-Object {
+          $addon = $_.Name
+          Get-ChildItem -Path $_.FullName -Directory | ForEach-Object {
+            $lang = $_.Name
+            
+            # Process .po file
+            $poFile = "l10n/$addon/$lang/$addon.po"
+            if (Test-Path $poFile) {
+              $targetDir = "shared/$addon/locale/$lang/LC_MESSAGES"
+              New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+              Move-Item -Path $poFile -Destination "$targetDir/nvda.po" -Force
+            }
+            
+            # Process .md file
+            $mdFile = "l10n/$addon/$lang/$addon.md"
+            if (Test-Path $mdFile) {
+              $targetDir = "shared/$addon/doc/$lang"
+              New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
+              Move-Item -Path $mdFile -Destination "$targetDir/readme.md" -Force
+            }
+          }
+        }
+        
+        Get-ChildItem -Recurse shared
     - name: Commit and push shared folder
       id: commit
-      shell: bash
+      shell: pwsh
       run: |
         git config --local user.name github-actions
         git config --local user.email github-actions@github.com
         git add shared
-        if git diff --staged --quiet; then
-        echo "Nothing added to commit."
-        echo "has_changes=false" >> $GITHUB_OUTPUT
-        else
-        echo "has_changes=true" >> $GITHUB_OUTPUT
-        git commit -m "Update shared folder"
-        git push
-        fi
+        git diff --staged --quiet
+        if ($LASTEXITCODE -eq 0) {
+          Write-Host "Nothing added to commit."
+        } else {
+          git commit -m "Update shared folder"
+          git push
+        }
