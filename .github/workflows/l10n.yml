@@ -114,6 +114,8 @@ jobs:
             # Process add-on files
             # ============================================
             Push-Location $tempPath
+            uv sync
+            Start-Sleep -Seconds 2 # Short delay to ensure filesystem is ready
             try {
               # Generate .pot file
               Write-Host "`n  Generating translation template (.pot file)..."
