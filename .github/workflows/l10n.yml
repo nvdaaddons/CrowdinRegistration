@@ -119,7 +119,7 @@ jobs:
             try {
               # Generate .pot file
               Write-Host "`n  Generating translation template (.pot file)..."
-              uv run scons pot
+              scons pot
               if ($LASTEXITCODE -ne 0) {
                 Write-Warning "  scons pot failed for $addonId"
               } else {
