@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="mk">
-  <file id="reportSymbols.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/reportSymbols/reportSymbols.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/reportSymbols/5671e9cd03200323dfd8a5d89c97bd64b31dbc29/readme.md">
     <skeleton>
-# $(ID:bae70ae4-d394-47d3-b0d0-4dad269b07cb)
-*	$(ID:f4453463-103f-4a8a-b3a2-2e1c107d53ea)
+# $(ID:e6a006b8-cae5-45f5-9047-f838c22fb821)
+*	$(ID:00ac71ce-6222-463c-a8ca-c23a0ad5e6d9)
 
-$(ID:c86ffc61-b593-4b08-99ad-d5b7c47198d2)
+$(ID:6de32bca-55c4-45b1-ab6a-7563aff6e012)
 
-$(ID:cf822f69-2974-406b-9ab5-a96731c6b5b0)
+$(ID:2a9f7429-1e5b-417a-892a-7e56128f066c)
 
-## $(ID:f4ff94e7-580a-4670-99da-76d1b75146c8)
-*	$(ID:7bb336cc-7c04-4f5a-8200-1af0fb0a357c)
+## $(ID:374915a2-7d72-410f-9e37-2c6971c7da73)
+*	$(ID:05d116da-4e43-4247-ad0a-42e2847da524)
 
-$(ID:7300f297-05a8-4901-a53d-f69222aff9c0)
+$(ID:51b110a8-e727-4f1b-9145-6343c2cac093)
 
-## $(ID:f7657ce1-6de9-453e-85e3-c0e4c7656417)
+## $(ID:8bf996cf-fe7d-447a-be6b-c8205d66ba51)
 
-$(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
+$(ID:e72707e3-ebaa-4f30-9fe1-e6ad5b50d81c)
 
-## $(ID:85654def-3dd2-4489-8683-b894d494e6c9)
+## $(ID:c6c86fab-ed41-4aa4-989e-d86f008cf68e)
 
-* $(ID:5ecc432b-9162-4dc1-873a-3d2cab88d031)
+* $(ID:0db0ce78-1b99-49c6-a251-b6686e4de2c4)
 
-## $(ID:1ae7fc9a-e5e4-450a-b953-223ea6cb5b74)
-* $(ID:0e35a96c-a2ce-46d8-9a5a-36e6f7ace430)
+## $(ID:932f768e-b351-4349-a9de-2f42096054f7)
+* $(ID:35c80022-1b5f-4169-b50a-dca20fab7ce9)
 
-## $(ID:28371c8a-5478-4eeb-810c-fa339ba011d9)
-* $(ID:626e98de-defe-4b03-ac94-42d0cd7fa460)
+## $(ID:5cf4fbc1-2ce4-4a65-9e3d-c9daaaaf9569)
+* $(ID:6f48808c-d770-4802-9701-1fe707bc4d5c)
 
-## $(ID:ed534f4a-da0d-4b3d-a5d5-b3d4267302be)
-* $(ID:abd5e7f8-1935-420e-957f-ad3cd4978b19)
+## $(ID:3b9e2d5e-42a9-4c12-9e84-b46507b909e9)
+* $(ID:4fd39b5d-f3f6-438c-92b3-19b999161121)
 
-## $(ID:27304df4-1856-4444-8761-40bc5b388544)
-*	$(ID:9f434456-b5f0-45a5-963f-0d7e760bd9f0)
+## $(ID:e21e933c-ee0a-4810-9ec5-ffdc470e3bb2)
+*	$(ID:7c93d0bf-37b7-4263-b789-c35474accf00)
 
-## $(ID:d064953e-22de-4d64-94e1-9fa2c2d17a3e)
-* $(ID:696b2983-9449-4401-b79e-d44f208df14b)
-* $(ID:2d62cabb-4038-49e2-8cf2-85777a2db41a)
+## $(ID:2e309e90-79b2-4b70-b9a1-183a8d8c68bf)
+* $(ID:594b0694-5cf8-46e7-94bf-ab939593b927)
+* $(ID:50138145-acc7-45bb-a2db-5fe7c0428a2e)
 
-## $(ID:dffa8396-b6c7-4d0b-a2af-414146a3dd90)
-* $(ID:795b8af3-94a1-456f-894f-50818ad4b35c)
+## $(ID:69412aee-f94f-4df4-aea1-598b8817028f)
+* $(ID:ab237a60-aa8a-4c6a-9b37-d3cc5c1a2d20)
 
-## $(ID:3d4acec7-9b42-417b-8bb0-ae61f7be8ea1)
-*	$(ID:464ae4fb-74a2-4dfc-afb2-fccec3d46d8c)
-*	$(ID:9d06a18d-6d01-431e-8cce-302c8309d594)
+## $(ID:20143987-76a7-4a8a-85c0-41197f337e26)
+*	$(ID:825962b0-4c7c-476d-babd-7c8cfc6726c2)
+*	$(ID:a6059fd7-eebf-4c7a-9c2e-b05e591af24b)
 
-## $(ID:e4114029-e50e-44ac-a315-8385121b7692)
-*	$(ID:57da05e5-5897-4cf0-9199-a2a2f80584bd)
+## $(ID:764dd5a3-a95a-468c-825c-453c62a6e8f5)
+*	$(ID:50ac50a6-d14a-4f1f-9ca6-f50df9a70950)
+
 </skeleton>
-    <unit id="bae70ae4-d394-47d3-b0d0-4dad269b07cb">
+    <unit id="e6a006b8-cae5-45f5-9047-f838c22fb821">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -58,7 +59,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Report Symbols #</target>
       </segment>
     </unit>
-    <unit id="f4453463-103f-4a8a-b3a2-2e1c107d53ea">
+    <unit id="00ac71ce-6222-463c-a8ca-c23a0ad5e6d9">
       <notes>
         <note appliesTo="source">line: 3</note>
         <note appliesTo="source">prefix: *	</note>
@@ -68,7 +69,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Author: Noelia Ruiz Martínez.</target>
       </segment>
     </unit>
-    <unit id="c86ffc61-b593-4b08-99ad-d5b7c47198d2">
+    <unit id="6de32bca-55c4-45b1-ab6a-7563aff6e012">
       <notes>
         <note appliesTo="source">line: 5</note>
       </notes>
@@ -77,7 +78,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.</target>
       </segment>
     </unit>
-    <unit id="cf822f69-2974-406b-9ab5-a96731c6b5b0">
+    <unit id="2a9f7429-1e5b-417a-892a-7e56128f066c">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
@@ -86,7 +87,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>It's based on the old ReportSymbols add-on, developed by the same author. You should uninstall it to use this version.</target>
       </segment>
     </unit>
-    <unit id="f4ff94e7-580a-4670-99da-76d1b75146c8">
+    <unit id="374915a2-7d72-410f-9e37-2c6971c7da73">
       <notes>
         <note appliesTo="source">line: 9</note>
         <note appliesTo="source">prefix: ## </note>
@@ -96,7 +97,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Preferences menu ##</target>
       </segment>
     </unit>
-    <unit id="7bb336cc-7c04-4f5a-8200-1af0fb0a357c">
+    <unit id="05d116da-4e43-4247-ad0a-42e2847da524">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: *	</note>
@@ -106,7 +107,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Report Symbols settings: Allows to set preferences for the speaking of typed symbols.</target>
       </segment>
     </unit>
-    <unit id="7300f297-05a8-4901-a53d-f69222aff9c0">
+    <unit id="51b110a8-e727-4f1b-9145-6343c2cac093">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
@@ -115,7 +116,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.</target>
       </segment>
     </unit>
-    <unit id="f7657ce1-6de9-453e-85e3-c0e4c7656417">
+    <unit id="8bf996cf-fe7d-447a-be6b-c8205d66ba51">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: ## </note>
@@ -125,7 +126,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Exclude symbols</target>
       </segment>
     </unit>
-    <unit id="73bbeef4-2616-4e2c-86b0-6b54692d591e">
+    <unit id="e72707e3-ebaa-4f30-9fe1-e6ad5b50d81c">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
@@ -134,7 +135,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.</target>
       </segment>
     </unit>
-    <unit id="85654def-3dd2-4489-8683-b894d494e6c9">
+    <unit id="c6c86fab-ed41-4aa4-989e-d86f008cf68e">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: ## </note>
@@ -144,7 +145,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 29.0.0</target>
       </segment>
     </unit>
-    <unit id="5ecc432b-9162-4dc1-873a-3d2cab88d031">
+    <unit id="0db0ce78-1b99-49c6-a251-b6686e4de2c4">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
@@ -154,7 +155,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Added ability to assing gestures to exclude or include symbols to be reported when typing.</target>
       </segment>
     </unit>
-    <unit id="1ae7fc9a-e5e4-450a-b953-223ea6cb5b74">
+    <unit id="932f768e-b351-4349-a9de-2f42096054f7">
       <notes>
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: ## </note>
@@ -164,7 +165,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 8.0</target>
       </segment>
     </unit>
-    <unit id="0e35a96c-a2ce-46d8-9a5a-36e6f7ace430">
+    <unit id="35c80022-1b5f-4169-b50a-dca20fab7ce9">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
@@ -174,7 +175,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Compatible with NVDA 2023.1.</target>
       </segment>
     </unit>
-    <unit id="28371c8a-5478-4eeb-810c-fa339ba011d9">
+    <unit id="5cf4fbc1-2ce4-4a65-9e3d-c9daaaaf9569">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: ## </note>
@@ -184,7 +185,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 7.0</target>
       </segment>
     </unit>
-    <unit id="626e98de-defe-4b03-ac94-42d0cd7fa460">
+    <unit id="6f48808c-d770-4802-9701-1fe707bc4d5c">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
@@ -194,7 +195,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Compatible with NVDA 2022.1.</target>
       </segment>
     </unit>
-    <unit id="ed534f4a-da0d-4b3d-a5d5-b3d4267302be">
+    <unit id="3b9e2d5e-42a9-4c12-9e84-b46507b909e9">
       <notes>
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: ## </note>
@@ -204,7 +205,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 6.0</target>
       </segment>
     </unit>
-    <unit id="abd5e7f8-1935-420e-957f-ad3cd4978b19">
+    <unit id="4fd39b5d-f3f6-438c-92b3-19b999161121">
       <notes>
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
@@ -214,7 +215,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Compatible with NVDA 2021.1.</target>
       </segment>
     </unit>
-    <unit id="27304df4-1856-4444-8761-40bc5b388544">
+    <unit id="e21e933c-ee0a-4810-9ec5-ffdc470e3bb2">
       <notes>
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: ## </note>
@@ -224,7 +225,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 5.0 ##</target>
       </segment>
     </unit>
-    <unit id="9f434456-b5f0-45a5-963f-0d7e760bd9f0">
+    <unit id="7c93d0bf-37b7-4263-b789-c35474accf00">
       <notes>
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: *	</note>
@@ -234,7 +235,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Requires NVDA 2019.3 or later.</target>
       </segment>
     </unit>
-    <unit id="d064953e-22de-4d64-94e1-9fa2c2d17a3e">
+    <unit id="2e309e90-79b2-4b70-b9a1-183a8d8c68bf">
       <notes>
         <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: ## </note>
@@ -244,7 +245,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 4.0 ##</target>
       </segment>
     </unit>
-    <unit id="696b2983-9449-4401-b79e-d44f208df14b">
+    <unit id="594b0694-5cf8-46e7-94bf-ab939593b927">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
@@ -254,7 +255,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>The add-on settings are shown in the corresponding category of the NVDA Settings dialog.</target>
       </segment>
     </unit>
-    <unit id="2d62cabb-4038-49e2-8cf2-85777a2db41a">
+    <unit id="50138145-acc7-45bb-a2db-5fe7c0428a2e">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
@@ -264,7 +265,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Requires NVDA 2018.2 or later.</target>
       </segment>
     </unit>
-    <unit id="dffa8396-b6c7-4d0b-a2af-414146a3dd90">
+    <unit id="69412aee-f94f-4df4-aea1-598b8817028f">
       <notes>
         <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: ## </note>
@@ -274,7 +275,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 3.0 ##</target>
       </segment>
     </unit>
-    <unit id="795b8af3-94a1-456f-894f-50818ad4b35c">
+    <unit id="ab237a60-aa8a-4c6a-9b37-d3cc5c1a2d20">
       <notes>
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: * </note>
@@ -284,7 +285,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Added checkboxes for the speaking of spaces, carriage returns and other blank characters.</target>
       </segment>
     </unit>
-    <unit id="3d4acec7-9b42-417b-8bb0-ae61f7be8ea1">
+    <unit id="20143987-76a7-4a8a-85c0-41197f337e26">
       <notes>
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: ## </note>
@@ -294,7 +295,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 2.0 ##</target>
       </segment>
     </unit>
-    <unit id="464ae4fb-74a2-4dfc-afb2-fccec3d46d8c">
+    <unit id="825962b0-4c7c-476d-babd-7c8cfc6726c2">
       <notes>
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: *	</note>
@@ -304,7 +305,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>The visual presentation of the dialog has been enhanced, adhering to the appearance of the dialogs shown in NVDA.</target>
       </segment>
     </unit>
-    <unit id="9d06a18d-6d01-431e-8cce-302c8309d594">
+    <unit id="a6059fd7-eebf-4c7a-9c2e-b05e591af24b">
       <notes>
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: *	</note>
@@ -314,7 +315,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Requires NVDA 2016.4 or later.</target>
       </segment>
     </unit>
-    <unit id="e4114029-e50e-44ac-a315-8385121b7692">
+    <unit id="764dd5a3-a95a-468c-825c-453c62a6e8f5">
       <notes>
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: ## </note>
@@ -324,7 +325,7 @@ $(ID:73bbeef4-2616-4e2c-86b0-6b54692d591e)
         <target>Changes for 1.0 ##</target>
       </segment>
     </unit>
-    <unit id="57da05e5-5897-4cf0-9199-a2a2f80584bd">
+    <unit id="50ac50a6-d14a-4f1f-9ca6-f50df9a70950">
       <notes>
         <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: *	</note>

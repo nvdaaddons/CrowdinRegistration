@@ -1,77 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="da">
-  <file id="systrayList.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/systrayList/systrayList.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/ruifontes/systrayList/08fb3160b6474bbe61cba2cd284787e46c2c5694/readme.md">
     <skeleton>
-# $(ID:da7e3c63-0866-4c2c-8df1-ed3160603cce)
+# $(ID:1218f577-8dfd-4b30-b8d9-e9ff25016520)
 
-*   $(ID:96dd6819-4fb7-4573-994e-2c1ffe1faa09)
-*   $(ID:44e13f16-8c7e-43dc-9841-601dac0884aa)
-* $(ID:f6f279b1-6e7b-4f46-8c69-c1c78c89df9b)
+*   $(ID:98c78c26-9de6-4b8e-be35-7fe61c864a9b)
+*   $(ID:42420a77-eb73-42ae-a9c4-708fab5b0dff)
+* $(ID:173c8e5e-f47e-425a-a822-28e035a1dcc2)
 
-$(ID:e9d17125-8041-48dd-b880-1efc63da1339)
+$(ID:41f71800-7592-49f4-9137-a10ec947cddd)
 
-$(ID:33abd30a-a0d9-4b1a-9c88-bb2392e852a0)
+$(ID:6a4eee6f-9e99-4363-887c-422914c22d66)
 
-## $(ID:eec1058a-8163-4da4-bf45-0adc6ba3d37c)
+## $(ID:8f98e045-52ed-4eef-a370-0788d2e7ce1d)
 
-* $(ID:0758c6e8-9480-43b7-b79e-8ef98ce71ab7)
-* $(ID:17ede025-24dd-48b1-917a-ccbb0e1e42d9)
-* $(ID:86f69164-1217-4e03-8e7d-5cb23a40ffa8)
-* $(ID:07bfa7c1-93d9-4d85-87a1-d1c304a82c20)
+* $(ID:253f4452-f1d2-422f-974f-8715d53805c7)
+* $(ID:2985e94f-e3f7-475e-aeaf-3b0236541f3d)
+* $(ID:a18797b7-bb30-40c4-b8ec-93863dbb9f0d)
+* $(ID:88c40f4d-7548-4043-829a-6ba0d2c78dee)
 
-## $(ID:f716a680-f839-409a-9d47-653ec64e7e86)
+## $(ID:3567dffd-8f2c-47b4-8f53-0527ec0f5a1a)
 
-* $(ID:63926829-78f6-402f-9f86-8d330df3e796)
+* $(ID:c7cce3a2-3642-4f5a-8dcd-1b17774bd984)
 
-## $(ID:5095ed10-9683-4f22-a3e1-a94561ae373a)
+## $(ID:de291d8d-44a9-4db8-8c0a-73a09737fe4b)
 
-* $(ID:67d61174-c8e2-41bf-91a1-2870a3fcad37)
+* $(ID:aabbcd94-f70d-4ff4-b84b-4f7e57cc3409)
 
-## $(ID:c3d8ece1-1aa7-4aa6-ad98-5727549a2d4e)
+## $(ID:4b8aa99c-b929-4950-9e26-5204da0e4680)
 
-$(ID:24f7ed74-af8f-4010-a5c8-d5ce8b1ebb20)
+$(ID:ceaa8853-3dc1-4314-b4c2-e546019640f6)
 
-* $(ID:5460417f-8825-4b5b-8d4c-b7761855214e)
+* $(ID:e22c7a95-6328-4bee-bd8c-428604276b23)
 
-## $(ID:3420de1a-cfa6-4a48-8c15-008c7932bf34)
+## $(ID:d6fdef4b-2779-45d9-a013-2f959acc7669)
 
-* $(ID:78394014-5474-4e87-894b-611b5b48d8f3)
-* $(ID:bf98968c-87b8-405b-acdd-4a18967aed7e)
-* $(ID:3d8febfb-691d-4da6-bba5-36cd8906938c)
+* $(ID:309c86c7-a1ea-4a32-9cf2-9819e9e0778d)
+* $(ID:88adea9d-662b-45ef-ae5b-0a30c3820b26)
+* $(ID:b3baa49f-570b-4af1-9a50-c507cc37ce23)
 
-## $(ID:07d20543-1087-44c7-a26c-edc34fe80e8a)
+## $(ID:3dba7e66-822c-48d3-8956-8356a594762f)
 
-* $(ID:ba97735d-561e-40d6-b665-95f1213b8785)
-* $(ID:a33cbbd0-0094-4f86-8531-efd90c6e8066)
-* $(ID:4b2962ae-f073-4a41-a70b-5305f328030e)
+* $(ID:150d602a-3568-4e84-b55b-7fd3b62b6642)
+* $(ID:9a5bffb1-315d-456d-bc10-e7fa82ae7a02)
+* $(ID:d8b13d2e-21c8-4242-a239-0825aebc1617)
 
-## $(ID:93a0a9e6-5a77-4b2e-963a-b18b436daa6d)
+## $(ID:236bbbfb-8c3d-4565-8dc4-e4e9d4360699)
 
-* $(ID:7ea9d3ea-8492-4d65-96ff-138074711b4a)
-* $(ID:18e0d56e-d293-415f-ada4-ba4fbf776948)
-* $(ID:c5bc8073-466f-4b36-915a-ec57419b2981)
-* $(ID:0942adba-21bb-407c-bbfe-ae78233bfdd1)
+* $(ID:df60d185-00ad-479b-bf40-18e43de78826)
+* $(ID:b3818386-a2df-4b97-a926-b838e0f989de)
+* $(ID:ca1bb251-d32e-431f-b15e-534e6a61cfd9)
+* $(ID:42380bee-570a-4dd0-93d6-d000df198b92)
 
-## $(ID:d9576f72-354d-4c8d-9a5c-980d0e7a6db3)
+## $(ID:7fc7db74-350b-4d84-bdf4-02ac20f310ad)
 
-* $(ID:838f14b7-455b-4643-afb3-7f0db7fa7a90)
-* $(ID:f42f968e-61f0-4070-8b88-e661a7716ebd)
+* $(ID:73d4e30d-ae04-47dd-afa7-b5008b362293)
+* $(ID:912a2ccc-5d81-45e3-8bfb-71aa34238f89)
 
-## $(ID:267c6381-a8ca-4c50-9556-9f0badc44e98)
+## $(ID:bffd1272-40ba-4184-9ac7-7bd1f2b8039f)
 
-* $(ID:43fc9328-575f-48e8-9fa6-4290dd48d23d)
+* $(ID:ea11f98a-39d0-435a-b0d5-fc229e035b5f)
 
-## $(ID:a4519026-3286-445a-920e-3a54742d8b4e)
+## $(ID:75d0e5f1-72fc-486f-966c-ebf242ea1c61)
 
-* $(ID:f4f12f3d-9804-43e9-9610-cded2f98a93c)
+* $(ID:d3827d36-7e9b-459e-bd68-07672c205369)
 
-## $(ID:66ae4a57-7884-47c4-94a9-3855a7e8cd63)
+## $(ID:79744330-09dd-4bdd-b389-3ad1ac9b8744)
 
-* $(ID:34a02078-d82c-434f-b3ee-79e2b67e3022)
+* $(ID:d86b7259-c2a4-4493-a56d-dba82edc118b)
 
-$(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
+$(ID:a58a2200-464a-4e11-9467-b2601d0f968c)
+
+
 </skeleton>
-    <unit id="da7e3c63-0866-4c2c-8df1-ed3160603cce">
+    <unit id="1218f577-8dfd-4b30-b8d9-e9ff25016520">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -81,7 +83,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>systrayList #</target>
       </segment>
     </unit>
-    <unit id="96dd6819-4fb7-4573-994e-2c1ffe1faa09">
+    <unit id="98c78c26-9de6-4b8e-be35-7fe61c864a9b">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: *   </note>
@@ -91,7 +93,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors</target>
       </segment>
     </unit>
-    <unit id="44e13f16-8c7e-43dc-9841-601dac0884aa">
+    <unit id="42420a77-eb73-42ae-a9c4-708fab5b0dff">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: *   </note>
@@ -101,7 +103,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Download [stable version][1]</target>
       </segment>
     </unit>
-    <unit id="f6f279b1-6e7b-4f46-8c69-c1c78c89df9b">
+    <unit id="173c8e5e-f47e-425a-a822-28e035a1dcc2">
       <notes>
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
@@ -111,7 +113,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>NVDA compatibility: 2019.3 and beyond</target>
       </segment>
     </unit>
-    <unit id="e9d17125-8041-48dd-b880-1efc63da1339">
+    <unit id="41f71800-7592-49f4-9137-a10ec947cddd">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
@@ -120,7 +122,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>This add-on allows you to read and activate icons on the system tray or the task bar, within a list box, for easy access and interaction to those items. With the add-on installed, press NVDA+f11 once for this dialog to pop-up with system tray elements, and press twice to display task bar elements, which are the currently running applications.</target>
       </segment>
     </unit>
-    <unit id="33abd30a-a0d9-4b1a-9c88-bb2392e852a0">
+    <unit id="6a4eee6f-9e99-4363-887c-422914c22d66">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
@@ -129,7 +131,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Note that you can access the windows system tray in any screen reader software using the Windows+B, and the task bar by pressing Windows+T. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.</target>
       </segment>
     </unit>
-    <unit id="eec1058a-8163-4da4-bf45-0adc6ba3d37c">
+    <unit id="8f98e045-52ed-4eef-a370-0788d2e7ce1d">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: ## </note>
@@ -139,7 +141,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 4.0 2020-01-03 ##</target>
       </segment>
     </unit>
-    <unit id="0758c6e8-9480-43b7-b79e-8ef98ce71ab7">
+    <unit id="253f4452-f1d2-422f-974f-8715d53805c7">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: * </note>
@@ -149,7 +151,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Requires NVDA 2019.3 or later.</target>
       </segment>
     </unit>
-    <unit id="17ede025-24dd-48b1-917a-ccbb0e1e42d9">
+    <unit id="2985e94f-e3f7-475e-aeaf-3b0236541f3d">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
@@ -159,7 +161,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>No more support for Windows versions earlier than Windows 7 Service Pack 1.</target>
       </segment>
     </unit>
-    <unit id="86f69164-1217-4e03-8e7d-5cb23a40ffa8">
+    <unit id="a18797b7-bb30-40c4-b8ec-93863dbb9f0d">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
@@ -169,7 +171,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Add-on has been renamed to "SysTrayList".</target>
       </segment>
     </unit>
-    <unit id="07bfa7c1-93d9-4d85-87a1-d1c304a82c20">
+    <unit id="88c40f4d-7548-4043-829a-6ba0d2c78dee">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
@@ -179,7 +181,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Donation request dialog will no longer appear when installing or updating the add-on.</target>
       </segment>
     </unit>
-    <unit id="f716a680-f839-409a-9d47-653ec64e7e86">
+    <unit id="3567dffd-8f2c-47b4-8f53-0527ec0f5a1a">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: ## </note>
@@ -189,7 +191,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 3.2 2018-12-24 ##</target>
       </segment>
     </unit>
-    <unit id="63926829-78f6-402f-9f86-8d330df3e796">
+    <unit id="c7cce3a2-3642-4f5a-8dcd-1b17774bd984">
       <notes>
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
@@ -199,7 +201,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>More code changes to support Python 3.</target>
       </segment>
     </unit>
-    <unit id="5095ed10-9683-4f22-a3e1-a94561ae373a">
+    <unit id="de291d8d-44a9-4db8-8c0a-73a09737fe4b">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: ## </note>
@@ -209,7 +211,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 3.1 2018-11-24 ##</target>
       </segment>
     </unit>
-    <unit id="67d61174-c8e2-41bf-91a1-2870a3fcad37">
+    <unit id="aabbcd94-f70d-4ff4-b84b-4f7e57cc3409">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
@@ -219,7 +221,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Internal changes to support future NVDA releases.</target>
       </segment>
     </unit>
-    <unit id="c3d8ece1-1aa7-4aa6-ad98-5727549a2d4e">
+    <unit id="4b8aa99c-b929-4950-9e26-5204da0e4680">
       <notes>
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: ## </note>
@@ -229,7 +231,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 3.0 2018-10-25 ##</target>
       </segment>
     </unit>
-    <unit id="24f7ed74-af8f-4010-a5c8-d5ce8b1ebb20">
+    <unit id="ceaa8853-3dc1-4314-b4c2-e546019640f6">
       <notes>
         <note appliesTo="source">line: 29</note>
       </notes>
@@ -238,7 +240,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.</target>
       </segment>
     </unit>
-    <unit id="5460417f-8825-4b5b-8d4c-b7761855214e">
+    <unit id="e22c7a95-6328-4bee-bd8c-428604276b23">
       <notes>
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
@@ -248,7 +250,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Add-on is Python 3 compatible.</target>
       </segment>
     </unit>
-    <unit id="3420de1a-cfa6-4a48-8c15-008c7932bf34">
+    <unit id="d6fdef4b-2779-45d9-a013-2f959acc7669">
       <notes>
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: ## </note>
@@ -258,7 +260,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 2.0 2017-05-20 ##</target>
       </segment>
     </unit>
-    <unit id="78394014-5474-4e87-894b-611b5b48d8f3">
+    <unit id="309c86c7-a1ea-4a32-9cf2-9819e9e0778d">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
@@ -268,7 +270,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Systray/taskbar dialog is now centered on screen.</target>
       </segment>
     </unit>
-    <unit id="bf98968c-87b8-405b-acdd-4a18967aed7e">
+    <unit id="88adea9d-662b-45ef-ae5b-0a30c3820b26">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
@@ -278,7 +280,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Fixed various user interface issues.</target>
       </segment>
     </unit>
-    <unit id="3d8febfb-691d-4da6-bba5-36cd8906938c">
+    <unit id="b3baa49f-570b-4af1-9a50-c507cc37ce23">
       <notes>
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: * </note>
@@ -288,7 +290,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>New and updated translations.</target>
       </segment>
     </unit>
-    <unit id="07d20543-1087-44c7-a26c-edc34fe80e8a">
+    <unit id="3dba7e66-822c-48d3-8956-8356a594762f">
       <notes>
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: ## </note>
@@ -298,7 +300,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 1.5 2015-mm-dd ##</target>
       </segment>
     </unit>
-    <unit id="ba97735d-561e-40d6-b665-95f1213b8785">
+    <unit id="150d602a-3568-4e84-b55b-7fd3b62b6642">
       <notes>
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
@@ -308,7 +310,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Corrected left/right click action.</target>
       </segment>
     </unit>
-    <unit id="a33cbbd0-0094-4f86-8531-efd90c6e8066">
+    <unit id="9a5bffb1-315d-456d-bc10-e7fa82ae7a02">
       <notes>
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
@@ -318,7 +320,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Add-on help is now available from add-ons manger.</target>
       </segment>
     </unit>
-    <unit id="4b2962ae-f073-4a41-a70b-5305f328030e">
+    <unit id="d8b13d2e-21c8-4242-a239-0825aebc1617">
       <notes>
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
@@ -328,7 +330,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Translation updates.</target>
       </segment>
     </unit>
-    <unit id="93a0a9e6-5a77-4b2e-963a-b18b436daa6d">
+    <unit id="236bbbfb-8c3d-4565-8dc4-e4e9d4360699">
       <notes>
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: ## </note>
@@ -338,7 +340,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 1.4 - 2013-01-19 ##</target>
       </segment>
     </unit>
-    <unit id="7ea9d3ea-8492-4d65-96ff-138074711b4a">
+    <unit id="df60d185-00ad-479b-bf40-18e43de78826">
       <notes>
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
@@ -348,7 +350,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Requires NVDA 2012.3beta2 or greater.</target>
       </segment>
     </unit>
-    <unit id="18e0d56e-d293-415f-ada4-ba4fbf776948">
+    <unit id="b3818386-a2df-4b97-a926-b838e0f989de">
       <notes>
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: * </note>
@@ -358,7 +360,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Add donation request to installation procedure</target>
       </segment>
     </unit>
-    <unit id="c5bc8073-466f-4b36-915a-ec57419b2981">
+    <unit id="ca1bb251-d32e-431f-b15e-534e6a61cfd9">
       <notes>
         <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: * </note>
@@ -368,7 +370,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Implemented taskbar support</target>
       </segment>
     </unit>
-    <unit id="0942adba-21bb-407c-bbfe-ae78233bfdd1">
+    <unit id="42380bee-570a-4dd0-93d6-d000df198b92">
       <notes>
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
@@ -378,7 +380,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong.</target>
       </segment>
     </unit>
-    <unit id="d9576f72-354d-4c8d-9a5c-980d0e7a6db3">
+    <unit id="7fc7db74-350b-4d84-bdf4-02ac20f310ad">
       <notes>
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
@@ -388,7 +390,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 1.3 - 2012-05-25 ##</target>
       </segment>
     </unit>
-    <unit id="838f14b7-455b-4643-afb3-7f0db7fa7a90">
+    <unit id="73d4e30d-ae04-47dd-afa7-b5008b362293">
       <notes>
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: * </note>
@@ -398,7 +400,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Converted to an add-on package</target>
       </segment>
     </unit>
-    <unit id="f42f968e-61f0-4070-8b88-e661a7716ebd">
+    <unit id="912a2ccc-5d81-45e3-8bfb-71aa34238f89">
       <notes>
         <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
@@ -408,7 +410,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>French and Turkish Translations.</target>
       </segment>
     </unit>
-    <unit id="267c6381-a8ca-4c50-9556-9f0badc44e98">
+    <unit id="bffd1272-40ba-4184-9ac7-7bd1f2b8039f">
       <notes>
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: ## </note>
@@ -418,7 +420,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for  1.2 - 2012-04.25 ##</target>
       </segment>
     </unit>
-    <unit id="43fc9328-575f-48e8-9fa6-4290dd48d23d">
+    <unit id="ea11f98a-39d0-435a-b0d5-fc229e035b5f">
       <notes>
         <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
@@ -428,7 +430,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Spanish and German translations. Thanks to all that contributed.</target>
       </segment>
     </unit>
-    <unit id="a4519026-3286-445a-920e-3a54742d8b4e">
+    <unit id="75d0e5f1-72fc-486f-966c-ebf242ea1c61">
       <notes>
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: ## </note>
@@ -438,7 +440,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 1.1 - 2012-03-20 ##</target>
       </segment>
     </unit>
-    <unit id="f4f12f3d-9804-43e9-9610-cded2f98a93c">
+    <unit id="d3827d36-7e9b-459e-bd68-07672c205369">
       <notes>
         <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
@@ -448,7 +450,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Corrected a bug that was making it impossible to use the plugin when a gettext translation is not available</target>
       </segment>
     </unit>
-    <unit id="66ae4a57-7884-47c4-94a9-3855a7e8cd63">
+    <unit id="79744330-09dd-4bdd-b389-3ad1ac9b8744">
       <notes>
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: ## </note>
@@ -458,7 +460,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Changes for 1.0 - 2012-03-19 ##</target>
       </segment>
     </unit>
-    <unit id="34a02078-d82c-434f-b3ee-79e2b67e3022">
+    <unit id="d86b7259-c2a4-4493-a56d-dba82edc118b">
       <notes>
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
@@ -468,7 +470,7 @@ $(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
         <target>Initial Release</target>
       </segment>
     </unit>
-    <unit id="c8523a09-3e57-4e12-8fb8-4193c25ac945">
+    <unit id="a58a2200-464a-4e11-9467-b2601d0f968c">
       <notes>
         <note appliesTo="source">line: 69</note>
       </notes>

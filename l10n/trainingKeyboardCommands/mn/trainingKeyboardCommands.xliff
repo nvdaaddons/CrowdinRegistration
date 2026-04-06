@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="mn">
+  <file id="readme.md" original="https://raw.githubusercontent.com/ibrahim-s/trainingNvdaCommands/8f38882931fa7d9898d79e72746533d5af662180/readme.md">
+    <skeleton>
+# $(ID:49e89ca6-3b5f-4764-abdc-fd11103e5587)
+
+*	$(ID:13156765-8f2d-4684-a4c1-3dc36a84b86b)
+*	$(ID:84933fab-ab1c-4f05-b8ad-b6b50c36eb0b)
+*	$(ID:77d26820-275a-44bd-8960-3759a8cb851e)
+*	$(ID:35b7fdd4-0851-4591-8587-7a26cbc7e8a2)
+*	$(ID:2cc1d5f2-5939-4260-9d0d-ab782d2f5141)
+*	$(ID:e9998d67-c38f-4a61-b996-24f4a3125130)
+*	$(ID:50d26fbc-9212-44cb-a4a2-14ab51a9e001)
+
+$(ID:418de906-ad5e-4b80-ba95-fd76aca12337)
+$(ID:e4c0e34c-d71c-4977-8285-2691ed8a6e5f)
+$(ID:ba49dc80-374c-410a-913e-284e323c2857)
+$(ID:3e4e018d-f60a-40ce-a741-400f90b08f86)
+$(ID:17fd6b67-493f-45f9-91ea-695e6d0a6e3e)
+$(ID:b0e06f7a-af41-41ea-a832-5da3fb930cdf)
+
+## $(ID:978f34e1-7bb1-4603-8e17-0b56afd12a75)
+
+*	$(ID:d6dc1239-aa86-4402-8ad1-88ba79c91021)
+*	$(ID:9d88c5b0-7ede-49c9-a7cc-b2cf6dfa03ff)
+*	$(ID:12315352-3104-4c6c-96c7-6f315833e644)
+*	$(ID:1b04bd05-68a4-4638-8b19-f9167207636e)
+*	$(ID:ea9aabe0-a730-4ccd-8fef-3e95089bfb2b)
+*	$(ID:6d6d75fa-94d8-4742-ab9d-10290a0342f6)
+*	$(ID:f8f72508-1247-49f5-8124-bb63497dd194)
+
+### $(ID:cf328698-68ec-4fe1-b630-6929a4e05de2)
+
+*	$(ID:1bd9747a-f80f-4c3d-94d9-909bc2acd854)
+*	$(ID:a9b66f55-d28f-4f9b-9f7c-6bee3d2b9d2d)
+
+### $(ID:54d49a39-b062-437c-b9e5-69ef7b22c7d8)
+
+*	$(ID:5fe10176-f987-4229-b77a-e00ae9ccc402)
+*	$(ID:53126c95-143a-46c2-9b9e-802ff1757bb3)
+*	$(ID:ebc83bd0-07ff-4100-946f-e5fff1a4de4e)
+
+### $(ID:08252b38-8a69-49cf-8aac-74079048c089)
+
+*	$(ID:87d89ac5-9f92-4ac5-a5d8-329e03ad25cd)
+
+### $(ID:5d0b1ee0-36a7-4c24-b1fe-a3c652cbe496)
+
+*	$(ID:c099949d-eef4-4d76-b133-6ce0b54e3c8b)
+*	$(ID:06790fa3-b2ac-4347-9685-7d56e38a0530)
+
+### $(ID:fa6e74fd-18a8-47fe-9874-dc32974eb419)
+
+*	$(ID:3181b26b-99cf-4efe-a537-0e245c029fb6)
+*	$(ID:a2a8b34c-7f8e-4476-9632-d6b6dae7d349)
+
+### $(ID:56562a17-0e6c-4315-86b0-3e032402128c)
+
+*	$(ID:2b16ca17-be49-48f5-a847-73e759099991)
+
+### $(ID:6aa1dfd8-60fc-4b55-b5ef-1b8513f1d33c)
+
+*	$(ID:659637f8-3c0b-4d42-92db-84c757a874e5)
+
+$(ID:a452f81b-0f5a-468f-8491-95fd34cab1b5)
+
+$(ID:e2399837-d0c8-43b4-b675-c9ad7c36d0be)
+
+$(ID:e6387dfa-93d1-467b-9fe3-03efe6313722)
+
+</skeleton>
+    <unit id="49e89ca6-3b5f-4764-abdc-fd11103e5587">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="initial">
+        <source>Training Keyboard commands #</source>
+        <target>Training Keyboard commands #</target>
+      </segment>
+    </unit>
+    <unit id="13156765-8f2d-4684-a4c1-3dc36a84b86b">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Author: Ibrahim Hamadeh</source>
+        <target>Author: Ibrahim Hamadeh</target>
+      </segment>
+    </unit>
+    <unit id="84933fab-ab1c-4f05-b8ad-b6b50c36eb0b">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Contributors: cary rowen</source>
+        <target>Contributors: cary rowen</target>
+      </segment>
+    </unit>
+    <unit id="77d26820-275a-44bd-8960-3759a8cb851e">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Download [stable version][1]</source>
+        <target>Download [stable version][1]</target>
+      </segment>
+    </unit>
+    <unit id="35b7fdd4-0851-4591-8587-7a26cbc7e8a2">
+      <notes>
+        <note appliesTo="source">line: 7</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Download [development version][2]</source>
+        <target>Download [development version][2]</target>
+      </segment>
+    </unit>
+    <unit id="2cc1d5f2-5939-4260-9d0d-ab782d2f5141">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA compatibility: 2019.3 to 2019.4</source>
+        <target>NVDA compatibility: 2019.3 to 2019.4</target>
+      </segment>
+    </unit>
+    <unit id="e9998d67-c38f-4a61-b996-24f4a3125130">
+      <notes>
+        <note appliesTo="source">line: 9</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Python compatibility: Python3 only</source>
+        <target>Python compatibility: Python3 only</target>
+      </segment>
+    </unit>
+    <unit id="50d26fbc-9212-44cb-a4a2-14ab51a9e001">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>For previous versions of NVDA, please use this [Link][3]</source>
+        <target>For previous versions of NVDA, please use this [Link][3]</target>
+      </segment>
+    </unit>
+    <unit id="418de906-ad5e-4b80-ba95-fd76aca12337">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+      </notes>
+      <segment state="initial">
+        <source>This addon is aimed to train NVDA commands in a game like way, for either keyboard layout modes</source>
+        <target>This addon is aimed to train NVDA commands in a game like way, for either keyboard layout modes</target>
+      </segment>
+    </unit>
+    <unit id="e4c0e34c-d71c-4977-8285-2691ed8a6e5f">
+      <notes>
+        <note appliesTo="source">line: 13</note>
+      </notes>
+      <segment state="initial">
+        <source>desktop or laptop layout</source>
+        <target>desktop or laptop layout</target>
+      </segment>
+    </unit>
+    <unit id="ba49dc80-374c-410a-913e-284e323c2857">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+      </notes>
+      <segment state="initial">
+        <source>All commands data is scraped from keyCommands.html file in locale documentation folder in NVDA.</source>
+        <target>All commands data is scraped from keyCommands.html file in locale documentation folder in NVDA.</target>
+      </segment>
+    </unit>
+    <unit id="3e4e018d-f60a-40ce-a741-400f90b08f86">
+      <notes>
+        <note appliesTo="source">line: 15</note>
+      </notes>
+      <segment state="initial">
+        <source>This addon does not have any default gesture or shortcut</source>
+        <target>This addon does not have any default gesture or shortcut</target>
+      </segment>
+    </unit>
+    <unit id="17fd6b67-493f-45f9-91ea-695e6d0a6e3e">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+      </notes>
+      <segment state="initial">
+        <source>You have to assign a specific gesture to it via:</source>
+        <target>You have to assign a specific gesture to it via:</target>
+      </segment>
+    </unit>
+    <unit id="b0e06f7a-af41-41ea-a832-5da3fb930cdf">
+      <notes>
+        <note appliesTo="source">line: 17</note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA menu&gt;preferences&gt;inputGestures&gt;trainingKeyboardCommands.</source>
+        <target>NVDA menu&gt;preferences&gt;inputGestures&gt;trainingKeyboardCommands.</target>
+      </segment>
+    </unit>
+    <unit id="978f34e1-7bb1-4603-8e17-0b56afd12a75">
+      <notes>
+        <note appliesTo="source">line: 19</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Usage ##</source>
+        <target>Usage ##</target>
+      </segment>
+    </unit>
+    <unit id="d6dc1239-aa86-4402-8ad1-88ba79c91021">
+      <notes>
+        <note appliesTo="source">line: 21</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>you choose the keyboard layout mode you want to train, and begin play</source>
+        <target>you choose the keyboard layout mode you want to train, and begin play</target>
+      </segment>
+    </unit>
+    <unit id="9d88c5b0-7ede-49c9-a7cc-b2cf6dfa03ff">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>a question or command and it's description will be displayed, and you have to pick the right related keys or answer</source>
+        <target>a question or command and it's description will be displayed, and you have to pick the right related keys or answer</target>
+      </segment>
+    </unit>
+    <unit id="12315352-3104-4c6c-96c7-6f315833e644">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>if you have chose the right answer, your score wi be added one point</source>
+        <target>if you have chose the right answer, your score wi be added one point</target>
+      </segment>
+    </unit>
+    <unit id="1b04bd05-68a4-4638-8b19-f9167207636e">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>if the answer was wrong, the score will not change, and go on with no loose</source>
+        <target>if the answer was wrong, the score will not change, and go on with no loose</target>
+      </segment>
+    </unit>
+    <unit id="ea9aabe0-a730-4ccd-8fef-3e95089bfb2b">
+      <notes>
+        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>at any time if you want to exit, you will be asked if you want to save the remaining questions for next round</source>
+        <target>at any time if you want to exit, you will be asked if you want to save the remaining questions for next round</target>
+      </segment>
+    </unit>
+    <unit id="6d6d75fa-94d8-4742-ab9d-10290a0342f6">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>if in later time you choose a layout wit saved questions, you will be asked if you want to resume the remaining questions from previous round</source>
+        <target>if in later time you choose a layout wit saved questions, you will be asked if you want to resume the remaining questions from previous round</target>
+      </segment>
+    </unit>
+    <unit id="f8f72508-1247-49f5-8124-bb63497dd194">
+      <notes>
+        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>answering all questions, about 88 for each layout, you will be declared a winner deserving NVDA cup.</source>
+        <target>answering all questions, about 88 for each layout, you will be declared a winner deserving NVDA cup.</target>
+      </segment>
+    </unit>
+    <unit id="cf328698-68ec-4fe1-b630-6929a4e05de2">
+      <notes>
+        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 2.4 ###</source>
+        <target>Changes for 2.4 ###</target>
+      </segment>
+    </unit>
+    <unit id="1bd9747a-f80f-4c3d-94d9-909bc2acd854">
+      <notes>
+        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Added simplified Chinese translation.</source>
+        <target>Added simplified Chinese translation.</target>
+      </segment>
+    </unit>
+    <unit id="a9b66f55-d28f-4f9b-9f7c-6bee3d2b9d2d">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Added new translatable strings.</source>
+        <target>Added new translatable strings.</target>
+      </segment>
+    </unit>
+    <unit id="54d49a39-b062-437c-b9e5-69ef7b22c7d8">
+      <notes>
+        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 2.3 ###</source>
+        <target>Changes for 2.3 ###</target>
+      </segment>
+    </unit>
+    <unit id="5fe10176-f987-4229-b77a-e00ae9ccc402">
+      <notes>
+        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Change sounds for various events with shorter sounds,makes possible to remove the sleeping time after the sound.</source>
+        <target>Change sounds for various events with shorter sounds,makes possible to remove the sleeping time after the sound.</target>
+      </segment>
+    </unit>
+    <unit id="53126c95-143a-46c2-9b9e-802ff1757bb3">
+      <notes>
+        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>use latest version of NVDA addon template.</source>
+        <target>use latest version of NVDA addon template.</target>
+      </segment>
+    </unit>
+    <unit id="ebc83bd0-07ff-4100-946f-e5fff1a4de4e">
+      <notes>
+        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>If the command is displayed as 'None' meaning unassigned, change it to 'Unassigned'.</source>
+        <target>If the command is displayed as 'None' meaning unassigned, change it to 'Unassigned'.</target>
+      </segment>
+    </unit>
+    <unit id="08252b38-8a69-49cf-8aac-74079048c089">
+      <notes>
+        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 2.1 ###</source>
+        <target>Changes for 2.1 ###</target>
+      </segment>
+    </unit>
+    <unit id="87d89ac5-9f92-4ac5-a5d8-329e03ad25cd">
+      <notes>
+        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Add Russian translation.</source>
+        <target>Add Russian translation.</target>
+      </segment>
+    </unit>
+    <unit id="5d0b1ee0-36a7-4c24-b1fe-a3c652cbe496">
+      <notes>
+        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 2.0 ###</source>
+        <target>Changes for 2.0 ###</target>
+      </segment>
+    </unit>
+    <unit id="c099949d-eef4-4d76-b133-6ce0b54e3c8b">
+      <notes>
+        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Make the addon compatible with python3 only.</source>
+        <target>Make the addon compatible with python3 only.</target>
+      </segment>
+    </unit>
+    <unit id="06790fa3-b2ac-4347-9685-7d56e38a0530">
+      <notes>
+        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Change index of scraped tables to accomodate with the changes in keyCommands.html file.</source>
+        <target>Change index of scraped tables to accomodate with the changes in keyCommands.html file.</target>
+      </segment>
+    </unit>
+    <unit id="fa6e74fd-18a8-47fe-9874-dc32974eb419">
+      <notes>
+        <note appliesTo="source">line: 49</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 1.2 ###</source>
+        <target>Changes for 1.2 ###</target>
+      </segment>
+    </unit>
+    <unit id="3181b26b-99cf-4efe-a537-0e245c029fb6">
+      <notes>
+        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>select current keyboard layout on start if game.</source>
+        <target>select current keyboard layout on start if game.</target>
+      </segment>
+    </unit>
+    <unit id="a2a8b34c-7f8e-4476-9632-d6b6dae7d349">
+      <notes>
+        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Add sounds to correct answer, wrong answer, and upon winning the game.</source>
+        <target>Add sounds to correct answer, wrong answer, and upon winning the game.</target>
+      </segment>
+    </unit>
+    <unit id="56562a17-0e6c-4315-86b0-3e032402128c">
+      <notes>
+        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 1.1 ###</source>
+        <target>Changes for 1.1 ###</target>
+      </segment>
+    </unit>
+    <unit id="2b16ca17-be49-48f5-a847-73e759099991">
+      <notes>
+        <note appliesTo="source">line: 56</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Initial version.</source>
+        <target>Initial version.</target>
+      </segment>
+    </unit>
+    <unit id="6aa1dfd8-60fc-4b55-b5ef-1b8513f1d33c">
+      <notes>
+        <note appliesTo="source">line: 58</note>
+        <note appliesTo="source">prefix: ### </note>
+      </notes>
+      <segment state="initial">
+        <source>Contributions ###</source>
+        <target>Contributions ###</target>
+      </segment>
+    </unit>
+    <unit id="659637f8-3c0b-4d42-92db-84c757a874e5">
+      <notes>
+        <note appliesTo="source">line: 60</note>
+        <note appliesTo="source">prefix: *	</note>
+      </notes>
+      <segment state="initial">
+        <source>Tanks a lot to cary-rowen, for his remarks and contributing the new sounds for the addon.</source>
+        <target>Tanks a lot to cary-rowen, for his remarks and contributing the new sounds for the addon.</target>
+      </segment>
+    </unit>
+    <unit id="a452f81b-0f5a-468f-8491-95fd34cab1b5">
+      <notes>
+        <note appliesTo="source">line: 62</note>
+      </notes>
+      <segment state="initial">
+        <source>[1]: https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/2.4/trainingKeyboardCommands-2.4.nvda-addon</source>
+        <target>[1]: https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/2.4/trainingKeyboardCommands-2.4.nvda-addon</target>
+      </segment>
+    </unit>
+    <unit id="e2399837-d0c8-43b4-b675-c9ad7c36d0be">
+      <notes>
+        <note appliesTo="source">line: 64</note>
+      </notes>
+      <segment state="initial">
+        <source>[2]: https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/2.4-dev/trainingKeyboardCommands-2.4-dev.nvda-addon</source>
+        <target>[2]: https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/2.4-dev/trainingKeyboardCommands-2.4-dev.nvda-addon</target>
+      </segment>
+    </unit>
+    <unit id="e6387dfa-93d1-467b-9fe3-03efe6313722">
+      <notes>
+        <note appliesTo="source">line: 66</note>
+      </notes>
+      <segment state="initial">
+        <source>[3]: https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/v1.3dev/trainingKeyboardCommands-1.3-dev.nvda-addon</source>
+        <target>[3]: https://github.com/ibrahim-s/trainingNvdaCommands/releases/download/v1.3dev/trainingKeyboardCommands-1.3-dev.nvda-addon</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

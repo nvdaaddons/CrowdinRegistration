@@ -1,156 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ga">
-  <file id="searchWith.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/searchWith/searchWith.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/ibrahim-s/searchWith/f097e8d6e921205ef04af473ce3067b2e95f6ecd/readme.md">
     <skeleton>
-# $(ID:159f7b40-dd96-4302-ac6e-8d596921a8bc)
+# $(ID:d83d76f9-eec6-4529-bbdd-50df00ce7d52)
 
-*	$(ID:f53a0049-ea25-4714-9eca-496a27a5660b)
-*	$(ID:20f61e23-1408-4924-96dc-541be953a480)
-*	$(ID:0b5a8415-d919-4bd0-9dbb-ca823ad1c8f4)
+$(ID:fd30eabf-a79e-4f36-9486-c207e214a09a)
+$(ID:f2827fb9-9ea0-43eb-8d42-c716661d6484)
+$(ID:6a6c1333-8a27-40ac-b5c4-8f03db123f70)
 
-$(ID:0601197f-d878-4b85-be09-61b10243e1cb)
-$(ID:803e3e61-7cdc-428d-8ed2-0ed450906379)
-$(ID:0f3e0a34-9f55-4916-8a75-6052ec07f3ff)
-$(ID:697e479c-4da0-4c3b-869a-fd4ebd204bab)
-$(ID:f4db7a46-11b2-4b83-a65a-31e21cf3bb4d)
-$(ID:0d8842ce-4b7d-4c8a-a4cd-4272579313bd)
-$(ID:4d1e20e1-c1dd-4363-b905-6eec5e542e8e)
-$(ID:9b103b45-10f0-456f-a6f3-3dd0418d24be)
-$(ID:0af57c0e-a138-48b1-844e-c1dfed57ab8a)
-$(ID:4d4cb0bb-efcd-4489-865b-75ab4a63a0f8)
-$(ID:425b70c4-184a-4a9f-98dd-d9d54490b522)
+$(ID:5992dbbe-2516-4e39-ae68-dad7b15ad107)
+$(ID:5f5005d9-2d73-43a2-858a-92038304584c)
+$(ID:c259233c-34c1-4335-8413-6535ecd4d8a5)
+$(ID:cb0ef16d-0ec4-449a-bb70-3e22c805c8ba)
+$(ID:b7f5da6e-2beb-4f43-abc8-5402972c7bb1)
+$(ID:1447e51b-7b18-476a-bf5f-0d2e6f752cd2)
+$(ID:58281c7f-05ea-4dbd-b90b-718cd2522867)
+$(ID:c0782fc7-e437-489b-8877-fc616d4e3e91)
+$(ID:af63bc24-0f28-46eb-907f-717b799f5760)
+$(ID:0fc8be6d-0f3c-4d3c-9897-217cec9b7316)
+$(ID:511b8dba-8eff-4bcf-ac5e-7db1452b8720)
 
-## $(ID:5df1769a-e02a-477f-aec2-49f6f7024ab0)
+## $(ID:755f2bd9-71e6-4c7c-915a-97d558e65b1e)
 
-*	$(ID:feb875db-db5f-493d-9c21-5d368361c433)
-*	$(ID:eb59edd0-2dae-43c1-b82a-622109675e19)
-$(ID:caf5db40-acf7-41a9-9ee7-0df36cfaca78)
-*	$(ID:b6b066aa-d73e-435c-9203-a60db216b720)
-*	$(ID:958cd813-ec87-4538-860d-dd4a7459792a)
-$(ID:7bc698ea-ae5c-4e36-9510-0872f6e2f049)
-$(ID:d4b4343f-e0cc-4a41-b93d-d7737fb62455)
-*	$(ID:846a0aa4-6b2f-4858-941a-befd573189f5)
-$(ID:67dc1da6-4fab-4921-88a4-5a77f3f4106e)
-$(ID:3cdcc05f-f353-407d-b592-78502828c56f)
-$(ID:0d70211e-7384-471e-a494-69435526b48e)
-*	$(ID:c32bfd0e-6305-441a-b441-870667d39457)
-$(ID:8e9a3a9c-c197-41f8-ae49-4cf5d9955ece)
-$(ID:28ed314e-6c96-40c3-96a0-dba45063bb4f)
-*	$(ID:d56026e0-ce72-482d-8cc7-dc0abec0d4ae)
-$(ID:6cac3bc5-92de-4244-8171-76e3b0adb699)
-	*	$(ID:65701adb-51f0-4b28-8628-a0a5d11548d5)
-	*	$(ID:94933c4b-9824-4fe6-a21e-524f39415976)
-*	$(ID:031209ef-bfe3-4405-8a02-49b1ad512b10)
-*	$(ID:c483c1a8-968e-46c9-8d40-89502a240117)
-*	$(ID:0e7b6878-a597-4207-8fb1-b41565c7f20d)
-*	$(ID:f3f693aa-9e27-4f4a-bd17-1cafe24bc3c3)
-*	$(ID:d5d5e845-7ae9-4719-ac69-4c08b043986f)
-*	$(ID:dfee231e-07bd-4db9-a5e4-4a1c6ca7f894)
-$(ID:54591aba-e0b6-4d47-8f45-e7dd19a79666)
-$(ID:8ce6d66b-e110-4569-b433-f3953ac08d44)
-	1.	$(ID:2306fc3f-dd10-4437-89ee-792c1b78b22a)
-	2.	$(ID:c8470bfb-4bd4-4707-8040-711651fad767)
-	3.	$(ID:7e71b4c1-936a-40eb-b34e-fec2ea2c8586)
-*	$(ID:193ab8df-6ff4-4733-b212-8b07ac2f43e8)
-$(ID:d6f18bed-2336-4f37-88d0-2c454db21920)
-	*	$(ID:e18ef183-57bc-4ae0-b902-4f928cadb99d)
-	*	$(ID:d90cd077-da07-454c-9f56-e4d9451edc50)
-	*	$(ID:7006b882-28a8-43a9-b466-3f5a2b2c4cc3)
-$(ID:296eb87a-515a-432f-a6f6-8e3747e63008)
-*	$(ID:5d4a1b5c-299c-47f8-8592-ba8c6c0fc376)
-*	$(ID:b51c7e6c-be20-44a0-b07b-609f132c09de)
-*	$(ID:985fb075-9472-4348-ad36-2094ef5efc3b)
-$(ID:8dcf6bbf-f2e8-4ec5-9d68-c7d9cad84d54)
-$(ID:62f53a7f-eaa4-4b62-a778-8886c435c72a)
-$(ID:826eff45-3b70-4fd3-a997-377a13d2acce)
+*	$(ID:d8381632-adcb-4342-a2a9-a49d1e4703ce)
+*	$(ID:7ed77474-6a8d-4dca-a4ed-bba643654693)
+$(ID:192a68c3-353b-46a6-bd7d-92f4f1d89a20)
+*	$(ID:c672d1fa-3850-4d78-ab9e-5bbc4353959f)
+*	$(ID:147adce9-c99f-47b2-92e8-c5b68cbb8577)
+$(ID:448ac400-2e73-48b0-b8e3-2919c6b570b7)
+$(ID:081d2554-3571-4b74-8c1e-edc258ae546f)
+*	$(ID:c5b83152-27a2-407f-9649-83f962fa5fed)
+$(ID:48b25d10-cba2-407b-8ccb-006ced475fc3)
+$(ID:57630887-b96c-462b-ba9c-db0bfe49b8fb)
+$(ID:245561e7-517e-4ede-8282-f3a2d919f5c7)
+*	$(ID:352ae731-fc6a-4d36-ad90-c19058a3b105)
+$(ID:adb41241-4637-445b-bd35-fb92ecb62742)
+$(ID:04fd9bd8-1068-41f4-a981-71d8095acdd4)
+*	$(ID:fc5ba4ea-35f3-4c7c-b511-d7483fabb9a4)
+*	$(ID:8b65f136-3b2e-44b8-88bf-7350bbdf2971)
+*	$(ID:d385de1e-dcc3-40d1-8937-b6f90a6fa9fb)
+*	$(ID:e3de4da5-ed32-497e-94f3-6647007db0cd)
+*	$(ID:8fb1b956-c04a-489e-9ed7-33c3749caa24)
+*	$(ID:3482be8d-e49e-40db-8d0c-cf8f67f76e61)
+$(ID:500ba1fe-5b19-45ad-8ac8-58c721b8e78d)
+$(ID:fd14c3e1-7212-45cd-b4b5-416558e5bff5)
+	1.	$(ID:87262cf7-8d7c-4c50-a1a1-35f22cb618b6)
+	2.	$(ID:71dbdcf0-0fca-4d9e-a8e4-41c64f49301b)
+	3.	$(ID:d995ff06-27ea-4d97-aeec-b6b77e1fadc5)
+*	$(ID:6a1a6a7f-44a9-42ce-9274-76357427d23b)
+$(ID:d5a3c77e-d6da-4634-8b81-dfbe8fa391a3)
+$(ID:684064c9-31a1-4c8a-bb4b-888f3e9db6f1)
 
-### $(ID:0721f932-c3b2-4e6d-ba45-6dc2c89adc03)
+### $(ID:2411c85d-3d06-4d03-851a-d3a1bf3cad6c)
 
-*	$(ID:c6792445-e16b-475b-b889-362681e246e3)
-*	$(ID:811f84e1-0e2e-487e-8a12-1a6e0f116357)
+*	$(ID:a958c27a-5351-4300-bc52-0134fc1a66e4)
+*	$(ID:67c259f6-65fc-48d3-8c6e-ebd5ff7f2578)
 
-### $(ID:cc97af76-6148-484b-a95c-5c87821812a7)
+### $(ID:792eb5d0-8ce5-4e5d-b32a-6d0b502f376c)
 
-*	$(ID:7e816fab-6e83-4f38-85d5-3cce98d462dd)
-*	$(ID:7f990f11-acaf-462d-af51-408f70f03e41)
+*	$(ID:f88dafd1-1863-4d66-8344-0eda8a984ecc)
+*	$(ID:c4d73aa9-0070-4618-b8fb-e36569a9d6ef)
 
-### $(ID:c71c06c2-6bc2-4ab4-85a6-87405b36ad24)
+### $(ID:0ce86e07-b7c0-4d6b-bada-fdbcbb832376)
 
-*	$(ID:0fff0d7c-cc86-49d8-82cf-150a5feb6194)
+*	$(ID:7f15c7c3-f197-4912-bfbc-e84db1e6ba80)
+*	$(ID:3b7cd5bd-1ed1-4030-b3f9-d565aed4c795)
 
-### $(ID:9fdac023-8ae3-4201-8f5a-6e9a97bea90d)
+### $(ID:695bfb92-8a99-41ce-a40f-5ba4ba844135)
 
-*	$(ID:b75820dd-32d3-4cb7-ba39-0e160b0f3350)
-$(ID:a02a16d4-4f0e-4edc-ab94-de56abf3524e)
-*	$(ID:da0e96dd-d667-4563-8ede-64cc551c0078)
+*	$(ID:36007e86-d9da-40dc-885e-bcb9989b5fdc)
 
-### $(ID:63813905-af69-48ac-83df-977ba5d818dc)
+### $(ID:445bb6f5-e9b3-4ac0-af98-080c5a480293)
 
-*	$(ID:008dcf6d-c357-483f-b0e1-721cccc56207)
+*	$(ID:4d105e3d-6fe9-4ce4-9ad4-8b0f88906921)
 
-### $(ID:c7ef3fe9-031a-49ee-bcda-fb7a873475be)
+$(ID:a6b3d315-5f13-4724-b401-82154a3bfd1c)
 
-*	$(ID:f134b71c-0652-49f9-9f89-70901d2aea0c)
-*	$(ID:fb97adaa-61b2-4e9f-9785-cdead9da5aef)
-
-### $(ID:115cb36e-a729-43e2-bd65-033527581559)
-
-*	$(ID:dfbd5c46-35f6-4fea-b438-e41572f1fb00)
-
-### $(ID:ce9edf04-0f9d-4508-9aa2-f0f9dbfed230)
-
-*	$(ID:18799923-0c6e-43b1-b903-8aedc5cc5e08)
-*	$(ID:8f673ef9-d33b-4726-850f-0840a6388136)
-	*	$(ID:1792f8c3-22e7-421a-b4f9-007f80989985)
-	*	$(ID:a1b4420f-a56b-4a5d-9526-25e9b999cff8)
-
-### $(ID:34874889-f9c6-4a2d-8bbe-3597b3df980b)
-
-*	$(ID:05fbb907-6cd7-47f1-b192-168e0dc38d9d)
-*	$(ID:185480fa-a533-45de-a8fe-02a91cba6e69)
-
-### $(ID:7b9b2c50-a003-41b5-a208-33f1fa5eb231)
-
-*	$(ID:37c61550-8c42-4b3a-966a-8c7d563f508d)
-	*	$(ID:fab965c2-5e84-4650-945f-273d9d8d4d3d)
-	*	$(ID:46f31db3-a3d7-40de-95ef-468f5e74f252)
-*	$(ID:cd1a9d0c-d894-4cfa-a775-a17d14aa753b)
-
-### $(ID:2ee953c7-48a7-4b1d-9631-b7f22bf1c676)
-
-*	$(ID:e879dd81-a0be-47ff-bab7-143c38d32167)
-
-### $(ID:2a6ec839-74ec-4de9-8840-46378a35dda8)
-
-*	$(ID:e7d7c5bb-a429-476e-bc2d-5efaeaba4982)
-*	$(ID:5d7d0c64-ca7b-45b1-bf52-fc28cb3d3bca)
-
-### $(ID:bc9ebdc4-ab16-407b-a5ce-2b7c92ceabaa)
-
-*	$(ID:dcda6cd9-1ddc-484a-9cf8-f7421c5214a1)
-*	$(ID:e9038385-fb44-40d4-9f9b-ea96937da16d)
-
-### $(ID:9d16af83-771f-4d32-92e2-c5c37b3d4018)
-
-*	$(ID:ab43c107-840f-40f3-84fb-c599b6717850)
-*	$(ID:3af828cf-663f-4e17-9a6a-9e02f15b9ec8)
-
-### $(ID:4dab6dc3-8fa9-4606-a511-7adffdc4b3f7)
-
-*	$(ID:68d1afc6-7ecd-4af7-8aea-17f70f75681a)
-*	$(ID:f853886f-c601-4d5f-a080-d9b3abe83676)
-
-### $(ID:ca043b25-4487-468e-b883-6bf7216ee9f4)
-
-*	$(ID:a8641c22-dd8d-4b88-9573-eccbc6346445)
-
-### $(ID:6a8c305e-f585-4b71-98ce-2d50eec01123)
-
-*	$(ID:de7c457f-4942-49b9-9274-d53d1c84d11f)
-
-$(ID:101f223a-21a2-4156-9818-efce90a24413)
 </skeleton>
-    <unit id="159f7b40-dd96-4302-ac6e-8d596921a8bc">
+    <unit id="d83d76f9-eec6-4529-bbdd-50df00ce7d52">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -160,37 +87,34 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Search With #</target>
       </segment>
     </unit>
-    <unit id="f53a0049-ea25-4714-9eca-496a27a5660b">
+    <unit id="fd30eabf-a79e-4f36-9486-c207e214a09a">
       <notes>
         <note appliesTo="source">line: 4</note>
-        <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
         <source>Author: Ibrahim Hamadeh</source>
         <target>Author: Ibrahim Hamadeh</target>
       </segment>
     </unit>
-    <unit id="20f61e23-1408-4924-96dc-541be953a480">
+    <unit id="f2827fb9-9ea0-43eb-8d42-c716661d6484">
       <notes>
         <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
-        <source>Download [Stable version 2.5.3][1]</source>
-        <target>Download [Stable version 2.5.3][1]</target>
+        <source>Download [Version 1.2][1]</source>
+        <target>Download [Version 1.2][1]</target>
       </segment>
     </unit>
-    <unit id="0b5a8415-d919-4bd0-9dbb-ca823ad1c8f4">
+    <unit id="6a6c1333-8a27-40ac-b5c4-8f03db123f70">
       <notes>
         <note appliesTo="source">line: 6</note>
-        <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
         <source>NVDA compatibility: 2019.3 and beyond</source>
         <target>NVDA compatibility: 2019.3 and beyond</target>
       </segment>
     </unit>
-    <unit id="0601197f-d878-4b85-be09-61b10243e1cb">
+    <unit id="5992dbbe-2516-4e39-ae68-dad7b15ad107">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
@@ -199,7 +123,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>This addon helps you to search text, via various search engines.</target>
       </segment>
     </unit>
-    <unit id="803e3e61-7cdc-428d-8ed2-0ed450906379">
+    <unit id="5f5005d9-2d73-43a2-858a-92038304584c">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
@@ -208,7 +132,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Let no text selected, and press the gesture of the addon</target>
       </segment>
     </unit>
-    <unit id="0f3e0a34-9f55-4916-8a75-6052ec07f3ff">
+    <unit id="c259233c-34c1-4335-8413-6535ecd4d8a5">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
@@ -217,16 +141,16 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>A dialog will be displayed, with an edit box to enter a search query</target>
       </segment>
     </unit>
-    <unit id="697e479c-4da0-4c3b-869a-fd4ebd204bab">
+    <unit id="cb0ef16d-0ec4-449a-bb70-3e22c805c8ba">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
       <segment state="initial">
-        <source>To search with Google press enter, or tab to search with other engines.</source>
-        <target>To search with Google press enter, or tab to search with other engines.</target>
+        <source>To search with Google press enter, or tab to search with other engins.</source>
+        <target>To search with Google press enter, or tab to search with other engins.</target>
       </segment>
     </unit>
-    <unit id="f4db7a46-11b2-4b83-a65a-31e21cf3bb4d">
+    <unit id="b7f5da6e-2beb-4f43-abc8-5402972c7bb1">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
@@ -235,7 +159,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Or</target>
       </segment>
     </unit>
-    <unit id="0d8842ce-4b7d-4c8a-a4cd-4272579313bd">
+    <unit id="1447e51b-7b18-476a-bf5f-0d2e6f752cd2">
       <notes>
         <note appliesTo="source">line: 13</note>
       </notes>
@@ -244,7 +168,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>select some text and press once, a menu will be displayed with various search engines to choose.</target>
       </segment>
     </unit>
-    <unit id="4d1e20e1-c1dd-4363-b905-6eec5e542e8e">
+    <unit id="58281c7f-05ea-4dbd-b90b-718cd2522867">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
@@ -253,7 +177,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>And while text is selected, you can press the gesture twice to search with Google directly.</target>
       </segment>
     </unit>
-    <unit id="9b103b45-10f0-456f-a6f3-3dd0418d24be">
+    <unit id="c0782fc7-e437-489b-8877-fc616d4e3e91">
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
@@ -262,7 +186,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>The Default gesture for the addon is: NVDA+ Windows+ S.</target>
       </segment>
     </unit>
-    <unit id="0af57c0e-a138-48b1-844e-c1dfed57ab8a">
+    <unit id="af63bc24-0f28-46eb-907f-717b799f5760">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
@@ -271,7 +195,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>If the keystroke do not work for you, or conflict with other keystroke,</target>
       </segment>
     </unit>
-    <unit id="4d4cb0bb-efcd-4489-865b-75ab4a63a0f8">
+    <unit id="0fc8be6d-0f3c-4d3c-9897-217cec9b7316">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
@@ -280,7 +204,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>you can as always add a gesture or change the existent one going to :</target>
       </segment>
     </unit>
-    <unit id="425b70c4-184a-4a9f-98dd-d9d54490b522">
+    <unit id="511b8dba-8eff-4bcf-ac5e-7db1452b8720">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
@@ -289,7 +213,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>NVDA menu&gt;preferences&gt;inputGestures&gt;Search With category.</target>
       </segment>
     </unit>
-    <unit id="5df1769a-e02a-477f-aec2-49f6f7024ab0">
+    <unit id="755f2bd9-71e6-4c7c-915a-97d558e65b1e">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: ## </note>
@@ -299,7 +223,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Usage ##</target>
       </segment>
     </unit>
-    <unit id="feb875db-db5f-493d-9c21-5d368361c433">
+    <unit id="d8381632-adcb-4342-a2a9-a49d1e4703ce">
       <notes>
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: *	</note>
@@ -309,7 +233,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>If you want to enter a search query, just press the addon gesture</target>
       </segment>
     </unit>
-    <unit id="eb59edd0-2dae-43c1-b82a-622109675e19">
+    <unit id="7ed77474-6a8d-4dca-a4ed-bba643654693">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: *	</note>
@@ -319,7 +243,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>A dialog will be displayed, with an edit field to enter the search term.</target>
       </segment>
     </unit>
-    <unit id="caf5db40-acf7-41a9-9ee7-0df36cfaca78">
+    <unit id="192a68c3-353b-46a6-bd7d-92f4f1d89a20">
       <notes>
         <note appliesTo="source">line: 24</note>
       </notes>
@@ -328,7 +252,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Want to search with Google? just press enter</target>
       </segment>
     </unit>
-    <unit id="b6b066aa-d73e-435c-9203-a60db216b720">
+    <unit id="c672d1fa-3850-4d78-ab9e-5bbc4353959f">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: *	</note>
@@ -338,7 +262,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Otherwise tab to Other Engines button, and give it a space</target>
       </segment>
     </unit>
-    <unit id="958cd813-ec87-4538-860d-dd4a7459792a">
+    <unit id="147adce9-c99f-47b2-92e8-c5b68cbb8577">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: *	</note>
@@ -348,7 +272,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>A popup menu will show up, with various search engines to choose.</target>
       </segment>
     </unit>
-    <unit id="7bc698ea-ae5c-4e36-9510-0872f6e2f049">
+    <unit id="448ac400-2e73-48b0-b8e3-2919c6b570b7">
       <notes>
         <note appliesTo="source">line: 27</note>
       </notes>
@@ -357,7 +281,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Yahoo, Bing, DuckDuckGo, and Youtube.</target>
       </segment>
     </unit>
-    <unit id="d4b4343f-e0cc-4a41-b93d-d7737fb62455">
+    <unit id="081d2554-3571-4b74-8c1e-edc258ae546f">
       <notes>
         <note appliesTo="source">line: 28</note>
       </notes>
@@ -366,7 +290,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>This is the default menu, and you may modify it from addon's setting panel.</target>
       </segment>
     </unit>
-    <unit id="846a0aa4-6b2f-4858-941a-befd573189f5">
+    <unit id="c5b83152-27a2-407f-9649-83f962fa5fed">
       <notes>
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: *	</note>
@@ -376,7 +300,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Another way to use the addon, is by selecting some text</target>
       </segment>
     </unit>
-    <unit id="67dc1da6-4fab-4921-88a4-5a77f3f4106e">
+    <unit id="48b25d10-cba2-407b-8ccb-006ced475fc3">
       <notes>
         <note appliesTo="source">line: 30</note>
       </notes>
@@ -385,7 +309,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>And on Pressing the addon's gesture, or any other you have assigned to it</target>
       </segment>
     </unit>
-    <unit id="3cdcc05f-f353-407d-b592-78502828c56f">
+    <unit id="57630887-b96c-462b-ba9c-db0bfe49b8fb">
       <notes>
         <note appliesTo="source">line: 31</note>
       </notes>
@@ -394,7 +318,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>a virtual menu will be displayed with various search engines</target>
       </segment>
     </unit>
-    <unit id="0d70211e-7384-471e-a494-69435526b48e">
+    <unit id="245561e7-517e-4ede-8282-f3a2d919f5c7">
       <notes>
         <note appliesTo="source">line: 32</note>
       </notes>
@@ -403,7 +327,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Either the default menu, or any other you have tailed to your needs.</target>
       </segment>
     </unit>
-    <unit id="c32bfd0e-6305-441a-b441-870667d39457">
+    <unit id="352ae731-fc6a-4d36-ad90-c19058a3b105">
       <notes>
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: *	</note>
@@ -413,7 +337,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Choose one and press enter, the default browser will open displaying search results.</target>
       </segment>
     </unit>
-    <unit id="8e9a3a9c-c197-41f8-ae49-4cf5d9955ece">
+    <unit id="adb41241-4637-445b-bd35-fb92ecb62742">
       <notes>
         <note appliesTo="source">line: 34</note>
       </notes>
@@ -422,7 +346,7 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Or, if you want to search with Google directly</target>
       </segment>
     </unit>
-    <unit id="28ed314e-6c96-40c3-96a0-dba45063bb4f">
+    <unit id="04fd9bd8-1068-41f4-a981-71d8095acdd4">
       <notes>
         <note appliesTo="source">line: 35</note>
       </notes>
@@ -431,58 +355,19 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>press the gesture twice, and you are done.</target>
       </segment>
     </unit>
-    <unit id="d56026e0-ce72-482d-8cc7-dc0abec0d4ae">
+    <unit id="fc5ba4ea-35f3-4c7c-b511-d7483fabb9a4">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
-        <source>Want to trigger search menu specifically for clipboard or last spoken text?</source>
-        <target>Want to trigger search menu specifically for clipboard or last spoken text?</target>
+        <source>Want to modify Search with menu?</source>
+        <target>Want to modify Search with menu?</target>
       </segment>
     </unit>
-    <unit id="6cac3bc5-92de-4244-8171-76e3b0adb699">
+    <unit id="8b65f136-3b2e-44b8-88bf-7350bbdf2971">
       <notes>
         <note appliesTo="source">line: 37</note>
-      </notes>
-      <segment state="initial">
-        <source>You can from input gestures dialog, assigned a gesture for:</source>
-        <target>You can from input gestures dialog, assigned a gesture for:</target>
-      </segment>
-    </unit>
-    <unit id="65701adb-51f0-4b28-8628-a0a5d11548d5">
-      <notes>
-        <note appliesTo="source">line: 38</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>Trigger search menu for clipboard text, and pressed twice searches that text by Google directly.</source>
-        <target>Trigger search menu for clipboard text, and pressed twice searches that text by Google directly.</target>
-      </segment>
-    </unit>
-    <unit id="94933c4b-9824-4fe6-a21e-524f39415976">
-      <notes>
-        <note appliesTo="source">line: 39</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>Trigger search menu for last spoken text, and pressed twice searches that text by Google directly.</source>
-        <target>Trigger search menu for last spoken text, and pressed twice searches that text by Google directly.</target>
-      </segment>
-    </unit>
-    <unit id="031209ef-bfe3-4405-8a02-49b1ad512b10">
-      <notes>
-        <note appliesTo="source">line: 40</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Now if you ask, can I modify Search with menu?</source>
-        <target>Now if you ask, can I modify Search with menu?</target>
-      </segment>
-    </unit>
-    <unit id="c483c1a8-968e-46c9-8d40-89502a240117">
-      <notes>
-        <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -490,9 +375,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Yes you  can do that from the setting panel,  and adjust the menu to fit to your mood and needs.</target>
       </segment>
     </unit>
-    <unit id="0e7b6878-a597-4207-8fb1-b41565c7f20d">
+    <unit id="d385de1e-dcc3-40d1-8937-b6f90a6fa9fb">
       <notes>
-        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -500,9 +385,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>You can from there, add to Search with menu, other available search engines</target>
       </segment>
     </unit>
-    <unit id="f3f693aa-9e27-4f4a-bd17-1cafe24bc3c3">
+    <unit id="e3de4da5-ed32-497e-94f3-6647007db0cd">
       <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -510,9 +395,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>And you can if you like, remove an item from it, move item up, move item down, or return and set it to default state.</target>
       </segment>
     </unit>
-    <unit id="d5d5e845-7ae9-4719-ac69-4c08b043986f">
+    <unit id="8fb1b956-c04a-489e-9ed7-33c3749caa24">
       <notes>
-        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -520,9 +405,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>If you want these modifications to be permanent, you have to save configuration after wards.</target>
       </segment>
     </unit>
-    <unit id="dfee231e-07bd-4db9-a5e4-4a1c6ca7f894">
+    <unit id="3482be8d-e49e-40db-8d0c-cf8f67f76e61">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -530,27 +415,27 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Want to search Google using other language options?</target>
       </segment>
     </unit>
-    <unit id="54591aba-e0b6-4d47-8f45-e7dd19a79666">
+    <unit id="500ba1fe-5b19-45ad-8ac8-58c721b8e78d">
       <notes>
-        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">line: 42</note>
       </notes>
       <segment state="initial">
         <source>Go to, Search With category in setting panels</source>
         <target>Go to, Search With category in setting panels</target>
       </segment>
     </unit>
-    <unit id="8ce6d66b-e110-4569-b433-f3953ac08d44">
+    <unit id="fd14c3e1-7212-45cd-b4b5-416558e5bff5">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 43</note>
       </notes>
       <segment state="initial">
         <source>From the cumbo box there, you can choose search Google either:</source>
         <target>From the cumbo box there, you can choose search Google either:</target>
       </segment>
     </unit>
-    <unit id="2306fc3f-dd10-4437-89ee-792c1b78b22a">
+    <unit id="87262cf7-8d7c-4c50-a1a1-35f22cb618b6">
       <notes>
-        <note appliesTo="source">line: 48</note>
+        <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: 	1.	</note>
       </notes>
       <segment state="initial">
@@ -558,9 +443,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Using browser settings and language.</target>
       </segment>
     </unit>
-    <unit id="c8470bfb-4bd4-4707-8040-711651fad767">
+    <unit id="71dbdcf0-0fca-4d9e-a8e4-41c64f49301b">
       <notes>
-        <note appliesTo="source">line: 49</note>
+        <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: 	2.	</note>
       </notes>
       <segment state="initial">
@@ -568,9 +453,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Using NVDA language.</target>
       </segment>
     </unit>
-    <unit id="7e71b4c1-936a-40eb-b34e-fec2ea2c8586">
+    <unit id="d995ff06-27ea-4d97-aeec-b6b77e1fadc5">
       <notes>
-        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: 	3.	</note>
       </notes>
       <segment state="initial">
@@ -578,493 +463,37 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Using windows language.</target>
       </segment>
     </unit>
-    <unit id="193ab8df-6ff4-4733-b212-8b07ac2f43e8">
+    <unit id="6a1a6a7f-44a9-42ce-9274-76357427d23b">
       <notes>
-        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
-        <source>Now, you have the option to choose the default query in Search with dialog</source>
-        <target>Now, you have the option to choose the default query in Search with dialog</target>
+        <source>Lastly, if you want to have last spoken text as default query in Search with dialog</source>
+        <target>Lastly, if you want to have last spoken text as default query in Search with dialog</target>
       </segment>
     </unit>
-    <unit id="d6f18bed-2336-4f37-88d0-2c454db21920">
+    <unit id="d5a3c77e-d6da-4634-8b81-dfbe8fa391a3">
       <notes>
-        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">line: 48</note>
       </notes>
       <segment state="initial">
-        <source>from the Options for default query combo box in setting panel, you can choose either</source>
-        <target>from the Options for default query combo box in setting panel, you can choose either</target>
+        <source>you have the ability to do that, through Use last spoken as default query check box in setting panel.</source>
+        <target>you have the ability to do that, through Use last spoken as default query check box in setting panel.</target>
       </segment>
     </unit>
-    <unit id="e18ef183-57bc-4ae0-b902-4f928cadb99d">
+    <unit id="684064c9-31a1-4c8a-bb4b-888f3e9db6f1">
       <notes>
-        <note appliesTo="source">line: 53</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>Leave blank</source>
-        <target>Leave blank</target>
-      </segment>
-    </unit>
-    <unit id="d90cd077-da07-454c-9f56-e4d9451edc50">
-      <notes>
-        <note appliesTo="source">line: 54</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>Use clipboard text</source>
-        <target>Use clipboard text</target>
-      </segment>
-    </unit>
-    <unit id="7006b882-28a8-43a9-b466-3f5a2b2c4cc3">
-      <notes>
-        <note appliesTo="source">line: 55</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>Use last spoken text</source>
-        <target>Use last spoken text</target>
-      </segment>
-    </unit>
-    <unit id="296eb87a-515a-432f-a6f6-8e3747e63008">
-      <notes>
-        <note appliesTo="source">line: 56</note>
-      </notes>
-      <segment state="initial">
-        <source>And if clipboard or last spoken text is chosen, text in search box will be displayed selected, so that you can easily override it.</source>
-        <target>And if clipboard or last spoken text is chosen, text in search box will be displayed selected, so that you can easily override it.</target>
-      </segment>
-    </unit>
-    <unit id="5d4a1b5c-299c-47f8-8592-ba8c6c0fc376">
-      <notes>
-        <note appliesTo="source">line: 57</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Now let's choose the target language for translate engines, Google Translate and DeepL translator.</source>
-        <target>Now let's choose the target language for translate engines, Google Translate and DeepL translator.</target>
-      </segment>
-    </unit>
-    <unit id="b51c7e6c-be20-44a0-b07b-609f132c09de">
-      <notes>
-        <note appliesTo="source">line: 58</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Still in setting panel, under Translation engines group, there are two combo boxes, one for Google Translate and the other for DeepL Translator. Choose the target language you want for each of them and you are done.</source>
-        <target>Still in setting panel, under Translation engines group, there are two combo boxes, one for Google Translate and the other for DeepL Translator. Choose the target language you want for each of them and you are done.</target>
-      </segment>
-    </unit>
-    <unit id="985fb075-9472-4348-ad36-2094ef5efc3b">
-      <notes>
-        <note appliesTo="source">line: 59</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Lastly, especially for advanced users</source>
-        <target>Lastly, especially for advanced users</target>
-      </segment>
-    </unit>
-    <unit id="8dcf6bbf-f2e8-4ec5-9d68-c7d9cad84d54">
-      <notes>
-        <note appliesTo="source">line: 60</note>
-      </notes>
-      <segment state="initial">
-        <source>You can through a check box in setting panel, choose if you want to preserve your data folder upon installing a new version.</source>
-        <target>You can through a check box in setting panel, choose if you want to preserve your data folder upon installing a new version.</target>
-      </segment>
-    </unit>
-    <unit id="62f53a7f-eaa4-4b62-a778-8886c435c72a">
-      <notes>
-        <note appliesTo="source">line: 61</note>
-      </notes>
-      <segment state="initial">
-        <source>This means that your data will be sustained, but added to it the newly entries in the new version.</source>
-        <target>This means that your data will be sustained, but added to it the newly entries in the new version.</target>
-      </segment>
-    </unit>
-    <unit id="826eff45-3b70-4fd3-a997-377a13d2acce">
-      <notes>
-        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">line: 49</note>
       </notes>
       <segment state="initial">
         <source>And that's it, hope to search for good and find it, happy searching!</source>
         <target>And that's it, hope to search for good and find it, happy searching!</target>
       </segment>
     </unit>
-    <unit id="0721f932-c3b2-4e6d-ba45-6dc2c89adc03">
+    <unit id="2411c85d-3d06-4d03-851a-d3a1bf3cad6c">
       <notes>
-        <note appliesTo="source">line: 64</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 2.5.3 ###</source>
-        <target>Changes for 2.5.3 ###</target>
-      </segment>
-    </unit>
-    <unit id="c6792445-e16b-475b-b889-362681e246e3">
-      <notes>
-        <note appliesTo="source">line: 66</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add DeepL translator to available engines.</source>
-        <target>Add DeepL translator to available engines.</target>
-      </segment>
-    </unit>
-    <unit id="811f84e1-0e2e-487e-8a12-1a6e0f116357">
-      <notes>
-        <note appliesTo="source">line: 67</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add two combo boxes in setting panel, to choose target language for Google translate and DeepL translator.</source>
-        <target>Add two combo boxes in setting panel, to choose target language for Google translate and DeepL translator.</target>
-      </segment>
-    </unit>
-    <unit id="cc97af76-6148-484b-a95c-5c87821812a7">
-      <notes>
-        <note appliesTo="source">line: 69</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 2.5 ###</source>
-        <target>Changes for 2.5 ###</target>
-      </segment>
-    </unit>
-    <unit id="7e816fab-6e83-4f38-85d5-3cce98d462dd">
-      <notes>
-        <note appliesTo="source">line: 71</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Return the name of the addon to 'searchWith'(camel case).</source>
-        <target>Return the name of the addon to 'searchWith'(camel case).</target>
-      </segment>
-    </unit>
-    <unit id="7f990f11-acaf-462d-af51-408f70f03e41">
-      <notes>
-        <note appliesTo="source">line: 72</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add Google Scholar to available engines.</source>
-        <target>Add Google Scholar to available engines.</target>
-      </segment>
-    </unit>
-    <unit id="c71c06c2-6bc2-4ab4-85a6-87405b36ad24">
-      <notes>
-        <note appliesTo="source">line: 74</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 2.4 ###</source>
-        <target>Changes for 2.4 ###</target>
-      </segment>
-    </unit>
-    <unit id="0fff0d7c-cc86-49d8-82cf-150a5feb6194">
-      <notes>
-        <note appliesTo="source">line: 76</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Localization and documentation updates.</source>
-        <target>Localization and documentation updates.</target>
-      </segment>
-    </unit>
-    <unit id="9fdac023-8ae3-4201-8f5a-6e9a97bea90d">
-      <notes>
-        <note appliesTo="source">line: 78</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 2.3 ###</source>
-        <target>Changes for 2.3 ###</target>
-      </segment>
-    </unit>
-    <unit id="b75820dd-32d3-4cb7-ba39-0e160b0f3350">
-      <notes>
-        <note appliesTo="source">line: 80</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Now choosing to preserve data from setting panel, does not means that you will not get the new data entries</source>
-        <target>Now choosing to preserve data from setting panel, does not means that you will not get the new data entries</target>
-      </segment>
-    </unit>
-    <unit id="a02a16d4-4f0e-4edc-ab94-de56abf3524e">
-      <notes>
-        <note appliesTo="source">line: 81</note>
-      </notes>
-      <segment state="initial">
-        <source>but the new entries in the new version, will be merged and added to your old data file.</source>
-        <target>but the new entries in the new version, will be merged and added to your old data file.</target>
-      </segment>
-    </unit>
-    <unit id="da0e96dd-d667-4563-8ede-64cc551c0078">
-      <notes>
-        <note appliesTo="source">line: 82</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Update last tested version to 2023.1 to comply with NVDA version 2023.1.</source>
-        <target>Update last tested version to 2023.1 to comply with NVDA version 2023.1.</target>
-      </segment>
-    </unit>
-    <unit id="63813905-af69-48ac-83df-977ba5d818dc">
-      <notes>
-        <note appliesTo="source">line: 84</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 2.2 ###</source>
-        <target>Changes for 2.2 ###</target>
-      </segment>
-    </unit>
-    <unit id="008dcf6d-c357-483f-b0e1-721cccc56207">
-      <notes>
-        <note appliesTo="source">line: 86</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add localization and documentation updates.</source>
-        <target>Add localization and documentation updates.</target>
-      </segment>
-    </unit>
-    <unit id="c7ef3fe9-031a-49ee-bcda-fb7a873475be">
-      <notes>
-        <note appliesTo="source">line: 88</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 2.0 ###</source>
-        <target>Changes for 2.0 ###</target>
-      </segment>
-    </unit>
-    <unit id="f134b71c-0652-49f9-9f89-70901d2aea0c">
-      <notes>
-        <note appliesTo="source">line: 90</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Disable the addon in secure mode.</source>
-        <target>Disable the addon in secure mode.</target>
-      </segment>
-    </unit>
-    <unit id="fb97adaa-61b2-4e9f-9785-cdead9da5aef">
-      <notes>
-        <note appliesTo="source">line: 91</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Update last tested version to 2022.1, to comply with recent addon api version.</source>
-        <target>Update last tested version to 2022.1, to comply with recent addon api version.</target>
-      </segment>
-    </unit>
-    <unit id="115cb36e-a729-43e2-bd65-033527581559">
-      <notes>
-        <note appliesTo="source">line: 93</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 1.9 ###</source>
-        <target>Changes for 1.9 ###</target>
-      </segment>
-    </unit>
-    <unit id="dfbd5c46-35f6-4fea-b438-e41572f1fb00">
-      <notes>
-        <note appliesTo="source">line: 95</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Localization and documentation updates.</source>
-        <target>Localization and documentation updates.</target>
-      </segment>
-    </unit>
-    <unit id="ce9edf04-0f9d-4508-9aa2-f0f9dbfed230">
-      <notes>
-        <note appliesTo="source">line: 97</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 1.8 ###</source>
-        <target>Changes for 1.8 ###</target>
-      </segment>
-    </unit>
-    <unit id="18799923-0c6e-43b1-b903-8aedc5cc5e08">
-      <notes>
-        <note appliesTo="source">line: 99</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add a check box in setting panel, to let advanced users preserve their data folder.</source>
-        <target>Add a check box in setting panel, to let advanced users preserve their data folder.</target>
-      </segment>
-    </unit>
-    <unit id="8f673ef9-d33b-4726-850f-0840a6388136">
-      <notes>
-        <note appliesTo="source">line: 100</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add two new entries in input gestures:</source>
-        <target>Add two new entries in input gestures:</target>
-      </segment>
-    </unit>
-    <unit id="1792f8c3-22e7-421a-b4f9-007f80989985">
-      <notes>
-        <note appliesTo="source">line: 101</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>trigger search menu for clipboard text, press twice searches Google directly.</source>
-        <target>trigger search menu for clipboard text, press twice searches Google directly.</target>
-      </segment>
-    </unit>
-    <unit id="a1b4420f-a56b-4a5d-9526-25e9b999cff8">
-      <notes>
-        <note appliesTo="source">line: 102</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>Trigger search menu for last spoken text, press twice searches Google directly.</source>
-        <target>Trigger search menu for last spoken text, press twice searches Google directly.</target>
-      </segment>
-    </unit>
-    <unit id="34874889-f9c6-4a2d-8bbe-3597b3df980b">
-      <notes>
-        <note appliesTo="source">line: 104</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 1.7 ###</source>
-        <target>Changes for 1.7 ###</target>
-      </segment>
-    </unit>
-    <unit id="05fbb907-6cd7-47f1-b192-168e0dc38d9d">
-      <notes>
-        <note appliesTo="source">line: 106</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Make a combo box in addon's setting, to choose an option for default query in search with dialog.</source>
-        <target>Make a combo box in addon's setting, to choose an option for default query in search with dialog.</target>
-      </segment>
-    </unit>
-    <unit id="185480fa-a533-45de-a8fe-02a91cba6e69">
-      <notes>
-        <note appliesTo="source">line: 107</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>You can select either Leave blank, Use clipboard text, or Use last spoken text.</source>
-        <target>You can select either Leave blank, Use clipboard text, or Use last spoken text.</target>
-      </segment>
-    </unit>
-    <unit id="7b9b2c50-a003-41b5-a208-33f1fa5eb231">
-      <notes>
-        <note appliesTo="source">line: 109</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 1.6 ###</source>
-        <target>Changes for 1.6 ###</target>
-      </segment>
-    </unit>
-    <unit id="37c61550-8c42-4b3a-966a-8c7d563f508d">
-      <notes>
-        <note appliesTo="source">line: 111</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add tew new sites or search engines:</source>
-        <target>Add tew new sites or search engines:</target>
-      </segment>
-    </unit>
-    <unit id="fab965c2-5e84-4650-945f-273d9d8d4d3d">
-      <notes>
-        <note appliesTo="source">line: 112</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>Google Translate</source>
-        <target>Google Translate</target>
-      </segment>
-    </unit>
-    <unit id="46f31db3-a3d7-40de-95ef-468f5e74f252">
-      <notes>
-        <note appliesTo="source">line: 113</note>
-        <note appliesTo="source">prefix: 	*	</note>
-      </notes>
-      <segment state="initial">
-        <source>NVDA Issues On GitHub</source>
-        <target>NVDA Issues On GitHub</target>
-      </segment>
-    </unit>
-    <unit id="cd1a9d0c-d894-4cfa-a775-a17d14aa753b">
-      <notes>
-        <note appliesTo="source">line: 114</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Use script decorators, instead of traditional script gesture way.</source>
-        <target>Use script decorators, instead of traditional script gesture way.</target>
-      </segment>
-    </unit>
-    <unit id="2ee953c7-48a7-4b1d-9631-b7f22bf1c676">
-      <notes>
-        <note appliesTo="source">line: 116</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 1.5 ###</source>
-        <target>Changes for 1.5 ###</target>
-      </segment>
-    </unit>
-    <unit id="e879dd81-a0be-47ff-bab7-143c38d32167">
-      <notes>
-        <note appliesTo="source">line: 118</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Fixing a serious bug, by escaping special characters in the query string, before including it in the url.</source>
-        <target>Fixing a serious bug, by escaping special characters in the query string, before including it in the url.</target>
-      </segment>
-    </unit>
-    <unit id="2a6ec839-74ec-4de9-8840-46378a35dda8">
-      <notes>
-        <note appliesTo="source">line: 120</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 1.4 ###</source>
-        <target>Changes for 1.4 ###</target>
-      </segment>
-    </unit>
-    <unit id="e7d7c5bb-a429-476e-bc2d-5efaeaba4982">
-      <notes>
-        <note appliesTo="source">line: 122</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Add localization updates .</source>
-        <target>Add localization updates .</target>
-      </segment>
-    </unit>
-    <unit id="5d7d0c64-ca7b-45b1-bf52-fc28cb3d3bca">
-      <notes>
-        <note appliesTo="source">line: 123</note>
-        <note appliesTo="source">prefix: *	</note>
-      </notes>
-      <segment state="initial">
-        <source>Remove some doc strings under script functions, not suitable be shown in input gestures.</source>
-        <target>Remove some doc strings under script functions, not suitable be shown in input gestures.</target>
-      </segment>
-    </unit>
-    <unit id="bc9ebdc4-ab16-407b-a5ce-2b7c92ceabaa">
-      <notes>
-        <note appliesTo="source">line: 125</note>
+        <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
       <segment state="initial">
@@ -1072,9 +501,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Changes for 1.2 ###</target>
       </segment>
     </unit>
-    <unit id="dcda6cd9-1ddc-484a-9cf8-f7421c5214a1">
+    <unit id="a958c27a-5351-4300-bc52-0134fc1a66e4">
       <notes>
-        <note appliesTo="source">line: 127</note>
+        <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1082,9 +511,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Add translations for Portuguese (Brazil), Portuguese (Portugal), and Turkish.</target>
       </segment>
     </unit>
-    <unit id="e9038385-fb44-40d4-9f9b-ea96937da16d">
+    <unit id="67c259f6-65fc-48d3-8c6e-ebd5ff7f2578">
       <notes>
-        <note appliesTo="source">line: 128</note>
+        <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1092,9 +521,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Add translations for Chinese (Simplified, China)</target>
       </segment>
     </unit>
-    <unit id="9d16af83-771f-4d32-92e2-c5c37b3d4018">
+    <unit id="792eb5d0-8ce5-4e5d-b32a-6d0b502f376c">
       <notes>
-        <note appliesTo="source">line: 130</note>
+        <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
       <segment state="initial">
@@ -1102,9 +531,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Changes for 0.7 ###</target>
       </segment>
     </unit>
-    <unit id="ab43c107-840f-40f3-84fb-c599b6717850">
+    <unit id="f88dafd1-1863-4d66-8344-0eda8a984ecc">
       <notes>
-        <note appliesTo="source">line: 132</note>
+        <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1112,9 +541,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Add more sites that could be added to menu, such as Stackoverflow, Stackexchange, GoogleBooks and others.</target>
       </segment>
     </unit>
-    <unit id="3af828cf-663f-4e17-9a6a-9e02f15b9ec8">
+    <unit id="c4d73aa9-0070-4618-b8fb-e36569a9d6ef">
       <notes>
-        <note appliesTo="source">line: 133</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1122,9 +551,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Add the options to use last spoken text as default query, in search with dialog.</target>
       </segment>
     </unit>
-    <unit id="4dab6dc3-8fa9-4606-a511-7adffdc4b3f7">
+    <unit id="0ce86e07-b7c0-4d6b-bada-fdbcbb832376">
       <notes>
-        <note appliesTo="source">line: 135</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
       <segment state="initial">
@@ -1132,9 +561,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Changes for 0.4 ###</target>
       </segment>
     </unit>
-    <unit id="68d1afc6-7ecd-4af7-8aea-17f70f75681a">
+    <unit id="7f15c7c3-f197-4912-bfbc-e84db1e6ba80">
       <notes>
-        <note appliesTo="source">line: 137</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1142,9 +571,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Add a dialog if no text selected, to enter a search query.</target>
       </segment>
     </unit>
-    <unit id="f853886f-c601-4d5f-a080-d9b3abe83676">
+    <unit id="3b7cd5bd-1ed1-4030-b3f9-d565aed4c795">
       <notes>
-        <note appliesTo="source">line: 138</note>
+        <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1152,9 +581,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Make possible to modify Search with menu from setting panel, to fit to user needs.</target>
       </segment>
     </unit>
-    <unit id="ca043b25-4487-468e-b883-6bf7216ee9f4">
+    <unit id="695bfb92-8a99-41ce-a40f-5ba4ba844135">
       <notes>
-        <note appliesTo="source">line: 140</note>
+        <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
       <segment state="initial">
@@ -1162,9 +591,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Changes for 0.3 ###</target>
       </segment>
     </unit>
-    <unit id="a8641c22-dd8d-4b88-9573-eccbc6346445">
+    <unit id="36007e86-d9da-40dc-885e-bcb9989b5fdc">
       <notes>
-        <note appliesTo="source">line: 142</note>
+        <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1172,9 +601,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Add setting panel, giving more language options in Google search.</target>
       </segment>
     </unit>
-    <unit id="6a8c305e-f585-4b71-98ce-2d50eec01123">
+    <unit id="445bb6f5-e9b3-4ac0-af98-080c5a480293">
       <notes>
-        <note appliesTo="source">line: 144</note>
+        <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: ### </note>
       </notes>
       <segment state="initial">
@@ -1182,9 +611,9 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Changes for 0.1 ###</target>
       </segment>
     </unit>
-    <unit id="de7c457f-4942-49b9-9274-d53d1c84d11f">
+    <unit id="4d105e3d-6fe9-4ce4-9ad4-8b0f88906921">
       <notes>
-        <note appliesTo="source">line: 146</note>
+        <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -1192,13 +621,13 @@ $(ID:101f223a-21a2-4156-9818-efce90a24413)
         <target>Initial version</target>
       </segment>
     </unit>
-    <unit id="101f223a-21a2-4156-9818-efce90a24413">
+    <unit id="a6b3d315-5f13-4724-b401-82154a3bfd1c">
       <notes>
-        <note appliesTo="source">line: 148</note>
+        <note appliesTo="source">line: 74</note>
       </notes>
       <segment state="initial">
-        <source>[1]: https://github.com/ibrahim-s/searchWith/releases/download/2.5.3/searchWith-2.5.3.nvda-addon</source>
-        <target>[1]: https://github.com/ibrahim-s/searchWith/releases/download/2.5.3/searchWith-2.5.3.nvda-addon</target>
+        <source>[1]: https://github.com/ibrahim-s/searchWith/releases/download/v1.2/searchWith-1.2.nvda-addon</source>
+        <target>[1]: https://github.com/ibrahim-s/searchWith/releases/download/v1.2/searchWith-1.2.nvda-addon</target>
       </segment>
     </unit>
   </file>

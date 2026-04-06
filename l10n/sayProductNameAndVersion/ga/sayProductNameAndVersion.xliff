@@ -1,66 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ga">
-  <file id="sayProductNameAndVersion.md" original="https://raw.githubusercontent.com/nvdaaddons/crowdinRegistration/eb217970f8dfc67111f2e2dca8536ee65951d5e8/addons/sayProductNameAndVersion/sayProductNameAndVersion.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/opensourcesys/sayProductNameAndVersion/4edc9243a71d37620eca43f72031035009acc73a/readme.md">
     <skeleton>
-* $(ID:37176de8-855b-4507-a672-fa9161fe8682)
-* $(ID:6d19d34f-c4b0-459a-84e1-ad0e91dc5111)
-* $(ID:6b32299b-6edd-4bfd-8bd5-e68338b8c940)
-* $(ID:ea33514c-85ef-4b70-806d-e6bd9d42769a)
+$(ID:8549ee42-d8d3-49a3-ae78-d624688c90db)
 
-$(ID:9bd29e3b-3b68-4dad-a0a5-3edc2b5b3cf0)
+* $(ID:abf34e8e-f758-4900-a2cb-65e6e016a0e9)
+* $(ID:862253c0-35fc-4453-92a5-db73e66e8e36)
+* $(ID:44452410-f3b7-457c-87cb-dea4dbee693e)
 
-* $(ID:d70154d7-079f-4d9e-8192-1fb38ab64720)
-* $(ID:a16c415e-40de-4621-822c-23bd830ecdfa)
-* $(ID:63d3adfd-abe5-4346-8129-1877da1b1c3e)
-* $(ID:f688285b-d35d-4ead-82d1-58a2e749f274)
+$(ID:d94f2223-02a5-4f9c-8747-489fcea69bec)
 
-$(ID:e30c9302-3be2-44af-8c3b-ad429bd6a8dd)
+* $(ID:b9132b53-5dd4-41c0-ba9e-b38523aecb71)
+* $(ID:0cf3de32-147d-4e0e-b010-8489be2edc2a)
 
-$(ID:3ddd1188-84fa-4c5f-81a0-09142f8bf9ca)
-$(ID:56b3ad0c-ebb0-46ad-a70b-79f711213ead)
+$(ID:6dd92652-2cd8-4af2-83e1-e054b4a34da9)
 
-$(ID:9797d6ec-a000-4815-a9e9-cca4a3f25a57)
+$(ID:30ceb66f-bb54-4ee8-8c35-505c98da166e)
 
-### $(ID:610c786e-eb2b-4efd-97e0-5e013d4b46eb)
+$(ID:3611111d-2e74-4aec-9e28-a8eddba5a803)
 
-$(ID:09a6ac62-9976-4aa6-a182-497165c5de14)
+$(ID:3e94453d-c03d-4006-8602-3b94de183951)
 
-$(ID:e1d69cc6-256a-4179-b9fd-04fa6ed3947f)
-$(ID:d7f76aee-4c9a-48a2-afef-c57c465476cf)
-
-### $(ID:fb2db50f-bc21-4c77-b419-a0ae05e7be81)
-
-$(ID:4803f6b4-5d52-40f4-98f9-891cd598df32)
-
-$(ID:9e9caf64-2bb4-4f68-9aa7-f8658664ef26)
-
-$(ID:f221cc2d-6f3c-4e3f-a882-f1bfa0627ed1)
-
-$(ID:c0fc3201-00a7-483a-950f-ae7044255423)
 </skeleton>
-    <unit id="37176de8-855b-4507-a672-fa9161fe8682">
+    <unit id="8549ee42-d8d3-49a3-ae78-d624688c90db">
       <notes>
         <note appliesTo="source">line: 2</note>
-        <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
-        <source>Author: Luke Davis &lt;XLTechie@newanswertech.com&gt;, Patrick ZAJDA</source>
-        <target>Author: Luke Davis &lt;XLTechie@newanswertech.com&gt;, Patrick ZAJDA</target>
+        <source>[[!meta title="Say Product Name and Version"]]</source>
+        <target>[[!meta title="Say Product Name and Version"]]</target>
       </segment>
     </unit>
-    <unit id="6d19d34f-c4b0-459a-84e1-ad0e91dc5111">
-      <notes>
-        <note appliesTo="source">line: 3</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>NVDA compatibility: 2025.3 through 2026.1</source>
-        <target>NVDA compatibility: 2025.3 through 2026.1</target>
-      </segment>
-    </unit>
-    <unit id="6b32299b-6edd-4bfd-8bd5-e68338b8c940">
+    <unit id="abf34e8e-f758-4900-a2cb-65e6e016a0e9">
       <notes>
         <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Author: Patrick ZAJDA &lt;patrick@zajda.fr&gt;, Luke Davis &lt;XLTechie@newanswertech.com&gt;</source>
+        <target>Author: Patrick ZAJDA &lt;patrick@zajda.fr&gt;, Luke Davis &lt;XLTechie@newanswertech.com&gt;</target>
+      </segment>
+    </unit>
+    <unit id="862253c0-35fc-4453-92a5-db73e66e8e36">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA compatibility: 2017.3 or later</source>
+        <target>NVDA compatibility: 2017.3 or later</target>
+      </segment>
+    </unit>
+    <unit id="44452410-f3b7-457c-87cb-dea4dbee693e">
+      <notes>
+        <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -68,182 +61,69 @@ $(ID:c0fc3201-00a7-483a-950f-ae7044255423)
         <target>Download [stable version][1]</target>
       </segment>
     </unit>
-    <unit id="ea33514c-85ef-4b70-806d-e6bd9d42769a">
+    <unit id="d94f2223-02a5-4f9c-8747-489fcea69bec">
       <notes>
-        <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: * </note>
+        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="initial">
-        <source>For earlier versions of NVDA (back to 2017.3), try [this older version](https://github.com/opensourcesys/sayProductNameAndVersion/releases/download/v2026.2.0/sayProductNameAndVersion-2026.2.0.nvda-addon). Note that some features will be missing.</source>
-        <target>For earlier versions of NVDA (back to 2017.3), try [this older version](https://github.com/opensourcesys/sayProductNameAndVersion/releases/download/v2026.2.0/sayProductNameAndVersion-2026.2.0.nvda-addon). Note that some features will be missing.</target>
+        <source>This NVDA add-on adds a shortcut to announce product name and version of the foreground application, or copies this information to the clipboard.</source>
+        <target>This NVDA add-on adds a shortcut to announce product name and version of the foreground application, or copies this information to the clipboard.</target>
       </segment>
     </unit>
-    <unit id="9bd29e3b-3b68-4dad-a0a5-3edc2b5b3cf0">
-      <notes>
-        <note appliesTo="source">line: 7</note>
-      </notes>
-      <segment state="initial">
-        <source>This [NVDA](https://nvaccess.org/) add-on adds a shortcut to announce the name, version, and now the architecture of the foreground application, or copies this information to the clipboard.</source>
-        <target>This [NVDA](https://nvaccess.org/) add-on adds a shortcut to announce the name, version, and now the architecture of the foreground application, or copies this information to the clipboard.</target>
-      </segment>
-    </unit>
-    <unit id="d70154d7-079f-4d9e-8192-1fb38ab64720">
-      <notes>
-        <note appliesTo="source">line: 9</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>English keyboard shortcut: `NVDA+shift+v`</source>
-        <target>English keyboard shortcut: `NVDA+shift+v`</target>
-      </segment>
-    </unit>
-    <unit id="a16c415e-40de-4621-822c-23bd830ecdfa">
+    <unit id="b9132b53-5dd4-41c0-ba9e-b38523aecb71">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
-        <source>Press it once to hear the information spoken, or receive it in braille.</source>
-        <target>Press it once to hear the information spoken, or receive it in braille.</target>
+        <source>Shortcut: NVDA+Shift+V</source>
+        <target>Shortcut: NVDA+Shift+V</target>
       </segment>
     </unit>
-    <unit id="63d3adfd-abe5-4346-8129-1877da1b1c3e">
+    <unit id="0cf3de32-147d-4e0e-b010-8489be2edc2a">
       <notes>
         <note appliesTo="source">line: 11</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
-        <source>Press it twice to copy name, version, and architecture to the clipboard, separated by newlines.</source>
-        <target>Press it twice to copy name, version, and architecture to the clipboard, separated by newlines.</target>
+        <source>Press it twice to copy product name and version to the clipboard.</source>
+        <target>Press it twice to copy product name and version to the clipboard.</target>
       </segment>
     </unit>
-    <unit id="f688285b-d35d-4ead-82d1-58a2e749f274">
+    <unit id="6dd92652-2cd8-4af2-83e1-e054b4a34da9">
       <notes>
-        <note appliesTo="source">line: 12</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Press it three times to copy only the version and architecture to the clipboard.</source>
-        <target>Press it three times to copy only the version and architecture to the clipboard.</target>
-      </segment>
-    </unit>
-    <unit id="e30c9302-3be2-44af-8c3b-ad429bd6a8dd">
-      <notes>
-        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">line: 13</note>
       </notes>
       <segment state="initial">
         <source>This shortcut may be remapped in the Tools category of NVDA's Input Gestures.</source>
         <target>This shortcut may be remapped in the Tools category of NVDA's Input Gestures.</target>
       </segment>
     </unit>
-    <unit id="3ddd1188-84fa-4c5f-81a0-09142f8bf9ca">
+    <unit id="30ceb66f-bb54-4ee8-8c35-505c98da166e">
       <notes>
-        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">line: 15</note>
       </notes>
       <segment state="initial">
-        <source>To access the Windows version, use the shortcut on the Desktop or Taskbar.</source>
-        <target>To access the Windows version, use the shortcut on the Desktop or Taskbar.</target>
+        <source>For change history, please read the [changelog](https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/changelog.md#readme).</source>
+        <target>For change history, please read the [changelog](https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/changelog.md#readme).</target>
       </segment>
     </unit>
-    <unit id="56b3ad0c-ebb0-46ad-a70b-79f711213ead">
+    <unit id="3611111d-2e74-4aec-9e28-a8eddba5a803">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
       <segment state="initial">
-        <source>It will also work from various other parts of Windows.</source>
-        <target>It will also work from various other parts of Windows.</target>
+        <source>[[!tag stable]]</source>
+        <target>[[!tag stable]]</target>
       </segment>
     </unit>
-    <unit id="9797d6ec-a000-4815-a9e9-cca4a3f25a57">
+    <unit id="3e94453d-c03d-4006-8602-3b94de183951">
       <notes>
         <note appliesTo="source">line: 19</note>
       </notes>
       <segment state="initial">
-        <source>To access the NVDA version, use the shortcut while the NVDA menu, add-on store, or similar NVDA interface is open.</source>
-        <target>To access the NVDA version, use the shortcut while the NVDA menu, add-on store, or similar NVDA interface is open.</target>
-      </segment>
-    </unit>
-    <unit id="610c786e-eb2b-4efd-97e0-5e013d4b46eb">
-      <notes>
-        <note appliesTo="source">line: 21</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Please support the add-on</source>
-        <target>Please support the add-on</target>
-      </segment>
-    </unit>
-    <unit id="09a6ac62-9976-4aa6-a182-497165c5de14">
-      <notes>
-        <note appliesTo="source">line: 23</note>
-      </notes>
-      <segment state="initial">
-        <source>If you like this add-on and are willing to help others decide whether it is useful, please leave a [review][3].</source>
-        <target>If you like this add-on and are willing to help others decide whether it is useful, please leave a [review][3].</target>
-      </segment>
-    </unit>
-    <unit id="e1d69cc6-256a-4179-b9fd-04fa6ed3947f">
-      <notes>
-        <note appliesTo="source">line: 25</note>
-      </notes>
-      <segment state="initial">
-        <source>Also, if you are willing to buy me a cup of coffee for maintaining the add-on for the past few years, it is much appreciated!</source>
-        <target>Also, if you are willing to buy me a cup of coffee for maintaining the add-on for the past few years, it is much appreciated!</target>
-      </segment>
-    </unit>
-    <unit id="d7f76aee-4c9a-48a2-afef-c57c465476cf">
-      <notes>
-        <note appliesTo="source">line: 26</note>
-      </notes>
-      <segment state="initial">
-        <source>Donations can be made [via this PayPal link](https://www.paypal.me/LukeDavis734).</source>
-        <target>Donations can be made [via this PayPal link](https://www.paypal.me/LukeDavis734).</target>
-      </segment>
-    </unit>
-    <unit id="fb2db50f-bc21-4c77-b419-a0ae05e7be81">
-      <notes>
-        <note appliesTo="source">line: 28</note>
-        <note appliesTo="source">prefix: ### </note>
-      </notes>
-      <segment state="initial">
-        <source>Miscellaneous</source>
-        <target>Miscellaneous</target>
-      </segment>
-    </unit>
-    <unit id="4803f6b4-5d52-40f4-98f9-891cd598df32">
-      <notes>
-        <note appliesTo="source">line: 30</note>
-      </notes>
-      <segment state="initial">
-        <source>For change history, please read the [changelog][2].</source>
-        <target>For change history, please read the [changelog][2].</target>
-      </segment>
-    </unit>
-    <unit id="9e9caf64-2bb4-4f68-9aa7-f8658664ef26">
-      <notes>
-        <note appliesTo="source">line: 32</note>
-      </notes>
-      <segment state="initial">
-        <source>[1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion</source>
-        <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=sayProductNameAndVersion</target>
-      </segment>
-    </unit>
-    <unit id="f221cc2d-6f3c-4e3f-a882-f1bfa0627ed1">
-      <notes>
-        <note appliesTo="source">line: 34</note>
-      </notes>
-      <segment state="initial">
-        <source>[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/changes.md#readme</source>
-        <target>[2]: https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/changes.md#readme</target>
-      </segment>
-    </unit>
-    <unit id="c0fc3201-00a7-483a-950f-ae7044255423">
-      <notes>
-        <note appliesTo="source">line: 36</note>
-      </notes>
-      <segment state="initial">
-        <source>[3]: https://github.com/nvaccess/addon-datastore/discussions/2683</source>
-        <target>[3]: https://github.com/nvaccess/addon-datastore/discussions/2683</target>
+        <source>[1]: https://addons.nvda-project.org/files/get.php?file=sayProductNameAndVersion</source>
+        <target>[1]: https://addons.nvda-project.org/files/get.php?file=sayProductNameAndVersion</target>
       </segment>
     </unit>
   </file>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="da">
+  <file id="readme.md" original="https://raw.githubusercontent.com/burmancomp/show-selection-when-braille-tethered-to-review/e1e8200284ae49fb5cb11bbf74671a5ec08287ea/readme.md">
+    <skeleton>
+# $(ID:08efa838-c36d-4285-8775-42bd75acb665)
+
+## $(ID:a9af50c8-0d14-42d9-9428-92e4e356ac5b)
+
+$(ID:44836c68-fd2e-4528-95bd-58571cf343b5)
+
+## $(ID:5cd14e32-fa0a-4a93-ab75-53ac95372aa1)
+
+$(ID:56bbd117-d4be-47bf-89d5-153c50e75187)
+$(ID:ed48635e-8e34-4bba-be10-7ae00ec3f2f8)
+$(ID:9debff66-5919-47c1-994d-4074ad776f0c)
+$(ID:345c4d00-3c34-44f5-ad61-215e27383310)
+$(ID:db087c6d-d6cb-4323-8cb7-c21775960ce7)
+$(ID:7f280337-f90c-45c2-aa8e-992ff6b179d8)
+$(ID:c7a82c94-6892-4132-b78d-a885ff15b214)
+
+$(ID:17c4dd71-8c54-4a54-b2c3-fb42fa7f5704)
+$(ID:8ee25b7c-08ec-4a92-ab7b-2adad794148b)
+$(ID:fc831d21-b3cc-40ed-a71d-b2252d5daed2)
+$(ID:b117b856-3568-424f-83e0-f90acc74eeb3)
+$(ID:bc325b66-d80e-4d76-993f-921074c82b31)
+$(ID:c95db6bf-a1a2-4c16-8e5f-163d27c9688d)
+$(ID:b955966e-b8c4-4eae-96a1-04a8f0cbd018)
+
+## $(ID:5292aae8-927e-45a3-972b-1483b474fec3)
+
+$(ID:23085a04-0e15-49db-b192-d90ad8aa413e)
+$(ID:9fe7b995-8e85-4777-9ed5-f068bb0b78e0)
+$(ID:7ffada6f-6ce2-460a-8a16-57fddb3559fa)
+
+$(ID:4d52f27f-9baf-4607-9dc8-c8e220f00389)
+$(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
+
+## $(ID:ef789d31-2e4e-4130-a136-05288201cae8)
+
+* $(ID:4131b03d-9455-41fa-b1bc-f1a95c3c63b0)
+
+</skeleton>
+    <unit id="08efa838-c36d-4285-8775-42bd75acb665">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="initial">
+        <source>Show selection when braille is tethered to review</source>
+        <target>Show selection when braille is tethered to review</target>
+      </segment>
+    </unit>
+    <unit id="a9af50c8-0d14-42d9-9428-92e4e356ac5b">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Good to know before using this addon</source>
+        <target>Good to know before using this addon</target>
+      </segment>
+    </unit>
+    <unit id="44836c68-fd2e-4528-95bd-58571cf343b5">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+      </notes>
+      <segment state="initial">
+        <source>There are likely very few users which means that more or less use cases are not tested. This means greater probability of issues.</source>
+        <target>There are likely very few users which means that more or less use cases are not tested. This means greater probability of issues.</target>
+      </segment>
+    </unit>
+    <unit id="5cd14e32-fa0a-4a93-ab75-53ac95372aa1">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>General</source>
+        <target>General</target>
+      </segment>
+    </unit>
+    <unit id="56bbd117-d4be-47bf-89d5-153c50e75187">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+      </notes>
+      <segment state="initial">
+        <source>To use this addon, tether braille to review in NVDA settings Braille category.</source>
+        <target>To use this addon, tether braille to review in NVDA settings Braille category.</target>
+      </segment>
+    </unit>
+    <unit id="ed48635e-8e34-4bba-be10-7ae00ec3f2f8">
+      <notes>
+        <note appliesTo="source">line: 11</note>
+      </notes>
+      <segment state="initial">
+        <source>You likely want also that review cursor follows system caret most of time</source>
+        <target>You likely want also that review cursor follows system caret most of time</target>
+      </segment>
+    </unit>
+    <unit id="9debff66-5919-47c1-994d-4074ad776f0c">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+      </notes>
+      <segment state="initial">
+        <source>(see NVDA settings Review Cursor category). Selection is shown in edit controls</source>
+        <target>(see NVDA settings Review Cursor category). Selection is shown in edit controls</target>
+      </segment>
+    </unit>
+    <unit id="345c4d00-3c34-44f5-ad61-215e27383310">
+      <notes>
+        <note appliesTo="source">line: 13</note>
+      </notes>
+      <segment state="initial">
+        <source>and documents with dots 7 and 8 when "Show selection" is enabled in NVDA</source>
+        <target>and documents with dots 7 and 8 when "Show selection" is enabled in NVDA</target>
+      </segment>
+    </unit>
+    <unit id="db087c6d-d6cb-4323-8cb7-c21775960ce7">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+      </notes>
+      <segment state="initial">
+        <source>settings Braille category. When braille is tethered to review and review</source>
+        <target>settings Braille category. When braille is tethered to review and review</target>
+      </segment>
+    </unit>
+    <unit id="7f280337-f90c-45c2-aa8e-992ff6b179d8">
+      <notes>
+        <note appliesTo="source">line: 15</note>
+      </notes>
+      <segment state="initial">
+        <source>follows caret, review cursor is positioned to end of selected text when</source>
+        <target>follows caret, review cursor is positioned to end of selected text when</target>
+      </segment>
+    </unit>
+    <unit id="c7a82c94-6892-4132-b78d-a885ff15b214">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+      </notes>
+      <segment state="initial">
+        <source>selection changes so you can see immediately how it changed.</source>
+        <target>selection changes so you can see immediately how it changed.</target>
+      </segment>
+    </unit>
+    <unit id="17c4dd71-8c54-4a54-b2c3-fb42fa7f5704">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+      </notes>
+      <segment state="initial">
+        <source>You can easily see what you have selected for example for copying or formatting</source>
+        <target>You can easily see what you have selected for example for copying or formatting</target>
+      </segment>
+    </unit>
+    <unit id="8ee25b7c-08ec-4a92-ab7b-2adad794148b">
+      <notes>
+        <note appliesTo="source">line: 19</note>
+      </notes>
+      <segment state="initial">
+        <source>in text editor. You can move around edit control or document with braille</source>
+        <target>in text editor. You can move around edit control or document with braille</target>
+      </segment>
+    </unit>
+    <unit id="fc831d21-b3cc-40ed-a71d-b2252d5daed2">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+      </notes>
+      <segment state="initial">
+        <source>gestures and text review commands which move braille display. Movement does not</source>
+        <target>gestures and text review commands which move braille display. Movement does not</target>
+      </segment>
+    </unit>
+    <unit id="b117b856-3568-424f-83e0-f90acc74eeb3">
+      <notes>
+        <note appliesTo="source">line: 21</note>
+      </notes>
+      <segment state="initial">
+        <source>affect on caret, and it is not restricted to selected text. It means that</source>
+        <target>affect on caret, and it is not restricted to selected text. It means that</target>
+      </segment>
+    </unit>
+    <unit id="bc325b66-d80e-4d76-993f-921074c82b31">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+      </notes>
+      <segment state="initial">
+        <source>you can investigate both selected and unselected part of text with braille.</source>
+        <target>you can investigate both selected and unselected part of text with braille.</target>
+      </segment>
+    </unit>
+    <unit id="c95db6bf-a1a2-4c16-8e5f-163d27c9688d">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+      </notes>
+      <segment state="initial">
+        <source>You can use routing buttons to move review position and/or caret according to</source>
+        <target>You can use routing buttons to move review position and/or caret according to</target>
+      </segment>
+    </unit>
+    <unit id="b955966e-b8c4-4eae-96a1-04a8f0cbd018">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA Braille category "Move system caret when routing review cursor" setting.</source>
+        <target>NVDA Braille category "Move system caret when routing review cursor" setting.</target>
+      </segment>
+    </unit>
+    <unit id="5292aae8-927e-45a3-972b-1483b474fec3">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Notes</source>
+        <target>Notes</target>
+      </segment>
+    </unit>
+    <unit id="23085a04-0e15-49db-b192-d90ad8aa413e">
+      <notes>
+        <note appliesTo="source">line: 28</note>
+      </notes>
+      <segment state="initial">
+        <source>If "Show selection" is disabled, review cursor is positioned to end of</source>
+        <target>If "Show selection" is disabled, review cursor is positioned to end of</target>
+      </segment>
+    </unit>
+    <unit id="9fe7b995-8e85-4777-9ed5-f068bb0b78e0">
+      <notes>
+        <note appliesTo="source">line: 29</note>
+      </notes>
+      <segment state="initial">
+        <source>selected text when braille is tethered to review, review follows caret and</source>
+        <target>selected text when braille is tethered to review, review follows caret and</target>
+      </segment>
+    </unit>
+    <unit id="7ffada6f-6ce2-460a-8a16-57fddb3559fa">
+      <notes>
+        <note appliesTo="source">line: 30</note>
+      </notes>
+      <segment state="initial">
+        <source>selection changes.</source>
+        <target>selection changes.</target>
+      </segment>
+    </unit>
+    <unit id="4d52f27f-9baf-4607-9dc8-c8e220f00389">
+      <notes>
+        <note appliesTo="source">line: 32</note>
+      </notes>
+      <segment state="initial">
+        <source>To see selection outside of edit controls, browse mode should be used</source>
+        <target>To see selection outside of edit controls, browse mode should be used</target>
+      </segment>
+    </unit>
+    <unit id="ab5e4989-daf9-4864-a02d-8ceffa99a8d4">
+      <notes>
+        <note appliesTo="source">line: 33</note>
+      </notes>
+      <segment state="initial">
+        <source>where supported.</source>
+        <target>where supported.</target>
+      </segment>
+    </unit>
+    <unit id="ef789d31-2e4e-4130-a136-05288201cae8">
+      <notes>
+        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Known issues</source>
+        <target>Known issues</target>
+      </segment>
+    </unit>
+    <unit id="4131b03d-9455-41fa-b1bc-f1a95c3c63b0">
+      <notes>
+        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>In MS Word when UIA is not used, review cursor may be positioned to the start of selection when edit control gets focus.</source>
+        <target>In MS Word when UIA is not used, review cursor may be positioned to the start of selection when edit control gets focus.</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

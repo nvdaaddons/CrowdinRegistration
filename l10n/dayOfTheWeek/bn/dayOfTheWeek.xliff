@@ -1,113 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="bn">
-  <file id="dayOfTheWeek.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/dayOfTheWeek/dayOfTheWeek.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/abdel792/dayOfTheWeek/23af1e2efe366cb9acf3b2a8ca8df30ee82d3b55/readme.md">
     <skeleton>
-# $(ID:a545efed-1daf-4871-8f1e-ed965384f8ce)
+# $(ID:413de9d3-9557-41cb-94e7-2e3df4220db8)
 
-* $(ID:00a79b64-5ae4-4980-8ff2-373a9c25763b)
-* $(ID:509640f4-39de-4836-bd0e-e6944819778c)
-* $(ID:f6a8bff6-5d91-46a6-8de2-1046efee478c)
+* $(ID:e575edf4-6c0b-4c39-a11c-eccd6118bc65)
 
-$(ID:e252d51e-bf85-434a-a388-ae8d569f83c4)
+$(ID:3026a721-61c9-4f71-8634-56746c2f996c)
 
-$(ID:302ce67a-af78-4452-b1b6-e6524a401f67)
+$(ID:0a98dad8-28ed-49b1-9187-5e096a172369)
 
-* $(ID:414813ca-0b9c-4d18-92d2-a6bfa0a3eaa6)
+* $(ID:eefc0b8f-c0eb-46a6-a9f3-8da0a0817534)
 
-    * $(ID:e78c4942-5d38-4350-b406-3d0a2db7ed98)
-    * $(ID:b0094696-f2c4-4ea6-8d40-4c3039fd759e)
-    * $(ID:70f00355-bd91-45d7-82ba-5cdec8fed510)
+    * $(ID:5f2a5599-e945-4776-a0ef-fecc30ee5e7d)
+    * $(ID:6ec90bda-0e1d-4220-9da7-45db5ca04c97)
+    * $(ID:d6d040de-9962-4960-98e9-7b41b7c4bf38)
 
-* $(ID:5d73d67f-3c58-45b9-932e-cb950228561f)
+* $(ID:289ea044-7afb-4a92-8da8-b60a9f86d1f5)
 
-    * $(ID:fe3bfa0d-85c5-4368-95c5-32f3d6015023)
-    * $(ID:ba8da11b-0c9b-4fe3-b214-26ac9ac6c07f)
+    * $(ID:dfde69d8-3924-4385-a88e-ea266d5d0b41)
+    * $(ID:4a3e68ea-6eac-4c31-b16a-112026b79cf0)
 
-        * $(ID:c83a20eb-6c4e-4e91-b1d6-cefbbf6a7a08)
-        * $(ID:cb9260c4-fe8d-4994-a3a2-15fa29cd9fbb)
-        * $(ID:cbca1892-523c-48e8-8691-58cbf83347f0)
+        * $(ID:d861ec49-cdbc-43c4-96ff-aa5842831e32)
+        * $(ID:dc0fc5d5-17a8-42a4-bd64-aa7f3fc56360)
+        * $(ID:e957f02b-cf87-4e3a-a0b3-80b814c2f7ab)
 
-    * $(ID:bf99243f-9de5-448c-91a5-8f374ae7fc79)
-    * $(ID:314bb712-00de-49cd-bf0d-360411ae4bac)
-    * $(ID:6d6e02b6-4363-440e-bddd-2614f4c55c9d)
+    * $(ID:c2b9e711-c84b-41aa-aac2-63c0eb25c474)
+    * $(ID:fa26ef46-788b-45f1-96a3-22f7eee8e6fb)
+    * $(ID:cf5a175b-228a-483d-921c-6981bee8009e)
 
-## $(ID:d9f61fd2-3f32-48bf-8448-bd3267b6c85f)
+## $(ID:e2067413-a4b3-4a20-b5a1-8cac1752c160)
 
-* $(ID:318be477-9ebd-4981-b133-77f9333398d9)
-* $(ID:a934937f-6ab1-4d4a-8832-32aae6835065)
-* $(ID:10cdd217-7a45-40bf-b8ec-7fb352ffc6d3)
+* $(ID:70cf2648-eae4-4690-b4f8-b3e4521862dd)
+* $(ID:8007c740-1b56-475b-a6e1-bd61b934d97b)
+* $(ID:12bfded9-293d-4aa6-bbb2-5d8b3801a16f)
 
-## $(ID:c0575537-90d2-4987-8142-d2b8cb1bf44a)
+## $(ID:c2c61f21-efe7-4bdb-8750-b8b8037b77e4)
 
-* $(ID:d4f91307-e307-4dcf-8ac8-dbe620c89f86)
+* $(ID:bdcd022d-5f71-440b-be56-435e69e779a5)
 
-## $(ID:e005da4d-7884-4a6c-b8c4-7d0cdb6933f9)
+## $(ID:af3073a4-d49d-40d8-a382-89de243b6d5d)
 
-* $(ID:59b741f8-c10d-47c7-87e6-e1cfd8fdc8b1)
+* $(ID:587c709c-cfd3-4c57-91c3-c69e2714c135)
+* $(ID:4b0052ba-38dc-4fff-8688-e7ab616a7284)
 
-## $(ID:08636b05-9903-4e5f-b11c-dfb050d376fa)
+## $(ID:f99f1adb-9e5e-4b73-a18c-10d9d83c6206)
 
-* $(ID:4314b97a-fdfa-4a11-b89b-7c4db8975bfc)
-* $(ID:f600f918-6d76-4f6c-9ee5-7103290db9b2)
+* $(ID:90ddb36f-9140-4455-b711-15e370a19c20)
 
-## $(ID:ae0e1c2c-7516-4a7c-a3ab-1d6adf1b9352)
+## $(ID:e91e13d4-2b7d-4bd7-b067-089452c3f498)
 
-* $(ID:f4417246-226b-4284-b0a7-5527175da46e)
- * $(ID:bdbe77a3-f20c-4e51-bee4-1aa70d6c4d11)
- * $(ID:f768b3f0-1a81-426d-92b0-98ca50dc1e61)
- * $(ID:52f455d0-a1b8-4092-8ffc-4fd6f05194fd)
-* $(ID:d8f3f873-628e-415c-91e9-f0aabdcaa521)
+* $(ID:63c39f0a-35c1-409b-b2d9-4f8029545a61)
 
-## $(ID:45223ac3-1d1e-4dea-9cf9-27382a615d20)
+## $(ID:63c198b2-7f1c-4eea-8e0e-0e39c676f7c8)
 
-* $(ID:7904027a-5b36-44de-890b-a3151aa0e69c)
+* $(ID:5d5b6334-076b-4c0a-80d1-b9d8452cb511)
+* $(ID:9532b75a-79ba-4f18-8647-faba0b2b6f3b)
 
-## $(ID:a1e6b78c-2ba7-4f70-a97c-0d599452260a)
+## $(ID:3b2f9781-6787-4b49-97d5-0305fddccb4c)
 
-* $(ID:f7a32736-d391-4039-988b-5b98f85a8657)
-* $(ID:600ce0df-1368-4bed-933e-2dd1752ff97b)
+* $(ID:9d167690-49e4-4307-976c-7c5447ecb7af)
+ * $(ID:25f73150-e104-4d68-a43b-ac6f8fb28ef1)
+ * $(ID:0654bcf3-b8ad-4a7c-ae78-c58a4c192ac6)
+ * $(ID:6494055f-7a44-4321-9d57-d9e041ab82d2)
+* $(ID:6f73d759-3e99-4a8e-8ac9-0ed517498ae7)
 
-## $(ID:98576fd7-71cf-440f-b6fb-ef1c9a0523a1)
+## $(ID:7bbbf1e6-6d2b-40d6-beeb-9cf118048eba)
 
-* $(ID:516b4c9a-545c-4a7f-b20c-4965d8dc4f26)
-* $(ID:ead5eddc-cac5-45cd-9c3f-0ea6bc1c876b)
-* $(ID:e98adebf-8ffa-49fd-a42a-3ce8afb94191)
+* $(ID:2ff2a249-f6d5-4c1c-a028-9f6e6a49c939)
 
-## $(ID:e78cde0a-1862-4a47-89c9-6e1222935294)
+## $(ID:6e001b8f-86c1-458e-8dc0-fbfe0f83a15b)
 
-* $(ID:01efe0f7-18b5-4647-a534-e16729763615)
-* $(ID:5935917b-59a3-4b27-a407-66f41efe1395)
+* $(ID:97229427-4765-403a-8916-71390fca99a0)
+* $(ID:ee91ea2e-9203-4c9b-b3b4-a1e7bdbfc886)
 
-## $(ID:45faa1c5-0aa5-49d4-b477-0396da5ca76a)
+## $(ID:1c64c2bf-452b-4dcc-b437-06e0e1d00e05)
 
-* $(ID:1b01f73f-6ab9-4ffe-877e-8eda1aeb145e)
-* $(ID:5a66f80b-0c9d-400f-a916-21ae37032ee2)
+* $(ID:f7bc4a66-8b26-4df4-98b9-9c4be82f81ca)
+* $(ID:8f09eccd-2011-44ec-87c8-60892e05d2d8)
+* $(ID:db1605df-304c-45d5-8ea1-4a4852963d4a)
 
-## $(ID:a95187a3-3d7a-49d0-9701-891415a19a5e)
+## $(ID:b82c6209-83b2-4a5c-bd05-3b0e2b13be5e)
 
-* $(ID:65f5ac85-cfca-4e03-bf31-2ca47d838bf6)
-* $(ID:c68423d9-b7f0-4cfc-acdb-150aa5b668d8)
-* $(ID:f9efa63e-6878-4fd8-b7c2-4aab2f83aec4)
-* $(ID:a03df1fd-bbf1-48b4-bf0a-7973a7ffd9e5)
-* $(ID:d67eaba4-99e4-49d7-9278-36c68b7a16cd)
-* $(ID:b647bf27-6e30-4291-bc7b-f419b4ec8389)
+* $(ID:70aff327-13ef-479e-b2ec-8d7a16d6bd60)
+* $(ID:974c9e97-bbfe-4231-9f01-c6b30eb2a2cd)
 
-## $(ID:4b8493e1-7e70-4166-bfba-1388ab654396)
+## $(ID:92070479-911a-440b-af66-ba1e9977f5a3)
 
-* $(ID:40460713-cad4-4be7-a8a3-da59331dc006)
-* $(ID:a3686c7d-2368-463d-b05c-94773fb1c272)
-* $(ID:54f7340a-6f77-4c55-b85c-2c9582d63442)
-* $(ID:b08bce87-5fd3-42fe-a1b9-33e1c86d869b)
+* $(ID:e7ab39d7-0497-441d-8262-f702c48ccbc2)
+* $(ID:54e06179-6433-4b35-8afc-a88e8e1783d8)
 
-## $(ID:c4708aa8-d0a0-4f8f-ac89-aaeca4a9d94b)
+## $(ID:9ad78187-f877-437a-800c-1a9c05953f7f)
 
-* $(ID:a674be84-6c9c-4f84-92b5-254f5a5b66f3)
+* $(ID:2adccbfe-a25d-455b-9e1e-f055038f5613)
+* $(ID:5e01e2e3-6384-4acc-b39d-14a178a11738)
+* $(ID:8037924a-d14b-4ca7-9877-614042c11e44)
+* $(ID:cf7fdfd8-f5fa-4b59-99ff-d11a583adf99)
+* $(ID:a2692647-7e24-4d33-a836-a81053497409)
+* $(ID:556f6c07-b813-44c2-b764-17bbf6eece42)
 
-$(ID:b7e8b0e2-9d6a-4a29-bcbc-6b9e9deb7655)
+## $(ID:43bf022c-1975-41a2-b7cf-9b7a2f55f8c9)
 
-$(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
+* $(ID:de74b544-9ff4-472f-a0c5-5d935463a168)
+* $(ID:7f1b3ef9-7332-476c-8d2b-c7c131f1c98f)
+* $(ID:fb6bee71-4ff8-498e-ae89-f887245e9c54)
+* $(ID:ef47bb09-0f5b-487a-84c4-040a1bdb5325)
+
+## $(ID:7d87d2cb-5a99-4e00-a60a-6d215d4b67e0)
+
+* $(ID:a24ed102-6231-4ade-9f8f-3d271f0d670e)
+
 </skeleton>
-    <unit id="a545efed-1daf-4871-8f1e-ed965384f8ce">
+    <unit id="413de9d3-9557-41cb-94e7-2e3df4220db8">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -117,7 +121,7 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Day of the week #</target>
       </segment>
     </unit>
-    <unit id="00a79b64-5ae4-4980-8ff2-373a9c25763b">
+    <unit id="e575edf4-6c0b-4c39-a11c-eccd6118bc65">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -127,47 +131,27 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Authors: Abdel, Noelia.</target>
       </segment>
     </unit>
-    <unit id="509640f4-39de-4836-bd0e-e6944819778c">
-      <notes>
-        <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>download [stable version][1]</source>
-        <target>download [stable version][1]</target>
-      </segment>
-    </unit>
-    <unit id="f6a8bff6-5d91-46a6-8de2-1046efee478c">
+    <unit id="3026a721-61c9-4f71-8634-56746c2f996c">
       <notes>
         <note appliesTo="source">line: 6</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>download [development version][2]</source>
-        <target>download [development version][2]</target>
-      </segment>
-    </unit>
-    <unit id="e252d51e-bf85-434a-a388-ae8d569f83c4">
-      <notes>
-        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="initial">
         <source>This add-on allows you to find a day of the week corresponding to a chosen date.</source>
         <target>This add-on allows you to find a day of the week corresponding to a chosen date.</target>
       </segment>
     </unit>
-    <unit id="302ce67a-af78-4452-b1b6-e6524a401f67">
+    <unit id="0a98dad8-28ed-49b1-9187-5e096a172369">
       <notes>
-        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="initial">
         <source>It adds a submenu in the NVDA Tools menu named "Day of the week", containing 2 items:</source>
         <target>It adds a submenu in the NVDA Tools menu named "Day of the week", containing 2 items:</target>
       </segment>
     </unit>
-    <unit id="414813ca-0b9c-4d18-92d2-a6bfa0a3eaa6">
+    <unit id="eefc0b8f-c0eb-46a6-a9f3-8da0a0817534">
       <notes>
-        <note appliesTo="source">line: 12</note>
+        <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -175,9 +159,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>The first one named "Search a day", opens a dialog composed of 3 controls:</target>
       </segment>
     </unit>
-    <unit id="e78c4942-5d38-4350-b406-3d0a2db7ed98">
+    <unit id="5f2a5599-e945-4776-a0ef-fecc30ee5e7d">
       <notes>
-        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -185,9 +169,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>A listbox to choose or type your date;</target>
       </segment>
     </unit>
-    <unit id="b0094696-f2c4-4ea6-8d40-4c3039fd759e">
+    <unit id="6ec90bda-0e1d-4220-9da7-45db5ca04c97">
       <notes>
-        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -195,9 +179,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>An "OK" button to display a messageBox containing your day;</target>
       </segment>
     </unit>
-    <unit id="70f00355-bd91-45d7-82ba-5cdec8fed510">
+    <unit id="d6d040de-9962-4960-98e9-7b41b7c4bf38">
       <notes>
-        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -205,9 +189,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>A "Cancel" button to close the dialog.</target>
       </segment>
     </unit>
-    <unit id="5d73d67f-3c58-45b9-932e-cb950228561f">
+    <unit id="289ea044-7afb-4a92-8da8-b60a9f86d1f5">
       <notes>
-        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -215,9 +199,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>The second one named "dayOfTheWeek add-on settings" opens the parameters of the add-on to specify whether you want to report labels for date fields or not, it is composed of the following elements:</target>
       </segment>
     </unit>
-    <unit id="fe3bfa0d-85c5-4368-95c5-32f3d6015023">
+    <unit id="dfde69d8-3924-4385-a88e-ea266d5d0b41">
       <notes>
-        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -225,9 +209,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Enable accessibility of the date selector;</target>
       </segment>
     </unit>
-    <unit id="ba8da11b-0c9b-4fe3-b214-26ac9ac6c07f">
+    <unit id="4a3e68ea-6eac-4c31-b16a-112026b79cf0">
       <notes>
-        <note appliesTo="source">line: 21</note>
+        <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -235,9 +219,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Level of the announces of labels, you will then have 3 choices:</target>
       </segment>
     </unit>
-    <unit id="c83a20eb-6c4e-4e91-b1d6-cefbbf6a7a08">
+    <unit id="d861ec49-cdbc-43c4-96ff-aa5842831e32">
       <notes>
-        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix:         * </note>
       </notes>
       <segment state="initial">
@@ -245,9 +229,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Long (it's the default choice);</target>
       </segment>
     </unit>
-    <unit id="cb9260c4-fe8d-4994-a3a2-15fa29cd9fbb">
+    <unit id="dc0fc5d5-17a8-42a4-bd64-aa7f3fc56360">
       <notes>
-        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix:         * </note>
       </notes>
       <segment state="initial">
@@ -255,9 +239,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Short (for short announcements);</target>
       </segment>
     </unit>
-    <unit id="cbca1892-523c-48e8-8691-58cbf83347f0">
+    <unit id="e957f02b-cf87-4e3a-a0b3-80b814c2f7ab">
       <notes>
-        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix:         * </note>
       </notes>
       <segment state="initial">
@@ -265,9 +249,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Off (to disable labels announcements).</target>
       </segment>
     </unit>
-    <unit id="bf99243f-9de5-448c-91a5-8f374ae7fc79">
+    <unit id="c2b9e711-c84b-41aa-aac2-63c0eb25c474">
       <notes>
-        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -275,9 +259,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Enable announcement of the current date field value only, when moving vertically;</target>
       </segment>
     </unit>
-    <unit id="314bb712-00de-49cd-bf0d-360411ae4bac">
+    <unit id="fa26ef46-788b-45f1-96a3-22f7eee8e6fb">
       <notes>
-        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -285,9 +269,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>An "OK" button to save your configuration;</target>
       </segment>
     </unit>
-    <unit id="6d6e02b6-4363-440e-bddd-2614f4c55c9d">
+    <unit id="cf5a175b-228a-483d-921c-6981bee8009e">
       <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -295,9 +279,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>A "Cancel" button to cancel and close the dialog.</target>
       </segment>
     </unit>
-    <unit id="d9f61fd2-3f32-48bf-8448-bd3267b6c85f">
+    <unit id="e2067413-a4b3-4a20-b5a1-8cac1752c160">
       <notes>
-        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -305,9 +289,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Notes ##</target>
       </segment>
     </unit>
-    <unit id="318be477-9ebd-4981-b133-77f9333398d9">
+    <unit id="70cf2648-eae4-4690-b4f8-b3e4521862dd">
       <notes>
-        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -315,9 +299,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>You can close these dialogs just by pressing Escape;</target>
       </segment>
     </unit>
-    <unit id="a934937f-6ab1-4d4a-8832-32aae6835065">
+    <unit id="8007c740-1b56-475b-a6e1-bd61b934d97b">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -325,9 +309,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>You can assign a shortcut to open these dialogs in "Input gestures" menu and, more precisely, in the "Day of the week" category;</target>
       </segment>
     </unit>
-    <unit id="10cdd217-7a45-40bf-b8ec-7fb352ffc6d3">
+    <unit id="12bfded9-293d-4aa6-bbb2-5d8b3801a16f">
       <notes>
-        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -335,9 +319,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>If you use NVDA 2018.2 or higher, you'll find only one item in the tool menu for searching your day, the add-on settings will be in the NVDA settings panel.</target>
       </segment>
     </unit>
-    <unit id="c0575537-90d2-4987-8142-d2b8cb1bf44a">
+    <unit id="c2c61f21-efe7-4bdb-8750-b8b8037b77e4">
       <notes>
-        <note appliesTo="source">line: 37</note>
+        <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -345,9 +329,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Compatibility ##</target>
       </segment>
     </unit>
-    <unit id="d4f91307-e307-4dcf-8ac8-dbe620c89f86">
+    <unit id="bdcd022d-5f71-440b-be56-435e69e779a5">
       <notes>
-        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -355,9 +339,59 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.</target>
       </segment>
     </unit>
-    <unit id="e005da4d-7884-4a6c-b8c4-7d0cdb6933f9">
+    <unit id="af3073a4-d49d-40d8-a382-89de243b6d5d">
+      <notes>
+        <note appliesTo="source">line: 39</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 20240326.0.0</source>
+        <target>Changes for 20240326.0.0</target>
+      </segment>
+    </unit>
+    <unit id="587c709c-cfd3-4c57-91c3-c69e2714c135">
       <notes>
         <note appliesTo="source">line: 41</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Updated compatibility for nvda-2024.1.;</source>
+        <target>Updated compatibility for nvda-2024.1.;</target>
+      </segment>
+    </unit>
+    <unit id="4b0052ba-38dc-4fff-8688-e7ab616a7284">
+      <notes>
+        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</source>
+        <target>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</target>
+      </segment>
+    </unit>
+    <unit id="f99f1adb-9e5e-4b73-a18c-10d9d83c6206">
+      <notes>
+        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 20231229.0.0 ##</source>
+        <target>Changes for 20231229.0.0 ##</target>
+      </segment>
+    </unit>
+    <unit id="90ddb36f-9140-4455-b711-15e370a19c20">
+      <notes>
+        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</source>
+        <target>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</target>
+      </segment>
+    </unit>
+    <unit id="e91e13d4-2b7d-4bd7-b067-089452c3f498">
+      <notes>
+        <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -365,9 +399,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 20231015.0.0 ##</target>
       </segment>
     </unit>
-    <unit id="59b741f8-c10d-47c7-87e6-e1cfd8fdc8b1">
+    <unit id="63c39f0a-35c1-409b-b2d9-4f8029545a61">
       <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -375,9 +409,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Fixed a bug detected when navigating with up arrow from the date picker in the latest versions of NVDA.</target>
       </segment>
     </unit>
-    <unit id="08636b05-9903-4e5f-b11c-dfb050d376fa">
+    <unit id="63c198b2-7f1c-4eea-8e0e-0e39c676f7c8">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -385,9 +419,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 20230728.0.0 ##</target>
       </segment>
     </unit>
-    <unit id="4314b97a-fdfa-4a11-b89b-7c4db8975bfc">
+    <unit id="5d5b6334-076b-4c0a-80d1-b9d8452cb511">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -395,9 +429,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Applied the flake8 and mypy rules to the code;</target>
       </segment>
     </unit>
-    <unit id="f600f918-6d76-4f6c-9ee5-7103290db9b2">
+    <unit id="9532b75a-79ba-4f18-8647-faba0b2b6f3b">
       <notes>
-        <note appliesTo="source">line: 48</note>
+        <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -405,9 +439,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.</target>
       </segment>
     </unit>
-    <unit id="ae0e1c2c-7516-4a7c-a3ab-1d6adf1b9352">
+    <unit id="3b2f9781-6787-4b49-97d5-0305fddccb4c">
       <notes>
-        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -415,9 +449,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 20230607.0.0 ##</target>
       </segment>
     </unit>
-    <unit id="f4417246-226b-4284-b0a7-5527175da46e">
+    <unit id="9d167690-49e4-4307-976c-7c5447ecb7af">
       <notes>
-        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -425,9 +459,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added the following workflows:</target>
       </segment>
     </unit>
-    <unit id="bdbe77a3-f20c-4e51-bee4-1aa70d6c4d11">
+    <unit id="25f73150-e104-4d68-a43b-ac6f8fb28ef1">
       <notes>
-        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="initial">
@@ -435,9 +469,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>auto-update-translations - to automatically update translations from NVDA's translation system.</target>
       </segment>
     </unit>
-    <unit id="f768b3f0-1a81-426d-92b0-98ca50dc1e61">
+    <unit id="0654bcf3-b8ad-4a7c-ae78-c58a4c192ac6">
       <notes>
-        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="initial">
@@ -445,9 +479,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;</target>
       </segment>
     </unit>
-    <unit id="52f455d0-a1b8-4092-8ffc-4fd6f05194fd">
+    <unit id="6494055f-7a44-4321-9d57-d9e041ab82d2">
       <notes>
-        <note appliesTo="source">line: 55</note>
+        <note appliesTo="source">line: 62</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="initial">
@@ -455,9 +489,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>manual-release.yaml: to build and release new versions of the add-on manually.</target>
       </segment>
     </unit>
-    <unit id="d8f3f873-628e-415c-91e9-f0aabdcaa521">
+    <unit id="6f73d759-3e99-4a8e-8ac9-0ed517498ae7">
       <notes>
-        <note appliesTo="source">line: 56</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -465,9 +499,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Updated translations.</target>
       </segment>
     </unit>
-    <unit id="45223ac3-1d1e-4dea-9cf9-27382a615d20">
+    <unit id="7bbbf1e6-6d2b-40d6-beeb-9cf118048eba">
       <notes>
-        <note appliesTo="source">line: 58</note>
+        <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -475,9 +509,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for version 20230508.0.0 and beyond ##</target>
       </segment>
     </unit>
-    <unit id="7904027a-5b36-44de-890b-a3151aa0e69c">
+    <unit id="2ff2a249-f6d5-4c1c-a028-9f6e6a49c939">
       <notes>
-        <note appliesTo="source">line: 60</note>
+        <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -485,9 +519,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>• Changed version number, minimum NVDA version and download link according to store conventions/requirements.</target>
       </segment>
     </unit>
-    <unit id="a1e6b78c-2ba7-4f70-a97c-0d599452260a">
+    <unit id="6e001b8f-86c1-458e-8dc0-fbfe0f83a15b">
       <notes>
-        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -495,9 +529,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 19.02 ##</target>
       </segment>
     </unit>
-    <unit id="f7a32736-d391-4039-988b-5b98f85a8657">
+    <unit id="97229427-4765-403a-8916-71390fca99a0">
       <notes>
-        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -505,9 +539,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);</target>
       </segment>
     </unit>
-    <unit id="600ce0df-1368-4bed-933e-2dd1752ff97b">
+    <unit id="ee91ea2e-9203-4c9b-b3b4-a1e7bdbfc886">
       <notes>
-        <note appliesTo="source">line: 65</note>
+        <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -515,9 +549,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.</target>
       </segment>
     </unit>
-    <unit id="98576fd7-71cf-440f-b6fb-ef1c9a0523a1">
+    <unit id="1c64c2bf-452b-4dcc-b437-06e0e1d00e05">
       <notes>
-        <note appliesTo="source">line: 67</note>
+        <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -525,9 +559,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 6.0 ##</target>
       </segment>
     </unit>
-    <unit id="516b4c9a-545c-4a7f-b20c-4965d8dc4f26">
+    <unit id="f7bc4a66-8b26-4df4-98b9-9c4be82f81ca">
       <notes>
-        <note appliesTo="source">line: 69</note>
+        <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -535,9 +569,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>added the addon settings to the NVDA settings panel for NVDA 2018.2 and higher;</target>
       </segment>
     </unit>
-    <unit id="ead5eddc-cac5-45cd-9c3f-0ea6bc1c876b">
+    <unit id="8f09eccd-2011-44ec-87c8-60892e05d2d8">
       <notes>
-        <note appliesTo="source">line: 70</note>
+        <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -545,9 +579,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Moved the item  for  searching a day to the tools menu;</target>
       </segment>
     </unit>
-    <unit id="e98adebf-8ffa-49fd-a42a-3ce8afb94191">
+    <unit id="db1605df-304c-45d5-8ea1-4a4852963d4a">
       <notes>
-        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -555,9 +589,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added the backward compatibility of the add-on with the NVDA versions that preceded 2018.2, which included the settings panel.</target>
       </segment>
     </unit>
-    <unit id="e78cde0a-1862-4a47-89c9-6e1222935294">
+    <unit id="b82c6209-83b2-4a5c-bd05-3b0e2b13be5e">
       <notes>
-        <note appliesTo="source">line: 73</note>
+        <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -565,9 +599,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 5.0 ##</target>
       </segment>
     </unit>
-    <unit id="01efe0f7-18b5-4647-a534-e16729763615">
+    <unit id="70aff327-13ef-479e-b2ec-8d7a16d6bd60">
       <notes>
-        <note appliesTo="source">line: 75</note>
+        <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -575,9 +609,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added the compatibility of the add-on with wxPython 4.0 and Python3;</target>
       </segment>
     </unit>
-    <unit id="5935917b-59a3-4b27-a407-66f41efe1395">
+    <unit id="974c9e97-bbfe-4231-9f01-c6b30eb2a2cd">
       <notes>
-        <note appliesTo="source">line: 76</note>
+        <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -585,9 +619,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Fixed a bug with add-on paths that contain non-ASCII characters.</target>
       </segment>
     </unit>
-    <unit id="45faa1c5-0aa5-49d4-b477-0396da5ca76a">
+    <unit id="92070479-911a-440b-af66-ba1e9977f5a3">
       <notes>
-        <note appliesTo="source">line: 78</note>
+        <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -595,9 +629,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 4.0 ##</target>
       </segment>
     </unit>
-    <unit id="1b01f73f-6ab9-4ffe-877e-8eda1aeb145e">
+    <unit id="e7ab39d7-0497-441d-8262-f702c48ccbc2">
       <notes>
-        <note appliesTo="source">line: 80</note>
+        <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -605,9 +639,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>The add-on is now able to recognize all the regional date formats that the user can choose;</target>
       </segment>
     </unit>
-    <unit id="5a66f80b-0c9d-400f-a916-21ae37032ee2">
+    <unit id="54e06179-6433-4b35-8afc-a88e8e1783d8">
       <notes>
-        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -615,9 +649,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added the backward compatibility of the add-on with the NVDA versions that preceded 2016.4, which included the gui.guiHelper module.</target>
       </segment>
     </unit>
-    <unit id="a95187a3-3d7a-49d0-9701-891415a19a5e">
+    <unit id="9ad78187-f877-437a-800c-1a9c05953f7f">
       <notes>
-        <note appliesTo="source">line: 83</note>
+        <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -625,9 +659,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 3.1 ##</target>
       </segment>
     </unit>
-    <unit id="65f5ac85-cfca-4e03-bf31-2ca47d838bf6">
+    <unit id="2adccbfe-a25d-455b-9e1e-f055038f5613">
       <notes>
-        <note appliesTo="source">line: 85</note>
+        <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -635,9 +669,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Back to the previous format for the day of the week because it allows to recognize a greater number of languages;</target>
       </segment>
     </unit>
-    <unit id="c68423d9-b7f0-4cfc-acdb-150aa5b668d8">
+    <unit id="5e01e2e3-6384-4acc-b39d-14a178a11738">
       <notes>
-        <note appliesTo="source">line: 86</note>
+        <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -645,9 +679,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Improved the accessibility of the date selector with recognition of the 3 fields 'Day', 'Month' and 'Year', and their respective values;</target>
       </segment>
     </unit>
-    <unit id="f9efa63e-6878-4fd8-b7c2-4aab2f83aec4">
+    <unit id="8037924a-d14b-4ca7-9877-614042c11e44">
       <notes>
-        <note appliesTo="source">line: 87</note>
+        <note appliesTo="source">line: 94</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -655,9 +689,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added a technique for the integration of the Georgian language for the recognition of the days of the week;</target>
       </segment>
     </unit>
-    <unit id="a03df1fd-bbf1-48b4-bf0a-7973a7ffd9e5">
+    <unit id="cf7fdfd8-f5fa-4b59-99ff-d11a583adf99">
       <notes>
-        <note appliesTo="source">line: 88</note>
+        <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -665,9 +699,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added a configuration dialog box to enable or disable the accessibility of the date selector;</target>
       </segment>
     </unit>
-    <unit id="d67eaba4-99e4-49d7-9278-36c68b7a16cd">
+    <unit id="a2692647-7e24-4d33-a836-a81053497409">
       <notes>
-        <note appliesTo="source">line: 89</note>
+        <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -675,9 +709,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Moved the add-on submenu from "Tools" to "Preferences";</target>
       </segment>
     </unit>
-    <unit id="b647bf27-6e30-4291-bc7b-f419b4ec8389">
+    <unit id="556f6c07-b813-44c2-b764-17bbf6eece42">
       <notes>
-        <note appliesTo="source">line: 90</note>
+        <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -685,9 +719,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changed the add-on category to "Day of the week".</target>
       </segment>
     </unit>
-    <unit id="4b8493e1-7e70-4166-bfba-1388ab654396">
+    <unit id="43bf022c-1975-41a2-b7cf-9b7a2f55f8c9">
       <notes>
-        <note appliesTo="source">line: 92</note>
+        <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -695,9 +729,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 2.0 ##</target>
       </segment>
     </unit>
-    <unit id="40460713-cad4-4be7-a8a3-da59331dc006">
+    <unit id="de74b544-9ff4-472f-a0c5-5d935463a168">
       <notes>
-        <note appliesTo="source">line: 94</note>
+        <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -705,9 +739,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Used the gui.guiHelper module to ensure the correct appearance of the dialog asking for a date;</target>
       </segment>
     </unit>
-    <unit id="a3686c7d-2368-463d-b05c-94773fb1c272">
+    <unit id="7f1b3ef9-7332-476c-8d2b-c7c131f1c98f">
       <notes>
-        <note appliesTo="source">line: 95</note>
+        <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -715,9 +749,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Added the GPL license to the addon;</target>
       </segment>
     </unit>
-    <unit id="54f7340a-6f77-4c55-b85c-2c9582d63442">
+    <unit id="fb6bee71-4ff8-498e-ae89-f887245e9c54">
       <notes>
-        <note appliesTo="source">line: 96</note>
+        <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -725,9 +759,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Days of the week have been translated, so that the add-on works properly in the different languages;</target>
       </segment>
     </unit>
-    <unit id="b08bce87-5fd3-42fe-a1b9-33e1c86d869b">
+    <unit id="ef47bb09-0f5b-487a-84c4-040a1bdb5325">
       <notes>
-        <note appliesTo="source">line: 97</note>
+        <note appliesTo="source">line: 104</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -735,9 +769,9 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changed the day format to avoid encoding errors.</target>
       </segment>
     </unit>
-    <unit id="c4708aa8-d0a0-4f8f-ac89-aaeca4a9d94b">
+    <unit id="7d87d2cb-5a99-4e00-a60a-6d215d4b67e0">
       <notes>
-        <note appliesTo="source">line: 99</note>
+        <note appliesTo="source">line: 106</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -745,32 +779,14 @@ $(ID:093dea0a-f31e-41ef-a881-1f19f20041d8)
         <target>Changes for 1.0 ##</target>
       </segment>
     </unit>
-    <unit id="a674be84-6c9c-4f84-92b5-254f5a5b66f3">
+    <unit id="a24ed102-6231-4ade-9f8f-3d271f0d670e">
       <notes>
-        <note appliesTo="source">line: 101</note>
+        <note appliesTo="source">line: 108</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
         <source>Initial version.</source>
         <target>Initial version.</target>
-      </segment>
-    </unit>
-    <unit id="b7e8b0e2-9d6a-4a29-bcbc-6b9e9deb7655">
-      <notes>
-        <note appliesTo="source">line: 103</note>
-      </notes>
-      <segment state="initial">
-        <source>[1]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</source>
-        <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</target>
-      </segment>
-    </unit>
-    <unit id="093dea0a-f31e-41ef-a881-1f19f20041d8">
-      <notes>
-        <note appliesTo="source">line: 105</note>
-      </notes>
-      <segment state="initial">
-        <source>[2]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</source>
-        <target>[2]: https://www.nvaccess.org/addonStore/legacy?file=dayOfTheWeek</target>
       </segment>
     </unit>
   </file>

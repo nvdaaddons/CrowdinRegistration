@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="pa">
+  <file id="readme.md" original="https://raw.githubusercontent.com/opensourcesys/soundSplitter/f6e01ce79da74b089bd6e4a577296a406efd073b/readme.md">
+    <skeleton>
+# $(ID:45bc2621-ed13-4aff-8faf-4062c4b96ea9)
+
+* $(ID:df7f0f44-a6f8-4a64-992e-d57fdde6f78f)
+* $(ID:2108b105-5202-44dc-982c-5c0a5619d40c)
+* $(ID:a1cd4c6e-198e-44bf-8401-d7db019fadbc)
+
+$(ID:a213b578-4ed1-4ab9-87de-91c81cb4b5d9)
+
+$(ID:ef97bd77-e179-405e-a0eb-ec5388af6282)
+$(ID:f97e3481-28b1-4786-8f01-f2124ed0e835)
+$(ID:dd34ce00-6431-4015-9c16-72f0ad8f9395)
+
+## $(ID:e713fd91-ae47-432a-866c-9fafc55d3e5d)
+
+* $(ID:c4c80a94-7be4-43b5-b2da-4d1c788c7892)
+
+## $(ID:95c6acef-272d-4fcd-af25-7054a2bc1734)
+
+$(ID:b0193f6a-fbed-4886-b1d2-bf9cc5395a74)
+
+* $(ID:931b08fb-dcb9-4d77-9e2c-0f5f7ddfacc5)
+* $(ID:b529eeb2-bf42-4938-8c96-363b0b784a23)
+
+$(ID:cbd55efe-1a45-4d17-8e77-1a4c44f911d4)
+
+$(ID:4f8b9d74-52cf-4f6f-9932-5f8ddf2d43df)
+
+</skeleton>
+    <unit id="45bc2621-ed13-4aff-8faf-4062c4b96ea9">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="initial">
+        <source>Sound Splitter</source>
+        <target>Sound Splitter</target>
+      </segment>
+    </unit>
+    <unit id="df7f0f44-a6f8-4a64-992e-d57fdde6f78f">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Authors: Luke Davis, Joseph Lee and contributors</source>
+        <target>Authors: Luke Davis, Joseph Lee and contributors</target>
+      </segment>
+    </unit>
+    <unit id="2108b105-5202-44dc-982c-5c0a5619d40c">
+      <notes>
+        <note appliesTo="source">line: 5</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Download [stable version][1]</source>
+        <target>Download [stable version][1]</target>
+      </segment>
+    </unit>
+    <unit id="a1cd4c6e-198e-44bf-8401-d7db019fadbc">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>NVDA compatibility: 2022.4 and beyond</source>
+        <target>NVDA compatibility: 2022.4 and beyond</target>
+      </segment>
+    </unit>
+    <unit id="a213b578-4ed1-4ab9-87de-91c81cb4b5d9">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+      </notes>
+      <segment state="initial">
+        <source>This add-on, partly based on Tony's Enhancements by Tony Malykh, adds the ability to split audio from NVDA and other sounds onto separate audio channels.</source>
+        <target>This add-on, partly based on Tony's Enhancements by Tony Malykh, adds the ability to split audio from NVDA and other sounds onto separate audio channels.</target>
+      </segment>
+    </unit>
+    <unit id="ef97bd77-e179-405e-a0eb-ec5388af6282">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+      </notes>
+      <segment state="initial">
+        <source>Note: this add-on is not intended to be used in secure screens.</source>
+        <target>Note: this add-on is not intended to be used in secure screens.</target>
+      </segment>
+    </unit>
+    <unit id="f97e3481-28b1-4786-8f01-f2124ed0e835">
+      <notes>
+        <note appliesTo="source">line: 11</note>
+      </notes>
+      <segment state="initial">
+        <source>Nor is it able to support WASAPI at this time.</source>
+        <target>Nor is it able to support WASAPI at this time.</target>
+      </segment>
+    </unit>
+    <unit id="dd34ce00-6431-4015-9c16-72f0ad8f9395">
+      <notes>
+        <note appliesTo="source">line: 12</note>
+      </notes>
+      <segment state="initial">
+        <source>That means that it will disable itself in NVDA 2023.2 and above, if WASAPI is enabled in Advanced settings.</source>
+        <target>That means that it will disable itself in NVDA 2023.2 and above, if WASAPI is enabled in Advanced settings.</target>
+      </segment>
+    </unit>
+    <unit id="e713fd91-ae47-432a-866c-9fafc55d3e5d">
+      <notes>
+        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Commands:</source>
+        <target>Commands:</target>
+      </segment>
+    </unit>
+    <unit id="c4c80a94-7be4-43b5-b2da-4d1c788c7892">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Alt+NVDA+S: toggle sound splitter between enabled with NVDA on the right channel, NVDA on the left channel, or disabled.</source>
+        <target>Alt+NVDA+S: toggle sound splitter between enabled with NVDA on the right channel, NVDA on the left channel, or disabled.</target>
+      </segment>
+    </unit>
+    <unit id="95c6acef-272d-4fcd-af25-7054a2bc1734">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Sound Splitter settings</source>
+        <target>Sound Splitter settings</target>
+      </segment>
+    </unit>
+    <unit id="b0193f6a-fbed-4886-b1d2-bf9cc5395a74">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+      </notes>
+      <segment state="initial">
+        <source>You can configure add-on settings from NVDA menu/Preferences/Settings/Sound Splitter category.</source>
+        <target>You can configure add-on settings from NVDA menu/Preferences/Settings/Sound Splitter category.</target>
+      </segment>
+    </unit>
+    <unit id="931b08fb-dcb9-4d77-9e2c-0f5f7ddfacc5">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Split NVDA sound and applications' sounds into left and right channels: checking this checkbox will enable the sound splitting feature.</source>
+        <target>Split NVDA sound and applications' sounds into left and right channels: checking this checkbox will enable the sound splitting feature.</target>
+      </segment>
+    </unit>
+    <unit id="b529eeb2-bf42-4938-8c96-363b0b784a23">
+      <notes>
+        <note appliesTo="source">line: 23</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Switch left and right during sound split: by default, NVDA will be heard through the right channel if sound splitting is on. You can instead hear NVDA through the left channel by checking this checkbox.</source>
+        <target>Switch left and right during sound split: by default, NVDA will be heard through the right channel if sound splitting is on. You can instead hear NVDA through the left channel by checking this checkbox.</target>
+      </segment>
+    </unit>
+    <unit id="cbd55efe-1a45-4d17-8e77-1a4c44f911d4">
+      <notes>
+        <note appliesTo="source">line: 25</note>
+      </notes>
+      <segment state="initial">
+        <source>For version history, see [Changelog](https://github.com/opensourcesys/soundSplitter/blob/main/changelog.md#readme)</source>
+        <target>For version history, see [Changelog](https://github.com/opensourcesys/soundSplitter/blob/main/changelog.md#readme)</target>
+      </segment>
+    </unit>
+    <unit id="4f8b9d74-52cf-4f6f-9932-5f8ddf2d43df">
+      <notes>
+        <note appliesTo="source">line: 27</note>
+      </notes>
+      <segment state="initial">
+        <source>[1]: https://nvaccess.org/addonStore/legacy?file=soundSplitter</source>
+        <target>[1]: https://nvaccess.org/addonStore/legacy?file=soundSplitter</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

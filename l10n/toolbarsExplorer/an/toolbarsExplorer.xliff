@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="an">
+  <file id="readme.md" original="https://raw.githubusercontent.com/ABuffEr/toolbarsExplorer/e3a6b991b245180fd91ca9762c51c2509c509860/readme.md">
+    <skeleton>
+# $(ID:5d191d5c-3adf-46f8-8692-40b13e65b690)
+
+* $(ID:64afc2b0-454c-4c2e-81f6-6d5dbe987dd3)
+
+$(ID:33b341cd-c1b3-4547-b5f9-1fc9a7384683)
+
+## $(ID:391c066d-2365-4609-9976-aa5ca9af145e)
+
+* $(ID:2a894b2b-1f49-45d3-bf98-36bd31a371df)
+$(ID:0c45f88a-0551-42e0-a629-aebc7b45e8c7)
+
+$(ID:b1abf0f9-f500-459f-aa18-ab6ab0519823)
+
+* $(ID:06860e16-7ba3-45bb-9ed6-6da26f0d7fb9)
+* $(ID:d777c66b-0367-449f-96f1-7a69f8bcd981)
+* $(ID:8b0a4709-ecc0-483a-98ec-8bdcf6fc5144)
+* $(ID:99d74752-c5e7-4cee-8380-a31894b5a2e5)
+* $(ID:47b1d8a5-0dd8-40ae-9b41-ea4cbf8426e2)
+* $(ID:c0963b44-2ecc-4902-bdfa-98cfc5ce3e48)
+
+$(ID:f5d73304-e5e6-4307-9d99-5647721fdd14)
+
+## $(ID:040e79c2-e67e-4da6-8082-aa68e8f88f9a)
+
+$(ID:feed30a5-d15e-4fa4-a805-b2c4c70777ae)
+
+* $(ID:f5cb6cc5-fe58-4532-9435-c97659ff34ce)
+* $(ID:88a6199d-b5ea-4fc7-ba3c-bf8087d15c22)
+
+$(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
+
+## $(ID:f5eafaa4-e8d3-48ac-8b0c-32ffecca53f4)
+
+* $(ID:a98e66c1-6ced-4028-b6d5-6430a4cf3392)
+* $(ID:d428f7ca-4ee3-4940-a4b7-ac378757c532)
+
+
+</skeleton>
+    <unit id="5d191d5c-3adf-46f8-8692-40b13e65b690">
+      <notes>
+        <note appliesTo="source">line: 2</note>
+        <note appliesTo="source">prefix: # </note>
+      </notes>
+      <segment state="initial">
+        <source>ToolbarsExplorer</source>
+        <target>ToolbarsExplorer</target>
+      </segment>
+    </unit>
+    <unit id="64afc2b0-454c-4c2e-81f6-6d5dbe987dd3">
+      <notes>
+        <note appliesTo="source">line: 4</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Author: Alberto Buffolino</source>
+        <target>Author: Alberto Buffolino</target>
+      </segment>
+    </unit>
+    <unit id="33b341cd-c1b3-4547-b5f9-1fc9a7384683">
+      <notes>
+        <note appliesTo="source">line: 6</note>
+      </notes>
+      <segment state="initial">
+        <source>This add-on makes easier to use toolbars in applications, providing an exploration model derived by object navigation, with simplified gestures.</source>
+        <target>This add-on makes easier to use toolbars in applications, providing an exploration model derived by object navigation, with simplified gestures.</target>
+      </segment>
+    </unit>
+    <unit id="391c066d-2365-4609-9976-aa5ca9af145e">
+      <notes>
+        <note appliesTo="source">line: 8</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Commands</source>
+        <target>Commands</target>
+      </segment>
+    </unit>
+    <unit id="2a894b2b-1f49-45d3-bf98-36bd31a371df">
+      <notes>
+        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Alt+applications: starts toolbars exploration&lt;br/&gt;</source>
+        <target>Alt+applications: starts toolbars exploration&lt;br/&gt;</target>
+      </segment>
+    </unit>
+    <unit id="0c45f88a-0551-42e0-a629-aebc7b45e8c7">
+      <notes>
+        <note appliesTo="source">line: 11</note>
+      </notes>
+      <segment state="initial">
+        <source>(you can remap it via NVDA gesture manager, under Object navigation).</source>
+        <target>(you can remap it via NVDA gesture manager, under Object navigation).</target>
+      </segment>
+    </unit>
+    <unit id="b1abf0f9-f500-459f-aa18-ab6ab0519823">
+      <notes>
+        <note appliesTo="source">line: 13</note>
+      </notes>
+      <segment state="initial">
+        <source>During exploration, following gestures are available:</source>
+        <target>During exploration, following gestures are available:</target>
+      </segment>
+    </unit>
+    <unit id="06860e16-7ba3-45bb-9ed6-6da26f0d7fb9">
+      <notes>
+        <note appliesTo="source">line: 15</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Left/right arrow: moves to previous/next toolbar;</source>
+        <target>Left/right arrow: moves to previous/next toolbar;</target>
+      </segment>
+    </unit>
+    <unit id="d777c66b-0367-449f-96f1-7a69f8bcd981">
+      <notes>
+        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Up/down arrow: scrolls up/down items in current toolbar;</source>
+        <target>Up/down arrow: scrolls up/down items in current toolbar;</target>
+      </segment>
+    </unit>
+    <unit id="8b0a4709-ecc0-483a-98ec-8bdcf6fc5144">
+      <notes>
+        <note appliesTo="source">line: 17</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Enter: activates toolbar or its item;</source>
+        <target>Enter: activates toolbar or its item;</target>
+      </segment>
+    </unit>
+    <unit id="99d74752-c5e7-4cee-8380-a31894b5a2e5">
+      <notes>
+        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Space: simulates left mouse click on toolbar or its item;</source>
+        <target>Space: simulates left mouse click on toolbar or its item;</target>
+      </segment>
+    </unit>
+    <unit id="47b1d8a5-0dd8-40ae-9b41-ea4cbf8426e2">
+      <notes>
+        <note appliesTo="source">line: 19</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Applications/shift+F10: simulates right mouse click on toolbar or its item;</source>
+        <target>Applications/shift+F10: simulates right mouse click on toolbar or its item;</target>
+      </segment>
+    </unit>
+    <unit id="c0963b44-2ecc-4902-bdfa-98cfc5ce3e48">
+      <notes>
+        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Escape: exits from exploration.</source>
+        <target>Escape: exits from exploration.</target>
+      </segment>
+    </unit>
+    <unit id="f5d73304-e5e6-4307-9d99-5647721fdd14">
+      <notes>
+        <note appliesTo="source">line: 22</note>
+      </notes>
+      <segment state="initial">
+        <source>Additionally, you can perform actions on toolbars or its items using any gesture provided by NVDA, as exactly as when you move to objects with standard object navigation.</source>
+        <target>Additionally, you can perform actions on toolbars or its items using any gesture provided by NVDA, as exactly as when you move to objects with standard object navigation.</target>
+      </segment>
+    </unit>
+    <unit id="040e79c2-e67e-4da6-8082-aa68e8f88f9a">
+      <notes>
+        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Notes</source>
+        <target>Notes</target>
+      </segment>
+    </unit>
+    <unit id="feed30a5-d15e-4fa4-a805-b2c4c70777ae">
+      <notes>
+        <note appliesTo="source">line: 26</note>
+      </notes>
+      <segment state="initial">
+        <source>Exploration is terminated  explicitly pressing escape, and implicitly:</source>
+        <target>Exploration is terminated  explicitly pressing escape, and implicitly:</target>
+      </segment>
+    </unit>
+    <unit id="f5cb6cc5-fe58-4532-9435-c97659ff34ce">
+      <notes>
+        <note appliesTo="source">line: 28</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>performing an action on toolbar or its item (with space, applications/shift+F10, enter);</source>
+        <target>performing an action on toolbar or its item (with space, applications/shift+F10, enter);</target>
+      </segment>
+    </unit>
+    <unit id="88a6199d-b5ea-4fc7-ba3c-bf8087d15c22">
+      <notes>
+        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>pressing a gesture that moves out of current toolbar objects (alt, windows, tab, NVDA+F1, object navigation gestures, etc).</source>
+        <target>pressing a gesture that moves out of current toolbar objects (alt, windows, tab, NVDA+F1, object navigation gestures, etc).</target>
+      </segment>
+    </unit>
+    <unit id="9ba58ba4-15c5-46ca-be97-095a94775bd9">
+      <notes>
+        <note appliesTo="source">line: 31</note>
+      </notes>
+      <segment state="initial">
+        <source>Other gestures not containing alt, windows or escape (as h, 1, shift, shift+h, control+z) simply does nothing.</source>
+        <target>Other gestures not containing alt, windows or escape (as h, 1, shift, shift+h, control+z) simply does nothing.</target>
+      </segment>
+    </unit>
+    <unit id="f5eafaa4-e8d3-48ac-8b0c-32ffecca53f4">
+      <notes>
+        <note appliesTo="source">line: 33</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Suggestions</source>
+        <target>Suggestions</target>
+      </segment>
+    </unit>
+    <unit id="a98e66c1-6ced-4028-b6d5-6430a4cf3392">
+      <notes>
+        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>The add-on may fail in Mozilla applications the first time after add-on installation/update; please restart NVDA and Mozilla applications to resolve;</source>
+        <target>The add-on may fail in Mozilla applications the first time after add-on installation/update; please restart NVDA and Mozilla applications to resolve;</target>
+      </segment>
+    </unit>
+    <unit id="d428f7ca-4ee3-4940-a4b7-ac378757c532">
+      <notes>
+        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>In LibreOffice, best configuration is probably default or single toolbar, set it on view menu/toolbar position.</source>
+        <target>In LibreOffice, best configuration is probably default or single toolbar, set it on view menu/toolbar position.</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

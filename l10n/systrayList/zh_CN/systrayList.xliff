@@ -1,478 +1,480 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="zh-CN">
-  <file id="systrayList.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/systrayList/systrayList.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/ruifontes/systrayList/08fb3160b6474bbe61cba2cd284787e46c2c5694/readme.md">
     <skeleton>
-# $(ID:da7e3c63-0866-4c2c-8df1-ed3160603cce)
+# $(ID:1218f577-8dfd-4b30-b8d9-e9ff25016520)
 
-*   $(ID:96dd6819-4fb7-4573-994e-2c1ffe1faa09)
-*   $(ID:44e13f16-8c7e-43dc-9841-601dac0884aa)
-* $(ID:f6f279b1-6e7b-4f46-8c69-c1c78c89df9b)
+*   $(ID:98c78c26-9de6-4b8e-be35-7fe61c864a9b)
+*   $(ID:42420a77-eb73-42ae-a9c4-708fab5b0dff)
+* $(ID:173c8e5e-f47e-425a-a822-28e035a1dcc2)
 
-$(ID:e9d17125-8041-48dd-b880-1efc63da1339)
+$(ID:41f71800-7592-49f4-9137-a10ec947cddd)
 
-$(ID:33abd30a-a0d9-4b1a-9c88-bb2392e852a0)
+$(ID:6a4eee6f-9e99-4363-887c-422914c22d66)
 
-## $(ID:eec1058a-8163-4da4-bf45-0adc6ba3d37c)
+## $(ID:8f98e045-52ed-4eef-a370-0788d2e7ce1d)
 
-* $(ID:0758c6e8-9480-43b7-b79e-8ef98ce71ab7)
-* $(ID:17ede025-24dd-48b1-917a-ccbb0e1e42d9)
-* $(ID:86f69164-1217-4e03-8e7d-5cb23a40ffa8)
-* $(ID:07bfa7c1-93d9-4d85-87a1-d1c304a82c20)
+* $(ID:253f4452-f1d2-422f-974f-8715d53805c7)
+* $(ID:2985e94f-e3f7-475e-aeaf-3b0236541f3d)
+* $(ID:a18797b7-bb30-40c4-b8ec-93863dbb9f0d)
+* $(ID:88c40f4d-7548-4043-829a-6ba0d2c78dee)
 
-## $(ID:f716a680-f839-409a-9d47-653ec64e7e86)
+## $(ID:3567dffd-8f2c-47b4-8f53-0527ec0f5a1a)
 
-* $(ID:63926829-78f6-402f-9f86-8d330df3e796)
+* $(ID:c7cce3a2-3642-4f5a-8dcd-1b17774bd984)
 
-## $(ID:5095ed10-9683-4f22-a3e1-a94561ae373a)
+## $(ID:de291d8d-44a9-4db8-8c0a-73a09737fe4b)
 
-* $(ID:67d61174-c8e2-41bf-91a1-2870a3fcad37)
+* $(ID:aabbcd94-f70d-4ff4-b84b-4f7e57cc3409)
 
-## $(ID:c3d8ece1-1aa7-4aa6-ad98-5727549a2d4e)
+## $(ID:4b8aa99c-b929-4950-9e26-5204da0e4680)
 
-$(ID:24f7ed74-af8f-4010-a5c8-d5ce8b1ebb20)
+$(ID:ceaa8853-3dc1-4314-b4c2-e546019640f6)
 
-* $(ID:5460417f-8825-4b5b-8d4c-b7761855214e)
+* $(ID:e22c7a95-6328-4bee-bd8c-428604276b23)
 
-## $(ID:3420de1a-cfa6-4a48-8c15-008c7932bf34)
+## $(ID:d6fdef4b-2779-45d9-a013-2f959acc7669)
 
-* $(ID:78394014-5474-4e87-894b-611b5b48d8f3)
-* $(ID:bf98968c-87b8-405b-acdd-4a18967aed7e)
-* $(ID:3d8febfb-691d-4da6-bba5-36cd8906938c)
+* $(ID:309c86c7-a1ea-4a32-9cf2-9819e9e0778d)
+* $(ID:88adea9d-662b-45ef-ae5b-0a30c3820b26)
+* $(ID:b3baa49f-570b-4af1-9a50-c507cc37ce23)
 
-## $(ID:07d20543-1087-44c7-a26c-edc34fe80e8a)
+## $(ID:3dba7e66-822c-48d3-8956-8356a594762f)
 
-* $(ID:ba97735d-561e-40d6-b665-95f1213b8785)
-* $(ID:a33cbbd0-0094-4f86-8531-efd90c6e8066)
-* $(ID:4b2962ae-f073-4a41-a70b-5305f328030e)
+* $(ID:150d602a-3568-4e84-b55b-7fd3b62b6642)
+* $(ID:9a5bffb1-315d-456d-bc10-e7fa82ae7a02)
+* $(ID:d8b13d2e-21c8-4242-a239-0825aebc1617)
 
-## $(ID:93a0a9e6-5a77-4b2e-963a-b18b436daa6d)
+## $(ID:236bbbfb-8c3d-4565-8dc4-e4e9d4360699)
 
-* $(ID:7ea9d3ea-8492-4d65-96ff-138074711b4a)
-* $(ID:18e0d56e-d293-415f-ada4-ba4fbf776948)
-* $(ID:c5bc8073-466f-4b36-915a-ec57419b2981)
-* $(ID:0942adba-21bb-407c-bbfe-ae78233bfdd1)
+* $(ID:df60d185-00ad-479b-bf40-18e43de78826)
+* $(ID:b3818386-a2df-4b97-a926-b838e0f989de)
+* $(ID:ca1bb251-d32e-431f-b15e-534e6a61cfd9)
+* $(ID:42380bee-570a-4dd0-93d6-d000df198b92)
 
-## $(ID:d9576f72-354d-4c8d-9a5c-980d0e7a6db3)
+## $(ID:7fc7db74-350b-4d84-bdf4-02ac20f310ad)
 
-* $(ID:838f14b7-455b-4643-afb3-7f0db7fa7a90)
-* $(ID:f42f968e-61f0-4070-8b88-e661a7716ebd)
+* $(ID:73d4e30d-ae04-47dd-afa7-b5008b362293)
+* $(ID:912a2ccc-5d81-45e3-8bfb-71aa34238f89)
 
-## $(ID:267c6381-a8ca-4c50-9556-9f0badc44e98)
+## $(ID:bffd1272-40ba-4184-9ac7-7bd1f2b8039f)
 
-* $(ID:43fc9328-575f-48e8-9fa6-4290dd48d23d)
+* $(ID:ea11f98a-39d0-435a-b0d5-fc229e035b5f)
 
-## $(ID:a4519026-3286-445a-920e-3a54742d8b4e)
+## $(ID:75d0e5f1-72fc-486f-966c-ebf242ea1c61)
 
-* $(ID:f4f12f3d-9804-43e9-9610-cded2f98a93c)
+* $(ID:d3827d36-7e9b-459e-bd68-07672c205369)
 
-## $(ID:66ae4a57-7884-47c4-94a9-3855a7e8cd63)
+## $(ID:79744330-09dd-4bdd-b389-3ad1ac9b8744)
 
-* $(ID:34a02078-d82c-434f-b3ee-79e2b67e3022)
+* $(ID:d86b7259-c2a4-4493-a56d-dba82edc118b)
 
-$(ID:c8523a09-3e57-4e12-8fb8-4193c25ac945)
+$(ID:a58a2200-464a-4e11-9467-b2601d0f968c)
+
+
 </skeleton>
-    <unit id="da7e3c63-0866-4c2c-8df1-ed3160603cce">
+    <unit id="1218f577-8dfd-4b30-b8d9-e9ff25016520">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>systrayList #</source>
         <target>systrayList #</target>
       </segment>
     </unit>
-    <unit id="96dd6819-4fb7-4573-994e-2c1ffe1faa09">
+    <unit id="98c78c26-9de6-4b8e-be35-7fe61c864a9b">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: *   </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors</source>
-        <target>作者：Rui Fontes、Rui Batista、Joseph Lee 及 NVDA 社区贡献者</target>
+        <target>Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors</target>
       </segment>
     </unit>
-    <unit id="44e13f16-8c7e-43dc-9841-601dac0884aa">
+    <unit id="42420a77-eb73-42ae-a9c4-708fab5b0dff">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: *   </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Download [stable version][1]</source>
-        <target>下载 [稳定版][1]</target>
+        <target>Download [stable version][1]</target>
       </segment>
     </unit>
-    <unit id="f6f279b1-6e7b-4f46-8c69-c1c78c89df9b">
+    <unit id="173c8e5e-f47e-425a-a822-28e035a1dcc2">
       <notes>
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>NVDA compatibility: 2019.3 and beyond</source>
-        <target>NVDA 兼容性：2019.3 及以上版本</target>
+        <target>NVDA compatibility: 2019.3 and beyond</target>
       </segment>
     </unit>
-    <unit id="e9d17125-8041-48dd-b880-1efc63da1339">
+    <unit id="41f71800-7592-49f4-9137-a10ec947cddd">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>This add-on allows you to read and activate icons on the system tray or the task bar, within a list box, for easy access and interaction to those items. With the add-on installed, press NVDA+f11 once for this dialog to pop-up with system tray elements, and press twice to display task bar elements, which are the currently running applications.</source>
-        <target>此插件允许您通过列表框读取并激活系统托盘或任务栏中的图标，以便轻松访问和操作这些项目。安装插件后，按一次 NVDA+F11 弹出系统托盘元素对话框，按两次则显示任务栏元素（即当前运行的应用程序）。</target>
+        <target>This add-on allows you to read and activate icons on the system tray or the task bar, within a list box, for easy access and interaction to those items. With the add-on installed, press NVDA+f11 once for this dialog to pop-up with system tray elements, and press twice to display task bar elements, which are the currently running applications.</target>
       </segment>
     </unit>
-    <unit id="33abd30a-a0d9-4b1a-9c88-bb2392e852a0">
+    <unit id="6a4eee6f-9e99-4363-887c-422914c22d66">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Note that you can access the windows system tray in any screen reader software using the Windows+B, and the task bar by pressing Windows+T. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.</source>
-        <target>请注意，任何屏幕阅读器均可通过 Windows+B 访问系统托盘，通过 Windows+T 访问任务栏。此插件主要用于简化从 JAWS for Windows 的过渡，并避免使用系统键盘方式遍历系统托盘时可能弹出的工具提示。</target>
+        <target>Note that you can access the windows system tray in any screen reader software using the Windows+B, and the task bar by pressing Windows+T. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.</target>
       </segment>
     </unit>
-    <unit id="eec1058a-8163-4da4-bf45-0adc6ba3d37c">
+    <unit id="8f98e045-52ed-4eef-a370-0788d2e7ce1d">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 4.0 2020-01-03 ##</source>
-        <target>4.0 版本变更 2020-01-03 ##</target>
+        <target>Changes for 4.0 2020-01-03 ##</target>
       </segment>
     </unit>
-    <unit id="0758c6e8-9480-43b7-b79e-8ef98ce71ab7">
+    <unit id="253f4452-f1d2-422f-974f-8715d53805c7">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Requires NVDA 2019.3 or later.</source>
-        <target>需要 NVDA 2019.3 或更高版本。</target>
+        <target>Requires NVDA 2019.3 or later.</target>
       </segment>
     </unit>
-    <unit id="17ede025-24dd-48b1-917a-ccbb0e1e42d9">
+    <unit id="2985e94f-e3f7-475e-aeaf-3b0236541f3d">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>No more support for Windows versions earlier than Windows 7 Service Pack 1.</source>
-        <target>不再支持 Windows 7 SP1 之前的操作系统。</target>
+        <target>No more support for Windows versions earlier than Windows 7 Service Pack 1.</target>
       </segment>
     </unit>
-    <unit id="86f69164-1217-4e03-8e7d-5cb23a40ffa8">
+    <unit id="a18797b7-bb30-40c4-b8ec-93863dbb9f0d">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Add-on has been renamed to "SysTrayList".</source>
-        <target>插件更名为 SysTrayList。</target>
+        <target>Add-on has been renamed to "SysTrayList".</target>
       </segment>
     </unit>
-    <unit id="07bfa7c1-93d9-4d85-87a1-d1c304a82c20">
+    <unit id="88c40f4d-7548-4043-829a-6ba0d2c78dee">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Donation request dialog will no longer appear when installing or updating the add-on.</source>
-        <target>安装或更新时不再显示捐赠请求对话框。</target>
+        <target>Donation request dialog will no longer appear when installing or updating the add-on.</target>
       </segment>
     </unit>
-    <unit id="f716a680-f839-409a-9d47-653ec64e7e86">
+    <unit id="3567dffd-8f2c-47b4-8f53-0527ec0f5a1a">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 3.2 2018-12-24 ##</source>
-        <target>3.2 版本变更 2018-12-24 ##</target>
+        <target>Changes for 3.2 2018-12-24 ##</target>
       </segment>
     </unit>
-    <unit id="63926829-78f6-402f-9f86-8d330df3e796">
+    <unit id="c7cce3a2-3642-4f5a-8dcd-1b17774bd984">
       <notes>
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>More code changes to support Python 3.</source>
-        <target>进一步代码调整以支持 Python 3。</target>
+        <target>More code changes to support Python 3.</target>
       </segment>
     </unit>
-    <unit id="5095ed10-9683-4f22-a3e1-a94561ae373a">
+    <unit id="de291d8d-44a9-4db8-8c0a-73a09737fe4b">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 3.1 2018-11-24 ##</source>
-        <target>3.1 版本变更 2018-11-24 ##</target>
+        <target>Changes for 3.1 2018-11-24 ##</target>
       </segment>
     </unit>
-    <unit id="67d61174-c8e2-41bf-91a1-2870a3fcad37">
+    <unit id="aabbcd94-f70d-4ff4-b84b-4f7e57cc3409">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Internal changes to support future NVDA releases.</source>
-        <target>支持未来 NVDA 版本的内部调整。</target>
+        <target>Internal changes to support future NVDA releases.</target>
       </segment>
     </unit>
-    <unit id="c3d8ece1-1aa7-4aa6-ad98-5727549a2d4e">
+    <unit id="4b8aa99c-b929-4950-9e26-5204da0e4680">
       <notes>
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 3.0 2018-10-25 ##</source>
-        <target>3.0 版本变更 2018-10-25 ##</target>
+        <target>Changes for 3.0 2018-10-25 ##</target>
       </segment>
     </unit>
-    <unit id="24f7ed74-af8f-4010-a5c8-d5ce8b1ebb20">
+    <unit id="ceaa8853-3dc1-4314-b4c2-e546019640f6">
       <notes>
         <note appliesTo="source">line: 29</note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.</source>
-        <target>2019年起停止支持 Windows 7 SP1 之前的操作系统版本。</target>
+        <target>Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.</target>
       </segment>
     </unit>
-    <unit id="5460417f-8825-4b5b-8d4c-b7761855214e">
+    <unit id="e22c7a95-6328-4bee-bd8c-428604276b23">
       <notes>
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Add-on is Python 3 compatible.</source>
-        <target>实现 Python 3 兼容。</target>
+        <target>Add-on is Python 3 compatible.</target>
       </segment>
     </unit>
-    <unit id="3420de1a-cfa6-4a48-8c15-008c7932bf34">
+    <unit id="d6fdef4b-2779-45d9-a013-2f959acc7669">
       <notes>
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 2.0 2017-05-20 ##</source>
-        <target>2.0 版本变更 2017-05-20 ##</target>
+        <target>Changes for 2.0 2017-05-20 ##</target>
       </segment>
     </unit>
-    <unit id="78394014-5474-4e87-894b-611b5b48d8f3">
+    <unit id="309c86c7-a1ea-4a32-9cf2-9819e9e0778d">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Systray/taskbar dialog is now centered on screen.</source>
-        <target>系统托盘/任务栏对话框现居中显示。</target>
+        <target>Systray/taskbar dialog is now centered on screen.</target>
       </segment>
     </unit>
-    <unit id="bf98968c-87b8-405b-acdd-4a18967aed7e">
+    <unit id="88adea9d-662b-45ef-ae5b-0a30c3820b26">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Fixed various user interface issues.</source>
-        <target>修复多处用户界面问题。</target>
+        <target>Fixed various user interface issues.</target>
       </segment>
     </unit>
-    <unit id="3d8febfb-691d-4da6-bba5-36cd8906938c">
+    <unit id="b3baa49f-570b-4af1-9a50-c507cc37ce23">
       <notes>
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>New and updated translations.</source>
-        <target>新增及更新翻译。</target>
+        <target>New and updated translations.</target>
       </segment>
     </unit>
-    <unit id="07d20543-1087-44c7-a26c-edc34fe80e8a">
+    <unit id="3dba7e66-822c-48d3-8956-8356a594762f">
       <notes>
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 1.5 2015-mm-dd ##</source>
-        <target>1.5 版本变更 2015-月-日 ##</target>
+        <target>Changes for 1.5 2015-mm-dd ##</target>
       </segment>
     </unit>
-    <unit id="ba97735d-561e-40d6-b665-95f1213b8785">
+    <unit id="150d602a-3568-4e84-b55b-7fd3b62b6642">
       <notes>
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Corrected left/right click action.</source>
-        <target>修正左/右键点击操作。</target>
+        <target>Corrected left/right click action.</target>
       </segment>
     </unit>
-    <unit id="a33cbbd0-0094-4f86-8531-efd90c6e8066">
+    <unit id="9a5bffb1-315d-456d-bc10-e7fa82ae7a02">
       <notes>
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Add-on help is now available from add-ons manger.</source>
-        <target>现可通过插件管理器获取帮助文档。</target>
+        <target>Add-on help is now available from add-ons manger.</target>
       </segment>
     </unit>
-    <unit id="4b2962ae-f073-4a41-a70b-5305f328030e">
+    <unit id="d8b13d2e-21c8-4242-a239-0825aebc1617">
       <notes>
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Translation updates.</source>
-        <target>翻译更新。</target>
+        <target>Translation updates.</target>
       </segment>
     </unit>
-    <unit id="93a0a9e6-5a77-4b2e-963a-b18b436daa6d">
+    <unit id="236bbbfb-8c3d-4565-8dc4-e4e9d4360699">
       <notes>
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 1.4 - 2013-01-19 ##</source>
-        <target>1.4 版本变更 2013-01-19 ##</target>
+        <target>Changes for 1.4 - 2013-01-19 ##</target>
       </segment>
     </unit>
-    <unit id="7ea9d3ea-8492-4d65-96ff-138074711b4a">
+    <unit id="df60d185-00ad-479b-bf40-18e43de78826">
       <notes>
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Requires NVDA 2012.3beta2 or greater.</source>
-        <target>需要 NVDA 2012.3beta2 或更高版本。</target>
+        <target>Requires NVDA 2012.3beta2 or greater.</target>
       </segment>
     </unit>
-    <unit id="18e0d56e-d293-415f-ada4-ba4fbf776948">
+    <unit id="b3818386-a2df-4b97-a926-b838e0f989de">
       <notes>
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Add donation request to installation procedure</source>
-        <target>安装流程中添加捐赠请求</target>
+        <target>Add donation request to installation procedure</target>
       </segment>
     </unit>
-    <unit id="c5bc8073-466f-4b36-915a-ec57419b2981">
+    <unit id="ca1bb251-d32e-431f-b15e-534e6a61cfd9">
       <notes>
         <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Implemented taskbar support</source>
-        <target>实现任务栏支持</target>
+        <target>Implemented taskbar support</target>
       </segment>
     </unit>
-    <unit id="0942adba-21bb-407c-bbfe-ae78233bfdd1">
+    <unit id="42380bee-570a-4dd0-93d6-d000df198b92">
       <notes>
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong.</source>
-        <target>新增翻译：阿拉伯语、保加利亚语、荷兰语、芬兰语、加利西亚语、希腊语、匈牙利语、意大利语、日语、韩语、尼泊尔语、挪威语、波兰语、巴西葡萄牙语、俄语、斯洛伐克语、泰米尔语、繁体中文（香港）。</target>
+        <target>New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong.</target>
       </segment>
     </unit>
-    <unit id="d9576f72-354d-4c8d-9a5c-980d0e7a6db3">
+    <unit id="7fc7db74-350b-4d84-bdf4-02ac20f310ad">
       <notes>
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 1.3 - 2012-05-25 ##</source>
-        <target>1.3 版本变更 2012-05-25 ##</target>
+        <target>Changes for 1.3 - 2012-05-25 ##</target>
       </segment>
     </unit>
-    <unit id="838f14b7-455b-4643-afb3-7f0db7fa7a90">
+    <unit id="73d4e30d-ae04-47dd-afa7-b5008b362293">
       <notes>
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Converted to an add-on package</source>
-        <target>转换为插件包格式</target>
+        <target>Converted to an add-on package</target>
       </segment>
     </unit>
-    <unit id="f42f968e-61f0-4070-8b88-e661a7716ebd">
+    <unit id="912a2ccc-5d81-45e3-8bfb-71aa34238f89">
       <notes>
         <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>French and Turkish Translations.</source>
-        <target>新增法语和土耳其语翻译。</target>
+        <target>French and Turkish Translations.</target>
       </segment>
     </unit>
-    <unit id="267c6381-a8ca-4c50-9556-9f0badc44e98">
+    <unit id="bffd1272-40ba-4184-9ac7-7bd1f2b8039f">
       <notes>
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for  1.2 - 2012-04.25 ##</source>
-        <target>1.2 版本变更 2012-04-25 ##</target>
+        <target>Changes for  1.2 - 2012-04.25 ##</target>
       </segment>
     </unit>
-    <unit id="43fc9328-575f-48e8-9fa6-4290dd48d23d">
+    <unit id="ea11f98a-39d0-435a-b0d5-fc229e035b5f">
       <notes>
         <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Spanish and German translations. Thanks to all that contributed.</source>
-        <target>新增西班牙语和德语翻译（感谢所有贡献者）。</target>
+        <target>Spanish and German translations. Thanks to all that contributed.</target>
       </segment>
     </unit>
-    <unit id="a4519026-3286-445a-920e-3a54742d8b4e">
+    <unit id="75d0e5f1-72fc-486f-966c-ebf242ea1c61">
       <notes>
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 1.1 - 2012-03-20 ##</source>
-        <target>1.1 版本变更 2012-03-20 ##</target>
+        <target>Changes for 1.1 - 2012-03-20 ##</target>
       </segment>
     </unit>
-    <unit id="f4f12f3d-9804-43e9-9610-cded2f98a93c">
+    <unit id="d3827d36-7e9b-459e-bd68-07672c205369">
       <notes>
         <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Corrected a bug that was making it impossible to use the plugin when a gettext translation is not available</source>
-        <target>修复无 gettext 翻译时无法使用插件的错误</target>
+        <target>Corrected a bug that was making it impossible to use the plugin when a gettext translation is not available</target>
       </segment>
     </unit>
-    <unit id="66ae4a57-7884-47c4-94a9-3855a7e8cd63">
+    <unit id="79744330-09dd-4bdd-b389-3ad1ac9b8744">
       <notes>
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Changes for 1.0 - 2012-03-19 ##</source>
-        <target>1.0 版本变更 2012-03-19 ##</target>
+        <target>Changes for 1.0 - 2012-03-19 ##</target>
       </segment>
     </unit>
-    <unit id="34a02078-d82c-434f-b3ee-79e2b67e3022">
+    <unit id="d86b7259-c2a4-4493-a56d-dba82edc118b">
       <notes>
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>Initial Release</source>
-        <target>初始版本</target>
+        <target>Initial Release</target>
       </segment>
     </unit>
-    <unit id="c8523a09-3e57-4e12-8fb8-4193c25ac945">
+    <unit id="a58a2200-464a-4e11-9467-b2601d0f968c">
       <notes>
         <note appliesTo="source">line: 69</note>
       </notes>
-      <segment state="final">
+      <segment state="initial">
         <source>[1]: http://addons.nvda-project.org/files/get.php?file=st</source>
         <target>[1]: http://addons.nvda-project.org/files/get.php?file=st</target>
       </segment>

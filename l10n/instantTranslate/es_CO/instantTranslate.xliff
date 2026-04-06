@@ -1,114 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="es-CO">
-  <file id="instantTranslate.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/instantTranslate/instantTranslate.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/addonFactory/instantTranslate/33a2ea290a02f24a4feaecabbb421b3f4b04dbac/readme.md">
     <skeleton>
-# $(ID:f27b090d-2cd4-4aa9-90be-abb657f6cad6)
+# $(ID:f3575f92-0198-493c-888c-64ca20fc35f9)
 
-* $(ID:32cc0bfa-1f4d-44ae-90d5-c5abbde56f2a)
-* $(ID:993b9a1b-96a5-4143-af72-22969f696676)
-* $(ID:0300a560-c55f-45a8-b38c-fb2a1ef463fe)
+* $(ID:f0bf79d9-9918-485c-8efb-a51f95a6855a)
+* $(ID:5ff93710-e5ff-4cb6-a43f-23361ea639f9)
+* $(ID:93cc9551-49c0-48cd-b110-e63c5af66ff4)
 
-$(ID:6c5ccb60-ed89-4793-b44b-d23b4863f1a2)
-$(ID:70f1ab03-d053-4b03-acbc-9389deab9d8d)
+$(ID:2b03f67b-3b39-462b-ac8b-5556c118e647)
+$(ID:e0dd81ab-c574-4300-88e2-08f3d1278030)
 
-## $(ID:67702d83-26af-4aa9-8f11-c4990b623bc6)
-$(ID:46ab2c6c-20ae-437b-ad92-fd55dd59555a)
+## $(ID:4fa6647a-b212-4eb8-990a-3ea8c7a75336)
+$(ID:31c61ae8-8e7a-434a-bad0-603084f3982e)
 
-$(ID:34bb47a1-13e3-4af4-b129-a0000e57082f)
+$(ID:090550c5-b6b8-448d-9ecd-55c053a6a11e)
 
-$(ID:b82fcde8-a7d2-4bd5-91cd-879c3fa7de0a)
+$(ID:5cb59f34-dcb2-4f7d-a15a-a2a2a202d4c9)
 
-$(ID:5e109f03-7787-4c8e-b600-7524ab4e0053)
+$(ID:924fd833-b2a1-49da-a071-b374acf0e52b)
 
-$(ID:395dc6d4-ce36-45bc-a678-6c9a4c99c0ae)
+$(ID:6b0d49d1-d680-4106-8a93-04825611fc0b)
 
-$(ID:c95ff594-5ca7-4998-9c80-fb36dd793a50)
+$(ID:76793ffd-e3ad-4426-808f-b7b43ddb45bf)
 
-$(ID:52941bfe-3306-4fb6-8ff3-58fcc3b86098)
+$(ID:5d01838c-020f-4db1-8480-19b8ec33d421)
 
-$(ID:3794bc67-dfe7-4692-9b72-37b670b753d9)
+$(ID:1a51688f-1b6b-4913-b083-8b94b9895f88)
 
-$(ID:90bbb2f3-acb1-455a-bea5-a8847e0b473f)
+$(ID:b96aa3db-b641-4218-ade8-aae42524ee8f)
 
-$(ID:031b12b0-d60a-4050-b4e0-c6d23de9a030)
+$(ID:04ebda2c-6a7e-4eea-8a66-738c84ed26f3)
 
-## $(ID:3c717e78-7e4e-4f63-a1fc-e297c746fb1c)
-$(ID:c503fcde-02ad-42ca-af55-6bd4d4b0d9dd)
+## $(ID:e40d1dc5-d9e5-4928-ae54-b8719960ae3d)
+$(ID:a28fd81e-44a3-4246-9da6-33588f7028ed)
 
-1. $(ID:5795090d-9d5f-4d73-9409-49fac6613dcb)
-2. $(ID:e95048c2-6888-4e62-b2b4-bf3c365220e2)
-3. $(ID:501d24a0-fc50-4dac-98bb-87946052fe6d)
+1. $(ID:8f7d3416-8391-4c81-89a6-1da1c097b6d8)
+2. $(ID:47dff592-fc1c-456a-abcd-1a7104d3b5c6)
+3. $(ID:e06f82e8-b19c-433e-ab5c-efc3e3dc3541)
 
-## $(ID:b54d1501-4efd-40c4-b483-1eedb63ad828)
-$(ID:74f6af5e-2e7d-4bc2-b5ac-3e294b948f37)
+## $(ID:55de3f4b-1c85-4b8a-9a16-f106b421b1ea)
+$(ID:59722ddd-eb0e-459a-a824-21165dfbf926)
 
-* $(ID:5a176337-a399-4ade-b10c-0c68bf81e334)
-* $(ID:0d47baeb-00b4-4e65-b16b-915a371c96fe)
-* $(ID:da09269b-144e-4a2f-a3cc-241864b1fef2)
-* $(ID:7f779bcc-d48d-434c-822b-23855a242163)
-* $(ID:94bf42ea-76ba-4ebf-8b27-2a73d99a8e00)
-* $(ID:a51c23db-fd9f-4134-8a3f-58cd39a6ac32)
-* $(ID:7a9102f1-4e09-448e-8bd2-599c2ba7ba2a)
-* $(ID:e102e977-0a83-491d-9e49-9d298ce7dc38)
-* $(ID:78216b49-06c3-4527-b643-3a2bea3392db)
+* $(ID:e6f8afcc-5ddc-4973-999b-212f58daf06c)
+* $(ID:d1ec3cf7-cec5-45a4-8c2c-1f9e936b363f)
+* $(ID:e1818dd7-9928-4ee5-953c-5c1a9e8ebf78)
+* $(ID:9da3a461-ef48-40ce-a538-80b756ab5b31)
+* $(ID:e4c92972-20d2-4347-852e-27d9390e6828)
+* $(ID:fa0f0e0d-9447-40e4-814b-dd5c88778364)
+* $(ID:ba965f21-1ab6-4cb1-af00-36bd8ae8e3c0)
+* $(ID:ed660d91-2f6f-4c2b-80fb-331450241533)
+* $(ID:7a936eab-98cc-4bfe-a6c0-6b9a105619fc)
 
-## $(ID:0a2f539e-f429-4d0d-b730-ed19b55d5cf1)
-* $(ID:3f29a89c-994a-48da-bcdc-6df5cc18e255)
-* $(ID:15319025-5f0b-4bec-8af7-24bae863d639)
-* $(ID:1a856e4e-5c7d-4f33-a3a5-a754eb23a227)
-* $(ID:912ffdb9-e071-4405-9535-aaf38cff8b5a)
+## $(ID:96fdb991-63be-4d04-be7f-218b6b97fa04)
+* $(ID:0f1bf4b7-5e0b-4103-8ada-562414d27d66)
+* $(ID:523f89d5-c723-4185-a5f7-803ca3f8ede0)
+* $(ID:3a165de0-da5b-42e6-87a1-45cad1e9f30a)
+* $(ID:51b53017-2830-477e-b401-c03dd89effb4)
 
 
-## $(ID:204d6c02-4b95-46f2-b439-0b042c01bf20)
-* $(ID:32959459-672e-46c3-9c96-52f32bf642bf)
-* $(ID:5f5827e8-2c77-44e0-bee3-c194e8671244)
+## $(ID:8535cd2d-122c-463a-9157-71685813b355)
+* $(ID:4349875f-c702-49f0-8629-ba421cd31dd2)
+* $(ID:75621083-53e0-42bb-ad6b-11f0a4a44cf5)
 
-## $(ID:9ead4161-102a-408e-9c12-3a0ace707a0a)
-* $(ID:552a3a2d-3a2e-4977-82ba-398c762b1443)
+## $(ID:0aa3d191-1826-495a-a3f6-695df7402fb8)
+* $(ID:1841c2d4-a90d-4fe0-8576-deea4e109e4c)
 
-## $(ID:4078a80c-4377-4067-8461-7ee44b434bae)
-* $(ID:2f033f57-7b10-4ff5-8773-97a208d6a38f)
-* $(ID:b513afb7-cb55-4f2a-b1f9-cf84f42f71bd)
+## $(ID:d0b3f44d-d2b1-4ef5-915c-e317de09c978)
+* $(ID:6d008ec7-2cb7-4528-a025-ca449393712e)
+* $(ID:0882819c-3ca7-491a-b3e8-60f125e229bb)
 
-## $(ID:f90a6175-2fc1-47fc-acf5-037b948541ad)
-* $(ID:5846aca3-ec02-4d52-bfed-5867624648c2)
-* $(ID:3845bc37-3e8a-4679-9301-7825eab543da)
+## $(ID:c4ddedf0-0a9c-41d0-bc43-832ba60ab50b)
+* $(ID:3af4355a-9cfc-44d9-911d-12ccd8dec826)
+* $(ID:54456f5e-88c9-4002-857f-223cec6ba46a)
 
-## $(ID:070979d8-770b-416c-b109-c0f158d293fb)
-* $(ID:665a43fd-046a-416d-8227-0f40d49af7b4)
+## $(ID:e0f26486-91f9-4061-8428-29640f415b9a)
+* $(ID:ec3dac2c-e012-47b9-a8b4-45d03fb4e809)
 
-## $(ID:215f467a-037c-4e62-b2d6-fce128f06823)
-* $(ID:f7cae0de-21d8-40b8-894f-0ef55f5ceb4c)
-* $(ID:aa9ffe68-a3c5-44a6-b2d1-917e648bdfa8)
+## $(ID:371e9481-b917-4fdf-9909-93fee5d6d8fd)
+* $(ID:7872fe76-1481-4bcc-90b4-e2fa2ee82ba5)
+* $(ID:1be99f2b-90bc-483e-9fe8-11f53b603ca6)
 
-## $(ID:57de5003-1479-4608-a8b5-7b4b4812e798)
-* $(ID:2dcf620d-92ca-4e74-a782-3cfb2d8525f7)
-* $(ID:a67e5716-b888-43de-a0e8-e0cc65aa994a)
-* $(ID:2813ba4f-dc66-48fd-a270-9e28b4d7f2a1)
-* $(ID:de71cbb7-1ccf-4abe-a308-9359ffaf2eea)
-* $(ID:a7ab7fa9-f1ea-4c8b-aedd-4b2c6936c704)
-* $(ID:d0fb290b-29e9-4f18-9a63-6312c25da9e3)
-* $(ID:949620d7-de92-4936-ab03-6811a139a284)
-* $(ID:903199b6-6ecc-421f-bb98-beed3f7ea340)
-* $(ID:b1687061-f488-40a1-b613-54defd6ea76b)
+## $(ID:15ca2400-a695-45b7-ad3b-073300cfa224)
+* $(ID:bab6f0df-bcd3-4530-80a0-2453ce9dcbb2)
+* $(ID:94d0357b-f436-44e0-a93c-d8f17d39c897)
+* $(ID:b2657205-e5f2-415e-add4-98263c685feb)
+* $(ID:803da1cb-0a06-4bbc-b4da-912c9ff39a7b)
+* $(ID:f0af374f-ca39-43f7-a57b-cda788e0a46b)
+* $(ID:96d38e91-d77e-429b-8048-af873576dbb4)
+* $(ID:2f879654-8dd5-42de-9978-d899c7d08a56)
+* $(ID:7c7054cb-41d2-43cb-b430-2de9ec38f2e4)
+* $(ID:70c3f566-98e2-4ad6-a000-5f5332a9edd2)
 
-## $(ID:5c833ef1-84e5-4f7a-915e-febe8dc6baf9)
-* $(ID:538bc6bc-423a-4f93-ab33-e66a7ae0c4ba)
+## $(ID:1fd2ded1-c258-404a-a8e0-c7db2a65a6aa)
+* $(ID:c7ef9ec9-3300-4c0d-955e-5fc305f83930)
 
-## $(ID:a1d5f072-4df4-49e3-95d2-1b65f3967342)
-* $(ID:2d35081b-2c18-41fe-82a3-775f0dbfd935)
-* $(ID:c106d704-f4ba-4668-86d5-962c0253d203)
-* $(ID:c815009f-9026-481a-abec-f28bbe277aa9)
-* $(ID:641c8e7f-c129-4487-9243-f25d8135f9a0)
+## $(ID:b86c2a7b-9b0e-45ab-b18c-8d0ae1d76d7d)
+* $(ID:634eef82-09e5-4b21-94a4-b4972ba49b62)
+* $(ID:578efbdc-b5d4-4338-bef2-13e8eb069c8e)
+* $(ID:fd2677a6-0fd7-4b2d-9ab4-112cb08da520)
+* $(ID:e1b3380d-08cc-4705-b1ff-71a919c99067)
 
-## $(ID:25dc2ebc-69f7-444b-9fd9-6087ea606c33)
-* $(ID:e406f200-5421-4c4f-8702-9b04c2a70fbb)
+## $(ID:04938f05-367c-4f06-b015-aec1b70edfbc)
+* $(ID:ddf84fa7-d901-487a-b0b0-85e265c49d7f)
 
-$(ID:218d9ac0-9933-4581-862c-77bccdd8deca)
+$(ID:308c977e-d36a-4097-b249-1909e0987003)
 
-$(ID:3fe6536d-49ea-4035-99be-431cc8095534)
+$(ID:c09ac3ee-08f4-4cca-b980-cd7d0a4900a8)
+
 </skeleton>
-    <unit id="f27b090d-2cd4-4aa9-90be-abb657f6cad6">
+    <unit id="f3575f92-0198-493c-888c-64ca20fc35f9">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -118,7 +119,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Instant Translate #</target>
       </segment>
     </unit>
-    <unit id="32cc0bfa-1f4d-44ae-90d5-c5abbde56f2a">
+    <unit id="f0bf79d9-9918-485c-8efb-a51f95a6855a">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -128,7 +129,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino and other NVDA contributors.</target>
       </segment>
     </unit>
-    <unit id="993b9a1b-96a5-4143-af72-22969f696676">
+    <unit id="5ff93710-e5ff-4cb6-a43f-23361ea639f9">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
@@ -138,7 +139,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Download [stable version][1]</target>
       </segment>
     </unit>
-    <unit id="0300a560-c55f-45a8-b38c-fb2a1ef463fe">
+    <unit id="93cc9551-49c0-48cd-b110-e63c5af66ff4">
       <notes>
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
@@ -148,7 +149,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Download [development version][2]</target>
       </segment>
     </unit>
-    <unit id="6c5ccb60-ed89-4793-b44b-d23b4863f1a2">
+    <unit id="2b03f67b-3b39-462b-ac8b-5556c118e647">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
@@ -157,7 +158,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>This add-on is used to translate selected and/or clipboard text from one language to another.</target>
       </segment>
     </unit>
-    <unit id="70f1ab03-d053-4b03-acbc-9389deab9d8d">
+    <unit id="e0dd81ab-c574-4300-88e2-08f3d1278030">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
@@ -166,7 +167,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>This is done using the Google Translate service.</target>
       </segment>
     </unit>
-    <unit id="67702d83-26af-4aa9-8f11-c4990b623bc6">
+    <unit id="4fa6647a-b212-4eb8-990a-3ea8c7a75336">
       <notes>
         <note appliesTo="source">line: 11</note>
         <note appliesTo="source">prefix: ## </note>
@@ -176,7 +177,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Configuring languages ##</target>
       </segment>
     </unit>
-    <unit id="46ab2c6c-20ae-437b-ad92-fd55dd59555a">
+    <unit id="31c61ae8-8e7a-434a-bad0-603084f3982e">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
@@ -185,7 +186,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>To configure source, target and in case swap language, go to: NVDA Menu &gt;&gt; Preferences &gt;&gt; Instant Translate Settings.</target>
       </segment>
     </unit>
-    <unit id="34bb47a1-13e3-4af4-b129-a0000e57082f">
+    <unit id="090550c5-b6b8-448d-9ecd-55c053a6a11e">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
@@ -194,7 +195,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>There are two comboboxes labeled "Source language" and "Target language", and a checkbox to decide if it must copy the translation to clipboard.</target>
       </segment>
     </unit>
-    <unit id="b82fcde8-a7d2-4bd5-91cd-879c3fa7de0a">
+    <unit id="5cb59f34-dcb2-4f7d-a15a-a2a2a202d4c9">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
@@ -203,7 +204,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>In addition, if you selected auto option (the first choice) from "Source language" combobox, there are also a combobox labeled "Language for swapping" and a checkbox about the auto-swap.</target>
       </segment>
     </unit>
-    <unit id="5e109f03-7787-4c8e-b600-7524ab4e0053">
+    <unit id="924fd833-b2a1-49da-a071-b374acf0e52b">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
@@ -212,7 +213,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>The meaning of two first comboboxes and checkbox for copy is clear, but some words about the rest are necessary. Remember always that the explanations below assume the source language set on the auto option.</target>
       </segment>
     </unit>
-    <unit id="395dc6d4-ce36-45bc-a678-6c9a4c99c0ae">
+    <unit id="6b0d49d1-d680-4106-8a93-04825611fc0b">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
@@ -221,7 +222,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>The "Language for swapping" combobox is useful when you swap via script (see below) the source and target language; in fact, a target language set on the auto option has no sense, so the addon sets it to value of combobox above.</target>
       </segment>
     </unit>
-    <unit id="c95ff594-5ca7-4998-9c80-fb36dd793a50">
+    <unit id="76793ffd-e3ad-4426-808f-b7b43ddb45bf">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
@@ -230,7 +231,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>So, imagine this situation: you usually translate into English (your main language), but sometimes (for example, when you write a document) you need to translate into Italian (your second language, suppose); you can set "Language for swapping" combobox to Italian, so you will translate from English to Italian without accessing directly to the addon settings. Obviously this function has a major or minor utility according to your more frequent needs.</target>
       </segment>
     </unit>
-    <unit id="52941bfe-3306-4fb6-8ff3-58fcc3b86098">
+    <unit id="5d01838c-020f-4db1-8480-19b8ec33d421">
       <notes>
         <note appliesTo="source">line: 24</note>
       </notes>
@@ -239,7 +240,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Now, the auto-swap checkbox: it appears if and only if you set the auto option in "Source language" combobox, and is directly connected with "Language for swapping" combobox. If you activate it, then the addon tries to commute automatically from your source and target configuration to a configuration where target becomes the source language, and language selected in "Language for swapping" combobox is the new target language; extremely useful if the source language of the text you want translate is the target language.</target>
       </segment>
     </unit>
-    <unit id="3794bc67-dfe7-4692-9b72-37b670b753d9">
+    <unit id="1a51688f-1b6b-4913-b083-8b94b9895f88">
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
@@ -248,7 +249,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>A simple example: take again in mind the situation  imagined previously; if you translate a text in a language different from English, there is no problem, you get the correct translation in English. But if you need to translate a text from English, normally you get a translation into English identical to original text, and this is a bit useless. Thanks to auto-swap function, however, assuming that you want to know how your text sounds into Italian, the addon commutes automatically the target language to Italian, so it returns a valid translation.</target>
       </segment>
     </unit>
-    <unit id="90bbb2f3-acb1-455a-bea5-a8847e0b473f">
+    <unit id="b96aa3db-b641-4218-ade8-aae42524ee8f">
       <notes>
         <note appliesTo="source">line: 28</note>
       </notes>
@@ -257,7 +258,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Anyway, this is a temporary configuration; if this option has no effect (it's experimental), try to commute manually to a stable configuration, using the gesture for swapping described below. It's experimental because in some situations (with short texts, typically), Google does not recognize the real source language correctly, and you have to swap languages manually via script, so to force the source language to be the previous target language (English in our example).</target>
       </segment>
     </unit>
-    <unit id="031b12b0-d60a-4050-b4e0-c6d23de9a030">
+    <unit id="04ebda2c-6a7e-4eea-8a66-738c84ed26f3">
       <notes>
         <note appliesTo="source">line: 30</note>
       </notes>
@@ -266,7 +267,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>At least, in the speech settings parameters dialog (NVDA Menu &gt;&gt; Preferences &gt;&gt; Speech), you may want to check the "Automatic language switching (when supported)" option. This way, if you are using a multi-lingual synthesizer, the translation will be announced using the target language voice of the synthesizer.</target>
       </segment>
     </unit>
-    <unit id="3c717e78-7e4e-4f63-a1fc-e297c746fb1c">
+    <unit id="e40d1dc5-d9e5-4928-ae54-b8719960ae3d">
       <notes>
         <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix: ## </note>
@@ -276,7 +277,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Using ##</target>
       </segment>
     </unit>
-    <unit id="c503fcde-02ad-42ca-af55-6bd4d4b0d9dd">
+    <unit id="a28fd81e-44a3-4246-9da6-33588f7028ed">
       <notes>
         <note appliesTo="source">line: 33</note>
       </notes>
@@ -285,7 +286,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>You can use this add-on in three ways:</target>
       </segment>
     </unit>
-    <unit id="5795090d-9d5f-4d73-9409-49fac6613dcb">
+    <unit id="8f7d3416-8391-4c81-89a6-1da1c097b6d8">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: 1. </note>
@@ -295,7 +296,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Select some text using selection commands (shift with arrow keys, for example) and press associated key to translate. translation result will be read with synthesizer which you are using.</target>
       </segment>
     </unit>
-    <unit id="e95048c2-6888-4e62-b2b4-bf3c365220e2">
+    <unit id="47dff592-fc1c-456a-abcd-1a7104d3b5c6">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: 2. </note>
@@ -305,7 +306,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>You can also translate text from the Clipboard.</target>
       </segment>
     </unit>
-    <unit id="501d24a0-fc50-4dac-98bb-87946052fe6d">
+    <unit id="e06f82e8-b19c-433e-ab5c-efc3e3dc3541">
       <notes>
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: 3. </note>
@@ -315,7 +316,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Press the dedicated shortcut key to translate the last spoken text.</target>
       </segment>
     </unit>
-    <unit id="b54d1501-4efd-40c4-b483-1eedb63ad828">
+    <unit id="55de3f4b-1c85-4b8a-9a16-f106b421b1ea">
       <notes>
         <note appliesTo="source">line: 39</note>
         <note appliesTo="source">prefix: ## </note>
@@ -325,7 +326,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Shortcuts ##</target>
       </segment>
     </unit>
-    <unit id="74f6af5e-2e7d-4bc2-b5ac-3e294b948f37">
+    <unit id="59722ddd-eb0e-459a-a824-21165dfbf926">
       <notes>
         <note appliesTo="source">line: 40</note>
       </notes>
@@ -334,7 +335,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>All following commands must be pressed after modifier key "NVDA+Shift+t":</target>
       </segment>
     </unit>
-    <unit id="5a176337-a399-4ade-b10c-0c68bf81e334">
+    <unit id="e6f8afcc-5ddc-4973-999b-212f58daf06c">
       <notes>
         <note appliesTo="source">line: 42</note>
         <note appliesTo="source">prefix: * </note>
@@ -344,7 +345,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>T: Translate selected text,</target>
       </segment>
     </unit>
-    <unit id="0d47baeb-00b4-4e65-b16b-915a371c96fe">
+    <unit id="d1ec3cf7-cec5-45a4-8c2c-1f9e936b363f">
       <notes>
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
@@ -354,7 +355,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Shift+t: translate text from the Clipboard,</target>
       </segment>
     </unit>
-    <unit id="da09269b-144e-4a2f-a3cc-241864b1fef2">
+    <unit id="e1818dd7-9928-4ee5-953c-5c1a9e8ebf78">
       <notes>
         <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: * </note>
@@ -364,7 +365,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>S: swap source and target languages,</target>
       </segment>
     </unit>
-    <unit id="7f779bcc-d48d-434c-822b-23855a242163">
+    <unit id="9da3a461-ef48-40ce-a538-80b756ab5b31">
       <notes>
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: * </note>
@@ -374,7 +375,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>A: announce current configuration,</target>
       </segment>
     </unit>
-    <unit id="94bf42ea-76ba-4ebf-8b27-2a73d99a8e00">
+    <unit id="e4c92972-20d2-4347-852e-27d9390e6828">
       <notes>
         <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: * </note>
@@ -384,7 +385,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>C: copy last result to clipboard,</target>
       </segment>
     </unit>
-    <unit id="a51c23db-fd9f-4134-8a3f-58cd39a6ac32">
+    <unit id="fa0f0e0d-9447-40e4-814b-dd5c88778364">
       <notes>
         <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
@@ -394,7 +395,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>I: identify the language of selected text,</target>
       </segment>
     </unit>
-    <unit id="7a9102f1-4e09-448e-8bd2-599c2ba7ba2a">
+    <unit id="ba965f21-1ab6-4cb1-af00-36bd8ae8e3c0">
       <notes>
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: * </note>
@@ -404,7 +405,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>L: translate the last spoken text,</target>
       </segment>
     </unit>
-    <unit id="e102e977-0a83-491d-9e49-9d298ce7dc38">
+    <unit id="ed660d91-2f6f-4c2b-80fb-331450241533">
       <notes>
         <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: * </note>
@@ -414,7 +415,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>O: open translation settings dialog</target>
       </segment>
     </unit>
-    <unit id="78216b49-06c3-4527-b643-3a2bea3392db">
+    <unit id="7a936eab-98cc-4bfe-a6c0-6b9a105619fc">
       <notes>
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
@@ -424,7 +425,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>H: announces all available layered commands.</target>
       </segment>
     </unit>
-    <unit id="0a2f539e-f429-4d0d-b730-ed19b55d5cf1">
+    <unit id="96fdb991-63be-4d04-be7f-218b6b97fa04">
       <notes>
         <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
@@ -434,7 +435,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 4.7 ##</target>
       </segment>
     </unit>
-    <unit id="3f29a89c-994a-48da-bcdc-6df5cc18e255">
+    <unit id="0f1bf4b7-5e0b-4103-8ada-562414d27d66">
       <notes>
         <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix: * </note>
@@ -444,7 +445,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Updated to be compatible with python3.11 and nvda 2024.1</target>
       </segment>
     </unit>
-    <unit id="15319025-5f0b-4bec-8af7-24bae863d639">
+    <unit id="523f89d5-c723-4185-a5f7-803ca3f8ede0">
       <notes>
         <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix: * </note>
@@ -454,7 +455,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Implemented speakOnDemand mode</target>
       </segment>
     </unit>
-    <unit id="1a856e4e-5c7d-4f33-a3a5-a754eb23a227">
+    <unit id="3a165de0-da5b-42e6-87a1-45cad1e9f30a">
       <notes>
         <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
@@ -464,7 +465,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Fixed case with caching failled translations</target>
       </segment>
     </unit>
-    <unit id="912ffdb9-e071-4405-9535-aaf38cff8b5a">
+    <unit id="51b53017-2830-477e-b401-c03dd89effb4">
       <notes>
         <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: * </note>
@@ -474,7 +475,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Added chinese mirror for translation</target>
       </segment>
     </unit>
-    <unit id="204d6c02-4b95-46f2-b439-0b042c01bf20">
+    <unit id="8535cd2d-122c-463a-9157-71685813b355">
       <notes>
         <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: ## </note>
@@ -484,7 +485,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 4.4.2 ##</target>
       </segment>
     </unit>
-    <unit id="32959459-672e-46c3-9c96-52f32bf642bf">
+    <unit id="4349875f-c702-49f0-8629-ba421cd31dd2">
       <notes>
         <note appliesTo="source">line: 60</note>
         <note appliesTo="source">prefix: * </note>
@@ -494,7 +495,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Restore language detection and auto-swapping (Thanks to Cyrille for fix)</target>
       </segment>
     </unit>
-    <unit id="5f5827e8-2c77-44e0-bee3-c194e8671244">
+    <unit id="75621083-53e0-42bb-ad6b-11f0a4a44cf5">
       <notes>
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: * </note>
@@ -504,7 +505,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>updated languages for translation (thanks to Cyrille)</target>
       </segment>
     </unit>
-    <unit id="9ead4161-102a-408e-9c12-3a0ace707a0a">
+    <unit id="0aa3d191-1826-495a-a3f6-695df7402fb8">
       <notes>
         <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: ## </note>
@@ -514,7 +515,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 4.4 ##</target>
       </segment>
     </unit>
-    <unit id="552a3a2d-3a2e-4977-82ba-398c762b1443">
+    <unit id="1841c2d4-a90d-4fe0-8576-deea4e109e4c">
       <notes>
         <note appliesTo="source">line: 64</note>
         <note appliesTo="source">prefix: * </note>
@@ -524,7 +525,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Instant translate is now compatible with NVDA 2019.3 (Python 3 versions of NVDA)</target>
       </segment>
     </unit>
-    <unit id="4078a80c-4377-4067-8461-7ee44b434bae">
+    <unit id="d0b3f44d-d2b1-4ef5-915c-e317de09c978">
       <notes>
         <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: ## </note>
@@ -534,7 +535,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 4.3 ##</target>
       </segment>
     </unit>
-    <unit id="2f033f57-7b10-4ff5-8773-97a208d6a38f">
+    <unit id="6d008ec7-2cb7-4528-a025-ca449393712e">
       <notes>
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
@@ -544,7 +545,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>nvda compatibility fix Now instant translate will be compatible with latest nvda builds.</target>
       </segment>
     </unit>
-    <unit id="b513afb7-cb55-4f2a-b1f9-cf84f42f71bd">
+    <unit id="0882819c-3ca7-491a-b3e8-60f125e229bb">
       <notes>
         <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix: * </note>
@@ -554,7 +555,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>found a way to use google as a translation service again.</target>
       </segment>
     </unit>
-    <unit id="f90a6175-2fc1-47fc-acf5-037b948541ad">
+    <unit id="c4ddedf0-0a9c-41d0-bc43-832ba60ab50b">
       <notes>
         <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix: ## </note>
@@ -564,7 +565,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 4.2 ##</target>
       </segment>
     </unit>
-    <unit id="5846aca3-ec02-4d52-bfed-5867624648c2">
+    <unit id="3af4355a-9cfc-44d9-911d-12ccd8dec826">
       <notes>
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: * </note>
@@ -574,7 +575,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Restored working state with newer versions of nvda.</target>
       </segment>
     </unit>
-    <unit id="3845bc37-3e8a-4679-9301-7825eab543da">
+    <unit id="54456f5e-88c9-4002-857f-223cec6ba46a">
       <notes>
         <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
@@ -584,7 +585,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Restored automatic language detection.</target>
       </segment>
     </unit>
-    <unit id="070979d8-770b-416c-b109-c0f158d293fb">
+    <unit id="e0f26486-91f9-4061-8428-29640f415b9a">
       <notes>
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: ## </note>
@@ -594,7 +595,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 4.1 ##</target>
       </segment>
     </unit>
-    <unit id="665a43fd-046a-416d-8227-0f40d49af7b4">
+    <unit id="ec3dac2c-e012-47b9-a8b4-45d03fb4e809">
       <notes>
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
@@ -604,7 +605,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>InstantTranslate is working again, now with Yandex translator service instead of Google.</target>
       </segment>
     </unit>
-    <unit id="215f467a-037c-4e62-b2d6-fce128f06823">
+    <unit id="371e9481-b917-4fdf-9909-93fee5d6d8fd">
       <notes>
         <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: ## </note>
@@ -614,7 +615,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 4.0 ##</target>
       </segment>
     </unit>
-    <unit id="f7cae0de-21d8-40b8-894f-0ef55f5ceb4c">
+    <unit id="7872fe76-1481-4bcc-90b4-e2fa2ee82ba5">
       <notes>
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
@@ -624,7 +625,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Translation is automatically performed after swapping.</target>
       </segment>
     </unit>
-    <unit id="aa9ffe68-a3c5-44a6-b2d1-917e648bdfa8">
+    <unit id="1be99f2b-90bc-483e-9fe8-11f53b603ca6">
       <notes>
         <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix: * </note>
@@ -634,7 +635,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Cache bug fixed.</target>
       </segment>
     </unit>
-    <unit id="57de5003-1479-4608-a8b5-7b4b4812e798">
+    <unit id="15ca2400-a695-45b7-ad3b-073300cfa224">
       <notes>
         <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix: ## </note>
@@ -644,7 +645,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 3.0 ##</target>
       </segment>
     </unit>
-    <unit id="2dcf620d-92ca-4e74-a782-3cfb2d8525f7">
+    <unit id="bab6f0df-bcd3-4530-80a0-2453ce9dcbb2">
       <notes>
         <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix: * </note>
@@ -654,7 +655,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Change way how Shortcuts are used, now you can press instantTranslate modifier key "NVDA+Shift+t", and then single letter key to perform some action (see all Commands in the "Shortcuts" section).</target>
       </segment>
     </unit>
-    <unit id="a67e5716-b888-43de-a0e8-e0cc65aa994a">
+    <unit id="94d0357b-f436-44e0-a93c-d8f17d39c897">
       <notes>
         <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix: * </note>
@@ -664,7 +665,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Implemented swapping languages.</target>
       </segment>
     </unit>
-    <unit id="2813ba4f-dc66-48fd-a270-9e28b4d7f2a1">
+    <unit id="b2657205-e5f2-415e-add4-98263c685feb">
       <notes>
         <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: * </note>
@@ -674,7 +675,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changed configuration format, now we can change instant translate settings if we are in readonly pane, but remember that this will work before first restart of NVDA.</target>
       </segment>
     </unit>
-    <unit id="de71cbb7-1ccf-4abe-a308-9359ffaf2eea">
+    <unit id="803da1cb-0a06-4bbc-b4da-912c9ff39a7b">
       <notes>
         <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
@@ -684,7 +685,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Removed limit on amount of text that can be translated.</target>
       </segment>
     </unit>
-    <unit id="a7ab7fa9-f1ea-4c8b-aedd-4b2c6936c704">
+    <unit id="f0af374f-ca39-43f7-a57b-cda788e0a46b">
       <notes>
         <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix: * </note>
@@ -694,7 +695,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Added shortcut t to the Instant Translate Settings menu item</target>
       </segment>
     </unit>
-    <unit id="d0fb290b-29e9-4f18-9a63-6312c25da9e3">
+    <unit id="96d38e91-d77e-429b-8048-af873576dbb4">
       <notes>
         <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: * </note>
@@ -704,7 +705,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>The auto option is now in first position in source combo, and absent in target combo.</target>
       </segment>
     </unit>
-    <unit id="949620d7-de92-4936-ab03-6811a139a284">
+    <unit id="2f879654-8dd5-42de-9978-d899c7d08a56">
       <notes>
         <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix: * </note>
@@ -714,7 +715,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Added a checkbox for configuring copying translation results.</target>
       </segment>
     </unit>
-    <unit id="903199b6-6ecc-421f-bb98-beed3f7ea340">
+    <unit id="7c7054cb-41d2-43cb-b430-2de9ec38f2e4">
       <notes>
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: * </note>
@@ -724,7 +725,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Store config file in the root of settings folder.</target>
       </segment>
     </unit>
-    <unit id="b1687061-f488-40a1-b613-54defd6ea76b">
+    <unit id="70c3f566-98e2-4ad6-a000-5f5332a9edd2">
       <notes>
         <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
@@ -734,7 +735,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Source and target languages syncronized with what Google Translate currently exposes (22 Apr 2015).</target>
       </segment>
     </unit>
-    <unit id="5c833ef1-84e5-4f7a-915e-febe8dc6baf9">
+    <unit id="1fd2ded1-c258-404a-a8e0-c7db2a65a6aa">
       <notes>
         <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix: ## </note>
@@ -744,7 +745,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 2.1 ##</target>
       </segment>
     </unit>
-    <unit id="538bc6bc-423a-4f93-ab33-e66a7ae0c4ba">
+    <unit id="c7ef9ec9-3300-4c0d-955e-5fc305f83930">
       <notes>
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
@@ -754,7 +755,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Now addon can translate text from clipboard when pressing nvda+shift+y.</target>
       </segment>
     </unit>
-    <unit id="a1d5f072-4df4-49e3-95d2-1b65f3967342">
+    <unit id="b86c2a7b-9b0e-45ab-b18c-8d0ae1d76d7d">
       <notes>
         <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: ## </note>
@@ -764,7 +765,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 2.0 ##</target>
       </segment>
     </unit>
-    <unit id="2d35081b-2c18-41fe-82a3-775f0dbfd935">
+    <unit id="634eef82-09e5-4b21-94a4-b4972ba49b62">
       <notes>
         <note appliesTo="source">line: 96</note>
         <note appliesTo="source">prefix: * </note>
@@ -774,7 +775,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Added gui configurator where you can choose source and target languages.</target>
       </segment>
     </unit>
-    <unit id="c106d704-f4ba-4668-86d5-962c0253d203">
+    <unit id="578efbdc-b5d4-4338-bef2-13e8eb069c8e">
       <notes>
         <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix: * </note>
@@ -784,7 +785,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Added addon menu item found under preferences menu.</target>
       </segment>
     </unit>
-    <unit id="c815009f-9026-481a-abec-f28bbe277aa9">
+    <unit id="fd2677a6-0fd7-4b2d-9ab4-112cb08da520">
       <notes>
         <note appliesTo="source">line: 98</note>
         <note appliesTo="source">prefix: * </note>
@@ -794,7 +795,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Settings now is written in separate config file.</target>
       </segment>
     </unit>
-    <unit id="641c8e7f-c129-4487-9243-f25d8135f9a0">
+    <unit id="e1b3380d-08cc-4705-b1ff-71a919c99067">
       <notes>
         <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: * </note>
@@ -804,7 +805,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Translation results now automatically copies into the clipboard for future manipulations.</target>
       </segment>
     </unit>
-    <unit id="25dc2ebc-69f7-444b-9fd9-6087ea606c33">
+    <unit id="04938f05-367c-4f06-b015-aec1b70edfbc">
       <notes>
         <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix: ## </note>
@@ -814,7 +815,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Changes for 1.0 ##</target>
       </segment>
     </unit>
-    <unit id="e406f200-5421-4c4f-8702-9b04c2a70fbb">
+    <unit id="ddf84fa7-d901-487a-b0b0-85e265c49d7f">
       <notes>
         <note appliesTo="source">line: 102</note>
         <note appliesTo="source">prefix: * </note>
@@ -824,7 +825,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>Initial version.</target>
       </segment>
     </unit>
-    <unit id="218d9ac0-9933-4581-862c-77bccdd8deca">
+    <unit id="308c977e-d36a-4097-b249-1909e0987003">
       <notes>
         <note appliesTo="source">line: 104</note>
       </notes>
@@ -833,7 +834,7 @@ $(ID:3fe6536d-49ea-4035-99be-431cc8095534)
         <target>[1]: https://addons.nvda-project.org/legacy?file=instantTranslate</target>
       </segment>
     </unit>
-    <unit id="3fe6536d-49ea-4035-99be-431cc8095534">
+    <unit id="c09ac3ee-08f4-4cca-b980-cd7d0a4900a8">
       <notes>
         <note appliesTo="source">line: 106</note>
       </notes>

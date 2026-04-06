@@ -1,105 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ar">
-  <file id="goldenCursor.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/goldenCursor/goldenCursor.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvda-es/goldenCursor/f892ca8c9ed455868388a89c5e3d70f6fdb572a8/readme.md">
     <skeleton>
-# $(ID:e4b56a75-eb25-467e-be64-e5ee8b74636f)
+# $(ID:52a4ac19-ca17-4695-b5bf-10d858acb691)
 
-* $(ID:fcd3760d-c662-4a28-a229-a94d1a12d7d6)
-* $(ID:917f2773-0676-439b-8799-54deb98912d5)
-* $(ID:c9de5739-a05a-4adc-8199-fd63d30614a0)
+* $(ID:3093c7d0-4e8d-406c-b0e7-f958cda48a04)
+* $(ID:9240d371-81f9-4690-8974-54fe652594ab)
+* $(ID:f514db4c-2974-4494-a7eb-cd6de70030ac)
 
-$(ID:9b2b6444-5829-4197-bb21-a3a1d878bbbc)
+$(ID:ccefc547-c74c-4ef4-b4a5-c06b15f1fa2e)
 
-## $(ID:a8f074b0-320a-4748-88d5-696fd98f75d1)
+## $(ID:d5ee369a-4316-4266-9c83-ee3425c051bc)
 
-* $(ID:41225885-75c6-4c9d-b7a7-64b15bb6b6be)
-* $(ID:655313ca-7941-47f7-b12c-effb7fa3e319)
-* $(ID:0e5a0846-74b6-4f93-92ff-88b2cbf4ceb9)
-* $(ID:24fc349c-c2dc-469f-8789-2f48fd4d385e)
-* $(ID:56e9154e-b8db-466e-8bd1-704b518a6f7d)
-* $(ID:36f93986-4ba0-4032-a4b6-ed03359c36e6)
-* $(ID:4ba7ec1e-12ea-4601-8ac4-d88e0445dbde)
-* $(ID:15d44390-71bc-4916-8420-f092f913aad3)
-* $(ID:c2f094d0-d9de-474d-9dee-8e656c7405d7)
+* $(ID:18c7f046-d9cb-451a-a7b6-2b27c8387f6f)
+* $(ID:6efde9f6-72b1-4058-9f6b-a9b8324f4fe6)
+* $(ID:fc237a6e-0018-4a3b-a053-f6d3fe4f9882)
+* $(ID:3d770469-bd0e-4a1a-b57a-ea05a137c46f)
+* $(ID:2fda7836-cf8a-4872-ad66-bab885b376d0)
+* $(ID:026b23ef-8f9b-436c-8370-0f8303cfb79b)
+* $(ID:30cedd67-95f5-43c6-b0fc-c54cb88bd7e3)
+* $(ID:748c3136-af67-47e2-a687-dd76c6634ab9)
+* $(ID:6d13eed5-5dc4-4177-8d32-7afa6a7485b3)
 
-$(ID:59f238ed-c7d5-4c4b-8925-8bcf39caf328)
+$(ID:7de07adb-fd97-454a-ac7d-4756cf136b66)
 
-## $(ID:9f37373c-77b3-4ab4-8e3d-25880ab74eb9)
+## $(ID:ce690703-4f15-4da8-93d1-c4bb3a703faa)
 
-* $(ID:b5a54e44-b081-4a3a-8e57-e33e7c8e4992)
-* $(ID:42c79b8b-c429-4926-a2da-edee799a55f9)
-* $(ID:ffd58ac8-fc54-4952-9e87-2cf42f35b41e)
-* $(ID:ef57c320-f4a8-4248-9e50-d459df0b84eb)
-* $(ID:fbe42a88-9906-4032-95f9-381beb1b1886)
-* $(ID:c48c2f74-4aae-4722-a0f4-f5199bca5a16)
+* $(ID:d52c28e0-d4bd-48a6-bda9-e3a53df41f5b)
+* $(ID:b503c760-fe56-4071-b033-f9e80a705b45)
+* $(ID:782cd599-411f-40a7-9c57-23bab9a28ac1)
+* $(ID:e503f994-ad22-4a1a-a1f8-3dd057a18fbf)
+* $(ID:7d925e08-0f0b-426a-8740-ab2a3c26c212)
+* $(ID:6d58ab19-2c95-4db2-bfd9-7797bd9dd8a6)
 
-## $(ID:ffa477fa-0da6-4f78-ba3f-a88f9921ad31)
+## $(ID:05c11c5c-5040-4925-a2e7-f20a4346864f)
 
-* $(ID:06e9345d-556e-44fc-b74a-03623a773cbe)
-* $(ID:9153c985-65da-479c-94b1-7f2a3569b815)
+* $(ID:662a2b62-caaf-40cf-a922-2c929bae956f)
+* $(ID:57edf6a2-ca31-42d9-aae2-d58683c80337)
 
-## $(ID:8a663a31-01ef-4755-b84c-264c7e24a9e6)
+## $(ID:ba88fcb9-ce64-4e20-8127-95af7e7c76aa)
 
-* $(ID:33c0084b-ec2e-48c1-b85a-14edb6634f46)
-* $(ID:2451a2ef-f062-4c00-9ef5-d7119d1343b9)
+* $(ID:69c3b370-b75e-423e-837f-534f43985e1f)
+* $(ID:cfb257ec-e30a-4f0b-abc2-09098bd9d5d9)
 
-## $(ID:a8200183-82ee-47e0-8fb3-74d806453269)
+## $(ID:3166ff0a-eeac-4985-b378-f0f5a7ef9fe0)
 
-* $(ID:5362fa7f-b53b-471f-a119-556d4c7195db)
-* $(ID:01067cce-9614-4c4a-95bc-f3d184c5eca7)
+* $(ID:f6d37627-9c66-4a16-a7d3-9cbadcc44a8c)
+* $(ID:36aee7d1-eed8-4cfc-a83d-c7a69a827162)
 
-## $(ID:db92a919-fe20-4245-b416-a392b31ab3cb)
+## $(ID:984bb94f-1d8e-4037-8b5f-5c3f1706b4e8)
 
-* $(ID:324c5621-08b6-4c9d-a80e-62705b539067)
-* $(ID:fd73f3be-9566-4465-947d-a175600111b0)
+* $(ID:86136601-a1ab-45da-9dac-c361993cff8b)
+* $(ID:9bbc8ad2-db2e-4ddd-8400-c55675530f29)
 
-## $(ID:6724a9c4-5436-46e8-a2ef-68c79b244ea9)
+## $(ID:f25f6941-86b6-49a2-83ee-7c6fe794effe)
 
-* $(ID:13530c65-4d84-4635-8fdd-1bbcdef24424)
+* $(ID:2ec8b4ac-c3b9-4571-90b2-c8999cf7c3f6)
 
-## $(ID:69bc898e-c86c-45b9-b71a-a28ba767f049)
+## $(ID:c1e4ae58-ae38-422c-beb1-83593ad2cd80)
 
-* $(ID:17abe10c-e547-4da1-a3ba-52df80a431ad)
+* $(ID:3c2cd775-1b9c-4cfd-8ed7-b9b985cd18fd)
 
-## $(ID:c65c97ba-eb4f-438c-b815-c3f85f94374e)
+## $(ID:0baf7ce9-c685-4bf2-bec8-6b69f10458fc)
 
-* $(ID:8f7d2a6b-1dbd-4bd4-8d30-820157c65fd4)
+* $(ID:94888c90-2a7e-42c1-b2ec-a5a56e46bfbf)
 
-## $(ID:0038d7cc-9f53-4970-9e17-36391618d548)
+## $(ID:be832d5d-681b-48c9-bb2f-006770e0b09d)
 
-* $(ID:0b901509-15b6-4a59-8a76-e2e3af929914)
-* $(ID:26fe813a-0291-4917-ab4d-a4e9b2fa5a3a)
-* $(ID:da0fe932-d7dc-440c-bc4e-b170d6eb029c)
+* $(ID:5c66baae-db16-482f-a8ad-4d5c9d26ff86)
+* $(ID:759eb32c-8620-4077-96d4-3b6d29c91f42)
+* $(ID:f7df3473-d32f-4a83-b2b8-9e6e94e09d1f)
 
-## $(ID:254856eb-9f1f-48ef-9c0a-08c508ee0626)
+## $(ID:90de7cfd-d185-4c88-998f-82dfb0fcb37e)
 
-* $(ID:218fa153-4f62-4519-bb89-701d5d1c8a1c)
-* $(ID:ba033211-f087-4e36-b3bc-b14b548d7fc5)
-* $(ID:bcfa2ce2-5aeb-4245-bef6-808070ee9673)
-* $(ID:833f731f-13cc-4ab7-9724-62eafe535fd5)
-* $(ID:b9536c7b-9147-41a8-a00a-03047bdb7174)
-* $(ID:cd25d8f3-40d2-4800-bce0-9cf539162ace)
-* $(ID:a5a3d900-4d4c-4dc4-b0ea-984a5ff38bff)
-* $(ID:eac7aa87-4c13-4822-8a0a-ce1eeee9335c)
-* $(ID:2617084b-c0b2-4a52-a52e-d593d59a7394)
-* $(ID:c6545e0a-1c01-4f6a-b8fc-9dcb633fd8d3)
-* $(ID:3a80f7ef-b313-40a5-9390-f18272a44692)
-* $(ID:4d8c641e-1831-4cec-8e84-c6832a35192a)
-* $(ID:384815f4-abcf-4381-a393-a6d83b42c84b)
+* $(ID:7171dc6e-e92f-4d84-be0f-a29659401a45)
+* $(ID:c33b4f38-396c-4a75-95c2-507e47651416)
+* $(ID:013cfbf9-4e79-457f-a79d-b6565ea7453e)
+* $(ID:d38d46a1-0356-4e3b-baf1-281b9255fed7)
+* $(ID:0a634d0c-1131-4764-9469-7a68b3e2e702)
+* $(ID:06345f22-3edc-4da4-acc4-a6103d951c69)
+* $(ID:ef14a54e-6bb7-4413-8fa0-38280477c264)
+* $(ID:9fa860ab-0d03-479e-87e3-33d1b5cc2ec6)
+* $(ID:749ba8f5-88ab-4d10-ae17-74f5eb83bee2)
+* $(ID:352bd5ef-0988-47a5-98a7-f229517dff20)
+* $(ID:76947f63-fd3a-404e-b382-2dc8431898ef)
+* $(ID:7c055994-ff93-42db-8b79-35071eb95dd5)
+* $(ID:103e5d9d-f5cf-46a1-96f1-44bf6357002f)
 
-## $(ID:a8d38ec7-07f7-48b7-b135-43ba18184b95)
+## $(ID:ea16854c-ef3a-43bd-a31f-56ea3a3c2294)
 
-* $(ID:72b25cd6-bdd1-4786-be35-908cc39f896b)
+* $(ID:69b45247-0b9b-495e-b405-d6fef452f533)
 
-## $(ID:9e5afa78-f771-4839-a29a-51b11dd59e98)
+## $(ID:80387f01-3b4c-410e-8011-11ab251f33bb)
 
-* $(ID:463ca87d-2ad4-42a5-888f-9e7ce9321446)
+* $(ID:0d19c119-e9b7-42f3-84a5-43263747964b)
 
-$(ID:4ff4542a-307c-4b6c-82b8-08a3d2472fbb)
+$(ID:97f2ee52-32af-470c-bc39-39e07096e213)
 
-$(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
+$(ID:4bcd844c-8144-4c8e-8205-e9ccb5583052)
+
 </skeleton>
-    <unit id="e4b56a75-eb25-467e-be64-e5ee8b74636f">
+    <unit id="52a4ac19-ca17-4695-b5bf-10d858acb691">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -109,7 +110,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>golden cursor#</target>
       </segment>
     </unit>
-    <unit id="fcd3760d-c662-4a28-a229-a94d1a12d7d6">
+    <unit id="3093c7d0-4e8d-406c-b0e7-f958cda48a04">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -119,7 +120,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Author: salah atair, Joseph Lee</target>
       </segment>
     </unit>
-    <unit id="917f2773-0676-439b-8799-54deb98912d5">
+    <unit id="9240d371-81f9-4690-8974-54fe652594ab">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
@@ -129,7 +130,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Download [stable version][1]</target>
       </segment>
     </unit>
-    <unit id="c9de5739-a05a-4adc-8199-fd63d30614a0">
+    <unit id="f514db4c-2974-4494-a7eb-cd6de70030ac">
       <notes>
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
@@ -139,7 +140,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>NVDA compatibility: 2022.4 and beyond</target>
       </segment>
     </unit>
-    <unit id="9b2b6444-5829-4197-bb21-a3a1d878bbbc">
+    <unit id="ccefc547-c74c-4ef4-b4a5-c06b15f1fa2e">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
@@ -148,7 +149,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>This add-on allows you to move the mouse using a keyboard and save mouse positions for applications.</target>
       </segment>
     </unit>
-    <unit id="a8f074b0-320a-4748-88d5-696fd98f75d1">
+    <unit id="d5ee369a-4316-4266-9c83-ee3425c051bc">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: ## </note>
@@ -158,7 +159,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Key commands</target>
       </segment>
     </unit>
-    <unit id="41225885-75c6-4c9d-b7a7-64b15bb6b6be">
+    <unit id="18c7f046-d9cb-451a-a7b6-2b27c8387f6f">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
@@ -168,7 +169,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Control+NVDA+L: view saved mouse positions for an application, if any. You can also assign gestures to these positions from this dialog. When pressing the assigned gesture, a left click will be performed in the saved position.</target>
       </segment>
     </unit>
-    <unit id="655313ca-7941-47f7-b12c-effb7fa3e319">
+    <unit id="6efde9f6-72b1-4058-9f6b-a9b8324f4fe6">
       <notes>
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: * </note>
@@ -178,7 +179,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Shift+NVDA+l: save a tag or a label for the current mouse position in the currently focused application.</target>
       </segment>
     </unit>
-    <unit id="0e5a0846-74b6-4f93-92ff-88b2cbf4ceb9">
+    <unit id="fc237a6e-0018-4a3b-a053-f6d3fe4f9882">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: * </note>
@@ -188,7 +189,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Windows+NVDA+C: change mouse movement unit.</target>
       </segment>
     </unit>
-    <unit id="24fc349c-c2dc-469f-8789-2f48fd4d385e">
+    <unit id="3d770469-bd0e-4a1a-b57a-ea05a137c46f">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
@@ -198,7 +199,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Windows+NVDA+R: toggle mouse restriction.</target>
       </segment>
     </unit>
-    <unit id="56e9154e-b8db-466e-8bd1-704b518a6f7d">
+    <unit id="2fda7836-cf8a-4872-ad66-bab885b376d0">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
@@ -208,7 +209,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Windows+NVDA+S: toggle reporting of mouse position in pixels.</target>
       </segment>
     </unit>
-    <unit id="36f93986-4ba0-4032-a4b6-ed03359c36e6">
+    <unit id="026b23ef-8f9b-436c-8370-0f8303cfb79b">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
@@ -218,7 +219,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Windows+NVDA+J: move mouse to a specific x and y position.</target>
       </segment>
     </unit>
-    <unit id="4ba7ec1e-12ea-4601-8ac4-d88e0445dbde">
+    <unit id="30cedd67-95f5-43c6-b0fc-c54cb88bd7e3">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
@@ -228,7 +229,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Windows+NVDA+P: report mouse position.</target>
       </segment>
     </unit>
-    <unit id="15d44390-71bc-4916-8420-f092f913aad3">
+    <unit id="748c3136-af67-47e2-a687-dd76c6634ab9">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
@@ -238,7 +239,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Windows+NVDA+M: sswitch mouse arrows on or off.</target>
       </segment>
     </unit>
-    <unit id="c2f094d0-d9de-474d-9dee-8e656c7405d7">
+    <unit id="6d13eed5-5dc4-4177-8d32-7afa6a7485b3">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
@@ -248,7 +249,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Windows+NVDA+arrow keys (or just arrow keys if mouse arrows is on): move mouse.</target>
       </segment>
     </unit>
-    <unit id="59f238ed-c7d5-4c4b-8925-8bcf39caf328">
+    <unit id="7de07adb-fd97-454a-ac7d-4756cf136b66">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
@@ -257,7 +258,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Note: these gestures can be reassigned via NVDA's Input Gestures dialog under Golden Cursor category.</target>
       </segment>
     </unit>
-    <unit id="9f37373c-77b3-4ab4-8e3d-25880ab74eb9">
+    <unit id="ce690703-4f15-4da8-93d1-c4bb3a703faa">
       <notes>
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: ## </note>
@@ -267,7 +268,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Notes</target>
       </segment>
     </unit>
-    <unit id="b5a54e44-b081-4a3a-8e57-e33e7c8e4992">
+    <unit id="d52c28e0-d4bd-48a6-bda9-e3a53df41f5b">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: * </note>
@@ -277,7 +278,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>When sharing positions (tags), each party should use same display resolution.</target>
       </segment>
     </unit>
-    <unit id="42c79b8b-c429-4926-a2da-edee799a55f9">
+    <unit id="b503c760-fe56-4071-b033-f9e80a705b45">
       <notes>
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: * </note>
@@ -287,7 +288,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>For maximum compatibility, you should maximize windows by pressing Windows+Up arrow.</target>
       </segment>
     </unit>
-    <unit id="ffd58ac8-fc54-4952-9e87-2cf42f35b41e">
+    <unit id="782cd599-411f-40a7-9c57-23bab9a28ac1">
       <notes>
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: * </note>
@@ -297,7 +298,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>When sharing positions, existing position labels should be renamed.</target>
       </segment>
     </unit>
-    <unit id="ef57c320-f4a8-4248-9e50-d459df0b84eb">
+    <unit id="e503f994-ad22-4a1a-a1f8-3dd057a18fbf">
       <notes>
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
@@ -307,7 +308,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 1.x and 2.x mouse position formats are incompatible.</target>
       </segment>
     </unit>
-    <unit id="fbe42a88-9906-4032-95f9-381beb1b1886">
+    <unit id="7d925e08-0f0b-426a-8740-ab2a3c26c212">
       <notes>
         <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
@@ -317,7 +318,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>To perform functions that require use of arrow keys, turn off mouse arrows first.</target>
       </segment>
     </unit>
-    <unit id="c48c2f74-4aae-4722-a0f4-f5199bca5a16">
+    <unit id="6d58ab19-2c95-4db2-bfd9-7797bd9dd8a6">
       <notes>
         <note appliesTo="source">line: 31</note>
         <note appliesTo="source">prefix: * </note>
@@ -327,7 +328,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>When deleting saved positions, if there are no saved positions left, positions for the application will be cleared.</target>
       </segment>
     </unit>
-    <unit id="ffa477fa-0da6-4f78-ba3f-a88f9921ad31">
+    <unit id="05c11c5c-5040-4925-a2e7-f20a4346864f">
       <notes>
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: ## </note>
@@ -337,7 +338,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 6.2</target>
       </segment>
     </unit>
-    <unit id="06e9345d-556e-44fc-b74a-03623a773cbe">
+    <unit id="662a2b62-caaf-40cf-a922-2c929bae956f">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
@@ -347,7 +348,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Requires NVDA 2022.4 or later.</target>
       </segment>
     </unit>
-    <unit id="9153c985-65da-479c-94b1-7f2a3569b815">
+    <unit id="57edf6a2-ca31-42d9-aae2-d58683c80337">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
@@ -357,7 +358,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Compatible with NVDA 2023.1.</target>
       </segment>
     </unit>
-    <unit id="8a663a31-01ef-4755-b84c-264c7e24a9e6">
+    <unit id="ba88fcb9-ce64-4e20-8127-95af7e7c76aa">
       <notes>
         <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: ## </note>
@@ -367,7 +368,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 6.1</target>
       </segment>
     </unit>
-    <unit id="33c0084b-ec2e-48c1-b85a-14edb6634f46">
+    <unit id="69c3b370-b75e-423e-837f-534f43985e1f">
       <notes>
         <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: * </note>
@@ -377,7 +378,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Requires NVDA 2021.3 or later.</target>
       </segment>
     </unit>
-    <unit id="2451a2ef-f062-4c00-9ef5-d7119d1343b9">
+    <unit id="cfb257ec-e30a-4f0b-abc2-09098bd9d5d9">
       <notes>
         <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: * </note>
@@ -387,7 +388,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Now, you can assign shortcuts for saved positions from the positions list. When pressing a shortcut, a left click will be performed for the position.</target>
       </segment>
     </unit>
-    <unit id="a8200183-82ee-47e0-8fb3-74d806453269">
+    <unit id="3166ff0a-eeac-4985-b378-f0f5a7ef9fe0">
       <notes>
         <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: ## </note>
@@ -397,7 +398,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 5.0</target>
       </segment>
     </unit>
-    <unit id="5362fa7f-b53b-471f-a119-556d4c7195db">
+    <unit id="f6d37627-9c66-4a16-a7d3-9cbadcc44a8c">
       <notes>
         <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix: * </note>
@@ -407,7 +408,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Modernized add-on source code to make it compatible with NVDA 2021.1.</target>
       </segment>
     </unit>
-    <unit id="01067cce-9614-4c4a-95bc-f3d184c5eca7">
+    <unit id="36aee7d1-eed8-4cfc-a83d-c7a69a827162">
       <notes>
         <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: * </note>
@@ -417,7 +418,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Resolved many coding style issues and potential bugs with Flake8.</target>
       </segment>
     </unit>
-    <unit id="db92a919-fe20-4245-b416-a392b31ab3cb">
+    <unit id="984bb94f-1d8e-4037-8b5f-5c3f1706b4e8">
       <notes>
         <note appliesTo="source">line: 48</note>
         <note appliesTo="source">prefix: ## </note>
@@ -427,7 +428,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 4.0</target>
       </segment>
     </unit>
-    <unit id="324c5621-08b6-4c9d-a80e-62705b539067">
+    <unit id="86136601-a1ab-45da-9dac-c361993cff8b">
       <notes>
         <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: * </note>
@@ -437,7 +438,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Requires NVDA 2019.3 or later.</target>
       </segment>
     </unit>
-    <unit id="fd73f3be-9566-4465-947d-a175600111b0">
+    <unit id="9bbc8ad2-db2e-4ddd-8400-c55675530f29">
       <notes>
         <note appliesTo="source">line: 51</note>
         <note appliesTo="source">prefix: * </note>
@@ -447,7 +448,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Golden Cursor settings dialog has been replaced by Golden Cursor settings panel.</target>
       </segment>
     </unit>
-    <unit id="6724a9c4-5436-46e8-a2ef-68c79b244ea9">
+    <unit id="f25f6941-86b6-49a2-83ee-7c6fe794effe">
       <notes>
         <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix: ## </note>
@@ -457,7 +458,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 3.3</target>
       </segment>
     </unit>
-    <unit id="13530c65-4d84-4635-8fdd-1bbcdef24424">
+    <unit id="2ec8b4ac-c3b9-4571-90b2-c8999cf7c3f6">
       <notes>
         <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: * </note>
@@ -467,7 +468,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Internal changes to support future NVDA releases.</target>
       </segment>
     </unit>
-    <unit id="69bc898e-c86c-45b9-b71a-a28ba767f049">
+    <unit id="c1e4ae58-ae38-422c-beb1-83593ad2cd80">
       <notes>
         <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: ## </note>
@@ -477,7 +478,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 3.2</target>
       </segment>
     </unit>
-    <unit id="17abe10c-e547-4da1-a3ba-52df80a431ad">
+    <unit id="3c2cd775-1b9c-4cfd-8ed7-b9b985cd18fd">
       <notes>
         <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
@@ -487,7 +488,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Add-on is compatible with NVDA 2018.3 (wxPython 4).</target>
       </segment>
     </unit>
-    <unit id="c65c97ba-eb4f-438c-b815-c3f85f94374e">
+    <unit id="0baf7ce9-c685-4bf2-bec8-6b69f10458fc">
       <notes>
         <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: ## </note>
@@ -497,7 +498,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 3.0</target>
       </segment>
     </unit>
-    <unit id="8f7d2a6b-1dbd-4bd4-8d30-820157c65fd4">
+    <unit id="94888c90-2a7e-42c1-b2ec-a5a56e46bfbf">
       <notes>
         <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
@@ -507,7 +508,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>If using NVDA 2018.2, add-on settings will be found in new multi-category settings screen under "Golden Cursor" category.</target>
       </segment>
     </unit>
-    <unit id="0038d7cc-9f53-4970-9e17-36391618d548">
+    <unit id="be832d5d-681b-48c9-bb2f-006770e0b09d">
       <notes>
         <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: ## </note>
@@ -517,7 +518,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 2.1</target>
       </segment>
     </unit>
-    <unit id="0b901509-15b6-4a59-8a76-e2e3af929914">
+    <unit id="5c66baae-db16-482f-a8ad-4d5c9d26ff86">
       <notes>
         <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
@@ -527,7 +528,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Fixed unicode decode error when trying to delete tag name.</target>
       </segment>
     </unit>
-    <unit id="26fe813a-0291-4917-ab4d-a4e9b2fa5a3a">
+    <unit id="759eb32c-8620-4077-96d4-3b6d29c91f42">
       <notes>
         <note appliesTo="source">line: 68</note>
         <note appliesTo="source">prefix: * </note>
@@ -537,7 +538,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Prevent Multiple Instances When Opening various add-on Dialogs.</target>
       </segment>
     </unit>
-    <unit id="da0fe932-d7dc-440c-bc4e-b170d6eb029c">
+    <unit id="f7df3473-d32f-4a83-b2b8-9e6e94e09d1f">
       <notes>
         <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix: * </note>
@@ -547,7 +548,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Improved appearance of mouse positions list and jump to position dialogs.</target>
       </segment>
     </unit>
-    <unit id="254856eb-9f1f-48ef-9c0a-08c508ee0626">
+    <unit id="90de7cfd-d185-4c88-998f-82dfb0fcb37e">
       <notes>
         <note appliesTo="source">line: 71</note>
         <note appliesTo="source">prefix: ## </note>
@@ -557,7 +558,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 2.0</target>
       </segment>
     </unit>
-    <unit id="218fa153-4f62-4519-bb89-701d5d1c8a1c">
+    <unit id="7171dc6e-e92f-4d84-be0f-a29659401a45">
       <notes>
         <note appliesTo="source">line: 73</note>
         <note appliesTo="source">prefix: * </note>
@@ -567,7 +568,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Requires NVDA 2017.3 and later.</target>
       </segment>
     </unit>
-    <unit id="ba033211-f087-4e36-b3bc-b14b548d7fc5">
+    <unit id="c33b4f38-396c-4a75-95c2-507e47651416">
       <notes>
         <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix: * </note>
@@ -577,7 +578,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Position file format is incompatible with 1.x versions. If 1.x position format is found, old positions will be migrated to the new format during installation.</target>
       </segment>
     </unit>
-    <unit id="bcfa2ce2-5aeb-4245-bef6-808070ee9673">
+    <unit id="013cfbf9-4e79-457f-a79d-b6565ea7453e">
       <notes>
         <note appliesTo="source">line: 75</note>
         <note appliesTo="source">prefix: * </note>
@@ -587,7 +588,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Added a new Golden Cursor settings dialog in NVDA's Preferences menu to configure mouse movement unit and announcement of mouse positions as mouse moves.</target>
       </segment>
     </unit>
-    <unit id="833f731f-13cc-4ab7-9724-62eafe535fd5">
+    <unit id="d38d46a1-0356-4e3b-baf1-281b9255fed7">
       <notes>
         <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
@@ -597,7 +598,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Various messages from this add-on has changed.</target>
       </segment>
     </unit>
-    <unit id="b9536c7b-9147-41a8-a00a-03047bdb7174">
+    <unit id="0a634d0c-1131-4764-9469-7a68b3e2e702">
       <notes>
         <note appliesTo="source">line: 77</note>
         <note appliesTo="source">prefix: * </note>
@@ -607,7 +608,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>When toggling various settings, toggle tone will no longer be heard.</target>
       </segment>
     </unit>
-    <unit id="cd25d8f3-40d2-4800-bce0-9cf539162ace">
+    <unit id="06345f22-3edc-4da4-acc4-a6103d951c69">
       <notes>
         <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix: * </note>
@@ -617,7 +618,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>You can now enter mouse arrows mode where you can move the mouse by pressing just arrow keys.</target>
       </segment>
     </unit>
-    <unit id="a5a3d900-4d4c-4dc4-b0ea-984a5ff38bff">
+    <unit id="ef14a54e-6bb7-4413-8fa0-38280477c264">
       <notes>
         <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix: * </note>
@@ -627,7 +628,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Changes to positions list dialog, including new name (now called Mouse Positions) and layout, displaying mouse coordinates for a label, and showing the name of the active app as part of the title.</target>
       </segment>
     </unit>
-    <unit id="eac7aa87-4c13-4822-8a0a-ce1eeee9335c">
+    <unit id="9fa860ab-0d03-479e-87e3-33d1b5cc2ec6">
       <notes>
         <note appliesTo="source">line: 80</note>
         <note appliesTo="source">prefix: * </note>
@@ -637,7 +638,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>From Mouse Positions dialog, pressing Enter on a saved label will move the mouse to the saved location.</target>
       </segment>
     </unit>
-    <unit id="2617084b-c0b2-4a52-a52e-d593d59a7394">
+    <unit id="749ba8f5-88ab-4d10-ae17-74f5eb83bee2">
       <notes>
         <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix: * </note>
@@ -647,7 +648,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>When renaming a mouse position, an error dialog will be shown if a label with the same name as the new name exists.</target>
       </segment>
     </unit>
-    <unit id="c6545e0a-1c01-4f6a-b8fc-9dcb633fd8d3">
+    <unit id="352bd5ef-0988-47a5-98a7-f229517dff20">
       <notes>
         <note appliesTo="source">line: 82</note>
         <note appliesTo="source">prefix: * </note>
@@ -657,7 +658,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>When deleting or clearing mouse positions, you must now answer Yes before positions are deleted and/or cleared.</target>
       </segment>
     </unit>
-    <unit id="3a80f7ef-b313-40a5-9390-f18272a44692">
+    <unit id="76947f63-fd3a-404e-b382-2dc8431898ef">
       <notes>
         <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix: * </note>
@@ -667,7 +668,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Changes to mouse jump feature, including a new name (now called New mouse position) and ability to enter X and Y coordinates separately or by using up or down arrow keys.</target>
       </segment>
     </unit>
-    <unit id="4d8c641e-1831-4cec-8e84-c6832a35192a">
+    <unit id="7c055994-ff93-42db-8b79-35071eb95dd5">
       <notes>
         <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix: * </note>
@@ -677,7 +678,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>The dialog shown when saving the current mouse position now shows coordinates for current mouse location.</target>
       </segment>
     </unit>
-    <unit id="384815f4-abcf-4381-a393-a6d83b42c84b">
+    <unit id="103e5d9d-f5cf-46a1-96f1-44bf6357002f">
       <notes>
         <note appliesTo="source">line: 85</note>
         <note appliesTo="source">prefix: * </note>
@@ -687,7 +688,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>When saving positions, resolved an issue where NvDA may play error tones if the positions folder does not exist.</target>
       </segment>
     </unit>
-    <unit id="a8d38ec7-07f7-48b7-b135-43ba18184b95">
+    <unit id="ea16854c-ef3a-43bd-a31f-56ea3a3c2294">
       <notes>
         <note appliesTo="source">line: 87</note>
         <note appliesTo="source">prefix: ## </note>
@@ -697,7 +698,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 1.4</target>
       </segment>
     </unit>
-    <unit id="72b25cd6-bdd1-4786-be35-908cc39f896b">
+    <unit id="69b45247-0b9b-495e-b405-d6fef452f533">
       <notes>
         <note appliesTo="source">line: 89</note>
         <note appliesTo="source">prefix: * </note>
@@ -707,7 +708,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Removed win32api dependency to make it compatible with past and future versions of NVDA.</target>
       </segment>
     </unit>
-    <unit id="9e5afa78-f771-4839-a29a-51b11dd59e98">
+    <unit id="80387f01-3b4c-410e-8011-11ab251f33bb">
       <notes>
         <note appliesTo="source">line: 91</note>
         <note appliesTo="source">prefix: ## </note>
@@ -717,7 +718,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Version 1.0</target>
       </segment>
     </unit>
-    <unit id="463ca87d-2ad4-42a5-888f-9e7ce9321446">
+    <unit id="0d19c119-e9b7-42f3-84a5-43263747964b">
       <notes>
         <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix: * </note>
@@ -727,7 +728,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>Initial release.</target>
       </segment>
     </unit>
-    <unit id="4ff4542a-307c-4b6c-82b8-08a3d2472fbb">
+    <unit id="97f2ee52-32af-470c-bc39-39e07096e213">
       <notes>
         <note appliesTo="source">line: 95</note>
       </notes>
@@ -736,7 +737,7 @@ $(ID:395f75c1-07e4-4989-b546-3dd96e59eadd)
         <target>[1]: https://addons.nvda-project.org/files/get.php?file=gc</target>
       </segment>
     </unit>
-    <unit id="395f75c1-07e4-4989-b546-3dd96e59eadd">
+    <unit id="4bcd844c-8144-4c8e-8205-e9ccb5583052">
       <notes>
         <note appliesTo="source">line: 97</note>
       </notes>

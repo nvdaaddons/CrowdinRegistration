@@ -1,82 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="ga">
-  <file id="eMule.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/eMule/eMule.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/emule/a54c16206623f7a6a6318c5954b2f6ba47323623/readme.md">
     <skeleton>
-# $(ID:4c51f626-c7bf-43f7-85e5-519756d5fa13)
+# $(ID:7e37dada-bc78-41d7-835f-6d839c50143f)
 
-*	$(ID:f0498ef6-d876-4093-b133-23e55e2f14d1)
+*	$(ID:714af8fb-7160-4d3e-b602-77da7daa1f5d)
 
-$(ID:007d06b8-0da3-4842-822e-a1e4026f803c)
-$(ID:9383c4fc-978a-4c1d-8a54-7f57bb2f5a3c)
+$(ID:ddb8bcbf-95bd-45a4-b921-6a43808ae1fd)
+$(ID:0ea926b4-fee2-44ac-a9e4-91620eef89b5)
 
-$(ID:62281a41-95d8-43e6-9057-9d5fb9cb7eeb)
+$(ID:9c800521-114d-4aa8-8082-84200629dd88)
 
-$(ID:ff4f241e-f864-4fa4-a112-69985480a00f)
+$(ID:0c3936dd-9dde-4760-ac83-6b7f8ca447ab)
 
-## $(ID:e7f4bc49-5fc3-4009-b301-9fdb0eb427d4)
+## $(ID:fb89e68c-7bb1-47ec-8a2f-69c5d48c505d)
 
-*	$(ID:79049133-756b-4ba3-8e0b-baa46e231377)
-*	$(ID:2fff1028-ec18-43b1-bbc6-7102161d1daa)
-*	$(ID:fff9c377-372a-4e28-9b86-a95e52aa3459)
-*	$(ID:082fd7e3-b6b1-4c44-a2af-21a8def963a5)
-*	$(ID:1102197f-f50c-42d8-bef0-ddf1722181c0)
-*	$(ID:c1d10092-c2d9-4f6d-b74e-d82e433ddf36)
-*	$(ID:d7ee4aea-d258-4905-bac9-6f9c7f849334)
-*	$(ID:87de6bf0-c516-454a-9de2-22fd0479b224)
-*	$(ID:9c29d60e-0f65-4cb0-9b1f-3d7c23c63064)
-*	$(ID:8e5b2f5f-de2b-4c46-922f-6f64610c8992)
-*	$(ID:7d460113-3d77-44ab-8df5-a85f1b203402)
-*	$(ID:f535f08c-a8b2-43a7-a567-b2d1189381d8)
-* $(ID:40f49bcf-6dc5-429b-806b-5ce98fa539e3)
+*	$(ID:34a1a36f-bc40-4529-af33-e7cbc5a29b0c)
+*	$(ID:17970a34-ccb2-47df-b3c6-6484e671c26b)
+*	$(ID:937e9cb7-d98b-4f3f-ab24-0e567020792f)
+*	$(ID:d45c8306-cbb9-44d0-9a18-9e422000ec43)
+*	$(ID:ae141efd-7b85-4bdd-bc71-8d4af7c39a5d)
+*	$(ID:3e527631-02fb-49ce-88ec-3466216e10df)
+*	$(ID:3f0c345d-f764-4faa-9887-797784e237d3)
+*	$(ID:29b86ef3-acfb-4aa8-9573-0919ec28e01b)
+*	$(ID:4e71ef96-5fb7-4a50-a292-5d2e6c35b0f6)
+*	$(ID:5a2ccb6d-ee66-4e0c-b7ff-f4f4d97d34e2)
+*	$(ID:7455768c-aaa4-4264-80cf-e85fed729ddc)
+*	$(ID:81f13deb-de9e-4db2-95ea-84f8fa38d43f)
 
-## $(ID:83cd940b-da46-4420-b922-43f5fde022ad)
+## $(ID:d58f9610-6b6d-4592-81c7-99205628babc)
 
-$(ID:dbab93f2-289f-4683-b5e3-202a861787e0)
-$(ID:dcddf9d4-2d79-495c-b682-9dd026c8c0ea)
+$(ID:69e02b72-16a1-4b73-b7e9-5d534032888a)
+$(ID:9ac1c14e-62ab-412d-afdc-df37545965f2)
 
-*	$(ID:f8bf7705-a449-4901-a905-76cec330e0a9)
-*	$(ID:3243ba93-7ed0-4e99-9386-f42af48a122e)
-*	$(ID:70c69f68-fff1-4cf8-8ada-0062be486a48)
+*	$(ID:bfaae317-32df-44cf-863c-7de4b246337b)
+*	$(ID:1108673e-0494-4d2d-84a3-112105ea8b7c)
+*	$(ID:7839f011-abb5-4afb-b70f-1ee65d48823c)
 
+## $(ID:c6f4f0ec-2f5f-4430-a863-5731f509aa0b)
+* $(ID:b340889d-3735-4ec6-b762-c07dd9c95e02)
 
-## $(ID:2843ddaa-9d5e-4c70-92dd-b9c9bc3e3c94)
-* $(ID:7a4ed7e1-b2ea-4025-8281-691755379311)
-* $(ID:8d47b523-ebed-4fd6-9035-06dbb04ac399)
+## $(ID:cf4a7cbc-5c7a-4852-8292-96feb4a4a0e4)
+*	$(ID:4adc7c75-cee6-43d1-b091-cf9a43738c87)
 
-## $(ID:e6f5b5e2-dd58-4703-a375-e2cf723488e0)
-* $(ID:e1677d7d-812d-4d15-9972-30a510cc0ae3)
+## $(ID:76076a4a-8d67-46c0-889e-ea37c60ed7d2)
+*	$(ID:7a94474b-7d6f-4720-8742-96f8dfddf553)
 
-## $(ID:34d74f72-e152-4b32-938a-3832e9f94249)
-*	$(ID:d81a8db8-3a96-42db-8ece-0056b31dd5de)
+## $(ID:7c445b11-352f-42f6-a946-76777ad218ea)
+*	$(ID:5396dde0-a47e-4e67-8978-e87c5863a087)
 
-## $(ID:594b135d-9954-48e2-9715-b6456cc7d14c)
-*	$(ID:c87502bc-2644-4610-92dc-0fc61ada11dc)
+## $(ID:c0600b53-d852-48c0-a070-8b858c15322b)
+*	 $(ID:bb195593-c437-4905-ad86-7560ab652259)
 
-## $(ID:07f8794b-55a1-4e4b-88e6-df4507d28ace)
-*	$(ID:951a4cab-458e-4f9a-a699-a98372bedead)
+## $(ID:31717009-db0b-48a4-9caa-24e6efd5da8c)
+*	 $(ID:925a1da4-a670-4dac-9316-1f49512d5e97)
 
-## $(ID:403d1fcf-e2c9-4bf5-adfa-bb13f1b72169)
-*	 $(ID:bb638a1e-a2ac-4ea3-b9f6-f3cd5ee22432)
+## $(ID:ab39a97f-41c6-4784-99d2-d0837179294e)
+*	 $(ID:12142aa6-ecee-4737-9b82-4750fac577d5)
+*	 $(ID:44e9ad50-2474-4163-b81e-e0886e10bdd5)
+*	 $(ID:15bd3190-fb59-429d-b589-d515f9985282)
+*	 $(ID:df2fa334-0210-4610-95c2-1b12989ad017)
 
-## $(ID:c6591051-3103-42b5-b0e1-56cdcf743587)
-*	 $(ID:83f64583-4eb5-4ace-a0cf-9f42adf95683)
+## $(ID:e9aa6b17-82e8-45da-a4a8-b057cf25b7b8)
+*	 $(ID:9b718d73-d69b-4d60-bf90-1d68db7bf81b)
+*	 $(ID:8182eb2e-ff8a-4117-8cc1-e6aeb37ef60b)
 
-## $(ID:1170f370-a8de-4291-886b-4cc1eed254d7)
-*	 $(ID:471588d1-4324-4f4f-9d2e-8624d313ab69)
-*	 $(ID:6bb73457-a4e4-4f3d-9d8a-5899682d54f1)
-*	 $(ID:cf071824-574d-47de-ad0d-9a8392316010)
-*	 $(ID:ee2ceb33-16d6-4554-89f1-311a4b33369f)
+## $(ID:99077cab-9230-4f2a-8dab-3c965fbaa632)
+*	 $(ID:3e06c588-f771-40dc-bff3-f8d622fbccd3)
 
-## $(ID:9c5b48c6-91a0-4203-b578-3cfa233c0e24)
-*	 $(ID:dbab1f86-ba7b-4dc2-a131-e876ca3a0b42)
-*	 $(ID:5764edc5-94d5-4441-92f6-c91830353e14)
+$(ID:c0520f03-cc2f-4c0e-9387-7b6e043460a9)
 
-## $(ID:752510fc-99e5-4806-9ed9-8670efca4c2c)
-*	 $(ID:6af26a6a-de87-4430-b7bd-a600bfd8428f)
-
-$(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
 </skeleton>
-    <unit id="4c51f626-c7bf-43f7-85e5-519756d5fa13">
+    <unit id="7e37dada-bc78-41d7-835f-6d839c50143f">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -86,7 +81,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>eMule #</target>
       </segment>
     </unit>
-    <unit id="f0498ef6-d876-4093-b133-23e55e2f14d1">
+    <unit id="714af8fb-7160-4d3e-b602-77da7daa1f5d">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: *	</note>
@@ -96,7 +91,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Authors: Noelia, Chris, Alberto.</target>
       </segment>
     </unit>
-    <unit id="007d06b8-0da3-4842-822e-a1e4026f803c">
+    <unit id="ddb8bcbf-95bd-45a4-b921-6a43808ae1fd">
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
@@ -105,7 +100,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>This add-on helps to improve accessibility of eMule with nVDA.</target>
       </segment>
     </unit>
-    <unit id="9383c4fc-978a-4c1d-8a54-7f57bb2f5a3c">
+    <unit id="0ea926b4-fee2-44ac-a9e4-91620eef89b5">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
@@ -114,7 +109,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>It also provides additional keyboard commands for moving in different windows and gives Useful information about eMule.</target>
       </segment>
     </unit>
-    <unit id="62281a41-95d8-43e6-9057-9d5fb9cb7eeb">
+    <unit id="9c800521-114d-4aa8-8082-84200629dd88">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
@@ -123,16 +118,16 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>It's based on the eMuleNVDASupport add-on, developed by the same author. You should uninstall that old add-on to use this one, since both have common keystrokes and features.</target>
       </segment>
     </unit>
-    <unit id="ff4f241e-f864-4fa4-a112-69985480a00f">
+    <unit id="0c3936dd-9dde-4760-ac83-6b7f8ca447ab">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
       <segment state="initial">
-        <source>Tested on [eMule][1] 0.50a and 70b.</source>
-        <target>Tested on [eMule][1] 0.50a and 70b.</target>
+        <source>Tested on [eMule][1] 0.50a.</source>
+        <target>Tested on [eMule][1] 0.50a.</target>
       </segment>
     </unit>
-    <unit id="e7f4bc49-5fc3-4009-b301-9fdb0eb427d4">
+    <unit id="fb89e68c-7bb1-47ec-8a2f-69c5d48c505d">
       <notes>
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: ## </note>
@@ -142,7 +137,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Key Commands: ##</target>
       </segment>
     </unit>
-    <unit id="79049133-756b-4ba3-8e0b-baa46e231377">
+    <unit id="34a1a36f-bc40-4529-af33-e7cbc5a29b0c">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: *	</note>
@@ -152,7 +147,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+h: Moves focus and mouse to main toolbar.</target>
       </segment>
     </unit>
-    <unit id="2fff1028-ec18-43b1-bbc6-7102161d1daa">
+    <unit id="17970a34-ccb2-47df-b3c6-6484e671c26b">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: *	</note>
@@ -162,7 +157,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+t: Reads the current window.</target>
       </segment>
     </unit>
-    <unit id="fff9c377-372a-4e28-9b86-a95e52aa3459">
+    <unit id="937e9cb7-d98b-4f3f-ab24-0e567020792f">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: *	</note>
@@ -172,7 +167,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+n: Moves the focus to the Name field in the Find window.</target>
       </segment>
     </unit>
-    <unit id="082fd7e3-b6b1-4c44-a2af-21a8def963a5">
+    <unit id="d45c8306-cbb9-44d0-9a18-9e422000ec43">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: *	</note>
@@ -182,7 +177,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+p: In the Search window, moves focus and mouse to the list of search parameters, or edit field options.</target>
       </segment>
     </unit>
-    <unit id="1102197f-f50c-42d8-bef0-ddf1722181c0">
+    <unit id="ae141efd-7b85-4bdd-bc71-8d4af7c39a5d">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: *	</note>
@@ -192,7 +187,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+b: Move the focus to the list in the current window. For example usable in the Search window, downloads in Transfer window, etc.</target>
       </segment>
     </unit>
-    <unit id="c1d10092-c2d9-4f6d-b74e-d82e433ddf36">
+    <unit id="3e527631-02fb-49ce-88ec-3466216e10df">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: *	</note>
@@ -202,7 +197,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+o: Move the focus to read-only edit boxes in the current window. For example the IRC received messages, available Servers, etc.</target>
       </segment>
     </unit>
-    <unit id="d7ee4aea-d258-4905-bac9-6f9c7f849334">
+    <unit id="3f0c345d-f764-4faa-9887-797784e237d3">
       <notes>
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: *	</note>
@@ -212,7 +207,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+NVDA+f: If the caret is located in a read only edit box, opens a find dialog to use the commands for searching text available in NVDA.</target>
       </segment>
     </unit>
-    <unit id="87de6bf0-c516-454a-9de2-22fd0479b224">
+    <unit id="29b86ef3-acfb-4aa8-9573-0919ec28e01b">
       <notes>
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: *	</note>
@@ -222,7 +217,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+l: Moves the navigator object and mouse to the headers of the current list.</target>
       </segment>
     </unit>
-    <unit id="9c29d60e-0f65-4cb0-9b1f-3d7c23c63064">
+    <unit id="4e71ef96-5fb7-4a50-a292-5d2e6c35b0f6">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: *	</note>
@@ -232,7 +227,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+q: Reads the first object in the status bar; provides information about recent activity.</target>
       </segment>
     </unit>
-    <unit id="8e5b2f5f-de2b-4c46-922f-6f64610c8992">
+    <unit id="5a2ccb6d-ee66-4e0c-b7ff-f4f4d97d34e2">
       <notes>
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: *	</note>
@@ -242,7 +237,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+w: Reads the second object of the status bar; contains information about files and users on the current server.</target>
       </segment>
     </unit>
-    <unit id="7d460113-3d77-44ab-8df5-a85f1b203402">
+    <unit id="7455768c-aaa4-4264-80cf-e85fed729ddc">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: *	</note>
@@ -252,7 +247,7 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+e: Reads the third object of the status bar; useful to know the UpLoad/DownLoad speed.</target>
       </segment>
     </unit>
-    <unit id="f535f08c-a8b2-43a7-a567-b2d1189381d8">
+    <unit id="81f13deb-de9e-4db2-95ea-84f8fa38d43f">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: *	</note>
@@ -262,19 +257,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.</target>
       </segment>
     </unit>
-    <unit id="40f49bcf-6dc5-429b-806b-5ce98fa539e3">
+    <unit id="d58f9610-6b6d-4592-81c7-99205628babc">
       <notes>
-        <note appliesTo="source">line: 27</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Not assigned: Toggles the usage of an alternative approach to read sliders.</source>
-        <target>Not assigned: Toggles the usage of an alternative approach to read sliders.</target>
-      </segment>
-    </unit>
-    <unit id="83cd940b-da46-4420-b922-43f5fde022ad">
-      <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -282,27 +267,27 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Managing columns. ##</target>
       </segment>
     </unit>
-    <unit id="dbab93f2-289f-4683-b5e3-202a861787e0">
+    <unit id="69e02b72-16a1-4b73-b7e9-5d534032888a">
       <notes>
-        <note appliesTo="source">line: 31</note>
+        <note appliesTo="source">line: 30</note>
       </notes>
       <segment state="initial">
         <source>When within a list, you can move the caret between the rows and columns using alt+control+ Arrows.</source>
         <target>When within a list, you can move the caret between the rows and columns using alt+control+ Arrows.</target>
       </segment>
     </unit>
-    <unit id="dcddf9d4-2d79-495c-b682-9dd026c8c0ea">
+    <unit id="9ac1c14e-62ab-412d-afdc-df37545965f2">
       <notes>
-        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">line: 31</note>
       </notes>
       <segment state="initial">
         <source>In this Add-on the following key commands are also available:</source>
         <target>In this Add-on the following key commands are also available:</target>
       </segment>
     </unit>
-    <unit id="f8bf7705-a449-4901-a905-76cec330e0a9">
+    <unit id="bfaae317-32df-44cf-863c-7de4b246337b">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -310,9 +295,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>nvda+control+1-0: Reads the first 10 columns.</target>
       </segment>
     </unit>
-    <unit id="3243ba93-7ed0-4e99-9386-f42af48a122e">
+    <unit id="1108673e-0494-4d2d-84a3-112105ea8b7c">
       <notes>
-        <note appliesTo="source">line: 35</note>
+        <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -320,9 +305,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>nvda+shift+1-0: Reads columns 11 to 20.</target>
       </segment>
     </unit>
-    <unit id="70c69f68-fff1-4cf8-8ada-0062be486a48">
+    <unit id="7839f011-abb5-4afb-b70f-1ee65d48823c">
       <notes>
-        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -330,39 +315,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>nvda+shift+C: Copies the contents of the last read column to the clipboard.</target>
       </segment>
     </unit>
-    <unit id="2843ddaa-9d5e-4c70-92dd-b9c9bc3e3c94">
+    <unit id="c6f4f0ec-2f5f-4430-a863-5731f509aa0b">
       <notes>
-        <note appliesTo="source">line: 39</note>
-        <note appliesTo="source">prefix: ## </note>
-      </notes>
-      <segment state="initial">
-        <source>Changes for 20.0.0</source>
-        <target>Changes for 20.0.0</target>
-      </segment>
-    </unit>
-    <unit id="7a4ed7e1-b2ea-4025-8281-691755379311">
-      <notes>
-        <note appliesTo="source">line: 40</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Some edit boxes and sliders are labelled, thanks to the [labelAutofinderCore project](https://github.com/ABuffEr/labelAutofinderCore) developed by Alberto Buffolino, one of the authors of this add-on.</source>
-        <target>Some edit boxes and sliders are labelled, thanks to the [labelAutofinderCore project](https://github.com/ABuffEr/labelAutofinderCore) developed by Alberto Buffolino, one of the authors of this add-on.</target>
-      </segment>
-    </unit>
-    <unit id="8d47b523-ebed-4fd6-9035-06dbb04ac399">
-      <notes>
-        <note appliesTo="source">line: 41</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>A command (not assigned) has been added to toggle the usage of an alternative approach to read sliders (off by default).</source>
-        <target>A command (not assigned) has been added to toggle the usage of an alternative approach to read sliders (off by default).</target>
-      </segment>
-    </unit>
-    <unit id="e6f5b5e2-dd58-4703-a375-e2cf723488e0">
-      <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -370,9 +325,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 7.0</target>
       </segment>
     </unit>
-    <unit id="e1677d7d-812d-4d15-9972-30a510cc0ae3">
+    <unit id="b340889d-3735-4ec6-b762-c07dd9c95e02">
       <notes>
-        <note appliesTo="source">line: 44</note>
+        <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -380,9 +335,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Compatible with NVDA 2023.1.</target>
       </segment>
     </unit>
-    <unit id="34d74f72-e152-4b32-938a-3832e9f94249">
+    <unit id="cf4a7cbc-5c7a-4852-8292-96feb4a4a0e4">
       <notes>
-        <note appliesTo="source">line: 46</note>
+        <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -390,9 +345,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 6.0</target>
       </segment>
     </unit>
-    <unit id="d81a8db8-3a96-42db-8ece-0056b31dd5de">
+    <unit id="4adc7c75-cee6-43d1-b091-cf9a43738c87">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -400,9 +355,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Requires NVDA 2022.1 or later.</target>
       </segment>
     </unit>
-    <unit id="594b135d-9954-48e2-9715-b6456cc7d14c">
+    <unit id="76076a4a-8d67-46c0-889e-ea37c60ed7d2">
       <notes>
-        <note appliesTo="source">line: 49</note>
+        <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -410,9 +365,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 5.0</target>
       </segment>
     </unit>
-    <unit id="c87502bc-2644-4610-92dc-0fc61ada11dc">
+    <unit id="7a94474b-7d6f-4720-8742-96f8dfddf553">
       <notes>
-        <note appliesTo="source">line: 50</note>
+        <note appliesTo="source">line: 44</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -420,9 +375,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Compatible with NVDA 2021.1.</target>
       </segment>
     </unit>
-    <unit id="07f8794b-55a1-4e4b-88e6-df4507d28ace">
+    <unit id="7c445b11-352f-42f6-a946-76777ad218ea">
       <notes>
-        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">line: 46</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -430,9 +385,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 4.0 ##</target>
       </segment>
     </unit>
-    <unit id="951a4cab-458e-4f9a-a699-a98372bedead">
+    <unit id="5396dde0-a47e-4e67-8978-e87c5863a087">
       <notes>
-        <note appliesTo="source">line: 53</note>
+        <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: *	</note>
       </notes>
       <segment state="initial">
@@ -440,9 +395,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Requires NVDA 2019.3 or later.</target>
       </segment>
     </unit>
-    <unit id="403d1fcf-e2c9-4bf5-adfa-bb13f1b72169">
+    <unit id="c0600b53-d852-48c0-a070-8b858c15322b">
       <notes>
-        <note appliesTo="source">line: 55</note>
+        <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -450,9 +405,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 3.0 ##</target>
       </segment>
     </unit>
-    <unit id="bb638a1e-a2ac-4ea3-b9f6-f3cd5ee22432">
+    <unit id="bb195593-c437-4905-ad86-7560ab652259">
       <notes>
-        <note appliesTo="source">line: 56</note>
+        <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -460,9 +415,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>To search text in the readonly edit boxes,  the find dialog  can be used, such as nvda+control+f to activate the find dialog.</target>
       </segment>
     </unit>
-    <unit id="c6591051-3103-42b5-b0e1-56cdcf743587">
+    <unit id="31717009-db0b-48a4-9caa-24e6efd5da8c">
       <notes>
-        <note appliesTo="source">line: 58</note>
+        <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -470,9 +425,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 2.0 ##</target>
       </segment>
     </unit>
-    <unit id="83f64583-4eb5-4ace-a0cf-9f42adf95683">
+    <unit id="925a1da4-a670-4dac-9316-1f49512d5e97">
       <notes>
-        <note appliesTo="source">line: 59</note>
+        <note appliesTo="source">line: 53</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -480,9 +435,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Add-on help is available from the Add-ons Manager.</target>
       </segment>
     </unit>
-    <unit id="1170f370-a8de-4291-886b-4cc1eed254d7">
+    <unit id="ab39a97f-41c6-4784-99d2-d0837179294e">
       <notes>
-        <note appliesTo="source">line: 61</note>
+        <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -490,9 +445,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 1.2 ##</target>
       </segment>
     </unit>
-    <unit id="471588d1-4324-4f4f-9d2e-8624d313ab69">
+    <unit id="12142aa6-ecee-4737-9b82-4750fac577d5">
       <notes>
-        <note appliesTo="source">line: 62</note>
+        <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -500,9 +455,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>When moving to the IRC messages, the selected text is reported properly.</target>
       </segment>
     </unit>
-    <unit id="6bb73457-a4e4-4f3d-9d8a-5899682d54f1">
+    <unit id="44e9ad50-2474-4163-b81e-e0886e10bdd5">
       <notes>
-        <note appliesTo="source">line: 63</note>
+        <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -510,9 +465,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>The keystroke used for moving to the Search results list has been generalized to be able to move focus to any available list in the current window.</target>
       </segment>
     </unit>
-    <unit id="cf071824-574d-47de-ad0d-9a8392316010">
+    <unit id="15bd3190-fb59-429d-b589-d515f9985282">
       <notes>
-        <note appliesTo="source">line: 64</note>
+        <note appliesTo="source">line: 58</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -520,9 +475,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>The command used to focus the IRC messages has been generalized to move to any read-only edit box, making it possible to review connection information in the Servers window.</target>
       </segment>
     </unit>
-    <unit id="ee2ceb33-16d6-4554-89f1-311a4b33369f">
+    <unit id="df2fa334-0210-4610-95c2-1b12989ad017">
       <notes>
-        <note appliesTo="source">line: 65</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -530,9 +485,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>When moving mouse and focus to the toolbar, in some cases it was announced twice. This has been fixed.</target>
       </segment>
     </unit>
-    <unit id="9c5b48c6-91a0-4203-b578-3cfa233c0e24">
+    <unit id="e9aa6b17-82e8-45da-a4a8-b057cf25b7b8">
       <notes>
-        <note appliesTo="source">line: 67</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -540,9 +495,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 1.1 ##</target>
       </segment>
     </unit>
-    <unit id="dbab1f86-ba7b-4dc2-a131-e876ca3a0b42">
+    <unit id="9b718d73-d69b-4d60-bf90-1d68db7bf81b">
       <notes>
-        <note appliesTo="source">line: 68</note>
+        <note appliesTo="source">line: 62</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -550,9 +505,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.</target>
       </segment>
     </unit>
-    <unit id="5764edc5-94d5-4441-92f6-c91830353e14">
+    <unit id="8182eb2e-ff8a-4117-8cc1-e6aeb37ef60b">
       <notes>
-        <note appliesTo="source">line: 69</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -560,9 +515,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Shortcuts can now be reassigned using the NVDA gesture input dialog.</target>
       </segment>
     </unit>
-    <unit id="752510fc-99e5-4806-9ed9-8670efca4c2c">
+    <unit id="99077cab-9230-4f2a-8dab-3c965fbaa632">
       <notes>
-        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -570,9 +525,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Changes for 1.0 ##</target>
       </segment>
     </unit>
-    <unit id="6af26a6a-de87-4430-b7bd-a600bfd8428f">
+    <unit id="3e06c588-f771-40dc-bff3-f8d622fbccd3">
       <notes>
-        <note appliesTo="source">line: 72</note>
+        <note appliesTo="source">line: 66</note>
         <note appliesTo="source">prefix: *	 </note>
       </notes>
       <segment state="initial">
@@ -580,9 +535,9 @@ $(ID:9371b25b-2ae4-443b-8be8-b8bb56c8312c)
         <target>Initial version.</target>
       </segment>
     </unit>
-    <unit id="9371b25b-2ae4-443b-8be8-b8bb56c8312c">
+    <unit id="c0520f03-cc2f-4c0e-9387-7b6e043460a9">
       <notes>
-        <note appliesTo="source">line: 74</note>
+        <note appliesTo="source">line: 68</note>
       </notes>
       <segment state="initial">
         <source>[1]: http://www.emule-project.net</source>

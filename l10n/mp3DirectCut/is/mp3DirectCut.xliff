@@ -1,242 +1,250 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="is">
-  <file id="mp3DirectCut.md" original="https://raw.githubusercontent.com/nvaccess/nvda/7bd3ad3ebe2b8d9a297744260a638e8ebf373e9f/addons/mp3DirectCut/mp3DirectCut.md">
+  <file id="readme.md" original="https://raw.githubusercontent.com/abdel792/mp3DirectCut/2931eb38919089650ffcc43e7000ca2eaab70d39/readme.md">
     <skeleton>
-$(ID:13e2c32b-9b90-43f5-8c57-e22bae167f08)
+$(ID:73937217-01ef-47b0-941f-e4162ff89a2d)
 
-* $(ID:7347f451-ac30-42d4-8641-d9a179715264)
-* $(ID:ff3e64a6-6da4-432d-a8d8-ed56526a0ef7)
-* $(ID:1e16a7bd-03d3-4126-8afc-5da07e37d3ae)
+* $(ID:ea5a1d38-7425-40b1-8f90-cc0c5631c56e)
 
-# $(ID:45e5774e-4f09-495e-8969-b91975752f07)
+# $(ID:442e9d7b-7f64-4873-a31e-9b11c396d734)
 
-$(ID:1baeb79a-e508-47b2-9950-5dcd26ae3902)
+$(ID:5aec013f-2d64-4657-9b84-f6a494d09601)
 
-$(ID:47f1bc6d-5765-4646-9cf7-33d91d338242)
+$(ID:7fd7dc2c-ba29-4716-91c7-ce9010754316)
 
-## $(ID:463cdc82-ecd6-4c29-a790-0ec9081f6396)
+## $(ID:9d330b5e-4add-4ba8-83b1-fdd619138ca3)
 
-$(ID:3f6d16d4-3e48-44b3-8011-0c68c4e347e2)
+$(ID:7130acb6-fbd1-423b-bc82-5685a16f193b)
 
-* $(ID:14a99921-e499-4f04-99cc-cdd6c1c86b59)
+* $(ID:f6306102-2c73-4963-b891-6d4e602bac96)
 
-    * $(ID:dfad8cfc-4d02-4dbd-81d2-94bd6e78569d)
+    * $(ID:ce371ad9-2401-4753-8b7f-2eb9633fb389)
 
-* $(ID:1417a7ad-a563-4f6b-ac43-7f7dea331ab8)
+* $(ID:31fc3560-90c1-41f8-9dfb-d87befb05508)
 
-    * $(ID:02e45e49-55be-4bfe-ae02-24a99149a51c)
-    * $(ID:285f9b31-8221-481d-8184-7395cb69210f)
+    * $(ID:134da4a3-13c6-4d57-a9c7-3c5e8b138637)
+    * $(ID:83b88935-7d48-4bc3-a2d8-487d958bbc84)
 
-* $(ID:6ab9c324-86b2-47f2-ba49-0b77d50d1c8e)
+* $(ID:dfa02edb-d058-44bf-bba5-727ddad6ce39)
 
-    * $(ID:c47ed13d-f881-41b8-9c0c-efbdfa204502)
-    * $(ID:969be4b6-6805-4b5b-af06-6cfce372c2ac)
+    * $(ID:f3d4da2b-6516-404e-a852-3d6d7e0778bc)
+    * $(ID:8de4b72e-1771-4d3b-aa6c-c32d0aac7c3d)
 
-* $(ID:2488e7aa-d088-4e07-bcfa-a009cfd7177c)
+* $(ID:0c92fa83-31cc-4418-aa6b-08b03a10070f)
 
-    * $(ID:69b1e352-0ac2-48a5-8507-769607a519fe)
+    * $(ID:36296303-9a61-43a0-b363-52b0fc2e965d)
 
-* $(ID:da03e8aa-ede9-4467-8f17-b5a433e42511)
+* $(ID:db164f68-3d6f-4aab-ae77-e82ef629cd9f)
 
-    * $(ID:93cc5a94-8016-4dfe-9012-555aa96e8874)
+    * $(ID:21a756d2-ff75-44e9-b0e4-371fb2042736)
 
-* $(ID:1a143e33-5b5b-4cfe-9f59-507942f0ef99)
+* $(ID:945d9cae-caa3-498b-bc20-78c5c9999e45)
 
-    * $(ID:80f6b3f8-db32-41e8-8c18-57b4f778bf83)
-    * $(ID:26536769-46c0-45f2-aa85-3bdcdd418e93)
+    * $(ID:e7329f1f-67ee-439d-abaa-c0d56eca9742)
+    * $(ID:4c7e3c75-2d88-42ab-82ac-d78d4bfcdfd7)
 
-* $(ID:343efea4-5e2c-4cc6-9fa4-312767973cc4)
+* $(ID:46301116-43d3-4804-983e-ef4414270f94)
 
-    * $(ID:6d2f4f6a-7759-48b3-b1b8-ba5e52cbadd9)
+    * $(ID:b046eea4-54d4-4ce7-929f-a97818bcf595)
 
-* $(ID:826edcb3-4cfb-458f-875a-eabac0a169c7)
+* $(ID:a30d3f0b-3a95-4272-9fa3-f39e50505a3b)
 
-    * $(ID:7516505a-5ff5-4981-a608-1568976046fe)
-    * $(ID:a724ed50-1d04-407d-9d7b-80e70e748323)
+    * $(ID:32c2f8bc-a7d2-413a-9953-0520c9527b92)
+    * $(ID:07ca4490-ce67-4450-aaa5-51d429bd0c52)
 
-* $(ID:90fcb94b-d826-41b5-b220-832a2dd466b5)
+* $(ID:4d831f6b-0716-431b-a960-fd404fae8ffc)
 
-    * $(ID:0ecaf8f3-90ae-43d7-adb6-7bbb55635f97)
-    * $(ID:78d3b3b8-426d-40d9-9224-e12f043ff920)
-    * $(ID:af7b35e2-edcf-4991-b893-a6781fcb20b2)
-    * $(ID:03fdf638-9e6e-4821-8ba1-9cbd2a0265d2)
+    * $(ID:803b5891-86bf-4b0e-b17b-7877f260025c)
+    * $(ID:febc1849-73b6-457a-a2a6-d22b7047eefd)
+    * $(ID:3230b31e-f6fa-4231-aec2-b86181480da5)
+    * $(ID:bcb3e8ca-ec62-4ebf-a617-ce5122e6f2f4)
 
-* $(ID:037120a5-1f18-42dc-a490-25d108093517)
+* $(ID:ba85fbd4-704d-413b-be2e-2180785e4a9f)
 
-    * $(ID:a0313091-58f0-404a-bf5a-c9d0e6e85cd2)
+    * $(ID:6c107caa-2142-4009-9f7e-e75640edf667)
 
-* $(ID:f09d1d52-66bd-4340-bd9c-938921929620)
+* $(ID:f9d372ad-7fbc-4c39-9131-2d68b51b638a)
 
-    * $(ID:2f34a311-9be4-401e-9840-894d70ee1d07)
+    * $(ID:3b0d7095-668f-4abf-a959-3c2071ce813f)
 
-* $(ID:01a839cc-35ea-4ac3-8666-1919e9b6b753)
+* $(ID:fd4d15fe-54db-46ea-92d3-9b491746a94e)
 
-    * $(ID:8a9f2278-9f5d-480e-8b45-3ca74c607e2a)
-    * $(ID:7a77b062-302b-4c3d-8c87-f9e8018715dc)
+    * $(ID:0ed3c0d7-3fb2-4470-9a77-a9fdaa99aad9)
+    * $(ID:d9546bfd-43b0-4fe6-ac57-428eb691726e)
 
-* $(ID:8a2ebe55-4cdf-4fe6-bb5d-262b22510ac4)
+* $(ID:2fce1c60-0ca5-43ab-b046-d3008742713a)
 
-    * $(ID:89a82dee-a077-480b-91ca-e1f7c216374d)
+    * $(ID:6a9a561d-2be9-4d76-8f5d-3a15ad5a984d)
 
-* $(ID:f114af7b-808b-4c0e-8b49-2862e2d59f4b)
+* $(ID:c8696b7a-1f87-43da-8485-3e4471ce375e)
 
-    * $(ID:8f3d66c6-b83d-4221-81fe-7e192556d47d)
-    * $(ID:269fd8ed-0a5b-4f2f-b753-6a38a2d8dbde)
+    * $(ID:0f6f3d95-5119-4a56-b3e7-1b4d23e9759d)
+    * $(ID:3ede0566-67c4-4c81-b6c3-5312c8308d97)
 
-* $(ID:5cdfb089-7457-48ac-bd1a-84d9eb15306b)
+* $(ID:2ab827bb-12d0-46eb-9ecb-1e84b0d34389)
 
-    * $(ID:e851b29d-13b4-4d24-920a-c79776bc2675)
-    * $(ID:1f605b61-5111-4dce-96a8-30d52684bf72)
+    * $(ID:7b465c03-5807-40cb-8330-0ebf8eb8e903)
+    * $(ID:994428e6-c8a6-4f7e-9098-e1e5c57a91b8)
 
-* $(ID:676b33f2-10fb-4253-b432-b581cba86257)
+* $(ID:12371373-0e09-4149-8235-377523837080)
 
-    * $(ID:f62b8368-439c-463c-8536-86fa729006f0)
+    * $(ID:51e7648b-ce76-48fe-b93c-50f8494922ce)
 
-* $(ID:c856de0d-7508-4f14-bd53-ec0ab6d85057)
+* $(ID:97f6a5ef-fb2a-488a-9c10-7680c35d9f89)
 
-    * $(ID:561be79e-79fa-4a5e-a547-9024fe1470b9)
-    * $(ID:dbf89cde-2c8a-4ed5-9999-93b614bf3fcb)
+    * $(ID:c8e277c6-8c69-4922-9e36-001e0c6becec)
+    * $(ID:f042c5c4-f4ce-4167-afdb-f86a9f377da7)
 
-* $(ID:cf3a18ac-bb2f-4d3f-a83b-6839cb9941c2)
+* $(ID:cb60cb87-453c-4b74-94ef-c4278c544141)
 
-    * $(ID:385c3404-d53f-4fc1-b917-23f5565b8c32)
+    * $(ID:edf16cc4-80c4-45a1-ade2-16742261a706)
 
-* $(ID:8b72a48b-474c-43b0-8387-60e7ba659ab8)
+* $(ID:2f05f17f-7a57-4568-aa93-a0e122b589fc)
 
-    * $(ID:c599e9b7-71d4-4e75-be9a-d8df034f84a3)
+    * $(ID:9b289af3-29a5-4fe9-b1b6-4172303e059b)
 
-* $(ID:e7fe3bd1-1b54-4679-b231-5736c7738f0f)
+* $(ID:94a270dc-119c-4039-95d0-b6032d8cc727)
 
-    * $(ID:9b7e5ecc-f711-48fd-baac-137bf297b7e0)
+    * $(ID:4ad37e82-eb94-4ed9-8341-f81eb056b23d)
 
-* $(ID:34792cd2-a398-43bf-8269-a90d524754c3)
+* $(ID:61180684-b2ed-416e-8a5a-021f142506cf)
 
-    * $(ID:63b2d844-6010-40b5-a032-ed41cbb2aa88)
+    * $(ID:b3c7710e-fc91-4f7b-95ff-205c0658e0a4)
 
-* $(ID:386ad842-ad4b-4a08-aeb1-cc82ba3caf75)
+* $(ID:63c71eac-f53c-4c4a-a984-8f090e91aa9f)
 
-    * $(ID:4bf33aec-e656-4d5e-baba-64c00249500a)
+    * $(ID:f238dda0-c2ce-4cbd-88e3-41721f061d34)
 
-* $(ID:009c2c8a-1c18-4429-a4b1-731421141ff9)
+* $(ID:57bb34fe-1ace-45ef-9071-27da567594b5)
 
-    * $(ID:bda56e75-2961-4cc7-a3d5-ea53175f9550)
-    * $(ID:8daa51ed-6937-49cf-b1a4-6bdb85c08c1d)
-    * $(ID:62549db6-02d8-473f-8075-0a85c1db3e18)
-    * $(ID:3f999390-b48d-43eb-81bb-ffe210b5e438)
-    * $(ID:38b6de6f-b64a-4ad0-8667-702be0994cea)
+    * $(ID:f5d527fc-6129-402b-aeb0-53b0429fc972)
+    * $(ID:3432293b-e213-4542-bb43-b29cb2a5f604)
+    * $(ID:56da6870-120d-4bdf-b491-c501644a9ec7)
+    * $(ID:b25ec37a-ca1e-4795-970c-140bdb962314)
+    * $(ID:ab087285-9f23-4116-9b2d-b14a979ae9e9)
 
-* $(ID:34d318c9-3dcb-46cf-8943-771b1a8c284b)
+* $(ID:e5abd160-e381-41d3-a15f-94b0b5861c28)
 
-    * $(ID:5455a15a-777e-4741-8186-4424c7230dc0)
-    * $(ID:2c26e0dc-cdd5-428b-a4c7-46606fd716de)
-    * $(ID:3b4bd1fd-0221-4b4c-a0ff-7c5b4243c1a1)
-    * $(ID:37223e90-9b92-42c8-a2d3-00d17b95afd3)
+    * $(ID:fff4e782-8653-4df0-8b93-ec91f0a5b19c)
+    * $(ID:4e2373a2-f527-4876-9bd5-bd89591d0d19)
+    * $(ID:e5a8cb2d-556e-4a79-b2d8-76cf1be6a348)
+    * $(ID:b014c127-700a-4c56-8cca-a278313ddc9b)
 
-* $(ID:08bc486d-9d20-4b56-9fba-6fa2574077e9)
+* $(ID:c9b1916b-9049-465f-9012-f144b83e8acd)
 
-    * $(ID:98ac7851-4b58-4689-8afe-e59a243018a9)
+    * $(ID:ba6e1737-1c5e-4347-a21d-8f4f3372ee77)
 
-## $(ID:08a84ca4-e4e7-4552-b469-5aca7460e8ac)
+## $(ID:98ede87f-8baf-454c-accb-dfbac856fe14)
 
-* $(ID:3cd121c0-ee46-4e9d-8835-b0ba352ce59f)
+* $(ID:50f7432a-4a91-44db-afa5-1d5f00f659e2)
 
-## $(ID:b0a7f1df-9f90-4fc4-9ed3-f8d89a261e6f)
+## $(ID:a9a696aa-4d5f-4b2b-bd31-b5e6ab917cc4)
 
-* $(ID:6eceb620-1ca4-4033-8c79-d42228e82775)
-* $(ID:c8406f81-6d26-4e58-8fb1-15a648e02952)
-* $(ID:c5c879cd-dfd9-4a21-a0d0-19adf87928dd)
+* $(ID:bf2f606f-9dc2-4204-b950-4a58924f0748)
 
-## $(ID:ba0a0dc2-2786-4420-8b2e-46f85937fa8c)
+## $(ID:c445ec3a-5384-4af2-b88c-21d7b2430e3b)
 
-* $(ID:47a5183c-e6ec-4d33-ad7b-88e07e5c7000)
-* $(ID:27cd38b8-09ab-4a36-b8d9-2120cf2345ee)
+* $(ID:4c910a0a-2c15-4bad-80d0-f83e733f63ec)
+* $(ID:588c84c8-8542-4575-a150-a18edd38bf93)
 
-## $(ID:dfaa1371-e5b0-4627-ab7a-43b41bb5b458)
+## $(ID:1ad394eb-2997-49cc-9b20-8129b42045c5)
 
-* $(ID:f987f535-2e68-4b21-99d3-84ebbf9b29ed)
- * $(ID:f2e37bc3-3794-48e9-a744-bb3c5b5a0e6f)
- * $(ID:3a661f9e-cec6-4a2a-a7f0-634807fcd3bb)
- * $(ID:c00d7ced-1d31-40bf-a974-856e6ed07a15)
-* $(ID:3d40066d-19de-4d7b-8d18-c5e85354ff10)
+* $(ID:c011181c-eeb7-4bed-acad-0a7c76b08b91)
 
-## $(ID:07d25ca4-a45c-4674-83f7-cc0fa6a7ee76)
+## $(ID:4ef90970-033d-4113-95dd-ae689ed4f006)
 
-* $(ID:682848e2-b2a9-4a69-9e5d-2700c7612c76)
+* $(ID:801309b6-2822-41af-91c9-15b8c93e394d)
+* $(ID:c3d1107f-64c9-40b0-a7dc-094611dbce37)
+* $(ID:fb03bf3e-e144-44d3-a87d-ca054db97272)
 
-## $(ID:d2d9f085-4248-420b-8f4c-4df2ddbae4ab)
+## $(ID:21392f9f-37a1-4e89-95be-1f75d02a5f31)
 
-* $(ID:ebbdd611-7e7f-401c-8255-cb7dee44c5cb)
-* $(ID:14eca2a6-c5e7-4f62-9f9b-c55c4b5c7121)
+* $(ID:796545c5-7036-4e97-add0-45078aa2a641)
+* $(ID:3f6f3047-1a1e-4fe7-9a27-368c530a8b45)
 
-## $(ID:c6262ed5-46a0-4623-99b7-3cdf65ff9bed)
+## $(ID:642b2c06-6741-423f-b6c3-24ee7e0f52bc)
 
-* $(ID:a995f3f7-95aa-4371-9188-fa576457e072)
-* $(ID:c05909bc-a11c-4028-9450-8bad04f460c6)
-* $(ID:cd1920c7-ad1e-46ba-a602-6cf54f355981)
+* $(ID:72548d72-8502-4181-9d85-0d05483ba81f)
+ * $(ID:a0f54a10-9de7-4ee5-9d51-b5c45dbdbd65)
+ * $(ID:23b6eedc-e35e-41fd-965a-353152e1c543)
+ * $(ID:dc1d44b4-66f8-4bf6-9ccb-86684dcac3fa)
+* $(ID:a0e496ad-2d5a-4db0-aae5-f676dce6d298)
 
-## $(ID:341154e0-df8e-4feb-a2ff-dd01c8d3eab0)
+## $(ID:db03b200-8c57-44c1-8c47-44f8ba9a0d09)
 
-* $(ID:c50872bc-27b1-4c03-846a-39cb71844bf2)
-* $(ID:a3983a0c-8031-4176-864d-67842a7c94e2)
+* $(ID:3dffb991-fb95-476e-8ffa-b77768afe060)
 
-## $(ID:c4d263ff-8f40-4ed2-8176-dc9ac2b2f653)
+## $(ID:ae4967cb-f71a-4832-9386-4dd028b40682)
 
-* $(ID:e6801a52-c529-4e15-891d-294e34f21541)
-* $(ID:2748192c-f069-431e-9c0e-2b3642d4f6eb)
-* $(ID:ea95c0d6-9aab-4946-bf6a-73fdc07a3901)
+* $(ID:4f5bfdc1-1cc9-45b7-9762-23d20981fed2)
+* $(ID:73727aca-8c73-446f-87c8-e74f68405b26)
 
-## $(ID:2ab55415-b698-4f12-a151-2886daa12557)
+## $(ID:e8bf53ed-32b6-45bf-b2d5-c06b95250b0a)
 
-* $(ID:41814829-5d56-438d-9dc9-3dbff6ecefcc)
-* $(ID:f995246f-e6f9-4d8c-86c5-65657f960fe6)
-* $(ID:0b01c061-d23e-418f-97b9-808b387f18e1)
-* $(ID:3c686428-791f-4b2e-a42a-d63fb06b8157)
+* $(ID:ac13f4b1-538e-423a-8127-b65fceac9df4)
+* $(ID:bccb9982-dcc5-4c96-9378-526cb3fc35a5)
+* $(ID:f959ee8d-d656-416d-be32-4dcdf089bce7)
 
-## $(ID:61369089-5e36-4671-8051-a084b3d598ea)
+## $(ID:814096d2-26d4-4a5b-8f26-21889e3acc1a)
 
-* $(ID:bdb55962-7a40-46be-9a25-17127ee53557)
+* $(ID:ddf0dc57-849e-46ab-bc0e-3f6dd8ad90e6)
+* $(ID:7ba17013-85ea-49f8-987d-5e31594f6e69)
 
-## $(ID:7dd91d5d-448b-4f1b-846f-42f4459e8b27)
+## $(ID:3e9b02fe-31e7-4104-8deb-a2af257c9ceb)
 
-* $(ID:a2c6f6f4-50c5-4333-87b2-d28b960db2ed)
-* $(ID:e8ca3dc6-a010-4070-823a-cb52b369ea00)
-* $(ID:250cdd21-a539-4f15-aa5c-f1c2a90ec3f3)
-* $(ID:f742c0cd-fd77-4590-962c-0143421ee630)
-* $(ID:65eb39b0-60e4-450c-86d5-c65783c9dc20)
-* $(ID:ff773ab8-6fff-4177-885c-3add39d529f9)
-* $(ID:ffe3be39-ed75-46e1-acb2-4118608b021a)
+* $(ID:75832da2-5f04-4d96-b7a6-176e13ab3f45)
+* $(ID:485bf522-4249-4565-996f-e32906739a99)
+* $(ID:c4f4edaa-4c6f-4b77-9497-5f3395c3333c)
 
-## $(ID:338021a8-4c75-43ae-94bb-c7aba6b5f33f)
+## $(ID:53e019c9-6fa8-4df3-a448-390073159f38)
 
-* $(ID:e76545e3-2278-4c34-9f35-48820c2ed772)
-* $(ID:25d435ba-1636-4fe1-83e3-d2f9e6e1d36e)
-* $(ID:5d3cb539-8af4-4686-9ed6-e93d4d65c269)
-* $(ID:00ba7911-3e60-4c00-a04f-a7d7ba664bf3)
-* $(ID:f0610897-9f4a-47f0-850f-1b39ed6db6fc)
+* $(ID:9aa3415a-7982-414f-8767-a189d75f9d58)
+* $(ID:1305a51e-44a5-4271-8e9c-45ae6d503071)
+* $(ID:9161c0d7-81b4-4c5a-b301-f236dbfa1d31)
+* $(ID:c7023400-85e2-4ad4-8a07-dbce7de89bd2)
 
-## $(ID:f5b42a73-9a2e-4a0d-9300-c4f63a2f5bad)
+## $(ID:270d4cc5-9540-40fa-b596-f15f9bbc7ce6)
 
-* $(ID:c230185f-6540-4a42-afa0-4b1924b1c81b)
-* $(ID:965cacaf-d745-4965-b0ae-d0431ca1c321)
-* $(ID:dbd5e09c-d4cc-4326-aa03-b0d492b7a5e9)
+* $(ID:842fc3a7-bcbc-4844-9b66-7441fa56ac5c)
 
-## $(ID:8b008948-f667-4160-9c1d-7a57f15d5886)
+## $(ID:c27cc84f-0658-4369-a861-ee73308f0237)
 
-* $(ID:eb71b85d-66b7-4bd0-93d0-c8951e9cc36b)
+* $(ID:856e56ec-e9ce-49fc-80e6-a108fbf79153)
+* $(ID:3ac6ed0e-1632-4726-bfe9-587136674ec3)
+* $(ID:a9e0f19b-acc2-4371-b3d5-2d9c9d7a32f7)
+* $(ID:3fc696d1-c02e-4866-848f-10b7ac10b87a)
+* $(ID:5bbd399e-572a-4efb-9791-7557652f8526)
+* $(ID:f4bfc216-2a3b-482a-aaf0-3b9f0d855ab0)
+* $(ID:ca4725ec-d283-43a8-8a07-fb3da9159cc4)
 
-    * $(ID:70cebd46-215f-430b-8e57-72879745ab9d)
+## $(ID:1bad779c-9653-4098-b143-aac190afeb84)
 
-* $(ID:bb249b8a-2a39-4c25-87c0-24c7897a5334)
+* $(ID:7d22fe44-9d70-4ba7-987c-0e8b1abb966a)
+* $(ID:0f017d6c-8e95-463d-92e4-46d8565bb916)
+* $(ID:36cd1dc8-29d5-4274-aecd-e5b3eaf4ebf0)
+* $(ID:300df4f1-d083-4b80-9678-bbde7cd57ae2)
+* $(ID:0de50d7d-5a35-4207-96a4-6e2369f3e4be)
 
-## $(ID:9554ce70-0ae4-42f1-8e29-3a05ea54af5b)
+## $(ID:cc6c9a3b-50b6-45f6-83fe-ebcba8e63017)
 
-* $(ID:bbc49d80-9746-4cdb-be10-8e3abe8afc55)
+* $(ID:80132b14-85a6-4e5f-94ae-b063677c1500)
+* $(ID:2eeafc7a-0592-4c41-a69d-afc238a1252d)
+* $(ID:d688db45-930f-40bc-95d8-bb35a35a66b1)
 
-$(ID:a70e327f-7ce2-444d-a5c1-3da06b8459cf)
+## $(ID:228426a7-4f7e-403e-9e93-3d032f1cc212)
 
-$(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
+* $(ID:0c547549-38cf-4bf8-ac04-5650da70860d)
+
+    * $(ID:46b38073-5a70-4ed5-99b0-aefda01a118f)
+
+* $(ID:8a016890-ccae-4305-9a33-274f00660fcc)
+
+## $(ID:4e919993-89a8-41ae-9678-237e35285474)
+
+* $(ID:b8e25f8d-02b1-45fc-9705-e2d7e02d0f02)
+
 </skeleton>
-    <unit id="13e2c32b-9b90-43f5-8c57-e22bae167f08">
+    <unit id="73937217-01ef-47b0-941f-e4162ff89a2d">
       <notes>
         <note appliesTo="source">line: 2</note>
       </notes>
@@ -245,39 +253,19 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>﻿# mp3DirectCut</target>
       </segment>
     </unit>
-    <unit id="7347f451-ac30-42d4-8641-d9a179715264">
+    <unit id="ea5a1d38-7425-40b1-8f90-cc0c5631c56e">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
-        <source>Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS</source>
-        <target>Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS</target>
+        <source>Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS.</source>
+        <target>Author(s) : Abdel, Rémy, Abdellah zineddine, Jean-François COLAS.</target>
       </segment>
     </unit>
-    <unit id="ff3e64a6-6da4-432d-a8d8-ed56526a0ef7">
-      <notes>
-        <note appliesTo="source">line: 5</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Download [stable version][1]</source>
-        <target>Download [stable version][1]</target>
-      </segment>
-    </unit>
-    <unit id="1e16a7bd-03d3-4126-8afc-5da07e37d3ae">
+    <unit id="442e9d7b-7f64-4873-a31e-9b11c396d734">
       <notes>
         <note appliesTo="source">line: 6</note>
-        <note appliesTo="source">prefix: * </note>
-      </notes>
-      <segment state="initial">
-        <source>Download [development version][2]</source>
-        <target>Download [development version][2]</target>
-      </segment>
-    </unit>
-    <unit id="45e5774e-4f09-495e-8969-b91975752f07">
-      <notes>
-        <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: # </note>
       </notes>
       <segment state="initial">
@@ -285,27 +273,27 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Presentation #</target>
       </segment>
     </unit>
-    <unit id="1baeb79a-e508-47b2-9950-5dcd26ae3902">
+    <unit id="5aec013f-2d64-4657-9b84-f6a494d09601">
       <notes>
-        <note appliesTo="source">line: 10</note>
+        <note appliesTo="source">line: 8</note>
       </notes>
       <segment state="initial">
         <source>This add-on improves the accessibility of the software mp3DirectCut with NVDA.</source>
         <target>This add-on improves the accessibility of the software mp3DirectCut with NVDA.</target>
       </segment>
     </unit>
-    <unit id="47f1bc6d-5765-4646-9cf7-33d91d338242">
+    <unit id="7fd7dc2c-ba29-4716-91c7-ce9010754316">
       <notes>
-        <note appliesTo="source">line: 12</note>
+        <note appliesTo="source">line: 10</note>
       </notes>
       <segment state="initial">
         <source>It has been tested with versions of mp3DirectCut ranging from 212 up to 233.</source>
         <target>It has been tested with versions of mp3DirectCut ranging from 212 up to 233.</target>
       </segment>
     </unit>
-    <unit id="463cdc82-ecd6-4c29-a790-0ec9081f6396">
+    <unit id="9d330b5e-4add-4ba8-83b1-fdd619138ca3">
       <notes>
-        <note appliesTo="source">line: 14</note>
+        <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -313,18 +301,18 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Keyboard shortcuts ##</target>
       </segment>
     </unit>
-    <unit id="3f6d16d4-3e48-44b3-8011-0c68c4e347e2">
+    <unit id="7130acb6-fbd1-423b-bc82-5685a16f193b">
       <notes>
-        <note appliesTo="source">line: 16</note>
+        <note appliesTo="source">line: 14</note>
       </notes>
       <segment state="initial">
         <source>This addon offers the following commands:</source>
         <target>This addon offers the following commands:</target>
       </segment>
     </unit>
-    <unit id="14a99921-e499-4f04-99cc-cdd6c1c86b59">
+    <unit id="f6306102-2c73-4963-b891-6d4e602bac96">
       <notes>
-        <note appliesTo="source">line: 18</note>
+        <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -332,9 +320,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>B</target>
       </segment>
     </unit>
-    <unit id="dfad8cfc-4d02-4dbd-81d2-94bd6e78569d">
+    <unit id="ce371ad9-2401-4753-8b7f-2eb9633fb389">
       <notes>
-        <note appliesTo="source">line: 20</note>
+        <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -342,9 +330,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used to confirm correct placement of the marker of the beginning of the selection B.</target>
       </segment>
     </unit>
-    <unit id="1417a7ad-a563-4f6b-ac43-7f7dea331ab8">
+    <unit id="31fc3560-90c1-41f8-9dfb-d87befb05508">
       <notes>
-        <note appliesTo="source">line: 22</note>
+        <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -352,9 +340,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+B</target>
       </segment>
     </unit>
-    <unit id="02e45e49-55be-4bfe-ae02-24a99149a51c">
+    <unit id="134da4a3-13c6-4d57-a9c7-3c5e8b138637">
       <notes>
-        <note appliesTo="source">line: 24</note>
+        <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -362,9 +350,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used to indicate the position of the marker of the beginning of selection B.</target>
       </segment>
     </unit>
-    <unit id="285f9b31-8221-481d-8184-7395cb69210f">
+    <unit id="83b88935-7d48-4bc3-a2d8-487d958bbc84">
       <notes>
-        <note appliesTo="source">line: 25</note>
+        <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -372,9 +360,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Double pressure lets give you the duration of the selection.</target>
       </segment>
     </unit>
-    <unit id="6ab9c324-86b2-47f2-ba49-0b77d50d1c8e">
+    <unit id="dfa02edb-d058-44bf-bba5-727ddad6ce39">
       <notes>
-        <note appliesTo="source">line: 27</note>
+        <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -382,9 +370,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+D</target>
       </segment>
     </unit>
-    <unit id="c47ed13d-f881-41b8-9c0c-efbdfa204502">
+    <unit id="f3d4da2b-6516-404e-a852-3d6d7e0778bc">
       <notes>
-        <note appliesTo="source">line: 29</note>
+        <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -392,9 +380,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Gives the duration from the beginning of the file to the current position of the playback cursor.</target>
       </segment>
     </unit>
-    <unit id="969be4b6-6805-4b5b-af06-6cfce372c2ac">
+    <unit id="8de4b72e-1771-4d3b-aa6c-c32d0aac7c3d">
       <notes>
-        <note appliesTo="source">line: 30</note>
+        <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -402,9 +390,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Double pressure lets give you the total duration.</target>
       </segment>
     </unit>
-    <unit id="2488e7aa-d088-4e07-bcfa-a009cfd7177c">
+    <unit id="0c92fa83-31cc-4418-aa6b-08b03a10070f">
       <notes>
-        <note appliesTo="source">line: 32</note>
+        <note appliesTo="source">line: 30</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -412,9 +400,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+R</target>
       </segment>
     </unit>
-    <unit id="69b1e352-0ac2-48a5-8507-769607a519fe">
+    <unit id="36296303-9a61-43a0-b363-52b0fc2e965d">
       <notes>
-        <note appliesTo="source">line: 34</note>
+        <note appliesTo="source">line: 32</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -422,9 +410,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Confirms that the selection has been canceled.</target>
       </segment>
     </unit>
-    <unit id="da03e8aa-ede9-4467-8f17-b5a433e42511">
+    <unit id="db164f68-3d6f-4aab-ae77-e82ef629cd9f">
       <notes>
-        <note appliesTo="source">line: 36</note>
+        <note appliesTo="source">line: 34</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -432,9 +420,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+R</target>
       </segment>
     </unit>
-    <unit id="93cc5a94-8016-4dfe-9012-555aa96e8874">
+    <unit id="21a756d2-ff75-44e9-b0e4-371fb2042736">
       <notes>
-        <note appliesTo="source">line: 38</note>
+        <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -442,9 +430,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Gives the time remaining from the current position of the playback cursor to the end of the file.</target>
       </segment>
     </unit>
-    <unit id="1a143e33-5b5b-4cfe-9f59-507942f0ef99">
+    <unit id="945d9cae-caa3-498b-bc20-78c5c9999e45">
       <notes>
-        <note appliesTo="source">line: 40</note>
+        <note appliesTo="source">line: 38</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -452,9 +440,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+E</target>
       </segment>
     </unit>
-    <unit id="80f6b3f8-db32-41e8-8c18-57b4f778bf83">
+    <unit id="e7329f1f-67ee-439d-abaa-c0d56eca9742">
       <notes>
-        <note appliesTo="source">line: 42</note>
+        <note appliesTo="source">line: 40</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -462,9 +450,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used to indicate the position of the marker of the end of selection N.</target>
       </segment>
     </unit>
-    <unit id="26536769-46c0-45f2-aa85-3bdcdd418e93">
+    <unit id="4c7e3c75-2d88-42ab-82ac-d78d4bfcdfd7">
       <notes>
-        <note appliesTo="source">line: 43</note>
+        <note appliesTo="source">line: 41</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -472,9 +460,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Double pressure gives recapitulatif positions B and N, and the duration of the selection.</target>
       </segment>
     </unit>
-    <unit id="343efea4-5e2c-4cc6-9fa4-312767973cc4">
+    <unit id="46301116-43d3-4804-983e-ef4414270f94">
       <notes>
-        <note appliesTo="source">line: 45</note>
+        <note appliesTo="source">line: 43</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -482,9 +470,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+P</target>
       </segment>
     </unit>
-    <unit id="6d2f4f6a-7759-48b3-b1b8-ba5e52cbadd9">
+    <unit id="b046eea4-54d4-4ce7-929f-a97818bcf595">
       <notes>
-        <note appliesTo="source">line: 47</note>
+        <note appliesTo="source">line: 45</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -492,9 +480,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Give the reference of the actual part and the total number of parts in the current file.</target>
       </segment>
     </unit>
-    <unit id="826edcb3-4cfb-458f-875a-eabac0a169c7">
+    <unit id="a30d3f0b-3a95-4272-9fa3-f39e50505a3b">
       <notes>
-        <note appliesTo="source">line: 49</note>
+        <note appliesTo="source">line: 47</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -502,9 +490,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Shift+Space</target>
       </segment>
     </unit>
-    <unit id="7516505a-5ff5-4981-a608-1568976046fe">
+    <unit id="32c2f8bc-a7d2-413a-9953-0520c9527b92">
       <notes>
-        <note appliesTo="source">line: 51</note>
+        <note appliesTo="source">line: 49</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -512,9 +500,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used to determine the current level of the vu-meter, during recording.</target>
       </segment>
     </unit>
-    <unit id="a724ed50-1d04-407d-9d7b-80e70e748323">
+    <unit id="07ca4490-ce67-4450-aaa5-51d429bd0c52">
       <notes>
-        <note appliesTo="source">line: 52</note>
+        <note appliesTo="source">line: 50</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -522,9 +510,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Double pressure reset it.</target>
       </segment>
     </unit>
-    <unit id="90fcb94b-d826-41b5-b220-832a2dd466b5">
+    <unit id="4d831f6b-0716-431b-a960-fd404fae8ffc">
       <notes>
-        <note appliesTo="source">line: 54</note>
+        <note appliesTo="source">line: 52</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -532,9 +520,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Down Arrow</target>
       </segment>
     </unit>
-    <unit id="0ecaf8f3-90ae-43d7-adb6-7bbb55635f97">
+    <unit id="803b5891-86bf-4b0e-b17b-7877f260025c">
       <notes>
-        <note appliesTo="source">line: 56</note>
+        <note appliesTo="source">line: 54</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -542,9 +530,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets you see the current position of the playhead.</target>
       </segment>
     </unit>
-    <unit id="78d3b3b8-426d-40d9-9224-e12f043ff920">
+    <unit id="febc1849-73b6-457a-a2a6-d22b7047eefd">
       <notes>
-        <note appliesTo="source">line: 57</note>
+        <note appliesTo="source">line: 55</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -552,9 +540,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This command also position the cursor at the location of the marker of the end of selection N, while giving the location of this marker if a selection has been made.</target>
       </segment>
     </unit>
-    <unit id="af7b35e2-edcf-4991-b893-a6781fcb20b2">
+    <unit id="3230b31e-f6fa-4231-aec2-b86181480da5">
       <notes>
-        <note appliesTo="source">line: 58</note>
+        <note appliesTo="source">line: 56</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -562,9 +550,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>In the volume dialog box, vocalise the next value that can be reached generally with downArrow.</target>
       </segment>
     </unit>
-    <unit id="03fdf638-9e6e-4821-8ba1-9cbd2a0265d2">
+    <unit id="bcb3e8ca-ec62-4ebf-a617-ce5122e6f2f4">
       <notes>
-        <note appliesTo="source">line: 59</note>
+        <note appliesTo="source">line: 57</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -572,9 +560,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This value is not vocalized default.</target>
       </segment>
     </unit>
-    <unit id="037120a5-1f18-42dc-a490-25d108093517">
+    <unit id="ba85fbd4-704d-413b-be2e-2180785e4a9f">
       <notes>
-        <note appliesTo="source">line: 61</note>
+        <note appliesTo="source">line: 59</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -582,9 +570,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>End</target>
       </segment>
     </unit>
-    <unit id="a0313091-58f0-404a-bf5a-c9d0e6e85cd2">
+    <unit id="6c107caa-2142-4009-9f7e-e75640edf667">
       <notes>
-        <note appliesTo="source">line: 63</note>
+        <note appliesTo="source">line: 61</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -592,9 +580,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Moves the playback cursor at the end of the current file and give the total time.</target>
       </segment>
     </unit>
-    <unit id="f09d1d52-66bd-4340-bd9c-938921929620">
+    <unit id="f9d372ad-7fbc-4c39-9131-2d68b51b638a">
       <notes>
-        <note appliesTo="source">line: 65</note>
+        <note appliesTo="source">line: 63</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -602,9 +590,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Home</target>
       </segment>
     </unit>
-    <unit id="2f34a311-9be4-401e-9840-894d70ee1d07">
+    <unit id="3b0d7095-668f-4abf-a959-3c2071ce813f">
       <notes>
-        <note appliesTo="source">line: 67</note>
+        <note appliesTo="source">line: 65</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -612,9 +600,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Moves the playback cursor at the beginning of the current file.</target>
       </segment>
     </unit>
-    <unit id="01a839cc-35ea-4ac3-8666-1919e9b6b753">
+    <unit id="fd4d15fe-54db-46ea-92d3-9b491746a94e">
       <notes>
-        <note appliesTo="source">line: 69</note>
+        <note appliesTo="source">line: 67</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -622,9 +610,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Left Arrow</target>
       </segment>
     </unit>
-    <unit id="8a9f2278-9f5d-480e-8b45-3ca74c607e2a">
+    <unit id="0ed3c0d7-3fb2-4470-9a77-a9fdaa99aad9">
       <notes>
-        <note appliesTo="source">line: 71</note>
+        <note appliesTo="source">line: 69</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -632,9 +620,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets make a brief return back of one second during playback, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="7a77b062-302b-4c3d-8c87-f9e8018715dc">
+    <unit id="d9546bfd-43b0-4fe6-ac57-428eb691726e">
       <notes>
-        <note appliesTo="source">line: 72</note>
+        <note appliesTo="source">line: 70</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -642,9 +630,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This duration is configurable in the options of mp3directcut.</target>
       </segment>
     </unit>
-    <unit id="8a2ebe55-4cdf-4fe6-bb5d-262b22510ac4">
+    <unit id="2fce1c60-0ca5-43ab-b046-d3008742713a">
       <notes>
-        <note appliesTo="source">line: 74</note>
+        <note appliesTo="source">line: 72</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -652,9 +640,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>N</target>
       </segment>
     </unit>
-    <unit id="89a82dee-a077-480b-91ca-e1f7c216374d">
+    <unit id="6a9a561d-2be9-4d76-8f5d-3a15ad5a984d">
       <notes>
-        <note appliesTo="source">line: 76</note>
+        <note appliesTo="source">line: 74</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -662,9 +650,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used to confirm correct placement of the marker of the end of the selection N.</target>
       </segment>
     </unit>
-    <unit id="f114af7b-808b-4c0e-8b49-2862e2d59f4b">
+    <unit id="c8696b7a-1f87-43da-8485-3e4471ce375e">
       <notes>
-        <note appliesTo="source">line: 78</note>
+        <note appliesTo="source">line: 76</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -672,9 +660,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Page Down</target>
       </segment>
     </unit>
-    <unit id="8f3d66c6-b83d-4221-81fe-7e192556d47d">
+    <unit id="0f6f3d95-5119-4a56-b3e7-1b4d23e9759d">
       <notes>
-        <note appliesTo="source">line: 80</note>
+        <note appliesTo="source">line: 78</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -682,9 +670,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets make a leap forward of 10 seconds during playback, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="269fd8ed-0a5b-4f2f-b753-6a38a2d8dbde">
+    <unit id="3ede0566-67c4-4c81-b6c3-5312c8308d97">
       <notes>
-        <note appliesTo="source">line: 81</note>
+        <note appliesTo="source">line: 79</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -692,9 +680,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This duration is configurable in the options of mp3directcut.</target>
       </segment>
     </unit>
-    <unit id="5cdfb089-7457-48ac-bd1a-84d9eb15306b">
+    <unit id="2ab827bb-12d0-46eb-9ecb-1e84b0d34389">
       <notes>
-        <note appliesTo="source">line: 83</note>
+        <note appliesTo="source">line: 81</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -702,9 +690,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Page Up</target>
       </segment>
     </unit>
-    <unit id="e851b29d-13b4-4d24-920a-c79776bc2675">
+    <unit id="7b465c03-5807-40cb-8330-0ebf8eb8e903">
       <notes>
-        <note appliesTo="source">line: 85</note>
+        <note appliesTo="source">line: 83</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -712,9 +700,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets make a return back of 10 seconds during playback, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="1f605b61-5111-4dce-96a8-30d52684bf72">
+    <unit id="994428e6-c8a6-4f7e-9098-e1e5c57a91b8">
       <notes>
-        <note appliesTo="source">line: 86</note>
+        <note appliesTo="source">line: 84</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -722,9 +710,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This duration is configurable in the options of mp3directcut.</target>
       </segment>
     </unit>
-    <unit id="676b33f2-10fb-4253-b432-b581cba86257">
+    <unit id="12371373-0e09-4149-8235-377523837080">
       <notes>
-        <note appliesTo="source">line: 88</note>
+        <note appliesTo="source">line: 86</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -732,9 +720,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>R</target>
       </segment>
     </unit>
-    <unit id="f62b8368-439c-463c-8536-86fa729006f0">
+    <unit id="51e7648b-ce76-48fe-b93c-50f8494922ce">
       <notes>
-        <note appliesTo="source">line: 90</note>
+        <note appliesTo="source">line: 88</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -742,9 +730,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Allows to prepare a record and whether you can press spacebar to start.</target>
       </segment>
     </unit>
-    <unit id="c856de0d-7508-4f14-bd53-ec0ab6d85057">
+    <unit id="97f6a5ef-fb2a-488a-9c10-7680c35d9f89">
       <notes>
-        <note appliesTo="source">line: 92</note>
+        <note appliesTo="source">line: 90</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -752,9 +740,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Right Arrow</target>
       </segment>
     </unit>
-    <unit id="561be79e-79fa-4a5e-a547-9024fe1470b9">
+    <unit id="c8e277c6-8c69-4922-9e36-001e0c6becec">
       <notes>
-        <note appliesTo="source">line: 94</note>
+        <note appliesTo="source">line: 92</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -762,9 +750,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets do a brief forward of one second during playback, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="dbf89cde-2c8a-4ed5-9999-93b614bf3fcb">
+    <unit id="f042c5c4-f4ce-4167-afdb-f86a9f377da7">
       <notes>
-        <note appliesTo="source">line: 95</note>
+        <note appliesTo="source">line: 93</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -772,9 +760,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This duration is configurable in the options of mp3directcut.</target>
       </segment>
     </unit>
-    <unit id="cf3a18ac-bb2f-4d3f-a83b-6839cb9941c2">
+    <unit id="cb60cb87-453c-4b74-94ef-c4278c544141">
       <notes>
-        <note appliesTo="source">line: 97</note>
+        <note appliesTo="source">line: 95</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -782,9 +770,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Right Arrow</target>
       </segment>
     </unit>
-    <unit id="385c3404-d53f-4fc1-b917-23f5565b8c32">
+    <unit id="edf16cc4-80c4-45a1-ade2-16742261a706">
       <notes>
-        <note appliesTo="source">line: 99</note>
+        <note appliesTo="source">line: 97</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -792,9 +780,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Moves to the next splitting point, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="8b72a48b-474c-43b0-8387-60e7ba659ab8">
+    <unit id="2f05f17f-7a57-4568-aa93-a0e122b589fc">
       <notes>
-        <note appliesTo="source">line: 101</note>
+        <note appliesTo="source">line: 99</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -802,9 +790,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Ctrl+Left Arrow</target>
       </segment>
     </unit>
-    <unit id="c599e9b7-71d4-4e75-be9a-d8df034f84a3">
+    <unit id="9b289af3-29a5-4fe9-b1b6-4172303e059b">
       <notes>
-        <note appliesTo="source">line: 103</note>
+        <note appliesTo="source">line: 101</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -812,9 +800,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Moves to the previous splitting point, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="e7fe3bd1-1b54-4679-b231-5736c7738f0f">
+    <unit id="94a270dc-119c-4039-95d0-b6032d8cc727">
       <notes>
-        <note appliesTo="source">line: 105</note>
+        <note appliesTo="source">line: 103</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -822,9 +810,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Shift+Right Arrow</target>
       </segment>
     </unit>
-    <unit id="9b7e5ecc-f711-48fd-baac-137bf297b7e0">
+    <unit id="4ad37e82-eb94-4ed9-8341-f81eb056b23d">
       <notes>
-        <note appliesTo="source">line: 107</note>
+        <note appliesTo="source">line: 105</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -832,9 +820,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets do a brief forward of four hundredths of seconds during playback, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="34792cd2-a398-43bf-8269-a90d524754c3">
+    <unit id="61180684-b2ed-416e-8a5a-021f142506cf">
       <notes>
-        <note appliesTo="source">line: 109</note>
+        <note appliesTo="source">line: 107</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -842,9 +830,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Shift+Left Arrow</target>
       </segment>
     </unit>
-    <unit id="63b2d844-6010-40b5-a032-ed41cbb2aa88">
+    <unit id="b3c7710e-fc91-4f7b-95ff-205c0658e0a4">
       <notes>
-        <note appliesTo="source">line: 111</note>
+        <note appliesTo="source">line: 109</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -852,9 +840,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets do a brief backwards of four hundredths of seconds during playback, while giving the current duration.</target>
       </segment>
     </unit>
-    <unit id="386ad842-ad4b-4a08-aeb1-cc82ba3caf75">
+    <unit id="63c71eac-f53c-4c4a-a984-8f090e91aa9f">
       <notes>
-        <note appliesTo="source">line: 113</note>
+        <note appliesTo="source">line: 111</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -862,9 +850,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>S</target>
       </segment>
     </unit>
-    <unit id="4bf33aec-e656-4d5e-baba-64c00249500a">
+    <unit id="f238dda0-c2ce-4cbd-88e3-41721f061d34">
       <notes>
-        <note appliesTo="source">line: 115</note>
+        <note appliesTo="source">line: 113</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -872,9 +860,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used to stop the reading and give the current duration.</target>
       </segment>
     </unit>
-    <unit id="009c2c8a-1c18-4429-a4b1-731421141ff9">
+    <unit id="57bb34fe-1ace-45ef-9071-27da567594b5">
       <notes>
-        <note appliesTo="source">line: 117</note>
+        <note appliesTo="source">line: 115</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -882,9 +870,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Space</target>
       </segment>
     </unit>
-    <unit id="bda56e75-2961-4cc7-a3d5-ea53175f9550">
+    <unit id="f5d527fc-6129-402b-aeb0-53b0429fc972">
       <notes>
-        <note appliesTo="source">line: 119</note>
+        <note appliesTo="source">line: 117</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -892,9 +880,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>If the recording is ready, start this recording.</target>
       </segment>
     </unit>
-    <unit id="8daa51ed-6937-49cf-b1a4-6bdb85c08c1d">
+    <unit id="3432293b-e213-4542-bb43-b29cb2a5f604">
       <notes>
-        <note appliesTo="source">line: 120</note>
+        <note appliesTo="source">line: 118</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -902,9 +890,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>If a recording is in progress, stop it by positioning the cursor at the beginning.</target>
       </segment>
     </unit>
-    <unit id="62549db6-02d8-473f-8075-0a85c1db3e18">
+    <unit id="56da6870-120d-4bdf-b491-c501644a9ec7">
       <notes>
-        <note appliesTo="source">line: 121</note>
+        <note appliesTo="source">line: 119</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -912,9 +900,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>If a file is loaded, start the reading.</target>
       </segment>
     </unit>
-    <unit id="3f999390-b48d-43eb-81bb-ffe210b5e438">
+    <unit id="b25ec37a-ca1e-4795-970c-140bdb962314">
       <notes>
-        <note appliesTo="source">line: 122</note>
+        <note appliesTo="source">line: 120</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -922,9 +910,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>If a read is in progress, allows to do a pause by giving current duration.</target>
       </segment>
     </unit>
-    <unit id="38b6de6f-b64a-4ad0-8667-702be0994cea">
+    <unit id="ab087285-9f23-4116-9b2d-b14a979ae9e9">
       <notes>
-        <note appliesTo="source">line: 123</note>
+        <note appliesTo="source">line: 121</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -932,9 +920,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>If read is paused, allows to restart the reading from the current location.</target>
       </segment>
     </unit>
-    <unit id="34d318c9-3dcb-46cf-8943-771b1a8c284b">
+    <unit id="e5abd160-e381-41d3-a15f-94b0b5861c28">
       <notes>
-        <note appliesTo="source">line: 125</note>
+        <note appliesTo="source">line: 123</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -942,9 +930,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Up Arrow</target>
       </segment>
     </unit>
-    <unit id="5455a15a-777e-4741-8186-4424c7230dc0">
+    <unit id="fff4e782-8653-4df0-8b93-ec91f0a5b19c">
       <notes>
-        <note appliesTo="source">line: 127</note>
+        <note appliesTo="source">line: 125</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -952,9 +940,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets you see the current position of the playhead.</target>
       </segment>
     </unit>
-    <unit id="2c26e0dc-cdd5-428b-a4c7-46606fd716de">
+    <unit id="4e2373a2-f527-4876-9bd5-bd89591d0d19">
       <notes>
-        <note appliesTo="source">line: 128</note>
+        <note appliesTo="source">line: 126</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -962,9 +950,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This command also position the cursor at the location of the marker of the beginning of selection B, while giving the location of this marker if a selection has been made.</target>
       </segment>
     </unit>
-    <unit id="3b4bd1fd-0221-4b4c-a0ff-7c5b4243c1a1">
+    <unit id="e5a8cb2d-556e-4a79-b2d8-76cf1be6a348">
       <notes>
-        <note appliesTo="source">line: 129</note>
+        <note appliesTo="source">line: 127</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -972,9 +960,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>In the volume dialog box, vocalise the previous value that can be reached generally with upArrow.</target>
       </segment>
     </unit>
-    <unit id="37223e90-9b92-42c8-a2d3-00d17b95afd3">
+    <unit id="b014c127-700a-4c56-8cca-a278313ddc9b">
       <notes>
-        <note appliesTo="source">line: 130</note>
+        <note appliesTo="source">line: 128</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -982,9 +970,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This value is not vocalized default.</target>
       </segment>
     </unit>
-    <unit id="08bc486d-9d20-4b56-9fba-6fa2574077e9">
+    <unit id="c9b1916b-9049-465f-9012-f144b83e8acd">
       <notes>
-        <note appliesTo="source">line: 132</note>
+        <note appliesTo="source">line: 130</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -992,9 +980,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>NVDA+H</target>
       </segment>
     </unit>
-    <unit id="98ac7851-4b58-4689-8afe-e59a243018a9">
+    <unit id="ba6e1737-1c5e-4347-a21d-8f4f3372ee77">
       <notes>
-        <note appliesTo="source">line: 134</note>
+        <note appliesTo="source">line: 132</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -1002,9 +990,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Lets open the help of the current add-on.</target>
       </segment>
     </unit>
-    <unit id="08a84ca4-e4e7-4552-b469-5aca7460e8ac">
+    <unit id="98ede87f-8baf-454c-accb-dfbac856fe14">
       <notes>
-        <note appliesTo="source">line: 136</note>
+        <note appliesTo="source">line: 134</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1012,9 +1000,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Compatibility ##</target>
       </segment>
     </unit>
-    <unit id="3cd121c0-ee46-4e9d-8835-b0ba352ce59f">
+    <unit id="50f7432a-4a91-44db-afa5-1d5f00f659e2">
       <notes>
-        <note appliesTo="source">line: 138</note>
+        <note appliesTo="source">line: 136</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1022,9 +1010,79 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>This add-on is compatible with the versions of NVDA ranging from 2019.3 and beyond.</target>
       </segment>
     </unit>
-    <unit id="b0a7f1df-9f90-4fc4-9ed3-f8d89a261e6f">
+    <unit id="a9a696aa-4d5f-4b2b-bd31-b5e6ab917cc4">
+      <notes>
+        <note appliesTo="source">line: 138</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 20240327.0.0</source>
+        <target>Changes for 20240327.0.0</target>
+      </segment>
+    </unit>
+    <unit id="bf2f606f-9dc2-4204-b950-4a58924f0748">
       <notes>
         <note appliesTo="source">line: 140</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Fixed a bug that caused a log error when reloading plugins, thanks to Rob, from nvda-addons mailing list;</source>
+        <target>Fixed a bug that caused a log error when reloading plugins, thanks to Rob, from nvda-addons mailing list;</target>
+      </segment>
+    </unit>
+    <unit id="c445ec3a-5384-4af2-b88c-21d7b2430e3b">
+      <notes>
+        <note appliesTo="source">line: 142</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 20240326.0.0</source>
+        <target>Changes for 20240326.0.0</target>
+      </segment>
+    </unit>
+    <unit id="4c910a0a-2c15-4bad-80d0-f83e733f63ec">
+      <notes>
+        <note appliesTo="source">line: 144</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Updated compatibility for nvda-2024.1.;</source>
+        <target>Updated compatibility for nvda-2024.1.;</target>
+      </segment>
+    </unit>
+    <unit id="588c84c8-8542-4575-a150-a18edd38bf93">
+      <notes>
+        <note appliesTo="source">line: 145</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</source>
+        <target>Deleted download link from readme, the download link for future updates will now only be available from the add-on store.</target>
+      </segment>
+    </unit>
+    <unit id="1ad394eb-2997-49cc-9b20-8129b42045c5">
+      <notes>
+        <note appliesTo="source">line: 147</note>
+        <note appliesTo="source">prefix: ## </note>
+      </notes>
+      <segment state="initial">
+        <source>Changes for 20231229.0.0 ##</source>
+        <target>Changes for 20231229.0.0 ##</target>
+      </segment>
+    </unit>
+    <unit id="c011181c-eeb7-4bed-acad-0a7c76b08b91">
+      <notes>
+        <note appliesTo="source">line: 149</note>
+        <note appliesTo="source">prefix: * </note>
+      </notes>
+      <segment state="initial">
+        <source>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</source>
+        <target>Added a backward compatible implementation to support speak on demand mode, which will soon be available with nvda-2024.1.</target>
+      </segment>
+    </unit>
+    <unit id="4ef90970-033d-4113-95dd-ae689ed4f006">
+      <notes>
+        <note appliesTo="source">line: 151</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1032,9 +1090,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Changes for 20231007.0.0 ##</target>
       </segment>
     </unit>
-    <unit id="6eceb620-1ca4-4033-8c79-d42228e82775">
+    <unit id="801309b6-2822-41af-91c9-15b8c93e394d">
       <notes>
-        <note appliesTo="source">line: 142</note>
+        <note appliesTo="source">line: 153</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1042,9 +1100,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>After placing the cutting points and after opening the cutting properties window, with "Ctrl+N", adding accessibility to the title of this window by indicating the part index.</target>
       </segment>
     </unit>
-    <unit id="c8406f81-6d26-4e58-8fb1-15a648e02952">
+    <unit id="c3d1107f-64c9-40b0-a7dc-094611dbce37">
       <notes>
-        <note appliesTo="source">line: 143</note>
+        <note appliesTo="source">line: 154</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1052,9 +1110,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>In reading mode, after moving the start or end markers of selections with keys 1 to 6 of the alphanumeric pad, addition of automatic start of reading from the new position;</target>
       </segment>
     </unit>
-    <unit id="c5c879cd-dfd9-4a21-a0d0-19adf87928dd">
+    <unit id="fb03bf3e-e144-44d3-a87d-ca054db97272">
       <notes>
-        <note appliesTo="source">line: 144</note>
+        <note appliesTo="source">line: 155</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1062,9 +1120,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Fixed a bug that occurred when consulting the remaining time with "control+shift+r" from the beginning of the track.</target>
       </segment>
     </unit>
-    <unit id="ba0a0dc2-2786-4420-8b2e-46f85937fa8c">
+    <unit id="21392f9f-37a1-4e89-95be-1f75d02a5f31">
       <notes>
-        <note appliesTo="source">line: 146</note>
+        <note appliesTo="source">line: 157</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1072,9 +1130,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Changes for 20230728.0.0 ##</target>
       </segment>
     </unit>
-    <unit id="47a5183c-e6ec-4d33-ad7b-88e07e5c7000">
+    <unit id="796545c5-7036-4e97-add0-45078aa2a641">
       <notes>
-        <note appliesTo="source">line: 148</note>
+        <note appliesTo="source">line: 159</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1082,9 +1140,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Applied the flake8 and mypy rules to the code;</target>
       </segment>
     </unit>
-    <unit id="27cd38b8-09ab-4a36-b8d9-2120cf2345ee">
+    <unit id="3f6f3047-1a1e-4fe7-9a27-368c530a8b45">
       <notes>
-        <note appliesTo="source">line: 149</note>
+        <note appliesTo="source">line: 160</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1092,9 +1150,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Changed the minimum supported NVDA version to 2019.3 to support annotations introduced in Python 3.</target>
       </segment>
     </unit>
-    <unit id="dfaa1371-e5b0-4627-ab7a-43b41bb5b458">
+    <unit id="642b2c06-6741-423f-b6c3-24ee7e0f52bc">
       <notes>
-        <note appliesTo="source">line: 151</note>
+        <note appliesTo="source">line: 162</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1102,9 +1160,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Changes for 20230607.0.0 ##</target>
       </segment>
     </unit>
-    <unit id="f987f535-2e68-4b21-99d3-84ebbf9b29ed">
+    <unit id="72548d72-8502-4181-9d85-0d05483ba81f">
       <notes>
-        <note appliesTo="source">line: 153</note>
+        <note appliesTo="source">line: 164</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1112,9 +1170,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the following workflows:</target>
       </segment>
     </unit>
-    <unit id="f2e37bc3-3794-48e9-a744-bb3c5b5a0e6f">
+    <unit id="a0f54a10-9de7-4ee5-9d51-b5c45dbdbd65">
       <notes>
-        <note appliesTo="source">line: 154</note>
+        <note appliesTo="source">line: 165</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="initial">
@@ -1122,9 +1180,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>auto-update-translations - to automatically update translations from NVDA's translation system.</target>
       </segment>
     </unit>
-    <unit id="3a661f9e-cec6-4a2a-a7f0-634807fcd3bb">
+    <unit id="23b6eedc-e35e-41fd-965a-353152e1c543">
       <notes>
-        <note appliesTo="source">line: 155</note>
+        <note appliesTo="source">line: 166</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="initial">
@@ -1132,9 +1190,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>release-on-tag..yaml: to build and publish the addon as soon as a new tag is pushed;</target>
       </segment>
     </unit>
-    <unit id="c00d7ced-1d31-40bf-a974-856e6ed07a15">
+    <unit id="dc1d44b4-66f8-4bf6-9ccb-86684dcac3fa">
       <notes>
-        <note appliesTo="source">line: 156</note>
+        <note appliesTo="source">line: 167</note>
         <note appliesTo="source">prefix:  * </note>
       </notes>
       <segment state="initial">
@@ -1142,9 +1200,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>manual-release.yaml: to build and release new versions of the add-on manually.</target>
       </segment>
     </unit>
-    <unit id="3d40066d-19de-4d7b-8d18-c5e85354ff10">
+    <unit id="a0e496ad-2d5a-4db0-aae5-f676dce6d298">
       <notes>
-        <note appliesTo="source">line: 157</note>
+        <note appliesTo="source">line: 168</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1152,9 +1210,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Updated translations.</target>
       </segment>
     </unit>
-    <unit id="07d25ca4-a45c-4674-83f7-cc0fa6a7ee76">
+    <unit id="db03b200-8c57-44c1-8c47-44f8ba9a0d09">
       <notes>
-        <note appliesTo="source">line: 159</note>
+        <note appliesTo="source">line: 170</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1162,9 +1220,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Changes for version 20230508.0.0 and beyond ##</target>
       </segment>
     </unit>
-    <unit id="682848e2-b2a9-4a69-9e5d-2700c7612c76">
+    <unit id="3dffb991-fb95-476e-8ffa-b77768afe060">
       <notes>
-        <note appliesTo="source">line: 161</note>
+        <note appliesTo="source">line: 172</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1172,9 +1230,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>• Changed version number, minimum NVDA version and download link according to store conventions/requirements.</target>
       </segment>
     </unit>
-    <unit id="d2d9f085-4248-420b-8f4c-4df2ddbae4ab">
+    <unit id="ae4967cb-f71a-4832-9386-4dd028b40682">
       <notes>
-        <note appliesTo="source">line: 163</note>
+        <note appliesTo="source">line: 174</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1182,9 +1240,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 20.12 ##</target>
       </segment>
     </unit>
-    <unit id="ebbdd611-7e7f-401c-8255-cb7dee44c5cb">
+    <unit id="4f5bfdc1-1cc9-45b7-9762-23d20981fed2">
       <notes>
-        <note appliesTo="source">line: 165</note>
+        <note appliesTo="source">line: 176</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1192,9 +1250,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Stop speech during recording and reading for the latest versions of mp3directcut;</target>
       </segment>
     </unit>
-    <unit id="14eca2a6-c5e7-4f62-9f9b-c55c4b5c7121">
+    <unit id="73727aca-8c73-446f-87c8-e74f68405b26">
       <notes>
-        <note appliesTo="source">line: 166</note>
+        <note appliesTo="source">line: 177</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1202,9 +1260,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Fixed reading remaining time for new versions of NVDA using Python 3.</target>
       </segment>
     </unit>
-    <unit id="c6262ed5-46a0-4623-99b7-3cdf65ff9bed">
+    <unit id="e8bf53ed-32b6-45bf-b2d5-c06b95250b0a">
       <notes>
-        <note appliesTo="source">line: 168</note>
+        <note appliesTo="source">line: 179</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1212,9 +1270,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 19.02 ##</target>
       </segment>
     </unit>
-    <unit id="a995f3f7-95aa-4371-9188-fa576457e072">
+    <unit id="ac13f4b1-538e-423a-8127-b65fceac9df4">
       <notes>
-        <note appliesTo="source">line: 170</note>
+        <note appliesTo="source">line: 181</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1222,9 +1280,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the add-on's configuration in the settings panel available since nvda 2018.2;</target>
       </segment>
     </unit>
-    <unit id="c05909bc-a11c-4028-9450-8bad04f460c6">
+    <unit id="bccb9982-dcc5-4c96-9378-526cb3fc35a5">
       <notes>
-        <note appliesTo="source">line: 171</note>
+        <note appliesTo="source">line: 182</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1232,9 +1290,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Changed version numbering using YY.MM (The year in 2 digits, followed by a dot, followed by the month in 2 digits);</target>
       </segment>
     </unit>
-    <unit id="cd1920c7-ad1e-46ba-a602-6cf54f355981">
+    <unit id="f959ee8d-d656-416d-be32-4dcdf089bce7">
       <notes>
-        <note appliesTo="source">line: 172</note>
+        <note appliesTo="source">line: 183</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1242,9 +1300,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added compatibility with the new versioning format of add-on, appeared since nvda 2019.1.</target>
       </segment>
     </unit>
-    <unit id="341154e0-df8e-4feb-a2ff-dd01c8d3eab0">
+    <unit id="814096d2-26d4-4a5b-8f26-21889e3acc1a">
       <notes>
-        <note appliesTo="source">line: 174</note>
+        <note appliesTo="source">line: 185</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1252,9 +1310,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 4.0 ##</target>
       </segment>
     </unit>
-    <unit id="c50872bc-27b1-4c03-846a-39cb71844bf2">
+    <unit id="ddf0dc57-849e-46ab-bc0e-3f6dd8ad90e6">
       <notes>
-        <note appliesTo="source">line: 176</note>
+        <note appliesTo="source">line: 187</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1262,9 +1320,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the Compatibility of the add-on with both Python 2.7 and 3;</target>
       </segment>
     </unit>
-    <unit id="a3983a0c-8031-4176-864d-67842a7c94e2">
+    <unit id="7ba17013-85ea-49f8-987d-5e31594f6e69">
       <notes>
-        <note appliesTo="source">line: 177</note>
+        <note appliesTo="source">line: 188</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1272,9 +1330,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Fixed a bug with add-on paths that contain non-ASCII characters.</target>
       </segment>
     </unit>
-    <unit id="c4d263ff-8f40-4ed2-8176-dc9ac2b2f653">
+    <unit id="3e9b02fe-31e7-4104-8deb-a2af257c9ceb">
       <notes>
-        <note appliesTo="source">line: 179</note>
+        <note appliesTo="source">line: 190</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1282,9 +1340,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 3.0 ##</target>
       </segment>
     </unit>
-    <unit id="e6801a52-c529-4e15-891d-294e34f21541">
+    <unit id="75832da2-5f04-4d96-b7a6-176e13ab3f45">
       <notes>
-        <note appliesTo="source">line: 181</note>
+        <note appliesTo="source">line: 192</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1292,9 +1350,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used the gui.guiHelper module to ensure the correct appearance of the addon's configuration dialog;</target>
       </segment>
     </unit>
-    <unit id="2748192c-f069-431e-9c0e-2b3642d4f6eb">
+    <unit id="485bf522-4249-4565-996f-e32906739a99">
       <notes>
-        <note appliesTo="source">line: 182</note>
+        <note appliesTo="source">line: 193</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1302,9 +1360,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used format instead of %s for formatted strings;</target>
       </segment>
     </unit>
-    <unit id="ea95c0d6-9aab-4946-bf6a-73fdc07a3901">
+    <unit id="c4f4edaa-4c6f-4b77-9497-5f3395c3333c">
       <notes>
-        <note appliesTo="source">line: 183</note>
+        <note appliesTo="source">line: 194</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1312,9 +1370,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Used compliance with guidelines for implementation.</target>
       </segment>
     </unit>
-    <unit id="2ab55415-b698-4f12-a151-2886daa12557">
+    <unit id="53e019c9-6fa8-4df3-a448-390073159f38">
       <notes>
-        <note appliesTo="source">line: 185</note>
+        <note appliesTo="source">line: 196</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1322,9 +1380,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 2.3 ##</target>
       </segment>
     </unit>
-    <unit id="41814829-5d56-438d-9dc9-3dbff6ecefcc">
+    <unit id="9aa3415a-7982-414f-8767-a189d75f9d58">
       <notes>
-        <note appliesTo="source">line: 187</note>
+        <note appliesTo="source">line: 198</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1332,9 +1390,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the GPL license to the addon;</target>
       </segment>
     </unit>
-    <unit id="f995246f-e6f9-4d8c-86c5-65657f960fe6">
+    <unit id="1305a51e-44a5-4271-8e9c-45ae6d503071">
       <notes>
-        <note appliesTo="source">line: 188</note>
+        <note appliesTo="source">line: 199</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1342,9 +1400,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Changed the shortcut of the script giving the end of selection from Ctrl + Shift + N to Ctrl + Shift + E because Ctrl + Shift + N doesn't work with the latest versions of mp3DirectCut;</target>
       </segment>
     </unit>
-    <unit id="0b01c061-d23e-418f-97b9-808b387f18e1">
+    <unit id="9161c0d7-81b4-4c5a-b301-f236dbfa1d31">
       <notes>
-        <note appliesTo="source">line: 189</note>
+        <note appliesTo="source">line: 200</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1352,9 +1410,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added a script to confirm that the selection has been canceled with 'Ctrl+r';</target>
       </segment>
     </unit>
-    <unit id="3c686428-791f-4b2e-a42a-d63fb06b8157">
+    <unit id="c7023400-85e2-4ad4-8a07-dbce7de89bd2">
       <notes>
-        <note appliesTo="source">line: 190</note>
+        <note appliesTo="source">line: 201</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1362,9 +1420,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Made some corrections in the code of the appModule 'mp3directcut.py'.</target>
       </segment>
     </unit>
-    <unit id="61369089-5e36-4671-8051-a084b3d598ea">
+    <unit id="270d4cc5-9540-40fa-b596-f15f9bbc7ce6">
       <notes>
-        <note appliesTo="source">line: 192</note>
+        <note appliesTo="source">line: 203</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1372,9 +1430,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 2.2 ##</target>
       </segment>
     </unit>
-    <unit id="bdb55962-7a40-46be-9a25-17127ee53557">
+    <unit id="842fc3a7-bcbc-4844-9b66-7441fa56ac5c">
       <notes>
-        <note appliesTo="source">line: 194</note>
+        <note appliesTo="source">line: 205</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1382,9 +1440,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Correction of the scripts giving the selection markers' locations.</target>
       </segment>
     </unit>
-    <unit id="7dd91d5d-448b-4f1b-846f-42f4459e8b27">
+    <unit id="c27cc84f-0658-4369-a861-ee73308f0237">
       <notes>
-        <note appliesTo="source">line: 196</note>
+        <note appliesTo="source">line: 207</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1392,9 +1450,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 2.1.1 ##</target>
       </segment>
     </unit>
-    <unit id="a2c6f6f4-50c5-4333-87b2-d28b960db2ed">
+    <unit id="856e56ec-e9ce-49fc-80e6-a108fbf79153">
       <notes>
-        <note appliesTo="source">line: 198</note>
+        <note appliesTo="source">line: 209</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1402,9 +1460,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Removing the script giving the total time and adding this information to the script giving the elapsed time;</target>
       </segment>
     </unit>
-    <unit id="e8ca3dc6-a010-4070-823a-cb52b369ea00">
+    <unit id="3ac6ed0e-1632-4726-bfe9-587136674ec3">
       <notes>
-        <note appliesTo="source">line: 199</note>
+        <note appliesTo="source">line: 210</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1412,9 +1470,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the ability to enable or disable the announcements related to the space key in the module's configuration options, separately from other announcements;</target>
       </segment>
     </unit>
-    <unit id="250cdd21-a539-4f15-aa5c-f1c2a90ec3f3">
+    <unit id="a9e0f19b-acc2-4371-b3d5-2d9c9d7a32f7">
       <notes>
-        <note appliesTo="source">line: 200</note>
+        <note appliesTo="source">line: 211</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1422,9 +1480,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the ability to enable or disable the announcement of placement of the selection marqueures in the module's configuration options;</target>
       </segment>
     </unit>
-    <unit id="f742c0cd-fd77-4590-962c-0143421ee630">
+    <unit id="3fc696d1-c02e-4866-848f-10b7ac10b87a">
       <notes>
-        <note appliesTo="source">line: 201</note>
+        <note appliesTo="source">line: 212</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1432,9 +1490,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Adding the announcement of the current part when moving through the cutting points;</target>
       </segment>
     </unit>
-    <unit id="65eb39b0-60e4-450c-86d5-c65783c9dc20">
+    <unit id="5bbd399e-572a-4efb-9791-7557652f8526">
       <notes>
-        <note appliesTo="source">line: 202</note>
+        <note appliesTo="source">line: 213</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1442,9 +1500,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Correction of announcements related to vertical keys;</target>
       </segment>
     </unit>
-    <unit id="ff773ab8-6fff-4177-885c-3add39d529f9">
+    <unit id="f4bfc216-2a3b-482a-aaf0-3b9f0d855ab0">
       <notes>
-        <note appliesTo="source">line: 203</note>
+        <note appliesTo="source">line: 214</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1452,9 +1510,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Adding a script to open the help of the current add-on with 'NVDA+H';</target>
       </segment>
     </unit>
-    <unit id="ffe3be39-ed75-46e1-acb2-4118608b021a">
+    <unit id="ca4725ec-d283-43a8-8a07-fb3da9159cc4">
       <notes>
-        <note appliesTo="source">line: 204</note>
+        <note appliesTo="source">line: 215</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1462,9 +1520,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Displacement of the add-on's configuration menu from the Tools menu to the Preferences menu of NVDA.</target>
       </segment>
     </unit>
-    <unit id="338021a8-4c75-43ae-94bb-c7aba6b5f33f">
+    <unit id="1bad779c-9653-4098-b143-aac190afeb84">
       <notes>
-        <note appliesTo="source">line: 206</note>
+        <note appliesTo="source">line: 217</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1472,9 +1530,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 2.1 ##</target>
       </segment>
     </unit>
-    <unit id="e76545e3-2278-4c34-9f35-48820c2ed772">
+    <unit id="7d22fe44-9d70-4ba7-987c-0e8b1abb966a">
       <notes>
-        <note appliesTo="source">line: 208</note>
+        <note appliesTo="source">line: 219</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1482,9 +1540,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Adding a script to vocalize moving to the next splitting point with Control+Right Arrow;</target>
       </segment>
     </unit>
-    <unit id="25d435ba-1636-4fe1-83e3-d2f9e6e1d36e">
+    <unit id="0f017d6c-8e95-463d-92e4-46d8565bb916">
       <notes>
-        <note appliesTo="source">line: 209</note>
+        <note appliesTo="source">line: 220</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1492,9 +1550,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Adding a script to vocalize moving to the previous splitting point with Control+Left Arrow;</target>
       </segment>
     </unit>
-    <unit id="5d3cb539-8af4-4686-9ed6-e93d4d65c269">
+    <unit id="36cd1dc8-29d5-4274-aecd-e5b3eaf4ebf0">
       <notes>
-        <note appliesTo="source">line: 210</note>
+        <note appliesTo="source">line: 221</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1502,9 +1560,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Adding a script to vocalize the displacement of 4 hundredths of second ahead, with Shift+Right Arrow;</target>
       </segment>
     </unit>
-    <unit id="00ba7911-3e60-4c00-a04f-a7d7ba664bf3">
+    <unit id="300df4f1-d083-4b80-9678-bbde7cd57ae2">
       <notes>
-        <note appliesTo="source">line: 211</note>
+        <note appliesTo="source">line: 222</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1512,9 +1570,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Adding a script to vocalize the displacement of 4 hundredths of second back, with Shift+Left Arrow;</target>
       </segment>
     </unit>
-    <unit id="f0610897-9f4a-47f0-850f-1b39ed6db6fc">
+    <unit id="0de50d7d-5a35-4207-96a4-6e2369f3e4be">
       <notes>
-        <note appliesTo="source">line: 212</note>
+        <note appliesTo="source">line: 223</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1522,9 +1580,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Correction of the addon's summary from 'for mp3DirectCut' to 'mp3DirectCut'.</target>
       </segment>
     </unit>
-    <unit id="f5b42a73-9a2e-4a0d-9300-c4f63a2f5bad">
+    <unit id="cc6c9a3b-50b6-45f6-83fe-ebcba8e63017">
       <notes>
-        <note appliesTo="source">line: 214</note>
+        <note appliesTo="source">line: 225</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1532,9 +1590,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 2.0 ##</target>
       </segment>
     </unit>
-    <unit id="c230185f-6540-4a42-afa0-4b1924b1c81b">
+    <unit id="80132b14-85a6-4e5f-94ae-b063677c1500">
       <notes>
-        <note appliesTo="source">line: 216</note>
+        <note appliesTo="source">line: 227</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1542,9 +1600,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Adding a script to know the remaining time with 'Control Shift R';</target>
       </segment>
     </unit>
-    <unit id="965cacaf-d745-4965-b0ae-d0431ca1c321">
+    <unit id="2eeafc7a-0592-4c41-a69d-afc238a1252d">
       <notes>
-        <note appliesTo="source">line: 217</note>
+        <note appliesTo="source">line: 228</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1552,9 +1610,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Fixed reading durations including hours;</target>
       </segment>
     </unit>
-    <unit id="dbd5e09c-d4cc-4326-aa03-b0d492b7a5e9">
+    <unit id="d688db45-930f-40bc-95d8-bb35a35a66b1">
       <notes>
-        <note appliesTo="source">line: 218</note>
+        <note appliesTo="source">line: 229</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1562,9 +1620,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added ability to differentiate thousandths or hundredths of seconds.</target>
       </segment>
     </unit>
-    <unit id="8b008948-f667-4160-9c1d-7a57f15d5886">
+    <unit id="228426a7-4f7e-403e-9e93-3d032f1cc212">
       <notes>
-        <note appliesTo="source">line: 220</note>
+        <note appliesTo="source">line: 231</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1572,9 +1630,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 1.1 ##</target>
       </segment>
     </unit>
-    <unit id="eb71b85d-66b7-4bd0-93d0-c8951e9cc36b">
+    <unit id="0c547549-38cf-4bf8-ac04-5650da70860d">
       <notes>
-        <note appliesTo="source">line: 222</note>
+        <note appliesTo="source">line: 233</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1582,9 +1640,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the ability to include the mp3DirectCut category into the Input Gestures;</target>
       </segment>
     </unit>
-    <unit id="70cebd46-215f-430b-8e57-72879745ab9d">
+    <unit id="46b38073-5a70-4ed5-99b0-aefda01a118f">
       <notes>
-        <note appliesTo="source">line: 224</note>
+        <note appliesTo="source">line: 235</note>
         <note appliesTo="source">prefix:     * </note>
       </notes>
       <segment state="initial">
@@ -1592,9 +1650,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>They will be visible only during use of the mp3DirectCut software.</target>
       </segment>
     </unit>
-    <unit id="bb249b8a-2a39-4c25-87c0-24c7897a5334">
+    <unit id="8a016890-ccae-4305-9a33-274f00660fcc">
       <notes>
-        <note appliesTo="source">line: 226</note>
+        <note appliesTo="source">line: 237</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
@@ -1602,9 +1660,9 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Added the ability to enable or disable automatic messages, in the tools menu of NVDA, item 'mp3DirectCut configuration';</target>
       </segment>
     </unit>
-    <unit id="9554ce70-0ae4-42f1-8e29-3a05ea54af5b">
+    <unit id="4e919993-89a8-41ae-9678-237e35285474">
       <notes>
-        <note appliesTo="source">line: 228</note>
+        <note appliesTo="source">line: 239</note>
         <note appliesTo="source">prefix: ## </note>
       </notes>
       <segment state="initial">
@@ -1612,32 +1670,14 @@ $(ID:b40d4bca-c971-4900-9d7a-a4df26d05592)
         <target>Change for version 1.0 ##</target>
       </segment>
     </unit>
-    <unit id="bbc49d80-9746-4cdb-be10-8e3abe8afc55">
+    <unit id="b8e25f8d-02b1-45fc-9705-e2d7e02d0f02">
       <notes>
-        <note appliesTo="source">line: 230</note>
+        <note appliesTo="source">line: 241</note>
         <note appliesTo="source">prefix: * </note>
       </notes>
       <segment state="initial">
         <source>Initial version.</source>
         <target>Initial version.</target>
-      </segment>
-    </unit>
-    <unit id="a70e327f-7ce2-444d-a5c1-3da06b8459cf">
-      <notes>
-        <note appliesTo="source">line: 232</note>
-      </notes>
-      <segment state="initial">
-        <source>[1]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</source>
-        <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</target>
-      </segment>
-    </unit>
-    <unit id="b40d4bca-c971-4900-9d7a-a4df26d05592">
-      <notes>
-        <note appliesTo="source">line: 234</note>
-      </notes>
-      <segment state="initial">
-        <source>[2]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</source>
-        <target>[2]: https://www.nvaccess.org/addonStore/legacy?file=mp3DirectCut</target>
       </segment>
     </unit>
   </file>
