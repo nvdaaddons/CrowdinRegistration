@@ -1,56 +1,78 @@
-### NVDA Speech Logger add-on
+### Дополнение регистратора речи NVDA
 
-Author: Luke Davis, with contributions by James Scholes
+* Автор: Luke Davis, при участии James Scholes
+* Загрузить [стабильную версию][1]
+* Совместимость с NVDA: 2019.3.1 и выше
 
-An [NVDA](https://nvaccess.org/) add-on to log speech to a file or files.
-It can log speech generated on the local machine into a text file.
-It can also log speech from a remote machine received through the [NVDA Remote](https://nvdaremote.com/) add-on, either to the same or a different file.
+Дополнение для [NVDA][3], записывающее речь в файл или файлы журнала.
+Оно может записывать речь, сгенерированную на локальном компьютере, в текстовый файл.
+Также оно может записывать речь с удалённого компьютера, полученную через дополнение [NVDA Remote][5], либо в тот же, либо в другой файл.
 
-### Configuration
+**Примечание**: Эта функция не проверена со встроенной удалённой функцией NVDA по состоянию на июнь 2025 года.
 
-To configure this add-on, open the NVDA menu, go to Preferences, then Settings, then Speech Logger (NVDA+N, P, S, then press S until you get there, on a default U.S. English keyboard).
+### Конфигурация
 
-Note: the add-on can only be configured while in the Normal Configuration profile of NVDA. The add-on is not profile-aware. If you can think of some use case that requires it to operate differently in different profiles, please contact the author or file an issue on the [GitHub repo](https://github.com/opensourcesys/speechLogger/issues/).
+Чтобы настроить это дополнение, откройте меню NVDA, перейдите в "Параметры", затем "Настройки", затем "Регистратор речи" (NVDA+N, P, S, затем нажимайте S, пока не дойдете до нужной точки, на клавиатуре, используемой по умолчанию для английского языка в США).
+В категории "Конфигурация" жестов ввода также есть неназначенный жест, который вы можете назначить и использовать для быстрого непосредственного открытия настроек дополнения.
+Примечание: дополнение можно настроить, только находясь в обычном профиле конфигурации NVDA.
+Это дополнение не поддерживает работу с разными профилями.
+Если вы можете решить, как его использовать в случае, если требуется, чтобы оно работало по-разному в разных профилях, пожалуйста, свяжитесь с автором или отправьте сообщение о проблеме на [репозиторий GitHub][2].
 
-The following settings are available:
+### Доступны следующие настройки:
 
-- The log directory. You can enter or browse for your desired destination directory, which must already exist. System variables such as %temp%, %userprofile%, etc., can be used in this field.
-- Local log filename. The created file will be placed in the above directory. This will contain speech logged while the local log mode is engaged. This can be the same as the remote log file. Leave blank to disable this kind of logging completely.
-- Remote log filename. The created file will be placed in the above directory. This will contain speech logged while the remote log mode is engaged. It can be the same as the local log file. Leave blank to disable this kind of logging completely.
-- Separator. This combobox lets you choose one of the available utterance separators. See below for more information.
-- Custom separator. This field lets you enter a custom utterance separator (see below), which is used if "custom" is chosen in the combobox.
+* Каталог журнала. Вы можете ввести или просмотреть нужный каталог назначения, который должен уже существовать. В этом поле можно использовать системные переменные, такие как %temp%, %userprofile% и т.д.
+* Имя файла локального журнала. Созданный файл будет помещен в указанный выше каталог. В нём будет содержаться речь, записываемая в режиме локального журнала. Это может быть тот же файл, что и в удаленном журнале. Оставьте поле пустым, чтобы полностью отключить этот вид ведения журнала.
+* Имя файла удалённого журнала. Созданный файл будет помещен в указанный выше каталог. В нём будет содержаться речь, записываемая в режиме удаленного журнала. Это может быть тот же файл, что и в локальном журнале. Оставьте поле пустым, чтобы полностью отключить этот вид ведения журнала.
+* Разделитель. В этом выпадающем списке можно выбрать один из доступных разделителей звуков. Дополнительную информацию смотрите ниже.
+* Пользовательский разделитель. Это поле позволяет ввести пользовательский разделитель звуков (см. ниже), который используется, если в выпадающем списке выбрано "пользовательский".
+* Режим меток времени. Это поле со списком позволяет вам выбирать между отсутствием временных меток и временной меткой в начале и конце каждого сеанса ведения журнала.
+* Журналировать речь в режиме полного воспроизведения (чтения до конца). Это дополнение записывает речь, генерируемую при нажатии клавиш NVDA+стрелка вниз (NVDA+a в раскладке ноутбука). Если вы не хотите, чтобы такого рода длинные записи о чтении записывались в журнал, снимите этот флажок.
+* Начинать запись в журнал при запуске. Вы можете установить для этого параметра значение "Всегда", если хотите, чтобы при запуске NVDA речь автоматически записывалась в журнал. Это относится только к локальной речи, и по умолчанию установлено значение "никогда".
 
-#### Utterance separator
+#### Разделитель звуков
 
-When NVDA speaks something such as "`recycle bin  1 of 55`" while it's reading your desktop, this is considered two separate utterances. The first one is the item name ("`Recycle bin`", in this example), and the second is the object position information ("`1 of 55`", in this example).
+Когда NVDA произносит что-то вроде "`корзина 1 из 55`" во время чтения вашего рабочего стола, это считается двумя отдельными фразами.
+Первая - это название элемента ("`Корзина`", в данном примере), а вторая - информация о местоположении объекта ("`1 из 55`", в данном примере).
 
-Depending on what you are reading, and how you have NVDA configured, there can be several separate utterances that happen during a single speech sequence.
+В зависимости от того, что вы читаете и как у вас настроена NVDA, в течение одной речевой последовательности может быть несколько отдельных высказываний.
 
-In the normal NVDA log at debug level, each individual utterance is separated with two spaces, as it is written in the example above.
+В обычном журнале NVDA на уровне отладки каждое отдельное высказывание разделяется двумя пробелами, как это написано в примере выше.
 
-Speech Logger allows you to separate utterances in the same way NVDA does (with two spaces), or by one of a few reasonable alternatives (a newline, a comma and a space, two underscores), or by a custom sequence of your own devising.
+Регистратор речи позволяет вам разделять высказывания так же, как это делает NVDA (двумя пробелами), или с помощью одного из нескольких разумных вариантов (новая строка, запятая и пробел, табуляция, два символа подчеркивания), или с помощью пользовательской последовательности, которую вы сами придумаете.
 
-If, for example, you wanted your utterance separator to be two dollar signs (`$$`), you would set the combobox to "custom", and enter "`$$`" (without the quotes), in the custom separator field. If you wanted it to be a tab, you could enter "`\t`".
+Если, например, вы хотите, чтобы разделителем ваших слов были два знака доллара (`$$`), вам следует установить в выпадающем списке значение "пользовательский" и ввести "`$$`" (без кавычек) в поле пользовательский разделитель.
+Если вы хотите, чтобы это был символ новой строки, за которым следует табуляция, вы можете ввести "`\n\t`".
 
-### Starting and stopping logging
+### Управления:
 
-This add-on has two gestures set by default. You can change them in the NVDA Input Gestures Tools category.
-Look for "Toggles logging of local speech" and "Toggles logging of remote speech".
+В этом дополнении есть два сочетания клавиш, установленных по умолчанию, и одно неназначенное.
 
-- NVDA+Alt+L: start/stop logging of local speech.
-- NVDA+Shift+Alt+L: start/stop logging of remote speech.
+Вот жесты по умолчанию, которые вы можете изменить в категории "`Регистратор речи`" жестов ввода NVDA:
+* NVDA+Alt+L: начать/остановить запись локальной речи в журнал.
+* NVDA+Shift+Alt+L: начать/остановить запись удалённой речи в журнал.
+Они перечислены как "Переключает ведение журнала локальной речи" и "Переключает ведение журнала удалённой речи" соответственно.
 
-### A note on remote speech logging
+Кроме того, у него есть один неназначенный жест для открытия панели настроек, который вы можете назначить из категории `Регистратор речи` в разделе жестов ввода NVDA.
 
-This add-on is intended to work with the NVDA Remote add-on, for logging of remote speech.
+### Примечание по записи удалённой речи
 
-It is important to know, that it is not possible to start logging for remote sessions until you actually start one.
-There is no way to, for example, start logging, and have it wait, on stand-by, until a remote session starts, and begin logging at that time.
+Это дополнение предназначено для работы с дополнением NVDA Remote для ведения журнала удалённой речи.
 
-However, once started, logging will continue across remote sessions.
+Важно знать, что невозможно начать ведение журнала для удаленных сеансов, пока вы на самом деле не запустите один из них.
+Например, невозможно запустить ведение журнала и перевести его в режим ожидания, пока не начнется удаленный сеанс, и начать ведение журнала в это время.
 
-### Feedback and feature requests
+Однако после запуска ведение журнала будет продолжаться во всех удаленных сеансах.
 
-If you would like to suggest a feature or report a bug, please reach out by email, or file an [issue](https://github.com/opensourcesys/speechLogger/issues/).
+### Отзывы и запросы возможностей
 
-As always, I appreciate hearing that my add-ons are useful, and what people are using them for.
+Если вы хотите предложить какую-либо возможность или сообщить об ошибке, пожалуйста, свяжитесь с нами по электронной почте или отправьте сообщение о [проблеме][2].
+
+Если это дополнение полезно для вас, было бы очень здорово, если бы вы [оставили отзыв][4].
+
+Как всегда, мне приятно слышать, что мои дополнения полезны, и узнавать, для чего люди их используют.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger
+[2]: https://github.com/opensourcesys/speechLogger/issues/new
+[3]: https://nvaccess.org/
+[4]: https://github.com/nvaccess/addon-datastore/discussions/2636
+[5]: https://nvdaremote.com/

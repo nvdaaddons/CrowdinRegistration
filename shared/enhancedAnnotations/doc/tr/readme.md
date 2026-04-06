@@ -1,27 +1,32 @@
-# Enhanced Annotations
+# Gelişmiş Ek Açıklamalar
 
-- Authors: George Kerscher, Noelia Ruiz Martínez
-- (compatible with NVDA 2022.1 and beyond)
+*	Yazarlar: George Kerscher, Noelia Ruiz Martínez
 
-In the DAISY Consortium, best practices are developed for publishers and authors for providing extended (long) descriptions.
+DAISY Konsorsiyumu'nda, yayıncılar ve yazarlar için genişletilmiş (uzun) açıklamalar sağlamak için en iyi uygulamalar geliştirilmiştir.
 
-The best practices use the HTML details element that follows the image, or a link to another file that contains the extended description.
+En iyi uygulamalar, görüntüyü izleyen HTML ayrıntıları öğesini veya genişletilmiş açıklamayı içeren başka bir dosyanın bağlantısını kullanır.
 
-In both options, the user would need to move to the details or the link and activate it.
+Her iki seçenekte de kullanıcının ayrıntılara veya bağlantıya gitmesi ve etkinleştirmesi gerekir.
 
-Having a keystroke to put focus on the details or the link is ideal.
+Ayrıntılara veya bağlantıya odaklanmak için bir tuşa basmak idealdir.
 
-Our best practices recommend that the details or the link immediately follows the image, and if the link is followed, a back link to the exact location must be provided. This makes it certain that the user will not get lost.
+En iyi uygulamalarımız, ayrıntıların veya bağlantının resmin hemen ardından gelmesini ve bağlantı takip edilirse tam konuma bir geri bağlantı sağlanmasını önerir. Bu, kullanıcının kaybolmayacağını garanti eder.
 
-However it is probable that authors in the wild will place the extended (long) description almost anywhere. In these cases, the user would want to return to the image and hence the need for a way to return to the original image.
+Ancak vahşi doğada yazarların genişletilmiş (uzun) açıklamayı neredeyse her yere yerleştirmesi muhtemeldir. Bu durumlarda, kullanıcı resme geri dönmek isteyecektir ve dolayısıyla orijinal resme geri dönmek için bir yola ihtiyaç duyulacaktır.
 
-This add-on provides both features, in support of this [issue opened in NVDA's repository][2].
+Bu eklenti, bu [NVDA deposunda açılan sorun][1] için her iki özelliği de sağlar.
 
-## Commands
+## Komutlar ##
 
-- NVDA+alt+d: moves the cursor to the element identified with aria-details.
-- NVDA+alt+shift+d: moves the cursor to the original element, for example, an image with furter details like a long description.
+* NVDA+alt+d: imleci aria-details ile tanımlanan öğeye taşır.
+* NVDA+alt+shift+d: imleci orijinal öğeye, örneğin uzun bir açıklama gibi daha ayrıntılı ayrıntılara sahip bir görüntüye taşır. İlgili açıklamalara gitmek için NVDA+alt+d'ye birkaç kez basıldıysa, her bir kaynağa geri dönmek mümkün olacaktır.
 
-The above commands can be modified from NVDA's menu, Preferences submenu, Input gestures dialog, Browse mode category.
+Yukarıdaki komutlar NVDA menüsü, Tercihler alt menüsü, Girdi hareketleri iletişim kutusundan, Tarama modu kategorisinde değiştirilebilir.
 
-[2]: https://github.com/nvaccess/nvda/issues/13940
+## 2.0 için değişiklikler ##
+
+* Birden fazla ek açıklama kaynağı arasında geri gitme yeteneği eklendi.
+* NVDA 2023.1 veya sonraki sürümünü gerektirir.
+
+
+[1]: https://github.com/nvaccess/nvda/issues/13940

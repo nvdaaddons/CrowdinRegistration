@@ -1,109 +1,109 @@
-[[!meta title="Input Lock"]]
+[[!meta title="Zaključavanje unosa"]]
 
-- Author: Jose Manuel Delicado
-- NVDA compatibility: 2023.3.4 and beyond
-- Download [stable version][1]
+* Autor: Jose Manuel Delicado
+* NVDA kompatibilnost: 2023.3.4 i novije verzije
+* Preuzmite [stabilnu verziju][1]
 
-## Introduction
+## Uvod
 
-Do you have kids or pets at home? Do you have a cat and It likes very much climbing your table and walking over your keyboard? Do you accidentally move the mouse to random parts in the screen while using your laptop? Then Input Lock is for you! You will be able to leave your computer alone and turned on without risk.
+Imate li djecu ili kućne ljubimce? Imate li možda mačku koja se jako voli penjati po vašem stolu i hodati po tastaturi? Pomičete li slučajno miš na nasumične dijelove zaslona dok koristite prijenosni računar? Onda je ovaj dodatak za vas! Moći ćete bez rizika ostaviti svoj računar uključenim na miru.
 
-Once installed, you will be able to lock your keyboard, touch screen (if your laptop has one), touchpad, mouse and Braille display.
+Jednom kad se instalira, moći ćete zaključati svoju tastaturu, dodirni zaslon (ako ga vaš računar ima), dodirnu ploču, miš i brajev zaslon.
 
-## Usage
+## Upotreba
 
-This addon adds three extra gestures to NVDA. By default they are unassigned, so you will have to configure them from Input gestures dialog. Read the NVDA User Guide for more information.
+Ovaj dodatak dodaje tri geste. Po zadanim postavkama su one nedodijeljene, pa ćete ih trebati dodijeliti iz dijaloga ulaznih gesti. Pročitajte NVDA korisnički vodič za više informacija.
 
-When you press the toggle input lock gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
-Locking the touchpad can prevent us from accidentally touching it, especially those who are used to using the laptop keyboard directly. When you press the toggle touchpad lock gesture, NVDA will say "Touchpad locked". Your touchpad will be blocked until you press the same gesture again. In that moment, NVDA will say "Touchpad unlocked" and everything will work as usual.
+Kada pritisnete gestu za zaključavanje tastature, NVDA će izgovoriti "Tastatura je zaključana". Vaši ulazni uređaji će biti blokirani sve dok ponovo ne pritisnete istu gestu. U tom trenutku će NVDA izgovoriti "Tastatura je otključana" i sve će raditi kao i obično.
+Zaključavanje dodirne ploče može spriječiti neželjene radnje slučajnim dodirivanjem, posebno ako volite direktno koristiti tastaturu prijenosnog računara. Kada pritisnete gestu za zaključavanje dodirne ploče, NVDA će izgovoriti "Dodirna ploča je zaključana". Vaša dodirna ploča će biti blokirana sve dok ponovo ne pritisnete istu gestu. U tom trenutku će NVDA izgovoriti "Dodirna ploča je otključana" i sve će raditi kao i obično.
 
-If you press the toggle mouse block gesture, your mouse will be locked. Press this command again to unlock it. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself. Mouse clicks can also be disabled from Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on settings dialog for older versions, available under preferences menu. In addition, from these settings you can control wether mouse locks when NVDA is started or not.
+Ako pritisnete gestu za zaključavanje miša, vaš miš će biti zaključan. Pritisnite tu gestu ponovo da biste ga otključali. Dok je miš zaključan, možete koristiti NVDA geste da ga pomijerate i simulirate lijevi i desni klik. Međutim, miš kao takav neće reagovati na pomijeranje i klikove. Klikovi miša mogu biti onemogućeni u kategoriji "Zaključavanje unosa"  u NVDA postavkama (2018.2 i novije) ili kroz dijalog postavki dodatka za starije verzije, inače dostupan u podizborniku "Postavke". Osim toga, u ovim postavkama možete odrediti hoće li se miš zaključati kada se NVDA pokrene.
 
-Note: when mouse clicks are blocked, you can't use any NVDA gestures to work with the mouse.
+Napomena: kad su blokirani klikovi miša, nećete moći koristiti NVDA geste za rad s mišem.
 
-## Limitations and known problems
+## Ograničenja i poznati problemi
 
-Input Lock has the following known problems:
+Zaključavanje unosa ima sljedeće poznate probleme:
 
-- The shortcuts control+alt+del and windows+l can be used even when the keyboard is locked.
-- For gestures used to lock the touchpad, please try to assign a small number of key combination gestures. It is recommended to use NVDA+letters or numbers, Ctrl+F keys etc.
+* Prečice `Control+Alt+Delete` i `Windows+L` mogu se koristiti čak i kada je tastatura zaključana.
+* Za geste zaključavanja i otključavanja dodirne ploče, probajte dodijeliti što jednostavniju prečicu. Preporučuje se da to bude NVDA+slova ili brojevi, Control+F tipke i tako dalje.
 
-## Changelog
+## Promjene
 
-### Version 1.13
+### Verzija 1.13
 
-- Now, minimum supported version is 2023.3.4.
-- Updated translations. Starting from version 1.13, changelog won't be modified when a new release only includes localization updates.
-- Added a gesture (unassigned by default) to lock/unlock the touchpad.
+* Sada je minimalna podržana verzija 2023.3.4.
+* Ažurirani su prijevodi. Počevši od verzije 1.13, odjeljak promjena neće biti ažuriran kada nova verzija sadrži samo ažuriranja prijevoda.
+* Dodana je gesta (po zadanim postavkama je nedodijeljena) za zaključavanje i otključavanje dodirne ploče.
 
-### Version 1.12
+### Verzija 1.12
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Osigurana je kompatibilnost s novijim NVDA verzijama.
+* Ažurirani su prijevodi.
 
-### Version 1.11
+### Verzija 1.11
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Now, minimum supported version is 2022.4.
+* Osigurana je kompatibilnost s novijim NVDA verzijama.
+* Ažurirani su prijevodi.
+* Sada je minimalna podržana verzija 2022.4.
 
-### Version 1.10
+### Verzija 1.10
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Updated documentation.
-- Now, minimum supported version is 2021.3.
-- The input will remain blocked after waking up from standby mode. Thanks to Javi Dominguez.
+* Osigurana je kompatibilnost s novijim NVDA verzijama.
+* Ažurirani su prijevodi.
+* Ažurirana je dokumentacija.
+* Sada je minimalna podržana verzija 2021.3.
+* Unos će od sada ostati zaključan i nakon buđenja iz načina mirovanja. Hvala Javiju Dominguezu.
 
-### Version 1.9
+### Verzija 1.9
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Updated documentation.
+* Osigurana je kompatibilnost s novijim NVDA verzijama.
+* Ažurirani su prijevodi.
+* Ažurirana je dokumentacija.
 
-### Version 1.8
+### Verzija 1.8
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Osigurana je kompatibilnost s novijim NVDA verzijama.
+* Ažurirani su prijevodi.
 
-### Version 1.7
+### Verzija 1.7
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Osigurana je kompatibilnost s novijim NVDA verzijama.
+* Ažurirani su prijevodi.
 
-### Version 1.6
+### Verzija 1.6
 
-- Now, settings are removed only when the add-on is uninstalled. Configuration is nolonger reset when upgrading.
-- New and updated translations.
+* Sada se postavke uklanjaju samo kada se dodatak deinstalira. Konfiguracija se ne postavlja ponovno nakon ažuriranja.
+* Dodani su novi prijevodi i ažurirani su postojeći.
 
-### Version 1.5
+### Verzija 1.5
 
-- Added compatibility with recent NVDA releases.
-- New translations.
+* Osigurana je kompatibilnost s novijim NVDA verzijama.
+* Dodani su novi prijevodi i ažurirani su postojeći.
 
-### Version 1.4
+### Verzija 1.4
 
-- The addon gestures are unassigned by default.
+* Geste dodatka sada su po zadanim postavkama nedodijeljene.
 
-### Version 1.3
+### Verzija 1.3
 
-- Added a configuration panel in settings dialog. For old NVDA versions, a menu item and a dialog have been added too.
-- Added a setting to lock the mouse when NVDA is started.
-- Added a setting to block also mouse clicks while mouse is locked.
-- Small bugs fixed, some code optimizations and less duplicated strings for translators
+* Dodan je panel postavki. Za starije NVDA verzije, dodani su i stavka izbornika i dijalog.
+* Dodana je postavka za zaključavanje miša kad se NVDA pokrene.
+* Dodana je postavka za blokiranje klikova kad je miš zaključan.
+* Ispravljene su male greške, izvršene su neke optimizacije koda i manje je duplikovanih nizova za prevoditelje
 
-### Version 1.2
+### Verzija 1.2
 
-- Now the mouse can also be locked
-- New command to lock and unlock only the mouse
+* Sada se miš također može zaključati
+* Dodana je nova komanda za zaključavanje i otključavanje samo miša
 
-### Version 1.1
+### Verzija 1.1
 
-- If another addon has previously added a capture function to inputManager, it is restored when the input is unlocked.
+* Ako je neki drugi dodatak prethodno dodao funkciju snimanja u InputManager, ona se vraća kada se unos otključa.
 
-### Version 1.0
+### Verzija 1.0
 
-- Initial release
+* Početno izdanje
 
 [[!tag dev stable]]
 

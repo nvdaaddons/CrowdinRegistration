@@ -1,67 +1,81 @@
-# Control Usage Assistant
+# 控制項使用助理 #
 
-- NVDA compatibility: 2022.1 and later
-- Author: Joseph Lee, Noelia Ruiz Martínez
-- Download [stable version][1]
-- Download [development version][2]
+* 作者：Joseph Lee, Noelia Ruiz Martínez
 
-Use this add-on to find out how to interact with the focused control.
-Press NVDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant category to configure add-on settings:
+使用此附加元件來了解如何與焦點控制項互動。
+按下 NVDA+H 可取得關於如何與焦點控制項 (例如核取方塊、編輯欄位等) 互動的簡短說明訊息。
 
-- Select output modes for automatic messages: This list of checkboxes allows to select speech and braille.
-- Pitch change for automatic messages: This spin box allows to set the pitch change when NVDA reads automatic messages (from -30 to +30).
+請前往 NVDA 功能表、偏好、設定對話框、控制項使用助理類別，來設定此附加元件：
 
-## Version 2022.03.27
+* 自動提示焦點控制項訊息：預設為勾選。
+* 輸入當物件可被啟用時要使用的訊息：您可以包含一則簡短訊息，指出預設或您自行設定的手勢，以便在物件導覽中按下如 NVDA+enter 等手勢時，能知道目前物件是否有相關聯的動作。
+* 選取自動訊息的輸出模式：此核取方塊清單可讓您選取語音和點字。
+* 自動訊息的音調變化：此數字調整邊及區可讓您設定 NVDA 讀取自動訊息時的音調變化 (範圍從 -30 至 +30)。
 
-- Requires NVDA 2022.1 or later.
+## 20250611.0.0 版
 
-## Version 22.01
+* 為以瀏覽模式呈現的訊息新增了複製和關閉按鈕。
 
-- Added support for automatic messages.
-- Improved support for requested messages in browse mode.
+## 20240324.0.0 版
 
-## Version 21.10
+* 改善了對編輯控制項和建議的支援。
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
+## 2023.02.19 版
 
-## Version 20.10
+* 為可點擊物件設定的訊息，將會在其他屬性之後讀出。
+* 與 NVDA 2023.1 相容。
 
-- Help messages are announced in languages other than English.
+## 2022.07.10 版
 
-## Version 20.06
+* 新增了為物件導覽設定訊息的功能，用以讀出目前物件是否可被啟用。
 
-- Resolved many coding style issues and potential bugs with Flake8.
-- NVDA will no longer appear to do nothing or play error tones when trying to obtain help for certain browse mode controls.
+## 2022.03.27 版
 
-## Version 20.01
+* 需要 NVDA 2022.1 或更新版本。
 
-- NVDA 2019.3 or later is required.
+## 22.01 版
 
-## Version 3.0/19.11
+* 新增了對自動訊息的支援。
+* 改善了在流覽模式下取得説明訊息的支援。
 
-- Version scheme is now year.month.
-- When NVDA+H is pressed, a help screen will be displayed instead of a flash message being shown.
+## 21.10 版
 
-## Version 2.5
+* 由於 NVDA 的變更會影響此附加元件，因此需要 NVDA 2021.2 或更新版本。
 
-- Compatible with Python 3.
+## 20.10 版
 
-## Version 2.1
+* 說明訊息會以非英文的其他語言讀出。
 
-- New and updated translations.
+## 20.06 版
 
-## Version 2.0
+* 透過 Flake8 解決了許多編碼風格問題與潛在錯誤。
+* 嘗試取得某些瀏覽模式控制項的說明時，NVDA 不再會看似沒有任何反應或播放錯誤音效。
 
-- Help messages for more controls added, including terminal windows.
-- Added help messages for working in some areas of applications, such as Microsoft Excel and Powerpoint and Windows 8 start screen.
-- Added help messages for working with forms in both browse and focus modes in virtual buffer documents (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
-- New language: Danish.
+## 20.01 版
 
-## Version 1.0
+* 需要 NVDA 2019.3 或更新版本。
 
-- Initial version.
+## 3.0/19.11 版
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+* 版本號格式現已改為年.月。
+* 按下 NVDA+H 時，會顯示說明畫面，而非顯示快閃訊息。
+
+## 2.5 版
+
+* 與 Python 3 相容。
+
+## 2.1 版
+
+* 新增及更新的翻譯。
+
+## 2.0 版
+
+* 新增了更多控制項的說明訊息，包含終端機視窗。
+* 新增了在應用程式某些區域中操作的說明訊息，例如 Microsoft Excel、Powerpoint 及 Windows 8 的「開始」畫面。
+* 新增了在虛擬緩衝區文件 (例如 Internet Explorer、Adobe Reader、Mozilla Firefox 等) 中，於瀏覽模式和焦點模式下操作表單的說明訊息。
+* 新增語言：丹麥文。
+
+## 1.0 版
+
+* 初始版本。

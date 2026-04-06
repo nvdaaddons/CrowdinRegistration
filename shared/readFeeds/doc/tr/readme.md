@@ -1,110 +1,147 @@
-# Akışları Oku
+# Akışları Oku #
 
-- Yazarlar: Noelia Ruiz Martínez, Mesar Hameed
-- NVDA compatibility: 2018.3 to 2019.2
-- Download [stable version][1]
-- Download [development version][2]
+* Yazarlar: Noelia Ruiz Martínez, Mesar Hameed
 
-This addon provides a straightforward  way to read feeds in Atom or RSS formats using NVDA.
+Bu eklenti NVDA kullanarak Atom veya RSS biçiminde akışları okumak için basit bir yol sunar.
 Akışlar otomatik olarak yenilenmeyecektir.
 Aşağıda akışlardan bahsettiğimizde, hem RSS hem de ATOM akışlarını kastediyoruz.
 
-## Installation or Update:
+## Komutlar ##
 
-If you used a previous version of this addon, and there is an RSS or personalFeeds folder in your personal NVDA configuration folder,
-when installing the current version, a dialog will ask if you want to upgrade or install.
-Choose update to preserve your saved feeds and to continue using them in the new installed version of readFeeds.
+### Akışları Oku iletişim kutusu ###
 
-## Commands:
+Akışları Oku iletişim kutusuna nvda menüsü, Araçlar alt menüsü, akış listesi öğesinden erişebilirsiniz.
 
-### Read Feeds menu
+Aşağıdaki kontrolleri içerir:
 
-You can access the Read Feeds submenu from the nvda menu, Tools submenu, where the following menu options are available:
+* Filtreleme kriteri: Önceden kaydedilmiş beslemeleri aramak için bir düzenleme kutusu.
+* İletişim kutusu açıldığında odaklanılan kayıtlı akış listesi.
+* Makale listesi: Mevcut akışınızdaki makalelerin listesini sunan bir iletişim kutusu açar. Okumak istediğiniz makaleyi seçin ve ilgili sayfayı tarayıcınızda açmak için Enter veya Seçilen makalenin web sayfasını aç düğmesine basın. Seçilen makalenin başlığını ve bağlantısını gösteren bir iletişim kutusu açmak için Makale hakkında düğmesine basın; bu iletişim kutusundan, bu bilgiyi panoya kopyalayabilirsiniz.
+* Akışı aç: Seçili akışı varsayılan uygulamada açar.
+* Akışı HTML olarak aç: Seçili akışı varsayılan web tarayıcısında açar. Makaleler hakkındaki bilgileri panoya kopyalamak için yayın tarihlerini ve düğmeleri gösterip gizleyebileceksiniz.
+* Akış adresini kopyala: Akış adresini panoya kopyalamak isteyip istemediğinizi onaylamak için bir iletişim kutusu açar.
+* Yeni: Yeni bir akışın adresini girmek için bir düzenleme kutusu içeren bir iletişim kutusu açar. Adres geçerliyse ve yayın kaydedilebilirse, yayın başlığına göre adı, yayın listesinin içinde görünecektir.
+* Yeniden Adlandır: Seçili akışı yeniden adlandırmak için bir düzenleme kutusu içeren bir iletişim kutusu açar.
+* Sil: Onaydan sonra seçilen akışın silinmesi için bir iletişim kutusu açar.
+* Varsayılan olarak ayarla: Seçilen beslemeyi varsayılan olarak ayarlar, böylece makalelerine ilgili NVDA girdi hareketleriyle erişilebilir.
+* OPML dosyasından akışları içe aktar: Bir OPML dosyasından yeni akışlar eklemek için bir iletişim kutusu açar.
+* Akışları OPML dosyasına kaydet: Akışlar iletişim kutusunda bulunan beslemeleri bir OPML dosyasına kaydetmek için bir iletişim kutusu açar.
+* Tercihler: NVDA menüsünde Tercihler, ayarlar, Akışları oku kategorisinde de bulunan akışları oku için ayarlar diyalog penceresini açar.
+* Kapat: Akışlar iletişim kutusunu kapatır.
 
-#### Feeds...
+### Notlar #####
 
-Opens a dialog with the following controls:
+* Filtreye göre düzenleme kutusu NVDA menüsünden Tercihler, Ayarlar, Akışları oku kategorisinden veya akışlar iletişim kutusundaki Tercihler düğmesine basarak Makaleyi aç düğmesinden sonra yerleştirilebilir.
+* Bu panel, Makalelerin listesi iletişim kutusunda makale tarihlerini gösterme seçeneğine sahiptir.
 
-- Filtreleme kriteri: Önceden kaydedilmiş beslemeleri aramak için bir düzenleme kutusu.
-- A list of the saved feeds.
-- Makale listesi: Mevcut akışınızdaki makalelerin listesini sunan bir iletişim kutusu açar. Okumak istediğiniz makaleyi seçin ve ilgili sayfayı tarayıcınızda açmak için Enter veya Seçilen makalenin web sayfasını aç düğmesine basın. Seçilen makalenin başlığını ve bağlantısını gösteren bir iletişim kutusu açmak için Makale hakkında düğmesine basın; bu iletişim kutusundan bu bilgiyi panoya kopyalayabileceksiniz.
-- Akışı aç: Seçili akışı varsayılan uygulamada açar.
-- Yeni: Yeni bir akışın adresini girmek için bir düzenleme kutusu içeren bir iletişim kutusu açar. Adres geçerliyse ve yayın kaydedilebilirse, yayın başlığına göre adı, yayın listesinin içinde görünecektir. Adres geçerliyse ve akış kaydedilebiliyorsa, akış başlığına göre akışın adı, akış listesinin altında görünecektir.
-- Yeniden Adlandır: Seçili akışı yeniden adlandırmak için bir düzenleme kutusu içeren bir iletişim kutusu açar.
-- Sil: Onaydan sonra seçilen akışın silinmesi için bir iletişim kutusu açar.
-- Varsayılan olarak ayarla: Seçilen beslemeyi varsayılan olarak ayarlar, böylece makalelerine ilgili NVDA girdi hareketleriyle erişilebilir.
-- Open folder containing a backup of feeds: Opens a folder which may contain a backup of feeds. This can be useful to explore and delete feeds which shouldn't be imported when the add-on is updated.
-- Kapat: Akışlar iletişim kutusunu kapatır.
 
-##### Notlar
+### Klavye komutları ###
 
-- If a feed named tempFeed is created, please rename it, as this file could be replaced when needed to create a feed whose name already exists.
-- The feed set as the default can't be removed. The addressFile feed will be use as the default when the configuration is reset, so it can't be deleted.
+* Ctrl+Shift+NVDA+Boşluk çubuğu: Mevcut makalenin URL'sini duyurur. İki kez basmak web sayfasını açacaktır.
+* Ctrl+Shift+NVDA+8: Seçili akışı yeniler ve en son başlığı duyurur.
+* Ctrl+Shift+NVDA+I: Mevcut akış başlığını ve bağlantısını duyurur. İki kez basmak, başlığı ve ilgili bağlantıyı panoya kopyalayacaktır.
+* Ctrl+Shift+NVDA+U: Önceki akış başlığını duyurur.
+* Ctrl+Shift+NVDA+O: Sonraki akış başlığını duyurur.
 
-\####Copy feeds folder... ####
+## Bildirimler ##
 
-Opens a dialog to choose a folder where you can save the personalFeeds directory of your feeds. By default the selected folder is the NVDA's configuration directory, which will create the personalFeeds directory.
+* Başlık veya URL kopyalandığında.
+* Bir akışa bağlanılamadığında/yenileme yapılamadığında veya URL, geçerli bir akışa karşılık gelmediğinde.
+* Yeni bir akış oluşturulamıyorsa NVDA bir hata mesajı görüntüler.
+* Makale listesi iletişim kutusunun başlığı, seçilen akış adını ve mevcut öğelerin sayısını gösterir.
 
-#### Restore feeds...
+## 39.0.0 İçin değişiklikler
 
-Opens a dialog to select a folder which replaces your feeds in the personalFeeds folder. Make sure you load a folder containing feeds URLs.
+* Başlık veya URL kopyalandığında geliştirilmiş bildirimler.
 
-### Keyboard commands:
+## 34.0.0 İçin değişiklikler
 
-- Ctrl+Shift+NVDA+Boşluk çubuğu: Mevcut makalenin URL'sini duyurur. İki kez basmak web sayfasını açacaktır. İki kez basıldığında web sayfası açılır.
-- Ctrl+Shift+NVDA+8: Seçili akışı yeniler ve en son başlığı duyurur.
-- Ctrl+Shift+NVDA+I: Mevcut akış başlığını ve bağlantısını duyurur. İki kez basmak, başlığı ve ilgili bağlantıyı panoya kopyalayacaktır. İki kez basıldığında başlık ve ilgili bağlantı panoya kopyalanır.
-- Ctrl+Shift+NVDA+U: Önceki akış başlığını duyurur.
-- Ctrl+Shift+NVDA+O: Sonraki akış başlığını duyurur.
+* Rss.cbc.ca akışları için destek eklendi.
 
-## Notifications:
+## 21.0 İçin değişiklikler
 
-- Başlık veya URL kopyalandığında.
-- Bir akışa bağlanılamadığında/yenileme yapılamadığında veya URL, geçerli bir akışa karşılık gelmediğinde.
-- NVDA will display an error message if it was not possible to backup or restore the personalFeeds folder.
-- Makale listesi iletişim kutusunun başlığı, seçilen akış adını ve mevcut öğelerin sayısını gösterir.
+* Başlıksız makaleler içeren akışlar, Makaleler iletişim kutusunda sunulabilir ve HTML olarak açılabilir.
 
-## 8.0 İçin değişiklikler
+## 20.0 İçin değişiklikler
 
-- Eklenti güncellendiğinde, NVDA'nın ana yapılandırma klasörüne kaydedilen akışları içe aktarmayı tercih etmediğiniz sürece, eklentinin önceki sürümünde kaydedilen akışlar otomatik olarak yeni sürüme kopyalanacaktır.
-- Akışları kopyalamak için iletişim kutusunu kullanırken, seçilen klasörün adı personalFeeds değilse, Belgeler veya İndirilenler gibi önemli verileri içeren dizinlerin silinmesini önlemek için bu ada sahip bir alt klasör oluşturulacaktır.
+* universalFeedParser, 5.0.1'e güncellendi ve daha fazla akış için destek eklendi.
 
-## 7.0 İçin değişiklikler
+## 15.0 İçin değişiklikler
 
-- Akışlar iletişim kutusu, akışların yedeğini içerebilecek bir klasörü açmak için bir düğme içerir.
-- Yayınları filtrelemek için düzenleme kutusunu kullanırken, hiçbir sonuç bulunmazsa, yayınların listesi ve diğer kontroller devre dışı bırakılır, böylece NVDA boş listede "bilinmeyen" demez.
-- Makaleler listesi iletişim kutusu, örneğin akıştaki hatalar nedeniyle gösterilemiyorsa, NVDA bir hata oluşturur, böylece akışlar iletişim kutusu NVDA'yı yeniden başlatmadan kullanılabilir.
+* NVDA 2023.1 ile uyumlu.
 
-## 6.0 İçin değişiklikler
+## 14.0 İçin değişiklikler
 
-- Varsayılan akış güncellendiğinde ve sunucu sorunları nedeniyle çalışmayı durdurduğunda, önceki makaleler silinmez ve ilgili tuşlarla okunabilir.
-- Gerileme düzeltmesi: Varsayılan besleme iki kez tekrar güncellenebilir.
+* Bazı yayınların eklenmesini imkansız kılan bir hata düzeltildi.
 
-## 5.0 İçin değişiklikler
+## 13.0 İçin değişiklikler
 
-- Makaleler listesi iletişim kutusu geliştirildi.
-- NVDA 2018.3 veya üstü ile uyumlu (gerekli).
-- If needed, you can download the [last version compatible with NVDA 2017.3][3].
+* Eklenti, güvenli ekranlarda kullanılamaz.
+* Yayınlar, OPML dosyalarından yönetilir.
+* Akış yönetim sistemindeki değişiklikler nedeniyle, varsayılan akışın  ayarlandığı yapılandırma dosyasında değişiklikler vardır. Tekrar ayarlamak istiyorsanız lütfen akışlar iletişim kutusunu kullanın.
+* Önceki sürümlerde kullanılan eski metin dosyalarınız, eklenti başlatıldığında otomatik olarak yeni OPML biçimine aktarılacaktır.
+* Akışları kopyala ve geri yükle özelliği, OPML dosyalarından içe aktarma ve kaydetme özelliğiyle değiştirildi.
+* İyi biçimlendirilmemiş akış adresleri  , eklentiyle uyumlu hale getirilmeleri için eklenmeden önce işlenebilir.
+* Akışları oku ayarları panelinde yeni bir seçenek, makale tarihlerinin Makale listesi iletişim kutusunda gösterilmesine olanak tanır.
 
-## 4.0 İçin değişiklikler
+## 12.0 İçin değişiklikler
 
-- Akışlar iletişim kutusundan seçilen akışı açmak için bir düğme eklendi.
+* NVDA'nın araçlar menüsündeki öğeler için kısayolların beklendiği gibi çalışmamasına neden olan bir hata düzeltildi.
 
-## 3.0 İçin değişiklikler
+## 11.0 İçin değişiklikler
 
-- Akış dosyalarını yönetmek için kullanılan iletişim kutuları kaldırıldı. Artık işlevleri akışlar iletişim kutusuna dahil edildi. Artık işlevler Akışlar iletişim kutusuna dahil edilmiştir.
-- NVDA'da gösterilen iletişim kutularının görünümüne bağlı kalınarak iletişim kutularının görsel sunumu geliştirildi.
-- Varsayılan akış, NVDA'nın yapılandırmasına kaydedilir. Dolayısıyla, yapılandırma profillerinde farklı varsayılan akışlar ayarlamak mümkündür. Bu nedenle konfigürasyon profillerinde farklı varsayılan akışlar ayarlamak mümkündür.
-- NVDA 2016.4 gerektirir.
+* NVDA 2021.1 ile uyumlu
 
-## 2.0 İçin değişiklikler
+## 10.0 İçin değişiklikler ##
 
-- Eklenti yardımına, Eklenti Mağazasından ulaşılabilir.
+* Varsayılan web tarayıcısında seçilen akışı HTML olarak açmak için bir düğme eklendi.
+* Yeni bir akış oluşturulamıyorsa, bu durum bir hata iletişim kutusunda bildirilecektir.
+* Bazı makalelerin düzeni ve sunumunda iyileştirme.
+* Daha fazla akış desteklenebilir.
+* Akışlar iletişim kutusu açıldığında, arama düzenleme kutusu yerine yayınların listesine odaklanılacaktır.
+* Arama düzenleme kutusunun akış listesinden sonra yerleştirilip yerleştirilmeyeceğini seçebilirsiniz; bu, akışlar iletişim kutusunu kapatmadan başka bir pencereden geçiş yaparken bile listeye odaklanmak için yararlı olabilir.
+* Akış iletişim kutusundan akış adresini panoya kopyalamak için bir düğme eklendi.
 
-## 1.0 İçin değişiklikler
+## 9.0 İçin değişiklikler ##
 
-- İlk sürüm.
+* NVDA 2019.3 veya sonraki bir sürümünü gerektirir.
 
-[1]: http://addons.nvda-project.org/files/get.php?file=rf
-[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev
-[3]: http://addons.nvda-project.org/files/get.php?file=rf-o
+## 8.0 İçin değişiklikler ##
+
+* Eklenti güncellendiğinde, NVDA'nın ana yapılandırma klasörüne kaydedilen akışları içe aktarmayı tercih etmediğiniz sürece, eklentinin önceki sürümünde kaydedilen akışlar otomatik olarak yeni sürüme kopyalanacaktır.
+* Akışları kopyalamak için iletişim kutusunu kullanırken, seçilen klasörün adı personalFeeds değilse, Belgeler veya İndirilenler gibi önemli verileri içeren dizinlerin silinmesini önlemek için bu ada sahip bir alt klasör oluşturulacaktır.
+
+## 7.0 İçin değişiklikler ##
+
+* Akışlar iletişim kutusu, akışların yedeğini içerebilecek bir klasörü açmak için bir düğme içerir.
+* Yayınları filtrelemek için düzenleme kutusunu kullanırken, hiçbir sonuç bulunmazsa, yayınların listesi ve diğer kontroller devre dışı bırakılır, böylece NVDA boş listede "bilinmeyen" demez.
+* Makaleler listesi iletişim kutusu, örneğin akıştaki hatalar nedeniyle gösterilemiyorsa, NVDA bir hata oluşturur, böylece akışlar iletişim kutusu NVDA'yı yeniden başlatmadan kullanılabilir.
+
+## 6.0 İçin değişiklikler ##
+
+* Varsayılan akış güncellendiğinde ve sunucu sorunları nedeniyle çalışmayı durdurduğunda, önceki makaleler silinmez ve ilgili tuşlarla okunabilir.
+* Gerileme düzeltmesi: Varsayılan besleme iki kez tekrar güncellenebilir.
+
+## 5.0 İçin değişiklikler ##
+
+* Makaleler listesi iletişim kutusu geliştirildi.
+* NVDA 2018.3 veya üstü ile uyumlu (gerekli).
+
+## 4.0 İçin değişiklikler ##
+
+* Akışlar iletişim kutusundan seçilen akışı açmak için bir düğme eklendi.
+
+## 3.0 İçin değişiklikler ##
+
+* Akış dosyalarını yönetmek için kullanılan iletişim kutuları kaldırıldı. Artık işlevleri akışlar iletişim kutusuna dahil edildi.
+* NVDA'da gösterilen iletişim kutularının görünümüne bağlı kalınarak iletişim kutularının görsel sunumu geliştirildi.
+* Varsayılan akış, NVDA'nın yapılandırmasına kaydedilir. Dolayısıyla, yapılandırma profillerinde farklı varsayılan akışlar ayarlamak mümkündür.
+* NVDA 2016.4 gerektirir.
+
+## 2.0 İçin değişiklikler ##
+
+* Eklenti yardımına, Eklenti Mağazasından ulaşılabilir.
+
+## 1.0 İçin değişiklikler ##
+
+* İlk sürüm.

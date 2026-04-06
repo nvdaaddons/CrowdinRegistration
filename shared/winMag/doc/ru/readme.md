@@ -1,135 +1,248 @@
-# Windows Magnifier
+# Лупа Windows
 
-- Author: Cyrille Bougot
-- NVDA compatibility: 2018.3 and beyond
-- Download [stable version][1]
-- Download [development version][2]
+* Автор: Cyrille Bougot
+* Совместимость с NVDA: 2019.2.1 и выше
 
-This add-on improves the use of Windows Magnifier with NVDA.
+Это дополнение улучшает использование Лупы Windows с NVDA.
 
-## Features
 
-- Allows to report the result of some native Magnifier keyboard commands.
-- Allows to reduces the cases where table navigation command conflict with Magnifier's commands.
-- Adds some keyboard shortcuts to toggle various Magnifier options.
+## Возможности
 
-## Settings
+* Позволяет сообщать результат выполнения некоторых встроенных клавиатурных команд увеличения и цветовой фильтрации.
+* Позволяет уменьшить количество случаев, когда команды навигации по таблице конфликтуют с командами лупы.
+* Добавляет несколько сочетаний клавиш для переключения различных встроенных параметров Лупы.
+* Позволяет сохранять и восстанавливать параметры конфигурации лупы.
+* Добавляет некоторые дополнительные функции, которые не предоставляются лупой Windows (мышь для просмотра, окно лупы не сверху)
 
-The setting panel of Windows Magnifier extension allows to configure how NVDA reacts to native Windows Magnifier commands.
-You may want to have more or less commands reported according to what you are able to see.
-This panel may be opened choosing Preferences -> Settings in the NVDA menu and then selecting the Windows Magnifier category in the Settings window.
-The keyboard shortcut NVDA+Windows+O then O also allows to open this settings panel directly.
+## Настройки
 
-The panel contains the following options:
+Панель настроек дополнения лупы Windows позволяет настроить реакцию NVDA на собственные команды лупы Windows.
+Возможно, вам захочется, чтобы в зависимости от того, что вы видите, отображалось больше или меньше команд.
+Панель также содержит опцию для изменения поведения окна управления лупой Windows.
 
-- Report view moves: controls what is reported when you move the view with Control+Alt+Arrows commands. The three options are:
+Эту панель можно открыть, выбрав Параметры -> Настройки в меню NVDA, а затем выбрав категорию лупы Windows в окне настроек.
+Сочетание клавиш NVDA+Windows+O, затем O также позволяет напрямую открыть эту панель настроек.
 
-  - Off: Nothing is reported
-  - With speech: a speech message indicate the position of the zoomed view on the dimension the view is being moved.
-  - With tones: a tone is played and its pitch indicates the position of the zoomed view on the dimension the view is being moved.
+Панель содержит следующие параметры:
 
-  This option only affects full view mode.
-- Report turn on or off:
-  If checked, the Magnifier's state is reported when you use Windows++ or Windows+Escape commands to turn it on or off.
-- Report zoom:
-  If checked, the Magnifier's zoom level is reported when you use Windows++ or Windows+- zoom commands.
-- Report color inversion:
-  If checked, the color inversion state is reported when you use the control+Alt+I toggle command.
-- Report view change:
-  If checked, the view type is reported when you use a command that changes the view type (Control+Alt+M, Control+Alt+F, Control+Alt+D, Control+Alt+L)
-- Report lens or docked window resizing:
-  If checked, a message is reported when you use the resizing commands (Alt+Shift+Arrows).
-  In docked window mode, the height or the width is reported.
-  In lens mode, the new dimension cannot be reported for now.
-  These resizing command do not seem to be available on all versions of Windows; if your Windows version does not support them, you should keep this option unchecked.
-- In documents and list views, pass control+alt+arrows shortcuts to Windows Magnifier:
-  There are three possible choices:
+* Сообщать о перемещениях представления: управляет отображением при перемещении представления с помощью команд Control+Alt+стрелки. Возможны три варианта:
+  
+    * Отключено: Ничего не сообщать.
+    * С помощью речи: речевое сообщение указывает положение увеличенного масштаба в том измерении, в котором он перемещается.
+    * С помощью сигналов: воспроизводится звуковой сигнал, высота которого указывает на положение увеличенного масштаба в том измерении, в котором оно перемещается.
+  
+  Этот параметр не влияет на режим закрепленного просмотра.
 
-  - Never: The command is not passed to Windows Magnifier and standard NVDA table navigation can operate.
-    When used in documents out of a table, Control+Alt+Arrow commands report a "Not in a table" error message.
-    This is the standard behaviour of NVDA without this add-on.
-  - Only when not in table: In table or in list views, Control+Alt+Arrow commands perform standard table navigation.
-    When used in documents out of a table, Control+Alt+Arrow commands perform standard Magnifier view move commands.
-    If you still want to move Windows Magnifier view while in table or in list view, you will need to press NVDA+F2 before using Control+Alt+Arrow commands.
-    This option is the best compromise if you want to use Control+Alt+Arrow for both Magnifier and table navigation.
-  - Always: Control+Alt+Arrow commands moves the Magnifier's view in any case.
-    This option may be useful if you do not use Control+Alt+Arrow to navigate in table, e.g. because you have changed table navigation shortcuts in NVDA or because you exclusively use [Easy table navigator][5] add-on for table navigation.
+* Объявлять области экрана: управляет отображением, когда вы достигаете краев экрана при перемещении экрана с помощью команд Control+Alt+ стрелки.
+  Доступны три варианта отображения: Выключено, с речью и звуковыми сигналами.
+  Этот вариант не влияет на режим закрепленного просмотра.
+* Громкость звуковых сигналов, сообщающих о положении вида: позволяет определить громкость звуковых сигналов, если вы выбрали сообщать о перемещениях вида или краях экрана с помощью звуковых сигналов.
+* Сообщать о включении или выключении:
+  если этот флажок установлен, отображается информация о состоянии лупы, когда вы используете команды Windows++ или Windows+Escape для ее включения или выключения.
+* Сообщать о масштабировании:
+  если этот флажок установлен, при использовании команд Windows++ или Windows+- отображается информация об уровне масштабирования лупы.
+* Сообщать об инверсии цвета:
+  Если этот флажок установлен, то при использовании команды переключения control+Alt+I отображается информация о состоянии инверсии цвета.
+* Сообщать об изменении вида:
+  Если этот флажок установлен, отображается сообщение о типе вида при использовании команды, которая изменяет тип вида (Control+Alt+M, Control+Alt+F, Control+Alt+D, Control+Alt+L)
+* Сообщать об изменении размера линзы или закрепленного окна:
+  Если этот флажок установлен, при использовании команд изменения размера (Alt+Shift+стрелки) выводится сообщение.
+  В режиме закрепленного окна отображается информация о высоте или ширине.
+  В режиме линзы пока невозможно сообщить о новом размере.
+  Похоже, что эти команды изменения размера доступны не во всех версиях Windows; если ваша версия Windows их не поддерживает, вам следует снять флажок с этой опции.
+* В документах и списковых представлениях используйте сочетания клавиш control+alt+стрелки для лупы Windows:
+  Здесь три возможных варианта:
+  
+    * Никогда: команда не передаётся в лупу Windows, и стандартная навигация по таблицам NVDA может работать.
+      При использовании в документах из таблицы команда Control+Alt+Стрелка выдаёт сообщение об ошибке "Вне таблице".
+      Это стандартное поведение NVDA без этого дополнения.
+      Вы по-прежнему можете использовать сочетания клавиш NVDA+Windows+O, затем стрелки для перемещения увеличенного изображения.
+    * Только когда не в таблице: В таблице или в просмотрах списка Control+Alt+Стрелки выполняют стандартную навигацию по таблице.
+      При использовании в документах вне таблицы команды Control+Alt+стрелка выполняют стандартные команды перемещения в режиме лупы.
+      Если вы всё ещё хотите переместить окно лупы Windows в режиме таблицы или списка, вам нужно будет нажать NVDA+F2 перед использованием команд Control+Alt+ стрелка или поочередно использовать NVDA+Windows+O, затем стрелки.
+      Этот вариант является наилучшим компромиссом, если вы хотите использовать Control+Alt+Стрелку как для навигации по лупе, так и по таблице.
+    * Всегда: команды Control+Alt+стрелка перемещают вид лупы в любом случае.
+      Эта опция может быть полезна, если вы не используете клавиши Control+Alt+стрелка для навигации по таблице, например, потому что вы изменили сочетания клавиш навигации по таблицам в NVDA или потому что вы используете исключительно [Easy table navigator][5] для навигации по таблицам.
 
-## Commands added by this add-on
+* Поместить командное окно Windows Magnifier поверх всех окон:
+  если флажок снят, окно управления Лупой не будет всегда находиться поверх других окон.
+* Сообщать о цветовом фильтре
+  Если отмеченно, сообщается цветовой фильтр, когда вы используете команду переключения `Windows+Control+C`.
 
-In addition to native Magnifier commands, this add-on provide additional commands that allow to control Magnifier's options without opening its configuration page.
-All the commands added to control Magnifier options are accessible through the Magnifier layer command NVDA+Windows+O:
+## Команды, добавленные этим дополнением
 
-- NVDA+Windows+O then C: Toggles on or off caret tracking.
-- NVDA+Windows+O then F: Toggles on or off focus tracking.
-- NVDA+Windows+O then M: Toggles on or off mouse tracking.
-- NVDA+Windows+O then T: Toggles on or off tracking globally.
-- NVDA+Windows+O then S: Toggles on or off smoothing.
-- NVDA+Windows+O then R: Switches between mouse tracking modes (within the edge of the screen or centered on the screen); this feature is only available on Windows 10 build 17643 or higher.
-- NVDA+Windows+O then X: Switches between text cursor tracking modes (within the edge of the screen or centered on the screen); this feature is only available on Windows 10 build 18894 or higher.
-- NVDA+Windows+O then V: Moves the mouse cursor in the center of the magnified view (command available in full screen view only).
-- NVDA+Windows+O then O: Opens Windows Magnifier add-on settings.
-- NVDA+Windows+O then H: Displays help on Magnifier layer commands.
+В дополнение к встроенным командам Лупы, это дополнение предоставляет дополнительные команды:
 
-There is no default direct gesture for each command, but you can attribute one normally in the input gesture dialog if you wish.
-The same way, You can also modify or delete the Magnifier layer access gesture (NVDA+Windows+O).
-Yet, you cannot modify the shortcut key of the Magnifier layer sub-commands.
+* Команды, позволяющие управлять параметрами Лупы, не открывая страницу его конфигурации.
+* Дополнительные команды, специфичные для этого дополнения.
 
-## Magnifier's native commands
+Все эти дополнительные команды доступны через команду слоя лупы NVDA+Windows+O:
 
-The result of the following Magnifier native commands may be reported by this add-on, according to its configuration:
+* NVDA+Windows+O, затем C: переключает отслеживание курсора.
+* NVDA+Windows+O, затем F: переключает отслеживание фокуса.
+* NVDA+Windows+O, затем M: переключает отслеживание мыши.
+* NVDA+Windows+O, затем T: глобальное включение или выключение отслеживания.
+  При повторном включении отслеживания устанавливается последняя активная конфигурация отслеживания перед её отключением.
+* NVDA+Windows+O, затем S: переключает сглаживание.
+* NVDA+Windows+O, затем R: переключение между режимами отслеживания указателя мыши (по краю экрана или по центру экрана); эта функция доступна только в Windows 10 сборки 17643 или выше.
+* NVDA+Windows+O, затем X: переключение между режимами отслеживания текстового курсора (по краю экрана или по центру экрана); эта функция доступна только в Windows 10 сборки 18894 или выше.
+* NVDA+Windows+O, затем Shift+P: сохраняет текущие параметры конфигурации лупы в конфигурации NVDA.
+* NVDA+Windows+O, затем P: Восстанавливает текущие параметры конфигурации лупы из конфигурации NVDA.
+  Если никакие параметры конфигурации ранее не были сохранены в конфигурации NVDA, вместо этого восстанавливаются параметры конфигурации по умолчанию для лупы Windows.
+* NVDA+Windows+O, затем Стрелки: перемещение увеличенного просмотра.
+* NVDA+Windows+O, затем V: перемещает курсор мыши в центр увеличенного просмотра (команда недоступна в режиме закреплённого просмотра).
+* NVDA+Windows+O, затем W: Переключает режим, позволяющий всегда держать окно управления лупы Windows поверх других.
+  Эта функция доступна только для установленных версий NVDA.
+* NVDA+Windows+O, затем O: открывает настройки дополнения Лупы Windows.
+* NVDA+Windows+O, затем H: отображает справку по командам слоя лупы.
 
-- Start Magnifier: Windows++ (on alpha-numeric keyboard or on numpad)
-- Quit Magnifier: Windows+Escape
-- Zoom in: Windows++ (on alpha-numeric keyboard or on numpad)
-- Zoom out: Windows+- (on alpha-numeric keyboard or on numpad)
-- Toggle color inversion: Control+Alt+I
-- Select the docked view: Control+Alt+D
-- Select the full screen view: Control+Alt+F
-- Select the lens view: Control+Alt+L
-- Cycle through the three view types: Control+Alt+M
-- Resize the lens with the keyboard: Shift+Alt+Left/Right/Up/DownArrow.
-  Note: although this does not seem to be documented, this shortcut seems to have been withdrawn in recent Windows versions such as Windows 2004.
-- Move the magnified view: Control+Alt+Arrows (reporting only affects full screen mode)
+Для каждой команды нет прямого жеста по умолчанию, но вы можете указать его в обычном диалоге жестов ввода, если хотите.
+Аналогичным образом вы также можете изменить или удалить жест доступа к уровню лупы (NVDA+Windows+O).
+Тем не менее, вы не можете изменить комбинацию клавиш для подкоманд слоя лупы.
 
-Here is also a list of other Magnifier native commands, just for information:
 
-- Control+Alt+mouseScrollWheel: Zooms in and out using the mouse scroll wheel.
-- Control+Windows+M: Opens the Magnifier's settings window.
-- Control+Alt+R: Resizes the lens with the mouse.
-- Control+Alt+Space: Quickly shows the entire desktop when using full screen view.
+## Собственные команды лупы
 
-None of the Magnifier native commands can be modified.
+Результаты следующих собственных команд увеличения или других команд специальных возможностей могут сообщаться этим дополнением в соответствии с его конфигурацией:
 
-## Notes
+* Запустить лупу: Windows++ (на буквенно-цифровой клавиатуре или цифровой клавиатуре)
+* Выйти из лупы: Windows+Escape
+* Увеличить масштаб: Windows++ (на буквенно-цифровой клавиатуре или цифровой клавиатуре)
+* Уменьшить масштаб: Windows+- (на буквенно-цифровой клавиатуре или цифровой клавиатуре)
+* Переключить инверсию цвета: Control+Alt+I
+* Выбрать закреплённый просмотр: Control+Alt+D
+* Выбрать полноэкранный режим: Control+Alt+F
+* Выбрать вид линзы: Control+Alt+L
+* Переключаться между тремя типами представления: Control+Alt+M
+* Изменить размер линзы с помощью клавиатуры: Shift+Alt+стрелки Влево/Вправо/Вверх/Вниз
+  Примечание: хотя это, похоже, не задокументировано, этот ярлык, скорее всего, был убран из последних версий Windows, таких как Windows 10 2004.
+* Перемещение увеличенного просмотра: Control+Alt+Стрелки
+* Переключить цветовые фильтры: `Windows+Control+C` (при условии, что вы включили эту горячую комбинацию в [настройках специальных возможностей Windows, Цветные фильтры][9])
 
-- For computers equipped with an Intel graphic card, control+alt+arrow (left/right/up/down) are also shortcuts to modify the orientation of the screen.
-  These shortcut are enabled by default and conflict with Windows Magnifiers shortcuts to move the view.
-  You will need to disable them to be able to use them for the Magnifier.
-  They can be disabled in the Intel control panel or in the Intel menu present in the system tray.
+Вот также список других собственных команд лупы, просто для информации:
 
-- Depending on your Windows version, Alt+Shift+Arrow are Windows Magnifier shortcuts to resize the magnified view (lens or docked).
-  When Magnifier is active (even in full screen mode), these shortcuts are captured by Magnifier and cannot be passed to the application, even if you press NVDA+F2 before.
-  To use these shortcuts in the current application, you need to quit the Magnifier (Windows+Escape) and re-open it after (Windows++).
-  For example in MS word, to decrease title level:
+* Control+Alt+колесо прокрутки мыши: увеличение и уменьшение масштаба с помощью колеса прокрутки мыши.
+* Control+Windows+M: Открывает окно настроек лупы.
+* Control+Alt+R: Изменяет размер линзы с помощью мыши.
+* Control+Alt+Пробел: Быстро отображает весь рабочий стол при использовании полноэкранного режима.
 
-  - Press Windows+Escape to quit Magnifier.
-  - Press Alt+Shift+RightArrow to decrease current title level.
-  - Press Windows++ to re-open the Magnifier.
+Ни одна из собственных команд лупы не может быть изменена.
 
-- For more information about Windows Magnifier's features and shortcuts, you may want to consult the following pages:
 
-  - [Use Magnifier to make things on the screen easier to see][3]
-  - [Windows keyboard shortcuts for accessibility][4]
+## Примечания
 
-## Change log
+* На компьютерах, оснащённых графической картой Intel, клавиши control+alt+стрелка (влево/вправо/вверх/вниз) также используются для изменения ориентации экрана.
+  Эти сочетания клавиш включены по умолчанию и конфликтуют с сочетаниями клавиш лупы Windows для перемещения просмотра.
+  Чтобы использовать их в качестве лупы, вам нужно будет отключить их.
+  Их можно отключить в панели управления Intel или в меню Intel, расположенном на системном лотке.
+* В зависимости от вашей версии Windows, сочетание клавиш Alt +Shift + Стрелка - это сочетания клавиш лупы Windows для изменения масштаба (линзы или закреплённого).
+  Когда лупа активна (даже в полноэкранном режиме), эти сочетания клавиш захватываются лупой и не могут быть переданы приложению, даже если вы до этого нажмете NVDA+F2.
+  Чтобы использовать эти сочетания клавиш в текущем приложении, вам нужно закрыть лупу (Windows+Escape) и снова открыть ее (Windows++).
+  Например, в MS Word, чтобы уменьшить масштаб заголовка:
+  
+    * Нажмите Windows+Escape, чтобы выйти из Лупы.
+    * Нажмите Alt+Shift+Стрелка вправо, чтобы уменьшить текущий уровень заголовка.
+    * Нажмите Windows++, чтобы снова открыть лупу.
 
-### Version 1.0
+* Для получения дополнительной информации о функциях и горячих клавишах Лупы Windows вы можете ознакомиться со следующими страницами:
 
-- Initial release.
+    * [Использовать лупу, чтобы лучше видеть изображение на экране](https://support.microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-easier-to-see)
+    * [Сочетания клавиш Windows для обеспечения специальных возможностей][4]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=winmag
-[2]: https://addons.nvda-project.org/files/get.php?file=winmag-dev
-[3]: https://support.microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-easier-to-see
+* Это дополнение не тестировалось в многоэкранной среде, и есть вероятность, что некоторые функции в этой среде не работают.
+  Если вы используете многоэкранную среду и хотите, чтобы она поддерживалась, пожалуйста, свяжитесь со мной, чтобы я внедрил её.
+* В более общем плане, не стесняйтесь обращаться ко мне на [страницу GitHub][3] этого дополнения или напрямую по электронной почте.
+
+
+## Журнал изменений
+
+### Версия 4.2
+
+* Команды увеличения или цветовой фильтрации больше не будут работать со сбоем при первом использовании этого дополнения.
+
+### Версия 4.0
+
+* Фильтр, включаемый командой переключения цветного фильтра (`Windows+Control+C`), теперь может сообщаться; Эта команда переключения должна быть заранее включена в настройках специальных возможностей Windows.
+* Совместимость с NVDA 2025.1.
+
+### Версия 3.7
+
+* Совместимость с NVDA 2024.1.
+
+### Версия 3.6
+
+* Исправлен ошибочный диапазон совместимости.
+
+### Версия 3.5
+
+* Готовится к совместимости с NVDA 2024.1.
+* Устраняет потенциальные проблемы безопасности, связанные с [GHSA-xg6w-23rw-39r8][8] при использовании дополнения со старыми версиями NVDA. Однако рекомендуется использовать NVDA 2023.3.3 или выше.
+* Примечание: С этого момента обновления перевода больше не будут отображаться в журнале изменений.
+
+### Версия 3.4
+
+* Команда "переместить мышь для просмотра" снова работает
+* Обновлены локализации.
+
+### Версия 3.3
+
+* Совместимость снижена до версии NVDA 2019.2.1 и выше.
+  Последними версиями, совместимыми с NVDA 2018.3, являются [3.2][7] (частично совместимое) и [1.1][6] (полностью совместимое).
+* Исправлена ошибка на панели настроек в NVDA 2019.2.1.
+
+### Версия 3.2
+
+* Удален канал разработчика.
+* Обновлены локализации.
+
+### Версия 3.1
+
+* Исправлена ошибка, из-за которой командное окно Лупы не восстанавливалось сверху.
+* Исправлена ошибка, из-за которой дополнение не запускалось в NVDA 2019.2.1.
+* Обновлены локализации.
+
+### Версия 3.0
+
+* Нажатие кнопок масштабирования в окне лупы (с клавиатуры) теперь объявляет новый уровень масштабирования.
+* Параметр, управляющий тем, всегда ли окно управления лупой остается открытым, теперь сохранен в конфигурации;
+  это означает, что этот параметр запоминается при перезапуске NVDA и может быть включен или не включен в зависимости от активного профиля.
+* Исправлена ошибка, приводившая к неожиданному отключению затемнения экрана при использовании команд "Переместить для просмотра" или "переместить вид".
+* Настройка параметра AlwaysOnTop теперь будет выполняться также при изменении режима увеличения.
+* Добавлена возможность сохранять и восстанавливать конфигурацию Лупы Windows в конфигурации NVDA.
+* Совместимость с NVDA 2023.1.
+* Уточнено, какой тип отслеживания будет повторно включен при повторном включении отслеживания.
+* Обновлены локализации.
+
+### Версия 2.0
+
+* Вид можно перемещать с помощью стрелок, находясь на уровне лупы Windows.
+* Возможность сохранять окно команд лупы всегда открытым или нет.
+* Добавлена возможность "Сообщать о краях экрана".
+* Настройка громкости звуковых сигналов при использовании команд перемещения просмотра.
+* В режиме линзы теперь поддерживаются объявления перемещений в режиме просмотра и команды мыши для просмотра.
+* Совместимость с NVDA 2022.1.
+* Исправлена ошибка, из-за которой иногда неправильно сообщалось, что Лупа не работала при вызове скрипта.
+* Выпуск теперь выполняется благодаря действию на GitHub, а не с помощью AppVeyor.
+* Обновлены локализации.
+
+### Версия 1.1
+
+* Добавлены локализации.
+
+### Версия 1.0
+
+* Первый выпуск.
+
+[3]: https://github.com/CyrilleB79/winMag
+
 [4]: https://support.microsoft.com/en-us/help/13810
+
 [5]: https://addons.nvda-project.org/addons/easyTableNavigator.en.html
+
+[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/winMag-1.1.nvda-addon
+
+[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/winMag-3.2.nvda-addon
+
+[8]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994
+
+[9]: https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d

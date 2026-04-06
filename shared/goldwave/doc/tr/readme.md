@@ -1,143 +1,143 @@
-# GoldWave
+# GoldWave #
 
-- Authors: Joseph Lee, Day Garwood, NVDA contributors.
+* Yazarlar: Joseph Lee, Day Garwood ve NVDA'ya Katkıda Bulunanlar.
 
-This app module enhances access and usage of GoldWave audio editor.
+Bu uygulama modülü GoldWave ses editörünün erişilebilirliğini ve kullanımını geliştirir.
 
-## Shortcuts
+## Kısayollar ##
 
-All commands support speech on demand mode.
+Tüm komutlar isteğe bağlı konuşma modunu destekler.
 
-- Control+Shift+P: Announces current track position.
-- NVDA+Shift+R: Announces remaining time for the currently editing track.
-- Control+NVDA+1: Announces the channel you are editing.
-- Control+NVDA+2: Announces the total length of the audio file.
-- Control+NVDA+3: announces a summary on audio selection information.
-- Control+NVDA+4: Announces the zoom level.
+* Control+Shift+P: Geçerli parçadaki pozisyonu söyler.
+* NVDA+Shift+r: şu anda düzenlenen dosyada kalan süreyi söyler.
+* Control+NVDA+1: Düzenlediğiniz kanalı söyler.
+* Control+NVDA+2: Ses dosyasının toplam uzunluğunu söyler.
+* Control+NVDA+3: ses seçimiyle ilgili özet bilgi verir.
+* Control+NVDA+4: Yakınlaştırma seviyesini söyler.
 
-For more information about GoldWave and keyboard commands, refer to GoldWave Manual.
+GoldWave ve klavye komutları hakkında daha fazla bilgi için, GoldWave kılavuzuna bakın.
 
-Note: GoldWave 6 or later and Windows 10 or later is required.
+Not: GoldWave 6 veya sonrası ile Windows 10 veya sonrası sürümler gereklidir.
 
-## Changes
+## Değişiklikler
 
-### Version 25.08.1
+### Sürüm 25.08.1
 
-- Fixed bugs regarding position and selection time announcements.
+* Konum ve seçim süresi söylenmesi ile ilgili hatalar düzeltildi.
 
-### Version 25.07
+### Sürüm 25.07
 
-- Made the add-on code more robust with help from Pyright (a Python static type checker).
-- Improved audio selection, zoom level, and track position announcements in GoldWave 7.
+* Eklenti kodu Pyright'ın (Python statik tip denetleyicisi) yardımıyla daha sağlam hale getirildi.
+* Goldwave 7'de gelişmiş ses seçimi, yakınlaştırma seviyesi ve Kanal pozisyonu duyuruları.
 
-### Version 25.04
+### Sürüm 25.04
 
-- Removed command announcement mode, replaced with speech on demand mode. In speech on demand mode, GoldWave specific commands such as setting start marker will stay silent while informational commands such as audio position will be spoken.
+* Komut duyuru modu kaldırıldı, isteğe bağlı konuşma moduyla değiştirildi. İsteğe bağlı konuşma modunda, GoldWave'e özgü komutlar, başlangıç işaretçisini ayarlama gibi sessiz kalırken, ses konumu gibi bilgilendirici komutlar seslendirilir.
 
-### Version 25.02
+### Sürüm 25.02
 
-- NVDA 2024.1 or later is required.
-- Restored limited support for Windows 8.1.
+* NVDA 2024.1 veya üstü gereklidir.
+* Windows 8.1 için sınırlı destek geri yüklendi.
 
-### Version 25.01
+### Sürüm 25.01
 
-- Support for GoldWave 7 (requires 64-bit Windows 10 or later).
-- Download links for add-on releases are no longer included in add-on documentation. You can download the add-on from NV Access add-on store.
-- Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.
-- Removed support for automatic add-on updates feature from Add-on Updater add-on.
+* GoldWave 7 desteği (64 bit Windows 10 veya sonrası sürümleri gerektirir.).
+* Eklenti sürümlerinin indirme bağlantıları artık eklenti belgelerine dahil edilmemektedir. Eklentiyi NV Access eklenti mağazasından indirebilirsiniz.
+* Linting aracı Flake8'den Ruff'a değiştirildi ve NVDA kodlama standartlarıyla daha iyi uyum sağlamak için eklenti modülleri yeniden biçimlendirildi.
+* Eklenti Güncelleyici eklentisinden otomatik eklenti güncelleme özelliği desteği kaldırıldı.
 
-### Version 23.02
+### Sürüm 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* NVDA 2022.4 veya üstü gereklidir.
+* Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü gereklidir.
 
-### Version 23.01
+### Sürüm 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* NVDA 2022.3 veya üstü gereklidir.
+* Ocak 2023 itibariyle Windows 7, 8 ve 8.1 artık Microsoft tarafından desteklenmediğinden Windows 10 veya sonraki sürümleri gereklidir.
 
-### Version 22.03
+### Sürüm 22.03
 
-- NVDA 2021.3 or later is required.
-- A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.
+* NVDA 2021.3 veya üstü gereklidir.
+* Eklentiyi Windows 7, 8 ve 8.1'e yüklemeye çalışırken bir uyarı mesajı görüntülenecektir.
 
-### Version 21.10
+### Sürüm 21.10
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
-- In GoldWave 6.57 and later, NVDA will no longer repeat the name of the loaded file when pressing play/rewind/stop keys.
+* NVDA'da yapılan ve bu eklentiyi etkileyen değişiklikler nedeniyle NVDA 2021.2 veya sonrası sürümler gereklidir.
+* GoldWave 6.57 ve sonraki sürümlerde, NVDA oynat/geri sar/durdur tuşlarına basıldığında artık yüklenen dosyanın adını tekrar etmez.
 
-### Version 21.06
+### Sürüm 21.06
 
-- Resolved additional coding style issues and potential bugs with Flake8.
+* Flake8 ile ek kodlama stili sorunları ve olası hatalar çözüldü.
 
-### Version 20.06
+### Sürüm 20.06
 
-- Resolved many coding style issues and potential bugs with Flake8.
+* Flake 8 ile ilgili bir çok kodlama biçimi sorunları ve potansiyel hatalar düzeltildi.
 
-### Version 20.04
+### Sürüm 20.04
 
-- Added input help messages for remainig time command (NVDA+Shift+R).
-- Toggle command announcement command (NVDA+Shift+C) will now show up under "GoldWave" category in NVDA's input gestures dialog.
+* Kalan zaman komutu için (NVDA+Shift+R) girdi yardım mesajları eklendi.
+* Komut bildirimini açıp kapatma komutu (NVDA+Shift+C) NVDA'nın girdi hareketleri iletişim kutusunun "GoldWave" kategorisinde görünecek.
 
-### Version 20.01
+### Sürüm 20.01
 
-- Requires NVDA 2019.3 or later.
+* NVDA 2019.3 veya daha üst sürümünü gerektirir.
 
-### Version 19.11
+### Sürüm 19.11
 
-- Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required.
-- Added help message for sound window (accessible if Control Usage Assistant add-on is installed).
+* Windows 7 SP1, GoldWave 6.x ve NVDA 2019.1 veya daha üst sürümü gerekir.
+* Ses penceresi için yardım mesajı eklendi (kontrol kullanım asistanı eklentisi kuruluysa kullanılabilir).
 
-### Version 18.12
+### Sürüm 18.12
 
-- NVDA will no longer appear to do nothing or play error tones when performing certain GoldWave commands with command announcement set to off (this may result in odd behaviors in some cases).
-- Internal changes to support future NVDA releases.
+* NVDA, komut bildirimi kapalıyken bazı GoldWave komutları kullanıldığında hiçbir şey yapmıyormuş gibi görünmeyecek veya hata sesi çalmayacak (bazı durumlarda garip davranışlara sebep olabilir).
+* Gelecek NVDA sürümlerini desteklemek için dahili değişiklikler.
 
-### Version 18.07
+### Sürüm 18.07
 
-- Fixed an issue where leading zeroes would not be displayed when trying to obtain remaining time for a trakc.
+* Parçanın kalan zamanını söylerken öndeki sıfırların söylenmemesi sorunu düzeltildi.
 
-### Version 17.05
+### Sürüm 17.05
 
-- Added ability to provide debug information when NVDA is running with debug logging enabled (NVDA 2017.1 or later).
-- Updated translations.
+* NVDA hata günlük tutma seviyesinde çalışırken hata bilgisi verme özelliği eklendi (NVDA 2017.1 veya daha üst sürümü).
+* Güncellenmiş çeviriler.
 
-### Version 16.12
+### Sürüm 16.12
 
-- Version scheme is now year.month instead of major.minor.
+* Sürüm düzeni büyük sürüm.küçük sürüm yerine yıl.ay olarak ayarlandı.
 
-### Changes for 4.0
+### 4.0 için değişiklikler
 
-- Add-on repository has moved to GitHub (now located at https://github.com/josephsl/goldwave).
-- Performance improvements when looking up information such as channel name and other status information.
+* Eklenti deposu GitHub'a taşındı (https://github.com/josephsl/goldwave adresinde bulunabilir).
+* Kanal adı ve diğer durum bilgilerini edinme konusunda performans geliştirmeleri.
 
-### Changes for 3.0
+### 3.0 için değişiklikler
 
-- Added a command to announce remaining time for the current track (NVDA+Shift+R).
-- Slight improvements when announcing status information such as channel information.
+* Üzerinde bulunulan parçada kalan zamanı söyleme komutu eklendi (NVDA+Shift+R).
+* Kanal bilgisi gibi durum bilgilerini söyleme konusunda küçük geliştirmeler.
 
-### Changes for 2.0
+### 2.0 için değişiklikler
 
-- Support for GoldWave 6, including 64-bit version of GoldWave (see note above).
-- Add-on help can now be accessed from add-ons manager (NVDA 2014.3 and later).
-- NVDA now announces selected channel if you press channel selection commands such as Control+Shift+L for the left channel.
-- Various issues with numeric edit fields such as censor field and time selector in mix dialog has been fixed, including selecting text, updating values and so on.
-- Command announcement setting will be remembered when switching to other programs.
+* GoldWave'in 64-bit sürümü dahil olmak üzere GoldWave 6 desteği (yukarıdaki nota bakın).
+* Artık eklenti yardımına eklenti yöneticisinden erişilebilir (NVDA 2014.3 ve daha üst sürümü).
+* Sol kanalı seçmek için Control+Shift+L gibi kanal seçme komutları kullanıldığında, NVDA seçilen kanalı söylüyor.
+* Sansür alanı ve mixleme iletişim kutusundaki zaman seçimi alanı gibi sayı içeren yazı alanlarındaki çeşitli sorunlar giderildi. Giderilen sorunlar arasında metin seçimi ve değerlerin güncellenmesi gibi sorunlar var.
+* Diğer programlara geçiş yapıldığında komut bildirimi ayarı sıfırlanmayacak.
 
-### Changes for 1.2
+### 1.2 için değişiklikler
 
-- Fixed an issue where NVDA had difficulty announcing some edit fields.
-- New and updated translations.
-- Please note that due to recent changes in NVDA, audio selection and other status commands may not work as expected in some systems.
+* NVDA'nın bazı yazı alanlarını tam olarak bildirememe sorunu düzeltildi.
+* Yeni ve güncellenmiş çeviriler.
+* NVDA'da yapılan bazı değişiklikler nedeniyle, bazı sistemlerde ses seçimi ve diğer durum komutlarının beklenen şekilde çalışmayacağını unutmayın.
 
-### Changes for 1.1
+### 1.1 için değişiklikler
 
-- Support for message announcements in braille.
-- Audio selection summary is presented in languages other than English.
-- More command announcements added including cue position movement and delete/trim operations.
-- Fixed an issue in numeric edit fields such as various effects dialogs where nothing or wrong field name was announced.
-- New and updated translations.
+* Mesaj bildirimi için braille desteği.
+* Ses seçimi özeti İngilizce dışındaki dillerde de sunuluyor.
+* İşaret noktaları, silme ve kırpma gibi işlemler için daha fazla komut bildirimi eklendi.
+* Çeşitli efekt alanlarındaki değerlerin seslendirilmemesi ya da yanlış alanların seslendirilmesi gibi sayısal düzenleme alanlarındaki sorunlar giderildi.
+* Yeni ve güncellenmiş çeviriler.
 
-### Changes for 1.0
+### 1.0 için değişiklikler
 
-- Initial version.
+* İlk sürüm.

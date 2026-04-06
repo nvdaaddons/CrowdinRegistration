@@ -1,135 +1,248 @@
-# Windows Magnifier
+# Windows 放大镜插件
 
-- Author: Cyrille Bougot
-- NVDA compatibility: 2018.3 and beyond
-- Download [stable version][1]
-- Download [development version][2]
+* 作者：Cyrille Bougot
+* NVDA 兼容性：2019.2.1 及以上版本
 
-This add-on improves the use of Windows Magnifier with NVDA.
+此插件增强了 NVDA 使用 Windows 放大镜时的体验。
 
-## Features
 
-- Allows to report the result of some native Magnifier keyboard commands.
-- Allows to reduces the cases where table navigation command conflict with Magnifier's commands.
-- Adds some keyboard shortcuts to toggle various Magnifier options.
+## 功能特性
 
-## Settings
+* 允许读出某些放大镜原有快捷键和颜色滤镜快捷键的结果。
+* 允许减少表格导航快捷键与放大镜快捷键的冲突。
+* 添加一些键盘快捷键来切换放大镜的各种原生选项。
+* 允许保存和恢复放大镜的配置参数。
+* 添加一些 Windows 放大镜未提供的额外功能（移动鼠标至视图、放大镜窗口不置顶）。
 
-The setting panel of Windows Magnifier extension allows to configure how NVDA reacts to native Windows Magnifier commands.
-You may want to have more or less commands reported according to what you are able to see.
-This panel may be opened choosing Preferences -> Settings in the NVDA menu and then selecting the Windows Magnifier category in the Settings window.
-The keyboard shortcut NVDA+Windows+O then O also allows to open this settings panel directly.
+## 设置
 
-The panel contains the following options:
+Windows 放大镜插件的设置面板允许配置 NVDA 如何响应原生的 Windows 放大镜命令。
+根据您的视力情况，您可能希望或多或少地接收读出命令结果。
+该面板还包含一个选项，用于修改 Windows 放大镜控制窗口的行为。
 
-- Report view moves: controls what is reported when you move the view with Control+Alt+Arrows commands. The three options are:
+可以通过在 NVDA 菜单中选择“选项”->“设置”，然后在设置窗口中选择“Windows 放大镜”类别来打开此面板。
+也可按键盘快捷键 NVDA+Windows+O, O 直接打开此设置面板。
 
-  - Off: Nothing is reported
-  - With speech: a speech message indicate the position of the zoomed view on the dimension the view is being moved.
-  - With tones: a tone is played and its pitch indicates the position of the zoomed view on the dimension the view is being moved.
+该面板包含以下选项：
 
-  This option only affects full view mode.
-- Report turn on or off:
-  If checked, the Magnifier's state is reported when you use Windows++ or Windows+Escape commands to turn it on or off.
-- Report zoom:
-  If checked, the Magnifier's zoom level is reported when you use Windows++ or Windows+- zoom commands.
-- Report color inversion:
-  If checked, the color inversion state is reported when you use the control+Alt+I toggle command.
-- Report view change:
-  If checked, the view type is reported when you use a command that changes the view type (Control+Alt+M, Control+Alt+F, Control+Alt+D, Control+Alt+L)
-- Report lens or docked window resizing:
-  If checked, a message is reported when you use the resizing commands (Alt+Shift+Arrows).
-  In docked window mode, the height or the width is reported.
-  In lens mode, the new dimension cannot be reported for now.
-  These resizing command do not seem to be available on all versions of Windows; if your Windows version does not support them, you should keep this option unchecked.
-- In documents and list views, pass control+alt+arrows shortcuts to Windows Magnifier:
-  There are three possible choices:
+* 提示试图移动：控制使用 Ctrl+Alt+光标键移动视图时如何给出提示。包括三个选项：
+  
+    * 关闭：不提示任何内容。
+    * 语音：用语音在视图移动时提示视图缩放范围的位置。
+    * 提示音：在视图移动时播放，且用音高提示视图缩放范围的位置。
+  
+  此选项不影响停靠视图模式。
 
-  - Never: The command is not passed to Windows Magnifier and standard NVDA table navigation can operate.
-    When used in documents out of a table, Control+Alt+Arrow commands report a "Not in a table" error message.
-    This is the standard behaviour of NVDA without this add-on.
-  - Only when not in table: In table or in list views, Control+Alt+Arrow commands perform standard table navigation.
-    When used in documents out of a table, Control+Alt+Arrow commands perform standard Magnifier view move commands.
-    If you still want to move Windows Magnifier view while in table or in list view, you will need to press NVDA+F2 before using Control+Alt+Arrow commands.
-    This option is the best compromise if you want to use Control+Alt+Arrow for both Magnifier and table navigation.
-  - Always: Control+Alt+Arrow commands moves the Magnifier's view in any case.
-    This option may be useful if you do not use Control+Alt+Arrow to navigate in table, e.g. because you have changed table navigation shortcuts in NVDA or because you exclusively use [Easy table navigator][5] add-on for table navigation.
+* 提示屏幕边缘：控制当您使用 Ctrl+Alt+光标键移动视图到达屏幕边缘时如何给出提示。
+  包括三个选项：关闭、语音和提示音。
+  此选项不影响停靠视图模式。
+* 提示视图位置的提示音音量：如果您选择了使用提示音提示视图移动或屏幕边缘，允许定义提示音的音量。
+* 读出打开或关闭：
+  如果选中，当您使用 Windows++ 或 Windows+Esc 打开或关闭放大镜时，会读出其状态。
+* 读出缩放级别：
+  如果选中，当您使用 Windows++ 或 Windows+- 缩放命令时，会读出放大镜的缩放级别。
+* 读出反色：
+  如果选中，当您使用 Ctrl+Alt+I 切换命令时，会读出反色状态。
+* 读出视图更改：
+  如果选中，当您使用更改视图类型的快捷键（Ctrl+Alt+M、Ctrl+Alt+F、Ctrl+Alt+D、Ctrl+Alt+L）时，会读出视图类型。
+* 读出镜头或停靠窗口调整大小：
+  如果选中，当您使用调整大小快捷键（Alt+Shift+光标键）时，会给出反馈。
+  在停靠窗口模式下，会读出高度或宽度。
+  在镜头模式下，目前无法读出新大小。
+  这些调整大小的快捷键似乎并非在所有 Windows 版本上都可用；如果您的 Windows 版本不支持，您不应选中此选项。
+* 在文档和列表视图中，将 Ctrl+alt+光标键传递给 Windows 放大镜：
+  有三种选择：
+  
+    * 从不：快捷键不会传递给 Windows 放大镜，标准 NVDA 表格导航可以操作。
+      在表格外的文档中使用时，Ctrl+Alt+光标键会给出“不在表格的单元格中”的错误消息。
+      这是未安装此插件时 NVDA 的标准行为。
+      您仍然可以使用 NVDA+Windows+O 然后按光标键来移动放大视图。
+    * 仅当不在表格中时：在表格或列表视图中，Ctrl+Alt+光标键执行标准表格导航。
+      在表格外的文档中使用时，Ctrl+Alt+光标键执行标准放大镜视图移动命令。
+      如果您仍想在表格或列表视图中移动 Windows 放大镜视图，需要在按 Ctrl+Alt+光标键之前按下 NVDA+F2，或者使用 NVDA+Windows+O 然后按光标键。
+      如果您想同时使用 Ctrl+Alt+光标键进行放大镜和表格导航，此选项是最佳折衷方案。
+    * 总是：Ctrl+Alt+光标键在任何情况下都移动放大视图。
+      如果您不使用该快捷键进行表格导航（例如已更改 NVDA 表格导航快捷键或使用[简易表格导航器][5]插件），可选择此选项。
 
-## Commands added by this add-on
+* 保持 Windows 放大镜命令窗口始终置顶：
+  如果未选中，放大镜的控制窗口将不再保持置顶状态。
+* 读出颜色滤镜
+  如果选中，使用 `Windows+Ctrl+C` 切换颜色滤镜时将读出使用的滤镜。
 
-In addition to native Magnifier commands, this add-on provide additional commands that allow to control Magnifier's options without opening its configuration page.
-All the commands added to control Magnifier options are accessible through the Magnifier layer command NVDA+Windows+O:
+## 此插件的额外命令
 
-- NVDA+Windows+O then C: Toggles on or off caret tracking.
-- NVDA+Windows+O then F: Toggles on or off focus tracking.
-- NVDA+Windows+O then M: Toggles on or off mouse tracking.
-- NVDA+Windows+O then T: Toggles on or off tracking globally.
-- NVDA+Windows+O then S: Toggles on or off smoothing.
-- NVDA+Windows+O then R: Switches between mouse tracking modes (within the edge of the screen or centered on the screen); this feature is only available on Windows 10 build 17643 or higher.
-- NVDA+Windows+O then X: Switches between text cursor tracking modes (within the edge of the screen or centered on the screen); this feature is only available on Windows 10 build 18894 or higher.
-- NVDA+Windows+O then V: Moves the mouse cursor in the center of the magnified view (command available in full screen view only).
-- NVDA+Windows+O then O: Opens Windows Magnifier add-on settings.
-- NVDA+Windows+O then H: Displays help on Magnifier layer commands.
+除了原生放大镜快捷键外，此插件还提供额外命令：
 
-There is no default direct gesture for each command, but you can attribute one normally in the input gesture dialog if you wish.
-The same way, You can also modify or delete the Magnifier layer access gesture (NVDA+Windows+O).
-Yet, you cannot modify the shortcut key of the Magnifier layer sub-commands.
+* 允许在不打开其设置页面的情况下控制放大镜选项的命令。
+* 此插件特有的额外命令。
 
-## Magnifier's native commands
+这些命令均可通过放大镜层命令 NVDA+Windows+O 访问：
 
-The result of the following Magnifier native commands may be reported by this add-on, according to its configuration:
+* NVDA+Windows+O, C:打开或关闭跟随文本光标。
+* NVDA+Windows+O, F：打开或关闭跟随键盘焦点。
+* NVDA+Windows+O, M：打开或关闭跟随鼠标指针。
+* NVDA+Windows+O, T：打开或关闭跟随。
+  当再次切换跟随开启时，它将设置为跟随关闭前的最后活动跟随配置。
+* NVDA+Windows+O, S：打开或关闭图像和文本的平滑边缘。
+* NVDA+Windows+O, R：在保留鼠标指针模式之间切换，包括屏幕边缘内和在屏幕上居中（此功能仅适用于 Windows 10 build 17643 及以上版本）。
+* NVDA+Windows+O, X：在保留文本光标模式之间切换，包括屏幕边缘内和在屏幕上居中（此功能仅适用于 Windows 10 build 18894 及以上版本）。
+* NVDA+Windows+O, Shift+P：将放大镜的当前配置参数保存到 NVDA 的配置中。
+* NVDA+Windows+O, P：从 NVDA 的配置中恢复放大镜的当前配置参数。
+  如果之前没有配置参数保存到 NVDA 的配置中，则恢复 Windows 放大镜的默认配置参数。
+* NVDA+Windows+O, 光标键：移动放大视图。
+* NVDA+Windows+O, V：将鼠标光标移动到放大视图的中心（此命令在停靠视图模式下不可用）。
+* NVDA+Windows+O, W：切换是否允许 Windows 放大镜控制窗口始终置顶。
+  此功能仅适用于安装版 NVDA。
+* NVDA+Windows+O, O：打开Windows 放大镜插件设置。
+* NVDA+Windows+O, H：显示放大镜命令的帮助。
 
-- Start Magnifier: Windows++ (on alpha-numeric keyboard or on numpad)
-- Quit Magnifier: Windows+Escape
-- Zoom in: Windows++ (on alpha-numeric keyboard or on numpad)
-- Zoom out: Windows+- (on alpha-numeric keyboard or on numpad)
-- Toggle color inversion: Control+Alt+I
-- Select the docked view: Control+Alt+D
-- Select the full screen view: Control+Alt+F
-- Select the lens view: Control+Alt+L
-- Cycle through the three view types: Control+Alt+M
-- Resize the lens with the keyboard: Shift+Alt+Left/Right/Up/DownArrow.
-  Note: although this does not seem to be documented, this shortcut seems to have been withdrawn in recent Windows versions such as Windows 2004.
-- Move the magnified view: Control+Alt+Arrows (reporting only affects full screen mode)
+所有命令都没有默认快捷键，但如果需要，可以在“按键与首饰”对话框中为其单独分配。
+同样，您也可以修改或删除放大镜层访问快捷键（NVDA+Windows+O）。
+但是，您不能修改放大镜层子命令的快捷键。
 
-Here is also a list of other Magnifier native commands, just for information:
 
-- Control+Alt+mouseScrollWheel: Zooms in and out using the mouse scroll wheel.
-- Control+Windows+M: Opens the Magnifier's settings window.
-- Control+Alt+R: Resizes the lens with the mouse.
-- Control+Alt+Space: Quickly shows the entire desktop when using full screen view.
+## 放大镜的原有快捷键
 
-None of the Magnifier native commands can be modified.
+根据您的设置，此插件会朗读以下放大镜原有快捷键或其他辅助功能快捷键按下时的状态信息：
 
-## Notes
+* 打开放大镜：Windows++
+* 关闭放大镜：Windows+Esc
+* 放大：Windows++
+* 缩小：Windows+-
+* 打开或关闭反色：Ctrl+Alt+I
+* 切换到停靠视图：Ctrl+Alt+D
+* 切换到全屏视图：Ctrl+Alt+F
+* 切换到镜头视图：Ctrl+Alt+L
+* 在三种视图类型间循环切换：Ctrl+Alt+M
+* 用键盘调整镜头大小：Shift+Alt+左/右/上/下光标键
+  注意：尽管这似乎没有文档记载，但此快捷键似乎在最近的 Windows 版本（如 Windows 10 2004）中已被取消。
+* 移动放大视图：Ctrl+Alt+光标键
+* 切换颜色滤镜：`Windows+Ctrl+C`（需在 [Windows 辅助功能设置，颜色滤镜][9] 中启用此快捷键）
 
-- For computers equipped with an Intel graphic card, control+alt+arrow (left/right/up/down) are also shortcuts to modify the orientation of the screen.
-  These shortcut are enabled by default and conflict with Windows Magnifiers shortcuts to move the view.
-  You will need to disable them to be able to use them for the Magnifier.
-  They can be disabled in the Intel control panel or in the Intel menu present in the system tray.
+下面是放大镜其他原有快捷键的列表，仅供参考：
 
-- Depending on your Windows version, Alt+Shift+Arrow are Windows Magnifier shortcuts to resize the magnified view (lens or docked).
-  When Magnifier is active (even in full screen mode), these shortcuts are captured by Magnifier and cannot be passed to the application, even if you press NVDA+F2 before.
-  To use these shortcuts in the current application, you need to quit the Magnifier (Windows+Escape) and re-open it after (Windows++).
-  For example in MS word, to decrease title level:
+* Ctrl+Alt+鼠标滚轮：使用鼠标滚轮放大和缩小。
+* Ctrl+Windows+M：打开放大镜设置。
+* Ctrl+Alt+R：使用鼠标调整镜头大小。
+* Ctrl+Alt+空格键：在使用全屏视图时快速显示整个桌面。
 
-  - Press Windows+Escape to quit Magnifier.
-  - Press Alt+Shift+RightArrow to decrease current title level.
-  - Press Windows++ to re-open the Magnifier.
+您不能修改放大镜的原有快捷键。
 
-- For more information about Windows Magnifier's features and shortcuts, you may want to consult the following pages:
 
-  - [Use Magnifier to make things on the screen easier to see][3]
-  - [Windows keyboard shortcuts for accessibility][4]
+## 注意
 
-## Change log
+* 对于配备英特尔显卡的计算机，Ctrl+Alt+光标键也是修改屏幕方向的快捷键。
+  这些快捷键默认启用，并与 Windows 放大镜移动视图的快捷键冲突。
+  您需要禁用它们才能将其用于放大镜。
+  可以在英特尔控制面板或系统托盘中的英特尔菜单中禁用它们。
+* 根据您的 Windows 版本，Alt+Shift+光标键是 Windows 放大镜调整放大视图（镜头或停靠）大小的快捷键。
+  当放大镜处于活动状态时（即使在全屏模式下），这些快捷键会被放大镜捕获，无法传递给应用程序，即使您先按了 NVDA+F2。
+  要在当前应用程序中使用这些快捷键，需要关闭放大镜（Windows+Esc），然后重新打开（Windows++）。
+  例如，在 Word 中降低标题级别：
+  
+    * 按 Windows+Esc 关闭放大镜。
+    * 按 Alt+Shift+右光标键降低当前标题级别。
+    * 按 Windows++ 重新打开放大镜。
 
-### Version 1.0
+* 有关 Windows 放大镜功能和快捷键的更多信息，请查阅以下页面：
 
-- Initial release.
+    * [使用放大镜使屏幕上的内容更易于查看](https://support.microsoft.com/zh-cn/help/11542/windows-use-magnifier-to-make-things-easier-to-see)
+    * [Windows 辅助功能键盘快捷键][4]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=winmag
-[2]: https://addons.nvda-project.org/files/get.php?file=winmag-dev
-[3]: https://support.microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-easier-to-see
-[4]: https://support.microsoft.com/en-us/help/13810
-[5]: https://addons.nvda-project.org/addons/easyTableNavigator.en.html
+* 此插件未在多显示器环境中测试，有可能某些功能在此环境中无法工作。
+  如果您使用多显示器环境并希望获得支持，请与我联系以实施该功能。
+* 欢迎通过[GitHub 项目页][3]或邮件反馈问题与建议。
+
+
+## 更新日志
+
+### 版本 4.2
+
+* 首次使用此插件时运行放大镜或颜色滤镜命令将不再失败。
+
+### 版本 4.0
+
+* 现在可以读出通过切换颜色滤镜快捷键（`Windows+Ctrl+C`）启用的滤镜；此快捷键应先在 Windows 辅助功能设置中启用。
+* 与 NVDA 2025.1 兼容。
+
+### 版本 3.7
+
+* 与 NVDA 2024.1 兼容。
+
+### 版本 3.6
+
+* 修复了错误的兼容性范围。
+
+### 版本 3.5
+
+* 准备与 NVDA 2024.1 兼容。
+* 修复旧版 NVDA 使用时的潜在安全漏洞 [GHSA-xg6w-23rw-39r8][8]。但是，仍建议使用 NVDA 2023.3.3 或更高版本。
+* 注意：从现在起，翻译更新将不再出现在更新日志中。
+
+### 版本 3.4
+
+* “移动鼠标至视图”命令再次工作
+* 更新了本地化翻译。
+
+### 版本 3.3
+
+* 兼容性提高到 NVDA 2019.2.1 及更高版本。
+  与 NVDA 2018.3 兼容的最后版本是 [3.2][7]（部分兼容）和 [1.1][6]（完全兼容）
+* 修复了 NVDA 2019.2.1 设置面板中的一个错误。
+
+### 版本 3.2
+
+* 移除了开发通道。
+* 更新本地化翻译。
+
+### 版本 3.1
+
+* 修复了阻止放大镜命令窗口恢复置顶的问题。
+* 修复了阻止插件在 NVDA 2019.2.1 上运行的问题。
+* 更新本地化翻译。
+
+### 版本 3.0
+
+* 键盘操作放大镜窗口缩放按钮时会读出新的缩放级别。
+* 控制放大镜控制窗口是否始终置顶的参数现在存储在配置中；
+  这意味着该参数在重启 NVDA 时会被保存，并且可以根据活动配置文件启用或禁用。
+* 修复了在使用“移动至视图”或“移动视图”命令时导致意外禁用黑屏的错误。
+* 现在更改放大模式时也会遵循始终置顶设置。
+* 添加了在 NVDA 配置中保存和恢复 Windows 放大镜配置的功能。
+* 与 NVDA 2023.1 兼容。
+* 明确跟踪功能重新启用时的具体跟踪类型。
+* 更新本地化翻译。
+
+### 版本 2.0
+
+* 在 Windows 放大镜层命令中可以使用光标键移动视图。
+* 新增放大镜命令窗口置顶开关。
+* 添加了“读出屏幕边缘”功能。
+* 可设置视图移动提示音音量。
+* 现在在镜头模式下支持读出视图移动和移动鼠标至视图命令。
+* 与 NVDA 2022.1 兼容。
+* 修复了有时在脚本调用时提示放大镜未运行的错误。
+* 现在通过 GitHub Action 而非 appVeyor 发布。
+* 更新本地化翻译。
+
+### 版本 1.1
+
+* 添加本地化翻译。
+
+### 版本 1.0
+
+* 发布初始版本。
+
+[3]: https://github.com/CyrilleB79/winMag
+
+[4]: https://support.microsoft.com/zh-cn/help/13810
+
+[5]: https://addons.nvda-project.org/addons/easyTableNavigator.zh_CN.html
+
+[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/winMag-1.1.nvda-addon
+
+[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/winMag-3.2.nvda-addon
+
+[8]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994
+
+[9]: https://support.microsoft.com/zh-cn/windows/make-windows-easier-to-see-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d

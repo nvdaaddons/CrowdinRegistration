@@ -1,71 +1,70 @@
-# Numpad Nav Mode
+# 数字键盘模式切换
 
-- Author: Luke Davis (Open Source Systems, Ltd.)
-- Download [stable version][1]
+* 作者： Luke Davis (Open Source Systems, Ltd.)
+* 下载[稳定版][1]
 
-Numpad Nav Mode is an [NVDA][2] add-on, which allows you to easily switch your keyboard's numpad between NVDA's navigation controls and the non-screenreader Windows navigation controls. This can be especially useful for users migrating from Jaws to NVDA. This add-on also gives granular control over the numlock key toggle, both when NVDA starts, and optionally in profiles.
+数字键盘模式切换是一款 [NVDA][2] 插件，其允许您将键盘右侧的数字键盘区在 NVDA 的数字键盘模式和非屏幕阅读器的标准 Windows 编辑模式之间切换。这对于从 Jaws 迁移到 NVDA 的用户尤其有用。该插件还提供了对数字锁定键开关状态的精细控制，既可在 NVDA 启动时生效，也可按配置文件进行设置。
 
-### Navigation modes explanation and features
+### 功能介绍
 
-The normal functions of the PC number pad, with numlock off, are: page up, page down, home, end, four-way arrow keys, and a delete key.
-But NVDA completely takes over the numpad, to provide review keys, mouse controls, and object navigation controls. This is true even in laptop keyboard mode, which also duplicates those functions on non-numpad keys.
+PC 数字键盘在数字锁定关闭时的正常功能包括：上翻页、下翻页、行首、行尾、四个光标键以及删除键。
+但是 NVDA 完全接管了这些按键，用以提供屏幕查看、鼠标操作和对象导航等功能。即使在笔记本键盘模式下也是如此，该模式会在非数字键盘按键上复制这些功能。
 
-However some users do have a numpad on their laptop, and would prefer to use it for Windows navigation purposes (at least some of the time), especially because some laptops do not provide home, end, or other such keys.  That is where this add-on can help.
-Additionally, some desktop users, for example those used to the way the numpad works in JAWS, may sometimes find it convenient to use the numpad for those keyboard functions rather than the normal NVDA keys, which this add-on enables.
-This includes the popular JAWS command NumpadInsert+Numpad2, for read to end, which was a specific feature request from some early users of this add-on.
+即使某些用户的笔记本电脑上有数字键盘，但他们更愿意将其用于标准 Windows 编辑模式，特别是有些笔记本电脑不提供行首、行尾或其他编辑键。这就是这个插件可以提供帮助的地方。
+此外，一些台式机用户（例如习惯了 JAWS 中数字键盘操作方式的用户）有时可能会发现使用数字键盘来实现这些键盘功能比使用常规 NVDA 键更方便，而本插件正好实现了这一点。
+这还包括广受欢迎的 JAWS 命令数字键盘插入+数字键盘 2（用于朗读至末尾），这是本插件早期部分用户提出的特定功能需求。
 
-### How it works
+### 工作原理
 
-With numlock off, no matter what keyboard layout you are using, this add-on will let you press Alt+NVDA+NumpadPlus (which is usually the long key second up on the right), to quickly and easily switch between the normal NVDA navigation controls, and the classic Windows navigation controls. This key can be remapped under Input Gestures, in the Input section.
+无论您使用何种键盘布局，当数字锁定关闭时，本插件可让您按下 Alt+NVDA+数字键盘加号（通常是右侧第二个长键），在常规 NVDA 导航模式与经典 Windows 编辑模式之间快速切换。此按键可在“按键与手势”的“输入”部分重新设置。
 
-Note that this add-on doesn't disable the use of numpad insert as an NVDA modifier, if you have it set as such. If you want that feature, please let me know, although you can manually turn off numpad insert as a modifier in NVDA keyboard settings. It also doesn't change the NVDA function of numpad delete (key between zero and enter)--contact me if you desire this.
+请注意，如果您将数字键盘插入键设置为 NVDA 键，本插件不会将其禁用。如您需要此功能，请告知我，尽管您也可手动在 NVDA 键盘设置中关闭该选项。本插件也不会更改数字键盘删除键（位于 0 和回车之间的按键）的 NVDA 功能——如需此功能，请与我联系。
 
-If you would prefer to have NVDA start with the Windows nav mode active by default, you can configure that in NVDA configuration.  Go to NVDA's preferences, then settings, and find the Numpad Nav Mode settings panel.  There you will be able to select a checkbox to turn Windows Nav Mode on by default when you start NVDA.
-To get there quickly, press NVDA+N, P, S, then N one or more times until you hear "Numpad Nav Mode".
+如果您希望 NVDA 启动时默认启用 Windows 编辑模式，可在 NVDA 设置中进行选择。进入 NVDA 的“选项”菜单，然后选择“设置”，找到“数字键盘模式切换”设置面板。在此您可以选中一个复选框，以在启动 NVDA 时默认开启 Windows 编辑模式。
+要快速打开设置，请按 NVDA+N、P、S，然后输入“数”。
 
-### Numlock features
+### 数字锁定功能
 
-By default, nothing is done with the numlock key.
+默认情况下，插件不会对数字锁定键进行任何操作。
 
-However, if you share your computer with a sighted user who prefers that numlock always be turned on, but you like having it off so that the numpad works with NVDA, you may want the numlock to automatically turned off when NVDA starts.
-Alternatively, you may enter a lot of data, and so prefer the numlock to always be on when you start NVDA.
+但是，如果您与明眼用户共用一台电脑，对方希望数字锁定始终开启，而您则希望将其关闭以使数字键盘能与 NVDA 配合使用，您可能希望 NVDA 启动时自动关闭数字锁定。
+或者，您可能需要大量输入数据，因此更希望启动 NVDA 时数字锁定始终开启。
 
-Go to NVDA menu, Preferences, Settings, Numpad Nav Mode, and use the "state of numlock when NVDA starts or profile loads" selector. This has three options. The first, "do not change", is the default, and won't touch the numlock. It will be in whatever state it was in before NVDA started.
-The second option, is "turn numlock off", which will always turn the numlock off when NVDA starts. The third option, "Turn numlock on", will turn the numlock on if it was off when NVDA started.
-If you choose either the second or third option, the numlock will be restored to whatever state it was in before, when you exit NVDA. For example, if you choose "Turn numlock off", and numlock was on when you started NVDA: it will be turned off while you use NVDA, but will be turned back on when you exit NVDA.
+ 请前往 NVDA 菜单、选项、设置、数字键盘模式切换，使用“NVDA 启动或配置文件加载时数字键盘的锁定状态”组合框。该组合框包含三个选项。第一个选项为“不更改”，此为默认选项，不会改变数字锁定状态，数字锁定将保持 NVDA 启动前的状态。
+第二个选项是“数字 关”，将在 NVDA 启动时始终关闭数字锁定。第三个选项是“数字 开”，如果 NVDA 启动时数字锁定处于关闭状态，则会将其开启。
+如果您选择了第二或第三个选项，退出 NVDA 时，数字锁定将恢复为启动前的状态。例如，如果您选择了"关闭数字锁定"，且启动 NVDA 时数字锁定为开启状态：那么在使用 NVDA 期间数字锁定将处于关闭状态，但退出 NVDA 时会重新开启。
 
-#### Advanced use cases
+#### 高级使用场景
 
-If you use NVDA's powerful configuration profiles, and you would like the numlock to automatically turn on when you enter certain profiles, do the following:
+如果您使用 NVDA 强大的独立配置功能，并希望激活某些配置时数字锁定自动开启，请按以下步骤操作：
+* 在通用配置中，进入上述的数字键盘模式切换设置面板。选中“初始数字锁定状态取决于配置文件”复选框。此选项默认未选中。
+* 选择“确定”。
+* 激活您希望数字锁定始终保持关闭或开启的配置。
+* 回到数字键盘模式切换设置面板，根据您的偏好选择“数字关”或“数字开”。
+* 然后选择“确定”。此后，当您激活此配置时，数字锁定将自动更改为所需状态。
 
-- While in the "normal profile", go to the Numpad Nav Mode settings panel described above. Check the box for "Initial numlock state is configuration profile dependent". This option is unchecked by default.
-- Select OK.
-- Change to the profile where you want numlock to be always turned off or on.
-- Go back to the Numpad Nav Mode settings panel, and select the option to Turn numlock off or on, as you prefer.
-- Then select OK. Now, whenever you enter this profile, the numlock will automatically change to the desired state.
+请注意，这是一项新功能，我不确定是否有人会用到。如果您有相关使用场景，请发送电子邮件或提交 [Issue][3]，让我知道您是如何利用这一功能的。
 
-Note that this is a new feature, and I don't know if anyone has use for this feature. If you find one, please send an email or open [an issue][3], to let me know how you have found to make use of it.
+或者，更好的方式是，为插件留下[评论][4]，并在评论中分享您的使用体验！
+无论您是否使用该功能，评论都非常有帮助。
 
-Or, better yet, leave a [review][4] for the add-on, and comment on it there!
-Reviews are very helpful, whether or not you use that feature.
+### 新功能
 
-### New features
+欢迎您提交[Issue][3]，或通过电子邮件发送任何功能建议、本文未列出的其他使用场景，或者只是让我知道您觉得本插件有用！
+但如上所述，如果您觉得它有用，请留下[评论][4]。
 
-I encourage you to post an [issue][3], or email with any feature suggestions, or other use cases that I haven't listed here, or just to let me know you find the add-on useful!
-But as mentioned above, if you do find it useful, please leave a [review][4].
+### 历史
 
-### History
+本插件直接源于多年来用户反馈的需求，以及 GitHub [#9549](https://github.com/nvaccess/nvda/issues/9549) 讨论的直接结果。感谢 @Qchristensen 和 @feerrenrut。
+数字锁定功能的基础实现借鉴了已停用的 NumLock Manager 插件，该插件由 Noelia Ruiz（GitHub 用户名 @nvdaes）等人开发。使用已获得许可。
 
-This add-on was the direct result of requests I've heard from users over the years, and a GitHub discussion in [#9549](https://github.com/nvaccess/nvda/issues/9549). With thanks to @Qchristensen and @feerrenrut.
-The basic implementation of the numlock features was borrowed from the legacy NumLock Manager add-on, by Noelia Ruiz (@nvdaes on GitHub), and others. Used with permission.
+### 更新日志
 
-### Changelog
+（此更新日志不完整。完整详情请参阅 Git 日志。）
 
-(This changelog is incomplete. See Git log for full details.)
-
-- 24.1.0: NVDA 2024.X compatibility.
-- 23.1.0: Added numlock management features. Better logging. Improved config profile handling (WIP).
-- 23.0: NVDA 2023.X compatibility.
+* 24.1.0：兼容 NVDA 2024.X。
+* 23.1.0：增加了数字锁定管理功能。改进了日志记录。改进了配置处理（进行中）。
+* 23.0：兼容 NVDA 2023.X。
 
 [1]: https://www.nvaccess.org/addonStore/legacy?file=numpadNavMode
 [2]: https://nvaccess.org/

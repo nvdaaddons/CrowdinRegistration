@@ -1,73 +1,147 @@
-# Search With
+# Search With (Поиск с Помощью) #
 
-Author: Ibrahim Hamadeh  
-Download [Version 1.2][1]  
-NVDA compatibility: 2019.3 and beyond
+*	Автор: Ibrahim Hamadeh
+*	Загрузить [Стабильную версию 2.5.3][1]
+*	Совместимость с NVDA: 2019.3 и выше
 
-This addon helps you to search text, via various search engines.  
-Let no text selected, and press the gesture of the addon  
-A dialog will be displayed, with an edit box to enter a search query  
-To search with Google press enter, or tab to search with other engins.  
-Or  
-select some text and press once, a menu will be displayed with various search engines to choose.  
-And while text is selected, you can press the gesture twice to search with Google directly.  
-The Default gesture for the addon is: NVDA+ Windows+ S.  
-If the keystroke do not work for you, or conflict with other keystroke,  
-you can as always add a gesture or change the existent one going to : 
-NVDA menu>preferences>inputGestures>Search With category.
+Это дополнение позволяет искать текст с помощью различных поисковых систем.
+Нажмите назначенную команду дополнения
+Появится диалоговое окно с полем для ввода поискового запроса
+Для поиска в Google нажмите Enter, для выбора другой поисковой системы нажмите Tab.
+Или
+выделите текст и нажмите команду дополнения один раз. Появится меню с выбором поисковых систем.
+Если текст уже выделен, вы можете нажать команду дополнения дважды, чтобы сразу выполнить поиск в Google.
+Команда по умолчанию:NVDA+Windows+S.
+Если эта комбинация клавиш вам не подходит или конфликтует с другими,
+вы всегда можете назначить новую команду или изменить существующую, перейдя в:
+Меню NVDA > Параметры > Жесты ввода > Категория "Поиск С Помощью".
 
-## Usage
+## Использование ##
 
-- If you want to enter a search query, just press the addon gesture
-- A dialog will be displayed, with an edit field to enter the search term.  
-  Want to search with Google? just press enter
-- Otherwise tab to Other Engines button, and give it a space
-- A popup menu will show up, with various search engines to choose.  
-  Yahoo, Bing, DuckDuckGo, and Youtube.  
-  This is the default menu, and you may modify it from addon's setting panel.
-- Another way to use the addon, is by selecting some text  
-  And on Pressing the addon's gesture, or any other you have assigned to it  
-  a virtual menu will be displayed with various search engines  
-  Either the default menu, or any other you have tailed to your needs.
-- Choose one and press enter, the default browser will open displaying search results.  
-  Or, if you want to search with Google directly  
-  press the gesture twice, and you are done.
-- Want to modify Search with menu?
-- Yes you  can do that from the setting panel,  and adjust the menu to fit to your mood and needs.
-- You can from there, add to Search with menu, other available search engines
-- And you can if you like, remove an item from it, move item up, move item down, or return and set it to default state.
-- If you want these modifications to be permanent, you have to save configuration after wards.
-- Want to search Google using other language options?  
-  Go to, Search With category in setting panels  
-  From the cumbo box there, you can choose search Google either:
-  1. Using browser settings and language.
-  2. Using NVDA language.
-  3. Using windows language.
-- Lastly, if you want to have last spoken text as default query in Search with dialog  
-  you have the ability to do that, through Use last spoken as default query check box in setting panel.  
-  And that's it, hope to search for good and find it, happy searching!
+*	Чтобы ввести поисковый запрос, просто нажмите команду дополнения
+*	Появится диалоговое окно с полем для ввода вашего запроса.
+Поиск в Google: Нажмите Enter
+*	Другие поисковые системы: Нажмите Tab, чтобы перейти к кнопке «Другие поисковые системы», и нажмите Пробел
+*	Появится всплывающее меню с различными поисковыми системами на выбор.
+Yahoo, Bing, DuckDuckGo и YouTube.
+Это меню по умолчанию, его можно изменить в настройках дополнения.
+*	Другой способ использования дополнения — выделите нужный текст
+И нажмите команду дополнения по умолчанию или любую другую, которую вы ему назначили
+появится виртуальное меню с различными поисковыми системами
+По умолчанию или настроенное вами.
+*	Выберите нужную и нажмите Enter — откроется браузер по умолчанию с результатами поиска.
+Чтобы выполнить поиск в Google моментально
+просто нажмите команду дополнения дважды.
+*	Хотите вызвать поисковое меню для текста из буфера обмена или последнего произнесённого текста?
+Вы можете назначить для этого отдельные команды в диалоге «Жесты ввода»:
+	*	«Вызвать поисковое меню для текста из буфера обмена» — однократное нажатие вызовет меню, двойное — мгновенно выполнит поиск в Google.
+	*	«Вызвать поисковое меню для последнего произнесённого текста» — аналогично.
+*	Могу ли я настроить меню поиска?
+*	Вы можете настроить меню поиска  под свои нужды в панели настроек дополнения.
+*	Вы можете: добавить в меню другие доступные поисковые системы
+*	Удалить любой элемент из меню, Переместить элемент выше или ниже в списке и вернуть меню к состоянию по умолчанию.
+*	Чтобы изменения сохранились, не забудьте сохранить конфигурацию NVDA.
+*	Хотите искать в Google на других языках?
+В категории «Поиск С помощью» в настройках NVDA
+Вы можете выбрать, на каком языке выполнять поиск в Google, с помощью комбинированного списка:
+	1.	Использовать язык и настройки браузера.
+	2.	Использовать язык NVDA.
+	3.	Использовать язык Windows.
+*	В настройках вы можете выбрать
+какой запрос будет отображаться в диалоговом окне поиска по умолчанию
+	*	Оставить пустым
+	*	Использовать текст из буфера обмена
+	*	Использовать последний произнесённый текст
+Если выбран вариант с буфером обмена или последним текстом, то текст в поисковом поле будет выделен, чтобы его можно было легко заменить.
+*	Настройка языка для сервисов перевода.
+*	В настройках дополнения в группе настроек «Сервисы перевода» вы можете выбрать целевой язык для Google Translate и DeepL Translator. Просто выберите нужный язык для каждого сервиса в соответствующих комбинированных списков.
+*	Для опытных пользователей
+С помощью флажка в настройках вы можете выбрать, следует ли сохранять папку с данными при установке новой версии дополнения.
+Это означает, что ваши текущие данные будут сохранены и дополнены новыми записями из обновлённой версии.
+На этом всё. Желаем вам успешных поисков и точных ответов! Приятного использования!
 
-### Changes for 1.2
+### Изменения в версии 2.5.3 ###
 
-- Add translations for Portuguese (Brazil), Portuguese (Portugal), and Turkish.
-- Add translations for Chinese (Simplified, China)
+*	В список доступных сервисов перевода добавлен переводчик DeepL.
+*	В настройки дополнения добавлены два комбинированных списка для выбора языка перевода для Google Translate и DeepL.
 
-### Changes for 0.7
+### Изменения в версии 2.5 ###
 
-- Add more sites that could be added to menu, such as Stackoverflow, Stackexchange, GoogleBooks and others.
-- Add the options to use last spoken text as default query, in search with dialog.
+*	Возвращено название дополнения 'searchWith'(camel case).
+*	Добавлена поисковая система Google Scholar.
 
-### Changes for 0.4
+### Изменения в версии 2.4 ###
 
-- Add a dialog if no text selected, to enter a search query.
-- Make possible to modify Search with menu from setting panel, to fit to user needs.
+*	Обновления локализации и документации.
 
-### Changes for 0.3
+### Изменения в версии 2.3 ###
 
-- Add setting panel, giving more language options in Google search.
+*	Теперь выбор сохранения данных в панели настроек не означает, что вы не получите новые записи
+записи из новой версии будут объединены и добавлены в ваш старый файл данных.
+*	Обновлена последняя протестированная версия NVDA до 2023.1 для соответствия NVDA версии 2023.1.
 
-### Changes for 0.1
+### Изменения в версии 2.2 ###
 
-- Initial version
+*	Добавлены обновления локализации и документации.
 
-[1]: https://github.com/ibrahim-s/searchWith/releases/download/v1.2/searchWith-1.2.nvda-addon
+### Изменения в версии 2.0 ###
+
+*	Отключение работы дополнения в безопасном режиме.
+*	Обновлена последняя протестированная версия NVDA до 2022.1 для соответствия последней версии api дополнения.
+
+### Изменения в версии 1.9 ###
+
+*	Обновления локализации и документации.
+
+### Изменения в версии 1.8 ###
+
+*	В настройках дополнения добавлен флажок, позволяющий опытным пользователям сохранять свою папку с данными.
+*	Добавлены две новые команды в жесты ввода:
+	*	вызов меню поиска для текста из буфера обмена; двойное нажатие выполняет поиск в Google напрямую.
+	*	Вызов меню поиска для последнего произнесённого текста; двойное нажатие выполняет поиск в Google напрямую.
+
+### Изменения в версии 1.7 ###
+
+*	Добавлен комбинированный список в настройках дополнения для выбора варианта запроса по умолчанию в диалоге "Искать с помощью".
+*	Можно выбрать: Оставить пустым, Использовать текст из буфера обмена или Использовать последний произнесённый текст.
+
+### Изменения в версии 1.6 ###
+
+*	Добавлены новые сайты и поисковые системы:
+	*	Google Translate
+	*	NVDA Issues On GitHub (Проблемы NVDA на GitHub)
+*	Использованы декораторы скриптов вместо традиционного способа назначения жестов.
+
+### Изменения в версии 1.5 ###
+
+*	Исправлена серьезная ошибка путем экранирования специальных символов в строке запроса перед включением в URL-адрес.
+
+### Изменения в версии 1.4 ###
+
+*	Добавлены обновления локализации.
+*	Удалены некоторые строки документации из функций-скриптов, которые не подходят для отображения в жестах ввода.
+
+### Изменения в версии 1.2 ###
+
+*	Добавлены переводы для португальского (Бразилия), португальского (Португалия) и турецкого языков.
+*	Добавлен перевод для китайского (упрощенное письмо, Китай).
+
+### Изменения в версии 0.7 ###
+
+*	Добавлены дополнительные сайты, которые можно включить в меню: Stackoverflow, Stackexchange, Google Books и другие.
+*	Добавлена возможность использовать последний озвученный текст в качестве запроса по умолчанию в диалоге поиска.
+
+### Изменения в версии 0.4 ###
+
+*	Добавлен диалог для ввода поискового запроса, если текст не выделен.
+*	Реализована возможность настройки меню "Искать с помощью" через панель настроек в соответствии с потребностями пользователя.
+
+### Изменения в версии 0.3 ###
+
+*	Добавлены настройки, предоставляющие больше вариантов языков для поиска Google.
+
+### Изменения в версии 0.1 ###
+
+*	Первоначальная версия
+
+[1]: https://github.com/ibrahim-s/searchWith/releases/download/2.5.3/searchWith-2.5.3.nvda-addon

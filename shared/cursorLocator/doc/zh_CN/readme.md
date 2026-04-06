@@ -1,43 +1,39 @@
-# Cursor Locator
+# Cursor Locator #
+* 作者：Noelia Ruiz Martínez、Sergio Gómez Codina。
 
-- Authors: Noelia Ruiz Martínez, Sergio Gómez Codina.
+此插件可以在文档或多行控件中输入文本时了解系统光标相对于当前行开头的位置。
 
-This add-on makes possible to know the position of the system caret respect to the start of the current line, while typing to add text in documents or multiline controls.
+此功能取决于应用程序的视觉外观。因此，您可能需要禁用对行的调整或为不同的程序配置插件。
 
-This feature deppends on the visual appearance of applications. Therefore, you may need to disable line adjustment or configure the add-on for different programs.
+## Cursor Locator 设置 ##
 
-## Cursor Locator settings
+此面板可从 NVDA 的菜单、选项子菜单、设置对话框中找到。
 
-This panel is available from NVDA's menu, Preferences submenu, Settings dialog.
+它提供以下选项：
 
-It provides the following options:
+* 提示行长度：您可以输入或选择行长度（字符数介于 0 到 600 之间），达到时会以高音宣布。 （默认值为 80 个字符）。
+* 行首提示的最大哔声次数：您可以键入或选择 0 到 600 之间的值。默认值为 0。
+* 行尾提示的最大哔声次数：您可以键入或选择 0 到 600 之间的值。默认值为 0。
+* 行首提示的音高：您可以键入或选择一个介于 20 和 20000 之间的值。（默认值为 400 赫兹）。
+* 行首提示的声音长度：您可以键入或选择一个介于 20 和 2000 之间的值。（默认值为 50 毫秒）。
+* 测试行首声音：按下此按钮可测试配置的行首声音。
+* 行尾提示音高：您可以键入或选择一个介于 20 和 20000 之间的值。（默认值为 1000 赫兹）。
+* 行尾提示的声音长度：您可以键入或选择一个介于 20 和 2000 之间的值。（默认值为 50 毫秒）。
+* 测试行尾声音：按下此按钮可测试配置的行尾声音。
 
-- Report line length: You can type or choose a line length (number of characters between 0 and 600), which will be announced by a hight tone when it's reached. (The default value is 80 characters).
-- Maximum number of beeps for start of line notification: You can type or select a value between 0 and 600. The default value is 0.
-- Maximum number of beeps for end of line notification: You can type or select a value between 0 and 600. The default value is 0.
-- Pitch of sound for start of line: You can type or select a value between 20 and 20000. (The default value is 400 hertzs).
-- Length of sound for start of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).
-- Test sound for start of line: Press this button to test the configured sound for start of line.
-- Pitch of sound for end of line: You can type or select a value between 20 and 20000. (The default value is 1000 hertzs).
-- Length of sound for end of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).
-- Test sound for end of line: Press this button to test the configured sound for end of line.
+## 命令 ##
 
-## Commands
+您可以通过 NVDA 的菜单、选项子菜单、按键与手势对话框将手势修改为以下命令：
 
-You can modify the gestures to the following commands trought the NVDA's menu, Preferences submenu, Input gestures dialog:
+* NVDA+control+shift+l：如果可能，报告当前行的长度（系统输入焦点）。
+* 未分配：显示 Cursor Locator 设置对话框（配置）。
 
-- NVDA+control+shift+l: When possible, reports the lenght of the current line (System caret category).
-- Not assigned: Shows the Cursor Locator settings dialog (Config category).
+## 3.0 的变化 ##
+* 兼容 NVDA 2023.1。
 
-## Changes for 3.0
+## 2.0 的变化 ##
+* 添加了在到达行尾和行首时重复提示的功能。
+* 在 Windows 11 上添加了对 Office 文档和记事本的支持。
 
-- Compatible with NVDA 2023.1.
-
-## Changes for 2.0
-
-- Added ability to repeat notifications when reaching end and start of line.
-- Added support for Office documents, and Notepad on Windows 11.
-
-## Changes for 1.0
-
-- Initial version.
+## 1.0 的变化 ##
+* 初始版本

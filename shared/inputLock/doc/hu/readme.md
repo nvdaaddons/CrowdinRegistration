@@ -1,8 +1,8 @@
 [[!meta title="Input Lock"]]
 
-- Author: Jose Manuel Delicado
-- NVDA compatibility: 2023.3.4 and beyond
-- Download [stable version][1]
+* Author: Jose Manuel Delicado
+* NVDA compatibility: 2023.3.4 and beyond
+* Download [stable version][1]
 
 ## Introduction
 
@@ -25,85 +25,85 @@ Note: when mouse clicks are blocked, you can't use any NVDA gestures to work wit
 
 Input Lock has the following known problems:
 
-- The shortcuts control+alt+del and windows+l can be used even when the keyboard is locked.
-- For gestures used to lock the touchpad, please try to assign a small number of key combination gestures. It is recommended to use NVDA+letters or numbers, Ctrl+F keys etc.
+* The shortcuts control+alt+del and windows+l can be used even when the keyboard is locked.
+* For gestures used to lock the touchpad, please try to assign a small number of key combination gestures. It is recommended to use NVDA+letters or numbers, Ctrl+F keys etc.
 
 ## Changelog
 
 ### Version 1.13
 
-- Now, minimum supported version is 2023.3.4.
-- Updated translations. Starting from version 1.13, changelog won't be modified when a new release only includes localization updates.
-- Added a gesture (unassigned by default) to lock/unlock the touchpad.
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
 
 ### Version 1.12
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
 
 ### Version 1.11
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Now, minimum supported version is 2022.4.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Now, minimum supported version is 2022.4.
 
 ### Version 1.10
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Updated documentation.
-- Now, minimum supported version is 2021.3.
-- The input will remain blocked after waking up from standby mode. Thanks to Javi Dominguez.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Updated documentation.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to Javi Dominguez.
 
 ### Version 1.9
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Updated documentation.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Updated documentation.
 
 ### Version 1.8
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
 
 ### Version 1.7
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
 
 ### Version 1.6
 
-- Now, settings are removed only when the add-on is uninstalled. Configuration is nolonger reset when upgrading.
-- New and updated translations.
+* Now, settings are removed only when the add-on is uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
 
 ### Version 1.5
 
-- Added compatibility with recent NVDA releases.
-- New translations.
+* Added compatibility with recent NVDA releases.
+* New translations.
 
 ### Version 1.4
 
-- The addon gestures are unassigned by default.
+* The addon gestures are unassigned by default.
 
 ### Version 1.3
 
-- Added a configuration panel in settings dialog. For old NVDA versions, a menu item and a dialog have been added too.
-- Added a setting to lock the mouse when NVDA is started.
-- Added a setting to block also mouse clicks while mouse is locked.
-- Small bugs fixed, some code optimizations and less duplicated strings for translators
+* Added a configuration panel in settings dialog. For old NVDA versions, a menu item and a dialog have been added too.
+* Added a setting to lock the mouse when NVDA is started.
+* Added a setting to block also mouse clicks while mouse is locked.
+* Small bugs fixed, some code optimizations and less duplicated strings for translators
 
 ### Version 1.2
 
-- Now the mouse can also be locked
-- New command to lock and unlock only the mouse
+* Now the mouse can also be locked
+* New command to lock and unlock only the mouse
 
 ### Version 1.1
 
-- If another addon has previously added a capture function to inputManager, it is restored when the input is unlocked.
+* If another addon has previously added a capture function to inputManager, it is restored when the input is unlocked.
 
 ### Version 1.0
 
-- Initial release
+* Initial release
 
 [[!tag dev stable]]
 

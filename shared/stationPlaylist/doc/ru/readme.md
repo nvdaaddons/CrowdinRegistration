@@ -1,257 +1,257 @@
-# StationPlaylist
+# StationPlaylist #
 
-- Authors: Christopher Duffley <nvda@chrisduffley.com> (formerly Joseph Lee <joseph.lee22590@gmail.com>, originally by Geoff Shang and other contributors)
+* Авторы: Christopher Duffley <nvda@chrisduffley.com> (прежде Joseph Lee <joseph.lee22590@gmail.com>, первоначально автор Geoff Shang и другие участники)
 
-This add-on package provides improved usage of StationPlaylist Studio and other StationPlaylist apps, as well as providing utilities to control Studio from anywhere. Supported apps include Studio, Remote Studio, Creator, Track Tool, Recorder (SPL and VT), and Streamer, as well as SAM, SPL, and AltaCast encoders.
+Этот пакет дополнения обеспечивает улучшенное использование StationPlaylist Studio и других приложений StationPlaylist, а также предоставляет утилиты для управления Studio из любого места. Поддерживаемые приложения включают Studio, Remote Studio, Creator, Track Tool, Recorder (SPL и VT) и Streamer, а также кодеры SAM, SPL и AltaCast.
 
-For more information about the add-on, read the [add-on guide][1].
+Для получения подробной информации о дополнении прочтите [руководство по дополнению][1].
 
-IMPORTANT NOTES:
+ВАЖНЫЕ ПРИМЕЧАНИЯ:
 
-- This add-on requires StationPlaylist suite 6.0 or later.
-- Some add-on features will be disabled or limited if NVDA is running in secure mode such as in logon screen.
-- For best experience, disable audio ducking mode.
-- Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 26.01 (2026) onwards.
-- While Studio is running, you can save, reload saved settings, or reset add-on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or Control+NVDA+R three times, respectively. This is also applicable to encoder settings - you can save and reset (not reload) encoder settings if using encoders.
-- Many commands will provide speech output while NVDA is in speak on demand mode (NVDA 2024.1 and later).
-- When refering to Studio, both local (original) Studio and Remote Studio will be assumed. When something is specific to StationPlaylist Studio (original), the term "local Studio" will be used.
-- Installing both Studio (local/original) and Remote Studio on the same computer is not recommended.
-- Some add-on keyboard commands will conflict with Studio commands (for example: Control+Alt+End to announce last column (add-on) versus preview ends of tracks (Studio 6.10 and later)).
+* Для этого дополнения требуется StationPlaylist suite версии 6.0 или выше.
+* Некоторые дополнительные функции будут отключены или ограничены, если NVDA запущена в защищённом режиме, например, на экране входа в систему.
+* Для лучшего восприятия отключите режим приглушения звука.
+* Начиная с 2018 , [журналы изменений для старых выпусков дополнения][2] можно будет найти на GitHub. В этом файле сведений о дополнении будут перечислены изменения, начиная с версии 26.01 (2026).
+* Во время работы Studio вы можете сохранить, перезагрузить сохранённые настройки или сбросить настройки дополнения до значений по умолчанию, нажав Control+NVDA+C, Control+NVDA+R один раз или Control+NVDA+R три раза соответственно. Это также применимо к настройкам энкодера - вы можете сохранять и сбрасывать (не перезагружать) настройки энкодера, если используете энкодеры.
+* Многие команды будут выводить речь, когда NVDA находится в режиме речи по требованию (NVDA 2024.1 и выше).
+* При упоминании Studio подразумеваются как локальная (исходная) Studio, так и Удалённая Studio. Если что-то специфично для StationPlaylist Studio (оригинал), будет использоваться термин "локальная Studio".
+* Установка Studio (локальной/исходной) и Удалённой Studio на одном компьютере не рекомендуется.
+* Some add-on keyboard commands will conflict with Studio commands (for example: Control+Alt+End to announce last column (add-on) versus preview ends of tracks (Studio 6.10 and later)).
 
-## Shortcut keys
+## Сочетания клавиш
 
-Most of these will work in Studio only unless otherwise specified. Unless noted otherwise, these commands support speak on demand mode.
+Большинство из них будут работать только в Studio, если не указано иное. Если не указано иное, эти команды поддерживают режим речи по требованию.
 
-- Alt+Shift+T from Studio window: announce elapsed time for the currently playing track, voice track, or cart.
-- Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: announce remaining time for the currently playing track, voice track, or cart.
-- NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: announces broadcaster time such as 5 minutes to top of the hour. Pressing this command twice will announce minutes and seconds till top of the hour.
-- Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens alarms category in Studio add-on configuration dialog (does not support speak on demand).
-- Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: Announces scheduled time for the loaded playlist.
-- Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: Announces total playlist duration.
-- Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart assignments (does not support speak on demand).
-- Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: Announces when the selected track is scheduled to play.
-- Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: Announces rotation and category associated with the loaded playlist.
-- Control+NVDA+F from Studio window: Opens a dialog to find a track based on artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find backward (does not support speak on demand).
-- Shift+NVDA+R from Studio window (local Studio only): Steps through library scan announcement settings (does not support speak on demand).
-- Control+Shift+X from Studio window: Steps through braille timer settings (does not support speak on demand).
-- Control+Alt+left/right arrow (while focused on a track in local and Remote Studio, Creator, Remote VT, and Track Tool): Move to previous/next track column (does not support speak on demand).
-- Control+Alt+up/down arrow (while focused on a track in local and Remote Studio, Creator, Remote VT, and Track Tool): Move to previous/next track and announce specific columns (does not support speak on demand).
-- Control+NVDA+1 through 0 (while focused on a track in local and Remote Studio, Creator (including Playlist Editor), Remote VT, and Track Tool): Announce column content for a specified column (first ten columns by default). Pressing this command twice will display column information on a browse mode window.
-- Control+NVDA+- (hyphen while focused on a track in local and Remote Studio, Creator, Remote VT, and Track Tool): display data for all columns in a track on a browse mode window (does not support speak on demand).
-- NVDA+V while focused on a track (Studio's playlist viewer only): toggles track column announcement between screen order and custom order (does not support speak on demand).
-- Alt+NVDA+C while focused on a track (Studio's playlist viewer only): announces track comments if any.
-- Alt+NVDA+0 (two finger flick left in SPL mode) from local and Remote Studio, Creator, Remote VT, and Track Tool: Opens the Studio add-on configuration dialog (does not support speak on demand).
-- Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog (does not support speak on demand).
-- Alt+NVDA+F1: Open welcome dialog (does not support speak on demand).
+* Alt+Shift+T в окне Studio: объявить прошедшее время воспроизводимой в данный момент дорожки, голосовой дорожки или корзины.
+* Control+Alt+T (Пролистывание двумя пальцами вниз в сенсорном режиме SPL) в окне Studio: объявить оставшееся время для воспроизводимой в данный момент дорожки, голосовой дорожки или корзины.
+* NVDA+Shift+F12 (пролистывание двумя пальцами вверх в сенсорном режиме SPL) из окна Studio: объявляет время вещания, например, за 5 минут до начала часа. При двойном нажатии этой команды будут объявлены минуты и секунды до начала часа.
+* Alt+NVDA+1 (пролистывание двумя пальцами вправо в режиме SPL) из окна Studio: открывает категорию сигналов тревоги в диалоге конфигурации дополнения Studio (не поддерживает речь по требованию).
+* Alt+NVDA+1 из редакторов списков воспроизведения Creator и Remote VT: объявляет запланированное время для загруженного списка воспроизведения.
+* Alt+NVDA+2 из редакторов списков воспроизведения Creator и Remote VT: Объявляет общую продолжительность списка воспроизведения.
+* Alt+NVDA+3 из окна Studio: Включает проводник корзины для изучения назначений корзины (не поддерживает речь по требованию).
+* Alt+NVDA+3 из редакторов списков воспроизведения Creator и Remote VT: Объявляет, когда выбранная дорожка запланирована к воспроизведению.
+* Alt+NVDA+4 из редакторов списков воспроизведения Creator и Remote VT: объявляет ротацию и категорию, связанную с загруженным списком воспроизведения.
+* Control+NVDA+f из окна Studio: Открывает диалог поиска дорожки по исполнителю или названию песни. Нажмите NVDA+F3 для поиска вперёд, или NVDA+Shift+F3 для поиска назад (не поддерживается речь по требованию).
+* Shift+NVDA+R в окне Studio (только локальная Studio): Пошаговые действия по настройке оповещений о сканировании библиотеки (гне поддерживает речь по требованию).
+* Control+Shift+X из окна Studio: пошаговое изменение настроек брайлевского таймера (не поддерживает речь по требованию).
+* Control+Alt+стрелка влево/вправо (при фокусе на дорожке в локальной и удалённой Studio, Creator, Remote VT и Track Tool): Переход к предыдущему/следующему столбцу дорожки (не поддерживает речь по требованию).
+* Control+Alt+стрелка вверх/вниз (при фокусе на дорожке в локальной и удалённой Studio, Creator, Remote VT и Track Tool): Переход к предыдущей/следующей дорожке и объявление определённых столбцов (не поддерживает речь по требованию).
+* От Control+NVDA+1 до 0 (при фокусе на дорожке в локальной и удалённой Studio, Creator (включая редактор списков воспроизведения), Remote VT и Track Tool): объявить содержимое столбца для указанного столбца (первые десять столбцов по умолчанию). Двойное нажатие этой команды отобразит информацию о столбце в окне режима обзора.
+* Control+NVDA+- (при фокусе на дорожке в локальной и удалённой Studio, Creator, Remote VT и Track Tool): отображать данные для всех столбцов дорожки в окне режима обзора (не поддерживает речь по требованию).
+* NVDA+V при фокусировке на дорожке (только для просмотрщика списков воспроизведения Studio): переключает объявление в столбце дорожки между порядком экрана и пользовательским порядком (не поддерживает речь по требованию).
+* Alt+NVDA+C при фокусе на дорожке (Только для просмотрщика списков воспроизведения Studio): объявляет комментарии дорожки, если таковые имеются.
+* Alt+NVDA+0 (Пролистать двумя пальцами влево в режиме SPL) из локальной и удалённой Studio, Creator, Remote VT, и Track Tool: Открывает диалог настроек дополнения Studio (не поддерживает речь по требованию).
+* Alt+NVDA+P из окна Studio: открывает диалог профилей вещания Studio (не поддерживает речь по требованию).
+* Alt+NVDA+F1: Открыть диалог приветствия (не поддерживает речь по требованию).
 
-## Unassigned commands
+## Неназначенные команды
 
-The following commands are not assigned by default; if you wish to assign them, use Input Gestures dialog to add custom commands. To do so, from Studio window, open NVDA menu, Preferences, then Input Gestures. Expand StationPlaylist category, then locate unassigned commands from the list below and select "Add", then type the gesture you wish to use.
+Следующие команды по умолчанию не назначены; если вы хотите их назначить, используйте диалог жестов ввода для добавления пользовательских команд. Для этого в окне Studio откройте меню NVDA, Параметры, затем жесты ввода. Разверните категорию StationPlaylist, затем найдите неназначенные команды в списке ниже и выберите "Добавить", затем введите жест, который вы хотите использовать.
 
-Important: some of these commands will not work if NVDA is running in secure mode such as from login screen. Not all commands support speak on demand and/or unavailable in Remote Studio.
+Важно: некоторые из этих команд не будут работать, если NVDA работает в безопасном режиме, например, на экране входа в систему. Не все команды поддерживают речь по требованию и/или недоступны в Remote Studio.
 
-- Switching to local SPL Studio window from any program (unavailable in secure mode, does not support speak on demand).
-- SPL Controller layer (unavailable in secure mode).
-- Announcing Studio status such as track playback from other programs (unavailable in secure mode).
-- Announcing encoder connection status from any program (unavailable in secure mode).
-- SPL Assistant layer from Studio.
-- Announce time including seconds from Studio.
-- Announcing temperature.
-- Announcing title of next track if scheduled.
-- Announcing title of the currently playing track.
-- Marking current track for start of track time analysis.
-- Performing track time analysis.
-- Take playlist snapshots.
-- Find text in specific columns (does not support speak on demand).
-- Find tracks with duration that falls within a given range via time range finder (does not support speak on demand).
-- Quickly enable or disable metadata streaming (does not support speak on demand, unavailable in Remote Studio).
+* Переключение в локальную SPL Studio из любой программы (недоступно в безопасном режиме, не поддерживается речь по требованию).
+* Уровень панели управления SPL (недоступен в безопасном режиме).
+* Объявление состояния Studio, например, о воспроизведении дорожек из других программ (недоступно в безопасном режиме).
+* Оповещение о состоянии подключения кодера из любой программы (недоступно в безопасном режиме).
+* Уровень Помощника SPL из Studio.
+* Объявить время, включая секунды, из Studio.
+* Объявляет температуру.
+* Объявлять название следующей дорожки, если она запланирована.
+* Объявлять название проигрываемой в данный момент дорожки.
+* Пометка текущей дорожки для начала анализа времени дорожки.
+* Выполнение анализа времени дорожки.
+* Делать снимки списка воспроизведения.
+* Искать текст в определённых столбцах (не поддерживает речь по требованию).
+* Искать дорожки с длительностью заданного диапазона с помощью функции поиска по времени (не поддерживает речь по требованию).
+* Быстрое включение или отключение потоковой передачи метаданных (не поддерживает речь по требованию, недоступно в Удалённой Studio).
 
-## Additional commands when using encoders
+## Дополнительные команды при использовании кодеров
 
-The following commands are available when using encoders, and the ones used for toggling options for on-connection behavior such as focusing to Studio, playing the first track, and toggling of background monitoring can be assigned through the Input Gestures dialog in NVDA menu, Preferences, Input Gestures, under the StationPlaylist category. These commands do not support speak on demand.
+При использовании кодеров доступны следующие команды, а те, которые используются для переключения параметров поведения при подключении, таких как фокус на Studio, воспроизведение первой дорожки и переключение фонового наблюдения, могут быть назначены в диалоге жестов ввода в меню NVDA, Параметры, жесты ввода, в категории StationPlaylist. Эти команды не поддерживают речь по требованию.
 
-- F9: connect the selected encoder.
-- F10 (SAM encoder only): Disconnect the selected encoder.
-- Control+F9: Connect all encoders.
-- Control+F10 (SAM encoder only): Disconnect all encoders.
-- Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the selected encoder if connected.
-- Shift+F11: Toggles whether Studio will play the first selected track when encoder is connected to a streaming server.
-- Control+F11: Toggles background monitoring of the selected encoder.
-- Control+F12: opens a dialog to select the encoder you have deleted (to realign encoder labels and settings).
-- Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such as encoder label.
+* F9: подключить выбранный кодер.
+* F10 (только кодер SAM): Отключить выбранный кодер.
+* Control+F9: Подключить все кодеры.
+* Control+F10 (только кодер SAM): Отключить все кодеры.
+* Control+Shift+F11: Включает, будет ли NVDA переключаться на окно Studio для выбранного кодера, если он подключён.
+* Shift+F11: включает, будет ли Studio воспроизводить первую выбранную дорожку, когда кодер подключен к потоковому серверу.
+* Control+F11: включает фоновое наблюдение выбранного кодера.
+* Control+F12: открывает диалог для выбора удалённого кодера (чтобы изменить метки и настройки кодера).
+* Alt+NVDA+0 или F12: открывает диалог настроек кодера для настройки таких параметров, как метка кодера.
 
-In addition, column review commands are available, including (supports speak on demand):
+Кроме того, доступны команды просмотра столбцов, в том числе (поддержка речи по требованию):
 
-- Control+NVDA+1: Encoder position.
-- Control+NVDA+2: encoder label.
-- Control+NVDA+3 from SAM Encoder: Encoder format.
-- Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings.
-- Control+NVDA+4 from SAM Encoder: Encoder connection status.
-- Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection status.
-- Control+NVDA+5 from SAM Encoder: Connection status description.
+* Control+NVDA+1: Положение кодера.
+* Control+NVDA+2: метка кодера.
+* Control+NVDA+3 от SAM Encoder: Формат кодера.
+* Control+NVDA+3 из SPL и AltaCast Encoder: настройки кодера.
+* Control+NVDA+4 из SAM Encoder: состояние подключения кодера.
+* Control+NVDA+4 от SPL и AltaCast Encoder: скорость передачи или состояние соединения.
+* Control+NVDA+5 от SAM Encoder: Описание состояния соединения.
 
-## SPL Assistant layer
+## Уровень Помощника SPL
 
-This layer command set allows you to obtain various status on Studio, such as whether a track is playing, total duration of all tracks for the hour and so on. From any local or Remote Studio window, press the SPL Assistant layer command, then press one of the keys from the list below (one or more commands are exclusive to playlist viewer). You can also configure NVDA to emulate commands from other screen readers.
+Набор команд этого уровня позволяет вам получать различные состояния в Studio, например, воспроизводится ли дорожка, общая продолжительность всех дорожек за час и так далее. В любом локальном или удаленном окне Studio нажмите команду уровня помощника SPL, затем нажмите одну из клавиш из списка ниже (одна или несколько команд являются эксклюзивными для средства просмотра списков воспроизведения). Вы также можете настроить NVDA для эмуляции команд других программ чтения с экрана.
 
-The available commands are (most commands support speak on demand and some commands are unavailable in Remote Studio):
+Доступны следующие команды (большинство команд поддерживают речь по требованию, а некоторые команды недоступны в Remote Studio):
 
-- A: Automation.
-- C (Shift+C in JAWS layout): Title for the currently playing track.
-- C (JAWS layout): Toggle cart explorer (playlist viewer only, does not support speak on demand).
-- D (R in JAWS layout): Remaining duration for the playlist (if an error message is given, move to playlist viewer and then issue this command).
-- Control+D (Studio 6.10 and later, unavailable in Remote Studio): Control keys enabled/disabled.
-- E (unavailable in Remote Studio): Metadata streaming status.
-- Shift+1 through Shift+4, Shift+0 (unavailable in Remote Studio): Status for individual metadata streaming URL's (0 is for DSP encoder).
-- F: Find track (playlist viewer only, does not support speak on demand).
-- H (T in JAWS layout): Duration of music for the current hour slot.
-- Shift+H (H in JAWS layout): Remaining track duration for the hour slot.
-- I (L in JAWS layout, unavailable in Remote Studio): Listener count.
-- K (unavailable in Remote Studio): Move to the marked track (playlist viewer only).
-- Control+K (unavailable in Remote Studio): Set the current track as the place marker track (playlist viewer only).
-- L (Shift+L in JAWS layout): Line in.
-- M: Microphone.
-- N: Title for the next scheduled track.
-- O: Playlist hour over/under by.
-- P: Playback status (playing or stopped).
-- Shift+P (unavailable in Remote Studio): Pitch of the current track.
-- R (Shift+E in JAWS layout, unavailable in Remote Studio): Record to file enabled/disabled.
-- Shift+R (Alt+T in JAWS layout; unavailable in Remote Studio): Monitor library scan in progress.
-- S: Track starts (scheduled).
-- Shift+S: Time until selected track will play (track starts in).
-- T (number row 0 (zero) in JAWS layout; unavailable in Remote Studio): Cart edit/insert mode on/off.
-- U (unavailable in Remote Studio): Studio up time.
-- W: Weather and temperature if configured.
-- Y (unavailable in Remote Studio): Playlist modified status.
-- F8: Take playlist snapshots (number of tracks, longest track, etc.).
-- Shift+F8: Request playlist transcripts in numerous formats.
-- F9: Mark current track for start of playlist analysis (playlist viewer only).
-- F10: Perform track time analysis (playlist viewer only).
-- F12: Switch between current and a predefined profile.
-- F1: Layer help.
+* A: Автоматизация.
+* C (Shift+C в раскладке JAWS): Название воспроизводимой в данный момент дорожки.
+* C (раскладка JAWS): Переключить проводник корзины (только для просмотрщика списков воспроизведения, не поддерживает речь по требованию).
+* D (R в раскладке JAWS): Оставшаяся продолжительность списка воспроизведения (если отображается сообщение об ошибке, перейдите к просмотрщику списка воспроизведения и затем введите эту команду).
+* Control+D (Studio 6.10 и выше, недоступно в Remote Studio): Клавиши управления включены/выключены.
+* E (недоступно в Remote Studio): Состояние потоковой передачи метаданных.
+* От Shift+1 до Shift+4, Shift+0 (недоступно в Remote Studio): Состояние отдельных URL-адресов потоковой передачи метаданных (0 — для кодера DSP).
+* F: Найти дорожку (только для просмотрщика списков воспроизведения, не поддерживает речь по требованию).
+* H (T в раскладке JAWS): Продолжительность музыки для текущего часового интервала.
+* Shift+H (H в раскладке JAWS): Оставшаяся продолжительность дорожки для часового интервала.
+* I (L в раскладке JAWS, недоступно в Remote Studio): Количество слушателей.
+* K (недоступно в Remote Studio): Перейти к отмеченной дорожке (только для просмотра списков воспроизведения).
+* Control+K (недоступно в Remote Studio): Установить текущую дорожку в качестве дорожки метки места (только для просмотра списков воспроизведения).
+* L (Shift+L в раскладке JAWS): Линейный вход.
+* M: Микрофон.
+* N: Название следующей запланированной дорожки.
+* O: час списка воспроизведения более/под.
+* P: Состояние воспроизведения (играет или остановлено).
+* Shift+P (недоступно в Remote Studio): Высота текущей дорожки.
+* R (Shift+E в раскладке JAWS, недоступно в Remote Studio): Запись в файл включена/отключена.
+* Shift+R (Alt+T в раскладке JAWS; недоступно в Удалённой Studio): Наблюдение сканирования библиотеки.
+* S: Начало дорожки (по расписанию).
+* Shift+S: Время до начала воспроизведения выбранной дорожки (дорожка начинается).
+* T (числовая строка 0 (ноль) в раскладке JAWS; недоступно в Удалённой Studio): включение/выключение режима редактирования/вставки корзины.
+* U (недоступно в Remote Studio): Время работы Studio.
+* W: Погода и температура, если настроено.
+* Y (недоступно в Remote Studio): состояние изменения списка воспроизведения.
+* F8: Сделать снимки списка воспроизведения (количество дорожек, самая длинная дорожка и т. д.).
+* Shift+F8: Запросить расшифровки списков воспроизведения в различных форматах.
+* F9: Отметить текущую дорожку для начала анализа списка воспроизведения (только для просмотрщика списков воспроизведения).
+* F10: Выполнить анализ времени дорожки (только для просмотрщика списков воспроизведения).
+* F12: Переключение между текущим и предопределённым профилем.
+* F1: Справка по уровню.
 
-## SPL Controller
+## Панель управления SPL
 
-The SPL Controller is a set of layered commands you can use to control SPL (local) Studio and/or Remote Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "SPL Controller" or "SPL Remote Controller" if Remote Studio is in use. Press another command to control various Studio settings such as microphone on/off or play the next track. You can also configure NVDA to enter SPL Assistant layer (see above) by pressing SPL Controller layer command (passthrough mode, enabled by default).
+Панель управления SPL — это набор многоуровневых команд, которые можно использовать для управления SPL (локальной) Studio и/или Удалённой Studio в любом месте. Нажмите команду уровня панели управления SPL, и NVDA скажет: "Панель управления SPL" или "Удалённая панель управления SPL", если используется Удалённая Studio. Нажмите другую команду, чтобы управлять различными настройками Studio, такими как включение/выключение микрофона или воспроизведение следующей дорожки. Вы также можете настроить NVDA для входа в уровень помощника SPL (см. выше), нажав команду уровня панели управления SPL (режим сквозной передачи, включен по умолчанию).
 
-Important: SPL Controller layer commands are disabled if NVDA is running in secure mode.
+Важно: команды уровня панели управления SPL отключены, если NVDA запущен в защищенном режиме.
 
-Outside of Studio, the available SPL Controller commands are (some commands support speak on demand and some are only available with local Studio):
+Вне Studio доступны следующие команды панели управления SPL (некоторые команды поддерживают речь по требованию, а некоторые доступны только в локальной Studio):
 
-- P or Enter: Play the selected track.
-- Control+down arrow: Play the next track with crossfade.
-- U: Pause or unpause playback.
-- S: Stop the track with fade out.
-- T: Instant stop.
-- M: Turn on microphone.
-- Shift+M: Turn off microphone.
-- N: Turn microphone on without fade.
-- A: Turn on automation.
-- Shift+A: Turn off automation.
-- L: Turn on line-in input.
-- Shift+L: Turn off line-in input.
-- R: Remaining time for the currently playing track.
-- Shift+R (unavailable in Remote Studio): Library scan progress.
-- C: Title and duration of the currently playing track (supports speak on demand).
-- Shift+C: Title and duration of the upcoming track if any (supports speak on demand).
-- E (unavailable in Remote Studio): Encoder connection status (supports speak on demand).
-- I (unavailable in Remote Studio): Listener count (supports speak on demand).
-- Q: Studio status information such as whether a track is playing, microphone is on and others (supports speak on demand).
-- Cart keys (F1, Control+1, for example; unavailable in Remote Studio): Play assigned carts from anywhere.
-- H: Layer help.
+* P or Enter: Play the selected track.
+* Control+down arrow: Play the next track with crossfade.
+* U: Приостановить или возобновить воспроизведение.
+* S: Остановить дорожку с затуханием.
+* T: Мгновенная остановка.
+* M: Включить микрофон.
+* Shift+M: Выключить микрофон.
+* N: Включить микрофон без нарастания.
+* A: Включить автоматику.
+* Shift+A: Отключить автоматику.
+* L: Включить линейный вход.
+* Shift+L: Отключить линейный вход.
+* R: Оставшееся время для воспроизводимой в данный момент дорожки.
+* Shift+R (недоступно в Удалённой Studio): Ход сканирования библиотеки.
+* C: Название и продолжительность воспроизводимой в данный момент дорожки (поддерживается речь по требованию).
+* Shift+C: Название и длительность предстоящей дорожки, если есть (поддерживается речь по требованию).
+* E (недоступно в Удалённой Studio): Состояние подключения энкодера (поддерживается речь по требованию).
+* I (недоступно в Удалённой Studio): Число слушателей (поддерживает речь по требованию).
+* Q: Информация о состоянии студии, например, воспроизводится ли дорожка, включен ли микрофон и другие данные (поддерживается речь по требованию).
+* Клавиши корзины (F1, Control+1, например; недоступно в Удалённой Studio): Воспроизвести назначенные корзины из любого места.
+* H: Справка по уровню.
 
-From inside Studio (local and Remote Studio), SPL Controller layer command will invoke SPL Assistant layer by default.
+Изнутри Studio (локальной и удаленной Studio) команда уровня панели управления SPL по умолчанию вызывает уровень помощника SPL.
 
-## Track and microphone alarms
+## Аварийные сигналы дорожки и микрофона
 
-By default, NVDA will play a beep if five seconds are left in the track (outro) and/or intro, as well as to hear a beep if microphone has been active for a while. To configure track and microphone alarms, press Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can also use this screen to configure if you'll hear a beep, a message or both when alarms are turned on.
+По умолчанию NVDA воспроизводит звуковой сигнал, если до конца дорожки (окончание) и/или вступления осталось пять секунд, а также если микрофон был активен в течение некоторого времени. Чтобы настроить звуковые сигналы дорожки и микрофона, нажмите Alt+NVDA+1, чтобы открыть настройки звуковых сигналов на экране настроек дополнения Studio. Вы также можете использовать этот экран для настройки того, будет ли слышен звуковой сигнал, сообщение или и то, и другое вместе при включении звуковых сигналов.
 
-## Track Finder
+## Поисковик Дорожек
 
-If you wish to quickly find a song by an artist or by song name, from track list, press Control+NVDA+F. Type or choose the name of the artist or the song name. NVDA will either place you at the song if found or will display an error if it cannot find the song you're looking for. To find a previously entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or backward.
+Если вы хотите быстро найти песню по исполнителю или по названию песни в списке композиций, нажмите Control+NVDA+F. Введите или выберите имя исполнителя или название песни. NVDA либо направит вас к нужной песне, если она будет найдена, либо выдаст сообщение об ошибке, если не удастся найти нужную песню. Чтобы найти ранее введенную песню или исполнителя, нажмите NVDA+F3 или NVDA+Shift+F3, чтобы перейти вперед или назад.
 
-Note: Track Finder is case-sensitive.
+Примечание: Функция поиска дорожек чувствительна к регистру.
 
-## Cart Explorer
+## Обозреватель корзин
 
-Depending on edition and local versus remote studio access, SPL Studio allows up to 96 carts to be assigned for playback. NVDA allows you to hear which cart, or jingle is assigned to these commands.
+В зависимости от версии и локального или удаленного доступа к Studio SPL Studio позволяет назначить для воспроизведения до 96 корзин. NVDA позволяет вам услышать, какая корзина или джингл назначена на эти команды.
 
-To learn cart assignments, from SPL Studio (local and Remote Studio), press Alt+NVDA+3. Pressing the cart command once will tell you which jingle is assigned to the command. Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to exit cart explorer. See the add-on guide for more information on cart explorer.
+Чтобы узнать назначения корзин в SPL Studio (локальной и удаленной Studio), нажмите Alt+NVDA+3. Нажав команду корзины один раз, вы узнаете, какой джингл назначен этой команде. Двойное нажатие команды корзины приведёт к воспроизведению джингла. Нажмите Alt+NVDA+3, чтобы выйти из обозревателя корзин. Дополнительную информацию о корзине см. в руководстве по дополнению.
 
-## Track time analysis
+## Анализ времени дорожки
 
-To obtain length to play selected tracks, mark current track for start of track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when reaching end of selection.
+Чтобы получить продолжительность воспроизведения выбранных дорожек, отметьте текущую дорожку для начала анализа времени дорожки (Помощник SPL, F9), затем нажмите помощник SPL, F10, когда достигнете конца выделения.
 
-## Columns Explorer
+## Обозреватель Столбцов
 
 By pressing Control+NVDA+1 through 0, you can obtain contents of specific columns. By default, these are first ten columns for a track item (in Studio: artist, title, duration, intro, outro, category, year, album, genre, mood). In Studio (local and Remote), Creator's main track list and playlist editor, Track Tool, and Remote VT, column slots are preset regardless of column order on screen and can be configured from add-on settings dialog under columns explorer category.
 
-## Track column announcement
+## Объявление столбца дорожки
 
-You can ask NVDA to announce track columns found in Studio's playlist viewer in the order it appears on screen or using a custom order and/or exclude certain columns. Press NVDA+V to toggle this behavior while focused on a track in Studio's playlist viewer. To customize column inclusion and order, from column announcement settings panel in add-on settings, uncheck "Announce columns in the order shown on screen" and then customize included columns and/or column order.
+Вы можете попросить NVDA объявлять столбцы дорожек, найденные в просмотрщике списков воспроизведения Studio, в том порядке, в котором они появляются на экране, или использовать собственный порядок и/или исключить определённые столбцы. Нажмите NVDA+V, чтобы переключить это поведение, сосредоточившись на дорожке в просмотрщике списков воспроизведения Studio. Чтобы настроить включение и порядок столбцов, на панели настроек объявления столбцов в настройках дополнения снимите флажок "Использовать порядок отображения на экране при объявлении столбцов дорожки", а затем настройте включенные столбцы и/или порядок столбцов.
 
-## Playlist snapshots
+## Снимки списков воспроизведения
 
-You can press SPL Assistant, F8 while focused on a playlist in Studio to obtain various statistics about a playlist, including number of tracks in the playlist, longest track, top artists and so on. After assigning a custom command for this feature, pressing the custom command twice will cause NVDA to present playlist snapshot information as a webpage so you can use browse mode to navigate (press escape to close).
+Вы можете нажать помощника SPL, F8, сосредоточившись на списке воспроизведения в Studio, чтобы получить различную статистику о списке воспроизведения, включая количество дорожек в списке воспроизведения, самую длинную дорожку, лучших исполнителей и т. д. После назначения пользовательской команды для этой функции, двойное нажатие пользовательской команды приведёт к тому, что NVDA представит информацию о снимке списка воспроизведения в виде веб-страницы, чтобы вы могли использовать режим обзора для навигации (нажмите escape для закрытия).
 
-## Playlist Transcripts
+## Расшифровка списков воспроизведения
 
-Pressing SPL Assistant, Shift+F8 will present a dialog to let you request playlist transcripts in numerous formats, including in a plain text format, an HTML table or a list.
+Нажатие сочетания клавиш помощника SPL, Shift+F8, откроет диалог, позволяющий запросить расшифровки списка воспроизведения в различных форматах, в том числе в текстовом формате, таблице HTML или списке.
 
-## Configuration dialog
+## Диалог настройки
 
-From studio window, you can press Alt+NVDA+0 to open the add-on configuration dialog. Alternatively, go to NVDA's preferences menu and select SPL Studio Settings item. Not all settings are available if NVDA is running in secure mode and while using Remote Studio.
+В окне Studio вы можете нажать Alt+NVDA+0, чтобы открыть диалог настроек дополнения. Альтернативно, перейдите в меню настроек NVDA и выберите пункт настроек SPL Studio. Не все настройки доступны, если NVDA работает в безопасном режиме и при использовании Удалённой Studio.
 
-## Broadcast profiles dialog
+## Диалог профилей вещания
 
-You can save settings for specific shows into broadcast profiles. These profiles can be managed via SPL broadcast profiles dialog which can be accessed by pressing Alt+NVDA+P from Studio window.
+Вы можете сохранить настройки для определённых шоу в профилях вещания. Этими профилями можно управлять с помощью диалога профилей широковещательной передачи SPL, доступ к которому можно получить, нажав Alt+NVDA+P в окне Studio.
 
-## SPL touch mode
+## Сенсорный режим SPL
 
-If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.
+Если вы используете Studio на компьютере с сенсорным экраном и установленной NVDA, вы можете выполнять некоторые команды Studio с сенсорного экрана. Сначала коснитесь тремя пальцами, чтобы переключиться в режим SPL, затем используйте сенсорные команды, перечисленные выше, для выполнения команд.
 
 ## Version 26.05
 
-- Added a setting in add-on settings under Advanced settings panel to configure which ap should receive priority when command conflicts occur. Options include NVDA (perform add-on commands), StationPlaylist (pass the conflicting keyboard shortcut to the active SPL ap and is the default setting), or NVDA then StationPlaylist (first press will perform add-on command, subsequent presses will perform SPL command). This option is applicable to local Studio 6.10 and later where Control+Alt+End keyboard shortcut to report last track column conflicts with Studio command to play ends of tracks.
-- In local Studio 6.0x, pressing Control+Alt+End will no longer announce last track column to make the behavior consistent with later Studio releases. You can set command priority setting to "NVDA" or "NVDA then StationPlaylist" to restore previous behavior.
-- SPL touch mode commands are deprecated and will be removed in a future add-on release caused by backwards incompatible internal changes to touch mode handling in NVDA 2026.2.
-- Added a new command in SPL Controller layer to play the next selected track with crossfade (Control+down arrow).
-- Pressing Enter after entering SPL Controller layer will play the selected track from anywhere.
+* Added a setting in add-on settings under Advanced settings panel to configure which ap should receive priority when command conflicts occur. Options include NVDA (perform add-on commands), StationPlaylist (pass the conflicting keyboard shortcut to the active SPL ap and is the default setting), or NVDA then StationPlaylist (first press will perform add-on command, subsequent presses will perform SPL command). This option is applicable to local Studio 6.10 and later where Control+Alt+End keyboard shortcut to report last track column conflicts with Studio command to play ends of tracks.
+* In local Studio 6.0x, pressing Control+Alt+End will no longer announce last track column to make the behavior consistent with later Studio releases. You can set command priority setting to "NVDA" or "NVDA then StationPlaylist" to restore previous behavior.
+* Added a new command in SPL Controller layer to play the next selected track with crossfade (Control+down arrow).
+* Pressing Enter after entering SPL Controller layer will play the selected track from anywhere.
 
 ## Version 26.04
 
-- In Creator's playlist editor, resolved a regression from add-on version 26.01 where NVDA was sluggish when moving through date and hour combo boxes for multi-day playlists.
-- In local Studio 6.10 and later, pressing Control+Alt+End will perform Studio command (play last parts of the focused track) instead of announcing the last column.
+* In Creator's playlist editor, resolved a regression from add-on version 26.01 where NVDA was sluggish when moving through date and hour combo boxes for multi-day playlists.
+* In local Studio 6.10 and later, pressing Control+Alt+End will perform Studio command (play last parts of the focused track) instead of announcing the last column.
 
 ## Version 26.03.1
 
-- Security: Track comments for local and Remote Studio are now stored in json format instead of pickle format to improve security. As a result, installing an older version of this add-on after installing this version is unsupported and will cause unpredictable behavior.
+* Security: Track comments for local and Remote Studio are now stored in json format instead of pickle format to improve security. As a result, installing an older version of this add-on after installing this version is unsupported and will cause unpredictable behavior.
 
-## Version 26.03
+## Версия 26.03
 
-- Initial support for StationPlaylist Recorder (not to be confused with VT Recorder).
-- NVDA will announce labels for SPL Recorder configurationnnnnnn screen controls.
-- Most if not all multicolumn lists now have column explorer and column navigation support. Mainly tested in local Studio's Listener Stats window and the same list in Options > Listener Stats.
+* Начальная поддержка StationPlaylist Recorder (не путать с VT Recorder).
+* NVDA объявит метки для элементов управления экрана конфигурации SPL Recordernnnnnn.
+* Большинство, если не все, списки с несколькими столбцами теперь имеют проводник по столбцам и поддержку навигации по столбцам. В основном тестировалось в окне статистики слушателей локальной студии и в том же списке в разделе параметров > статистике слушателей.
 
-## Version 26.01
+## Версия 26.01
 
-- NVDA 2025.3.2 or later is required.
-- Add-on settings screen is now available while using Creator, Remote VT, and Track Tool with different settings for each app.
-- NVDA will announce labels for SPL app screens, including track properties, insert tracks dialog's search criteria controls (Studio, Creator, Remote VT), and Studio options dialog.
-- In Studio (local and remote), Creator, and Remote VT, NVDA will play a beep when search is completed in insert tracks dialog when NVDA is configured to play beeps for status announcements from SPL add-on settings/general category.
-- In Studio (local and remote) and Track Tool, NVDA will no longer announce dialog property content (description) in places such as track properties and Studio options screen.
-- In local Studio, NVDA will be less verbose when performing library rescan from insert tracks dialog (Control+Shift+R).
-- In local Studio, NVDA will report library scan count regardless of "beep for status announcements" setting from add-on settings.
-- In Remote Studio, when closing options screen (Control+O) while cart explorer is active, it is no longer necessary to reenter Cart Explorer to view updated cart assignments.
-- Resolved several issues while using insert tracks dialog in Remote Studio, including NVDA saying "scan start" when pressing Control+Shift+R and verbose output for search results status.
-- In track list in Creator and Track Tool, pressing Alt+number row keys to change column sort order will cause NVDA to announce the new sort order based on the column selected. There will be a delay when performing these commands in Creator.
-- In Creator, Remote VT, and Track Tool, status bar content will be reported when performing read status bar command (NVDA+End/desktop layout, NVDA+Shift+End/laptop layout). In particular, improved status bar content announcement performance in Creator.
-- In Creator and Remote VT, NVDA will announce search results count when searching for tracks in insert tracks dialog.
-- In Creator and Remote VT, NVDA will no longer appear to do nothing or play error tones when reporting playlist information from playlist editor such as playlist hour and day, scheduled, and rotation.
+* Требуется NVDA 2025.3.2 или выше.
+* Экран настроек дополнения теперь доступен при использовании Creator, Remote VT и Track Tool с разными настройками для каждого приложения.
+* NVDA объявит метки для экранов приложения SPL, включая свойства дорожки, элементы управления критериями поиска в диалоге вставки дорожек (Studio, Creator, Remote VT) и в диалоге параметров Studio.
+* В Studio (локальной и удалённой), Creator и Remote VT NVDA подаст звуковой сигнал после завершения поиска в диалоге вставки дорожек, когда NVDA настроена на воспроизведение звуковых сигналов для объявлений о состоянии в настройках дополнения SPL/категории общих.
+* В Studio (локальной и удалённой) и Track Tool NVDA больше не будет объявлять содержимое свойств диалога (описание) в таких местах, как свойства дорожки и экран параметров Studio.
+* В локальной Studio NVDA будет менее многословной при выполнении повторного сканирования библиотеки из диалога вставки дорожек (Control+Shift+R).
+* В локальной Studio NVDA будет сообщать о количестве сканирований библиотеки независимо от настройки "звукового сигнала для объявлений о состоянии" в настройках дополнения.
+* В Remote Studio при закрытии экрана параметров (Control+O) при активном обозревателе корзин больше не требуется повторно входить в обозреватель корзин для просмотра обновлённых назначений корзины.
+* Решено несколько проблем при использовании диалога вставки дорожек в Remote Studio, включая сообщение NVDA "начать сканирование" при нажатии Control+Shift+R и подробный вывод состояния результатов поиска.
+* В списке дорожек в Creator и Track Tool нажатие Alt+клавиши цифрового ряда для изменения порядка сортировки столбцов приведёт к тому, что NVDA объявит новый порядок сортировки на основе выбранного столбца. При выполнении этих команд в Creator будет задержка.
+* В Creator, Remote VT и Track Tool содержимое строки состояния будет сообщаться при выполнении команды чтения строки состояния (NVDA+End/рабочий стол, NVDA+Shift+End/раскладка ноутбука). В частности, улучшена производительность объявления содержимого строки состояния в Creator.
+* В Creator и Remote VT NVDA будет объявлять количество результатов поиска при поиске дорожек в диалоге вставки дорожек.
+* В Creator и Remote VT NVDA больше не будет ничего делать или воспроизводить сигналы ошибок при сообщении информации списка воспроизведения из редактора списков воспроизведения, такой как час и день списка воспроизведения, расписание и ротация.
 
-## Older releases
+## Старые выпуски
 
-Please see the [changelog][2] for release notes for old add-on releases.
+Ознакомьтесь с [списком изменений][2] для получения информации о старых выпусках дополнения.
 
 [1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md
+
 [2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md

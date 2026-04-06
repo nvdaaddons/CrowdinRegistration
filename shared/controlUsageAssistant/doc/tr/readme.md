@@ -1,67 +1,81 @@
-# Control Usage Assistant
+# Kontrol Kullanım Asistanı #
 
-- NVDA compatibility: 2022.1 and later
-- Author: Joseph Lee, Noelia Ruiz Martínez
-- Download [stable version][1]
-- Download [development version][2]
+* Yazarlar: Joseph Lee, Noelia Ruiz Martínez
 
-Use this add-on to find out how to interact with the focused control.
-Press NVDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant category to configure add-on settings:
+Mevcut odak hakkında kısa bir yardım mesajı dinlemek için bu eklentiyi kullanın.  Onay kutuları, yazı alanları vb Odaktaki kontrolle nasıl etkileşime geçeceğinizle ilgili kısa bir mesaj için NvDA+H tuşlarına basın.
+Odaklanmış kontrolle etkileşim hakkında onay kutuları, düzenleme alanları vb. gibi kısa bir yardım mesajı almak için NVDA+H tuşlarına basın.
 
-- Select output modes for automatic messages: This list of checkboxes allows to select speech and braille.
-- Pitch change for automatic messages: This spin box allows to set the pitch change when NVDA reads automatic messages (from -30 to +30).
+Eklenti ayarlarını yapılandırmak için NVDA menüsü, Tercihler alt menüsü, Ayarlar iletişim kutusu, Kontrol Kullanım Asistanı kategorisine gidin:
 
-## Version 2022.03.27
+* Odaklanma için otomatik mesajlar: Varsayılan olarak işaretlidir.
+* Bir nesne etkinleştirilebildiğinde kullanılacak iletiyi yazın: Nesne gezintisinde NVDA+enter gibi bir harekete basarken, geçerli nesnenin ilişkili bir eylemi olup olmadığını bilmek için varsayılanı veya yapılandırılmış hareketinizi belirten kısa bir mesaj ekleyebilirsiniz.
+* Otomatik mesajlar için çıkış modlarını seçin: Bu onay kutuları listesi, konuşma ve braille'in seçilmesine olanak tanır.
+* Otomatik mesajlar için ses perdesi değişikliği: Bu döndürme kutusu, NVDA otomatik mesajları okuduğunda (-30'dan +30'a) perde değişikliğini ayarlamanıza olanak tanır.
 
-- Requires NVDA 2022.1 or later.
+## Sürüm 20250611.0.0
 
-## Version 22.01
+* Tarama kipinde sunulan mesajlara kopyala ve kapat düğmeleri eklendi.
 
-- Added support for automatic messages.
-- Improved support for requested messages in browse mode.
+## Sürüm 20240324.0.0
 
-## Version 21.10
+* Düzenleme kontrolleri ve önerileri için geliştirilmiş destek.
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
+## Sürüm 2023.02.19
 
-## Version 20.10
+* Tıklanabilir nesneler için yapılandırılan mesaj, diğer özelliklerden sonra bildirilecektir.
+* NVDA 2023.1 ile uyumlu.
 
-- Help messages are announced in languages other than English.
+## Sürüm 2022.07.10
 
-## Version 20.06
+* Mevcut nesnenin etkinleştirilip etkinleştirilemeyeceğini duyurmak için nesne navigasyonu için bir mesaj ayarlama yeteneği eklendi.
 
-- Resolved many coding style issues and potential bugs with Flake8.
-- NVDA will no longer appear to do nothing or play error tones when trying to obtain help for certain browse mode controls.
+## Sürüm 2022.03.27
 
-## Version 20.01
+* NVDA 2022.1 veya sonraki bir sürümü gerektirir.
 
-- NVDA 2019.3 or later is required.
+## Sürüm 22.01
 
-## Version 3.0/19.11
+* Otomatik mesajlar için destek eklendi.
+* Tarama modunda istenen mesajlar için geliştirilmiş destek.
 
-- Version scheme is now year.month.
-- When NVDA+H is pressed, a help screen will be displayed instead of a flash message being shown.
+## Sürüm 21.10
 
-## Version 2.5
+* Bu eklentiyi etkileyen NVDA'daki değişiklikler nedeniyle NVDA 2021.2 veya üstü gereklidir.
 
-- Compatible with Python 3.
+## Sürüm 20.10
 
-## Version 2.1
+* Yardım mesajları İngilizce dışındaki dillerde gösterilir.
 
-- New and updated translations.
+## Sürüm 20.06
 
-## Version 2.0
+* Flake8 ile birçok kodlama stili sorunu ve olası hatalar çözüldü.
+* NVDA, belirli tarama kipi kontrolleri için yardım almaya çalışırken artık hiçbir şey yapmıyormuş gibi görünmeyecek veya hata tonları çalmayacaktır.
 
-- Help messages for more controls added, including terminal windows.
-- Added help messages for working in some areas of applications, such as Microsoft Excel and Powerpoint and Windows 8 start screen.
-- Added help messages for working with forms in both browse and focus modes in virtual buffer documents (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
-- New language: Danish.
+## Sürüm 20.01
 
-## Version 1.0
+* NVDA 2019.3 veya üstü gerekli.
 
-- Initial version.
+## Sürüm 3.0/19.11
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+* Sürüm şeması artık yıl.ay şeklinde.
+* NVDA+H'ye basıldığında, hızlı bir mesaj yerine bir yardım ekranı gösterilecektir.
+
+## Sürüm 2.5
+
+* Python3 ile uyumlu.
+
+## Sürüm 2.1
+
+* Yeni ve güncellenmiş çeviriler.
+
+## Sürüm 2.0
+
+* Terminal pencereleri dahil, daha fazla kontrol için yardım mesajı eklendi.
+* Microsoft Excel ve Powerpoint ve Windows 8 başlangıç ​​ekranı gibi bazı uygulamalar için yardım mesajları eklendi.
+* Sanal arabellek belgelerinde (Internet Explorer, Adobe Reader, Mozilla Firefox, vb.) hem göz atma hem de odaklanma modlarında formlarla çalışmak için yardım mesajları eklendi.
+* Yeni dil: Danimarkaca.
+
+## Sürüm 1.0
+
+* İlk sürüm.

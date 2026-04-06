@@ -1,39 +1,57 @@
 # Win Wizard
 
-- Author: Oriol Gómez, current maintenance by Łukasz Golonka
-- NVDA compatibility: 2019.3 and beyond
+* Yazarlar: Oriol Gómez, Łukasz Golonka, güncel bakım: Jakub Lukowicz
+* NVDA uyumluluğu: 2019.3 ve sonrası sürümler
 
-This add-on allows you to perform some operations on the focused window or the process associated with it.
+Bu eklenti, odaklanılan pencere veya onunla ilişkili işlem üzerinde bazı işlemler gerçekleştirmenize olanak tanır.  Bir işlemi öldürürken veya bir pencereyi gösterirken / gizlerken, eylem başarılı olduğunda bir onay bip sesi duyulur.  Bunu rahatsız edici bulursanız, NVDA'nın ayarlar iletişim kutusundan Win Wizard'ın ayarlar panelinde bu bip seslerini devre dışı bırakabilirsiniz.
+Bir süreci öldürürken veya bir pencereyi gösterirken / gizlerken, eylem başarılı olduğunda bir onay bip sesi çalınır.
+Bunu can sıkıcı bulursanız, NVDA'nın ayarlar iletişim kutusunda bulunan Win Wizard'ın ayarlar panelinden bu bip seslerini devre dışı bırakabilirsiniz.
 
-## Keyboard commands:
+## Kısayollar:
+Tüm kısayollar girdi hareketleri iletişim kutusundaki WinWizard kategorisinden değiştirilebilir.
+### Pencere gizleme ve gizli pencereleri gösterme:
+* NVDA+Windows+1'den 0'a kadar sayılar - basılan sayıya denk gelen yuvadaki pencereyi gizler
+* NVDA+Windows+Sol ok - önceki gizli pencere grubuna gider.
+* NVDA+Windows+Sağ ok - sonraki gizli pencere grubuna gider.
+* Windows+Shift+H - odaklanan pencereyi gizler ve pencereyi boş olan ilk yuvaya koyar
+* NVDA+Windows+H - en son gizlenen pencereyi gösterir
+* Windows+Shift+L - tüm gizli pencerelerin listesini gruplanmış şekilde gösterir (varsayılan olarak son gizli pencere seçilir)
 
-All these commands can be remapped from the Input gestures dialog in the Win Wizard category.
+### İşlemleri yönetme:
+* Windows+F4 - odaklanılan pencereyle ilişkili işlemi sonlandırır
+* NVDA+Windows+P - odaklanılan pencereyle ilişkili işlemin önceliğini değiştirebileceğiniz bir iletişim kutusu açar
 
-### Hiding and showing hidden windows:
+### Çeşitli kısayollar:
+* NVDA+Windows+TAB - geçerli programın en üst düzey pencereleri arasında geçiş yapar (foobar2000, Back4Sure vb.'de kullanışlıdır)
+* CTRL+ALT+T - üzerinde bulunulan programın pencere başlığını değiştirir
 
-- NVDA+Windows+numbers from 1 to 0 - hides  currently focused window in the slot corresponding to the pressed number
-- NVDA+Windows+left arrow - moves to the previous stack of hidden windows.
-- NVDA+Windows+right arrow - moves to the next stack of hidden windows.
-- Windows+Shift+h - hides the currently focused window in the first available slot
-- NVDA+Windows+h - shows the last hidden window
-- Windows+Shift+l - shows the list of all hidden windows grouped by the stacks (please note that by default last hidden window is selected)
+## Değişiklikler:
 
-### Managing processes:
+### 5.0.7 için değişiklikler:
 
-- Windows+F4 - kills the process associated with the currently focused window
-- NVDA+Windows+p - opens dialog allowing you to set priority of the process associated with the currently focused window
+* NVDA 2025.1 ile uyumluluk
+* Çeviriler güncellendi
 
-### Miscellaneous  commands:
+### 5.0.6 için değişiklikler:
 
-- NVDA+Windows+TAB - switches between top level windows of the current program (useful in foobar2000, Back4Sure etc.)
-- CTRL+ALT+T - allows you to change title of the currently focused program
+* NVDA 2024.1 ile uyumluluk
+* Çeviriler güncellendi
 
-## Changes:
+### 5.0.5 için değişiklikler:
 
-## Changes for 5.0.3:
+* NVDA 2023.2 ile uyumluluk
+* Çeviriler güncellendi
 
-- Compatibility with NVDA 2021.1
+### 5.0.4 için değişiklikler:
 
-## Changes for 5.0.2:
+* NVDA 2022.1 ile uyumluluk
+* Eklenti ayar panelinde onay bip seslerini devre dışı bırakmak artık mümkün
+* Çeviriler güncellendi
 
-- First release available from the add-ons website
+### 5.0.3 için değişiklikler:
+
+* NVDA 2021.1 ile uyumluluk
+
+### 5.0.2 için değişiklikler:
+
+* Eklentiler web sitesinde bulunan ilk sürüm

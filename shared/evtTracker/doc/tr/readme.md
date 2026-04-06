@@ -1,93 +1,93 @@
-# Event Tracker
+# Olayİzleyici
 
-- Author: Joseph Lee, Thiago Seus
+* Yazarlar: Joseph Lee, Thiago Seus
 
-This add-on outputs information about objects for which events were fired. Properties recorded in debug log mode include object type, name, role, event, app module, and accessibility API specific information such as accName for IAccessible object and Automation Id for UIA objects.
+Bu eklenti, olayların tetiklendiği nesneler hakkında bilgi verir. Hata ayıklama günlük modunda kaydedilen özellikler, nesne türü, ad, rol, olay, uygulama modülü ve IAccessible nesnesi için accName ve UIA nesneleri için Otomasyon Kimliği gibi erişilebilirlik API'sine özgü bilgileri içerir.
 
-Notes:
+Notlar:
 
-- This add-on is designed for developers and power users needing to track events coming from apps and various controls.
-- In order to use the add-on, NVDA must be logging in debug mode (configured from general settings/logging level, or restart with debug logging enabled).
-- It might be possible that add-ons loaded earlier than Event Tracker may not pass on the event to other add-ons, including Event Tracker. If this happens, Event Tracker will not be able to log events.
-- Events are handled from global plugins, app modules, tree interceptors, and NVDA objects, in that order.
+* Bu eklenti, uygulamalardan ve çeşitli denetimlerden gelen olayları izlemesi gereken geliştiriciler ve uzman kullanıcılar için tasarlanmıştır.
+* Eklentiyi kullanmak için, NVDA'nın hata ayıklama modunda oturum açması gerekir (genel ayarlar/kayıt düzeyinden yapılandırılır veya hata ayıklama günlüğü etkinken yeniden başlatılır).
+* Olay İzleyicisi'nden önce yüklenen eklentilerin, olayı Olay İzleyicisi de dahil olmak üzere diğer eklentilere aktarmaması mümkün olabilir. Bu durumda, Olay İzleyici olayları günlüğe kaydedemez.
+* Olaylar, bu sırayla global eklentiler, uygulama modülleri, ağaç önleyiciler ve NVDA nesnelerinden işlenir.
 
-## Events and their information
+## Olaylar ve bilgileri
 
-The following events are tracked and recorded:
+Aşağıdaki olaylar izlenir ve kaydedilir:
 
-- Focus manipulation: gain focus, lose focus, focus entered, foreground
-- Changes: name, value, state, description, live region
-- Other events: alert
-- UIA events: controller for, drag drop and drop target effects, element selected, item status, layout invalidated, notification, system alert, text change, tooltip open, window open
+* Odak manipülasyonu: odak kazan, odak kaybet, odak girildi, ön plan
+* Değişiklikler: ad, değer, durum, açıklama, canlı bölge
+* Diğer olaylar: uyarı
+* UIA olayları: denetleyici, sürükle bırak ve bırak hedef efektleri, seçilen öğe, öğe durumu, düzen geçersiz kılındı, bildirim, sistem uyarısı, metin değişikliği, araç ipucu açık, pencere açık
 
-For each event, the following information will be recorded:
+Her olay için aşağıdaki bilgiler kaydedilecektir:
 
-- Event name
-- Object
-- Object name
-- Object role
-- Object value or state depending on events
-- App module
-- For IAccessible objects: acc name, child ID
-- For UIA objects: Automation Id, class name, notification properties if recording notification event information, child count for layout invalidated event, properties for item status, drag drop, and drop target effect if defined
+* Olay adı
+* Nesne
+* Nesne adı
+* Nesne rolü
+* Olaylara bağlı olarak nesne değeri veya durumu
+* Uygulama modülü
+* IErişilebilir nesneler için: erişim adı, alt kimlik
+* UIA nesneleri için: Otomasyon Kimliği, sınıf adı, bildirim olay bilgisi kaydediliyorsa bildirim özellikleri, düzen geçersiz kılınan olay için çocuk sayısı, öğe durumu özellikleri, tanımlıysa sürükle bırak ve bırakma hedefi etkisi
 
-You can also assign a gesture to view the events on a list (NVDA menu/Preferences/Input gestures, Event Tracker category). The list saves up to 100 latest events processed prior to opening the dialog.
+Ayrıca, olayları bir listede görüntülemek için bir hareket de atayabilirsiniz (NVDA menüsü/Tercihler/Girdi hareketleri, Olay İzleyici kategorisi). Liste, iletişim kutusunu açmadan önce işlenen en son 100 olayı kaydeder.
 
-If you find this add-on useful, please [review it][1] in the NVDA Add-on Store.
+Bu eklentiyi yararlı buluyorsanız, lütfen NVDA Eklenti Mağazasında [inceleyin][1].
 
-## Version 26.1.0
+## Sürüm 26.1.0
 
-- The events list dialog will no longer show confusing information for the last event description when left open for an extended time.
-- UIA drop target effect text is fetched from the focus ancestor object if the UIA object raising this event does not record this information.
+* Olay listesi iletişim kutusu, uzun süre açık bırakıldığında artık son olay açıklamasına ilişkin kafa karıştırıcı bilgiler göstermeyecektir.
+* Bu olayı oluşturan UIA nesnesi bu bilgiyi kaydetmezse, UIA bırakma hedefi efekt metni odak ata nesnesinden alınır.
 
-## Version 25.1.0
+## Sürüm 25.1.0
 
-- NVDA 2025.1 compatibility.
-- NVDA 2024.1 or later is required due to Python 3.11 upgrade.
-- Restored limited support for Windows 8.1.
-- Made the add-on code more robust with help from Pyright (a Python static type checker).
-- NVDA will record actual control role name instead of integers when reporting events.
+* NVDA 2025.1 ile Uyumlu.
+* Python 3.11 yükseltmesi nedeniyle NVDA 2024.1 veya üstü gereklidir.
+* Windows 8.1 için sınırlı destek geri yüklendi.
+* Pyright (bir Python statik tür denetleyicisi) yardımıyla eklenti kodu daha sağlam hale getirildi.
+* NVDA, olayları bildirirken tamsayılar yerine gerçek kontrol rolü adını kaydeder.
 
-## Version 24.1.0
+## Sürüm 24.1.0
 
-- NVDA 2024.1 compatibility.
-- opensourcesys/evtTracker #4: the first event's description no longer missing when first opening the event viewer. Contributed by: WangFeng Huang (hwf1324)
+* NVDA 2024.1 ile Uyumlu.
+* openSourcesys/EVTTRACKER #4: Etkinlik görüntüleyicisini ilk açarken ilk olayın açıklaması artık eksik değil. Katkıda bulunan: Wangfeng Huang (HWF1324)
 
-## Version 23.02
+## Sürüm 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
-- Alert event (mostly for IAccessible objects) will be tracked.
+* NVDA 2022.4 veya üstü gereklidir.
+* Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü gereklidir.
+* Uyarı olayı (çoğunlukla IAccessible nesneler için) izlenecektir.
 
-## Version 23.01
+## Sürüm 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* NVDA 2022.3 veya üstü gereklidir.
+* Ocak 2023 itibariyle Windows 7, 8 ve 8.1 artık Microsoft tarafından desteklenmediğinden Windows 10 veya sonraki sürümleri gereklidir.
 
-## Version 22.12
+## Sürüm 22.12
 
-- Added events list dialog (command unassigned) to list up to 100 recent events recorded by the add-on (Thiago Seus).
-- Additional event information such as UIA notification properties are recorded at the same time as events.
+* Eklenti (Thiago Seus) tarafından kaydedilen en son 100 olayı listelemek için olaylar listesi iletişim kutusu (komut atanmamış) eklendi.
+* UIA bildirim özellikleri gibi ek olay bilgileri, olaylarla aynı anda kaydedilir.
 
-## Version 22.10
+## Sürüm 22.10
 
-- NVDA 2022.2 or later is required due to security.
-- The following UIA property changes are tracked: drag drop effect, drop target effect.
-- UIA item status property text is logged.
-- NVDA will no longer play error tones or appear to do nothing if an object does not define a window class name.
+* Güvenlik nedeniyle NVDA 2022.2 veya üstü gereklidir.
+* Aşağıdaki UIA özellik değişiklikleri izlenir: sürükle bırak efekti, bırakma hedefi etkisi.
+* UIA öğe durumu özellik metni günlüğe kaydedilir.
+* Bir nesne bir pencere sınıfı adı tanımlamıyorsa, NVDA artık hata sesleri çalmayacak veya hiçbir şey yapmıyormuş gibi görünecektir.
 
-## Version 22.06
+## Sürüm 22.06
 
-- NVDA 2021.3 or later is required due to security.
+* Güvenlik nedeniyle NVDA 2021.3 veya üstü gereklidir.
 
-## Version 21.10
+## Sürüm 21.10
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
-- UIA layout invalidated event will be tracked.
-- Object role and states information will resemble developer info found in more recent NVDA releases.
+* Bu eklentiyi etkileyen NVDA değişiklikleri nedeniyle NVDA 2021.2 veya üstü gereklidir.
+* UIA düzeni geçersiz kılınan olay izlenecektir.
+* Nesne rolü ve durum bilgileri, daha yeni NVDA sürümlerinde bulunan geliştirici bilgilerine benzeyecektir.
 
-## Version 21.07
+## Sürüm 21.07
 
-- Initial release.
+* İlk sürüm.
 
 [1]: https://github.com/nvaccess/addon-datastore/discussions/2717

@@ -1,289 +1,289 @@
-# Resource Monitor
+# Resurssienvalvonta
 
-- Authors: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka Ojala, Ethin Probst and other NVDA contributors
+* Tekijät: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka Ojala, Ethin Probst sekä muut NVDA-yhteisön jäsenet
 
-This add-on gives information about CPU load, memory usage and other resource usage information.
+Tämä lisäosa antaa tietoja suorittimen kuormituksesta sekä muistin ja muiden resurssien käytöstä.
 
-# Shortcuts
+# Pikanäppäimet
 
-All commands support speech on demand mode.
+Kaikki komennot tukevat pyydettäessä-puhetilaa.
 
-- NVDA+Shift+E: presents used ram, average processor load, and battery info if available.
-- NVDA+Shift+1: presents the average processor load and if multicore CPU's are present the load of each core.
-- NVDA+Shift+2/5: presents the used and total space for both physical and virtual ram.
-- NVDA+Shift+3: presents the used and total space of the static and removable drives.
-- NVDA+Shift+4: presents battery percentage, charging status, remaining time (if not charging), and a warning if the battery is low or critical.
-- NVDA+Shift+6: presents  CPU Architecture and Windows version and service pack numbers.
-- NVDA+Shift+7: presents the system's uptime.
-- NVDA+Shift+8: presents information on the wireless connection, ssid name and strength, or no ssid if there is none available.
+* NVDA+Vaihto+E: Ilmoittaa käytetyn RAM-muistin määrän, suorittimen keskimääräisen kuormituksen sekä akun tiedot, mikäli sellainen on käytettävissä.
+* NVDA+Vaihto+1: Ilmoittaa suorittimen keskimääräisen kuormituksen ja lisäksi ytimien kuormituksen, mikäli kyseessä on moniydinsuoritin.
+* NVDA+Vaihto+2/5: Ilmoittaa sekä fyysisen että näennäisen RAM-muistin käytetyn ja kokonaismäärän.
+* NVDA+Vaihto+3: Ilmoittaa kiintolevyjen ja siirrettävien asemien käytetyn ja kokonaistilan.
+* NVDA+Vaihto+4: Ilmoittaa akun varauksen prosentteina, latauksen tilan, jäljellä olevan ajan (jos ei latauksessa) sekä varoituksen, mikäli varauksen taso on alhainen tai kriittinen.
+* NVDA+Vaihto+6: Ilmoittaa suorittimen arkkitehtuurin sekä Windowsin ja Service Packin version.
+* NVDA+Vaihto+7: Ilmoittaa järjestelmän käynnissäoloajan.
+* NVDA+Vaihto+8: Ilmoittaa langattoman verkon tiedot, kuten SSID-nimen ja signaalin voimakkuuden tai "SSID:tä ei löydy", jos verkkoa ei ole käytettävissä.
 
-You can change these shortcut keys via input gestures dialog.
+Voit muuttaa näitä pikanäppäimiä Näppäinkomennot-valintaikkunasta.
 
-## Usage notes
+## Huomautuksia käytöstä
 
-This add-on does not replace task manager and other system information programs for Windows. Also note the following:
+Tämä lisäosa ei korvaa Windowsin tehtävienhallintaa tai muita järjestelmätietoja näyttäviä ohjelmia. Ota lisäksi huomioon seuraavat seikat:
 
-- Resource information cannot be copied to the clipboard if running the add-on in secure screens.
-- CPU usage is given for logical processors, not physical cores. This is noticeable for processors which uses Hyper-Threading where number of CPU's is twice the number of CPU cores. On some newer computers, not all CPU cores will have hyper-threading enabled.
-- If there is heavy disk activity such as copying large files, there might be delays when obtaining disk usage information.
-- When announcing processor architecture information, "x86" and "AMD64" refer to 32-bit and 64-bit (x64) Intel and AMD processors, respectively.
-- While this add-on supports windows 8.1 (limited support), Windows 10 22H2 (2022 Update/build 19045) or later is recommended.
-- Installing the add-on on Windows 10/11 LTSC is not supported.
+* Resource information cannot be copied to the clipboard if running the add-on in secure screens.
+* Suorittimen käyttö ilmoitetaan loogisille suorittimille, ei fyysisille ytimille. Tällä on merkitystä Hyper Threading -teknologiaa käyttävissä suorittimissa, joissa suorittimien määrä on kaksi kertaa ydinten määrä. Joissakin uudemmissa tietokoneissa Hyper Threading ei ole käytössä kaikilla suoritinytimillä.
+* Levynkäyttötietoja haettaessa saattaa olla viivettä, mikäli levytoimintaa, kuten suurten tiedostojen kopiointia, on runsaasti.
+* Suorittimen arkkitehtuuritietoja ilmoitettaessa "x86" ja "AMD64" viittaavat 32- ja 64-bittisiin (x64) Intel- ja AMD-suorittimiin.
+* Vaikka tämä lisäosa tukee rajoitetusti Windows 8.1:tä, Windows 10 22H2:n (2022-päivitys/koontiversio 19045) tai uudemman käyttö on suositeltavaa.
+* Tämän lisäosan asentamista ei tueta Windows 10:n/11:n LTSC-versioissa.
 
 ## Version 26.01
 
-- NVDA 2025.3.2 or later is required.
-- NVDA will announce Windows Server releases using standardized release name instead of dedicated server release name e.g. Windows Server 24H2 instead of Windows Server 2025.
-- NVDA will no longer add "0 minutes" to battery status (example: 4 hours instead of 4 hours, 0 minutes).
-- NVDA will recognize additional prefixes for larger memory and storage sizes including ronnabyte (1000 to the power of 9) and quettabyte (1000 to the power of 10).
+* NVDA 2025.3.2 or later is required.
+* NVDA will announce Windows Server releases using standardized release name instead of dedicated server release name e.g. Windows Server 24H2 instead of Windows Server 2025.
+* NVDA will no longer add "0 minutes" to battery status (example: 4 hours instead of 4 hours, 0 minutes).
+* NVDA will recognize additional prefixes for larger memory and storage sizes including ronnabyte (1000 to the power of 9) and quettabyte (1000 to the power of 10).
 
-## Version 25.09
+## Versio 25.09
 
-- NVDA 2025.2 or later is required.
+* Edellyttää NVDA 2025.2:ta tai uudempaa.
 
-## Version 25.07
+## Versio 25.07
 
-- Made the add-on code more robust with help from Pyright (a Python static type checker).
+* Lisäosan koodin vakautta parannettu Pyrightin (Pythonin staattinen tyypintarkistustyökalu) avulla.
 
-## Version 25.06
+## Versio 25.06
 
-- Improved connection status announcement when connecting to wireless networks (@danstiv).
+* Paranneltu yhteystilan ilmoitusta langattomiin verkkoihin yhdistettäessä. (@danstiv).
 
-## Version 25.02
+## Versio 25.02
 
-- Restored limited support for Windows 8.1.
-- Improved accuracy of used and total memory information announcement (@danstiv).
-- NVDA will no longer appear to freeze briefly when performing memory usage command (NVDA+Shift+2/5) the first time after starting NVDA.
-- Windows Insider Preview releases are no longer reported as "Windows Insider".
+* Palautettu rajoitettu tuki Windows 8.1:lle.
+* Paranneltu käytetyn ja kokonaismuistimäärän ilmoituksen tarkkuutta (@danstiv).
+* NVDA ei näytä enää lakkaavan vastaamasta hetkellisesti suoritettaessa muistin käyttöön liittyvää komentoa (NVDA+Vaihto+2/5) ensimmäistä kertaa NVDA:n käynnistämisen jälkeen.
+* Windows Insider -esiversioita ei enää ilmoiteta "Windows Insider" -versioiksi.
 
-## Version 24.08
+## Versio 24.08
 
-- NVDA 2024.2 or later is required. This allows psutil dependency to be removed from the add-on as NVDA includes it.
-- Updated psutil dependency to the version included with NVDA 2024.2 (6.0.0).
-- Ruff replaces Flake8 as code linter.
+* Edellyttää NVDA 2024.2:ta tai uudempaa. Tämä mahdollistaa psutil-riippuvuuden poistamisen lisäosasta, koska se sisältyy NVDA:han.
+* Päivitetty psutil-riippuvuus NVDA 2024.2:n mukana tulevaan versioon (6.0.0).
+* Ruff korvaa Flake8:n koodin tarkistustyökaluna.
 
-## Version 24.05
+## Versio 24.05
 
-- NVDA 2024.1 or later is required.
-- NVDA will recognize wireless networks with WPA3 authentication methods such as shared authentication of equals (SAE).
+* Edellyttää NVDA 2024.1:tä tai uudempaa.
+* NVDA tunnistaa langattomat verkot, joissa käytetään WPA3-autentikointimenetelmiä, kuten tasavertaista samanaikaista todennusta (SAE).
 
-## Version 24.04
+## Versio 24.04
 
-- Updated psutil dependency to 5.9.8.
-- Added support for speech on demand mode so resource information can be announced in this mode.
+* Päivitetty psutil-riippuvuus versioksi 5.9.8.
+* Lisätty tuki pyydettäessä-puhetilalle, jotta resurssitiedot voidaan puhuttaa sitä käytettäessä.
 
-## Version 23.11
+## Versio 23.11
 
-- Downgraded psutil dependency to 5.9.4 due to problems with memory usage announcements.
+* Päivitetty psutil-riippuvuus alaspäin versioksi 5.9.4 muistinkäytön puhumisessa ilmenneiden ongelmien vuoksi.
 
-## Version 23.10
+## Versio 23.10
 
-- Updated psutil dependency to 5.9.5.
+* Päivitetty psutil-riippuvuus versioksi 5.9.5.
 
-## Version 23.09
+## Versio 23.09
 
-- NVDA will no longer log startup error messages on Windows Server systems when wireless capability modules are unavailable.
+* NVDA ei enää kirjoita lokiin käynnistyksen virheilmoituksia Windows Server -järjestelmissä, kun langaton verkkosovitin ei ole käytettävissä.
 
-## Version 23.06
+## Versio 23.06
 
-- Situation where resourceMonitor doesn't work properly due to unavailability of wireless adapters has been fixed.
+* Korjattu tilanne, jossa Resurssienvalvonta ei toimi oikein langattoman verkkosovittimen puuttumisen vuoksi.
 
-## Version 23.05.1
+## Versio 23.05.1
 
-wlanReporter NVDA-addon is now part of resourceMonitor!
+WlanReporter-lisäosa sisältyy nyt Resurssienvalvontaan.
 
-- The old way of checking for wireless connections has been replaced by the windows API from wlanReporter: https://github.com/kvark128/WlanReporter/ .
-  - After speaking SSID name and strength, NVDA will also now tell you the security type of your network.
-  - NVDA will now alert you when you connect and disconnect from a wireless network.
-  - NVDA will now alert you when wireless connections is turned on or off.
+* Aiempi langattomien yhteyksien etsintätapa on korvattu Windowsin rajapinnalla, jota käytetään wlanReporter-lisäosassa: https://github.com/kvark128/WlanReporter/.
+  * NVDA kertoo nyt SSID-nimen ja signaalin voimakkuuden jälkeen myös verkon suojauksen tyypin.
+  * NVDA ilmoittaa nyt langattoman verkon yhteyden muodostamisesta ja katkaisusta.
+  * NVDA ilmoittaa nyt, kun langattomat yhteydet otetaan käyttöön tai poistetaan käytöstä.
 
-## Version 23.05
+## Versio 23.05
 
-- added the ability to detect and present the state of the connected wireless network.
-  - Announces the name of the connected wireless SSID.
-  - Announces the strength of the ssid
-  - Announce SSID not found if None is detected.
+* Lisätty mahdollisuus yhdistetyn langattoman verkon tilan tunnistamiseen ja näyttämiseen.
+  * Ilmoittaa yhdistetyn langattoman verkon SSID-nimen.
+  * Ilmoittaa langattoman verkon signaalin voimakkuuden.
+  * Ilmoittaa "SSID:tä ei löydy", jos langatonta verkkoa ei löydy.
 
-## Version 23.02
+## Versio 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* Edellyttää NVDA 2022.4:ää tai uudempaa.
+* Edellyttää Windows 10 21H2:ta (marraskuun 2021 päivitys/koontiversio 19044) tai uudempaa.
 
-## Version 23.01
+## Versio 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
-- Updated psutil dependency to 5.9.4.
-- NVDA will announce actual processor architecture (x86/AMD64/ARM64) as part of Windows version information.
-- On single-core systems, NVDA will no longer announce CPU core load as average CPU load is the same as core load.
+* Edellyttää NVDA 2022.3:a tai uudempaa.
+* Edellyttää Windows 10:tä tai uudempaa, koska Microsoft ei enää tue Windows 7:ää, 8:aa tai 8.1:tä tammikuusta 2023 alkaen.
+* Päivitetty psutil-riippuvuus versioksi 5.9.4.
+* Suorittimen arkkitehtuuri (x86/AMD64/ARM64) ilmoitetaan osana Windowsin versiotietoja.
+* NVDA ei enää ilmoita suoritinytimen kuormitusta yhden ytimen järjestelmissä, koska keskimääräinen suorittimen kuormitus on sama kuin ytimen kuormitus.
 
-## Version 22.03
+## Versio 22.03
 
-Version 22.03 is the last stable version to support Windows 7 Service Pack 1, 8, and 8.1.
+Tämä on viimeinen Windows 7 Service Pack 1:tä, 8:aa ja 8.1:tä tukeva vakaa versio.
 
-- NVDA 2021.3 or later is required.
-- A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.
-- Updated psutil dependency to 5.9.0.
+* Edellyttää NVDA 2021.3:a tai uudempaa.
+* Käyttäjälle näytetään varoitus, kun lisäosaa yritetään asentaa Windows 7:ään, 8:aan tai 8.1:een.
+* Päivitetty psutil-riippuvuus versioksi 5.9.0.
 
-## Version 22.01
+## Versio 22.01
 
-- NVDA 2021.2 or later is required.
+* Edellyttää NVDA 2021.2:ta tai uudempaa.
 
-## Version 21.10
+## Versio 21.10
 
-- NVDA 2021.1 or later is required due to changes to NVDA that affects this add-on.
+* Edellyttää NVDA 2021.1:tä tai uudempaa tähän lisäosaan vaikuttavien NVDA-muutosten vuoksi.
 
-## Version 21.08
+## Versio 21.08
 
-- Minimum Windows release requirement is now tied to NVDA releases.
-- Windows builds 20348 and 22000 are recognized as Windows Server 2022 and Windows 11, respectively.
-- On Insider Preview builds, Windows release such as "Windows 10" will not be used. Instead NvDA will announce "Windows Insider".
-- On 64-bit systems, processor architecture (x64 or ARM64) will be announced as part of Windows version information.
+* Windowsin vähimmäisversiovaatimus on nyt sidottu NVDA-versioihin.
+* Windowsin koontiversiot 20348 ja 22000 tunnistetaan Windows Server 2022:ksi ja Windows 11:ksi.
+* Windows-versiota, kuten "Windows 10", ei käytetä Insider-esiversioissa. Sen sijaan NVDA ilmoittaa "Windows Insider".
+* Suorittimen arkkitehtuuri (x64 tai ARM64) ilmoitetaan osana Windowsin versiotietoja 64-bittisissä järjestelmissä.
 
-## Version 21.04
+## Versio 21.04
 
-- NVDA 2020.4 or later is required.
-- Updated psutil dependency to 5.8.0.
-- When pressing add-on commands twice to copy resource information to clipboard, NVDA will announce resource summary that is being copied.
+* Edellyttää NVDA 2020.4:ää tai uudempaa.
+* Päivitetty psutil-riippuvuus versioksi 5.8.0.
+* NVDA ilmoittaa kopioitavan resurssiyhteenvedon, kun lisäosan komentoja painetaan kahdesti resurssitietojen kopioimiseksi leikepöydälle.
 
-## Version 21.01
+## Versio 21.01
 
-- Updated psutil dependency to 5.7.3.
-- Shortened Windows version message.
-- On Windows 8.1, build.revision will be announced as part of Windows version message, similar to Windows 10.
+* Päivitetty psutil-riippuvuus versioksi 5.7.3.
+* Windowsin versioilmoitusta lyhennetty.
+* Windows 8.1:ssä koontiversio.tarkenne ilmoitetaan osana Windowsin versiota samalla tavalla kuin Windows 10:ssä.
 
-## Version 20.09
+## Versio 20.09
 
-- System uptime is now given as days, hours, minutes, seconds.
-- Windows Server Insider Preview build 20201 or later is properly recognized as a Server Insider build.
+* Järjestelmän käynnissäoloaika ilmoitetaan nyt päivinä, tunteina, minuutteina ja sekunteina.
+* Windows Server Insider-esikoontiversio 20201 tai sitä uudempi tunnistetaan oikein Server Insider -koontiversioksi.
 
-## Version 20.07
+## Versio 20.07
 
-- Windows 10 Version 20H2 is properly recognized when obtaining Windows version information (NVDA+Shift+6).
-- Simplified Windows 10 version message i.e. Windows 10 YYMM instead of Windows 10verYYMM when pressing NVDA+Shift+6.
+* Windows 10:n versio 20H2 tunnistetaan oikein Windowsin versiotietoja haettaessa (NVDA+Vaihto+6).
+* Yksinkertaistettu Windows 10:n versioilmoitusta painettaessa NVDA+Vaihto+6, esim. Windows 10verVVKK:n:n asemesta Windows 10 VVKK.
 
-## Version 20.06
+## Versio 20.06
 
-- Resolved many coding style issues and potential bugs with Flake8.
+* Ratkaistu useita koodaustyylin ongelmia sekä mahdollisia virheitä Flake8:n kanssa.
 
-## Version 20.04
+## Versio 20.04
 
-- Updated psutil dependency to 5.7.0.
+* Päivitetty psutil-riippuvuus versioksi 5.7.0.
 
-## Version 20.01
+## Versio 20.01
 
-- NVDA 2019.3 or later is required due to extensive use of Python 3.
+* Edellyttää NVDA 2019.3:a tai uudempaa laajamittaisen Python 3:n käytön takia.
 
-## Version 19.11
+## Versio 19.11
 
-- Improved detection of Windows Insider Preview builds, especially for 20H1 and beyond.
+* Insider-esiversioiden tunnistusta paranneltu erityisesti Windows 10 20H1:ssä ja uudemmissa.
 
-## Version 19.07
+## Versio 19.07
 
-- Updated psutil dependency to 5.6.3.
-- Internal changes to battery status announcement command.
+* Päivitetty psutil-riippuvuus versioksi 5.6.3.
+* Sisäisiä muutoksia akun tilan ilmoittavaan komentoon.
 
-## Version 18.12
+## Versio 18.12
 
-- Internal changes to support future NVDA releases.
+* Sisäisiä muutoksia tulevien NVDA-versioiden tukemiseksi.
 
-## Version 18.10
+## Versio 18.10
 
-- Code has been made more compatible with Python 3.
-- Updated psutil dependency to 5.4.7.
-- When obtaining disk capacity and memory usage, NVDA will no longer give errors if using a computer or a service with more than a petabyte of RAM or disk size.
-- Values for memory and disk usage are shown with up to two decimal places (e.g. 4.00 GB instead of 4.0 GB).
-- Improved detection of Windows Insider Preview builds.
+* Koodista on tehty yhteensopivampaa Python 3:n kanssa.
+* Päivitetty psutil-riippuvuus versioksi 5.4.7.
+* NVDA ei enää ilmoita virheistä haettaessa tietoa levyn kapasiteetista ja muistin käytöstä , mikäli käytetään  tietokonetta tai palvelua, jossa RAM-muistin määrä tai levyn koko ylittää yhden petatavun.
+* Muistin ja levyn käytön arvot näytetään enintään kahdella desimaalilla (esim. 4.00 Gt aiemman 4.0 Gt sijaan).
+* Windows Insider -esiversioiden tunnistusta paranneltu.
 
-## Version 18.04
+## Versio 18.04
 
-Version 18.04.x is the last release to support Windows releases earlier than 7 SP1.
+Versio 18.04.x on viimeinen, joka tukee 7 SP1:tä vanhempia Windows-versioita.
 
-- Last release to support Windows Server 2003, Vista and Server 2008.
-- Better detection of Windows 10 releases and distinguishing between public and Insider Preview builds.
+* Viimeinen Windows Server 2003:a, Vistaa ja Server 2008:aa tukeva versio.
+* Parempi Windows 10 -versioiden tunnistaminen sekä julkisten ja Insider-esiversioiden erottaminen toisistaan.
 
-## Version 17.12
+## Versio 17.12
 
-- Added support for 64-bit ARM processors on Windows 10.
+* Lisätty tuki 64-bittisille ARM-suorittimille Windows 10:ssä.
 
-## Version 17.09
+## Versio 17.09
 
-Important: Version 17.09.x is the last version to support Windows XP.
+Tärkeää: 17.09.x on viimeinen Windows XP:tä tukeva versio.
 
-- Last version to run on Windows XP.
-- Windows 10 build 16278 and later is recognized as Version 1709. A minor revision for this add-on will be released once Version 1709 stable build is released.
+* Viimeinen Windows XP:ssä toimiva versio.
+* Windows 10:n koontiversio 16278 ja uudemmat tunnistetaan versioksi 1709. Tästä lisäosasta julkaistaan pieni päivitys, kun version 1709 vakaa koontiversio on julkistettu.
 
-## Version 17.07.1
+## Versio 17.07.1
 
-- Reintroduce support for Windows XP (broken since version 17.02).
+* Palautettu Windows XP:n tuki (ollut rikki versiosta 17.02 lähtien).
 
-## Version 17.05
+## Versio 17.05
 
-- Announcement of system uptime (time passed since last boot; NVDA+Shift+7).
+* Järjestelmän käynnissäoloajan ilmoittaminen (edellisestä käynnistyksestä kulunut aika; NVDA+Shift+7).
 
-## Version 17.02
+## Versio 17.02
 
-- Updated psutil dependency to 5.0.1.
-- When checking disk usage, NVDA will no longer present an error dialog on some systems where a removable media is not properly recognized (such as when a card isn't inserted into a card reader).)
+* Päivitetty psutil-riippuvuus versioksi 5.0.1.
+* NVDA ei näytä enää virheilmoitusta levynkäyttötietoja tarkistettaessa järjestelmissä, joissa siirrettävää massamuistia ei tunnistettu oikein (esim. kun muistikorttia ei ole asetettu kortinlukijaan).
 
-## Version 16.08
+## Versio 16.08
 
-Starting with version 16.08, add-on releases will be shown as year.month.revision.
+Lisäosan versionumerot ovat Versiosta 16.08 alkaen muotoa vuosi.kuukausi.tarkenne.
 
-- Various revisions of Windows 10 are now properly recognized (such as 1607 for build 14393).
-- Windows 10 build revisions (after installing cumulative updates) are properly recognized (such as 14393.51).
-- If using Insider Preview builds, this fact is recognized.
+* Windows 10:n eri versiot tunnistetaan nyt oikein (kuten 1607 koontiversiossa 14393).
+* Windows 10:n koontiversiot tunnistetaan oikein kumulatiivisten päivitysten asentamisen jälkeen (kuten 14393.51).
+* Insider-esiversiot tunnistetaan oikein.
 
-## Changes for 4.5
+## Muutokset versiossa 4.5
 
-- Add-on repository has moved to GitHub (can be found at https://github.com/josephsl/resourcemonitor).
-- Windows Server 2016 is properly recognized.
+* Lisäosan koodivarasto on muuttanut GitHubiin (löytyy osoitteesta https://github.com/josephsl/resourcemonitor).
+* Windows Server 2016 tunnistetaan oikein.
 
-## Changes for 4.0
+## Muutokset versiossa 4.0
 
-- Updated psutil dependency to 2.2.1.
-- Vastly improved performance when obtaining information on CPU load.
-- Added support for recognition of Windows 10.
-- In Windows 10, the build number of Windows will also be announced.
-- You can use Add-ons Manager to access add-on help.
+* Päivitetty psutil-riippuvuus versioksi 2.2.1.
+* Suorituskyky parantunut huomattavasti suorittimen kuormituksen tietoja haettaessa.
+* Lisätty tuki Windows 10:n tunnistamiselle.
+* Windows 10:n versiota ilmoitettaessa kerrotaan myös koontiversio.
+* Ohje on käytettävissä Lisäosien hallinnassa.
 
-## Changes for 3.1
+## Muutokset versiossa 3.1
 
-- Resource Monitor officially supports Windows 8.1.
-- Updated translations.
+* Resurssienvalvonta tukee virallisesti Windows 8.1:tä.
+* Käännöksiä päivitetty.
 
-## Changes for 3.0
+## Muutokset versiossa 3.0
 
-- Updated psutil dependency to 1.2.1.
-- Announcement of current Windows version, CPU architecture and service pack if any (NVDA+Shift+6).
-- Ability to change add-on shortcut keys (NVDA 2013.3 or later).
-- Ability to copy individual resource information to clipboard by pressing resource commands two times.
+* Päivitetty psutil-riippuvuus versioksi 1.2.1.
+* Suorittimen arkkitehtuurin sekä Windowsin ja Service Packin version ilmoittaminen (NVDA+Shift+6).
+* Mahdollisuus vaihtaa lisäosan pikanäppäimiä (NVDA:n 2013.3-versiossa tai uudemmassa).
+* Mahdollisuus kopioida yksittäisen resurssin tiedot leikepöydälle painamalla komentoja kahdesti.
 
-## Changes for 2.4
+## Muutokset versiossa 2.4
 
-- New languages: Chinese (simplified), Ukrainian.
-- Updated translations.
+* Uusia kieliä: kiina (yksinkertaistettu), ukraina
+* Käännöksiä päivitetty.
 
-## Changes for 2.3
+## Muutokset versiossa 2.3
 
-- Added Bulgarian translation.
+* Lisätty bulgariankielinen käännös.
 
-## Changes for 2.2
+## Muutokset versiossa 2.2
 
-- Added following translations: Arabic, Aragonese, Croatian, Dutch, Finnish, French, Galician, German, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and Turkish.
+* Lisätty seuraavat käännökset: arabia, aragonia, brasilianportugali, espanja, galego, hollanti, italia, japani, korea, kroatia, nepali, puola, ranska, saksa, slovakki, slovenia, suomi, tamili, turkki, unkari ja venäjä.
 
-## Changes for 2.1
+## Muutokset versiossa 2.1
 
-- Updated psutil dependency to version 0.6.1.
-- Fixed long delay when getting information of drives.
-- Code cleanup.
+* Päivitetty psutil-riippuvuus versioksi 0.6.1.
+* Korjattu pitkä viive asemien tietoja haettaessa.
+* Koodia siivottu.
 
-## Changes for 2.0
+## Muutokset versiossa 2.0
 
-- added translation support and translation comments.
+* Lisätty käännösten tuki ja käännöskommentteja.
 
-## Changes for 1.0
+## Muutokset versiossa 1.0
 
-- Initial Release
+* Ensimmäinen versio
 
 [1]: http://addons.nvda-project.org/files/get.php?file=resourceMonitor

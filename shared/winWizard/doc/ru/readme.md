@@ -1,39 +1,57 @@
 # Win Wizard
 
-- Author: Oriol Gómez, current maintenance by Łukasz Golonka
-- NVDA compatibility: 2019.3 and beyond
+* Автор: Oriol Gómez, Łukasz Golonka, текущее техническое обслуживание при содействии Jakub Lukowicz
+* Совместимость с NVDA: 2019.3 и выше
 
-This add-on allows you to perform some operations on the focused window or the process associated with it.
+Это дополнение позволяет выполнять некоторые операции с окном в фокусе или связанным с ним процессом.
+При завершении процесса или отображении /скрытии окна подаётся звуковой сигнал подтверждения успешного выполнения действия.
+Если вас это раздражает, вы можете отключить эти звуковые сигналы на панели настроек Win Wizard, доступной в диалоге настроек NVDA.
 
-## Keyboard commands:
+## Команды клавиш:
+Все эти команды можно переназначить из диалога жестов ввода в категории Win Wizard.
+### Скрытие и отображение скрытых окон:
+* NVDA+Windows+цифры от 1 до 0 - скрывает текущее окно в фокусе в слоте, соответствующему нажатой цифре
+* NVDA+Windows+стрелка влево - переходит к предыдущей стопке скрытых окон.
+* NVDA+Windows+стрелка вправо - переходит к следующей стопке скрытых окон.
+* Windows+Shift+h - скрывает текущее окно в фокусе первого доступного слота
+* NVDA+Windows+h - показывает последнее скрытое окно
+* Windows+Shift+l - показывает список всех скрытых окон, сгруппированных по стопкам (обратите внимание, что по умолчанию выбрано последнее скрытое окно)
 
-All these commands can be remapped from the Input gestures dialog in the Win Wizard category.
+### Управление процессами:
+* Windows+F4 - завершает процесс, связанный с текущим окном в фокусе
+* NVDA+Windows+p - открывает диалог, позволяющий установить приоритет процесса, связанного с текущим окном в фокусе
 
-### Hiding and showing hidden windows:
+### Разные команды:
+* NVDA+Windows+TAB - переключение между окнами верхнего уровня текущей программы (полезно в foobar2000, Back4Sure и т.д.)
+* CTRL+ALT+T - позволяет вам изменить название текущей программы в фокусе
 
-- NVDA+Windows+numbers from 1 to 0 - hides  currently focused window in the slot corresponding to the pressed number
-- NVDA+Windows+left arrow - moves to the previous stack of hidden windows.
-- NVDA+Windows+right arrow - moves to the next stack of hidden windows.
-- Windows+Shift+h - hides the currently focused window in the first available slot
-- NVDA+Windows+h - shows the last hidden window
-- Windows+Shift+l - shows the list of all hidden windows grouped by the stacks (please note that by default last hidden window is selected)
+## Изменения:
 
-### Managing processes:
+### Изменения в версии 5.0.7:
 
-- Windows+F4 - kills the process associated with the currently focused window
-- NVDA+Windows+p - opens dialog allowing you to set priority of the process associated with the currently focused window
+* Совместимость с NVDA 2025.1
+* Обновлены переводы
 
-### Miscellaneous  commands:
+### Изменения в версии 5.0.6:
 
-- NVDA+Windows+TAB - switches between top level windows of the current program (useful in foobar2000, Back4Sure etc.)
-- CTRL+ALT+T - allows you to change title of the currently focused program
+* Совместимость с NVDA 2024.1
+* Обновлены переводы
 
-## Changes:
+### Изменения в версии 5.0.5:
 
-## Changes for 5.0.3:
+* Совместимость с NVDA 2023.2
+* Обновлены переводы
 
-- Compatibility with NVDA 2021.1
+### Изменения в версии 5.0.4:
 
-## Changes for 5.0.2:
+* Совместимость с NVDA 2022.1
+* Теперь можно отключить звуковые сигналы подтверждений на панели настроек дополнения
+* Обновлены переводы
 
-- First release available from the add-ons website
+### Изменения в версии 5.0.3:
+
+* Совместимость с NVDA 2021.1
+
+### Изменения в версии 5.0.2:
+
+* Первый выпуск, доступный на сайте дополнений

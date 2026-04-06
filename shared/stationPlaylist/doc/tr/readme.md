@@ -1,257 +1,257 @@
-# StationPlaylist
+# Station Playlist #
 
-- Authors: Christopher Duffley <nvda@chrisduffley.com> (formerly Joseph Lee <joseph.lee22590@gmail.com>, originally by Geoff Shang and other contributors)
+* Yazarlar: Christopher Duffley <nvda@chrisduffley.com> (eski adıyla Joseph Lee <joseph.lee22590@gmail.com>, aslen Geoff Shang ve diğer katkıda bulunanlar tarafından yapılmıştır)
 
-This add-on package provides improved usage of StationPlaylist Studio and other StationPlaylist apps, as well as providing utilities to control Studio from anywhere. Supported apps include Studio, Remote Studio, Creator, Track Tool, Recorder (SPL and VT), and Streamer, as well as SAM, SPL, and AltaCast encoders.
+Bu eklenti paketi, StationPlaylist Studio ve diğer StationPlaylist uygulamalarının gelişmiş kullanımını sağlamanın yanı sıra Studio'yu her yerden kontrol etmek için yardımcı programlar sağlar. Desteklenen uygulamalar arasında Studio, Remote Studio, Creator, Track Tool, Recorder (SPL ve VT) ve Streamer'ın yanı sıra SAM, SPL ve AltaCast kodlayıcılar bulunur.
 
-For more information about the add-on, read the [add-on guide][1].
+Eklenti hakkında daha fazla bilgi için [eklenti kılavuzunu][1] okuyun.
 
-IMPORTANT NOTES:
+ÖNEMLİ NOTLAR:
 
-- This add-on requires StationPlaylist suite 6.0 or later.
-- Some add-on features will be disabled or limited if NVDA is running in secure mode such as in logon screen.
-- For best experience, disable audio ducking mode.
-- Starting from 2018, [changelogs for old add-on releases][2] will be found on GitHub. This add-on readme will list changes from version 26.01 (2026) onwards.
-- While Studio is running, you can save, reload saved settings, or reset add-on settings to defaults by pressing Control+NVDA+C, Control+NVDA+R once, or Control+NVDA+R three times, respectively. This is also applicable to encoder settings - you can save and reset (not reload) encoder settings if using encoders.
-- Many commands will provide speech output while NVDA is in speak on demand mode (NVDA 2024.1 and later).
-- When refering to Studio, both local (original) Studio and Remote Studio will be assumed. When something is specific to StationPlaylist Studio (original), the term "local Studio" will be used.
-- Installing both Studio (local/original) and Remote Studio on the same computer is not recommended.
-- Some add-on keyboard commands will conflict with Studio commands (for example: Control+Alt+End to announce last column (add-on) versus preview ends of tracks (Studio 6.10 and later)).
+* Bu eklenti, StationPlaylist Suite 6.0 veya sonraki sürümünü gerektirir.
+* NVDA oturum açma ekranı gibi güvenli modda çalışıyorsa bazı eklenti özellikleri devre dışı bırakılır veya sınırlandırılır.
+* En iyi deneyim için ses zayıflaması modunu devre dışı bırakın.
+* 2018'den itibaren GitHub'da [eski eklenti sürümleri için değişiklik günlükleri][2] bulunacaktır. Bu eklenti benioku sürümü 26.01 (2026) ve sonrasındaki değişiklikleri listeleyecektir.
+* Studio çalışırken, sırasıyla Control+NVDA+C, Control+NVDA+R'ye bir kez veya Control+NVDA+R'ye üç kez basarak kaydedebilir, kaydedilen ayarları yeniden yükleyebilir veya eklenti ayarlarını varsayılanlara sıfırlayabilirsiniz. Bu, kodlayıcı ayarları için de geçerlidir - kodlayıcı kullanıyorsanız kodlayıcı ayarlarını kaydedebilir ve sıfırlayabilirsiniz (yeniden yükleyemezsiniz).
+* NVDA isteğe bağlı konuşma modundayken birçok komut konuşma çıkışı sağlayacaktır (NVDA 2024.1 ve sonrası).
+* Studio'ya başvurulduğunda hem yerel (orijinal) Studio hem de Remote Studio varsayılacaktır. StationPlaylist Studio'ya (orijinal) özel bir şey olduğunda "local Studio" terimi kullanılacaktır.
+* Hem Studio'nun (yerel/orijinal) hem de Remote Studio'nun aynı bilgisayara kurulması önerilmez.
+* Bazı eklenti klavye komutları Studio komutlarıyla çakışacaktır (örneğin: son sütunu (eklenti) duyurmak için Control+Alt+End ve parçaların önizleme sonlarını duyurmak için (Studio 6.10 ve üzeri)).
 
-## Shortcut keys
+## Kısayol tuşları
 
-Most of these will work in Studio only unless otherwise specified. Unless noted otherwise, these commands support speak on demand mode.
+Bunların çoğu, aksi belirtilmedikçe yalnızca Studio'da çalışır. Aksi belirtilmedikçe, bu komutlar isteğe bağlı konuşma modunu destekler.
 
-- Alt+Shift+T from Studio window: announce elapsed time for the currently playing track, voice track, or cart.
-- Control+Alt+T (two finger flick down in SPL touch mode) from Studio window: announce remaining time for the currently playing track, voice track, or cart.
-- NVDA+Shift+F12 (two finger flick up in SPL touch mode) from Studio window: announces broadcaster time such as 5 minutes to top of the hour. Pressing this command twice will announce minutes and seconds till top of the hour.
-- Alt+NVDA+1 (two finger flick right in SPL mode) from Studio window: Opens alarms category in Studio add-on configuration dialog (does not support speak on demand).
-- Alt+NVDA+1 from Creator's Playlist Editor and Remote VT playlist editor: Announces scheduled time for the loaded playlist.
-- Alt+NVDA+2 from Creator's Playlist Editor and Remote VT playlist editor: Announces total playlist duration.
-- Alt+NVDA+3 from Studio window: Toggles cart explorer to learn cart assignments (does not support speak on demand).
-- Alt+NVDA+3 from Creator's Playlist Editor and Remote VT playlist editor: Announces when the selected track is scheduled to play.
-- Alt+NVDA+4 from Creator's Playlist Editor and Remote VT playlist editor: Announces rotation and category associated with the loaded playlist.
-- Control+NVDA+F from Studio window: Opens a dialog to find a track based on artist or song name. Press NVDA+F3 to find forward or NVDA+Shift+F3 to find backward (does not support speak on demand).
-- Shift+NVDA+R from Studio window (local Studio only): Steps through library scan announcement settings (does not support speak on demand).
-- Control+Shift+X from Studio window: Steps through braille timer settings (does not support speak on demand).
-- Control+Alt+left/right arrow (while focused on a track in local and Remote Studio, Creator, Remote VT, and Track Tool): Move to previous/next track column (does not support speak on demand).
-- Control+Alt+up/down arrow (while focused on a track in local and Remote Studio, Creator, Remote VT, and Track Tool): Move to previous/next track and announce specific columns (does not support speak on demand).
-- Control+NVDA+1 through 0 (while focused on a track in local and Remote Studio, Creator (including Playlist Editor), Remote VT, and Track Tool): Announce column content for a specified column (first ten columns by default). Pressing this command twice will display column information on a browse mode window.
-- Control+NVDA+- (hyphen while focused on a track in local and Remote Studio, Creator, Remote VT, and Track Tool): display data for all columns in a track on a browse mode window (does not support speak on demand).
-- NVDA+V while focused on a track (Studio's playlist viewer only): toggles track column announcement between screen order and custom order (does not support speak on demand).
-- Alt+NVDA+C while focused on a track (Studio's playlist viewer only): announces track comments if any.
-- Alt+NVDA+0 (two finger flick left in SPL mode) from local and Remote Studio, Creator, Remote VT, and Track Tool: Opens the Studio add-on configuration dialog (does not support speak on demand).
-- Alt+NVDA+P from Studio window: Opens the Studio broadcast profiles dialog (does not support speak on demand).
-- Alt+NVDA+F1: Open welcome dialog (does not support speak on demand).
+* Studio penceresinde Alt+Shift+T: Oynatılan parça, ses parçası veya sepet için geçen süreyi duyurur.
+* Studio penceresinde Control+Alt+T (SPL dokunmatik modunda iki parmağınızı aşağı doğru kaydırın): şu anda çalınan parça, ses parçası veya kart için kalan süreyi duyurun.
+* Stüdyo penceresinde NVDA+Shift+F12 (SPL dokunmatik modunda iki parmakla yukarı kaydırma): yayıncının saatin başına 5 dakika kala zamanını duyurur. Bu komuta iki kez basıldığında saatin başına kadar dakika ve saniyeler duyurulacaktır.
+* Stüdyo penceresinde Alt+NVDA+1 (SPL modunda iki parmakla sağa kaydırma): Studio eklenti yapılandırma iletişim kutusunda alarmlar kategorisini açar (talep üzerine konuşmayı desteklemez).
+* Oluşturucu Çalma Listesi Düzenleyicisinde ve Uzaktan VT çalma listesi düzenleyicisinde Alt+NVDA+1: Yüklenen çalma listesi için planlanan zamanı duyurur.
+* Oluşturucunun Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi düzenleyicisinde Alt+NVDA+2: Toplam çalma listesi süresini duyurur.
+* Stüdyo penceresinde Alt+NVDA+3: Sepet atamalarını öğrenmek için sepet gezginine geçiş yapar (talep üzerine konuşmayı desteklemez).
+* Oluşturucunun Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi düzenleyicisinde Alt+NVDA+3: Seçilen parçanın ne zaman çalınacağını duyurur.
+* Oluşturucunun Çalma Listesi Düzenleyicisinde ve Remote VT çalma listesi düzenleyicisinde Alt+NVDA+4: Yüklenen çalma listesiyle ilişkili rotasyonu ve kategoriyi duyurur.
+* Studio penceresinde Kontrol+NVDA+f: Sanatçı veya şarkı adına göre parça bulmak için bir iletişim kutusu açar. Sonrakini bulmak için NVDA+F3 tuşlarına veya Öncekini bulmak için NVDA+Shift+F3 tuşlarına basın (talep üzerine konuşmayı desteklemez).
+* Studio penceresinden Shift+NVDA+R (yalnızca yerel Studio): Kitaplık tarama duyuru ayarlarını adım adım ilerler (istek üzerine konuşma özelliğini desteklemez).
+* Studio penceresinde Kontrol+Shift+X: Braille zamanlayıcı ayarlarında adım adım ilerler (talep üzerine konuşmayı desteklemez).
+* Kontrol+Alt+sol/sağ ok (yerel ve Remote Studio, Creator, Remote VT ve Track Tool'da bir parçaya odaklanırken): Önceki/sonraki parça sütununa git (istek üzerine konuşma özelliğini desteklemez).
+* Kontrol+Alt+yukarı/aşağı ok (yerel ve Remote Studio, Creator, Remote VT ve Track Tool'da bir parçaya odaklanırken): Önceki/sonraki parçaya geçer ve belirli sütunları duyurur (istek üzerine konuşma özelliğini desteklemez).
+* Kontrol+NVDA+1'den 0'a kadar (Studio, Oluşturucu (Çalma Listesi Düzenleyici dahil), Remote VT ve Parça Araçlarında bir parçaya odaklanıldığında): Belirli bir sütun için sütun içeriğini duyurur (varsayılan olarak ilk on sütun). Bu komuta iki kez basıldığında, gözatma modu penceresinde sütun bilgileri görüntülenecektir.
+* Kontrol+NVDA+- (Studio, Oluşturucu, Remote VT ve Parça Araçlarında bir parçaya odaklanıldığında kısa çizgi): bir göz atma modu penceresinde bir parçadaki tüm sütunlara ait verileri görüntüler (talep üzerine konuşmayı desteklemez).
+* NVDA+V bir parçaya odaklanmışken (yalnızca Studio'nun çalma listesi görüntüleyicisi): Parça sütunu duyurusunu ekran sırası ve özel sıralama arasında değiştirir (talep üzerine konuşmayı desteklemez).
+* Bir parçaya odaklanıldığında Alt+NVDA+C (yalnızca Studio'nun çalma listesi görüntüleyicisi): varsa parça yorumlarını duyurur.
+* Yerel ve Uzaktan Stüdyo, Yaratıcı, Uzaktan VT ve Parça Aracı'ndan Alt+NVDA+0 (SPL modunda iki parmakla sola kaydırma): Stüdyo eklenti yapılandırma iletişim kutusunu açar (isteğe bağlı konuşma özelliğini desteklemez).
+* Stüdyo penceresinde Alt+NVDA+P: Studio yayın profilleri iletişim kutusunu açar (talep üzerine konuşmayı desteklemez).
+* Alt+NVDA+F1: Karşılama iletişim kutusunu açar (talep üzerine konuşmayı desteklemez).
 
-## Unassigned commands
+## Atanmamış komutlar
 
-The following commands are not assigned by default; if you wish to assign them, use Input Gestures dialog to add custom commands. To do so, from Studio window, open NVDA menu, Preferences, then Input Gestures. Expand StationPlaylist category, then locate unassigned commands from the list below and select "Add", then type the gesture you wish to use.
+Aşağıdaki komutlar varsayılan olarak atanmamıştır; bunları atamak isterseniz, özel komutlar eklemek için Girdi Hareketleri iletişim kutusunu kullanın. Bunu yapmak için Studio penceresinden NVDA menüsünü, Tercihler'i ve ardından Girdi Hareketleri'ni açın. StationPlaylist kategorisini genişletin, ardından aşağıdaki listeden atanmamış komutları bulun ve "Ekle"yi seçin. Sonra, kullanmak istediğiniz hareketi yazın.
 
-Important: some of these commands will not work if NVDA is running in secure mode such as from login screen. Not all commands support speak on demand and/or unavailable in Remote Studio.
+Önemli: NVDA oturum açma ekranı gibi güvenli modda çalışıyorsa bu komutlardan bazıları çalışmayacaktır. Tüm komutlar İsteğe bağlı konuşmayı desteklemez ve/veya Remote Studio'da kullanılamaz.
 
-- Switching to local SPL Studio window from any program (unavailable in secure mode, does not support speak on demand).
-- SPL Controller layer (unavailable in secure mode).
-- Announcing Studio status such as track playback from other programs (unavailable in secure mode).
-- Announcing encoder connection status from any program (unavailable in secure mode).
-- SPL Assistant layer from Studio.
-- Announce time including seconds from Studio.
-- Announcing temperature.
-- Announcing title of next track if scheduled.
-- Announcing title of the currently playing track.
-- Marking current track for start of track time analysis.
-- Performing track time analysis.
-- Take playlist snapshots.
-- Find text in specific columns (does not support speak on demand).
-- Find tracks with duration that falls within a given range via time range finder (does not support speak on demand).
-- Quickly enable or disable metadata streaming (does not support speak on demand, unavailable in Remote Studio).
+* Herhangi bir programdan SPL Studio penceresine geçiş (güvenli modda kullanılamaz, isteğe bağlı konuşmayı desteklemez).
+* SPL Denetleyici katmanı (güvenli modda kullanılamaz).
+* Diğer programlardan parça Çalma gibi Studio durumunun duyurulması (güvenli modda kullanılamaz).
+* Kodlayıcı bağlantı durumu herhangi bir programdan duyurulur (güvenli modda kullanılamaz).
+* SPL Studio'da SPL Yardımcısı katmanı.
+* Studio'da saniyeler de dahil olmak üzere zamanı duyurur.
+* Sıcaklık duyurusu.
+* Planlandığı takdirde bir sonraki parçanın başlığının duyurulması.
+* Şu anda çalınan parçanın başlığı duyuruluyor.
+* Parça süresi analizinin başlangıcı için mevcut parçayı işaretleme.
+* Parça süresi analizi gerçekleştirme.
+* Çalma listesi anlık görüntüleri alır.
+* Belirli sütunlardaki metni bulur (talep üzerine konuşmayı desteklemez).
+* Zaman aralığı bulucu aracılığıyla süresi belirli bir aralığa giren parçaları bulur (talep üzerine konuşmayı desteklemez).
+* Meta veri akışını hızlı bir şekilde etkinleştirin veya devre dışı bırakın (talep üzerine konuşmayı desteklemez, Remote Studio'da mevcut değildir).
 
-## Additional commands when using encoders
+## Kodlayıcıları kullanırken ek komutlar
 
-The following commands are available when using encoders, and the ones used for toggling options for on-connection behavior such as focusing to Studio, playing the first track, and toggling of background monitoring can be assigned through the Input Gestures dialog in NVDA menu, Preferences, Input Gestures, under the StationPlaylist category. These commands do not support speak on demand.
+Kodlayıcılar kullanılırken aşağıdaki komutlar kullanılabilir: Studio'ya odaklanma, ilk parçayı çalma ve arka plan izlemeyi açma/kapama gibi bağlantı davranışları için seçenekleri değiştirmeye yarayan komutlar, NVDA menüsündeki Tercihler, Girdi Hareketleri, StationPlaylist kategorisi altındaki Girdi Hareketleri iletişim kutusundan atanabilir. Bu komutlar isteğe bağlı konuşma özelliğini desteklemez.
 
-- F9: connect the selected encoder.
-- F10 (SAM encoder only): Disconnect the selected encoder.
-- Control+F9: Connect all encoders.
-- Control+F10 (SAM encoder only): Disconnect all encoders.
-- Control+Shift+F11: Toggles whether NVDA will switch to Studio window for the selected encoder if connected.
-- Shift+F11: Toggles whether Studio will play the first selected track when encoder is connected to a streaming server.
-- Control+F11: Toggles background monitoring of the selected encoder.
-- Control+F12: opens a dialog to select the encoder you have deleted (to realign encoder labels and settings).
-- Alt+NVDA+0 or F12: Opens encoder settings dialog to configure options such as encoder label.
+* F9: seçilen kodlayıcıyı bağlar.
+* F10 (yalnızca SAM kodlayıcı): Seçilen kodlayıcının bağlantısını keser.
+* Kontrol+F9: Tüm kodlayıcıları bağlar.
+* Kontrol+F10 (yalnızca SAM kodlayıcı): Tüm kodlayıcıların bağlantısını keser.
+* Kontrol+Shift+F11: NVDA'nın bağlı olması durumunda seçilen kodlayıcı için Studio penceresine geçip geçmeyeceğini değiştirir.
+* Shift+F11: Kodlayıcı bir akış sunucusuna bağlandığında Studio'nun seçilen ilk parçayı çalıp çalmayacağını değiştirir.
+* Kontrol+F11: Seçilen kodlayıcının arka plan izlemesini açar veya kapatır.
+* Kontrol+F12: Sildiğiniz kodlayıcıyı seçmek için bir iletişim kutusu açar (kodlayıcı etiketlerini ve ayarlarını yeniden hizalamak için).
+* Alt+NVDA+0 veya F12: Kodlayıcı etiketi gibi seçenekleri yapılandırmak için kodlayıcı ayarları iletişim kutusunu açar.
 
-In addition, column review commands are available, including (supports speak on demand):
+Ayrıca aşağıdakiler de dahil olmak üzere sütun inceleme komutları mevcuttur (talep üzerine konuşmayı destekler):
 
-- Control+NVDA+1: Encoder position.
-- Control+NVDA+2: encoder label.
-- Control+NVDA+3 from SAM Encoder: Encoder format.
-- Control+NVDA+3 from SPL and AltaCast Encoder: Encoder settings.
-- Control+NVDA+4 from SAM Encoder: Encoder connection status.
-- Control+NVDA+4 from SPL and AltaCast Encoder: Transfer rate or connection status.
-- Control+NVDA+5 from SAM Encoder: Connection status description.
+* Kontrol+NVDA+1: Kodlayıcı konumu.
+* Kontrol+NVDA+2: kodlayıcı etiketi.
+* SAM Kodlayıcıda Kontrol+NVDA+3: Kodlayıcı formatı.
+* SPL ve AltaCast Kodlayıcıda Kontrol+NVDA+3: Kodlayıcı ayarları.
+* SAM Kodlayıcıda Kontrol+NVDA+4: Kodlayıcı bağlantı durumu.
+* SPL ve AltaCast Kodlayıcıda Kontrol+NVDA+4: Aktarım hızı veya bağlantı durumu.
+* SAM Kodlayıcıda Kontrol+NVDA+5: Bağlantı durumu açıklaması.
 
-## SPL Assistant layer
+## SPL Yardımcısı katmanı
 
-This layer command set allows you to obtain various status on Studio, such as whether a track is playing, total duration of all tracks for the hour and so on. From any local or Remote Studio window, press the SPL Assistant layer command, then press one of the keys from the list below (one or more commands are exclusive to playlist viewer). You can also configure NVDA to emulate commands from other screen readers.
+Bu katman komut seti, Studio'da bir parçanın çalınıp çalınmadığı, tüm parçaların bir saat içindeki toplam süresi vb. gibi çeşitli durumları elde etmenize olanak tanır. Herhangi bir yerel veya Remote Studio penceresinden SPL Assistant katman komutuna basın, ardından aşağıdaki listedeki tuşlardan birine basın (bir veya daha fazla komut çalma listesi görüntüleyiciye özeldir). NVDA'yı diğer ekran okuyuculardan gelen komutları taklit edecek şekilde de yapılandırabilirsiniz.
 
-The available commands are (most commands support speak on demand and some commands are unavailable in Remote Studio):
+Kullanılabilir komutlar şunlardır (çoğu komut isteğe bağlı konuşmayı destekler ve bazı komutlar Remote Studio'da kullanılamaz):
 
-- A: Automation.
-- C (Shift+C in JAWS layout): Title for the currently playing track.
-- C (JAWS layout): Toggle cart explorer (playlist viewer only, does not support speak on demand).
-- D (R in JAWS layout): Remaining duration for the playlist (if an error message is given, move to playlist viewer and then issue this command).
-- Control+D (Studio 6.10 and later, unavailable in Remote Studio): Control keys enabled/disabled.
-- E (unavailable in Remote Studio): Metadata streaming status.
-- Shift+1 through Shift+4, Shift+0 (unavailable in Remote Studio): Status for individual metadata streaming URL's (0 is for DSP encoder).
-- F: Find track (playlist viewer only, does not support speak on demand).
-- H (T in JAWS layout): Duration of music for the current hour slot.
-- Shift+H (H in JAWS layout): Remaining track duration for the hour slot.
-- I (L in JAWS layout, unavailable in Remote Studio): Listener count.
-- K (unavailable in Remote Studio): Move to the marked track (playlist viewer only).
-- Control+K (unavailable in Remote Studio): Set the current track as the place marker track (playlist viewer only).
-- L (Shift+L in JAWS layout): Line in.
-- M: Microphone.
-- N: Title for the next scheduled track.
-- O: Playlist hour over/under by.
-- P: Playback status (playing or stopped).
-- Shift+P (unavailable in Remote Studio): Pitch of the current track.
-- R (Shift+E in JAWS layout, unavailable in Remote Studio): Record to file enabled/disabled.
-- Shift+R (Alt+T in JAWS layout; unavailable in Remote Studio): Monitor library scan in progress.
-- S: Track starts (scheduled).
-- Shift+S: Time until selected track will play (track starts in).
-- T (number row 0 (zero) in JAWS layout; unavailable in Remote Studio): Cart edit/insert mode on/off.
-- U (unavailable in Remote Studio): Studio up time.
-- W: Weather and temperature if configured.
-- Y (unavailable in Remote Studio): Playlist modified status.
-- F8: Take playlist snapshots (number of tracks, longest track, etc.).
-- Shift+F8: Request playlist transcripts in numerous formats.
-- F9: Mark current track for start of playlist analysis (playlist viewer only).
-- F10: Perform track time analysis (playlist viewer only).
-- F12: Switch between current and a predefined profile.
-- F1: Layer help.
+* A: Otomasyon.
+* C (JAWS düzeninde Shift+C): Şu anda çalınan parçanın başlığı.
+* C (JAWS düzeni): Sepet gezginini aç/kapat (yalnızca çalma listesi görüntüleyici, isteğe bağlı konuşmayı desteklemez).
+* D (JAWS düzeninde R): Çalma listesinin kalan süresi (bir hata mesajı verilirse çalma listesi görüntüleyiciye gidin ve ardından bu komutu verin).
+* Kontrol+D (Studio 6.10 ve üzeri sürümlerde, Remote Studio'da kullanılamaz): Kontrol tuşları etkinleştirilir/devre dışı bırakılır.
+* E (Remote Studio'da kullanılamaz): Meta veri akış durumu.
+* Shift+1 ila Shift+4, Shift+0: (Remote Studio'da kullanılamaz) Bireysel meta veri akışı URL'lerinin durumu (0, DSP kodlayıcı içindir).
+* F: Parçayı bul (yalnızca çalma listesi görüntüleyicide, isteğe bağlı konuşmayı desteklemez).
+* H (JAWS düzeninde T): Geçerli saat dilimi için müzik süresi.
+* Shift+H (JAWS düzeninde H): Saat aralığı için kalan izleme süresi.
+* I (JAWS düzeninde L, Remote Studio'da mevcut değildir): Dinleyici sayısı.
+* K (Remote Studio'da kullanılamaz): İşaretli parçaya gider (yalnızca çalma listesi görüntüleyicisinde).
+* Kontrol+K (Remote Studio'da kullanılamaz): Geçerli parçayı yer işaretleyici parça olarak ayarlar (yalnızca çalma listesi görüntüleyici).
+* L (JAWS düzeninde Shift+L): Line in.
+* M: Mikrofon.
+* N: Bir sonraki programlanmış parçanın adı.
+* O: Oynatma listesi Zaman Kalan/geçen süre.
+* P: Çalma durumu (Çalınıyor veya durduruldu).
+* Shift+P: (Remote Studio'da kullanılamaz) Geçerli parçanın perdesi.
+* R (JAWS düzeninde Shift+E): (Remote Studio'da kullanılamaz) Dosyaya kaydetme etkin/devre dışı.
+* Shift+R (JAWS düzeninde Alt+T; Remote Studio'da kullanılamaz): Devam eden kitaplık taramasını izleyin.
+* S: Parça başlangıçları (planlanmış).
+* Shift+S: Seçilen parça çalınana kadar geçecek süre (parça başlar).
+* T (JAWS düzeninde sayı satırı 0 (sıfır); Remote Studio'da kullanılamaz): Sepet düzenleme/ekleme modu açık/kapalı.
+* U (Remote Studio'da kullanılamaz): Stüdyo çalışma zamanı.
+* W: Yapılandırılmışsa hava durumu ve sıcaklık.
+* Y (Remote Studio'da kullanılamaz): Çalma listesi değişiklik durumu.
+* F8: Çalma listesi anlık görüntülerini alır (parça sayısı, en uzun parça vb.).
+* Shift+F8: Çeşitli biçimlerde çalma listesi transkriptlerini ister.
+* F9: Çalma listesi analizinin başlatılması için geçerli parçayı işaretler (yalnızca çalma listesi görüntüleyicide).
+* F10: Parça süresi analizini gerçekleştirir (yalnızca çalma listesi görüntüleyicide).
+* F12: Geçerli profil ile önceden tanımlanmış profil arasında geçiş yapar.
+* F1: Katman yardımı.
 
-## SPL Controller
+## SPL Denetleyicisi
 
-The SPL Controller is a set of layered commands you can use to control SPL (local) Studio and/or Remote Studio anywhere. Press the SPL Controller layer command, and NVDA will say, "SPL Controller" or "SPL Remote Controller" if Remote Studio is in use. Press another command to control various Studio settings such as microphone on/off or play the next track. You can also configure NVDA to enter SPL Assistant layer (see above) by pressing SPL Controller layer command (passthrough mode, enabled by default).
+SPL Denetleyicisi, SPL (yerel) Studio'yu ve/veya Remote Studio'yu herhangi bir yerde kontrol etmek için kullanabileceğiniz bir dizi katmanlı komuttur. SPL Denetleyici katmanı komutuna bastığınızda NVDA, Remote Studio kullanılıyorsa "SPL Denetleyici" veya "SPL Uzaktan Denetleyici" diyecektir. Mikrofonu açma/kapama gibi çeşitli Studio ayarlarını kontrol etmek veya sonraki parçayı oynatmak için başka bir komuta basın. Ayrıca SPL Denetleyici katmanı komutuna (geçiş modu, varsayılan olarak etkindir) basarak NVDA'yı SPL Assistant katmanına (yukarı bakın) girecek şekilde yapılandırabilirsiniz.
 
-Important: SPL Controller layer commands are disabled if NVDA is running in secure mode.
+Önemli: NVDA güvenli modda çalışıyorsa SPL Denetleyici katmanı komutları devre dışı bırakılır.
 
-Outside of Studio, the available SPL Controller commands are (some commands support speak on demand and some are only available with local Studio):
+Studio dışında mevcut SPL Denetleyici komutları şunlardır (bazı komutlar isteğe bağlı konuşmayı destekler ve bazıları yalnızca yerel Studio'da kullanılabilir):
 
-- P or Enter: Play the selected track.
-- Control+down arrow: Play the next track with crossfade.
-- U: Pause or unpause playback.
-- S: Stop the track with fade out.
-- T: Instant stop.
-- M: Turn on microphone.
-- Shift+M: Turn off microphone.
-- N: Turn microphone on without fade.
-- A: Turn on automation.
-- Shift+A: Turn off automation.
-- L: Turn on line-in input.
-- Shift+L: Turn off line-in input.
-- R: Remaining time for the currently playing track.
-- Shift+R (unavailable in Remote Studio): Library scan progress.
-- C: Title and duration of the currently playing track (supports speak on demand).
-- Shift+C: Title and duration of the upcoming track if any (supports speak on demand).
-- E (unavailable in Remote Studio): Encoder connection status (supports speak on demand).
-- I (unavailable in Remote Studio): Listener count (supports speak on demand).
-- Q: Studio status information such as whether a track is playing, microphone is on and others (supports speak on demand).
-- Cart keys (F1, Control+1, for example; unavailable in Remote Studio): Play assigned carts from anywhere.
-- H: Layer help.
+* P veya Enter: Seçilen parçayı oynatır.
+* Control+aşağı ok: Sonraki parçayı çapraz geçiş ile oynatır.
+* U: Çalmayı duraklat veya sürdür.
+* S: Parçayı kısarak durdurur.
+* T: Anında Durdur.
+* M: Mikrofonu açar.
+* Shift+M: Mikrofonu kapatır.
+* N: Mikrofonu sesi kısık olmadan açar.
+* A: Otomasyonu açar.
+* Shift+A: Otomasyonu kapatır.
+* L: Line in girişini açar.
+* Shift+L: Line-in girişini kapatır.
+* R: Çalmakta olan parçanın kalan süresi.
+* Shift+R (Remote Studio'da kullanılamaz): Kitaplık tarama ilerlemesi.
+* C: O anda çalınan parçanın başlığı ve süresi (talep üzerine konuşmayı destekler).
+* Shift+C: Varsa gelecek parçanın başlığı ve süresi (talep üzerine konuşmayı destekler).
+* E (Remote Studio'da kullanılamaz): Kodlayıcı bağlantı durumu (talep üzerine konuşmayı destekler).
+* I (Remote Studio'da mevcut değil): Dinleyici sayısı (talep üzerine konuşmayı destekler).
+* Q: Bir parçanın çalınıp çalınmadığı, mikrofonun açık olup olmadığı ve diğerleri gibi stüdyo durumu bilgileri (talep üzerine konuşmayı destekler).
+* Sepet tuşları (örneğin F1, Control+1; Remote Studio'da mevcut değildir): Atanan sepetleri istediğiniz yerden çalın.
+* H: Katman yardımı.
 
-From inside Studio (local and Remote Studio), SPL Controller layer command will invoke SPL Assistant layer by default.
+Studio'nun içinden (yerel ve Remote Studio), SPL Denetleyici katmanı komutu varsayılan olarak SPL Assistant katmanını çağıracaktır.
 
-## Track and microphone alarms
+## Parça ve mikrofon alarmları
 
-By default, NVDA will play a beep if five seconds are left in the track (outro) and/or intro, as well as to hear a beep if microphone has been active for a while. To configure track and microphone alarms, press Alt+NVDA+1 to open alarms settings in Studio add-on settings screen. You can also use this screen to configure if you'll hear a beep, a message or both when alarms are turned on.
+Varsayılan olarak, NVDA parçada (outro) ve/veya introda beş saniye kaldığında bir bip sesi çalacak ve mikrofon bir süredir aktifse bir bip sesi duyacaktır. Parça ve mikrofon alarmlarını yapılandırmak için Alt+NVDA+1 tuşlarına basarak Studio eklenti ayarları ekranında alarm ayarlarını açın. Bu ekranı ayrıca alarmlar açıldığında bir bip sesi mi, bir mesaj mı yoksa her ikisini birden mi duyacağınızı yapılandırmak için de kullanabilirsiniz.
 
-## Track Finder
+## Parça Bulucu
 
-If you wish to quickly find a song by an artist or by song name, from track list, press Control+NVDA+F. Type or choose the name of the artist or the song name. NVDA will either place you at the song if found or will display an error if it cannot find the song you're looking for. To find a previously entered song or artist, press NVDA+F3 or NVDA+Shift+F3 to find forward or backward.
+Bir şarkıyı sanatçıya veya şarkı adına göre hızlı bir şekilde bulmak isterseniz, parça listesinde Control+NVDA+F tuşlarına basın. Sanatçının adını veya şarkı adını yazın yada seçin. NVDA, bulunursa sizi şarkıya odaklar ya da aradığınız şarkıyı bulamazsa bir hata görüntüler. Daha önce girilmiş bir şarkıyı veya sanatçıyı bulmak için NVDA+F3 veya NVDA+Shift+F3 tuşlarına basarak ileri veya geri gidin.
 
-Note: Track Finder is case-sensitive.
+Not: Parça Bulucu büyük/küçük harfe duyarlıdır.
 
-## Cart Explorer
+## Sepet Gezgini
 
-Depending on edition and local versus remote studio access, SPL Studio allows up to 96 carts to be assigned for playback. NVDA allows you to hear which cart, or jingle is assigned to these commands.
+Sürüm ve yerel veya uzak stüdyo erişimine bağlı olarak, SPL Studio oynatma için 96 adede kadar otomasyon atanmasına izin verir. NVDA, bu komutlara hangi otomasyonun veya Tanıtımın atandığını duymanızı sağlar.
 
-To learn cart assignments, from SPL Studio (local and Remote Studio), press Alt+NVDA+3. Pressing the cart command once will tell you which jingle is assigned to the command. Pressing the cart command twice will play the jingle. Press Alt+NVDA+3 to exit cart explorer. See the add-on guide for more information on cart explorer.
+Sepet atamalarını öğrenmek için SPL Studio'dan Alt+NVDA+3 tuşlarına basın. Sepet komutuna bir kez bastığınızda, komuta hangi jingle'ın atandığı size söylenecektir. Sepet komutuna iki kez basıldığında jingle çalınır. Sepet gezgininden çıkmak için Alt+NVDA+3 tuşlarına basın. Sepet gezgini hakkında daha fazla bilgi için eklenti kılavuzuna bakın.
 
-## Track time analysis
+## Parça zaman analizi
 
-To obtain length to play selected tracks, mark current track for start of track time analysis (SPL Assistant, F9), then press SPL Assistant, F10 when reaching end of selection.
+Seçilen parçaları çalmak için uzunluk elde etmek üzere, parça süresi analizinin başlangıcı için geçerli parçayı işaretleyin (SPL Yardımcısı, F9), ardından seçimin sonuna ulaştığınızda SPL Yardımcısı, F10'a basın.
 
-## Columns Explorer
+## Sütun Gezgini
 
-By pressing Control+NVDA+1 through 0, you can obtain contents of specific columns. By default, these are first ten columns for a track item (in Studio: artist, title, duration, intro, outro, category, year, album, genre, mood). In Studio (local and Remote), Creator's main track list and playlist editor, Track Tool, and Remote VT, column slots are preset regardless of column order on screen and can be configured from add-on settings dialog under columns explorer category.
+Control+NVDA+1'den 0'a kadar tuşlara basarak belirli sütunların içeriklerini elde edebilirsiniz. Varsayılan olarak bunlar bir parça öğesinin ilk on sütunudur (Studio'da: sanatçı, başlık, süre, giriş, çıkış, kategori, yıl, albüm, tür, ruh hali). Creator'ın ana parça listesi ve çalma listesi düzenleyicisi olan Studio (yerel ve Uzak), İzleme Aracı ve Remote VT'de sütun yuvaları, ekrandaki sütun sırasına bakılmaksızın önceden ayarlanır ve sütun gezgini kategorisi altındaki eklenti ayarları iletişim kutusundan yapılandırılabilir.
 
-## Track column announcement
+## Parça sütunu anonsu
 
-You can ask NVDA to announce track columns found in Studio's playlist viewer in the order it appears on screen or using a custom order and/or exclude certain columns. Press NVDA+V to toggle this behavior while focused on a track in Studio's playlist viewer. To customize column inclusion and order, from column announcement settings panel in add-on settings, uncheck "Announce columns in the order shown on screen" and then customize included columns and/or column order.
+NVDA'dan, Studio'nun çalma listesi görüntüleyicisinde bulunan parça sütunlarını ekranda göründüğü sırayla veya özel bir sırayla duyurmasını ve/veya belirli sütunları hariç tutmasını isteyebilirsiniz. Studio'nun çalma listesi görüntüleyicisinde bir parçaya odaklanırken NVDA+V tuşlarına basarak bu davranışı değiştirebilirsiniz. Sütunların dahil edilmesini ve sırasını özelleştirmek için, eklenti ayarlarında sütun duyurusu ayarları panelinden “Sütunları ekranda gösterildiği sırayla duyur” seçeneğinin işaretini kaldırın ve ardından dahil edilecek sütunları ve/veya sütun sırasını özelleştirin.
 
-## Playlist snapshots
+## Oynatma listesi anlık görüntüleri
 
-You can press SPL Assistant, F8 while focused on a playlist in Studio to obtain various statistics about a playlist, including number of tracks in the playlist, longest track, top artists and so on. After assigning a custom command for this feature, pressing the custom command twice will cause NVDA to present playlist snapshot information as a webpage so you can use browse mode to navigate (press escape to close).
+Çalma listesindeki parça sayısı, en uzun parça, en iyi sanatçılar vb. dahil olmak üzere bir çalma listesi hakkında çeşitli istatistikler elde etmek için Studio'da bir çalma listesine odaklanmışken SPL Yardımcısı ve F8 tuşlarına basabilirsiniz. Bu özellik için özel bir komut atadıktan sonra, özel komuta iki kez basmak, NVDA'nın çalma listesi anlık görüntü bilgilerini bir web sayfası olarak sunmasına neden olur, böylece gezinmek için göz atma modunu kullanabilirsiniz (kapatmak için Escape tuşuna basın).
 
-## Playlist Transcripts
+## Çalma Listesi Transkriptleri
 
-Pressing SPL Assistant, Shift+F8 will present a dialog to let you request playlist transcripts in numerous formats, including in a plain text format, an HTML table or a list.
+SPL Yardımcısı'na bastığınızda, Shift+F8, düz metin biçimi, HTML tablosu veya liste dahil olmak üzere çeşitli biçimlerde çalma listesi transkriptlerini istemenize izin veren bir iletişim kutusu sunar.
 
-## Configuration dialog
+## Yapılandırma iletişim kutusu
 
-From studio window, you can press Alt+NVDA+0 to open the add-on configuration dialog. Alternatively, go to NVDA's preferences menu and select SPL Studio Settings item. Not all settings are available if NVDA is running in secure mode and while using Remote Studio.
+Eklenti yapılandırma iletişim kutusunu açmak için stüdyo penceresinde Alt+NVDA+0 tuşlarına basabilirsiniz. Alternatif olarak NVDA'nın tercihler menüsüne gidin ve SPL Studio Ayarları öğesini seçin. NVDA güvenli modda çalışıyorsa ve Remote Studio kullanılırken tüm ayarlar kullanılamaz.
 
-## Broadcast profiles dialog
+## Yayın profilleri iletişim kutusu
 
-You can save settings for specific shows into broadcast profiles. These profiles can be managed via SPL broadcast profiles dialog which can be accessed by pressing Alt+NVDA+P from Studio window.
+Belirli programların ayarlarını yayın profillerine kaydedebilirsiniz. Bu profiller, Studio penceresinden Alt+NVDA+P tuşlarına basılarak erişilebilen SPL yayın profilleri iletişim kutusu aracılığıyla yönetilebilir.
 
-## SPL touch mode
+## SPL dokunma modu
 
-If you are using Studio on a touchscreen computer with NVDA installed, you can perform some Studio commands from the touchscreen. First use three finger tap to switch to SPL mode, then use the touch commands listed above to perform commands.
+Studio'yu NVDA kurulu dokunmatik ekranlı bir bilgisayarda kullanıyorsanız, bazı Studio komutlarını dokunmatik ekrandan gerçekleştirebilirsiniz. Önce SPL moduna geçmek için üç parmakla dokunmayı kullanın, ardından komutları gerçekleştirmek için yukarıda listelenen dokunma komutlarını kullanın.
 
-## Version 26.05
+## Sürüm 26.05
 
-- Added a setting in add-on settings under Advanced settings panel to configure which ap should receive priority when command conflicts occur. Options include NVDA (perform add-on commands), StationPlaylist (pass the conflicting keyboard shortcut to the active SPL ap and is the default setting), or NVDA then StationPlaylist (first press will perform add-on command, subsequent presses will perform SPL command). This option is applicable to local Studio 6.10 and later where Control+Alt+End keyboard shortcut to report last track column conflicts with Studio command to play ends of tracks.
-- In local Studio 6.0x, pressing Control+Alt+End will no longer announce last track column to make the behavior consistent with later Studio releases. You can set command priority setting to "NVDA" or "NVDA then StationPlaylist" to restore previous behavior.
-- SPL touch mode commands are deprecated and will be removed in a future add-on release caused by backwards incompatible internal changes to touch mode handling in NVDA 2026.2.
-- Added a new command in SPL Controller layer to play the next selected track with crossfade (Control+down arrow).
-- Pressing Enter after entering SPL Controller layer will play the selected track from anywhere.
+* Gelişmiş ayarlar panelindeki eklenti ayarlarına, komut çakışmaları meydana geldiğinde hangi uygulamanın öncelikli olacağını belirlemek için bir ayar eklendi. Seçenekler arasında NVDA (eklenti komutlarını yürüt), StationPlaylist (çakışan klavye kısayolunu etkin SPL uygulamasına aktarır ve varsayılan ayardır) veya NVDA ve ardından StationPlaylist (ilk basışta eklenti komutu, sonraki basışlarda SPL komutu yürütülür) bulunur. Bu seçenek, son parça sütununu bildirmek için kullanılan Control+Alt+End klavye kısayolunun, parçaların sonlarını çalmak için kullanılan Studio komutuyla çakıştığı yerel Studio 6.10 ve sonraki sürümleri için geçerlidir.
+* Yerel Studio 6.0x'te, davranışın sonraki Studio sürümleriyle tutarlı olmasını sağlamak için Control+Alt+End tuşlarına basıldığında artık son parça sütunu duyurulmayacak. Önceki davranışı geri yüklemek için komut önceliği ayarını "NVDA" veya "NVDA ardından StationPlaylist" olarak ayarlayabilirsiniz.
+* SPL Denetleyici katmanına, seçili parçayı çapraz geçişle oynatmaya yarayan yeni bir komut eklendi (Control+aşağı ok).
+* SPL Denetleyici katmanına girdikten sonra Enter tuşuna basmak, seçilen parçayı herhangi bir yerden oynatacaktır.
 
-## Version 26.04
+## Sürüm 26.04
 
-- In Creator's playlist editor, resolved a regression from add-on version 26.01 where NVDA was sluggish when moving through date and hour combo boxes for multi-day playlists.
-- In local Studio 6.10 and later, pressing Control+Alt+End will perform Studio command (play last parts of the focused track) instead of announcing the last column.
+* Creator'ın çalma listesi düzenleyicisinde, NVDA'nın çok günlü çalma listeleri için tarih ve saat birleşik giriş kutuları arasında geçiş yaparken yavaşladığı eklenti sürümü 26.01'den kaynaklanan bir gerileme çözüldü.
+* Yerel Studio 6.10 ve üzeri sürümlerde, Control+Alt+End tuşlarına basmak, son sütunu duyurmak yerine Studio komutunu (odaklanan parçanın son bölümlerini oynat) gerçekleştirir.
 
-## Version 26.03.1
+## Sürüm 26.03.1
 
-- Security: Track comments for local and Remote Studio are now stored in json format instead of pickle format to improve security. As a result, installing an older version of this add-on after installing this version is unsupported and will cause unpredictable behavior.
+* Güvenlik: Yerel ve Remote Studio için parça yorumları artık güvenliği artırmak amacıyla turşu formatı yerine json formatında saklanıyor. Sonuç olarak, bu eklentinin daha eski bir sürümünün, bu sürümü yükledikten sonra yüklenmesi desteklenmez ve öngörülemeyen davranışlara neden olur.
 
-## Version 26.03
+## Sürüm 26.03
 
-- Initial support for StationPlaylist Recorder (not to be confused with VT Recorder).
-- NVDA will announce labels for SPL Recorder configurationnnnnnn screen controls.
-- Most if not all multicolumn lists now have column explorer and column navigation support. Mainly tested in local Studio's Listener Stats window and the same list in Options > Listener Stats.
+* StationPlaylist Recorder için başlangıç ​​desteği (VT Recorder ile karıştırılmamalıdır).
+* NVDA, SPL Kaydedici yapılandırmasınnnnnn ekran kontrolleri için etiketleri açıklayacak.
+* Hepsi olmasa da çoğu çok sütunlu liste artık sütun gezgini ve sütun gezinme desteğine sahiptir. Temel olarak yerel Studio'nun Dinleyici İstatistikleri penceresinde ve aynı listede Seçenekler > Dinleyici İstatistikleri'nde test edilmiştir.
 
-## Version 26.01
+## Sürüm 26.01
 
-- NVDA 2025.3.2 or later is required.
-- Add-on settings screen is now available while using Creator, Remote VT, and Track Tool with different settings for each app.
-- NVDA will announce labels for SPL app screens, including track properties, insert tracks dialog's search criteria controls (Studio, Creator, Remote VT), and Studio options dialog.
-- In Studio (local and remote), Creator, and Remote VT, NVDA will play a beep when search is completed in insert tracks dialog when NVDA is configured to play beeps for status announcements from SPL add-on settings/general category.
-- In Studio (local and remote) and Track Tool, NVDA will no longer announce dialog property content (description) in places such as track properties and Studio options screen.
-- In local Studio, NVDA will be less verbose when performing library rescan from insert tracks dialog (Control+Shift+R).
-- In local Studio, NVDA will report library scan count regardless of "beep for status announcements" setting from add-on settings.
-- In Remote Studio, when closing options screen (Control+O) while cart explorer is active, it is no longer necessary to reenter Cart Explorer to view updated cart assignments.
-- Resolved several issues while using insert tracks dialog in Remote Studio, including NVDA saying "scan start" when pressing Control+Shift+R and verbose output for search results status.
-- In track list in Creator and Track Tool, pressing Alt+number row keys to change column sort order will cause NVDA to announce the new sort order based on the column selected. There will be a delay when performing these commands in Creator.
-- In Creator, Remote VT, and Track Tool, status bar content will be reported when performing read status bar command (NVDA+End/desktop layout, NVDA+Shift+End/laptop layout). In particular, improved status bar content announcement performance in Creator.
-- In Creator and Remote VT, NVDA will announce search results count when searching for tracks in insert tracks dialog.
-- In Creator and Remote VT, NVDA will no longer appear to do nothing or play error tones when reporting playlist information from playlist editor such as playlist hour and day, scheduled, and rotation.
+* NVDA 2025.3.2 veya sonrası gereklidir.
+* Eklenti ayarları ekranı artık Creator, Remote VT ve Track Tool kullanılırken her uygulama için farklı ayarlarla kullanılabilir.
+* NVDA, parça özellikleri, parça ekleme iletişim kutusunun arama kriterleri kontrolleri (Studio, Creator, Remote VT) ve Studio seçenekleri iletişim kutusu dahil olmak üzere SPL uygulaması ekranları için etiketleri duyuracak.
+* Studio (yerel ve uzak), Creator ve Remote VT'de, NVDA, SPL eklenti ayarlarından/genel kategoriden durum duyuruları için bip sesi çalacak şekilde yapılandırıldığında, parça ekleme iletişim kutusunda arama tamamlandığında NVDA bir bip sesi çalacaktır.
+* NVDA, Studio (yerel ve uzak) ve İzleme Aracı'nda artık izleme özellikleri ve Stüdyo seçenekleri ekranı gibi yerlerde diyalog özelliği içeriğini (açıklama) duyurmayacak.
+* Yerel Studio'da, NVDA, parça ekleme iletişim kutusundan (Kontrol+Shift+R) kitaplığı yeniden tararken daha az ayrıntılı bilgi verecektir.
+* Yerel Studio'da NVDA, eklenti ayarlarından "durum duyuruları için bip sesi" ayarından bağımsız olarak kütüphane tarama sayısını duyuracaktır.
+* Remote Studio'da, sepet gezgini etkinken seçenekler ekranını (Control+O) kapatırken, güncellenmiş sepet atamalarını görüntülemek için artık Sepet Gezgini'ne yeniden girmenize gerek yoktur.
+* Remote Studio'da parça ekle iletişim kutusunu kullanırken, Control+Shift+R tuşlarına basıldığında NVDA'nın "tarama başlat" demesi ve arama sonuçları durumu için ayrıntılı çıktı dahil olmak üzere çeşitli sorunlar çözüldü.
+* Creator ve Track Tool'daki parça listesinde, sütun sıralama düzenini değiştirmek için Alt+sayı satır tuşlarına basmak, NVDA'nın seçilen sütuna göre yeni sıralama düzenini duyurmasına neden olacaktır. Bu komutları Creator'da gerçekleştirirken bir gecikme olacaktır.
+* Creator, Remote VT ve Track Tool'da, durum çubuğu okuma komutu gerçekleştirilirken durum çubuğu içeriği raporlanacaktır (NVDA+End/masaüstü düzeni, NVDA+Shift+End/dizüstü bilgisayar düzeni). Özellikle Creator'da durum çubuğu içeriği duyuru performansı iyileştirildi.
+* Creator ve Remote VT'de NVDA, parça ekle iletişim kutusunda parça ararken arama sonuçlarının sayısını duyuracaktır.
+* Creator ve Remote VT'de, NVDA artık hiçbir şey yapmıyor gibi görünmeyecek veya çalma listesi düzenleyicisinden çalma listesi saati ve günü, planlanan ve rotasyon gibi çalma listesi bilgilerini bildirirken hata tonları çalmayacak.
 
-## Older releases
+## Eski sürümler
 
-Please see the [changelog][2] for release notes for old add-on releases.
+Eski eklenti sürümlerine ilişkin sürüm notları için lütfen [değişiklik günlüğüne][2] bakın.
 
 [1]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/addonuserguide.md
+
 [2]: https://github.com/ChrisDuffley/stationPlaylist/blob/main/changes.md

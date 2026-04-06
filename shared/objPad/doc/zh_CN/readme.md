@@ -1,109 +1,109 @@
-# ObjPad
+# ObjPad-NVDA简易导航器 #
 
-- Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* 作者：Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+此插件提供了一组快捷键来处理屏幕上的对象，包括导航和其他可能性。
 
-## Commands
+## 快捷键
 
-- Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Control + NVDA + TAB 切换以下模式（详见下文）。
 
-## Arrow key modes
+## 光标键模式
 
-The add-on provides four ways to use arrow keys:
+插件提供了四种使用光标键的方式：
 
-- Classic (or normal mode): use arrow keys to move cursor.
-- Object nav: use arrow keys to move to next/previous/parent/first child objects.
-- Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-- Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* 经典（或普通模式）：使用光标键移动光标。
+* 对象导航：使用光标键移动到下一个/上一个/父/第一个子对象。
+* 浏览模式：使用光标键循环切换元素类型并在相应元素之间移动。
+* 扫描模式：使用光标键在屏幕上移动对象，而忽略层次结构。
 
-The following commands are available with arrow keys set to object nav:
+光标键设置为对象导航模式时，有以下快捷键可用：
 
-- Right arrow: next object.
-- Left arrow: previous object.
-- Up arrow: parent object.
-- Down arrow: first child object.
-- SPACE or ENTER: activate.
+* 右光标：下一个对象。
+* 左光标：上一个对象。
+* 上光标：父对象。
+* 下光标：第一个子对象。
+* 空格或回车：激活。
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+光标键设置为浏览模式时（元素正常或按对象、链接、表单字段、标题、框架、表格、列表、路标、嵌入式对象、文本段落移动）：
 
-- Right arrow: next element.
-- Left arrow: previous element.
-- Up arrow: previous element type.
-- Down arrow: next element type.
-- SPACE or ENTER: activate.
+* 右光标：下一个元素。
+* 左光标：上一个元素。
+* 上光标：上一个元素类型。
+* 下光标：下一个元素类型。
+* 空格或回车：激活。
 
-With scan mode active:
+光标键设置为扫描模式时：
 
-- Down arrow: next object or the next line.
-- Up arrow: previous object or previous line.
-- Right arrow: review next character.
-- Left arrow: previous character.
-- Control+right arrow: next word.
-- Control+left arrow: previous word.
-- SPACE or ENTER: activate.
+* 下光标：下一个对象或下一行。
+* 上光标：上一个对象或上一行。
+* 右光标：查看下一个字符。
+* 左光标：查看上一个字符。
+* Ctrl + 右光标: 下一个单词。
+* Ctrl+左光标: 上一个单词。
+* 空格或回车：激活。
 
-## Version 26.03
+## 版本 26.03
 
-- Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
+* 将“web 模式”重命名为“浏览模式”，因为此模式将涵盖其他情况，包括 Word 365中的浏览模式。
 
-## Version 26.02
+## 版本 26.02
 
-- NVDA 2025.3.2 or later is required.
-- Added embedded object and text paragraph navigation to web mode.
+* 需要 NVDA 2025.3.2 或更高版本。
+* 在 web 模式下添加了嵌入式对象和文本段落导航。
 
-## Version 25.06
+## 版本 25.06
 
-- Compatible with NVDA 2025.1
-- The link to download the add-on is no longer present to encourage usage of the Add-On Store.
+* 与 NVDA 2025.1 兼容
+* 不在包含下载插件的链接，以推荐使用插件商店。
 
-## Version 24.04
+## 版本 24.04
 
-- Compatibility with NVDA 2024.1.
+* 与 NVDA 2024.1 兼容。
 
-## Version 23.05
+## 版本 23.05
 
-- To reflect the maintainer change, the manifest has been updated to indicate as such.
+* 为体现维护者变更，清单文件已进行相应更新。
 
-## Version 23.02
+## 版本 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* 需要 NVDA 2022.4 或更高版本。
+* 需要 Windows 10 21H2（2021 年 11 月更新/内部版本 19044）或更高版本。
 
-## Version 23.01
+## 版本 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* 需要 NVDA 2022.3 或更高版本。
+* 需要 Windows 10 或更高版本，因为自 2023 年 1 月起，Microsoft 不再支持 Windows 7、8 和 8.1。
 
-## Version 22.06
+## 版本 22.06
 
-- Requires NVDA 2021.3 or later.
+* 需要 NVDA 2021.3 或更高版本。
 
-## Version 21.04
+## 版本21.04
 
-- Requires NVDA 2020.1 or later.
+* 需要 NVDA 2020.1 或更高版本。
 
-## Version 20.01
+## 版本20.01
 
-- Requires NVDA 2019.3 or later.
+* 需要NVDA 2019.3或更高版本。
 
-## Version 18.12
+## 版本18.12
 
-- Internal changes to support future NVDA releases.
+* 内部更改以支持 NVDA 后续的新版本。
 
-## Version 18.09
+## 版本18.09
 
-- Added localizations.
-- Enter key (regular and Numpad) can be used to activate objects.
+* 添加本地化。
+* 回车键（大键盘和小键盘上的两个回车键）都可用于激活对象。
 
-## Version 18.03
+## 版本18.03
 
-- Better compatibility with NVDA 2018.1.
+* 更好地兼容 NVDA 2018.1。
 
-## Version 16.12
+## 版本16.12
 
-- Added web mode.
+* 添加了网页模式。
 
-## Version 16.10
+## 版本16.10
 
-- Initial stable version.
+* 发布初始版本。

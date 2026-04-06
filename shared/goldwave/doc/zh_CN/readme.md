@@ -1,143 +1,143 @@
-# GoldWave
+# GoldWave 支持插件
 
-- Authors: Joseph Lee, Day Garwood, NVDA contributors.
+* 作者：Joseph Lee、Day Garwood 及 NVDA 贡献者。
 
-This app module enhances access and usage of GoldWave audio editor.
+此插件可增强 GoldWave 音频编辑器的无障碍访问与使用体验。
 
-## Shortcuts
+## 快捷键 ##
 
-All commands support speech on demand mode.
+所有命令均支持手动朗读模式。
 
-- Control+Shift+P: Announces current track position.
-- NVDA+Shift+R: Announces remaining time for the currently editing track.
-- Control+NVDA+1: Announces the channel you are editing.
-- Control+NVDA+2: Announces the total length of the audio file.
-- Control+NVDA+3: announces a summary on audio selection information.
-- Control+NVDA+4: Announces the zoom level.
+* Control+Shift+P：读出当前音轨位置。
+* NVDA+Shift+R：读出当前编辑音轨的剩余时间。
+* Control+NVDA+1：读出正在编辑的声道。
+* Control+NVDA+2：读出音频文件的总时长。
+* Control+NVDA+3：读出音频选择信息的摘要。
+* Control+NVDA+4：读出缩放级别。
 
-For more information about GoldWave and keyboard commands, refer to GoldWave Manual.
+有关 GoldWave 及其键盘命令的更多信息，请参阅 GoldWave 使用手册。
 
-Note: GoldWave 6 or later and Windows 10 or later is required.
+注意：需要 GoldWave 6 或更高版本及 Windows 10 或更高版本系统。
 
-## Changes
+## 更新日志
 
-### Version 25.08.1
+### 版本 25.08.1
 
-- Fixed bugs regarding position and selection time announcements.
+* 修复了有关位置与选择时间朗读的错误。
 
-### Version 25.07
+### 版本 25.07
 
-- Made the add-on code more robust with help from Pyright (a Python static type checker).
-- Improved audio selection, zoom level, and track position announcements in GoldWave 7.
+* 借助 Pyright（Python 静态类型检查器）使插件代码更加健壮。
+* 改进了 GoldWave 7 中的音频选择、缩放级别和音轨位置朗读。
 
-### Version 25.04
+### 版本 25.04
 
-- Removed command announcement mode, replaced with speech on demand mode. In speech on demand mode, GoldWave specific commands such as setting start marker will stay silent while informational commands such as audio position will be spoken.
+* 移除命令朗读模式，改为手动朗读模式。在此模式下，设置起始标记等 GoldWave 专用命令将保持静默，而音轨位置等信息类命令仍会正常朗读。
 
-### Version 25.02
+### 版本 25.02
 
-- NVDA 2024.1 or later is required.
-- Restored limited support for Windows 8.1.
+* 需要 NVDA 2024.1 或更高版本。
+* 恢复对 Windows 8.1 的有限支持。
 
-### Version 25.01
+### 版本 25.01
 
-- Support for GoldWave 7 (requires 64-bit Windows 10 or later).
-- Download links for add-on releases are no longer included in add-on documentation. You can download the add-on from NV Access add-on store.
-- Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.
-- Removed support for automatic add-on updates feature from Add-on Updater add-on.
+* 支持 GoldWave 7（需要 64 位 Windows 10 或更高版本）。
+* 插件文档中不再包含下载链接，请从 NV Access 插件商店下载。
+* 代码检查工具从 Flake8 切换为 Ruff，并重构模块以更符合 NVDA 编码规范。
+* 移除"插件更新器"的自动更新功能支持。
 
-### Version 23.02
+### 版本 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* 需要 NVDA 2022.4 或更高版本。
+* 需要 Windows 10 21H2（2021 年 11 月更新/版本 19044）或更高版本。
 
-### Version 23.01
+### 版本 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* 需要 NVDA 2022.3 或更高版本。
+* 需要 Windows 10 或更高版本（Windows 7/8/8.1 已于 2023 年 1 月停止官方支持）。
 
-### Version 22.03
+### 版本 22.03
 
-- NVDA 2021.3 or later is required.
-- A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.
+* 需要 NVDA 2021.3 或更高版本。
+* 在 Windows 7/8/8.1 上安装时将显示警告提示。
 
-### Version 21.10
+### 版本 21.10
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
-- In GoldWave 6.57 and later, NVDA will no longer repeat the name of the loaded file when pressing play/rewind/stop keys.
+* 因 NVDA 底层变更，需要 NVDA 2021.2 或更高版本。
+* 在 GoldWave 6.57 或更高版本中，按播放/快退/停止键时，NVDA 不再重复加载文件的名称。
 
-### Version 21.06
+### 版本 21.06
 
-- Resolved additional coding style issues and potential bugs with Flake8.
+* 通过 Flake8 解决代码风格问题和潜在缺陷。
 
-### Version 20.06
+### 版本 20.06
 
-- Resolved many coding style issues and potential bugs with Flake8.
+* 通过 Flake8 解决大量代码风格问题和潜在缺陷。
 
-### Version 20.04
+### 版本 20.04
 
-- Added input help messages for remainig time command (NVDA+Shift+R).
-- Toggle command announcement command (NVDA+Shift+C) will now show up under "GoldWave" category in NVDA's input gestures dialog.
+* 为剩余时间命令（NVDA+Shift+R）添加输入帮助信息。
+* 切换命令朗读（NVDA+Shift+C）现可在输入手势对话框的"GoldWave"类别中配置。
 
-### Version 20.01
+### 版本 20.01
 
-- Requires NVDA 2019.3 or later.
+* 需要 NVDA 2019.3 或更高版本。
 
-### Version 19.11
+### 版本 19.11
 
-- Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required.
-- Added help message for sound window (accessible if Control Usage Assistant add-on is installed).
+* 需要 Windows 7 SP1、GoldWave 6.x 及 NVDA 2019.1 或更高版本。
+* 为音效窗口添加帮助信息（需安装控件使用助理插件）。
 
-### Version 18.12
+### 版本 18.12
 
-- NVDA will no longer appear to do nothing or play error tones when performing certain GoldWave commands with command announcement set to off (this may result in odd behaviors in some cases).
-- Internal changes to support future NVDA releases.
+* 修复命令朗读关闭时执行某些操作无响应或报错的问题（某些情况下可能仍存在异常行为）。
+* 内部调整以支持未来 NVDA 版本。
 
-### Version 18.07
+### 版本 18.07
 
-- Fixed an issue where leading zeroes would not be displayed when trying to obtain remaining time for a trakc.
+* 修复获取音轨剩余时间时前导零不显示的问题。
 
-### Version 17.05
+### 版本 17.05
 
-- Added ability to provide debug information when NVDA is running with debug logging enabled (NVDA 2017.1 or later).
-- Updated translations.
+* 支持在启用调试日志时提供调试信息（需要 NVDA 2017.1或更高版本）。
+* 更新翻译。
 
-### Version 16.12
+### 版本 16.12
 
-- Version scheme is now year.month instead of major.minor.
+* 版本号格式改为"年份.月份"替代"主版本.次版本"。
 
-### Changes for 4.0
+### 版本 4.0
 
-- Add-on repository has moved to GitHub (now located at https://github.com/josephsl/goldwave).
-- Performance improvements when looking up information such as channel name and other status information.
+* 插件仓库迁移至 GitHub（网址：https://github.com/josephsl/goldwave）。
+* 声道名称等状态信息的查询性能优化。
 
-### Changes for 3.0
+### 版本 3.0
 
-- Added a command to announce remaining time for the current track (NVDA+Shift+R).
-- Slight improvements when announcing status information such as channel information.
+* 新增读出当前音轨剩余时间命令（NVDA+Shift+R）
+* 改进声道信息等状态读出体验。
 
-### Changes for 2.0
+### 版本 2.0
 
-- Support for GoldWave 6, including 64-bit version of GoldWave (see note above).
-- Add-on help can now be accessed from add-ons manager (NVDA 2014.3 and later).
-- NVDA now announces selected channel if you press channel selection commands such as Control+Shift+L for the left channel.
-- Various issues with numeric edit fields such as censor field and time selector in mix dialog has been fixed, including selecting text, updating values and so on.
-- Command announcement setting will be remembered when switching to other programs.
+* 支持 GoldWave 6（含 64 位版本）
+* 可通过插件管理器访问帮助（需要 NVDA 2014.3 或更高版本）。
+* 按下声道选择命令（如 Control+Shift+L 选择左声道）时 NVDA 将读出所选声道。
+* 修复混合对话框中的数值编辑字段（如消音字段和时间选择器）的文本选择、数值更新等问题。
+* 命令朗读设置将在切换程序时保持记忆。
 
-### Changes for 1.2
+### 版本 1.2
 
-- Fixed an issue where NVDA had difficulty announcing some edit fields.
-- New and updated translations.
-- Please note that due to recent changes in NVDA, audio selection and other status commands may not work as expected in some systems.
+* 修复部分编辑字段朗读异常的问题。
+* 新增及更新翻译。
+* 注意：因 NVDA 近期变更，音频选择等状态命令在某些系统中可能出现异常。
 
-### Changes for 1.1
+### 版本 1.2
 
-- Support for message announcements in braille.
-- Audio selection summary is presented in languages other than English.
-- More command announcements added including cue position movement and delete/trim operations.
-- Fixed an issue in numeric edit fields such as various effects dialogs where nothing or wrong field name was announced.
-- New and updated translations.
+* 支持盲文消息提示。
+* 音频选择摘要支持多语言显示。
+* 增加提示点移动、删除/修剪操作等命令的朗读。
+* 修复效果对话框中数值编辑字段名称朗读异常的问题。
+* 新增及更新翻译。
 
-### Changes for 1.0
+### 版本 1.0
 
-- Initial version.
+* 初始版本。

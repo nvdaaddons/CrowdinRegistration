@@ -1,73 +1,129 @@
-# Outlook extended
+# Расширенный Outlook
 
-- Authors: Cyrille Bougot, Ralf Kefferpuetz
-- NVDA compatibility: 2018.3 and beyond
-- Download [stable version][1]
-- Download [development version][2]
+* Авторы: Cyrille Bougot, Ralf Kefferpuetz
+* Совместимость с NVDA: 2019.3 и выше
+* Загрузить [стабильную версию][1]
 
-This addon improves the use of Microsoft Outlook by vocalizing some commands and adding extra commands.
+Это дополнение улучшает использование Microsoft Outlook с NVDA: оно озвучивает некоторые собственные команды и добавляет дополнительные команды и функции.
 
-## Commands
+## Команды
 
-- Alt+1 to Alt+9, Alt+0, Alt+-, Alt+=: Reports the header field 1 to 12 in a message, calendar item or task window. If pressed twice, moves the focus to this field if possible. If pressed three times, copies its content to the clipboard.
-- NVDA+shift+I (desktop layout) / NVDA+control+shift+I (laptop layout): Reports the information bar in a message, calendar item or task window. If pressed twice, moves the focus to it. If pressed three times, copies its content to the clipboard.
-- NVDA+shift+A (desktop layout) / NVDA+control+shift+A (laptop layout): Reports the number and the names of attachments in a message window. If pressed twice, moves the focus to it.
-- NVDA+shift+M (desktop layout) / NVDA+control+shift+M (laptop layout): Moves the focus to the message body.
-- Control+Alt+Left and Control+Alt+Right: in the address book search result list, navigates between the fields of the currently selected line.
-- Control+Q: in the message list, marks the selected message or group of messages as read.
-- Control+U: in the message list, marks the selected message or group of messages as unread.
+* Alt+1 до Alt+9, Alt+0, Alt+-, Alt+=: Объявляет поля заголовка с 1 по 12 в сообщении, элементе календаря или окне задачи. При двойном нажатии фокус перемещается на это поле, если это возможно. При тройном нажатии копируется его содержимое в буфер обмена.
+* NVDA+shift+I (настольная) / NVDA+control+shift+I (ноутбук): Озвучивает информационную панель в сообщении, событии календаря или окне задачи. Если нажать дважды, переводит в него фокус. Если нажать трижды, копирует его содержимое в буфер обмена.
+* NVDA+shift+A (настольная) / NVDA+control+shift+A (ноутбук):
+  
+    * В окне сообщения: сообщает количество и названия вложений; при двойном нажатии перемещает фокус на них.
+    * В окне собрания на вкладке всех участников: отображается в доступном для просмотра сообщении состояние участников на момент проведения собрания.
 
-## Notes
+* NVDA+shift+M (настольная) / NVDA+control+shift+M (ноутбук): Перемещает фокус в тело сообщения.
+* NVDA+shift+N (настольная) / NVDA+control+shift+N (ноутбук): Объявляет уведомление в окне сообщений. При двойном нажатии перемещает на него фокус. При тройном нажатии копирует его содержимое в буфер обмена.
+* Control+Q: в списке сообщений помечает выбранное сообщение или группу сообщений как прочитанные.
+* Control+U: в списке сообщений помечает выбранное сообщение или группу сообщений как непрочитанные.
 
-All the gestures can be modified in the NVDA command gestures dialog. You may want to modify them especially in the following situations:
+## Дополнительные улучшения
 
-- The default gestures to mark messages as read or unread are the ones for Outlook english version. If they differ from the ones of your Outlook local version, you will have to change them accordingly.
-- The default gestures to read headers correspond to Alt combined with the keys of the first row of the alpha-numeric keyboard. You may need to re-map the gestures tor read header 11 and 12 if they do not match your local keyboard layout.
+* Когда получатель, которого вы указали в полях "Кому", "Cc" или "Bcc", отправляет автоматические ответы об отсутствии на рабочем месте или больше не присутствует на сервере Exchange, Outlook сообщает об этом в области уведомлений окна сообщений. В этой области уведомлений у вас также есть кнопки для удаления адресов этих получателей.
+  Это дополнение сообщит вам звуковым сигналом, когда эта область уведомлений появится, исчезнет или обновится. Затем вы можете нажать NVDA+shift+N / NVDA+control+shift+N один раз, чтобы она была прочитана, и два раза, чтобы перейти в эту область. Затем перемещайтесь с помощью стрелок на кнопки получателей и нажмите кнопку, чтобы удалить соответствующего получателя.
+* В списке результатов адресной книги вы можете использовать команды горизонтальной навигации по таблице, чтобы прочитать содержимое каждого столбца.
+  
+## Примечания
 
-## Change log
+Все жесты можно изменить в диалоге командных жестов NVDA. Вы можете захотеть изменить их, в частности, в следующих ситуациях:
 
-### Version 1.7
+* Жесты, используемые по умолчанию для пометки сообщений как прочитанных или непрочитанных, используются в английской версии Outlook. Если они отличаются от жестов в вашей локальной версии Outlook, вам придется изменить их соответствующим образом.
+* Жесты, используемые по умолчанию для чтения заголовков, соответствуют клавише Alt в сочетании с клавишами первого ряда буквенно-цифровой клавиатуры. Возможно, вам потребуется перенастроить жесты для чтения заголовков 11 и 12, если они не соответствуют вашей местной раскладке клавиатуры.
 
-- Update compatibility for NVDA 2021.1.
-- Updated localizations.
+## Журнал изменений
 
-### Version 1.6
+### Версия 3.0
 
-- Fixed various issues when reading messages headers in Outlook 365.
-- Fixed an error in announce attachments script when a braille keyboard is used.
-- Added a unit test framework.
-- Updated localizations.
+* В окне собрания на вкладке всех участников при нажатии клавиш NVDA+shift+A (настольная) / NVDA+control+shift+A (ноутбук) в доступном для просмотра сообщении отображается состояние участников на текущий момент времени собрания.
 
-### Version 1.5
+### Версия 2.4
 
-- Reading the information bar is now working with NVDA 2019.3.
-- Table navigation in the address book results is now working with NVDA 2019.3.
+* Совместимость с NVDA 2024.1.
+* Соответствующие команды теперь доступны в режиме речи по требованию.
 
-### Version 1.4
+### Версия 2.3
 
-- The script to move focus to headers is working again.
-- The script to move to attachments is now working when more attachments are present.
-- Added localizations.
+* Примечание: Отныне обновления перевода больше не будут отображаться в журнале изменений.
 
-### Version 1.3
+### Версия 2.2
 
-- Fixed message headers reading for newer Office 365 release.
-- Updates to support newer versions of NVDA (Python 2 and 3 compatible).
-- Added localizations.
-- Releases performed now with appveyor.
+* Восстановлена совместимость с NVDA 2019.3.1.
+* Обновлены локализации.
 
-### Version 1.2
+### Версия 2.1
 
-- Fixed header reading when forwarding meeting.
-- Added localizations.
+* Удален канал разработчика.
+* Обновлены локализации.
 
-### Version 1.1
+### Версия 2.0
 
-- Added localizations.
+* Улучшен пользовательский опыт с помощью уведомлений, появляющихся при вводе адресов электронной почты, которые больше не действительны или на которые отправляются автоматические ответы вне рабочего места:
+  звуковой сигнал оповещает о появлении или обновлении таких уведомлений, жест позволяет прочитать их или перейти к ним, а навигация в этой области осуществляется более легко с помощью стрелок.
 
-### Version 1.0
+### Версия 1.10
 
-- Initial release.
+* Совместимость с NVDA 2023.1.
+* Обновлены локализации.
 
-[1]: https://addons.nvda-project.org/files/get.php?file=outlookextended
-[2]: https://addons.nvda-project.org/files/get.php?file=outlookextended-dev
+### Версия 1.9
+
+* Совместимость с NVDA 2022.1.
+* Заброшена совместимость для версий NVDA ниже 2019.3.
+* Выпуск теперь выполняется благодаря действию на GitHub вместо AppVeyor.
+* Исправлено объявление, когда пользователь трижды нажимал сочетания клавиш alt+цифра.
+* Исправлена ошибка, из-за которой не удавалось прочитать заголовки элементов календаря в некоторых версиях Outlook 365.
+* Улучшение тестовой среды дополнения: навигация в поддельном корневом диалоге.
+* Обновлены локализации.
+
+### Версия 1.8
+
+* Обновлены локализации.
+* Проверено, что все переменные из исходного модуля приложения Outlook по-прежнему доступны.
+
+### Версия 1.7
+
+* Обновление совместимости для NVDA 2021.1.
+* Обновлены локализации.
+
+### Версия 1.6
+
+* Исправлены различные проблемы при чтении заголовков сообщений в Outlook 365.
+* Исправлена ошибка в скрипте объявления вложений при использовании брайлевской клавиатуры.
+* Добавлен фреймворк модульного тестирования.
+* Обновлены локализации.
+
+### Версия 1.5
+
+* Чтение информационной панели теперь работает с NVDA 2019.3.
+* Навигация по таблицам в результатах поиска адресной книги теперь работает с NVDA 2019.3.
+
+### Версия 1.4
+
+* Скрипт для перемещения фокуса на заголовки снова работает.
+* Скрипт для перехода к вложениям теперь работает при наличии большего количества вложений.
+* Добавлены локализации.
+
+### Версия 1.3
+
+* Исправлено чтение заголовков сообщений для более новой версии Office 365.
+* Обновления для поддержки более новых версий NVDA (совместимых с Python 2 и 3).
+* Добавлены локализации.
+* Выпуски теперь выполняются с помощью appveyor.
+
+### Версия 1.2
+
+* Исправлено чтение заголовка при переадресации собрания.
+* Добавлены локализации.
+
+### Версия 1.1
+
+* Добавлены локализации.
+
+### Версия 1.0
+
+* Первоначальный выпуск.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=outlookextended

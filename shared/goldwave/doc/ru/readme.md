@@ -1,143 +1,143 @@
-# GoldWave
+# GoldWave #
 
-- Authors: Joseph Lee, Day Garwood, NVDA contributors.
+* Авторы: Joseph Lee, Day Garwood, Участники сообщества пользователей программы NVDA.
 
-This app module enhances access and usage of GoldWave audio editor.
+Это дополнения улучшает доступность использования звукового редактора GoldWave.
 
-## Shortcuts
+## Горячие клавиши ##
 
-All commands support speech on demand mode.
+Все команды поддерживают режим речи по требованию.
 
-- Control+Shift+P: Announces current track position.
-- NVDA+Shift+R: Announces remaining time for the currently editing track.
-- Control+NVDA+1: Announces the channel you are editing.
-- Control+NVDA+2: Announces the total length of the audio file.
-- Control+NVDA+3: announces a summary on audio selection information.
-- Control+NVDA+4: Announces the zoom level.
+* Control+Shift+P: Объявить текущую позицию дорожки.
+* NVDA+Shift+R: Объявить оставшееся время для текущего редактируемого трека.
+* Control+NVDA+1: Объявить канал, который вы редактируете.
+* Control+NVDA+2: Объявить общую длину аудиофайла.
+* Control+NVDA+3: Сводное объявление выделеной звуковой информации.
+* Control+NVDA+4: Объявляет уровень.
 
-For more information about GoldWave and keyboard commands, refer to GoldWave Manual.
+Для получения дополнительной информации о GoldWave и клавиатурных командах обратитесь к руководству GoldWave.
 
-Note: GoldWave 6 or later and Windows 10 or later is required.
+Примечание: требуется GoldWave 6 или более поздняя версия и Windows 10 или более поздняя версия.
 
-## Changes
+## Журнал изменений
 
-### Version 25.08.1
+### Изменения в версии 25.08.1
 
-- Fixed bugs regarding position and selection time announcements.
+* Исправлены ошибки, связанные с объявлением местоположения и времени выделения.
 
-### Version 25.07
+### Изменения в версии 25.07
 
-- Made the add-on code more robust with help from Pyright (a Python static type checker).
-- Improved audio selection, zoom level, and track position announcements in GoldWave 7.
+* Код дополнения стал более надёжным с помощью Pyright (проверкой статического типа Python).
+* Улучшены выделение звука, уровень и объявления позиции дорожки в GoldWave 7.
 
-### Version 25.04
+### Изменения в версии 25.04
 
-- Removed command announcement mode, replaced with speech on demand mode. In speech on demand mode, GoldWave specific commands such as setting start marker will stay silent while informational commands such as audio position will be spoken.
+* Убран режим объявления команды, заменен режимом речи по требованию. В режиме речи по требованию, конкретные команды Goldwave, такие как настройка начального маркера, объявляться не будут, в то время как будут произнесены информационные команды, такие как позиция аудио.
 
-### Version 25.02
+### Изменения в версии 25.02
 
-- NVDA 2024.1 or later is required.
-- Restored limited support for Windows 8.1.
+* Требуется NVDA 2024.1 или более поздняя версия.
+* Восстановлена ​​ограниченная поддержка для Windows 8.1.
 
-### Version 25.01
+### Изменения в версии 25.01
 
-- Support for GoldWave 7 (requires 64-bit Windows 10 or later).
-- Download links for add-on releases are no longer included in add-on documentation. You can download the add-on from NV Access add-on store.
-- Switched linting tool from Flake8 to Ruff and reformatted add-on modules to better align with NVDA coding standards.
-- Removed support for automatic add-on updates feature from Add-on Updater add-on.
+* Поддержка GoldWave 7 (требуется 64-разрядная версия Windows 10 или позднее).
+* Ссылки для загрузки выпусков дополнений больше не включены в документацию дополнения. Вы можете загрузить дополнение из магазина дополнений NV Access.
+* Инструмент линтинга переключён с Flake8 на Ruff и переформатирован модуль дополнения для лучшего соответствия стандартам кодирования NVDA.
+* Удалена поддержка функции автоматического обновления дополнений из дополнения Add-on Updater.
 
-### Version 23.02
+### Изменения в версии 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* Требуется NVDA 2022.4 или более поздняя версия.
+* Требуется Windows 10 21H2 (обновление от ноября 2021 года/сборка 19044) или позднее.
 
-### Version 23.01
+### Изменения в версии 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Требуется NVDA 2022.3 или более поздняя версия.
+* Требуется Windows 10 или более поздняя версия, поскольку с января 2023 года Windows 7, 8 и 8.1 больше не поддерживаются Корпорацией Майкрософт.
 
-### Version 22.03
+### Изменения в версии 22.03
 
-- NVDA 2021.3 or later is required.
-- A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.
+* Требуется NVDA 2021.3 или более поздняя версия.
+* При попытке установить дополнение в Windows 7, 8 и 8.1 будет выведено предупреждающее сообщение.
 
-### Version 21.10
+### Изменения в версии 21.10
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
-- In GoldWave 6.57 and later, NVDA will no longer repeat the name of the loaded file when pressing play/rewind/stop keys.
+* Требуется NVDA 2021.2 или более поздняя версия из-за изменений в NVDA, которые влияют на это дополнение.
+* В GoldWave версии 6.57 и более поздних версиях NVDA больше не будет повторять название загруженного файла при нажатии клавиш воспроизведения/перемотки назад/остановки.
 
-### Version 21.06
+### Изменения в версии 21.06
 
-- Resolved additional coding style issues and potential bugs with Flake8.
+* Устранены дополнительные проблемы со стилем кодирования и потенциальные ошибки в Flake8.
 
-### Version 20.06
+### Изменения в версии 20.06
 
-- Resolved many coding style issues and potential bugs with Flake8.
+* Устранены многие проблемы со стилем кодирования и потенциальные ошибки с Flake8.
 
-### Version 20.04
+### Изменения в версии 20.04
 
-- Added input help messages for remainig time command (NVDA+Shift+R).
-- Toggle command announcement command (NVDA+Shift+C) will now show up under "GoldWave" category in NVDA's input gestures dialog.
+* Добавлены справочные сообщения для команды оставшегося времени (NVDA+Shift+R).
+* Команда объявления о переключении команд (NVDA+Shift+C) теперь будет отображаться в категории "GoldWave" в диалоге жесты ввода NVDA.
 
-### Version 20.01
+### Изменения в версии 20.01
 
-- Requires NVDA 2019.3 or later.
+* Требуется NVDA 2019.3 или более поздняя версия.
 
-### Version 19.11
+### Изменения в версии 19.11
 
-- Windows 7 SP1, GoldWave 6.x, and NVDA 2019.1 or later is required.
-- Added help message for sound window (accessible if Control Usage Assistant add-on is installed).
+* Требуется Windows 7 с пакетом обновления 1, GoldWave 6.x и NVDA 2019.1 или более поздняя версия.
+* Добавлено справочное сообщение для звукового окна (доступно, если установлено дополнение Control Usage Assistant).
 
-### Version 18.12
+### Изменения в версии 18.12
 
-- NVDA will no longer appear to do nothing or play error tones when performing certain GoldWave commands with command announcement set to off (this may result in odd behaviors in some cases).
-- Internal changes to support future NVDA releases.
+* NVDA больше не будет отображать бездействие или воспроизводить сигналы об ошибках при выполнении определенных команд GoldWave с отключенным объявлением команды (в некоторых случаях это может привести к странному поведению).
+* Внутренние изменения для поддержки будущих выпусков NVDA.
 
-### Version 18.07
+### Изменения в версии 18.07
 
-- Fixed an issue where leading zeroes would not be displayed when trying to obtain remaining time for a trakc.
+* Исправлена ошибка, из-за которой начальные нули не отображались при попытке узнать оставшееся время дорожки.
 
-### Version 17.05
+### Изменения в версии 17.05
 
-- Added ability to provide debug information when NVDA is running with debug logging enabled (NVDA 2017.1 or later).
-- Updated translations.
+* Добавлена возможность предоставления отладочной информации при запуске NVDA с включенным журналированием отладки (NVDA 2017.1 или более поздняя версия).
+* Обновлены переводы.
 
-### Version 16.12
+### Изменения в версии 16.12
 
-- Version scheme is now year.month instead of major.minor.
+* Схема версий теперь год.месяц вместо major.minor.
 
-### Changes for 4.0
+### Изменения в версии 4.0
 
-- Add-on repository has moved to GitHub (now located at https://github.com/josephsl/goldwave).
-- Performance improvements when looking up information such as channel name and other status information.
+* Репозиторий дополнения перемещён на GitHub (теперь он находится по адресу https://github.com/josephsl/goldwave).
+* Улучшения производительности при поиске информации, такой как название канала и другой информации состояния.
 
-### Changes for 3.0
+### Изменения в версии 3.0
 
-- Added a command to announce remaining time for the current track (NVDA+Shift+R).
-- Slight improvements when announcing status information such as channel information.
+* Добавлена команда объявления оставшегося времени текущего трека (NVDA+Shift+R).
+* Незначительные улучшения объявлений информации о состоянии, например, информацию о канале.
 
-### Changes for 2.0
+### Изменения в версии 2.0
 
-- Support for GoldWave 6, including 64-bit version of GoldWave (see note above).
-- Add-on help can now be accessed from add-ons manager (NVDA 2014.3 and later).
-- NVDA now announces selected channel if you press channel selection commands such as Control+Shift+L for the left channel.
-- Various issues with numeric edit fields such as censor field and time selector in mix dialog has been fixed, including selecting text, updating values and so on.
-- Command announcement setting will be remembered when switching to other programs.
+* Поддержка GoldWave 6, в том числе 64-битной версии GoldWave (см примечание выше).
+* Справка дополнения доступна в менеджере дополнений (NVDA 2014.3 и более поздняя версия).
+* Теперь NVDA объявляет выбранный канал при нажатии команды выбора канала, например Control+Shift+L для левого канала.
+* Были исправлены различные проблемы с числовыми полями редактирования, такие как поле цензуры и выделение времени в диалоге смешивания, в том числе выделение текста, обновление значений и так далее.
+* Настройка объявлений команд запоминается при переключении на другие программы.
 
-### Changes for 1.2
+### Изменения в версии 1.2
 
-- Fixed an issue where NVDA had difficulty announcing some edit fields.
-- New and updated translations.
-- Please note that due to recent changes in NVDA, audio selection and other status commands may not work as expected in some systems.
+* Исправлена ошибка, когда NVDA с трудом объявлял некоторые поля редактирования.
+* Добавлены и обновлены переводы.
+* Поддержка объявлений сообщений по брайлю.
 
-### Changes for 1.1
+### Изменения в версии 1.1
 
-- Support for message announcements in braille.
-- Audio selection summary is presented in languages other than English.
-- More command announcements added including cue position movement and delete/trim operations.
-- Fixed an issue in numeric edit fields such as various effects dialogs where nothing or wrong field name was announced.
-- New and updated translations.
+* Поддержка объявлений сообщений по брайлю.
+* Сводное объявление выделеной звуковой информации предоставляется на языках, отличных от английского.
+* Добавлено больше команд объявлений, включая перемещение положения метки и операций удаления/обрезки.
+* Исправлена проблема с числовыми полями редактирования, например, в различных диалогах эффектов, когда не объявлялось ничего или объявлялись неправильные названия полей.
+* Добавлены и обновлены переводы.
 
-### Changes for 1.0
+### Изменения в версии 1.0
 
-- Initial version.
+* Первоначальная версия.

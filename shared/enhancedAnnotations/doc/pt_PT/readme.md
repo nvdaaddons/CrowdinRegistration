@@ -1,27 +1,32 @@
-# Enhanced Annotations
+# Anotações melhoradas #
 
-- Authors: George Kerscher, Noelia Ruiz Martínez
-- (compatible with NVDA 2022.1 and beyond)
+*	Autores: George Kerscher, Noelia Ruiz Martínez
 
-In the DAISY Consortium, best practices are developed for publishers and authors for providing extended (long) descriptions.
+No DAISY Consortium, as práticas recomendadas são desenvolvidas para editores e autores para fornecer descrições estendidas (longas).
 
-The best practices use the HTML details element that follows the image, or a link to another file that contains the extended description.
+As práticas recomendadas usam o elemento de detalhes HTML que segue a imagem ou um link para outro arquivo que contém a descrição estendida.
 
-In both options, the user would need to move to the details or the link and activate it.
+Em ambas as opções, o usuário precisaria ir até os detalhes ou o link e ativá-lo.
 
-Having a keystroke to put focus on the details or the link is ideal.
+O ideal é ter um pressionamento de tecla para colocar o foco nos detalhes ou no link.
 
-Our best practices recommend that the details or the link immediately follows the image, and if the link is followed, a back link to the exact location must be provided. This makes it certain that the user will not get lost.
+Nossas práticas recomendadas recomendam que os detalhes ou o link sigam imediatamente a imagem e, se o link for seguido, deve ser fornecido um link de retorno para o local exato. Isso garante que o usuário não se perderá.
 
-However it is probable that authors in the wild will place the extended (long) description almost anywhere. In these cases, the user would want to return to the image and hence the need for a way to return to the original image.
+No entanto, é provável que os autores coloquem a descrição estendida (longa) em praticamente qualquer lugar. Nesses casos, o usuário desejaria retornar à imagem e, por isso, a necessidade de uma maneira de retornar à imagem original.
 
-This add-on provides both features, in support of this [issue opened in NVDA's repository][2].
+Esse complemento fornece ambos os recursos, em apoio a esse [problema aberto no repositório do NVDA][1].
 
-## Commands
+## Teclas de atalho
 
-- NVDA+alt+d: moves the cursor to the element identified with aria-details.
-- NVDA+alt+shift+d: moves the cursor to the original element, for example, an image with furter details like a long description.
+* NVDA+alt+d: move o cursor para o elemento identificado com aria-details.
+* NVDA+alt+shift+d: move o cursor para o elemento original, por exemplo, uma imagem com detalhes mais precisos, como uma descrição longa. Se NVDA+alt+d tiver sido pressionado várias vezes para mover para anotações relacionadas, será possível voltar a cada origem.
 
-The above commands can be modified from NVDA's menu, Preferences submenu, Input gestures dialog, Browse mode category.
+Os comandos acima podem ser modificados no menu do NVDA, submenu Preferences (Preferências), caixa de diálogo Input gestures (Gestos de entrada), categoria Browse mode (Modo de navegação).
 
-[2]: https://github.com/nvaccess/nvda/issues/13940
+## Alterações para a versão 2.0 ##
+
+* Foi adicionada a capacidade de retroceder em várias origens de anotações.
+* Requer o NVDA 2023.1 ou posterior.
+
+
+[1]: https://github.com/nvaccess/nvda/issues/13940

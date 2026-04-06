@@ -1,67 +1,81 @@
-# Control Usage Assistant
+# Control Usage Assistant（控件使用助理） #
 
-- NVDA compatibility: 2022.1 and later
-- Author: Joseph Lee, Noelia Ruiz Martínez
-- Download [stable version][1]
-- Download [development version][2]
+* 作者： Joseph Lee, Noelia Ruiz Martínez
 
-Use this add-on to find out how to interact with the focused control.
-Press NVDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant category to configure add-on settings:
+借助此插件可了解如何与当前所聚焦的控件进行交互。
+例如，当聚焦到复选框、编辑框时，按 NVDA+H 来获取一段有关于使用当前控件的简短帮助。
 
-- Select output modes for automatic messages: This list of checkboxes allows to select speech and braille.
-- Pitch change for automatic messages: This spin box allows to set the pitch change when NVDA reads automatic messages (from -30 to +30).
+转到 NVDA 菜单、选项子菜单、设置、控件使用助理类别来设置该插件：
 
-## Version 2022.03.27
+* 自动提示焦点控件帮助信息（默认选中）
+* 针对可激活对象的帮助：您可以键入一条短消息，用以提示默认或您自定义的手势，从而或知在对象导航过程中按下 NVDA+enter 等手势时当前对象是否具有默认操作。
+* 选择自动帮助信息的输出方式：在此复选框列表可以选择语音和盲文。
+* 输出自动帮助信息时的音高变化：该下拉组合框可以让您设置输出自动帮助信息时的音高变化，（从 -30 到 +30）。
 
-- Requires NVDA 2022.1 or later.
+## 版本 20250611.0.0
 
-## Version 22.01
+* 在浏览模式下显示的消息中添加了复制和关闭按钮。
 
-- Added support for automatic messages.
-- Improved support for requested messages in browse mode.
+## 版本20240324.0.0
 
-## Version 21.10
+* 改进了对编辑框控件和建议的支持。
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
+## 版本 2023.02.19
 
-## Version 20.10
+* 为可点击对象设置的帮助信息会在其他的属性之后读出。
+* 兼容 NVDA 2023.1。
 
-- Help messages are announced in languages other than English.
+## 版本 2022.07.10
 
-## Version 20.06
+* 添加了为对象导航设置帮助信息的功能，以指示当前对象是否可被激活。
 
-- Resolved many coding style issues and potential bugs with Flake8.
-- NVDA will no longer appear to do nothing or play error tones when trying to obtain help for certain browse mode controls.
+## 版本 2022.03.27
 
-## Version 20.01
+* 需要 NVDA 2022.1 或更高版本。
 
-- NVDA 2019.3 or later is required.
+## 版本 22.01
 
-## Version 3.0/19.11
+* 添加了自动提示焦点控件帮助的功能。
+* 改进了在浏览模式下获取帮助信息的支持。
 
-- Version scheme is now year.month.
-- When NVDA+H is pressed, a help screen will be displayed instead of a flash message being shown.
+## 版本 21.10
 
-## Version 2.5
+* 由于对 NVDA 的更改会影响此插件，因此需要 NVDA 2021.2 或更高版本。
 
-- Compatible with Python 3.
+## 版本 20.10
 
-## Version 2.1
+* 帮助信息支持以英语以外的语言显示。
 
-- New and updated translations.
+## 版本 20.06
 
-## Version 2.0
+* 使用 Flake8 解决了许多编码风格问题和潜在的错误。
+* 修复了尝试获取某些浏览模式控件的帮助时， NVDA 不执行任何操作或只播放错误提示音的 Bug。
 
-- Help messages for more controls added, including terminal windows.
-- Added help messages for working in some areas of applications, such as Microsoft Excel and Powerpoint and Windows 8 start screen.
-- Added help messages for working with forms in both browse and focus modes in virtual buffer documents (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
-- New language: Danish.
+## 版本 20.01
 
-## Version 1.0
+* 需要NVDA 2019.3或更高版本。
 
-- Initial version.
+## 版本 3.0/19.11
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+* 版本方案现在为year.month。
+* 现在按下NVDA + H时，将显示帮助屏幕，而不是显示提示信息。
+
+## 版本 2.5
+
+* 兼容Python 3。
+
+## 版本 2.1
+
+* 新添加和更新的翻译。
+
+## 版本 2.0
+
+* 增加更多控件的帮助信息，包括终端窗口（命令提示符）。
+* 增加一些应用程序的窗口区域帮助信息，如Microsoft Excel、Powerpoint和Windows 8 的开始屏幕。
+* 在虚拟文档中增加浏览模式和焦点模式下的帮助信息，包括Internet Explorer、 Adobe Reader 、Mozilla Firefox等。
+* 新的语言：丹麦语。
+
+## 版本 1.0
+
+* 发布初始版本。

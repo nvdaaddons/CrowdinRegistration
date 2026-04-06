@@ -1,55 +1,55 @@
-# Columns Review
+# Просмотр Столбцов
 
-- Author: Alberto Buffolino, Łukasz Golonka, other contributors
-- NVDA compatibility: 2019.3 and beyond
+* Автор: Alberto Buffolino, Łukasz Golonka, другие участники
+* Совместимость с NVDA: 2019.3 и выше
 
-Columns Review is an add-on to enhance NVDA experience with lists.
+Просмотр столбцов - это дополнение для улучшения работы NVDA со списками.
 
-Its features include:
+Его особенности включают:
 
-- customizable actions on column header and/or content (available actions are read, copy, spell and show in browse mode);
-- ability to cycle between columns in ten-by-ten intervals;
-- simplified header management (mouse clicks);
-- on-demand reading of relative current item position (i.e.: item 7 of 10);
-- customizable gestures with or without numpad;
-- "0 items" announcement when list is empty;
-- top/bottom edge reporting via speech or beeps;
-- say all support;
-- report of selected items (amount and item names);
-- list search (with item multiselection, if checked/supported).
+* настраиваемые действия с заголовком столбца и/или содержимым (доступны такие действия, как чтение, копирование, написание по буквам и отображение в режиме просмотра);
+* возможность переключения между столбцами с интервалом десять на десять;
+* упрощённое управление заголовками (щелчки мыши);
+* считывание по требованию относительного текущего положения элемента (например, элемент 7 из 10);
+* настраиваемые жесты с цифровой клавиатурой или без нее;
+* сообщение "0 элементов", когда список пуст;
+* объявления о верхнем/нижнем крае с помощью речи или сигналов;
+* поддержка чтения всего;
+* объявить выделенные элементы (количество и названия элементов);
+* поиск по списку (с множественным выделением элементов, если установлен флажок/поддерживается).
 
-## Gestures
+## Жесты
 
-Default keys for columns, headers and position are NVDA+control, but you can customize them from add-on settings (not "Input gestures" dialog!).
+Клавиши по умолчанию для столбцов, заголовков и положении - это NVDA+control, но вы можете настроить их в настройках дополнения (а не в диалоге "Жесты ввода"!).
 
-Note that your keyboard could have problems processing some key combinations, so try all add-on gestures and adjust them for better results.
+Обратите внимание, что на вашей клавиатуре могут возникнуть проблемы с обработкой некоторых комбинаций клавиш, поэтому попробуйте все жесты дополнения и настройте их для достижения лучших результатов.
 
-See also add-on preferences for numpad mode, keyboard layout (without numpad), and the four available actions for columns.
+Смотрите также настройки дополнения для режима цифровой клавиатуры, раскладки клавиатуры (без цифровой клавиатуры) и четырех доступных действий для столбцов.
 
-- NVDA+control+digits from 1 to 0 (keyboard mode) or from 1 to 9 (numpad mode): by default, read the chosen column if pressed once, copy it if pressed twice;
-- NVDA+control+numpadMinus (numpad mode): like NVDA+control+0 in keyboard mode, read or copy the 10th, 20th, etc column;
-- NVDA+control+- (keyboard mode, EN-US layout): in a list with 10+ columns, change interval and process columns from 11 to 20, from 21 to 30, and so on (change last char according to your layout, from settings);
-- NVDA+control+numpadPlus (numpad mode): like previous command;
-- NVDA+control+enter (numpadEnter in numpad mode): open header manager;
-- NVDA+control+delete (numpadDelete in numpad mode): read relative current item position (i.e.: item 7 of 10);
-- Arrows and NVDA+tab (in empty list): repeat "0 items" message;
-- NVDA+downArrow (desktop layout) or NVDA+a (laptop layout): start say all (this gesture depends on original one under "Input gestures"/"System caret");
-- NVDA+shift+upArrow (desktop layout) or NVDA+shift+s (laptop layout): report amount and names of current selected list items (like previous command for customization);
-- NVDA+control+f: open find dialog (not customizable);
-- NVDA+f3: find next occurrence of previously entered text (not customizable);
-- NVDA+shift+f3: find previous occurrence (not customizable).
+* NVDA+control+цифры от 1 до 0 (режим клавиатуры) или от 1 до 9 (режим цифровой клавиатуры): по умолчанию выбранный столбец считывается при однократном нажатии и копируется при двукратном;
+* NVDA+control+минус на цифровом блоке (режим цифровой клавиатуры): например, NVDA+control+0 в режиме клавиатуры, читать или копировать 10-й, 20-й и т.д. столбец;
+* NVDA+control+- (режим клавиатуры, раскладка EN-US): в списке, содержащем более 10 столбцов, измените интервал и обработку столбцов с 11 на 20, с 21 на 30 и т.д. (измените последний символ в соответствии с вашей раскладкой в настройках);
+* NVDA+control+плюс на цифровом блоке (режим цифровой клавиатуры): как и в предыдущей команде;
+* NVDA+control+enter (Enter на цифровом блоке в режиме цифровой клавиатуры): открыть управление заголовками;
+* NVDA+control+delete (Delete на цифровом блоке в режиме цифровой клавиатуры): считывание относительного текущего положения элемента (т.е. элемента 7 из 10);
+* Стрелки и NVDA+tab (в пустом списке): повторить сообщение "0 элементов";
+* NVDA+стрелка вниз (настольная раскладка) или NVDA+a (раскладка ноутбука): начать читать всё (этот жест зависит от исходного в разделе "Жесты ввода"/"Системная каретка");
+* NVDA+shift+стрелка вверх (настольная раскладка) или NVDA+shift+s (раскладка ноутбука): объявить количество и названия текущих выделенных элементов списка (как в предыдущей команде для настройки);
+* NVDA+control+f: открыть диалог поиска (не настраивается);
+* NVDA+f3: поиск следующего вхождения ранее введенного текста (не настраивается);
+* NVDA+shift+f3: предыдущее вхождение найденного (не настраивается).
 
-## Support
+## Поддержка
 
-This add-on provide a general support for more common lists (see below), and some specific applications. Main author (Alberto Buffolino) cannot guarantee compatibility/functionality for those applications he not uses, like Outlook and Windows Mail, but he'll be happy to collaborate with their users or accept a pull request for them (note: Outlook is covered now, but user reports are still welcome).
+Это дополнение обеспечивает общую поддержку более распространенных списков (см. ниже) и некоторых специфических приложений. Главный автор (Alberto Buffolino) не может гарантировать совместимость / функциональность для тех приложений, которые он не использует, таких как Outlook и Windows Mail, но он будет рад сотрудничать с их пользователями или принять запрос на обновление для них (ПРИМЕЧАНИЕ: Outlook теперь поддерживается, но отчёты пользователей всё ещё приветствуются).
 
-Following list types are supported:
+Поддерживаются следующие типы списков:
 
-- SysListView32;
-- DirectUIHWND (present in 64-bit systems);
-- WindowsForms10.SysListView32.\* (applications that use .NET);
-- multi-column treeview like as that presents in [RSSOwlnix][rss];
-- Thunderbird messages table (thread-grouping supported);
-- Outlook messages table (but list search is not recommended in thread view).
+* SysListView32;
+* DirectUIHWND (присутствует в 64-битных системах);
+* WindowsForms10.SysListView32.* (приложения, использующие .NET);
+* многостолбцовое древовидное представление, подобное тому, которое представлено в [RSSOwlnix][rss];
+* Таблица сообщений Thunderbird (поддерживается группировки потоков);
+* Таблица сообщений Outlook (но поиск списка не рекомендуется в представлении потока).
 
 [rss]: https://github.com/ABuffEr/rssowlnixSupport

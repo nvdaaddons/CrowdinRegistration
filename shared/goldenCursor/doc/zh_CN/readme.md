@@ -1,95 +1,96 @@
-# golden cursor\#
+# 金色光标 #
 
-- Author: salah atair, Joseph Lee
-- Download [stable version][1]
-- NVDA compatibility: 2022.4 and beyond
+* 作者: salah atair, Joseph Lee
+* 下载[稳定版][1]
+* NVDA 兼容性：2023.3.4 及更高版本
 
-This add-on allows you to move the mouse using a keyboard and save mouse positions for applications.
+该插件可以让您使用键盘移动鼠标并针对特定应用程序保存鼠标位置。
 
-## Key commands
+## 快捷键
 
-- Control+NVDA+L: view saved mouse positions for an application, if any. You can also assign gestures to these positions from this dialog. When pressing the assigned gesture, a left click will be performed in the saved position.
-- Shift+NVDA+l: save a tag or a label for the current mouse position in the currently focused application.
-- Windows+NVDA+C: change mouse movement unit.
-- Windows+NVDA+R: toggle mouse restriction.
-- Windows+NVDA+S: toggle reporting of mouse position in pixels.
-- Windows+NVDA+J: move mouse to a specific x and y position.
-- Windows+NVDA+P: report mouse position.
-- Windows+NVDA+M: sswitch mouse arrows on or off.
-- Windows+NVDA+arrow keys (or just arrow keys if mouse arrows is on): move mouse.
+* Control+NVDA+L：查看在当前应用程序保存的鼠标位置（如果有）。您还可以在该对话框中为这些位置分配手势。按下分配的手势，将在保存的位置执行左键单击。
+* Shift+NVDA+l： 为当前所聚焦的应用程序保存一个位置标记。
+* Windows+NVDA+C： 更改每次移动鼠标时的单位。
+* Windows+NVDA+R: 切换鼠标移动限制区域。
+* Windows+NVDA+S: 切换是否在鼠标移动过程中读出像素坐标。
+* Windows+NVDA+J: 输入横纵坐标以移动鼠标位置。
+* Windows+NVDA+P: 读出当前鼠标的位置。
+* Windows+NVDA+M: 开关鼠标方向键模式。
+* Windows + NVDA + 方向键：移动鼠标位置（在方向键模式开启时，只需使用方向键即可）。
 
-Note: these gestures can be reassigned via NVDA's Input Gestures dialog under Golden Cursor category.
+注意: 这些手势可以在“输入手势”对话框“金色光标”类别下自定义。
 
-## Notes
+## 注意
 
-- When sharing positions (tags), each party should use same display resolution.
-- For maximum compatibility, you should maximize windows by pressing Windows+Up arrow.
-- When sharing positions, existing position labels should be renamed.
-- Version 1.x and 2.x mouse position formats are incompatible.
-- To perform functions that require use of arrow keys, turn off mouse arrows first.
-- When deleting saved positions, if there are no saved positions left, positions for the application will be cleared.
+* 在共享位置（标记）时，用户之间应使用相同的显示分辨率。
+* 为取得最最佳兼容性，您应该按 Windows + 上方向键来最大化窗口。
+* 分享位置时，现有的位置（标签）应重命名。
+* 版本1.x和2.x鼠标位置格式不兼容。
+* 要执行原本方向键的功能，请先关闭鼠标方向键模式。
+* 删除保存的位置时，如果没有保存的位置，该应用程序的位置将被清除。
 
-## Version 6.2
+## 版本 6.2
 
-- Requires NVDA 2022.4 or later.
-- Compatible with NVDA 2023.1.
+* 要求 NVDA 2022.4 或更高版本。
+* 兼容 NVDA 2023.1。
 
-## Version 6.1
+## 版本6.1
 
-- Requires NVDA 2021.3 or later.
-- Now, you can assign shortcuts for saved positions from the positions list. When pressing a shortcut, a left click will be performed for the position.
+* 要求 NVDA 2021.3 或更高版本。
+* 现在，您可以从位置列表中为已保存的位置分配快捷键。按下分配的快捷键，将对相应位置执行左键单击。
 
-## Version 5.0
+## 版本5.0
 
-- Modernized add-on source code to make it compatible with NVDA 2021.1.
-- Resolved many coding style issues and potential bugs with Flake8.
+* 插件代码更新，能够与 NVDA 2021.1 兼容。
+* 解决了 Flake8 的众多编码风格问题和错误。
 
-## Version 4.0
+## 版本4.0
 
-- Requires NVDA 2019.3 or later.
-- Golden Cursor settings dialog has been replaced by Golden Cursor settings panel.
+* 要求 NVDA 2019.3或更高版本。
+* 将金色光标设置对话框改为设置面板。
 
-## Version 3.3
+## 版本 3.3
 
-- Internal changes to support future NVDA releases.
+* 内部更改，以支持 NVDA 的后续版本。
 
-## Version 3.2
+## 版本3.2
 
-- Add-on is compatible with NVDA 2018.3 (wxPython 4).
+* 插件与NVDA 2018.3（wxPython 4）兼容。
 
-## Version 3.0
+## 版本3.0
 
-- If using NVDA 2018.2, add-on settings will be found in new multi-category settings screen under "Golden Cursor" category.
+* 如果使用NVDA 2018.2，则可以在“金色光标”类别下找到插件设置面板。
 
-## Version 2.1
+## 版本2.1
 
-- Fixed unicode decode error when trying to delete tag name.
-- Prevent Multiple Instances When Opening various add-on Dialogs.
-- Improved appearance of mouse positions list and jump to position dialogs.
+* 修正试图删除标签名称时的 unicode 解码错误。
+* 打开各种插件对话框时防止出现多个实例。
+* 改进了鼠标位置列表窗口的外观，并可以输入鼠标位置跳转。
 
-## Version 2.0
+## 版本2.0
 
-- Requires NVDA 2017.3 and later.
-- Position file format is incompatible with 1.x versions. If 1.x position format is found, old positions will be migrated to the new format during installation.
-- Added a new Golden Cursor settings dialog in NVDA's Preferences menu to configure mouse movement unit and announcement of mouse positions as mouse moves.
-- Various messages from this add-on has changed.
-- When toggling various settings, toggle tone will no longer be heard.
-- You can now enter mouse arrows mode where you can move the mouse by pressing just arrow keys.
-- Changes to positions list dialog, including new name (now called Mouse Positions) and layout, displaying mouse coordinates for a label, and showing the name of the active app as part of the title.
-- From Mouse Positions dialog, pressing Enter on a saved label will move the mouse to the saved location.
-- When renaming a mouse position, an error dialog will be shown if a label with the same name as the new name exists.
-- When deleting or clearing mouse positions, you must now answer Yes before positions are deleted and/or cleared.
-- Changes to mouse jump feature, including a new name (now called New mouse position) and ability to enter X and Y coordinates separately or by using up or down arrow keys.
-- The dialog shown when saving the current mouse position now shows coordinates for current mouse location.
-- When saving positions, resolved an issue where NvDA may play error tones if the positions folder does not exist.
+* 要求 NVDA 2017.3及更高版本。
+* 位置文件格式与1.x版本不兼容。如果找到1.x位置格式，则旧位置将在安装期间迁移到新格式。
+* 在NVDA的“首选项”菜单中添加了一个新的金色光标设置对话框，用于配置鼠标移动单位以及鼠标移动时鼠标位置的项目。
+* 更改了此插件的各种消息。
+* 切换设置时，不在播放提示音。
+* 您现在可以进入鼠标方向键模式，只需按方向键即可移动鼠标。
+* 位置列表对话框的更改，包括新名称（现称为“鼠标位置”）和布局，显示标签的鼠标坐标以及将激活应用程序的名称显示为标题的一部分。
+* 从鼠标位置对话框中，在已保存的位置标记上按 Enter 键将鼠标移动到相应位置。
+* 重命名鼠标位置时，如果存在与新名称相同名称的位置标记，则会显示错误对话框。
+* 删除或清除鼠标位置时，现在必须由用户确认。
+* 改进鼠标位置跳转功能，包括一个新名称（现在称为新的鼠标位置）和分别输入X和Y坐标，支持使用上下方向键移动。
+* 保存当前鼠标位置时显示的对话框现在会同时显示当前鼠标位置的坐标。
+* 解决了在保存位置时，如果位置文件夹不存在 NVDA 可能播放错误提示音的问题。
 
-## Version 1.4
+## 版本1.4
 
-- Removed win32api dependency to make it compatible with past and future versions of NVDA.
+* 删除了win32api的依赖，使其与之前和以后的 NVDA 兼容。
 
-## Version 1.0
+## 版本1.0
 
-- Initial release.
+* 发布初始版本。
 
 [1]: https://addons.nvda-project.org/files/get.php?file=gc
+
 [2]: https://addons.nvda-project.org/files/get.php?file=gc-dev

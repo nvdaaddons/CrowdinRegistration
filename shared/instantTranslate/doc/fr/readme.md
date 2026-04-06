@@ -1,14 +1,13 @@
-# Instant Translate
+# Instant Translate #
 
-- Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino and other NVDA contributors.
-- Download [stable version][1]
-- Download [development version][2]
+* Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino and other NVDA contributors.
+* Download [stable version][1]
+* Download [development version][2]
 
 This add-on is used to translate selected and/or clipboard text from one language to another.
 This is done using the Google Translate service.
 
-## Configuring languages
-
+## Configuring languages ##
 To configure source, target and in case swap language, go to: NVDA Menu >> Preferences >> Instant Translate Settings.
 
 There are two comboboxes labeled "Source language" and "Target language", and a checkbox to decide if it must copy the translation to clipboard.
@@ -29,89 +28,78 @@ Anyway, this is a temporary configuration; if this option has no effect (it's ex
 
 At least, in the speech settings parameters dialog (NVDA Menu >> Preferences >> Speech), you may want to check the "Automatic language switching (when supported)" option. This way, if you are using a multi-lingual synthesizer, the translation will be announced using the target language voice of the synthesizer.
 
-## Using
-
+## Using ##
 You can use this add-on in three ways:
 
 1. Select some text using selection commands (shift with arrow keys, for example) and press associated key to translate. translation result will be read with synthesizer which you are using.
 2. You can also translate text from the Clipboard.
 3. Press the dedicated shortcut key to translate the last spoken text.
 
-## Shortcuts
-
+## Shortcuts ##
 All following commands must be pressed after modifier key "NVDA+Shift+t":
 
-- T: Translate selected text,
-- Shift+t: translate text from the Clipboard,
-- S: swap source and target languages,
-- A: announce current configuration,
-- C: copy last result to clipboard,
-- I: identify the language of selected text,
-- L: translate the last spoken text,
-- O: open translation settings dialog
-- H: announces all available layered commands.
+* T: Translate selected text,
+* Shift+t: translate text from the Clipboard,
+* S: swap source and target languages,
+* A: announce current configuration,
+* C: copy last result to clipboard,
+* I: identify the language of selected text,
+* L: translate the last spoken text,
+* O: open translation settings dialog
+* H: announces all available layered commands.
 
-## Changes for 4.7
+## Changes for 4.7 ##
+* Updated to be compatible with python3.11 and nvda 2024.1
+* Implemented speakOnDemand mode
+* Fixed case with caching failled translations
+* Added chinese mirror for translation
 
-- Updated to be compatible with python3.11 and nvda 2024.1
-- Implemented speakOnDemand mode
-- Fixed case with caching failled translations
-- Added chinese mirror for translation
 
-## Changes for 4.4.2
+## Changes for 4.4.2 ##
+* Restore language detection and auto-swapping (Thanks to Cyrille for fix)
+* updated languages for translation (thanks to Cyrille)
 
-- Restore language detection and auto-swapping (Thanks to Cyrille for fix)
-- updated languages for translation (thanks to Cyrille)
+## Changes for 4.4 ##
+* Instant translate is now compatible with NVDA 2019.3 (Python 3 versions of NVDA)
 
-## Changes for 4.4
+## Changes for 4.3 ##
+* nvda compatibility fix Now instant translate will be compatible with latest nvda builds.
+* found a way to use google as a translation service again.
 
-- Instant translate is now compatible with NVDA 2019.3 (Python 3 versions of NVDA)
+## Changes for 4.2 ##
+* Restored working state with newer versions of nvda.
+* Restored automatic language detection.
 
-## Changes for 4.3
+## Changes for 4.1 ##
+* InstantTranslate is working again, now with Yandex translator service instead of Google.
 
-- nvda compatibility fix Now instant translate will be compatible with latest nvda builds.
-- found a way to use google as a translation service again.
+## Changes for 4.0 ##
+* Translation is automatically performed after swapping.
+* Cache bug fixed.
 
-## Changes for 4.2
+## Changes for 3.0 ##
+* Change way how Shortcuts are used, now you can press instantTranslate modifier key "NVDA+Shift+t", and then single letter key to perform some action (see all Commands in the "Shortcuts" section).
+* Implemented swapping languages.
+* Changed configuration format, now we can change instant translate settings if we are in readonly pane, but remember that this will work before first restart of NVDA.
+* Removed limit on amount of text that can be translated.
+* Added shortcut t to the Instant Translate Settings menu item
+* The auto option is now in first position in source combo, and absent in target combo.
+* Added a checkbox for configuring copying translation results.
+* Store config file in the root of settings folder.
+* Source and target languages syncronized with what Google Translate currently exposes (22 Apr 2015).
 
-- Restored working state with newer versions of nvda.
-- Restored automatic language detection.
+## Changes for 2.1 ##
+* Now addon can translate text from clipboard when pressing nvda+shift+y.
 
-## Changes for 4.1
+## Changes for 2.0 ##
+* Added gui configurator where you can choose source and target languages.
+* Added addon menu item found under preferences menu.
+* Settings now is written in separate config file.
+* Translation results now automatically copies into the clipboard for future manipulations.
 
-- InstantTranslate is working again, now with Yandex translator service instead of Google.
-
-## Changes for 4.0
-
-- Translation is automatically performed after swapping.
-- Cache bug fixed.
-
-## Changes for 3.0
-
-- Change way how Shortcuts are used, now you can press instantTranslate modifier key "NVDA+Shift+t", and then single letter key to perform some action (see all Commands in the "Shortcuts" section).
-- Implemented swapping languages.
-- Changed configuration format, now we can change instant translate settings if we are in readonly pane, but remember that this will work before first restart of NVDA.
-- Removed limit on amount of text that can be translated.
-- Added shortcut t to the Instant Translate Settings menu item
-- The auto option is now in first position in source combo, and absent in target combo.
-- Added a checkbox for configuring copying translation results.
-- Store config file in the root of settings folder.
-- Source and target languages syncronized with what Google Translate currently exposes (22 Apr 2015).
-
-## Changes for 2.1
-
-- Now addon can translate text from clipboard when pressing nvda+shift+y.
-
-## Changes for 2.0
-
-- Added gui configurator where you can choose source and target languages.
-- Added addon menu item found under preferences menu.
-- Settings now is written in separate config file.
-- Translation results now automatically copies into the clipboard for future manipulations.
-
-## Changes for 1.0
-
-- Initial version.
+## Changes for 1.0 ##
+* Initial version.
 
 [1]: https://addons.nvda-project.org/legacy?file=instantTranslate
+
 [2]: http://addons.nvda-project.org/files/get.php?file=it-dev

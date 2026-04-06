@@ -1,289 +1,289 @@
-# Resource Monitor
+# 資源監視器
 
-- Authors: Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka Ojala, Ethin Probst and other NVDA contributors
+* 作者：Alex Hall, Joseph Lee, Kefas Lungu, Beqa Gozalishvili, Tuukka Ojala, Ethin Probst 和其他 NVDA 貢獻者
 
-This add-on gives information about CPU load, memory usage and other resource usage information.
+這個附加元件提供有關 CPU 負載，記憶體使用情況，及其他資源的使用訊息。
 
-# Shortcuts
+# 快速鍵
 
-All commands support speech on demand mode.
+所有指令皆支援隨選語音模式。
 
-- NVDA+Shift+E: presents used ram, average processor load, and battery info if available.
-- NVDA+Shift+1: presents the average processor load and if multicore CPU's are present the load of each core.
-- NVDA+Shift+2/5: presents the used and total space for both physical and virtual ram.
-- NVDA+Shift+3: presents the used and total space of the static and removable drives.
-- NVDA+Shift+4: presents battery percentage, charging status, remaining time (if not charging), and a warning if the battery is low or critical.
-- NVDA+Shift+6: presents  CPU Architecture and Windows version and service pack numbers.
-- NVDA+Shift+7: presents the system's uptime.
-- NVDA+Shift+8: presents information on the wireless connection, ssid name and strength, or no ssid if there is none available.
+* NVDA+Shift+E：顯示已使用記憶體、處理器平均負載、電池資訊 (若可用)。
+* NVDA+Shift+1：顯示平均處理器負載；若有多核心 CPU，則一併顯示各個核心的負載。
+* NVDA+Shift+2/5：顯示實體及虛擬記憶體的已使用空間及總計空間。
+* NVDA+Shift+3：顯示本機磁碟與卸除式磁碟機的已用空間和總空間。
+* NVDA+Shift+4：顯示電池百分比、充電狀態、剩餘時間 (若沒有在充電)，及電池電量低或非常低時的警告。
+* NVDA+Shift+6：顯示 CPU 架構、Windows 版本及組件編號。
+* NVDA+Shift+7：顯示系統執行時間。
+* NVDA+Shift+8：顯示無線網路連線的資訊、SSID 名稱及強度；若沒有可用連線，則顯示沒有 SSID。
 
-You can change these shortcut keys via input gestures dialog.
+您可以透過輸入手勢對話框來變更這些快速鍵。
 
-## Usage notes
+## 使用者請注意
 
-This add-on does not replace task manager and other system information programs for Windows. Also note the following:
+這個附加元件不會取代 Windows 的工作管理員及其他系統程式訊息。還要留意以下幾點：
 
-- Resource information cannot be copied to the clipboard if running the add-on in secure screens.
-- CPU usage is given for logical processors, not physical cores. This is noticeable for processors which uses Hyper-Threading where number of CPU's is twice the number of CPU cores. On some newer computers, not all CPU cores will have hyper-threading enabled.
-- If there is heavy disk activity such as copying large files, there might be delays when obtaining disk usage information.
-- When announcing processor architecture information, "x86" and "AMD64" refer to 32-bit and 64-bit (x64) Intel and AMD processors, respectively.
-- While this add-on supports windows 8.1 (limited support), Windows 10 22H2 (2022 Update/build 19045) or later is recommended.
-- Installing the add-on on Windows 10/11 LTSC is not supported.
+* 若在安全畫面上執行此附加元件，資源資訊將無法複製至剪貼簿。
+* CPU 使用率是針對邏輯處理器而非實體核心。對於使用超執行緒的處理器來說，這是顯而易見的，其中 CPU 的數量是 CPU 核心數量的兩倍。在某些較新的電腦上，並非所有 CPU 核心都會啟用超執行緒。
+* 如果正在進行繁忙的磁碟活動例如複製大型檔案，則獲取磁碟使用訊息時可能出現延遲。
+* 讀出處理器架構資訊時，「x86」和「AMD64」分別指 32 位元和 64 位元 (x64) 的 Intel 及 AMD 處理器。
+* 雖然此附加元件支援 Windows 8.1 (有限支援)，但建議使用 Windows 10 22H2 (2022 年更新/組建 19045) 或更新版本。
+* 不支援在 Windows 10/11 LTSC 上安裝此附加元件。
 
-## Version 26.01
+## 26.01 版
 
-- NVDA 2025.3.2 or later is required.
-- NVDA will announce Windows Server releases using standardized release name instead of dedicated server release name e.g. Windows Server 24H2 instead of Windows Server 2025.
-- NVDA will no longer add "0 minutes" to battery status (example: 4 hours instead of 4 hours, 0 minutes).
-- NVDA will recognize additional prefixes for larger memory and storage sizes including ronnabyte (1000 to the power of 9) and quettabyte (1000 to the power of 10).
+* 需要 NVDA 2025.3.2 或更新版本。
+* NVDA 將會使用標準化版本名稱來讀出 Windows Server 版本，而非專用的伺服器版本名稱；例如使用 Windows Server 24H2 而非 Windows Server 2025。
+* NVDA 不再於電池狀態中加入「0 分鐘」(例如：讀為「4 小時」，而非「4 小時 0 分鐘」)。
+* NVDA 將可識別更大記憶體與儲存空間容量的額外字首，包括 ronnabyte (1000 的 9 次方) 及 quettabyte (1000 的 10 次方)。
 
-## Version 25.09
+## 25.09 版
 
-- NVDA 2025.2 or later is required.
+* 需要 NVDA 2025.2 或更新版本。
 
-## Version 25.07
+## 25.07 版
 
-- Made the add-on code more robust with help from Pyright (a Python static type checker).
+* 在 Pyright (一個 Python 靜態類型檢查器) 的幫助下，使附加元件的程式碼更為穩健。
 
-## Version 25.06
+## 25.06 版
 
-- Improved connection status announcement when connecting to wireless networks (@danstiv).
+* 改善了連線至無線網路時的連線狀態報讀 (@danstiv)。
 
-## Version 25.02
+## 25.02 版
 
-- Restored limited support for Windows 8.1.
-- Improved accuracy of used and total memory information announcement (@danstiv).
-- NVDA will no longer appear to freeze briefly when performing memory usage command (NVDA+Shift+2/5) the first time after starting NVDA.
-- Windows Insider Preview releases are no longer reported as "Windows Insider".
+* 恢復了對 Windows 8.1 的有限支援。
+* 改善了已使用與總記憶體資訊報讀的準確性 (@danstiv)。
+* 啟動 NVDA 後，首次執行記憶體用量指令 (NVDA+Shift+2/5) 時，NVDA 不再會短暫凍結。
+* Windows Insider Preview 版本不再會被報讀為「Windows Insider」。
 
-## Version 24.08
+## 24.08 版
 
-- NVDA 2024.2 or later is required. This allows psutil dependency to be removed from the add-on as NVDA includes it.
-- Updated psutil dependency to the version included with NVDA 2024.2 (6.0.0).
-- Ruff replaces Flake8 as code linter.
+* 需要 NVDA 2024.2 或更新版本。這使得附加元件可以移除 psutil 相依套件，因為 NVDA 已包含此套件。
+* 已將 psutil 相依套件更新至 NVDA 2024.2 內含的版本 (6.0.0)。
+* Ruff 取代 Flake8 作為程式碼風格檢查工具。
 
-## Version 24.05
+## 24.05 版
 
-- NVDA 2024.1 or later is required.
-- NVDA will recognize wireless networks with WPA3 authentication methods such as shared authentication of equals (SAE).
+* 需要 NVDA 2024.1 或更新版本。
+* NVDA 現在能識別採用 WPA3 驗證方式 (例如對等實體同步驗證 (SAE)) 的無線網路。
 
-## Version 24.04
+## 24.04 版
 
-- Updated psutil dependency to 5.9.8.
-- Added support for speech on demand mode so resource information can be announced in this mode.
+* 已將 psutil 相依套件更新至 5.9.8 版。
+* 新增了對隨選朗讀模式的支援，以便在此模式下能讀出資源資訊。
 
-## Version 23.11
+## 23.11 版
 
-- Downgraded psutil dependency to 5.9.4 due to problems with memory usage announcements.
+* 由於讀出記憶體用量發生問題，已將 psutil 相依套件降級至 5.9.4 版。
 
-## Version 23.10
+## 23.10 版
 
-- Updated psutil dependency to 5.9.5.
+* 已將 psutil 相依套件更新至 5.9.5 版。
 
-## Version 23.09
+## 23.09 版
 
-- NVDA will no longer log startup error messages on Windows Server systems when wireless capability modules are unavailable.
+* 在 Windows Server 系統上，當無線功能模組不可用時，NVDA 不再會記錄啟動錯誤訊息。
 
-## Version 23.06
+## 23.06 版
 
-- Situation where resourceMonitor doesn't work properly due to unavailability of wireless adapters has been fixed.
+* 修正了因無線網路卡無法使用，而導致資源監視器無法正常運作的問題。
 
-## Version 23.05.1
+## 23.05.1 版
 
-wlanReporter NVDA-addon is now part of resourceMonitor!
+wlanReporter NVDA 附加元件現已成為資源監視器的一部分！
 
-- The old way of checking for wireless connections has been replaced by the windows API from wlanReporter: https://github.com/kvark128/WlanReporter/ .
-  - After speaking SSID name and strength, NVDA will also now tell you the security type of your network.
-  - NVDA will now alert you when you connect and disconnect from a wireless network.
-  - NVDA will now alert you when wireless connections is turned on or off.
+* 檢查無線網路連線的舊方法已被 wlanReporter 的 Windows API 取代：https://github.com/kvark128/WlanReporter/ 。
+  * 讀出 SSID 名稱與訊號強度後，NVDA 現在也會告知您網路的安全性類型。
+  * 當您連線或中斷無線網路時，NVDA 現在會提醒您。
+  * 當無線網路連線開啟或關閉時，NVDA 會提醒您。
 
-## Version 23.05
+## 23.05 版
 
-- added the ability to detect and present the state of the connected wireless network.
-  - Announces the name of the connected wireless SSID.
-  - Announces the strength of the ssid
-  - Announce SSID not found if None is detected.
+* 新增了偵測並顯示已連線無線網路狀態的功能。
+  * 讀出已連線無線網路的 SSID 名稱。
+  * 讀出 ssid 的訊號強度
+  * 若偵測不到任何 SSID，則讀出找不到 SSID。
 
-## Version 23.02
+## 23.02 版
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* 需要 NVDA 2022.4 或更新版本。
+* 需要 Windows 10 21H2 (2021 年 11 月更新/組建 19044) 或更新版本。
 
-## Version 23.01
+## 23.01 版
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
-- Updated psutil dependency to 5.9.4.
-- NVDA will announce actual processor architecture (x86/AMD64/ARM64) as part of Windows version information.
-- On single-core systems, NVDA will no longer announce CPU core load as average CPU load is the same as core load.
+* 需要 NVDA 2022.3 或更新版本。
+* 需要 Windows 10 或更新版本，因為微軟自 2023 年 1 月起，已不再支援 Windows 7、8 和 8.1。
+* 已將 psutil 相依套件更新至 5.9.4 版。
+* NVDA 會讀出實際的處理器架構 (x86/AMD64/ARM64)，作為 Windows 版本資訊的一部分。
+* 在單核心系統上，NVDA 不再讀出 CPU 核心負載，因為平均 CPU 負載與核心負載相同。
 
-## Version 22.03
+## 22.03 版
 
-Version 22.03 is the last stable version to support Windows 7 Service Pack 1, 8, and 8.1.
+22.03 版是最後一個支援 Windows 7 Service Pack 1、8 和 8.1 的穩定版本。
 
-- NVDA 2021.3 or later is required.
-- A warning message will be displayed when attempting to install the add-on on Windows 7, 8, and 8.1.
-- Updated psutil dependency to 5.9.0.
+* 需要 NVDA 2021.3 或更新版本。
+* 當嘗試在 Windows 7、8 和 8.1 上安裝此附加元件時，將會顯示一則警告訊息。
+* 已將 psutil 相依套件更新至 5.9.0 版。
 
-## Version 22.01
+## 22.01 版
 
-- NVDA 2021.2 or later is required.
+* 需要 NVDA 2021.2 或更新版本。
 
-## Version 21.10
+## 21.10 版
 
-- NVDA 2021.1 or later is required due to changes to NVDA that affects this add-on.
+* 由於 NVDA 的變更會影響此附加元件，因此需要 NVDA 2021.1 或更新版本。
 
-## Version 21.08
+## 21.08 版
 
-- Minimum Windows release requirement is now tied to NVDA releases.
-- Windows builds 20348 and 22000 are recognized as Windows Server 2022 and Windows 11, respectively.
-- On Insider Preview builds, Windows release such as "Windows 10" will not be used. Instead NvDA will announce "Windows Insider".
-- On 64-bit systems, processor architecture (x64 or ARM64) will be announced as part of Windows version information.
+* 最低 Windows 版本需求現已與 NVDA 版本綁定。
+* Windows 組建 20348 和 22000 分別被識別為 Windows Server 2022 和 Windows 11。
+* 在 Insider Preview 組建上，不會使用「Windows 10」等 Windows 版本名稱，Nvda 將改為讀出「Windows Insider」。
+* 在 64 位元系統上，處理器架構 (x64 或 ARM64) 將會作為 Windows 版本資訊的一部分被讀出。
 
-## Version 21.04
+## 21.04 版
 
-- NVDA 2020.4 or later is required.
-- Updated psutil dependency to 5.8.0.
-- When pressing add-on commands twice to copy resource information to clipboard, NVDA will announce resource summary that is being copied.
+* 需要 NVDA 2020.4 或更新版本。
+* 已將 psutil 相依套件更新至 5.8.0 版。
+* 按兩次附加元件指令以將資源資訊複製至剪貼簿時，NVDA 會讀出正在被複製的資源摘要。
 
-## Version 21.01
+## 21.01 版
 
-- Updated psutil dependency to 5.7.3.
-- Shortened Windows version message.
-- On Windows 8.1, build.revision will be announced as part of Windows version message, similar to Windows 10.
+* 已將 psutil 相依套件更新至 5.7.3 版。
+* 縮短了 Windows 版本訊息。
+* 在 Windows 8.1 上，build.revision 將會作為 Windows 版本訊息的一部分被報讀，類似於 Windows 10。
 
-## Version 20.09
+## 20.09 版
 
-- System uptime is now given as days, hours, minutes, seconds.
-- Windows Server Insider Preview build 20201 or later is properly recognized as a Server Insider build.
+* 系統執行時間現在以日、時、分、秒的方式呈現。
+* Windows Server Insider Preview 組建 20201 或更新版本，現在能被正確識別為 Server Insider 組建。
 
-## Version 20.07
+## 20.07 版
 
-- Windows 10 Version 20H2 is properly recognized when obtaining Windows version information (NVDA+Shift+6).
-- Simplified Windows 10 version message i.e. Windows 10 YYMM instead of Windows 10verYYMM when pressing NVDA+Shift+6.
+* 取得 Windows 版本資訊 (NVDA+Shift+6) 時，Windows 10 20H2 版能被正確識別。
+* 按下 NVDA+Shift+6 時，簡化了 Windows 10 版本訊息，即從 Windows 10verYYMM改為Windows 10 YYMM。
 
-## Version 20.06
+## 20.06 版
 
-- Resolved many coding style issues and potential bugs with Flake8.
+* 透過 Flake8 解決了許多編碼風格問題與潛在錯誤。
 
-## Version 20.04
+## 20.04 版
 
-- Updated psutil dependency to 5.7.0.
+* 已將 psutil 相依套件更新至 5.7.0 版。
 
-## Version 20.01
+## 20.01 版
 
-- NVDA 2019.3 or later is required due to extensive use of Python 3.
+* 由於廣泛使用 Python 3，因此需要 NVDA 2019.3 或更新版本。
 
-## Version 19.11
+## 19.11 版
 
-- Improved detection of Windows Insider Preview builds, especially for 20H1 and beyond.
+* 改善了 Windows Insider Preview 組建的偵測，特別是對於 20H1 及之後的版本。
 
-## Version 19.07
+## 19.07 版
 
-- Updated psutil dependency to 5.6.3.
-- Internal changes to battery status announcement command.
+* 已將 psutil 相依套件更新至 5.6.3 版。
+* 讀出電池狀態指令的內部變更。
 
-## Version 18.12
+## 18.12 版
 
-- Internal changes to support future NVDA releases.
+* 內部變更，以支援未來的 NVDA 版本。
 
-## Version 18.10
+## 18.10 版
 
-- Code has been made more compatible with Python 3.
-- Updated psutil dependency to 5.4.7.
-- When obtaining disk capacity and memory usage, NVDA will no longer give errors if using a computer or a service with more than a petabyte of RAM or disk size.
-- Values for memory and disk usage are shown with up to two decimal places (e.g. 4.00 GB instead of 4.0 GB).
-- Improved detection of Windows Insider Preview builds.
+* 程式碼已變得與 Python 3 更相容。
+* 已將 psutil 相依套件更新至 5.4.7 版。
+* 當取得磁碟容量和記憶體用量時，若使用具備超過 1 PB 記憶體或磁碟空間的電腦或服務，NVDA 不再會出現錯誤。
+* 記憶體與磁碟用量的值，現在會顯示至小數點後兩位 (例如 4.00 GB 而非 4.0 GB)。
+* 改善了 Windows Insider Preview 組建的偵測。
 
-## Version 18.04
+## 18.04 版
 
-Version 18.04.x is the last release to support Windows releases earlier than 7 SP1.
+18.04.x 版是最後一個支援 Windows 7 SP1 之前版本作業系統的版本。
 
-- Last release to support Windows Server 2003, Vista and Server 2008.
-- Better detection of Windows 10 releases and distinguishing between public and Insider Preview builds.
+* 最後一個支援 Windows Server 2003、Vista 和 Server 2008 的版本。
+* 更佳地偵測 Windows 10 版本，並能區分公開版與 Insider Preview 組建。
 
-## Version 17.12
+## 17.12 版
 
-- Added support for 64-bit ARM processors on Windows 10.
+* 新增支援 Windows 10 的 64 位元 ARM 處理器。
 
-## Version 17.09
+## 17.09 版
 
-Important: Version 17.09.x is the last version to support Windows XP.
+重要提醒：17.09.x 版是支援 Windows XP 的最後一個版本。
 
-- Last version to run on Windows XP.
-- Windows 10 build 16278 and later is recognized as Version 1709. A minor revision for this add-on will be released once Version 1709 stable build is released.
+* 最後一個能在 Windows XP 執行的版本。
+* Windows 10 組建 16278 及其之後的版本，已可被識別為 1709 版。等到組建 1709 的穩定版釋出後，此元件也將發布一個小幅修正的版本。
 
-## Version 17.07.1
+## 17.07.1 版
 
-- Reintroduce support for Windows XP (broken since version 17.02).
+* 重新支援 Windows XP。（早先從 17.02 版就不支援了）。
 
-## Version 17.05
+## 17.05 版
 
-- Announcement of system uptime (time passed since last boot; NVDA+Shift+7).
+* 顯示系統執行時間（最近一次開機後經過的時間，NVDA+Shift+7）。
 
-## Version 17.02
+## 17.02 版
 
-- Updated psutil dependency to 5.0.1.
-- When checking disk usage, NVDA will no longer present an error dialog on some systems where a removable media is not properly recognized (such as when a card isn't inserted into a card reader).)
+* 已將 psutil 相依套件更新至 5.0.1 版。
+* 檢查磁碟使用情形時，在卸除式裝置未被正確識別的某些系統上（例如，當卡未插入讀卡機時），NVDA 不在出現錯誤對話框。）
 
-## Version 16.08
+## 16.08 版
 
-Starting with version 16.08, add-on releases will be shown as year.month.revision.
+從 16.08 版起，新版附加元件將使用年.月為版本號。
 
-- Various revisions of Windows 10 are now properly recognized (such as 1607 for build 14393).
-- Windows 10 build revisions (after installing cumulative updates) are properly recognized (such as 14393.51).
-- If using Insider Preview builds, this fact is recognized.
+* Windows 10 的幾個更新版本，已可正確識別（例如：1607、14393）。
+* Windows 10 組建版本（在安裝累積更新後），已可被正確識別，（如14393.51）。
+* 如果使用 Insider Preview 組建，已可識別。
 
-## Changes for 4.5
+## 4.5 版的變更
 
-- Add-on repository has moved to GitHub (can be found at https://github.com/josephsl/resourcemonitor).
-- Windows Server 2016 is properly recognized.
+* 此元件的儲存庫搬移到 GitHub，網址為 (https://github.com/josephsl/resourcemonitor)。
+* Windows Server 2016 已能正確識別。
 
-## Changes for 4.0
+## 4.0 版的變更
 
-- Updated psutil dependency to 2.2.1.
-- Vastly improved performance when obtaining information on CPU load.
-- Added support for recognition of Windows 10.
-- In Windows 10, the build number of Windows will also be announced.
-- You can use Add-ons Manager to access add-on help.
+* 已將 psutil 相依套件更新至 2.2.1 版。
+* 在取得有關 CPU 負載資訊時，效能大幅改善。
+* 新增了對 Windows 10 的識別。
+* 在 Windows 10中，已可顯示 Windows 的內部版本號。
+* 您可在「管理附加元件」中，獲得元件說明。
 
-## Changes for 3.1
+## 3.1 版的變更
 
-- Resource Monitor officially supports Windows 8.1.
-- Updated translations.
+* 資源監視器正式支援 Windows 8.1。
+* 更新翻譯。
 
-## Changes for 3.0
+## 3.0 版的變更
 
-- Updated psutil dependency to 1.2.1.
-- Announcement of current Windows version, CPU architecture and service pack if any (NVDA+Shift+6).
-- Ability to change add-on shortcut keys (NVDA 2013.3 or later).
-- Ability to copy individual resource information to clipboard by pressing resource commands two times.
+* 已將 psutil 相依套件更新至 1.2.1 版。
+* 顯示目前 Windows 版本及 Service Pack (NVDA+Shift+6)。
+* 可變更元件快速鍵，（需 NVDA 2013.3 或更高版本）。
+* 可複製個別資源摘要到剪貼簿，方法是相同的元件指令連按兩次。
 
-## Changes for 2.4
+## 2.4 版的變更
 
-- New languages: Chinese (simplified), Ukrainian.
-- Updated translations.
+* 新增語言：中文（簡體）、，烏克蘭文。
+* 更新翻譯。
 
-## Changes for 2.3
+## 2.3 版的變更
 
-- Added Bulgarian translation.
+* 新增保加利亞文翻譯。
 
-## Changes for 2.2
+## 2.2 版的變更
 
-- Added following translations: Arabic, Aragonese, Croatian, Dutch, Finnish, French, Galician, German, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Portuguese (Brazil), Russian, Slovak, Slovenian, Spanish, Tamil and Turkish.
+* 新增以下翻譯：阿拉伯文、阿拉貢文、克羅埃西亞文、荷蘭文、芬蘭文、法文、加里斯亞文、德文、匈牙利文、意大利文、日文、韓文、尼泊爾文、波蘭文、葡萄牙文（巴西）、俄文、斯洛伐克文、斯洛維尼亞文、西班牙文、坦米爾文、土耳其文。
 
-## Changes for 2.1
+## 2.1 版的變更
 
-- Updated psutil dependency to version 0.6.1.
-- Fixed long delay when getting information of drives.
-- Code cleanup.
+* 已將 psutil 相依套件更新至 0.6.1 版。
+* 取得磁碟訊息時，修正延遲較長時間的問題。
+* 程式碼清理。
 
-## Changes for 2.0
+## 2.0 版的變更
 
-- added translation support and translation comments.
+* 支援翻譯元件及翻譯註解。
 
-## Changes for 1.0
+## 1.0 版的變更
 
-- Initial Release
+* 初始版本
 
 [1]: http://addons.nvda-project.org/files/get.php?file=resourceMonitor

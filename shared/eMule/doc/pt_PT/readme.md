@@ -1,76 +1,73 @@
-# eMule
+# eMule #
 
-- Authors: Noelia, Chris, Alberto.
+*	Autores: Noelia, Chris, Alberto.
 
-This add-on helps to improve accessibility of eMule with nVDA.
-It also provides additional keyboard commands for moving in different windows and gives Useful information about eMule.
+Esse complemento ajuda a melhorar a acessibilidade do eMule com o nVDA.
+Ele também fornece comandos de teclado adicionais para movimentação em diferentes janelas e fornece informações úteis sobre o eMule.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You should uninstall that old add-on to use this one, since both have common keystrokes and features.
+Ele é baseado no complemento eMuleNVDASupport, desenvolvido pelo mesmo autor. Você deve desinstalar esse complemento antigo para usar este, pois ambos têm teclas e recursos comuns.
 
-Tested on [eMule][1] 0.50a.
+Testado no [eMule][1] 0.50a e 70b.
 
-## Key Commands:
+## Teclas de atalho
 
-- control+shift+h: Moves focus and mouse to main toolbar.
-- control+shift+t: Reads the current window.
-- control+shift+n: Moves the focus to the Name field in the Find window.
-- control+shift+p: In the Search window, moves focus and mouse to the list of search parameters, or edit field options.
-- control+shift+b: Move the focus to the list in the current window. For example usable in the Search window, downloads in Transfer window, etc.
-- control+shift+o: Move the focus to read-only edit boxes in the current window. For example the IRC received messages, available Servers, etc.
-- control+NVDA+f: If the caret is located in a read only edit box, opens a find dialog to use the commands for searching text available in NVDA.
-- control+shift+l: Moves the navigator object and mouse to the headers of the current list.
-- control+shift+q: Reads the first object in the status bar; provides information about recent activity.
-- control+shift+w: Reads the second object of the status bar; contains information about files and users on the current server.
-- control+shift+e: Reads the third object of the status bar; useful to know the UpLoad/DownLoad speed.
-- control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+*	control+shift+h: Move o foco e o mouse para a barra de ferramentas principal.
+*	control+shift+t: Lê a janela atual.
+*	control+shift+n: Move o foco para o campo Nome na janela Localizar.
+*	control+shift+p: Na janela Pesquisar, move o foco e o mouse para a lista de parâmetros de pesquisa ou para as opções do campo de edição.
+*	control+shift+b: Move o foco para a lista na janela atual. Por exemplo, utilizável na janela Pesquisar, downloads na janela Transferir, etc.
+*	control+shift+o: Move o foco para caixas de edição somente leitura na janela atual. Por exemplo, as mensagens recebidas do IRC, os servidores disponíveis, etc.
+*	control+NVDA+f: Se o cursor estiver localizado em uma caixa de edição somente leitura, abrirá uma caixa de diálogo de localização para usar os comandos de pesquisa de texto disponíveis no NVDA.
+*	control+shift+l: Move o objeto do navegador e o mouse para os cabeçalhos da lista atual.
+*	control+shift+q: lê o primeiro objeto na barra de status; fornece informações sobre a atividade recente.
+*	control+shift+w: Lê o segundo objeto da barra de status; contém informações sobre arquivos e usuários no servidor atual.
+*	control+shift+e: Lê o terceiro objeto da barra de status; útil para saber a velocidade de UpLoad/DownLoad.
+*	control+shift+r: Lê O quarto objeto da barra de status; informa sobre a conexão do eD2K e da rede Kad.
+* Não atribuído: Alterna o uso de uma abordagem alternativa para ler os controles deslizantes.
 
-## Managing columns.
+## Gerenciando colunas. ##
 
-When within a list, you can move the caret between the rows and columns using alt+control+ Arrows.
-In this Add-on the following key commands are also available:
+Em uma lista, você pode mover o cursor entre as linhas e colunas usando alt+control+ setas.
+Nesse complemento, os seguintes comandos principais também estão disponíveis:
 
-- nvda+control+1-0: Reads the first 10 columns.
-- nvda+shift+1-0: Reads columns 11 to 20.
-- nvda+shift+C: Copies the contents of the last read column to the clipboard.
+*	nvda+control+1-0: Lê as 10 primeiras colunas.
+*	nvda+shift+1-0: Lê as colunas 11 a 20.
+*	nvda+shift+C: copia o conteúdo da última coluna lida para a área de transferência.
 
-## Changes for 7.0
 
-- Compatible with NVDA 2023.1.
+## Alterações para a versão 20.0.0
+* Algumas caixas de edição e controles deslizantes são rotulados, graças ao projeto [labelAutofinderCore] (https://github.com/ABuffEr/labelAutofinderCore) desenvolvido por Alberto Buffolino, um dos autores desse complemento.
+* Foi adicionado um comando (não atribuído) para alternar o uso de uma abordagem alternativa para ler os controles deslizantes (desativado por padrão).
 
-## Changes for 6.0
+## Alterações para a versão 7.0
+* Compatibilidade com NVDA 2023.1
 
-- Requires NVDA 2022.1 or later.
+## Alterações para a versão 6.0
+*	Requer o NVDA 2022.1 ou posterior.
 
-## Changes for 5.0
+## Alterações para a versão 5.0
+*	Compatível com o NVDA 2021.1.
 
-- Compatible with NVDA 2021.1.
+## Alterações para a versão 4.0 ##
+*	Requer NVDA 2019.3 ou superiores.
 
-## Changes for 4.0
+## Alterações para a versão 3.0 ##
+*	 Para pesquisar texto nas caixas de edição somente leitura, a caixa de diálogo localizar pode ser usada, como nvda+control+f para ativar a caixa de diálogo localizar.
 
-- Requires NVDA 2019.3 or later.
+## Alterações para a versão 2.0 ##
+*	 A ajuda do add-on está disponível no Add-ons Manager.
 
-## Changes for 3.0
+## Alterações para a versão 1.2 ##
+*	 Ao passar para as mensagens do IRC, o texto selecionado é relatado corretamente.
+*	 O pressionamento de tecla usado para mover para a lista de resultados da pesquisa foi generalizado para poder mover o foco para qualquer lista disponível na janela atual.
+*	 O comando usado para focalizar as mensagens de IRC foi generalizado para ser movido para qualquer caixa de edição somente leitura, possibilitando a revisão das informações de conexão na janela Servidores.
+*	 Ao mover o mouse e o foco para a barra de ferramentas, em alguns casos ela era anunciada duas vezes. Isso foi corrigido.
 
-- To search text in the readonly edit boxes,  the find dialog  can be used, such as nvda+control+f to activate the find dialog.
+## Alterações para a versão 1.1 ##
+*	 Foi corrigido o erro no item do eMule no menu de ajuda do NVDA, quando o nome da pasta de configuração do usuário contém caracteres não latinos.
+*	 Os atalhos agora podem ser reatribuídos usando a caixa de diálogo de entrada de gestos do NVDA.
 
-## Changes for 2.0
-
-- Add-on help is available from the Add-ons Manager.
-
-## Changes for 1.2
-
-- When moving to the IRC messages, the selected text is reported properly.
-- The keystroke used for moving to the Search results list has been generalized to be able to move focus to any available list in the current window.
-- The command used to focus the IRC messages has been generalized to move to any read-only edit box, making it possible to review connection information in the Servers window.
-- When moving mouse and focus to the toolbar, in some cases it was announced twice. This has been fixed.
-
-## Changes for 1.1
-
-- Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.
-- Shortcuts can now be reassigned using the NVDA gesture input dialog.
-
-## Changes for 1.0
-
-- Initial version.
+## Alterações para 1.0 ##
+*	 Versão inicial.
 
 [1]: http://www.emule-project.net

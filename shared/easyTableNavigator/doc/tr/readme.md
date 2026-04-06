@@ -1,27 +1,84 @@
-# Easy Table Navigator
+# Kolay Tablo Dolaşımı
 
-- Author: Joseph Lee
-- Download [stable version][1]
-- Download [development version][2]
+*   Yazarlar: Corentin Bacqué-Cazenave, Joseph Lee
+* [Kararlı sürümü indir][1]
+* [Geliştirici sürümünü indir][2]
+* NVDA uyumluluğu: 2019.3 ve sonrası
 
-This plugin adds a layer command to use arrow keys to navigate table cells.
+Bu eklenti, tablo hücrelerinde dolaşmak için basitleştirilmiş tuş kombinasyonunu kullanmak üzere bir katman komutu ekler. Katmanlı komutlar etkinleştirildiğinde, aşağıdaki eylemleri gerçekleştirebilirsiniz.
+Katmanlı komutlar etkinleştirildiğinde, aşağıdaki eylemleri gerçekleştirebilirsiniz:
+Ok tuşlarını kullanarak yatay veya dikey olarak önceki veya sonraki hücreye gidin
+Control+ok tuşlarını veya Home, End, PageUp ve PageDown'u kullanarak satırın veya sütunun ilk veya son hücresine gidin
+Windows+sol ok / windows+yukarı ok kullanarak sistem imlecini hareket ettirmeden tüm satırı veya sütunu okuyun
+Geçerli hücreden başlayarak satırı veya sütunu windows+sağ ok / windows+aşağı ok kullanarak okuyun
 
-Currently supported tables are:
+Şu anda desteklenen tablolar şunlardır:
 
-- Browse mode (Internet Explorer, Firefox, etc.).
-- Microsoft Word.
+* Tarama kipi modu (Internet Explorer, Firefox, vb.).
+* Microsoft Word.
 
-## Commands
+## Komutlar
 
-- Toggles table navigator layer on and off (unassigned).
+* Tablo dolaşımı katmanını açar ve kapatır (atanmamış).
 
-## Changes for 1.1
+## 2.5 için değişiklikler
 
-- Fixed an issue where errors might be heard when spell checking a message in Outlook.
+* Artık NVDA 2024.1 ile uyumlu
 
-## Changes for 1.0
+## 2.4 için değişiklikler
 
-- Initial release.
+Bu sürüm için, çalışmalarından dolayı Cyrille Bougot'ya çok teşekkürler.
+* Tablo dolaşımı MS Word'de düzeltildi
+* NVDA 2022.2 ve 2022.4'teki değişiklikleri takiben yeni komutlar tanıtıldı
+ başlangıç ​​noktasına atlamak için home/end/pgUp/pgDown/satır/sütun sonu
+ satır/sütun başına/sonuna atlamak için control+sol/sağ/yukarı/aşağıOk (aynı sonuç için alternatif kısayol tuşu)
+ İmlecin mevcut konumunu hareket ettirmeden ilk hücreden başlayarak tüm satırı/sütun okumak için NVDA+sol/yukarı
+ NVDA + sağ / aşağı diyelim ki Satırda / sütunda tümü, yani geçerli satırın / sütunun hücrelerini okuyun, geçerli hücreden başlayın ve satırın / sütunun son hücresine kadar okurken imlecin konumunu hareket ettirin.
+* Çakışmaları önlemek için bazı tuşlar yeniden eşlendi:
+ NVDA+yukarı ok/sol ok, windows+yukarı ok/sol ok olur (tam sütun/satır okumak için)
+ NVDA+aşağı ok/sağ Ok, windows+aşağı ok/sağ Ok olur (tümünü sütun/satır olarak söyleyin)
+* Artık NVDA 2023.1 ile uyumlu
+
+## 2.3 için değişiklikler
+
+* Tablo dolaşımı katmanını her yerden devre dışı bırakmak artık mümkün
+* Artık NVDA 2022.1 ile uyumlu
+* Eklentiyi yeniden yüklerken hata düzeltildi
+
+## 2.2.1 için değişiklikler
+
+* Word ve Outlook dahil bazı belge türlerindeki bir hata düzeltildi
+
+## 2.2 için değişiklikler
+
+* Eklenti şablonundan belge stili güncellendi
+* İlk tercüme edilmiş sürüm
+
+## 2.1.1 için değişiklikler
+
+* Manifest dosyasında  ve belgelerde yeni yazar
+
+## 2.1 için değişiklikler
+
+* Artık NVDA 2021.1 ile uyumlu
+
+## 2.0 için değişiklikler
+
+* NVDA 2019.3 veya sonraki bir sürümü gerektirir.
+* Çeşitli eklenti mesajları çevrilebilir hale getirildi.
+
+## 1.2 için değişiklikler
+
+* Gelecekteki NVDA sürümlerini desteklemek için değişiklikler.
+
+## 1.1 için değişiklikler
+
+* Outlook'ta bir iletide yazım denetimi yapılırken hataların duyulabileceği bir sorun düzeltildi.
+
+## 1.0 için değişiklikler
+
+*   İlk sürüm.
 
 [1]: http://addons.nvda-project.org/files/get.php?file=etn
+
 [2]: http://addons.nvda-project.org/files/get.php?file=etn-dev

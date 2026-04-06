@@ -1,55 +1,45 @@
-# Report Symbols
+# Sembolleri Bildir #
+*	Yazar: Noelia Ruiz Martínez.
 
-- Author: Noelia Ruiz Martínez.
+Bu eklenti, NVDA'da yazılan karakterlerin konuşulması kapatıldığında bile, yazılan sembollerin (alfanumerik olmayan veya boş karakterler) bildirilmesini sağlar.
 
-This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.
+Aynı yazar tarafından geliştirilen eski ReportSymbols eklentisine dayanmaktadır. Bu sürümü kullanmak için onu kaldırmalısınız.
 
-It's based on the old ReportSymbols add-on, developed by the same author. You should uninstall it to use this version.
+## Tercihler menüsü ##
+*	Sembolleri bildir ayarları: Yazılan sembollerin söylenmesi için tercihlerin ayarlanmasına izin verir.
 
-## Preferences menu
+Not: Bu iletişim kutusunu açmak için bir hareket NVDA menüsü, Tercihler menüsü, Girdi hareketleri iletişim kutusunda, Konfigürasyon kategorisinden atanabilir.
 
-- Report Symbols settings: Allows to set preferences for the speaking of typed symbols.
+## Sembolleri hariç tut
 
-Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
+NVDA menüsü, Tercihler menüsü, Girdi hareketleri iletişim kutusundan, Sembolleri Bildir kategorisinden, yazarken bildirilecek sembolleri hariç tutmak (veya tekrar dahil etmek) için bir hareket ekleyebilirsiniz.
 
-## Exclude symbols
+## 29.0.0 için değişiklikler
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.
+* Yazarken söylenecek sembolleri hariç tutmak veya dahil etmek için hareketleri birleştirme yeteneği eklendi.
 
-## Changes for 29.0.0
+## 8.0 için değişiklikler
+* NVDA 2023.1 ile uyumlu.
 
-- Added ability to assing gestures to exclude or include symbols to be reported when typing.
+## 7.0 için değişiklikler
+* NVDA 2022.1 ile uyumlu.
 
-## Changes for 8.0
+## 6.0 için değişiklikler
+* NVDA 2021.1 ile uyumlu.
 
-- Compatible with NVDA 2023.1.
+## 5.0 için değişiklikler ##
+*	NVDA 2019.3 veya sonraki sürümünü gerektirir.
 
-## Changes for 7.0
+## 4.0 için değişiklikler ##
+* Eklenti ayarları, NVDA Ayarları iletişim kutusunun ilgili kategorisinde gösterilir.
+* NVDA 2018.2 veya sonraki sürümünü gerektirir.
 
-- Compatible with NVDA 2022.1.
+## 3.0 için değişiklikler##
+* Boşlukların, satır başlarının ve diğer boş karakterlerin söylenmesi için onay kutuları eklendi.
 
-## Changes for 6.0
+## 2.0 için değişiklikler ##
+*	Diyaloğun görsel sunumu, NVDA'da gösterilen diyalogların görünümüne bağlı kalarak geliştirildi.
+*	NVDA 2016.4 veya sonraki sürümünü gerektirir.
 
-- Compatible with NVDA 2021.1.
-
-## Changes for 5.0
-
-- Requires NVDA 2019.3 or later.
-
-## Changes for 4.0
-
-- The add-on settings are shown in the corresponding category of the NVDA Settings dialog.
-- Requires NVDA 2018.2 or later.
-
-## Changes for 3.0
-
-- Added checkboxes for the speaking of spaces, carriage returns and other blank characters.
-
-## Changes for 2.0
-
-- The visual presentation of the dialog has been enhanced, adhering to the appearance of the dialogs shown in NVDA.
-- Requires NVDA 2016.4 or later.
-
-## Changes for 1.0
-
-- Initial version.
+## 1.0 için değişiklikler ##
+*	İlk sürüm.

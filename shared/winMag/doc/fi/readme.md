@@ -1,135 +1,248 @@
-# Windows Magnifier
+# Windowsin suurennuslasi
 
-- Author: Cyrille Bougot
-- NVDA compatibility: 2018.3 and beyond
-- Download [stable version][1]
-- Download [development version][2]
+* Tekijä: Cyrille Bougot
+* yhteensopivuus: NVDA 2019.2.1 ja uudemmat
 
-This add-on improves the use of Windows Magnifier with NVDA.
+Tämä lisäosa parantaa Windowsin suurennuslasin käytettävyyttä NVDA:lla.
 
-## Features
 
-- Allows to report the result of some native Magnifier keyboard commands.
-- Allows to reduces the cases where table navigation command conflict with Magnifier's commands.
-- Adds some keyboard shortcuts to toggle various Magnifier options.
+## Ominaisuudet
 
-## Settings
+* Mahdollistaa joidenkin alkuperäisten suurennuslasin ja värisuodatuksen näppäinkomentojen tulosten ilmoittamisen.
+* Vähentää tapauksia, joissa taulukkonavigointikomennot ovat ristiriidassa suurennuslasikomentojen kanssa.
+* Lisää pikanäppäimiä useiden alkuperäisten suurennuslasin asetusten muuttamiseen.
+* Mahdollistaa suurennuslasin asetusten tallentamisen ja palauttamisen.
+* Lisää muutaman ominaisuuden, joita Windowsin suurennuslasi ei tarjoa (siirrä hiiri näkymään, suurennuslasi ei päällimmäisenä)
 
-The setting panel of Windows Magnifier extension allows to configure how NVDA reacts to native Windows Magnifier commands.
-You may want to have more or less commands reported according to what you are able to see.
-This panel may be opened choosing Preferences -> Settings in the NVDA menu and then selecting the Windows Magnifier category in the Settings window.
-The keyboard shortcut NVDA+Windows+O then O also allows to open this settings panel directly.
+## Asetukset
 
-The panel contains the following options:
+Windowsin suurennuslasi -lisäosan asetuspaneelissa voidaan määrittää, miten NVDA reagoi suurennuslasin alkuperäisiin komentoihin.
+Saatat haluta enemmän tai vähemmän komentoja ilmoitettavan riippuen siitä, minkä verran näet.
+Paneelissa on myös asetus, jolla voi muokata suurennuslasin ohjausikkunan toimintaa.
 
-- Report view moves: controls what is reported when you move the view with Control+Alt+Arrows commands. The three options are:
+Tämä paneeli voidaan avata Valitsemalla NVDA-valikosta Mukautukset -> Asetukset ja sitten avautuvasta asetusikkunasta Windowsin suurennuslasi -kategoria.
+Tämä asetuspaneeli voidaan myös avata suoraan painamalla näppäinkomentoa NVDA+Win+O ja sitten O.
 
-  - Off: Nothing is reported
-  - With speech: a speech message indicate the position of the zoomed view on the dimension the view is being moved.
-  - With tones: a tone is played and its pitch indicates the position of the zoomed view on the dimension the view is being moved.
+Paneelissa on seuraavat asetukset:
 
-  This option only affects full view mode.
-- Report turn on or off:
-  If checked, the Magnifier's state is reported when you use Windows++ or Windows+Escape commands to turn it on or off.
-- Report zoom:
-  If checked, the Magnifier's zoom level is reported when you use Windows++ or Windows+- zoom commands.
-- Report color inversion:
-  If checked, the color inversion state is reported when you use the control+Alt+I toggle command.
-- Report view change:
-  If checked, the view type is reported when you use a command that changes the view type (Control+Alt+M, Control+Alt+F, Control+Alt+D, Control+Alt+L)
-- Report lens or docked window resizing:
-  If checked, a message is reported when you use the resizing commands (Alt+Shift+Arrows).
-  In docked window mode, the height or the width is reported.
-  In lens mode, the new dimension cannot be reported for now.
-  These resizing command do not seem to be available on all versions of Windows; if your Windows version does not support them, you should keep this option unchecked.
-- In documents and list views, pass control+alt+arrows shortcuts to Windows Magnifier:
-  There are three possible choices:
+* Ilmoita näkymän siirtäminen: määrittää, mitä ilmoitetaan, kun näkymää siirretään Ctrl+Alt+nuolinäppäimillä. Käytettävissä olevat kolme vaihtoehtoa ovat:
+  
+    * Ei käytössä: Mitään ei ilmoiteta.
+    * Puheella: Puhuttu viesti ilmaisee zoomatun näkymän sijainnin suunnassa, johon näkymää siirretään.
+    * Merkkiäänillä: Toistettava merkkiääni ja sen korkeus ilmaisevat zoomatun näkymän sijainnin suunnassa, johon näkymää siirretään.
+  
+  Tämä asetus ei vaikuta kiinnitetyn näkymän tilaan.
 
-  - Never: The command is not passed to Windows Magnifier and standard NVDA table navigation can operate.
-    When used in documents out of a table, Control+Alt+Arrow commands report a "Not in a table" error message.
-    This is the standard behaviour of NVDA without this add-on.
-  - Only when not in table: In table or in list views, Control+Alt+Arrow commands perform standard table navigation.
-    When used in documents out of a table, Control+Alt+Arrow commands perform standard Magnifier view move commands.
-    If you still want to move Windows Magnifier view while in table or in list view, you will need to press NVDA+F2 before using Control+Alt+Arrow commands.
-    This option is the best compromise if you want to use Control+Alt+Arrow for both Magnifier and table navigation.
-  - Always: Control+Alt+Arrow commands moves the Magnifier's view in any case.
-    This option may be useful if you do not use Control+Alt+Arrow to navigate in table, e.g. because you have changed table navigation shortcuts in NVDA or because you exclusively use [Easy table navigator][5] add-on for table navigation.
+* Ilmoita näytön reunat: Määrittää, mitä ilmoitetaan, kun näytön reuna saavutetaan siirrettäessä näkymää Ctrl+Alt+nuolinäppäimillä.
+  Käytettävissä olevat kolme vaihtoehtoa ovat: Ei käytössä, Puheella ja Merkkiäänillä.
+  Tämä asetus ei vaikuta kiinnitetyn näkymän tilaan.
+* Näkymän sijainnin ilmoittavien merkkiäänien voimakkuus: Mahdollistaa merkkiäänien voimakkuuden määrittämisen, mikäli olet valinnut näkymän siirtämisen tai näytön reunojen ilmoittamisen merkkiäänillä.
+* Ilmoita käyttöön ottaminen tai käytöstä poistaminen:
+  Jos tämä on valittuna, suurennuslasin tila ilmoitetaan käytettäessä Win++- tai Win+Esc-komentoja sen käyttöön ottamiseksi tai käytöstä poistamiseksi.
+* Ilmoita zoomauksen taso:
+  Jos tämä on valittuna, suurennuslasin zoomauksen taso puhutaan käyttäessäsi zoomauskomentoja Win++ tai Win+-.
+* Puhu värin inversio:
+  Jos tämä on valittuna, värin inversion tila ilmoitetaan käytettäessä tilanvaihtokomentoa Ctrl+Alt+I.
+* Ilmoita näkymän muutos:
+  Jos tämä on valittuna, näkymän tyyppi puhutaan käytettäessä sitä vaihtavaa komentoa (Ctrl+Alt+M, Ctrl+Alt+F, Ctrl+Alt+D ja Ctrl+Alt+L).
+* Ilmoita linssi- tai kiinnitetyn ikkunan koon muuttaminen:
+  Jos tämä on valittuna, NVDA antaa ilmoituksen käytettäessä koonmuuttamiskomentoja (Alt+Vaihto+nuolinäppäimet).
+  Kiinnitetyn ikkunan tilassa ilmoitetaan korkeus tai leveys.
+  Linssitilassa uutta mittaa ei toistaiseksi voida ilmoittaa.
+  Nämä koonmuutoskomennot eivät näytä olevan käytettävissä kaikissa Windows-versioissa; mikäli Windows-versiosi ei tue niitä, älä valitse tätä asetusta.
+* Välitä Ctrl+Alt+nuolet asiakirjoissa ja luettelonäkymissä Windowsin suurennuslasille:
+  Mahdollisia vaihtoehtoja on kolme:
+  
+    * Ei koskaan: Komentoa ei välitetä Windowsin suurennuslasille, ja tavallinen NVDA:n taulukkonavigointi toimii.
+      Kun Ctrl+Alt+Nuolinäppäin-komentoa käytetään asiakirjoissa olevien taulukoiden ulkopuolella, NVDA ilmoittaa virheen "Ei taulukossa".
+      NVDA toimii näin ilman tätä lisäosaa.
+      Voit edelleen käyttää NVDA+Win+O:ta ja sitten nuolinäppäimiä suurennetun näkymän siirtämiseen.
+    * Vain, kun ei taulukossa: Taulukko- tai luettelonäkymissä Ctrl+Alt+Nuoli-komentoja voidaan käyttää tavalliseen taulukkonavigointiin.
+      Ctrl+Alt+nuoli-komennot suorittavat tavallisia suurennuslasin näkymänsiirtokomentoja, kun niitä käytetään asiakirjoissa olevien taulukoiden ulkopuolella.
+      Mikäli haluat silti siirtää Windowsin suurennuslasin näkymää taulukko- tai luettelonäkymässä, sinun on painettava NVDA+F2 ennen kuin käytät Ctrl+Alt+Nuoli-komentoja, tai käytä vaihtoehtoisesti NVDA+Win+O:ta ja sitten nuolinäppäimiä.
+      Tämä vaihtoehto on paras kompromissi, jos haluat käyttää Ctrl+Alt+Nuoli-näppäinyhdistelmää sekä suurennuslasissa että taulukossa liikkumiseen.
+    * Aina: Ctrl+Alt+nuoli-komennot siirtävät suurennuslasin näkymää kaikissa tapauksissa.
+      Tämä vaihtoehto voi olla hyödyllinen, mikäli et käytä Ctrl+Alt+nuoli-komentoja taulukossa liikkumiseen, esim. koska olet vaihtanut NVDA:n taulukkonavigointikomentoja tai koska käytät yksinomaan [Helppo taulukossa liikkuminen][5] -lisäosaa taulukkonavigointiin.
 
-## Commands added by this add-on
+* Pidä Windowsin suurennuslasin komentoikkuna aina päällimmäisenä:
+  Jos tämä ei ole valittuna, suurennuslasin säädinikkunaa ei pidetä aina muiden ikkunoiden päällä.
+* Ilmoita värisuodatin:
+  Jos tämä on valittuna, käytössä oleva värisuodatin ilmoitetaan käytettäessä tilanvaihtokomentoa `Win+Ctrl+C`.
 
-In addition to native Magnifier commands, this add-on provide additional commands that allow to control Magnifier's options without opening its configuration page.
-All the commands added to control Magnifier options are accessible through the Magnifier layer command NVDA+Windows+O:
+## Lisäosan lisäämät komennot
 
-- NVDA+Windows+O then C: Toggles on or off caret tracking.
-- NVDA+Windows+O then F: Toggles on or off focus tracking.
-- NVDA+Windows+O then M: Toggles on or off mouse tracking.
-- NVDA+Windows+O then T: Toggles on or off tracking globally.
-- NVDA+Windows+O then S: Toggles on or off smoothing.
-- NVDA+Windows+O then R: Switches between mouse tracking modes (within the edge of the screen or centered on the screen); this feature is only available on Windows 10 build 17643 or higher.
-- NVDA+Windows+O then X: Switches between text cursor tracking modes (within the edge of the screen or centered on the screen); this feature is only available on Windows 10 build 18894 or higher.
-- NVDA+Windows+O then V: Moves the mouse cursor in the center of the magnified view (command available in full screen view only).
-- NVDA+Windows+O then O: Opens Windows Magnifier add-on settings.
-- NVDA+Windows+O then H: Displays help on Magnifier layer commands.
+Tämä lisäosa tarjoaa alkuperäisten suurennuslasikomentojen lisäksi seuraavia lisäkomentoja:
 
-There is no default direct gesture for each command, but you can attribute one normally in the input gesture dialog if you wish.
-The same way, You can also modify or delete the Magnifier layer access gesture (NVDA+Windows+O).
-Yet, you cannot modify the shortcut key of the Magnifier layer sub-commands.
+* Komentoja, joiden avulla voi hallita suurennuslasin asetuksia avaamatta sen asetussivua.
+* Tämän lisäosan lisäkomentoja.
 
-## Magnifier's native commands
+Kaikki nämä lisäkomennot ovat käytettävissä suurennuslasin komentokerroksen, NVDA+Win+O, kautta:
 
-The result of the following Magnifier native commands may be reported by this add-on, according to its configuration:
+* NVDA+Win+O ja sitten C: Ottaa käyttöön tai poistaa käytöstä kohdistimen seurannan.
+* NVDA+Win+O ja sitten F: Ottaa käyttöön tai poistaa käytöstä kohdistuksen seurannan.
+* NVDA+Win+O ja sitten M: Ottaa käyttöön tai poistaa käytöstä hiiren seurannan.
+* NVDA+Win+O ja sitten T: Ottaa käyttöön tai poistaa käytöstä seurannan järjestelmänlaajuisesti.
+  Kun seuranta otetaan uudelleen käyttöön, käytössä on ennen sen käytöstä poistamista aktiivisena ollut asetus.
+* NVDA+Win+O ja sitten S: Ottaa käyttöön tai poistaa käytöstä pehmennyksen.
+* NVDA+Win+O ja sitten R: Vaihtaa hiiren osoittimen seurannan tilaa (näytön reunojen sisäpuolella tai näytöllä keskitettynä). Tämä ominaisuus on käytettävissä vain Windows 10:n koontiversiossa 17643 tai sitä uudemmassa.
+* NVDA+Win+O ja sitten X: Vaihtaa tekstikohdistimen seurannan tilaa (näytön reunojen sisäpuolella tai näytöllä keskitettynä). Tämä ominaisuus on käytettävissä vain Windows 10:n koontiversiossa 18894 tai sitä uudemmassa.
+* NVDA+Win+O ja sitten Vaihto+P: Tallentaa nykyiset suurennuslasin asetukset NVDA:n asetuksiin.
+* NVDA+Win+O ja sitten P: Palauttaa suurennuslasin nykyiset asetukset NVDA:n asetuksista.
+  Mikäli asetuksia ei ole aiemmin tallennettu, Windowsin suurennuslasin oletusasetukset palautetaan.
+* NVDA+Win+O ja sitten nuolinäppäimet: Siirtää suurennettua näkymää.
+* NVDA+Win+O ja sitten V: Siirtää hiirikohdistimen suurennetun näkymän keskelle (komento ei ole käytettävissä kiinnitetyn näkymän tilassa).
+* NVDA+Win+O ja sitten W: Ottaa käyttöön tai poistaa käytöstä tilan, joka pitää Windowsin suurennuslasin ikkunan muiden ikkunoiden päällä.
+  Tämä ominaisuus on käytettävissä vain NVDA:n asennetuissa versioissa.
+* NVDA+Win+O ja sitten O: Avaa Windowsin suurennuslasi -lisäosan asetukset.
+* NVDA+Win+O ja sitten H: Näyttää suurennuslasin komentokerroskomentojen ohjeen.
 
-- Start Magnifier: Windows++ (on alpha-numeric keyboard or on numpad)
-- Quit Magnifier: Windows+Escape
-- Zoom in: Windows++ (on alpha-numeric keyboard or on numpad)
-- Zoom out: Windows+- (on alpha-numeric keyboard or on numpad)
-- Toggle color inversion: Control+Alt+I
-- Select the docked view: Control+Alt+D
-- Select the full screen view: Control+Alt+F
-- Select the lens view: Control+Alt+L
-- Cycle through the three view types: Control+Alt+M
-- Resize the lens with the keyboard: Shift+Alt+Left/Right/Up/DownArrow.
-  Note: although this does not seem to be documented, this shortcut seems to have been withdrawn in recent Windows versions such as Windows 2004.
-- Move the magnified view: Control+Alt+Arrows (reporting only affects full screen mode)
+Komennoilla ei ole oletusarvoisia näppäinkomentoja, mutta voit halutessasi määrittää ne normaalisti Näppäinkomennot-valintaikkunassa.
+Samalla tavalla voit myös muuttaa tai poistaa suurennuslasin komentokerroksen aktivointikomennon (NVDA+Win+O).
+Komentokerroksen alikomentojen muuttaminen ei kuitenkaan ole mahdollista.
 
-Here is also a list of other Magnifier native commands, just for information:
 
-- Control+Alt+mouseScrollWheel: Zooms in and out using the mouse scroll wheel.
-- Control+Windows+M: Opens the Magnifier's settings window.
-- Control+Alt+R: Resizes the lens with the mouse.
-- Control+Alt+Space: Quickly shows the entire desktop when using full screen view.
+## Alkuperäiset suurennuslasikomennot
 
-None of the Magnifier native commands can be modified.
+Asetuksista riippuen seuraavien alkuperäisten suurennuslasi- tai muiden helppokäyttötoimintojen komentojen tulokset ilmoitetaan tätä lisäosaa käytettäessä:
 
-## Notes
+* Käynnistä suurennuslasi: Win++ (numeroriviltä tai laskinnäppäimistöltä)
+* Lopeta suurennuslasi: Win+Esc
+* Lähennä: Win++ (numeroriviltä tai laskinnäppäimistöltä)
+* Loitonna: Win+- (numeroriviltä tai laskinnäppäimistöltä)
+* Ota käyttöön tai poista käytöstä käänteiset värit: Ctrl+Alt+I
+* Valitse kiinnitetty näkymä: Ctrl+Alt+D
+* Valitse koko ruudun näkymä: Ctrl+Alt+F
+* Valitse linssinäkymä: Ctrl+Alt+L
+* Vaihda kolmen näkymätyypin välillä: Ctrl+Alt+M
+* Muuta linssin kokoa näppäimistöllä: Vaihto+Alt+Nuoli vasemmalle/oikealle/ylös/alas.
+  Huom: Tämä pikanäppäin näyttää olevan poistettu viimeisimmistä Windows-versioista, kuten Windows 10 2004, vaikkei sitä ole dokumentoitu missään.
+* Siirrä suurennettua näkymää: Ctrl+Alt+nuolinäppäimet
+* Ota käyttöön tai poista käytöstä värisuodattimet: `Win+Ctrl+C` (jos olet ottanut tämän pikanäppäimen käyttöön Windowsin asetuksista kohdasta [Helppokäyttötoiminnot -> Värisuodattimet][9])
 
-- For computers equipped with an Intel graphic card, control+alt+arrow (left/right/up/down) are also shortcuts to modify the orientation of the screen.
-  These shortcut are enabled by default and conflict with Windows Magnifiers shortcuts to move the view.
-  You will need to disable them to be able to use them for the Magnifier.
-  They can be disabled in the Intel control panel or in the Intel menu present in the system tray.
+Tässä on lisäksi luettelo muista Suurennuslasin alkuperäisistä komennoista:
 
-- Depending on your Windows version, Alt+Shift+Arrow are Windows Magnifier shortcuts to resize the magnified view (lens or docked).
-  When Magnifier is active (even in full screen mode), these shortcuts are captured by Magnifier and cannot be passed to the application, even if you press NVDA+F2 before.
-  To use these shortcuts in the current application, you need to quit the Magnifier (Windows+Escape) and re-open it after (Windows++).
-  For example in MS word, to decrease title level:
+* Ctrl+Alt+hiiren vieritysrulla: Lähennä tai loitonna hiiren vieritysrullaa käyttäen.
+* Ctrl+Win+M: Avaa suurennuslasin asetusikkunan.
+* Ctrl+Alt+R: Muuttaa linssin kokoa hiiren avulla.
+* Ctrl+Alt+Väli: Näyttää nopeasti koko työpöydän koko näytön näkymää käytettäessä.
 
-  - Press Windows+Escape to quit Magnifier.
-  - Press Alt+Shift+RightArrow to decrease current title level.
-  - Press Windows++ to re-open the Magnifier.
+Alkuperäisiä suurennuslasikomentoja ei voi muuttaa.
 
-- For more information about Windows Magnifier's features and shortcuts, you may want to consult the following pages:
 
-  - [Use Magnifier to make things on the screen easier to see][3]
-  - [Windows keyboard shortcuts for accessibility][4]
+## Huomautukset
 
-## Change log
+* Intel-näytönohjaimella varustetuissa tietokoneissa Ctrl+Alt+Nuoli vasemmalle/oikealle/ylös/alas ovat myös näytön suunnan muuttamisen pikanäppäimiä.
+  Nämä pikanäppäimet ovat oletusarvoisesti käytössä ja ristiriidassa Windowsin suurennuslasin näkymänsiirtopikanäppäinten kanssa.
+  Ne on poistettava käytöstä, jotta voit käyttää niitä suurennuslasissa.
+  Ne voidaan poistaa käytöstä Intelin ohjauspaneelista tai ilmaisinalueen Intel-valikosta.
+* Windows-versiostasi riippuen Alt+Vaihto+nuoli-komennot ovat Windowsin suurennuslasin pikanäppäimiä suurennetun näkymän koon muuttamiseen linssi- tai kiinnitetyssä näkymässä.
+  Kun suurennuslasi on käytössä (jopa koko näytön tilassa), se kaappaa nämä pikanäppäimet, eikä niitä voi välittää aktiiviselle sovellukselle, vaikka painaisit ensin NVDA+F2.
+  Mikäli haluat käyttää näitä pikanäppäimiä nykyisessä sovelluksessa, sinun on suljettava suurennuslasi (Win+Esc) ja avattava se uudelleen sen jälkeen (Win++).
+  Esimerkiksi Microsoft Wordissa otsikkotason pienentämiseksi:
+  
+    * Sulje suurennuslasi painamalla Win+Esc.
+    * Pienennä nykyistä otsikkotasoa painamalla Alt+Vaihto+nuoli oikealle.
+    * Avaa suurennuslasi uudelleen painamalla Win++.
 
-### Version 1.0
+* Saat lisätietoja Windowsin suurennuslasin ominaisuuksista ja pikanäppäimistä seuraavilta sivuilta:
 
-- Initial release.
+    * [Näytön sisällön näkyvyyden parantaminen suurennuslasin avulla](https://support.microsoft.com/fi-fi/windows/n%C3%A4yt%C3%B6n-sis%C3%A4ll%C3%B6n-n%C3%A4kyvyyden-parantaminen-suurennuslasin-avulla-414948ba-8b1c-d3bd-8615-0e5e32204198)
+    * [Windowsin helppokäyttötoimintojen pikanäppäimet][4]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=winmag
-[2]: https://addons.nvda-project.org/files/get.php?file=winmag-dev
-[3]: https://support.microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-easier-to-see
+* Tätä lisäosaa ei ole testattu moninäyttöympäristössä, ja on mahdollista, että jokin ominaisuus ei toimi sitä käytettäessä.
+  Ota minuun yhteyttä, mikäli käytät moninäyttöympäristöä ja haluat, että sitä tuetaan.
+* Yleisemmin ottaen älä epäröi ottaa minuun yhteyttä tämän lisäosan [GitHub-sivulla][3] tai suoraan sähköpostitse.
+
+
+## Muutosloki
+
+### Versio 4.2
+
+* Suurennuslasin tai värisuodatuksen komennot toimivat nyt ensimmäisellä käyttökerralla, kun tämä lisäosa on käynnissä.
+
+### Versio 4.0
+
+* Pikanäppäimellä `Ctrl+Win+C` käyttöön otettavan värisuodattimen tila voidaan nyt ilmoittaa. Tämä pikanäppäin on ensin otettava käyttöön Windowsin helppokäyttötoimintojen asetuksista.
+* Yhteensopivuus NVDA 2025.1:n kanssa.
+
+### Versio 3.7
+
+* Yhteensopivuus NVDA 2024.1:n kanssa.
+
+### Versio 3.6
+
+* Korjattu virheellinen versioyhteensopivuus.
+
+### Versio 3.5
+
+* Valmisteltu yhteensopivuutta NVDA 2024.1:n kanssa.
+* Ratkaisee mahdolliset [GHSA-xg6w-23rw-39r8][8]:aan liittyvät tietoturvaongelmat käytettäessä lisäosaa vanhemmilla NVDA-versioilla. NVDA 2023.3.3:n tai uudemman käyttö on kuitenkin suositeltavaa.
+* Huom: Tästä lähtien käännöspäivitykset eivät enää näy muutoslokissa.
+
+### Versio 3.4
+
+* "Siirrä hiiri näkymään" -komento toimii taas
+* Lokalisointeja päivitetty.
+
+### Versio 3.3
+
+* Yhteensopivuudeksi muutettu NVDA 2019.2.1 ja sitä uudemmat.
+  Uusimmat NVDA 2018.3:n kanssa yhteensopivat versiot ovat [3.2][7] (osittain yhteensopiva) ja [1.1][6] (täysin yhteensopiva).
+* Korjattu asetuspaneelin bugi NVDA 2019.2.1:ssä.
+
+### Versio 3.2
+
+* Dev-kanava poistettu.
+* Lokalisointeja päivitetty.
+
+### Versio 3.1
+
+* Korjattu ongelma, joka esti suurennuslasin komentoikkunan palauttamisen päällimmäiseksi.
+* Korjattu ongelma, joka esti lisäosan suorittamisen NVDA 2019.2.1:ssä.
+* Lokalisointeja päivitetty.
+
+### Versio 3.0
+
+* Uusi zoomauksen taso ilmoitetaan nyt painettaessa suurennuslasin ikkunassa olevia Zoomauspainikkeita näppäimistöltä.
+* Suurennuslasin säädinikkunan päällimmäisenä olemista määrittävä asetus tallennetaan nyt asetuksiin.
+  Tämä tarkoittaa, että asetuksen tila muistetaan NVDA:ta uudelleenkäynnistettäessä, ja asetus voidaan ottaa käyttöön tai poistaa käytöstä aktiivisesta profiilista riippuen.
+* Korjattu bugi, joka aiheutti odottamattoman näyttöverhon käytöstä poistamisen Siirry näkymään- tai Siirrä näkymää -komentoja käytettäessä.
+* Aina päällimmäisenä -asetusta noudatetaan nyt myös suurennuksen tilaa vaihdettaessa.
+* Lisätty mahdollisuus Windowsin suurennuslasin asetusten tallentamiseen ja palauttamiseen.
+* Yhteensopivuus NVDA 2023.1:n kanssa.
+* Selvennetty käytössä olevaa asetusta, kun seuranta otetaan uudelleen käyttöön.
+* Lokalisointeja päivitetty.
+
+### Versio 2.0
+
+* Näkymää voidaan siirtää nuolinäppäimillä Windows-suurennuslasin komentokerroksessa oltaessa.
+* Mahdollisuus pitää suurennuslasin komentoikkuna aina päällimmäisenä.
+* Lisätty "Ilmoita näytön reunat" -ominaisuus.
+* Merkkiäänien voimakkuusasetus näkymänsiirtämiskomentoja käytettäessä.
+* Näkymän siirtämis- ja Siirrä hiiri näkymään -komentojen ilmoittamista tuetaan nyt linssitilassa.
+* Yhteensopivuus NVDA 2022.1:n kanssa.
+* Korjattu bugi, jonka vuoksi joskus ilmoitettiin virheellisesti, ettei suurennuslasi toiminut skriptiä kutsuttaessa.
+* Julkaisu suoritetaan nyt appVeyorin sijasta GitHub-toiminnolla.
+* Lokalisointeja päivitetty.
+
+### Versio 1.1
+
+* Lokalisointeja lisätty.
+
+### Versio 1.0
+
+* Ensimmäinen versio.
+
+[3]: https://github.com/CyrilleB79/winMag
+
 [4]: https://support.microsoft.com/en-us/help/13810
+
 [5]: https://addons.nvda-project.org/addons/easyTableNavigator.en.html
+
+[6]: https://github.com/CyrilleB79/winMag/releases/download/V1.1/winMag-1.1.nvda-addon
+
+[7]: https://github.com/CyrilleB79/winMag/releases/download/V3.2/winMag-3.2.nvda-addon
+
+[8]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994
+
+[9]: https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d

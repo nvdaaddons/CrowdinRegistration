@@ -1,67 +1,81 @@
-# Control Usage Assistant
+# Control Usage Assistant #
 
-- NVDA compatibility: 2022.1 and later
-- Author: Joseph Lee, Noelia Ruiz Martínez
-- Download [stable version][1]
-- Download [development version][2]
+* Автор: Joseph Lee, Noelia Ruiz Martínez
 
-Use this add-on to find out how to interact with the focused control.
-Press NVDA+H to obtain a short help message on interacting with the focused control, such as checkboxes, edit fields and so on.
 
-Go to NVDA's menu, Preferences submenu, Settings dialog, Control Usage Asistant category to configure add-on settings:
+Используйте это дополнение, чтобы узнать, как взаимодействовать с типом управления в фокусе.
+Нажмите NVDA+H, чтобы получить короткую справку по взаимодействию с определённым типом управления, например, флажки, поля редактирования и так далее.
 
-- Select output modes for automatic messages: This list of checkboxes allows to select speech and braille.
-- Pitch change for automatic messages: This spin box allows to set the pitch change when NVDA reads automatic messages (from -30 to +30).
+Перейдите в меню NVDA, подменю "Параметры", диалог "Настройки", категорию "Control Usage Asistant", чтобы настроить параметры дополнения:
 
-## Version 2022.03.27
+* Автоматические сообщения для элементов в фокусе: по умолчанию включено.
+* Введите сообщение, которое будет использоваться при активации объекта: Вы можете включить короткое сообщение с указанием жеста по умолчанию или настроенного вами жеста, чтобы узнать, связано ли действие с текущим объектом, при нажатии жеста, подобного NVDA+enter, в навигации по объектам.
+* Выбор режимов вывода автоматических сообщений: Этот список флажков позволяет выбрать речь и Брайль.
+* Изменение высоты тона для автоматических сообщений: Этот счётчик позволяет настроить изменение высоты тона при считывании автоматических сообщений NVDA (от -30 до +30).
 
-- Requires NVDA 2022.1 or later.
+## Версия 20250611.0.0
 
-## Version 22.01
+* Добавлены кнопки копирования и закрытия в сообщениях, предоставляемых режимом обзора.
 
-- Added support for automatic messages.
-- Improved support for requested messages in browse mode.
+## Версия 20240324.0.0
 
-## Version 21.10
+* Улучшена поддержка элементов управления редактирования и предложений.
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
+## Версия 2023.02.19
 
-## Version 20.10
+* Сообщение, настроенное для интерактивных объектов, будет отображаться после других свойств.
+* Совместимо с NVDA 2023.1.
 
-- Help messages are announced in languages other than English.
+## Версия 2022.07.10
 
-## Version 20.06
+* Добавлена возможность установки сообщения для навигации по объекту, чтобы сообщить, может ли текущий объект быть активирован.
 
-- Resolved many coding style issues and potential bugs with Flake8.
-- NVDA will no longer appear to do nothing or play error tones when trying to obtain help for certain browse mode controls.
+## Версия 2022.03.27
 
-## Version 20.01
+* Требуется NVDA 2022.1 или выше.
 
-- NVDA 2019.3 or later is required.
+## Версия 22.01
 
-## Version 3.0/19.11
+* Добавлена поддержка автоматических сообщений.
+* Улучшена поддержка запрошенных сообщений в режиме просмотра.
 
-- Version scheme is now year.month.
-- When NVDA+H is pressed, a help screen will be displayed instead of a flash message being shown.
+## Версия 21.10
 
-## Version 2.5
+* Требуется NVDA 2021.2 или выше из-за изменений в NVDA, которые влияют на это дополнение.
 
-- Compatible with Python 3.
+## Версия 20.10
 
-## Version 2.1
+* Сообщения о помощи публикуются на других языках, кроме английского.
 
-- New and updated translations.
+## Версия 20.06
 
-## Version 2.0
+* Устранены многие проблемы со стилем кодирования и потенциальные ошибки с помощью Flake8.
+* NVDA больше не будет отображать бездействие или воспроизводить сигналы об ошибках при попытке получить справку по определённым элементам управления в режиме обзора.
 
-- Help messages for more controls added, including terminal windows.
-- Added help messages for working in some areas of applications, such as Microsoft Excel and Powerpoint and Windows 8 start screen.
-- Added help messages for working with forms in both browse and focus modes in virtual buffer documents (Internet Explorer, Adobe Reader, Mozilla Firefox, etc.).
-- New language: Danish.
+## Версия 20.01
 
-## Version 1.0
+* Требуется NVDA 2019.3 или выше.
 
-- Initial version.
+## Версия 3.0/19.11
 
-[1]: https://addons.nvda-project.org/files/get.php?file=cua
-[2]: https://addons.nvda-project.org/files/get.php?file=cua-dev
+* Схема версий теперь год.месяц.
+* При нажатии клавиш NVDA+H вместо всплывающего сообщения будет отображён экран справки.
+
+## Версия 2.5
+
+* Совместимо с Python 3.
+
+## Версия 2.1
+
+* Новые и обновлённые переводы.
+
+## Версия 2.0
+
+* Добавлены справочные сообщения о дополнительных элементах управления, включая окна терминала.
+* Добавлены сообщения справки для работы в некоторых областях приложений, таких как Microsoft Excel и Powerpoint и стартовый экран Windows 8.
+* Добавлены сообщения справки для работы с формами в обоих режимах, обзора и редактирования, в виртуальных буферах документов (Internet Explorer, Adobe Reader, Mozilla Firefox и др.).
+* Новый язык: датский.
+
+## Версия 1.0
+
+* Начальная версия.

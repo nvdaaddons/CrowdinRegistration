@@ -1,166 +1,181 @@
-# RDAccess: Remote Desktop Accessibility
+# RDAccess: Etätyöpöydän saavutettavuus
 
-- Authors: [Leonard de Ruijter][1]
-- Download [latest stable version][2]
-- NVDA compatibility: 2023.2 and later
+* Tekijä: [Leonard de Ruijter][1]
+* Lataa [uusin vakaa versio][2]
+* Yhteensopivuus: NVDA 2024.1 ja uudemmat
 
-The RDAccess add-on (Remote Desktop Accessibility) adds support for Microsoft Remote Desktop, Citrix, or VMware Horizon remote sessions to NVDA.
-When installed on both the client and the server in NVDA, speech and braille generated on the server will be spoken and displayed in braille on the client machine.
-This enables a user experience where managing a remote system feels as seamless as operating the local system.
+RDAccess-lisäosa lisää NVDA:han tuen etätyöpöytäistunnoille Microsoft Etätyöpöytää, Citrixiä, Parallels RASia tai VMware Horizonia käyttäen.
+Kun tämä lisäosa on asennettu NVDA:han sekä asiakas- että palvelinkoneessa, palvelimella tuotettu puhe ja pistekirjoitus puhutaan ja näytetään asiakaskoneessa.
+Tämä mahdollistaa käyttäjäkokemuksen, jossa etäjärjestelmän hallinta tuntuu aivan paikallisen järjestelmän käyttämiseltä.
 
-## Features
+## Ominaisuudet
 
-- Support for Microsoft Remote Desktop (including Azure Virtual Desktop and Microsoft Cloud PC), Citrix, and VMware Horizon
-- Speech and braille output
-- Automatic detection of remote braille using NVDA's automatic braille display detection
-- Automatic detection of remote speech using a dedicated detection process that can be disabled in NVDA's settings dialog
-- Support for portable copies of NVDA running on a server (additional configuration required for Citrix)
-- Full support for portable copies of NVDA running on a client (no additional administrative privileges required to install the add-on)
-- Multiple active client sessions simultaneously
-- Remote desktop instantly available after NVDA start
-- Ability to control specific synthesizer and braille display settings without leaving the remote session
-- Ability to use speech and braille from the user session when accessing secure desktops
+* Tuki Microsoft Etätyöpöydälle (Azure Virtual Desktop ja Microsoft Cloud PC mukaan lukien), Citrixille, Parallels RASille sekä VMware Horizonille
+* Puheen ja pistekirjoituksen tuottaminen
+* Automaattinen etäpistenäyttöjen tunnistus NVDA:n automaattista pistenäytön tunnistusta käyttäen
+* Automaattinen etäpuhesyntetisaattoreiden tunnistus erityistä tunnistusmenetelmää käyttäen, joka voidaan poistaa käytöstä NVDA:n asetusvalintaikkunassa
+* Tuki palvelimella käynnissä olevalle NVDA:n massamuistiversiolle (Citrixiä varten tarvitaan lisämäärityksiä)
+* Täysi tuki asiakaskoneessa käynnissä olevalle NVDA:n massamuistiversiolle (lisäosan asentamiseen ei tarvita järjestelmänvalvojan oikeuksia)
+* Samanaikaisesti useita aktiivisia asiakasistuntoja
+* Etätyöpöytä on käytettävissä heti NVDA:n käynnistyksen jälkeen
+* Mahdollisuus muuttaa tiettyjä syntetisaattori- ja pistenäyttöasetuksia etäistunnosta poistumatta
+* Mahdollisuus käyttää puhetta ja pistenäyttöä käyttäjäistunnosta suojatulla työpöydällä oltaessa
 
-## Changelog
+## Muutosloki
 
-### Version 1.5
+### Versio 1.6
 
-- Add the ability to create a debugging diagnostics report by means of a button in the RDAccess settings panel [#23](https://github.com/leonardder/rdAccess/pull/23).
-- Support for multi-line braille displays in NVDA 2025.1 and newer [#19](https://github.com/leonardder/rdAccess/pull/13).
-- The minimum compatible NVDA version is now 2024.1. Removed support for earlier versions.
-- Added client connection notifications [#25](https://github.com/leonardder/rdAccess/pull/25).
-- Updated RdPipe dependency.
-- Updated translations.
+* Parallels RAS -tukea dokumentoitu ja paranneltu.
+* NVDA:n yhteensopiva vähimmäisversio on nyt 2025.1. Vanhempien versioiden tuki on poistettu.
+* RdPipe-riippuvuus päivitetty.
+* Lisätty mahdollisuus RdPipen lokitason määrittämiseen.
+* Lisätty asetuspaneeliin RdPipe-lokin tarkastelutoiminto.
+* Asennuksen poiston toimintaa paranneltu (ei aiheuta enää virheitä eikä poista Citrix-tukea, jos Citrix ei ole käytettävissä).
 
-### Version 1.4
+### Versio 1.5
 
-- New stable release.
+* Lisätty mahdollisuus luoda virheenjäljityksen vianmääritysraportti painikkeen avulla RDAccessin asetuspaneelissa [#23](https://github.com/leonardder/rdAccess/pull/23).
+* Tuki monirivisille pistenäytöille NVDA 2025.1:ssä ja sitä uudemmissa [#19](https://github.com/leonardder/rdAccess/pull/13).
+* NVDA:n yhteensopiva vähimmäisversio on nyt 2024.1. Aiempien versioidenn tuki on poistettu.
+* Lisätty asiakasyhteyden ilmoitukset [#25](https://github.com/leonardder/rdAccess/pull/25).
+* RdPipe-riippuvuus päivitetty.
+* Käännöksiä päivitetty.
 
-### Version 1.3
+### Versio 1.4
 
-- Fixed broken braille display gestures.
+* Uusi vakaa versio.
 
-### Version 1.2
+### Versio 1.3
 
-- Use [Ruff](https://github.com/astral-sh/ruff) as a formatter and linter. [#13](https://github.com/leonardder/rdAccess/pull/13).
-- Fixed an issue where NVDA on the client generates an error when pausing speech on the server.
-- Fixed support for `winAPI.secureDesktop.post_secureDesktopStateChange`.
-- Improved driver initialization on the server.
+* Rikkoutuneet pistenäyttöjen näppäinkomennot korjattu.
 
-### Version 1.1
+### Versio 1.2
 
-- Added support for NVDA 2023.3 style device registration for automatic detection of braille displays. [#11](https://github.com/leonardder/rdAccess/pull/11).
-- Added support for NVDA 2024.1 Alpha `winAPI.secureDesktop.post_secureDesktopStateChange` extension point. [#12](https://github.com/leonardder/rdAccess/pull/12).
+* Koodin muotoilijana ja tarkistustyökaluna käytetään [Ruffia](https://github.com/astral-sh/ruff). [#13](https://github.com/leonardder/rdAccess/pull/13).
+* Korjattu ongelma, joka aiheutti sen, että NVDA tuotti asiakaskoneella virheen, kun puhe tauotettiin palvelimella.
+* Korjattu `winAPI.secureDesktop.post_secureDesktopStateChange`:n tuki.
+* Ajurin alustusta paranneltu palvelimella.
 
-### Version 1.0
+### Versio 1.1
 
-Initial stable release.
+* Lisätty tuki NVDA 2023.3:n tyyliselle pistenäyttöjen automaattisen tunnistuksen laiterekisteröinnille. [#11](https://github.com/leonardder/rdAccess/pull/11).
+* Lisätty tuki NVDA 2024.1 alfan `winAPI.secureDesktop.post_secureDesktopStateChange`-laajennuspisteelle. [#12](https://github.com/leonardder/rdAccess/pull/12).
 
-## Getting Started
+### Versio 1.0
 
-1. Install RDAccess on both a client and server copy of NVDA.
-2. The remote system should automatically start speaking using the local speech synthesizer. If not, in the NVDA instance on the server, select the remote speech synthesizer from NVDA's synthesizer selection dialog.
-3. To use braille, enable automatic braille display detection using the braille display selection dialog.
+Ensimmäinen vakaa versio.
 
-## Configuration
+## Aloittaminen
 
-After installation, the RDAccess add-on can be configured using NVDA's settings dialog, accessible from the NVDA Menu by choosing Preferences > Settings...
-Then, choose the Remote Desktop category.
+1. Asenna RDAccess NVDA:han sekä asiakas- että palvelinkoneella.
+1. Etäjärjestelmän pitäisi alkaa puhua paikallista puhesyntetisaattoria käyttäen. Jos näin ei tapahdu, valitse etäpuhesyntetisaattori palvelimella käynnissä olevan NVDA:n Valitse syntetisaattori -valintaikkunasta.
+1. Voit käyttää pistekirjoitusta ottamalla käyttöön automaattisen pistenäytön tunnistuksen "Valitse pistenäyttö" -valintaikkunassa.
 
-This dialog contains the following settings:
+## Asetusten määrittäminen
 
-### Enable Remote Desktop Accessibility for
+Kun RDAccess-lisäosa on asennettu, sen asetukset voidaan määrittää NVDA:n asetusvalintaikkunasta, johon pääsee valitsemalla NVDA-valikosta Mukautukset > Asetukset...
+Valitse lopuksi Etätyöpöytä-kategoria.
 
-This list of checkboxes controls the operating mode of the add-on. Choose between:
+Tämä valintaikkuna sisältää seuraavat asetukset:
 
-- Incoming connections (Remote Desktop Server): Choose this option if the current instance of NVDA is running on a remote desktop server.
-- Outgoing connections (Remote Desktop Client): Choose this option if the current instance of NVDA is running on a remote desktop client that connects to one or more servers.
-- Secure Desktop pass-through: Choose this option if you want to use braille and speech from the user instance of NVDA when accessing the secure desktop. Note that for this to work, you need to make the RDAccess add-on available on the secure desktop copy of NVDA. For this, choose "Use currently saved settings during sign-in and on secure screens (requires administrator privileges)" in NVDA's general settings.
+### Ota etätyöpöydän saavutettavuus käyttöön
 
-To ensure a smooth start with the add-on, all options are enabled by default. However, you are encouraged to disable server or client mode as appropriate.
+Tämän luettelon valintaruuduilla voit valita lisäosan toimintatilan. Seuraavat vaihtoehdot ovat käytettävissä:
 
-### Automatically Recover Remote Speech after Connection Loss
+* Saapuville yhteyksille (etätyöpöytäpalvelin): Valitse tämä vaihtoehto, jos nykyinen NVDA-kopio on käynnissä etätyöpöytäpalvelimella.
+* Lähteville yhteyksille (etätyöpöytäasiakas): Valitse tämä vaihtoehto, jos nykyinen NVDA-kopio on käynnissä etätyöpöytäasiakkaalla, joka muodostaa yhteyden yhteen tai useampaan palvelimeen.
+* Suojatun työpöydän läpivienti: Valitse tämä vaihtoehto, jos haluat käyttää NVDA:n käyttäjäkopion pistenäyttöä ja puhetta etätyöpöytää käyttäessäsi. Huom: Jotta tätä toimintoa voisi käyttää, RDAccess-lisäosa on kopioitava suojatulla työpöydällä käytettävään NVDA-versioon. Tämä tehdään valitsemalla NVDA:n yleisistä asetuksista "Käytä tallennettuja asetuksia kirjautumisikkunassa ja suojatuissa ruuduissa (edellyttää järjestelmänvalvojan oikeuksia)".
 
-This option is only available in server mode. It ensures that the connection will automatically be re-established when the Remote Speech synthesizer is active and the connection is lost, similar to braille display auto-detection.
+Kaikki asetukset ovat oletusarvoisesti käytössä, jotta varmistetaan sujuva lisäosan käytön aloitus. Sinua kuitenkin kannustetaan poistamaan käytöstä tarpeen mukaan joko palvelin- tai asiakastila.
 
-This option is enabled by default. It is strongly encouraged to leave this option enabled if the Remote Desktop server has no audio output.
+### Palauta etäpuhe automaattisesti yhteyden katkettua
 
-### Allow Remote System to Control Driver Settings
+Tämä asetus on käytettävissä vain palvelintilassa. Se varmistaa, että yhteys muodostetaan automaattisesti uudelleen, kun etäpuhesyntetisaattori on käytössä yhteyden katketessa. Tämä toiminnallisuus on samankaltainen kuin pistenäytön automaattinen tunnistus.
 
-When enabled in the client, this option allows you to control driver settings (such as synthesizer voice and pitch) from the remote system. Changes made on the remote system will automatically reflect locally.
+Asetus on oletusarvoisesti käytössä. Sen käytössä pitäminen on erittäin suositeltavaa, mikäli etätyöpöytäpalvelimella ei ole äänilaitetta.
 
-### Persist Client Support When Exiting NVDA
+### Anna etäjärjestelmän muuttaa ajurin asetuksia
 
-This client option, available on installed copies of NVDA, ensures that the client portion of NVDA is loaded in your remote desktop client even when NVDA is not running.
+Tämä asiakasasetus mahdollistaa käytössä ollessaan ajurin asetusten (kuten syntetisaattorin puheäänen ja äänenkorkeuden) muuttamisen etäjärjestelmästä. Etäjärjestelmässä tehdyt muutokset toteutetaan automaattisesti paikallisessa järjestelmässä.
 
-To use the client portion of RDAccess, changes need to be made in the Windows Registry.
-The add-on ensures that these changes are made under the profile of the current user, requiring no administrative privileges.
-Therefore, NVDA can automatically apply the necessary changes when loaded and undo these changes when exiting NVDA, ensuring compatibility with portable versions of NVDA.
+### Säilytä asiakastuki NVDA:ta suljettaessa
 
-This option is disabled by default. However, if you are running an installed copy and you are the only user of the system, it is advised to enable this option for smooth operation when connecting to a remote system after NVDA starts.
+Tämä asiakasasetus, joka on käytettävissä vain NVDA:n asennetuissa versioissa, varmistaa käytössä ollessaan, että NVDA:n asiakasosa ladataan etätyöpöytäasiakkaaseesi, vaikka NVDA ei olisi käynnissä.
 
-### Enable Microsoft Remote Desktop Support
+Windowsin rekisteriin on tehtävä muutoksia, jotta RDAccessin asiakasosaa voidaan käyttää.
+Lisäosa varmistaa, että nämä muutokset tehdään nykyiseen käyttäjäprofiiliin.
+Siksi NVDA voi käynnistettäessä tehdä tarvittavat muutokset automaattisesti ja perua ne suljettaessa. Tämä varmistaa, että lisäosa on täysin yhteensopiva NVDA:n massamuistiversioiden kanssa.
 
-This option, enabled by default, ensures that the client portion of RDAccess is loaded in the Microsoft Remote Desktop client (mstsc) when starting NVDA.
-Changes made through this option will be automatically undone when exiting NVDA unless persistent client support is enabled.
+Tämä asetus on oletusarvoisesti poissa käytöstä. Jos käytössäsi kuitenkin on NVDA:n asennettu versio ja olet järjestelmän ainoa käyttäjä, tämän asetuksen käyttöönotto on suositeltavaa. Tämä varmistaa sujuvan toiminnan muodostettaessa yhteyttä etäjärjestelmään NVDA:n käynnistyksen jälkeen.
 
-### Enable Citrix Workspace Support
+### Ota käyttöön oletusetätyöpöydän tuki
 
-This option, enabled by default, ensures that the client portion of RDAccess is loaded in the Citrix Workspace app when starting NVDA.
-Changes made through this option will be automatically undone when exiting NVDA unless persistent client support is enabled.
+Tämä asetus on oletusarvoisesti käytössä ja varmistaa, että RDAccessin asiakasosa ladataan Microsoft-etätyöpöytäasiakkaaseen NVDA:ta käynnistettäessä.
+Tätä asetusta tarvitaan myös VMware Horizonille, Parallels RASille, Azure Virtual Desktopille jne.
+Asetuksen tekemät muutokset perutaan automaattisesti NVDA:ta suljettaessa, ellei asiakastuen säilyttämistä ole otettu käyttöön.
 
-This option is available only under the following conditions:
+### Ota käyttöön Citrix Workspacen tuki
 
-- Citrix Workspace is installed. Note that the Windows Store version of the app is not supported due to limitations in the app itself.
-- It is possible to register RDAccess under the current user context. After installing the app, you have to start a remote session once to enable this.
+Tämä asetus on oletusarvoisesti käytössä ja varmistaa, että RDAccessin asiakasosa ladataan Citrix Workspace -sovellukseen NVDA:ta käynnistettäessä.
+Asetuksen tekemät muutokset perutaan automaattisesti NVDA:ta suljettaessa, ellei asiakastuen säilyttämistä ole otettu käyttöön.
 
-### Notify of connection changes with
+Tämä asetus on käytettävissä vain seuraavissa tilanteissa:
 
-This combo box allows you to control notifications received when a remote system opens or closes the remote speech or braille connection.
-You can choose between:
+* Citrix Workspace on asennettu. Huom: Sovelluksen Windows Store -versiota ei tueta sen rajoitusten vuoksi.
+* RDAccess on mahdollista rekisteröidä nykyiselle käyttäjälle. Tämä tehdään aloittamalla etäistunto kerran sovelluksen asennuksen jälkeen.
 
-- Off (No notifications)
-- Messages (e.g. "Remote braille connected")
-- Sounds (NVDA 2025.1+)
-- Both messages and sounds
+### Ilmoita yhteyden muutokset
 
-Note that sounds are not available on NVDA versions older than 2025.1. Beeps will be used on older versions.
+Tästä yhdistelmäruudusta voit hallita ilmoituksia, jotka vastaanotetaan, kun etäjärjestelmä avaa tai sulkee etäpuhe- tai pistenäyttöyhteyden.
+Seuraavat vaihtoehdot ovat käytettävissä:
 
-### Open diagnostics report
+* Ei käytössä (ei ilmoituksia)
+* Ilmoituksilla (esim. "Etäpistenäyttö yhdistetty")
+* Äänillä (NVDA 2025.1 ja uudemmat)
+* Ilmoituksilla ja äänillä
 
-This button opens a browsable message with JSON output containing several diagnostics that can possibly aid in debugging.
-When [filing an issue at GitHub][4], you might be asked to provide this report.
+Huomaa, että äänet eivät ole käytettävissä NVDA 2025.1:tä vanhemmissa versioissa. Vanhemmissa versioissa käytetään merkkiääniä.
 
-## Citrix Specific Instructions
+### Avaa vianmääritysraportti
 
-There are important points to note when using RDAccess with the Citrix Workspace app:
+Tämä painike avaa erillisessä ikkunassa JSON-muotoisen tulosteen useista vianmäärityksistä, jotka voivat mahdollisesti auttaa virheenjäljityksessä.
+Kun [teet GitHubissa][4] ilmoituksen ongelmasta, sinua saatetaan pyytää toimittamaan tämä raportti lisäosan tekijöille.
 
-### Client-Side Requirements
+## Citrix-ohjeet
 
-1. The Windows Store variant of the app is _not_ supported.
-2. After installing Citrix Workspace, you need to start a remote session once to let RDAccess register itself. This occurs because the application copies system settings to user settings during the initial session setup. Following this, RDAccess can register itself under the current user context.
+RDAccessin käytössä Citrix Workspace -sovelluksen kanssa on otettava huomioon joitakin tärkeitä seikkoja:
 
-### Server-Side Requirement
+### Asiakaspuolen vaatimukset
 
-In Citrix Virtual Apps and Desktops 2109, Citrix enabled the so-called virtual channel allow list, restricting third-party virtual channels, including the channel required by RDAccess, by default.
-For more information, [see this Citrix blog post](https://www.citrix.com/blogs/2021/10/14/virtual-channel-allow-list-now-enabled-by-default/).
+1. Sovelluksen Windows Store -versiota ei tueta.
+1. Kun olet asentanut Citrix Workspace -sovelluksen, sinun on käynnistettävä etäistunto kerran, jotta RDAccess voi rekisteröidä itsensä. Syynä tähän on se, että sovellus kopioi järjestelmän asetukset käyttäjän asetuksiin luodessaan istunnon ensimmäistä kertaa. Tämän jälkeen RDAccess voi rekisteröidä itsensä nykyiselle käyttäjälle.
 
-Explicitly allowing the RdPipe channel required by RDAccess is not yet tested. For now, it is best to disable the allow list altogether. If your system administrator has concerns, feel free to [address the issue here][3].
+### Palvelinpuolen vaatimus
 
-## Issues and Contributing
+Citrix otti käyttöön Citrix Virtual Apps and Desktopsin versiossa 2109 niin kutsutun virtuaalikanavan sallittujen luettelon. Tämä tarkoittaa, että kolmannen osapuolen virtuaalikanavia, RDAccessin tarvitsema kanava mukaan lukien, ei oletusarvoisesti sallita.
+Katso lisätietoja [tästä Citrixin blogikirjoituksesta](https://www.citrix.com/blogs/2021/10/14/virtual-channel-allow-list-now-enabled-by-default/).
 
-To report an issue or contribute, refer to [the issues page on Github][4].
+RDAccessin tarvitseman RdPipe-kanavan erikseen sallimista ei ole vielä testattu. Toistaiseksi on suositeltavaa poistaa sallittujen luettelo kokonaan käytöstä. Mikäli järjestelmäsi ylläpitäjä ei ole tyytyväinen tähän ratkaisuun, voit [ottaa asian esiin täällä][3].
 
-## External Components
+## Ongelmat ja kehitykseen osallistuminen
 
-This add-on relies on [RD Pipe][5], a library written in Rust backing the remote desktop client support.
-RD Pipe is redistributed as part of this add-on under the terms of [version 3 of the GNU Affero General Public License][6].
+Jos haluat ilmoittaa ongelmasta tai osallistua tämän lisäosan kehitykseen, tutustu [GitHubin issues-sivuun][4].
 
-[[!tag dev beta]]
+## Ulkoiset osat
+
+Tämä lisäosa on riippuvainen [RD Pipestä][5], Rust-ohjelmointikielellä kirjoitetusta kirjastosta, joka mahdollistaa etätyöpöytäasiakkaan tuen.
+RD Pipeä jaetaan tämän lisäosan mukana Free Software Foundationin julkaiseman [GNU AGPL -lisenssin version 3][6] ehtojen mukaisesti.
+
+[[!tag stable dev beta]]
 
 [1]: https://github.com/leonardder/
+
 [2]: https://www.nvaccess.org/addonStore/legacy?file=rdAccess
+
 [3]: https://github.com/leonardder/rdAccess/issues/1
+
 [4]: https://github.com/leonardder/rdAccess/issues
+
 [5]: https://github.com/leonardder/rd_pipe-rs
+
 [6]: https://github.com/leonardder/rd_pipe-rs/blob/master/LICENSE

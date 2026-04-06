@@ -1,27 +1,32 @@
-# Enhanced Annotations
+# Расширенные Аннотации #
 
-- Authors: George Kerscher, Noelia Ruiz Martínez
-- (compatible with NVDA 2022.1 and beyond)
+*	Авторы: George Kerscher, Noelia Ruiz Martínez
 
-In the DAISY Consortium, best practices are developed for publishers and authors for providing extended (long) descriptions.
+В консорциуме DAISY разработаны рекомендации для издателей и авторов по предоставлению расширенных (длинных) описаний.
 
-The best practices use the HTML details element that follows the image, or a link to another file that contains the extended description.
+Рекомендуется использовать элемент HTML details, который следует за изображением, или ссылку на другой файл, содержащий расширенное описание.
 
-In both options, the user would need to move to the details or the link and activate it.
+В обоих вариантах пользователю нужно будет перейти к подробностям или ссылке и активировать её.
 
-Having a keystroke to put focus on the details or the link is ideal.
+Идеальным вариантом является нажатие клавиши, позволяющее сфокусироваться на деталях или ссылке.
 
-Our best practices recommend that the details or the link immediately follows the image, and if the link is followed, a back link to the exact location must be provided. This makes it certain that the user will not get lost.
+В соответствии с нашими рекомендациями, информация или ссылка должны быть указаны непосредственно после изображения, и, если пользователь перешел по ссылке, должна быть указана обратная ссылка на точное местоположение. Это гарантирует, что пользователь не заблудится.
 
-However it is probable that authors in the wild will place the extended (long) description almost anywhere. In these cases, the user would want to return to the image and hence the need for a way to return to the original image.
+Однако вполне вероятно, что авторы в обычной ситуации разместят расширенное (длинное) описание практически в любом месте. В таких случаях пользователь захочет вернуться к изображению и, следовательно, ему потребуется способ вернуться к исходному изображению.
 
-This add-on provides both features, in support of this [issue opened in NVDA's repository][2].
+Это дополнение предоставляет обе возможности поддержки этой [проблемы, открытой в репозитории NVDA][1].
 
-## Commands
+## Команды ##
 
-- NVDA+alt+d: moves the cursor to the element identified with aria-details.
-- NVDA+alt+shift+d: moves the cursor to the original element, for example, an image with furter details like a long description.
+* NVDA+alt+d: перемещает курсор на элемент, обозначенный как aria-details.
+* NVDA+alt+shift+d: перемещает курсор на исходный элемент, например, изображение с более подробной информацией, например, с длинным описанием. Если несколько раз нажать клавиши NVDA+alt+d для перехода к связанным аннотациям, можно будет возвращаться к каждому источнику.
 
-The above commands can be modified from NVDA's menu, Preferences submenu, Input gestures dialog, Browse mode category.
+Вышеуказанные команды можно изменить из меню NVDA, подменю параметров, диалога жестов ввода, категории режима обзора.
 
-[2]: https://github.com/nvaccess/nvda/issues/13940
+## Изменения для версии 2.0 ##
+
+* Добавлена возможность возврата к нескольким источникам аннотаций.
+* Требуется NVDA 2023.1 или выше.
+
+
+[1]: https://github.com/nvaccess/nvda/issues/13940

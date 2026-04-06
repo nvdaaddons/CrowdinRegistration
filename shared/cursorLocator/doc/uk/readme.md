@@ -1,43 +1,39 @@
-# Cursor Locator
+# Шукач вказівника #
+* Автори: Noelia Ruiz Martínez, Sergio Gómez Codina.
 
-- Authors: Noelia Ruiz Martínez, Sergio Gómez Codina.
+Цей додаток дозволяє дізнаватися позицію системного курсора відносно початку поточного рядка під час введення тексту в документах або багаторядкових полях редагування.
 
-This add-on makes possible to know the position of the system caret respect to the start of the current line, while typing to add text in documents or multiline controls.
+функція залежить від зовнішнього вигляду програм. Через це може знадобитися вимкнути вирівнювання рядків або налаштувати доповнення окремо для різних програм.
 
-This feature deppends on the visual appearance of applications. Therefore, you may need to disable line adjustment or configure the add-on for different programs.
+## Налаштування шукача вказівника ##
 
-## Cursor Locator settings
+Ця панель доступна в меню NVDA → «Параметри» → «Налаштування».
 
-This panel is available from NVDA's menu, Preferences submenu, Settings dialog.
+Вона містить наступні параметри:
 
-It provides the following options:
+* Звітувати про довжину рядка після: Ви можете ввести або вибрати довжину рядка (кількість символів від 0 до 600). При досягненні цього значення відтворюється високий тон. (Типове значення — 80 символів).
+* Максимальна кількість звукових сигналів для сповіщення про початок рядка: Ви можете ввести або вибрати значення від 0 до 600. Типове значення — 0.
+* Максимальна кількість звукових сигналів для сповіщення про кінець рядка: Ви можете ввести або вибрати значення від 0 до 600. Типове значення — 0.
+* Висота звуку для початку рядка: Ви можете ввести або вибрати значення від 20 до 20000. (Типове значення — 400 Гц).
+* Тривалість сигналу для початку рядка: Ви можете ввести або вибрати значення від 20 до 2000. (Типове значення — 50 мс).
+* Відтворити звук початку рядка: натисніть цю кнопку, щоб прослухати налаштований звук для початку рядка.
+* Висота звуку завершення рядка: Ви можете ввести або вибрати значення від 20 до 20000. (Типове значення — 1000 Гц).
+* Тривалість звуку завершення рядка: Ви можете ввести або вибрати значення від 20 до 2000. (Типове значення — 50 мс).
+* Відтворити звук завершення рядка: натисніть цю кнопку, щоб прослухати налаштований звук для кінця рядка.
 
-- Report line length: You can type or choose a line length (number of characters between 0 and 600), which will be announced by a hight tone when it's reached. (The default value is 80 characters).
-- Maximum number of beeps for start of line notification: You can type or select a value between 0 and 600. The default value is 0.
-- Maximum number of beeps for end of line notification: You can type or select a value between 0 and 600. The default value is 0.
-- Pitch of sound for start of line: You can type or select a value between 20 and 20000. (The default value is 400 hertzs).
-- Length of sound for start of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).
-- Test sound for start of line: Press this button to test the configured sound for start of line.
-- Pitch of sound for end of line: You can type or select a value between 20 and 20000. (The default value is 1000 hertzs).
-- Length of sound for end of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).
-- Test sound for end of line: Press this button to test the configured sound for end of line.
+## Команди
 
-## Commands
+Ви можете змінювати жести для наступних команд через меню NVDA → «Параметри» → «Жести вводу»:
 
-You can modify the gestures to the following commands trought the NVDA's menu, Preferences submenu, Input gestures dialog:
+* NVDA+Control+Shift+L: коли можливо, повідомляє довжину поточного рядка (категорія «Системний курсор»).
+* Не призначено: Відобразити налаштування шукача вказівника (категорія «Конфігурація»).
 
-- NVDA+control+shift+l: When possible, reports the lenght of the current line (System caret category).
-- Not assigned: Shows the Cursor Locator settings dialog (Config category).
+## Зміни у 3.0 ##
+* Сумісність з NVDA 2023.1.
 
-## Changes for 3.0
+## Зміни у 2.0 ##
+* Додано можливість повторювати сповіщення при досягненні початку та кінця рядка.
+* Додано підтримку документів Microsoft Office та Блокнота у Windows 11.
 
-- Compatible with NVDA 2023.1.
-
-## Changes for 2.0
-
-- Added ability to repeat notifications when reaching end and start of line.
-- Added support for Office documents, and Notepad on Windows 11.
-
-## Changes for 1.0
-
-- Initial version.
+## Зміни у 1.0 ##
+* Початкова версія

@@ -1,39 +1,57 @@
-# Win Wizard
+# Ikkunavelho
 
-- Author: Oriol Gómez, current maintenance by Łukasz Golonka
-- NVDA compatibility: 2019.3 and beyond
+* Tekijät: Oriol Gómez, Łukasz Golonka, nykyinen ylläpitäjä Jakub Lukowicz
+* Yhteensopivuus: NVDA 2019.3 tai uudempi
 
-This add-on allows you to perform some operations on the focused window or the process associated with it.
+Tämän lisäosan avulla voit suorittaa joitakin toimintoja aktiiviselle ikkunalle tai siihen liittyvälle prosessille.
+Kun prosessi lopetetaan tai ikkuna näytetään/piilotetaan, toiminnon onnistuessa kuuluu vahvistusääni.
+Jos tämä tuntuu ärsyttävältä, voit poistaa äänen käytöstä Ikkunavelhon asetuspaneelista, joka löytyy NVDA:n asetusvalintaikkunasta.
 
-## Keyboard commands:
+## Näppäinkomennot:
+Voit muuttaa näitä komentoja Näppäinkomennot-valintaikkunan Ikkunavelho-kategoriasta.
+### Ikkunoiden piilottaminen ja näyttäminen:
+* NVDA+Win+Numerot 1-0: Piilottaa aktiivisen ikkunan painettua numeroa vastaavaan paikkaan.
+* NVDA+Win+Vasen nuoli: Siirtää edelliseen piilotettujen ikkunoiden pinoon.
+* NVDA+Win+Oikea nuoli: Siirtää seuraavaan piilotettujen ikkunoiden pinoon.
+* Win+Vaihto+H: Piilottaa aktiivisen ikkunan ensimmäiseen käytettävissä olevaan paikkaan.
+* NVDA+Win+H: Näyttää viimeksi piilotetun ikkunan.
+* Win+Vaihto+L: Näyttää luettelon kaikista piilotetuista ikkunoista pinojen mukaan ryhmiteltyinä (viimeksi piilotettu ikkuna on oletusarvoisesti valittuna).
 
-All these commands can be remapped from the Input gestures dialog in the Win Wizard category.
+### Prosessien hallinta:
+* Win+F4: Lopettaa aktiiviseen ikkunaan liittyvän prosessin.
+* NVDA+Win+P: Avaa valintaikkunan, jossa voit asettaa aktiiviseen ikkunaan liittyvän prosessin prioriteetin.
 
-### Hiding and showing hidden windows:
+### Sekalaiset komennot:
+* NVDA+Win+Sarkain: Vaihtaa nykyisen ohjelman ylätason ikkunoiden välillä (hyödyllinen foobar2000:ssa, Back4Suressa jne.).
+* Ctrl+Alt+T: Mahdollistaa aktiivisen ohjelman ikkunan nimen muuttamisen.
 
-- NVDA+Windows+numbers from 1 to 0 - hides  currently focused window in the slot corresponding to the pressed number
-- NVDA+Windows+left arrow - moves to the previous stack of hidden windows.
-- NVDA+Windows+right arrow - moves to the next stack of hidden windows.
-- Windows+Shift+h - hides the currently focused window in the first available slot
-- NVDA+Windows+h - shows the last hidden window
-- Windows+Shift+l - shows the list of all hidden windows grouped by the stacks (please note that by default last hidden window is selected)
+## Muutokset:
 
-### Managing processes:
+### Muutokset versiossa 5.0.7:
 
-- Windows+F4 - kills the process associated with the currently focused window
-- NVDA+Windows+p - opens dialog allowing you to set priority of the process associated with the currently focused window
+* Yhteensopiva NVDA 2025.1:n kanssa
+* Käännöksiä päivitetty
 
-### Miscellaneous  commands:
+### Muutokset versiossa 5.0.6:
 
-- NVDA+Windows+TAB - switches between top level windows of the current program (useful in foobar2000, Back4Sure etc.)
-- CTRL+ALT+T - allows you to change title of the currently focused program
+* Yhteensopiva NVDA 2024.1:n kanssa
+* Käännöksiä päivitetty
 
-## Changes:
+### Muutokset versiossa 5.0.5:
 
-## Changes for 5.0.3:
+* Yhteensopiva NVDA 2023.2:n kanssa
+* Käännöksiä päivitetty
 
-- Compatibility with NVDA 2021.1
+### Muutokset versiossa 5.0.4:
 
-## Changes for 5.0.2:
+* Yhteensopiva NVDA 2022.1:n kanssa
+* Vahvistusäänen käytöstä poistaminen on nyt mahdollista lisäosan asetuspaneelissa
+* Käännöksiä päivitetty
 
-- First release available from the add-ons website
+### Muutokset versiossa 5.0.3:
+
+* Yhteensopiva NVDA 2021.1:n kanssa
+
+### Muutokset versiossa 5.0.2:
+
+* Ensimmäinen lisäosasivustolta saatavilla oleva versio

@@ -1,55 +1,45 @@
-# Report Symbols
+# Puhu symbolit #
+*	Tekijä: Noelia Ruiz Martínez
 
-- Author: Noelia Ruiz Martínez.
+Tämän lisäosan avulla on mahdollista kuulla kirjoitetut symbolit (ei-aakkosnumeeriset ja tyhjämerkit), vaikka kirjoitettujen merkkien puhuminen on poistettu käytöstä.
 
-This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.
+Perustuu saman tekijän kehittämään vanhempaan ReportSymbols-lisäosaan. Sinun tulisi poistaa se tämän version käyttämiseksi.
 
-It's based on the old ReportSymbols add-on, developed by the same author. You should uninstall it to use this version.
+## Asetusvalikko ##
+*	Puhu symbolit: Mahdollistaa kirjoitettujen symbolien puhumisasetusten määrittämisen.
 
-## Preferences menu
+Huom: Tälle valintaikkunalle voidaan määrittää näppäinkomento menemällä NVDA-valikkoon, avaamalla Mukautukset-alivalikosta Näppäinkomennot-vaihtoehto ja valitsemalla avautuvasta valintaikkunasta Asetukset-kategoria.
 
-- Report Symbols settings: Allows to set preferences for the speaking of typed symbols.
+## Symbolien poissulkeminen
 
-Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
+Voit määrittää näppäinkomennon kirjoitettaessa puhuttavien symbolien sisällyttämiselle tai poissulkemiselle menemällä NVDA-valikkoon, avaamalla Mukautukset-alivalikon, valitsemalla Näppäinkomennot-vaihtoehdon ja sen jälkeen Puhu symbolit -kategorian.
 
-## Ohitettavat symbolit
+## Muutokset versiossa 29.0.0
 
-From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.
+* Lisätty mahdollisuus pikanäppäimen määrittämiseen kirjoitettaessa puhuttavien symbolien sisällyttämistä tai poissulkemista varten.
 
-## Changes for 29.0.0
+## Muutokset versiossa 8.0
+* Yhteensopiva NVDA 2023.1:n kanssa.
 
-- Added ability to assing gestures to exclude or include symbols to be reported when typing.
+## Muutokset versiossa 7.0
+* Yhteensopiva NVDA 2022.1:n kanssa.
 
-## Changes for 8.0
+## Muutokset versiossa 6.0
+* Yhteensopiva NVDA 2021.1:n kanssa.
 
-- Compatible with NVDA 2023.1.
+## Muutokset versiossa 5.0 ##
+*	Edellyttää NVDA 2019.3:a tai uudempaa.
 
-## Changes for 7.0
+## Muutokset versiossa 4.0 ##
+* Lisäosan asetukset näkyvät omassa kategoriassaan NVDA:n asetusvalintaikkunassa.
+* Edellyttää NVDA 2018.2:ta tai uudempaa.
 
-- Compatible with NVDA 2022.1.
+## Muutokset versiossa 3.0 ##
+* Lisätty valintaruudut välilyöntien, rivinvaihtojen ja muiden tyhjämerkkien puhumista varten.
 
-## Changes for 6.0
+## Muutokset versiossa 2.0 ##
+*	Valintaikkunan visuaalista esitystä on parannettu noudattamaan NVDA:n ikkunoiden ulkoasua.
+*	Edellyttää NVDA 2016.4:ää tai uudempaa.
 
-- Compatible with NVDA 2021.1.
-
-## Changes for 5.0
-
-- Requires NVDA 2019.3 or later.
-
-## Changes for 4.0
-
-- The add-on settings are shown in the corresponding category of the NVDA Settings dialog.
-- Requires NVDA 2018.2 or later.
-
-## Changes for 3.0
-
-- Added checkboxes for the speaking of spaces, carriage returns and other blank characters.
-
-## Changes for 2.0
-
-- The visual presentation of the dialog has been enhanced, adhering to the appearance of the dialogs shown in NVDA.
-- Requires NVDA 2016.4 or later.
-
-## Changes for 1.0
-
-- Initial version.
+## Muutokset versiossa 1.0 ##
+*	Ensimmäinen versio.

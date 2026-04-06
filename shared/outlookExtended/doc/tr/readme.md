@@ -1,73 +1,129 @@
-# Outlook extended
+# Geliştirilmiş Outlook desteği
 
-- Authors: Cyrille Bougot, Ralf Kefferpuetz
-- NVDA compatibility: 2018.3 and beyond
-- Download [stable version][1]
-- Download [development version][2]
+* Yazarlar: Cyrille Bougot, Ralf Kefferpuetz
+* NVDA uyumluluğu: 2019.3 ve üzeri sürümler
+* [Kararlı Sürümü İndirin][1]
 
-This addon improves the use of Microsoft Outlook by vocalizing some commands and adding extra commands.
+Bu eklenti, Microsoft Outlook'un NVDA ile kullanımını geliştirir: bazı yerel komutları seslendirir ve ekstra komutlar ve özellikler ekler.
 
-## Commands
+## Komutlar
 
-- Alt+1 to Alt+9, Alt+0, Alt+-, Alt+=: Reports the header field 1 to 12 in a message, calendar item or task window. If pressed twice, moves the focus to this field if possible. If pressed three times, copies its content to the clipboard.
-- NVDA+shift+I (desktop layout) / NVDA+control+shift+I (laptop layout): Reports the information bar in a message, calendar item or task window. If pressed twice, moves the focus to it. If pressed three times, copies its content to the clipboard.
-- NVDA+shift+A (desktop layout) / NVDA+control+shift+A (laptop layout): Reports the number and the names of attachments in a message window. If pressed twice, moves the focus to it.
-- NVDA+shift+M (desktop layout) / NVDA+control+shift+M (laptop layout): Moves the focus to the message body.
-- Control+Alt+Left and Control+Alt+Right: in the address book search result list, navigates between the fields of the currently selected line.
-- Control+Q: in the message list, marks the selected message or group of messages as read.
-- Control+U: in the message list, marks the selected message or group of messages as unread.
+* Alt+1-9, Alt+0, Alt+-, Alt+=: 1-12 sayılı iletinin, takvim öğesinin veya görev penceresinin başlık alanını söyler. İki kez basıldığında, mümkün olduğunda odağı  başlık alanına taşır. Üç kez basıldığında başlık alanının içeriğini panoya kopyalar.
+* NVDA+shift+I (masaüstü düzeni) / NVDA+control+shift+I (dizüstü düzeni): iletinin, takvim öğesinin veya görev penceresinin bilgi çubuğunu okur. İki kez basıldığında odağı bilgi çubuğuna taşır. Üç kez basıldığında bilgi çubuğunun içeriğini panoya kopyalar.
+* NVDA+shift+A (masaüstü düzeni) / NVDA+control+shift+A (dizüstü düzeni):
+  
+    * İleti penceresinde: eklerin sayısını ve adlarını söyler; iki kez basıldığında odağı eklere taşır.
+    * Bir toplantı penceresinde, tüm katılımcılar sekmesinde: toplantının zaman dilimindeki katılımcıların durumunu göz atılabilir bir mesajda görüntüler.
 
-## Notes
+* NVDA+shift+M (masaüstü düzeni) / NVDA+kontrol+shift+M (dizüstü düzeni): Odağı ileti gövdesine taşır.
+* NVDA+shift+N (masaüstü düzeni) / NVDA+control+shift+N (dizüstü bilgisayar düzeni): Bildirimi bir mesaj penceresinde bildirir. İki kez basılırsa, odağı ona taşır. Üç kez basıldığında içeriğini panoya kopyalar.
+* Kontrol+Q: İleti listesinde, seçilen iletiyi veya ileti grubunu okundu olarak işaretler.
+* Kontrol+U: İleti listesinde, seçilen iletileri veya ileti grubunu okunmadı olarak işaretler.
 
-All the gestures can be modified in the NVDA command gestures dialog. You may want to modify them especially in the following situations:
+## Ek iyileştirmeler
 
-- The default gestures to mark messages as read or unread are the ones for Outlook english version. If they differ from the ones of your Outlook local version, you will have to change them accordingly.
-- The default gestures to read headers correspond to Alt combined with the keys of the first row of the alpha-numeric keyboard. You may need to re-map the gestures tor read header 11 and 12 if they do not match your local keyboard layout.
+* Kime, Bilgi veya Gizli alanlarına girdiğiniz alıcı otomatik olarak ofis dışında yanıtları gönderdiğinde veya artık Exchange sunucusunda bulunmadığında, Outlook bunu ileti penceresinin bildirim alanında bildirir. Bu bildirim alanında, bu alıcıların adresini kaldırmak için düğmeler de vardır.
+  Bu eklenti, bu bildirim alanı göründüğünde, kaybolduğunda veya güncellendiğinde sizi bir sesli uyarı ile bilgilendirir. Ardından NVDA+shift+N / NVDA+control+shift+N tuşlarına bir kez basarak okumasını sağlayabilir ve iki kez basarak bu alana atlayabilirsiniz. Daha sonra alıcı düğmelerindeki oklarla hareket edin ve ilgili alıcıyı kaldırmak için bir düğmeye basın.
+* Adres defterinin sonuç listesinde, her sütunun içeriğini okumak için yatay tablo gezinme komutlarını kullanabilirsiniz.
+  
+## Notlar
 
-## Change log
+Tüm komutlar NVDA'nın girdi hareketleri iletişim kutusundan değiştirilebilir. Özellikle aşağıdaki durumlarda komutları değiştirmeniz gerekebilir:
 
-### Version 1.7
+* İletileri okundu veya okunmadı olarak işaretleme komutları İngilizce Outlook'a göre ayarlanmıştır. Komutlar kullandığınız Outlook diliyle eşleşmiyorsa onları değiştirmeniz gerekecektir.
+* Başlıkları okuma komutları, Alt tuşu basılı tutulup klavyenin en üst sırasındaki tuşlara basılarak uygulanacak şekilde ayarlanmıştır. 11 ve 12. başlığı okuma komutları klavye düzeninizle eşleşmiyorsa bunları yeniden ayarlamanız gerekebilir.
 
-- Update compatibility for NVDA 2021.1.
-- Updated localizations.
+## Değişiklikler
 
-### Version 1.6
+### Sürüm 3.0
 
-- Fixed various issues when reading messages headers in Outlook 365.
-- Fixed an error in announce attachments script when a braille keyboard is used.
-- Added a unit test framework.
-- Updated localizations.
+* Bir toplantı penceresinde, tüm katılımcılar sekmesinde, NVDA+shift+A (masaüstü düzeni) / NVDA+control+shift+A (dizüstü düzeni) tuşlarına basıldığında artık toplantının zaman dilimindeki katılımcıların durumu göz atılabilir bir mesajda görüntüleniyor.
 
-### Version 1.5
+### Sürüm 2.4
 
-- Reading the information bar is now working with NVDA 2019.3.
-- Table navigation in the address book results is now working with NVDA 2019.3.
+* Eklenti NVDA 2024.1 ile uyumlu hâle getirildi.
+* İlgili komutlar artık isteğe bağlı konuşma modunda kullanılabilir.
 
-### Version 1.4
+### Sürüm 2.3
 
-- The script to move focus to headers is working again.
-- The script to move to attachments is now working when more attachments are present.
-- Added localizations.
+* Not: Artık çeviri güncellemeleri değişiklik günlüğünde görünmeyecek.
 
-### Version 1.3
+### Sürüm 2.2
 
-- Fixed message headers reading for newer Office 365 release.
-- Updates to support newer versions of NVDA (Python 2 and 3 compatible).
-- Added localizations.
-- Releases performed now with appveyor.
+* NVDA 2019.3.1 ile uyumluluk geri getirildi.
+* Çeviriler güncellendi.
 
-### Version 1.2
+### Sürüm 2.1
 
-- Fixed header reading when forwarding meeting.
-- Added localizations.
+* Geliştirici kanalı kaldırıldı.
+* Çeviriler güncellendi.
 
-### Version 1.1
+### Sürüm 2.0
 
-- Added localizations.
+* Artık geçerli olmayan veya otomatik ofis dışı yanıtları gönderen e-posta adreslerini girerken görünen bildirimlerle kullanıcı deneyimi iyileştirildi:
+  Bu tür bildirimler göründüğünde veya güncellendiğinde bir sesli uyarı verilir, bir hareketle okunabilir veya o bildirimlere geçilebilir ve oklarla bu alanda gezinmek daha kolay hale getirilmiştir.
 
-### Version 1.0
+### Sürüm 1.10
 
-- Initial release.
+* Eklenti NVDA 2023.1 ile uyumlu hâle getirildi.
+* Çeviriler güncellendi.
 
-[1]: https://addons.nvda-project.org/files/get.php?file=outlookextended
-[2]: https://addons.nvda-project.org/files/get.php?file=outlookextended-dev
+### Sürüm 1.9
+
+* Eklenti NVDA 2022.1 ile uyumlu hâle getirildi.
+* NVDA sürümleri için uyumluluk 2019.3'ün altına düşürüldü.
+* Sürüm artık appVeyor yerine bir GitHub eylemi sayesinde gerçekleştiriliyor.
+* Kullanıcı alt+sayı kısayollarına üç kez bastığında çıkan duyuru düzeltildi.
+* Outlook 365'in bazı sürümlerinin takvim öğeleri başlıklarının okunmasını engelleyen bir sorun düzeltildi.
+* Eklentinin test ortamının iyileştirilmesi: sahte kök iletişim kutusunda gezinme.
+* Çeviriler güncellendi.
+
+### Sürüm 1.8
+
+* Çeviriler güncellendi.
+* Orijinal Outlook appModule'deki tüm değişkenlerin hala kullanılabilir durumda olduğundan emin olun.
+
+### Sürüm 1.7
+
+* Eklenti NVDA 2021.1 ile uyumlu hâle getirildi.
+* Çeviriler güncellendi.
+
+### Sürüm 1.6
+
+* Outlook 365'te ileti başlıkları okunurken ortaya çıkan çeşitli sorunlar düzeltildi.
+* Braille klavye kullanılırken ekleri okuma skriptinde ortaya çıkan bir sorun düzeltildi.
+* Birim test çerçevesi eklendi.
+* Çeviriler güncellendi.
+
+### Sürüm 1.5
+
+* Bilgi çubuğu NVDA 2019.3 ile okunabiliyor.
+* NVDA 2019.3 ile adres defteri sonuçlarında tablo dolaşımı yapılabiliyor.
+
+### Sürüm 1.4
+
+* Odağı başlığa taşıma skripti düzeltildi.
+* Odağı eke taşıma skripti birden fazla ek olduğunda da çalışıyor.
+* Çeviriler eklendi.
+
+### Sürüm 1.3
+
+* Yeni Office 365 sürümleri için ileti başlığı okuma düzeltildi.
+* NVDA'nın yeni sürümlerini desteklemek için güncellemeler (Python 2 ve 3 ile uyumlu).
+* Çeviriler eklendi.
+* Yeni sürümler appveyor ile yayımlanıyor.
+
+### Sürüm 1.2
+
+* Toplantı iletirken başlık okuma düzeltildi.
+* Çeviriler eklendi.
+
+### Sürüm 1.1
+
+* Çeviriler eklendi.
+
+### Sürüm 1.0
+
+* İlk Sürüm.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=outlookextended

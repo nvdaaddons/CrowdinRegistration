@@ -1,109 +1,109 @@
-# ObjPad
+# Nesne Dolaşımı
 
-- Author: Christopher Duffley <nvda@chrisduffley.com>, originally by Joseph Lee, Cleverson Uliana and others
+* Yazar: Christopher Duffley <nvda@chrisduffley.com>, aslen Joseph Lee, Cleverson Uliana ve diğerleri tarafından yazılmıştır
 
-This add-on provides quick commands to manage objects on screen, including navigation and other possibilities.
+Bu eklenti, gezinme ve diğer olasılıklar da dahil olmak üzere ekrandaki nesneleri yönetmek için hızlı komutlar sağlar.
 
-## Commands
+## Komutlar
 
-- Control+NVDA+TAB: Steps through arrow key modes (see below for details).
+* Kontrol+NVDA+TAB: Ok tuşu modlarında adım adım ilerler (ayrıntılar için aşağıya bakın).
 
-## Arrow key modes
+## Ok tuş modları
 
-The add-on provides four ways to use arrow keys:
+Eklenti, ok tuşlarını kullanmak için dört yol sağlar:
 
-- Classic (or normal mode): use arrow keys to move cursor.
-- Object nav: use arrow keys to move to next/previous/parent/first child objects.
-- Browse mode: use arrow keys to cycle through browse mode elements (web included) and move between them.
-- Scan mode: use arrow keys to move through objects on screen regardless of hierarchy.
+* Klasik (veya normal mod): imleci hareket ettirmek için ok tuşlarını kullanın.
+* Nesne Dolaşımı: sonraki/önceki/üst/ilk alt nesneye gitmek için ok tuşlarını kullanın.
+* Gözatma modu: Gözatma modu öğeleri (web dahil) arasında geçiş yapmak ve bunlar arasında geçiş yapmak için ok tuşlarını kullanın.
+* Tarama modu: sıralamadan bağımsız olarak ekrandaki nesneler arasında hareket etmek için ok tuşlarını kullanın.
 
-The following commands are available with arrow keys set to object nav:
+Aşağıdaki komutlar, Nesne sunucusu modunda ok tuşlarıyla kullanılabilir:
 
-- Right arrow: next object.
-- Left arrow: previous object.
-- Up arrow: parent object.
-- Down arrow: first child object.
-- SPACE or ENTER: activate.
+* Sağ ok: sonraki nesne.
+* Sol ok: önceki nesne.
+* Yukarı ok: ana nesne.
+* Aşağı ok: ilk alt nesne.
+* Aralık veya ENTER: etkinleştir.
 
-With browse mode active (elements are default (moving by object/all elements), link, form field, heading, frame, table, list, landmark, embedded object, text paragraph):
+Gözatma modu etkinken (öğeler varsayılandır (nesneye/tüm öğelere göre hareket eder), bağlantı, form alanı, başlık, çerçeve, tablo, liste, yer işareti, gömülü nesne, metin paragrafı):
 
-- Right arrow: next element.
-- Left arrow: previous element.
-- Up arrow: previous element type.
-- Down arrow: next element type.
-- SPACE or ENTER: activate.
+* Sağ ok: sonraki öğe.
+* Sol ok: önceki öğe.
+* Yukarı ok: önceki öğe türü.
+* Aşağı ok: sonraki öğe türü.
+* Aralık veya ENTER: etkinleştir.
 
-With scan mode active:
+Tarama modu etkinken:
 
-- Down arrow: next object or the next line.
-- Up arrow: previous object or previous line.
-- Right arrow: review next character.
-- Left arrow: previous character.
-- Control+right arrow: next word.
-- Control+left arrow: previous word.
-- SPACE or ENTER: activate.
+* Aşağı ok: sonraki nesne veya sonraki satır.
+* Yukarı ok: önceki nesne veya önceki satır.
+* Sağ ok: sonraki karakteri gözden geçirin.
+* Sol ok: önceki karakter.
+* Kontrol+sağ ok: sonraki kelime.
+* Kontrol+sol ok: önceki kelime.
+* Aralık veya ENTER: etkinleştir.
 
-## Version 26.03
+## Sürüm 26.03
 
-- Renamed "web mode" to "browse mode" as this mode will cover additional situations including browse mode in Word 365.
+* Bu mod, Word 365'teki göz atma modu da dahil olmak üzere ek durumları kapsayacağı için "web modu", "gözatma modu" olarak yeniden adlandırıldı.
 
-## Version 26.02
+## Sürüm 26.02
 
-- NVDA 2025.3.2 or later is required.
-- Added embedded object and text paragraph navigation to web mode.
+* NVDA 2025.3.2 veya üzeri gereklidir.
+* Web moduna gömülü nesne ve metin paragrafında dolaşım eklendi.
 
-## Version 25.06
+## Sürüm 25.06
 
-- Compatible with NVDA 2025.1
-- The link to download the add-on is no longer present to encourage usage of the Add-On Store.
+* NVDA 2025.1 ile uyumluluk
+* Eklenti Mağazası'nın kullanımını teşvik etmek için eklentiyi indirme bağlantısı artık mevcut değil.
 
-## Version 24.04
+## Sürüm 24.04
 
-- Compatibility with NVDA 2024.1.
+* NVDA 2024.1 ile uyumluluk.
 
-## Version 23.05
+## Sürüm 23.05
 
-- To reflect the maintainer change, the manifest has been updated to indicate as such.
+* Sürdürücü değişikliğini yansıtmak için, bildirim bu şekilde belirtilecek şekilde güncelleştirilmiştir.
 
-## Version 23.02
+## Sürüm 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
+* NVDA 2022.4 veya sonraki bir sürümü gerektirir.
+* Windows 10 21H2 (Kasım 2021 Güncellemesi/derlemesi 19044) veya üstü gereklidir.
 
-## Version 23.01
+## Sürüm 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* NVDA 2022.3 veya sonraki bir sürümü gerektirir.
+* Ocak 2023 itibariyle Windows 7, 8 ve 8.1 artık Microsoft tarafından desteklenmediğinden Windows 10 veya sonraki sürümleri gereklidir.
 
-## Version 22.06
+## Sürüm 22.06
 
-- Requires NVDA 2021.3 or later.
+* NVDA 2021.3 veya sonraki bir sürümü gerektirir.
 
-## Version 21.04
+## Sürüm 21.04
 
-- Requires NVDA 2020.1 or later.
+* NVDA 2020.1 veya sonraki bir sürümü gerektirir.
 
-## Version 20.01
+## Sürüm 20.01
 
-- Requires NVDA 2019.3 or later.
+* NVDA 2019.3 veya sonraki bir sürümü gerektirir.
 
-## Version 18.12
+## Sürüm 18.12
 
-- Internal changes to support future NVDA releases.
+* Gelecekteki NVDA sürümlerini desteklemek için dahili değişiklikler.
 
-## Version 18.09
+## Sürüm 18.09
 
-- Added localizations.
-- Enter key (regular and Numpad) can be used to activate objects.
+* Yerelleştirmeler eklendi.
+* Nesneleri etkinleştirmek için enter tuşu (normal ve Numpad) kullanılabilir.
 
-## Version 18.03
+## Sürüm 18.03
 
-- Better compatibility with NVDA 2018.1.
+* NVDA 2018.1 ile daha iyi uyumluluk.
 
-## Version 16.12
+## Sürüm 16.12
 
-- Added web mode.
+* Web modu eklendi.
 
-## Version 16.10
+## Sürüm 16.10
 
-- Initial stable version.
+* İlk kararlı sürüm.

@@ -1,109 +1,109 @@
-[[!meta title="Input Lock"]]
+[[!meta title="Блокировка Ввода"]]
 
-- Author: Jose Manuel Delicado
-- NVDA compatibility: 2023.3.4 and beyond
-- Download [stable version][1]
+* Автор: Jose Manuel Delicado
+* Совместимость с NVDA: 2023.3.4 и выше
+* Загрузить [стабильную версию][1]
 
-## Introduction
+## Введение
 
-Do you have kids or pets at home? Do you have a cat and It likes very much climbing your table and walking over your keyboard? Do you accidentally move the mouse to random parts in the screen while using your laptop? Then Input Lock is for you! You will be able to leave your computer alone and turned on without risk.
+У вас дома есть дети или домашние животные? У вас есть кошка, и она очень любит лазить по вашему столу и ходить по клавиатуре? Вы случайно перемещаете мышь в случайные части экрана во время использования ноутбука? Тогда Блокировка Ввода для вас! Вы сможете оставить свой компьютер в покое и без риска.
 
-Once installed, you will be able to lock your keyboard, touch screen (if your laptop has one), touchpad, mouse and Braille display.
+После установки вы сможете заблокировать клавиатуру, сенсорный экран, если он есть на вашем ноутбуке, сенсорную панель, мышь и дисплей Брайля.
 
-## Usage
+## Использование
 
-This addon adds three extra gestures to NVDA. By default they are unassigned, so you will have to configure them from Input gestures dialog. Read the NVDA User Guide for more information.
+Это дополнение добавляет в NVDA три дополнительных жеста. По умолчанию они не назначены, поэтому вам придётся настроить их в диалоге ввода жестов. Для получения дополнительной информации ознакомьтесь с Руководством пользователя NVDA.
 
-When you press the toggle input lock gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
-Locking the touchpad can prevent us from accidentally touching it, especially those who are used to using the laptop keyboard directly. When you press the toggle touchpad lock gesture, NVDA will say "Touchpad locked". Your touchpad will be blocked until you press the same gesture again. In that moment, NVDA will say "Touchpad unlocked" and everything will work as usual.
+Когда вы нажмете жест блокировки ввода, NVDA скажет "Ввод заблокирован. Ваши устройства ввода будут заблокированы, пока вы снова не нажмете тот же жест. В этот момент NVDA скажет "Ввод разблокирован", и всё будет работать как обычно.
+Заблокирование сенсорной панели может помешать нам случайно прикоснуться к ней, особенно тем, кто привык непосредственно использовать клавиатуру для ноутбука. Когда вы нажмёте жест переключения блокировки сенсорной панели, NVDA скажет "Сенсорная панель заблокирована". Ваша сенсорная панель будет заблокирована, пока вы снова не нажмёте тот же жест. В этот момент NVDA скажет "Сенсорная панель разблокирована", и всё будет работать как обычно.
 
-If you press the toggle mouse block gesture, your mouse will be locked. Press this command again to unlock it. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself. Mouse clicks can also be disabled from Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on settings dialog for older versions, available under preferences menu. In addition, from these settings you can control wether mouse locks when NVDA is started or not.
+Если вы нажмете жест блокировки мыши, ваша мышь будет заблокирована. Нажмите эту команду еще раз, чтобы разблокировать его. Пока мышь заблокирована, вы можете использовать жесты NVDA для ее перемещения и щелкать левой и правой кнопками, но вы не можете перемещать саму мышь. Щелчки мышью также можно отключить в категории Блокировка ввода в диалоговом окне настроек NVDA (NVDA 2018.2 и более поздние версии). или из диалогового окна настроек дополнения для более старых версий, доступного в меню настроек. Кроме того, из этих настроек вы можете контролировать, будет ли блокироваться мышь при запуске NVDA или нет.
 
-Note: when mouse clicks are blocked, you can't use any NVDA gestures to work with the mouse.
+Примечание: когда щелчки мыши заблокированы, вы не можете использовать жесты NVDA для работы с мышью.
 
-## Limitations and known problems
+## Ограничения и известные проблемы
 
-Input Lock has the following known problems:
+InputLock имеет следующие известные проблемы:
 
-- The shortcuts control+alt+del and windows+l can be used even when the keyboard is locked.
-- For gestures used to lock the touchpad, please try to assign a small number of key combination gestures. It is recommended to use NVDA+letters or numbers, Ctrl+F keys etc.
+* Комбинации клавиш control+alt+del и windows+l можно использовать даже при заблокированной клавиатуре.
+* Для жестов, используемых для блокировки сенсорной панели, попробуйте назначить комбинацию клавиш малого количества. Рекомендуется использовать NVDA+буквы или цифры, Ctrl+F и т.д.
 
-## Changelog
+## Журнал изменений
 
-### Version 1.13
+### Версия 1.13
 
-- Now, minimum supported version is 2023.3.4.
-- Updated translations. Starting from version 1.13, changelog won't be modified when a new release only includes localization updates.
-- Added a gesture (unassigned by default) to lock/unlock the touchpad.
+* Теперь минимальная поддерживаемая версия — 2023.3.4.
+* Обновлены переводы. Начиная с версии 1.13, список изменений не будет изменён, если в новый выпуск будут включены только обновления локализации.
+* Добавлен жест (по умолчанию не назначен) для блокировки/разблокировки сенсорной панели.
 
-### Version 1.12
+### Версия 1.12
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
 
-### Version 1.11
+### Версия 1.11
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Now, minimum supported version is 2022.4.
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
+* Теперь минимальная поддерживаемая версия — 2022.4.
 
-### Version 1.10
+### Версия 1.10
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Updated documentation.
-- Now, minimum supported version is 2021.3.
-- The input will remain blocked after waking up from standby mode. Thanks to Javi Dominguez.
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
+* Обновлена ​​документация.
+* Теперь минимальная поддерживаемая версия — 2021.3.
+* Ввод останется заблокированным после выхода из режима ожидания. Спасибо Javi Dominguez.
 
-### Version 1.9
+### Версия 1.9
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
-- Updated documentation.
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
+* Обновлена ​​документация.
 
-### Version 1.8
+### Версия 1.8
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
 
-### Version 1.7
+### Версия 1.7
 
-- Updated compatibility flags for recent NVDA versions.
-- Updated translations.
+* Обновлены флаги совместимости для последних версий NVDA.
+* Обновлены переводы.
 
-### Version 1.6
+### Версия 1.6
 
-- Now, settings are removed only when the add-on is uninstalled. Configuration is nolonger reset when upgrading.
-- New and updated translations.
+* Теперь настройки удаляются только при удалении дополнения. Конфигурация больше не сбрасывается при обновлении.
+* Новые и обновленные переводы.
 
-### Version 1.5
+### Версия 1.5
 
-- Added compatibility with recent NVDA releases.
-- New translations.
+* Добавлена совместимость с последними выпусками NVDA.
+* Новые переводы.
 
-### Version 1.4
+### Версия 1.4
 
-- The addon gestures are unassigned by default.
+* По умолчанию жесты дополнения не назначены.
 
-### Version 1.3
+### Версия 1.3
 
-- Added a configuration panel in settings dialog. For old NVDA versions, a menu item and a dialog have been added too.
-- Added a setting to lock the mouse when NVDA is started.
-- Added a setting to block also mouse clicks while mouse is locked.
-- Small bugs fixed, some code optimizations and less duplicated strings for translators
+* Добавлена панель конфигурации в диалог настроек. Для старых версий NVDA также добавлен пункт меню и диалог.
+* Добавлена настройка блокировки мыши при запуске NVDA.
+* Добавлена настройка для блокировки щелчков мышью, когда мышь заблокирована.
+* Исправлены небольшие ошибки, некоторые оптимизации кода и меньше дублированных строк для переводчиков
 
-### Version 1.2
+### Версия 1.2
 
-- Now the mouse can also be locked
-- New command to lock and unlock only the mouse
+* Теперь мышь также можно заблокировать
+* Новая команда для блокировки и разблокировки только мыши
 
-### Version 1.1
+### Версия 1.1
 
-- If another addon has previously added a capture function to inputManager, it is restored when the input is unlocked.
+* Если другое дополнение ранее добавило функцию захвата в inputManager, она восстанавливается при разблокировке ввода.
 
-### Version 1.0
+### Версия 1.0
 
-- Initial release
+* Первый выпуск
 
 [[!tag dev stable]]
 

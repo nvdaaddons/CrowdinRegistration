@@ -1,7 +1,7 @@
 # Numpad Nav Mode
 
-- Author: Luke Davis (Open Source Systems, Ltd.)
-- Download [stable version][1]
+* Author: Luke Davis (Open Source Systems, Ltd.)
+* Download [stable version][1]
 
 Numpad Nav Mode is an [NVDA][2] add-on, which allows you to easily switch your keyboard's numpad between NVDA's navigation controls and the non-screenreader Windows navigation controls. This can be especially useful for users migrating from Jaws to NVDA. This add-on also gives granular control over the numlock key toggle, both when NVDA starts, and optionally in profiles.
 
@@ -30,19 +30,18 @@ By default, nothing is done with the numlock key.
 However, if you share your computer with a sighted user who prefers that numlock always be turned on, but you like having it off so that the numpad works with NVDA, you may want the numlock to automatically turned off when NVDA starts.
 Alternatively, you may enter a lot of data, and so prefer the numlock to always be on when you start NVDA.
 
-Go to NVDA menu, Preferences, Settings, Numpad Nav Mode, and use the "state of numlock when NVDA starts or profile loads" selector. This has three options. The first, "do not change", is the default, and won't touch the numlock. It will be in whatever state it was in before NVDA started.
+ Go to NVDA menu, Preferences, Settings, Numpad Nav Mode, and use the "state of numlock when NVDA starts or profile loads" selector. This has three options. The first, "do not change", is the default, and won't touch the numlock. It will be in whatever state it was in before NVDA started.
 The second option, is "turn numlock off", which will always turn the numlock off when NVDA starts. The third option, "Turn numlock on", will turn the numlock on if it was off when NVDA started.
 If you choose either the second or third option, the numlock will be restored to whatever state it was in before, when you exit NVDA. For example, if you choose "Turn numlock off", and numlock was on when you started NVDA: it will be turned off while you use NVDA, but will be turned back on when you exit NVDA.
 
 #### Advanced use cases
 
 If you use NVDA's powerful configuration profiles, and you would like the numlock to automatically turn on when you enter certain profiles, do the following:
-
-- While in the "normal profile", go to the Numpad Nav Mode settings panel described above. Check the box for "Initial numlock state is configuration profile dependent". This option is unchecked by default.
-- Select OK.
-- Change to the profile where you want numlock to be always turned off or on.
-- Go back to the Numpad Nav Mode settings panel, and select the option to Turn numlock off or on, as you prefer.
-- Then select OK. Now, whenever you enter this profile, the numlock will automatically change to the desired state.
+* While in the "normal profile", go to the Numpad Nav Mode settings panel described above. Check the box for "Initial numlock state is configuration profile dependent". This option is unchecked by default.
+* Select OK.
+* Change to the profile where you want numlock to be always turned off or on.
+* Go back to the Numpad Nav Mode settings panel, and select the option to Turn numlock off or on, as you prefer.
+* Then select OK. Now, whenever you enter this profile, the numlock will automatically change to the desired state.
 
 Note that this is a new feature, and I don't know if anyone has use for this feature. If you find one, please send an email or open [an issue][3], to let me know how you have found to make use of it.
 
@@ -63,9 +62,9 @@ The basic implementation of the numlock features was borrowed from the legacy Nu
 
 (This changelog is incomplete. See Git log for full details.)
 
-- 24.1.0: NVDA 2024.X compatibility.
-- 23.1.0: Added numlock management features. Better logging. Improved config profile handling (WIP).
-- 23.0: NVDA 2023.X compatibility.
+* 24.1.0: NVDA 2024.X compatibility.
+* 23.1.0: Added numlock management features. Better logging. Improved config profile handling (WIP).
+* 23.0: NVDA 2023.X compatibility.
 
 [1]: https://www.nvaccess.org/addonStore/legacy?file=numpadNavMode
 [2]: https://nvaccess.org/

@@ -1,43 +1,39 @@
-# Cursor Locator
+# Локатор Курсора #
+* Авторы: Noelia Ruiz Martínez, Sergio Gómez Codina.
 
-- Authors: Noelia Ruiz Martínez, Sergio Gómez Codina.
+Это дополнение позволяет узнать положение системной каретки относительно начала текущей строки при вводе текста для добавления текста в документы или многострочные элементы управления.
 
-This add-on makes possible to know the position of the system caret respect to the start of the current line, while typing to add text in documents or multiline controls.
+Эта функция зависит от визуального внешнего вида приложений. Поэтому вам может потребоваться отключать настройку строк или настраивать дополнение для разных программ.
 
-This feature deppends on the visual appearance of applications. Therefore, you may need to disable line adjustment or configure the add-on for different programs.
+## Настройки локатора курсора ##
 
-## Cursor Locator settings
+Эта панель доступна из меню NVDA, подменю параметров, диалога настроек.
 
-This panel is available from NVDA's menu, Preferences submenu, Settings dialog.
+Она предоставляет следующие возможности:
 
-It provides the following options:
+* Сообщить длину строки: Вы можете ввести или выбрать длину строки (количество символов от 0 до 600), о достижении которой будет сообщено высоким сигналом. (Значение по умолчанию - 80 символов).
+* Максимальное количество звуковых сигналов для оповещения о начале строки: вы можете ввести или выбрать значение в диапазоне от 0 до 600. Значение по умолчанию - 0.
+* Максимальное количество звуковых сигналов для оповещения о конце строки: вы можете ввести или выбрать значение в диапазоне от 0 до 600. Значение по умолчанию - 0.
+* Высота звука начала строки: Вы можете ввести или выбрать значение в диапазоне от 20 до 20000. (Значение по умолчанию - 400 Герц).
+* Длительность звука начала строки: Вы можете ввести или выбрать значение от 20 до 2000. (Значение по умолчанию - 50 миллисекунд).
+* Проверка звука начала строки: Нажмите эту кнопку, чтобы проверить настроенный звук для начала строки.
+* Высота звука конца строки: Вы можете ввести или выбрать значение в диапазоне от 20 до 20000. (Значение по умолчанию - 1000 Герц).
+* Длительность звука конца строки: Вы можете ввести или выбрать значение от 20 до 2000. (Значение по умолчанию - 50 миллисекунд).
+* Проверка звука конца строки: Нажмите эту кнопку, чтобы проверить настроенный звук для конца строки.
 
-- Report line length: You can type or choose a line length (number of characters between 0 and 600), which will be announced by a hight tone when it's reached. (The default value is 80 characters).
-- Maximum number of beeps for start of line notification: You can type or select a value between 0 and 600. The default value is 0.
-- Maximum number of beeps for end of line notification: You can type or select a value between 0 and 600. The default value is 0.
-- Pitch of sound for start of line: You can type or select a value between 20 and 20000. (The default value is 400 hertzs).
-- Length of sound for start of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).
-- Test sound for start of line: Press this button to test the configured sound for start of line.
-- Pitch of sound for end of line: You can type or select a value between 20 and 20000. (The default value is 1000 hertzs).
-- Length of sound for end of line: You can type or select a value between 20 and 2000. (The default value is 50 milliseconds).
-- Test sound for end of line: Press this button to test the configured sound for end of line.
+## Команды ##
 
-## Commands
+Вы можете изменить жесты из меню NVDA, подменю параметров, диалога жестов ввода для следующих команд:
 
-You can modify the gestures to the following commands trought the NVDA's menu, Preferences submenu, Input gestures dialog:
+* NVDA+control+shift+l: Когда возможно, сообщает длину текущей строки (категория системной каретки).
+* Не назначен: Показывает диалог настроек локатора курсора (категория конфигурации).
 
-- NVDA+control+shift+l: When possible, reports the lenght of the current line (System caret category).
-- Not assigned: Shows the Cursor Locator settings dialog (Config category).
+## Изменения для 3.0 ##
+* Совместимо с NVDA 2023.1.
 
-## Changes for 3.0
+## Изменения для 2.0 ##
+* Добавлена возможность повторять уведомления при достижении конца и начала строки.
+* Добавлена поддержка офисных документов и блокнота в Windows 11.
 
-- Compatible with NVDA 2023.1.
-
-## Changes for 2.0
-
-- Added ability to repeat notifications when reaching end and start of line.
-- Added support for Office documents, and Notepad on Windows 11.
-
-## Changes for 1.0
-
-- Initial version.
+## Изменения для 1.0 ##
+* Первоначальная версия

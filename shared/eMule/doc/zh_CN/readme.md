@@ -1,76 +1,73 @@
-# eMule
+# eMule 支持 #
 
-- Authors: Noelia, Chris, Alberto.
+*	作者： Noelia、Chris、Alberto。
 
-This add-on helps to improve accessibility of eMule with nVDA.
-It also provides additional keyboard commands for moving in different windows and gives Useful information about eMule.
+此插件有助于提高 eMule 与 NVDA 的可访问性。
+它还提供了用于在不同窗口中移动的其他键盘命令，并提供了有关eMule的有用信息。
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You should uninstall that old add-on to use this one, since both have common keystrokes and features.
+当前插件基于同一作者开发的eMuleNVDASupport插件。您应该卸载该旧插件以使用此插件，因为两者都有共同的按键和功能。
 
-Tested on [eMule][1] 0.50a.
+已在[eMule][1] 0.50a 和 70b 上测试。
 
-## Key Commands:
+## 快捷键: ##
 
-- control+shift+h: Moves focus and mouse to main toolbar.
-- control+shift+t: Reads the current window.
-- control+shift+n: Moves the focus to the Name field in the Find window.
-- control+shift+p: In the Search window, moves focus and mouse to the list of search parameters, or edit field options.
-- control+shift+b: Move the focus to the list in the current window. For example usable in the Search window, downloads in Transfer window, etc.
-- control+shift+o: Move the focus to read-only edit boxes in the current window. For example the IRC received messages, available Servers, etc.
-- control+NVDA+f: If the caret is located in a read only edit box, opens a find dialog to use the commands for searching text available in NVDA.
-- control+shift+l: Moves the navigator object and mouse to the headers of the current list.
-- control+shift+q: Reads the first object in the status bar; provides information about recent activity.
-- control+shift+w: Reads the second object of the status bar; contains information about files and users on the current server.
-- control+shift+e: Reads the third object of the status bar; useful to know the UpLoad/DownLoad speed.
-- control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+*	control+shift+h： 移动鼠标和焦点到”主工具栏。
+*	control+shift+t: 朗读当前窗口。
+*	control+shift+n： 移动焦点到“查找”窗口的“名称”编辑区。
+*	control+shift+p： 切换焦点和鼠标到“搜索”窗口的搜索参数列表和编辑区选项。
+*	control + shift + b：将焦点移动到当前窗口的列表中。例如，可在“搜索”窗口中使用，在“传输”窗口中下载等。
+*	control + shift + o：将焦点移动到当前窗口中的只读编辑框。例如，IRC收到消息，可用服务器等。
+*	control + NVDA + f：如果插入符号位于只读编辑框中，则打开查找对话框以使用命令搜索NVDA中可用的文本。
+*	control+shift+l： 移动鼠标和浏览对象到当前列表的表头。
+*	control+shift+q： 朗读状态栏的第一个对象，提供最近一次活动的信息。
+*	control+shift+w： 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信息。
+*	control+shift+e： 朗读状态栏的第三个对象，常用来了解上传和下载速度。
+*	control+shift+r： 朗读状态栏的第四个对象，关于 eD2K 和 Kad 网络连接的信息。
+* 未分配： 启用或禁用滑块控件的备选朗读方案。
 
-## Managing columns.
+## 管理列。 ##
 
-When within a list, you can move the caret between the rows and columns using alt+control+ Arrows.
-In this Add-on the following key commands are also available:
+在一个列表内，您可以使用 CTRL加ALT家光标键 在列表的行列之间进行浏览。
+在此插件，下面的按键也是可用的：
 
-- nvda+control+1-0: Reads the first 10 columns.
-- nvda+shift+1-0: Reads columns 11 to 20.
-- nvda+shift+C: Copies the contents of the last read column to the clipboard.
+*	nvda+control+1到0： 朗读前十列。
+*	nvda+shift+1到0： 朗读第11到20列。
+*	nvda+shift+C： 拷贝最后一次朗读的那一列的内容到剪贴板。
 
-## Changes for 7.0
 
-- Compatible with NVDA 2023.1.
+## 版本 20.0.0
+* 部分编辑框与滑块控件现已获得标签标注，这得益于本插件开发者之一 Alberto Buffolino 开发的[labelAutofinderCore 项目](https://github.com/ABuffEr/labelAutofinderCore)。
+* 新增一个未分配命令，用于切换是否启用滑块控件的备选朗读方案（默认关闭）。
 
-## Changes for 6.0
+## 版本 7.0
+* 兼容 NVDA 2023.1。
 
-- Requires NVDA 2022.1 or later.
+## 版本 6.0
+*	需要 NVDA 2022.1 或更高版本。
 
-## Changes for 5.0
+## 版本 5.0
+*	兼容 NVDA 2021.1。
 
-- Compatible with NVDA 2021.1.
+## 版本 4.0 ##
+*	需要NVDA 2019.3或更高版本。
 
-## Changes for 4.0
+## 版本 3.0 ##
+*	 要在只读编辑框中搜索文本，可使用查找对话框，例如 NVDA+control+f 来激活查找对话框。
 
-- Requires NVDA 2019.3 or later.
+## 版本 2.0 ##
+*	 插件管理器现在已提供了插件的帮助。
 
-## Changes for 3.0
+## 版本 1.2 ##
+*	 当移动到 IRC 消息时，选择的文本内容已可正确的朗读。
+*	 用于移动到搜索结果列表的快捷键已被推广，以便能够将焦点移动到当前窗口中的任何可用列表。
+*	 用于聚焦IRC消息的快捷键已被推广到移动到任何只读编辑框，从而可以在“服务器”窗口中查看连接信息。
+*	 当移动鼠标并将焦点移动到工具栏时，在某些情况下它会被朗读两次。这已得到修复。
 
-- To search text in the readonly edit boxes,  the find dialog  can be used, such as nvda+control+f to activate the find dialog.
+## 版本 1.1 ##
+*	 修复在用户配置文件夹名称包含非拉丁字符时 NVDA 帮助菜单下的 eMule 项目，发生的错误。
+*	 现在，可使用“创建手势”对快捷键进行更改。
 
-## Changes for 2.0
-
-- Add-on help is available from the Add-ons Manager.
-
-## Changes for 1.2
-
-- When moving to the IRC messages, the selected text is reported properly.
-- The keystroke used for moving to the Search results list has been generalized to be able to move focus to any available list in the current window.
-- The command used to focus the IRC messages has been generalized to move to any read-only edit box, making it possible to review connection information in the Servers window.
-- When moving mouse and focus to the toolbar, in some cases it was announced twice. This has been fixed.
-
-## Changes for 1.1
-
-- Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.
-- Shortcuts can now be reassigned using the NVDA gesture input dialog.
-
-## Changes for 1.0
-
-- Initial version.
+## 版本 1.0 ##
+*	 初始版本。
 
 [1]: http://www.emule-project.net

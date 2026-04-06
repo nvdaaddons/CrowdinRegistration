@@ -1,166 +1,181 @@
-# RDAccess: Remote Desktop Accessibility
+# 远程桌面无障碍 #
 
-- Authors: [Leonard de Ruijter][1]
-- Download [latest stable version][2]
-- NVDA compatibility: 2023.2 and later
+* 作者： [Leonard de Ruijter][1]
+* 下载： [latest stable version][2]
+* NVDA兼容性：2024.1及更高版本
 
-The RDAccess add-on (Remote Desktop Accessibility) adds support for Microsoft Remote Desktop, Citrix, or VMware Horizon remote sessions to NVDA.
-When installed on both the client and the server in NVDA, speech and braille generated on the server will be spoken and displayed in braille on the client machine.
-This enables a user experience where managing a remote system feels as seamless as operating the local system.
+RDAccess 插件（Remote Desktop Accessibility，远程桌面无障碍）为 NVDA 添加了对 Microsoft 远程桌面、Citrix、Parallels RAS 或 VMware Horizon 远程会话的支持。
+当在客户端和服务器上的 NVDA 中都安装此插件后，服务器上生成的语音和盲文将在客户端计算机上读出和（通过盲文点显器）显示。
+这使得管理远程系统如同本地操作般的无缝体验。
 
-## Features
+## 功能特性
 
-- Support for Microsoft Remote Desktop (including Azure Virtual Desktop and Microsoft Cloud PC), Citrix, and VMware Horizon
-- Speech and braille output
-- Automatic detection of remote braille using NVDA's automatic braille display detection
-- Automatic detection of remote speech using a dedicated detection process that can be disabled in NVDA's settings dialog
-- Support for portable copies of NVDA running on a server (additional configuration required for Citrix)
-- Full support for portable copies of NVDA running on a client (no additional administrative privileges required to install the add-on)
-- Multiple active client sessions simultaneously
-- Remote desktop instantly available after NVDA start
-- Ability to control specific synthesizer and braille display settings without leaving the remote session
-- Ability to use speech and braille from the user session when accessing secure desktops
+* 支持 Microsoft 远程桌面（包括 Azure 虚拟桌面和 Microsoft 云电脑）、Citrix、Parallels RAS 和 VMware Horizon
+* 语音和盲文输出
+* 使用 NVDA 的盲文点显器自动检测功能来自动检测远程盲文
+* 使用专用的检测进程自动检测远程语音（可在 NVDA 设置对话框中禁用）
+* 支持在服务器上运行的 NVDA 便携版（Citrix 需要额外配置）
+* 完全支持在客户端上运行的 NVDA 便携版（安装插件无需额外的管理员权限）
+* 同时支持多个活动的客户端会话
+* NVDA 启动后远程桌面即时可用
+* 能够在不离开远程会话的情况下控制特定的语音合成器和盲文点显器设置
+* 能够在访问安全桌面时使用来自用户会话的语音和盲文
 
-## Changelog
+## 更新日志
 
-### Version 1.5
+### 1.6 版
 
-- Add the ability to create a debugging diagnostics report by means of a button in the RDAccess settings panel [#23](https://github.com/leonardder/rdAccess/pull/23).
-- Support for multi-line braille displays in NVDA 2025.1 and newer [#19](https://github.com/leonardder/rdAccess/pull/13).
-- The minimum compatible NVDA version is now 2024.1. Removed support for earlier versions.
-- Added client connection notifications [#25](https://github.com/leonardder/rdAccess/pull/25).
-- Updated RdPipe dependency.
-- Updated translations.
+* 记录并改进了 Parallels RAS 支持。
+* NVDA 的最低版本要求现在是 2025.1。已删除对早期版本的支持。
+* 更新了 RdPipe 依赖项。
+* 添加了配置 RdPipe 日志级别的选项。
+* 添加了 RdPipe 日志查看器，可从设置面板中打开。
+* 改进了卸载行为（当 Citrix 不可用时，不再引发错误或删除 Citrix 支持）。
 
-### Version 1.4
+### 1.5 版
 
-- New stable release.
+* 在 RDAccess 设置面板中添加了一个按钮，用于创建调试诊断报告 [#23](https://github.com/leonardder/rdAccess/pull/23)。
+* 在 NVDA 2025.1 及更高版本中支持多行盲文点显器 [#19](https://github.com/leonardder/rdAccess/pull/13)。
+* 最低兼容 NVDA2024.1。移除了对旧版的支持。
+* 添加了客户端连接通知 [#25](https://github.com/leonardder/rdAccess/pull/25)。
+* 更新了RdPipe依赖项。
+* 更新了翻译。
 
-### Version 1.3
+### 1.4 版
 
-- Fixed broken braille display gestures.
+* 初始稳定版。
 
-### Version 1.2
+### 1.3 版
 
-- Use [Ruff](https://github.com/astral-sh/ruff) as a formatter and linter. [#13](https://github.com/leonardder/rdAccess/pull/13).
-- Fixed an issue where NVDA on the client generates an error when pausing speech on the server.
-- Fixed support for `winAPI.secureDesktop.post_secureDesktopStateChange`.
-- Improved driver initialization on the server.
+* 修复了盲文点显器的手势故障。
 
-### Version 1.1
+### 1.2 版
 
-- Added support for NVDA 2023.3 style device registration for automatic detection of braille displays. [#11](https://github.com/leonardder/rdAccess/pull/11).
-- Added support for NVDA 2024.1 Alpha `winAPI.secureDesktop.post_secureDesktopStateChange` extension point. [#12](https://github.com/leonardder/rdAccess/pull/12).
+* 使用 Ruff (https://github.com/astral-sh/ruff) 作为格式化工具和代码检查工具。[#13](https://github.com/leonardder/rdAccess/pull/13)。
+* 修复了客户端 NVDA 在服务器暂停语音时产生错误的问题。
+* 修复了对`winAPI.secureDesktop.post_secureDesktopStateChange`的支持。
+* 改进服务器端的驱动程序初始化。
 
-### Version 1.0
+### 1.1 版
 
-Initial stable release.
+* 增加了对 NVDA 2023.3 风格设备注册的支持，以便自动检测盲文点显器。[#11](https://github.com/leonardder/rdAccess/pull/11)
+* 增加了对 NVDA 2024.1 Alpha 的 `winAPI.secureDesktop.post_secureDesktopStateChange` 扩展点的支持。[#12](https://github.com/leonardder/rdAccess/pull/12)
 
-## Getting Started
+### 1.0 版本
 
-1. Install RDAccess on both a client and server copy of NVDA.
-2. The remote system should automatically start speaking using the local speech synthesizer. If not, in the NVDA instance on the server, select the remote speech synthesizer from NVDA's synthesizer selection dialog.
-3. To use braille, enable automatic braille display detection using the braille display selection dialog.
+初始稳定版本。
 
-## Configuration
+## 开始使用
 
-After installation, the RDAccess add-on can be configured using NVDA's settings dialog, accessible from the NVDA Menu by choosing Preferences > Settings...
-Then, choose the Remote Desktop category.
+1. 在客户端和服务器上的 NVDA 中都安装 RDAccess。
+1. 远程系统应自动使用本地语音合成器开始朗读。如果未能自动朗读，请在服务器上的 NVDA 实例中，从 NVDA  的语音合成器选择对话框中选择远程语音合成器。
+1. 要使用盲文，请使用盲文点显器选择对话框启用盲文点显器自动检测。
 
-This dialog contains the following settings:
+## 配置
 
-### Enable Remote Desktop Accessibility for
+安装后，可以通过 NVDA 的设置面板设置 RDAccess 插件。
+可以从 NVDA 菜单中选择“选项”>“设置...”找到 RDAccess 设置类别。
 
-This list of checkboxes controls the operating mode of the add-on. Choose between:
+此面板包含以下设置：
 
-- Incoming connections (Remote Desktop Server): Choose this option if the current instance of NVDA is running on a remote desktop server.
-- Outgoing connections (Remote Desktop Client): Choose this option if the current instance of NVDA is running on a remote desktop client that connects to one or more servers.
-- Secure Desktop pass-through: Choose this option if you want to use braille and speech from the user instance of NVDA when accessing the secure desktop. Note that for this to work, you need to make the RDAccess add-on available on the secure desktop copy of NVDA. For this, choose "Use currently saved settings during sign-in and on secure screens (requires administrator privileges)" in NVDA's general settings.
+### 为以下项启用远程桌面无障碍
 
-To ensure a smooth start with the add-on, all options are enabled by default. However, you are encouraged to disable server or client mode as appropriate.
+此复选框列表控制插件的操作模式。请在以下选项中选择：
 
-### Automatically Recover Remote Speech after Connection Loss
+* 传入连接（远程桌面服务器）：如果当前 NVDA 实例运行在远程桌面服务器上，请选择此选项。
+* 传出连接（远程桌面客户端）：如果当前 NVDA 实例运行在连接到一个或多个服务器的远程桌面客户端上，请选择此选项。
+* 安全桌面直通：如果您想在访问安全桌面时使用来自用户 NVDA 实例的盲文和语音，请选择此选项。请注意，要使其工作，您需要让 RDAccess 插件在安全桌面上的 NVDA 副本中可用。为此，请在 NVDA 的常规设置中选择“在登录和安全屏幕上使用当前保存的设置（需要管理员权限）”。
 
-This option is only available in server mode. It ensures that the connection will automatically be re-established when the Remote Speech synthesizer is active and the connection is lost, similar to braille display auto-detection.
+为确保顺利开始使用插件，默认情况下所有选项均已启用。但是，我们鼓励您根据实际情况禁用服务器或客户端模式。
 
-This option is enabled by default. It is strongly encouraged to leave this option enabled if the Remote Desktop server has no audio output.
+### 连接丢失后自动恢复远程语音
 
-### Allow Remote System to Control Driver Settings
+此选项仅在服务器模式下可用。它确保当远程语音合成器处于活动状态且连接丢失时，连接将自动重新建立，类似于盲文点显器的自动检测。
 
-When enabled in the client, this option allows you to control driver settings (such as synthesizer voice and pitch) from the remote system. Changes made on the remote system will automatically reflect locally.
+此选项默认启用。如果远程桌面服务器没有音频输出，强烈建议保持此选项启用。
 
-### Persist Client Support When Exiting NVDA
+### 允许远程系统控制驱动程序设置
 
-This client option, available on installed copies of NVDA, ensures that the client portion of NVDA is loaded in your remote desktop client even when NVDA is not running.
+在客户端启用此选项后，您可以从远程系统控制驱动程序设置（例如语音合成器的语音和音高）。在远程系统上所做的更改将自动反映在本地。
 
-To use the client portion of RDAccess, changes need to be made in the Windows Registry.
-The add-on ensures that these changes are made under the profile of the current user, requiring no administrative privileges.
-Therefore, NVDA can automatically apply the necessary changes when loaded and undo these changes when exiting NVDA, ensuring compatibility with portable versions of NVDA.
+### 退出 NVDA 时保持客户端支持
 
-This option is disabled by default. However, if you are running an installed copy and you are the only user of the system, it is advised to enable this option for smooth operation when connecting to a remote system after NVDA starts.
+此客户端选项在 NVDA 安装版上可用，其可确保即使 NVDA 未运行时，NVDA 的客户端部分也会加载到您的远程桌面客户端中。
 
-### Enable Microsoft Remote Desktop Support
+要使用 RDAccess 的客户端部分，需要在 Windows 注册表中进行更改。
+该插件确保这些更改在当前用户的配置文件下进行，无需管理员权限。
+因此，NVDA 可以在加载时自动应用必要的更改，并在退出 NVDA 时撤销这些更改，从而确保与 NVDA 便携版兼容。
 
-This option, enabled by default, ensures that the client portion of RDAccess is loaded in the Microsoft Remote Desktop client (mstsc) when starting NVDA.
-Changes made through this option will be automatically undone when exiting NVDA unless persistent client support is enabled.
+此选项默认禁用。但是，如果您运行的是安装版并且是系统的唯一用户，建议启用此选项，以便在 NVDA 启动后连接到远程系统时能顺利操作。
 
-### Enable Citrix Workspace Support
+### 启用默认远程桌面支持
 
-This option, enabled by default, ensures that the client portion of RDAccess is loaded in the Citrix Workspace app when starting NVDA.
-Changes made through this option will be automatically undone when exiting NVDA unless persistent client support is enabled.
+此选项默认启用，确保在启动 NVDA 时，RDAccess 的客户端部分会加载到 Microsoft 远程桌面 客户端  (mstsc) 中。
+这也是 VMware Horizon、Parallels RAS、Azure Virtual Desktop 等虚拟化平台的必需项。
+除非启用了持久客户端支持，否则通过此选项所做的更改将在退出 NVDA 时自动撤销。
 
-This option is available only under the following conditions:
+### 启用 Citrix Workspace 支持
 
-- Citrix Workspace is installed. Note that the Windows Store version of the app is not supported due to limitations in the app itself.
-- It is possible to register RDAccess under the current user context. After installing the app, you have to start a remote session once to enable this.
+此选项默认启用，确保在启动 NVDA 时，RDAccess 的客户端部分会加载到 Citrix Workspace 应用中。
+除非启用了持久客户端支持，否则通过此选项所做的更改将在退出 NVDA 时自动撤销。
 
-### Notify of connection changes with
+此选项仅在以下条件下可用：
 
-This combo box allows you to control notifications received when a remote system opens or closes the remote speech or braille connection.
-You can choose between:
+* 已安装 Citrix Workspace。请注意，由于应用本身的限制，不支持该应用的 Windows 应用商店版本。
+* 可以在当前用户上下文中注册 RDAccess。安装该应用后，您必须启动一次远程会话才能启用此功能。
 
-- Off (No notifications)
-- Messages (e.g. "Remote braille connected")
-- Sounds (NVDA 2025.1+)
-- Both messages and sounds
+### 连接状态变更通知
 
-Note that sounds are not available on NVDA versions older than 2025.1. Beeps will be used on older versions.
+此组合框允许您控制远程系统打开或关闭远程语音或盲文连接时收到的通知。
+您可以选择：
 
-### Open diagnostics report
+* 关闭（无通知）
+* 消息（例如：“远程盲文设备已连接”）
+* 声音 (NVDA 2025.1+)
+* 消息和声音
 
-This button opens a browsable message with JSON output containing several diagnostics that can possibly aid in debugging.
-When [filing an issue at GitHub][4], you might be asked to provide this report.
+请注意，在 2025.1 之前的 NVDA 版本中，声音选项不可用。较旧的版本会使用蜂鸣声。
 
-## Citrix Specific Instructions
+### 打开诊断报告
 
-There are important points to note when using RDAccess with the Citrix Workspace app:
+此按钮打开一个可浏览的消息，其中包含 JSON 格式的输出，其中包含多个诊断信息，这些信息可能有助于调试。
+当您[在 GitHub 上提交问题][4]时，可能会要求您提供此报告。
 
-### Client-Side Requirements
+## Citrix 特定说明
 
-1. The Windows Store variant of the app is _not_ supported.
-2. After installing Citrix Workspace, you need to start a remote session once to let RDAccess register itself. This occurs because the application copies system settings to user settings during the initial session setup. Following this, RDAccess can register itself under the current user context.
+使用 RDAccess 与 Citrix Workspace 应用时，有一些重要的注意事项：
 
-### Server-Side Requirement
+### 客户端要求
 
-In Citrix Virtual Apps and Desktops 2109, Citrix enabled the so-called virtual channel allow list, restricting third-party virtual channels, including the channel required by RDAccess, by default.
-For more information, [see this Citrix blog post](https://www.citrix.com/blogs/2021/10/14/virtual-channel-allow-list-now-enabled-by-default/).
+1. 不支持 Windows 应用商店版本的应用。
+1. 安装 Citrix Workspace 后，您需要启动一次远程会话以让 RDAccess  进行注册。这是因为该应用程序在初始会话设置期间会将系统设置复制到用户设置。在此之后，RDAccess 才能在当前用户上下文中自注册。
 
-Explicitly allowing the RdPipe channel required by RDAccess is not yet tested. For now, it is best to disable the allow list altogether. If your system administrator has concerns, feel free to [address the issue here][3].
+### 服务端要求
 
-## Issues and Contributing
+在 Citrix Virtual Apps and Desktops 2109 中，Citrix 启用了所谓的虚拟通道允许列表，默认情况下限制了第三方虚拟通道，包括 RDAccess 所需的通道。
+有关更多信息，[请参阅此 Citrix 博客文章](https://www.citrix.com/blogs/2021/10/14/virtual-channel-allow-list-now-enabled-by-default/)。
 
-To report an issue or contribute, refer to [the issues page on Github][4].
+明确允许 RDAccess 所需的 RdPipe 通道尚未经过测试。目前，最好完全禁用该允许列表。如果您的系统管理员有疑虑，请随时[在此处提出问题][3]。
 
-## External Components
+## 问题与贡献
 
-This add-on relies on [RD Pipe][5], a library written in Rust backing the remote desktop client support.
-RD Pipe is redistributed as part of this add-on under the terms of [version 3 of the GNU Affero General Public License][6].
+要报告问题或做出贡献，请参阅 [Github 上的问题页面][3]。
 
-[[!tag dev beta]]
+## 外部组件
+
+此插件依赖于[RD Pipe][4]，这是一个用 Rust 编写的库，为远程桌面客户端提供支持。
+RD Pipe 作为此插件的一部分，根据[GNU Affero 通用公共许可证第 3 版][5]的条款进行再分发。
+
+[[!tag stable dev beta]]
 
 [1]: https://github.com/leonardder/
+
 [2]: https://www.nvaccess.org/addonStore/legacy?file=rdAccess
+
 [3]: https://github.com/leonardder/rdAccess/issues/1
+
 [4]: https://github.com/leonardder/rdAccess/issues
+
 [5]: https://github.com/leonardder/rd_pipe-rs
+
 [6]: https://github.com/leonardder/rd_pipe-rs/blob/master/LICENSE

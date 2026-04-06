@@ -1,93 +1,93 @@
-# Event Tracker
+# Отслеживание Событий
 
-- Author: Joseph Lee, Thiago Seus
+* Автор: Joseph Lee, Thiago Seus
 
-This add-on outputs information about objects for which events were fired. Properties recorded in debug log mode include object type, name, role, event, app module, and accessibility API specific information such as accName for IAccessible object and Automation Id for UIA objects.
+Это дополнение выводит информацию об объектах, для которых были запущены события. Свойства, записанные в режиме журнала отладки, включают тип объекта, имя, роль, событие, модуль приложения и информацию, относящуюся к API специальных возможностей, такую как accName для объекта IAccessible и идентификатор автоматизации для объектов UIA.
 
-Notes:
+Примечания:
 
-- This add-on is designed for developers and power users needing to track events coming from apps and various controls.
-- In order to use the add-on, NVDA must be logging in debug mode (configured from general settings/logging level, or restart with debug logging enabled).
-- It might be possible that add-ons loaded earlier than Event Tracker may not pass on the event to other add-ons, including Event Tracker. If this happens, Event Tracker will not be able to log events.
-- Events are handled from global plugins, app modules, tree interceptors, and NVDA objects, in that order.
+* Это дополнение предназначено для разработчиков и опытных пользователей, которым необходимо отслеживать события, происходящие из приложений и различных элементов управления.
+* Чтобы использовать дополнение, NVDA должна входить в систему в режиме отладки (настроенной на основе общих настроек/уровня ведения журнала или перезапущенной с включенным ведением журнала отладки).
+* Возможно, что дополнения, загруженные раньше, чем Отслеживание Событий, могут не передавать события другим дополнениям, включая Отслеживанию Событий. Если это произойдёт, Отслеживание Событий не сможет регистрировать события.
+* События обрабатываются из глобальных плагинов, модулей приложений, древовидных перехватчиков и объектов NVDA в указанном порядке.
 
-## Events and their information
+## События и информация о них
 
-The following events are tracked and recorded:
+Отслеживаются и записываются следующие события:
 
-- Focus manipulation: gain focus, lose focus, focus entered, foreground
-- Changes: name, value, state, description, live region
-- Other events: alert
-- UIA events: controller for, drag drop and drop target effects, element selected, item status, layout invalidated, notification, system alert, text change, tooltip open, window open
+* Манипулирование фокусом: получение фокуса, потеря фокуса, ввод фокуса, передний план
+* Изменения: название, значение, состояние, описание, живой регион
+* Другие события: оповещение
+* События UIA: контроллер для, перетаскивание целевых эффектов, выбран элемент, состояние элемента, макет недействителен, уведомление, системное оповещение, изменение текста, открыта всплывающая подсказка, открыто окно
 
-For each event, the following information will be recorded:
+Для каждого события будет записана следующая информация:
 
-- Event name
-- Object
-- Object name
-- Object role
-- Object value or state depending on events
-- App module
-- For IAccessible objects: acc name, child ID
-- For UIA objects: Automation Id, class name, notification properties if recording notification event information, child count for layout invalidated event, properties for item status, drag drop, and drop target effect if defined
+* Название события
+* Объект
+* Название объекта
+* Роль объекта
+* Значение или состояние объекта в зависимости от событий
+* Модуль приложения
+* Для объектов IAccessible: acc name, child ID
+* Для объектов UIA: Идентификатор автоматизации, название класса, свойства уведомления при записи информации о событии уведомления, количество дочерних элементов для события, признанного недействительным в макете, свойства состояния элемента, перетаскивания и целевого эффекта перетаскивания, если они определены
 
-You can also assign a gesture to view the events on a list (NVDA menu/Preferences/Input gestures, Event Tracker category). The list saves up to 100 latest events processed prior to opening the dialog.
+Вы также можете назначить жест для просмотра списка событий (меню NVDA/Параметры/Жесты ввода, категория отслеживания событий). В списке сохраняется до 100 последних событий, обработанных до открытия диалога.
 
-If you find this add-on useful, please [review it][1] in the NVDA Add-on Store.
+Если вы считаете это дополнение полезным, пожалуйста, [оставьте отзыв о нём][1] в магазине дополнений NVDA.
 
-## Version 26.1.0
+## Версия 26.1.0
 
-- The events list dialog will no longer show confusing information for the last event description when left open for an extended time.
-- UIA drop target effect text is fetched from the focus ancestor object if the UIA object raising this event does not record this information.
+* В диалоге списка событий больше не будет отображаться запутанная информация для описания последнего события, если оно остаётся открытым в течение длительного времени.
+* Текст эффекта удаления цели UIA извлекается из объекта-предка фокуса, если объект UIA, вызывающий это событие, не записывает эту информацию.
 
-## Version 25.1.0
+## Версия 25.1.0
 
-- NVDA 2025.1 compatibility.
-- NVDA 2024.1 or later is required due to Python 3.11 upgrade.
-- Restored limited support for Windows 8.1.
-- Made the add-on code more robust with help from Pyright (a Python static type checker).
-- NVDA will record actual control role name instead of integers when reporting events.
+* Совместимость с NVDA 2025.1.
+* Требуется NVDA 2024.1 или выше из -за обновления Python 3.11.
+* Восстановлена ограниченная поддержка Windows 8.1.
+* Код дополнения сделан более надёжно с помощью Pyright (проверка статического типа Python).
+* NVDA будет записывать фактическое имя роли управления вместо целых чисел при сообщении о событиях.
 
-## Version 24.1.0
+## Версия 24.1.0
 
-- NVDA 2024.1 compatibility.
-- opensourcesys/evtTracker #4: the first event's description no longer missing when first opening the event viewer. Contributed by: WangFeng Huang (hwf1324)
+* Совместимость с NVDA 2024.1.
+* opensourcesys/evtTracker #4: Описание первого события больше не отсутствует при первом открытии просмотрщика событий. При участии: WangFeng Huang (hwf1324)
 
-## Version 23.02
+## Версия 23.02
 
-- NVDA 2022.4 or later is required.
-- Windows 10 21H2 (November 2021 Update/build 19044) or later is required.
-- Alert event (mostly for IAccessible objects) will be tracked.
+* Требуется NVDA 2022.4 или выше.
+* Требуется Windows 10 21H2 (обновление от ноября 2021 года/сборка 19044) или позднее.
+* Событие оповещения (в основном для объектов, доступных для IAccessible) будет отслеживаться.
 
-## Version 23.01
+## Версия 23.01
 
-- NVDA 2022.3 or later is required.
-- Windows 10 or later is required as Windows 7, 8, and 8.1 are no longer supported by Microsoft as of January 2023.
+* Требуется NVDA 2022.3 или выше.
+* Требуется Windows 10 или выше, поскольку Windows 7, 8 и 8.1 больше не поддерживаются Корпорацией Майкрософт с января 2023 года.
 
-## Version 22.12
+## Версия 22.12
 
-- Added events list dialog (command unassigned) to list up to 100 recent events recorded by the add-on (Thiago Seus).
-- Additional event information such as UIA notification properties are recorded at the same time as events.
+* Добавлен диалог списка событий (команда не назначена) для отображения до 100 последних событий, записанных дополнением (Thiago Seus).
+* Дополнительная информация о событиях, такая как свойства уведомлений UIA, записывается одновременно с событиями.
 
-## Version 22.10
+## Версия 22.10
 
-- NVDA 2022.2 or later is required due to security.
-- The following UIA property changes are tracked: drag drop effect, drop target effect.
-- UIA item status property text is logged.
-- NVDA will no longer play error tones or appear to do nothing if an object does not define a window class name.
+* В целях безопасности требуется NVDA 2022.2 или выше.
+* Отслеживаются следующие изменения свойств UIA: эффект перетаскивания, эффект перетаскивания цели.
+* Регистрируется текст свойства статуса элемента UIA.
+* NVDA больше не будет воспроизводить сигналы об ошибках или, как представляется, ничего не будет делать, если объект не определяет имя класса окна.
 
-## Version 22.06
+## Версия 22.06
 
-- NVDA 2021.3 or later is required due to security.
+* В целях безопасности требуется NVDA 2021.3 или выше.
 
-## Version 21.10
+## Версия 21.10
 
-- NVDA 2021.2 or later is required due to changes to NVDA that affects this add-on.
-- UIA layout invalidated event will be tracked.
-- Object role and states information will resemble developer info found in more recent NVDA releases.
+* Требуется NVDA 2021.2 или выше из-за изменений в NVDA, которые влияют на это дополнение.
+* Событие, при котором макет UIA был признан недействительным, будет отслеживаться.
+* Информация о роли и состояниях объекта будет похожа на информацию разработчика, которую можно найти в более поздних версиях NVDA.
 
-## Version 21.07
+## Версия 21.07
 
-- Initial release.
+* Первоначальный выпуск.
 
 [1]: https://github.com/nvaccess/addon-datastore/discussions/2717

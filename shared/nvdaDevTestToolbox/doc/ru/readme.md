@@ -1,297 +1,567 @@
 # NVDA Dev & Test Toolbox
 
-- Author: Cyrille Bougot
-- NVDA compatibility: 2019.2 and beyond
-- Download [stable version][1]
+* Автор: Cyrille Bougot
+* Совместимость с NVDA: 2019.2 и выше
+* Загрузить [стабильную версию][1]
 
-This add-on gathers various features for NVDA debugging and testing.
+Это дополнение объединяет различные функции для отладки и тестирования NVDA.
 
-## Features
+## Возможности
 
-- An enhanced restart dialog to specify some extra options when restarting NVDA.
-- A toggle script and a backport of NVDA's "Play a sound for logged errors" feature.
-- An object property explorer.
-- An extended script description mode: when enabled input help mode report information on scripts that have no description.
-- Commands to help log reading and analyzing.
-- Backups of old logs
-- In the Python console workspace, a function to open the source code of an object.
-- A custom startup script for the Python console
-- A command to log the stack trace of the speech.speak function.
+* Расширенный диалог перезапуска для указания некоторых дополнительных параметров при перезапуске NVDA.
+* Различные функции, связанные с зарегистрированными ошибками.
+* Обозреватель свойств объекта.
+* Инструменты скрипта: расширенный режим описания скрипта и открытие скриптов.
+* Команды, помогающие считывать и анализировать журнал.
+* Резервные копии старых журналов
+* Команда анонимизации журнала
+* Улучшения консоли Python, такие как собственный скрипт запуска и возможность сохранять историю ввода в памяти после перезапуска NVDA.
+* В рабочей области консоли Python есть функция для открытия исходного кода объекта.
+* Команда для регистрации трассировки стека функции speech.speak.
+* Команда обратного перевода элементов интерфейса.
 
-## Enhanced restart dialog
+## Команды
 
-The NVDA+shift+Q command opens a dialog to specify some extra options before restarting NVDA.
-The options that can be specified correspond to the [command line options][2] that can be used with `nvda.exe`, e.g. `-c` for config path, `--disable-addons` to disable add-ons, etc.
+Это дополнение использует многослойные команды для всех новых команд, которые оно добавляет.
+Точка входа для этих команд - `nvda+x`; Таким образом, все команды должны выполняться с помощью `nvda+x`, за которой следует одна буква или жест.
+Вы можете узнать все доступные многослойные команды, нажимая `nvda+x, h`.
 
-## Play a sound for logged errors
+Для часто использующихся команд, вы также можете определить прямой жест в диалоге жестов ввода.
 
-The ["Play a sound for logged errors" setting][4] has been introduced in NVDA 2021.3 and allows to specify if NVDA will play an error sound in case an error is logged.
+## Расширенный диалог перезапуска
 
-This add-on provides an additional command (NVDA+control+alt+E) to toggle this setting.
-You can choose:
+Команда `NVDA+X, Q` открывает диалог, чтобы указать некоторые дополнительные параметры перед перезапуском NVDA.
+Параметры, которые можно указать, соответствуют параметрам [командной строки][2], которые можно использовать с `nvda.exe`, например, `-c` для пути конфигурации, `--disable-addons`, чтобы отключить дополнения и т. Д.
 
-- "Only in test versions" (default) to make NVDA play error sounds only if the current NVDA version is a test version (alpha, beta or run from source).
-- "Yes" to enable error sounds whatever your current NVDA version is.
+## Функции, связанные с зарегистрированными ошибками
 
-For NVDA prior to 2021.3, this add-on provides the backport of this feature and the possibility to control it with the keyboard command.
-The checkbox in the Advanced settings panel is not backported however.
+### Сообщить о последней зарегистрированной ошибке
 
-## Object property explorer
+Нажатие `NVDA+X, E` позволяет сообщать о последней ошибке, зарегистрированной без необходимости открывать журнал. Второе нажатие очищает последнюю запомненную ошибку.
 
-This feature allows to report some properties of the current navigator object without opening the log viewer.
+### Воспроизведение звука при обнаружении зарегистрированных ошибок
 
-To list the properties of an object, move the navigator object to it and use the following commands:
+Параметр ["Воспроизводить звук при зарегистрированных ошибках"][4] был введен в NVDA 2021.3 и позволяет указать, будет ли NVDA воспроизводить звук ошибки в случае регистрации ошибки.
 
-- Selects the previous property and reports it for the navigator object.
-- Selects the next property and reports it for the navigator object.
-- Reports the currently selected property for the navigator object; two presses displays this information in a browseable message.
+Это дополнение предоставляет дополнительную команду (`NVDA+X, shift+E`) для переключения этой настройки.
+Вы можете выбрать:
 
-These three commands are unassigned by default; you will have to assign them in the Input gesture dialog to use them.
+* "Только в тестовых версиях" (по умолчанию), чтобы ошибка воспроизведения NVDA воспроизводилась только в том случае, если текущая версия NVDA является тестовой (альфа, бета-версия или запущена из исходного кода).
+* "Да" для включения звуков ошибок независимо от вашей текущей версии NVDA.
 
-The list of the supported properties is the following:
+Для NVDA до 2021.3 это дополнение обеспечивает перенос этой функции и возможность управлять ею с помощью команд с клавиатуры.
+Однако флажок в панель дополнительных настроек не перенесён.
+
+## Обозреватель свойств объекта
+
+Эта функция позволяет сообщать о некоторых свойствах текущего объекта навигатора, не открывая просмотрщик журнала.
+
+Чтобы просмотреть свойства объекта, переместите к нему объект навигатора и используйте следующие команды:
+
+* `NVDA+X, стрелка вверх`: Выбирает предыдущее свойство и сообщает его в объекте навигатора.
+* `NVDA+X, стрелка вниз`: Выбирает следующее свойство и сообщает его в объекте навигатора.
+* `NVDA+X, N`: Сообщает выбранное в настоящее время свойство в объекте навигатора
+* `NVDA+X, shift+N`: Отображает выбранное в настоящее время свойство объекта навигатора в просмотровом сообщении
+
+Список поддерживаемых свойств следующий:
 name, role, state, value, windowClassName, windowControlID, windowHandle, location, Python class, Python class mro.
 
-This feature is an improvement of an example in [NVDA developer guide][5].
+При использовании команд навигации объекта вы также можете выбирать в настоящее время выбранное свойство вместо обычной отчётности по объектам NVDA.
+Команда переключения, `NVDA+X, control+N`, позволяет переключаться между этой пользовательской отчётностью об объектах и обычной отчётностью NVDA.
 
-## Extended script description mode
+Например, вы можете выбрать свойство "windowClassName" и включить создание объявлений по настраиваемым объектам.
+Тогда при перемещении объекта навигатора к следующему или предыдущему объекту вместо обычного сообщения вы услышите имя класса окна объекта.
 
-When the Extended script description mode is active, the input help mode (NVDA+1) is modified as follows.
-If a script has no description, the script's name and class are reported.
-If a script has a description, its description is reported as usual.
-The gesture to activate or deactivate this feature is NVDA+control+alt+D.
+## Инструменты скрипта
 
-Executing a gesture bound to a script without description in input help mode also create an entry for this script in the gesture management dialog.
-This entry is located in a dedicated category called "Scripts without description (modify at your own risk!)".
-This allow to easily add, delete or change the native NVDA gestures for these script.
-Be aware however that it is often intended that such script do not have any description to prevent the user to modify the associated gesture.
-Indeed, the gesture may be defined to match an application shortcut key.
-For example the script script_toggleItalic on NVDAObjects.window.winword.WordDocument is bound to control+I and this should not be modified since the gesture is passed to the application to actually execute the shortcut key.
+<a id="scriptOpener"></a>
+### Открытие скриптов
 
-### Usage example
+Команда открытия скриптов позволяет открывать код сценария, зная его жест.
 
-Control+shift+I also toggle italic in Word, even if it is not natively reported by NVDA.
-To have the control+shift+I result reported by NVDA as control+I, you should perform the following steps:
+Для её использования нажмите `NVDA+x, C` и затем жест скрипта, который вы хотите увидеть.
+Например, чтобы увидеть код скрипта, который сообщает заголовок окна переднего плана, нажмите `NVDA+X, C` и затем `NVDA+T`.
 
-- Open a Word document.
-- Enable the extended script description mode with NVDA+control+alt+D.
-- Enter input help mode with NVDA+1.
-- Press control+I to report the italic script and have it added in the gesture dialog.
-- Exit input help mode with NVDA+1.
-- Open the input gestures dialog.
-- In the category "Scripts without description (modify at your own risk!)", select the command "toggleItalic on NVDAObjects.window.winword.WordDocument".
-- Add the control+shift+I shortcut and validate.
-- If you want, exit the extended script description mode with NVDA+control+alt+D.
+Чтобы эта функция работала, вам нужно настроить [команду любимого редактора](#settingsOpenCommand) в настройках дополнения.
+Если вы не запускаете NVDA из исходного кода и хотите открывать код NVDA, также нужно настроить [местоположение исходного кода NVDA](#settingsNvdaSourcePath).
 
-Known bug: A script added for a specific class is visible even if gesture manager is opened in another context.
+### Расширенный режим описания скрипта
 
-## Log reading and analyzing commands
+Режим расширенного описания скрипта позволяет сообщать информацию о скриптах без описания в режиме справки по вводу.
 
-A log reader mode provides commands to ease log reading and analyzing.
-In the log viewer window the log reader is enabled by default, thus log reading commands are available immediately.
-In another text reading area such as an editor (e.g. Notepad++) or a webpage (e.g. GitHub issue), you need to press NVDA+control+alt+L to enable log reader mode and use its commands.
-When you are done with log reading and analyzing tasks, you can disable again NVDA+control+alt+L to disable the log reader mode.
+Когда активен режим расширенного описания скрипта, режим справки по вводу (NVDA+1) изменяется следующим образом.
+Если скрипт не содержит описания, сообщаются имя и класс скрипта.
+Если скрипт содержит описание, его описание сообщается как обычно.
+Жест для активации или деактивации этой функции - `NVDA+X, D`.
 
-The commands available in log reader mode are described hereafter.
+Выполнение жеста, привязанного к сценарию без описания в режиме справки по вводу, также создаёт запись для этого скрипта в диалоге управления жестами.
+Эта запись находится в специальной категории "Скрипты без описания (изменяйте на свой страх и риск!)".
+Это позволяет легко добавлять, удалять или изменять собственные жесты NVDA для этих скриптов.
+Однако имейте в виду, что часто предполагается, что такой скрипт не содержит никакого описания, чтобы пользователь не мог изменить связанный жест.
+Действительно, жест может быть определён в соответствии с клавишей быстрого доступа приложения.
+Например, скрипт script_toggleItalic в NVDAObjects.window.winword.WordDocument привязан к control+I, и его не следует изменять, поскольку жест передаётся приложению для фактического выполнения сочетания клавиш.
 
-### Quick navigation commands
+#### Пример использования
 
-Single letter command similar to browse mode quick navigation keys allow to move to various type of log messages:
+Control+shift+I также переключает курсив в Word, даже если NVDA не сообщает об этом изначально.
+Чтобы NVDA сообщала о результате control+shift+I как control+I, вам необходимо выполнить следующие шаги:
 
-- m: any message
-- e: ERROR
-- i: IO
-- d: DEBUG
-- f: INFO
-- g: DEBUGWARNING
-- w: WARNING
+* Откройте документ Word.
+* Включите режим расширенного описания скрипта с помощью `NVDA+X, D`.
+* Войдите в режим справки по вводу с помощью NVDA+1.
+* Нажмите Control+I, чтобы сообщить о курсиве и добавить его в диалог жестов ввода.
+* Выйдите из режима справки по вводу с помощью NVDA+1.
+* Откройте диалог жестов ввода.
+* В категории "Скрипты без описания (изменяйте на свой страх и риск!)" выберите команду "toggleItalic в NVDAObjects.window.winword.WordDocument".
+* Добавьте сочетание клавиш control+shift+I и подтвердите.
+* Если хотите, выйдите из режима расширенного описания скрипта с помощью `NVDA+X, D`.
 
-Pressing the single letter moves to the next occurrence of this message. Combining the letter with the shift key moves to the previous occurrence of this message.
+Известная ошибка: скрипт, добавленный для определённого класса, виден, даже если диалог жестов ввода открыт в другом контексте.
+
+## Функции чтения и анализа журналов
+
+<a id="logPlaceMarkers"></a>
+### Размещайте маркеры в журнале
+
+Во время тестирования или работы вы можете отметить определенный момент в журнале, чтобы вы могли легко обратиться к нему позже при чтении журнала.
+Чтобы добавить маркерное сообщение в журнал, нажмите `NVDA+X, K`.
+На уровне INFO будет записано в журнал следующее сообщение:
+`-- NDTT marker 0 --`
+Вы можете добавить в журнал столько маркеров, сколько захотите.
+Номер маркера будет увеличиваться каждый раз, когда вы помещаете его в журнал; он будет сброшен только при перезапуске NVDA.
+
+### Режим чтения журналов
+
+Режим чтения журнала предоставляет команды для облегчения чтения журнала и анализа.
+В окне просмотра журнала и в области вывода консоли Python средство чтения журнала включено по умолчанию, поэтому команды чтения журнала доступны сразу.
+В другой области считывания текста, такой как редактор (например, Notepad ++) или веб -страница (например, проблема Github), вам необходимо нажать `NVDA+X, L`, чтобы включить режим чтения журнала и использовать его команды.
+Когда вы закончите с чтением журнала и анализом задач, вы можете снова нажать `NVDA+X, L`, чтобы отключить режим чтения журнала.
+
+Команды, доступные в режиме чтения журнала, описаны ниже.
+В этом режиме вы также можете нажать `control+H` для отображения всех доступных команд.
+
+<a id="logReaderQuickNavigationCommands"></a>
+#### Команды быстрой навигации
+
+Однобуквенная команда, аналогичная клавишам быстрой навигации в режиме обзора, позволяет переходить к различным типам сообщений журнала:
+
+* m: любое сообщение
+* e: сообщения об ошибках (`ERROR` и `CRITICAL`)
+* w: предупреждающие сообщения (`WARNING`)
+* f: информационные сообщения (`INFO`)
+* k: маркеры, ранее [помещенные в журнал](#logPlaceMarkers)
+* g: предупреждающие сообщения об отладке (`DEBUGWARNING`)
+* i: сообщения ввода/вывода (`IO`)
+* n: сообщения ввода
+* s: речевые сообщения
+* b: брайлевские сообщения
+* d: сообщения отладки (`DEBUG`)
+
+Нажатие одной буквы приводит к переходу к следующему появлению этого сообщения. Сочетание буквы с клавишей shift приводит к переходу к предыдущему появлению этого сообщения.
+
+Кроме того, внутри определённых типов сообщений вы можете переходить блок за блоком, нажимая `O` или `shift+O`.
+Поддерживаются следующие типы сообщений и связанные блоки:
+
+* В сообщениях, содержащих обратные трассировки, например. сообщения об ошибках, навигация по блокам позволяет переключаться между обратными трассировками
+  Это особенно полезно, когда присутствует более одной обратной трассировки, например. когда возникает ошибка в части "except" предложения try/Exception.
+* В сообщении со списком стеков потоков Python, регистрируемых при зависании, навигация по блокам позволяет переключаться между стеками потоков.
+* В сообщении, предоставляющем информацию о разработчике объекта навигатора, регистрируемом при нажатии `NVDA+F1`, навигация по блокам позволяет вам переключаться между группами свойств.
+  Существует четыре группы свойств: общие свойства, свойства appModule, свойства окна и свойства, специфичные для интерфейса (IAccessible, UIA).
+
+Наконец, внутри блока вы можете быстро перейти к первой или последней интересующей строке блока.
+Используйте `shift+L`, чтобы перейти к первой интересующей строке содержимого текущего блока, например, первый кадр обратной трассировки.
+И `L`, чтобы перейти к последней интересующей строке содержимого блока, например, последний кадр стека потоков или ошибка ниже трассировки.
+
+#### Перевод речевого сообщения
+
+Иногда вам может потребоваться просмотреть журнал, созданный в системе на иностранном языке, который вы не понимаете. Например, журнал был создан в китайской системе / NVDA, в то время как вы понимаете только французский.
+Если у вас установлено дополнение [Instant Translate][3], вы можете использовать его в сочетании с [командами быстрой навигации по журналу](#logReaderQuickNavigationCommands) для перевода речевых сообщений.
+
+* Сначала настройте языки Instant Translate. Исходным языком должен быть язык системы, в которой был создан журнал (например, китайский). Целевым языком должен быть ваш язык (например, французский).
+* Откройте журнал
+* Нажмите `control+T`, чтобы включить автоматический перевод речи в журнале
+* Используйте команды быстрой навигации в журнале, например, S, I и т.д. При появлении речевого сообщения оно будет передано на вашем языке (в нашем предыдущем примере - на французском)
+
+Если вы хотите отключить перевод речи, снова нажмите `control+T`.
 
 <a id="logReaderOpenSourceFile"></a>
+#### Открыть файл с исходным кодом в вашем редакторе
 
-### Open the file of the source code in your editor
+В журнале какая-то строка может ссылаться на исходный код:
 
-In the log some line may refer to the source code:
-
-- A line belonging to a traceback contains the path and the line in a file, e.g.:  
+* Строка, принадлежащая трассировке, содержит путь и строку в файле, например:
   `  File "virtualBuffers\__init__.pyc", line 226, in _getStoryLength`
-- The header line of a logged message contains the function which has logged this message, e.g.:  
+* Строка заголовка зажурналированного сообщения содержит функцию, которая зажурналировала это сообщение, например:
   `INFO - config.ConfigManager._loadConfig (22:45:26.145) - MainThread (16580):`
+* Содержимое сообщения, записанного в журнал в режиме справки по вводу (записанного на информационном уровне):
+  `Input help: gesture kb(desktop):NVDA+t, bound to script title on globalCommands.GlobalCommands`
 
-You may want to open the file containing this code to understand the context of the traceback or the logged message.
-Just press C to open this file.
+Возможно, вы захотите открыть файл, содержащий этот код, чтобы понять контекст обратной трассировки или зарегистрированного сообщения.
+Просто нажмите C, чтобы открыть этот файл.
 
-For this feature to work, you need to have configured your [favorite editor's command](#settingsOpenCommand) in the add-on's settings.
-If you are not running NVDA from source, the [location of NVDA source code](#settingsNvdaSourcePath) should also have been configured.
+Чтобы эта функция работала, вам нужно настроить [команду любимого редактора](#settingsOpenCommand) в настройках дополнения.
+Если вы не запускаете NVDA из исходного кода и хотите открывать код NVDA, также нужно настроить [местоположение исходного кода NVDA](#settingsNvdaSourcePath).
+
+#### Анализ обратной трассировки
+
+Иногда в журнале могут присутствовать обратные трассировки ошибок, как в следующем примере:
+```
+ERROR - scriptHandler.executeScript (14:47:43.426) - MainThread (15492):
+error executing script: <bound method LogContainer.script_openSourceFile of <NVDAObjects.Dynamic_LogViewerLogContainerIAccessibleRichEdit50WindowNVDAObject object at 0x34C1E510>> with gesture 'c'
+Traceback (most recent call last):
+  File "scriptHandler.pyc", line 300, in executeScript
+  File "C:\Users\myUserName\AppData\Roaming\nvda\addons\nvdaDevTestToolbox\globalPlugins\ndtt\logReader.py", line 603, in script_openSourceFile
+    if self.openStackTraceLine(line):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\myUserName\AppData\Roaming\nvda\addons\nvdaDevTestToolbox\globalPlugins\ndtt\logReader.py", line 667, in openStackTraceLine
+    0 / 0  # An erroneaous code line
+    ~~^~~
+ZeroDivisionError: division by zero
+```
+
+Для кадров, где доступен исходный код, вы могли заметить маркеры с символами `^` (крышка) и `~` (тильда).
+Именно так Python визуально указывает местоположение ошибки, а также её контекст в кадре трассировки.
+Нажатие `control+E` перемещает курсор в начало ошибки в строке исходного кода, то есть в текст, отмеченный символом `^` (крышка).
+Двойное нажатие выделит этот текст.
+Тройное нажатие выделяет ошибку вместе с её контекстом, то есть текстом строки исходного кода, отмеченной символами `^` (крышка) и `~` (тильда).
+
+Обратите внимание, что для журналов, записанных с помощью версии NVDA до 2024.1, то есть с Python 3.7 или старше, Python указывает на ошибку только одним символом `^` (крышка).
+Таким образом, двойное или тройное нажатие этой команды становится практически бесполезным.
+
+#### Получение сводки доступных команд
+
+Чтобы отобразить список всех доступных команд в режиме чтения журнала, нажмите `NVDA+X, H`.
+
+## Анонимизировать журнал
+
+При сообщении о проблемах вам может потребоваться предоставить журнал.
+Однако журналы могут содержать конфиденциальную информацию (имена пользователей, адреса электронной почты и т. д.).
+Это дополнение предоставляет команду для анонимизации содержимого журнала.
+
+Выделите часть журнала или всё его содержимое и нажмите `NVDA+X, A`.
+Анонимизированное содержимое журнала будет помещено в буфер обмена.
+Вы можете вставить его в текущее выделение, чтобы заменить его, или в любое другое место по вашему желанию.
+
+Чтобы эта функция работала, вам необходимо настроить правила анонимизации, используемые этой командой.
+Файл для настройки этих правил находится по адресу: `pathToNVDAConfig\ndtt\anonymizationRules.dic` (например, `C:\Users\myUserName\AppData\Roaming\nvda\ndtt\consoleStartup.py`).
+Все инструкции по написанию этого файла вы найдете в его шапке.
+Если вы повредили файл правил анонимизации или удалили инструкции в заголовке, просто удалите или переименуйте этот файл, и новая версия этого файла будет создана при следующем запуске.
 
 <a id="oldLogsBackup"></a>
+## Резервное копирование старых журналов
 
-## Backup of old logs
+NVDA уже предоставляет резервную копию журнала предыдущей сессии NVDA; файл называется `nvda-old.log`.
+Однако иногда вам может потребоваться получить доступ к более старым журналам, например, из-за того, что вам пришлось снова перезапустить NVDA, прежде чем просматривать "nvda-old.log`.
+Это дополнение позволяет вам настроить, хотите ли вы создавать резервные копии старых журналов и сколько их; это делается в [настройках дополнения](#settingsLogsBackup).
 
-NVDA already provides a backup of the log of the previous session of NVDA; the file is called `nvda-old.log`.
-Sometimes however you may want to access older logs, e.g. because you have had to restart NVDA again before looking at `nvda-old.log`.
-This add-on allows you to configure if you want to backup old logs and how many of them; this is done in the [add-on's settings](#settingsLogsBackup).
+Диалог диспетчера журнала позволяет просматривать резервные журналы.
+Его можно открыть, переходя в меню NVDA -> Сервис -> Диспетчер журналов
+В этом диалоге вы можете увидеть список всех резервных копий журналов и выполнить различные действия в выбранном журнале:
 
-A log manager dialog allows to view the backed up logs.
-It can be opened going to NVDA menu -> Tools -> Logs manager
-In this dialog, you can see the list of all the backup logs, open or delete them.
-To be able to open a log, you should first have configured the [Command to open a file in your favorite editor](#settingsOpenCommand).
+* для его открытия (нажмите `Enter`)
+* для его удаления (нажмите `Delete`)
+* копировать файл журнала (нажмите `control+C`)
 
-## Python console extension
+Вы также можете выбрать несколько журналов для выполнения действий с ними.
+
+Чтобы иметь возможность открыть журнал, вы должны сначала настроить [команду для открытия файла в вашем любимом редакторе](#settingsOpenCommand).
+
+## Расширение консоли Python
 
 <a id="pythonConsoleOpenCodeFile"></a>
+### функция `openCodeFile`
 
-### `openCodeFile` function
-
-In the console, you can call the following function to view the source code that defines the variable `myVar`:  
+В консоли вы можете вызвать следующую функцию, чтобы просмотреть исходный код, определяющий переменную `myVar`:
 `openCodeFile(myVar)`
 
-For this feature to work, you need to have configured your [favorite editor's command](#settingsOpenCommand) in the add-on's settings.
-If you are not running NVDA from source, the [location of NVDA source code](#settingsNvdaSourcePath) should also have been configured.
+Чтобы эта функция работала, вам нужно настроить [команду любимого редактора](#settingsOpenCommand) в настройках дополнения.
+Если вы не запускаете NVDA из исходного кода и хотите открывать код NVDA, также нужно настроить [местоположение исходного кода NVDA](#settingsNvdaSourcePath).
 
-The `openCodeFile` functions can be called on objects defined in NVDA's code or on objects defined by add-ons.
-It cannot be called on objects whose source code is not available such as python builtins.
+Функции `openCodeFile` могут быть вызваны для объектов, определённых в коде NVDA, или для объектов, определённых дополнениями.
+Они не могут быть вызваны для объектов, исходный код которых недоступен, таких как встроенные модули python.
 
-If you have not yet imported the object in the console, you can also pass its name as parameter to the `openCodeFile` function.
+Если вы ещё не импортировали объект в консоль, вы также можете передать его имя в качестве параметра функции `openCodeFile`.
 
-Below are examples of call in NVDA's code:
+Ниже приведены примеры вызовов в коде NVDA:
 
-- View the definition of the function `speech.speech.speak`:  
-  `openCodeFile(speech.speech.speak)`  
-  or with the name passed as parameter:  
+* Просмотреть определение функции `speech.speech.speak`:
+  `openCodeFile(speech.speech.speak)`
+  или с именем, переданным в качестве параметра:
   `openCodeFile("speech.speech.speak")`
-- View the definition of the class `TextInfo`:  
+* Просмотреть определение класса `TextInfo`:
   `openCodeFile(textInfos.TextInfo)`
-- View the definition of the method `copyToClipboard` of the class `TextInfo`:  
+* Просмотреть определение метода `copyToClipboard` класса `TextInfo`:
   `openCodeFile(textInfos.TextInfo.copyToClipboard)`
-- View the class definition of the focused object:  
+* Просмотреть определение класса объекта в фокусе:
   `openCodeFile(focus)`
-- Open the file `api.py` defining the module `api`:  
+* Открыть файл `api.py`, определяющий модуль `api`:
   `openCodeFile(api)`
 
-### Python console startup script
+### Скрипт при запуске консоли Python
 
-You can define a custom script which will be executed in the Python console's namespace when it is first opened, or if the add-on is reloaded (NVDA+F3) after the console has already been opened.
+Вы можете определить собственный скрипт, который будет выполняться в пространстве имён консоли Python при её первом открытии.
 
-For example, the script allows you to execute new imports and define aliases that you will be able to use directly in the console, as shown below:
+Например, скрипт позволяет вам выполнять новый импорт и определять псевдонимы, которые вы сможете использовать непосредственно в консоли, как показано ниже:
 
-    ```
     # Various import that I want in the console.
     import globalVars as gv
     import core
     import ui
     # Aliases
     ocf = openCodeFile
-    ```
 
-The Python console script should be placed in the following location: `pathToNVDAConfig\ndtt\consoleStartup.py`  
-For example: `C:\Users\myUserName\AppData\Roaming\nvda\ndtt\consoleStartup.py`
+Консольный скрипт Python следует разместить в следующем месте: `pathToNVDAConfig\ndtt\consoleStartup.py`
+Например: `C:\Users\myUserName\AppData\Roaming\nvda\ndtt\consoleStartup.py`
 
-## Log the stack trace of the speech function
+Примечание. В Python 2, т. е. с NVDA 2019.2.1 или более ранней версии, поддерживаются только чистые сценарии ASCII; любая другая кодировка, например Unicode, не поддерживается.
 
-Sometimes, you may want to see which part of the code is responsible for speaking something.
-For this, you can enable the stack trace logging of the speech function pressing NVDA+control+alt+S.
-Each time NVDA speaks, a corresponding stack trace will be logged in the log.
+### Сохранение истории ввода в консоль Python
 
-Note: You may modify the script's file directly to patch another function.
-See all instructions in the file for details on usage.
+В истории консоли Python вы можете использовать стрелки вверх и вниз для просмотра и изменения предыдущих данных ввода.
+Однако список предыдущих вводов очищается при выходе из NVDA.
+Это дополнение предоставляет [опцию](#settingsPreserveHistory), включена по умолчанию, что позволяет сохранять историю ввода в консоли Python даже при перезапуске NVDA.
+
+## Журналировать трассировку стека речевой функции
+
+Иногда вы можете посмотреть, какая часть кода отвечает за то, что говорить.
+Для этого вы можете включить регистрацию трассировки стека речевой функции, нажимая `NVDA+X, S`.
+Каждый раз, когда говорит NVDA, соответствующая трассировка стека будет регистрироваться в журнале.
+
+Примечание: Вы можете изменить файл скрипта напрямую, чтобы исправить другую функцию.
+Подробную информацию об использовании смотрите во всех инструкциях файла.
+
+<a id="reverseTranslationCommand"></a>
+## Команда обратного перевода
+
+Многие тестеры используют NVDA на другом языке, а не на английском.
+Но при объявлениях результатов теста на GitHub описание изменённых параметров или сообщений, представленных NVDA, должны быть написаны на английском.
+Перезапускать NVDA на английском языке, чтобы проверить точную формулировку опций или сообщений, довольно неприятно и отнимает много времени.
+
+Чтобы избежать этого, дополнение предоставляет две команды обратного перевода, позволяющие выполнить обратный перевод интерфейса NVDA, такого как сообщения, метки управления в графическом интерфейсе и т. д.
+
+* `NVDA+X, R` использует перевод gettext NVDA, чтобы попытаться выполнить обратный перевод последней речи.
+* `NVDA+shift+X, R` использует переводы gettext из NVDA и её дополнений, чтобы попытаться выполнить обратный перевод последней речи.
+
+Более конкретно, первая строка последней речевой последовательности переводится.
+
+Например, во французской NVDA, если я стрелкой вниз перейду к меню сервиса под названием "Outils", NVDA скажет "Outils sous-Menu o", что означает "Tools subMenu o".
+Если я сразу после этого нажму команду обратного перевода, NVDA будет отменять перевод "Outils" в "Tools".
+
+Глядя на журнал после этого, мы можем найти следующие строки:
+```
+IO - speech.speech.speak (23:38:24.450) - MainThread (2044):
+Speaking ['Outils', 'sous-Menu', CharacterModeCommand(True), 'o', CharacterModeCommand(False), CancellableSpeech (still valid)]
+```
+Это подтверждает, что "Outils" была первой строкой в ​​последовательности речи.
+
+В случае, если обратный перевод приводит к двум или более возможным результатам, открывается контекстное меню с перечислением всех возможностей.
+
+Результат обратного перевода также копируется в буфер обмена, если включена соответствующая [опция](#settingsCopyReverseTranslation), что является значением по умолчанию.
+
+Обратный перевод строк NVDA доступен только для NVDA версии 2022.1 или выше.
+В более ранних версиях NVDA для обратного перевода доступны только строки дополнений.
+
+Кроме того, в NVDA версии 2019.2.1 и более ранних, если обратный перевод не найден, вторая попытка осуществляется в первой части строки.
+ Действительно, в этих версиях NVDA речевая последовательность выглядит так:
+```
+IO - speech.speak (12:39:12.684):
+Speaking [u'Outils  sous-Menu  o']
+```
+Мы видим, что метка объекта может быть объединена с ролью, состоянием, ярлыком и т. д.
+Таким образом, если обратный перевод не дает результата для всей строки, делается вторая попытка для части строки перед двойным пробелом ("  ").
+Однако это не является абсолютным доказательством, поскольку мы не можем исключить, что строка изначально содержит двойной пробел.
 
 <a id="settings"></a>
+## Настройки
 
-## Settings
+Некоторые функции дополнения могут потребовать определённой настройки.
+Панель настроек позволяет включать их или контролировать их работу.
+Чтобы просмотреть и изменить эти настройки, перейдите в меню NVDA -> Настройки и выберите категорию NVDA Dev & Test Toolbox.
+Доступ к этому диалогу настроек также можно получить непосредственно из диалога диспетчера журналов.
 
-Some features of the add-on may require a specific configuration.
-A settings panel allows to enable them or to control how they work.
-To view and modify these settings, go to NVDA menu -> Preferences and select the category NVDA Dev & Test Toolbox.
-This settings dialog can also be accessed directly from the Logs Manager dialog.
-
-These settings are global and are not affected by profile switching.
+Эти параметры являются глобальными и могут быть настроены только в том случае, если активен профиль по умолчанию.
 
 <a id="settingsOpenCommand"></a>
+### Команда для открытия файла в вашем любимом редакторе
 
-### Command to open a file in your favorite editor
+Некоторые функции позволяют просматривать содержимое в вашем любимом редакторе.
+Сюда входят команды для просмотра исходного файла [из журнала](#logReaderOpenSourceFile), [из объекта в консоли](#pythonConsoleOpenCodeFile) или [для введённого жеста](#scriptOpener), а также кнопка открытия [менеджера журналов](#oldLogsBackup).
 
-Some features allow to see content in your favorite editor.
-This includes the commands to view the source file [from a log](#logReaderOpenSourceFile) or [from an object in the console](#pythonConsoleOpenCodeFile) as well as the [log manager](#oldLogsBackup)'s Open button.
-
-To use them, you first need to configure the command that will be called to open the file in your favorite editor.
-The command should be of the form:  
-`"C:\path\to\my\editor\editor.exe" "{path}":{line}`  
-You should of course modify this line according to the real name and location of your editor and the syntax used by it to open files.
-`{path}` will be replaced by the full path of the file to open and `{line}` by the line number where you want the cursor to be set.
-For Notepad++ for example the command to type in the console would be:  
+Чтобы их использовать, сначала необходимо настроить команду, которая будет вызываться для открытия файла в вашем любимом редакторе.
+Команда должна иметь вид:
+`"C:\path\to\my\editor\editor.exe" "{path}":{line}`
+Разумеется, вам следует изменить эту строку в соответствии с настоящим именем и местоположением вашего редактора, а также синтаксисом, используемым им для открытия файлов.
+`{path}` будет заменён полным путём к файлу, который нужно открыть и `{line}` номером строки, на которую вы хотите установить курсор.
+Например, для Notepad++ команда для ввода в консоли будет такой:
 `"C:\Program Files\Notepad++\notepad++.exe" "{path}" -n{line}`
 
 <a id="settingsNvdaSourcePath"></a>
+### Путь к исходному коду NVDA
 
-### NVDA source code path
+При использовании команды для [просмотра исходного файла из журнала](#logReaderOpenSourceFile), [из объекта в консоли](#pythonConsoleOpenCodeFile) или [для введённого жеста](#scriptOpener)файл может принадлежать самой NVDA.
+Если вы не используете NVDA из исходного кода, ваша NVDA содержит только скомпилированные файлы.
+Таким образом, вы можете указать здесь альтернативное местоположение, где будет найден соответствующий исходный файл, например, место, где вы клонировали исходные файлы NVDA, чтобы исходный файл всё равно можно было открыть.
+Путь должен быть таким:
+`C:\pathExample\GIT\nvda\source`
+Конечно, замените путь к исходному коду NVDA на правильный.
 
-When using a command to [view the source file from a log](#logReaderOpenSourceFile) or [from an object in the console](#pythonConsoleOpenCodeFile), the file may belong to NVDA itself.
-If you are not running NVDA from source, your NVDA only contains compiled files.
-Thus you may specify here an alternate location where the corresponding source file will be found, e.g. the place where you have cloned NVDA source files, so that a source file can be opened anyway.
-The path should be such as:  
-`C:\pathExample\GIT\nvda\source`  
-Of course, replace the path of NVDA source with the correct one.
-
-Be sure however that the version of your source file (e.g. GIT commit) is the same as the one of the running instance of NVDA.
+Однако убедитесь, что версия вашего исходного файла (например, коммита GIT) совпадает с версией работающего экземпляра NVDA.
 
 <a id="settingsLogsBackup"></a>
+### Резервное копирование старых журналов
 
-### Backup of old logs
+Комбинированный список резервного копирования старых журналов позволяет включить или отключить [функцию](#oldLogsBackup).
+Если эта функция включена, вы также можете указать ниже в разделе ограничения количество резервных копий максимальное количество резервных копий, которые вы хотите сохранить.
+Эти настройки вступят в силу только при следующем запуске NVDA, когда будет выполнено резервное копирование.
 
-The combobox Backup of old logs allows to enable or disable the [feature](#oldLogsBackup).
-If it is enabled, you can also specify below in "Limit the number of backups" the maximum number of backups you want to keep.
-These settings only take effect at next NVDA startup when the backup takes place.
+<a id="settingsCopyReverseTranslation"></a>
+### Копировать обратный перевод в буфер обмена
 
-## Change log
+Эта опция позволяет выбирать, будет ли [команда обратного перевода](#reverseTranslationCommand) копировать свой результат в буфер обмена.
 
-### Version 4.0
+<a id="settingsPreserveHistory"></a>
+### Сохранять историю ввода в консоль после перезапуска
 
-- Possibility to back up old logs and introduction of a logs manager.
-- Added a script to report the last logged error.
-- Fixed a bug preventing last log message to be read in older NVDA versions.
+Если этот флажок отмечен, история ввода в консоль Python будет сохранена при перезапуске NVDA.
+Если этот флажок установлен, вы также можете указать ниже максимальное количество введённых данных, которые будут сохранены.
+Если флажок снят, NVDA будет вести себя как обычно, т.е. история консоли после перезапуска будет пустой.
 
-### Version 3.2
+## Журнал изменений
 
-- Compatibility with NVDA 2023.1.
+### Версия 8.0
 
-### Version 3.1
+* История консоли Python теперь может сохраняться при перезапуске.
+* Обратный перевод: добавлена ​​вторая команда для обратного перевода строки с использованием перевода NVDA и её дополнений.
+* Новые команды чтения журнала для перехода к предыдущему или следующему сообщению брайлевского вывода
+* Новые команды чтения журнала для перехода к предыдущему или следующему блоку сообщения, например. предыдущий или следующий стек потоков в отчете о заморозке сторожевого таймера, предыдущий или следующий блок свойств в информации о разработчике для объекта навигатора и т. д.
+* Новые команды чтения журнала для перехода к первой или последней интересующей строке блока, например. первый или последний кадр обратной трассировки
+* Новая команда чтения журнала "Перейти к ошибке" для перехода к ошибке в кадре трассировки.
+* Новая команда чтения журнала для отображения справочного сообщения со списком всех доступных команд во время чтения журнала.
+* Режим чтения журнала теперь включен по умолчанию на панели вывода консоли Python.
+* Новая команда для анонимизации журнала
+* Скрипт запуска консоли теперь поддерживает строки Юникода (только для Python 3); Однако полный файл Unicode может не поддерживаться.
+* Скрипт запуска консоли Python теперь будет выполняться только один раз и только при первом открытии консоли.
+Исправлена ошибка, из-за которой этот скрипт мог выполняться много раз при перезагрузке дополнений.
+* Улучшена обработка ошибок в скрипте запуска консоли.
+* Исправлена ошибка: пустые файлы журналов, созданные при отключении журнала, больше не будут сохраняться как старый журнал.
+* Речь по требованию теперь поддерживается в многоуровневых командах
+* Улучшена обработка ошибок команды открытия скрипта (в случае неправильной или отсутствующей конфигурации или при использовании брайлевского дисплея).
 
-- Fixed an error occurring when requesting unavailable information on an object.
+### Версия 7.3
 
-### Version 3.0
+* Исправлена ошибка: Команде активации многоуровневых команд дополнения теперь можно назначить другой жест.
 
-- In a log, you can now press C on a message's header line to open the function/module which has emitted it.
-- In the console, `openCodeFile` function can now receive as parameter the object or a string containing its name.
-- New feature: NVDA console startup file: If it exists, the file YourNVDAConfigFolder\ndtt\consoleStartup.py will be executed when NVDA console is first opened or when add-ons are reloaded.
-- Various minor fixes for `openCodeFile` Python console's function and the command to open the source file corresponding to a line in the log.
-- Fixed an issue when trying to report roles/states for object explorer in older version of NVDA.
-- The add-on does not cause a problem anymore with the tree interceptor when using UIA in Edge.
+### Версия 7.1
 
-### Version 2.1
+* Совместимость с NVDA 2025.1.
 
-- Various bugfixes and code refactoring/cleaning to address all use cases: all supported versions, installed vs. run from source, etc. (contribution from Łukasz Golonka)
-- Rewriting of the compa module (contribution from Łukasz Golonka)
-- The restart dialog can now be opened only once.
-- The object explorer shortcuts are now unassigned by default and need to be mapped by the user.
-- With the object explorer, a double-press to call the script to report the current object's property now displays the reported information in a browseable message.
+### Версия 7.0
 
-### Version 2.0
+* Были введены многоуровневые команды; точка входа - `NVDA+X`.
+  Существующие команды были соответствующим образом изменены.
+* Новая команда (`NVDA+X, R`) обратного перевода последнего произнесённого сообщения.
+* Новая команда (`NVDA+X, C`) для открытия исходного скрипта, связанного со следующим нажатым жестом.
+* Добавлена поддержка речи по требованию.
+* Диспетчер журналов теперь содержит больше действий, либо выбором кнопок в диалогах, либо с использованием сочетания клавиш в списке: `enter` для открытия журнала, `control+C` для копирования файла журнала и `delete` для удаления файла журнала.
+* Порядок сортировки в диспетчере журнала был изменён (самый последний журнал вверху).
+* Исправлена ​​проблема при попытке открыть модуль Python с функцией openCodeFile.
 
-- New feature: Enhanced restart dialog to specify some extra options when restarting NVDA.
-- New feature: extended description mode.
-- Play error sound feature harmonized between pre and post 2021.3 versions of NVDA.
-- New feature: Log reader commands are now available in the log viewer and also optionally in edit fields or webpages.
-- New feature: In the Python console, an `openCodeFile` function is available to view the source code of an object.
-- Some features are now disabled in secure mode for security reasons.
-- The add-on's compatibility range has been extended (from 2019.2 to 2021.1).
-- Releases are now performed with GitHub action instead of appVeyor.
+### Версия 6.3
 
-### Version 1.0
+* Совместимость с NVDA 2024.1.
 
-- Initial release.
+### Версия 6.2
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=ndtt
+* Восстанавливает открытие консоли для NVDA < 2021.1.
+* Устраняет потенциальные проблемы безопасности, связанные с [GHSA-xg6w-23rw-39r8][5] при использовании дополнения со старыми версиями NVDA. Однако рекомендуется использовать NVDA 2023.3.3 или выше.
+
+### Версия 6.1
+
+* Открытие исходного файла объекта, расположенного в подмодуле пакета, теперь работает.
+* Исправлена ошибка: расширенный диалог выхода теперь можно снова открыть и использовать как положено после его закрытия. (автор Łukasz Golonka)
+
+### Версия 6.0
+
+* При использовании команд навигации по объектам можно сообщать о конкретном свойстве объекта вместо обычных отчетов об объектах NVDA.
+* В режиме чтения журнала нажатие клавиши "C" для открытия файла кода из журнала теперь также работает с справочным сообщением ввода.
+* Исправлена ошибка: теперь дополнение может успешно запускаться, если количество сохраняемых журналов установлено на максимальное значение.
+* Исправлена ошибка: вывод скрипта запуска консоли Python больше не мешает переходить к первому результату в консоли при использовании команд навигации по результатам.
+* Примечание: Отныне обновления локализации больше не будут отображаться в журнале изменений.
+
+### Версия 5.0
+
+* Если установлено дополнение Instant Translate, теперь можно переводить речевые сообщения "на лету" при использовании команд чтения журнала.
+* В режиме чтения журнала нажатие E или shift+E теперь приводит к появлению критических сообщений об ошибках, а также обычных сообщений об ошибках.
+* Добавлены новые команды быстрой навигации по журналу для перехода к вводимым данным и речевым сообщениям.
+* Новая команда позволяет ставить метки в журнал; а специальные команды быстрой навигации в режиме чтения журнала позволяют переходить к ним.
+  Благодарность: Первоначальная идея этой функции взята из дополнения Debug Helper, созданного Luke Davis.
+* Исправлена ошибка: Запоминание последней ошибки в некоторых случаях больше не терпит неудачу.
+* Исправлена ошибка: Дополнение может снова инициализироваться с NVDA 2019.2.1.
+* Исправлена ошибка: Функция сохранения журнала больше не потерпит неудачу с журналами не-ASCII.
+
+### Версия 4.2
+
+* Исправлена ошибка с версией NVDA ниже 2021.3.
+* Исправлено форматирование журнала трассировки стека.
+* Первые локализации.
+
+### Версия 4.1
+
+* Исправлена ошибка, возникавшая в некоторых ситуациях при регистрации ошибки.
+* Настройки дополнения теперь можно изменять только при активном профиле по умолчанию, чтобы избежать проблем с настройкой.
+
+### Версия 4.0
+
+* Возможность создания резервных копий старых журналов и внедрение менеджера журналов.
+* Добавлен скрипт для сообщения о последней зарегистрированной ошибке.
+* Исправлена ошибка, из-за которой в старых версиях NVDA не считывалось последнее сообщение журнала.
+
+### Версия 3.2
+
+* Совместимость с NVDA 2023.1.
+
+### Версия 3.1
+
+* Исправлена ошибка, возникавшая при запросе недоступной информации об объекте.
+
+### Версия 3.0
+
+* В журнале теперь вы можете нажать C в строке заголовка сообщения, чтобы открыть функцию/ модуль, который его отправил.
+* В консоли функция `openCodeFile` теперь может принимать в качестве параметра объект или строку, содержащую его имя.
+* Новая функция: файл запуска консоли NVDA: если он существует, то файл YourNVDAConfigFolder\\ndtt\consoleStartup.py будет запущен при первом открытии консоли NVDA или при перезагрузке дополнений.
+* Различные мелкие исправления для работы консоли Python `openCodeFile` и команды для открытия исходного файла, соответствующего строке в журнале.
+* Исправлена ошибка при попытке создания отчета о ролях/состояниях для обозревателя объектов в более старой версии NVDA.
+* Дополнение больше не вызывает проблем с перехватчиком дерева при использовании UIA в Edge.
+
+### Версия 2.1
+
+* Различные исправления ошибок и рефакторинг / очистка кода для решения всех вариантов использования: все поддерживаемые версии, установленные по сравнению с предыдущими. запуск из исходного кода и т.д. (вклад Łukasz Golonka)
+* Переписан модуль compa (автор Łukasz Golonka)
+* Диалог перезапуска теперь можно открыть только один раз.
+* Горячие клавиши обозревателя объектов теперь по умолчанию не назначены и должны быть сопоставлены пользователем.
+* С помощью обозревателя объектов двойное нажатие для вызова сценария, сообщающего о свойстве текущего объекта, теперь отображает полученную информацию в виде сообщения, доступного для просмотра.
+
+### Версия 2.0
+
+* Новая функция: Расширенный диалог перезапуска для указания некоторых дополнительных параметров при перезапуске NVDA.
+* Новая функция: расширенный режим описания.
+* Функция воспроизведения звука при ошибке была согласована в версиях NVDA до и после 2021.3.
+* Новая функция: Команды чтения журналов теперь доступны в программе просмотра журналов, а также, при необходимости, в полях редактирования или на веб-страницах.
+* Новая функция: В консоли Python доступна функция "openCodeFile" для просмотра исходного кода объекта.
+* Некоторые функции теперь отключены в защищённом режиме по соображениям безопасности.
+* Диапазон совместимости дополнения был расширен (с 2019.2 по 2021.1).
+* Выпуски теперь выполняются с помощью GitHub action, а не AppVeyor.
+
+### Версия 1.0
+
+* Первоначальный выпуск.
+
+[1]: https://www.nvaccess.org/addonStore/legacy?file=nvdaDevTestToolbox
+
 [2]: https://www.nvaccess.org/files/nvda/documentation/userGuide.html#CommandLineOptions
+
+[3]: https://addons.nvda-project.org/addons/instantTranslate.en.html
+
 [4]: https://www.nvaccess.org/files/nvda/documentation/userGuide.html#PlayErrorSound
-[5]: https://www.nvaccess.org/files/nvda/documentation/developerGuide.html#toc22
+
+[5]: https://github.com/nvaccess/nvda/security/advisories/GHSA-xg6w-23rw-39r8#event-132994
