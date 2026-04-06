@@ -150,7 +150,7 @@ jobs:
               Write-Host "`n  Processing documentation file..."
               if (Test-Path "readme.md") {
                 Write-Host "  Generating $addonId.xliff..."
-                uv run python ...\.github\workflows\markdownTranslate.py generateXliff -m readme.md -o "$addonId.xliff"
+                uv run python ..\..\.github\workflows\markdownTranslate.py generateXliff -m readme.md -o "$addonId.xliff"
                 if ($LASTEXITCODE -ne 0) {
                   Write-Warning "  xliff generation failed for $addonId"
                 } else {
