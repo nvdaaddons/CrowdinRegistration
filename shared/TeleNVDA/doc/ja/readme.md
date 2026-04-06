@@ -1,25 +1,25 @@
 [[!meta title="TeleNVDA"]]
 
-- Authors: Asociación Comunidad Hispanohablante de NVDA and other contributors. Original work by Tyler Spivey and Christopher Toth
-- NVDA Compatibility: 2019.3 and beyond
-- Download [stable version][1]
+* Authors: Asociación Comunidad Hispanohablante de NVDA and other contributors. Original work by Tyler Spivey and Christopher Toth
+* NVDA Compatibility: 2019.3 and beyond
+* Download [stable version][1]
 
 Note: in order to make download easier for users who need assistance or training and have limited computing skills, we provide an alternate link to the latest stable version which is easy to remember and share. You can go to [nvda.es/tele](https://nvda.es/tele) and download the add-on directly, without intermediate web pages.
 
 Welcome to the TeleNVDA addon, which will allow you to connect to another computer running the free NVDA screen reader. With this add-on, you can connect to another person's computer, or allow a trusted person to connect to your system to perform routine maintenance, diagnose a problem, or provide training. This add-on is a modified version of the [NVDA Remote add-on](https://nvdaremote.com), and is maintained by the NVDA spanish community. It's fully compatible with NVDA Remote. These are the current differences:
 
-- An option allows blocking remote speech commands different from text.
-- An option to mute remote speech when controlling the local machine and unmute it when controlling the remote machine.
-- Improved support for proxy servers and TOR hidden services ([Proxy support add-on](https://addons.nvda-project.org/addons/proxy.en.html) is required).
-- Ability to change the f11 key to another gesture. Now this works as a common script so, you can assign gestures in the "Input Gestures" dialog.
-- a gesture (unassigned by default) to open the addon options
-- Ability to assign a gesture to the send ctrl+alt+delete option in the input Gestures dialog. Warning! you shouldn't assighn the ctrl+alt+delete keys to this option. Doing it  will stil work normally, but anytime you press ctrl+alt+delete keys to send the ctrl+alt+delete to the remote machine, your own machine will also be affected by the ctrl+alt+delete function, which is likely not what you expect!
-- Ability to ignore the next immediate gesture completely, it is useful if you need to send to the remote machine the gesture used to toggle between host and remote machine.
-- Ability to exchange small files (up to 10 MB) among users connected to the same session.
-- Ability to forward ports via UPNP.
-- Ability to use a custom portcheck service.
-- Some GUI tweaks.
-- Several bug fixes.
+* An option allows blocking remote speech commands different from text.
+* An option to mute remote speech when controlling the local machine and unmute it when controlling the remote machine.
+* Improved support for proxy servers and TOR hidden services ([Proxy support add-on](https://addons.nvda-project.org/addons/proxy.en.html) is required).
+* Ability to change the f11 key to another gesture. Now this works as a common script so, you can assign gestures in the "Input Gestures" dialog.
+* a gesture (unassigned by default) to open the addon options
+* Ability to assign a gesture to the send ctrl+alt+delete option in the input Gestures dialog. Warning! you shouldn't assighn the ctrl+alt+delete keys to this option. Doing it  will stil work normally, but anytime you press ctrl+alt+delete keys to send the ctrl+alt+delete to the remote machine, your own machine will also be affected by the ctrl+alt+delete function, which is likely not what you expect!
+* Ability to ignore the next immediate gesture completely, it is useful if you need to send to the remote machine the gesture used to toggle between host and remote machine.
+* Ability to exchange small files (up to 10 MB) among users connected to the same session.
+* Ability to forward ports via UPNP.
+* Ability to use a custom portcheck service.
+* Some GUI tweaks.
+* Several bug fixes.
 
 ## Before You Begin
 
@@ -190,8 +190,8 @@ This project is covered by the GNU General Public License, version 2 or later. Y
 
 These can be installed with pip:
 
-- Markdown
-- scons
+* Markdown
+* scons
 
 In order to build the URL handler executable, you need Visual Studio 2019 or later.
 
@@ -203,4 +203,5 @@ In order to build the URL handler executable, you need Visual Studio 2019 or lat
 [[!tag dev stable]]
 
 [1]: https://www.nvaccess.org/addonStore/legacy?file=TeleNVDA
+
 [2]: https://github.com/nvda-es/TeleNVDA

@@ -1,95 +1,95 @@
-# altın İmleç #
+# golden cursor#
 
-* Yazarlar: salah atair, Joseph Lee
-* [Kararlı Sürümü İndirin][1]
-* NVDA uyumluluğu: 2022.4 ve sonrası
+* Author: salah atair, Joseph Lee
+* Download [stable version][1]
+* NVDA compatibility: 2022.4 and beyond
 
-Bu eklenti, klavyeyi kullanarak fareyi hareket ettirmenize ve uygulamalar için fare konumlarını kaydetmenizi sağlar.
+This add-on allows you to move the mouse using a keyboard and save mouse positions for applications.
 
-## Kısayol Tuşları
+## Key commands
 
-* Kontrol+NVDA+L: Varsa, bir uygulama için kaydedilmiş fare konumlarını görüntüler. Bu iletişim kutusundan bu konumlara hareketler de atayabilirsiniz. Atanan harekete basıldığında, kaydedilen konumda bir sol tıklama gerçekleştirilecektir.
-* Shift+NVDA+l: o anda odaklanılan uygulamada geçerli fare konumu için bir etiket veya etiket kayded.
-* Windows+NVDA+C: fare hareket birimini değiştir.
-* Windows+NVDA+R: fare kısıtlamasını aç/kapat.
-* Windows+NVDA+S: fare konumunun piksel cinsinden raporlanmasını aç/kapat.
-* Windows+NVDA+J: fareyi belirli bir x ve y konumuna götür.
-* Windows+NVDA+P: fare konumunu bildir.
-* Windows+NVDA+M: fare oklarını açar veya kapatır.
-* Windows+NVDA+ok tuşları (veya fare okları açıksa sadece ok tuşları): fareyi hareket ettirir.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You can also assign gestures to these positions from this dialog. When pressing the assigned gesture, a left click will be performed in the saved position.
+* Shift+NVDA+l: save a tag or a label for the current mouse position in the currently focused application.
+* Windows+NVDA+C: change mouse movement unit.
+* Windows+NVDA+R: toggle mouse restriction.
+* Windows+NVDA+S: toggle reporting of mouse position in pixels.
+* Windows+NVDA+J: move mouse to a specific x and y position.
+* Windows+NVDA+P: report mouse position.
+* Windows+NVDA+M: sswitch mouse arrows on or off.
+* Windows+NVDA+arrow keys (or just arrow keys if mouse arrows is on): move mouse.
 
-Not, bu hareketler NVDA Girdi Hareketleri iletişim  kutusunda bulunan Altın İmleç kategorisinden yeniden atanabilir.
+Note: these gestures can be reassigned via NVDA's Input Gestures dialog under Golden Cursor category.
 
-## Notlar
+## Notes
 
-* Konumları (etiketleri) paylaşırken, her bir taraf aynı ekran çözünürlüğünü kullanmalıdır.
-* Maksimum uyumluluk için Windows yukarı ok tuşuna basarak pencereleri büyütmelisiniz.
-* Konumları paylaşırken, mevcut konum etiketleri yeniden adlandırılmalıdır.
-* Sürüm 1.x ve 2.x fare konumu biçimleri uyumsuzdur.
-* Ok tuşlarının kullanılmasının gerektiği işlemlerde önce fare oklarını kapatmanız gerekir.
-* Kaydedilen pozisyonlar silinirken, kayıtlı pozisyon kalmamışsa, uygulama için pozisyonlar silinecektir.
+* When sharing positions (tags), each party should use same display resolution.
+* For maximum compatibility, you should maximize windows by pressing Windows+Up arrow.
+* When sharing positions, existing position labels should be renamed.
+* Version 1.x and 2.x mouse position formats are incompatible.
+* To perform functions that require use of arrow keys, turn off mouse arrows first.
+* When deleting saved positions, if there are no saved positions left, positions for the application will be cleared.
 
-## Sürüm6.2
+## Version 6.2
 
-* NVDA 2022.4 ve sonraki bir sürümü gerektirir.
-* NVDA 2023.1 ile uyumludur.
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
-## Sürüm6.1
+## Version 6.1
 
-* NVDA 2021.3 ve sonraki bir sürümü gerektirir.
-* Artık pozisyonlar listesinden kayıtlı pozisyonlar için kısayollar atayabilirsiniz. Bir kısayola basıldığında, konum için sol tıklama gerçekleştirilecektir.
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions list. When pressing a shortcut, a left click will be performed for the position.
 
-## Sürüm 5.0
+## Version 5.0
 
-* NVDA 2021.1 ile uyumlu hale getirmek için eklenti kaynak kodu modernize edildi.
-* Flake8 ile birçok kodlama stili sorunu ve olası hatalar çözüldü.
+* Modernized add-on source code to make it compatible with NVDA 2021.1.
+* Resolved many coding style issues and potential bugs with Flake8.
 
-## Sürüm 4.0
+## Version 4.0
 
-* NVDA 2019.3 ve sonraki bir sürümü gerektirir.
-* Altın İmleç ayarları iletişim kutusu, Altın İmleç ayarları paneli ile değiştirildi.
+* Requires NVDA 2019.3 or later.
+* Golden Cursor settings dialog has been replaced by Golden Cursor settings panel.
 
-## Sürüm 3.3
+## Version 3.3
 
-* Gelecekteki NVDA sürümlerini desteklemek için dahili değişiklikler.
+* Internal changes to support future NVDA releases.
 
-## Sürüm 3.2
+## Version 3.2
 
-* Eklenti, NVDA 2018.3 (wxPython 4) ile uyumludur.
+* Add-on is compatible with NVDA 2018.3 (wxPython 4).
 
-## Sürüm 3.0
+## Version 3.0
 
-* NVDA 2018.2 kullanılıyorsa, "Altın İmleç" kategorisi altındaki yeni çoklu kategori ayarları ekranında eklenti ayarları bulunacaktır.
+* If using NVDA 2018.2, add-on settings will be found in new multi-category settings screen under "Golden Cursor" category.
 
-## Sürüm 2.1
+## Version 2.1
 
-* Etiket adını silmeye çalışırken sabit unicode kod çözme hatası düzeltildi.
-* Eklentiyle ilgili birden fazla iletişim kutusu açılabilme sorunu düzeltildi.
-* Fare konumları listesi ve konum atlama iletişim kutularıyla ilgili iyileştirmeler.
+* Fixed unicode decode error when trying to delete tag name.
+* Prevent Multiple Instances When Opening various add-on Dialogs.
+* Improved appearance of mouse positions list and jump to position dialogs.
 
-## Sürüm 2.0
+## Version 2.0
 
-* NVDA 2017.3 ve sonraki bir sürümü gerektirir.
-* Konum dosyası formatı 1.x sürümleriyle uyumlu değil. 1.x pozisyon formatı bulunursa, kurulum sırasında eski pozisyonlar yeni formata taşınacaktır.
-* Fare hareket birimini yapılandırmak ve fare hareket ettikçe fare konumlarının duyurusunu yapmak için NVDA Tercihler menüsüne yeni bir Altın İmleç ayarları iletişim kutusu eklendi.
-* Bu eklentiden gelen çeşitli mesajlar değişti.
-* Çeşitli ayarlar arasında geçiş yapılırken geçiş tonu artık duyulmayacaktır.
-* Artık sadece ok tuşlarına basarak fareyi hareket ettirebileceğiniz fare okları moduna girebilirsiniz.
-* Yeni ad (artık Fare Konumları olarak adlandırılır) ve düzen, bir etiket için fare koordinatlarını görüntüleme ve etkin uygulamanın adını başlığın bir parçası olarak gösterme dahil olmak üzere konum listesi iletişim kutusundaki değişiklikler.
-* Fare Konumları iletişim kutusundan, kaydedilmiş bir etiket üzerinde Enter'a basmak, fareyi kaydedilen konuma hareket ettirecektir.
-* Bir fare konumunu yeniden adlandırırken, yeni adla aynı ada sahip bir etiket varsa bir hata iletişim kutusu gösterilecektir.
-* Fare konumlarını silerken veya temizlerken, konumlar silinmeden ve/veya temizlenmeden önce şimdi Evet yanıtını vermelisiniz.
-* Yeni bir ad (artık Yeni fare konumu olarak adlandırılıyor) ve X ve Y koordinatlarını ayrı ayrı veya yukarı veya aşağı ok tuşlarını kullanarak girme yeteneği dahil olmak üzere fare atlama özelliğinde yapılan değişiklikler.
-* Geçerli fare konumu kaydedilirken gösterilen iletişim kutusu artık geçerli fare konumu için koordinatları gösteriyor.
-* Konumları kaydederken, konumlar klasörü yoksa NVDA'nın hata sesi çalması sorunu çözüldü.
+* Requires NVDA 2017.3 and later.
+* Position file format is incompatible with 1.x versions. If 1.x position format is found, old positions will be migrated to the new format during installation.
+* Added a new Golden Cursor settings dialog in NVDA's Preferences menu to configure mouse movement unit and announcement of mouse positions as mouse moves.
+* Various messages from this add-on has changed.
+* When toggling various settings, toggle tone will no longer be heard.
+* You can now enter mouse arrows mode where you can move the mouse by pressing just arrow keys.
+* Changes to positions list dialog, including new name (now called Mouse Positions) and layout, displaying mouse coordinates for a label, and showing the name of the active app as part of the title.
+* From Mouse Positions dialog, pressing Enter on a saved label will move the mouse to the saved location.
+* When renaming a mouse position, an error dialog will be shown if a label with the same name as the new name exists.
+* When deleting or clearing mouse positions, you must now answer Yes before positions are deleted and/or cleared.
+* Changes to mouse jump feature, including a new name (now called New mouse position) and ability to enter X and Y coordinates separately or by using up or down arrow keys.
+* The dialog shown when saving the current mouse position now shows coordinates for current mouse location.
+* When saving positions, resolved an issue where NvDA may play error tones if the positions folder does not exist.
 
-## Sürüm 1.4
+## Version 1.4
 
-* Eklentiyi NVDA'nın geçmiş ve gelecekteki sürümleriyle uyumlu hale getirmek için win32api bağımlılığı kaldırıldı.
+* Removed win32api dependency to make it compatible with past and future versions of NVDA.
 
-## Sürüm 1.0
+## Version 1.0
 
-* İlk sürüm.
+* Initial release.
 
 [1]: https://addons.nvda-project.org/files/get.php?file=gc
 

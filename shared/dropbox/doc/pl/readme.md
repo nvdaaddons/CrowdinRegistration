@@ -1,7 +1,7 @@
 [[!meta title="dropbox"]]
 
-* Autorzy: Patrick ZAJDA, Filaos i inni twórcy
-* Zgodność z NVDA: 2019.1 lub nowsze
+* Authors: Patrick ZAJDA, Filaos and other contributors
+* NVDA compatibility: 2019.1 or later
 
 This plugin add a shortcut to announce Dropbox status or open the Dropbox systray menu when pressed once or twice respectively.
 

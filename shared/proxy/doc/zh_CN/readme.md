@@ -1,61 +1,61 @@
-# NVDA 代理支持
+# Proxy support for NVDA
 
-* 作者： Jose Manuel Delicado
-* NVDA 兼容性：2023.3.4 及更高版本
-* 下载 [稳定版][1]
+* Author: José Manuel Delicado
+* NVDA compatibility: 2023.3.4 and beyond
+* Download [stable version][1]
 
-此插件允许 NVDA 屏幕阅读器通过一个或多个代理服务器连接到互联网。为了实现这一点，它将各种补丁应用于标准 Python 库或修改某些环境变量，具体取决于所选的配置。只要您的组织代理服务器允许，您将能够从您的公司环境自动更新 NVDA 及其插件，甚至可以执行远程会话。
+This add-on allows the NVDA screen reader to connect to the Internet through one or more proxy servers. To make it possible, it applies various patches to the standard Python library or modifies certain environment variables, depending on the chosen configuration. You will be able to update NVDA and their add-ons automatically from your corporate environment and even perform remote sessions, provided that your organization proxy server allows it.
 
-## 功能
+## Features
 
-* 支持各种代理服务器类型：http、socks4 和 socks5。
-* 能够通过代理服务器重定向所有流量或仅重定向特定流量（http、https、ftp）。
-* 能够通过代理服务器重定向所有流量，然后通过其他服务器（嵌套代理）重定向特定流量。
-* 配置文件切换和重置：如果您通常使用 NVDA 的便携版，您可以为不同的环境（家庭、工作、办公室等）创建各种配置文件并手动激活它们。
+* Support for various proxy server types: http, socks4 and socks5.
+* Ability to redirect all traffic through the proxy server or only specific traffic (http, https, ftp).
+* Ability to redirect all traffic through a proxy server and, after that, redirect specific traffic through other servers (nested proxies).
+* Profile switch and config reset aware: if you usually work with a portable copy of NVDA, you can create various profiles for different environments (home, work, office1, office2) and manually activate them.
 
-## 用法
+## Usage
 
-此插件向 NVDA 设置对话框添加了一个名为“代理”的新类别。在此类别中，您将找到四个设置组。第一个允许您为所有流量配置通用代理。其他组允许您仅为特定协议配置代理服务器。所有组都有以下字段：
+This add-on adds a new category to the NVDA settings dialog called "Proxy". In this category, you will find four settings groups. The first one allows you to configure a general proxy for all traffic. The other groups allow you to configure proxy servers only for specific protocols. All groups have the following fields:
 
-* 主机：代理服务器的主机名或IP地址。留空以禁用该特定代理。
-* 端口：服务器端口。
-* 用户名：可选，服务器身份验证的用户名。
-* 密码：可选，服务器身份验证的密码。请注意，socks4 服务器不需要密码。
+* Host: hostname or ip address of the proxy server. Leave empty to disable that particular proxy.
+* Port: server port.
+* Username: optional. User name for server autentication.
+* Password: optional. Password for server autentication. Note that password is not required for socks4 servers.
 
-除了前面的字段外，第一个设置组中还提供以下选项：
+In addition to the previous fields, the following options are available in the first settings group:
 
-* SOCKS 代理类型：可以选择socks4、socks5 或 http。
-* 如果可能，为 dns 请求使用代理：选中此复选框后，主机名或域名将直接发送到代理服务器并在其上解析。取消选中时，名称将在本地解析，服务器将仅接收目标 IP 地址。请注意，并非所有 socks4 代理服务器都支持此选项。
+* SOCKS proxy type: socks4, socks5 or http can be selected.
+* Use proxy for dns requests if possible: when this checkbox is checked, hostnames or domain names will be directly sent to and resolved on the proxy server. When it is unchecked, names will be resolved locally and the server will receive only the destination ip address. Note that not all socks4 proxy servers support this option.
 
-通常，大多数用户只需配置第一个设置组。如果您不知道您的代理详细信息，请咨询您的组织网络管理员以获取更多信息。
+Tipically, most users will only have to configure the first settings group. If you don't know your proxy details, ask your organization network administrator for more information.
 
-## 限制
+## Limitations
 
-* 非常有限的 IPV6 支持。
-* 并非所有代理服务器都支持 UDP 流量。
-* 外部 DLL 库不会遵守此插件中配置的设置。
-* http 代理服务器仅支持基本身份验证。不支持摘要式身份验证。
-* 为了通过 http 代理重定向所有流量（包括 https 连接），服务器必须支持 CONNECT http 方法。
-* 无法配置“直接连接”模式。如果禁用特定代理，则将使用系统默认值。
+* Very limited IPV6 support.
+* UDP traffic is not supported on all proxy servers.
+* External DLL libraries won't respect the settings configured in this add-on.
+* Only basic autentication is supported for http proxy servers. Digest autentication is not supported.
+* In order to redirect all traffic (including https connections) through an http proxy, the server must support the CONNECT http method.
+* A "direct connection" mode can't be configured. If you disable a specific proxy, the system default will be used instead.
 
-## 更新日志
+## Changelog
 
-### 版本 1.2
+### Version 1.2
 
-* 兼容 NVDA 2023.1。
-* 出于安全考虑，将兼容的最低 NVDA 版本设置为 2022.4。
-* 更新了翻译。
+* Compatible with NVDA 2023.1.
+* For security reasons, minimum NVDA version is set to 2022.4.
+* Updated translations.
 
-### 版本 1.1
+### Version 1.1
 
-* 兼容 NVDA 2022.1。
-* 出于安全考虑，将兼容的最低 NVDA 版本设置为 2021.3。
-* 选中“如果可能，对 dns 请求使用代理”复选框并配置通用代理时修复 socket.getaddrinfo 功能。
-* 更新翻译。
+* Compatible with NVDA 2022.1.
+* For security reasons, minimum NVDA version is set to 2021.3.
+* Patch socket.getaddrinfo function when "Use proxy for dns requests if possible" checkbox is checked and a general proxy has been configured.
+* Updated translations.
 
-### 版本 1.0
+### Version 1.0
 
-* 初始发行。
+* Initial release.
 
 [[!tag dev stable]]
 

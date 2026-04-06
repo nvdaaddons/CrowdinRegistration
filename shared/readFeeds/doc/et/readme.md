@@ -1,41 +1,55 @@
 # Read Feeds #
 
 * Authors: Noelia Ruiz Martínez, Mesar Hameed
+* NVDA compatibility: 2018.3 to 2019.2
+* Download [stable version][1]
+* Download [development version][2]
 
-This addon provides a straightforward way to read feeds in Atom or RSS formats using NVDA.
+This addon provides a straightforward  way to read feeds in Atom or RSS formats using NVDA.
 The feeds will not be refreshed automatically.
 Below when we mention feeds, we mean both RSS and ATOM feeds.
 
-## Commands ##
+## Installation or Update: ##
 
-### Read Feeds dialog ###
+If you used a previous version of this addon, and there is an RSS or personalFeeds folder in your personal NVDA configuration folder,
+when installing the current version, a dialog will ask if you want to upgrade or install.
+Choose update to preserve your saved feeds and to continue using them in the new installed version of readFeeds.
 
-You can access the Read Feeds dialog from the nvda menu, Tools submenu, Feeds item.
+## Commands: ##
 
-It contains the following controls:
+### Read Feeds menu ###
+
+You can access the Read Feeds submenu from the nvda menu, Tools submenu, where the following menu options are available:
+
+#### Feeds... ####
+
+Opens a dialog with the following controls:
 
 * Filter by: An edit box to search previously saved feeds.
-* A list of the saved feeds, focused when the dialog is opened.
+* A list of the saved feeds.
 * List of articles: Opens a dialog which presents the articles list from your current feed. Select the article you want to read and press Enter or Open web page of selected article button to open the corresponding page in your browser. Press About article button to open a dialog showing title and link of the selected article; from this dialog, you'll be able to copy this info to the clipboard.
 * Open feed: Opens the selected feed in the default application.
-* Open feed as HTML: Opens the selected feed in the default web browser. You will be able to show or hide publication dates and buttons to copy information about articles to clipboard.
-* Copy feed address: Opens a dialog to confirm if you want to copy the feed address to clipboard.
 * New: Opens a dialog with an edit box to enter the address of a new feed. If the address is valid and the feed can be saved, its name, based on the feed title, will appear at the bottom of the feeds list.
 * Rename: Opens a dialog with an edit box to rename the selected feed.
 * Delete: Opens a dialog to delete the selected feed after confirmation.
 * Set default: Sets the selected feed as the default, so that its articles can be accessed with NVDA's gestures.
-* Import feeds from OPML file: Opens a dialog to add new feeds from an OPML file.
-* Save feeds to OPML file: Opens a dialog to save the feeds available from the Feeds dialog in an OPML file.
-* Preferences: Opens the settings dialog for readFeeds, also available in NVDA's menu, Preferences, settings, readFeeds category.
+* Open folder containing a backup of feeds: Opens a folder which may contain a backup of feeds. This can be useful to explore and delete feeds which shouldn't be imported when the add-on is updated.
 * Close: Closes the Feeds dialog.
 
-### Notes #####
+##### Notes #####
 
-* The Filter by edit box can be placed after the Open article button from NVDA's menu, Preferences, Settings, Read feeds category, or pressing the Preferences button of the Feeds dialog.
-* This panel has an option to show article dates on the List of articles dialog.
+* If a feed named tempFeed is created, please rename it, as this file could be replaced when needed to create a feed whose name already exists.
+* The feed set as the default can't be removed. The addressFile feed will be use as the default when the configuration is reset, so it can't be deleted.
 
+####Copy feeds folder... ####
 
-### Keyboard commands ###
+Opens a dialog to choose a folder where you can save the personalFeeds directory of your feeds. By default the selected folder is the NVDA's configuration directory, which will create the personalFeeds directory.
+
+#### Restore feeds... ####
+
+Opens a dialog to select a folder which replaces your feeds in the personalFeeds folder. Make sure you load a folder containing feeds URLs.
+
+### Keyboard commands: ###
 
 * Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will open the web page.
 * Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent title.
@@ -43,68 +57,12 @@ It contains the following controls:
 * Ctrl+Shift+NVDA+U: Announces previous feed title.
 * Ctrl+Shift+NVDA+O: Announces next feed title.
 
-## Notifications ##
+## Notifications: ##
 
 * When the title or URL have been copied.
 * When unable to connect/refresh a feed, or the URL does not correspond to a valid feed.
-* NVDA will display an error message if a new feed cannot be created.
+* NVDA will display an error message if it was not possible to backup or restore the personalFeeds folder.
 * The title of the articles list dialog displays the selected feed name and number of items available.
-
-## Changes for 39.0.0
-
-* Improved notifications when title or URL are copied.
-
-## Changes for 34.0.0
-
-* Added support for rss.cbc.ca feeds.
-
-## Changes for 21.0
-
-* Feeds with untitled articles can be presented in the Articles dialog, and opened as HTML.
-
-## Changes for 20.0
-
-* universalFeedParser is updated to 5.0.1, adding support for more feeds.
-
-## Changes for 15.0
-
-* Compatible with NVDA 2023.1.
-
-## Changes for 14.0
-
-* Fixed a bug that made impossible to add some feeds.
-
-## Changes for 13.0
-
-* The add-on cannot be used on secure screens.
-* Feeds are managed from OPML files.
-* Due to changes in the feeds management system, there are changes in the configuration file where the default feed is set. Please, use the Feeds dialog if you want to set it again.
-* Your old text files used in previous versions will be automatically imported into the new OPML format when the add-on is started.
-* The copy and restore feeds feature has been replaced with the ability to import from and save to OPML files.
-* Non well-formed feeds can be processed before being added to make them compatible with the add-on.
-* In the Read Feeds settings panel, a new option allows to show article dates on the List of articles dialog.
-
-## Changes for 12.0
-
-* Fixed a bug which made shortcuts for items of NVDA's tools menu don't work as expected.
-
-## Changes for 11.0
-
-* Compatible with NVDA 2021.1
-
-## Changes for 10.0 ##
-
-* Added a button to open the selected feed as HTML in the default web browser.
-* If a new feed cannot be created, this will be notified in an error dialog.
-* Improved order and presentation of some articles.
-* More feeds may be supported.
-* When the feeds dialog is opened, the list of feeds will be focused instead of the search edit box.
-* You can choose if the search edit box is placed after the list of feeds, useful to focus the list even when switching from another window without closing the Feeds dialog.
-* Added a button to copy the feed address to clipboard from the feeds dialog.
-
-## Changes for 9.0 ##
-
-* Requires NVDA 2019.3 or later.
 
 ## Changes for 8.0 ##
 
@@ -126,6 +84,7 @@ It contains the following controls:
 
 * The articles list dialog has been enhanced.
 * Compatible with NVDA 2018.3 or later (required).
+* If needed, you can download the [last version compatible with NVDA 2017.3][3].
 
 ## Changes for 4.0 ##
 
@@ -138,6 +97,7 @@ It contains the following controls:
 * The default feed is saved on the NVDA's configuration. Therefore, it's possible to set different default feeds in configuration profiles.
 * Requires NVDA 2016.4.
 
+
 ## Changes for 2.0 ##
 
 * Add-on help is available from the Add-ons Manager.
@@ -145,3 +105,9 @@ It contains the following controls:
 ## Changes for 1.0 ##
 
 * Initial version.
+
+[1]: http://addons.nvda-project.org/files/get.php?file=rf
+
+[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev
+
+[3]: http://addons.nvda-project.org/files/get.php?file=rf-o

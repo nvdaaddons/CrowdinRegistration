@@ -1,5 +1,8 @@
 # Clip Contents Designer #
 *	Authors: Noelia, Abdel.
+*	NVDA compatibility: 2019.3 or later
+*	Download [stable version][1]
+*	Download [development version][2]
 
 This add-on is used to add text to the clipboard, which can be useful when you want to join sections of text together ready for pasting.
 The clipboard content can also be cleared an shown in browse mode.
@@ -24,30 +27,11 @@ It contains the following controls:
 * Request confirmation before performing the selected actions when: You can select if confirmations will be requested always, just if text is contained in the clipboard, or if clipboard is not empty (for example if you've copied a file, not text).
 * Format to show the clipboard text as HTML in browse mode: If you're learning HTML markup language, you may choose Preformatted text in HTML or HTML as shown in a web browser, to have an idea of how your HTML code will be rendered by NVDA in a browser. The difference between preformatted and conventional HTML is that the first option will preserve consecutive spaces and line breaks, and the second one will compact them.  For example, write some HTML tags like h1, h2, li, pre, etc., select and copy the text to clipboard, and use clipContentsDesigner add-on to show the text in a browseable message.
 * Maximum number of characters when showing clipboard text in browse mode: Please, be aware that increasing this limit may produce issues if the clipboard contains large strings of text. The default limit is 100000 characters.
-* Restore defaults.
 
 Notes:
 
 *	Confirmations won't be requested when a message box of NVDA is still opened. In those cases, actions will be inmediately performed.
 * Emulate copy and emulate cut commands mean that, when these features are enabled, the add-on will take control of control+c and control+x. This will allow to select if a confirmation should be requested before performing the actions corresponding to these keystrokes.
-
-## Changes for 46.0.0
-* NVDA will sanitize HTML in browseable messages.
-* Added a button to close browseable messages, in addition to the Escape key.
-
-
-## Changes for 40.0.0
-* Added support for Hebrew keyboard.
-
-## Changes for 22.0.0
-* Added a button to restore defaults in the add-on settings panel.
-* The add-on cannot be run in secure mode.
-
-## Changes for 17.0
-* Compatible with NVDA 2023.1.
-
-## Changes for 16.0
-* Reqires NVDA 2022.1 or later.
 
 ## Changes for 15.0
 * The command to add text to clipboard is again presented in the input gestures dialog.
@@ -84,6 +68,7 @@ Notes:
 
 * The add-on settings are shown in the corresponding category of the NVDA Settings dialog.
 * Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA 2017.3][3].
 
 ## Changes for 7.0
 
@@ -116,3 +101,9 @@ Notes:
 
 ## Changes for 1.0 ##
 *	Initial version.
+
+[1]: http://addons.nvda-project.org/files/get.php?file=ccd
+
+[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev
+
+[3]: http://addons.nvda-project.org/files/get.php?file=ccd-o

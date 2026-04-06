@@ -1,53 +1,59 @@
-* 作者： Jose Manuel Delicado
-* NVDA 兼容性：2023.3.4 及更高版本
-* 下载 [稳定版][1]
+* Author: Jose Manuel Delicado
+* NVDA compatibility: 2022.4 and beyond
+* Download [stable version][1]
 
-此插件允许您下载并安装所选通道的最新 NVDA 版本，而无需访问任何网页或使用 Web 浏览器。例如，当您想要测试 NVDA 快照中的新功能，然后返回到最新的稳定版本时，此插件将很有用。如果您定期测试 NVDA 快照，并且通常将其安装在您的计算机中，则使用此插件可以节省大量时间。如果您喜欢在便携版中测试快照，并保持已安装的 NVDA 副本不变，则此插件也适合您。
+This add-on allows you to download and install the latest NVDA version of the chosen type without visiting any webpage nor using your web browser.
 
-## 用法
+## Usage
 
-您可以通过转到 NVDA菜单、选项、设置、更新通道类别来更改NVDA更新通道。选择所需通道并点击“确定”后，等待下一次自动检查更新，或转到 NVDA 帮助菜单并选择“检查更新”选项。以下是可用的更新通道：
+You can change the NVDA update channel by going to NVDA menu, Preferences, Settings, Update channel category. Once you choose the desired channel and press OK, wait until the next automatic update check or go to NVDA help menu and choose "Check for updates" option. For now, these are the available channels:
 
-* 默认：这是您的 NVDA 版本使用的默认更新通道。选择此选项意味着与禁用此插件相同。
-* 稳定版：这是稳定版的默认更新通道。当您想从测试快照返回到稳定版本时很有用。
-* Rc（候选版）和 Beta（测试版）： ，第一个公开测试版发布后，您就会收到更新。该渠道可以让您从 Beta 版更新到 RC 候选版。
-* Alpha（快照）：选择此选项可更新到最新的 Alpha。 Alpha 快照允许您测试新功能，但它们非常不稳定。请慎用。
-* 禁用更新（不推荐）：此选项禁用更新通道。如果检查更新，将显示错误消息。请注意，您可以从“常规设置”类别禁用自动更新。此选项仅用于测试目的。
+* Default: this is the default channel used by your NVDA version. Choosing this option means the same as disabling the add-on.
+* Stable: force update channel to stable. Useful when you want to upgrade to a newer stable version from a beta.
+* Rc and beta: this is the channel for beta releases. You will receive the first beta version once it is released. This channel allows you to update through betas and release candidates.
+* Disable updates (not recommended): this option disables the update channel. If you check for updates an error message will be displayed. Remember that you can disable automatic updates from the General settings category. Use this option only with testing purposes.
 
-打开设置面板后，将在后台检索有关每个通道的可用更新信息。按 Tab 导航到只读编辑框，您可以在其中查看此信息。当您从组合框中更改更新通道时，此信息将动态更新。如果所选通道有可用更新，则编辑框旁边将显示一个或两个链接：
+Information about available updates for each channel will be retrieved in the background once the settings panel is opened. Press tab to navigate to a read only edit field, where you can see this information. This information will be dynamically updated when you change the update channel from the combo box. If there is an update available for the selected channel, one or two links will appear next to the edit field:
 
-* 下载：在此链接上按空格键可在您的 Web 浏览器中打开并下载最新的安装程序。
-* 查看更新日志：在此链接上按空格键可在您的 Web 浏览器中打开更新日志文档。对于某些通道，将不会显示此链接。
+* Download: press spacebar on this link to open it in your web browser and download the latest installer.
+* View changelog: press spacebar on this link to open the What's new document in your web browser. For some channels, this link won't be displayed.
 
-## 更新日志
+## Changelog
 
-### 1.4 版
+### Version 26.1
 
-* 更新翻译。
-* 兼容 NVDA 2023.1。
-* 出于安全考虑，将兼容的最低 NVDA 版本设置为 2022.4。
+* Updated documentation clarifying important add-on changes.
+* Compatible with NVDA 2026.1.
+* Updated translations.
+* Removed alpha channel.
 
-### 1.3 版
+### Version 1.4
 
-* 更新翻译。
-* 修复了无法从 alpha 快照创建便携版的错误。
+* Updated translations.
+* Compatible with NVDA 2023.1.
+* For security reasons, minimum NVDA version is set to 2022.4.
 
-### 1.2版
+### Version 1.3
 
-* 更新翻译。
-* 兼容 NVDA 2022.1。
-* 出于安全考虑，将兼容的最低 NVDA 版本设置为 2021.3。
-* 解决了 NV Access 服务器中返回信息的一个错误，该错误导致从 alpha 版更新到稳定版时会更新为 2019.2.1。
+* Updated translations.
+* Fixed a bug which prevented creating portable copies from alpha snapshots.
 
-### 1.1 版
+### Version 1.2
 
-* 移除不支持的通道。
-* 更新翻译。
-* 在设置面板中添加了当前可用更新的信息。
+* Updated translations.
+* Compatible with NVDA 2022.1.
+* For security reasons, minimum NVDA version is set to 2021.3.
+* Workaround for a bug in the NV Access server which caused version 2019.2.1 to be offered when updating from alpha to stable.
 
-### 1.0 版
+### Version 1.1
 
-* 初始版本。
+* Removed unsupported channels.
+* Updated translations.
+* Added information of currently available updates to the settings panel.
+
+### Version 1.0
+
+* Initial version.
 
 [[!tag dev stable]]
 

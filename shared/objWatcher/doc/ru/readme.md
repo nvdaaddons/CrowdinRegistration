@@ -1,94 +1,52 @@
-# наблюдатель объектов
+# obj Watcher
 
-**Это дополнение NVDA отслеживает изменения атрибутов навигационных объектов.**
+**This NVDA add-on watches changes to attributes of navigation objects.**
 
-* Авторы: Cary-rowen (<manchen_0528@outlook.com>), hwf1324 (<1398969445@qq.com>)
-* Совместимость: NVDA-2023.1 или выше
+* Author: Cary-rowen <manchen_0528@outlook.com>, hwf1324 <1398969445@qq.com>
+* Compatibility: NVDA-2023.1 or later
 
-## Возможные варианты использования
+## Possible Use Cases
 
-1. **Отслеживание субтитров и текстов песен:**
-   Смотрите субтитры или текстовые фрагменты некоторых проигрывателей и включайте автоматические отчеты при обновлении.
-2. **Отслеживание активности чата:**
-   Просматривайте интересующие вас темы в списке групповых чатов в Unigram или WeChat. Можно автоматически сообщать о новых сообщениях, даже при работе в фоновом режиме.
-3. **Тестирование и отладка:**
-   Наблюдайте за строкой состояния приложений, таких как Блокнот, чтобы автоматически сообщать об изменениях в строках и столбцах во время редактирования.
+1. Watch subtitles or lyric objects of certain players and enable automatic reporting upon refreshing.
+2. Watch items of interest within the group chat list in the Unigram or WeChat conversation list. New messages can be automatically reported, and background reporting is supported.
+3. Solely for testing purposes, you can also watch the status bar of Notepad to automatically report rows and columns during content insertion/deletion.
 
-## Жесты
+## Gestures
 
-### Команды уровня наблюдателя
+``Control+NVDA+W``: Press once to start watching the current navigator object. If a navigator object is currently being watched, the watched attribute will be reported. Press twice to stop watching.
 
-Нажмите `NVDA+Alt+W` для активации уровня наблюдателя, Где вы можете выполнять действия по наблюдению:
+**You can change this gesture from the Input Gestures dialog.**
 
-- **Цифры (0–9):** Добавить текущий объект Navigator в определенную позицию или сообщить о состоянии объекта, уже наблюдаемого на этой позиции.
-- **Delete:** Однократное нажатие, чтобы удалить последний наблюдаемый объект; Двойное нажатие - удалить все наблюдаемые объекты.
-- **T:** Переключить состояние наблюдения текущего окна переднего плана.
-- **P:** Приостановить или возобновить все активные наблюдения.
-- **Escape:** Выйти из уровня наблюдения.
+## Contributors
 
-При входе в уровень наблюдателя дополнение объявляет текущее состояние:
+* Cary-rowen
+* ibrahim hamadeh
+* hwf1324
 
-- *"Ни один объект не наблюдается. Добавьте элементы для наблюдения."*
-- *"Идёт наблюдение. Отслеживается {n} элементов."*
-- *"Наблюдение приостановлено. {n} элементов в списке наблюдения."*
+## Contribution
 
-### Другие Жесты
+1. The add-on welcomes Pull Requests (PRs) for new features and localized translations on [GitHub][GitHub].
+2. For any feedback, please submit it through a [GitHub Issue][GitHubIssue].
 
-Следующие действия поддерживаются, но им не присвоены жесты по умолчанию. Пользователи могут назначать жесты этим действиям с помощью диалога жестов ввода:
+## Release Notes
+### Version 0.4.4
+* Supported speak on demand mode on NVDA2024.1.
 
-- **Добавить текущий объект навигатора в список наблюдения.**
-  - **Примечание:** Это действие может быть назначено только на жесты, где основная клавиша является цифрой (0–9) с модификатором, таким как `NVDA+Alt+0–9`.
-- **Переключить состояние наблюдения текущего окна.**
-- **Переключить приостановку/возобновление наблюдения.**
-- **Однократное нажатие, чтобы удалить последний наблюдаемый объект; Двойное нажатие - для удаления всех наблюдаемых объектов.**
+### Version 0.4.3
+* Compatible with NVDA2024.1
 
-## Настройки
+### Version 0.4.2
+* Added Ukrainian translation by VovaMobile.
 
-Панель настроек доступна из меню настроек NVDA для настройки следующих параметров:
+### Version 0.4.1
+* Added Arabic translation by ibrahim hamadeh.
 
-- **Интервал времени наблюдения:** Выбрать интервал наблюдения в милисекундах (по умолчанию 100мс)
+### Version 0.4.0
+*The watcher timer interval can be set in the settings panel, the default value is 100.
 
-## Участники
-
-- **Авторы:**
-  - Cary-rowen: Основной разработчик
-  - hwf1324: Сотрудник кода
-  - Ibrahim Hamadeh: Сотрудник кода
-
-- **Участники Локализации:**
-  - Ibrahim Hamadeh: Арабский перевод
-  - VovaMobile: Украинский перевод
-
-**Не стесняйтесь сообщить мне имена других участников локализации любым способом, который вам нравится.**
-
-## Вклад
-
-1. Отправьте запросы на привлечение (PRS) для новых функций или локализованных переводов через [GitHub] [GitHub].
-2. Сообщите об ошибках или предоставьте обратную связь через страницу [GitHub Issue][GitHubIssue].
-
-## Примечания к выпуску
-### Версия 1.0.2
-- Исправлена проблема маркировки документа.
-
-### Версия 1.0.1
-- исправлено дублирование добавляемых объектов
-- Другие улучшения
-
-### Версия 1.0.0
-- Добавлены команды уровня наблюдателя (`NVDA+Alt+W`).
-- Введена функция наблюдения для нескольких объектов.
-- Введено быстрое наблюдение окна переднего плана.
-- Поддержка приостановки/возобновления наблюдения.
-
-### Версия 0.4.5
-- Обновления локализации.
-
-### Версия 0.4.4
-- Поддерживается режим речи "по требованию" в NVDA2024.1.
-- Обновления локализации.
-
-### Версия 0.4.0
-- Предоставлен настраиваемый интервал таймера для наблюдения за объектами.
+### Version 0.3.4
+* Enhanced documentation.
+* The rapid double press gesture no longer consistently prioritizes the execution of the first press function.
 
 [GitHub]: https://github.com/cary-rowen/objWatcher
 [GitHubIssue]: https://github.com/cary-rowen/objWatcher/issues

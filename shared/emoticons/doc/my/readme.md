@@ -1,6 +1,9 @@
 # Emoticons #
 
 * Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+* NVDA compatibility: 2018.3 to 2019.2
+* Download [stable version][1]
+* Download [development version][2]
 
 Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 
@@ -14,7 +17,7 @@ Sometimes an image is worth a 1000 words: use the new emoji to liven up your ins
 
 When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.
 
-Press NVDA+I, or from menu Tools -> Emoticons > Insert emoticon, to open a dialog with the provided emoticons or emoji.
+Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
 This dialog allows you to choose an emoticon and to view the emoticons that interest you:
 
@@ -23,20 +26,6 @@ This dialog allows you to choose an emoticon and to view the emoticons that inte
 *	In the list of emoticons (alt+L) are displayed on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the corresponding character.
 
 When you press OK, the characters for the chosen emoticon will be copied to your clipboard, ready for pasting.
-
-## Insert symbol ##
-
-This dialog allows you to choose one of the symbols available in the Punctuation/symbol pronunciation dialog of NVDA. You can use the Filter edit box or the arrow keys to select an item from the symbols list.
-
-If you want to copy various symbols, use the Add button to append them to the Symbols to copy edit box.
-
-Then, press OK and the selected emoji or symbol, or the symbols contained in the mentioned edit box, will be copied to your clipboard, ready for pasting.
-
-## Associate gestures to symbols ##
-
-From NVDA's menu, Preferences submenu, Input gestures dialog, category Insert symbols or Copy symbols, you can configure NVDA to type symbols through associated gestures.
-
-You can use the Edit field edit box to reduce the number of symbols presented, so that this category can be expanded faster.
 
 ## Emoticons dictionary ##
 
@@ -62,9 +51,6 @@ In Emoticons settings panel you can choose whether or not speech-dictionary shou
 
 Moreover, it's possible to determine if the add-on emojis should be spoken. This could be useful to preserve symbols speaking if emojis are included in NVDA's configuration.
 
-If symbols inserted using associated gestures aren't spoken in your system, even when NVDA is configured to speak typed characters, you can try to enable a checkbox to ensure the speaking of inserted symbols.
-
-
 If you may wish to keep clean your configuration folders, in this dialog it is also possible to choose if dictionaries not used (associated with non existing profiles) will be removed from the add-on when it is unloaded.
 
 ## Key Commands: ##
@@ -73,53 +59,10 @@ These are the key commands available by default, you can edit those or add new k
 
 * NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
 * NVDA+I: show a dialog to select an emoticon you want to copy.
-* Not assigned: show a dialog to select an NVDA's symbol you want to copy.
 * Not assigned: open a browseable message showing the symbol where the review cursor is positioned, so that the whole description can be reviewed in browse mode.
 * Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.
 
-Note: On Windows 10 and higher, it's also possible to use the built-in emoji panel.
-
-## Changes for 34.0.0
-
-* Added ability to copy to clipboard, and paste individual symbols, useful when gestures associated with Insert symbols scripts don't work.
-
-
-## Changes for 33.0.0
-
-* Fixed bug in Save and export dictionaries.
-* Added copy and close buttons to messages presented in browse mode.
-* When using commands to insert symbols, they may be spoken according to the speak typed characters option.
-
-## Changes for 22.0.0 ##
-
-* Requires NVDA 2023.2 or later.
-
-## Changes for 17.0 ##
-
-* Added ability to associate gestures to type symbols.
-* Added ability to copy various symbols at the same time.
-
-## Changes for 16.0 ##
-
-* Compatible with NVDA 2023.1.
-
-## Changes for 15.0 ##
-
-* Requires NVDA 2022.1 or later.
-* Cannot be used in secure mode.
-
-## Changes for 14.0 ##
-
-* Compatible with NVDA 2021.1.
-
-## Changes for 13.0 ##
-
-* Fixed errors in Insert Emoticon dialog.
-* Added a dialog to insert a symbol available in the Punctuation/symbol pronunciation of NVDA.
-
-## Changes for 12.0 ##
-
-* Requires NVDA 2019.3 or later.
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
 ## Changes for 11.0 ##
 
@@ -146,6 +89,7 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 * The Activation settings dialog has been moved to a panel in NVDA settings, so that the current profile will be shown in the title of the NVDA settings dialog.
 * The Manage Emoticons menu has been removed: now Insert emoticon will be found under the Tools menu, and Customize Emoticons will be shown under Speech dictionaries like Emoticons dictionary.
 * Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA 2017.3][3].
 
 ## Changes for 6.0 ##
 
@@ -182,3 +126,9 @@ Note: On Windows 10 and higher, it's also possible to use the built-in emoji pan
 ## Changes for 1.0 ##
 
 * Initial version.
+
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
+
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
+
+[3]: http://addons.nvda-project.org/files/get.php?file=emo-o

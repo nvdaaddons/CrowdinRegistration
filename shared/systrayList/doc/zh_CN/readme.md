@@ -1,68 +1,68 @@
 # systrayList #
 
-*   作者：Rui Fontes、Rui Batista、Joseph Lee 及 NVDA 社区贡献者
-*   下载 [稳定版][1]
-* NVDA 兼容性：2019.3 及以上版本
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
+*   Download [stable version][1]
+* NVDA compatibility: 2019.3 and beyond
 
-此插件允许您通过列表框读取并激活系统托盘或任务栏中的图标，以便轻松访问和操作这些项目。安装插件后，按一次 NVDA+F11 弹出系统托盘元素对话框，按两次则显示任务栏元素（即当前运行的应用程序）。
+This add-on allows you to read and activate icons on the system tray or the task bar, within a list box, for easy access and interaction to those items. With the add-on installed, press NVDA+f11 once for this dialog to pop-up with system tray elements, and press twice to display task bar elements, which are the currently running applications.
 
-请注意，任何屏幕阅读器均可通过 Windows+B 访问系统托盘，通过 Windows+T 访问任务栏。此插件主要用于简化从 JAWS for Windows 的过渡，并避免使用系统键盘方式遍历系统托盘时可能弹出的工具提示。
+Note that you can access the windows system tray in any screen reader software using the Windows+B, and the task bar by pressing Windows+T. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.
 
-## 4.0 版本变更 2020-01-03 ##
+## Changes for 4.0 2020-01-03 ##
 
-* 需要 NVDA 2019.3 或更高版本。
-* 不再支持 Windows 7 SP1 之前的操作系统。
-* 插件更名为 SysTrayList。
-* 安装或更新时不再显示捐赠请求对话框。
+* Requires NVDA 2019.3 or later.
+* No more support for Windows versions earlier than Windows 7 Service Pack 1.
+* Add-on has been renamed to "SysTrayList".
+* Donation request dialog will no longer appear when installing or updating the add-on.
 
-## 3.2 版本变更 2018-12-24 ##
+## Changes for 3.2 2018-12-24 ##
 
-* 进一步代码调整以支持 Python 3。
+* More code changes to support Python 3.
 
-## 3.1 版本变更 2018-11-24 ##
+## Changes for 3.1 2018-11-24 ##
 
-* 支持未来 NVDA 版本的内部调整。
+* Internal changes to support future NVDA releases.
 
-## 3.0 版本变更 2018-10-25 ##
+## Changes for 3.0 2018-10-25 ##
 
-2019年起停止支持 Windows 7 SP1 之前的操作系统版本。
+Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.
 
-* 实现 Python 3 兼容。
+* Add-on is Python 3 compatible.
 
-## 2.0 版本变更 2017-05-20 ##
+## Changes for 2.0 2017-05-20 ##
 
-* 系统托盘/任务栏对话框现居中显示。
-* 修复多处用户界面问题。
-* 新增及更新翻译。
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
 
-## 1.5 版本变更 2015-月-日 ##
+## Changes for 1.5 2015-mm-dd ##
 
-* 修正左/右键点击操作。
-* 现可通过插件管理器获取帮助文档。
-* 翻译更新。
+* Corrected left/right click action.
+* Add-on help is now available from add-ons manger.
+* Translation updates.
 
-## 1.4 版本变更 2013-01-19 ##
+## Changes for 1.4 - 2013-01-19 ##
 
-* 需要 NVDA 2012.3beta2 或更高版本。
-* 安装流程中添加捐赠请求
-* 实现任务栏支持
-* 新增翻译：阿拉伯语、保加利亚语、荷兰语、芬兰语、加利西亚语、希腊语、匈牙利语、意大利语、日语、韩语、尼泊尔语、挪威语、波兰语、巴西葡萄牙语、俄语、斯洛伐克语、泰米尔语、繁体中文（香港）。
+* Requires NVDA 2012.3beta2 or greater.
+* Add donation request to installation procedure
+* Implemented taskbar support
+* New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong.
 
-## 1.3 版本变更 2012-05-25 ##
+## Changes for 1.3 - 2012-05-25 ##
 
-* 转换为插件包格式
-* 新增法语和土耳其语翻译。
+* Converted to an add-on package
+* French and Turkish Translations.
 
-## 1.2 版本变更 2012-04-25 ##
+## Changes for  1.2 - 2012-04.25 ##
 
-* 新增西班牙语和德语翻译（感谢所有贡献者）。
+* Spanish and German translations. Thanks to all that contributed.
 
-## 1.1 版本变更 2012-03-20 ##
+## Changes for 1.1 - 2012-03-20 ##
 
-* 修复无 gettext 翻译时无法使用插件的错误
+* Corrected a bug that was making it impossible to use the plugin when a gettext translation is not available
 
-## 1.0 版本变更 2012-03-19 ##
+## Changes for 1.0 - 2012-03-19 ##
 
-* 初始版本
+* Initial Release
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

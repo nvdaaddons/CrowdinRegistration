@@ -1,7 +1,7 @@
-# Tone Master
+# Tone Master #
 
-- Authors: Hrvoje Katić
-- Download [stable version][1]
+* Authors: Hrvoje Katić
+* Download [stable version][1]
 
 Welcome to Tone Master! I've created this little NVDA add-on just for fun, but also for you to have fun while using it.
 
@@ -13,7 +13,7 @@ Tone Master simplifies process of playing tone sequences by implementing tone da
 
 Before you can play your first musical tune with Tone Master, you have to create and load your tone data file first. Tone data files are simply text files with .tdf extension. Tone Master uses these files for processing and playing back tone sequences. To create tone data file for Tone Master to be able to play it successfully, you have to follow simple rules described below.
 
-1. Each line in .tdf file _must_ contain three parameters separated by colon (:). The first parameter is tone pitch, the second parameter is tone duration, and the third one is the time of silence between each tone. All three parameters are necessary to specify, otherwise Tone Master will not be able to play your tone data.
+1. Each line in .tdf file *must* contain three parameters separated by colon (:). The first parameter is tone pitch, the second parameter is tone duration, and the third one is the time of silence between each tone. All three parameters are necessary to specify, otherwise Tone Master will not be able to play your tone data.
 2. Pitch and duration parameters must be specified as signed integers, and the silence must be specified as floating point real value.
 3. A hash sign (#) at the beginning of any line in .tdf file will be treeted as a comment and will be ignored by Tone Master.
 
@@ -33,12 +33,12 @@ To get more familiar with tone data files syntax, please view and try editing th
 
 ## Shortcut keys
 
-- Alt+NVDA+T: Plays currently loaded tone data if everything is ok.
-- Alt+Shift+NVDA+T: Stops playback for currently loaded tone data if any tone data is playing.
-- Alt+NVDA+N: Creates and opens a new blank tone data file in Notepad for editing.
-- Alt+NVDA+L: Opens a dialog that lets you choose one of your available tone data files to be loaded for playback.
-- Alt+NVDA+E: Opens currently loaded tone data file in Notepad for editing.
-- Alt+NVDA+O: Opens a folder with tone data files where you should also save them in order to be located by Tone Master.
+* Alt+NVDA+T: Plays currently loaded tone data if everything is ok.
+* Alt+Shift+NVDA+T: Stops playback for currently loaded tone data if any tone data is playing.
+* Alt+NVDA+N: Creates and opens a new blank tone data file in Notepad for editing.
+* Alt+NVDA+L: Opens a dialog that lets you choose one of your available tone data files to be loaded for playback.
+* Alt+NVDA+E: Opens currently loaded tone data file in Notepad for editing.
+* Alt+NVDA+O: Opens a folder with tone data files where you should also save them in order to be located by Tone Master.
 
 ## Other notes
 
@@ -54,31 +54,31 @@ When you open a folder with .tdf files, you can then load them in your text edit
 
 ## Changes for 1.5
 
-- Fixed: Fixed compatibility issue with NVDA 2022.1 and later versions.
+* Fixed: Fixed compatibility issue with NVDA 2022.1 and later versions.
 
 ## Changes for 1.4
 
-- Fixed: Fixed compatibility issue with NVDA 2021.1 and later versions.
+* Fixed: Fixed compatibility issue with NVDA 2021.1 and later versions.
 
 ## Changes for 1.3
 
-- Fixed: Fixed compatibility issue with newer NVDA versions that are using wxPython 4.
+* Fixed: Fixed compatibility issue with newer NVDA versions that are using wxPython 4.
 
 ## Changes for 1.2
 
-- Fixed: Addressed major issue where selecting an empty tone data, then selecting another one and trying to play it results in tone data not being played.
+* Fixed: Addressed major issue where selecting an empty tone data, then selecting another one and trying to play it results in tone data not being played.
 
 ## Changes for 1.1
 
-- Added: An option to create new tone data file and open it in Notepad for editing.
-- Added: An option to edit currently loaded tone data file in Notepad.
-- Improved: Error messages are now more user-friendly.
-- Improved: Certain addon features such as opening tones folder or editing tone data files in Notepad are now disallowed on secure screens.
-- Improved: User will be notified by NVDA if tone data playback is stopped.
-- Fixed: Disallowed playback of tone data while the one is already playing.
+* Added: An option to create new tone data file and open it in Notepad for editing.
+* Added: An option to edit currently loaded tone data file in Notepad.
+* Improved: Error messages are now more user-friendly.
+* Improved: Certain addon features such as opening tones folder or editing tone data files in Notepad are now disallowed on secure screens.
+* Improved: User will be notified by NVDA if tone data playback is stopped.
+* Fixed: Disallowed playback of tone data while the one is already playing.
 
 ## Changes for 1.0
 
-- Initial release.
+* Initial release.
 
 [1]: https://github.com/hkatic/toneMaster/releases/download/v1.5/toneMaster-1.5.nvda-addon

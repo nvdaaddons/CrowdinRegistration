@@ -1,78 +1,54 @@
-### NVDA Konuşma Kaydedici eklentisi
+### NVDA Speech Logger add-on
 
-* Yazar: Luke Davis, James Scholes'un katkılarıyla
-* [Kararlı sürümü indirin][1]
-* NVDA uyumluluğu: 2019.3.1 ve sonrası
+Author: Luke Davis, with contributions by James Scholes
 
-Konuşmayı bir dosyaya veya dosyalara kaydetmek için bir [NVDA][3] eklentisi. Yerel makinede oluşturulan konuşmayı bir metin dosyasına kaydedebilir. Ayrıca, [NVDA Remote][5] eklentisi aracılığıyla uzaktaki bir makineden alınan konuşmayı aynı veya farklı bir dosyaya kaydedebilir.
-Yerel makinede oluşturulan konuşmayı bir metin dosyasına kaydedebilir.
-Ayrıca, [NVDA Remote][5] eklentisi aracılığıyla alınan uzak bir makineden gelen konuşmayı aynı veya farklı bir dosyaya kaydedebilir.
+An [NVDA](https://nvaccess.org/) add-on to log speech to a file or files.
+It can log speech generated on the local machine into a text file.
+It can also log speech from a remote machine received through the [NVDA Remote](https://nvdaremote.com/) add-on, either to the same or a different file.
 
-**Not**: Bu özellik, 2025 yılının Haziran ayı itibarıyla NVDA'nın yerleşik uzaktan Erişim işleviyle test edilmemiştir.
+### Configuration
 
-### Yapılandırma
+To configure this add-on, open the NVDA menu, go to Preferences, then Settings, then Speech Logger (NVDA+N, P, S, then press S until you get there, on a default U.S. English keyboard).
 
-Bu eklentiyi yapılandırmak için NVDA menüsünü açın, Tercihler'e, ardından Ayarlar'a ve ardından Konuşma Kaydedici'ye gidin (NVDA+N, T, L, ardından varsayılan ABD İngilizce klavyede oraya ulaşana kadar K tuşuna basın).
-Ayrıca, Girdi Hareketleri "Konfigürasyon" kategorisinde, eklentinin ayarlarını doğrudan hızlı bir şekilde açmak için atayabileceğiniz ve kullanabileceğiniz atanmamış bir hareket de vardır.
-Not: eklenti yalnızca NVDA'nın Normal Konfigürasyon profilindeyken yapılandırılabilir.
-Eklenti profile duyarlı değildir.
-Farklı profillerde farklı şekilde çalışmasını gerektiren bir kullanım durumu düşünebiliyorsanız, lütfen yazarla iletişime geçin veya [GitHub deposu][2] üzerinden bir sorun bildirin.
+Note: the add-on can only be configured while in the Normal Configuration profile of NVDA. The add-on is not profile-aware. If you can think of some use case that requires it to operate differently in different profiles, please contact the author or file an issue on the [GitHub repo](https://github.com/opensourcesys/speechLogger/issues/).
 
-### Aşağıdaki ayarlar mevcuttur:
+The following settings are available:
+* The log directory. You can enter or browse for your desired destination directory, which must already exist. System variables such as %temp%, %userprofile%, etc., can be used in this field.
+* Local log filename. The created file will be placed in the above directory. This will contain speech logged while the local log mode is engaged. This can be the same as the remote log file. Leave blank to disable this kind of logging completely.
+* Remote log filename. The created file will be placed in the above directory. This will contain speech logged while the remote log mode is engaged. It can be the same as the local log file. Leave blank to disable this kind of logging completely.
+* Separator. This combobox lets you choose one of the available utterance separators. See below for more information.
+* Custom separator. This field lets you enter a custom utterance separator (see below), which is used if "custom" is chosen in the combobox.
 
-* Günlük dizini. Halihazırda var olması gereken, istediğiniz hedef dizini girebilir veya bu dizine göz atabilirsiniz. Bu alanda %temp%, %userprofile% gibi sistem değişkenleri kullanılabilir.
-* Yerel günlük dosya adı. Oluşturulan dosya yukarıdaki dizine yerleştirilecektir. Bu, yerel günlük modu devredeyken günlüğe kaydedilen konuşmayı içerecektir. Bu, uzak günlük dosyasıyla aynı olabilir. Bu tür günlüğü tamamen devre dışı bırakmak için boş bırakın.
-* Uzak günlük dosya adı. Oluşturulan dosya yukarıdaki dizine yerleştirilecektir. Bu, uzak günlük modu devredeyken günlüğe kaydedilen konuşmayı içerecektir. Yerel günlük dosyasıyla aynı olabilir. Bu tür günlüğü tamamen devre dışı bırakmak için boş bırakın.
-* Ayırıcı. Bu birleşik giriş kutusu, mevcut ifade ayırıcılardan birini seçmenize izin verir. Daha fazla bilgi için aşağıya bakın.
-* Özel ayırıcı. Bu alan, açılan kutuda "özel" seçilirse kullanılan özel bir deyim ayırıcı (aşağıya bakın) girmenizi sağlar.
-* Zaman damgası modu. Bu açılan kutu, zaman damgası olmaması ile her günlük oturumunun başında ve sonunda bir zaman damgası arasında seçim yapmanızı sağlar.
-* Tümünü söyle (sonuna kadar oku) modunda konuşmayı günlüğe kaydedin. Bu eklenti, NVDA+Aşağı Ok (dizüstü bilgisayar düzeninde NVDA+a) tuşlarına bastığınızda oluşturulan konuşmayı günlüğe kaydeder. Bu tür uzun anlatıların günlüğe kaydedilmesini istemiyorsanız, bu kutunun işaretini kaldırın.
-* Başlangıçta günlüğe kaydetmeye başla. NVDA başladığında konuşmanın otomatik olarak günlüğe kaydedilmesini istiyorsanız, bu seçeneği "Her Zaman" olarak ayarlayabilirsiniz. Bu yalnızca yerel konuşma için geçerlidir ve varsayılan değer "asla" dır.
+#### Utterance separator
 
-#### İfade ayırıcı
+When NVDA speaks something such as "`recycle bin  1 of 55`" while it's reading your desktop, this is considered two separate utterances. The first one is the item name ("`Recycle bin`", in this example), and the second is the object position information ("`1 of 55`", in this example).
 
-NVDA, masaüstünüzü okurken "` `geri dönüşüm kutusu 1/55 '' gibi bir şey konuştuğunda, bu iki ayrı ifade olarak kabul edilir.
-İlki öğe adıdır (bu örnekte “`Geri dönüşüm kutusu`”), ikincisi ise nesnenin konum bilgisidir (bu örnekte “`1/55`”).
+Depending on what you are reading, and how you have NVDA configured, there can be several separate utterances that happen during a single speech sequence.
 
-Ne okuduğunuza ve NVDA'yı nasıl yapılandırdığınıza bağlı olarak, tek bir konuşma dizisi sırasında birden çok farklı ifade olabilir.
+In the normal NVDA log at debug level, each individual utterance is separated with two spaces, as it is written in the example above.
 
-Hata ayıklama seviyesindeki normal NVDA günlüğünde, yukarıdaki örnekte yazıldığı gibi her bir ifade iki boşlukla ayrılır.
+Speech Logger allows you to separate utterances in the same way NVDA does (with two spaces), or by one of a few reasonable alternatives (a newline, a comma and a space, two underscores), or by a custom sequence of your own devising.
 
-Konuşma Kaydedici, ifadeleri NVDA'nın yaptığı gibi (iki boşlukla) veya birkaç makul alternatiften biriyle (yeni satır, virgül ve boşluk, sekme, iki alt çizgi) veya özel bir sıra ile ayırmanıza olanak tanır. kendi tasarımın.
+If, for example, you wanted your utterance separator to be two dollar signs (`$$`), you would set the combobox to "custom", and enter "`$$`" (without the quotes), in the custom separator field. If you wanted it to be a tab, you could enter "`\t`".
 
-Örneğin, ifade ayırıcınızın iki dolar işareti (`$$`) olmasını istiyorsanız, birleşik giriş kutusunu "özel" olarak ayarlar ve özel ayırıcıya "`$$`" (tırnak işaretleri olmadan) girersiniz. alan. Yeni bir satır ve ardından bir sekme olmasını istiyorsanız, "`\\n\\t`" girebilirsiniz.
-Yeni satır ve ardından sekme olmasını istiyorsanız, “`\n\t`” girebilirsiniz.
+### Starting and stopping logging
 
-### Kontroller:
+This add-on has two gestures set by default. You can change them in the NVDA Input Gestures Tools category.
+Look for "Toggles logging of local speech" and "Toggles logging of remote speech".
+* NVDA+Alt+L: start/stop logging of local speech.
+* NVDA+Shift+Alt+L: start/stop logging of remote speech.
 
-Bu eklentinin varsayılan olarak ayarlanmış iki klavye kısayolu ve atanmamış bir klavye kısayolu vardır.
+### A note on remote speech logging
 
-NVDA Girdi Hareketleri "`Konuşma Kaydedici'' kategorisinde değiştirebileceğiniz varsayılan hareketler şunlardır:
-* NVDA+Alt+L: yerel konuşma kaydını başlat/durdur.
-* NVDA+Shift+Alt+L: uzaktan konuşma kaydını başlat/durdur.
-Bunlar sırasıyla "Yerel konuşmanın günlüğe kaydedilmesini çıp kapatır" ve "Uzaktan konuşmanın günlüğe kaydedilmesini Açıp kapatır" olarak listelenir.
+This add-on is intended to work with the NVDA Remote add-on, for logging of remote speech.
 
-Ek olarak, NVDA'nın Girdi Hareketleri'ndeki 'Konuşma Kaydedici' kategorisinden atayabileceğiniz, yapılandırma panelini açmak için atanmamış bir hareket vardır.
+It is important to know, that it is not possible to start logging for remote sessions until you actually start one.
+There is no way to, for example, start logging, and have it wait, on stand-by, until a remote session starts, and begin logging at that time.
 
-### Uzaktan konuşma kaydı hakkında bir not
+However, once started, logging will continue across remote sessions.
 
-Bu eklenti, uzak konuşmanın günlüğe kaydedilmesi için NVDA Uzaktan Destek eklentisiyle çalışmak üzere tasarlanmıştır.
+### Feedback and feature requests
 
-Gerçekten bir oturum başlatana kadar uzak oturumlar için günlüğe kaydetmeye başlamanın mümkün olmadığını bilmek önemlidir.
-Örneğin, günlüğe kaydetmeye başlamanın ve uzak oturum başlayana kadar beklemede beklemesini ve o anda günlüğe kaydetmeye başlamasını sağlamanın bir yolu yoktur.
+If you would like to suggest a feature or report a bug, please reach out by email, or file an [issue](https://github.com/opensourcesys/speechLogger/issues/).
 
-Ancak, bir kez başlatıldıktan sonra günlük kaydı uzak oturumlarda devam edecektir.
-
-### Geri bildirim ve özellik istekleri
-
-Bir özellik önermek veya bir hata bildirmek istiyorsanız, lütfen e-posta ile iletişime geçin veya bir [sorun][2] gönderin.
-
-Bu eklentiyi faydalı bulursanız, [inceleme bırakırsanız][4]  gerçekten yardımcı olacaktır.
-
-Her zaman olduğu gibi, eklentilerimin faydalı olduğunu duymaktan ve insanların bunları ne için kullandığını öğrenmekten memnuniyet duyuyorum.
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=speechLogger
-[2]: https://github.com/opensourcesys/speechLogger/issues/new
-[3]: https://nvaccess.org/
-[4]: https://github.com/nvaccess/addon-datastore/discussions/2636
-[5]: https://nvdaremote.com/
+As always, I appreciate hearing that my add-ons are useful, and what people are using them for.

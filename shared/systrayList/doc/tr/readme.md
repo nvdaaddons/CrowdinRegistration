@@ -1,68 +1,68 @@
-# sistem Tepsisi Listesi #
+# systrayList #
 
-*   Yazarlar: Rui Fontes, Rui Batista, Joseph Lee, NVDA Topluluğuna katkıda bulunanlar
-*   [Kararlı sürümü indirin][1]
-* NVDA uyumluluğu: 2019.3 ve sonrası
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
+*   Download [stable version][1]
+* NVDA compatibility: 2019.3 and beyond
 
-Bu eklenti, sistem tepsisindeki veya görev çubuğundaki simgeleri bir liste kutusu içinde okuyup etkinleştirmenize olanak tanıyarak bu öğelere kolay erişim ve etkileşim sağlar. Eklenti yüklüyken, bu iletişim kutusunun sistem tepsisi öğeleriyle açılması için NVDA+f11 tuşlarına bir kez basın ve çalışmakta olan uygulamalar olan görev çubuğu öğelerini görüntülemek için iki kez basın.
+This add-on allows you to read and activate icons on the system tray or the task bar, within a list box, for easy access and interaction to those items. With the add-on installed, press NVDA+f11 once for this dialog to pop-up with system tray elements, and press twice to display task bar elements, which are the currently running applications.
 
-Windows sistem tepsisine Windows+B tuşlarını kullanarak herhangi bir ekran okuyucu yazılımında ve görev çubuğunda Windows+T tuşlarına basarak erişebileceğinizi unutmayın. Bu eklenti yalnızca Windows için JAWS'tan geçişi daha sorunsuz hale getirmek ve Windows klavye araçlarıyla sistem tepsisinde gezinirken ortaya çıkabilecek bazı araç ipuçlarından kaçınmak için kullanışlıdır.
+Note that you can access the windows system tray in any screen reader software using the Windows+B, and the task bar by pressing Windows+T. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.
 
-## 4.0 için değişiklikler - 2020-01-03 ##
+## Changes for 4.0 2020-01-03 ##
 
-* NVDA 2019.3 veya sonraki sürümünü gerektirir.
-* Windows 7 Service Pack 1'den önceki Windows sürümleri artık desteklenmiyor.
-* Eklentinin adı "SysTrayList" olarak değiştirildi.
-* Eklentiyi yüklerken veya güncellerken bağış isteği iletişim kutusu artık görünmeyecek.
+* Requires NVDA 2019.3 or later.
+* No more support for Windows versions earlier than Windows 7 Service Pack 1.
+* Add-on has been renamed to "SysTrayList".
+* Donation request dialog will no longer appear when installing or updating the add-on.
 
-## 3.2 için değişiklikler - 2018-12-24##
+## Changes for 3.2 2018-12-24 ##
 
-* Python 3'ü desteklemek için daha fazla kod değişikliği.
+* More code changes to support Python 3.
 
-## 3.1 için değişiklikler - 2018-11-24 ##
+## Changes for 3.1 2018-11-24 ##
 
-* Gelecekteki NVDA sürümlerini desteklemek için dahili değişiklikler.
+* Internal changes to support future NVDA releases.
 
-## 3.0 için değişiklikler - 2018-10-25 ##
+## Changes for 3.0 2018-10-25 ##
 
-Windows 7 Service Pack 1'den önceki Windows sürümleri için destek 2019'da sona erecektir.
+Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.
 
-* Eklenti Python 3 uyumludur.
+* Add-on is Python 3 compatible.
 
-## 2.0 için değişiklikler - 2017-05-20 ##
+## Changes for 2.0 2017-05-20 ##
 
-* Sistem tepsisi/görev çubuğu iletişim kutusu artık ekranda ortalanmıştır.
-* Çeşitli kullanıcı arayüz sorunları düzeltildi.
-* Yeni ve güncellenmiş çeviriler.
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
 
-## 1.5 için değişiklikler - 2015-mm-dd ##
+## Changes for 1.5 2015-mm-dd ##
 
-* Sağ / sol tık eylemi düzeltildi.
-* Eklenti yardımı artık eklenti Mağazasından alınabilir.
-* Çeviri güncellemeleri.
+* Corrected left/right click action.
+* Add-on help is now available from add-ons manger.
+* Translation updates.
 
-## 1.4 için değişiklikler - 2013-01-19 ##
+## Changes for 1.4 - 2013-01-19 ##
 
-* NVDA 2012.3beta2 veya daha üst versiyonunu gerektirir.
-* Yükleme iletişim kutusuna bağış istemek için bir ekran eklendi
-* Görev çubuğu desteği uygulandı
-* Yeni çeviriler:, Galiçyaca, Fince, Hollandaca, Bulgarca, Arapça, Lehçe, Norveççe, Nepal, Korece, Japonca, İtalyanca, Macarca, Yunanca Brezilya Portekizcesi, Rusça, Slovakça, Tamil, Geleneksel Çin Hong Kong.Yeni diller: Arabic, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Polish, Brazilian Portuguese, Russian, Slovak, Tamil.
+* Requires NVDA 2012.3beta2 or greater.
+* Add donation request to installation procedure
+* Implemented taskbar support
+* New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong.
 
-## 1.3 için değişiklikler - 2012-05-25 ##
+## Changes for 1.3 - 2012-05-25 ##
 
-* Eklenti paketi olarak derlendi
-* Fransızca ve  Türkçe çeviriler.
+* Converted to an add-on package
+* French and Turkish Translations.
 
-## 1.2  için değişiklikler- 2012-04.25 ##
+## Changes for  1.2 - 2012-04.25 ##
 
-* İspanyolca ve Almanca çeviriler. Katkıda bulunan herkese teşekkürler.
+* Spanish and German translations. Thanks to all that contributed.
 
-## 1.1  için değişiklikler- 2012-03-20 ##
+## Changes for 1.1 - 2012-03-20 ##
 
-* Kullanılan dille ilgili çeviri yapılmamışsa eklentinin çalışmasını engelleyen bir sorun düzeltildi
+* Corrected a bug that was making it impossible to use the plugin when a gettext translation is not available
 
-## 1.0 için değişiklikler - 2012-03-19 ##
+## Changes for 1.0 - 2012-03-19 ##
 
-* İlk sürüm
+* Initial Release
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

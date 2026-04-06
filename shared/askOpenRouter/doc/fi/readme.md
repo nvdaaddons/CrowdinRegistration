@@ -1,22 +1,22 @@
-# Kysy OpenRouterilta
+# Ask OpenRouter
 
-* Tekijä: Abdel.
+* Author(s) : Abdel.
 
-Tämän lisäosan avulla voit käyttää OpenRouter-alustan tarjoamia tekoälymalleja suoraan NVDA:ssa.
+This NVDA add-on allows you to interact with Artificial Intelligence models provided by the OpenRouter platform directly from your screen reader.
 
-Lisäosa tukee:
-* Ilmaismallien automaattista satunnaista valintaa
-* Minkä tahansa saatavilla olevan mallin (myös maksullisten) manuaalista valintaa
+The add-on supports both:
+* Automatic random selection of free models
+* Manual selection of any available model (including paid ones)
 
-## Keskeiset ominaisuudet
+## Key Features
 
-* Pikakäyttö: Avaa keskusteluikkuna koska tahansa yleisellä pikanäppäimellä.
-* Keskustelujen hallinta: Aloita uusi keskustelu tai jatka aiempaa.
-* Älykäs ilmaismallien kierto: Optimoi päivittäiset käyttörajat valitsemalla automaattisesti satunnaisen ilmaismallin.
-* Manuaalinen mallin valinta: Valitse asetuspaneelista tietty malli (maksulliset mukaan lukien).
-* Saavutettavat tulokset: Näytä vastaukset selkeässä ja helposti navigoitavassa ikkunassa, jossa on valinnainen koko historian näyttö.
+* Quick Access: Open the chat interface anytime with a global shortcut.
+* Conversation Management: Start a fresh conversation or continue your previous exchange.
+* Smart Free Model Rotation: Automatically selects a random free model to optimize daily usage quotas.
+* Manual Model Selection: Choose a specific model (including paid models) from the settings panel.
+* Accessible Results: View responses in a clear, easy-to-navigate window with optional full history display.
 
-## Asetusten määritys: API-avaimen hankkiminen ja käyttöönotto
+## Configuration: Obtaining and Installing Your API Key
 
 To use this add-on, you must have an API key from OpenRouter.
 

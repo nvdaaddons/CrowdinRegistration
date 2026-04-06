@@ -1,184 +1,134 @@
-# İfadeler #
+# Emoticons #
 
-* Yazarlar: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+* Authors: Chris Leo, Noelia Ruiz Martínez, Mesar Hameed, Francisco Javier Estrada Martínez
+* NVDA compatibility: 2018.3 to 2019.2
+* Download [stable version][1]
+* Download [development version][2]
 
-Bu eklenti, metinlerde bulunan ifadeleri açıklamalarıyla değiştirerek onları daha anlaşılabilir kılar.
+Using this add-on, spoken text containing emoticon characters will be replaced by its more human friendly description.
 
-Örneğin: ":)" dizisi "gülen yüz" olarak söylenecek veya örneğin NVDA her emojinin anlamını tanıyacaktır.
+For example: the sequence ":)" will be spoken as "smiling smiley", or for example NVDA will recognize the meaning of each emoji.
 
-Aşağıdaki özelliklerden yararlanabilirsiniz:
+You can take advantage of the following features:
 
-## İfade ekle ##
+## Insert Emoticon ##
 
-Bazen bir resim 1000 kelimeye bedeldir: anlık mesajınızı canlandırmak ve arkadaşlarınıza nasıl hissettiğinizi bildirmek için yeni emojiyi kullanın.
+Sometimes an image is worth a 1000 words: use the new emoji to liven up your instant message and to let your friends know how you’re feeling.
 
-Belirli suratları (smiley) oluşturmak için gereken karakterlerden emin değilseniz, bu eklenti bir sohbete emojiyi olduğu gibi metninize seçip eklemenizi sağlar.
+When you are unsure of the characters for a particular smiley, this addon enables you to select and insert it into your text such as in a chat.
 
-NVDA+i tuşuna basarak veya nvda menusu+araşlar+ifadeler alt menüsünden ifade ekle öğesini etkinleştirerek ifadeler ve emojilerin bulunduğu iletişim kutusuna ulaşabilirsiniz.
+Press NVDA+I, or from menu Tools -> Insert emoticon, to open a dialog with the provided emoticons or emoji.
 
-Bu iletişim kutusu, bir ifade seçmenizi veya ilginizi çeken ifadeleri görüntülemenizi sağlar:
+This dialog allows you to choose an emoticon and to view the emoticons that interest you:
 
-*	Düzenlenebilir bir alan, mevcut ifadeler arasından istenen ifadeyi aramayı filtrelemenizi sağlar.
-*	Seçim düğmelerini kullanarak sadece emoji kategorisini (alt+İ), sadece standart ifade kategorisini (alt+s) veya mevcut tüm ifadeleri (alt+T) görüntülemeyi seçebilirsiniz.
-*	İfade listesinde (alt+L) sırasıyla üç sütunda görüntülenir: ifadenin adı, ifadenin türü (standart ifade veya emoji), karşılık gelen karakter.
+*	An editable field allows you to filter the search for the desired emoticon among the emoticons available.
+*	Through a set of radio buttons, you can choose to view only emoji category (alt+E) or view only standard emoticon category (alt+s) or view all emoticons available (alt+A).
+*	In the list of emoticons (alt+L) are displayed on three columns respectively: the name of emoticon, the type of emoticon (standard emoticon or emoji), the corresponding character.
 
-Tamam'a bastığınızda, seçilen ifadenin karakterleri yapıştırmaya hazır olarak panonuza kopyalanacaktır.
+When you press OK, the characters for the chosen emoticon will be copied to your clipboard, ready for pasting.
 
-## Sembol ekle ##
+## Emoticons dictionary ##
 
-Bu iletişim kutusu, NVDA'nın Noktalama/sembol telaffuz iletişim kutusunda bulunan simgelerden birini seçmenizi sağlar. Sembol listesinden bir öğe seçmek için Filtre düzenleme kutusunu veya ok tuşlarını kullanabilirsiniz.
+Emoticons add-on allows to have differents speech-dictionaries using configuration profiles.
 
-Çeşitli sembolleri kopyalamak istiyorsanız, bunları Kopyalanacak Semboller düzenleme kutusuna eklemek için Ekle düğmesini kullanın.
+This means that you can create or edit a specific speech-dictionary for each your custom profile.
 
-Ardından, Tamam'a basın ve seçilen emoji veya sembol veya söz konusu düzenleme kutusunda bulunan semboller, yapıştırmaya hazır olarak panonuza kopyalanacaktır.
+From NVDA MENU, Preferences -> Speech dictionaries -> Emoticons dictionary, you can open a dialog to add or to edit available emoticons.
 
-## Hareketleri sembollerle ilişkilendirin ##
+Saving your customizations, the new reading settings of emoticons  will only apply to the profile you are currently editing.
 
-NVDA menüsü, Tercihler alt menüsü, Girdi hareketleri iletişim kutusundan, Sembol ekle veya Sembolleri kopyala kategorisinden, NVDA'yı ilgili hareketler aracılığıyla sembolleri yazacak şekilde yapılandırabilirsiniz.
+For example, you may wish that NVDA spoken custom emoticons only in XxChat program, but not in other chat programs: you can do this by creating a profile for the XxChat application and assign to it a speech  dictionary from Speech dictionaries menu, Emoticons dictionary option. See below for Emoticons settings in relation to the configuration profiles.
 
-Bu kategorinin daha hızlı genişletilebilmesi için sunulan sembol sayısını azaltmak üzere Alanı düzenle düzenleme kutusunu kullanabilirsiniz.
+You can also export each custom speech-dictionary pressing "Save and export dictionary" button: in this way your  speech-dictionaries will be saved in your user config folder, speechDicts/emoticons subfolder.
 
-## İfadeler sözlüğü ##
+The exact name and location of the dictionary file will be based on the editing configuration profile, which will be shown in the title of the Emoticons dictionary dialog.
 
-İfadeler eklentisi, yapılandırma profillerini kullanarak farklı konuşma sözlüklerine kullanmanızı sağlar.
+## Emoticons settings ##
 
-Bu,her bir özel profil için belirli bir konuşma sözlüğü oluşturabileceğiniz veya düzenleyebileceğiniz anlamına gelir.
+From menu Preferences -> Settings -> Emoticons opens a panel to configure the activation of your speech-dictionaries for each profile.
 
-NVDA MENÜSÜ, Tercihler -> Konuşma sözlükleri -> İfadeler sözlüğünden, mevcut ifadeleri eklemek veya düzenlemek için bir iletişim kutusu açabilirsiniz.
+In Emoticons settings panel you can choose whether or not speech-dictionary should automatically activate when  NVDA switches to the   profile you are currently editing. By default it is disabled in normal configuration of NVDA and in all your new profiles.
 
-Özelleştirmelerinizi kaydederek, yeni ifadeler yeni okuma ayarları yalnızca şu anda düzenlediğiniz profil için geçerli olacaktır.
+Moreover, it's possible to determine if the add-on emojis should be spoken. This could be useful to preserve symbols speaking if emojis are included in NVDA's configuration.
 
-Örneğin, NVDA'nın yalnızca XxChat programında özel ifadeler konuşmasını isteyebilirsiniz, ancak diğer sohbet programlarında olmayabilir: Bunu XxChat uygulaması için bir profil oluşturarak ve konuşma sözlükleri menüsünden bir konuşma sözlüğü atayarak yapabilirsiniz. Yapılandırma profillerine göre ifadeler ayarları için aşağıya bakın.
+If you may wish to keep clean your configuration folders, in this dialog it is also possible to choose if dictionaries not used (associated with non existing profiles) will be removed from the add-on when it is unloaded.
 
-Ayrıca "Sözlüğü kaydet ve dışa aktar" düğmesine basarak her özel konuşma sözlüğünü dışa aktarabilirsiniz: bu şekilde konuşma sözlükleriniz kullanıcı yapılandırma klasörünüze, speechDicts/emoticons alt klasörüne kaydedilecektir.
+## Key Commands: ##
 
-Sözlük dosyasının tam adı ve konumu, İfadeler sözlüğü iletişim kutusunun başlığında gösterilecek olan düzenleme yapılandırma profiline dayalı olacaktır.
+These are the key commands available by default, you can edit those or add new key to open Emoticons settings panel or Emoticon Dictionary dialog:
 
-## İfade ayarları ##
+* NVDA+E: speaking emoticons on/off, toggles between speaking text as it is written, or with the emoticons replaced by the human description.
+* NVDA+I: show a dialog to select an emoticon you want to copy.
+* Not assigned: open a browseable message showing the symbol where the review cursor is positioned, so that the whole description can be reviewed in browse mode.
+* Not assigned: open a browseable message showing the symbol where the caret is positioned, so that the whole description can be reviewed in browse mode.
 
-Tercihler -> Ayarlar -> İfadeler menüsünden, her profil için konuşma sözlüklerinizin aktivasyonunu yapılandırmak üzere bir panel açar.
+Note: On Windows 10, it's also possible to use the built-in emoji panel.
 
-İfadeler Ayarları Panelinde, NVDA şu anda düzenlediğiniz profile geçtiğinde konuşma dernesinin otomatik olarak etkinleştirilmesi gerekip gerekmediğini seçebilirsiniz. Varsayılan olarak, NVDA'nın normal konfigürasyonunda ve tüm yeni profillerinizde devre dışı bırakılır.
+## Changes for 11.0 ##
 
-Üstelik eklenti emojilerinin konuşulup söylenmemesi gerektiğini de belirlemek mümkün. Bu, NVDA'nın yapılandırmasına emojiler dahil edilmişse, konuşan sembolleri korumak için faydalı olabilir.
+* When the add-on is updated, dictionaries saved in the previous version of the add-on will be automatically copied to the new version, unless you prefer to import dictionaries saved in the main dictionaries folder of NVDA.
+* When showing the symbol where the caret or the review cursor are positioned, the words Character and Replacement are used to distinguish between the symbol itself and its description in browse mode, useful for speech users.
 
-İlişkili hareketler kullanılarak eklenen semboller sisteminizde seslendirilmiyorsa, NVDA yazılan karakterleri konuşacak şekilde yapılandırılmış olsa bile, eklenen sembollerin konuşmasını sağlamak için bir onay kutusunu etkinleştirmeyi deneyebilirsiniz.
+## Changes for 10.0 ##
 
+* Added commands to show the symbol where the review cursor or caret are positioned. Gestures for these commands can be assigned from the Input gestures dialog, Text review category.
 
-Konfigürasyon klasörlerinizi temiz tutmak istiyorsanız, bu iletişim kutusunda, kullanılmayan sözlüklerin (mevcut olmayan profillerle ilişkili) eklenti kaldırıldığında eklentiden kaldırılıp kaldırılmayacağını da seçebilirsiniz.
+## Changes for 9.0 ##
 
-## Kısayol Komutları: ##
+* Added the possibility of choosing if add-on emojis should be spoken.
+* Used appropiate encoding for dictionary names, fixing errors when they contain certain characters.
+* The translated summary of the add-on is properly used for the title presented in add-on help, accessible from the add-on manager.
+* Added a note mentioning the emoji panel available on Windows 10.
 
-Bunlar, varsayılan olarak İfade ayarları panelini veya İfade Sözlüğü iletişim kutusunu açmak için kullanılabilen kısayol komutlarıdır. bunları düzenleyebilir VEYA YENİkısayol komutları ekleyebilirsiniz:
+## Changes for 8.0 ##
 
-* NVDA+E: ifadenin yazıldığı şekilde mi yoksa tanımlandığı haliyle mi seslendirileceği ile ilgili ayarı değiştirir.
-* NVDA + I: yapıştırmak istediğiniz ifadeyi seçmeniz için bir iletişim kutusu açar.
-* Atanmamış: kopyalamak istediğiniz bir sembolü seçmeniz için bir iletişim kutusu gösterir.
-* Atanmamış: tüm açıklamanın göz atma modunda gözden geçirilebilmesi için inceleme imlecinin konumlandığı sembolü gösteren göz atılabilir bir mesaj açar.
-* Atanmamış: şapka işaretinin yerleştirildiği sembolü gösteren göz atılabilir bir mesaj açar. böylece tüm açıklama tarama kipi modunda gözden geçirilebilir.
+* Compatible with NVDA 2018.3 or later (required).
 
-Not: Windows 10 ve üzeri sürümlerde yerleşik emoji panelini kullanmak da mümkündür.
+## Changes for 7.0 ##
 
-## 34.0.0 için değişiklikler ##
+* The Activation settings dialog has been moved to a panel in NVDA settings, so that the current profile will be shown in the title of the NVDA settings dialog.
+* The Manage Emoticons menu has been removed: now Insert emoticon will be found under the Tools menu, and Customize Emoticons will be shown under Speech dictionaries like Emoticons dictionary.
+* Requires NVDA 2018.2 or later.
+* If needed, you can download the [last version compatible with NVDA 2017.3][3].
 
-* Panoya kopyalama ve tek tek sembolleri yapıştırma özelliği eklendi, Sembol ekle komutlarla ilişkili hareketler çalışmadığında kullanışlıdır.
+## Changes for 6.0 ##
 
+* Added support for configuration profiles.
+* In NVDA 2017.4 or later, the configuration settings and custom dictionaries will change automatically according with the selected profiles. In 2017.3 or earlier, you can apply changes by reloading plugins (pressing control+NVDA+f3).
+* If you choose to import settings when updating the add-on, deprecated files (emoticons.ini and emoticons.dic) will be removed or adapted to this version.
 
-## 33.0.0 için değişiklikler ##
+## Changes for 5.0 ##
 
-* Sözlükleri kaydetme ve Dışa Aktarma hataları düzeltildi.
-* Gözatma modunda sunulan mesajlara kopyala ve kapat düğmeleri eklendi.
-* Sembol eklemek için komutlar kullanılırken, bunlar yazılan karakterleri seslendir seçeneğine göre söylenebilir.
+* Added support for emojis.
+* Improvements for Insert Emoticon dialog with a filter field and radio buttons to choose displayed emoticons.
+* Using guiHelper for Activation settings dialog and Insert Emoticon dialog: requires NVDA 2016.4 or higher versions
 
-## 22.0.0 için değişiklikler ##
+## Changes for 4.0 ##
 
-* NVDA 2023.2 veya sonraki bir sürümü gerektirir.
+* If the Insert smiley dialog is opened when another settings dialog is active, NVDA will show the corresponding error message.
 
-## 17.0 için değişiklikler ##
 
-* Sembolleri yazmak için hareketleri ilişkilendirme yeteneği eklendi.
-* Çeşitli sembolleri aynı anda kopyalama özelliği eklendi.
+## Changes for 3.0 ##
 
-## 16.0 için değişiklikler ##
+* In the Customize emoticons dialog, it is now possible to specify that a pattern should only match if it is a whole word, according to speech dictionaries of NVDA 2014.4.
 
-* NVDA 2023.1 ile uyumlu.
 
-## 15.0 için değişiklikler ##
+## Changes for 2.0 ##
 
-* NVDA 2022.1 veya sonraki bir sürümü gerektirir.
-* Güvenli modda kullanılamaz.
+* Add-on help is available from the Add-ons Manager.
 
-## 14.0 için değişiklikler ##
 
-* NVDA 2021.1 ile uyumlu.
+## Changes for 1.1 ##
 
-## 13.0 için değişiklikler ##
+* Removed duplicated emoticon.
+* Added some smileys.
 
-* İfade Ekle iletişim kutusundaki hatalar düzeltildi.
-* NVDA'nın Noktalama/imla sözlüğünde bulunan bir sembolü eklemek için bir iletişim kutusu eklendi.
+## Changes for 1.0 ##
 
-## 12.0 için değişiklikler ##
+* Initial version.
 
-* NVDA 2019.3 veya sonraki bir sürümü gerektirir.
+[1]: http://addons.nvda-project.org/files/get.php?file=emo
 
-## 11.0 için değişiklikler ##
+[2]: http://addons.nvda-project.org/files/get.php?file=emo-dev
 
-* Eklenti güncellendiğinde, NVDA'nın ana sözlükler klasöründe kayıtlı sözlükleri içe aktarmayı tercih etmediğiniz sürece, eklentinin önceki sürümünde kaydedilen sözlükler otomatik olarak yeni sürüme kopyalanacaktır.
-* Sembol, düzeltme işaretinin veya inceleme imlecinin konumlandığı yerde gösterilirken, karakter ve Değiştirme sözcükleri, sembolün kendisi ile tarama kipi modundaki açıklaması arasında ayrım yapmak için kullanılır ve bu, konuşma kullanıcıları için yararlıdır.
-
-## 10.0 için değişiklikler ##
-
-* İnceleme imlecinin veya şapka işaretinin konumlandığı sembolü göstermek için komutlar eklendi. Bu komutlar için hareketler, Girdi hareketleri iletişim kutusundaki Metin inceleme kategorisinden atanabilir.
-
-## 9.0 için değişiklikler ##
-
-* Eklenti emojilerinin konuşulup konuşulmayacağını seçme imkanı eklendi.
-* Sözlük adları için uygun kodlama kullanıldı, belirli karakterler içerdiğinde hatalar düzeltildi.
-* Eklentinin çevrilmiş özeti, eklenti yöneticisinden erişilebilen eklenti yardımında sunulan başlık için uygun şekilde kullanılır.
-* Windows 10'da bulunan emoji panelinden bahseden bir not eklendi.
-
-## 8.0 için değişiklikler ##
-
-* NVDA 2018.3 veya sonraki bir sürümü gerektirir. (gerekli).
-
-## 7.0 için değişiklikler ##
-
-* Aktivasyon ayarları iletişim kutusu NVDA ayarlarındaki bir panele taşındı, böylece mevcut profil NVDA ayarları iletişim kutusunun başlığında gösterilebilecek.
-* İfadeleri Yönet menüsü kaldırıldı: Artık İfade ekle Araçlar menüsünde bulunacak ve İfadeleri Özelleştir, İfadeler sözlüğü gibi Konuşma sözlükleri altında gösterilecek.
-* NVDA 2018.2 veya sonraki bir sürümü gerektirir.
-
-## 6.0 için değişiklikler ##
-
-* Farklı profiller için destek eklendi.
-* NVDA 2017.4 veya sonraki sürümlerde, yapılandırma ayarları ve özel sözlükler, seçilen profillere göre otomatik olarak değişecektir. 2017.3 veya önceki sürümlerde, eklentileri yeniden yükleyerek (kontrol+NVDA+f3 tuşlarına basarak) değişiklikleri uygulayabilirsiniz.
-* Eklentiyi güncellerken ayarları içe aktarmayı seçerseniz, kullanımdan kaldırılan dosyalar (emoticons.ini ve emoticons.dic) kaldırılacak veya bu sürüme uyarlanacaktır.
-
-## 5.0 için değişiklikler ##
-
-* Emojiler için destek eklendi.
-* Görüntülenen ifadeleri seçmek için bir filtre alanı ve seçim düğmeleri eklenerek İfade Ekle iletişim kutusu iyileştirildi.
-* Etkinleştirme ayarları iletişim kutusu ve İfade Ekle iletişim kutusu için guiHelper'ı kullanma: NVDA 2016.4 veya daha yüksek sürümleri gerektirir
-
-## 4.0 için değişiklikler ##
-
-* Başka bir ayarlar iletişim kutusu etkinken emoji ekle iletişim kutusu açılırsa, NVDA ilgili hata mesajını gösterecektir.
-
-
-## 3.0 için değişiklikler ##
-
-* İfadeleri özelleştir iletişim kutusunda, NVDA 2014.4'ün konuşma sözlüklerine göre, bir kalıbın yalnızca tam bir kelime olması durumunda eşleşmesi gerektiğini belirtmek artık mümkün.
-
-
-## 2.0 için değişiklikler ##
-
-* Eklenti yardımına Eklenti Mağazası altından ulaşılabilir.
-
-
-## 1.1 İçin Değişiklikler ##
-
-* Tekrar eden ifade kaldırıldı.
-* Bazı suratlar eklendi.
-
-## 1.0 için değişiklikler ##
-
-* İlk sürüm.
+[3]: http://addons.nvda-project.org/files/get.php?file=emo-o

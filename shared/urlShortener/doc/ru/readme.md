@@ -1,43 +1,33 @@
-# Сокращение URL #
+# URL Shortener #
 
-* Автор: Noelia Ruiz Martínez
+* Author: Noelia Ruiz Martínez
+* Download [latest stable version][1] (compatible with NVDA 2023.1 and beyond)
+* Download [latest beta version][2] (compatible with NVDA 2023.1 and beyond)
 
-Это дополнение используется для сокращения URL-адресов в NVDA с помощью [is.gd][1].
+This add-on is used to shorten URLs from NVDA through [is.gd][3].
 
-## Диалог сокращения URL ##
+## Shorten URL dialog ##
 
-Перейдите в меню NVDA, подменю "Сервис", и активируйте пункт "Сократить URL".
+Go to NVDA's menu, Tools submenu, and activate the Shorten URL item.
 
-В качестве альтернативы вы можете назначить жест в диалоге жестов ввода NVDA.
+Alternatively, you can assign a gesture from the Input gestures dialog of NVDA.
 
-Диалог Сокращения URL включает в себя следующие элементы управления:
+The Shorten URL dialog includes the following controls:
 
-* Список для выбора одного из сохраненных URL-адресов. В этом списке нажмите shift+tab для поиска и tab для нажатия одной из следующих кнопок.
-* Скопировать сокращённый URL. Это также можно активировать, нажав Enter в списке URL-адресов.
-* Поле только для чтения, с подробной информацией о выбранном URL.
-* Набор элементов управления для сокращения нового URL-адреса: Укажите новый URL; при желании вы можете задать отображаемое имя и пользовательский субфикс для сокращённого URL. Наконец, нажмите кнопку Сократить URL.
-* Переименовать: открывает диалог для ввода нового названия, отображаемого выбранного URL-адреса в списке.
-* Удалить: открывает диалог для удаления выбранного URL.
-* Удалить сохранённые URL: открывает диалог для удаления сохраненных URL-адресов из папки конфигурации.
-* Закрыть.
+* A list to select one of the saved URLs. From this list, Press shift+tab to search, and tab to press one of the following buttons.
+* Copy shortened URL. This can also be activated by pressing Enter from the URLs list.
+* New: opens a dialog to type an URL to be shortened. A display name maybe provided from this dialog.
+* Rename: opens a dialog to provide a new name to display the selected URL on the list.
+* Delete: opens a dialog to delete the selected URL.
+* Remove saved URLs: opens a dialog to remove the saved URLs from the configuration folder.
+* Close.
 
-## Изменения для 8.0.0 ##
+## Changes for 1.0.0 ##
 
-* Добавлено поле только для чтения с подробной информацией о выбранном URL.
+* Initial version.
 
-## Изменения для 5.0.0 ##
+[1]: https://www.nvaccess.org/addonStore/legacy?file=urlShortener
 
-* Диалог "Новый URL" был заменён набором элементов управления в главном диалоге, чтобы можно было сосредоточить внимание на соответствующем поле для исправления возможных ошибок.
+[2]: https://www.nvaccess.org/addonStore/legacy?file=urlShortener-beta
 
-## Изменения для 2.0.0 ##
-
-* Опция сокращения URL не будет появляться несколько раз в подменю "Сервис" при перезагрузке плагинов.
-* Диалог "Создать URL-адрес" включает в себя поле редактирования для предоставления пользовательского вложенного исправления для сокращённого URL.
-
-## Изменения для 1.0.0 ##
-
-* Первоначальная версия.
-
-
-
-[1]: https://is.gd
+[3]: https://is.gd

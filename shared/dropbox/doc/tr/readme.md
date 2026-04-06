@@ -1,61 +1,61 @@
 [[!meta title="dropbox"]]
 
-* Yazarlar: Patrick ZAJDA <patrick@zajda.fr>, Filaos ve diğer katkıda bulunanlar
-* NVDA Uyumluluğu: 2019.1 veya üstü
+* Authors: Patrick ZAJDA, Filaos and other contributors
+* NVDA compatibility: 2019.1 or later
 
-Bu eklenti, Dropbox durumunu bildirmek veya sırasıyla bir veya iki kez basıldığında Dropbox sistem tepsisi menüsünü açmak için bir kısayol ekler.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox systray menu when pressed once or twice respectively.
 
-* Kısayol tuşu: NVDA+Alt+D
+* Shortcut: NVDA+Alt+D
 
 
-## 4.7 İçin Değişiklikler ##
+## Changes for 4.7 ##
 
-* NVDA 2022.1 ile uyumlu
-* Son Dropbox arayüzünde sorunlara neden olduğu ve Windows 8 Microsoft tarafından desteklenmediği için Dropbox uygulama modülü kaldırıldı
+* Compatibility with NVDA 2022.1
+* Remove Dropbox app module as it causes issues with last Dropbox interface and Windows 8 is not supported by Microsoft
 
-## 4.6 İçin Değişiklikler ##
+## Changes for 4.6 ##
 
-* NVDA 2021.1 uyumluluğunu belirtir
+* Specify NVDA 2021.1 compatibility
 
-## 4.4 İçin Değişiklikler ##
+## Changes for 4.4 ##
 
-* Python 3 uyumluluğu
-* Son eklenti şablonu kullanıldı
-* Appveyor ile oluşturulacak depo değişikliği
-* Belgelerdeki yanlış ve kaldırılmış kullanılmayan kısayollar düzeltildi
-* Belgelerde sürüm bildirimine hala atıfta bulunan açıklama güncellendi
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the announcement of the version
 
-## 4.0 İçin Değişiklikler ##
+## Changes for 4.0 ##
 
-* Shift+NVDA+D davranışını değiştir: bir kez basıldığında Dropbox durumunu duyur, iki kez basıldığında bağlam menüsünü aç.
-* Çeviriler güncellendi.
-* Windows 8 Metro uygulamasıyla ilgili sorunlar düzeltildi.
-* Eklenti yardımı artık yardım menüsünde mevcut değil, bunun yerine eklenti yöneticisinde bulunuyor.
-* Dropbox gui'sini sürümden sürüme değiştirirken, ayarlar iletişim kutusunun tüm özellikleri kaldırıldı.
-* Ses kısma desteğiyle çakışmayı önlemek için dropbox durumunu almak için kısayol Alt+NVDA+D olarak değiştirildi.
+* Change Shift+NVDA+D behavior: if pressed once announce Dropbox status, twice open the context menu.
+* Translations update.
+* Fixed issues with windows 8 metro app.
+* Addon help is no longer available in the help menu, it's found in the addons manager instead.
+* As Dropbox changes his gui from version to version, all features for settings dialog were removed.
+* Modified the shortcut to get dropbox status to Alt+NVDA+D to avoid conflict with audio ducking support.
 
-## 3.1 İçin Değişiklikler ##
+## Changes for 3.1 ##
 
-* İptal düğmesini ve sayfa sekmesini başka bir şekilde kullanın. Artık kısayolları kullanmadan önce bunlara odaklanmamız gerekmiyor.
-* Etkin sekmeyi değiştirirken, odak sekme sayfasına geçer, böylece sekmeye basıldığında, artık etkin olmasa bile önceki sekmede kalmak yerine sekmenin ilk öğesi etkinleştirilir.
-* Tercihler iletişim kutusunda, sekme sayfaları arasında dolaşmak için artık control+page up/down tuşlarına basabilirsiniz.
-* Tüm yerelleştirilmiş manifest dosyaları artık sorunsuz olmalı.
-* Küçük düzeltmeler.
+* Use another way to get cancel button and page tab. Now we don't have to focus them before using shortcuts.
+* When changing the active tab, the focus move to the tab page so when pressing tab, the first item of the tab is activated instead of staying to the previous used tab even if it is not activated anymore.
+* In the preferences dialog, it is now possible to press control+page up/down to switch between tabs. Control+tab and control+shift+tab still work.
+* All localized manifest files should now be OK.
+* Minor corrections.
 
-## 3.0 İçin Değişiklikler ##
+## Changes for 3.0 ##
 
-* Ana manifest dosyasında Küçük bir düzeltme (geliştiriciler doğru olarak gösteriliyor).
-* Üç kez NVDA+Shift+D tuşllarına basıldığında içerik menüsünün açılışıyla ilgili iyileştirmeler.
-* Escape butonu şimdi çalışıyor (sadece NVDA ve Dropbox aynı dil arayüzüyle kullanılıyorsa).
-* Kodla ilgili çok sayıda düzeltme.
-* Tüm komut dosyalarının belgeleri eklendi/güncellendi.
-* Yeni diller: Arapça, Brezilya Portekizcesi, Çekçe, Flemenkçe, Fince, Galiçyaca, Almanca, Macarca, Japonca, Nepalce, Lehçe, Rusça, İspanyolca, Slovakça, Tamil, Türkçe.
+* Minor correction in the main manifest file (authors are correctly displayed).
+* Improved context menu detection when pressing Shift+NVDA+D three times.
+* The escape button now works (only when using Dropbox in the same language NVDA uses).
+* A lot of corrections in the code.
+* Added/updated documentations of all scripts.
+* New languages: Arabic, Brazilian Portuguese, Czech, Dutch, Finnish, Galician, German, Hungarian, Japanese, Nepali, Polish, Russian, Spanish, Slovak, Tamil, Turkish.
 
-## 2.0 İçin Değişiklikler ##
+## Changes for 2.0 ##
 
-* Yeni diller: İtalyanca
-* Dropbox menüsü açıkken kısayol tuşuna üç defa ya da daha fazla basılması sorun oluşturmuyor.
+* New languages: Italian
+* Pressing the shortcut three times or more when already being in the context menu doesn't cause problem anymore.
 
-## 1.0 İçin Değişiklikler ##
+## Changes for 1.0 ##
 
-* İlk sürüm
+* Initial Release

@@ -33,4 +33,4 @@ where supported.
 
 ## Known issues
 
-- In MS Word when UIA is not used, review cursor may be positioned to the start of selection when edit control gets focus.
+* In MS Word when UIA is not used, review cursor may be positioned to the start of selection when edit control gets focus.

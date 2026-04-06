@@ -1,109 +1,109 @@
-[[!meta title="Girdi Kilidi"]]
+[[!meta title="Input Lock"]]
 
-* Yazar: Jose Manuel Delicado
-* NVDA uyumluluğu: 2023.3.4 ve sonrası
-* [kararlı sürümü indir][1]
+* Author: Jose Manuel Delicado
+* NVDA compatibility: 2023.3.4 and beyond
+* Download [stable version][1]
 
-## Giriş
+## Introduction
 
-Evinizde çocuklar veya evcil hayvanınız mı var? Masanıza tırmanmayı seven ve klavyenizde dolaşmayı seven bir kediniz mi var? Dizüstü bilgisayarınızı kullanırken yanlışlıkla fareyi ekranın rastgele bölümlerine mi götürüyorsunuz? O zaman Girdi kilidi tam size göre! Artık Bilgisayarınızı rahatça kendi haline bırakıp geldiğinizde en son bıraktığınız gibi bulabileceksiniz.
+Do you have kids or pets at home? Do you have a cat and It likes very much climbing your table and walking over your keyboard? Do you accidentally move the mouse to random parts in the screen while using your laptop? Then Input Lock is for you! You will be able to leave your computer alone and turned on without risk.
 
-Kurulduktan sonra klavyenizi, dokunmatik ekranınızı (dizüstü bilgisayarınızda varsa), dokunmatik yüzeyinizi, farenizi ve Braille ekranınızı kilitleyebileceksiniz.
+Once installed, you will be able to lock your keyboard, touch screen (if your laptop has one), touchpad, mouse and Braille display.
 
-## Kullanım
+## Usage
 
-Bu eklenti NVDA'ya üç ekstra hareket ekler. Varsayılan olarak atanmamışlardır, dolayısıyla bunları Girdi hareketleri iletişim kutusundan yapılandırmanız gerekecektir. Daha fazla bilgi için NVDA Kullanım Kılavuzunu okuyun.
+This addon adds three extra gestures to NVDA. By default they are unassigned, so you will have to configure them from Input gestures dialog. Read the NVDA User Guide for more information.
 
-Girdi kilidi aç/kapa hareketine bastığınızda, NVDA "Girdi kiliti etkin" diyecektir. Aynı harekete tekrar basana kadar girdi cihazlarınız devre dışı kalacaktır. Girdi kilitliyken aynı harekete bastığınızda NVDA "Girdi kilidi devre dışı" diyecek ve cihazlarınız çalışmaya devame decektir.
-Dokunmatik yüzeyi kilitlemek, özellikle dizüstü bilgisayar klavyesini doğrudan kullanmaya alışkın olanların yanlışlıkla ona dokunmasını engelleyebilir. Dokunmatik yüzey kilitleme hareketini değiştirmeye bastığınızda, NVDA "Dokunmatik yüzey kilitli" diyecektir. Siz aynı harekete tekrar basana kadar dokunmatik yüzeyiniz bloke edilecektir. O anda NVDA "Dokunmatik yüzeyin kilidi açıldı" diyecek ve her şey her zamanki gibi çalışacak.
+When you press the toggle input lock gesture, NVDA will say "Input locked". Your input devices will be blocked until you press the same gesture again. In that moment, NVDA will say "Input unlocked" and everything will work as usual.
+Locking the touchpad can prevent us from accidentally touching it, especially those who are used to using the laptop keyboard directly. When you press the toggle touchpad lock gesture, NVDA will say "Touchpad locked". Your touchpad will be blocked until you press the same gesture again. In that moment, NVDA will say "Touchpad unlocked" and everything will work as usual.
 
-Fare aç/kapa hareketine basarsanız, fareniz kilitlenir. Kilidi açmak için bu harekete tekrar basmanız gerekir. Fare kilitliyken NVDA hareketlerini kullanarak fareyi hareket ettirebilir, sol ve sağ tuşlarla tıklatabilirsiniz ancak farenin kendisini hareket ettiremezsiniz. Fare tıklamaları, NVDA ayarları iletişim kutusundaki (NVDA 2018.2 ve üstü) Girdi kilidi kategorisinden veya daha eski sürümler için tercihler menüsünde bulunan eklenti ayarları iletişim kutusundan da devre dışı bırakabilirsiniz. Ayrıca, bu ayarlardan, NVDA başlatıldığında fare kilidinin kilitlenip kilitlenmeyeceğini kontrol edebilirsiniz.
+If you press the toggle mouse block gesture, your mouse will be locked. Press this command again to unlock it. While mouse is locked, you can use NVDA gestures to move it, and click with left and right buttons, but You can't move the mouse itself. Mouse clicks can also be disabled from Input lock category in NVDA settings dialog (NVDA 2018.2 and later) or from add-on settings dialog for older versions, available under preferences menu. In addition, from these settings you can control wether mouse locks when NVDA is started or not.
 
-Not: Fare tıklamaları engellendiğinde, fareyle çalışmak için herhangi bir NVDA hareketini kullanamazsınız.
+Note: when mouse clicks are blocked, you can't use any NVDA gestures to work with the mouse.
 
-## Sınırlamalar ve bilinen sorunlar
+## Limitations and known problems
 
-Girdi Kilidi aşağıdaki bilinen sorunlara sahiptir:
+Input Lock has the following known problems:
 
-* Ctrl+alt+del ve windows+l kısayolları, klavye kilitliyken bile kullanılabilir.
-* Dokunmatik yüzeyi kilitlemek için kullanılan hareketler için lütfen az sayıda tuş kombinasyonu hareketi atamayı deneyin. NVDA+harf veya rakam, Ctrl+F tuşları vb. kullanılması tavsiye edilir.
+* The shortcuts control+alt+del and windows+l can be used even when the keyboard is locked.
+* For gestures used to lock the touchpad, please try to assign a small number of key combination gestures. It is recommended to use NVDA+letters or numbers, Ctrl+F keys etc.
 
-## Değişiklik Listesi
+## Changelog
 
-### Sürüm 1.13
+### Version 1.13
 
-* Şimdi, desteklenen minimum sürüm 2023.3.4.
-* Çeviriler güncellendi. 1.13 sürümünden itibaren, yeni bir sürüm yalnızca yerelleştirme güncellemelerini içerdiğinde değişiklik günlüğü değiştirilmeyecektir.
-* Dokunmatik yüzeyi kilitlemek/kilidini açmak için bir hareket eklendi (varsayılan olarak atanmamıştır).
+* Now, minimum supported version is 2023.3.4.
+* Updated translations. Starting from version 1.13, changelog won't be modified when a new release only includes localization updates.
+* Added a gesture (unassigned by default) to lock/unlock the touchpad.
 
-### Sürüm 1.12
+### Version 1.12
 
-* En son NVDA sürümleri için uyumluluk güncellemesi.
-* Çeviriler güncellendi.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
 
-### Sürüm 1.11
+### Version 1.11
 
-* En son NVDA sürümleri için uyumluluk güncellemesi.
-* Çeviriler güncellendi.
-* Şimdi, desteklenen minimum sürüm 2022.4.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Now, minimum supported version is 2022.4.
 
-### Sürüm 1.10
+### Version 1.10
 
-* En son NVDA sürümleri için uyumluluk güncellemesi.
-* Çeviriler güncellendi.
-* Yardım belgeleri güncellendi.
-* Şimdi, desteklenen minimum sürüm 2021.3.
-* Bekleme modundan uyandıktan sonra girişler engellenmeye devam edecektir. Javi Dominguez'e teşekkürler.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Updated documentation.
+* Now, minimum supported version is 2021.3.
+* The input will remain blocked after waking up from standby mode. Thanks to Javi Dominguez.
 
-### Sürüm 1.9
+### Version 1.9
 
-* En son NVDA sürümleri için uyumluluk güncellemesi.
-* Çeviriler güncellendi.
-* Yardım belgeleri güncellendi.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
+* Updated documentation.
 
-### Sürüm 1.8
+### Version 1.8
 
-* En son NVDA sürümleri için uyumluluk güncellemesi.
-* Çeviriler güncellendi.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
 
-### Sürüm 1.7
+### Version 1.7
 
-* En son NVDA sürümleri için uyumluluk güncellemesi.
-* Çeviriler güncellendi.
+* Updated compatibility flags for recent NVDA versions.
+* Updated translations.
 
-### Sürüm 1.6
+### Version 1.6
 
-* Artık ayarlar yalnızca eklenti kaldırıldığında kaldırılır. Güncelleme sırasında ayarlar sıfırlanmaz.
-* Yeni ve güncellenmiş çeviriler.
+* Now, settings are removed only when the add-on is uninstalled. Configuration is nolonger reset when upgrading.
+* New and updated translations.
 
-### Sürüm 1.5
+### Version 1.5
 
-* En son NVDA sürümleri için uyumluluk eklendi.
-* Yeni çeviriler.
+* Added compatibility with recent NVDA releases.
+* New translations.
 
-### Sürüm 1.4
+### Version 1.4
 
-* Eklenti hareketleri varsayılan olarak atanmaz.
+* The addon gestures are unassigned by default.
 
-### Sürüm 1.3
+### Version 1.3
 
-* Ayarlar iletişim kutusuna bir yapılandırma paneli eklendi. Eski NVDA sürümleri için bir menü öğesi ve bir iletişim kutusu da eklenmiştir.
-* NVDA başlatıldığında fareyi kilitleme ayarı eklendi.
-* Fare kilitliyken fare tıklamalarını da engellemek için bir ayar eklendi.
-* Küçük hatalar düzeltildi, bazı kod optimizasyonları ve çevirmenler için daha az tekrar eden dizeler
+* Added a configuration panel in settings dialog. For old NVDA versions, a menu item and a dialog have been added too.
+* Added a setting to lock the mouse when NVDA is started.
+* Added a setting to block also mouse clicks while mouse is locked.
+* Small bugs fixed, some code optimizations and less duplicated strings for translators
 
-### Sürüm 1.2
+### Version 1.2
 
-* Artık fare de kilitlenebilir
-* Yalnızca fareyi kilitlemek ve kilidini açmak için yeni komut
+* Now the mouse can also be locked
+* New command to lock and unlock only the mouse
 
-### Sürüm 1.1
+### Version 1.1
 
-* Başka bir eklenti daha önce Girdi hareketlerine bir yakalama işlevi eklediyse, girdi kilidi açıldığında geri yüklenir.
+* If another addon has previously added a capture function to inputManager, it is restored when the input is unlocked.
 
-### Sürüm 1.0
+### Version 1.0
 
-* İlk sürüm
+* Initial release
 
 [[!tag dev stable]]
 

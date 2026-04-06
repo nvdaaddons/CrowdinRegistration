@@ -1,203 +1,203 @@
-# إسأل OpenRouter
+# Ask OpenRouter
 
-* كتابة : abdel.
+* Author(s) : Abdel.
 
-تتيح لك هذه الإضافة التفاعل مع نماذج الذكاء الإصتناعي المتاحة عبر منصة OpenRouter مباشرةً من قارئ الشاشة الخاص بك.
+This NVDA add-on allows you to interact with Artificial Intelligence models provided by the OpenRouter platform directly from your screen reader.
 
-تدعم الإضافة كِلا:
-* الإختيار التلقائي ما بين النماذج المجانية
-* الإختيار اليدوي لأي نموذج متاح بما في ذلك النماذج المدفوعة
+The add-on supports both:
+* Automatic random selection of free models
+* Manual selection of any available model (including paid ones)
 
-## أهم المميزات
+## Key Features
 
-* الوصول السريع: يمكنك فتح نافذة المحادثة من أي مكان عبر تنفيذ إختصار.
-* إدارة المحادثات: يمكنك بدأ محادثات جديدة أو إكمال محادثات سابقة.
-* التحويل التلقائي الذكي للنماذج المجانية: يتم إختيار أفضل نموذج مجاني متاح لتنظيم حد الإستهلاك اليومي
-* الإختيار اليدوي للنماذج: يمكنك إختيار نموذج معين من إعدادات الإضافة بما في ذلك النماذج المدفوعة.
-* نتائج سهلة الوصول: يمكنك عرض الردود في نافذة بسيطة تتيح لك عرض الرسائل والتنقل في ما بينها مع إمكانية إختيارية لعلاض سجل المحادثة بالكامل.
+* Quick Access: Open the chat interface anytime with a global shortcut.
+* Conversation Management: Start a fresh conversation or continue your previous exchange.
+* Smart Free Model Rotation: Automatically selects a random free model to optimize daily usage quotas.
+* Manual Model Selection: Choose a specific model (including paid models) from the settings panel.
+* Accessible Results: View responses in a clear, easy-to-navigate window with optional full history display.
 
-## الإعداد: الحصول على مفتاح API الخاص بك وتثبيته.
+## Configuration: Obtaining and Installing Your API Key
 
-لإستخدام هذه الإضافة, يتعين عليك الحصول على مفتاح API من OpenRouter.
+To use this add-on, you must have an API key from OpenRouter.
 
-حتى عند إستخدام النماذج المجانية, فإن مفتاح API مطلوب للتعرف على هوية طلباتك.
+Even when using free models, the key is required to identify your requests.
 
-### 1. كيفية الحصول على مفتاح API
+### 1. How to get an API key
 
-1. إذهب إلى [OpenRouter.ai](https://openrouter.ai/).
-2. قم بإنشاء حساب عن طريق النقر على زر التسجيل, يمكنك التسجيل عبر حساب GitHub, Google او MetaMask. أو يمكنك التسجيل بإستخدام بريدك الإلكتروني.
-3. عند تسجيل الدخول, إذهب إلى قسم المفاتيح في لوحة التحكم أو إذهب مباشرتا عبر https://openrouter.ai/keys
-4. إضغط على زر "إنشاء مفتاح".
-5. إعطِ مفتاحك إسماً, على سبيل المثال: "مفتاح إضافة OpenRouter" ثم إضغط على زر الإنشاء.
-6. مهم: سيظهر لك المفتاح مرة واحدة فقط, قم بنسخه فورا وحفظه في مكان آمن.
+1. Go to [OpenRouter.ai](https://openrouter.ai/).
+2. Create an account by clicking "Sign up" (you can sign in with a GitHub, Google or MetaMask account, or your email address).
+3. Once logged in, navigate to the "Keys" section in your dashboard, or go directly to: https://openrouter.ai/keys
+4. Click the "Create Key" button.
+5. Give your key a name (for example: "My OpenRouter API key") and click "Create".
+6. Important: Your key will be displayed only once. Copy it immediately and store it in a secure place.
 
-### 2. إعداد المفتاح في NVDA
+### 2. Setting up the key in NVDA
 
-1. إفتح قائمة NVDA (NVDA+N).
-2. إنتقل للتفضيلات, ثم الإعدادات.
-3. في قائمة الأقسام إختر إسأل OpenRouter>
-4. قم بلسق مفتاح API الخاص بك في حقل مفتاح API.
-5. إضغط على زر موافق للحفظ.
+1. Open the NVDA menu (NVDA + N).
+2. Navigate to Preferences, then Settings.
+3. In the categories list, select "Ask OpenRouter".
+4. Paste your API key into the "OpenRouter API Key" field.
+5. Press OK to save.
 
-#### عرض مفتاح API
+#### Show API Key
 
-في لوحة إعدادات NVDA ومباشرتا بعد حقل مفتاح API, يوجد زر إختيار باسم:
+In the NVDA settings panel, just after the "OpenRouter API Key" field, there is a checkbox labeled:
 
-"عرض مفتاح API"
+"Show API key"
 
-إذا تم تحديده فإن الأحرف في حقل مفتاح API ستكون ظاهرة.
-بشكل إفتراضي, يتم إخفاؤهم لأسباب أمنية.
+If checked, the characters of the API key become visible.
+By default, they are hidden for security reasons.
 
-## إعدادات إختيار النموذج
+## Model Selection Settings
 
-في قائمة "إسأل OpenRouter" في الإعدادات, ستجد خياراً جديداً بإسم
+In the Ask OpenRouter settings category, you will find a new option:
 
-### "إستخدام جميع النماذج, بما في ذلك النماذج المدفوعة"
+### "Use all models, including paid ones"
 
-يحدد هذا الخيار كيفية إختيار النماذج.
+This option controls how models are selected.
 
-### عندما لا يتم تحديد الخيار )وهو الوضع الإفتراضي(
+### When the option is UNCHECKED (default behavior)
 
-* تقوم الإضافة بإختيار نموذج مجاني عشوائي لكل محادثة.
-* وتقوم بالتحويل التلقائي بين النماذج المجانية.
-* يساعد هذا على تنظيم الإستهلاك وتجنب حدود الإستعمال.
+* The add-on automatically selects a random free model for each new conversation.
+* It rotates between available free models.
+* This helps distribute usage and avoid rate limits.
 
-### عندما يتم تحديد الخيار
+### When the option is CHECKED
 
-عندما يكون هذا الخيار مفعلا فإن عدة نماذج تظهر للإختيار في ما بينها بعده مباشرتاً.
+When this option is enabled, a list of available models automatically appears after the checkbox.
 
-* وتظهر القائمة بترتيب تصاعدي حيث يتم ترتيب النماذج من حيث تكلفة الرمز للطلب )التكلفة للرمز المدخل( بترتيب من الأدنى للأعلى
-* تظهر فقط النماذج التي تعمل مع مزود متاح.
+* The list is sorted in ascending order based on prompt token pricing (cost per input token), from lowest to highest.
+* Only non-deprecated models with valid providers are displayed.
 
-### ما الذي يمكنك فعله عند تفعيل هذا الخيار؟
+### What can you do when this option is enabled?
 
-* إختيار أي نموذج متاح.
-* إستخدام النماذج المدفوعة, )إذا كان لديك أرصدة كافية فيOpenRouter(.
-* إختيار النموذج الذي يفي لغرضك.
-* الإستمرار في إستعمال نفس النموذج لجميع محادثاتك )لن يتم تحويل النموذج تلقائيا(.
+* Choose any available model.
+* Use paid models (if you have sufficient OpenRouter credits).
+* Select the model that best fits your needs.
+* Keep using the same selected model for your conversations (no automatic rotation).
 
-### ما هو رمز الطلب؟
+### What is a prompt token?
 
-رمز الطلب هو وحدة صغيرة تمثل النص الذي يتم إرساله إلى النموذج ) سؤالك أو إدخالك(.
+A prompt token represents a small unit of text sent to the model (your question or input).
 
-النماذج تكلف بشكل منقسم  حسب:
-* رموز الإدخال )الطلب(
-* رموز الإخراج )التكملة(
+Models are usually billed separately for:
+* Input tokens (prompt)
+* Output tokens (completion)
 
-## كيفية الإستعمال
+## How to Use
 
-### فتح محاورة المحادثة
+### Opening the Chat Dialog
 
-إضغط:
+Press:
 
 Ctrl + Alt + A
 
-يمكنك تخصيص هذا الإختصار في:
-قائمى NVDA → تفضيلات → تخصيص اختصارات NVDA → إسأل OpenRouter
+You can change this gesture in:
+NVDA menu → Preferences → Input Gestures → Ask OpenRouter
 
-### الواجهة الرئيسية
+### Main Interface
 
-المحاورة تتضمن ثلاث أزرار:
+The dialog contains three buttons:
 
-1. محادثة جديدة – لبدأ محادثة جديدة.
-2. متابعة محادثة – لإكمال محادثة سابقة مع إمكانية إستعادة سجل المحادثة.
-3. إغلاق – لإغلاق المحاورة, زر الهروب Escape يعمل أيضا.
+1. New Chat – Starts a brand new conversation.
+2. Continue Chat – Resumes the previous conversation (keeps history).
+3. Close – Closes the dialog (Escape also works).
 
-### إدخال طلبك
+### Entering Your Prompt
 
-بعد إختيار محادثة جديدة أو متابعة محادثة:
+After selecting "New Chat" or "Continue Chat":
 
-* سيظهر حقل إدخال متعدد الأسطر.
-* الضغط على زر الإدخال enter يدرج سطرا جديدا.
-* لإرسال رسالتك:
-  إضغط على زر التاب حتى تصل إلى زر الموافقة.
-  إضغط زر الإدخال enter.
+* A multiline text field appears.
+* Pressing Enter inserts a new line.
+* To send your message:
+  - Press Tab to reach the OK button.
+  - Press Enter.
 
-### قراءةُ الرد
+### Reading the Response
 
-بعد إنتهاء المعالجة, ستظهر نافذو النتائج وتحتوي على:
+After processing, a results window appears containing:
 
-* "أنت قلت:" متبوعة برسالتك.
-* "رد النموذج:" متبوعة بالرد.
-* زر نسخ لنسخ الرد.
+* "You said:" followed by your message.
+* "The model replied:" followed by the response.
+* A "Copy" button to copy the response.
 
-إذا تم تفعيل عرض السجل المحادثة فإن الرسائل السابقة ستكون مُعَلّمة بتنسيق رأسي حتى تتنقل في ما بينها عن طريق مفاتيح التنقل السريع في NVDA.
+If full history display is enabled, each exchange is clearly separated by headings, making it easy to navigate using your NVDA's quick navigation keys.
 
-## خيارات العرض
+## Display Options
 
-إذا كنت تفضل عرض الرد الأخير فقط بدلا من السجل بالكامل:
+If you prefer to only display the latest response instead of the full conversation history:
 
-1. إفتح قائمة NVDA (NVDA + N).
-2. إذهب للتفضيلات → الإعدادات.
-3. إختر "إسأل OpenRouter".
-4. قم بإلغاء تحديد:
-   "عرض سجل المحادثة للمحادثات المتتابعة"
-5. إضغط موافق.
+1. Open NVDA menu (NVDA + N).
+2. Go to Preferences → Settings.
+3. Select Ask OpenRouter.
+4. Uncheck:
+   "Display the full chat history for continuous discussions"
+5. Press OK.
 
-## وظائف لم يتم تعيين إختصارات لها بشكل إفتراضي
+## Unassigned Scripts
 
-الوظائف التالية ليس لديها إختصار إفتراضي.
-يمكنك تعيينها في:
+The following scripts do not have gestures assigned.
+You can define them in:
 
-التفضيلات → تخصيص اختصارات NVDA → إسأل OpenRouter
+Preferences → Input Gestures → Ask OpenRouter
 
-الوظائف المتاحة:
+Available scripts:
 
-* فتح لوحة إعدادات الإضافة
-* بدأ محادثة جديدة مباشرتاً
-* متابعة محادثة سابقة مباشرتاً
+* Open the add-on settings panel
+* Start a new chat directly
+* Continue an existing chat directly
 
-## النماذج المجانية والمدفوعة والحصص.
+## Free Models, Paid Models and Quotas
 
-### الإستعمال للنماذج المجانية
+### Free Model Usage
 
-عند ما لا يكون خيار "إستعمال كل النماذج بما في ذلك النماذج المدفوعة" قد تم تحديده
+When "Use all models, including paid ones" is unchecked:
 
-* فقط النماذج التي تم تحديدها كنماذج مجانية في OpenRouter يمكن إستعمالها.
-* لدى النماذج المجانية:
-  - حدود إستعمال يومية
-  - حدود إستعمال مُشَارَكَة
-  - إمكانية عدم إتاحة مؤقتة
+* Only models labeled as free on OpenRouter are used.
+* Free models have:
+  - Limited daily quotas
+  - Shared rate limits
+  - Possible temporary unavailability
 
-تقوم الإضافة بالإنتقال تلقائيا في ما بين النماذج المجانية المتاحة لتحسين التوفر.
+The add-on automatically rotates between free models to improve availability.
 
-### إستعمال النماذج المدفوعة
+### Paid Model Usage
 
-عند ما يكون خيار "إستعمال كل النماذج بما في ذلك النماذج المدفوعة" قد تم تحديده
+When "Use all models, including paid ones" is checked:
 
-* تقوم الإضافة بإستعمال ذات النموذج الذي قمت بتحديده.
-* قد يتضمن ذلك النماذج المدفوعة.
-* يجب أن يتوفر لديك أرصدة كافية في OpenRouter.
-* حدود المزود قد يتم تطبيقها.
+* The add-on uses the exact model you selected.
+* This may include paid models.
+* You must have sufficient OpenRouter credits.
+* Provider rate limits may apply.
 
-الأخطاء مثل:
-* 402 )أرصدة غير كافية(
-* 429 )تم تقييد إمكانية الإستعمال(
-* 404 )النموذج غير متاح بسبب إعدادات الخصوصية(
+Errors such as:
+* 402 (insufficient credits)
+* 429 (rate limited)
+* 404 (model not allowed by privacy settings)
 
-يتم عرضها مباشرتا لتنبيهك بالمشكلة.
+are displayed directly to inform you of the issue.
 
-## تذكير بإعدادات الخصوصية
+## Privacy Settings Reminder
 
-إذا كنت تستخدم نماذج مجانية وحصلت على خطأ يذكر:
+If you use free models and receive an error mentioning:
 
-> "لم يتم العثور على نقاط نهاية (endpoints) تماشي بيانات سياستك"
+> "No endpoints found matching your data policy"
 
-قد تحتاج إلى تعديل إعدادات الخصوصياة الخاصة بك في OpenRouter:
+You may need to adjust your OpenRouter privacy settings:
 
 https://openrouter.ai/settings/privacy
 
-تأكد من أن نقاط نهاية (endpoints) النماذج المجانية قد تم تفعيلها
+Ensure that public/free model endpoints are allowed.
 
-## التوافقية ##
+## Compatibility ##
 
-* هذه الإضافة متوافقة مع إصدارات NVDA 2025.1 فما بعد.
+* This add-on is compatible with the versions of NVDA ranging from 2025.1 and beyond.
 
-## ما الجديد في 20260221.0.0
+## Changes for 20260221.0.0
 
-* تمت إضافة إمكانية إختيار أي نموذج متاح من لوحة إعدادات الإضافة
-* تمت إضافة إمكانية إستخدام النماذج المدفوعة
+* Added manual selection of any available model from the settings panel
+* Added ability to use paid models
 
-## الجديد في الإصدار 20260217.0.0
+## Changes for 20260217.0.0
 
-* الإصدار الأولي
+* Initial version

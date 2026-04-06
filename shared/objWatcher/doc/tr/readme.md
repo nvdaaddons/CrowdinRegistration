@@ -1,94 +1,52 @@
-# nesne İzleyici
+# obj Watcher
 
-**Bu NVDA eklentisi, gezinme nesnelerinin özniteliklerindeki değişiklikleri izler.**
+**This NVDA add-on watches changes to attributes of navigation objects.**
 
-* Yazarlar: Cary-rowen (<manchen_0528@outlook.com>), hwf1324 (<1398969445@qq.com>)
-* Uyumluluk: NVDA 2023.1 veya sonrası
+* Author: Cary-rowen <manchen_0528@outlook.com>, hwf1324 <1398969445@qq.com>
+* Compatibility: NVDA-2023.1 or later
 
-## Olası Kullanım Örnekleri
+## Possible Use Cases
 
-1. **Altyazı ve Şarkı Sözleri İzleme:**
-   Belirli oynatıcıların altyazılarını veya şarkı sözlerini izleyebilir ve yenilendiğinde otomatik raporlamayı etkinleştirebilir.
-2. **Sohbet Etkinliği İzleme:**
-   Unigram veya WeChat konuşma listesindeki grup sohbeti listesinde ilgi çekici öğeleri izle. Yeni mesajlar otomatik olarak raporlanabilir ve arka plan raporlaması desteklenir.
-3. **Test ve hata ayıklama:**
-   Düzenleme sırasında satır ve sütunlardaki değişiklikleri otomatik olarak bildirmek için not defteri gibi uygulamaların durum çubuğunu izler.
+1. Watch subtitles or lyric objects of certain players and enable automatic reporting upon refreshing.
+2. Watch items of interest within the group chat list in the Unigram or WeChat conversation list. New messages can be automatically reported, and background reporting is supported.
+3. Solely for testing purposes, you can also watch the status bar of Notepad to automatically report rows and columns during content insertion/deletion.
 
-## Kısayollar
+## Gestures
 
-### İzleyici Katmanı Komutları
+``Control+NVDA+W``: Press once to start watching the current navigator object. If a navigator object is currently being watched, the watched attribute will be reported. Press twice to stop watching.
 
-`NVDA+Alt+W` tuşlarına basarak izleme katmanını etkinleştirin. Burada izleme eylemlerini gerçekleştirebilirsiniz:
+**You can change this gesture from the Input Gestures dialog.**
 
-- **Sayısal tuşlar (0-9):** Geçerli gezgin nesnesini belirli bir konuma ekler veya o konumda zaten izlenmekte olan bir nesnenin durumunu bildirir.
-- **Sil:** Son izlenen nesneyi kaldırmak için bir kez basın; İzlenen tüm nesneleri kaldırmak için iki kez basın.
-- **T:** Geçerli ön plan penceresinin izleme durumunu değiştirir.
-- **P:** Tüm izleme etkinliklerini duraklatır veya devam ettirir.
-- **Escape:** İzleyici katmanından çıkar.
+## Contributors
 
-İzleyici katmanına girerken eklenti mevcut durumu duyurur:
+* Cary-rowen
+* ibrahim hamadeh
+* hwf1324
 
-- *"Hiçbir öğe izlenmiyor. Lütfen izlenecek öğeler ekleyin."*
-- *"İzleme devam ediyor. {n} öğe izleniyor."*
-- *"İzleme duraklatıldı. {n} öğe izleme listesinde."*
+## Contribution
 
-### Diğer Kısayollar
+1. The add-on welcomes Pull Requests (PRs) for new features and localized translations on [GitHub][GitHub].
+2. For any feedback, please submit it through a [GitHub Issue][GitHubIssue].
 
-Aşağıdaki eylemler desteklenir ancak atanmış varsayılan hareketler yoktur. Kullanıcılar, Girdi Hareketleri iletişim kutusu aracılığıyla bu eylemlere hareketler atayabilir:
+## Release Notes
+### Version 0.4.4
+* Supported speak on demand mode on NVDA2024.1.
 
-- **Geçerli gezgin nesnesini izleme listesine ekler.**
-  - **Not:** Bu eylem yalnızca ana tuşun bir değiştirici ile birlikte sayısal bir tuş (0–9) olduğu hareketlere atanabilir, örneğin `NVDA+Alt+0–9`.
-- **Geçerli pencerenin izleme durumunu değiştirir.**
-- **İzlemeyi duraklat/devam ettir arasında geçiş yapar.**
-- **Son izlenen nesneyi silmek için bir kez basın; İzlenen tüm nesneleri silmek için iki kez basın.**
+### Version 0.4.3
+* Compatible with NVDA2024.1
 
-## Ayarlar
+### Version 0.4.2
+* Added Ukrainian translation by VovaMobile.
 
-Aşağıdaki seçenekleri yapılandırmak için NVDA’nın Tercihler menüsünden Ayarlar Paneline erişin:
+### Version 0.4.1
+* Added Arabic translation by ibrahim hamadeh.
 
-- **İzleyici Zamanlayıcı Aralığı:** İzleme aralığını milisaniye cinsinden ayarlayın (varsayılan 100 ms'dir)
+### Version 0.4.0
+*The watcher timer interval can be set in the settings panel, the default value is 100.
 
-## Katkıda bulunanlar
-
-- **Yazarlar:**
-  - Cary-rowen: Çekirdek geliştirici
-  - hwf1324: Kod katkısı sağlayan
-  - Ibrahim Hamadeh: Kod katkısı sağlayan
-
-- **Yerelleştirmeye Katkıda Bulunanlar:**
-  - Ibrahim Hamadeh: Arapça çeviriler
-  - VovaMobile: Ukrayna çeviriler
-
-**Yerelleştirmeye katkıda bulunan diğer kişilerin adlarını istediğiniz şekilde bana bildirmekten çekinmeyin.**
-
-## Katkı
-
-1. [GitHub][GitHub] aracılığıyla yeni özellikler veya yerel çeviriler için çekme isteklerini (PRS) gönderin.
-2. [GitHub Sorunları sayfası][GitHubIssue] aracılığıyla hataları bildirin veya geri bildirim sağlayın.
-
-## Sürüm Notları
-### Sürüm 1.0.2
-- Belge Markdown işleme sorunu düzeltildi.
-
-### Sürüm 1.0.1
-- Eklenen nesnelerin yinelenmesi sorunu düzeltildi
-- Diğer iyileştirmeler
-
-### Sürüm 1.0.0
-- İzleyici katmanı komutları eklendi ( ). NVDA+Alt+W.
-- Birden fazla nesne için izleme özelliği eklendi.
-- Ön plandaki pencerenin hızlı izlenmesi eklendi.
-- İzlemeyi duraklatma/devam ettirme desteği.
-
-### Sürüm 0.4.5
-- Yerelleştirme güncellemeleri.
-
-### Sürüm 0.4.4
-- NVDA2024.1'de isteğe bağlı konuşma modu desteklenmektedir.
-- Yerelleştirme güncellemeleri.
-
-### Sürüm 0.4.0
-- Nesneleri izlemek için yapılandırılabilir bir zamanlayıcı aralığı eklendi.
+### Version 0.3.4
+* Enhanced documentation.
+* The rapid double press gesture no longer consistently prioritizes the execution of the first press function.
 
 [GitHub]: https://github.com/cary-rowen/objWatcher
-[Github sorun]: https://github.com/cary-rowen/objWatcher/issues
+[GitHubIssue]: https://github.com/cary-rowen/objWatcher/issues

@@ -1,57 +1,34 @@
-# Win Wizard-窗口管理
+# Win Wizard
 
-* 作者：Oriol Gómez, Łukasz Golonka, current maintenance by Jakub Lukowicz
-* NVDA 兼容性：2019.3 及以上版本
+* Author: Oriol Gómez, current maintenance by Łukasz Golonka
+* NVDA compatibility: 2019.3 and beyond
 
-此插件允许您对焦点窗口或其关联进程执行多项操作。
-结束进程或显示/隐藏窗口时，操作成功后将播放确认提示音。
-若觉得此提示音烦扰，可通过 NVDA 设置对话框中的窗口管理面板禁用。
+This add-on allows you to perform some operations on the focused window or the process associated with it.
 
-## 快捷键：
-以下快捷键均可通过按键与手势对话框中的窗口管理类别重新设置。
-### 隐显窗口：
-* NVDA+Windows+从1到0的数字：在与所按数字相对应的位置隐藏当前所聚焦的窗口（再次按下则显示）
-* NVDA+Windows+左光标：移至上一个隐藏窗口分组。
-* NVDA+Windows+右光镖：移至下一个隐藏窗口分组。
-* Windows+Shift+H：隐藏当前窗口至第一个可用位置
-* NVDA+Windows+H：显示最后一个被隐藏的窗口
-* Windows+Shift+L：打开一个对话框，将被隐藏的窗口按分组显示在列表内（默认选中最后一个隐藏的窗口）。
+## Keyboard commands:
+All these commands can be remapped from the Input gestures dialog in the Win Wizard category.
+### Hiding and showing hidden windows:
+* NVDA+Windows+numbers from 1 to 0 - hides  currently focused window in the slot corresponding to the pressed number
+* NVDA+Windows+left arrow - moves to the previous stack of hidden windows.
+* NVDA+Windows+right arrow - moves to the next stack of hidden windows.
+* Windows+Shift+h - hides the currently focused window in the first available slot
+* NVDA+Windows+h - shows the last hidden window
+* Windows+Shift+l - shows the list of all hidden windows grouped by the stacks (please note that by default last hidden window is selected)
 
-### 进程管理：
-* Windows+F4：结束与当前所聚焦窗口关联的进程
-* NVDA+Windows+P：打开一个对话框来设置与当前所聚焦窗口关联的进程优先级
+### Managing processes:
+* Windows+F4 - kills the process associated with the currently focused window
+* NVDA+Windows+p - opens dialog allowing you to set priority of the process associated with the currently focused window
 
-### 其他命令：
-* NVDA+Windows+TAB：在当前程序的顶层窗口间切换（适用于 foobar2000、Back4Sure 等）
-* Ctrl+Alt+T：修改当前焦点所在窗口的标题
+### Miscellaneous  commands:
+* NVDA+Windows+TAB - switches between top level windows of the current program (useful in foobar2000, Back4Sure etc.)
+* CTRL+ALT+T - allows you to change title of the currently focused program
 
-## 更新日志：
+## Changes:
 
-### 版本 5.0.7：
+## Changes for 5.0.3:
 
-* 兼容 NVDA 2025.1
-* 更新翻译
+- Compatibility with NVDA 2021.1
 
-### 版本 5.0.6：
+## Changes for 5.0.2:
 
-* 兼容 NVDA 2024.1
-* 更新翻译
-
-### 版本 5.0.5：
-
-* 兼容 NVDA 2023.2
-* 更新翻译
-
-### 版本 5.0.4：
-
-* 兼容 NVDA 2022.1
-* 现可通过插件设置面板禁用确认提示音
-* 更新翻译
-
-### 版本 5.0.3：
-
-* 兼容 NVDA 2021.1
-
-### 版本 5.0.2：
-
-* 首个发布于插件网站的版本
+- First release available from the add-ons website

@@ -1,61 +1,61 @@
-# Поддержка прокси для NVDA
+# Proxy support for NVDA
 
-* Автор: Jose Manuel Delicado
-* Совместимость с NVDA: 2023.3.4 и выше
-* Загрузить [стабильную версию][1]
+* Author: José Manuel Delicado
+* NVDA compatibility: 2023.3.4 and beyond
+* Download [stable version][1]
 
-Это дополнение позволяет программе чтения с экрана NVDA подключаться к Интернету через один или несколько прокси-серверов. Чтобы это стало возможным, оно применяет различные исправления к стандартной библиотеке Python или модифицирует определённые переменные среды в зависимости от выбранной конфигурации. Вы сможете автоматически обновлять NVDA и дополнения из вашей корпоративной среды и даже выполнять удалённые сеансы, если это позволяет прокси-сервер вашей организации.
+This add-on allows the NVDA screen reader to connect to the Internet through one or more proxy servers. To make it possible, it applies various patches to the standard Python library or modifies certain environment variables, depending on the chosen configuration. You will be able to update NVDA and their add-ons automatically from your corporate environment and even perform remote sessions, provided that your organization proxy server allows it.
 
-## Возможности
+## Features
 
-* Поддержка различных типов прокси-серверов: http, socks4 и socks5.
-* Возможность перенаправить весь трафик через прокси-сервер или только определённый трафик (http, https, ftp).
-* Возможность перенаправить весь трафик через прокси-сервер и после этого перенаправить определённый трафик через другие серверы (вложенные прокси).
-* Переключение профиля и сброс настроек: если вы обычно работаете с переносной копией NVDA, вы можете создавать различные профили для разных сред (дом, работа, офис1, офис2) и активировать их вручную.
+* Support for various proxy server types: http, socks4 and socks5.
+* Ability to redirect all traffic through the proxy server or only specific traffic (http, https, ftp).
+* Ability to redirect all traffic through a proxy server and, after that, redirect specific traffic through other servers (nested proxies).
+* Profile switch and config reset aware: if you usually work with a portable copy of NVDA, you can create various profiles for different environments (home, work, office1, office2) and manually activate them.
 
-## Использование
+## Usage
 
-Это дополнение добавляет новую категорию в диалог настроек NVDA под названием "Прокси". В этой категории вы найдёте четыре группы настроек. Первая позволяет настроить общий прокси для всего трафика. Остальные группы позволяют настраивать прокси-серверы только для определённых протоколов. Все группы имеют следующие поля:
+This add-on adds a new category to the NVDA settings dialog called "Proxy". In this category, you will find four settings groups. The first one allows you to configure a general proxy for all traffic. The other groups allow you to configure proxy servers only for specific protocols. All groups have the following fields:
 
-* Хост: имя хоста или IP-адрес прокси-сервера. Оставьте пустым, чтобы отключить этот конкретный прокси.
-* Порт: порт сервера.
-* Имя пользователя: необязательно. Имя пользователя для аутентификации сервера.
-* Пароль: необязательно. Пароль для аутентификации сервера. Обратите внимание, что для серверов socks4 пароль не требуется.
+* Host: hostname or ip address of the proxy server. Leave empty to disable that particular proxy.
+* Port: server port.
+* Username: optional. User name for server autentication.
+* Password: optional. Password for server autentication. Note that password is not required for socks4 servers.
 
-Помимо предыдущих полей, в первой группе настроек доступны следующие опции:
+In addition to the previous fields, the following options are available in the first settings group:
 
-* Тип прокси SOCKS: можно выбрать socks4, socks5 или http.
-* Использовать прокси для запросов DNS, если это возможно: если этот флажок установлен, имена хостов или доменные имена будут напрямую отправляться и разрешаться на прокси-сервере. Если флажок снят, имена будут разрешаться локально, и сервер будет получать только IP-адрес назначения. Обратите внимание, что не все прокси-серверы socks4 поддерживают эту опцию.
+* SOCKS proxy type: socks4, socks5 or http can be selected.
+* Use proxy for dns requests if possible: when this checkbox is checked, hostnames or domain names will be directly sent to and resolved on the proxy server. When it is unchecked, names will be resolved locally and the server will receive only the destination ip address. Note that not all socks4 proxy servers support this option.
 
-Как правило, большинству пользователей потребуется настроить только первую группу параметров. Если вы не знаете данные своего прокси-сервера, обратитесь за дополнительной информацией к сетевому администратору вашей организации.
+Tipically, most users will only have to configure the first settings group. If you don't know your proxy details, ask your organization network administrator for more information.
 
-## Ограничения
+## Limitations
 
-* Очень ограниченная поддержка IPV6.
-* Трафик UDP поддерживается не на всех прокси-серверах.
-* Внешние библиотеки DLL не будут учитывать параметры, настроенные в этом дополнении.
-* Для HTTP-прокси-серверов поддерживается только базовая аутентификация. Дайджест-аутентификация не поддерживается.
-* Для перенаправления всего трафика (включая соединения https) через http-прокси сервер должен поддерживать метод CONNECT http.
-* Невозможно настроить режим "прямое подключение". Если вы отключите конкретный прокси, вместо него будет использоваться системное значение по умолчанию.
+* Very limited IPV6 support.
+* UDP traffic is not supported on all proxy servers.
+* External DLL libraries won't respect the settings configured in this add-on.
+* Only basic autentication is supported for http proxy servers. Digest autentication is not supported.
+* In order to redirect all traffic (including https connections) through an http proxy, the server must support the CONNECT http method.
+* A "direct connection" mode can't be configured. If you disable a specific proxy, the system default will be used instead.
 
-## Журнал изменений
+## Changelog
 
-### Версия 1.2
+### Version 1.2
 
-* Совместимость с NVDA 2023.1.
-* В целях безопасности минимальная версия NVDA установлена на 2022.4.
-* Обновлены переводы.
+* Compatible with NVDA 2023.1.
+* For security reasons, minimum NVDA version is set to 2022.4.
+* Updated translations.
 
-### Версия 1.1
+### Version 1.1
 
-* Совместимость с NVDA 2022.1.
-* В целях безопасности минимальная версия NVDA установлена на 2021.3.
-* Исправлена функция socket.getaddrinfo, когда установлен флажок "Использовать прокси для DNS-запросов, если возможно" и настроен общий прокси.
-* Обновлены переводы.
+* Compatible with NVDA 2022.1.
+* For security reasons, minimum NVDA version is set to 2021.3.
+* Patch socket.getaddrinfo function when "Use proxy for dns requests if possible" checkbox is checked and a general proxy has been configured.
+* Updated translations.
 
-### Версия 1.0
+### Version 1.0
 
-* Первый выпуск.
+* Initial release.
 
 [[!tag dev stable]]
 

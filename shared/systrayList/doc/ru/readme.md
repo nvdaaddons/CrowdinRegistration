@@ -1,68 +1,68 @@
-# список Системного Лотка #
+# systrayList #
 
-*   Авторы: Rui Fontes, Rui Batista, Joseph Lee, Участники сообщества NVDA
-*   Загрузить [стабильную версию][1]
-* Совместимость с NVDA: 2019.3 и выше
+*   Authors: Rui Fontes, Rui Batista, Joseph Lee, NVDA Community contributors
+*   Download [stable version][1]
+* NVDA compatibility: 2019.3 and beyond
 
-Это дополнение позволит читать и активировать значки области уведомлений или панели задач, предоставляя их список для удобного с ними взаимодействия. После установки дополнения, нажмите NVDA+f11 однократно для вызова окна со списком значков области уведомлений или дважды быстро для вызова списка значков панели задач с запущенными приложениями.
+This add-on allows you to read and activate icons on the system tray or the task bar, within a list box, for easy access and interaction to those items. With the add-on installed, press NVDA+f11 once for this dialog to pop-up with system tray elements, and press twice to display task bar elements, which are the currently running applications.
 
-Обратите внимание, что вы можете получить доступ к системному лотку Windows в любом программном обеспечении для чтения с экрана, нажав Windows+B, а к панели задач - нажав Windows+T. Этот плагин полезен только для того, чтобы сделать переход от JAWS к Windows более плавным и избежать некоторых всплывающих подсказок, которые могут появляться при циклическом перемещении по системному лотку с помощью клавиатуры Windows.
+Note that you can access the windows system tray in any screen reader software using the Windows+B, and the task bar by pressing Windows+T. This plugin is only useful to make the transition from JAWS for Windows smoother and to avoid some tooltips that may pop-up when cycling through the system tray with the windows keyboard means.
 
-## Изменения в версии 4.0 2020-01-03 ##
+## Changes for 4.0 2020-01-03 ##
 
-* Требуется NVDA 2019.3 или выше.
-* Более ранние версии Windows, чем Windows 7 с пакетом обновления 1, больше не поддерживаются.
-* Дополнение было переименовано в "SysTrayList".
-* Диалог запроса пожертвования больше не будет отображаться при установке или обновлении дополнения.
+* Requires NVDA 2019.3 or later.
+* No more support for Windows versions earlier than Windows 7 Service Pack 1.
+* Add-on has been renamed to "SysTrayList".
+* Donation request dialog will no longer appear when installing or updating the add-on.
 
-## Изменения в версии 3.2 2018-12-24 ##
+## Changes for 3.2 2018-12-24 ##
 
-* Дополнительные изменения в коде для поддержки Python 3.
+* More code changes to support Python 3.
 
-## Изменения в версии 3.1 2018-11-24 ##
+## Changes for 3.1 2018-11-24 ##
 
-* Внутренние изменения для поддержки будущих выпусков NVDA.
+* Internal changes to support future NVDA releases.
 
-## Изменения в версии 3.0 2018-10-25 ##
+## Changes for 3.0 2018-10-25 ##
 
-Поддержка версий Windows, более ранних, чем Windows 7 с пакетом обновления 1, завершится в 2019 году.
+Support for Windows releases earlier than Windows 7 Service Pack 1 will end in 2019.
 
-* Дополнение совместимо с Python 3.
+* Add-on is Python 3 compatible.
 
-## Изменения в версии 2.0 2017-05-20 ##
+## Changes for 2.0 2017-05-20 ##
 
-* Диалоги Системного лотка/панели задач теперь выровнены по центру экрана.
-* Исправлены различные проблемы пользовательского интерфейса.
-* Новые и обновленные переводы.
+* Systray/taskbar dialog is now centered on screen.
+* Fixed various user interface issues.
+* New and updated translations.
 
-## Изменения в версии 1.5 2015-mm-dd ##
+## Changes for 1.5 2015-mm-dd ##
 
-* Исправлено действие левого/правого щелчка.
-* Справка дополнения доступна в диспетчере дополнений.
-* Обновления перевода.
+* Corrected left/right click action.
+* Add-on help is now available from add-ons manger.
+* Translation updates.
 
-## Изменения в версии 1.4 - 2013-01-19 ##
+## Changes for 1.4 - 2013-01-19 ##
 
-* Требуется NVDA 2012.3beta2 или выше.
-* Добавлен запрос пожертвования в процедуру установки
-* Реализована поддержка панели задач
-* Новые переводы: арабский, болгарский, голландский, финский, галисийский, греческий, венгерский, итальянский, японский, корейский, непальский, норвежский, польский, португальский, русский, словацкий, тамильский, традиционный китайский Гонконг.
+* Requires NVDA 2012.3beta2 or greater.
+* Add donation request to installation procedure
+* Implemented taskbar support
+* New translations: Arabic, Bulgarian, Dutch, Finnish, Galician, Greek, Hungarian, Italian, Japanese, Korean, Nepali, Norwegian, Polish, Brazilian Portuguese, Russian, Slovak, Tamil, Traditional Chinese Hong Kong.
 
-## Изменения в версии 1.3 - 2012-05-25 ##
+## Changes for 1.3 - 2012-05-25 ##
 
-* Преобразован в пакет дополнения
-* Французский и турецкий переводы.
+* Converted to an add-on package
+* French and Turkish Translations.
 
-## Изменения в версии 1.2 - 2012-04.25 ##
+## Changes for  1.2 - 2012-04.25 ##
 
-* Переводы на испанский и немецкий. Спасибо всем, кто внес свой вклад.
+* Spanish and German translations. Thanks to all that contributed.
 
-## Изменения в версии 1.1 - 2012-03-20 ##
+## Changes for 1.1 - 2012-03-20 ##
 
-* Исправлена ​​ошибка, которая делала невозможным использование плагина когда перевод Gettext не доступен
+* Corrected a bug that was making it impossible to use the plugin when a gettext translation is not available
 
-## Изменения в версии 1.0 - 2012-03-19 ##
+## Changes for 1.0 - 2012-03-19 ##
 
-* Первоначальный выпуск
+* Initial Release
 
 [1]: http://addons.nvda-project.org/files/get.php?file=st

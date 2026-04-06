@@ -1,45 +1,45 @@
-# 读出符号 #
-*	作者：Noelia Ruiz Martínez。
+# Report Symbols #
+*	Author: Noelia Ruiz Martínez.
 
-即使 NVDA 的“读出输入字符”功能已关闭，该插件也可以读出键入的符号（非字母数字或空白字符）。
+This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.
 
-该插件基于由同一作者开发的旧版 ReportSymbols 插件升级而来。在使用该版本之前您应该先卸载旧版本。
+It's based on the old ReportSymbols add-on, developed by the same author. You should uninstall it to use this version.
 
-## 首选项菜单 ##
-*	读出符号设置：用于设置读出符号的首选项。
+## Preferences menu ##
+*	Report Symbols settings: Allows to set preferences for the speaking of typed symbols.
 
-注意：可以在 NVDA 菜单、选项子菜单、按键与手势对话框的配置类别下分配一个打开此设置的快捷键。
+Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
 
-## 排除符号
+## Exclude symbols
 
-可以在 NVDA 菜单、选项子菜单、按键与手势对话框的读出符号类别下分配一个快捷键以排除（或再次包含）键入时要读出的符号。
+From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.
 
-## 29.0.0 的变化
+## Changes for 29.0.0
 
-* 添加了一个未分配的命令，以排除或包含键入时要读出的符号。
+* Added ability to assing gestures to exclude or include symbols to be reported when typing.
 
-## 8.0 的变化
-* 与 NVDA 2023.1 兼容。
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
 
-## 7.0 的变化
-* 与 NVDA 2022.1 兼容。
+## Changes for 7.0
+* Compatible with NVDA 2022.1.
 
-## 6.0 的变化
-* 与 NVDA 2021.1 兼容。
+## Changes for 6.0
+* Compatible with NVDA 2021.1.
 
-## 5.0 的变化 ##
-*	需要 NVDA 2019.3 或更高版本。
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
 
-## 4.0 的变化 ##
-* 插件设置放置在 NVDA 设置面板的类别中。
-* 需要 NVDA 2018.2 或更高版本。
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA Settings dialog.
+* Requires NVDA 2018.2 or later.
 
-## 3.0 的变化 ##
-* 添加了用于读出空格、回车符和其他空白字符的复选框。
+## Changes for 3.0 ##
+* Added checkboxes for the speaking of spaces, carriage returns and other blank characters.
 
-## 2.0 的变化 ##
-*	改进了对话框的视觉效果，遵循 NVDA 对话框的统一外观。
-*	需要 NVDA 2016.4 或更高版本。
+## Changes for 2.0 ##
+*	The visual presentation of the dialog has been enhanced, adhering to the appearance of the dialogs shown in NVDA.
+*	Requires NVDA 2016.4 or later.
 
-## 1.0 的变化 ##
-*	初始版本。
+## Changes for 1.0 ##
+*	Initial version.

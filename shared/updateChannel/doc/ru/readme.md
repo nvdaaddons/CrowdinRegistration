@@ -1,53 +1,59 @@
-* Автор: Jose Manuel Delicado
-* Совместимость с NVDA: 2022.4 и выше
-* Загрузить [стабильную версию][1]
+* Author: Jose Manuel Delicado
+* NVDA compatibility: 2022.4 and beyond
+* Download [stable version][1]
 
-Это дополнение позволяет вам загружать и устанавливать последнюю версию NVDA выбранного типа, не посещая веб-страницы и не используя веб-браузер. Это полезно, когда, например, вы хотите протестировать новые функции в снимке NVDA, а затем вернуться к самой последней стабильной версии. Если вы регулярно тестируете снимки NVDA и обычно устанавливаете их на свой компьютер, вы сэкономите много времени с этим дополнением. Если вы предпочитаете тестировать снимки в переносном режиме, сохраняя установленную копию NVDA неизменной, это дополнение также для вас.
+This add-on allows you to download and install the latest NVDA version of the chosen type without visiting any webpage nor using your web browser.
 
-## Использование
+## Usage
 
-Вы можете изменить канал обновления NVDA, перейдя в меню NVDA, "Параметры", "Настройки", "Канал обновления". Выбрав нужный канал и нажав OK, дождитесь следующей автоматической проверки обновлений или перейдите в меню справки NVDA и выберите пункт "Проверить наличие обновлений". На данный момент доступны следующие каналы:
+You can change the NVDA update channel by going to NVDA menu, Preferences, Settings, Update channel category. Once you choose the desired channel and press OK, wait until the next automatic update check or go to NVDA help menu and choose "Check for updates" option. For now, these are the available channels:
 
-* По умолчанию: это канал по умолчанию, используемый вашей версией NVDA. Выбор этой опции означает то же самое, что и отключение дополнения.
-* Стабильный: заставить канал обновления стать стабильным. Полезно, когда вы хотите вернуться к стабильной версии из снимка.
-* Релиз-кандидат и бета-версия: это канал для бета-релизов. Вы получите первую бета-версию, как только она будет выпущена. Этот канал позволяет вам обновляться через бета-версии и Релиз-кандидат, пока вы не достигнете следующей стабильной версии.
-* Альфа (снапшоты): выберите этот вариант, чтобы обновить до последней альфа-версии. Альфа-снимки позволяют тестировать новые функции, но они довольно нестабильны. Пожалуйста, будьте осторожны.
-* Отключить обновления (не рекомендуется): этот параметр отключает канал обновления. Если вы проверите наличие обновлений, появится сообщение об ошибке. Помните, что вы можете отключить автоматические обновления в категории общих настроек. Используйте эту опцию только в целях тестирования.
+* Default: this is the default channel used by your NVDA version. Choosing this option means the same as disabling the add-on.
+* Stable: force update channel to stable. Useful when you want to upgrade to a newer stable version from a beta.
+* Rc and beta: this is the channel for beta releases. You will receive the first beta version once it is released. This channel allows you to update through betas and release candidates.
+* Disable updates (not recommended): this option disables the update channel. If you check for updates an error message will be displayed. Remember that you can disable automatic updates from the General settings category. Use this option only with testing purposes.
 
-Информация о доступных обновлениях для каждого канала будет получена в фоновом режиме после открытия панели настроек. Нажмите клавишу Tab, чтобы перейти к полю редактирования только для чтения, где вы можете увидеть эту информацию. Эта информация будет динамически обновляться при изменении канала обновления из поля со списком. Если для выбранного канала доступно обновление, рядом с полем редактирования появятся одна или две ссылки:
+Information about available updates for each channel will be retrieved in the background once the settings panel is opened. Press tab to navigate to a read only edit field, where you can see this information. This information will be dynamically updated when you change the update channel from the combo box. If there is an update available for the selected channel, one or two links will appear next to the edit field:
 
-* Загрузить: нажмите пробел на этой ссылке, чтобы открыть ее в веб-браузере и загрузить последнюю версию установщика.
-* Просмотр журнала изменений: нажмите пробел на этой ссылке, чтобы открыть документ Что нового в веб-браузере. Для некоторых каналов эта ссылка не будет отображаться.
+* Download: press spacebar on this link to open it in your web browser and download the latest installer.
+* View changelog: press spacebar on this link to open the What's new document in your web browser. For some channels, this link won't be displayed.
 
-## Список изменений
+## Changelog
 
-### Версия 1.4
+### Version 26.1
 
-* Обновлены переводы.
-* Совместимость с NVDA 2023.1.
-* В целях безопасности минимальная версия NVDA установлена на 2022.4.
+* Updated documentation clarifying important add-on changes.
+* Compatible with NVDA 2026.1.
+* Updated translations.
+* Removed alpha channel.
 
-### Версия 1.3
+### Version 1.4
 
-* Обновлены переводы.
-* Исправлена ошибка, не позволявшая создавать переносные копии из альфа-версий.
+* Updated translations.
+* Compatible with NVDA 2023.1.
+* For security reasons, minimum NVDA version is set to 2022.4.
 
-### Версия 1.2
+### Version 1.3
 
-* Обновлены переводы.
-* Совместимость с NVDA 2022.1.
-* В целях безопасности минимальная версия NVDA установлена на 2021.3.
-* Обходной путь для ошибки на сервере NV Access, из-за которой предлагалась версия 2019.2.1 при обновлении с альфа-версии до стабильной.
+* Updated translations.
+* Fixed a bug which prevented creating portable copies from alpha snapshots.
 
-### Версия 1.1
+### Version 1.2
 
-* Удалены неподдерживаемые каналы.
-* Обновлены переводы.
-* В панель настроек добавлена информация о доступных на данный момент обновлениях.
+* Updated translations.
+* Compatible with NVDA 2022.1.
+* For security reasons, minimum NVDA version is set to 2021.3.
+* Workaround for a bug in the NV Access server which caused version 2019.2.1 to be offered when updating from alpha to stable.
 
-### Версия 1.0
+### Version 1.1
 
-* Первоначальная версия.
+* Removed unsupported channels.
+* Updated translations.
+* Added information of currently available updates to the settings panel.
+
+### Version 1.0
+
+* Initial version.
 
 [[!tag dev stable]]
 

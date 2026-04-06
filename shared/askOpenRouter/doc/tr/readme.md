@@ -1,203 +1,203 @@
-# OpenRouter'a sor
+# Ask OpenRouter
 
-* Yazar(lar): Abdel.
+* Author(s) : Abdel.
 
-Bu NVDA eklentisi, OpenRouter platformu tarafından sağlanan Yapay Zeka modelleriyle doğrudan ekran okuyucunuzdan etkileşim kurmanıza olanak tanır.
+This NVDA add-on allows you to interact with Artificial Intelligence models provided by the OpenRouter platform directly from your screen reader.
 
-Eklenti her ikisini de destekler:
-* Ücretsiz modellerin otomatik rastgele seçimi
-* Mevcut herhangi bir modelin manuel seçimi (ücretli olanlar dahil)
+The add-on supports both:
+* Automatic random selection of free models
+* Manual selection of any available model (including paid ones)
 
-## Temel Özellikler
+## Key Features
 
-* Hızlı Erişim: Sohbet arayüzünü istediğiniz zaman genel bir kısayolla açın.
-* Konuşma Yönetimi: Yeni bir sohbet başlatın veya önceki sohbetinize devam edin.
-* Akıllı Boş Model Döndürme: Günlük kullanım kotalarını optimize etmek için otomatik olarak rastgele bir boş model seçer.
-* Manuel Model Seçimi: Ayarlar panelinden belirli bir model seçin (ücretli modeller dahil).
-* Erişilebilir Sonuçlar: Yanıtları, isteğe bağlı tam geçmiş ekranıyla net, dolaşılması kolay bir pencerede görüntüleyin.
+* Quick Access: Open the chat interface anytime with a global shortcut.
+* Conversation Management: Start a fresh conversation or continue your previous exchange.
+* Smart Free Model Rotation: Automatically selects a random free model to optimize daily usage quotas.
+* Manual Model Selection: Choose a specific model (including paid models) from the settings panel.
+* Accessible Results: View responses in a clear, easy-to-navigate window with optional full history display.
 
-## Yapılandırma: API Anahtarınızı Alma ve Yükleme
+## Configuration: Obtaining and Installing Your API Key
 
-Bu eklentiyi kullanmak için OpenRouter'dan bir API anahtarınızın olması gerekir.
+To use this add-on, you must have an API key from OpenRouter.
 
-Ücretsiz modelleri kullanırken bile isteklerinizi tanımlamak için anahtar gereklidir.
+Even when using free models, the key is required to identify your requests.
 
-### 1. API anahtarı nasıl alınır
+### 1. How to get an API key
 
-1. [OpenRouter.ai](https://openrouter.ai/) adresine gidin.
-2. "Kaydol"u tıklayarak bir hesap oluşturun (GitHub, Google veya MetaMask hesabıyla veya e-posta adresinizle oturum açabilirsiniz).
-3. Oturum açtıktan sonra kontrol panelinizdeki "Anahtarlar" bölümüne gidin veya doğrudan şu adrese gidin: https://openrouter.ai/keys
-4. "Anahtar Oluştur" düğmesini tıklayın.
-5. Anahtarınıza bir ad verin (örneğin: "OpenRouter API anahtarım") ve "Oluştur"a tıklayın.
-6. Önemli: Anahtarınız yalnızca bir kez görüntülenecektir. Hemen kopyalayın ve güvenli bir yerde saklayın.
+1. Go to [OpenRouter.ai](https://openrouter.ai/).
+2. Create an account by clicking "Sign up" (you can sign in with a GitHub, Google or MetaMask account, or your email address).
+3. Once logged in, navigate to the "Keys" section in your dashboard, or go directly to: https://openrouter.ai/keys
+4. Click the "Create Key" button.
+5. Give your key a name (for example: "My OpenRouter API key") and click "Create".
+6. Important: Your key will be displayed only once. Copy it immediately and store it in a secure place.
 
-### 2. NVDA'da anahtarın ayarlanması
+### 2. Setting up the key in NVDA
 
-1. NVDA menüsünü açın (NVDA + N).
-2. Tercihler'e ve ardından Ayarlar'a gidin.
-3. Kategoriler listesinde "OpenRouter'a Sor" seçeneğini seçin.
-4. API anahtarınızı "OpenRouter API Anahtarı" alanına yapıştırın.
-5. Kaydetmek için Tamam'a basın.
+1. Open the NVDA menu (NVDA + N).
+2. Navigate to Preferences, then Settings.
+3. In the categories list, select "Ask OpenRouter".
+4. Paste your API key into the "OpenRouter API Key" field.
+5. Press OK to save.
 
-#### API Anahtarını Göster
+#### Show API Key
 
-NVDA ayarları panelinde, "OpenRouter API Anahtarı" alanının hemen ardından şu etikete sahip bir onay kutusu vardır:
+In the NVDA settings panel, just after the "OpenRouter API Key" field, there is a checkbox labeled:
 
-"API anahtarını göster"
+"Show API key"
 
-İşaretlenirse API anahtarının karakterleri görünür hale gelir.
-Varsayılan olarak güvenlik nedeniyle gizlenirler.
+If checked, the characters of the API key become visible.
+By default, they are hidden for security reasons.
 
-## Model Seçim Ayarları
+## Model Selection Settings
 
-OpenRouter'a Sor ayarları kategorisinde yeni bir seçenek bulacaksınız:
+In the Ask OpenRouter settings category, you will find a new option:
 
-### "Ücretli olanlar dahil tüm modelleri kullanın"
+### "Use all models, including paid ones"
 
-Bu seçenek modellerin nasıl seçildiğini kontrol eder.
+This option controls how models are selected.
 
-### Seçenek İŞARETİ KALDIRILMADIĞINDA (varsayılan davranış)
+### When the option is UNCHECKED (default behavior)
 
-* Eklenti, her yeni konuşma için otomatik olarak rastgele bir ücretsiz model seçer.
-* Mevcut ücretsiz modeller arasında dönüşümlü olarak çalışır.
-* Bu, kullanımın dağıtılmasına ve hız sınırlarının önlenmesine yardımcı olur.
+* The add-on automatically selects a random free model for each new conversation.
+* It rotates between available free models.
+* This helps distribute usage and avoid rate limits.
 
-### Seçenek işaretlendiğinde
+### When the option is CHECKED
 
-Bu seçenek etkinleştirildiğinde, onay kutusunun ardından otomatik olarak mevcut modellerin bir listesi görünür.
+When this option is enabled, a list of available models automatically appears after the checkbox.
 
-* Liste, İstem jetonu fiyatına (giriş jetonu başına maliyet) göre artan sırada, en düşükten en yükseğe doğru sıralanmıştır.
-* Yalnızca geçerli sağlayıcılara sahip, kullanımdan kaldırılmamış modeller görüntülenir.
+* The list is sorted in ascending order based on prompt token pricing (cost per input token), from lowest to highest.
+* Only non-deprecated models with valid providers are displayed.
 
-### Bu seçenek etkinleştirildiğinde ne yapabilirsiniz?
+### What can you do when this option is enabled?
 
-* Mevcut herhangi bir modeli seçin.
-* Ücretli modelleri kullanın (yeterli OpenRouter krediniz varsa).
-* İhtiyaçlarınıza en uygun modeli seçin.
-* Sohbetlerinizde seçtiğiniz modeli kullanmaya devam edin (otomatik dönüşüm yok).
+* Choose any available model.
+* Use paid models (if you have sufficient OpenRouter credits).
+* Select the model that best fits your needs.
+* Keep using the same selected model for your conversations (no automatic rotation).
 
-### İstem jetonu nedir?
+### What is a prompt token?
 
-Bir komut jetonu, modele gönderilen küçük bir metin birimini (sorunuzu veya girdinizi) temsil eder.
+A prompt token represents a small unit of text sent to the model (your question or input).
 
-Modeller genellikle aşağıdakiler için ayrı olarak faturalandırılır:
-* Giriş jetonları (istem)
-* Çıktş jetonları (tamamlanma)
+Models are usually billed separately for:
+* Input tokens (prompt)
+* Output tokens (completion)
 
-## Nasıl Kullanılır
+## How to Use
 
-### Sohbet İletişim Kutusunu Açma
+### Opening the Chat Dialog
 
-Basın:
+Press:
 
 Ctrl + Alt + A
 
-Bu hareketi şu şekilde değiştirebilirsiniz:
-NVDA menüsü → Tercihler → Girdi Hareketleri → OpenRouter'a Sor
+You can change this gesture in:
+NVDA menu → Preferences → Input Gestures → Ask OpenRouter
 
-### Ana Arayüz
+### Main Interface
 
-İletişim kutusunda üç düğme bulunur:
+The dialog contains three buttons:
 
-1. Yeni Sohbet – Yepyeni bir sohbet başlatır.
-2. Sohbete Devam Et – Önceki konuşmayı sürdürür (geçmişi tutar).
-3. Kapat – İletişim kutusunu kapatır (Escape tuşuda çalışır).
+1. New Chat – Starts a brand new conversation.
+2. Continue Chat – Resumes the previous conversation (keeps history).
+3. Close – Closes the dialog (Escape also works).
 
-### İsteminizi Girme
+### Entering Your Prompt
 
-"Yeni Sohbet" veya "Sohbete Devam Et" seçeneğini seçtikten sonra:
+After selecting "New Chat" or "Continue Chat":
 
-* Çok satırlı bir metin alanı görünür.
-* Enter tuşuna basıldığında yeni bir satır eklenir.
-* Mesajınızı göndermek için:
-  - Tamam düğmesine ulaşmak için Tab tuşuna basın.
-  - Enter'a basın.
+* A multiline text field appears.
+* Pressing Enter inserts a new line.
+* To send your message:
+  - Press Tab to reach the OK button.
+  - Press Enter.
 
-### Yanıtı Okumak
+### Reading the Response
 
-İşlemden sonra aşağıdakileri içeren bir sonuç penceresi görünür:
+After processing, a results window appears containing:
 
-* "Siz:" ve ardından mesajınız.
-* "Model cevap verdi:" ve ardından yanıt geldi.
-* Yanıtı kopyalamak için "Kopyala" düğmesi.
+* "You said:" followed by your message.
+* "The model replied:" followed by the response.
+* A "Copy" button to copy the response.
 
-Tam geçmiş gösterimi etkinleştirildiğinde, her bir işlem başlıklar ile net bir şekilde birbirinden ayrılır; bu sayede NVDA'nın hızlı dolaşım tuşlarını kullanarak kolayca gezinebilirsiniz.
+If full history display is enabled, each exchange is clearly separated by headings, making it easy to navigate using your NVDA's quick navigation keys.
 
-## Görüntüleme Seçenekleri
+## Display Options
 
-Konuşma geçmişinin tamamı yerine yalnızca en son yanıtı görüntülemeyi tercih ederseniz:
+If you prefer to only display the latest response instead of the full conversation history:
 
-1. NVDA menüsünü açın (NVDA + N).
-2. Tercihler → Ayarlar'a gidin.
-3. OpenRouter'a Sor'u seçin.
-4. İşareti kaldırın:
-   "Sürekli tartışmalar için sohbet geçmişinin tamamını görüntüle"
-5. Tamam'a basın.
+1. Open NVDA menu (NVDA + N).
+2. Go to Preferences → Settings.
+3. Select Ask OpenRouter.
+4. Uncheck:
+   "Display the full chat history for continuous discussions"
+5. Press OK.
 
-## Atanmamış Komutlar
+## Unassigned Scripts
 
-Aşağıdaki komutlara hareket atanmamıştır.
-Bunları şu şekilde tanımlayabilirsiniz:
+The following scripts do not have gestures assigned.
+You can define them in:
 
-Tercihler → Girdi Hareketleri → OpenRouter'a Sor
+Preferences → Input Gestures → Ask OpenRouter
 
-Mevcut komutlar:
+Available scripts:
 
-* Eklenti ayarları panelini açın
-* Doğrudan yeni bir sohbet başlatın
-* Mevcut bir sohbete doğrudan devam edin
+* Open the add-on settings panel
+* Start a new chat directly
+* Continue an existing chat directly
 
-## Ücretsiz Modeller, Ücretli Modeller ve Kotalar
+## Free Models, Paid Models and Quotas
 
-### Ücretsiz Model Kullanımı
+### Free Model Usage
 
-"Ücretli olanlar dahil tüm modelleri kullan" seçeneğinin işareti kaldırıldığında:
+When "Use all models, including paid ones" is unchecked:
 
-* Yalnızca OpenRouter'da ücretsiz olarak etiketlenen modeller kullanılır.
-* Ücretsiz modeller şunları içerir:
-  - Sınırlı günlük kotalar
-  - Ortak kullanım sınırları
-  - Hizmetin geçici olarak kullanılamama ihtimali
+* Only models labeled as free on OpenRouter are used.
+* Free models have:
+  - Limited daily quotas
+  - Shared rate limits
+  - Possible temporary unavailability
 
-Eklenti, kullanılabilirliği artırmak için ücretsiz modeller arasında otomatik olarak geçiş yapar.
+The add-on automatically rotates between free models to improve availability.
 
-### Ücretli Model Kullanımı
+### Paid Model Usage
 
-"Ücretli olanlar dahil tüm modelleri kullan" seçeneği işaretlendiğinde:
+When "Use all models, including paid ones" is checked:
 
-* Eklenti tam olarak seçtiğiniz modeli kullanır.
-* Buna ücretli modeller de dahil olabilir.
-* Yeterli OpenRouter krediniz olmalıdır.
-* Sağlayıcı ücret limitleri geçerli olabilir.
+* The add-on uses the exact model you selected.
+* This may include paid models.
+* You must have sufficient OpenRouter credits.
+* Provider rate limits may apply.
 
-Aşağıdaki gibi hatalar:
-* 402 (yetersiz kredi)
-* 429 (hız sınırlı)
-* 404 (gizlilik ayarları modele izin vermiyor)
+Errors such as:
+* 402 (insufficient credits)
+* 429 (rate limited)
+* 404 (model not allowed by privacy settings)
 
-sorun hakkında sizi bilgilendirmek için doğrudan görüntülenir.
+are displayed directly to inform you of the issue.
 
-## Gizlilik Ayarları Hatırlatıcısı
+## Privacy Settings Reminder
 
-Ücretsiz modeller kullanıyor ve şunu belirten bir hata alırsanız:
+If you use free models and receive an error mentioning:
 
-> "Veri politikanızla eşleşen uç nokta bulunamadı"
+> "No endpoints found matching your data policy"
 
-OpenRouter gizlilik ayarlarınızı değiştirmeniz gerekebilir:
+You may need to adjust your OpenRouter privacy settings:
 
 https://openrouter.ai/settings/privacy
 
-Genel/ücretsiz model uç noktalarına izin verildiğinden emin olun.
+Ensure that public/free model endpoints are allowed.
 
-## Uyumluluk ##
+## Compatibility ##
 
-* Bu eklenti, NVDA'nın 2025.1 ve sonraki sürümleriyle uyumludur.
+* This add-on is compatible with the versions of NVDA ranging from 2025.1 and beyond.
 
-## 20260221.0.0 için değişiklikler
+## Changes for 20260221.0.0
 
-* Ayarlar panelinden mevcut tüm modellerin manuel olarak seçilebilme özelliği eklendi
-* Ücretli modelleri kullanma yeteneği eklendi
+* Added manual selection of any available model from the settings panel
+* Added ability to use paid models
 
-## 20260217.0.0 için değişiklikler
+## Changes for 20260217.0.0
 
-* İlk sürüm
+* Initial version

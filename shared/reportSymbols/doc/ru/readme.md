@@ -1,45 +1,45 @@
-# Сообщать Символы #
-*	Автор: Noelia Ruiz Martínez.
+# Report Symbols #
+*	Author: Noelia Ruiz Martínez.
 
-Это дополнение позволяет слышать набираемые символы (не буквенно-цифровые или пустые), даже если произношение символов выключено в NVDA.
+This add-on allows to listen the typed symbols (non alphanumeric or blank characters), even when the speaking of typed characters is turned off in NVDA.
 
-Оно основано на старом дополнении ReportSymbols, разработанном тем же автором. Сначала удалите старое дополнение, чтобы использовать это.
+It's based on the old ReportSymbols add-on, developed by the same author. You should uninstall it to use this version.
 
-## Пункт в меню Параметров ##
-*	Настройки Сообщений Символов: позволят настроить озвучивание набираемых символов.
+## Preferences menu ##
+*	Report Symbols settings: Allows to set preferences for the speaking of typed symbols.
 
-Примечание: Жест для открытия этого диалога может быть назначен из меню NVDA, подменю настроек, диалога жестов ввода, категории конфигурации.
+Note: A gesture to open this dialog can be assigned from NVDA menu, Preferences submenu, Input gestures dialog, Configuration category.
 
-## Исключаемые символы
+## Exclude symbols
 
-В меню NVDA, подменю настроек, диалоге жестов ввода, категории reportSymbols, вы можете назначить жест для исключения (или включения снова) символов, которые следует сообщать при наборе.
+From NVDA's menu, Preferences submenu, Input gestures dialog, reportSymbols category, you can assing a gesture to exclude (or include again) symbols to be reported when typing.
 
-## Изменения в версии 29.0.0
+## Changes for 29.0.0
 
-* Добавлена возможность назначать жесты для исключения или включения символов, которые должны сообщаться при наборе.
+* Added ability to assing gestures to exclude or include symbols to be reported when typing.
 
-## Изменения в версии 8.0
-* Совместимо с NVDA 2023.1.
+## Changes for 8.0
+* Compatible with NVDA 2023.1.
 
-## Изменения в версии 7.0
-* Совместимо с NVDA 2022.1.
+## Changes for 7.0
+* Compatible with NVDA 2022.1.
 
-## Изменения в версии 6.0
-* Совместимо с NVDA 2021.1.
+## Changes for 6.0
+* Compatible with NVDA 2021.1.
 
-## Изменения в версии 5.0 ##
-*	Требуется NVDA 2019.3 или позднее.
+## Changes for 5.0 ##
+*	Requires NVDA 2019.3 or later.
 
-## Изменения в версии 4.0 ##
-* Настройки дополнения отображаются в соответствующей категории диалога настроек NVDA.
-* Требуется NVDA 2018.2 или позднее.
+## Changes for 4.0 ##
+* The add-on settings are shown in the corresponding category of the NVDA Settings dialog.
+* Requires NVDA 2018.2 or later.
 
-## Изменения в версии 3.0 ##
-* Добавлены флажки для проговаривания пробелов, возврата каретки и других символов пустоты.
+## Changes for 3.0 ##
+* Added checkboxes for the speaking of spaces, carriage returns and other blank characters.
 
-## Изменения в версии 2.0 ##
-*	Визуальное представление диалогов было модифицировано, придерживаясь внешнего вида диалогов, отображаемых в NVDA.
-*	Требуется NVDA 2016.4 или позднее.
+## Changes for 2.0 ##
+*	The visual presentation of the dialog has been enhanced, adhering to the appearance of the dialogs shown in NVDA.
+*	Requires NVDA 2016.4 or later.
 
-## Изменения в версии 1.0 ##
-*	Первоначальная версия.
+## Changes for 1.0 ##
+*	Initial version.

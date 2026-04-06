@@ -1,104 +1,104 @@
-# Anında Çeviri #
+# Instant Translate #
 
-* Yazarlar: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino ve diğer NVDA gönüllüleri.
-* [Kararlı Sürümü İndirin][1]
-* [Geliştirici sürümünü indirin][2]
+* Authors: Alexy Sadovoy, Beqa Gozalishvili, Mesar Hameed, Alberto Buffolino and other NVDA contributors.
+* Download [stable version][1]
+* Download [development version][2]
 
-Bu eklenti, seçili ve/veya pano metnini bir dilden diğerine çevirmek için kullanılır. Bu, Google Çeviri hizmeti kullanılarak yapılır.
-Bu, Google Çeviri hizmeti kullanılarak yapılır.
+This add-on is used to translate selected and/or clipboard text from one language to another.
+This is done using the Google Translate service.
 
-## Dillerin ayarlanması ##
-Kaynak, hedef ve takas dilini yapılandırmak için şuraya gidin: NVDA Menüsü >> Tercihler >> Ayarlar iletişim kutusu >> Anında Çeviri kategorisi.
+## Configuring languages ##
+To configure source, target and in case swap language, go to: NVDA Menu >> Preferences >> Instant Translate Settings.
 
-"Kaynak dil" ve "Hedef dil" etiketli iki seçim kutusu ve çevirinin panoya kopyalanıp kopyalanmayacağını bbelirlemek için bir onay kutusu bulunur.
+There are two comboboxes labeled "Source language" and "Target language", and a checkbox to decide if it must copy the translation to clipboard.
 
-Ek olarak, "Kaynak dil" seçim kutusundan otomatik seçeneği (ilk tercih) seçtiyseniz, "Değişim için kullanılacak dil" etiketli bir seçim kutusu ve otomatik takas hakkında bir onay kutusu da gösterilir.
+In addition, if you selected auto option (the first choice) from "Source language" combobox, there are also a combobox labeled "Language for swapping" and a checkbox about the auto-swap.
 
-İlk iki seçim kutusunun ve kopyalamayla ilgili  onay kutusunun anlamı bariz, ancak geri kalanı hakkında bazı açıklamalar gerekebilir. Aşağıdaki açıklamaların otomatik seçeneğinde ayarlanan kaynak dili varsaydığını daima unutmayın.
+The meaning of two first comboboxes and checkbox for copy is clear, but some words about the rest are necessary. Remember always that the explanations below assume the source language set on the auto option.
 
-"Değişim için dil" seçim kutusu, kaynak ve hedef dili komut dosyası aracılığıyla değiştirdiğinizde (aşağıya bakın) kullanışlıdır; aslında, otomatik seçeneğinde ayarlanan bir hedef dilin bir anlamı yoktur, bu nedenle eklenti onu yukarıdaki seçim kutusundaki  değere ayarlar.
+The "Language for swapping" combobox is useful when you swap via script (see below) the source and target language; in fact, a target language set on the auto option has no sense, so the addon sets it to value of combobox above.
 
-Öyleyse, şu durumu farzedin: genellikle türkçe'ye (ana diliniz) çeviri yaparsınız, ancak bazen (örneğin, bir belge yazarken) İngilizce'ye'ya (diyelim ki ikinci diliniz) çevirmeniz gerekebilir; "değişim için kullanılacak dil" seçim kutusunu İngilizce'ye ayarlayabilirsiniz, böylece eklenti ayarlarına tekrar girmeksizin Türkçe'den İngilizce'ye çeviri yapabilirsiniz. Açıkçası, bu işlevin daha sık ihtiyaçlarınıza göre büyük veya küçük bir faydası vardır.
+So, imagine this situation: you usually translate into English (your main language), but sometimes (for example, when you write a document) you need to translate into Italian (your second language, suppose); you can set "Language for swapping" combobox to Italian, so you will translate from English to Italian without accessing directly to the addon settings. Obviously this function has a major or minor utility according to your more frequent needs.
 
-Şimdi, otomatik takas onay kutusu: Yalnızca "Kaynak dil" seçim kutusunda otomatik seçeneğini ayarlamışsanız gösterilir ve "takas için dil" seçim kutusunda belirlediğiniz dil kullanılır. Etkinleştirirseniz, eklenti, kaynak ve hedef yapılandırmanızdan otomatik olarak hedefin kaynak dil olduğu ve "takas için dil" seçim kutusunda seçilen dilin yeni hedef dil olacağı bir konfigürasyona geçiş yapmaya çalışır; Çevirmek istediğiniz metnin dili hedef olarak belirlemiş olduğunuz dille aynıysa  son derece kullanışlı olabilir.
+Now, the auto-swap checkbox: it appears if and only if you set the auto option in "Source language" combobox, and is directly connected with "Language for swapping" combobox. If you activate it, then the addon tries to commute automatically from your source and target configuration to a configuration where target becomes the source language, and language selected in "Language for swapping" combobox is the new target language; extremely useful if the source language of the text you want translate is the target language.
 
-Basit bir örnek: daha önce farzedilen durumu tekrar hatırlayın; Bir metni İngilizce'den farklı bir dilden çeviriyorsanız sorun olmaz, İngilizce'de doğru çeviriyi alırsınız. Ancak İngilizce'den bir metni çevirmeniz gerekiyorsa, normalde orijinal metinle aynı olan İngilizce'ye bir çeviri alırsınız ve bu biraz işe yaramaz. Ancak otomatik değiş tokuş işlevi sayesinde, metninizin İtalyancaya nasıl geldiğini bilmek istediğinizi varsayarsak, eklenti hedef dili otomatik olarak İtalyancaya çevirir, böylece geçerli bir çeviri döndürür sonuç olarak.
+A simple example: take again in mind the situation  imagined previously; if you translate a text in a language different from English, there is no problem, you get the correct translation in English. But if you need to translate a text from English, normally you get a translation into English identical to original text, and this is a bit useless. Thanks to auto-swap function, however, assuming that you want to know how your text sounds into Italian, the addon commutes automatically the target language to Italian, so it returns a valid translation.
 
-Neyse, bu geçici bir yapılandırmadır; bu seçeneğin bir etkisi yoksa (deneyseldir), aşağıda açıklanan takas hareketini kullanarak manuel olarak kararlı bir yapılandırmaya geçmeyi deneyin. Deneyseldir, çünkü bazı durumlarda (genellikle kısa metinlerle), Google gerçek kaynak dili doğru tanımaz ve kaynak dili önceki hedef dil olmaya zorlamak için dilleri komut dosyası aracılığıyla manuel olarak değiştirmeniz gerekir (örneğimizde İngilizceye).
+Anyway, this is a temporary configuration; if this option has no effect (it's experimental), try to commute manually to a stable configuration, using the gesture for swapping described below. It's experimental because in some situations (with short texts, typically), Google does not recognize the real source language correctly, and you have to swap languages manually via script, so to force the source language to be the previous target language (English in our example).
 
-En azından konuşma ayarları kategorisinde (NVDA Menüsü >> Tercihler >> ayarlar iletişim kutusu), "destekleniyorsa konuşma dilini otomatik olarak değiştir" seçeneğini işaretlemek isteyebilirsiniz. Bu şekilde, çok dilli bir sentezleyici kullanıyorsanız çeviri, sentezleyicinin hedef dil sesi kullanılarak söylenir.
+At least, in the speech settings parameters dialog (NVDA Menu >> Preferences >> Speech), you may want to check the "Automatic language switching (when supported)" option. This way, if you are using a multi-lingual synthesizer, the translation will be announced using the target language voice of the synthesizer.
 
-## Kullanma ##
-Bu eklentiyi üç şekilde kullanabilirsiniz:
+## Using ##
+You can use this add-on in three ways:
 
-1. Seçim komutlarını kullanarak bir metin seçin (örneğin, shift tuşuyla birlikte ok tuşlarını kullanın) ve çevirmek için ilgili tuşa basın. çeviri sonucu kullandığınız sentezleyici ile okunacaktır.
-2. Panodaki metni de çevirebilirsiniz.
-3. Son söylenen metni çevirmek için ilgili kısayol tuşuna basın.
+1. Select some text using selection commands (shift with arrow keys, for example) and press associated key to translate. translation result will be read with synthesizer which you are using.
+2. You can also translate text from the Clipboard.
+3. Press the dedicated shortcut key to translate the last spoken text.
 
-## Kısayollar ##
-Aşağıdaki tüm komutlar "NVDA+Shift+t" tuşları ile komut katmanını açtıktan  sonra kullanılabilir:
+## Shortcuts ##
+All following commands must be pressed after modifier key "NVDA+Shift+t":
 
-* T: Seçili metni çevir,
-* Shift+t: Panodaki metni çevir,
-* S: kaynak ve hedef dilleri değiştir,
-* A: mevcut konfigürasyonu söyle,
-* C: son sonucu panoya kopyala,
-* I: seçilen metnin dilini tanımla,
-* L: son konuşulan metni çevir,
-* O: çeviri ayarları iletişim kutusunu aç
-* H: mevcut tüm katman komutlarını duyurur.
+* T: Translate selected text,
+* Shift+t: translate text from the Clipboard,
+* S: swap source and target languages,
+* A: announce current configuration,
+* C: copy last result to clipboard,
+* I: identify the language of selected text,
+* L: translate the last spoken text,
+* O: open translation settings dialog
+* H: announces all available layered commands.
 
-## 4.7 için değişiklikler ##
-* Python3.11 ve NVDA 2024.1 ile uyumlu olacak şekilde güncellendi
-* Talep üzerine konuşma modu uygulandı
-* Önbelleğe alma başarısız çevirilerle ilgili durum düzeltildi
-* Çince çeviri için Çince ayna eklendi
+## Changes for 4.7 ##
+* Updated to be compatible with python3.11 and nvda 2024.1
+* Implemented speakOnDemand mode
+* Fixed case with caching failled translations
+* Added chinese mirror for translation
 
 
-## 4.4.2 için değişiklikler ##
-* Dil algılama ve otomatik dil değiştirme düzeltildi (Düzeltme için Cyrille'a teşekkürler)
-* çeviri için güncellenmiş diller (Cyrille'e teşekkürler)
+## Changes for 4.4.2 ##
+* Restore language detection and auto-swapping (Thanks to Cyrille for fix)
+* updated languages for translation (thanks to Cyrille)
 
-## 4.4 için değişiklikler ##
-* Anında çeviri artık NVDA 2019.3 ile (NVDA'nın Python 3 sürümleri) uyumlu
+## Changes for 4.4 ##
+* Instant translate is now compatible with NVDA 2019.3 (Python 3 versions of NVDA)
 
-## 4.3 için değişiklikler ##
-* nvda uyumluluk düzeltmesi Şimdi anında çeviri, en son nvda derlemeleriyle uyumlu olacak.
-* google'ı tekrar bir çeviri hizmeti olarak kullanmanın bir yolu bulundu.
+## Changes for 4.3 ##
+* nvda compatibility fix Now instant translate will be compatible with latest nvda builds.
+* found a way to use google as a translation service again.
 
-## 4.2 için değişiklikler ##
-* Daha yeni nvda sürümleriyle çalışması sağlandı.
-* Otomatik dil algılama özelliği düzeltildi.
+## Changes for 4.2 ##
+* Restored working state with newer versions of nvda.
+* Restored automatic language detection.
 
-## 4.1 için değişiklikler ##
-* Anında Çeviri, artık Google yerine Yandex çeviri hizmetiyle yeniden çalışıyor.
+## Changes for 4.1 ##
+* InstantTranslate is working again, now with Yandex translator service instead of Google.
 
-## 4.0 için değişiklikler ##
-* Çeviri, takas sonrasında otomatik olarak gerçekleştirilir.
-* Önbellek hatası düzeltildi.
+## Changes for 4.0 ##
+* Translation is automatically performed after swapping.
+* Cache bug fixed.
 
-## 3.0 için değişiklikler ##
-* Kısayolların kullanım şekli değişti, şimdi "NVDA+Shift+t" anında Çeviri komut katmanı Kısayol tuşuna ve ardından çeşitli işlemleri gerçekleştirmek için ilgili komut tuşuna basabilirsiniz ("girdi hareketleri " bölümündeki tüm Komutlara bakın).
-* Takas dil seçeneği eklendi.
-* Değiştirilen yapılandırma biçimi, şimdi salt okunur bölmesinde ise anında çeviri ayarları değiştirilebbilir, ancak bunun için NVDA'nın yeniden başlatılması gerektiğini unutmayın.
-* Çevrilebilecek metin miktarıyla ilgili sınır kaldırıldı.
-* Anında Çeviri Ayarlar menü öğesi eklendi kısayol t
-* Otomatik seçeneği yalnızca kaynak dil seçim kutusunda bulunuyor.
-* Çeviri sonuçlarının kopyalanmasıyla ilgili bir onay kutusu eklendi.
-* Yapılandırma dosyasını ayarlar klasörünün kök dizininde sakla.
-* Kaynak ve hedef diller, Google Çeviri'nin şu anda sundukları ile senkronize edildi (22 Nisan 2015).
+## Changes for 3.0 ##
+* Change way how Shortcuts are used, now you can press instantTranslate modifier key "NVDA+Shift+t", and then single letter key to perform some action (see all Commands in the "Shortcuts" section).
+* Implemented swapping languages.
+* Changed configuration format, now we can change instant translate settings if we are in readonly pane, but remember that this will work before first restart of NVDA.
+* Removed limit on amount of text that can be translated.
+* Added shortcut t to the Instant Translate Settings menu item
+* The auto option is now in first position in source combo, and absent in target combo.
+* Added a checkbox for configuring copying translation results.
+* Store config file in the root of settings folder.
+* Source and target languages syncronized with what Google Translate currently exposes (22 Apr 2015).
 
-## 2.1 için değişiklikler ##
-* Artık eklenti, Shift+T tuşlarına basıldığında panodaki metni çevirebilir.
+## Changes for 2.1 ##
+* Now addon can translate text from clipboard when pressing nvda+shift+y.
 
-## 2.0 için değişiklikler ##
-* Kaynak ve hedef dilleri seçebileceğiniz gui yapılandırıcı eklendi.
-* Tercihler menüsü altına eklenti menü öğesi eklendi.
-* Ayarlar şimdi ayrı bir yapılandırma dosyasına yazılıyor.
-* Çeviri sonuçları artık otomatik olarak gelecek kullanımlar için panoya kopyalanır.
+## Changes for 2.0 ##
+* Added gui configurator where you can choose source and target languages.
+* Added addon menu item found under preferences menu.
+* Settings now is written in separate config file.
+* Translation results now automatically copies into the clipboard for future manipulations.
 
-## 1.0 için değişiklikler ##
-* İlk sürüm.
+## Changes for 1.0 ##
+* Initial version.
 
 [1]: https://addons.nvda-project.org/legacy?file=instantTranslate
 

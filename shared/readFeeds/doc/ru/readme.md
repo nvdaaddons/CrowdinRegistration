@@ -1,147 +1,113 @@
-# Читатель Каналов #
+# Read Feeds #
 
-* Авторы: Noelia Ruiz Martínez, Mesar Hameed
+* Authors: Noelia Ruiz Martínez, Mesar Hameed
+* NVDA compatibility: 2018.3 to 2019.2
+* Download [stable version][1]
+* Download [development version][2]
 
-Это дополнение обеспечивает простой способ читать новости формата Atom или RSS, используя NVDA.
-Новостные каналы не будут обновляться автоматически.
-Ниже, когда мы упоминаем новостные каналы, мы имеем в виду как RSS, так и ATOM каналы.
+This addon provides a straightforward  way to read feeds in Atom or RSS formats using NVDA.
+The feeds will not be refreshed automatically.
+Below when we mention feeds, we mean both RSS and ATOM feeds.
 
-## Команды ##
+## Installation or Update: ##
 
-### Диалог Чтение Новостей ###
+If you used a previous version of this addon, and there is an RSS or personalFeeds folder in your personal NVDA configuration folder,
+when installing the current version, a dialog will ask if you want to upgrade or install.
+Choose update to preserve your saved feeds and to continue using them in the new installed version of readFeeds.
 
-Вы можете получить доступ к диалогу чтения новостных каналов из меню nvda, подменю сервиса, пункта новостных каналов.
+## Commands: ##
 
-Он содержит следующие элементы управления:
+### Read Feeds menu ###
 
-* Фильтр по: поле редактирования для поиска ранее сохранённых новостных каналов.
-* В фокусе будет список сохраненных каналов, отображаемый при открытии диалога.
-* Список статей: Открывает диалог, в котором представлен список статей из вашего текущего канала. Выберите статью, которую вы хотите прочитать, и нажмите Enter или кнопку Открыть веб-страницу выбранной статьи, чтобы открыть соответствующую страницу в вашем браузере. Нажмите кнопку "О статье", чтобы открыть диалог с названием и ссылкой на выбранную статью; из этого диалога вы сможете скопировать эту информацию в буфер обмена.
-* Открыть новостной канал: Открывает выбранный новостной канал в приложении по умолчанию.
-* Открыть новостной канал как HTML: открывает выбранный канал в веб-браузере по умолчанию. Вы сможете отображать или скрывать даты публикации и кнопки для копирования информации о статьях в буфер обмена.
-* Копировать адрес канала: Открывает диалог для подтверждения того, хотите ли вы скопировать адрес канала в буфер обмена.
-* Новый: открывает диалог с полем редактирования, где можно ввести адрес нового канала. Если адрес действителен и новостной канал может быть сохранён, его имя появится в низу списка новостных каналов, исходя из названия канала.
-* Переименовать: открывает диалог с полем редактирования для переименования выбранного новостного канала.
-* Удалить: открывает диалог для удаления выбранного канала после подтверждения.
-* Установить по умолчанию: устанавливает выбранный канал по умолчанию, и его статьи могут быть доступны с помощью жестов NVDA.
-* Импорт новостных каналов из файла OPML: Открывает диалог для добавления новых каналов из файла OPML.
-* Сохранить новостные каналы в файл OPML: Открывает диалог для сохранения каналов, доступных в диалоге новостных каналов, в файл OPML.
-* Настройки: Открывает диалог настроек для readFeeds, также доступное в меню NVDA, настройках, категории readFeeds.
-* Закрыть: закрывает диалог новостных каналов.
+You can access the Read Feeds submenu from the nvda menu, Tools submenu, where the following menu options are available:
 
-### Примечания #####
+#### Feeds... ####
 
-* Поле редактирования фильтра можно установить после кнопки открытия статьи в меню NVDA, параметры, настройки, категория читателя каналов или нажав кнопку настроек в диалоге новостных каналов.
-* На этой панели есть возможность отображать даты статей в диалоге списка статей.
+Opens a dialog with the following controls:
+
+* Filter by: An edit box to search previously saved feeds.
+* A list of the saved feeds.
+* List of articles: Opens a dialog which presents the articles list from your current feed. Select the article you want to read and press Enter or Open web page of selected article button to open the corresponding page in your browser. Press About article button to open a dialog showing title and link of the selected article; from this dialog, you'll be able to copy this info to the clipboard.
+* Open feed: Opens the selected feed in the default application.
+* New: Opens a dialog with an edit box to enter the address of a new feed. If the address is valid and the feed can be saved, its name, based on the feed title, will appear at the bottom of the feeds list.
+* Rename: Opens a dialog with an edit box to rename the selected feed.
+* Delete: Opens a dialog to delete the selected feed after confirmation.
+* Set default: Sets the selected feed as the default, so that its articles can be accessed with NVDA's gestures.
+* Open folder containing a backup of feeds: Opens a folder which may contain a backup of feeds. This can be useful to explore and delete feeds which shouldn't be imported when the add-on is updated.
+* Close: Closes the Feeds dialog.
+
+##### Notes #####
+
+* If a feed named tempFeed is created, please rename it, as this file could be replaced when needed to create a feed whose name already exists.
+* The feed set as the default can't be removed. The addressFile feed will be use as the default when the configuration is reset, so it can't be deleted.
+
+####Copy feeds folder... ####
+
+Opens a dialog to choose a folder where you can save the personalFeeds directory of your feeds. By default the selected folder is the NVDA's configuration directory, which will create the personalFeeds directory.
+
+#### Restore feeds... ####
+
+Opens a dialog to select a folder which replaces your feeds in the personalFeeds folder. Make sure you load a folder containing feeds URLs.
+
+### Keyboard commands: ###
+
+* Ctrl+Shift+NVDA+Space: Announces current article's URL. Pressing twice will open the web page.
+* Ctrl+Shift+NVDA+8: Refreshes the selected feed and announces its most recent title.
+* Ctrl+Shift+NVDA+I: Announces current feed title and link. Pressing twice will copy the title and related link to clipboard.
+* Ctrl+Shift+NVDA+U: Announces previous feed title.
+* Ctrl+Shift+NVDA+O: Announces next feed title.
+
+## Notifications: ##
+
+* When the title or URL have been copied.
+* When unable to connect/refresh a feed, or the URL does not correspond to a valid feed.
+* NVDA will display an error message if it was not possible to backup or restore the personalFeeds folder.
+* The title of the articles list dialog displays the selected feed name and number of items available.
+
+## Changes for 8.0 ##
+
+* When the add-on is updated, feeds saved in the previous version of the add-on will be automatically copied to the new version, unless you prefer to import feeds saved in the main configuration folder of NVDA.
+* When using the dialog to copy feeds, if the chosen folder is not named personalFeeds, a subfolder with this name will be created to prevent the deletion of directories containing important data, such as Documents or Downloads.
+
+## Changes for 7.0 ##
+
+* The Feeds dialog includes a button to open a folder which may contain a backup of feeds.
+* When using the edit box to filter feeds, if no results are found, the list of feeds and other controls are disabled, so that NVDA doesn't report "unknown" in the empty list.
+* If the list of articles dialog can't be shown, for example due to errors in the feed, NVDA will raise an error, so that the feeds dialog can be used without restarting NVDA.
+
+## Changes for 6.0 ##
+
+* When the default feed has been updated and it stops working due to server issues, the previous articles aren't deleted and can be read with the corresponding keystrokes.
+* Fix regression: The default feed can be updated twice again.
+
+## Changes for 5.0 ##
+
+* The articles list dialog has been enhanced.
+* Compatible with NVDA 2018.3 or later (required).
+* If needed, you can download the [last version compatible with NVDA 2017.3][3].
+
+## Changes for 4.0 ##
+
+* Added a button to open the selected feed from the Feeds dialog.
+
+## Changes for 3.0 ##
+
+* The dialogs to manage feed files have been removed. Now their functionality is included in the Feeds dialog.
+* The visual presentation of the dialogs has been enhanced, adhering to the appearance of the dialogs shown in NVDA.
+* The default feed is saved on the NVDA's configuration. Therefore, it's possible to set different default feeds in configuration profiles.
+* Requires NVDA 2016.4.
 
 
-### Клавишные команды ###
+## Changes for 2.0 ##
 
-* Ctrl+Shift+NVDA+Пробел: Объявляет URL текущей статьи. Двойное нажатие откроет веб-страницу.
-* Ctrl+Shift+NVDA+8: Обновляет выбранную новостную ленту и объявляет своё последнее название.
-* Ctrl+Shift+NVDA+I: Объявляет название и ссылку текущей новостной ленты. Двойное нажатие скопирует название и соответствующую ссылку в буфер обмена.
-* Ctrl+Shift+NVDA+U: Объявляет название предыдущей новостной ленты.
-* Ctrl+Shift+NVDA+O: Объявляет название следующей новостной ленты.
+* Add-on help is available from the Add-ons Manager.
 
-## Оповещения ##
+## Changes for 1.0 ##
 
-* Когда название или URL были скопированы.
-* Когда не удается подключить/обновить ленту, или URL-адрес не соответствует допустимой новостной ленте.
-* NVDA отобразит сообщение об ошибке, если новый канал не может быть создан.
-* Диалог с названием списка статей отображает имя выбранной новостной ленты с количеством доступных элементов.
+* Initial version.
 
-## Изменения для 39.0.0
+[1]: http://addons.nvda-project.org/files/get.php?file=rf
 
-* Улучшены уведомления, когда название или URL были скопированы.
+[2]: http://addons.nvda-project.org/files/get.php?file=rf-dev
 
-## Изменения для 34.0.0
-
-* Добавлена поддержка каналов rss.cbc.ca.
-
-## Изменения для 21.0
-
-* Ленты со статьями без названия могут быть представлены в диалоге статей и открыты в формате HTML.
-
-## Изменения для 20.0
-
-* universalFeedParser обновлен до версии 5.0.1, добавлена поддержка большего количества каналов.
-
-## Изменения для 15.0
-
-* Совместимость с NVDA 2023.1.
-
-## Изменения для 14.0
-
-* Исправлена ошибка, из-за которой было невозможно добавлять некоторые каналы.
-
-## Изменения для 13.0
-
-* Дополнение нельзя использовать на защищённых экранах.
-* Новостные ленты управляются из файлов OPML.
-* В связи с изменениями в системе управления лентами, в конфигурационный файл, в котором установлен канал по умолчанию, внесены изменения. Пожалуйста, воспользуйтесь диалогом новостных лент, если вы хотите настроить его снова.
-* Ваши старые текстовые файлы, использовавшиеся в предыдущих версиях, будут автоматически импортированы в новый формат OPML при запуске дополнения.
-* Функция копирования и восстановления каналов была заменена возможностью импорта из файлов OPML и сохранения в них.
-* Некондиционные ленты можно обработать перед добавлением, чтобы сделать их совместимыми с дополнением.
-* На панели настроек каналов чтения появилась новая опция, позволяющая отображать даты статей в диалоге списка статей.
-
-## Изменения для 12.0
-
-* Исправлена ошибка, из-за которой ярлыки для элементов меню сервисов NVDA работали не так, как ожидалось.
-
-## Изменения для 11.0
-
-* Совместимость с NVDA 2021.1
-
-## Изменения для 10.0 ##
-
-* Добавлена кнопка для открытия выбранной ленты в формате HTML в веб-браузере по умолчанию.
-* Если новая новостная лента не может быть создана, об этом будет сообщено в диалоге с сообщением об ошибке.
-* Улучшен порядок и представление некоторых статей.
-* Возможно, будут поддерживаться дополнительные новостные ленты.
-* Когда откроется диалог новостных каналов, в центре внимания будет список каналов, а не поле редактирования поиска.
-* Вы можете выбрать, размещать ли поле редактирования поиска после списка каналов, что полезно для фокусировки на списке даже при переключении из другого окна, не закрывая диалог новостных лент.
-* Добавлена кнопка для копирования адреса канала в буфер обмена из диалога каналов.
-
-## Изменения для 9.0 ##
-
-* Требуется NVDA 2019.3 или позже.
-
-## Изменения для 8.0 ##
-
-* При обновлении дополнения каналы, сохранённые в предыдущей версии дополнения, будут автоматически скопированы в новую версию, если только вы не предпочитаете импортировать каналы, сохранённые в главной папке конфигурации NVDA.
-* При использовании диалога для копирования новостных каналов, если выбранная папка не имеет имени personalFeeds, будет создана подпапка с таким именем, чтобы предотвратить удаление каталогов, содержащих важные данные, такие как документы или загрузки.
-
-## Изменения для 7.0 ##
-
-* В диалоге новостных лент есть кнопка для открытия папки, которая может содержать резервную копию каналов.
-* При использовании поля редактирования для фильтрации каналов, если результаты не найдены, список каналов и другие элементы управления отключаются, чтобы NVDA не сообщала "неизвестно" в пустом списке.
-* Если диалог списка статей не может быть отображён, например, из-за ошибок в ленте, NVDA выдаст сообщение об ошибке, так что диалог лент можно будет использовать без перезапуска NVDA.
-
-## Изменения для 6.0 ##
-
-* Когда лента новостей по умолчанию обновляется и перестаёт работать из-за проблем с сервером, предыдущие статьи не удаляются и могут быть прочитаны с помощью соответствующих нажатий клавиш.
-* Исправлена регрессия: лента данных по умолчанию может быть обновлена ещё дважды.
-
-## Изменения для 5.0 ##
-
-* Улучшен диалог со списком статей.
-* Совместимо с NVDA 2018.3 или позднее (обязательно).
-
-## Изменения для 4.0 ##
-
-* Добавлена кнопка открытия новостной ленты в диалоге новостных лент.
-
-## Изменения для 3.0 ##
-
-* Диалоги управления файлами лент были удалены. Сейчас их функциональность вошла в диалог новостных лент.
-* Визуальное представление диалогов было модифицировано, придерживаясь внешнего вида диалогов, отображаемых в NVDA.
-* Новостная лента по умолчанию сохраняется в конфигурации NVDA. Таким образом, можно установить различные новостные ленты по умолчанию в различных профилях конфигурации.
-* Требуется NVDA 2016.4.
-
-## Изменения для 2.0 ##
-
-* Справка дополнения доступна в диспетчере дополнений.
-
-## Изменения для 1.0 ##
-
-* Первоначальная версия.
+[3]: http://addons.nvda-project.org/files/get.php?file=rf-o
