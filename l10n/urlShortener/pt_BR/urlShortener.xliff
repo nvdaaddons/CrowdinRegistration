@@ -2,42 +2,42 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="pt-BR">
   <file id="readme.md" original="https://raw.githubusercontent.com/nvdaes/urlShortener/01615764f6b529f5da5d52a3184b638ea8857aeb/readme.md">
     <skeleton>
-# $(ID:7d7f4496-8033-4883-a449-d47bc1e1985f)
+# $(ID:005e0620-b5bb-4daa-946c-bb854e84b7b8)
 
-* $(ID:b4c368e1-2c20-4ac9-89c9-82abb34ee2dd)
-* $(ID:8c325a69-32f6-4635-bf2a-a64e670e408c)
-* $(ID:dd1665a5-7f2b-43a4-9172-4c2a0adfaf98)
+* $(ID:e91be614-57f3-4afa-9766-fd480784837f)
+* $(ID:5a947036-1a82-44ff-8e19-9d84459da11e)
+* $(ID:49e6c714-5671-4e46-886c-f6041eb62ef9)
 
-$(ID:19ad99b3-e3dd-4e80-9680-bd7b53c0bd67)
+$(ID:1c5fa5f4-f026-405e-aaf5-2033b4fba4f8)
 
-## $(ID:8fb3c087-305f-4365-bee3-5a34d98115d2)
+## $(ID:a9bf373a-dd50-42f7-8378-945640e23e40)
 
-$(ID:464d98e7-26ef-4fbd-936b-1b37e7417ed0)
+$(ID:a695d954-19b5-46ac-83dc-c0408b2b005a)
 
-$(ID:47a1bc34-a228-4f67-aa9d-554e201bc61e)
+$(ID:cdf5d601-4867-41b6-a351-292e68f21c3b)
 
-$(ID:e226dba4-c4b6-4e70-896f-95a875859a51)
+$(ID:9dc1a63a-7eb9-48da-b5f7-a37022f64be5)
 
-* $(ID:2f5eb111-22bf-46da-9255-8e1e42c63051)
-* $(ID:ca381743-ba6c-494d-b68a-95711d1203f3)
-* $(ID:65ec5675-e68c-46ff-8704-f91ac7389fed)
-* $(ID:2365a423-e5b4-49a3-a9af-d8f9bab8e94e)
-* $(ID:facfe3d2-d8ed-421d-977b-5fb9859387bc)
-* $(ID:ff9d607e-6cfe-45f4-92b6-6ee9b005bed3)
-* $(ID:64d634be-465f-480d-a529-566519b12c9b)
+* $(ID:f287e105-665d-4b1b-a60d-b354377e4770)
+* $(ID:3b42770c-9766-4dc2-a20d-a4c3049865f4)
+* $(ID:8c39d68b-1184-4a8c-b97c-b0e3ff30077f)
+* $(ID:c6044add-768f-465b-8561-51876412f1f4)
+* $(ID:21f9495b-3a98-4e39-ba99-8fe37975b6a5)
+* $(ID:c64a2c4e-e34d-44aa-bc12-db8efffb1b47)
+* $(ID:4dd4dfc6-b310-46b3-b885-a6236ee5d6b6)
 
-## $(ID:aae6ad4a-696b-472b-a583-e1ac121f16b3)
+## $(ID:4883d40e-4cdc-4b74-b5bb-771f5b8ead2f)
 
-* $(ID:ae208222-adba-44a6-8852-a8593320e008)
+* $(ID:f5f5cb30-73ff-48d3-9af9-9df48ca47b80)
 
-$(ID:0b018377-0ea6-4b34-b31b-05a8b9355e93)
+$(ID:f9f6aca0-5b24-4a1b-be9f-c488e082b463)
 
-$(ID:6cdbe4f5-8142-4959-8850-ca6f753038fc)
+$(ID:18e385e4-2b04-4517-8256-ebcb68c40388)
 
-$(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
+$(ID:98bc3a22-79e5-4bc6-826a-f8915c62208d)
 
 </skeleton>
-    <unit id="7d7f4496-8033-4883-a449-d47bc1e1985f">
+    <unit id="005e0620-b5bb-4daa-946c-bb854e84b7b8">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -47,7 +47,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>URL Shortener #</target>
       </segment>
     </unit>
-    <unit id="b4c368e1-2c20-4ac9-89c9-82abb34ee2dd">
+    <unit id="e91be614-57f3-4afa-9766-fd480784837f">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -57,7 +57,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Author: Noelia Ruiz Martínez</target>
       </segment>
     </unit>
-    <unit id="8c325a69-32f6-4635-bf2a-a64e670e408c">
+    <unit id="5a947036-1a82-44ff-8e19-9d84459da11e">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
@@ -67,7 +67,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Download [latest stable version][1] (compatible with NVDA 2023.1 and beyond)</target>
       </segment>
     </unit>
-    <unit id="dd1665a5-7f2b-43a4-9172-4c2a0adfaf98">
+    <unit id="49e6c714-5671-4e46-886c-f6041eb62ef9">
       <notes>
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
@@ -77,7 +77,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Download [latest beta version][2] (compatible with NVDA 2023.1 and beyond)</target>
       </segment>
     </unit>
-    <unit id="19ad99b3-e3dd-4e80-9680-bd7b53c0bd67">
+    <unit id="1c5fa5f4-f026-405e-aaf5-2033b4fba4f8">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
@@ -86,7 +86,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>This add-on is used to shorten URLs from NVDA through [is.gd][3].</target>
       </segment>
     </unit>
-    <unit id="8fb3c087-305f-4365-bee3-5a34d98115d2">
+    <unit id="a9bf373a-dd50-42f7-8378-945640e23e40">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: ## </note>
@@ -96,7 +96,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Shorten URL dialog ##</target>
       </segment>
     </unit>
-    <unit id="464d98e7-26ef-4fbd-936b-1b37e7417ed0">
+    <unit id="a695d954-19b5-46ac-83dc-c0408b2b005a">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
@@ -105,7 +105,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Go to NVDA's menu, Tools submenu, and activate the Shorten URL item.</target>
       </segment>
     </unit>
-    <unit id="47a1bc34-a228-4f67-aa9d-554e201bc61e">
+    <unit id="cdf5d601-4867-41b6-a351-292e68f21c3b">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
@@ -114,7 +114,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Alternatively, you can assign a gesture from the Input gestures dialog of NVDA.</target>
       </segment>
     </unit>
-    <unit id="e226dba4-c4b6-4e70-896f-95a875859a51">
+    <unit id="9dc1a63a-7eb9-48da-b5f7-a37022f64be5">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
@@ -123,7 +123,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>The Shorten URL dialog includes the following controls:</target>
       </segment>
     </unit>
-    <unit id="2f5eb111-22bf-46da-9255-8e1e42c63051">
+    <unit id="f287e105-665d-4b1b-a60d-b354377e4770">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
@@ -133,7 +133,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>A list to select one of the saved URLs. From this list, Press shift+tab to search, and tab to press one of the following buttons.</target>
       </segment>
     </unit>
-    <unit id="ca381743-ba6c-494d-b68a-95711d1203f3">
+    <unit id="3b42770c-9766-4dc2-a20d-a4c3049865f4">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
@@ -143,7 +143,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Copy shortened URL. This can also be activated by pressing Enter from the URLs list.</target>
       </segment>
     </unit>
-    <unit id="65ec5675-e68c-46ff-8704-f91ac7389fed">
+    <unit id="8c39d68b-1184-4a8c-b97c-b0e3ff30077f">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
@@ -153,7 +153,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>New: opens a dialog to type an URL to be shortened. A display name maybe provided from this dialog.</target>
       </segment>
     </unit>
-    <unit id="2365a423-e5b4-49a3-a9af-d8f9bab8e94e">
+    <unit id="c6044add-768f-465b-8561-51876412f1f4">
       <notes>
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
@@ -163,7 +163,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Rename: opens a dialog to provide a new name to display the selected URL on the list.</target>
       </segment>
     </unit>
-    <unit id="facfe3d2-d8ed-421d-977b-5fb9859387bc">
+    <unit id="21f9495b-3a98-4e39-ba99-8fe37975b6a5">
       <notes>
         <note appliesTo="source">line: 22</note>
         <note appliesTo="source">prefix: * </note>
@@ -173,7 +173,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Delete: opens a dialog to delete the selected URL.</target>
       </segment>
     </unit>
-    <unit id="ff9d607e-6cfe-45f4-92b6-6ee9b005bed3">
+    <unit id="c64a2c4e-e34d-44aa-bc12-db8efffb1b47">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: * </note>
@@ -183,7 +183,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Remove saved URLs: opens a dialog to remove the saved URLs from the configuration folder.</target>
       </segment>
     </unit>
-    <unit id="64d634be-465f-480d-a529-566519b12c9b">
+    <unit id="4dd4dfc6-b310-46b3-b885-a6236ee5d6b6">
       <notes>
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
@@ -193,7 +193,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Close.</target>
       </segment>
     </unit>
-    <unit id="aae6ad4a-696b-472b-a583-e1ac121f16b3">
+    <unit id="4883d40e-4cdc-4b74-b5bb-771f5b8ead2f">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: ## </note>
@@ -203,7 +203,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Changes for 1.0.0 ##</target>
       </segment>
     </unit>
-    <unit id="ae208222-adba-44a6-8852-a8593320e008">
+    <unit id="f5f5cb30-73ff-48d3-9af9-9df48ca47b80">
       <notes>
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: * </note>
@@ -213,7 +213,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>Initial version.</target>
       </segment>
     </unit>
-    <unit id="0b018377-0ea6-4b34-b31b-05a8b9355e93">
+    <unit id="f9f6aca0-5b24-4a1b-be9f-c488e082b463">
       <notes>
         <note appliesTo="source">line: 30</note>
       </notes>
@@ -222,7 +222,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>[1]: https://www.nvaccess.org/addonStore/legacy?file=urlShortener</target>
       </segment>
     </unit>
-    <unit id="6cdbe4f5-8142-4959-8850-ca6f753038fc">
+    <unit id="18e385e4-2b04-4517-8256-ebcb68c40388">
       <notes>
         <note appliesTo="source">line: 32</note>
       </notes>
@@ -231,7 +231,7 @@ $(ID:ed7a3f15-7e32-4f2b-a33a-68b826782d72)
         <target>[2]: https://www.nvaccess.org/addonStore/legacy?file=urlShortener-beta</target>
       </segment>
     </unit>
-    <unit id="ed7a3f15-7e32-4f2b-a33a-68b826782d72">
+    <unit id="98bc3a22-79e5-4bc6-826a-f8915c62208d">
       <notes>
         <note appliesTo="source">line: 34</note>
       </notes>

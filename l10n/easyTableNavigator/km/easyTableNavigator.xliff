@@ -2,37 +2,37 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="km">
   <file id="readme.md" original="https://raw.githubusercontent.com/CoBC/easyTableNavigator-1/218f6f4ed1e565358c9a2fea862918f0b7c2783d/readme.md">
     <skeleton>
-# $(ID:97c3d108-bd28-434f-80d9-1d3441474feb)
+# $(ID:0d682f34-76ff-4487-9ba8-0c3afe401d48)
 
-*   $(ID:6f382247-e7c6-4d34-a14d-80cf3737189a)
-* $(ID:d29678ee-45f6-47ef-b441-63a1f552edad)
-* $(ID:b626ec68-c7fc-4d1f-8c39-44916568508b)
+*   $(ID:b81df263-b35a-49aa-aa87-09997414cdf9)
+* $(ID:14aef555-e2c8-460d-b7c7-c3ec0d4c99a9)
+* $(ID:fb1072ca-a510-49b0-9585-1fcd795e9bce)
 
-$(ID:6c044f88-99ec-40ef-ae0e-81877c4cac39)
+$(ID:b1440192-c6ef-46d8-9160-c82646ce7523)
 
-$(ID:45cb933a-3ef9-4969-8fb2-e44493a4611f)
+$(ID:14d4d746-499f-4f7b-9ed6-bcedb7edbecb)
 
-* $(ID:e1a695f7-c106-483e-9c63-baa036a4cb56)
-* $(ID:bcc9699a-4048-4d12-b9c2-73557635e906)
+* $(ID:7cc663a0-60e0-45e9-8295-ded5db7bece1)
+* $(ID:2bb64beb-c3e6-4a56-85b7-5c19af82ba4a)
 
-## $(ID:ac34379c-47f0-424a-b8d7-401c2600cb4a)
+## $(ID:b23d8acd-8fd0-4756-8cc0-57ec3dfcfc5f)
 
-* $(ID:760a49d2-380c-47ab-a5a0-57ff2eed2752)
+* $(ID:d3831948-fc2e-4048-9942-a552543e7b17)
 
-## $(ID:a6e7a627-fe1f-4e8a-84ca-54849dfff51a)
+## $(ID:5f872221-b6ae-4eb2-a588-05587ecf5111)
 
-* $(ID:9149b7c9-adb6-4f63-a078-e542be6ab15b)
+* $(ID:1080eb87-ab51-4ef1-8562-c2d7ad45788e)
 
-## $(ID:d4310b92-7752-4710-84da-5e4c47db67cf)
+## $(ID:896174bd-4388-453a-b3bd-b2120418f30a)
 
-*   $(ID:df29948e-35fd-4076-a084-f1c62fa8a9ba)
+*   $(ID:1390edcf-8f6f-4629-abb4-4316380062ab)
 
-$(ID:d71e25a2-e90a-4773-9f2b-1d3e1ea62314)
+$(ID:f3342200-7ecc-49c3-b39f-d6de734143f7)
 
-$(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
+$(ID:0817b740-8bac-4822-80a4-b2a5af74f5b0)
 
 </skeleton>
-    <unit id="97c3d108-bd28-434f-80d9-1d3441474feb">
+    <unit id="0d682f34-76ff-4487-9ba8-0c3afe401d48">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -42,7 +42,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Easy Table Navigator</target>
       </segment>
     </unit>
-    <unit id="6f382247-e7c6-4d34-a14d-80cf3737189a">
+    <unit id="b81df263-b35a-49aa-aa87-09997414cdf9">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: *   </note>
@@ -52,7 +52,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Author: Joseph Lee</target>
       </segment>
     </unit>
-    <unit id="d29678ee-45f6-47ef-b441-63a1f552edad">
+    <unit id="14aef555-e2c8-460d-b7c7-c3ec0d4c99a9">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
@@ -62,7 +62,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Download [stable version][1]</target>
       </segment>
     </unit>
-    <unit id="b626ec68-c7fc-4d1f-8c39-44916568508b">
+    <unit id="fb1072ca-a510-49b0-9585-1fcd795e9bce">
       <notes>
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
@@ -72,7 +72,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Download [development version][2]</target>
       </segment>
     </unit>
-    <unit id="6c044f88-99ec-40ef-ae0e-81877c4cac39">
+    <unit id="b1440192-c6ef-46d8-9160-c82646ce7523">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
@@ -81,7 +81,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>This plugin adds a layer command to use arrow keys to navigate table cells.</target>
       </segment>
     </unit>
-    <unit id="45cb933a-3ef9-4969-8fb2-e44493a4611f">
+    <unit id="14d4d746-499f-4f7b-9ed6-bcedb7edbecb">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
@@ -90,7 +90,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Currently supported tables are:</target>
       </segment>
     </unit>
-    <unit id="e1a695f7-c106-483e-9c63-baa036a4cb56">
+    <unit id="7cc663a0-60e0-45e9-8295-ded5db7bece1">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
@@ -100,7 +100,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Browse mode (Internet Explorer, Firefox, etc.).</target>
       </segment>
     </unit>
-    <unit id="bcc9699a-4048-4d12-b9c2-73557635e906">
+    <unit id="2bb64beb-c3e6-4a56-85b7-5c19af82ba4a">
       <notes>
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: * </note>
@@ -110,7 +110,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Microsoft Word.</target>
       </segment>
     </unit>
-    <unit id="ac34379c-47f0-424a-b8d7-401c2600cb4a">
+    <unit id="b23d8acd-8fd0-4756-8cc0-57ec3dfcfc5f">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: ## </note>
@@ -120,7 +120,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Commands</target>
       </segment>
     </unit>
-    <unit id="760a49d2-380c-47ab-a5a0-57ff2eed2752">
+    <unit id="d3831948-fc2e-4048-9942-a552543e7b17">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
@@ -130,7 +130,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Toggles table navigator layer on and off (unassigned).</target>
       </segment>
     </unit>
-    <unit id="a6e7a627-fe1f-4e8a-84ca-54849dfff51a">
+    <unit id="5f872221-b6ae-4eb2-a588-05587ecf5111">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: ## </note>
@@ -140,7 +140,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Changes for 1.1</target>
       </segment>
     </unit>
-    <unit id="9149b7c9-adb6-4f63-a078-e542be6ab15b">
+    <unit id="1080eb87-ab51-4ef1-8562-c2d7ad45788e">
       <notes>
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
@@ -150,7 +150,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Fixed an issue where errors might be heard when spell checking a message in Outlook.</target>
       </segment>
     </unit>
-    <unit id="d4310b92-7752-4710-84da-5e4c47db67cf">
+    <unit id="896174bd-4388-453a-b3bd-b2120418f30a">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: ## </note>
@@ -160,7 +160,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Changes for 1.0</target>
       </segment>
     </unit>
-    <unit id="df29948e-35fd-4076-a084-f1c62fa8a9ba">
+    <unit id="1390edcf-8f6f-4629-abb4-4316380062ab">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: *   </note>
@@ -170,7 +170,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>Initial release.</target>
       </segment>
     </unit>
-    <unit id="d71e25a2-e90a-4773-9f2b-1d3e1ea62314">
+    <unit id="f3342200-7ecc-49c3-b39f-d6de734143f7">
       <notes>
         <note appliesTo="source">line: 27</note>
       </notes>
@@ -179,7 +179,7 @@ $(ID:6d07a8f6-27c3-4964-9e73-72c706c410a1)
         <target>[1]: http://addons.nvda-project.org/files/get.php?file=etn</target>
       </segment>
     </unit>
-    <unit id="6d07a8f6-27c3-4964-9e73-72c706c410a1">
+    <unit id="0817b740-8bac-4822-80a4-b2a5af74f5b0">
       <notes>
         <note appliesTo="source">line: 29</note>
       </notes>

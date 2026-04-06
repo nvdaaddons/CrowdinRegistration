@@ -2,30 +2,30 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="kmr">
   <file id="readme.md" original="https://raw.githubusercontent.com/ABuffEr/noBeepsSpeechMode/628f382eb18084ea7d00f88169c08e221683c553/readme.md">
     <skeleton>
-# $(ID:833bd34a-9199-481a-a6ee-920838f885e9)
+# $(ID:97966710-00b4-4aac-915b-702ddcd8934c)
 
-* $(ID:ab998fb0-c818-4323-bd60-09999ecb70d6)
-* $(ID:61071e08-5d56-415f-9a18-0e1ae0368102)
+* $(ID:03d9e6df-f2f2-4401-8a29-08611d32cae5)
+* $(ID:a56eafc8-e19d-4a8d-b982-f25069fa7870)
 
-$(ID:53146c16-2c7c-4059-9b42-8e461292a5c1)
+$(ID:780dbde4-3c38-4841-b741-2e3be9926e61)
 
-$(ID:55f67a33-c957-4c5a-bc43-3a74073c0226)
+$(ID:a7d31ae3-25f0-472d-b034-98ed56e3abd6)
 
-## $(ID:4aa0c781-d66d-4395-8858-e3ab20f6610e)
+## $(ID:9e6919a0-ee9d-4075-b565-94b6437f8e75)
 
-$(ID:7cc92f61-b813-4695-9273-fab0ef3be86f)
+$(ID:4bc1c5d9-d36b-4eee-966b-1cf84bfd00b1)
 
-$(ID:ad3a0fa2-9625-418b-8812-59795a339163)
+$(ID:29bf8c01-1763-4795-a099-152bda5cca45)
 
-$(ID:984c7cfd-3942-43b3-b320-00d804373e0f)
+$(ID:3be95d0d-d2d0-4440-b776-e037d3ace160)
 
 
-$(ID:7ff24b0d-11df-4861-8dc9-75a811f674c8)
+$(ID:d416505b-813b-4c1b-8830-24979025d5e1)
 
-$(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
+$(ID:f30e1150-eed9-46ad-be63-5338cdef04bb)
 
 </skeleton>
-    <unit id="833bd34a-9199-481a-a6ee-920838f885e9">
+    <unit id="97966710-00b4-4aac-915b-702ddcd8934c">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -35,7 +35,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>NoBeepsSpeechMode</target>
       </segment>
     </unit>
-    <unit id="ab998fb0-c818-4323-bd60-09999ecb70d6">
+    <unit id="03d9e6df-f2f2-4401-8a29-08611d32cae5">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -45,7 +45,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>Author: Alberto Buffolino.</target>
       </segment>
     </unit>
-    <unit id="61071e08-5d56-415f-9a18-0e1ae0368102">
+    <unit id="a56eafc8-e19d-4a8d-b982-f25069fa7870">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
@@ -55,7 +55,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>download [stable version][stable]</target>
       </segment>
     </unit>
-    <unit id="53146c16-2c7c-4059-9b42-8e461292a5c1">
+    <unit id="780dbde4-3c38-4841-b741-2e3be9926e61">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
@@ -64,7 +64,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>This add-on excludes beeps in the speech mode when pressing NVDA+s.</target>
       </segment>
     </unit>
-    <unit id="55f67a33-c957-4c5a-bc43-3a74073c0226">
+    <unit id="a7d31ae3-25f0-472d-b034-98ed56e3abd6">
       <notes>
         <note appliesTo="source">line: 9</note>
       </notes>
@@ -73,7 +73,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>You can only toggle between off or talk.</target>
       </segment>
     </unit>
-    <unit id="4aa0c781-d66d-4395-8858-e3ab20f6610e">
+    <unit id="9e6919a0-ee9d-4075-b565-94b6437f8e75">
       <notes>
         <note appliesTo="source">line: 11</note>
         <note appliesTo="source">prefix: ## </note>
@@ -83,7 +83,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>Compatibility</target>
       </segment>
     </unit>
-    <unit id="7cc92f61-b813-4695-9273-fab0ef3be86f">
+    <unit id="4bc1c5d9-d36b-4eee-966b-1cf84bfd00b1">
       <notes>
         <note appliesTo="source">line: 13</note>
       </notes>
@@ -92,7 +92,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>Starting from 2024.1, you get a message inviting to remove the add-on.</target>
       </segment>
     </unit>
-    <unit id="ad3a0fa2-9625-418b-8812-59795a339163">
+    <unit id="29bf8c01-1763-4795-a099-152bda5cca45">
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
@@ -101,7 +101,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>Current release is for NVDA 2021.1 up to 2023.3.</target>
       </segment>
     </unit>
-    <unit id="984c7cfd-3942-43b3-b320-00d804373e0f">
+    <unit id="3be95d0d-d2d0-4440-b776-e037d3ace160">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
@@ -110,7 +110,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>For older versions, download the [4.0 stable][old-stable]</target>
       </segment>
     </unit>
-    <unit id="7ff24b0d-11df-4861-8dc9-75a811f674c8">
+    <unit id="d416505b-813b-4c1b-8830-24979025d5e1">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
@@ -119,7 +119,7 @@ $(ID:a92a31e4-540b-467e-95db-3afb04ec0493)
         <target>[old-stable]: https://github.com/ABuffEr/noBeepsSpeechMode/releases/download/v4.0/noBeepsSpeechMode-4.0.nvda-addon</target>
       </segment>
     </unit>
-    <unit id="a92a31e4-540b-467e-95db-3afb04ec0493">
+    <unit id="f30e1150-eed9-46ad-be63-5338cdef04bb">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>

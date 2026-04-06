@@ -2,43 +2,43 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="sl">
   <file id="readme.md" original="https://raw.githubusercontent.com/jakubl7545/winWizard/28c9a0cc0818a11cb635561a15152f49f2c9bc8c/readme.md">
     <skeleton>
-# $(ID:3f118e8d-b3ca-4793-ada7-8ef6525114a5)
+# $(ID:4d8fea53-2d1c-413e-8042-03a2c4d54f7f)
 
-* $(ID:1cef387b-2c74-4b16-b108-13606e7ff4de)
-* $(ID:f124abff-1916-491b-a9f0-d53ae0f7f5a7)
+* $(ID:1dd9e554-28f2-4552-879d-fd0ec8ba508f)
+* $(ID:408aebe7-506d-41e8-b5d1-cf8fb348bac4)
 
-$(ID:cb295302-c11a-4ec4-a326-d9d944047b3f)
+$(ID:80fd727e-6363-4b6c-b3fd-a84d0a9c287e)
 
-## $(ID:1c9a86e4-5f7a-475c-a728-34d691c963f6)
-$(ID:874228c3-081a-4ed6-96f6-280989fbb03a)
-### $(ID:9255dfcd-de89-4208-9731-3a423cd07c24)
-* $(ID:c219bbb3-0b39-4f14-bf11-7115f7713098)
-* $(ID:f2a07b27-7eed-45dc-aae5-20b9b0da7ae3)
-* $(ID:66bd692f-af15-40c4-9c4e-ad05eae3535a)
-* $(ID:2fd73d55-8deb-4a98-939a-e5c4d199d6f4)
-* $(ID:7ea9de1e-426d-4df0-9781-9998fd8fdcbe)
-* $(ID:d1e08ad5-7dfa-47fa-9606-47563d073408)
+## $(ID:67abbd8c-1f38-4218-9ae2-e51b9b8ce79c)
+$(ID:dd4987d6-d23f-428a-8ecc-86ac9f0a0222)
+### $(ID:efe12596-5070-454f-8a7d-1fc6332791b9)
+* $(ID:34fa2839-9968-46ab-8c49-cadd11d8ba9f)
+* $(ID:4debd158-7cbc-4cef-8ace-ee50984a4b50)
+* $(ID:25ec5044-ab7c-4b4b-832a-5589c40e793a)
+* $(ID:1e862233-1221-42dd-9a80-598e2b60f982)
+* $(ID:7f848ffd-dd69-4e36-b88f-cbbf2f64cf99)
+* $(ID:a2639744-bb9d-48ba-8977-1b58ac935473)
 
-### $(ID:ae737b22-6394-4ef1-9d3a-121865dce335)
-* $(ID:f83f0cf5-8e9d-4282-8813-b70430bbb67c)
-* $(ID:34a4030c-6c88-4d55-b0be-5df9410fea9c)
+### $(ID:4e70fcb8-7973-4b93-ab38-15fdb8a688cd)
+* $(ID:6dc4ba0b-4b14-456a-ba46-25950f45e733)
+* $(ID:6f3983a9-33f3-4ee5-8bad-48928778ebd3)
 
-### $(ID:62000396-36e2-4f1c-b8e3-3b71cf0c20af)
-* $(ID:64117317-b4ab-4aa9-9f25-ea4e23c9ca2a)
-* $(ID:eac86423-56a4-4460-bc50-412351186b70)
+### $(ID:9d7147cc-bc97-4cf1-9d7c-7063a4f379cb)
+* $(ID:0dc72433-37d5-4974-b083-af27eef36566)
+* $(ID:b8124953-bfe0-4be9-b1c6-9ab51b4b04d6)
 
-## $(ID:f6fcad18-de86-457c-9846-8c0303a392ef)
+## $(ID:2f04f066-a14e-4ee3-b414-d767364abb2e)
 
-## $(ID:ee754d13-0e4b-4844-b580-1ccb62fdc513)
+## $(ID:d32ce537-381c-4370-b180-cd136d591746)
 
-$(ID:eaeb7e20-92f2-42fb-9783-bf3e31329da2)
+$(ID:4aef72dc-bef9-4c0d-b676-1be93874e768)
 
-## $(ID:c6051d8c-c45a-4d45-9cf5-8d66ed58e2f8)
+## $(ID:b93ae8d7-8d17-45cc-bb25-40756ad7e94d)
 
-$(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
+$(ID:99cf3177-3b2e-46ac-bbdc-0e91259bb7a8)
 
 </skeleton>
-    <unit id="3f118e8d-b3ca-4793-ada7-8ef6525114a5">
+    <unit id="4d8fea53-2d1c-413e-8042-03a2c4d54f7f">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -48,7 +48,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Win Wizard</target>
       </segment>
     </unit>
-    <unit id="1cef387b-2c74-4b16-b108-13606e7ff4de">
+    <unit id="1dd9e554-28f2-4552-879d-fd0ec8ba508f">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -58,7 +58,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Author: Oriol Gómez, current maintenance by Łukasz Golonka</target>
       </segment>
     </unit>
-    <unit id="f124abff-1916-491b-a9f0-d53ae0f7f5a7">
+    <unit id="408aebe7-506d-41e8-b5d1-cf8fb348bac4">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
@@ -68,7 +68,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>NVDA compatibility: 2019.3 and beyond</target>
       </segment>
     </unit>
-    <unit id="cb295302-c11a-4ec4-a326-d9d944047b3f">
+    <unit id="80fd727e-6363-4b6c-b3fd-a84d0a9c287e">
       <notes>
         <note appliesTo="source">line: 7</note>
       </notes>
@@ -77,7 +77,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>This add-on allows you to perform some operations on the focused window or the process associated with it.</target>
       </segment>
     </unit>
-    <unit id="1c9a86e4-5f7a-475c-a728-34d691c963f6">
+    <unit id="67abbd8c-1f38-4218-9ae2-e51b9b8ce79c">
       <notes>
         <note appliesTo="source">line: 9</note>
         <note appliesTo="source">prefix: ## </note>
@@ -87,7 +87,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Keyboard commands:</target>
       </segment>
     </unit>
-    <unit id="874228c3-081a-4ed6-96f6-280989fbb03a">
+    <unit id="dd4987d6-d23f-428a-8ecc-86ac9f0a0222">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
@@ -96,7 +96,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>All these commands can be remapped from the Input gestures dialog in the Win Wizard category.</target>
       </segment>
     </unit>
-    <unit id="9255dfcd-de89-4208-9731-3a423cd07c24">
+    <unit id="efe12596-5070-454f-8a7d-1fc6332791b9">
       <notes>
         <note appliesTo="source">line: 11</note>
         <note appliesTo="source">prefix: ### </note>
@@ -106,7 +106,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Hiding and showing hidden windows:</target>
       </segment>
     </unit>
-    <unit id="c219bbb3-0b39-4f14-bf11-7115f7713098">
+    <unit id="34fa2839-9968-46ab-8c49-cadd11d8ba9f">
       <notes>
         <note appliesTo="source">line: 12</note>
         <note appliesTo="source">prefix: * </note>
@@ -116,7 +116,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>NVDA+Windows+numbers from 1 to 0 - hides  currently focused window in the slot corresponding to the pressed number</target>
       </segment>
     </unit>
-    <unit id="f2a07b27-7eed-45dc-aae5-20b9b0da7ae3">
+    <unit id="4debd158-7cbc-4cef-8ace-ee50984a4b50">
       <notes>
         <note appliesTo="source">line: 13</note>
         <note appliesTo="source">prefix: * </note>
@@ -126,7 +126,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>NVDA+Windows+left arrow - moves to the previous stack of hidden windows.</target>
       </segment>
     </unit>
-    <unit id="66bd692f-af15-40c4-9c4e-ad05eae3535a">
+    <unit id="25ec5044-ab7c-4b4b-832a-5589c40e793a">
       <notes>
         <note appliesTo="source">line: 14</note>
         <note appliesTo="source">prefix: * </note>
@@ -136,7 +136,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>NVDA+Windows+right arrow - moves to the next stack of hidden windows.</target>
       </segment>
     </unit>
-    <unit id="2fd73d55-8deb-4a98-939a-e5c4d199d6f4">
+    <unit id="1e862233-1221-42dd-9a80-598e2b60f982">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
@@ -146,7 +146,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Windows+Shift+h - hides the currently focused window in the first available slot</target>
       </segment>
     </unit>
-    <unit id="7ea9de1e-426d-4df0-9781-9998fd8fdcbe">
+    <unit id="7f848ffd-dd69-4e36-b88f-cbbf2f64cf99">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
@@ -156,7 +156,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>NVDA+Windows+h - shows the last hidden window</target>
       </segment>
     </unit>
-    <unit id="d1e08ad5-7dfa-47fa-9606-47563d073408">
+    <unit id="a2639744-bb9d-48ba-8977-1b58ac935473">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
@@ -166,7 +166,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Windows+Shift+l - shows the list of all hidden windows grouped by the stacks (please note that by default last hidden window is selected)</target>
       </segment>
     </unit>
-    <unit id="ae737b22-6394-4ef1-9d3a-121865dce335">
+    <unit id="4e70fcb8-7973-4b93-ab38-15fdb8a688cd">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: ### </note>
@@ -176,7 +176,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Managing processes:</target>
       </segment>
     </unit>
-    <unit id="f83f0cf5-8e9d-4282-8813-b70430bbb67c">
+    <unit id="6dc4ba0b-4b14-456a-ba46-25950f45e733">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
@@ -186,7 +186,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Windows+F4 - kills the process associated with the currently focused window</target>
       </segment>
     </unit>
-    <unit id="34a4030c-6c88-4d55-b0be-5df9410fea9c">
+    <unit id="6f3983a9-33f3-4ee5-8bad-48928778ebd3">
       <notes>
         <note appliesTo="source">line: 21</note>
         <note appliesTo="source">prefix: * </note>
@@ -196,7 +196,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>NVDA+Windows+p - opens dialog allowing you to set priority of the process associated with the currently focused window</target>
       </segment>
     </unit>
-    <unit id="62000396-36e2-4f1c-b8e3-3b71cf0c20af">
+    <unit id="9d7147cc-bc97-4cf1-9d7c-7063a4f379cb">
       <notes>
         <note appliesTo="source">line: 23</note>
         <note appliesTo="source">prefix: ### </note>
@@ -206,7 +206,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Miscellaneous  commands:</target>
       </segment>
     </unit>
-    <unit id="64117317-b4ab-4aa9-9f25-ea4e23c9ca2a">
+    <unit id="0dc72433-37d5-4974-b083-af27eef36566">
       <notes>
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: * </note>
@@ -216,7 +216,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>NVDA+Windows+TAB - switches between top level windows of the current program (useful in foobar2000, Back4Sure etc.)</target>
       </segment>
     </unit>
-    <unit id="eac86423-56a4-4460-bc50-412351186b70">
+    <unit id="b8124953-bfe0-4be9-b1c6-9ab51b4b04d6">
       <notes>
         <note appliesTo="source">line: 25</note>
         <note appliesTo="source">prefix: * </note>
@@ -226,7 +226,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>CTRL+ALT+T - allows you to change title of the currently focused program</target>
       </segment>
     </unit>
-    <unit id="f6fcad18-de86-457c-9846-8c0303a392ef">
+    <unit id="2f04f066-a14e-4ee3-b414-d767364abb2e">
       <notes>
         <note appliesTo="source">line: 27</note>
         <note appliesTo="source">prefix: ## </note>
@@ -236,7 +236,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Changes:</target>
       </segment>
     </unit>
-    <unit id="ee754d13-0e4b-4844-b580-1ccb62fdc513">
+    <unit id="d32ce537-381c-4370-b180-cd136d591746">
       <notes>
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: ## </note>
@@ -246,7 +246,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Changes for 5.0.3:</target>
       </segment>
     </unit>
-    <unit id="eaeb7e20-92f2-42fb-9783-bf3e31329da2">
+    <unit id="4aef72dc-bef9-4c0d-b676-1be93874e768">
       <notes>
         <note appliesTo="source">line: 31</note>
       </notes>
@@ -255,7 +255,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>- Compatibility with NVDA 2021.1</target>
       </segment>
     </unit>
-    <unit id="c6051d8c-c45a-4d45-9cf5-8d66ed58e2f8">
+    <unit id="b93ae8d7-8d17-45cc-bb25-40756ad7e94d">
       <notes>
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: ## </note>
@@ -265,7 +265,7 @@ $(ID:e3a7d711-cd69-4f4c-90b6-c8f02b6b6820)
         <target>Changes for 5.0.2:</target>
       </segment>
     </unit>
-    <unit id="e3a7d711-cd69-4f4c-90b6-c8f02b6b6820">
+    <unit id="99cf3177-3b2e-46ac-bbdc-0e91259bb7a8">
       <notes>
         <note appliesTo="source">line: 35</note>
       </notes>

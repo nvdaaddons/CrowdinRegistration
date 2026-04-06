@@ -2,45 +2,45 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="hu">
   <file id="readme.md" original="https://raw.githubusercontent.com/burmancomp/show-selection-when-braille-tethered-to-review/e1e8200284ae49fb5cb11bbf74671a5ec08287ea/readme.md">
     <skeleton>
-# $(ID:08efa838-c36d-4285-8775-42bd75acb665)
+# $(ID:67033836-b00d-44b2-a899-29a9662a933f)
 
-## $(ID:a9af50c8-0d14-42d9-9428-92e4e356ac5b)
+## $(ID:50cb5976-f9ab-4a20-8765-8a036277d673)
 
-$(ID:44836c68-fd2e-4528-95bd-58571cf343b5)
+$(ID:ec09b16a-228e-420b-acf2-d5041b634ca4)
 
-## $(ID:5cd14e32-fa0a-4a93-ab75-53ac95372aa1)
+## $(ID:fba843c9-7222-4b1e-8bd7-6360ecdbe73f)
 
-$(ID:56bbd117-d4be-47bf-89d5-153c50e75187)
-$(ID:ed48635e-8e34-4bba-be10-7ae00ec3f2f8)
-$(ID:9debff66-5919-47c1-994d-4074ad776f0c)
-$(ID:345c4d00-3c34-44f5-ad61-215e27383310)
-$(ID:db087c6d-d6cb-4323-8cb7-c21775960ce7)
-$(ID:7f280337-f90c-45c2-aa8e-992ff6b179d8)
-$(ID:c7a82c94-6892-4132-b78d-a885ff15b214)
+$(ID:89090c94-2e69-4f3e-86a3-17946db7f446)
+$(ID:baee3c09-2da5-4c92-b098-60a6a68a6d69)
+$(ID:2ed82589-91c3-42a6-9e73-3a3c596a2edb)
+$(ID:3567db74-bb45-43f7-8368-fc5df2785db0)
+$(ID:e4e51ba6-9d51-493a-a5db-87b714543c25)
+$(ID:4fbf96a9-ff3c-421a-baa0-6b2d67738cc1)
+$(ID:0eae95f6-bfe3-4160-9e1b-ec88f2c162db)
 
-$(ID:17c4dd71-8c54-4a54-b2c3-fb42fa7f5704)
-$(ID:8ee25b7c-08ec-4a92-ab7b-2adad794148b)
-$(ID:fc831d21-b3cc-40ed-a71d-b2252d5daed2)
-$(ID:b117b856-3568-424f-83e0-f90acc74eeb3)
-$(ID:bc325b66-d80e-4d76-993f-921074c82b31)
-$(ID:c95db6bf-a1a2-4c16-8e5f-163d27c9688d)
-$(ID:b955966e-b8c4-4eae-96a1-04a8f0cbd018)
+$(ID:5d4af5ca-75aa-4b0f-a93e-75d15e0da5be)
+$(ID:9c7d537c-d873-4221-853b-2ee2ff5cf117)
+$(ID:85355e1e-ac14-4351-868e-f8a88b51497b)
+$(ID:c9a7b712-a7c8-455e-a3b6-ca07872d6e26)
+$(ID:faabb00c-62ee-4f9f-9b54-effaa65dd1c9)
+$(ID:03c44b36-6d7d-4f85-a105-915c391fb66a)
+$(ID:97b3bb15-664c-495d-8dc6-702325d1cd23)
 
-## $(ID:5292aae8-927e-45a3-972b-1483b474fec3)
+## $(ID:267d4938-04a3-436b-bfe7-5055dc318081)
 
-$(ID:23085a04-0e15-49db-b192-d90ad8aa413e)
-$(ID:9fe7b995-8e85-4777-9ed5-f068bb0b78e0)
-$(ID:7ffada6f-6ce2-460a-8a16-57fddb3559fa)
+$(ID:a2b6c1cf-5f5e-4fb7-9ba0-f9f714cb0946)
+$(ID:825b4ed4-2375-4b8e-a037-fdaf462b1a61)
+$(ID:a6b1b6ac-51e4-4453-96bf-575893cc3f5e)
 
-$(ID:4d52f27f-9baf-4607-9dc8-c8e220f00389)
-$(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
+$(ID:2ea1feb5-276e-4ab3-819c-2fa7acb378e1)
+$(ID:20d89a35-b241-484f-a35d-6fe3c0a43ea1)
 
-## $(ID:ef789d31-2e4e-4130-a136-05288201cae8)
+## $(ID:6f80949b-d9a1-444f-bb6c-538e93ef9115)
 
-* $(ID:4131b03d-9455-41fa-b1bc-f1a95c3c63b0)
+* $(ID:a94f248d-c0e3-4f7a-8a75-928525e198ea)
 
 </skeleton>
-    <unit id="08efa838-c36d-4285-8775-42bd75acb665">
+    <unit id="67033836-b00d-44b2-a899-29a9662a933f">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -50,7 +50,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>Show selection when braille is tethered to review</target>
       </segment>
     </unit>
-    <unit id="a9af50c8-0d14-42d9-9428-92e4e356ac5b">
+    <unit id="50cb5976-f9ab-4a20-8765-8a036277d673">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: ## </note>
@@ -60,7 +60,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>Good to know before using this addon</target>
       </segment>
     </unit>
-    <unit id="44836c68-fd2e-4528-95bd-58571cf343b5">
+    <unit id="ec09b16a-228e-420b-acf2-d5041b634ca4">
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
@@ -69,7 +69,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>There are likely very few users which means that more or less use cases are not tested. This means greater probability of issues.</target>
       </segment>
     </unit>
-    <unit id="5cd14e32-fa0a-4a93-ab75-53ac95372aa1">
+    <unit id="fba843c9-7222-4b1e-8bd7-6360ecdbe73f">
       <notes>
         <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: ## </note>
@@ -79,7 +79,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>General</target>
       </segment>
     </unit>
-    <unit id="56bbd117-d4be-47bf-89d5-153c50e75187">
+    <unit id="89090c94-2e69-4f3e-86a3-17946db7f446">
       <notes>
         <note appliesTo="source">line: 10</note>
       </notes>
@@ -88,7 +88,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>To use this addon, tether braille to review in NVDA settings Braille category.</target>
       </segment>
     </unit>
-    <unit id="ed48635e-8e34-4bba-be10-7ae00ec3f2f8">
+    <unit id="baee3c09-2da5-4c92-b098-60a6a68a6d69">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
@@ -97,7 +97,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>You likely want also that review cursor follows system caret most of time</target>
       </segment>
     </unit>
-    <unit id="9debff66-5919-47c1-994d-4074ad776f0c">
+    <unit id="2ed82589-91c3-42a6-9e73-3a3c596a2edb">
       <notes>
         <note appliesTo="source">line: 12</note>
       </notes>
@@ -106,7 +106,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>(see NVDA settings Review Cursor category). Selection is shown in edit controls</target>
       </segment>
     </unit>
-    <unit id="345c4d00-3c34-44f5-ad61-215e27383310">
+    <unit id="3567db74-bb45-43f7-8368-fc5df2785db0">
       <notes>
         <note appliesTo="source">line: 13</note>
       </notes>
@@ -115,7 +115,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>and documents with dots 7 and 8 when "Show selection" is enabled in NVDA</target>
       </segment>
     </unit>
-    <unit id="db087c6d-d6cb-4323-8cb7-c21775960ce7">
+    <unit id="e4e51ba6-9d51-493a-a5db-87b714543c25">
       <notes>
         <note appliesTo="source">line: 14</note>
       </notes>
@@ -124,7 +124,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>settings Braille category. When braille is tethered to review and review</target>
       </segment>
     </unit>
-    <unit id="7f280337-f90c-45c2-aa8e-992ff6b179d8">
+    <unit id="4fbf96a9-ff3c-421a-baa0-6b2d67738cc1">
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
@@ -133,7 +133,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>follows caret, review cursor is positioned to end of selected text when</target>
       </segment>
     </unit>
-    <unit id="c7a82c94-6892-4132-b78d-a885ff15b214">
+    <unit id="0eae95f6-bfe3-4160-9e1b-ec88f2c162db">
       <notes>
         <note appliesTo="source">line: 16</note>
       </notes>
@@ -142,7 +142,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>selection changes so you can see immediately how it changed.</target>
       </segment>
     </unit>
-    <unit id="17c4dd71-8c54-4a54-b2c3-fb42fa7f5704">
+    <unit id="5d4af5ca-75aa-4b0f-a93e-75d15e0da5be">
       <notes>
         <note appliesTo="source">line: 18</note>
       </notes>
@@ -151,7 +151,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>You can easily see what you have selected for example for copying or formatting</target>
       </segment>
     </unit>
-    <unit id="8ee25b7c-08ec-4a92-ab7b-2adad794148b">
+    <unit id="9c7d537c-d873-4221-853b-2ee2ff5cf117">
       <notes>
         <note appliesTo="source">line: 19</note>
       </notes>
@@ -160,7 +160,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>in text editor. You can move around edit control or document with braille</target>
       </segment>
     </unit>
-    <unit id="fc831d21-b3cc-40ed-a71d-b2252d5daed2">
+    <unit id="85355e1e-ac14-4351-868e-f8a88b51497b">
       <notes>
         <note appliesTo="source">line: 20</note>
       </notes>
@@ -169,7 +169,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>gestures and text review commands which move braille display. Movement does not</target>
       </segment>
     </unit>
-    <unit id="b117b856-3568-424f-83e0-f90acc74eeb3">
+    <unit id="c9a7b712-a7c8-455e-a3b6-ca07872d6e26">
       <notes>
         <note appliesTo="source">line: 21</note>
       </notes>
@@ -178,7 +178,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>affect on caret, and it is not restricted to selected text. It means that</target>
       </segment>
     </unit>
-    <unit id="bc325b66-d80e-4d76-993f-921074c82b31">
+    <unit id="faabb00c-62ee-4f9f-9b54-effaa65dd1c9">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
@@ -187,7 +187,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>you can investigate both selected and unselected part of text with braille.</target>
       </segment>
     </unit>
-    <unit id="c95db6bf-a1a2-4c16-8e5f-163d27c9688d">
+    <unit id="03c44b36-6d7d-4f85-a105-915c391fb66a">
       <notes>
         <note appliesTo="source">line: 23</note>
       </notes>
@@ -196,7 +196,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>You can use routing buttons to move review position and/or caret according to</target>
       </segment>
     </unit>
-    <unit id="b955966e-b8c4-4eae-96a1-04a8f0cbd018">
+    <unit id="97b3bb15-664c-495d-8dc6-702325d1cd23">
       <notes>
         <note appliesTo="source">line: 24</note>
       </notes>
@@ -205,7 +205,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>NVDA Braille category "Move system caret when routing review cursor" setting.</target>
       </segment>
     </unit>
-    <unit id="5292aae8-927e-45a3-972b-1483b474fec3">
+    <unit id="267d4938-04a3-436b-bfe7-5055dc318081">
       <notes>
         <note appliesTo="source">line: 26</note>
         <note appliesTo="source">prefix: ## </note>
@@ -215,7 +215,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>Notes</target>
       </segment>
     </unit>
-    <unit id="23085a04-0e15-49db-b192-d90ad8aa413e">
+    <unit id="a2b6c1cf-5f5e-4fb7-9ba0-f9f714cb0946">
       <notes>
         <note appliesTo="source">line: 28</note>
       </notes>
@@ -224,7 +224,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>If "Show selection" is disabled, review cursor is positioned to end of</target>
       </segment>
     </unit>
-    <unit id="9fe7b995-8e85-4777-9ed5-f068bb0b78e0">
+    <unit id="825b4ed4-2375-4b8e-a037-fdaf462b1a61">
       <notes>
         <note appliesTo="source">line: 29</note>
       </notes>
@@ -233,7 +233,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>selected text when braille is tethered to review, review follows caret and</target>
       </segment>
     </unit>
-    <unit id="7ffada6f-6ce2-460a-8a16-57fddb3559fa">
+    <unit id="a6b1b6ac-51e4-4453-96bf-575893cc3f5e">
       <notes>
         <note appliesTo="source">line: 30</note>
       </notes>
@@ -242,7 +242,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>selection changes.</target>
       </segment>
     </unit>
-    <unit id="4d52f27f-9baf-4607-9dc8-c8e220f00389">
+    <unit id="2ea1feb5-276e-4ab3-819c-2fa7acb378e1">
       <notes>
         <note appliesTo="source">line: 32</note>
       </notes>
@@ -251,7 +251,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>To see selection outside of edit controls, browse mode should be used</target>
       </segment>
     </unit>
-    <unit id="ab5e4989-daf9-4864-a02d-8ceffa99a8d4">
+    <unit id="20d89a35-b241-484f-a35d-6fe3c0a43ea1">
       <notes>
         <note appliesTo="source">line: 33</note>
       </notes>
@@ -260,7 +260,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>where supported.</target>
       </segment>
     </unit>
-    <unit id="ef789d31-2e4e-4130-a136-05288201cae8">
+    <unit id="6f80949b-d9a1-444f-bb6c-538e93ef9115">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: ## </note>
@@ -270,7 +270,7 @@ $(ID:ab5e4989-daf9-4864-a02d-8ceffa99a8d4)
         <target>Known issues</target>
       </segment>
     </unit>
-    <unit id="4131b03d-9455-41fa-b1bc-f1a95c3c63b0">
+    <unit id="a94f248d-c0e3-4f7a-8a75-928525e198ea">
       <notes>
         <note appliesTo="source">line: 37</note>
         <note appliesTo="source">prefix: * </note>

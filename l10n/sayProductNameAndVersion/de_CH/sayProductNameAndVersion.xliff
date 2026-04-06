@@ -2,27 +2,27 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="de-CH">
   <file id="readme.md" original="https://raw.githubusercontent.com/opensourcesys/sayProductNameAndVersion/4edc9243a71d37620eca43f72031035009acc73a/readme.md">
     <skeleton>
-$(ID:8549ee42-d8d3-49a3-ae78-d624688c90db)
+$(ID:196cb2fa-7339-4fb2-838a-22f494cf5c89)
 
-* $(ID:abf34e8e-f758-4900-a2cb-65e6e016a0e9)
-* $(ID:862253c0-35fc-4453-92a5-db73e66e8e36)
-* $(ID:44452410-f3b7-457c-87cb-dea4dbee693e)
+* $(ID:fa53a693-83b8-429b-8820-d164d77a141e)
+* $(ID:72da8ed0-5bc4-4f38-98bd-db9c5df43ad4)
+* $(ID:75260337-8df2-4eb1-85b1-1067fcde43f0)
 
-$(ID:d94f2223-02a5-4f9c-8747-489fcea69bec)
+$(ID:12757843-cf2b-4d62-aefa-86ee4171cd63)
 
-* $(ID:b9132b53-5dd4-41c0-ba9e-b38523aecb71)
-* $(ID:0cf3de32-147d-4e0e-b010-8489be2edc2a)
+* $(ID:91ca1ae8-9560-40ca-87b6-f342ee43319d)
+* $(ID:6e69d947-2187-46a8-8b56-84c6d132294d)
 
-$(ID:6dd92652-2cd8-4af2-83e1-e054b4a34da9)
+$(ID:a9883d15-67d1-4d07-8781-2131121710a6)
 
-$(ID:30ceb66f-bb54-4ee8-8c35-505c98da166e)
+$(ID:7ab41e70-6593-4062-9fb6-659f4816a01c)
 
-$(ID:3611111d-2e74-4aec-9e28-a8eddba5a803)
+$(ID:c4b8c240-b0a2-4086-9e3d-0a740bbe4e0b)
 
-$(ID:3e94453d-c03d-4006-8602-3b94de183951)
+$(ID:05c8efdd-cde0-46d8-914e-9bd8c12c1ec6)
 
 </skeleton>
-    <unit id="8549ee42-d8d3-49a3-ae78-d624688c90db">
+    <unit id="196cb2fa-7339-4fb2-838a-22f494cf5c89">
       <notes>
         <note appliesTo="source">line: 2</note>
       </notes>
@@ -31,7 +31,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>[[!meta title="Say Product Name and Version"]]</target>
       </segment>
     </unit>
-    <unit id="abf34e8e-f758-4900-a2cb-65e6e016a0e9">
+    <unit id="fa53a693-83b8-429b-8820-d164d77a141e">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -41,7 +41,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>Author: Patrick ZAJDA &lt;patrick@zajda.fr&gt;, Luke Davis &lt;XLTechie@newanswertech.com&gt;</target>
       </segment>
     </unit>
-    <unit id="862253c0-35fc-4453-92a5-db73e66e8e36">
+    <unit id="72da8ed0-5bc4-4f38-98bd-db9c5df43ad4">
       <notes>
         <note appliesTo="source">line: 5</note>
         <note appliesTo="source">prefix: * </note>
@@ -51,7 +51,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>NVDA compatibility: 2017.3 or later</target>
       </segment>
     </unit>
-    <unit id="44452410-f3b7-457c-87cb-dea4dbee693e">
+    <unit id="75260337-8df2-4eb1-85b1-1067fcde43f0">
       <notes>
         <note appliesTo="source">line: 6</note>
         <note appliesTo="source">prefix: * </note>
@@ -61,7 +61,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>Download [stable version][1]</target>
       </segment>
     </unit>
-    <unit id="d94f2223-02a5-4f9c-8747-489fcea69bec">
+    <unit id="12757843-cf2b-4d62-aefa-86ee4171cd63">
       <notes>
         <note appliesTo="source">line: 8</note>
       </notes>
@@ -70,7 +70,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>This NVDA add-on adds a shortcut to announce product name and version of the foreground application, or copies this information to the clipboard.</target>
       </segment>
     </unit>
-    <unit id="b9132b53-5dd4-41c0-ba9e-b38523aecb71">
+    <unit id="91ca1ae8-9560-40ca-87b6-f342ee43319d">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
@@ -80,7 +80,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>Shortcut: NVDA+Shift+V</target>
       </segment>
     </unit>
-    <unit id="0cf3de32-147d-4e0e-b010-8489be2edc2a">
+    <unit id="6e69d947-2187-46a8-8b56-84c6d132294d">
       <notes>
         <note appliesTo="source">line: 11</note>
         <note appliesTo="source">prefix: * </note>
@@ -90,7 +90,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>Press it twice to copy product name and version to the clipboard.</target>
       </segment>
     </unit>
-    <unit id="6dd92652-2cd8-4af2-83e1-e054b4a34da9">
+    <unit id="a9883d15-67d1-4d07-8781-2131121710a6">
       <notes>
         <note appliesTo="source">line: 13</note>
       </notes>
@@ -99,7 +99,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>This shortcut may be remapped in the Tools category of NVDA's Input Gestures.</target>
       </segment>
     </unit>
-    <unit id="30ceb66f-bb54-4ee8-8c35-505c98da166e">
+    <unit id="7ab41e70-6593-4062-9fb6-659f4816a01c">
       <notes>
         <note appliesTo="source">line: 15</note>
       </notes>
@@ -108,7 +108,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>For change history, please read the [changelog](https://github.com/opensourcesys/sayProductNameAndVersion/blob/master/changelog.md#readme).</target>
       </segment>
     </unit>
-    <unit id="3611111d-2e74-4aec-9e28-a8eddba5a803">
+    <unit id="c4b8c240-b0a2-4086-9e3d-0a740bbe4e0b">
       <notes>
         <note appliesTo="source">line: 17</note>
       </notes>
@@ -117,7 +117,7 @@ $(ID:3e94453d-c03d-4006-8602-3b94de183951)
         <target>[[!tag stable]]</target>
       </segment>
     </unit>
-    <unit id="3e94453d-c03d-4006-8602-3b94de183951">
+    <unit id="05c8efdd-cde0-46d8-914e-9bd8c12c1ec6">
       <notes>
         <note appliesTo="source">line: 19</note>
       </notes>

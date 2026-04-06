@@ -2,45 +2,45 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="hr">
   <file id="readme.md" original="https://raw.githubusercontent.com/ABuffEr/toolbarsExplorer/e3a6b991b245180fd91ca9762c51c2509c509860/readme.md">
     <skeleton>
-# $(ID:5d191d5c-3adf-46f8-8692-40b13e65b690)
+# $(ID:537f73ce-8595-4e00-9625-057260cc8954)
 
-* $(ID:64afc2b0-454c-4c2e-81f6-6d5dbe987dd3)
+* $(ID:80b90e81-caac-4e97-9588-284741311db5)
 
-$(ID:33b341cd-c1b3-4547-b5f9-1fc9a7384683)
+$(ID:a891eae2-cf80-4ba0-acac-ddf0671d917c)
 
-## $(ID:391c066d-2365-4609-9976-aa5ca9af145e)
+## $(ID:4a75cce1-8c2c-4a68-9a69-43a611521066)
 
-* $(ID:2a894b2b-1f49-45d3-bf98-36bd31a371df)
-$(ID:0c45f88a-0551-42e0-a629-aebc7b45e8c7)
+* $(ID:7b777901-20cb-4aa9-8765-866efa7af7cc)
+$(ID:7f9f40a3-ee77-442f-bd4b-4f30995d6eab)
 
-$(ID:b1abf0f9-f500-459f-aa18-ab6ab0519823)
+$(ID:fbfc9ab2-0a26-40dd-b2d3-4bb9ec829cb4)
 
-* $(ID:06860e16-7ba3-45bb-9ed6-6da26f0d7fb9)
-* $(ID:d777c66b-0367-449f-96f1-7a69f8bcd981)
-* $(ID:8b0a4709-ecc0-483a-98ec-8bdcf6fc5144)
-* $(ID:99d74752-c5e7-4cee-8380-a31894b5a2e5)
-* $(ID:47b1d8a5-0dd8-40ae-9b41-ea4cbf8426e2)
-* $(ID:c0963b44-2ecc-4902-bdfa-98cfc5ce3e48)
+* $(ID:711bb00c-10c4-4d32-a026-328d65d2b42a)
+* $(ID:bca2b5a0-d733-4942-98b1-12abc0f5a7d7)
+* $(ID:572fce57-1a99-4ed1-ac44-c38b4d5a9199)
+* $(ID:f0034893-3845-47a5-afe3-891377e88584)
+* $(ID:6a70f91f-b930-4381-9231-b031e029fd05)
+* $(ID:6da03244-36a2-4384-aea5-934000f2d31a)
 
-$(ID:f5d73304-e5e6-4307-9d99-5647721fdd14)
+$(ID:a77f3b05-eeed-450c-a9b1-32557cee2398)
 
-## $(ID:040e79c2-e67e-4da6-8082-aa68e8f88f9a)
+## $(ID:493ff81d-ac99-4219-b125-05ecddf38563)
 
-$(ID:feed30a5-d15e-4fa4-a805-b2c4c70777ae)
+$(ID:dde3721f-04f1-428c-a54d-f68dc93834af)
 
-* $(ID:f5cb6cc5-fe58-4532-9435-c97659ff34ce)
-* $(ID:88a6199d-b5ea-4fc7-ba3c-bf8087d15c22)
+* $(ID:ceeb61df-bf61-486e-a047-c50711f56151)
+* $(ID:8a08a677-a265-4e28-8881-6ce90a30fe5d)
 
-$(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
+$(ID:11d118f9-fecf-4338-b917-686fc44c5217)
 
-## $(ID:f5eafaa4-e8d3-48ac-8b0c-32ffecca53f4)
+## $(ID:56659d96-6e6b-43f3-95cf-1c710d7d3f17)
 
-* $(ID:a98e66c1-6ced-4028-b6d5-6430a4cf3392)
-* $(ID:d428f7ca-4ee3-4940-a4b7-ac378757c532)
+* $(ID:f951d632-1d0c-4c04-9161-e93671759fa6)
+* $(ID:bbc6cd78-f72f-4f71-a99c-c79c90775717)
 
 
 </skeleton>
-    <unit id="5d191d5c-3adf-46f8-8692-40b13e65b690">
+    <unit id="537f73ce-8595-4e00-9625-057260cc8954">
       <notes>
         <note appliesTo="source">line: 2</note>
         <note appliesTo="source">prefix: # </note>
@@ -50,7 +50,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>ToolbarsExplorer</target>
       </segment>
     </unit>
-    <unit id="64afc2b0-454c-4c2e-81f6-6d5dbe987dd3">
+    <unit id="80b90e81-caac-4e97-9588-284741311db5">
       <notes>
         <note appliesTo="source">line: 4</note>
         <note appliesTo="source">prefix: * </note>
@@ -60,7 +60,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Author: Alberto Buffolino</target>
       </segment>
     </unit>
-    <unit id="33b341cd-c1b3-4547-b5f9-1fc9a7384683">
+    <unit id="a891eae2-cf80-4ba0-acac-ddf0671d917c">
       <notes>
         <note appliesTo="source">line: 6</note>
       </notes>
@@ -69,7 +69,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>This add-on makes easier to use toolbars in applications, providing an exploration model derived by object navigation, with simplified gestures.</target>
       </segment>
     </unit>
-    <unit id="391c066d-2365-4609-9976-aa5ca9af145e">
+    <unit id="4a75cce1-8c2c-4a68-9a69-43a611521066">
       <notes>
         <note appliesTo="source">line: 8</note>
         <note appliesTo="source">prefix: ## </note>
@@ -79,7 +79,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Commands</target>
       </segment>
     </unit>
-    <unit id="2a894b2b-1f49-45d3-bf98-36bd31a371df">
+    <unit id="7b777901-20cb-4aa9-8765-866efa7af7cc">
       <notes>
         <note appliesTo="source">line: 10</note>
         <note appliesTo="source">prefix: * </note>
@@ -89,7 +89,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Alt+applications: starts toolbars exploration&lt;br/&gt;</target>
       </segment>
     </unit>
-    <unit id="0c45f88a-0551-42e0-a629-aebc7b45e8c7">
+    <unit id="7f9f40a3-ee77-442f-bd4b-4f30995d6eab">
       <notes>
         <note appliesTo="source">line: 11</note>
       </notes>
@@ -98,7 +98,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>(you can remap it via NVDA gesture manager, under Object navigation).</target>
       </segment>
     </unit>
-    <unit id="b1abf0f9-f500-459f-aa18-ab6ab0519823">
+    <unit id="fbfc9ab2-0a26-40dd-b2d3-4bb9ec829cb4">
       <notes>
         <note appliesTo="source">line: 13</note>
       </notes>
@@ -107,7 +107,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>During exploration, following gestures are available:</target>
       </segment>
     </unit>
-    <unit id="06860e16-7ba3-45bb-9ed6-6da26f0d7fb9">
+    <unit id="711bb00c-10c4-4d32-a026-328d65d2b42a">
       <notes>
         <note appliesTo="source">line: 15</note>
         <note appliesTo="source">prefix: * </note>
@@ -117,7 +117,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Left/right arrow: moves to previous/next toolbar;</target>
       </segment>
     </unit>
-    <unit id="d777c66b-0367-449f-96f1-7a69f8bcd981">
+    <unit id="bca2b5a0-d733-4942-98b1-12abc0f5a7d7">
       <notes>
         <note appliesTo="source">line: 16</note>
         <note appliesTo="source">prefix: * </note>
@@ -127,7 +127,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Up/down arrow: scrolls up/down items in current toolbar;</target>
       </segment>
     </unit>
-    <unit id="8b0a4709-ecc0-483a-98ec-8bdcf6fc5144">
+    <unit id="572fce57-1a99-4ed1-ac44-c38b4d5a9199">
       <notes>
         <note appliesTo="source">line: 17</note>
         <note appliesTo="source">prefix: * </note>
@@ -137,7 +137,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Enter: activates toolbar or its item;</target>
       </segment>
     </unit>
-    <unit id="99d74752-c5e7-4cee-8380-a31894b5a2e5">
+    <unit id="f0034893-3845-47a5-afe3-891377e88584">
       <notes>
         <note appliesTo="source">line: 18</note>
         <note appliesTo="source">prefix: * </note>
@@ -147,7 +147,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Space: simulates left mouse click on toolbar or its item;</target>
       </segment>
     </unit>
-    <unit id="47b1d8a5-0dd8-40ae-9b41-ea4cbf8426e2">
+    <unit id="6a70f91f-b930-4381-9231-b031e029fd05">
       <notes>
         <note appliesTo="source">line: 19</note>
         <note appliesTo="source">prefix: * </note>
@@ -157,7 +157,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Applications/shift+F10: simulates right mouse click on toolbar or its item;</target>
       </segment>
     </unit>
-    <unit id="c0963b44-2ecc-4902-bdfa-98cfc5ce3e48">
+    <unit id="6da03244-36a2-4384-aea5-934000f2d31a">
       <notes>
         <note appliesTo="source">line: 20</note>
         <note appliesTo="source">prefix: * </note>
@@ -167,7 +167,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Escape: exits from exploration.</target>
       </segment>
     </unit>
-    <unit id="f5d73304-e5e6-4307-9d99-5647721fdd14">
+    <unit id="a77f3b05-eeed-450c-a9b1-32557cee2398">
       <notes>
         <note appliesTo="source">line: 22</note>
       </notes>
@@ -176,7 +176,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Additionally, you can perform actions on toolbars or its items using any gesture provided by NVDA, as exactly as when you move to objects with standard object navigation.</target>
       </segment>
     </unit>
-    <unit id="040e79c2-e67e-4da6-8082-aa68e8f88f9a">
+    <unit id="493ff81d-ac99-4219-b125-05ecddf38563">
       <notes>
         <note appliesTo="source">line: 24</note>
         <note appliesTo="source">prefix: ## </note>
@@ -186,7 +186,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Notes</target>
       </segment>
     </unit>
-    <unit id="feed30a5-d15e-4fa4-a805-b2c4c70777ae">
+    <unit id="dde3721f-04f1-428c-a54d-f68dc93834af">
       <notes>
         <note appliesTo="source">line: 26</note>
       </notes>
@@ -195,7 +195,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Exploration is terminated  explicitly pressing escape, and implicitly:</target>
       </segment>
     </unit>
-    <unit id="f5cb6cc5-fe58-4532-9435-c97659ff34ce">
+    <unit id="ceeb61df-bf61-486e-a047-c50711f56151">
       <notes>
         <note appliesTo="source">line: 28</note>
         <note appliesTo="source">prefix: * </note>
@@ -205,7 +205,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>performing an action on toolbar or its item (with space, applications/shift+F10, enter);</target>
       </segment>
     </unit>
-    <unit id="88a6199d-b5ea-4fc7-ba3c-bf8087d15c22">
+    <unit id="8a08a677-a265-4e28-8881-6ce90a30fe5d">
       <notes>
         <note appliesTo="source">line: 29</note>
         <note appliesTo="source">prefix: * </note>
@@ -215,7 +215,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>pressing a gesture that moves out of current toolbar objects (alt, windows, tab, NVDA+F1, object navigation gestures, etc).</target>
       </segment>
     </unit>
-    <unit id="9ba58ba4-15c5-46ca-be97-095a94775bd9">
+    <unit id="11d118f9-fecf-4338-b917-686fc44c5217">
       <notes>
         <note appliesTo="source">line: 31</note>
       </notes>
@@ -224,7 +224,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Other gestures not containing alt, windows or escape (as h, 1, shift, shift+h, control+z) simply does nothing.</target>
       </segment>
     </unit>
-    <unit id="f5eafaa4-e8d3-48ac-8b0c-32ffecca53f4">
+    <unit id="56659d96-6e6b-43f3-95cf-1c710d7d3f17">
       <notes>
         <note appliesTo="source">line: 33</note>
         <note appliesTo="source">prefix: ## </note>
@@ -234,7 +234,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>Suggestions</target>
       </segment>
     </unit>
-    <unit id="a98e66c1-6ced-4028-b6d5-6430a4cf3392">
+    <unit id="f951d632-1d0c-4c04-9161-e93671759fa6">
       <notes>
         <note appliesTo="source">line: 35</note>
         <note appliesTo="source">prefix: * </note>
@@ -244,7 +244,7 @@ $(ID:9ba58ba4-15c5-46ca-be97-095a94775bd9)
         <target>The add-on may fail in Mozilla applications the first time after add-on installation/update; please restart NVDA and Mozilla applications to resolve;</target>
       </segment>
     </unit>
-    <unit id="d428f7ca-4ee3-4940-a4b7-ac378757c532">
+    <unit id="bbc6cd78-f72f-4f71-a99c-c79c90775717">
       <notes>
         <note appliesTo="source">line: 36</note>
         <note appliesTo="source">prefix: * </note>
