@@ -5,6 +5,9 @@ on:
   workflow_dispatch:
 env:
   crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
+concurrency:
+  group: l10n
+  cancel-in-progress: true
   
 jobs:
   l10n:
