@@ -73,7 +73,7 @@ jobs:
           
           # Initialize counters for uploaded files
           $potFilesUploaded = 0
-          $mdFilesUploaded = 0
+          $xliffFilesUploaded = 0
           
           foreach ($line in $addons) {
             $addonId, $repoUrl = $line -split '\|', 2
@@ -149,25 +149,33 @@ jobs:
               # Process documentation file
               Write-Host "`n  Processing documentation file..."
               if (Test-Path "readme.md") {
-                Write-Host "  Renaming readme.md to $addonId.md..."
-                Rename-Item -Path "readme.md" -NewName "$addonId.md"
-                Write-Host "  ✓ Renamed to $addonId.md"
-                
-                # Upload .md file to Crowdin
-                Write-Host "  Uploading $addonId.md to Crowdin..."
-                & ..\..\l10nUtil.exe uploadSourceFile "$addonId.md" -c addon
-                if ($LASTEXITCODE -eq 0) {
-                  Write-Host "  ✓ $addonId.md uploaded successfully"
-                  $mdFilesUploaded++
-                  # Delay to avoid Crowdin API rate limits
-                  Start-Sleep -Seconds 3
+                Write-Host "  Generating $addonId.xliff..."
+                uv run python ...\.github\workflows\markdownTranslate.py generateXliff -m readme.md -o "$addonId.xliff"
+                if ($LASTEXITCODE -ne 0) {
+                  Write-Warning "  xliff generation failed for $addonId"
                 } else {
-                  Write-Warning "  Failed to upload $addonId.md"
+                  Write-Host "  ✓ .xliff file generated"
+                  
+                  # Upload .xliff file to Crowdin
+                  $xliffFile = "$addonId.xliff"
+                  if (Test-Path $xliffFile) {
+                    Write-Host "  Uploading $xliffFile to Crowdin..."
+                    & ..\..\l10nUtil.exe uploadSourceFile $xliffFile -c addon
+                    if ($LASTEXITCODE -eq 0) {
+                      Write-Host "  ✓ $xliffFile uploaded successfully"
+                      $xliffFilesUploaded++
+                      # Delay to avoid Crowdin API rate limits
+                      Start-Sleep -Seconds 3
+                    } else {
+                      Write-Warning "  Failed to upload $xliffFile"
+                    }
+                  } else {
+                    Write-Warning "  $xliffFile not found after xliff generation"
+                  }
                 }
               } else {
                 Write-Warning "  readme.md not found in $addonId"
               }
-              
               Write-Host "`n  ✓ Finished processing $addonId"
               
             } finally {
@@ -180,7 +188,7 @@ jobs:
           Write-Host "WORKFLOW SUMMARY"
           Write-Host "=========================================="
           Write-Host "✓ Uploaded $potFilesUploaded POT files (translation templates) to Crowdin"
-          Write-Host "✓ Uploaded $mdFilesUploaded MD files (documentation) to Crowdin"
+          Write-Host "✓ Uploaded $xliffFilesUploaded XLIFF files (documentation) to Crowdin"
           Write-Host "✓ This workflow uses 'continue-on-error' behavior - it won't fail if some add-ons cannot be processed"
           Write-Host "✓ Check the logs above for any warnings about skipped or failed add-ons"
           Write-Host "==========================================`n"
@@ -207,12 +215,20 @@ jobs:
                 Move-Item -Path $poFile -Destination "$targetDir/nvda.po" -Force
               }
               
-              # Process .md file
-              $mdFile = "l10n/$addon/$lang/$addon.md"
-              if (Test-Path $mdFile) {
+              # Process .xliff file - convert to markdown
+              $xliffFile = "l10n/$addon/$lang/$addon.xliff"
+              if (Test-Path $xliffFile) {
                 $targetDir = "shared/$addon/doc/$lang"
                 New-Item -ItemType Directory -Path $targetDir -Force | Out-Null
-                Move-Item -Path $mdFile -Destination "$targetDir/readme.md" -Force
+                $mdFile = "$targetDir/readme.md"
+                
+                Write-Host "Converting $xliffFile to $mdFile..."
+                .\l10nUtil.exe xliff2md $xliffFile $mdFile
+                if ($LASTEXITCODE -eq 0) {
+                  Write-Host "✓ Successfully converted $xliffFile to markdown"
+                } else {
+                  Write-Warning "Failed to convert $xliffFile to markdown"
+                }
               }
             }
           }

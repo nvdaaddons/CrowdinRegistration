@@ -18,7 +18,29 @@ import difflib
 from dataclasses import dataclass
 import subprocess
 
-RAW_GITHUB_REPO_URL = "https://raw.githubusercontent.com/nvaccess/nvda"
+
+def getGithubRepoURL() -> str | None:
+	"""
+	Get the GitHub repository URL from git remote origin.
+	return: The raw GitHub URL for the repository, or None if it cannot be determined.
+	"""
+	result = subprocess.run(
+		["git", "remote", "get-url", "origin"],
+		capture_output=True,
+		text=True,
+		check=True,
+	)
+	remote_url = result.stdout.strip()
+	# Convert SSH or HTTPS URL to raw GitHub URL format
+	if match := re.match(r"git@github\.com:(.+?)(?:\.git)?$", remote_url):
+		repo_path = match.group(1)
+	elif match := re.match(r"https://github\.com/(.+?)(?:\.git)?$", remote_url):
+		repo_path = match.group(1)
+	else:
+		raise ValueError(f"Cannot parse GitHub URL from git remote: {remote_url}")
+	return f"https://raw.githubusercontent.com/{repo_path}"
+
+
 re_kcTitle = re.compile(r"^(<!--\s+KC:title:\s*)(.+?)(\s*-->)$")
 re_kcSettingsSection = re.compile(r"^(<!--\s+KC:settingsSection:\s*)(.+?)(\s*-->)$")
 # Comments that span a single line in their entirety
@@ -94,7 +116,8 @@ def getRawGithubURLForPath(filePath: str) -> str:
 	commitID = getLastCommitID(filePath)
 	relativePath = os.path.relpath(os.path.abspath(filePath), gitDirPath)
 	relativePath = relativePath.replace("\\", "/")
-	return f"{RAW_GITHUB_REPO_URL}/{commitID}/{relativePath}"
+	rawGithubRepoUrl = getGithubRepoURL()
+	return f"{rawGithubRepoUrl}/{commitID}/{relativePath}"
 
 
 def preprocessMarkdownLines(mdLines: Iterable[str]) -> Iterable[str]:
