@@ -1,7 +1,5 @@
 name: Export translations from Crowdin, and upload source files
 on:
-  schedule:
-    - cron: '0 1 * * 1'  # Every Monday at 1:00 AM UTC (minute hour day month weekday)
   workflow_dispatch:
 env:
   crowdinAuthToken: ${{ secrets.CROWDIN_TOKEN }}
